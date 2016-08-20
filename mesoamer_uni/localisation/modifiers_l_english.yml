@@ -1,0 +1,58 @@
+﻿l_english: 
+ #Modifiers
+ #Tribute Requirements
+ highwealth: "High Wealth Requirements"
+ normalwealth: "Normal Wealth Requirements"
+ lowwealth: "Low Wealth Requirements"
+ 
+ highwarriors: "High Warrior Requirements"
+ normalwarriors: "Normal Warrior Requirements"
+ lowwarriors: "Low Warrior Requirements"
+ 
+ highsupplies: "High Supplies Requirements"
+ normalsupplies: "Normal Supplies Requirements"
+ lowsupplies: "Low Supplies Requirements"
+ 
+ recentcollection: "Recent Tribute Collection"
+ desc_recentcollection: "Recently, we successfully extracted tribute from some or all of our vassals."
+ 
+ bincooldown: "Bin Calculation Cooldown"
+ desc_bincooldown: "Don't look at me! I don't exist!"
+ 
+ #Balancing
+ suppliedbytenoch: "Supplied by Tenochtitlan"
+ desc_suppliedbytenoch: "This province is in close proximity to the great city of Tenochtitlan and thus has a higher supply limit."
+ 
+ base_law: "Base Draft Law"
+ desc_base_law: "This modifier is irremoveable and used to help calculate how much of a province's manpower you can use.
+ 
+ e_optionalcareer: "Nobility Draft Law: Optional Career"
+ desc_e_optionalcareer: "Military service is a purely optional career for sons of the nobility." 
+ e_expectedservice: "Nobility Draft Law: Expected Service"
+ desc_e_expectedservice: "Military service is still optional for sons of the nobility, but not serving in the military at some point is frowned upon." 
+ e_oldestson: "Nobility Draft Law: Oldest Son"
+ desc_e_oldestson: "Military service is a legal requirement for the oldest son of every noble family." 
+ e_allsons: "Nobility Draft Law: All Sons"
+ desc_e_oldestson: "Military service is a legal requirement for all sons of age of every noble family."
+ 
+ a_noservice: "Artisan Draft Law: No Service"
+ desc_a_noservice: "Artisans are exempt from any military service." 
+ a_expectedservice: "Artisan Draft Law: Expected Service"
+ desc_a_expectedservice: "Military service is optional for sons of artisans, but not serving in the military at some point is frowned upon." 
+ a_oldestson: "Artisan Draft Law: Oldest Son"
+ desc_a_oldestson: "Military service is a legal requirement for the oldest son of every artisan family." 
+ a_allsons: "Artisan Draft Law: All Sons"
+ desc_a_oldestson: "Military service is a legal requirement for all sons of age of every artisan family."
+ 
+ c_optionalcareer: "Commoner Draft Law: Optional Career"
+ desc_c_optionalcareer: "Military service is a purely optional career for a sons of commoners." 
+ c_expectedservice: "Commoner Draft Law: Expected Service"
+ desc_c_expectedservice: "Military service is still optional for sons of commoners, but not serving in the military at some point is frowned upon." 
+ c_oldestson: "Commoner Draft Law: Oldest Son"
+ desc_c_oldestson: "Military service is a legal requirement for the oldest son of every commoner family." 
+ c_allsons: "Commoner Draft Law: All Sons"
+ desc_c_oldestson: "Military service is a legal requirement for all sons of age of every commoner family."
+ 
+ #Special
+ toltecsuccessor: "Toltec Successor State"
+ desc_toltecsuccessor: "We have legitimized ourselves as a successor state to the Toltec Empire."

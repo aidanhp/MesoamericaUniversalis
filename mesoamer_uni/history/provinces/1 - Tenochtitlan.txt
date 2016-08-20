@@ -1,0 +1,19 @@
+add_core = TEN
+owner = TEN
+controller = TEN
+culture = mexica
+religion = newnahuatl
+hre = no
+base_tax = 770
+base_production = 1540
+trade_goods = grain 
+base_manpower = 5390
+capital = "Tenochtitlan"
+is_city = yes
+fort_15th = yes
+
+discovered_by = semi_nomadic_tribe
+discovered_by = west_mexican
+discovered_by = tarascan
+discovered_by = central_mexican
+discovered_by = triple_alliance

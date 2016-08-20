@@ -1,0 +1,16 @@
+add_core = LOM
+owner = LOM
+controller = LOM
+culture = yucatecmayan
+religion = newmayan 
+hre = no
+base_tax = 182
+base_production = 356
+trade_goods = grain
+base_manpower = 2001
+capital = "Uxmal"
+is_city = yes
+fort_15th = yes
+
+discovered_by = northern_mayan
+discovered_by = southern_mayan

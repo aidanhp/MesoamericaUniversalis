@@ -1,0 +1,18 @@
+government = altepetl
+government_rank = 2
+mercantilism = 0.25
+technology_group = tarascan
+religion = tarascan 
+primary_culture = tarascan
+capital = 693
+fixed_capital = 693
+
+1427.1.1 = {
+	monarch = {
+		name = "No Ruler"
+		dynasty = "Placeholder"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

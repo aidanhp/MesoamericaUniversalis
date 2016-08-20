@@ -1,0 +1,19 @@
+government = altepetl 
+government_rank = 2
+mercantilism = 0.25
+technology_group = west_mexican 
+religion = newnahuatl 
+primary_culture = cuitlateco 
+fixed_capital = 502
+capital = 502
+
+
+1427.1.1 = {
+	monarch = {
+		name = "Cuinerangari"
+		dynasty = "Yztapan"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

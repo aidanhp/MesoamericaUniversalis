@@ -1,0 +1,18 @@
+government = kuchkabal 
+government_rank = 2
+mercantilism = 0.25
+technology_group = southern_mayan
+religion = newmayan 
+primary_culture = highlandsmayan
+capital = 195
+fixed_capital = 195
+
+1427.1.1 = {
+	monarch = {
+		name = "Q'uik'ab"
+		dynasty = "K'umarcaaj"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}

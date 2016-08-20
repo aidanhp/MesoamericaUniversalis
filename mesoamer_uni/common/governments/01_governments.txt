@@ -1,0 +1,278 @@
+#Do not change tags in here without changing every other reference to them.
+#If adding new forms of governemnts, make sure they are uniquely named.
+
+#Uses all 'modifiers' possible that's exported as a Modifier.
+
+# valid_for_new_country determines which governments can be converted to normally
+# allow_convert determines which governments can be force-converted to and from via CBs
+
+#ai_will_do will only check if it's valid,and won't break unions or switch to republic from monarchy, nor check to convert to something earlier in the file.
+#ai_importance determines overall 'quality' of government when government is auto-picked.
+
+####################
+#Non-Yucatan Mexico#
+####################
+
+altepetl = {
+	monarchy = yes
+
+	color = { 210 30 30 }
+	
+	allow_convert = no
+	unique_government = yes
+	valid_for_new_country = no
+	
+	max_states = 1
+	min_autonomy = 60
+
+	rank = {
+		1 = {
+			diplomatic_annexation_cost = 100
+			reduced_liberty_desire = -75
+		}
+	}
+	fixed_rank = 1
+}
+
+hegemonic_kingdom = {
+	monarchy = yes
+	color = { 210 30 30 }
+	
+	allow_convert = no
+	unique_government = yes
+	valid_for_new_country = no
+	
+	max_states = 1
+	min_autonomy = 60
+
+	#faction = currentdynasty
+	#faction = priests
+	#faction = nobles
+	#faction = merchants
+	
+	rank = {
+		2 = {
+			diplomatic_annexation_cost = 100
+			reduced_liberty_desire = -200	
+			diplomatic_upkeep = -1
+			prestige = 4
+		}
+	}
+	fixed_rank = 2
+}
+
+hegemonic_empire = {
+	monarchy = yes
+
+	color = { 210 30 30 }
+	
+	allow_convert = no
+	unique_government = yes
+	valid_for_new_country = no
+	
+	max_states = 1
+	min_autonomy = 60
+
+	rank = {
+		3 = {
+			diplomatic_annexation_cost = 100
+			reduced_liberty_desire = -300
+			diplomatic_upkeep = -2
+			prestige = 6	
+		}
+	}
+	fixed_rank = 3
+}
+
+tribal_confederation = {
+	monarchy = yes
+	nomad = yes
+
+	color = { 210 30 30 }
+	
+	unique_government = yes
+
+	valid_for_new_country = no
+	allow_convert = no
+	
+	max_states = 1
+	min_autonomy = 60
+
+	rank = {
+		1 = {
+			infantry_cost = -0.75
+			global_manpower_modifier = 0.33
+			infantry_power = 0.20
+			hostile_attrition = 6
+			global_autonomy = 0.20
+			diplomatic_upkeep = -1
+		}
+	}
+	fixed_rank = 1
+}
+
+################
+#Yucatan Mexico#
+################
+mayapan = {
+	monarchy = yes
+
+	color = { 210 30 30 }
+	
+	unique_government = yes
+
+	valid_for_new_country = no
+	allow_convert = no
+	
+	max_states = 1
+	min_autonomy = 25
+
+	allow_vassal_war = yes
+	allow_vassal_alliance = yes
+
+	rank = {
+		3 = {
+			diplomatic_annexation_cost = 100
+			reduced_liberty_desire = -300
+			diplomatic_upkeep = 12
+		}
+	}
+	fixed_rank = 3
+}
+
+kuchkabal = {
+	monarchy = yes
+
+	color = { 210 30 30 }
+	
+	unique_government = yes
+
+	valid_for_new_country = no
+	allow_convert = no
+	
+	max_states = 1
+	min_autonomy = 40
+
+	rank = {
+		2 = {
+			global_autonomy = -0.20
+		}
+	}
+	fixed_rank = 2
+}
+
+#############################
+#UNLOCKED BY DIRECT CONQUEST#
+#############################
+
+centralized_altepetl = {
+	monarchy = yes
+
+	color = { 210 30 30 }
+	
+	allow_convert = no
+	unique_government = yes
+	valid_for_new_country = no
+	
+	max_states = 1
+	min_autonomy = 50
+
+	rank = {
+		1 = {
+			global_autonomy = -0.010
+			core_creation = 0.66
+			years_of_nationalism = 20
+			
+		}
+	}
+	fixed_rank = 1
+}
+
+centralized_kingdom = {
+	monarchy = yes
+	color = { 210 30 30 }
+	
+	allow_convert = no
+	unique_government = yes
+	valid_for_new_country = no
+	
+	max_states = 2
+	min_autonomy = 45
+
+	rank = {
+		2 = {
+			global_autonomy = -0.025
+			core_creation = 0.75
+			years_of_nationalism = 20
+		}
+	}
+	fixed_rank = 2
+}
+
+centralized_empire = {
+	monarchy = yes
+
+	color = { 210 30 30 }
+	
+	allow_convert = no
+	unique_government = yes
+	valid_for_new_country = no
+	
+	max_states = 3
+	min_autonomy = 40
+
+	rank = {
+		3 = {
+			global_autonomy = -0.05
+			core_creation = 0.75
+			years_of_nationalism = 20	
+		}
+	}
+	fixed_rank = 3
+}
+
+####################
+#Unique Governments#
+####################
+#Unique for Tlaxcaltecs
+tlaxcallan_confederate = {
+	monarchy = yes
+
+	color = { 210 30 30 }
+	
+	allow_convert = no
+	unique_government = yes
+	valid_for_new_country = no
+	
+	max_states = 1
+	
+	rank = {
+		2 = {
+			diplomatic_upkeep = -1
+			global_manpower_modifier = 0.50
+			legitimacy = 5 
+		}
+	}
+	fixed_rank = 2
+}
+#Unique for Tzintzuntzan
+tarascan_tribute_kingdom = {
+	monarchy = yes
+
+	color = { 210 30 30 }
+	
+	allow_convert = no
+	unique_government = yes
+	valid_for_new_country = no
+
+	min_autonomy = 60
+	max_states = 1
+	
+	rank = {
+		2 = {
+			#global_tax_modifier = 0.025
+			global_autonomy = -0.05
+		}
+	}
+	fixed_rank = 2
+}

@@ -1,0 +1,17 @@
+add_core = EKA
+add_core = XEL
+owner = EKA
+controller = EKA
+culture = yucatecmayan
+religion = newmayan 
+hre = no
+base_tax = 90
+base_production = 180
+trade_goods = ceramics 
+base_manpower = 630
+capital = "Xel-Ha"
+is_city = yes
+fort_15th = yes
+
+discovered_by = northern_mayan
+discovered_by = southern_mayan

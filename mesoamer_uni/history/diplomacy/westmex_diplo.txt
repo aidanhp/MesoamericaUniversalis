@@ -1,0 +1,49 @@
+#Tarascan Vassals
+vassal = {
+	first = IUA
+	second = IHU
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = IUA
+	second = PAT
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+#Colliman Kingdom
+vassal = {
+	first = CIM
+	second = TCO
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+vassal = {
+	first = CIM
+	second = TAM
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+#Xalisco Kingdom
+vassal = {
+	first = XLS
+	second = TZA
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+#Tollanan Kingdom
+vassal = {
+	first = TNA
+	second = COC
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+#Guamar Confederacy
+alliance = {
+	first = XIC
+	second = PEH
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+

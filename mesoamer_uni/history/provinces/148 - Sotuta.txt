@@ -1,0 +1,17 @@
+add_core = SOT
+add_core = TIB
+owner = TIB
+controller = TIB
+culture = yucatecmayan
+religion = newmayan 
+hre = no
+base_tax = 90
+base_production = 180
+trade_goods = choclate 
+base_manpower = 630
+capital = "Sotuta"
+is_city = yes
+fort_15th = yes
+
+discovered_by = northern_mayan
+discovered_by = southern_mayan

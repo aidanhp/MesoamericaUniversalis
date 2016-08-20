@@ -1,0 +1,19 @@
+add_core = TEO
+owner = TEO
+controller = TEO
+culture = newtotonac
+religion = newnahuatl 
+hre = no
+base_tax = 223
+base_production = 448
+trade_goods = preciousstones 
+base_manpower = 1540
+capital = "Teotitlan"
+is_city = yes
+fort_15th = yes
+
+discovered_by = semi_nomadic_tribe
+discovered_by = west_mexican
+discovered_by = tarascan
+discovered_by = central_mexican
+discovered_by = triple_alliance

@@ -1,0 +1,18 @@
+government = kuchkabal 
+government_rank = 2
+mercantilism = 0.25
+technology_group = northern_mayan
+religion = newmayan 
+primary_culture = yucatecmayan
+capital = 137
+fixed_capital = 137
+
+1427.1.1 = {
+	monarch = {
+		name = "Vahxaqui Caam"
+		dynasty = "Chikinchel"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

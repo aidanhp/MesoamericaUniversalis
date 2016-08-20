@@ -1,0 +1,19 @@
+controller = BUB
+add_core = BUB
+owner = BUB
+culture = matlatxinca 
+religion = newnahuatl
+hre = no
+base_tax = 110
+base_production = 220
+trade_goods = bronze 
+base_manpower = 770
+capital = "Yoallan"
+is_city = yes
+fort_15th = yes
+
+discovered_by = semi_nomadic_tribe
+discovered_by = west_mexican
+discovered_by = tarascan
+discovered_by = central_mexican
+discovered_by = triple_alliance

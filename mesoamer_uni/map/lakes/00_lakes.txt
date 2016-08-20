@@ -1,0 +1,28 @@
+# Good day guy trying to learn from this! Turns out if you want to make a lake that's
+# far above sea level you need to create one of these. The numbers are x and y coordinates of the vertices a mesh
+# and that mesh looks exactly like a lake. Only way to get it right is to guess and check 
+# Good luck
+
+#Covers all Lakes in Mexican Basin
+lake = {
+	triangle_strip = { 1527 936 1525 1010 1700 942 1600 1088 }
+	height = 36
+}
+
+#Lake Patzcuaro
+lake = {
+	triangle_strip = { 1142 1054 1106 1004 1173 1008 1154 1059}
+	height = 35
+}
+
+#Lake Cuitzeo
+lake = {
+	triangle_strip = { 1170 1075 1246 1130 1291 1073 1282 1105}
+	height = 35
+}
+
+#Lake Chapala
+lake = {
+	triangle_strip = { 876 1121 747 1160 993 1131 876 1224 }
+	height = 33
+}

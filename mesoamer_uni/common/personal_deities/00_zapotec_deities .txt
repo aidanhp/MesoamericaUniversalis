@@ -1,0 +1,38 @@
+#Zapotec Personal Deities
+
+cozobi = {
+	production_efficiency = 0.33
+	manpower_recovery_speed = 0.33
+	
+	allow = { religion = zapotec }
+	sprite = 11
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+copijcha = {
+	ae_impact = -0.15
+	army_tradition = 2
+
+	allow = { religion = zapotec }
+	sprite = 11
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+kedo = {
+	adm_tech_cost_modifier = -0.10
+	legitimacy = 5
+	global_unrest = -2
+
+	allow = { religion = zapotec }
+	sprite = 11
+
+	ai_will_do = {
+		factor = 1
+	}
+}

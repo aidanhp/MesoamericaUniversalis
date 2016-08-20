@@ -1,0 +1,19 @@
+add_core = XCT
+owner = XCT
+controller = XCT
+culture = tepanec
+religion = newnahuatl 
+hre = no
+base_tax = 140
+base_production = 280
+trade_goods = salt 
+base_manpower = 980
+capital = "Xocotitlan"
+is_city = yes
+fort_15th = yes
+
+discovered_by = semi_nomadic_tribe
+discovered_by = west_mexican
+discovered_by = tarascan
+discovered_by = central_mexican
+discovered_by = triple_alliance

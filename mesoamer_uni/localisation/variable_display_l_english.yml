@@ -1,0 +1,21 @@
+﻿l_english:
+ #DECISIONS
+ display_vassal_supply_title: "Check Storehouse" 
+ display_vassal_supply_desc: "Mouse over the take decision box to see the storehouse minister's tallies."
+ 
+ #VARIABLES
+ staplefoodbins: "Staple Food Bins" 
+ luxuryfoodbins: "Luxury Food Bins"
+ cocoabins: "Cocoa Bean Bins"
+ textilebins: "Rich Textiles Bins"
+ obsidianbins: "Obsidian Stone Bins"
+ preciousbins: "Precious Stone Bins"
+ quetzalbins: "Quetzal Plume Bins"
+ saltbins: "Salt Bins"
+ copperbins: "Copper Axe Bins"
+ goldbins: "Gold Nugget Bins"
+ limebins: "Lime Bins"
+ lumberstacks: "Lumber Stacks" 
+ 
+ #VARIABLE DISPLAYS
+ vassalsupply_display: "Staple Food Bins: §G[Root.staplefoodbins.GetValue]§! \nLuxury Food Bins: §G[Root.luxuryfoodbins.GetValue]§!\nCocoa Bean Bins: §G[Root.cocoabins.GetValue]§! \nRich Textile Bins: §G[Root.textilebins.GetValue]§! \nObsidian Stone Bins: §G[Root.obsidianbins.GetValue]§! \nPrecious Stones Bins: §G[Root.preciousbins.GetValue]§! \nQuetzal Plume Bins: §G[Root.quetzalbins.GetValue]§! \nSalt Bins: §G[Root.saltbins.GetValue]§! \nCopper Axe Bins: §G[Root.copperbins.GetValue]§! \nGold Nugget Bins: §G[Root.goldbins.GetValue]§! \nLime Bins: §G[Root.limebins.GetValue]§! \nLumber Stacks: §G[Root.lumberstacks.GetValue]§!"

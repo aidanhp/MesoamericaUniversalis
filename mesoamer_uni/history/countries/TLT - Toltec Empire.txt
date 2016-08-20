@@ -1,0 +1,5 @@
+government = hegemonic_kingdom
+technology_group = triple_alliance
+religion = newnahuatl
+primary_culture = mexica
+capital = 1	

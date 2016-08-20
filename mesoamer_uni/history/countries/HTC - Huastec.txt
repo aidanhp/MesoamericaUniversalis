@@ -1,0 +1,18 @@
+government = tribal_confederation 
+government_rank = 2
+mercantilism = 0.25
+technology_group = semi_nomadic_tribe 
+religion = newnahuatl 
+primary_culture = huastec
+capital = 129
+fixed_capital = 129
+
+1427.1.1 = {
+	monarch = {
+		name = "Ahcambal"
+		dynasty = "Huastec"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

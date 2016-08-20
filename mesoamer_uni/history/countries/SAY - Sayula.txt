@@ -1,0 +1,18 @@
+government = altepetl 
+government_rank = 2
+mercantilism = 0.25
+technology_group = west_mexican 
+religion = newnahuatl 
+primary_culture = tepecano
+capital = 96
+fixed_capital = 96
+
+1427.1.1 = {
+	monarch = {
+		name = "Ocuil"
+		dynasty = "Sayula"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

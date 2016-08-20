@@ -1,0 +1,18 @@
+government = altepetl 
+government_rank = 2
+mercantilism = 0.25
+technology_group = central_mexican 
+religion = newnahuatl 
+primary_culture = tepanec
+capital = 6
+fixed_capital = 6
+
+1427.1.1 = {
+	monarch = {
+		name = "Tlacaelel"
+		dynasty = "Cuauhtitlan"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

@@ -1,0 +1,19 @@
+controller = EPE
+add_core = EPE
+owner = EPE
+culture = huastec 
+religion = newnahuatl
+hre = no
+base_tax = 110
+base_production = 220
+trade_goods = textiles 
+base_manpower = 770
+capital = "Xonoctla"
+is_city = yes
+fort_15th = yes
+
+discovered_by = semi_nomadic_tribe
+discovered_by = west_mexican
+discovered_by = tarascan
+discovered_by = central_mexican
+discovered_by = triple_alliance

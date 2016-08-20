@@ -1,0 +1,88 @@
+namespace = populations2
+
+country_event = {
+	id = populations2.01
+
+	title = "poptwo1.t"
+	desc = "poptwo1.d"
+	picture = ECONOMY_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = "poptwo1.a"
+		
+		hidden_effect = {
+		every_province = {
+			if = {
+				limit = {
+					controller = {
+						check_variable = { which = staplefoodbins value = 1}
+						NOT = { check_variable = { which = staplefoodbins value = 5 } }
+					}
+				}
+				add_base_tax = 1
+				add_base_production = 2
+				add_base_manpower = 4
+			
+			}
+
+			if = {
+				limit = {
+					controller = {
+						check_variable = { which = staplefoodbins value = 5}
+						NOT = { check_variable = { which = staplefoodbins value = 10 } }
+					}
+				}
+				add_base_tax = 1
+				add_base_production = 2
+				add_base_manpower = 8
+			
+			}
+
+			if = {
+				limit = {
+					controller = {
+						check_variable = { which = staplefoodbins value = 10}
+						NOT = { check_variable = { which = staplefoodbins value = 15 } }
+					}
+				}
+				add_base_tax = 2
+				add_base_production = 3
+				add_base_manpower = 11
+			
+			}
+			
+			if = {
+				limit = {
+					controller = {
+						check_variable = { which = staplefoodbins value = 15}
+						NOT = { check_variable = { which = staplefoodbins value = 20 } }
+					}
+				}
+				add_base_tax = 2
+				add_base_production = 4
+				add_base_manpower = 15
+			
+			}
+			if = {
+				limit = {
+					controller = {
+						check_variable = { which = staplefoodbins value = 20}
+						NOT = { check_variable = { which = staplefoodbins value = 25 } }
+					}
+				}
+				add_base_tax = 3
+				add_base_production = 6
+				add_base_manpower = 19
+				
+			}
+
+			
+		}
+		every_country = {
+			subtract_variable = { which = staplefoodbins which = staplefoodbins } 
+		}
+		}
+	}
+}

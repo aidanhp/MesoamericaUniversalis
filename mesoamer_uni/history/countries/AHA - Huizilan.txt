@@ -1,0 +1,19 @@
+government = altepetl 
+government_rank = 2
+mercantilism = 0.25
+technology_group = central_mexican 
+religion = newnahuatl 
+primary_culture = chalca
+fixed_capital = 426
+capital = 426
+
+
+1427.1.1 = {
+	monarch = {
+		name = "Tizoc"
+		dynasty = "Huizilan"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

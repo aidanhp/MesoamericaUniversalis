@@ -1,0 +1,16 @@
+add_core = KAQ
+owner = KAQ
+controller = KAQ
+
+culture = highlandsmayan
+religion = newmayan 
+capital = "Iximche"
+trade_goods = grain
+hre = no
+base_tax = 155
+base_production = 303
+base_manpower = 1057
+is_city = yes
+
+discovered_by = northern_mayan
+discovered_by = southern_mayan

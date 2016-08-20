@@ -1,0 +1,19 @@
+add_core = IHU
+owner = IHU
+controller = IHU
+culture = tarascan
+religion = tarascan 
+hre = no
+base_tax = 322
+base_production = 645
+trade_goods = bronze 
+base_manpower = 2251
+capital = "Ihuatzlo"
+is_city = yes
+fort_15th = yes
+
+discovered_by = semi_nomadic_tribe
+discovered_by = west_mexican
+discovered_by = tarascan
+discovered_by = central_mexican
+discovered_by = triple_alliance

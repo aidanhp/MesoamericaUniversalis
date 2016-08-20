@@ -1,0 +1,19 @@
+add_core = MET
+owner = MET
+controller = MET
+culture = otomi
+religion = newnahuatl 
+hre = no
+base_tax = 189
+base_production = 364
+trade_goods = textiles 
+base_manpower = 1265
+capital = "Metztitlan"
+is_city = yes
+fort_15th = yes
+
+discovered_by = semi_nomadic_tribe
+discovered_by = west_mexican
+discovered_by = tarascan
+discovered_by = central_mexican
+discovered_by = triple_alliance

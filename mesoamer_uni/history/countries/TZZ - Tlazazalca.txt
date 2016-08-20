@@ -1,0 +1,18 @@
+government = altepetl 
+government_rank = 2
+mercantilism = 0.25
+technology_group = west_mexican 
+religion = tarascan
+primary_culture = teco
+capital = 375
+fixed_capital = 375
+
+1427.1.1 = {
+	monarch = {
+		name = "Yel"
+		dynasty = "Tlaza"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

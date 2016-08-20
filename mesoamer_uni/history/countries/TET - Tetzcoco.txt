@@ -1,0 +1,23 @@
+government = altepetl 
+government_rank = 2
+mercantilism = 0.25
+technology_group = triple_alliance
+religion = newnahuatl 
+primary_culture = acolhua
+capital = 26	
+fixed_capital = 26
+historical_rival = TLX
+historical_rival = IUA
+historical_rival = AZC
+historical_friend = TEN
+historical_friend = TCP
+
+1427.1.1 = {
+	monarch = {
+		name = "Nezahualcoyotl"
+		dynasty = "Tetzcoca"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}

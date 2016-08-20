@@ -1,0 +1,112 @@
+#League of Mayapan
+union = {
+	first = LOM
+	second = EKA
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = EKA 
+	second = CCT
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = EKA 
+	second = UAY
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = EKA 
+	second = OCH
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = EKA 
+	second = CUP
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = EKA 
+	second = TAZ
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = EKA 
+	second = CAL
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = EKA 
+	second = CHK
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = LOM
+	second = TIB
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = LOM
+	second = AKC
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = LOM
+	second = HOC
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = LOM
+	second = CEP
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = LOM
+	second = CAK
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = LOM
+	second = AHC
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = LOM
+	second = CAP
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = LOM
+	second = CNP
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}

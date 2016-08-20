@@ -1,0 +1,19 @@
+government = altepetl 
+government_rank = 2
+mercantilism = 0.25
+technology_group = west_mexican 
+religion = matlatxinca 
+primary_culture = tarascan
+fixed_capital = 494
+capital = 494
+
+
+1427.1.1 = {
+	monarch = {
+		name = "Rusiguunda"	
+		dynasty = "Ohuapan"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

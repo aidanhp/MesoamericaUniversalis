@@ -1,0 +1,291 @@
+# If you add advisortypes, and use those tags, do not change them without changing everywhere they are used.
+#
+# Additional arguments: allow_only_male/allow_only_female
+#
+# Uses all 'modifiers' possible that are exported as a Modifier.
+
+
+######################################################
+# Administrative Advisors
+######################################################
+
+######################################################
+philosopher = {
+	monarch_power = ADM
+	
+	# Bonus
+	prestige = 1
+	
+	chance = {
+		factor = 1
+	}
+}
+
+######################################################
+natural_scientist = {
+	monarch_power = ADM
+	
+	# Bonus
+	production_efficiency = 0.10
+	
+	chance = {
+		factor = 1
+	}	
+}
+
+######################################################
+artist = {
+	monarch_power = ADM
+	
+	# Bonus
+	stability_cost_modifier = -0.10
+	
+	chance = {
+		factor = 1
+	}	
+}
+
+######################################################
+treasurer = {
+	monarch_power = ADM
+	
+	# Bonus
+	global_tax_modifier = 0.1
+	
+	chance = {
+		factor = 1
+	}	
+}
+
+######################################################
+theologian = {
+	monarch_power = ADM
+	
+	# Bonus
+	global_unrest = -2
+
+	chance = {
+		factor = 1
+
+	}
+}
+
+######################################################
+master_of_mint = {
+	monarch_power = ADM
+	
+	# Bonus
+	inflation_reduction = 0.10
+	
+	chance = {
+		factor = 1
+	}	
+}
+
+######################################################
+inquisitor = {
+	monarch_power = ADM
+	
+	# Bonus
+	global_missionary_strength = 0.02
+	
+	chance = {
+		factor = 1
+	}
+}
+
+
+######################################################
+# Diplomatic Advisors
+######################################################
+
+######################################################
+statesman = {
+	monarch_power = DIP
+	
+	# Bonus
+	diplomatic_reputation = 1
+	
+	chance = {
+		factor = 1
+	}	
+}
+
+######################################################
+naval_reformer = {
+	monarch_power = DIP
+	
+	# Bonus
+	
+	naval_morale = 0.1 
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			has_port = no
+		}
+	}
+}
+
+######################################################
+trader = {
+	monarch_power = DIP
+	
+	# Bonus
+	trade_efficiency = 0.10
+	
+	chance = {
+		factor = 1
+	}
+}
+
+######################################################
+spymaster = {
+	monarch_power = DIP
+	
+	# Bonus
+	spy_offence = 0.25
+	
+	chance = {
+		factor = 1
+	}
+}
+
+######################################################
+colonial_governor = {
+	monarch_power = DIP
+	
+	# Bonus
+	global_tariffs = 0.10
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			owner = { NOT = { num_of_colonists = 1 } }
+		}
+		modifier = {
+			factor = 0
+			owner = { is_colonial_nation = yes }
+		}
+	}
+}
+
+######################################################
+diplomat = {
+	monarch_power = DIP
+	
+	# Bonus
+	relations_decay_of_me = 0.2
+	
+	chance = {
+		factor = 1
+	}
+}
+
+######################################################
+navigator = {
+	monarch_power = DIP
+	
+	# Bonus
+	range = 0.20
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			owner = { NOT = { num_of_colonists = 1 } }
+		}
+	}
+}
+
+
+######################################################
+# Military Advisors
+######################################################
+
+######################################################
+army_reformer = {
+	monarch_power = MIL
+	
+	# Bonus
+	land_morale = 0.10
+	
+	chance = {
+		factor = 1
+	}	
+}
+
+######################################################
+army_organiser = {
+	monarch_power = MIL
+	
+	# Bonus
+	land_forcelimit_modifier = 0.10
+	
+	chance = {
+		factor = 1
+	}
+}
+
+######################################################
+commandant = {
+	monarch_power = MIL
+	
+	# Bonus
+	discipline = 0.05
+	
+	chance = {
+		factor = 1
+	}
+}
+
+######################################################
+quartermaster = {
+	monarch_power = MIL
+	
+	# Bonus
+	reinforce_speed = 0.33
+
+	chance = {
+		factor = 1
+	}
+}
+
+######################################################
+recruitmaster = {
+	monarch_power = MIL
+	
+	# Bonus
+	global_manpower_modifier = 0.10
+	
+	chance = {
+		factor = 1
+	}
+}
+
+######################################################
+fortification_expert = {
+	monarch_power = MIL
+	
+	# Bonus
+	defensiveness = 0.2
+	
+	chance = {
+		factor = 1
+		
+	}	
+}
+
+######################################################
+grand_captain = {
+	monarch_power = MIL
+	
+	# Bonus
+	land_maintenance_modifier = -0.10
+		
+	chance = {
+		factor = 1
+	}
+}

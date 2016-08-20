@@ -1,0 +1,18 @@
+government = altepetl 
+government_rank = 2
+mercantilism = 0.25
+technology_group = west_mexican 
+religion = newnahuatl 
+primary_culture = cuyutec
+capital = 117
+fixed_capital = 117
+
+1427.1.1 = {
+	monarch = {
+		name = "Huitzilihuitl"
+		dynasty = "Melahuacan"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

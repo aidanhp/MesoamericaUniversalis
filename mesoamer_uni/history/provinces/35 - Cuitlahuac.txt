@@ -1,0 +1,19 @@
+add_core = CUI
+owner = CUI
+controller = CUI
+culture = xochimila
+religion = newnahuatl 
+hre = no
+base_tax = 125
+base_production = 250
+trade_goods = grain
+base_manpower = 875
+capital = "Cuitlahuac"
+is_city = yes
+fort_15th = yes
+
+discovered_by = semi_nomadic_tribe
+discovered_by = west_mexican
+discovered_by = tarascan
+discovered_by = central_mexican
+discovered_by = triple_alliance

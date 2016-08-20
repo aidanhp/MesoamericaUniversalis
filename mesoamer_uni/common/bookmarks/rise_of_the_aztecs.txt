@@ -1,0 +1,21 @@
+bookmark =
+{
+	name = "RISE_OF_THE_OTTOMANS"
+	desc = "RISE_OF_THE_OTTOMANS_DESC"
+	date = 1428.1.30
+	
+	center = 1
+	default = yes
+
+	
+
+	country = TEN
+	country = TET
+	country = TCP
+	country = AZC	
+	country = CHL
+	country = IUA
+	country = LOM
+	country = KKG
+	
+}

@@ -1,0 +1,17 @@
+country_decisions = {
+	stronkify = {
+		major = yes
+		potential = {
+			tag = TEN
+		}
+		allow = {
+
+		}
+		effect = {
+			add_country_modifier = {
+				name = "stronk"
+				duration = -1
+			}
+		}
+	}
+}

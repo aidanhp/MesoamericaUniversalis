@@ -1,0 +1,48 @@
+﻿l_english: 
+ #Tribute Events
+ 
+ #Set Tribute Requirements Interface 
+ tributecoll1.t: "Set Tribute Requirements"
+ tributecoll1.d: "Select an area to manage." 
+ tributecoll1.a: "Wealth"
+ tributecoll1.b: "Warriors"
+ tributecoll1.c: "Supplies"
+ tributecoll1.dd: "Done"
+ 
+ tributecoll2.t: "Set Wealth Requirements"
+ tributecoll2.d: "When a city pays us tribute in ducats, how much should they pay? \n *Selecting the high option will increase the base likelihood for a vassal to refuse to pay, the low option will do the opposite.*" 
+ tributecoll2.a: "Require 20 ducats from each city each year."
+ tributecoll2.b: "Require 10 ducats from each city each year."
+ tributecoll2.c: "Require 5 ducats from each city each year."
+ tributecoll2.dd: "Manage a different area."
+ 
+ tributecoll3.t: "Set Warrior Requirements"
+ tributecoll3.d: "When a city pays us tribute in warriors, how much should they pay? \n *Selecting the high option will increase the base likelihood for a vassal to refuse to pay, the low option will do the opposite.*" 
+ tributecoll3.a: "Require 10% of a city's fighting men from each city each year."
+ tributecoll3.b: "Require 5% of a city's fighting men from each city each year."
+ tributecoll3.c: "Require 2.5% of a city's fighting men from each city each year."
+ tributecoll3.dd: "Manage a different area."
+ 
+ tributecoll4.t: "Set Supplies Requirements"
+ tributecoll4.d: "When a city pays us tribute in supplies, how much should they pay? \n *Selecting the high option will increase the base likelihood for a vassal to refuse to pay, the low option will do the opposite.*" 
+ tributecoll4.a: "Require 6 large bins of fine goods."
+ tributecoll4.b: "Require 4 large bins of fine goods."
+ tributecoll4.c: "Require 2 large bins of fine goods."
+ tributecoll4.dd: "Manage a different area."
+ 
+ tributecoll5.t: "Time for Tribute"
+ tributecoll5.d: "The time of the year has come for our vassals to pay us the tribute that we have put forth in our requirements. Let us hope they stay loyal, and let us exact quick revenge if they do not." 
+ tributecoll5.a: "Send out the collectors!"
+ 
+ tributecoll6.t: "Yearly Tribute Payment"
+ tributecoll6.d: "Our overlord $FROMCOUNTRY$ is requesting that we pay the required yearly tribute. Staying loyal will win us favor with them, and refusing to pay will break our vassalage but put us at great risk of retribution."
+ tributecoll6.a: "Pay the collector."
+ tributecoll6.b: "Refuse to pay."
+
+ tributecoll7.t: "$FROMCOUNTRY$ Pays Tribute"
+ tributecoll7.d: "$FROMCOUNTRY$ has agreed to pay their yearly tribute."
+ tributecoll7.a: "They have a wise ruler."
+ 
+ tributecoll8.t: "$FROMCOUNTRY$ Refuses to Pay Tribute"
+ tributecoll8.d: "$FROMCOUNTRY$ has refused to pay tribute to us! They have broken away from our control and killed our tribute collector."
+ tributecoll8.a: "This insolence will not go unpunished!"

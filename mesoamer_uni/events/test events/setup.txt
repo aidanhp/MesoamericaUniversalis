@@ -1,0 +1,23 @@
+namespace = setupgame 
+
+#Calculates Manpower
+country_event = {
+	id = setupgame.01
+	
+	title = "setupgame1.t"
+	desc = "setupgame1.d"
+	picture = ECONOMY_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_country_modifier = manpowercalcwait }
+	}
+
+	option = {
+		name = "setupgame1.a"
+		add_manpower = -1000
+		add_manpower = 0.95
+	}
+	
+}

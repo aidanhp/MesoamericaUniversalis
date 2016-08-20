@@ -1,0 +1,71 @@
+# A province can only belong to one region!
+
+# random_new_world_region is used for RNW. Must be first in this list.
+random_new_world_region = {
+}
+
+########################################
+# EUROPE                               #
+########################################
+
+mex1_region = {
+	areas = {
+		mex1_area
+		mex2_area
+	}
+}
+
+mex2_region = {
+	areas = {
+		mex3_area
+		mex4_area
+		mex5_area
+		mex10_area
+	}
+}
+
+mex3_region = {
+	areas = {
+		mex13_area
+		mex14_area
+	}
+}
+
+mex4_region = {
+	areas = {
+		mex6_area
+		mex7_area
+		mex8_area
+		mex9_area
+	}
+}
+
+mex5_region = {
+	areas = {
+		mex11_area
+		mex12_area
+	}
+}
+
+mex6_region = {
+	areas = {
+		mex15_area
+		mex16_area
+		mex17_area
+		mex18_area
+		mex19_area
+	}
+}
+
+#atlantica_region = {
+#	areas = {
+#		atlantica_area
+#	}
+#}
+
+
+#pacifica_region = {
+#	areas = {
+#		pacifica_area
+#	}
+#}

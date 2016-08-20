@@ -1,0 +1,11 @@
+﻿l_english: 
+ #Most Events - I'm too lazy to make a seperate file for every single category of event, so most will now go in here.
+ 
+ #Elective Succession Events
+ esuccession.01.t: "Election of a New $MONARCHTITLE$"
+ esuccession.01.d: "With the death of our previous ruler, the high ranking warriors, nobles, and members of the royal family have come together to elect a new $MONARCHTITLE$ from the previous rulers’s brothers and near relatives."
+ esuccession.01.a: "Choose the most capable warrior."
+ esuccession.01.b: "Choose the best diplomat and orator."
+ esuccession.01.c: "Choose the most careful and patient one."
+ esuccession.01.dd: "Choose the one most popular with the people."
+ esuccession.01.e: "Support the previous ruler's heir apparent."

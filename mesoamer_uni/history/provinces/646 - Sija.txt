@@ -1,0 +1,16 @@
+add_core = KKG
+owner = KKG
+controller = KKG
+
+culture = highlandsmayan
+religion = newmayan 
+capital = "Sija"
+trade_goods = grain
+hre = no
+base_tax = 90
+base_production = 180
+base_manpower = 630
+is_city = yes
+
+discovered_by = northern_mayan
+discovered_by = southern_mayan

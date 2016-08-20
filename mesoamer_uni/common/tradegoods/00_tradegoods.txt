@@ -1,0 +1,271 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new resources, make sure they are uniquely named.
+# Please add price definitions to prices.txt as well.
+
+#Base resources
+grain = {
+	color = { 0.96 0.93 0.58 }
+	modifier = {
+		land_forcelimit_modifier = 0.10
+	}
+	chance = {
+		factor = 35
+		modifier = {
+			factor = 0
+			OR = {
+				has_terrain = desert
+				has_terrain = glacier
+				has_terrain = coastline
+				has_climate = arctic
+			}
+		}
+		modifier = {
+			factor = 0.15
+			OR = {
+				has_terrain = mountain
+				has_terrain = coastal_desert
+				has_terrain = forest
+				has_terrain = woods
+				has_terrain = hills
+				has_terrain = jungle
+			}
+		}
+		modifier = {
+			factor = 0.25
+			OR = {
+				has_terrain = highlands
+				has_terrain = marsh
+			}
+		}
+		modifier = {
+			factor = 0.25
+			OR = {
+				has_climate = arid
+				has_climate = tropical
+				
+			}
+		}
+		modifier = {
+			factor = 0.6
+			OR = {
+				has_terrain = drylands
+				has_terrain = savannah
+				has_terrain = steppe
+			}
+		}
+		modifier = {
+			factor = 0.35
+			has_winter = severe_winter
+		}
+		modifier = {
+			factor = 0.5
+			has_winter = normal_winter
+		}
+		modifier = {
+			factor = 1.5
+			has_terrain = farmlands
+		}
+		modifier = {
+			factor = 1.5
+			OR = {
+				region = poland_region
+				region = ruthenia_region
+			}
+		}
+	}
+}
+
+######
+#FOODS
+######
+staplecrops = {
+	color = { 0.96 0.93 0.58 }
+
+	modifier = {
+		land_forcelimit_modifier = 0.10
+	}
+
+	chance = {
+		factor = 10
+	}
+} 
+
+aquaticfoods = {
+	color = { 0.00 0.6117 1 }
+
+	modifier = {
+		land_forcelimit_modifier = 0.10
+	}
+
+	chance = {
+		factor = 10
+	}
+} 
+
+fruits = {
+	color = { 0.1607 0.8549 0.2431 }
+
+	modifier = {
+		land_forcelimit_modifier = 0.10
+	}
+
+	chance = {
+		factor = 10
+	}
+} 
+
+#############
+#LUXURY GOODS
+#############
+choclate = {
+	color = { 0.533 0.3647 0.2313 }
+
+	modifier = {
+		land_forcelimit_modifier = 0.10
+	}
+
+	chance = {
+		factor = 10
+	}
+} 
+
+ceramics = {
+	color = { 0.9411 0.7019 0.5098 }
+
+	modifier = {
+		land_forcelimit_modifier = 0.10
+	}
+
+	chance = {
+		factor = 10
+	}
+} 
+
+textiles = {
+	color = { 0.9411 0.8431 0.5098 }
+
+	modifier = {
+		land_forcelimit_modifier = 0.10
+	}
+
+	chance = {
+		factor = 10
+	}
+} 
+
+obsidian = {
+	color = { 0.33 0.33 0.33 }
+
+	modifier = {
+		land_forcelimit_modifier = 0.10
+	}
+
+	chance = {
+		factor = 10
+	}
+} 
+
+preciousstones = {
+	color = { 0.8862 0.1686 0.4549 }
+
+	modifier = {
+		land_forcelimit_modifier = 0.10
+	}
+
+	chance = {
+		factor = 10
+	}
+} 
+
+plumes = {
+	color = { 0.1647 0.9058 0.6705 }
+
+	modifier = {
+		land_forcelimit_modifier = 0.10
+	}
+
+	chance = {
+		factor = 10
+	}
+} 
+####################
+#MINERALS AND METALS
+####################
+salt = {
+	color = { 0.9137 0.9568 0.9411 }
+
+	modifier = {
+		land_forcelimit_modifier = 0.10
+	}
+
+	chance = {
+		factor = 10
+	}
+} 
+
+bronze = {
+	color = { 0.7686 0.6078 0.3215 }
+
+	modifier = {
+		land_forcelimit_modifier = 0.10
+	}
+
+	chance = {
+		factor = 10
+	}
+} 
+
+gold = {
+	color = { 0.8862 0.8078 0.1411 }
+
+	modifier = {
+		land_forcelimit_modifier = 0.10
+	}
+
+	chance = {
+		factor = 10
+	}
+} 
+
+lime = {
+	color = { 0.7058 0.9098 0.4901 }
+
+	modifier = {
+		land_forcelimit_modifier = 0.10
+	}
+
+	chance = {
+		factor = 10
+	}
+} 
+
+iron = {
+	color = { 0.3764 0.3568 0.3176 }
+
+	modifier = {
+		land_forcelimit_modifier = 0.10
+	}
+
+	chance = {
+		factor = 10
+	}
+} 
+######
+#OTHER
+######
+lumber = {
+	color = { 0.3803 0.2745 0.0901 }
+
+	modifier = {
+		land_forcelimit_modifier = 0.10
+	}
+
+	chance = {
+		factor = 10
+	}
+} 
+
+
+unknown = {
+	color = { 0.5 0.5 0.5 }
+}

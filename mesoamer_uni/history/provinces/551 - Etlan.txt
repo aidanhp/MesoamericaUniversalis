@@ -1,0 +1,19 @@
+controller = EEI
+add_core = EEI
+owner = EEI
+culture = newzapotec
+religion = zapotec
+hre = no
+base_tax = 110
+base_production = 220
+trade_goods = preciousstones 
+base_manpower = 770
+capital = "Etlan"
+is_city = yes
+fort_15th = yes
+
+discovered_by = semi_nomadic_tribe
+discovered_by = west_mexican
+discovered_by = tarascan
+discovered_by = central_mexican
+discovered_by = triple_alliance

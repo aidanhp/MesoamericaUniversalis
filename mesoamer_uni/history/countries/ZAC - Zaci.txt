@@ -1,0 +1,18 @@
+government = kuchkabal
+government_rank = 2
+mercantilism = 0.25
+technology_group = central_mexican 
+religion = newnahuatl 
+primary_culture = yucatecmayan
+capital = 140
+fixed_capital = 140
+
+1427.1.1 = {
+	monarch = {
+		name = "Oxib"
+		dynasty = "Zaci"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

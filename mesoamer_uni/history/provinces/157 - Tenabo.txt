@@ -1,0 +1,17 @@
+add_core = TAB
+add_core = AHC
+owner = AHC
+controller = AHC
+culture = yucatecmayan
+religion = newmayan 
+hre = no
+base_tax = 90
+base_production = 180
+trade_goods = textiles 
+base_manpower = 630
+capital = "Tenabo"
+is_city = yes
+fort_15th = yes
+
+discovered_by = northern_mayan
+discovered_by = southern_mayan

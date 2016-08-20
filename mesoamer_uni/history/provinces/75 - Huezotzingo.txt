@@ -1,0 +1,19 @@
+add_core = HUE
+owner = HUE
+controller = HUE
+culture = tlaxcallan
+religion = newnahuatl 
+hre = no
+base_tax = 384
+base_production = 767
+trade_goods = grain
+base_manpower = 2744
+capital = "Huezotzingo"
+is_city = yes
+fort_15th = yes
+
+discovered_by = semi_nomadic_tribe
+discovered_by = west_mexican
+discovered_by = tarascan
+discovered_by = central_mexican
+discovered_by = triple_alliance

@@ -1,0 +1,19 @@
+government = altepetl 
+government_rank = 2
+mercantilism = 0.25
+technology_group = central_mexican 
+religion = newnahuatl 
+primary_culture = newtotonac 
+fixed_capital = 522
+capital = 522
+
+
+1427.1.1 = {
+	monarch = {
+		name = "Olintecke"
+		dynasty = "Ytzucan"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

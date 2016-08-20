@@ -1,0 +1,55 @@
+#############################
+#Factions for all Countries##
+#############################
+
+#Represents the power of the king 
+currentdynasty =
+{
+	monarch_power = ADM
+	always = yes
+	
+	modifier = 
+	{
+		legitimacy = 1
+	}
+}
+
+#Represents religious orders
+priests = {
+	monarch_power = ADM
+	always = yes
+	
+	modifier = 
+	{
+		legitimacy = -5 
+		global_unrest = -5
+		stability_cost_modifier = -0.50
+	}
+}
+
+#Represents nobles
+nobles = {
+	monarch_power = ADM
+	always = yes
+	
+	modifier = 
+	{
+		legitimacy = -5
+		infantry_power = 0.20
+		discipline = 0.05
+	}
+}
+
+#Represents merchants
+merchants = {
+	monarch_power = ADM
+	always = yes
+
+	modifier = 
+	{
+		legitimacy = -5
+		trade_efficiency = 0.25
+		trade_steering = 0.25
+		global_trade_power = 0.33
+	}
+}	

@@ -1,0 +1,31 @@
+government = hegemonic_kingdom
+government_rank = 2
+mercantilism = 0.25
+technology_group = triple_alliance
+religion = newnahuatl
+primary_culture = mexica
+capital = 1	
+fixed_capital = 1
+historical_rival = TLX
+historical_rival = IUA
+historical_rival = AZC
+historical_friend = TET
+historical_friend = TCP
+
+1427.1.1 = {
+	monarch = {
+		name = "Itzcoatl"
+		dynasty = "Tenoch"
+		birth_date = 1382.1.1
+		adm = 5
+		dip = 6
+		mil = 5
+		leader = {
+			name = "Itzcoatl"
+			shock = 4
+			fire = 3
+			manuever = 3
+			siege = 2 
+		}
+	}
+}

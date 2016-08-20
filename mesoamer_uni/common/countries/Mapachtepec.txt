@@ -1,0 +1,127 @@
+#Country Name: Please see filename.
+
+graphical_culture = southamericagfx
+
+color = { 76 76 255 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Achcauhtli #0" = 20
+	"Acolmixtli #0" = 20
+	"Camaxtli #0" = 20	
+	"Chicahua #0" = 20	
+	"Chimalli #0" = 20	
+	"Citlalli #0" = 20	
+	"Coyotl #0" = 20	
+	"Cuauhtemoc #0" = 20	
+	"Cuetlachtli #0" = 20	
+	"Etalpalli #0" = 20	
+	"Eztli #0" = 20	
+	"Huemac #0" = 20	
+	"Huitzilihuitl #0" = 20	
+	"Huitzilin #0" = 20	
+	"Ilhicamina #0" = 20	
+	"Itztli #0" = 20	
+	"Milintica #0" = 20	
+	"Meztli #0" = 20	
+	"Necalli #0" = 20	
+	"Nezahualcoyotl #0" = 20	
+	"Nezahualpilli #0" = 20	
+	"Nochtli #0" = 20	
+	"Nopaltzin #0" = 20	
+	"Tezcacoatl #0" = 20	
+	"Tlacaelel #0" = 20	
+	"Tlazopilli #0" = 20	
+	"Xipilli #0" = 20	
+	"Xiuhcoatl #0" = 20	
+	"Yaotl #0" = 20	
+	"Yayauhqui #0" = 20	
+
+	"Chalchiuitl #0" = -1
+	"Citlalmina #0" = -1
+	"Coaxoch #0" = -1
+	"Cozamalotl #0" = -1
+	"Coszcatl #0" = -1
+	"Malinalxochitl #0" = -1
+	"Nenetl #0" = -1
+	"Quetzalxochitl #0" = -1
+	"Tlalli #0" = -1
+	"Xochitl #0" = -1
+}
+
+leader_names = {
+	Yoatl Matlalihuitl Nochehuatl Tototl Cuauhtl Tochtli Zolin Cuetzpalli Itzcuintli
+	Huizitl Ocelotl Ozomatli Cuetlachtli Tecolotl Miztli Cipac Acatlotzin Ahuítzotl 
+	Ahuítzotl Cacamatzin Chalchiutlatonac Cuauhtemoc Eyahue Huitzilihuitl Ixtlilxochitl 
+	Izquemitl Nezahualpilli Maxixcatzin Olintecke Qualpopoca Quimichetl Tezozomoc 
+	Totoquihuatzin Xiconocatzin Xolotl Yaztachimal Zoanacochtzin 
+	
+	"Tonatiuh"
+	"Huehueteotl"
+	"Xiuhtecutli"
+	"Tlaloc"
+	"Tezcatlipoca"
+	"Quetzalcoatl"
+	"Mictlan"
+	"Mictlantecuhtli"
+	"Ehecatl"
+	"Xolotl"
+	"Xochipill"
+}
+
+ship_names = {
+	Acolmiztli Acolnahuacat "Ah Hoya" "Ah Tzenul" Amimitl Apanecatl Atl Atlau Axoloa
+	Camaxtli Centeot Centzonuiznaua Chalchiuhtlatonal Chalchiuhtlicue Chalchiutotolin Chalmecalt Chalmecaucihuilt
+	Chantico Chichomexochtli Chicomecoatl Chiconahuai Chihalma Chualchihuitlcue Cihuacaotyl Cinteotl
+	Citlalatonac Citlalicue Ciucoatl Coatlicue Cochimetl Coyolxauhqui Cuauhcoatl 
+	Ehehcatl Eueucoyotl
+	"Hopop Can" Huehueteotl Huitzilopochtli Huixtocihuatl
+	Itzcoliuhqui Itzli Itzpapalotl Itzpzpalotl Ixtlilton Iztamixcoatzin
+	Macuilxochitl Mahayuel Malinalxochi Matalcueye Metztli Mictlan Mictlancihuntl Mictlantechtle
+	Mictlantechupi Mictlantecihuatl Mixcoatl
+	Nanauatzin
+	Ococaltzin Omecihuatl Ometecuhlti Ometeotl Omeyocan
+	Patecatli Paynal
+	Quetzalcoatl
+	Tecciztecatl Teoyaomqui Tepeyollotl Teteoinnan Tezacoatl Tezcatlipoca Tillan-Tlapallan Tlaloc
+	Tlalocan Tlaltechhtlii Tlazolteotl Tonacatecuhtli Tonatiuhican Tonatiuth Tzitmime
+	Xilonen "Xipe Totec" Xiucoatl Xiuhtecuhtli Xochipilli Xochiquetzal Xolotl Xonecuilli
+	Yacatechutli
+}
+
+
+army_names = {
+	"Army $PROVINCE$" 
+}
+
+fleet_names = {
+	"Glorious Fleet"
+}

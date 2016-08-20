@@ -1,0 +1,244 @@
+namespace = draftlaw
+
+#SET DRAFT LAW INTERFACE 
+
+#What pops to manage?
+country_event = {
+	id = draftlaw.01
+
+	title = "draftlaw1.t"
+	desc = "draftlaw1.d"
+	picture = ECONOMY_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = "draftlaw1.a"
+		country_event = { id = draftlaw.02 }
+	}
+	option = {
+		name = "draftlaw1.b"
+		country_event = { id = draftlaw.03 }
+	}
+	option = {
+		name = "draftlaw1.c"
+		country_event = { id = draftlaw.04 }
+	}
+	option = {
+		name = "draftlaw1.dd"
+		clr_country_flag = managingdraftlaws
+	}
+}
+
+#Elite Pops
+country_event = {
+	id = draftlaw.02
+
+	title = "draftlaw2.t"
+	desc = "draftlaw2.d"
+	picture = ECONOMY_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = "draftlaw2.a"
+		every_owned_province = {
+			remove_province_modifier = e_expectedservice
+			remove_province_modifier = e_oldestson
+			remove_province_modifier = e_allsons
+			add_province_modifier = {
+				name = e_optionalcareer
+ 				duration = -1
+			}
+		}
+		country_event = { id = draftlaw.01 }
+	}
+
+	option = {
+		name = "draftlaw2.b"
+		every_owned_province = {
+			remove_province_modifier = e_optionalcareer
+			remove_province_modifier = e_oldestson
+			remove_province_modifier = e_allsons
+			add_province_modifier = {
+				name = e_expectedservice
+ 				duration = -1
+			}
+		}
+		country_event = { id = draftlaw.01 }
+	}
+
+	option = {
+		name = "draftlaw2.c"
+		every_owned_province = {
+			remove_province_modifier = e_optionalcareer
+			remove_province_modifier = e_expectedservice
+			remove_province_modifier = e_allsons
+			add_province_modifier = {
+				name = e_oldestson
+ 				duration = -1
+			}
+		}
+		country_event = { id = draftlaw.01 }
+	}
+
+	option = {
+		name = "draftlaw2.dd"
+		every_owned_province = {
+			remove_province_modifier = e_optionalcareer
+			remove_province_modifier = e_expectedservice
+			remove_province_modifier = e_oldestson
+			add_province_modifier = {
+				name = e_allsons
+ 				duration = -1
+			}
+		}
+		country_event = { id = draftlaw.01 }
+	}
+	option = {
+		name = "draftlaw2.e"
+		country_event = { id = draftlaw.01 }
+	}
+}
+
+#Artisan Pops
+country_event = {
+	id = draftlaw.03
+
+	title = "draftlaw3.t"
+	desc = "draftlaw3.d"
+	picture = ECONOMY_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = "draftlaw3.a"
+		every_owned_province = {
+			remove_province_modifier = a_expectedservice
+			remove_province_modifier = a_oldestson
+			remove_province_modifier = a_allsons
+			add_province_modifier = {
+				name = a_noservice
+ 				duration = -1
+			}
+		}
+		country_event = { id = draftlaw.01 }
+	}
+
+	option = {
+		name = "draftlaw3.b"
+		every_owned_province = {
+			remove_province_modifier = a_noservice
+			remove_province_modifier = a_oldestson
+			remove_province_modifier = a_allsons
+			add_province_modifier = {
+				name = a_expectedservice
+ 				duration = -1
+			}
+		}
+		country_event = { id = draftlaw.01 }
+	}
+
+	option = {
+		name = "draftlaw3.c"
+		every_owned_province = {
+			remove_province_modifier = a_noservice
+			remove_province_modifier = a_expectedservice
+			remove_province_modifier = a_allsons
+			add_province_modifier = {
+				name = a_oldestson
+ 				duration = -1
+			}
+		}
+		country_event = { id = draftlaw.01 }
+	}
+
+	option = {
+		name = "draftlaw3.dd"
+		every_owned_province = {
+			remove_province_modifier = a_noservice
+			remove_province_modifier = a_expectedservice
+			remove_province_modifier = a_oldestson
+			add_province_modifier = {
+				name = a_allsons
+ 				duration = -1
+			}
+		}
+		country_event = { id = draftlaw.01 }
+	}
+	option = {
+		name = "draftlaw3.e"
+		country_event = { id = draftlaw.01 }
+	}
+}
+
+#Commoner Pops
+country_event = {
+	id = draftlaw.04
+
+	title = "draftlaw4.t"
+	desc = "draftlaw4.d"
+	picture = ECONOMY_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = "draftlaw4.a"
+		every_owned_province = {
+			remove_province_modifier = c_expectedservice
+			remove_province_modifier = c_oldestson
+			remove_province_modifier = c_allsons
+			add_province_modifier = {
+				name = c_optionalcareer
+ 				duration = -1
+			}
+		}
+		country_event = { id = draftlaw.01 }
+	}
+
+	option = {
+		name = "draftlaw4.b"
+		every_owned_province = {
+			remove_province_modifier = c_optionalcareer
+			remove_province_modifier = c_oldestson
+			remove_province_modifier = c_allsons
+			add_province_modifier = {
+				name = c_expectedservice
+ 				duration = -1
+			}
+		}
+		country_event = { id = draftlaw.01 }
+	}
+
+	option = {
+		name = "draftlaw4.c"
+		every_owned_province = {
+			remove_province_modifier = c_optionalcareer
+			remove_province_modifier = c_expectedservice
+			remove_province_modifier = c_allsons
+			add_province_modifier = {
+				name = c_oldestson
+ 				duration = -1
+			}
+		}
+		country_event = { id = draftlaw.01 }
+	}
+
+	option = {
+		name = "draftlaw4.dd"
+		every_owned_province = {
+			remove_province_modifier = c_optionalcareer
+			remove_province_modifier = c_expectedservice
+			remove_province_modifier = c_oldestson
+			add_province_modifier = {
+				name = c_allsons
+ 				duration = -1
+			}
+		}
+		country_event = { id = draftlaw.01 }
+	}
+	option = {
+		name = "draftlaw4.e"
+		country_event = { id = draftlaw.01 }
+	}
+}

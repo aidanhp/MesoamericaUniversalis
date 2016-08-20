@@ -1,0 +1,13 @@
+# A region can only belong to one super region.
+
+mexico_superregion = {
+	mex1_region
+	mex2_region
+	mex3_region
+	mex4_region
+	mex5_region
+	mex6_region
+}
+
+new_world_superregion ={
+}

@@ -1,0 +1,19 @@
+add_core = PAT
+owner = PAT
+controller = PAT
+culture = tarascan
+religion = tarascan 
+hre = no
+base_tax = 291
+base_production = 584
+trade_goods = bronze 
+base_manpower = 2030
+capital = "Patzcuaro"
+is_city = yes
+fort_15th = yes
+
+discovered_by = semi_nomadic_tribe
+discovered_by = west_mexican
+discovered_by = tarascan
+discovered_by = central_mexican
+discovered_by = triple_alliance

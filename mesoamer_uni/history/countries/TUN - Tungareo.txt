@@ -1,0 +1,18 @@
+government = altepetl 
+government_rank = 2
+mercantilism = 0.25
+technology_group = central_mexican 
+religion = tarascan
+primary_culture = maxahua
+capital = 378
+fixed_capital = 378
+
+1427.1.1 = {
+	monarch = {
+		name = "Pijje"
+		dynasty = "Tungareo"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

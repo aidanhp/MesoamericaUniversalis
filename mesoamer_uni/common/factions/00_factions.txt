@@ -1,0 +1,93 @@
+########################################
+# Celestial Empire Factions
+########################################
+temples =
+{
+	#Allows to fight wars.
+	monarch_power = MIL
+	always = yes
+	
+	modifier = 
+	{
+		manpower_recovery_speed = 0.1
+		unjustified_demands = -0.25
+		diplomatic_upkeep = -1
+	}
+}
+
+enuchs =
+{
+	monarch_power = DIP
+	always = yes
+
+	#Merchants, Traders, Expansions.
+	modifier = 
+	{
+		global_prov_trade_power_modifier = 0.1
+		diplomatic_reputation = 1
+		stability_cost_modifier = 0.1
+	}
+}
+
+bureaucrats =
+{
+	monarch_power = ADM
+	always = yes
+
+	#buildings, Internal Stability.
+	modifier = 
+	{
+		build_cost = -0.1
+		advisor_pool = 1
+		discipline = -0.05
+	}
+}
+
+
+
+########################################
+# Merchant Republic Factions
+########################################
+mr_aristocrats =
+{
+	monarch_power = MIL
+	always = yes
+
+	modifier = 
+	{
+		land_morale = 0.05
+		global_sailors_modifier = 0.25
+		global_foreign_trade_power = -0.1
+	}
+}
+
+
+mr_traders =
+{
+	monarch_power = DIP
+	always = yes
+
+	modifier = 
+	{
+		global_trade_power = 0.10
+		naval_maintenance_modifier = -0.10
+		global_tax_modifier = -0.05
+		
+	}
+}
+
+mr_guilds =
+{
+	monarch_power = ADM
+	always = yes
+
+	modifier = 
+	{
+		global_trade_goods_size_modifier = 0.10
+		build_cost = -0.10
+		global_manpower_modifier = -0.1
+	}
+}
+
+
+	

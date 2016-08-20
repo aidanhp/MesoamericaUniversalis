@@ -1,0 +1,91 @@
+country_decisions = {
+	#For Most Countries
+	citytokingdom = {
+		major = yes
+		potential = {
+			government = altepetl
+		}
+
+		allow = {
+			num_of_vassals = 4
+			prestige = 25
+		}
+		effect = {
+			change_government = hegemonic_kingdom
+		}
+	}
+	kingdomtoempire = {
+		major = yes
+		potential = {
+			government = hegemonic_kingdom	
+			NOT = {
+				OR = {
+					tag = TEN
+					tag = TET
+					tag = TCP
+				}
+			}
+		}
+
+		allow = {
+			num_of_vassals = 25
+			prestige = 80
+		}
+		effect = {
+			change_government = hegemonic_empire
+		}
+	}
+
+	#For Centralized Governments
+	#>First - Become a Centralized Government
+	anythingtoccity = {
+		major = yes
+		potential = {
+			NOT = { tag = IUA }
+			NOT = { government = kuchkabal }
+		}
+		allow = {
+			has_idea = conqueststate
+			stability = 2
+		}
+		effect = {	
+			add_adm_power = -100
+			change_government = centralized_kingdom
+		}
+	}
+	
+	
+	ccitytockingdom = { 
+		major = yes
+		potential = {
+			government = centralized_altepetl
+		}
+
+		allow = {
+			num_of_provinces_in_states = 5
+			prestige = 50
+		}
+		
+		effect = {
+			change_government = centralized_kingdom
+		}
+	}
+
+	ckingdomtocempire = { 
+		major = yes
+		potential = {
+			government = centralized_kingdom
+		}
+
+		allow = {
+			num_of_provinces_in_states = 20
+			prestige = 80
+		}
+		
+		effect = {
+			change_government = centralized_empire
+		}
+	}
+
+	
+}

@@ -1,0 +1,73 @@
+cb_expand_hegemony = {
+	valid_for_subject = no
+
+	prerequisites = {
+		ROOT = {
+			ai = no
+		}
+		OR = {
+			government = altepetl
+			government = hegemonic_kingdom
+			government = hegemonic_empire
+			government = tlaxcallan_confederate
+		}
+		NOT = { vassal_of = ROOT }
+	}
+
+	attacker_disabled_po = {
+		po_demand_provinces
+	}
+
+
+	war_goal = expandhegemony
+}
+
+cb_expand_hegemony_ai = {
+	valid_for_subject = no
+
+	prerequisites = {
+		ROOT = {
+			ai = yes
+		}
+		OR = {
+			government = altepetl
+			government = hegemonic_kingdom
+			government = hegemonic_empire
+			government = tlaxcallan_confederate
+		}
+		NOT = { vassal_of = ROOT }
+	}
+
+	#attacker_disabled_po = {
+	#
+	#}
+
+
+	war_goal = expandhegemony
+}
+
+
+cb_direct_conquest = {
+	valid_for_subject = no
+
+	prerequisites = {
+		OR = {
+			government = tribal_confederation
+			government = tarascan_tribute_kingdom
+		}
+		NOT = { vassal_of = ROOT }
+		is_neighbor_of = FROM
+	}
+
+	war_goal = directconquest
+}
+
+cb_unite_maya = {
+	valid_for_subject = yes
+	
+	prerequisites = {
+		culture_group = mayan  
+	}
+
+	war_goal = unitemaya
+}

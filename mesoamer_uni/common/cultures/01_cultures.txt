@@ -1,0 +1,588 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new groups or cultures, make sure they are unique.
+#
+# Union tags do not suffer from the 'same_culture_group' tax penalty.
+# Primary tags are the first choice for rebel factions seeking cultural independence.
+#
+# graphical_culture = westerngfx
+# second_graphical_culture = muslimgfx (fallback if the first does not exist)
+
+chichimec = {
+	graphical_culture = southamericagfx
+
+	tepehuan = {
+		male_names = {
+			Ocuil Olli Opochtli Ozomatli Quauhtli Tapayaxi Tecocoltzin Tecolotl Tetlepanquetzaltzin Tezozomoc 
+			Tizoc Tizocic Tlacaelel Tlacaeleltzin Tlalli Tlaloc Tochtli Tototl Tzompantzin Tlilpotonqui 
+			Topiltzin Totoquihuaztli 
+			Ueman Yaotl Yayauhqui Yolotli Yolyamanitzin Xicohtencatl Xiuhpilli Xihuitl Xipil Xipilli Xochitl 
+			Xochipepe Xochipilli Yaotl Zipactonal Zolin
+		}	
+		female_names = {
+			Quiauhxochitl Sacnite Techichpotzin Tezozomoc Tziquetzalpoztectzin 
+			Tezcatlan Tlacotl Tlahco Tlahcoehua Toltecatl Tonalnan Tlazozomizqui
+			Yoltzin Xilonen Xiloxoch Xiuhtomiyauhtzin Xochitl Xocoh Xocoyotl Yaretzi Zeltzin Zyanya
+			Acacitlu Citali Citlamina Etapali Ichtaca Icnoyotl Ilhuitl Macuilxochitl Mahuitzic Moyolehuani Moztla 
+			Nenetl Nochtli Papan Teoxihuitl Teuicui Tlachinolli Tlaco Tlahutli Tlalli Tlazohtzin Tlexictli Tonatzin Xihuitl 
+		}
+	}
+
+	tepecano = {
+		male_names = {
+			Ocuil Olli Opochtli Ozomatli Quauhtli Tapayaxi Tecocoltzin Tecolotl Tetlepanquetzaltzin Tezozomoc 
+			Tizoc Tizocic Tlacaelel Tlacaeleltzin Tlalli Tlaloc Tochtli Tototl Tzompantzin Tlilpotonqui 
+			Topiltzin Totoquihuaztli 
+			Ueman Yaotl Yayauhqui Yolotli Yolyamanitzin Xicohtencatl Xiuhpilli Xihuitl Xipil Xipilli Xochitl 
+			Xochipepe Xochipilli Yaotl Zipactonal Zolin
+		}	
+		female_names = {
+			Quiauhxochitl Sacnite Techichpotzin Tezozomoc Tziquetzalpoztectzin 
+			Tezcatlan Tlacotl Tlahco Tlahcoehua Toltecatl Tonalnan Tlazozomizqui
+			Yoltzin Xilonen Xiloxoch Xiuhtomiyauhtzin Xochitl Xocoh Xocoyotl Yaretzi Zeltzin Zyanya
+			Acacitlu Citali Citlamina Etapali Ichtaca Icnoyotl Ilhuitl Macuilxochitl Mahuitzic Moyolehuani Moztla 
+			Nenetl Nochtli Papan Teoxihuitl Teuicui Tlachinolli Tlaco Tlahutli Tlalli Tlazohtzin Tlexictli Tonatzin Xihuitl 
+		}
+	}
+
+	zacatec = {
+		male_names = {
+			Ocuil Olli Opochtli Ozomatli Quauhtli Tapayaxi Tecocoltzin Tecolotl Tetlepanquetzaltzin Tezozomoc 
+			Tizoc Tizocic Tlacaelel Tlacaeleltzin Tlalli Tlaloc Tochtli Tototl Tzompantzin Tlilpotonqui 
+			Topiltzin Totoquihuaztli 
+			Ueman Yaotl Yayauhqui Yolotli Yolyamanitzin Xicohtencatl Xiuhpilli Xihuitl Xipil Xipilli Xochitl 
+			Xochipepe Xochipilli Yaotl Zipactonal Zolin
+		}	
+		female_names = {
+			Quiauhxochitl Sacnite Techichpotzin Tezozomoc Tziquetzalpoztectzin 
+			Tezcatlan Tlacotl Tlahco Tlahcoehua Toltecatl Tonalnan Tlazozomizqui
+			Yoltzin Xilonen Xiloxoch Xiuhtomiyauhtzin Xochitl Xocoh Xocoyotl Yaretzi Zeltzin Zyanya
+			Acacitlu Citali Citlamina Etapali Ichtaca Icnoyotl Ilhuitl Macuilxochitl Mahuitzic Moyolehuani Moztla 
+			Nenetl Nochtli Papan Teoxihuitl Teuicui Tlachinolli Tlaco Tlahutli Tlalli Tlazohtzin Tlexictli Tonatzin Xihuitl 
+		}
+	}
+
+	caxcan = {
+		male_names = {
+			Ocuil Olli Opochtli Ozomatli Quauhtli Tapayaxi Tecocoltzin Tecolotl Tetlepanquetzaltzin Tezozomoc 
+			Tizoc Tizocic Tlacaelel Tlacaeleltzin Tlalli Tlaloc Tochtli Tototl Tzompantzin Tlilpotonqui 
+			Topiltzin Totoquihuaztli 
+			Ueman Yaotl Yayauhqui Yolotli Yolyamanitzin Xicohtencatl Xiuhpilli Xihuitl Xipil Xipilli Xochitl 
+			Xochipepe Xochipilli Yaotl Zipactonal Zolin
+		}	
+		female_names = {
+			Quiauhxochitl Sacnite Techichpotzin Tezozomoc Tziquetzalpoztectzin 
+			Tezcatlan Tlacotl Tlahco Tlahcoehua Toltecatl Tonalnan Tlazozomizqui
+			Yoltzin Xilonen Xiloxoch Xiuhtomiyauhtzin Xochitl Xocoh Xocoyotl Yaretzi Zeltzin Zyanya
+			Acacitlu Citali Citlamina Etapali Ichtaca Icnoyotl Ilhuitl Macuilxochitl Mahuitzic Moyolehuani Moztla 
+			Nenetl Nochtli Papan Teoxihuitl Teuicui Tlachinolli Tlaco Tlahutli Tlalli Tlazohtzin Tlexictli Tonatzin Xihuitl 
+		}
+	}
+
+	guachichil = {
+		male_names = {
+			Ocuil Olli Opochtli Ozomatli Quauhtli Tapayaxi Tecocoltzin Tecolotl Tetlepanquetzaltzin Tezozomoc 
+			Tizoc Tizocic Tlacaelel Tlacaeleltzin Tlalli Tlaloc Tochtli Tototl Tzompantzin Tlilpotonqui 
+			Topiltzin Totoquihuaztli 
+			Ueman Yaotl Yayauhqui Yolotli Yolyamanitzin Xicohtencatl Xiuhpilli Xihuitl Xipil Xipilli Xochitl 
+			Xochipepe Xochipilli Yaotl Zipactonal Zolin
+		}	
+		female_names = {
+			Quiauhxochitl Sacnite Techichpotzin Tezozomoc Tziquetzalpoztectzin 
+			Tezcatlan Tlacotl Tlahco Tlahcoehua Toltecatl Tonalnan Tlazozomizqui
+			Yoltzin Xilonen Xiloxoch Xiuhtomiyauhtzin Xochitl Xocoh Xocoyotl Yaretzi Zeltzin Zyanya
+			Acacitlu Citali Citlamina Etapali Ichtaca Icnoyotl Ilhuitl Macuilxochitl Mahuitzic Moyolehuani Moztla 
+			Nenetl Nochtli Papan Teoxihuitl Teuicui Tlachinolli Tlaco Tlahutli Tlalli Tlazohtzin Tlexictli Tonatzin Xihuitl 
+		}
+	}
+
+	uza = {
+		male_names = {
+			Ocuil Olli Opochtli Ozomatli Quauhtli Tapayaxi Tecocoltzin Tecolotl Tetlepanquetzaltzin Tezozomoc 
+			Tizoc Tizocic Tlacaelel Tlacaeleltzin Tlalli Tlaloc Tochtli Tototl Tzompantzin Tlilpotonqui 
+			Topiltzin Totoquihuaztli 
+			Ueman Yaotl Yayauhqui Yolotli Yolyamanitzin Xicohtencatl Xiuhpilli Xihuitl Xipil Xipilli Xochitl 
+			Xochipepe Xochipilli Yaotl Zipactonal Zolin
+		}	
+		female_names = {
+			Quiauhxochitl Sacnite Techichpotzin Tezozomoc Tziquetzalpoztectzin 
+			Tezcatlan Tlacotl Tlahco Tlahcoehua Toltecatl Tonalnan Tlazozomizqui
+			Yoltzin Xilonen Xiloxoch Xiuhtomiyauhtzin Xochitl Xocoh Xocoyotl Yaretzi Zeltzin Zyanya
+			Acacitlu Citali Citlamina Etapali Ichtaca Icnoyotl Ilhuitl Macuilxochitl Mahuitzic Moyolehuani Moztla 
+			Nenetl Nochtli Papan Teoxihuitl Teuicui Tlachinolli Tlaco Tlahutli Tlalli Tlazohtzin Tlexictli Tonatzin Xihuitl 
+		}
+	}
+
+	pame = {
+		male_names = {
+			Ocuil Olli Opochtli Ozomatli Quauhtli Tapayaxi Tecocoltzin Tecolotl Tetlepanquetzaltzin Tezozomoc 
+			Tizoc Tizocic Tlacaelel Tlacaeleltzin Tlalli Tlaloc Tochtli Tototl Tzompantzin Tlilpotonqui 
+			Topiltzin Totoquihuaztli 
+			Ueman Yaotl Yayauhqui Yolotli Yolyamanitzin Xicohtencatl Xiuhpilli Xihuitl Xipil Xipilli Xochitl 
+			Xochipepe Xochipilli Yaotl Zipactonal Zolin
+		}	
+		female_names = {
+			Quiauhxochitl Sacnite Techichpotzin Tezozomoc Tziquetzalpoztectzin 
+			Tezcatlan Tlacotl Tlahco Tlahcoehua Toltecatl Tonalnan Tlazozomizqui
+			Yoltzin Xilonen Xiloxoch Xiuhtomiyauhtzin Xochitl Xocoh Xocoyotl Yaretzi Zeltzin Zyanya
+			Acacitlu Citali Citlamina Etapali Ichtaca Icnoyotl Ilhuitl Macuilxochitl Mahuitzic Moyolehuani Moztla 
+			Nenetl Nochtli Papan Teoxihuitl Teuicui Tlachinolli Tlaco Tlahutli Tlalli Tlazohtzin Tlexictli Tonatzin Xihuitl 
+		}
+	}
+
+	otomi = {
+		male_names = {
+			Ocuil Olli Opochtli Ozomatli Quauhtli Tapayaxi Tecocoltzin Tecolotl Tetlepanquetzaltzin Tezozomoc 
+			Tizoc Tizocic Tlacaelel Tlacaeleltzin Tlalli Tlaloc Tochtli Tototl Tzompantzin Tlilpotonqui 
+			Topiltzin Totoquihuaztli 
+			Ueman Yaotl Yayauhqui Yolotli Yolyamanitzin Xicohtencatl Xiuhpilli Xihuitl Xipil Xipilli Xochitl 
+			Xochipepe Xochipilli Yaotl Zipactonal Zolin
+		}	
+		female_names = {
+			Quiauhxochitl Sacnite Techichpotzin Tezozomoc Tziquetzalpoztectzin 
+			Tezcatlan Tlacotl Tlahco Tlahcoehua Toltecatl Tonalnan Tlazozomizqui
+			Yoltzin Xilonen Xiloxoch Xiuhtomiyauhtzin Xochitl Xocoh Xocoyotl Yaretzi Zeltzin Zyanya
+			Acacitlu Citali Citlamina Etapali Ichtaca Icnoyotl Ilhuitl Macuilxochitl Mahuitzic Moyolehuani Moztla 
+			Nenetl Nochtli Papan Teoxihuitl Teuicui Tlachinolli Tlaco Tlahutli Tlalli Tlazohtzin Tlexictli Tonatzin Xihuitl 
+		}
+	}
+
+	guamare = {
+		male_names = {
+			Tariacuri Hiquingaje Hiripan Tangaxuan Tzitzipandaquare Zuangua Huitzimengari Tangaxoan Tzimtzincha 
+			Cuinierangari Bibejw Binech Bzojj Chsáaxcejj Cháalaxa Chonna Bicu Coqui Djoraxa Gwèibóoné Gyazob 
+			Ipalnemoani Ji Jzió Jituh Jzió Láxdaóxo Lyebe Mbalaz Na Yel Naquichinisa Naxiñanguiiu Ngolbex An 
+			Rire Nisa Ro Pijje Jzió Tobi Rusiguunda Véeni Veziá Zne Yel Zniá Zyrx Gyejj Nguiiu
+		}
+		female_names = {
+			Zyanya Nayeli Teiuc Teicuih Teyacapan Tepin 
+		}
+	}
+
+	dynasty_names = {
+		# CKII
+		"Acatl" "Atl" "Calli" "Cipactli" "Coatl" "Coyotl" "Cozcaquauhtli" "Cuetzpalin" "Ehecatl" "Icpalli" 
+		"Itz" "Itzcuintli" "Macehualli" "Malinalli" "Mazatl" "Miquiztli" "Nezahual" "Nochtli" "Ocelotl" 
+		"Ollin" "Otli" "Ozomatli" "Pipiltin" "Pochtecatl" "Quauhtli" "Quauitl" "Quiautl" "Tecpatl" 
+		"Tecuhtli" "Tepetl" "Tetl" "Tlantli" "Tochtli" "Toltecatl" "Xochitl"
+	}
+}
+
+nahua = {
+	graphical_culture = southamericagfx
+
+	cahita = {
+		male_names = {
+			Moctezuma Auitzotl Axayacatl Cuauhtemoc Cuitlahuac Huitzilihuitl Itzcoatl Ohimalpopoca Tizoc 
+			Motelchiuh Tehuetstiquitzin Tlacotzin Xochiquentzin Acamapichtli Chimalpopoca Tenoch Acacitli 
+			Axacaya Cacamatzin Eyahue Huicton Ilhuicamina Itzquautzin Mazatl Nopaltzin Olintecke Opochtli 
+			Quetzalmantzin Quimichetl Texcoyo Timas Tlacaelel Tlotzin Xiuhcozcatl Xocoyol Yaztachimal Zolton
+			Ahcambal Huanitzin Panitzin
+		}
+		female_names = {
+			Centehua Moyolehuani Yaotl Mixcoatl Necahual Nelli Ohtli Papa Patli
+		}
+	}
+
+	cuyutec = {
+		male_names = {
+			Moctezuma Auitzotl Axayacatl Cuauhtemoc Cuitlahuac Huitzilihuitl Itzcoatl Ohimalpopoca Tizoc 
+			Motelchiuh Tehuetstiquitzin Tlacotzin Xochiquentzin Acamapichtli Chimalpopoca Tenoch Acacitli 
+			Axacaya Cacamatzin Eyahue Huicton Ilhuicamina Itzquautzin Mazatl Nopaltzin Olintecke Opochtli 
+			Quetzalmantzin Quimichetl Texcoyo Timas Tlacaelel Tlotzin Xiuhcozcatl Xocoyol Yaztachimal Zolton
+			Ahcambal Huanitzin Panitzin
+		}
+		female_names = {
+			Centehua Moyolehuani Yaotl Mixcoatl Necahual Nelli Ohtli Papa Patli
+		}
+	}
+
+	newtotonac = {
+		male_names = {
+			Moctezuma Auitzotl Axayacatl Cuauhtemoc Cuitlahuac Huitzilihuitl Itzcoatl Ohimalpopoca Tizoc 
+			Motelchiuh Tehuetstiquitzin Tlacotzin Xochiquentzin Acamapichtli Chimalpopoca Tenoch Acacitli 
+			Axacaya Cacamatzin Eyahue Huicton Ilhuicamina Itzquautzin Mazatl Nopaltzin Olintecke Opochtli 
+			Quetzalmantzin Quimichetl Texcoyo Timas Tlacaelel Tlotzin Xiuhcozcatl Xocoyol Yaztachimal Zolton
+			Ahcambal Huanitzin Panitzin
+		}
+		female_names = {
+			Centehua Moyolehuani Yaotl Mixcoatl Necahual Nelli Ohtli Papa Patli
+		}
+	}
+
+	huastec = {
+		male_names = {
+			Moctezuma Auitzotl Axayacatl Cuauhtemoc Cuitlahuac Huitzilihuitl Itzcoatl Ohimalpopoca Tizoc 
+			Motelchiuh Tehuetstiquitzin Tlacotzin Xochiquentzin Acamapichtli Chimalpopoca Tenoch Acacitli 
+			Axacaya Cacamatzin Eyahue Huicton Ilhuicamina Itzquautzin Mazatl Nopaltzin Olintecke Opochtli 
+			Quetzalmantzin Quimichetl Texcoyo Timas Tlacaelel Tlotzin Xiuhcozcatl Xocoyol Yaztachimal Zolton
+			Ahcambal Huanitzin Panitzin
+		}
+		female_names = {
+			Centehua Moyolehuani Yaotl Mixcoatl Necahual Nelli Ohtli Papa Patli
+		}
+	}
+
+	tlaxcallan = {
+		male_names = {
+			Moctezuma Auitzotl Axayacatl Cuauhtemoc Cuitlahuac Huitzilihuitl Itzcoatl Ohimalpopoca Tizoc 
+			Motelchiuh Tehuetstiquitzin Tlacotzin Xochiquentzin Acamapichtli Chimalpopoca Tenoch Acacitli 
+			Axacaya Cacamatzin Eyahue Huicton Ilhuicamina Itzquautzin Mazatl Nopaltzin Olintecke Opochtli 
+			Quetzalmantzin Quimichetl Texcoyo Timas Tlacaelel Tlotzin Xiuhcozcatl Xocoyol Yaztachimal Zolton
+			Ahcambal Huanitzin Panitzin
+		}
+		female_names = {
+			Centehua Moyolehuani Yaotl Mixcoatl Necahual Nelli Ohtli Papa Patli
+		}
+	}
+
+	xochimila = {
+		male_names = {
+			Moctezuma Auitzotl Axayacatl Cuauhtemoc Cuitlahuac Huitzilihuitl Itzcoatl Ohimalpopoca Tizoc 
+			Motelchiuh Tehuetstiquitzin Tlacotzin Xochiquentzin Acamapichtli Chimalpopoca Tenoch Acacitli 
+			Axacaya Cacamatzin Eyahue Huicton Ilhuicamina Itzquautzin Mazatl Nopaltzin Olintecke Opochtli 
+			Quetzalmantzin Quimichetl Texcoyo Timas Tlacaelel Tlotzin Xiuhcozcatl Xocoyol Yaztachimal Zolton
+			Ahcambal Huanitzin Panitzin
+		}
+		female_names = {
+			Centehua Moyolehuani Yaotl Mixcoatl Necahual Nelli Ohtli Papa Patli
+		}
+	}
+
+	mizquic = {
+		male_names = {
+			Moctezuma Auitzotl Axayacatl Cuauhtemoc Cuitlahuac Huitzilihuitl Itzcoatl Ohimalpopoca Tizoc 
+			Motelchiuh Tehuetstiquitzin Tlacotzin Xochiquentzin Acamapichtli Chimalpopoca Tenoch Acacitli 
+			Axacaya Cacamatzin Eyahue Huicton Ilhuicamina Itzquautzin Mazatl Nopaltzin Olintecke Opochtli 
+			Quetzalmantzin Quimichetl Texcoyo Timas Tlacaelel Tlotzin Xiuhcozcatl Xocoyol Yaztachimal Zolton
+			Ahcambal Huanitzin Panitzin
+		}
+		female_names = {
+			Centehua Moyolehuani Yaotl Mixcoatl Necahual Nelli Ohtli Papa Patli
+		}
+	}
+
+	colhua = {
+		male_names = {
+			Moctezuma Auitzotl Axayacatl Cuauhtemoc Cuitlahuac Huitzilihuitl Itzcoatl Ohimalpopoca Tizoc 
+			Motelchiuh Tehuetstiquitzin Tlacotzin Xochiquentzin Acamapichtli Chimalpopoca Tenoch Acacitli 
+			Axacaya Cacamatzin Eyahue Huicton Ilhuicamina Itzquautzin Mazatl Nopaltzin Olintecke Opochtli 
+			Quetzalmantzin Quimichetl Texcoyo Timas Tlacaelel Tlotzin Xiuhcozcatl Xocoyol Yaztachimal Zolton
+			Ahcambal Huanitzin Panitzin
+		}
+		female_names = {
+			Centehua Moyolehuani Yaotl Mixcoatl Necahual Nelli Ohtli Papa Patli
+		}
+	}
+
+	chalca = {
+		male_names = {
+			Moctezuma Auitzotl Axayacatl Cuauhtemoc Cuitlahuac Huitzilihuitl Itzcoatl Ohimalpopoca Tizoc 
+			Motelchiuh Tehuetstiquitzin Tlacotzin Xochiquentzin Acamapichtli Chimalpopoca Tenoch Acacitli 
+			Axacaya Cacamatzin Eyahue Huicton Ilhuicamina Itzquautzin Mazatl Nopaltzin Olintecke Opochtli 
+			Quetzalmantzin Quimichetl Texcoyo Timas Tlacaelel Tlotzin Xiuhcozcatl Xocoyol Yaztachimal Zolton
+			Ahcambal Huanitzin Panitzin
+		}
+		female_names = {
+			Centehua Moyolehuani Yaotl Mixcoatl Necahual Nelli Ohtli Papa Patli
+		}
+	}
+
+	acolhua = {
+		male_names = {
+			Moctezuma Auitzotl Axayacatl Cuauhtemoc Cuitlahuac Huitzilihuitl Itzcoatl Ohimalpopoca Tizoc 
+			Motelchiuh Tehuetstiquitzin Tlacotzin Xochiquentzin Acamapichtli Chimalpopoca Tenoch Acacitli 
+			Axacaya Cacamatzin Eyahue Huicton Ilhuicamina Itzquautzin Mazatl Nopaltzin Olintecke Opochtli 
+			Quetzalmantzin Quimichetl Texcoyo Timas Tlacaelel Tlotzin Xiuhcozcatl Xocoyol Yaztachimal Zolton
+			Ahcambal Huanitzin Panitzin
+		}
+		female_names = {
+			Centehua Moyolehuani Yaotl Mixcoatl Necahual Nelli Ohtli Papa Patli
+		}
+	}
+
+	tepanec = {
+		male_names = {
+			Moctezuma Auitzotl Axayacatl Cuauhtemoc Cuitlahuac Huitzilihuitl Itzcoatl Ohimalpopoca Tizoc 
+			Motelchiuh Tehuetstiquitzin Tlacotzin Xochiquentzin Acamapichtli Chimalpopoca Tenoch Acacitli 
+			Axacaya Cacamatzin Eyahue Huicton Ilhuicamina Itzquautzin Mazatl Nopaltzin Olintecke Opochtli 
+			Quetzalmantzin Quimichetl Texcoyo Timas Tlacaelel Tlotzin Xiuhcozcatl Xocoyol Yaztachimal Zolton
+			Ahcambal Huanitzin Panitzin
+		}
+		female_names = {
+			Centehua Moyolehuani Yaotl Mixcoatl Necahual Nelli Ohtli Papa Patli
+		}
+	}
+
+	mexica = {
+		male_names = {
+			Moctezuma Auitzotl Axayacatl Cuauhtemoc Cuitlahuac Huitzilihuitl Itzcoatl Ohimalpopoca Tizoc 
+			Motelchiuh Tehuetstiquitzin Tlacotzin Xochiquentzin Acamapichtli Chimalpopoca Tenoch Acacitli 
+			Axacaya Cacamatzin Eyahue Huicton Ilhuicamina Itzquautzin Mazatl Nopaltzin Olintecke Opochtli 
+			Quetzalmantzin Quimichetl Texcoyo Timas Tlacaelel Tlotzin Xiuhcozcatl Xocoyol Yaztachimal Zolton
+			Ahcambal Huanitzin Panitzin
+		}
+		female_names = {
+			Centehua Moyolehuani Yaotl Mixcoatl Necahual Nelli Ohtli Papa Patli
+		}
+	}
+
+	dynasty_names = {
+		# CKII
+		"Acatl" "Atl" "Calli" "Cipactli" "Coatl" "Coyotl" "Cozcaquauhtli" "Cuetzpalin" "Ehecatl" "Icpalli" 
+		"Itz" "Itzcuintli" "Macehualli" "Malinalli" "Mazatl" "Miquiztli" "Nezahual" "Nochtli" "Ocelotl" 
+		"Ollin" "Otli" "Ozomatli" "Pipiltin" "Pochtecatl" "Quauhtli" "Quauitl" "Quiautl" "Tecpatl" 
+		"Tecuhtli" "Tepetl" "Tetl" "Tlantli" "Tochtli" "Toltecatl" "Xochitl"
+	}
+}
+
+mixteczapotec = {
+	graphical_culture = southamericagfx
+
+	amuzgo = {
+		male_names = {
+			Cocijoeza Cocijopi Xolo Nucano Cocijocza Cocijopi Zaachilla Cocijouza Cocijopi Jzió Pwuix Dao 
+			Binech Bzojj Chsáaxcejj Cháalaxa Chonna Bicu Coqui Djoraxa Gwèibóoné Gyazob Gyejj Ipalnemoani Ji 
+			Jzió Láxdaóxo Lyebe Mbalaz Na Yel Naquichinisa Naxiñanguiiu Ngolbex An Nguiiu Rire Nisa Ro Pijje 
+			Rusiguunda Véeni Veziá Zne Yel Zniá Zyrx Beljjw Bibejw Jzió Jituh Jzió Tobi
+		}
+		female_names = {
+			Zyanya Nayeli Yoltzin Xilonen Xiloxoch Xiuhtomiyauhtzin Xochitl Xocoh Xocoyotl Yaretzi Zeltzin
+		}
+	}
+
+	newmixtec = {
+		male_names = {
+			Cocijoeza Cocijopi Xolo Nucano Cocijocza Cocijopi Zaachilla Cocijouza Cocijopi Jzió Pwuix Dao 
+			Binech Bzojj Chsáaxcejj Cháalaxa Chonna Bicu Coqui Djoraxa Gwèibóoné Gyazob Gyejj Ipalnemoani Ji 
+			Jzió Láxdaóxo Lyebe Mbalaz Na Yel Naquichinisa Naxiñanguiiu Ngolbex An Nguiiu Rire Nisa Ro Pijje 
+			Rusiguunda Véeni Veziá Zne Yel Zniá Zyrx Beljjw Bibejw Jzió Jituh Jzió Tobi
+		}
+		female_names = {
+			Zyanya Nayeli Yoltzin Xilonen Xiloxoch Xiuhtomiyauhtzin Xochitl Xocoh Xocoyotl Yaretzi Zeltzin
+		}
+	}
+	
+	newzapotec = {
+		male_names = {
+			Cocijoeza Cocijopi Xolo Nucano Cocijocza Cocijopi Zaachilla Cocijouza Cocijopi Jzió Pwuix Dao 
+			Binech Bzojj Chsáaxcejj Cháalaxa Chonna Bicu Coqui Djoraxa Gwèibóoné Gyazob Gyejj Ipalnemoani Ji 
+			Jzió Láxdaóxo Lyebe Mbalaz Na Yel Naquichinisa Naxiñanguiiu Ngolbex An Nguiiu Rire Nisa Ro Pijje 
+			Rusiguunda Véeni Veziá Zne Yel Zniá Zyrx Beljjw Bibejw Jzió Jituh Jzió Tobi
+		}
+		female_names = {
+			Zyanya Nayeli Yoltzin Xilonen Xiloxoch Xiuhtomiyauhtzin Xochitl Xocoh Xocoyotl Yaretzi Zeltzin
+		}
+	}
+	dynasty_names = {
+		Beljjw Bibejw Binech "Bzojj Chsáaxcejj" Cháalaxa Coqui Djoraxa Gwpeibóoné Gyazob Gyejj "Ji Jzió" Jituh Jzió Láxdaóxo 
+		Lyebe Mbalaz "Na Yel" "Ngolbex An" "Pijje Jzió" "Pwuix Dao" Véeni Vziá "Zne Yel" Zniá Zyrx Zaachila "Ñuhu Tocuisi" Oaxaca 
+	}
+}
+
+purepecha = {
+	graphical_culture = southamericagfx
+
+	xilotlantxinco = {
+		male_names = {
+			Tariacuri Hiquingaje Hiripan Tangaxuan Tzitzipandaquare Zuangua Huitzimengari Tangaxoan Tzimtzincha 
+			Cuinierangari Bibejw Binech Bzojj Chsáaxcejj Cháalaxa Chonna Bicu Coqui Djoraxa Gwèibóoné Gyazob 
+			Ipalnemoani Ji Jzió Jituh Jzió Láxdaóxo Lyebe Mbalaz Na Yel Naquichinisa Naxiñanguiiu Ngolbex An 
+			Rire Nisa Ro Pijje Jzió Tobi Rusiguunda Véeni Veziá Zne Yel Zniá Zyrx Gyejj Nguiiu
+		}
+		female_names = {
+			Zyanya Nayeli Teiuc Teicuih Teyacapan Tepin 
+		}
+	}
+
+	cuitlateco = {
+		male_names = {
+			Tariacuri Hiquingaje Hiripan Tangaxuan Tzitzipandaquare Zuangua Huitzimengari Tangaxoan Tzimtzincha 
+			Cuinierangari Bibejw Binech Bzojj Chsáaxcejj Cháalaxa Chonna Bicu Coqui Djoraxa Gwèibóoné Gyazob 
+			Ipalnemoani Ji Jzió Jituh Jzió Láxdaóxo Lyebe Mbalaz Na Yel Naquichinisa Naxiñanguiiu Ngolbex An 
+			Rire Nisa Ro Pijje Jzió Tobi Rusiguunda Véeni Veziá Zne Yel Zniá Zyrx Gyejj Nguiiu
+		}
+		female_names = {
+			Zyanya Nayeli Teiuc Teicuih Teyacapan Tepin 
+		}
+	}
+
+	chumbia = {
+		male_names = {
+			Tariacuri Hiquingaje Hiripan Tangaxuan Tzitzipandaquare Zuangua Huitzimengari Tangaxoan Tzimtzincha 
+			Cuinierangari Bibejw Binech Bzojj Chsáaxcejj Cháalaxa Chonna Bicu Coqui Djoraxa Gwèibóoné Gyazob 
+			Ipalnemoani Ji Jzió Jituh Jzió Láxdaóxo Lyebe Mbalaz Na Yel Naquichinisa Naxiñanguiiu Ngolbex An 
+			Rire Nisa Ro Pijje Jzió Tobi Rusiguunda Véeni Veziá Zne Yel Zniá Zyrx Gyejj Nguiiu
+		}
+		female_names = {
+			Zyanya Nayeli Teiuc Teicuih Teyacapan Tepin 
+		}
+	}
+
+	cuauhcomeca = {
+		male_names = {
+			Tariacuri Hiquingaje Hiripan Tangaxuan Tzitzipandaquare Zuangua Huitzimengari Tangaxoan Tzimtzincha 
+			Cuinierangari Bibejw Binech Bzojj Chsáaxcejj Cháalaxa Chonna Bicu Coqui Djoraxa Gwèibóoné Gyazob 
+			Ipalnemoani Ji Jzió Jituh Jzió Láxdaóxo Lyebe Mbalaz Na Yel Naquichinisa Naxiñanguiiu Ngolbex An 
+			Rire Nisa Ro Pijje Jzió Tobi Rusiguunda Véeni Veziá Zne Yel Zniá Zyrx Gyejj Nguiiu
+		}
+		female_names = {
+			Zyanya Nayeli Teiuc Teicuih Teyacapan Tepin 
+		}
+	}
+
+	pirinda = {
+		male_names = {
+			Tariacuri Hiquingaje Hiripan Tangaxuan Tzitzipandaquare Zuangua Huitzimengari Tangaxoan Tzimtzincha 
+			Cuinierangari Bibejw Binech Bzojj Chsáaxcejj Cháalaxa Chonna Bicu Coqui Djoraxa Gwèibóoné Gyazob 
+			Ipalnemoani Ji Jzió Jituh Jzió Láxdaóxo Lyebe Mbalaz Na Yel Naquichinisa Naxiñanguiiu Ngolbex An 
+			Rire Nisa Ro Pijje Jzió Tobi Rusiguunda Véeni Veziá Zne Yel Zniá Zyrx Gyejj Nguiiu
+		}
+		female_names = {
+			Zyanya Nayeli Teiuc Teicuih Teyacapan Tepin 
+		}
+	}
+
+	matlatxinca = {
+		male_names = {
+			Tariacuri Hiquingaje Hiripan Tangaxuan Tzitzipandaquare Zuangua Huitzimengari Tangaxoan Tzimtzincha 
+			Cuinierangari Bibejw Binech Bzojj Chsáaxcejj Cháalaxa Chonna Bicu Coqui Djoraxa Gwèibóoné Gyazob 
+			Ipalnemoani Ji Jzió Jituh Jzió Láxdaóxo Lyebe Mbalaz Na Yel Naquichinisa Naxiñanguiiu Ngolbex An 
+			Rire Nisa Ro Pijje Jzió Tobi Rusiguunda Véeni Veziá Zne Yel Zniá Zyrx Gyejj Nguiiu
+		}
+		female_names = {
+			Zyanya Nayeli Teiuc Teicuih Teyacapan Tepin 
+		}
+	}
+
+	maxahua = {
+		male_names = {
+			Tariacuri Hiquingaje Hiripan Tangaxuan Tzitzipandaquare Zuangua Huitzimengari Tangaxoan Tzimtzincha 
+			Cuinierangari Bibejw Binech Bzojj Chsáaxcejj Cháalaxa Chonna Bicu Coqui Djoraxa Gwèibóoné Gyazob 
+			Ipalnemoani Ji Jzió Jituh Jzió Láxdaóxo Lyebe Mbalaz Na Yel Naquichinisa Naxiñanguiiu Ngolbex An 
+			Rire Nisa Ro Pijje Jzió Tobi Rusiguunda Véeni Veziá Zne Yel Zniá Zyrx Gyejj Nguiiu
+		}
+		female_names = {
+			Zyanya Nayeli Teiuc Teicuih Teyacapan Tepin 
+		}
+	}
+
+	teco = {
+		male_names = {
+			Tariacuri Hiquingaje Hiripan Tangaxuan Tzitzipandaquare Zuangua Huitzimengari Tangaxoan Tzimtzincha 
+			Cuinierangari Bibejw Binech Bzojj Chsáaxcejj Cháalaxa Chonna Bicu Coqui Djoraxa Gwèibóoné Gyazob 
+			Ipalnemoani Ji Jzió Jituh Jzió Láxdaóxo Lyebe Mbalaz Na Yel Naquichinisa Naxiñanguiiu Ngolbex An 
+			Rire Nisa Ro Pijje Jzió Tobi Rusiguunda Véeni Veziá Zne Yel Zniá Zyrx Gyejj Nguiiu
+		}
+		female_names = {
+			Zyanya Nayeli Teiuc Teicuih Teyacapan Tepin 
+		}
+	}
+
+	tarascan = {
+		male_names = {
+			Tariacuri Hiquingaje Hiripan Tangaxuan Tzitzipandaquare Zuangua Huitzimengari Tangaxoan Tzimtzincha 
+			Cuinierangari Bibejw Binech Bzojj Chsáaxcejj Cháalaxa Chonna Bicu Coqui Djoraxa Gwèibóoné Gyazob 
+			Ipalnemoani Ji Jzió Jituh Jzió Láxdaóxo Lyebe Mbalaz Na Yel Naquichinisa Naxiñanguiiu Ngolbex An 
+			Rire Nisa Ro Pijje Jzió Tobi Rusiguunda Véeni Veziá Zne Yel Zniá Zyrx Gyejj Nguiiu
+		}
+		female_names = {
+			Zyanya Nayeli Teiuc Teicuih Teyacapan Tepin 
+		}
+	}
+
+	dynasty_names = {
+		# CKII
+		"Acatl" "Atl" "Calli" "Cipactli" "Coatl" "Coyotl" "Cozcaquauhtli" "Cuetzpalin" "Ehecatl" "Icpalli" 
+		"Itz" "Itzcuintli" "Macehualli" "Malinalli" "Mazatl" "Miquiztli" "Nezahual" "Nochtli" "Ocelotl" 
+		"Ollin" "Otli" "Ozomatli" "Pipiltin" "Pochtecatl" "Quauhtli" "Quauitl" "Quiautl" "Tecpatl" 
+		"Tecuhtli" "Tepetl" "Tetl" "Tlantli" "Tochtli" "Toltecatl" "Xochitl"
+	}
+}
+
+isthmus = {
+	graphical_culture = southamericagfx
+
+	centralamericannative = {
+		male_names = {
+			"Can Ek" "Balam Quitze" "Kan Boar" "Yax Kuk Mok" "Ah Can" "Vahxaqui Caam" "Ah Cacao" "Cham Bahlun" 
+			"Pacal Balam" "Yaxum Balam" "Butz Chan" "Chaan Muan" "Yax Pac" "Ahpop-Achi" "Kan Bahlun Mo" Cocom 
+			Pacal Ahmok Arana Bakan Bor Cocaib Cocoja Conache Cotuja Gucamatz Hnuyg Kayom Kukumatz 
+			Mochcouoh Nohochacyum Oxib Queh Tecunuman Tutul Xiu Tziquin Vataki Yumcaaz Zotz Ahkinxok "Cu Ix" 
+		}
+		female_names = {
+			Sacnite Adsila Aiyana Ayasha Ayita Bly Dena Halona Kimi Magena Nayeli Kisa Eme
+		}
+	}
+
+	dynasty_names = {
+		Aké Bonampak Becan Bolonchen Chaac Camazotz Cancuén Caracol Cerros Chacchoben Chacmultun Chinikiha Chinkultic 
+		Chunchucmil Civiltuk Calakmul Copan Coba Dzibilchaltun Dzibilnocac Dzilam Edzná Ekab Gumarcaj Gucumatz Hocchob 
+		Hormiguero Hunahpu Huracan Ixbalanque Ixchel Ixtab Ichmac Ichmul Itzan Ixil Iximche Ixlu Izamal Labná Louisville 
+		Lubaantun Lubaantun Jaina Jolja Kaminaljuyu Kabah Kiuic "Kantunil Kin" Lamanai Mayapan Machaquila Mani Muluchtzekel 
+		Muyil Nakum Nakbe Naranjo Nebaj Okop Oxcutzcab Oxkintok Palenque Pomoná Pusilha Quirigua Sayil Seibal Sisila Tonina 
+		Tikal Tulum Tancah Tazumal Tecoh Topoxté Uxmal Uaxactun Ucanal Uci Utatlan Waká Xcalumkin Xcaret Xcorralche Xcucsuc 
+		Xculoc Xlapak Xpuhil Xultun Xunantunich Yaklmai Yaxchilan Yaxha Yo'okop Zipacna Zaculeu 
+	}
+}
+
+mayan = {
+	graphical_culture = southamericagfx
+
+	mixezoquemayan = {
+		male_names = {
+			"Can Ek" "Balam Quitze" "Kan Boar" "Yax Kuk Mok" "Ah Can" "Vahxaqui Caam" "Ah Cacao" "Cham Bahlun" 
+			"Pacal Balam" "Yaxum Balam" "Butz Chan" "Chaan Muan" "Yax Pac" "Ahpop-Achi" "Kan Bahlun Mo" Cocom 
+			Pacal Ahmok Arana Bakan Bor Cocaib Cocoja Conache Cotuja Gucamatz Hnuyg Kayom Kukumatz 
+			Mochcouoh Nohochacyum Oxib Queh Tecunuman Tutul Xiu Tziquin Vataki Yumcaaz Zotz Ahkinxok "Cu Ix" 
+		}
+		female_names = {
+			Sacnite Adsila Aiyana Ayasha Ayita Bly Dena Halona Kimi Magena Nayeli Kisa Eme
+		}
+	}
+
+	centralmayan = {
+		male_names = {
+			"Can Ek" "Balam Quitze" "Kan Boar" "Yax Kuk Mok" "Ah Can" "Vahxaqui Caam" "Ah Cacao" "Cham Bahlun" 
+			"Pacal Balam" "Yaxum Balam" "Butz Chan" "Chaan Muan" "Yax Pac" "Ahpop-Achi" "Kan Bahlun Mo" Cocom 
+			Pacal Ahmok Arana Bakan Bor Cocaib Cocoja Conache Cotuja Gucamatz Hnuyg Kayom Kukumatz 
+			Mochcouoh Nohochacyum Oxib Queh Tecunuman Tutul Xiu Tziquin Vataki Yumcaaz Zotz Ahkinxok "Cu Ix" 
+		}
+		female_names = {
+			Sacnite Adsila Aiyana Ayasha Ayita Bly Dena Halona Kimi Magena Nayeli Kisa Eme
+		}
+	}
+
+	highlandsmayan = {
+		male_names = {
+			"Can Ek" "Balam Quitze" "Kan Boar" "Yax Kuk Mok" "Ah Can" "Vahxaqui Caam" "Ah Cacao" "Cham Bahlun" 
+			"Pacal Balam" "Yaxum Balam" "Butz Chan" "Chaan Muan" "Yax Pac" "Ahpop-Achi" "Kan Bahlun Mo" Cocom 
+			Pacal Ahmok Arana Bakan Bor Cocaib Cocoja Conache Cotuja Gucamatz Hnuyg Kayom Kukumatz 
+			Mochcouoh Nohochacyum Oxib Queh Tecunuman Tutul Xiu Tziquin Vataki Yumcaaz Zotz Ahkinxok "Cu Ix" 
+		}
+		female_names = {
+			Sacnite Adsila Aiyana Ayasha Ayita Bly Dena Halona Kimi Magena Nayeli Kisa Eme
+		}
+	}
+	
+	yucatecmayan = {
+		male_names = {
+			"Can Ek" "Balam Quitze" "Kan Boar" "Yax Kuk Mok" "Ah Can" "Vahxaqui Caam" "Ah Cacao" "Cham Bahlun" 
+			"Pacal Balam" "Yaxum Balam" "Butz Chan" "Chaan Muan" "Yax Pac" "Ahpop-Achi" "Kan Bahlun Mo" Cocom 
+			Pacal Ahmok Arana Bakan Bor Cocaib Cocoja Conache Cotuja Gucamatz Hnuyg Kayom Kukumatz 
+			Mochcouoh Nohochacyum Oxib Queh Tecunuman Tutul Xiu Tziquin Vataki Yumcaaz Zotz Ahkinxok "Cu Ix" 
+		}
+		female_names = {
+			Sacnite Adsila Aiyana Ayasha Ayita Bly Dena Halona Kimi Magena Nayeli Kisa Eme
+		}
+	}
+
+	dynasty_names = {
+		Aké Bonampak Becan Bolonchen Chaac Camazotz Cancuén Caracol Cerros Chacchoben Chacmultun Chinikiha Chinkultic 
+		Chunchucmil Civiltuk Calakmul Copan Coba Dzibilchaltun Dzibilnocac Dzilam Edzná Ekab Gumarcaj Gucumatz Hocchob 
+		Hormiguero Hunahpu Huracan Ixbalanque Ixchel Ixtab Ichmac Ichmul Itzan Ixil Iximche Ixlu Izamal Labná Louisville 
+		Lubaantun Lubaantun Jaina Jolja Kaminaljuyu Kabah Kiuic "Kantunil Kin" Lamanai Mayapan Machaquila Mani Muluchtzekel 
+		Muyil Nakum Nakbe Naranjo Nebaj Okop Oxcutzcab Oxkintok Palenque Pomoná Pusilha Quirigua Sayil Seibal Sisila Tonina 
+		Tikal Tulum Tancah Tazumal Tecoh Topoxté Uxmal Uaxactun Ucanal Uci Utatlan Waká Xcalumkin Xcaret Xcorralche Xcucsuc 
+		Xculoc Xlapak Xpuhil Xultun Xunantunich Yaklmai Yaxchilan Yaxha Yo'okop Zipacna Zaculeu 
+	}
+}

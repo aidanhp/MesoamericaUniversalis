@@ -1,0 +1,867 @@
+# Do not change tags in here without changing every other reference to them.
+# Do not change tags in here without changing every other reference to them.
+# If adding new groups or ideas, make sure they are unique.
+
+# ai_will do is only used to determine which idea group is picked if AI_USES_HISTORICAL_IDEA_GROUPS define is 0, OR start is custom/random
+# ai never picks an idea that resolves to ai_will_do = 0, even if AI_USES_HISTORICAL_IDEA_GROUPS = 1
+# ROOT = country picking the idea
+# groups set to colonial=yes will be higher prioritized by the AI when spending power
+
+#ADMIN GROUPS
+tribute_ideas = {
+	category = ADM
+	
+	bonus = {
+		diplomatic_upkeep = 2
+	}
+
+	trigger = {
+		NOT = {
+			has_idea_group = directconquest_ideas
+		}
+	}
+
+	expanddip1 = {
+		diplomatic_upkeep = 3
+	}
+
+	elaboratecapital = {
+		diplomatic_reputation = 2
+		prestige = 1
+	}
+
+	showsofstrength = {
+		reduced_liberty_desire = -10
+	}
+	
+	betterinfrastructure = {
+		envoy_travel_time = -0.75
+		land_attrition = -0.15
+	}
+
+	ambassadorcorps = {
+		diplomats = 3
+	}
+
+	tribtrade = {
+		reduced_liberty_desire = -5
+		trade_steering = 0.25
+		trade_efficiency = 0.1
+	}
+
+	bigstick = {
+		land_forcelimit_modifier  = 0.33
+		global_manpower_modifier  = 0.33
+	}
+
+	ai_will_do = {
+		factor = 0.90
+		
+		modifier = { 
+			factor = 10
+			OR = {
+				government = hegemonic_kingdom
+				government = hegemonic_empire
+			}
+		}	
+		
+		modifier = {
+			factor = 0
+			government = tarascan_tribute_kingdom
+		}	
+
+		modifier = {
+			factor = 0.50
+			government = kuchkabal
+		}
+	}
+}
+
+directconquest_ideas = {
+	category = ADM
+
+	bonus = {
+		global_manpower_modifier  = 0.20
+	}
+
+	trigger = {
+		NOT = {
+			has_idea_group = tribute_ideas
+		}
+	}
+
+	conqueststate = {
+
+	}
+
+	conquestbureau = {
+		core_creation = -0.50
+	}
+	
+	maizecircus = {
+		years_of_nationalism = -10
+		global_unrest = -1
+	}
+
+	removesubversive = {
+		global_unrest = -2
+	}
+
+	provministers = {
+		global_autonomy = -0.10
+	}
+
+	subtleoccupation = {
+		years_of_nationalism = -10
+	}
+
+	ruleoflaw = {
+		stability_cost_modifier = -0.50
+	}
+
+	ai_will_do = {
+		factor = 0.10
+		
+		modifier = { 
+			factor = 0
+			OR = {
+				government = hegemonic_kingdom
+				government = hegemonic_empire
+			}
+		}	
+		
+		modifier = {
+			factor = 10
+			government = tarascan_tribute_kingdom
+		}	
+
+		modifier = {
+			factor = 0.50
+			government = kuchkabal
+		}
+	}
+}
+
+centraltribute_ideas = {
+	category = ADM
+	
+	bonus = {
+		diplomatic_upkeep = 2
+	}
+
+	trigger = {
+		full_idea_group = tribute_ideas
+
+		NOT = {
+			has_idea_group = mightyhegemony_ideas
+		}
+	}
+
+	formalreqs = {
+		
+	}
+
+	tributeministers = {
+		
+	}
+
+	tributemanpower = {
+
+	}
+
+	expandambassador1 = {
+		diplomats = 3
+	}
+
+	expanddip2 = {
+		diplomatic_upkeep = 3
+	}
+
+	lawcode = {
+		reduced_liberty_desire = -10
+		stability_cost_modifier = -0.25
+	}
+
+	closefriends = {
+		improve_relation_modifier = 1
+	}
+
+	ai_will_do = {
+		factor = 0.90
+	}
+}
+
+mightyhegemony_ideas = {
+	category = ADM
+	
+	bonus = {
+		diplomatic_upkeep = 2
+	}
+
+	trigger = {
+		full_idea_group = tribute_ideas
+
+		NOT = {
+			has_idea_group = centraltribute_ideas
+		}
+	}
+
+	vastdiplo = {
+		diplomatic_upkeep = 8
+	}
+
+	unchallengable = {
+		reduced_liberty_desire = -25
+		ae_impact = -0.25
+	}
+
+	biggerstick = {
+		land_forcelimit_modifier  = 0.25
+	}
+
+	ostentatious = {
+		diplomatic_reputation = 2
+	}
+
+	moresupplyob = {
+		land_attrition = -0.20
+		global_regiment_cost = -0.20
+	}
+
+	tradehegemon = {
+		trade_steering = 0.25
+		merchants = 2
+	}
+	
+	gloriousleader = {
+		legitimacy = 5
+	}
+
+	ai_will_do = {
+		factor = 0.90
+		
+	}
+}
+
+totalassimilation_ideas = {
+	category = ADM
+	
+	bonus = {
+		culture_conversion_cost = -0.25
+	}
+
+	trigger = {
+		full_idea_group = directconquest_ideas
+
+		NOT = {
+			has_idea_group = integration_ideas
+		}
+	}
+
+	totalassim = {
+		tolerance_own = 2
+		tolerance_heretic = -4
+		tolerance_heathen = -6
+		accepted_culture_threshold = 100
+	}
+
+	convert1 = {
+		missionaries = 1
+		global_heretic_missionary_strength = 0.03
+	}
+
+	convert2 = {
+		missionaries = 1
+		global_missionary_strength = 0.03
+	}
+		
+	acculturation = {
+		culture_conversion_cost = -0.50
+		years_of_nationalism = -5
+	}
+
+	assimties = {
+		global_autonomy = -0.10
+		culture_conversion_cost = -0.10
+	}
+
+	ethnicresettle = {
+		
+	}
+
+	fullexploit = {
+		local_manpower_modifier = 0.25
+		local_tax_modifier = 0.25
+	}
+
+	ai_will_do = {
+		factor = 0.90
+	}
+}
+
+integration_ideas = {
+	category = ADM
+	
+	bonus = {
+		accepted_culture_threshold = -0.25
+	}
+
+	trigger = {
+		full_idea_group = directconquest_ideas
+
+		NOT = {
+			has_idea_group = totalassimilation_ideas
+		}
+	}
+
+	diverseinte = {
+		accepted_culture_threshold = -0.10
+		core_creation = 0.15
+		global_autonomy = 0.10
+		tolerance_heretic = 2
+		tolerance_heathen = 2
+	}
+
+	cultureequal = {
+		accepted_culture_threshold = -0.25
+		global_unrest = -1
+	}
+
+	religionequal = {
+		tolerance_heretic = 3
+		tolerance_heathen = 3
+	}
+
+	ethnicaux = {
+		global_manpower_modifier = 0.25
+	}
+
+	cultureexchange = {
+		idea_cost = -0.05
+	}
+
+	unitedidentity = {
+		years_of_nationalism = -15
+	}
+
+	cosmopolitan = {
+		accepted_culture_threshold = -0.25
+		advisor_pool = 3
+	}
+	ai_will_do = {
+		factor = 0.90
+	}
+}
+
+#DIPLO GROUPS
+landexploit_ideas = {
+	category = DIP
+	
+	bonus = {
+		production_efficiency = 0.15
+	}
+
+	productionministry = {
+		production_efficiency = 0.15
+	}
+
+	improvedproduction = {
+		global_trade_goods_size_modifier = 0.20
+	}
+
+	militaryprod = {
+		
+	}
+
+	foodprod = {
+		war_exhaustion = -0.03
+	}
+
+	luxprod = {
+		global_trade_power = 0.2
+	}
+
+	metalsprod = {
+
+	}
+
+	earlyindustry = {
+		global_tax_modifier = 0.15
+		technology_cost = -0.05
+		idea_cost = -0.05
+	}
+		
+	ai_will_do = {
+		factor = 0.66
+	}
+}
+
+tradeexploit_ideas = {
+	category = DIP
+	
+	bonus = {
+		trade_efficiency = 0.20
+		merchants = 1
+	}
+
+	empowermerchants = {
+		merchants = 1
+	}
+
+	plannedroutes = {
+		trade_steering = 0.35
+	}
+
+	tradeguilds = {
+
+	}
+
+	tariffpolicy = {
+		global_own_trade_power = 0.33
+	}
+
+	cartographers = {
+		global_foreign_trade_power = 0.33
+		trade_range_modifier = 0.50
+	}
+
+	merchantadventure = {
+		trade_range_modifier = 1
+		trade_steering = 0.15
+	}
+
+	largemerchantclass = {
+		merchants = 3
+	}
+		
+	ai_will_do = {
+		factor = 0.66
+	}
+}
+
+sneaky_ideas = {
+	category = DIP
+	
+	bonus = {
+		diplomatic_upkeep = 4
+		spy_offence = 0.25
+	}
+
+	merchantspy = {
+		merchants = 1
+		spy_offence = 0.25
+	}
+	
+	professionalspy = {
+		diplomats = 1
+		spy_offence = 0.50
+	}
+	counterspy = {
+		global_spy_defence = 0.75
+	}	
+
+	fortspy = {
+		siege_ability = 0.25
+	}
+
+	subjectspy = {
+		reduced_liberty_desire = -20
+	}
+	
+	antiuspoliticalsystem = {
+		yearly_corruption = -0.1
+		global_unrest = -1
+		stability_cost_modifier = -0.10
+	}
+
+	exploitrebel ={
+		rebel_support_efficiency = 1
+	}
+
+	ai_will_do = {
+		factor = 0.66
+	}
+}
+
+colonization_ideas = {
+	category = DIP
+	
+	bonus = {
+		colonists = 1
+	}
+
+	sponsoredcolonies = {
+		colonists = 1
+		global_colonial_growth = 10
+	}
+
+	explorestuff = {
+		may_explore = yes
+	}
+	
+	resettlement = {
+		
+	}
+
+	sponsordev1 = {
+		global_colonial_growth = 10
+	}
+
+	sponsordev2 = {
+		global_colonial_growth = 10
+	}
+
+	sponsordev3 = {
+		global_colonial_growth = 10
+	}
+
+	colonialgoods = {
+		global_trade_power = 0.2
+	}
+
+	ai_will_do = {
+		factor = 0.66
+	}
+}
+
+foreigndom_ideas = {
+	category = DIP
+	
+	bonus = {
+		unjustified_demands = -0.25
+	}
+
+	trigger = {
+		NOT = {
+			has_idea_group = foreignnice 
+		}
+	}
+	
+	dompolicy = {
+		ae_impact = 0.2
+		diplomatic_upkeep = 2
+		diplomatic_reputation = 1
+	}
+
+	irondip1 = {
+		province_warscore_cost = -0.25
+	}
+
+	irondip2 = {
+		unjustified_demands = -0.50
+	}
+
+	threatofaction = {
+
+	}
+
+	absurdclaims = {
+		fabricate_claims_cost = -0.66
+	}
+
+	prestigiousforces = {
+		prestige_from_land = 5.0
+		infantry_power = 0.10
+	}
+
+	diplomatintimidation = {
+		diplomatic_reputation = 3
+	}
+	ai_will_do = {
+		factor = 0.66
+	}
+}
+
+foreignnice_ideas = {
+	category = DIP
+	
+	bonus = {
+		ae_impact = -0.10
+	}
+
+	trigger = {
+		NOT = {
+			has_idea_group = foreigndom 
+		}
+	}
+	
+	nicepolicy = {
+		ae_impact = -0.20
+		diplomatic_upkeep = 2
+		diplomatic_reputation = -3
+		reduced_liberty_desire = 33
+	}
+
+	charisma1 = {
+		improve_relation_modifier = 0.50
+	}
+
+	charisma2 = {
+		ae_impact = -0.20
+	}
+
+	lastresort = {
+		improve_relation_modifier = 0.25
+		diplomatic_reputation = 1
+	}
+
+	unitedfront = {
+		vassal_forcelimit_bonus = 1
+		reduced_liberty_desire = -25
+	}
+
+	giftsoflove = {
+		
+	}
+
+	goodreason = {
+		reduced_stab_impacts = yes
+	}
+
+	ai_will_do = {
+		factor = 0.66
+	}
+}
+
+#MIL GROUPS
+
+massmobilization_ideas = {
+	category = MIL
+	
+	bonus = {
+		leader_land_manuever = 2
+	}
+
+	urbanrecruit = {
+
+	}
+
+	ruralrecruit = {
+
+	}
+
+	statefarms = {
+		land_attrition = -0.15
+	}
+
+	stateindustry = {
+		global_regiment_cost = -0.15
+	}
+
+	expandedgarrisons = {
+		garrison_size = 0.40
+	}
+
+	warlaw = {
+		
+	}
+
+	optimizedtraining = {
+		global_regiment_recruit_speed = -0.33
+	}
+
+	ai_will_do = {
+		factor = 0.66
+	}
+}
+
+eliteorders_ideas = {
+	category = MIL
+	
+	bonus = {
+		leader_land_fire = 1
+	}
+
+	trigger = {
+		OR = {
+			full_idea_group = warriortradition_ideas
+			tag = TEN
+		}
+	}
+
+	trainedfrombirth = {
+		discipline = 0.075
+	}	
+
+	macuahuitl = {
+		infantry_power = 0.10
+	}
+
+	bannerleaders = {
+		land_morale = 0.1
+	}
+
+	bodyarmor = {
+		infantry_power = 0.05
+		land_morale = 0.05
+	}
+
+	socialadvancement = {
+		army_tradition = 1
+	}
+
+	warcouncil = {
+		
+	}
+
+	tlacochcalcatl = {
+		leader_land_shock = 1
+	}
+
+	ai_will_do = {
+		factor = 0.95
+	}
+}
+
+attritionwar_ideas = {
+	category = MIL
+	
+	bonus = {
+		leader_land_fire = 1
+	}
+
+	trigger = {
+		NOT = {
+			has_idea_group = quickwar_ideas
+		}
+	}
+
+	constantresist = {
+		enemy_core_creation = 0.33
+		hostile_attrition = 2.5
+	}
+
+	massfortifications = {
+		fort_maintenance_modifier = -0.40
+	}
+
+	totaldefense = {
+		garrison_size = 0.33
+		defensiveness = 0.33
+	}
+
+	anyonecanfight = {
+		manpower_recovery_speed = 0.33
+	}
+
+	localtraining = {
+		global_regiment_recruit_speed = -0.33
+	}
+
+	attritionmentality = {
+		leader_land_manuever = 1
+		war_exhaustion_cost = -0.33
+	}
+
+	unyielding = {
+		land_morale = 0.10
+		recover_army_morale_speed = 0.33
+	}	
+
+	
+	ai_will_do = {
+		factor = 0.50
+	}
+}
+
+quickwar_ideas = {
+	category = MIL
+	
+	bonus = {
+		leader_siege = 2
+	}
+
+	trigger = {
+		NOT = {
+			has_idea_group = attritionwar_ideas
+		}
+	}
+
+	supplyplan = {
+		land_attrition = -0.33
+	}
+
+	offensivemind = {
+		land_morale = 0.10
+		war_exhaustion = -0.05
+	}
+	
+	combinedarmstactics = {
+		leader_land_shock = 1
+		leader_land_fire = 1
+	}
+
+	recon = {
+		leader_land_manuever = 1
+	}
+
+	unbrokenadvance = {
+		discipline = 0.05
+	}
+
+	engineercorps = {
+		siege_ability = 0.25
+	}
+
+	tacticalgenius = {
+		leader_land_shock = 1
+		leader_land_manuever = 1
+	}
+	ai_will_do = {
+		factor = 0.50
+	}
+}
+
+warriortradition_ideas = {
+	category = MIL
+	
+	bonus = {
+		army_tradition = 0.25
+	}
+
+	trigger = {
+		NOT = {
+			tag = TEN
+		}
+	}
+
+	rewardcaptive = {
+		infantry_power = 0.05
+	}	
+
+	insignia = {
+		army_tradition = 0.25
+	}
+
+	shamefailure = {
+		army_tradition = 0.25
+	}
+
+	olddudes = {
+		army_tradition_decay = -0.01
+	}
+
+	warleader = {
+		legitimacy = 1
+		army_tradition = 0.25
+	}
+
+	noblewarriors = {
+		army_tradition = 0.25
+	}
+
+	militaryschools = {
+		
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+
+
+
+
+
+

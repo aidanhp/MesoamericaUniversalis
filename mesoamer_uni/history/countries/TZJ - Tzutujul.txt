@@ -1,0 +1,18 @@
+government = kuchkabal
+government_rank = 2
+mercantilism = 0.25
+technology_group = southern_mayan
+religion = newmayan 
+primary_culture = highlandsmayan
+capital = 648
+fixed_capital = 648
+
+1427.1.1 = {
+	monarch = {
+		name = "No Ruler"
+		dynasty = "Tzutujal"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

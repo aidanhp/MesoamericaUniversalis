@@ -1,0 +1,146 @@
+#Triple Alliance
+alliance = {
+	first = TEN
+	second = TET 
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+alliance = {
+	first = TEN
+	second = TCP
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+alliance = {
+	first = TET
+	second = TCP
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+royal_marriage = {
+	first = TEN
+	second = TET 
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+royal_marriage = {
+	first = TEN
+	second = TCP
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+royal_marriage = {
+	first = TET
+	second = TCP
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+#Tlaxcallan Confederacy
+alliance = {
+	first = TLX
+	second = HUE
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+alliance = {
+	first = TLX
+	second = LLC
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+
+alliance = {
+	first = LLC
+	second = HUE
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+#Tenoch Vassals
+vassal = {
+	first = TEN
+	second = XOC
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+vassal = {
+	first = TEN
+	second = MIZ
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+vassal = {
+	first = TEN
+	second = CUI
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+vassal = {
+	first = TEN
+	second = CUH
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+vassal = {
+	first = TEN
+	second = OTO
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+vassal = {
+	first = TEN
+	second = TPP
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+vassal = {
+	first = TEN
+	second = HUI
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+vassal = {
+	first = TEN
+	second = IXL
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+vassal = {
+	first = TEN
+	second = XOC
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+vassal = {
+	first = TEN
+	second = ACO
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+#Tetzcoca Vassals
+vassal = {
+	first = TET
+	second = HUX
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+vassal = {
+	first = TET
+	second = CLI
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+#Tlacopan Vassals
+#vassal = {
+#	first = TCP
+#	second = COY
+#}

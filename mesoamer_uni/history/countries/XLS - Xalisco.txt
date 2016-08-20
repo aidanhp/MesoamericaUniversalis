@@ -1,0 +1,18 @@
+government = altepetl
+government_rank = 2
+mercantilism = 0.25
+technology_group = west_mexican 
+religion = newnahuatl 
+primary_culture = caxcan
+capital = 119
+fixed_capital = 119
+
+1427.1.1 = {
+	monarch = {
+		name = "Tototl"
+		dynasty = "Xalisco"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

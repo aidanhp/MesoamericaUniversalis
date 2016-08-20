@@ -1,0 +1,167 @@
+#For Tribute Requirements
+
+highwealth = {
+	prestige = 0.10
+}
+
+normalwealth = {
+	prestige = 0.05
+}
+
+lowwealth = {
+	prestige = 0.025
+}
+
+
+highwarriors = {
+	prestige = 0.10
+}
+
+normalwarriors = {
+	prestige = 0.05
+}
+
+lowwarriors = {
+	prestige = 0.025
+}
+
+
+highsupplies = {
+	prestige = 0.10
+}
+
+normalsupplies = {
+	prestige = 0.05
+}
+
+lowsupplies = {	
+	prestige = 0.025
+}
+
+wellsupplied1 = {
+	land_attrition = -0.05
+	infantry_power = 0.05
+}
+
+wellsupplied2 = {
+	land_attrition = -0.10
+	infantry_power = 0.10
+}
+
+wellsupplied3 = {
+	land_attrition = -0.15
+	infantry_power = 0.15
+}
+
+poorlysupplied1 = {
+	land_attrition = 0.05
+	infantry_power = -0.05
+}
+
+poorlysupplied2 = {
+	land_attrition = 0.10
+	infantry_power = -0.10
+}
+
+poorlysupplied3 = {
+	land_attrition = 0.15
+	infantry_power = -0.15
+}
+
+#Bin System
+
+bincooldown = {
+
+}
+
+############
+#Draft Laws#
+############
+
+base_law = {
+	local_manpower_modifier = -0.999
+}
+
+#For Elite Pops
+e_optionalcareer = {
+	local_manpower_modifier = 0.01
+	local_tax_modifier = 0.01
+}
+
+e_expectedservice = {
+	local_manpower_modifier = 0.02
+	army_tradition = 0.01
+}
+
+e_oldestson = {
+	local_manpower_modifier = 0.03
+	local_tax_modifier = -0.025
+	army_tradition = 0.02
+}
+
+e_allsons = {
+	local_manpower_modifier = 0.048
+	local_tax_modifier = -0.05
+	army_tradition = 0.03
+}
+
+#For Artisan Pops
+a_noservice = {
+	local_production_efficiency = 0.05
+}
+
+a_expectedservice = {
+	local_manpower_modifier = 0.05
+	local_production_efficiency = -0.10
+}
+
+a_oldestson = {
+	local_manpower_modifier = 0.075
+	local_production_efficiency = -0.25
+}
+
+a_allsons = {
+	local_manpower_modifier = 0.098
+	local_production_efficiency = -0.50
+}
+
+#For Commoner Pops
+c_optionalcareer = {
+	local_manpower_modifier = 0.07
+	local_tax_modifier = 0.05
+	local_unrest = -2
+}
+
+c_expectedservice = {
+	local_manpower_modifier = 0.175
+	army_tradition = 0.01
+}
+
+c_oldestson = {
+	local_manpower_modifier = 0.25
+	local_unrest = 1
+	army_tradition = 0.02
+}
+
+c_allsons = {
+	local_manpower_modifier = 0.343
+	local_unrest = 4
+	army_tradition = 0.03
+}
+
+#Manpower Calculation - Not currently used
+manpowercalcwait = {
+	global_manpower_modifier = -0.83
+}
+
+#For Formables
+toltecsuccessor = {
+	legitimacy = 5
+}
+
+#Government Modifiers
+#No heirs for Atepetls
+#Instead an event selects a new heir when the old monarch dies
+electiveheirs = {
+	heir_chance = -10
+}

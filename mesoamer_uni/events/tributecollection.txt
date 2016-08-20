@@ -1,0 +1,1899 @@
+namespace = tributecoll
+
+#THE FOLLOWING ARE PART OF THE 'SET TRIBUTE REQUIREMENTS' INTERFACE!
+
+#What area to manage?
+country_event = {
+	id = tributecoll.01
+
+	title = "tributecoll1.t"
+	desc = "tributecoll1.d"
+	picture = ECONOMY_eventPicture
+
+	is_triggered_only = yes
+		
+	option = {
+		name = "tributecoll1.a"
+		country_event = { id = tributecoll.02 }
+	}
+
+	option = {
+		name = "tributecoll1.b"
+		country_event = { id = tributecoll.03 }
+	}
+
+	option = {
+		name = "tributecoll1.c"
+		country_event = { id = tributecoll.04 }
+	}
+
+	option = {
+		name = "tributecoll1.dd"
+		clr_country_flag = managingtribute
+	}
+}
+
+#Wealth
+country_event = {
+	id = tributecoll.02
+
+	title = "tributecoll2.t"
+	desc = "tributecoll2.d"
+	picture = ECONOMY_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = "tributecoll2.a"
+		add_country_modifier = {
+			name = "highwealth"
+			duration = -1
+		}
+		remove_country_modifier = lowwealth
+		remove_country_modifier = normalwealth
+		country_event = { id = tributecoll.01 }
+	}
+
+	option = {
+		name = "tributecoll2.b"
+		add_country_modifier = {
+			name = "normalwealth"
+			duration = -1
+		}
+		remove_country_modifier = lowwealth
+		remove_country_modifier = highwealth
+		country_event = { id = tributecoll.01 }
+	}
+
+	option = {
+		name = "tributecoll2.c"
+		add_country_modifier = {
+			name = "lowwealth"
+			duration = -1
+		}
+		remove_country_modifier = highwealth
+		remove_country_modifier = normalwealth
+		country_event = { id = tributecoll.01 }
+	}
+
+	option = {
+		name = "tributecoll2.dd"
+		country_event = { id = tributecoll.01 }
+	}
+}
+	
+#Warriors
+country_event = {
+	id = tributecoll.03
+
+	title = "tributecoll3.t"
+	desc = "tributecoll3.d"
+	picture = ECONOMY_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = "tributecoll3.a"
+		add_country_modifier = {
+			name = "highwarriors"
+			duration = -1
+		}
+		remove_country_modifier = lowwarriors
+		remove_country_modifier = normalwarriors
+		country_event = { id = tributecoll.01 }
+	}
+
+	option = {
+		name = "tributecoll3.b"
+		add_country_modifier = {
+			name = "normalwarriors"
+			duration = -1
+		}
+		remove_country_modifier = highwarriors
+		remove_country_modifier = lowwarriors
+		country_event = { id = tributecoll.01 }
+	}
+
+	option = {
+		name = "tributecoll3.c"
+		add_country_modifier = {
+			name = "lowwarriors"
+			duration = -1
+		}
+		remove_country_modifier = highwarriors
+		remove_country_modifier = normalwarriors
+		country_event = { id = tributecoll.01 }
+	}
+
+	option = {
+		name = "tributecoll3.dd"
+		country_event = { id = tributecoll.01 }
+	}
+}
+
+#Supplies
+country_event = {
+	id = tributecoll.04
+
+	title = "tributecoll4.t"
+	desc = "tributecoll4.d"
+	picture = ECONOMY_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = "tributecoll4.a"
+		add_country_modifier = {
+			name = "highsupplies"
+			duration = -1
+		}
+		remove_country_modifier = normalsupplies
+		remove_country_modifier = lowsupplies
+		country_event = { id = tributecoll.01 }
+	}
+
+	option = {
+		name = "tributecoll4.b"
+		add_country_modifier = {
+			name = "normalsupplies"
+			duration = -1
+		}
+		remove_country_modifier = highsupplies
+		remove_country_modifier = lowsupplies
+		country_event = { id = tributecoll.01 }
+	}
+
+	option = {
+		name = "tributecoll4.c"
+		add_country_modifier = {
+			name = "lowsupplies"
+			duration = -1
+		}
+		remove_country_modifier = highsupplies
+		remove_country_modifier = lowsupplies
+		country_event = { id = tributecoll.01 }
+	}
+
+	option = {
+		name = "tributecoll4.dd"
+		country_event = { id = tributecoll.01 }
+	}
+}
+#END INTERFACE
+
+#Tribute Collection Event
+country_event = {
+	id = tributecoll.05
+
+	title = "tributecoll5.t"
+	desc = "tributecoll5.d"
+	picture = ECONOMY_eventPicture
+
+	trigger = {
+		year = 1429
+		num_of_vassals = 1
+		OR = {
+			government = altepetl
+			government = hegemonic_kingdom
+			government = hegemonic_empire
+		}
+		NOT = { has_country_modifier = recentcollection }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		hidden_effect = {
+			add_country_modifier = {
+				name = recentcollection
+				duration = 365
+			}
+		}
+	}
+
+	option = {
+		name = "tributecoll5.a"
+
+		every_country = {
+			limit = {
+				vassal_of = ROOT
+			}
+			country_event = { id = tributecoll.06 }
+		}
+	}
+}
+
+#For Vassals
+country_event = {
+	id = tributecoll.06
+
+	title = "tributecoll6.t"
+	desc = "tributecoll6.d"
+	picture = ECONOMY_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = "tributecoll6.a"
+
+		FROM = {
+			country_event = { id = tributecoll.07 }
+		}
+
+		if = {
+			limit = {
+				FROM = {
+					has_country_modifier = highwealth 
+				}
+			}
+			add_treasury = -20
+		}
+		if = {
+			limit = {
+				FROM = {
+					has_country_modifier = normalwealth 
+				}
+			}
+			add_treasury = -10
+		}
+
+		if = {
+			limit = {
+				FROM = {
+					has_country_modifier = lowwealth 
+				}
+			}
+			add_treasury = -5
+		}
+
+		if = {
+			limit = {
+				FROM = {
+					has_country_modifier = highwarriors
+				}
+			}
+			add_manpower = -0.10
+		}
+		if = {
+			limit = {
+				FROM = {
+					has_country_modifier = normalwarriors
+				}
+			}
+			add_manpower = -0.05
+		}
+
+		if = {
+			limit = {
+				FROM = {
+					has_country_modifier = lowwarriors
+				}
+			}
+			add_manpower = -0.025
+		}
+
+		if = {
+			limit = {
+				FROM = {
+					has_country_modifier = highsupplies
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							trade_goods = grain
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = staplefoodbins value = -6 }
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							OR = {
+								trade_goods = fruits
+								trade_goods = aquaticfoods
+							}
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = luxuryfoodbins value = -6 }
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							trade_goods = choclate
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = cocoabins value = -6 }
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							trade_goods = textiles
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = textilebins value = -6 }
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							trade_goods = obsidian
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = obsidianbins value = -6 }
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							trade_goods = preciousstones
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = preciousbins value = -6 }
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							trade_goods = plumes
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = quetzalbins value = -6 }
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							trade_goods = salt
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = saltbins value = -6 }
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							trade_goods = bronze
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = copperbins value = -6 }
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							trade_goods = gold
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = goldbins value = -6 }
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							trade_goods = lime
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = limebins value = -6 }
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							trade_goods = lumber
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = lumberstacks value = -6 }
+				}
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					has_country_modifier = normalsupplies
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							trade_goods = grain
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = staplefoodbins value = -4 }
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							OR = {
+								trade_goods = fruits
+								trade_goods = aquaticfoods
+							}
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = luxuryfoodbins value = -4 }
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							trade_goods = choclate
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = cocoabins value = -4 }
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							trade_goods = textiles
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = textilebins value = -4 }
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							trade_goods = obsidian
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = obsidianbins value = -4 }
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							trade_goods = preciousstones
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = preciousbins value = -4 }
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							trade_goods = plumes
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = quetzalbins value = -4 }
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							trade_goods = salt
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = saltbins value = -4 }
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							trade_goods = bronze
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = copperbins value = -4 }
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							trade_goods = gold
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = goldbins value = -4 }
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							trade_goods = lime
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = limebins value = -4 }
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							trade_goods = lumber
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = lumberstacks value = -4 }
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				FROM = {
+					has_country_modifier = lowsupplies
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							trade_goods = grain
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = staplefoodbins value = -2 }
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							OR = {
+								trade_goods = fruits
+								trade_goods = aquaticfoods
+							}
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = luxuryfoodbins value = -2 }
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							trade_goods = choclate
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = cocoabins value = -2 }
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							trade_goods = textiles
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = textilebins value = -2 }
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							trade_goods = obsidian
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = obsidianbins value = -2 }
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							trade_goods = preciousstones
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = preciousbins value = -2 }
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							trade_goods = plumes
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = quetzalbins value = -2 }
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							trade_goods = salt
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = saltbins value = -2 }
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							trade_goods = bronze
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = copperbins value = -2 }
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							trade_goods = gold
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = goldbins value = -2 }
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							trade_goods = lime
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = limebins value = -2 }
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						capital_scope = {
+							trade_goods = lumber
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = lumberstacks value = -2 }
+				}
+			}
+		}
+
+		ai_chance = {
+			factor = 85
+		}
+	}
+
+	option = {
+		name = "tributecoll6.b"
+		
+		
+		FROM = {
+			country_event = { id = tributecoll.08 }
+		}
+
+		ai_chance = {
+			factor = 15
+			
+			#AI HANDICAP B/C THE AI IS AN INBRED SACK OF POTATOES
+			modifier = {
+				factor = 0.66
+				FROM = {
+					ai = yes
+				}
+			}
+
+			#HANDICAP FOR TENOCHTITLAN TO ALLOW FASTER EXPANSION
+			modifier = {
+				factor 0.33
+				FROM = {
+					tag = TEN
+					NOT = { year = 1519 }
+				}
+			}
+			
+			#PRESTIGE MODIFIERS
+			#LOW PRESTIGE = MORE REFUSALS TO PAY
+			modifier = {
+				factor = 2.5
+				AND = {
+					FROM = {
+						prestige = -200
+					}
+					FROM = {
+						NOT = { prestige = -100 }
+					}
+				}
+			}
+			
+			modifier = {
+				factor = 1.75
+				AND = {
+					FROM = {
+						prestige = -100
+					}
+					FROM = {
+						NOT = { prestige = -50 }
+					}
+				}
+			}
+			
+			modifier = {
+				factor = 1.25
+				AND = {
+					FROM = {
+						prestige = -50
+					}
+					FROM = {
+						NOT = { prestige = -15 }
+					}
+				}
+			}
+			
+			modifier = {
+				factor = 1.05
+				AND = {
+					FROM = {
+						prestige = -15
+					}
+					FROM = {
+						NOT = { prestige = -5 }
+					}
+				}
+			}
+			
+			modifier = {
+				factor = 0.95
+				AND = {
+					FROM = {
+						prestige = -5
+					}
+					FROM = {
+						NOT = { prestige = 3 }
+					}
+				}
+			}
+			
+			modifier = {
+				factor = 0.75
+				AND = {
+					FROM = {
+						prestige = 3
+					}
+					FROM = {
+						NOT = { prestige = 10 }
+					}
+				}
+			}
+			
+			modifier = {
+				factor = 0.33
+				AND = {
+					FROM = {
+						prestige = 10
+					}
+					FROM = {
+						NOT = { prestige = 20 }
+					}
+				}
+			}
+			
+			modifier = {
+				factor = 0.25
+				AND = {
+					FROM = {
+						prestige = 20
+					}
+					FROM = {
+						NOT = { prestige = 40 }
+					}
+				}
+			}
+			
+			modifier = {
+				factor = 0.20
+				AND = {
+					FROM = {
+						prestige = 40
+					}
+					FROM = {
+						NOT = { prestige = 60 }
+					}
+				}
+			}
+			
+			modifier = {
+				factor = 0.15
+				AND = {
+					FROM = {
+						prestige = 60
+					}
+					FROM = {
+						NOT = { prestige = 80 }
+					}
+				}
+			}
+			
+			modifier = {
+				factor = 0.10
+				AND = {
+					FROM = {
+						prestige = 80
+					}
+					FROM = {
+						NOT = { prestige = 100 }
+					}
+				}
+			}
+			
+			modifier = {
+				factor = 0.05
+				FROM = {
+					prestige = 100
+				}
+			}	
+			
+			
+			#OPINION MODIFIERS
+			#LOW OPINION = MORE LIKELY TO NOT PAY
+			modifier = {
+				factor = 0.10
+				has_opinion = {
+					who = FROM
+					value = 200
+				}
+			}
+			
+			modifier = {
+				factor = 0.25
+				has_opinion = {
+					who = FROM
+					value = 150
+				}
+				NOT = {
+					has_opinion = {
+						who = FROM
+						value = 200
+					}
+				}
+			}
+			
+			modifier = {
+				factor = 0.50
+				has_opinion = {
+					who = FROM
+					value = 100
+				}
+				NOT = {
+					has_opinion = {
+						who = FROM
+						value = 150
+					}
+				}
+			}
+			
+			modifier = {
+				factor = 0.75
+				has_opinion = {
+					who = FROM
+					value = 75
+				}
+				NOT = {
+					has_opinion = {
+						who = FROM
+						value = 100
+					}
+				}
+			}
+			
+			modifier = {
+				factor = 0.90
+				has_opinion = {
+					who = FROM
+					value = 50
+				}
+				NOT = {
+					has_opinion = {
+						who = FROM
+						value = 75
+					}
+				}
+			}
+			
+			modifier = {
+				factor = 1.1
+				has_opinion = {
+					who = FROM
+					value = 25
+				}
+				NOT = {
+					has_opinion = {
+						who = FROM
+						value = 50
+					}
+				}
+			}
+			
+			modifier = {
+				factor = 1.25
+				has_opinion = {
+					who = FROM
+					value = 0
+				}
+				NOT = {
+					has_opinion = {
+						who = FROM
+						value = 25
+					}
+				}
+			}
+			
+			modifier = {
+				factor = 1.5
+				has_opinion = {
+					who = FROM
+					value = -50
+				}
+				NOT = {
+					has_opinion = {
+						who = FROM
+						value = 0
+					}
+				}
+			}
+			
+			modifier = {
+				factor = 2
+				has_opinion = {
+					who = FROM
+					value = -150
+				}
+				NOT = {
+					has_opinion = {
+						who = FROM
+						value = -50
+					}
+				}
+			}
+			
+			modifier = {
+				factor = 3
+				has_opinion = {
+					who = FROM
+					value = -200
+				}
+				NOT = {
+					has_opinion = {
+						who = FROM
+						value = -150
+					}
+				}
+			}
+			
+			#ARMY SIZE MODIFIERS
+			#IF VASSAL ARMY IS AT LEAST AS LARGE AS OVERLORD ARMY, EXTREMELY LIKELY TO REFUSE TO PAY
+			#IF OVERLORD LACKS A LARGE ENOUGH ARMY, MORE WILL REFUSE TO PAY
+			
+			modifier = {
+				factor = 3.25
+				ROOT = {
+					army_size = FROM
+				}
+			}
+			
+			modifier = {
+				factor = 4
+				FROM = {
+					army_size = 0
+				}
+				NOT = {
+					FROM = {
+						army_size = 1
+					}	
+				}
+			}
+			
+			modifier = {
+				factor = 2
+				FROM = {
+					army_size = 2
+				}
+				NOT = {
+					FROM = {
+						army_size = 5
+					}	
+				}
+			}
+			
+			modifier = {
+				factor = 1.1
+				FROM = {
+					army_size = 5
+				}
+				NOT = {
+					FROM = {
+						army_size = 10
+					}	
+				}
+			}
+			
+			modifier = {
+				factor = 0.85
+				FROM = {
+					army_size = 20
+				}
+				NOT = {
+					FROM = {
+						army_size = 30
+					}	
+				}
+			}
+			
+			modifier = {
+				factor = 0.6
+				FROM = {
+					army_size = 30
+				}
+				NOT = {
+					FROM = {
+						army_size = 50
+					}	
+				}
+			}
+			
+			modifier = {
+				factor = 0.4
+				FROM = {
+					army_size = 50
+				}
+			}
+			
+			#TRIBUTE SIZE MODIFIERS
+			#MORE TRIBUTE = LESS PAYERS
+			
+			modifier = {
+				factor = 1.5
+				FROM = {
+					has_country_modifier = highwealth
+				}
+			}
+			
+			modifier = {
+				factor = 1.5
+				FROM = {
+					has_country_modifier = highwarriors
+				}
+			}
+			
+			modifier = {
+				factor = 1.5
+				FROM = {
+					has_country_modifier = highsupplies
+				}
+			}
+			
+			modifier = {
+				factor = 0.80
+				FROM = {
+					has_country_modifier = lowwealth
+				}
+			}
+			
+			modifier = {
+				factor = 0.80
+				FROM = {
+					has_country_modifier = lowwarriors
+				}
+			}
+			
+			modifier = {
+				factor = 0.80
+				FROM = {
+					has_country_modifier = lowsupplies
+				}
+			}
+		}
+	}
+}
+
+#Vassal Pays
+country_event = {
+	id = tributecoll.07
+
+	title = "tributecoll7.t"
+	desc = "tributecoll7.d"
+	picture = ECONOMY_eventPicture
+
+	is_triggered_only = yes
+		
+	option = {
+		name = "tributecoll7.a"
+
+		if = {
+			limit = {
+				ROOT = {
+					has_country_modifier = highwealth 
+				}
+			}
+			add_treasury = 20
+		}
+		if = {
+			limit = {
+				ROOT = {
+					has_country_modifier = normalwealth 
+				}
+			}
+			add_treasury = 10
+		}
+
+		if = {
+			limit = {
+				ROOT = {
+					has_country_modifier = lowwealth 
+				}
+			}
+			add_treasury = 5
+		}
+
+		if = {
+			limit = {
+				ROOT = {
+					has_country_modifier = highwarriors
+				}
+			}
+			add_manpower = 0.05
+		}
+		if = {
+			limit = {
+				ROOT = {
+					has_country_modifier = normalwarriors
+				}
+				
+			}
+			add_manpower = 0.025
+		}
+
+		if = {
+			limit = {
+				ROOT = {
+					has_country_modifier = lowwarriors
+				}
+			}
+			add_manpower = 0.01
+		}
+
+		if = {
+			limit = {
+				ROOT = {
+					has_country_modifier = highsupplies
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM = {
+						capital_scope = {
+							trade_goods = grain
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = staplefoodbins value = 6 }
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM = {
+						capital_scope = {
+							OR = {
+								trade_goods = fruits
+								trade_goods = aquaticfoods
+							}
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = luxuryfoodbins value = 6 }
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM = {
+						capital_scope = {
+							trade_goods = choclate
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = cocoabins value = 6 }
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM = {
+						capital_scope = {
+							trade_goods = textiles
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = textilebins value = 6 }
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM = {
+						capital_scope = {
+							trade_goods = obsidian
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = obsidianbins value = 6 }
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM = {
+						capital_scope = {
+							trade_goods = preciousstones
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = preciousbins value = 6 }
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM = {
+						capital_scope = {
+							trade_goods = plumes
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = quetzalbins value = 6 }
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM = {
+						capital_scope = {
+							trade_goods = salt
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = saltbins value = 6 }
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM = {
+						capital_scope = {
+							trade_goods = bronze
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = copperbins value = 6 }
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM = {
+						capital_scope = {
+							trade_goods = gold
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = goldbins value = 6 }
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM = {
+						capital_scope = {
+							trade_goods = lime
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = limebins value = 6 }
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM = {
+						capital_scope = {
+							trade_goods = lumber
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = lumberstacks value = 6 }
+				}
+			}
+			
+		}
+		if = {
+			limit = {	
+				ROOT = {
+					has_country_modifier = normalsupplies
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM = {
+						capital_scope = {
+							trade_goods = grain
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = staplefoodbins value = 4 }
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM = {
+						capital_scope = {
+							OR = {
+								trade_goods = fruits
+								trade_goods = aquaticfoods
+							}
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = luxuryfoodbins value = 4 }
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM = {
+						capital_scope = {
+							trade_goods = choclate
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = cocoabins value = 4 }
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM = {
+						capital_scope = {
+							trade_goods = textiles
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = textilebins value = 4 }
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM = {
+						capital_scope = {
+							trade_goods = obsidian
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = obsidianbins value = 4 }
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM = {
+						capital_scope = {
+							trade_goods = preciousstones
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = preciousbins value = 4 }
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM = {
+						capital_scope = {
+							trade_goods = plumes
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = quetzalbins value = 4 }
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM = {
+						capital_scope = {
+							trade_goods = salt
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = saltbins value = 4 }
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM = {
+						capital_scope = {
+							trade_goods = bronze
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = copperbins value = 4 }
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM = {
+						capital_scope = {
+							trade_goods = gold
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = goldbins value = 4 }
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM = {
+						capital_scope = {
+							trade_goods = lime
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = limebins value = 4 }
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM = {
+						capital_scope = {
+							trade_goods = lumber
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = lumberstacks value = 4 }
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				ROOT = {
+					has_country_modifier = lowsupplies
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM = {
+						capital_scope = {
+							trade_goods = grain
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = staplefoodbins value = 2 }
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM = {
+						capital_scope = {
+							OR = {
+								trade_goods = fruits
+								trade_goods = aquaticfoods
+							}
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = luxuryfoodbins value = 2 }
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM = {
+						capital_scope = {
+							trade_goods = choclate
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = cocoabins value = 2 }
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM = {
+						capital_scope = {
+							trade_goods = textiles
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = textilebins value = 2 }
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM = {
+						capital_scope = {
+							trade_goods = obsidian
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = obsidianbins value = 2 }
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM = {
+						capital_scope = {
+							trade_goods = preciousstones
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = preciousbins value = 2 }
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM = {
+						capital_scope = {
+							trade_goods = plumes
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = quetzalbins value = 2 }
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM = {
+						capital_scope = {
+							trade_goods = salt
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = saltbins value = 2 }
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM = {
+						capital_scope = {
+							trade_goods = bronze
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = copperbins value = 2 }
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM = {
+						capital_scope = {
+							trade_goods = gold
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = goldbins value = 2 }
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM = {
+						capital_scope = {
+							trade_goods = lime
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = limebins value = 2 }
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM = {
+						capital_scope = {
+							trade_goods = lumber
+						}
+					}
+				}
+				
+				ROOT = {
+					change_variable = { which = lumberstacks value = 2 }
+				}
+			}
+		}
+	}
+}
+
+#Vassal Won't Pay
+country_event = {
+	id = tributecoll.08
+
+	title = "tributecoll8.t"
+	desc = "tributecoll8.d"
+	picture = ECONOMY_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = "tributecoll8.a"
+		free_vassal = FROM
+		add_opinion = {
+			who = FROM 
+			modifier = opinion_refusedtribute
+		}
+		FROM = {
+			add_opinion = {
+				who = ROOT 
+				modifier = opinion_refusedtribute
+			}
+		}
+	}
+}

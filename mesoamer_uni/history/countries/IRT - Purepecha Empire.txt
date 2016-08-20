@@ -1,0 +1,5 @@
+government = hegemonic_kingdom
+technology_group = triple_alliance
+religion = tarascan
+primary_culture = tarascan
+capital = 1	

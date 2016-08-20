@@ -1,0 +1,40 @@
+country_event = {
+	id = 5008
+	title = "EVTNAME5008"
+	desc = "EVTDESC5008"
+	picture = ECONOMY_eventPicture
+
+	#is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+		
+		modifier = {
+			factor = 2.0
+			adm = 4
+		}
+		modifier = {
+			factor = 2.0
+			luck = yes
+		}
+	}
+
+	option = {
+		name = "EVTOPTA5008"		# Put into the treasury
+		ai_chance = {
+			factor = 55
+			modifier = {
+				factor = 0
+				NOT = { num_of_cities = 5 }
+			}
+		}
+		add_years_of_income = 0.2
+	}
+	option = {
+		name = "EVTOPTB5008"		# Gain prestige
+		ai_chance = {
+			factor = 45
+		}
+		add_prestige = 10
+	}
+}

@@ -1,0 +1,18 @@
+government = altepetl 
+government_rank = 2
+mercantilism = 0.25
+technology_group = west_mexican 
+religion = newnahuatl 
+primary_culture = guachichil 
+capital = 104
+fixed_capital = 104
+
+1427.1.1 = {
+	monarch = {
+		name = "Ueman"
+		dynasty = "Tonallan"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

@@ -1,0 +1,51 @@
+expandhegemony = {
+	type = take_capital
+
+	attacker = {
+		badboy_factor = 1
+		prestige_factor = 1.25
+		peace_cost_factor = 0.75
+
+		#allowed_provinces = { always = no }
+		#allowed_provinces_are_eligible = yes
+	
+		po_become_vassal = yes
+	}
+
+	defender = {
+		badboy_factor = 2
+		prestige_factor = 1.50
+		peace_cost_factor = 2
+
+		allowed_provinces = { always = no }
+		allowed_provinces_are_eligible = yes
+
+		po_demand_provinces = yes # I would add more goals here. Possible goals and order influences AI peace deals
+	}
+
+	war_name = EXPANDHEGEMONY_WARNAME
+}
+
+directconquest = {
+	type = take_capital
+
+	badboy_factor = 1.2
+	prestige_factor = 1
+	peace_cost_factor = 0.75
+
+	po_demand_provinces = yes
+
+	war_name = DIRECTCONQUEST_WARNAME
+}
+
+unitemaya = {
+	type = take_capital
+
+	badboy_factor = 1.25
+	prestige_factor = 1.25
+	peace_cost_factor = 0.50
+
+	po_demand_provinces = yes
+
+	war_name = UNITEMAYA_WARNAME
+}

@@ -1,0 +1,19 @@
+government = altepetl 
+government_rank = 2
+mercantilism = 0.25
+technology_group = west_mexican 
+religion = newnahuatl 
+primary_culture = tarascan
+fixed_capital = 599
+capital = 599
+
+
+1427.1.1 = {
+	monarch = {
+		name = "Lyebe"
+		dynasty = "Cozcatecutlan"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

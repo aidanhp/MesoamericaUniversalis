@@ -1,0 +1,18 @@
+government = altepetl 
+government_rank = 2
+mercantilism = 0.25
+technology_group = west_mexican 
+religion = tarascan
+primary_culture = tarascan
+capital = 88
+fixed_capital = 88
+
+1427.1.1 = {
+	monarch = {
+		name = "Zuangua"
+		dynasty = "Puru"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

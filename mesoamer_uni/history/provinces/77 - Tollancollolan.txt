@@ -1,0 +1,19 @@
+add_core = LLC
+owner = LLC
+controller = LLC
+culture = tlaxcallan
+religion = newnahuatl 
+hre = no
+base_tax = 394
+base_production = 799
+trade_goods = grain
+base_manpower = 2783
+capital = "Tollan-Collolan"
+is_city = yes
+fort_15th = yes
+
+discovered_by = semi_nomadic_tribe
+discovered_by = west_mexican
+discovered_by = tarascan
+discovered_by = central_mexican
+discovered_by = triple_alliance

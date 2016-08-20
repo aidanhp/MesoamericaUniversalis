@@ -1,0 +1,18 @@
+government = altepetl 
+government_rank = 2
+mercantilism = 0.25
+technology_group = central_mexican 
+religion = mixtec 
+primary_culture = newmixtec
+capital = 62
+fixed_capital = 62
+
+1427.1.1 = {
+	monarch = {
+		name = "Cocijopi"
+		dynasty = "Tlachquiauchco"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

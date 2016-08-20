@@ -1,0 +1,19 @@
+add_core = YOP	
+owner = YOP
+controller = YOP
+culture = amuzgo
+religion = newnahuatl 
+hre = no
+base_tax = 211
+base_production = 430
+trade_goods = aquaticfoods 
+base_manpower = 1474
+capital = "Yopitzinco"
+is_city = yes
+fort_15th = yes
+
+discovered_by = semi_nomadic_tribe
+discovered_by = west_mexican
+discovered_by = tarascan
+discovered_by = central_mexican
+discovered_by = triple_alliance

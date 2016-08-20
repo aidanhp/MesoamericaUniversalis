@@ -1,0 +1,19 @@
+government = altepetl 
+government_rank = 2
+mercantilism = 0.25
+technology_group = central_mexican 
+religion = zapotec
+primary_culture = newzapotec
+fixed_capital = 550
+capital = 550
+
+
+1427.1.1 = {
+	monarch = {
+		name = "Vezia"
+		dynasty = "Camotlan"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

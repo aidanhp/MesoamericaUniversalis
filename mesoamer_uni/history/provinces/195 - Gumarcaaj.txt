@@ -1,0 +1,17 @@
+add_core = KKG
+owner = KKG
+controller = KKG
+
+culture = highlandsmayan
+religion = newmayan 
+capital = "K'umarcaaj"
+trade_goods = grain
+hre = no
+base_tax = 159
+base_production = 308
+base_manpower = 1061
+is_city = yes
+fort_15th = yes
+
+discovered_by = northern_mayan
+discovered_by = southern_mayan

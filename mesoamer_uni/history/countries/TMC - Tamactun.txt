@@ -1,0 +1,18 @@
+government = kuchkabal 
+government_rank = 2
+mercantilism = 0.25
+technology_group = southern_mayan
+religion = newmayan 
+primary_culture = centralmayan
+capital = 164
+fixed_capital = 164
+
+1427.1.1 = {
+	monarch = {
+		name = "Bor"
+		dynasty = "Tamactun"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

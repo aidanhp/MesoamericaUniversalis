@@ -1,0 +1,19 @@
+controller = DDW
+add_core = DDW
+owner = DDW
+culture = newmixtec 
+religion = mixtec 
+hre = no
+base_tax = 140
+base_production = 280
+trade_goods = bronze 
+base_manpower = 980
+capital = "Cuiauhteopan"
+is_city = yes
+fort_15th = yes
+
+discovered_by = semi_nomadic_tribe
+discovered_by = west_mexican
+discovered_by = tarascan
+discovered_by = central_mexican
+discovered_by = triple_alliance

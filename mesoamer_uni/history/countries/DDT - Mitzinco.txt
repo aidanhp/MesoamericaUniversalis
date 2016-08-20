@@ -1,0 +1,19 @@
+government = altepetl 
+government_rank = 2
+mercantilism = 0.25
+technology_group = central_mexican 
+religion = mixtec 
+primary_culture = newmixtec 
+fixed_capital = 511
+capital = 511
+
+
+1427.1.1 = {
+	monarch = {
+		name = "An"
+		dynasty = "Mitzinco"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

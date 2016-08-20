@@ -1,0 +1,26 @@
+country_decisions = {
+	set_tribute_requirements = {
+		major = yes
+		potential = {
+			OR = {
+				government = altepetl 
+				government = hegemonic_kingdom
+				government = hegemonic_empire
+			}
+			NOT = { has_country_flag = managingtribute }
+		}
+
+		allow = {
+
+		}
+
+		effect = {
+			set_country_flag = managingtribute
+			country_event = { id = tributecoll.01 }
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

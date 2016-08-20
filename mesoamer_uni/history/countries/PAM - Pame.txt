@@ -1,0 +1,18 @@
+government = tribal_confederation 
+government_rank = 2
+mercantilism = 0.25
+technology_group = semi_nomadic_tribe 
+religion = newnahuatl 
+primary_culture = pame
+capital = 128
+fixed_capital = 128
+
+1427.1.1 = {
+	monarch = {
+		name = "Yayauhqui"
+		dynasty = "Pame"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

@@ -1,0 +1,58 @@
+offices_to_vassals = {
+
+	category = 3
+
+	allow = {
+		OR = {
+			num_of_vassals = 2
+			num_of_unions = 2
+			AND = {
+				num_of_vassals = 1
+				num_of_unions = 1
+			}
+		}
+		government = monarchy
+	}
+	
+	effect = {
+		random_subject_country = {
+			add_opinion = {
+				who = FROM
+				modifier = parliament_closer_ties
+			}
+		}
+	}
+	
+	modifier = {
+		diplomatic_annexation_cost = -0.15
+		vassal_income = 0.05
+	}
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			num_of_vassals = 3
+		}
+		modifier = {
+			factor = 3
+			num_of_vassals = 4
+		}
+		modifier = {
+			factor = 4
+			num_of_vassals = 5
+		}
+	}
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			num_of_vassals = 4
+		}
+		modifier = {
+			factor = 2
+			num_of_unions = 2
+		}	
+	}
+}

@@ -1,0 +1,106 @@
+monarch_power = MIL
+
+# applied when a country is ahead of time in this technology
+# no bonus for MIL currently
+# ahead_of_time = {
+# }
+
+# Pre-era techs
+technology = {
+	# Tech 0
+	year = 1428
+	
+	sprite_level = 1
+
+	infantry_fire		= 	0.25
+	infantry_shock 		= 	0.33		
+	land_morale 		= 	2.0
+	combat_width = 5
+	fort_15th = yes
+
+	enable = cm_earlyinfantry
+	enable = nmaya_spearmen
+	enable = smaya_spearmen
+	enable = sn_tribalwarriors
+	enable = t_tariacuriinfantry
+	enable = ta_infantry
+	enable = wm_earlyinfantry
+
+	
+}
+
+technology = {
+	# Tech 1
+	year = 1441
+	military_tactics = 0.25
+	
+	combat_width = 5
+}
+
+technology = {
+	# Tech 2
+	year = 1454
+
+	supply_limit = 0.25
+	infantry_shock = 0.10
+	infantry_fire = 0.10
+}
+
+# The 30 big techs from here on
+
+technology = {
+	# Tech 3
+	year = 1467
+	
+	military_tactics = 0.25
+	
+	enable = cm_middleinfantry
+	enable = nmaya_atlatlspearmen
+	enable = smaya_atlatlspearmen
+	enable = t_tariacuriinfantryaux
+	enable = ta_combinedinfantry
+	enable = wm_middleinfantry
+}
+
+technology = {
+	# Tech 4
+	year = 1480
+	
+	combat_width = 3
+	supply_limit = 0.25
+}
+
+technology = {
+	# Tech 5
+	year = 1493
+
+	fort16th = yes
+}
+
+technology = {
+	# Tech 6
+	year = 1506
+	
+	infantry_shock = 0.10
+	infantry_fire = 0.10
+	land_morale = 0.50
+
+	#enable = cm_lateinfantry
+	#enable = nmaya_combinedarms
+	#enable = smaya_combinedarms
+	#enable = sn_orgtribalwarriors
+	#enable = t_bronzeinfantry
+	#enable = ta_primeinfantry
+	#enable = wm_lateinfantry
+}
+
+technology = {
+	# Tech 7
+	year = 1519
+	
+	maneuver_value 		= 	0.25
+	supply_limit = 0.25
+	combat_width = 2
+	may_force_march = yes
+}
+

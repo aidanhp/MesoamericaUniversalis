@@ -1,0 +1,17 @@
+add_core = CCI
+add_core = CUP
+owner = CUP
+controller = CUP
+culture = yucatecmayan
+religion = newmayan 
+hre = no
+base_tax = 122
+base_production = 239
+trade_goods = choclate 
+base_manpower = 846
+capital = "Chichen Itza"
+is_city = yes
+fort_15th = yes
+
+discovered_by = northern_mayan
+discovered_by = southern_mayan

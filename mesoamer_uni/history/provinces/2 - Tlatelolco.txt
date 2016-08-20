@@ -1,0 +1,19 @@
+add_core = TLA
+owner = TLA
+controller = TLA
+culture = mexica
+religion = newnahuatl 
+hre = no
+base_tax = 212
+base_production = 417
+trade_goods = grain 
+base_manpower = 1414
+capital = "Tlatelolco"
+is_city = yes
+fort_15th = yes
+
+discovered_by = semi_nomadic_tribe
+discovered_by = west_mexican
+discovered_by = tarascan
+discovered_by = central_mexican
+discovered_by = triple_alliance

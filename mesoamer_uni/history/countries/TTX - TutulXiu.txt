@@ -1,0 +1,18 @@
+government = mayapan
+government_rank = 2
+mercantilism = 0.25
+technology_group = northern_mayan
+religion = newmayan 
+primary_culture = yucatecmayan
+capital = 150
+fixed_capital = 150
+
+1427.1.1 = {
+	monarch = {
+		name = "Yumcaaz"
+		dynasty = "Xiu"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

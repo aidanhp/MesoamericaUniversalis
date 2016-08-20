@@ -1,0 +1,18 @@
+government = tarascan_tribute_kingdom
+government_rank = 2
+mercantilism = 0.25
+technology_group = tarascan
+religion = tarascan 
+primary_culture = tarascan
+capital = 84
+fixed_capital = 84
+historical_rival = TEN
+1427.1.1 = {
+	monarch = {
+		name = "Hirepan"
+		dynasty = "Uacusecha"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}

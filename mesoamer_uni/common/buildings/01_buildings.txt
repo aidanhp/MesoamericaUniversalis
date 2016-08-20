@@ -1,0 +1,950 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new buildings, make sure they are uniquely named.
+
+# cost = x #==> cost in $ to build (subject to other modifiers)
+# time = x #==> number of months to build.
+# modifier = m # a modifier on the province that the building gives
+# trigger = t # an and trigger that needs to be fullfilled to build and keep the building
+# one_per_country = yes/no # if yes, only one of these can exist in a country
+# manufactory = { trade_good trade_good } # list of trade goods that get a production bonus
+# onmap = yes/no # show as a sprite on the map
+
+# FROM = owner
+# ROOT = province
+
+# AI will consider buildings it does not have the tech for at 20% of scripted AI weight (in case it wants to save slots)
+
+###################################################################
+#NEW BUILDINGS FOR MESOAMERICA UNIVERSALIS: THESE REPLACE OLD ONES#
+###################################################################
+
+######################
+#GOVERNMENT BUILDINGS#
+######################
+
+#Level 1 Bureaucracy
+bureau1 = {
+	cost = 100
+	time = 6
+
+	allowed_num_of_buildings = 1
+	trigger = {
+		AND = {
+			is_capital = yes
+		}
+	}
+
+	modifier = {
+		global_tax_modifier = 0.0125
+		global_manpower_modifier = 0.0125
+		stability_cost_modifier = -0.05
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+#Level 2 Bureaucracy
+bureau2 = {
+	cost = 250
+	time = 6
+	make_obsolete = bureau1
+
+	allowed_num_of_buildings = 1
+	trigger = {
+		is_capital = yes
+		FROM = {
+			government_rank = 2
+		}
+	}
+
+	modifier = {
+		global_tax_modifier = 0.025
+		global_manpower_modifier = 0.025
+		stability_cost_modifier = -0.10
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+#Level 3 Bureaucracy
+bureau3 = {
+	cost = 500
+	time = 6
+	make_obsolete = bureau2
+
+	allowed_num_of_buildings = 1
+	trigger = {
+		is_capital = yes
+		FROM = {
+			government_rank = 3
+		}
+	}
+
+	modifier = {
+		global_tax_modifier = 0.05
+		global_manpower_modifier = 0.05
+		stability_cost_modifier = -0.15
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+#Level 1 Law Enforcement
+law1 = {
+	cost = 50
+	time = 4
+
+	#trigger = {
+	#NOTHING
+	#}
+
+	modifier = {
+		local_unrest = -1
+		local_tax_modifier = -0.025
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+#Level 2 Law Enforcement
+law2 = {
+	cost = 100
+	time = 5
+	make_obsolete = law1
+	#trigger = {
+	#NOTHING
+	#}
+
+	modifier = {
+		local_unrest = -2
+		local_tax_modifier = -0.05
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+#Level 3 Law Enforcement
+law3 = {
+	cost = 150
+	time = 6
+	make_obsolete = law2
+	#trigger = {
+	#NOTHING
+	#}
+
+	modifier = {
+		local_unrest = -4
+		local_tax_modifier = -0.075
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+#Administrative Office
+adminoffice = {
+	cost = 100
+	time = 6
+
+	trigger = {
+		is_capital = no
+		FROM = {
+			has_idea = provministers
+		}
+	}
+
+	modifier = {
+		local_autonomy = -0.20
+		local_manpower_modifier = 0.25
+		local_tax_modifier = 0.25
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+#Ethnic Village
+evillage = {
+	cost = 200
+	time = 8
+
+	trigger = {
+		ROOT = { 
+			has_owner_culture = no
+		}
+		FROM = {
+			has_idea = ethnicresettle
+		}
+		#Total Assimilation ideas - not a province of your culture
+	}
+
+	modifier = {
+		local_unrest = -6
+		local_manpower_modifier = 0.05
+		local_tax_modifier = 0.05
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+######################
+#PRODUCTION BUILDINGS#
+######################
+
+#Level 1 Farm
+farm1 = {
+	cost = 100
+	time = 4
+
+	#trigger = {
+	#Certain trade goods!
+	#}
+
+	modifier = {
+		trade_goods_size = 2.5
+		#More SCP Growth
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+#Level 2 Farm
+farm2 = {
+	cost = 200
+	time = 6
+	make_obsolete = farm1
+	trigger = {
+	#Certain trade goods
+		FROM = {
+			has_idea = foodprod
+		}
+	}
+
+	modifier = {
+		trade_goods_size = 5.0
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+#Primitive Mine
+pmine = {
+	cost = 150
+	time = 8
+
+	#trigger = {
+	#metal goods
+	#}
+
+	modifier = {
+		trade_goods_size = 2.0
+		local_production_efficiency = 0.10
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+#Improved Mine
+imine = {
+	cost = 300
+	time = 12
+	make_obsolete = pmine
+	trigger = {
+	#metals
+		FROM = {
+			has_idea = metalsprod
+		}
+	}
+
+	modifier = {
+		trade_goods_size = 4.0
+		local_production_efficiency = 0.20
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+#Military Workshop
+mworkshop = {
+	cost = 75
+	time = 10
+
+	trigger = {
+	#landexploitation
+		FROM = {
+			has_idea = militaryprod
+		}
+	}
+
+	modifier = {
+		global_regiment_cost = -0.02
+		land_forcelimit_modifier = 0.02
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+#Workshop Level 1
+workshop1 = {
+	cost = 150
+	time = 4
+
+	#trigger = {
+	#NOTHING
+	#}
+
+	modifier = {
+		trade_goods_size_modifier = 0.25
+		local_production_efficiency = 0.25
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+#Workshop Level 2
+workshop2 = {
+	cost = 300
+	time = 6
+	make_obsolete = workshop1
+	#trigger = {
+	#NOTHING
+	#}
+
+	modifier = {
+		trade_goods_size_modifier = 0.50
+		local_production_efficiency = 0.50
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+#Factory
+workshop3 = {
+	cost = 750
+	time = 12
+	make_obsolete = workshop2
+	#trigger = {
+	#NOTHING
+	#}
+
+	modifier = {
+		trade_goods_size_modifier = 1.5
+		local_production_efficiency = 1.5
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+####################
+#COLONIAL BUILDINGS#
+####################
+
+#Colonial Town
+ctown = {
+	cost = 150
+	time = 12
+
+	trigger = {
+	#all these require colonial province modifier in province
+		FROM = {
+			has_idea = sponsordev1
+		}
+	}
+
+	modifier = {
+	#more commoners
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+
+#Colonial Workshop
+cworkshop = {
+	cost = 150
+	time = 12
+
+	trigger = {
+	#NOTHING
+		FROM = {
+			has_idea = sponsordev2
+		}
+	}
+
+	modifier = {
+	#more artisans
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+
+#Colonial Estates
+cestate = {
+	cost = 150
+	time = 12
+
+	trigger = {
+	#NOTHING
+		FROM = {
+			has_idea = sponsordev3
+		}
+	}
+
+	modifier = {
+	#more dickheads
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+#####################
+#EDUCATION BUILDINGS#
+#####################
+
+
+#Noble School
+nschool = {
+	cost = 75
+	time = 12
+	allowed_num_of_buildings = 20
+	#trigger = {
+	#NOTHING
+	#}
+
+	modifier = {
+		idea_cost = -0.005
+		local_tax_modifier = -0.01
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+#Noble University
+nuni = {
+	cost = 100
+	time = 12
+
+	#trigger = {
+		
+	#}
+	allowed_num_of_buildings = 10
+	modifier = {
+		idea_cost = -0.005
+		technology_cost = -0.005
+		local_tax_modifier = -0.02
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+#Public School
+pschool = {
+	cost = 200
+	time = 12
+
+	#trigger = {
+	#NOTHING
+	#}
+	allowed_num_of_buildings = 20
+	modifier = {
+		idea_cost = -0.005
+		technology_cost = -0.005
+		local_tax_modifier = -0.025
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+#Public University
+puni = {
+	cost = 250
+	time = 12
+
+	#trigger = {
+	#NOTHING
+	#}
+	allowed_num_of_buildings = 10
+	modifier = {
+		idea_cost = -0.005
+		technology_cost = -0.005
+		local_tax_modifier = -0.05
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+####################
+#MILITARY BUILDINGS#
+####################
+
+#Military School
+mschool = {
+	cost = 250
+	time = 12
+	allowed_num_of_buildings = 10
+	trigger = {
+		FROM = {
+			has_idea = militaryschools
+		}
+	}
+	
+	modifier = {
+		army_tradition = 0.10
+		infantry_power = 0.025
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+#Urban Mobilization
+umobile = {
+	cost = 150
+	time = 6
+	allowed_num_of_buildings = 20
+	trigger = {
+		is_capital = no
+		FROM = {
+			has_idea = urbanrecruit
+		}
+	}
+
+	modifier = {
+		local_manpower_modifier = 0.15
+		manpower_recovery_speed = 0.005
+		reinforce_speed = 0.005
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+#Rural Mobilization
+rmobile = {
+	cost = 150
+	time = 6
+
+	trigger = {
+		is_capital = no
+		FROM = {
+			has_idea = ruralrecruit
+		}
+	}
+	allowed_num_of_buildings = 20
+	modifier = {
+		local_manpower_modifier = 0.15
+		manpower_recovery_speed = 0.005
+		reinforce_speed = 0.005
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+#####################
+#RELIGIOUS BUILDINGS#
+#####################
+
+#Temple
+ntemple = {
+	cost = 100
+	time = 12
+
+	#trigger = {
+	#NOTHING
+	#}
+
+	modifier = {
+		local_missionary_strength = 0.05
+		prestige = 0.1
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+#Missionary School
+missionschool = {
+	cost = 200
+	time = 12
+
+	#trigger = {
+	#NOTHING
+	#}
+
+	modifier = {
+		global_missionary_strength = 0.0025
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+###################
+#DEFENSE BUILDINGS#
+###################
+
+#Mass Fortifications
+massforts = {
+	cost = 100
+	time = 12
+
+	trigger = {
+		FROM = {
+			has_idea = massfortifications
+		}
+	}
+
+	modifier = {
+		local_defensiveness = 0.33
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+
+#################
+#TRADE BUILDINGS#
+#################
+
+#marketplace 1
+mp1 = {
+	cost = 100
+	time = 12
+
+	#trigger = {
+	#NOTHING
+	#}
+
+	modifier = {
+		province_trade_power_modifier = 0.5
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+#marketplace 2
+mp2 = {
+	cost = 200
+	time = 12
+	make_obsolete = mp1
+	#trigger = {
+	#NOTHING
+	#}
+
+	modifier = {
+		province_trade_power_modifier = 0.75
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+#marketplace 3
+mp3 = {
+	cost = 300
+	time = 12
+	make_obsolete = mp2
+	#trigger = {
+	#NOTHING
+	#}
+
+	modifier = {
+		province_trade_power_modifier = 1
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+
+#marketplace 4
+mp4 = {
+	cost = 500
+	time = 12
+	make_obsolete = mp3
+	#trigger = {
+	#NOTHING
+	#}
+
+	modifier = {
+		province_trade_power_modifier = 1.5
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+#marketplace 5
+mp5 = {
+	cost = 750
+	time = 12
+	make_obsolete = mp4
+	#trigger = {
+	#NOTHING
+	#}
+
+	modifier = {
+		province_trade_power_modifier = 2
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+#trade guild
+tguild = {
+	cost = 200
+	time = 12
+	allowed_num_of_buildings = 10
+	trigger = {
+	#NOTHING
+		FROM = {
+			has_idea = tradeguilds
+		}
+	}
+	
+	modifier = {
+		province_trade_power_modifier = 0.33
+		global_prov_trade_power_modifier = 0.05
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+#########
+#UNIQUES#
+#########
+
+#capital decor
+capitaldecor = {
+	cost = 500
+	time = 24
+	allowed_num_of_buildings = 1
+	trigger = {
+		is_capital = true
+		FROM = {
+			has_idea = elaboratecapital
+		}
+	}
+
+	modifier = {
+		prestige = 1
+		diplomatic_reputation = 1
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+#great pt
+greatpt = {
+	cost = 1000
+	time = 24
+	allowed_num_of_buildings = 1
+	trigger = {
+	#NOTHING
+		FROM = {
+			has_idea = ostentatious
+		}
+	}
+
+	modifier = {
+	#may hold sacrificial ceremonies by decision
+		prestige = 3
+		diplomatic_reputation = 2
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+#greatforum
+greatf = {
+	cost = 1000
+	time = 24
+	allowed_num_of_buildings = 1
+	trigger = {
+	#NOTHING
+		FROM = {
+			has_idea = cultureexchange
+		}
+	}
+
+	modifier = {
+		idea_cost = -0.10
+		technology_cost = -0.025
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+#military engineer school
+mes = {
+	cost = 750
+	time = 24
+	allowed_num_of_buildings = 1
+	trigger = {
+	#NOTHING
+		FROM = {
+			has_idea = engineercorps
+		}
+	}
+
+	modifier = {
+		siege_ability = 0.25
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+#pyramid temple
+normalpt = {
+	cost = 750
+	time = 24
+	allowed_num_of_buildings = 1
+	#trigger = {
+	#NOTHING
+	#}
+
+	modifier = {
+	#may hold sacrificial ceremonies by decision
+		prestige = 2
+		diplomatic_reputation = 2
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+#water gardens
+watergarden = {
+	cost = 750
+	time = 24
+	allowed_num_of_buildings = 1
+	#trigger = {
+	#NOTHING
+	#}
+
+	modifier = {
+		#leader may spontaneously improve his skills
+		prestige = 2
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+#royal zoo
+royalzoo = {
+	cost = 1000
+	time = 24
+	allowed_num_of_buildings = 1
+	trigger = {
+		is_capital = true
+	}
+
+	modifier = {
+		#May collect animals
+		#Enables some special events
+		prestige = 2
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+#great university
+greatuni = {
+	cost = 1000
+	time = 24
+	allowed_num_of_buildings = 1
+	#trigger = {
+	#NOTHING
+	#}
+
+	modifier = {
+		idea_cost = -0.025
+		technology_cost = -0.05
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+
+###END 
+
+
+
+

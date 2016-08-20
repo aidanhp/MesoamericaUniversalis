@@ -1,0 +1,21 @@
+controller = FFM
+add_core = FFM
+owner = FFM
+culture = highlandsmayan
+religion = newmayan
+hre = no
+base_tax = 80
+base_production = 160
+trade_goods = plumes 
+base_manpower = 560
+capital = "Ayotlan"
+is_city = yes
+fort_15th = yes
+
+discovered_by = semi_nomadic_tribe
+discovered_by = west_mexican
+discovered_by = tarascan
+discovered_by = central_mexican
+discovered_by = triple_alliance
+discovered_by = northern_mayan
+discovered_by = southern_mayan
