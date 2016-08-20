@@ -4,7 +4,7 @@
  #some of the important countries.
  
  glory.1.t: "Tenochtitlan"
- glory.1.d: "In 1428, Tenochtitlan was on the rise. Ruled by the newly elected Iztcoatl (Obsidian Serpant), an experienced, strong leader and excellent soldier of 46 years, the Tenochs and their allies had overthrown the oppressive Tepanec Empire centered in Azcapotzalco and sacked the city. Now the greatest city in the Basin of Mexico, Tenochtitlan and it's allies Tetzcoco and Tlacopan stand ready to forge the greatest empire Mexico has ever seen and prove themselves worthy successors to the Toltecs of yore."
+ glory.1.d: "In 1428, Tenochtitlan was on the rise. Ruled by the newly elected Iztcoatl (Obsidian Serpant), an experienced, strong leader and excellent soldier of 46 years, the Tenochs and their allies had overthrown the oppressive Tepanec Empire centered in Azcapotzalco and sacked the city. Now the greatest city in the Valley of Mexico, Tenochtitlan stands ready to forge the greatest empire Mexico has ever seen and prove themselves worthy successors to the Toltecs of yore."
  glory.1.a: "We will shake the foundations of the world!"
  
  glory.2.t: "Tlacopan"
@@ -13,7 +13,24 @@
  
  glory.3.t: "Tetzcoco"
  glory.3.d: "In 1428, Tetzcoco was on the winning side of a history-changing war between the newly founded Triple Alliance and the old Tepanec Empire. Lead by the famous Poet-King and prolific engineer Nezhaulcoyotl (Fasting-Coyote), the Tetzcocahs were in a powerful position as an equal member of the Triple Alliance with Tenochtitlan, but vunerable at home as Nezhaulcoyotl battles with the remnants of the Tepanec supporters in the Tetzcocah Nobility to consolidate control over his home city. Time will tell whether Tenochtitlan or Tetzcoco will become the dominant city in the Alliance."
- glory.3.a: "Greatness lies in our future..."
+ glory.3.a: "All hail Tlatoani Nezhaulcoyotl!"
  
  glory.4.t: "Azcapotzalco"
- glory.4.d: "In 1428, Azcapotzalco had fallen far from the dominating empire it has been a mere decade before. The death of the great Huey-Tlatoani Tezozomoc and subsequent usurpation of the throne from the rightful heir Tayatzin by another son, Maxtla,"
+ glory.4.d: "In 1428, Azcapotzalco had fallen far from the dominating empire it has been a mere decade before. The death of the great Huey-Tlatoani Tezozomoc and subsequent usurpation of the throne from the rightful heir Tayatzin by another son, Maxtla, resulted in mass rebellions as a result of Maxtla's cruelty and illegitimacy. The Triple Alliance, one of the rebel groups, besieged and later sacked Azcapotzalco to finish off Maxtla. The city is now a broken shadow and the Tepanec Empire is no more..."
+ glory.4.a: "We will regain our glory!"
+ 
+ glory.5.t: "Chalco"
+ glory.5.d: "The prosperous city of Chalco sits on the most fertile part of the entire Valley of Mexico, stubbornly resisting all threats to its independence while slowly growing in power. Prehaps, in these tumultuous times, it would be wise for Chalco to claim an empire of its own..."
+ glory.5.a: "The Tepanecs couldn't conquer us, neither will this 'Triple Alliance'!"
+ 
+ glory.6.t: "Tzintzuntzan"
+ glory.6.d: "In 1428, Tzintzuntzan, the city founded by the great lord Tariacuri Uacusecha, had grown into a kingdom encompassing lake Patzcuaro and all the lands around it, and Tzintzuntzan itself was now West Mexico's greatest urban center. Far more centralized than any other contemporary kingdoms, Tzintzuntzan is a likely candidate for future great power..."
+ glory.6.a: "May we never fall!"
+ 
+ glory.7.t: "Cocom"
+ glory.7.d: "In 1428, the Cocom dynasty nominally ruled all of Yucatan through means of the League of Mayapan, but in reality the League was on its last legs and was nearly unsalvageable. A great civil war is brewing in Yucatan, and it is unknown who, if anyone, will come out on top."
+ glory.7.a: "The end is near..."
+ 
+ glory.8.t: "K'umarcaaj"
+ glory.8.d: "After founding the city of K'umarcaaj, the K'iche Mayas began to build a mightly highland kingdom, conqueringing neighboring towns and occasionally warring with the neighboring kingdom of Kaqchikel. By 1428, the K'iche had the upper hand and stoof ready to unite the maya highlands under their rule."
+ glory.8.a: "Glory to us!"
