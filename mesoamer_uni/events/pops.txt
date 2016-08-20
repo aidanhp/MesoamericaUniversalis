@@ -38,10 +38,19 @@ country_event = {
 			TEN = {
 				country_event = { id = populations2.01 }
 			}
-			every_country = {
-				add_manpower = -1000
-				add_manpower = 0.95
+
+			if = {	
+				limit = {
+					TEN = {
+						has_country_modifier = "manpowercalcwait"
+					}
+				}
+				every_country = {
+					add_manpower = -1000
+					add_manpower = 0.95
+				}
 			}
+
 			
 			#Base Pop Increase/Decrease
 			every_country = {

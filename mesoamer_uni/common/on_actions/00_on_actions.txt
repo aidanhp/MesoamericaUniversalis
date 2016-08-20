@@ -81,6 +81,12 @@ on_startup = {
 		add_manpower = -1000
 	}
 
+	TEN = {
+		add_country_modifier = {
+			name = "manpowercalcwait"
+			duration = 335
+		}
+	}
 	#Building Testing
 	1 = {
 		add_building = bureau1

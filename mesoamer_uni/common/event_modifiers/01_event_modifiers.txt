@@ -149,9 +149,9 @@ c_allsons = {
 	army_tradition = 0.03
 }
 
-#Manpower Calculation - Not currently used
+#Manpower Calculation - used again
 manpowercalcwait = {
-	global_manpower_modifier = -0.83
+	#global_manpower_modifier = -0.83
 }
 
 #For Formables
