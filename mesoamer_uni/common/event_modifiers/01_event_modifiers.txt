@@ -151,7 +151,7 @@ c_allsons = {
 
 #Manpower Calculation - used again
 manpowercalcwait = {
-	#global_manpower_modifier = -0.83
+	
 }
 
 #For Formables
@@ -162,6 +162,37 @@ toltecsuccessor = {
 #Government Modifiers
 #No heirs for Atepetls
 #Instead an event selects a new heir when the old monarch dies
+#Not currently used
 electiveheirs = {
 	heir_chance = -10
 }
+
+#Obstacle Modifiers - Provincial Level
+nopackanimals = {
+	local_movement_speed = -0.33
+}
+
+#Not currently in use
+noroads = {
+	local_movement_speed = -0.25
+}
+
+
+#Obstacle Counters - Provincial Level
+
+#Not currently in use
+roads1 = {
+	local_movement_speed = 0.10
+}
+
+#Not currently in use
+roads2 = {
+	local_movement_speed = 0.20
+}
+
+#Not currently in use
+roads3 = {
+	local_movement_speed = 0.30
+}
+
+

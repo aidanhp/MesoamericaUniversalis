@@ -38,6 +38,14 @@ on_startup = {
 		}
 	
 	}
+
+	#Apply Obstacles
+	every_province = {
+		add_permanent_province_modifier = {
+			name = nopackanimals
+			duration = -1
+		}
+	}
 	
 	#Set Default Tribute Requirements	
 	every_country = {

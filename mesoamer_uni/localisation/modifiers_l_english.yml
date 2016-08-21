@@ -23,6 +23,7 @@
  suppliedbytenoch: "Supplied by Tenochtitlan"
  desc_suppliedbytenoch: "This province is in close proximity to the great city of Tenochtitlan and thus has a higher supply limit."
  
+ #Draft Laws
  base_law: "Base Draft Law"
  desc_base_law: "This modifier is irremoveable and used to help calculate how much of a province's manpower you can use.
  
@@ -56,3 +57,7 @@
  #Special
  toltecsuccessor: "Toltec Successor State"
  desc_toltecsuccessor: "We have legitimized ourselves as a successor state to the Toltec Empire."
+ 
+ #Obstacles
+ nopackanimals: "No Pack Animals"
+ desc_nopackanimals: "The lack of pack animals and mounts for soldiers makes traveling armies significantly slower."
