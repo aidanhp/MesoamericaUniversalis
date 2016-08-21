@@ -969,10 +969,12 @@ gov_rank_10 = {
 # For autonomy mechanics
 autonomy_increased = {
 	local_unrest = -10
+	local_autonomy = 0.10
 }
 
 autonomy_decreased = {
 	local_unrest = 10
+	local_autonomy = -0.25
 }
 
 revolution_target = {

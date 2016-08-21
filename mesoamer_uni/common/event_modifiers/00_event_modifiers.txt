@@ -7315,7 +7315,7 @@ pga = {
 mesoamerican_logistics = {
 	land_attrition = 0.20
 	land_forcelimit_modifier = -0.20
-	global_autonomy = 0.125
+	global_autonomy = 0.20
 }
 
 suppliedbytenoch = {

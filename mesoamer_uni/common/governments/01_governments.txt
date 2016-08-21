@@ -271,7 +271,8 @@ tarascan_tribute_kingdom = {
 	rank = {
 		2 = {
 			#global_tax_modifier = 0.025
-			global_autonomy = -0.05
+			global_autonomy = -0.10
+			adm_tech_cost_modifier = -0.20
 		}
 	}
 	fixed_rank = 2
