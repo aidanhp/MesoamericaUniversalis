@@ -16,6 +16,8 @@
  goldbins: "Gold Nugget Bins"
  limebins: "Lime Bins"
  lumberstacks: "Lumber Stacks" 
+ provpp: "Population Potential"
  
  #VARIABLE DISPLAYS
  vassalsupply_display: "Staple Food Bins: §G[Root.staplefoodbins.GetValue]§! \nLuxury Food Bins: §G[Root.luxuryfoodbins.GetValue]§!\nCocoa Bean Bins: §G[Root.cocoabins.GetValue]§! \nRich Textile Bins: §G[Root.textilebins.GetValue]§! \nObsidian Stone Bins: §G[Root.obsidianbins.GetValue]§! \nPrecious Stones Bins: §G[Root.preciousbins.GetValue]§! \nQuetzal Plume Bins: §G[Root.quetzalbins.GetValue]§! \nSalt Bins: §G[Root.saltbins.GetValue]§! \nCopper Axe Bins: §G[Root.copperbins.GetValue]§! \nGold Nugget Bins: §G[Root.goldbins.GetValue]§! \nLime Bins: §G[Root.limebins.GetValue]§! \nLumber Stacks: §G[Root.lumberstacks.GetValue]§!"
+ displaylpp_tooltip: "§G[TEN.Capital.provpp.GetValue]§! \n §G[TET.Capital.provpp.GetValue]§! \n §G[TCP.Capital.provpp.GetValue]§!"

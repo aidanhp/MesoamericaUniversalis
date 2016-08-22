@@ -1,4 +1,4 @@
-#For Tribute Requirements
+﻿#For Tribute Requirements
 
 highwealth = {
 	prestige = 0.10
@@ -195,4 +195,70 @@ roads3 = {
 	local_movement_speed = 0.30
 }
 
+#Population Potential Modifiers
+#Used to display variables
+ppdisplay = {
 
+}
+
+#Base
+ppbase = {
+
+}
+
+#Based on terrain
+pplakeshore = {
+	#+100k PP
+}
+
+ppgrasslands = {
+	#+75k PP
+}
+
+pphills = {
+	#+60k PP
+}
+
+ppmountains = {
+	#+50k PP
+}
+
+ppdesert = {
+	#+40k PP
+}
+
+#Based on starting development
+
+sdverylow = {
+	#3-599 
+	#+10k PP
+}
+
+sdlow = {
+	#600-999
+	#+25k PP
+{
+
+sdmiddle = {
+	#this modifier doesn't work at all - who knows why
+}
+
+sdaboveaverage = {
+	#1300-1999 
+	#+75k PP
+}
+
+sdhigh = {
+	#2000-2999
+	#+100k PP
+}
+
+sdveryhigh = {
+	#3000-4999
+	#+150k PP
+}
+
+sdgargantuan = {
+	#5000+
+	#+250k PP
+}

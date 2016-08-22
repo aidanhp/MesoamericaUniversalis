@@ -1,6 +1,11 @@
 # country
 on_startup = {
-	#Fix Loans they aren't absurdly big
+	#Setup Population Potential
+	TEN = {
+		country_event = { id = ppcalc.01 }
+	}
+	
+	#Fix Loans so they aren't absurdly big
 	every_country = {
 		loan_size = 1
 	}
@@ -46,7 +51,9 @@ on_startup = {
 			duration = -1
 		}
 	}
-	
+
+	#Displays local pop potential
+
 	#Set Default Tribute Requirements	
 	every_country = {
 		limit = {

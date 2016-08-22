@@ -189,6 +189,7 @@ country_event = {
 						limit = {
 							development = 7000
 							NOT = { development = 7500 }
+							check_variable = { which = provpp value = 7000 }
 						}
 						add_base_tax = 9
 						add_base_production = 18
@@ -198,6 +199,8 @@ country_event = {
 						limit = {
 							development = 7500
 							NOT = { development = 8000 }
+						    check_variable = { which = provpp value = 7000 } 
+							check_variable = { which = provpp value = 7500 } 
 						}
 						add_base_tax = 9
 						add_base_production = 19
@@ -207,6 +210,9 @@ country_event = {
 						limit = {
 							development = 8000
 							NOT = { development = 8500 }
+							check_variable = { which = provpp value = 7000 } 
+							check_variable = { which = provpp value = 7500 } 
+							check_variable = { which = provpp value = 8000 } 
 						}
 						add_base_tax = 10
 						add_base_production = 20
@@ -216,6 +222,10 @@ country_event = {
 						limit = {
 							development = 8500
 							NOT = { development = 9000 }
+							check_variable = { which = provpp value = 7000 } 
+							check_variable = { which = provpp value = 7500 } 
+							check_variable = { which = provpp value = 8000 } 
+							check_variable = { which = provpp value = 8500 } 
 						}
 						add_base_tax = 10
 						add_base_production = 20
@@ -225,6 +235,11 @@ country_event = {
 						limit = {
 							development = 9000
 							NOT = { development = 9500 }
+							check_variable = { which = provpp value = 7000 } 
+							check_variable = { which = provpp value = 7500 } 
+							check_variable = { which = provpp value = 8000 } 
+							check_variable = { which = provpp value = 8500 } 
+							check_variable = { which = provpp value = 9000 } 
 						}
 						add_base_tax = 11
 						add_base_production = 21
@@ -234,6 +249,12 @@ country_event = {
 						limit = {
 							development = 9500
 							NOT = { development = 10000 }
+							check_variable = { which = provpp value = 7000 } 
+							check_variable = { which = provpp value = 7500 } 
+							check_variable = { which = provpp value = 8000 } 
+							check_variable = { which = provpp value = 8500 } 
+							check_variable = { which = provpp value = 9000 } 
+							check_variable = { which = provpp value = 9500 } 
 						}
 						add_base_tax = 12
 						add_base_production = 23
@@ -243,6 +264,13 @@ country_event = {
 						limit = {
 							development = 10000
 							NOT = { development = 11000 }
+							check_variable = { which = provpp value = 7000 } 
+							check_variable = { which = provpp value = 7500 } 
+							check_variable = { which = provpp value = 8000 } 
+							check_variable = { which = provpp value = 8500 } 
+							check_variable = { which = provpp value = 9000 } 
+							check_variable = { which = provpp value = 9500 } 
+							check_variable = { which = provpp value = 10000 } 
 						}
 						add_base_tax = 13
 						add_base_production = 25
@@ -252,6 +280,14 @@ country_event = {
 						limit = {
 							development = 11000
 							NOT = { development = 12000 }
+							check_variable = { which = provpp value = 7000 } 
+							check_variable = { which = provpp value = 7500 } 
+							check_variable = { which = provpp value = 8000 } 
+							check_variable = { which = provpp value = 8500 } 
+							check_variable = { which = provpp value = 9000 } 
+							check_variable = { which = provpp value = 9500 } 
+							check_variable = { which = provpp value = 10000 } 
+							check_variable = { which = provpp value = 11000 } 
 						}
 						add_base_tax = 14
 						add_base_production = 28
@@ -261,6 +297,15 @@ country_event = {
 						limit = {
 							development = 12000
 							NOT = { development = 13000 }
+							check_variable = { which = provpp value = 7000 } 
+							check_variable = { which = provpp value = 7500 } 
+							check_variable = { which = provpp value = 8000 } 
+							check_variable = { which = provpp value = 8500 } 
+							check_variable = { which = provpp value = 9000 } 
+							check_variable = { which = provpp value = 9500 } 
+							check_variable = { which = provpp value = 10000 } 
+							check_variable = { which = provpp value = 11000 }
+							check_variable = { which = provpp value = 12000 } 
 						}
 						add_base_tax = 15
 						add_base_production = 30
@@ -270,6 +315,16 @@ country_event = {
 						limit = {
 							development = 13000
 							NOT = { development = 14000 }
+							check_variable = { which = provpp value = 7000 } 
+							check_variable = { which = provpp value = 7500 } 
+							check_variable = { which = provpp value = 8000 } 
+							check_variable = { which = provpp value = 8500 } 
+							check_variable = { which = provpp value = 9000 } 
+							check_variable = { which = provpp value = 9500 } 
+							check_variable = { which = provpp value = 10000 } 
+							check_variable = { which = provpp value = 11000 }
+							check_variable = { which = provpp value = 12000 }
+							check_variable = { which = provpp value = 13000 } 
 						}
 						add_base_tax = 16
 						add_base_production = 32
@@ -279,6 +334,17 @@ country_event = {
 						limit = {
 							development = 14000
 							NOT = { development = 15000 }
+							check_variable = { which = provpp value = 7000 } 
+							check_variable = { which = provpp value = 7500 } 
+							check_variable = { which = provpp value = 8000 } 
+							check_variable = { which = provpp value = 8500 } 
+							check_variable = { which = provpp value = 9000 } 
+							check_variable = { which = provpp value = 9500 } 
+							check_variable = { which = provpp value = 10000 } 
+							check_variable = { which = provpp value = 11000 }
+							check_variable = { which = provpp value = 12000 }
+							check_variable = { which = provpp value = 13000 } 
+							check_variable = { which = provpp value = 14000 } 
 						}
 						add_base_tax = 17
 						add_base_production = 35
@@ -288,6 +354,18 @@ country_event = {
 						limit = {
 							development = 15000
 							NOT = { development = 16000 }
+							check_variable = { which = provpp value = 7000 } 
+							check_variable = { which = provpp value = 7500 } 
+							check_variable = { which = provpp value = 8000 } 
+							check_variable = { which = provpp value = 8500 } 
+							check_variable = { which = provpp value = 9000 } 
+							check_variable = { which = provpp value = 9500 } 
+							check_variable = { which = provpp value = 10000 } 
+							check_variable = { which = provpp value = 11000 }
+							check_variable = { which = provpp value = 12000 }
+							check_variable = { which = provpp value = 13000 } 
+							check_variable = { which = provpp value = 14000 } 
+							check_variable = { which = provpp value = 15000 } 
 						}
 						add_base_tax = 19
 						add_base_production = 37
@@ -297,6 +375,19 @@ country_event = {
 						limit = {
 							development = 16000
 							NOT = { development = 17000 }
+							check_variable = { which = provpp value = 7000 } 
+							check_variable = { which = provpp value = 7500 } 
+							check_variable = { which = provpp value = 8000 } 
+							check_variable = { which = provpp value = 8500 } 
+							check_variable = { which = provpp value = 9000 } 
+							check_variable = { which = provpp value = 9500 } 
+							check_variable = { which = provpp value = 10000 } 
+							check_variable = { which = provpp value = 11000 }
+							check_variable = { which = provpp value = 12000 }
+							check_variable = { which = provpp value = 13000 } 
+							check_variable = { which = provpp value = 14000 } 
+							check_variable = { which = provpp value = 15000 } 
+							check_variable = { which = provpp value = 16000 }
 						}
 						add_base_tax = 20
 						add_base_production = 40
@@ -306,6 +397,20 @@ country_event = {
 						limit = {
 							development = 17000
 							NOT = { development = 18000 }
+							check_variable = { which = provpp value = 7000 } 
+							check_variable = { which = provpp value = 7500 } 
+							check_variable = { which = provpp value = 8000 } 
+							check_variable = { which = provpp value = 8500 } 
+							check_variable = { which = provpp value = 9000 } 
+							check_variable = { which = provpp value = 9500 } 
+							check_variable = { which = provpp value = 10000 } 
+							check_variable = { which = provpp value = 11000 }
+							check_variable = { which = provpp value = 12000 }
+							check_variable = { which = provpp value = 13000 } 
+							check_variable = { which = provpp value = 14000 } 
+							check_variable = { which = provpp value = 15000 } 
+							check_variable = { which = provpp value = 16000 }
+							check_variable = { which = provpp value = 17000 } 
 						}
 						add_base_tax = 21
 						add_base_production = 42
@@ -315,6 +420,21 @@ country_event = {
 						limit = {
 							development = 18000
 							NOT = { development = 19000 }
+							check_variable = { which = provpp value = 7000 } 
+							check_variable = { which = provpp value = 7500 } 
+							check_variable = { which = provpp value = 8000 } 
+							check_variable = { which = provpp value = 8500 } 
+							check_variable = { which = provpp value = 9000 } 
+							check_variable = { which = provpp value = 9500 } 
+							check_variable = { which = provpp value = 10000 } 
+							check_variable = { which = provpp value = 11000 }
+							check_variable = { which = provpp value = 12000 }
+							check_variable = { which = provpp value = 13000 } 
+							check_variable = { which = provpp value = 14000 } 
+							check_variable = { which = provpp value = 15000 } 
+							check_variable = { which = provpp value = 16000 }
+							check_variable = { which = provpp value = 17000 } 
+							check_variable = { which = provpp value = 18000 } 
 						}
 						add_base_tax = 22
 						add_base_production = 44
@@ -324,6 +444,22 @@ country_event = {
 						limit = {
 							development = 19000
 							NOT = { development = 20000 }
+							check_variable = { which = provpp value = 7000 } 
+							check_variable = { which = provpp value = 7500 } 
+							check_variable = { which = provpp value = 8000 } 
+							check_variable = { which = provpp value = 8500 } 
+							check_variable = { which = provpp value = 9000 } 
+							check_variable = { which = provpp value = 9500 } 
+							check_variable = { which = provpp value = 10000 } 
+							check_variable = { which = provpp value = 11000 }
+							check_variable = { which = provpp value = 12000 }
+							check_variable = { which = provpp value = 13000 } 
+							check_variable = { which = provpp value = 14000 } 
+							check_variable = { which = provpp value = 15000 } 
+							check_variable = { which = provpp value = 16000 }
+							check_variable = { which = provpp value = 17000 } 
+							check_variable = { which = provpp value = 18000 } 
+							check_variable = { which = provpp value = 19000 } 
 						}
 						add_base_tax = 23
 						add_base_production = 47
@@ -333,6 +469,23 @@ country_event = {
 						limit = {
 							development = 20000
 							NOT = { development = 22000 }
+							check_variable = { which = provpp value = 7000 } 
+							check_variable = { which = provpp value = 7500 } 
+							check_variable = { which = provpp value = 8000 } 
+							check_variable = { which = provpp value = 8500 } 
+							check_variable = { which = provpp value = 9000 } 
+							check_variable = { which = provpp value = 9500 } 
+							check_variable = { which = provpp value = 10000 } 
+							check_variable = { which = provpp value = 11000 }
+							check_variable = { which = provpp value = 12000 }
+							check_variable = { which = provpp value = 13000 } 
+							check_variable = { which = provpp value = 14000 } 
+							check_variable = { which = provpp value = 15000 } 
+							check_variable = { which = provpp value = 16000 }
+							check_variable = { which = provpp value = 17000 } 
+							check_variable = { which = provpp value = 18000 } 
+							check_variable = { which = provpp value = 19000 } 
+							check_variable = { which = provpp value = 20000 } 
 						}
 						add_base_tax = 25
 						add_base_production = 50
@@ -342,6 +495,24 @@ country_event = {
 						limit = {
 							development = 22000
 							NOT = { development = 24000 }
+							check_variable = { which = provpp value = 7000 } 
+							check_variable = { which = provpp value = 7500 } 
+							check_variable = { which = provpp value = 8000 } 
+							check_variable = { which = provpp value = 8500 } 
+							check_variable = { which = provpp value = 9000 } 
+							check_variable = { which = provpp value = 9500 } 
+							check_variable = { which = provpp value = 10000 } 
+							check_variable = { which = provpp value = 11000 }
+							check_variable = { which = provpp value = 12000 }
+							check_variable = { which = provpp value = 13000 } 
+							check_variable = { which = provpp value = 14000 } 
+							check_variable = { which = provpp value = 15000 } 
+							check_variable = { which = provpp value = 16000 }
+							check_variable = { which = provpp value = 17000 } 
+							check_variable = { which = provpp value = 18000 } 
+							check_variable = { which = provpp value = 19000 } 
+							check_variable = { which = provpp value = 20000 } 
+							check_variable = { which = provpp value = 22000 } 
 						}
 						add_base_tax = 27
 						add_base_production = 55
@@ -351,6 +522,25 @@ country_event = {
 						limit = {
 							development = 24000
 							NOT = { development = 26000 }
+							check_variable = { which = provpp value = 7000 } 
+							check_variable = { which = provpp value = 7500 } 
+							check_variable = { which = provpp value = 8000 } 
+							check_variable = { which = provpp value = 8500 } 
+							check_variable = { which = provpp value = 9000 } 
+							check_variable = { which = provpp value = 9500 } 
+							check_variable = { which = provpp value = 10000 } 
+							check_variable = { which = provpp value = 11000 }
+							check_variable = { which = provpp value = 12000 }
+							check_variable = { which = provpp value = 13000 } 
+							check_variable = { which = provpp value = 14000 } 
+							check_variable = { which = provpp value = 15000 } 
+							check_variable = { which = provpp value = 16000 }
+							check_variable = { which = provpp value = 17000 } 
+							check_variable = { which = provpp value = 18000 } 
+							check_variable = { which = provpp value = 19000 } 
+							check_variable = { which = provpp value = 20000 } 
+							check_variable = { which = provpp value = 22000 } 
+							check_variable = { which = provpp value = 24000 } 
 						}
 						add_base_tax = 30
 						add_base_production = 60
@@ -360,6 +550,26 @@ country_event = {
 						limit = {
 							development = 26000
 							NOT = { development = 28000 }
+							check_variable = { which = provpp value = 7000 } 
+							check_variable = { which = provpp value = 7500 } 
+							check_variable = { which = provpp value = 8000 } 
+							check_variable = { which = provpp value = 8500 } 
+							check_variable = { which = provpp value = 9000 } 
+							check_variable = { which = provpp value = 9500 } 
+							check_variable = { which = provpp value = 10000 } 
+							check_variable = { which = provpp value = 11000 }
+							check_variable = { which = provpp value = 12000 }
+							check_variable = { which = provpp value = 13000 } 
+							check_variable = { which = provpp value = 14000 } 
+							check_variable = { which = provpp value = 15000 } 
+							check_variable = { which = provpp value = 16000 }
+							check_variable = { which = provpp value = 17000 } 
+							check_variable = { which = provpp value = 18000 } 
+							check_variable = { which = provpp value = 19000 } 
+							check_variable = { which = provpp value = 20000 } 
+							check_variable = { which = provpp value = 22000 } 
+							check_variable = { which = provpp value = 24000 } 
+							check_variable = { which = provpp value = 26000 } 
 						}
 						add_base_tax = 32
 						add_base_production = 65
@@ -369,6 +579,27 @@ country_event = {
 						limit = {
 							development = 28000
 							NOT = { development = 30000 }
+							check_variable = { which = provpp value = 7000 } 
+							check_variable = { which = provpp value = 7500 } 
+							check_variable = { which = provpp value = 8000 } 
+							check_variable = { which = provpp value = 8500 } 
+							check_variable = { which = provpp value = 9000 } 
+							check_variable = { which = provpp value = 9500 } 
+							check_variable = { which = provpp value = 10000 } 
+							check_variable = { which = provpp value = 11000 }
+							check_variable = { which = provpp value = 12000 }
+							check_variable = { which = provpp value = 13000 } 
+							check_variable = { which = provpp value = 14000 } 
+							check_variable = { which = provpp value = 15000 } 
+							check_variable = { which = provpp value = 16000 }
+							check_variable = { which = provpp value = 17000 } 
+							check_variable = { which = provpp value = 18000 } 
+							check_variable = { which = provpp value = 19000 } 
+							check_variable = { which = provpp value = 20000 } 
+							check_variable = { which = provpp value = 22000 } 
+							check_variable = { which = provpp value = 24000 } 
+							check_variable = { which = provpp value = 26000 } 
+							check_variable = { which = provpp value = 28000 } 
 						}
 						add_base_tax = 35
 						add_base_production = 70
@@ -378,6 +609,27 @@ country_event = {
 						limit = {
 							development = 30000
 							NOT = { development = 32500 }
+							check_variable = { which = provpp value = 7000 } 
+							check_variable = { which = provpp value = 7500 } 
+							check_variable = { which = provpp value = 8000 } 
+							check_variable = { which = provpp value = 8500 } 
+							check_variable = { which = provpp value = 9000 } 
+							check_variable = { which = provpp value = 9500 } 
+							check_variable = { which = provpp value = 10000 } 
+							check_variable = { which = provpp value = 11000 }
+							check_variable = { which = provpp value = 12000 }
+							check_variable = { which = provpp value = 13000 } 
+							check_variable = { which = provpp value = 14000 } 
+							check_variable = { which = provpp value = 15000 } 
+							check_variable = { which = provpp value = 16000 }
+							check_variable = { which = provpp value = 17000 } 
+							check_variable = { which = provpp value = 18000 } 
+							check_variable = { which = provpp value = 19000 } 
+							check_variable = { which = provpp value = 20000 } 
+							check_variable = { which = provpp value = 22000 } 
+							check_variable = { which = provpp value = 24000 } 
+							check_variable = { which = provpp value = 26000 } 
+							check_variable = { which = provpp value = 30000 } 
 						}
 						add_base_tax = 37
 						add_base_production = 75
@@ -387,6 +639,28 @@ country_event = {
 						limit = {
 							development = 32500
 							NOT = { development = 35000 }
+							check_variable = { which = provpp value = 7000 } 
+							check_variable = { which = provpp value = 7500 } 
+							check_variable = { which = provpp value = 8000 } 
+							check_variable = { which = provpp value = 8500 } 
+							check_variable = { which = provpp value = 9000 } 
+							check_variable = { which = provpp value = 9500 } 
+							check_variable = { which = provpp value = 10000 } 
+							check_variable = { which = provpp value = 11000 }
+							check_variable = { which = provpp value = 12000 }
+							check_variable = { which = provpp value = 13000 } 
+							check_variable = { which = provpp value = 14000 } 
+							check_variable = { which = provpp value = 15000 } 
+							check_variable = { which = provpp value = 16000 }
+							check_variable = { which = provpp value = 17000 } 
+							check_variable = { which = provpp value = 18000 } 
+							check_variable = { which = provpp value = 19000 } 
+							check_variable = { which = provpp value = 20000 } 
+							check_variable = { which = provpp value = 22000 } 
+							check_variable = { which = provpp value = 24000 } 
+							check_variable = { which = provpp value = 26000 } 
+							check_variable = { which = provpp value = 30000 }
+							check_variable = { which = provpp value = 32500 }
 						}
 						add_base_tax = 40
 						add_base_production = 80
@@ -396,6 +670,29 @@ country_event = {
 						limit = {
 							development = 35000
 							NOT = { development = 37500 }
+							check_variable = { which = provpp value = 7000 } 
+							check_variable = { which = provpp value = 7500 } 
+							check_variable = { which = provpp value = 8000 } 
+							check_variable = { which = provpp value = 8500 } 
+							check_variable = { which = provpp value = 9000 } 
+							check_variable = { which = provpp value = 9500 } 
+							check_variable = { which = provpp value = 10000 } 
+							check_variable = { which = provpp value = 11000 }
+							check_variable = { which = provpp value = 12000 }
+							check_variable = { which = provpp value = 13000 } 
+							check_variable = { which = provpp value = 14000 } 
+							check_variable = { which = provpp value = 15000 } 
+							check_variable = { which = provpp value = 16000 }
+							check_variable = { which = provpp value = 17000 } 
+							check_variable = { which = provpp value = 18000 } 
+							check_variable = { which = provpp value = 19000 } 
+							check_variable = { which = provpp value = 20000 } 
+							check_variable = { which = provpp value = 22000 } 
+							check_variable = { which = provpp value = 24000 } 
+							check_variable = { which = provpp value = 26000 } 
+							check_variable = { which = provpp value = 30000 }
+							check_variable = { which = provpp value = 32500 }
+							check_variable = { which = provpp value = 35000 }
 						}
 						add_base_tax = 43
 						add_base_production = 86
@@ -405,6 +702,30 @@ country_event = {
 						limit = {
 							development = 37500
 							NOT = { development = 40000 }
+							check_variable = { which = provpp value = 7000 } 
+							check_variable = { which = provpp value = 7500 } 
+							check_variable = { which = provpp value = 8000 } 
+							check_variable = { which = provpp value = 8500 } 
+							check_variable = { which = provpp value = 9000 } 
+							check_variable = { which = provpp value = 9500 } 
+							check_variable = { which = provpp value = 10000 } 
+							check_variable = { which = provpp value = 11000 }
+							check_variable = { which = provpp value = 12000 }
+							check_variable = { which = provpp value = 13000 } 
+							check_variable = { which = provpp value = 14000 } 
+							check_variable = { which = provpp value = 15000 } 
+							check_variable = { which = provpp value = 16000 }
+							check_variable = { which = provpp value = 17000 } 
+							check_variable = { which = provpp value = 18000 } 
+							check_variable = { which = provpp value = 19000 } 
+							check_variable = { which = provpp value = 20000 } 
+							check_variable = { which = provpp value = 22000 } 
+							check_variable = { which = provpp value = 24000 } 
+							check_variable = { which = provpp value = 26000 } 
+							check_variable = { which = provpp value = 30000 }
+							check_variable = { which = provpp value = 32500 }
+							check_variable = { which = provpp value = 35000 }
+							check_variable = { which = provpp value = 37500 }
 						}
 						add_base_tax = 47
 						add_base_production = 94
@@ -414,6 +735,31 @@ country_event = {
 						limit = {
 							development = 40000
 							NOT = { development = 43400 }
+							check_variable = { which = provpp value = 7000 } 
+							check_variable = { which = provpp value = 7500 } 
+							check_variable = { which = provpp value = 8000 } 
+							check_variable = { which = provpp value = 8500 } 
+							check_variable = { which = provpp value = 9000 } 
+							check_variable = { which = provpp value = 9500 } 
+							check_variable = { which = provpp value = 10000 } 
+							check_variable = { which = provpp value = 11000 }
+							check_variable = { which = provpp value = 12000 }
+							check_variable = { which = provpp value = 13000 } 
+							check_variable = { which = provpp value = 14000 } 
+							check_variable = { which = provpp value = 15000 } 
+							check_variable = { which = provpp value = 16000 }
+							check_variable = { which = provpp value = 17000 } 
+							check_variable = { which = provpp value = 18000 } 
+							check_variable = { which = provpp value = 19000 } 
+							check_variable = { which = provpp value = 20000 } 
+							check_variable = { which = provpp value = 22000 } 
+							check_variable = { which = provpp value = 24000 } 
+							check_variable = { which = provpp value = 26000 } 
+							check_variable = { which = provpp value = 30000 }
+							check_variable = { which = provpp value = 32500 }
+							check_variable = { which = provpp value = 35000 }
+							check_variable = { which = provpp value = 37500 }
+							check_variable = { which = provpp value = 40000 }
 						}
 						add_base_tax = 50
 						add_base_production = 100
@@ -423,6 +769,32 @@ country_event = {
 						limit = {
 							development = 43400
 							NOT = { development = 46700 }
+							check_variable = { which = provpp value = 7000 } 
+							check_variable = { which = provpp value = 7500 } 
+							check_variable = { which = provpp value = 8000 } 
+							check_variable = { which = provpp value = 8500 } 
+							check_variable = { which = provpp value = 9000 } 
+							check_variable = { which = provpp value = 9500 } 
+							check_variable = { which = provpp value = 10000 } 
+							check_variable = { which = provpp value = 11000 }
+							check_variable = { which = provpp value = 12000 }
+							check_variable = { which = provpp value = 13000 } 
+							check_variable = { which = provpp value = 14000 } 
+							check_variable = { which = provpp value = 15000 } 
+							check_variable = { which = provpp value = 16000 }
+							check_variable = { which = provpp value = 17000 } 
+							check_variable = { which = provpp value = 18000 } 
+							check_variable = { which = provpp value = 19000 } 
+							check_variable = { which = provpp value = 20000 } 
+							check_variable = { which = provpp value = 22000 } 
+							check_variable = { which = provpp value = 24000 } 
+							check_variable = { which = provpp value = 26000 } 
+							check_variable = { which = provpp value = 30000 }
+							check_variable = { which = provpp value = 32500 }
+							check_variable = { which = provpp value = 35000 }
+							check_variable = { which = provpp value = 37500 }
+							check_variable = { which = provpp value = 40000 }
+							check_variable = { which = provpp value = 43400 }
 						}
 						add_base_tax = 55
 						add_base_production = 109
@@ -432,6 +804,33 @@ country_event = {
 						limit = {
 							development = 46700
 							NOT = { development = 50000 }
+							check_variable = { which = provpp value = 7000 } 
+							check_variable = { which = provpp value = 7500 } 
+							check_variable = { which = provpp value = 8000 } 
+							check_variable = { which = provpp value = 8500 } 
+							check_variable = { which = provpp value = 9000 } 
+							check_variable = { which = provpp value = 9500 } 
+							check_variable = { which = provpp value = 10000 } 
+							check_variable = { which = provpp value = 11000 }
+							check_variable = { which = provpp value = 12000 }
+							check_variable = { which = provpp value = 13000 } 
+							check_variable = { which = provpp value = 14000 } 
+							check_variable = { which = provpp value = 15000 } 
+							check_variable = { which = provpp value = 16000 }
+							check_variable = { which = provpp value = 17000 } 
+							check_variable = { which = provpp value = 18000 } 
+							check_variable = { which = provpp value = 19000 } 
+							check_variable = { which = provpp value = 20000 } 
+							check_variable = { which = provpp value = 22000 } 
+							check_variable = { which = provpp value = 24000 } 
+							check_variable = { which = provpp value = 26000 } 
+							check_variable = { which = provpp value = 30000 }
+							check_variable = { which = provpp value = 32500 }
+							check_variable = { which = provpp value = 35000 }
+							check_variable = { which = provpp value = 37500 }
+							check_variable = { which = provpp value = 40000 }
+							check_variable = { which = provpp value = 43400 }
+							check_variable = { which = provpp value = 46700 }
 						}
 						add_base_tax = 58
 						add_base_production = 116
@@ -441,6 +840,34 @@ country_event = {
 						limit = {
 							development = 50000
 							NOT = { development = 55000 }
+							check_variable = { which = provpp value = 7000 } 
+							check_variable = { which = provpp value = 7500 } 
+							check_variable = { which = provpp value = 8000 } 
+							check_variable = { which = provpp value = 8500 } 
+							check_variable = { which = provpp value = 9000 } 
+							check_variable = { which = provpp value = 9500 } 
+							check_variable = { which = provpp value = 10000 } 
+							check_variable = { which = provpp value = 11000 }
+							check_variable = { which = provpp value = 12000 }
+							check_variable = { which = provpp value = 13000 } 
+							check_variable = { which = provpp value = 14000 } 
+							check_variable = { which = provpp value = 15000 } 
+							check_variable = { which = provpp value = 16000 }
+							check_variable = { which = provpp value = 17000 } 
+							check_variable = { which = provpp value = 18000 } 
+							check_variable = { which = provpp value = 19000 } 
+							check_variable = { which = provpp value = 20000 } 
+							check_variable = { which = provpp value = 22000 } 
+							check_variable = { which = provpp value = 24000 } 
+							check_variable = { which = provpp value = 26000 } 
+							check_variable = { which = provpp value = 30000 }
+							check_variable = { which = provpp value = 32500 }
+							check_variable = { which = provpp value = 35000 }
+							check_variable = { which = provpp value = 37500 }
+							check_variable = { which = provpp value = 40000 }
+							check_variable = { which = provpp value = 43400 }
+							check_variable = { which = provpp value = 46700 }
+							check_variable = { which = provpp value = 50000 }
 						}
 						add_base_tax = 63
 						add_base_production = 126
@@ -450,6 +877,35 @@ country_event = {
 						limit = {
 							development = 55000
 							NOT = { development = 60000 }
+							check_variable = { which = provpp value = 7000 } 
+							check_variable = { which = provpp value = 7500 } 
+							check_variable = { which = provpp value = 8000 } 
+							check_variable = { which = provpp value = 8500 } 
+							check_variable = { which = provpp value = 9000 } 
+							check_variable = { which = provpp value = 9500 } 
+							check_variable = { which = provpp value = 10000 } 
+							check_variable = { which = provpp value = 11000 }
+							check_variable = { which = provpp value = 12000 }
+							check_variable = { which = provpp value = 13000 } 
+							check_variable = { which = provpp value = 14000 } 
+							check_variable = { which = provpp value = 15000 } 
+							check_variable = { which = provpp value = 16000 }
+							check_variable = { which = provpp value = 17000 } 
+							check_variable = { which = provpp value = 18000 } 
+							check_variable = { which = provpp value = 19000 } 
+							check_variable = { which = provpp value = 20000 } 
+							check_variable = { which = provpp value = 22000 } 
+							check_variable = { which = provpp value = 24000 } 
+							check_variable = { which = provpp value = 26000 } 
+							check_variable = { which = provpp value = 30000 }
+							check_variable = { which = provpp value = 32500 }
+							check_variable = { which = provpp value = 35000 }
+							check_variable = { which = provpp value = 37500 }
+							check_variable = { which = provpp value = 40000 }
+							check_variable = { which = provpp value = 43400 }
+							check_variable = { which = provpp value = 46700 }
+							check_variable = { which = provpp value = 50000 }
+							check_variable = { which = provpp value = 55000 }
 						}
 						add_base_tax = 69
 						add_base_production = 138
@@ -459,6 +915,36 @@ country_event = {
 						limit = {
 							development = 60000
 							NOT = { development = 70000 }
+							check_variable = { which = provpp value = 7000 } 
+							check_variable = { which = provpp value = 7500 } 
+							check_variable = { which = provpp value = 8000 } 
+							check_variable = { which = provpp value = 8500 } 
+							check_variable = { which = provpp value = 9000 } 
+							check_variable = { which = provpp value = 9500 } 
+							check_variable = { which = provpp value = 10000 } 
+							check_variable = { which = provpp value = 11000 }
+							check_variable = { which = provpp value = 12000 }
+							check_variable = { which = provpp value = 13000 } 
+							check_variable = { which = provpp value = 14000 } 
+							check_variable = { which = provpp value = 15000 } 
+							check_variable = { which = provpp value = 16000 }
+							check_variable = { which = provpp value = 17000 } 
+							check_variable = { which = provpp value = 18000 } 
+							check_variable = { which = provpp value = 19000 } 
+							check_variable = { which = provpp value = 20000 } 
+							check_variable = { which = provpp value = 22000 } 
+							check_variable = { which = provpp value = 24000 } 
+							check_variable = { which = provpp value = 26000 } 
+							check_variable = { which = provpp value = 30000 }
+							check_variable = { which = provpp value = 32500 }
+							check_variable = { which = provpp value = 35000 }
+							check_variable = { which = provpp value = 37500 }
+							check_variable = { which = provpp value = 40000 }
+							check_variable = { which = provpp value = 43400 }
+							check_variable = { which = provpp value = 46700 }
+							check_variable = { which = provpp value = 50000 }
+							check_variable = { which = provpp value = 55000 }
+							check_variable = { which = provpp value = 60000 }
 						}
 						add_base_tax = 78
 						add_base_production = 156
@@ -468,6 +954,37 @@ country_event = {
 						limit = {
 							development = 70000
 							NOT = { development = 80000 }
+							check_variable = { which = provpp value = 7000 } 
+							check_variable = { which = provpp value = 7500 } 
+							check_variable = { which = provpp value = 8000 } 
+							check_variable = { which = provpp value = 8500 } 
+							check_variable = { which = provpp value = 9000 } 
+							check_variable = { which = provpp value = 9500 } 
+							check_variable = { which = provpp value = 10000 } 
+							check_variable = { which = provpp value = 11000 }
+							check_variable = { which = provpp value = 12000 }
+							check_variable = { which = provpp value = 13000 } 
+							check_variable = { which = provpp value = 14000 } 
+							check_variable = { which = provpp value = 15000 } 
+							check_variable = { which = provpp value = 16000 }
+							check_variable = { which = provpp value = 17000 } 
+							check_variable = { which = provpp value = 18000 } 
+							check_variable = { which = provpp value = 19000 } 
+							check_variable = { which = provpp value = 20000 } 
+							check_variable = { which = provpp value = 22000 } 
+							check_variable = { which = provpp value = 24000 } 
+							check_variable = { which = provpp value = 26000 } 
+							check_variable = { which = provpp value = 30000 }
+							check_variable = { which = provpp value = 32500 }
+							check_variable = { which = provpp value = 35000 }
+							check_variable = { which = provpp value = 37500 }
+							check_variable = { which = provpp value = 40000 }
+							check_variable = { which = provpp value = 43400 }
+							check_variable = { which = provpp value = 46700 }
+							check_variable = { which = provpp value = 50000 }
+							check_variable = { which = provpp value = 55000 }
+							check_variable = { which = provpp value = 60000 }
+							check_variable = { which = provpp value = 70000 }
 						}
 						add_base_tax = 90
 						add_base_production = 180
@@ -477,6 +994,38 @@ country_event = {
 						limit = {
 							development = 80000
 							NOT = { development = 90000 }
+							check_variable = { which = provpp value = 7000 } 
+							check_variable = { which = provpp value = 7500 } 
+							check_variable = { which = provpp value = 8000 } 
+							check_variable = { which = provpp value = 8500 } 
+							check_variable = { which = provpp value = 9000 } 
+							check_variable = { which = provpp value = 9500 } 
+							check_variable = { which = provpp value = 10000 } 
+							check_variable = { which = provpp value = 11000 }
+							check_variable = { which = provpp value = 12000 }
+							check_variable = { which = provpp value = 13000 } 
+							check_variable = { which = provpp value = 14000 } 
+							check_variable = { which = provpp value = 15000 } 
+							check_variable = { which = provpp value = 16000 }
+							check_variable = { which = provpp value = 17000 } 
+							check_variable = { which = provpp value = 18000 } 
+							check_variable = { which = provpp value = 19000 } 
+							check_variable = { which = provpp value = 20000 } 
+							check_variable = { which = provpp value = 22000 } 
+							check_variable = { which = provpp value = 24000 } 
+							check_variable = { which = provpp value = 26000 } 
+							check_variable = { which = provpp value = 30000 }
+							check_variable = { which = provpp value = 32500 }
+							check_variable = { which = provpp value = 35000 }
+							check_variable = { which = provpp value = 37500 }
+							check_variable = { which = provpp value = 40000 }
+							check_variable = { which = provpp value = 43400 }
+							check_variable = { which = provpp value = 46700 }
+							check_variable = { which = provpp value = 50000 }
+							check_variable = { which = provpp value = 55000 }
+							check_variable = { which = provpp value = 60000 }
+							check_variable = { which = provpp value = 70000 }
+							check_variable = { which = provpp value = 80000 }
 						}
 						add_base_tax = 102
 						add_base_production = 204
@@ -486,6 +1035,39 @@ country_event = {
 						limit = {
 							development = 90000
 							NOT = { development = 100000 }
+							check_variable = { which = provpp value = 7000 } 
+							check_variable = { which = provpp value = 7500 } 
+							check_variable = { which = provpp value = 8000 } 
+							check_variable = { which = provpp value = 8500 } 
+							check_variable = { which = provpp value = 9000 } 
+							check_variable = { which = provpp value = 9500 } 
+							check_variable = { which = provpp value = 10000 } 
+							check_variable = { which = provpp value = 11000 }
+							check_variable = { which = provpp value = 12000 }
+							check_variable = { which = provpp value = 13000 } 
+							check_variable = { which = provpp value = 14000 } 
+							check_variable = { which = provpp value = 15000 } 
+							check_variable = { which = provpp value = 16000 }
+							check_variable = { which = provpp value = 17000 } 
+							check_variable = { which = provpp value = 18000 } 
+							check_variable = { which = provpp value = 19000 } 
+							check_variable = { which = provpp value = 20000 } 
+							check_variable = { which = provpp value = 22000 } 
+							check_variable = { which = provpp value = 24000 } 
+							check_variable = { which = provpp value = 26000 } 
+							check_variable = { which = provpp value = 30000 }
+							check_variable = { which = provpp value = 32500 }
+							check_variable = { which = provpp value = 35000 }
+							check_variable = { which = provpp value = 37500 }
+							check_variable = { which = provpp value = 40000 }
+							check_variable = { which = provpp value = 43400 }
+							check_variable = { which = provpp value = 46700 }
+							check_variable = { which = provpp value = 50000 }
+							check_variable = { which = provpp value = 55000 }
+							check_variable = { which = provpp value = 60000 }
+							check_variable = { which = provpp value = 70000 }
+							check_variable = { which = provpp value = 80000 }
+							check_variable = { which = provpp value = 90000 }
 						}
 						add_base_tax = 114
 						add_base_production = 228
@@ -494,6 +1076,40 @@ country_event = {
 					if = {
 						limit = {
 							development = 100000
+							check_variable = { which = provpp value = 7000 } 
+							check_variable = { which = provpp value = 7500 } 
+							check_variable = { which = provpp value = 8000 } 
+							check_variable = { which = provpp value = 8500 } 
+							check_variable = { which = provpp value = 9000 } 
+							check_variable = { which = provpp value = 9500 } 
+							check_variable = { which = provpp value = 10000 } 
+							check_variable = { which = provpp value = 11000 }
+							check_variable = { which = provpp value = 12000 }
+							check_variable = { which = provpp value = 13000 } 
+							check_variable = { which = provpp value = 14000 } 
+							check_variable = { which = provpp value = 15000 } 
+							check_variable = { which = provpp value = 16000 }
+							check_variable = { which = provpp value = 17000 } 
+							check_variable = { which = provpp value = 18000 } 
+							check_variable = { which = provpp value = 19000 } 
+							check_variable = { which = provpp value = 20000 } 
+							check_variable = { which = provpp value = 22000 } 
+							check_variable = { which = provpp value = 24000 } 
+							check_variable = { which = provpp value = 26000 } 
+							check_variable = { which = provpp value = 30000 }
+							check_variable = { which = provpp value = 32500 }
+							check_variable = { which = provpp value = 35000 }
+							check_variable = { which = provpp value = 37500 }
+							check_variable = { which = provpp value = 40000 }
+							check_variable = { which = provpp value = 43400 }
+							check_variable = { which = provpp value = 46700 }
+							check_variable = { which = provpp value = 50000 }
+							check_variable = { which = provpp value = 55000 }
+							check_variable = { which = provpp value = 60000 }
+							check_variable = { which = provpp value = 70000 }
+							check_variable = { which = provpp value = 80000 }
+							check_variable = { which = provpp value = 90000 }
+							check_variable = { which = provpp value = 100000 }
 						}
 						add_base_tax = 150
 						add_base_production = 300

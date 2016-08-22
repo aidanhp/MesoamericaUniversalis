@@ -1,5 +1,40 @@
 ﻿l_english: 
- #Modifiers
+ #MODIFIERS
+ 
+ #Population Potential
+ #Display
+ ppdisplay: "Current Local Population Potential: §G[TEN.Capital.provpp.GetValue]§!"
+ desc_ppdisplay: "This is the current population potential of this province. If the development of the province reaches this value, base population increase will stop and population will only go up as a result of stored food, buildings, or other effects."
+ #From Terrain
+ ppbase: "LLP: Base"
+ desc_ppbase: "+1000 Local Population Potential"
+ pplakeshore: "LPP: Lakeshore"
+ desc_pplakeshore: "+10000 Local Population Potential"
+ ppgrasslands: "LPP: Grasslands"
+ desc_ppgrasslands: "+7500 Local Population Potential"
+ pphills: "LPP: Hills"
+ desc_pphills: "+6000 Local Population Potential"
+ ppmountains: "LPP: Mountains"
+ desc_ppmountains: "+5000 Local Population Potential"
+ ppdesert: "LPP: Desert"
+ desc_ppdesert: "+4000 Local Population Potential"
+ 
+ #From Starting Development
+ sdverylow: "LPP: Very Low Starting Development"
+ desc_sdverylow: "+1000 Local Population Potential"
+ sdlow: "LPP: Low Starting Development"
+ desc_sdlow: "+2500 Local Population Potential"
+ mediumstartingdevelopment: "LPP: Average Starting Development"
+ desc_mediumstartingdevelopment: "+5000 Local Population Potential"
+ sdaboveaverage: "LPP: Above Average Starting Development"
+ desc_sdaboveaverage: "+7500 Local Population Potential"
+ sdhigh: "LPP: High Starting Development"
+ desc_sdhigh: "+10000 Local Population Potential"
+ sdveryhigh: "LPP: Very High Starting Development"
+ desc_sdveryhigh: "+15000 Local Population Potential"
+ sdgargantuan: "LPP: Gargantuan Starting Development"
+ desc_sdgargantuan: "+25000 Local Population Potential"
+ 
  #Tribute Requirements
  highwealth: "High Wealth Requirements"
  normalwealth: "Normal Wealth Requirements"

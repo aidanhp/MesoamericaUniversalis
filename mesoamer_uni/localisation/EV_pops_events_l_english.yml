@@ -1,6 +1,12 @@
 ﻿l_english: 
  #Population Events
  
+ #Local Potential Population
+ ppcalc1.t: "Local Population Potential Setup"
+ ppcalc1.d: "This event sets up the LPP for every province, and will eventually only be seeable by a tiny country in the middle of the pacific on an island surrounded by wasteland specifically designed to use these events."
+ ppcalc1.a: "You're ruining my immersion!"
+
+ 
  #Master Event that calculates all pop changes
  popup1.t: "Population Change"
  popup1.d: "Across the lands, populations have changed."

@@ -21,7 +21,9 @@ country_event = {
 	
 	option = {
 		name = glory.1.a
-		
+		#1 = {
+		#	change_variable = { which = provpp value = -26000 }
+		#}
 	}
 }
 

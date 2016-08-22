@@ -1,0 +1,144 @@
+namespace = ppcalc
+
+country_event = {
+	id = ppcalc.01
+
+	title = "ppcalc1.t"
+	desc = "ppcalc1.d"
+	picture = CITY_VIEW_eventPicture
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = "ppcalc1.a"
+		
+		hidden_effect = {
+		every_province = {
+			set_variable = { which = provpp value = 1000 }
+			add_permanent_province_modifier = {
+				name = ppbase
+				duration = -1
+			}
+			
+			if = {
+				limit = {
+					has_terrain = grasslands
+				}
+				change_variable = { which = provpp value = 7500 }
+				add_permanent_province_modifier = {
+					name = ppgrasslands
+					duration = -1
+				}
+			}
+			if = {
+				limit = {
+					has_terrain = hills
+				}
+				change_variable = { which = provpp value = 6000 }
+				add_permanent_province_modifier = {
+					name = pphills
+					duration = -1
+				}
+			}
+			if = {
+				limit = {
+					has_terrain = mountain
+				}
+				change_variable = { which = provpp value = 5000 }
+				add_permanent_province_modifier = {
+					name = ppmountains
+					duration = -1
+				}
+			}
+			if = {
+				limit = {
+					has_terrain = desert
+				}
+				change_variable = { which = provpp value = 4000 }
+				add_permanent_province_modifier = {
+					name = ppdesert
+					duration = -1
+				}
+			}
+			if = {
+				limit = {
+					development = 3
+					NOT = { development = 600 }
+				}
+				change_variable = { which = provpp value = 1000 }
+				add_permanent_province_modifier = {
+					name = sdverylow
+					duration = -1
+				}
+			}
+			if = {
+				limit = {
+					development = 600
+					NOT = { development = 1000 }
+				}
+				change_variable = { which = provpp value = 2500 }
+				add_permanent_province_modifier = {
+					name = sdlow
+					duration = -1
+				}
+			}
+			if = {
+				limit = {
+					development = 1000
+					NOT = { development = 1300 }
+				}
+				change_variable = { which = provpp value = 5000 }
+				add_permanent_province_modifier = {
+					name = mediumstartingdevelopment  
+					duration = -1
+				}
+			}
+			if = {
+				limit = {
+					development = 1300
+					NOT = { development = 2000 }
+				}
+				change_variable = { which = provpp value = 7500 }
+				add_permanent_province_modifier = {
+					name = sdaboveaverage
+					duration = -1
+				}
+			}
+			if = {
+				limit = {
+					development = 2000
+					NOT = { development = 3000 }
+				}
+				change_variable = { which = provpp value = 10000 }
+				add_permanent_province_modifier = {
+					name = sdhigh
+					duration = -1
+				}
+			}
+			if = {
+				limit = {
+					development = 3000
+					NOT = { development = 5000 }
+				}
+				change_variable = { which = provpp value = 15000 }
+				add_permanent_province_modifier = {
+					name = sdveryhigh
+					duration = -1
+				}
+			}
+			if = {
+				limit = {
+					development = 5000
+				}
+				change_variable = { which = provpp value = 25000 }
+				add_permanent_province_modifier = {
+					name = sdgargantuan
+					duration = -1
+				}
+			}
+		}
+		}
+	}
+}

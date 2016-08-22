@@ -7323,6 +7323,10 @@ suppliedbytenoch = {
 	#local_manpower_modifier = -1.0
 }
 
+mediumstartingdevelopment = {
+
+}
+
 ##################################################
 # Tutorial only
 ##################################################
