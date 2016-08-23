@@ -45,10 +45,10 @@ hegemonic_kingdom = {
 	max_states = 1
 	min_autonomy = 60
 
-	#faction = currentdynasty
-	#faction = priests
-	#faction = nobles
-	#faction = merchants
+	faction = currentdynasty
+	faction = priests
+	faction = nobles
+	faction = merchants
 	
 	rank = {
 		2 = {

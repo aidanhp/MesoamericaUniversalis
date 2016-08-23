@@ -96,3 +96,40 @@
  #Obstacles
  nopackanimals: "No Pack Animals"
  desc_nopackanimals: "The lack of pack animals and mounts for soldiers makes traveling armies significantly slower."
+ 
+ #PRIVILEGE MODIFIERS
+ #Priests
+ priestsingov: "Priests in Government"
+ desc_priestsingov: "The political embargo on the priesthood has been lifted and priests can hold positions of political power."
+ elevatedpriesthood: "Elevated Priesthood"
+ desc_elevatedpriesthood: "The priests have been granted the same legal rights as nobles."
+ priestcouncilors: "Priest Councilors"
+ desc_priestcouncilors: "Priests have been appointed as advisors to important government officials."
+ moneytopriests: "Priest Pension"
+ desc_moneytopriests: "The priesthood has been delegated a pension to cover all expenses they may have."
+ 
+ #Nobles
+ militarypatrimonialism: "Military Patrimonialism"
+ desc_militarypatrimonialism: "The military is no longer an avenue for social advancement and the military orders are only open to members of the nobility."
+ governmentpatrimonialism: "Government Patrimonialism"
+ desc_governmentpatrimonialism: "Government positions can no longer be held by commoners."
+ exclusivenoblerights: "Exclusive Aristocratic Rights"
+ desc_exclusivenoblerights: "The nobility enjoys special legal privileges blocked to any other social class."
+ extendedestates: "Extended Estates"
+ desc_extendedestates: "The nobility has been granted additional land and more control over commoners."
+ noblepension: "Aristocratic Pension"
+ desc_noblepension: "The nobility has been granted a special pension as additional payment for their service to the state."
+ 
+ #Merchants
+ merchantextravagance: "Merchant Extravagance"
+ desc_merchantextravagance: "Sumptuary laws controlling the ability of merchants to display wealth and show off their status have been lifted."
+ caravanguards: "Caravan Guards"
+ caravanguards_desc: "The state has funded and supplied the men for a system of guards to protect traveling merchants."
+ exclusivetrade: "Exclusive Trade Licences"
+ desc_exclusivetrade: "Our merchants have been given exclusive trading rights in our territory."
+ increasedspypay: "Increased Spy Compensation"
+ desc_increasedspypay: "Spies have been delegated additional compensation for their service to the state."
+ insureventures: "Merchant Insurance"
+ desc_insureventures: "A portion of government income has been set aside to bail out ailing merchants."
+ 
+ 

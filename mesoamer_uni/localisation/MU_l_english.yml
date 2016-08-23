@@ -692,8 +692,8 @@
  ##########
  #Factions#
  ##########
- currentdynasty: "$DYNASTY$ Dynasty"
- currentdynasty_influence: "$DYNASTY$ Dynasty Influence"
+ currentdynasty: "Ruling Dynasty"
+ currentdynasty_influence: "Dynastic Influence"
  currentdynasty_FACTION_DESC: "Represents the influence of the current ruling dynasty on government policy. If this faction is not in power, you risk changing government forms."
  priests: "Priestly Orders"
  priests_influence: "Preistly Influence"

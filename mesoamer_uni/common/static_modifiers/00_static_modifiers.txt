@@ -423,6 +423,9 @@ in_trade_company = {
 ##########################################################################
 
 base_values = {
+	nobles_influence = 0.01
+	merchants_influence = 0.01
+	priests_influence = 0.01
 	merc_maintenance_modifier = 1.5
 	merchants = 2							#Start with 2 merchants
 	diplomats = 2							#Start with 2 diplomats..
@@ -445,6 +448,7 @@ base_values = {
 	vassal_income = 0.0
 	horde_unity = -2
 	devotion = -0.5
+	interest = -2
 	#max_states = 5
 
 	#Balancing
@@ -474,6 +478,7 @@ stability = {
 }
 
 positive_stability = {
+	merchants_influence = 0.01
 	global_unrest = -1					#-1% revolt risk each step
 	global_tax_modifier = 0.05				
 	global_missionary_strength = 0.005
@@ -486,6 +491,7 @@ positive_stability = {
 }
 
 negative_stability = {
+	priests_influence = 0.10
 	global_unrest = -2					#-1% EXTRA revolt risk each step
 	legitimacy = 1
 	interest = -1	
@@ -535,9 +541,12 @@ bankruptcy = {
 
 
 war = {
+	nobles_influence = 0.05
+	priests_influence = 0.02
 }
 
 peace = {
+	merchants_influence = 0.01
 	war_exhaustion = -0.1
 	improve_relation_modifier = 0.10
 	#monthly_fervor_increase = 1
@@ -598,6 +607,7 @@ army_tradition = {
 	siege_ability = 0.05
 	temples_influence = 0.1
 	mr_aristocrats_influence = 0.1
+	
 }
 
 navy_tradition = {
@@ -684,6 +694,7 @@ legitimacy = {
 	tolerance_heathen = 2
 	tolerance_heretic = 2
 	diplomatic_reputation = 2
+	currentdynasty_influence = 0.03
 }
 
 #Multiplied by current Horde Unity - 50
@@ -769,7 +780,7 @@ prestige = {
 	improve_relation_modifier = 0.10
 	#monthly_fervor_increase = 1
 	ae_impact = -0.10
-
+	currentdynasty_influence = 0.03
 }
 
 no_debate_in_parliament = {
@@ -897,6 +908,7 @@ march_subject = {
 vassal_subject = {
 	land_forcelimit = 1
 	diplomatic_upkeep = 1
+	#currentdynasty_influence = 0.01
 }
 
 protecorate_subject = {

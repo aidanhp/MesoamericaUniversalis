@@ -1,0 +1,134 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_faction_window_bg"	
+		texturefile = "gfx//interface//china_bg.tga"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_faction_arrow"	
+		texturefile = "gfx//interface//china_arrow.tga"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_faction_circle_bg"	
+		texturefile = "gfx//interface//china_circle_bg.tga"
+		noOfFrames = 2
+	}
+
+
+
+
+	# Celestial Empire
+	spriteType = {
+		name = "GFX_faction_bg_temples"	
+		texturefile = "gfx//interface//faction_blue_frame.tga"
+		transparencecheck = yes
+	}	
+	spriteType = {
+		name = "GFX_faction_temples"	
+		texturefile = "gfx//interface//china_temple.tga"
+	}
+	spriteType = {
+		name = "GFX_faction_bg_enuchs"	
+		texturefile = "gfx//interface//faction_purple_frame.tga"
+		transparencecheck = yes
+	}	
+	spriteType = {
+		name = "GFX_faction_enuchs"	
+		texturefile = "gfx//interface//china_eunuch.tga"
+	}
+	spriteType = {
+		name = "GFX_faction_bg_bureaucrats"	
+		texturefile = "gfx//interface//faction_red_frame.tga"
+		transparencecheck = yes
+	}		
+	spriteType = {
+		name = "GFX_faction_bureaucrats"	
+		texturefile = "gfx//interface//china_bureaucrat.tga"
+	}
+	spriteType = {
+		name = "GFX_faction_enuchs"	
+		texturefile = "gfx//interface//china_eunuch.tga"
+	}
+	
+	# Merchant Republics
+	
+	spriteType = {
+		name = "GFX_faction_bg_mr_guilds"	
+		texturefile = "gfx//interface//faction_blue_frame.tga"
+		transparencecheck = yes
+	}	
+	spriteType = {
+		name = "GFX_faction_mr_guilds"	
+		texturefile = "gfx//interface//guilds_icon.tga"
+	}
+	spriteType = {
+		name = "GFX_faction_bg_mr_traders"	
+		texturefile = "gfx//interface//faction_blue_frame.tga"
+		transparencecheck = yes
+	}	
+	spriteType = {
+		name = "GFX_faction_mr_traders"	
+		texturefile = "gfx//interface//traders_icon.tga"
+	}
+	spriteType = {
+		name = "GFX_faction_bg_mr_aristocrats"	
+		texturefile = "gfx//interface//faction_blue_frame.tga"
+		transparencecheck = yes
+	}	
+	spriteType = {
+		name = "GFX_faction_mr_aristocrats"	
+		texturefile = "gfx//interface//aristocrats_icon.tga"
+	}
+	
+	#Altepetls
+	
+	spriteType = {
+		name = "GFX_faction_bg_currentdynasty"
+		texturefile = "gfx//interface//faction_blue_frame.tga"
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_faction_currentdynasty"
+		texturefile = "gfx//interface//dynastyf_icon.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_faction_bg_priests"
+		texturefile = "gfx//interface//faction_blue_frame.tga"
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_faction_priests"
+		texturefile = "gfx//interface//priestf_icon.dds"
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_faction_bg_nobles"
+		texturefile = "gfx//interface//faction_blue_frame.tga"
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_faction_nobles"
+		texturefile = "gfx//interface//noblef_icon.dds"
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_faction_bg_merchants"
+		texturefile = "gfx//interface//faction_blue_frame.tga"
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_faction_merchants"
+		texturefile = "gfx//interface//merchantf_icon.dds"
+		transparencecheck = yes
+	}
+}

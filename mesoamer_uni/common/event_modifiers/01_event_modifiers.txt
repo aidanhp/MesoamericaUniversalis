@@ -262,3 +262,83 @@ sdgargantuan = {
 	#5000+
 	#+250k PP
 }
+
+#PRIVILEGE MODIFIERS - FOR FACTIONS
+
+#Priestly Orders
+
+priestsingov = {
+	global_unrest = -1
+	legitimacy = -0.50
+	tolerance_heretic = -3
+	tolerance_heathen = -6
+}
+
+elevatedpriesthood = {
+	legitimacy = -0.50
+}
+
+priestcouncilors = {
+	stability_cost_modifier = -0.20
+}
+
+moneytopriests = {
+	global_tax_modifier = -0.05
+}
+
+#Aristocracy
+
+militarypatrimonialism = {
+	army_tradition = -5
+	discipline = -0.05
+	infantry_power = -0.05
+}
+
+governmentpatrimonialism = {
+	stability_cost_modifier = 0.25
+	core_creation = 0.15
+	global_autonomy = 0.10
+	yearly_corruption = 0.10
+	global_unrest = 2
+}
+
+exclusivenoblerights = {
+	global_unrest = 2
+}
+
+extendedestates = {
+	global_manpower_modifier = -0.05
+	global_tax_modifier = -0.025
+}
+
+noblepension = {
+	global_tax_modifier = -0.05
+}
+
+#Merchants
+
+merchantextravagance = {
+	legitimacy = -1
+	global_unrest = 2
+}
+
+caravanguards = {
+	global_manpower_modifier = -0.05
+	global_tax_modifier = -0.02
+	trade_efficiency = 0.33
+}
+
+exclusivetrade = {
+	trade_steering = 0.33
+	production_efficiency = -0.15
+	trade_efficiency = -0.10
+}
+
+increasedspypay = {
+	spy_offence = 0.25
+	global_tax_modifier = -0.025
+}
+
+insureventures = {
+	global_tax_modifier = -0.01
+}

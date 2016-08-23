@@ -53,6 +53,12 @@ on_startup = {
 	}
 
 	#Displays local pop potential
+	#every_province = {
+	#	add_permanent_province_modifier = {
+	#		name = ppdisplay
+	#		duration = -1
+	#	}
+	#}
 
 	#Set Default Tribute Requirements	
 	every_country = {
@@ -1136,6 +1142,16 @@ on_bi_yearly_pulse_4 = {
 
 # country random events
 on_thri_yearly_pulse = {
+	#Keep Ruling Dynasty in Power for AI
+	if = {
+		limit = {
+			ai = yes
+		}
+		add_faction_influence = {
+			faction = currentdynasty
+			influence = 100
+		}
+	}
 	#Newly annexed provinces won't get the new owner's draft law without this	
 	if = {
 		limit = {
