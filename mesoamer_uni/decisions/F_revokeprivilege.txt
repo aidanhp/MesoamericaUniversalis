@@ -14,6 +14,10 @@ country_decisions = {
 		effect = {
 			set_country_flag = rpopen
 		}
+
+		ai_will_do = {
+			factor = 0
+		}
 	}
 	#Hides All Subdecisions
 	rpmasterhide = {
