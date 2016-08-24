@@ -9,7 +9,7 @@ expandhegemony = {
 		#allowed_provinces = { always = no }
 		#allowed_provinces_are_eligible = yes
 	
-		po_become_vassal = yes
+		po_become_protectorate = yes
 	}
 
 	defender = {

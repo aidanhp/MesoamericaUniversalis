@@ -119,7 +119,7 @@ country_decisions = {
 			
 			OR = {
 				num_of_cities = 20		
-				num_of_vassals = 20
+				num_of_protectorates = 20
 			}
 		}
 
@@ -163,7 +163,7 @@ country_decisions = {
 			
 			OR = {
 				num_of_cities = 20		
-				num_of_vassals = 20
+				num_of_protectorates = 20
 			}
 		}
 
@@ -207,7 +207,7 @@ country_decisions = {
 			NOT = { exists = TOE }
 			OR = {
 				num_of_cities = 40		
-				num_of_vassals = 40
+				num_of_protectorates = 40
 			}
 		}
 
@@ -251,7 +251,7 @@ country_decisions = {
 			NOT = { exists = TOE }
 			OR = {
 				num_of_cities = 40		
-				num_of_vassals = 40
+				num_of_protectorates = 40
 			}
 		}
 
@@ -294,7 +294,7 @@ country_decisions = {
 			NOT = { exists = TOE }
 			OR = {
 				num_of_cities = 40		
-				num_of_vassals = 40
+				num_of_protectorates = 40
 			}
 			3 = {
 				development = 10000

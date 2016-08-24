@@ -7,7 +7,7 @@ country_decisions = {
 		}
 
 		allow = {
-			num_of_vassals = 4
+			num_of_protectorates = 4
 			prestige = 25
 		}
 		effect = {
@@ -28,7 +28,7 @@ country_decisions = {
 		}
 
 		allow = {
-			num_of_vassals = 25
+			num_of_protectorates = 25
 			prestige = 80
 		}
 		effect = {

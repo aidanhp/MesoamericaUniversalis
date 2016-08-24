@@ -436,7 +436,7 @@ on_war_won = {
 			}
 		}
 		release_vassal = FROM
-
+		create_protectorate = FROM
 	}
 }
 
