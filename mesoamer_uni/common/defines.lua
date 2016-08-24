@@ -66,7 +66,7 @@ NDiplomacy = {
 	OVEREXTENSTION_POLL_BASE = 365,				-- days between at lower.
 	OVEREXTENSTION_POLL_CHANGE = 0.05,				-- each % reduces with this.
 	RIVAL_PEACE_COST_REDUCTION = -0.33,	
-	MAX_PEACE_TREATY_COST = 200,					-- in diplo power
+	MAX_PEACE_TREATY_COST = 30,					-- in diplo power
 	DESIRED_NUM_OF_ELECTORS = 7,
 	MAX_FREE_CITIES = 8,
 	MIN_NUM_ELECTORS_FOR_REMOVE_ELECTORATE = 2,		-- Limit is inclusive.
@@ -151,7 +151,7 @@ NDiplomacy = {
 	PO_FORM_PU_AE = 0.1, 							-- _DDEF_PO_FORM_PU_AE = 10, (Per development)
 	PO_CONCEDE_COLONIAL_AE = 0.25,
 	PO_BECOME_VASSAL_AE = 0.12, 					-- _DDEF_PO_BECOME_VASSAL_AE = 10, (Per development)
-	PO_BECOME_PROTECTORATE_AE = 0.12, 					-- _DDEF_PO_BECOME_VASSAL_AE = 10, (Per development)
+	PO_BECOME_PROTECTORATE_AE = 0.1, 					-- _DDEF_PO_BECOME_VASSAL_AE = 10, (Per development)
 	PO_ANNEX_PRESTIGE = 0.25, 						-- _DDEF_PO_ANNEX_PRESTIGE = 10, (No effect on loser :)
 	PO_DEMAND_PROVINCES_PRESTIGE = 0.25, 				-- _DDEF_PO_DEMAND_PROVINCES_PRESTIGE = 10, (Per development)
 	PO_REVOKE_CORES_PRESTIGE = 0.1, 					-- _DDEF_PO_REVOKE_CORES_PRESTIGE = 10, (Per development)
@@ -217,8 +217,8 @@ NDiplomacy = {
 	PO_HUMILIATE_POWER_GAIN = 100,
 	MAX_ANNEX_SIZE = 10000, 						-- _DDEF_MAX_ANNEX_SIZE_ (Max number of provinces that can be annexed at once)
 	
-	ALLY_PEACE_COST_MULT = 10,						-- Taking things from allies that are not fully called into the war costs this much more
-	ALLY_AE_MULT = 2,								-- Taking things from allies that are not fully called into the war generates this much more AE
+	ALLY_PEACE_COST_MULT = 2,						-- Taking things from allies that are not fully called into the war costs this much more
+	ALLY_AE_MULT = 1.25,								-- Taking things from allies that are not fully called into the war generates this much more AE
 	
 	ANNEX_DIP_COST_PER_DEVELOPMENT = 1,			-- per development
 	

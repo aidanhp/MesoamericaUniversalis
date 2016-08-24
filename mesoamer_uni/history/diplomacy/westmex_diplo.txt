@@ -13,27 +13,27 @@ vassal = {
 	end_date = 1821.1.1
 }
 #Colliman Kingdom
-protectorate = {
+vassal = {
 	first = CIM
 	second = TCO
 	start_date = 1428.1.1
 	end_date = 1821.1.1
 }
-protectorate = {
+vassal = {
 	first = CIM
 	second = TAM
 	start_date = 1428.1.1
 	end_date = 1821.1.1
 }
 #Xalisco Kingdom
-protectorate = {
+vassal = {
 	first = XLS
 	second = TZA
 	start_date = 1428.1.1
 	end_date = 1821.1.1
 }
 #Tollanan Kingdom
-protectorate = {
+vassal = {
 	first = TNA
 	second = COC
 	start_date = 1428.1.1

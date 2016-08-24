@@ -2,7 +2,7 @@ expandhegemony = {
 	type = take_capital
 
 	attacker = {
-		badboy_factor = 1
+		badboy_factor = 0.90
 		prestige_factor = 1.25
 		peace_cost_factor = 0.75
 
