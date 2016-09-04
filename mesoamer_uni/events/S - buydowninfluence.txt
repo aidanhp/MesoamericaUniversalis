@@ -1,0 +1,325 @@
+#Buy down influence interface
+namespace = bdi
+
+#Main Menu
+country_event = {
+	id = bdi.01
+	
+	title = "bdi1.t"
+	desc = "bdi1.d"
+	picture = CITY_VIEW_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = "bdi1.a"
+		country_event = { id = bdi.02 }	
+		
+	}
+
+	option = {
+		name = "bdi1.b"
+		country_event = { id = bdi.03 } 
+	}
+
+	option = {
+		name = "bdi1.c"
+		country_event = { id = bdi.04 } 
+	}
+
+	option = {
+		name = "bdi1.dd"
+		clr_country_flag = bdiopen
+	}
+}
+
+#For Nobles
+country_event = {
+	id = bdi.02
+
+	title = "bdi2.t"
+	desc = "bdi2.d"
+	picture = CITY_VIEW_eventPicture
+
+	is_triggered_only = yes 
+
+	option = {
+		name = "bdi2.a"
+		trigger = {
+			check_variable = { which = luxurygoods value = 20 }
+			faction_influence = {
+   				faction = nobles
+    				influence = 10
+			}
+			NOT = {
+				faction_influence = {
+    					faction = nobles
+   				        influence = 50
+				}
+			}
+		}
+		change_variable = { which = luxurygoods value = -20 }
+		add_faction_influence = {
+			faction = nobles
+			influence = -2
+		}
+		add_faction_influence = {
+			faction = currentdynasty
+			influence = 1
+		}
+		country_event = { id = bdi.01 }
+	}
+
+	option = {
+		name = "bdi2.b"
+		trigger = {
+			check_variable = { which = luxurygoods value = 50 }
+			faction_influence = {
+   				faction = nobles
+    				influence = 10
+			}
+			NOT = {
+				faction_influence = {
+    					faction = nobles
+   				        influence = 50
+				}
+			}
+		}
+		change_variable = { which = luxurygoods value = -50 }
+		add_faction_influence = {
+			faction = nobles
+			influence = -5
+		}
+		add_faction_influence = {
+			faction = currentdynasty
+			influence = 2
+		}
+		country_event = { id = bdi.01 }
+	}
+
+	option = {
+		name = "bdi2.c"
+		trigger = {
+			check_variable = { which = luxurygoods value = 100 }
+			faction_influence = {
+   				faction = nobles
+    				influence = 10
+			}
+			NOT = {
+				faction_influence = {
+    					faction = nobles
+   				        influence = 50
+				}
+			}
+		}
+		change_variable = { which = luxurygoods value = -100 }
+		add_faction_influence = {
+			faction = nobles
+			influence = -8
+		}
+		add_faction_influence = {
+			faction = currentdynasty
+			influence = 4
+		}
+		country_event = { id = bdi.01 }
+	}
+
+	option = {
+		name = "bdi2.dd"
+		country_event = { id = bdi.01 }
+	}
+}
+
+#For Priests
+country_event = {
+	id = bdi.03
+
+	title = "bdi3.t"
+	desc = "bdi3.d"
+	picture = CITY_VIEW_eventPicture
+
+	is_triggered_only = yes 
+
+	option = {
+		name = "bdi3.a"
+		trigger = {
+			check_variable = { which = luxurygoods value = 20 }
+			faction_influence = {
+   				faction = priests
+    				influence = 10
+			}
+			NOT = {
+				faction_influence = {
+    					faction = priests
+   				        influence = 50
+				}
+			}
+		}
+		change_variable = { which = luxurygoods value = -20 }
+		add_faction_influence = {
+			faction = priests
+			influence = -2
+		}
+		add_faction_influence = {
+			faction = currentdynasty
+			influence = 1
+		}
+		country_event = { id = bdi.01 }
+	}
+
+	option = {
+		name = "bdi3.b"
+		trigger = {
+			check_variable = { which = luxurygoods value = 50 }
+			faction_influence = {
+   				faction = priests
+    				influence = 10
+			}
+			NOT = {
+				faction_influence = {
+    					faction = priests
+   				        influence = 50
+				}
+			}
+		}
+		change_variable = { which = luxurygoods value = -50 }
+		add_faction_influence = {
+			faction = priests
+			influence = -5
+		}
+		add_faction_influence = {
+			faction = currentdynasty
+			influence = 2
+		}
+		country_event = { id = bdi.01 }
+	}
+
+	option = {
+		name = "bdi3.c"
+		trigger = {
+			check_variable = { which = luxurygoods value = 100 }
+			faction_influence = {
+   				faction = priests
+    				influence = 10
+			}
+			NOT = {
+				faction_influence = {
+    					faction = priests
+   				        influence = 50
+				}
+			}
+		}
+		change_variable = { which = luxurygoods value = -100 }
+		add_faction_influence = {
+			faction = priests
+			influence = -8
+		}
+		add_faction_influence = {
+			faction = currentdynasty
+			influence = 4
+		}
+		country_event = { id = bdi.01 }
+	}
+
+	option = {
+		name = "bdi3.dd"
+		country_event = { id = bdi.01 }
+	}
+}
+
+#For Merchants
+country_event = {
+	id = bdi.04
+
+	title = "bdi4.t"
+	desc = "bdi4.d"
+	picture = CITY_VIEW_eventPicture
+
+	is_triggered_only = yes 
+
+	option = {
+		name = "bdi4.a"
+		trigger = {
+			check_variable = { which = luxurygoods value = 20 }
+			faction_influence = {
+   				faction = merchants
+    				influence = 10
+			}
+			NOT = {
+				faction_influence = {
+    					faction = merchants
+   				        influence = 50
+				}
+			}
+		}
+		change_variable = { which = luxurygoods value = -20 }
+		add_faction_influence = {
+			faction = merchants
+			influence = -2
+		}
+		add_faction_influence = {
+			faction = currentdynasty
+			influence = 1
+		}
+		country_event = { id = bdi.01 }
+	}
+
+	option = {
+		name = "bdi4.b"
+		trigger = {
+			check_variable = { which = luxurygoods value = 50 }
+			faction_influence = {
+   				faction = merchants
+    				influence = 10
+			}
+			NOT = {
+				faction_influence = {
+    					faction = merchants
+   				        influence = 50
+				}
+			}
+		}
+		change_variable = { which = luxurygoods value = -50 }
+		add_faction_influence = {
+			faction = merchants
+			influence = -5
+		}
+		add_faction_influence = {
+			faction = currentdynasty
+			influence = 2
+		}
+		country_event = { id = bdi.01 }
+	}
+
+	option = {
+		name = "bdi4.c"
+		trigger = {
+			check_variable = { which = luxurygoods value = 100 }
+			faction_influence = {
+   				faction = merchants
+    				influence = 10
+			}
+			NOT = {
+				faction_influence = {
+    					faction = merchants
+   				        influence = 50
+				}
+			}
+		}
+		change_variable = { which = luxurygoods value = -100 }
+		add_faction_influence = {
+			faction = merchants
+			influence = -8
+		}
+		add_faction_influence = {
+			faction = currentdynasty
+			influence = 4
+		}
+		country_event = { id = bdi.01 }
+	}
+
+	option = {
+		name = "bdi4.dd"
+		country_event = { id = bdi.01 }
+	}
+}

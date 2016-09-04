@@ -142,16 +142,16 @@ NDiplomacy = {
 	AE_DEFENDER_DEVELOPMENT = 0.01,	-- -50% cap (at 1000 development)
 	AE_DISTANCE_BASE = 0.60,
 	AE_SAME_OVERLORD = 0.5,	
-	AE_PROVINCE_CAP = 30,				-- Province development above this will not count for AE (also used for warscore cost cap)
+	AE_PROVINCE_CAP = 50,				-- Province development above this will not count for AE (also used for warscore cost cap)
 	AE_THREATEN_WAR = 1.0,
 	
 	-- Peace Option Effects, base values for the winner. The loser gets the inverse.
-	PO_DEMAND_PROVINCES_AE = 0.15, 				-- _DDEF_PO_DEMAND_PROVINCES_AE = 10, (Per development)
+	PO_DEMAND_PROVINCES_AE = 0.07, 				-- _DDEF_PO_DEMAND_PROVINCES_AE = 10, (Per development)
 	PO_RETURN_CORES_AE = 0.5, 					-- (Per core, only applied if returning cores to vassals of winner)
 	PO_FORM_PU_AE = 0.1, 							-- _DDEF_PO_FORM_PU_AE = 10, (Per development)
 	PO_CONCEDE_COLONIAL_AE = 0.25,
-	PO_BECOME_VASSAL_AE = 0.12, 					-- _DDEF_PO_BECOME_VASSAL_AE = 10, (Per development)
-	PO_BECOME_PROTECTORATE_AE = 0.1, 					-- _DDEF_PO_BECOME_VASSAL_AE = 10, (Per development)
+	PO_BECOME_VASSAL_AE = 0.15, 					-- _DDEF_PO_BECOME_VASSAL_AE = 10, (Per development)
+	PO_BECOME_PROTECTORATE_AE = 0.04, 					-- _DDEF_PO_BECOME_VASSAL_AE = 10, (Per development)
 	PO_ANNEX_PRESTIGE = 0.25, 						-- _DDEF_PO_ANNEX_PRESTIGE = 10, (No effect on loser :)
 	PO_DEMAND_PROVINCES_PRESTIGE = 0.25, 				-- _DDEF_PO_DEMAND_PROVINCES_PRESTIGE = 10, (Per development)
 	PO_REVOKE_CORES_PRESTIGE = 0.1, 					-- _DDEF_PO_REVOKE_CORES_PRESTIGE = 10, (Per development)
@@ -218,7 +218,7 @@ NDiplomacy = {
 	MAX_ANNEX_SIZE = 10000, 						-- _DDEF_MAX_ANNEX_SIZE_ (Max number of provinces that can be annexed at once)
 	
 	ALLY_PEACE_COST_MULT = 2,						-- Taking things from allies that are not fully called into the war costs this much more
-	ALLY_AE_MULT = 1.25,								-- Taking things from allies that are not fully called into the war generates this much more AE
+	ALLY_AE_MULT = 1.2,								-- Taking things from allies that are not fully called into the war generates this much more AE
 	
 	ANNEX_DIP_COST_PER_DEVELOPMENT = 1,			-- per development
 	
@@ -296,8 +296,8 @@ NCountry = {
 
 	ESTATE_ANGRY_THRESHOLD = 40,				
 	ESTATE_HAPPY_THRESHOLD = 60,
-	ESTATE_LOYALTY_DECAY_BASE_MIN = 1.0,		-- Loyalty change per year at middle level.
-	ESTATE_LOYALTY_DECAY_BASE_MAX = 2.0,		-- Loyalty change per year at most extreme levels.
+	ESTATE_LOYALTY_DECAY_BASE_MIN = 0.5,		-- Loyalty change per year at middle level.
+	ESTATE_LOYALTY_DECAY_BASE_MAX = 1,		-- Loyalty change per year at most extreme levels.
 	ESTATE_INFLUENCE_LEVEL_1 = 20,
 	ESTATE_INFLUENCE_LEVEL_2 = 40,
 	ESTATE_INFLUENCE_LEVEL_3 = 60,
@@ -405,7 +405,7 @@ NCountry = {
 	CULTURE_COST_DIFF_PRIMARY = 0,					-- Difference in cost in percent to convert to primary culture.
 	MONARCH_DEATH_STABILITY_PENALTY = 1,			-- Stab hit on monarch death
 	MONARCH_DEATH_LEADER_STABILITY_PENALTY = 1,		-- Stab hit on monarch death when a leader
-	MONARCH_DEATH = 4, 								-- _CDEF_MONARCH_DEATH_
+	MONARCH_DEATH = 2, 								-- _CDEF_MONARCH_DEATH_
 	HEIR_DEATH = 1, 								-- _CDEF_HEIR_DEATH_	(Only applies for heirs older than 20, and the chance increases with age.)
 	LEGITIMACY_DYNASTY_CHANGE = 20,					-- Legitimacy a new dynasty starts out with
 	BASE_POWER_INCREASE = 4,						-- monthly base increase
@@ -434,8 +434,8 @@ NCountry = {
 	PS_BUY_RELIGIOUS_REFORM = 0,
 	PS_ADVANCE_TECH = 600,
 	PS_BOOST_STABILITY = 100,
-	PS_BUY_GENERAL = 50,
-	PS_BUY_ADMIRAL = 50,
+	PS_BUY_GENERAL = 25,
+	PS_BUY_ADMIRAL = 25,
 	PS_BUY_CONQUISTADOR = 50,
 	PS_BUY_EXPLORER = 50,
 	PS_ASSAULT = 5,
@@ -443,7 +443,7 @@ NCountry = {
 	PS_DEMAND_NON_WARGOAL_PROVINCE = 50,
 	PS_DEMAND_NON_WARGOAL_PEACE = 3,
 	PS_DEMAND_NON_WARGOAL_PEACE_PRIMITIVES = 0,
-	PS_MAKE_PROVINCE_CORE = 5,
+	PS_MAKE_PROVINCE_CORE = 3,
 	PS_REDUCE_INFLATION = 75,
 	PS_PROMOTE_MERCANTILISM = 100,
 	PS_MOVE_CAPITAL = 200,
@@ -529,8 +529,8 @@ NCountry = {
 	OVEREXTENSION_OVERSEAS_FACTOR = 0.5,			-- Modifier to overextension from overseas provinces
 	MISSIONARY_PROGRESS_ON_CHANCE = 1,				-- How many % the progress will boost on daily lucky-roll.
 	MISSION_CANCEL_CHOOSE_NEXT_DELAY = 1,			-- How many years until you can choose a new mission after a cancel
-	MONTHS_TO_CORE_MAXIMUM = 240,
-	MONTHS_TO_CORE = 36,							-- How many months it will take to core a province.
+	MONTHS_TO_CORE_MAXIMUM = 1000,
+	MONTHS_TO_CORE = 128,							-- How many months it will take to core a province.
 	MONTHS_TO_CHANGE_CULTURE = 10,					-- How many months it will take to change culture in a province, per development.
 	RELEASED_NATION_ARMY_SIZE = 0.5,				-- Newly released nations get an army of this size
 	STARTING_ARMY_SIZE = 0.75,						-- Percentage of force limit
@@ -558,29 +558,29 @@ NCountry = {
 	TARIFF_LIBERTY_INCREASE = 0.2,					-- Liberty increase for each % tariffs
 	TARIFF_DECREASE_STEP = -0.05,					-- Decrease on each boost
 	HIGH_LIBERTY_DESIRE = 50, 						-- Limit for when a subject starts getting rebellious from liberty desire (also used for alert)
-	MONTHLY_LIBERTY_DECREASE = 0.1,					-- How much temporary liberty desire changes each month (towards 0 point)
+	MONTHLY_LIBERTY_DECREASE = 0.0,					-- How much temporary liberty desire changes each month (towards 0 point)
 	LIBERTY_DESIRE_WAR_EXHAUSTION = 1,				-- Liberty desire from overlord's war exhaustion (per WE)
-	LIBERTY_DESIRE_RELATIVE_POWER = 75,				-- Liberty desire from relative power to liege
+	LIBERTY_DESIRE_RELATIVE_POWER = 50,				-- Liberty desire from relative power to liege
 	LIBERTY_DESIRE_MARCH = -15,						-- Liberty desire from being a March
 	LIBERTY_DESIRE_DAIMYO = 10,						-- Liberty desire from being a Daimyo
-	LIBERTY_DESIRE_PROTECTORATE = -25,				-- Liberty desire from being a Protectorate
+	LIBERTY_DESIRE_PROTECTORATE = -50,				-- Liberty desire from being a Protectorate
 	LIBERTY_DESIRE_CLIENT_STATE = -25,				-- Liberty desire from being a Client State
 	LIBERTY_DESIRE_ADM_EFFICIENCY = 0.2,			-- Liberty desire per point of admistrative efficiency (colonies only)
 	LIBERTY_DESIRE_DIPLO_TECH = 5,					-- Liberty desire per point of diplo tech more than overlord
 	LIBERTY_DESIRE_HISTORICAL_FRIEND = -50,			-- Liberty desire from being historical friends
 	LIBERTY_DESIRE_HISTORICAL_RIVAL = 50,			-- Liberty desire from being historical rivals
-	LIBERTY_DESIRE_TRUST = -0.4,					-- Liberty desire from trust
-	LIBERTY_DESIRE_POSITIVE_OPINION = -0.1,			-- Liberty desire from positive opinion
-	LIBERTY_DESIRE_NEGATIVE_OPINION = 0.2,			-- Liberty desire from negative opinion
+	LIBERTY_DESIRE_TRUST = -0.5,					-- Liberty desire from trust
+	LIBERTY_DESIRE_POSITIVE_OPINION = -0.5,			-- Liberty desire from positive opinion
+	LIBERTY_DESIRE_NEGATIVE_OPINION = 0.5,			-- Liberty desire from negative opinion
 	LIBERTY_DESIRE_ANNEXATION = 0,					-- Liberty desire from being annexed
-	LIBERTY_DESIRE_DIPLOMATIC_REPUTATION = -3,		-- Liberty desire from diplomatic reputation
-	LIBERTY_DESIRE_LARGE_VASSAL = 25,				-- Liberty desire from vassal having more than 100 development
-	LIBERTY_DESIRE_GREAT_POWER_VASSAL = 50,			-- Liberty desire from vassal having more than 300 development
+	LIBERTY_DESIRE_DIPLOMATIC_REPUTATION = -5,		-- Liberty desire from diplomatic reputation
+	LIBERTY_DESIRE_LARGE_VASSAL = 20,				-- Liberty desire from vassal having more than 100 development
+	LIBERTY_DESIRE_GREAT_POWER_VASSAL = 33,			-- Liberty desire from vassal having more than 300 development
 	LIBERTY_DESIRE_HORDE = 10,						-- Liberty desire from vassal being a horde
 	LIBERTY_DESIRE_ROYAL_MARRIAGE = -5,				-- Liberty desire from having RM with overlord
 	LIBERTY_DESIRE_SAME_DYNASTY = -5,				-- Liberty desire from same dynasty as overlord
 	LIBERTY_DESIRE_SCUTAGE_OFF = 25,				-- Liberty desire from turning off scutage
-	LIBERTY_DESIRE_NEGATIVE_PRESTIGE = 1,			-- Liberty desire from the overlord having negative prestige
+	LIBERTY_DESIRE_NEGATIVE_PRESTIGE = 5,			-- Liberty desire from the overlord having negative prestige
 	LOST_INDEPENDANCE_WAR_LIBERTY_DESIRE = -50,		-- How much liberty desire is decreased when an independance war ends
 	
 	LARGE_VASSAL_LIMIT = 4000,						-- Above what development is a vassal considered a large vassal
@@ -625,7 +625,7 @@ NCountry = {
 	EMBARGO_RIVALS_LIBERTY = 5,
 	SUPPORT_LOYALISTS_LIBERTY = -20,
 	SEND_OFFICERS_LIBERTY = -10,
-	DIVERT_TRADE_LIBERTY = 30,
+	DIVERT_TRADE_LIBERTY = 100,
 	PROMOTE_INVESTMENTS_TRADEPOWER = 0.5,
 	PROMOTE_INVESTMENTS_INFLATION = 0.03,
 	SCUTAGE_TAX_FRACTION = 0.5,
@@ -803,16 +803,16 @@ NMilitary = {
 	TRADITION_GAIN_NAVAL = 20,						-- Tradition gain base value from naval combat.
 	CONDOTTIERI_TRADITION_BONUS = 0.5,				-- This modifies army tradition gained from fighting with condottieris
 	-- MercSupportLimit = ( MERCENARY_SUPPORT_LIMIT_BASE + MERCENARY_SUPPORT_LIMIT_FRACTION * ArmySupportLimit ) * possible_mercenaries_modifier
-	MERCENARY_SUPPORT_LIMIT_BASE = 0,				-- Base (and thus minimum) value for mercenary support limit.
-	MERCENARY_SUPPORT_LIMIT_FRACTION = 0.1,			-- Fraction of regular army support/force limit that goes into mercenary support limit.
-	FRONT_LINE_MODIFIER = 1.0, 						-- _MDEF_FRONT_LINE_MODIFIER_
-	BACK_LINE_MODIFIER = 0.5, 						-- _MDEF_BACK_LINE_MODIFIER_
+	MERCENARY_SUPPORT_LIMIT_BASE = 1,				-- Base (and thus minimum) value for mercenary support limit.
+	MERCENARY_SUPPORT_LIMIT_FRACTION = 0.2,			-- Fraction of regular army support/force limit that goes into mercenary support limit.
+	FRONT_LINE_MODIFIER = 0.5, 						-- _MDEF_FRONT_LINE_MODIFIER_
+	BACK_LINE_MODIFIER = 0.25, 						-- _MDEF_BACK_LINE_MODIFIER_
 	BASE_COMBAT_WIDTH = 15.0,						-- _MDEF_BASE_COMBAT_WIDTH_
 	FORCE_MARCH_FACTOR = 0.5,						-- 
 	SCORCHED_EARTH_MONTHS = 60, 					-- _MDEF_SCORCHED_EARTH_MONTHS_; Time the "Scorched Earth" static modifier lasts.
 	LOOTED_DAYS = 730,								-- Time the "Looted" static modifier lasts.
-	LOOTED_SCALE = 1,								-- Scaling value from province development to number of ducats it contains.
-	LOOTED_MAX = 5,									-- Maximum amount of ducats (total) a province can be looted for each month.
+	LOOTED_SCALE = 0.025,								-- Scaling value from province development to number of ducats it contains.
+	LOOTED_MAX = 10,									-- Maximum amount of ducats (total) a province can be looted for each month.
 	LOOTED_RECOVERY = 0.1,							-- Speed at which a looted province recovers in fractional units per month (multiply by 100 for percentage).
 	NAVAL_SUPPLY_RANGE = 150, 						-- Supply range for ships.
 	REBEL_TRADITION_GAIN = 0.5, 					-- _MDEF_REBEL_TRADITION_GAIN_; Factor of army/navy tradition gained from fighting rebels and pirates.
@@ -840,7 +840,7 @@ NMilitary = {
 	OVERRUN_FACTOR_CANNOT_LEAVE = 2,				-- Same as OVERRUN_FACTOR, but when combat cannot be left by the combattants. (integer)
 	CANNOT_RETREAT_DAYS = 3, 						-- How many days combat has to last before one side can retreat
 	DAYS_PER_PHASE = 3,								-- How many days each fire and shock phase lasts
-	DAYS_PER_SIEGE_PHASE = 10,						-- How many days each siege phase lasts
+	DAYS_PER_SIEGE_PHASE = 12,						-- How many days each siege phase lasts
 	COMBAT_DICE_SIDE = 6,							-- How many sides the dice used in combat has
 	BLOCKADE_FACTOR = 3,								-- (Total sail speed / blockade_factor) * blockade_efficiency / province development
 	REBEL_RELOCATION_TIME = 2.0,						-- How long time it takes for rebels to relocate from island
@@ -1461,7 +1461,7 @@ NReligion = {
 
 NNationDesigner = {
 
-	POINTS_AVAILABLE = 200,
+	POINTS_AVAILABLE = 1000000,
 	RULER_BASE_AGE = 30,					-- Creating a ruler with this age is free.
 	RULER_MIN_AGE = 20,						--
 	RULER_MIN_AGE = 20,						--

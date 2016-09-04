@@ -1,0 +1,34 @@
+#Seek favor from estate interface
+namespace = sfe 
+
+#For Priestly Orders
+country_event = {
+	id = sfe.01
+	
+	title = "sfe.t"
+	desc = "sfe.d"
+	picture = DIPLOMACY_eventPicture
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = "sfe1.a"
+	}
+	
+	option = {
+		name = "sfe1.b"
+	}
+	
+	option = {
+		name = "sfe1.c"
+	}
+	
+	option = {
+		name = "sfe1.dd"
+	}
+	
+	option = {
+		name = "sfe1.e"
+	}
+}

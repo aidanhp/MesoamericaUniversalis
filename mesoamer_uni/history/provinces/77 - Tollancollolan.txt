@@ -4,11 +4,11 @@ controller = LLC
 culture = tlaxcallan
 religion = newnahuatl 
 hre = no
-base_tax = 394
-base_production = 799
+base_tax = 1015
+base_production = 2053
 trade_goods = grain
-base_manpower = 2783
-capital = "Tollan-Collolan"
+base_manpower = 7044
+capital = "Cholula"
 is_city = yes
 fort_15th = yes
 

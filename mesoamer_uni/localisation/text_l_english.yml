@@ -4280,7 +4280,7 @@
  HAS_CARDINAL_NOT:0 "Province does not have an active cardinal"
  PROVINCE_CENTER:0 "Province has a center of reformation"
  PROVINCE_CENTER_NOT:0 "Province does not have a center of reformation"
- CONFIRMBUILDTEXTLEDGER:0 "Are you sure you wish to build $BUILDING$ in $PROVINCE$?"
+ CONFIRMBUILDTEXTLEDGER:0 "Are you sure you wish to build this building in $PROVINCE$?"
  DISCIPLINE_SHORT:0 "Your armies' current discipline is $DISC$"
  DISCIPLINE_LONG:0 "Tactics, leadership, morale and equipment were all important in battles, however so too was the discipline of the troops. Steady troops that could hold their formation despite the punishment of the enemy would prove much more effective in combat. Damage done is multiplied by your discipline, and damage taken is reduced or increased depending on your discipline."
  RELIGION_CHANGE_PROVINCE_GOOD:0 "On the $DATE$ the infidels of $PROVINCE$ embraced the one true faith."

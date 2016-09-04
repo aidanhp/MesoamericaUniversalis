@@ -8,7 +8,7 @@ estate_nobles =
 	keep_on_conquest = no
 	
 	# They want to control at least this % of the country's non-overseas development, if # of home provinecs is above set amount
-	min_territory = 10
+	min_territory = 0
 	min_provinces_to_want_territory = 5
 	wanted_territory_modifier = {
 		desc = EST_VAL_FEUDAL_MONARCHY
@@ -32,17 +32,6 @@ estate_nobles =
 		NOT = { government = siberian_native_council }
 		NOT = { government = revolutionary_republic }
 		NOT = { government = revolutionary_empire }
-		NOT = { government = altepetl }
-		NOT = { government = hegemonic_kingdom }
-		NOT = { government = hegemonic_empire }
-		NOT = { government = tribal_confederation }
-		NOT = { government = mayapan }
-		NOT = { government = kuchkabal }
-		NOT = { government = centralized_altepetl }
-		NOT = { government = centralized_kingdom }
-		NOT = { government = centralized_empire }
-		NOT = { government = tlaxcallan_confederate }
-		NOT = { government = tarascan_tribute_kingdom }
 
 		is_nomad = no
 		is_colonial_nation = no
@@ -63,38 +52,38 @@ estate_nobles =
 	}	
 	
 	# Min autonomy in estate provinces
-	min_autonomy = 25
+	min_autonomy = 50
 	
 	# Estate cancels out the following multiplicative local autonomy effects:
-	autonomy_does_not_affect = local_manpower_modifier
-	autonomy_does_not_affect = land_forcelimit
+	#autonomy_does_not_affect = local_manpower_modifier
+	#autonomy_does_not_affect = land_forcelimit
 
 	country_modifier_happy = {
-		manpower_recovery_speed = 0.2 
-		land_maintenance_modifier = -0.1
+		land_forcelimit_modifier = 0.20
 	}
 	country_modifier_neutral = {
-		manpower_recovery_speed = 0.2 
+		land_forcelimit_modifier = 0.10
+		global_autonomy = 0.10
 	}	
 	country_modifier_angry = {
-		manpower_recovery_speed = -0.1
-		land_maintenance_modifier = 0.1
+		land_forcelimit_modifier = -0.10
+		global_autonomy = 0.20
 	}
 	
 	# These do not scale, but only applied in provinces owned by the estate
 	province_modifier_happy = {
 		local_defensiveness = 0.15
-		local_manpower_modifier = 0.2
+		local_autonomy = -0.05
 	}
 	province_modifier_neutral = {
-		local_manpower_modifier = 0.2
+		local_defensiveness = 0.10
 	}	
 	province_modifier_angry = {
-		local_unrest = 5
+		local_unrest = 4
 	}		
 	
 	# Influence modifiers
-	base_influence = 20
+	base_influence = 40
 	influence_modifier = {
 		desc = EST_VAL_EASTERN_TECH
 		trigger = {
@@ -193,74 +182,6 @@ estate_nobles =
 			technology_group = ottoman
 		}
 	}
-	custom_name = {
-		desc = estate_boyars
-		trigger = {
-			OR = {
-				culture_group = east_slavic
-				primary_culture = bulgarian
-				primary_culture = romanian
-			}
-		}
-	}
-	custom_name = {
-		desc = estate_szlachta
-		trigger = {
-			OR = {
-				primary_culture = polish
-				primary_culture = lithuanian
-			}
-		}
-	}
-	custom_name = {
-		desc = estate_nayaks
-		trigger = {
-			tag = VIJ
-		}
-	}
-	custom_name = {
-		desc = estate_samantas
-		trigger = {
-			tag = ORI
-		}
-	}
-	custom_name = {
-		desc = estate_kshatriyas
-		trigger = {
-			religion = hinduism
-		}
-	}
-	custom_name = {
-		desc = estate_mansabdars
-		trigger = {
-			tag = MUG
-		}
-	}
-	custom_name = {
-		desc = estate_tetecuhtin
-		trigger = {
-			religion = nahuatl
-		}
-	}
-	custom_name = {
-		desc = estate_andriana
-		trigger = {
-			tag = MIR
-		}
-	}
-	custom_name = {
-		desc = estate_amirs
-		trigger = {
-			religion_group = muslim
-			NOT = { technology_group = ottoman } #Should possibly be more restricted
-		}
-	}
-	custom_name = {
-		desc = estate_planters
-		trigger = {
-			tag = USA
-		}
-	}
 
 	# Does the AI want to give any extra territory beyond the minimum?
 	ai_territory_modifier = {
@@ -310,325 +231,117 @@ estate_nobles =
 	
 	# Special interactions
 	interaction = {
-		name = "CALL_DIET"
+		name = "GRANT_FAVOR"
 		icon = 1
 		
-		years_between_use = 20
+		years_between_use = 0
+		
+		potential = {
+			always = yes
+		}
 		
 		trigger = {
 			always = yes
 		}
 		
 		effect = {
-			add_prestige = -5
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 15
-			}
-			add_estate_influence_modifier = {
-				estate = estate_nobles
-				desc = EST_VAL_DIET_HELD
-				influence = 10
-				duration = 7300
-			}
+			country_event = { id = gpe.02 }
 		}
 		
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				estate_influence = {
-					estate = estate_nobles
-					influence = 60
-				}				
-			}
-			modifier = {
-				factor = 0
-				estate_loyalty = {
-					estate = estate_nobles
-					loyalty = 30
-				}				
-			}			
+			factor = 0			
 		}
 	}
+	
 	interaction = {
-		name = "GRANT_GENERALSHIP"
-		icon = 5
+		name = "REVOKE_FAVOR"
+		icon = 1
 		
-		years_between_use = 10
+		years_between_use = 0
 		
 		potential = {
-			NOT = { has_disaster = estate_church_disaster }
-			NOT = { has_disaster = estate_burghers_disaster }
+			always = yes
 		}
 		
 		trigger = {
-			estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 30
-			}	
-			estate_influence = {
-				estate = estate_nobles
-				influence = 40
-			}			
+			always = yes
 		}
 		
 		effect = {
-			create_general = 40		
-			add_estate_influence_modifier = {
-				estate = estate_nobles
-				desc = EST_VAL_GRANTED_GENERALSHIP
-				influence = 20
-				duration = 3650
-			}
+			country_event = { id = rpe.02 }
 		}
 		
 		ai_will_do = {
-			factor = 0
+			factor = 0			
 		}
 	}
+	
 	interaction = {
-		name = "RECRUIT_CONQUISTADOR_ESTATES"
-		icon = 19
+		name = "GIVE_GIFT"
+		icon = 1
 		
-		years_between_use = 15
+		years_between_use = 0
 		
 		potential = {
-			has_idea_group = exploration_ideas
-			NOT = { has_disaster = estate_church_disaster }
-			NOT = { has_disaster = estate_burghers_disaster }
-		}
-		
-		trigger = {
-			estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 30
-			}	
-			estate_influence = {
-				estate = estate_nobles
-				influence = 40
-			}
-		}
-		
-		effect = {
-			create_conquistador = 40		
-			add_estate_influence_modifier = {
-				estate = estate_nobles
-				desc = EST_VAL_RECRUITED_CONQUISTADOR
-				influence = 15
-				duration = 5475
-			}
-		}
-		
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	interaction = {
-		name = "DEMAND_SUPPORT_NOBLES"
-		icon = 4
-		
-		years_between_use = 20
-		
-		potential = {
-			NOT = { has_disaster = estate_church_disaster }
-			NOT = { has_disaster = estate_burghers_disaster }
+			always = yes
 		}
 		
 		trigger = {		
-			estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 30
-			}	
-			estate_influence = {
-				estate = estate_nobles
-				influence = 25
-			}			
+			always = yes
 		}
 		
 		effect = {
-			if = {
-				limit = {
-					NOT = {
-						estate_influence = {
-							estate = estate_nobles
-							influence = 50
-						}	
-					}
-				}
-				add_mil_power = 50
+			hidden_effect = {
+				update_blc_nobles_p = yes
+				update_blc_nobles_l = yes
+			
+				subtract_variable = { which = blcnobleslow which = blcnobleslow }
+				change_variable = { which = blcnobleslow which = blcnobles }
+				multiply_variable = { which = blcnobleslow value = 2 }
+				subtract_variable = { which = blcnobleshigh which = blcnobleshigh }
+				change_variable = { which = blcnobleshigh which = blcnobles }
+				multiply_variable = { which = blcnobleshigh value = 3.5 }
+				multiply_variable = { which = blcnobles value = 3 }
 			}
-			if = {
-				limit = {
-					estate_influence = {
-						estate = estate_nobles
-						influence = 50
-					}
-					NOT = {
-						estate_influence = {
-							estate = estate_nobles
-							influence = 75
-						}	
-					}
-				}
-				add_mil_power = 100
-			}
-			if = {
-				limit = {
-					estate_influence = {
-						estate = estate_nobles
-						influence = 75
-					}
-					NOT = {
-						estate_influence = {
-							estate = estate_nobles
-							influence = 100
-						}	
-					}
-				}
-				add_mil_power = 150
-			}
-			if = {
-				limit = {
-					estate_influence = {
-						estate = estate_nobles
-						influence = 100
-					}
-				}
-				add_mil_power = 200
-			}				
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = -20
-			}
+			country_event = { id = blg.02 }
 		}
 		
 		ai_will_do = {
-			factor = 0
+			factor = 0		
 		}
 	}
+	
+	#Favors
+	#Fight till the end
 	interaction = {
-		name = "RECRUIT_MINISTER"
-		icon = 10
+		name = "FA_FTE"
+		icon = 1
 		
 		years_between_use = 30
 		
 		potential = {
-			NOT = { has_disaster = estate_church_disaster }
-			NOT = { has_disaster = estate_burghers_disaster }
+			always = yes
 		}
 		
 		trigger = {
-			estate_influence = {
-				estate = estate_nobles
-				influence = 40
-			}
-		}
-		
-		effect = {
-			if = {
-				limit = {
-					monthly_income = 25
-				}
-				define_advisor = {
-					type = diplomat
-					skill = 3
-					discount = yes
-				}
-			}
-			if = {
-				limit = { NOT = { monthly_income = 25 } }
-				define_advisor = {
-					type = diplomat
-					skill = 2
-					discount = yes
-				}
-			}
-			add_estate_influence_modifier = {
-				estate = estate_nobles
-				desc = EST_VAL_NOBLES_MINISTER
-				influence = 15
-				duration = 10950
-			}
-		}
-		
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	interaction = {
-		name = "DEMAND_MORE_TROOPS"
-		icon = 12
-		
-		years_between_use = 25
-		
-		potential = {
-			NOT = { has_disaster = estate_church_disaster }
-			NOT = { has_disaster = estate_burghers_disaster }
-		}
-		
-		trigger = {
+			is_at_war = yes
 			estate_loyalty = {
 				estate = estate_nobles
-				loyalty = 30
+				loyalty = 70
 			}
 			estate_influence = {
 				estate = estate_nobles
-				influence = 40
+				influence = 60
 			}
 		}
 		
 		effect = {
-			if = {
-				limit = {
-					NOT = {
-						estate_influence = {
-							estate = estate_nobles
-							influence = 50
-						}	
-					}
-				}
-				add_manpower = 0.1
+			add_war_exhaustion = -10
+			add_yearly_manpower = 1
+			add_country_modifier = {
+				name = fighttotheend
+				duration = 1825
 			}
-			if = {
-				limit = {
-					estate_influence = {
-						estate = estate_nobles
-						influence = 50
-					}
-					NOT = {
-						estate_influence = {
-							estate = estate_nobles
-							influence = 75
-						}	
-					}
-				}
-				add_manpower = 0.15
-			}
-			if = {
-				limit = {
-					estate_influence = {
-						estate = estate_nobles
-						influence = 75
-					}
-					NOT = {
-						estate_influence = {
-							estate = estate_nobles
-							influence = 100
-						}	
-					}
-				}
-				add_manpower = 0.2
-			}
-			if = {
-				limit = {
-					estate_influence = {
-						estate = estate_nobles
-						influence = 100
-					}
-				}
-				add_manpower = 0.25
-			}	
 			add_estate_loyalty = {
 				estate = estate_nobles
 				loyalty = -15
@@ -636,24 +349,124 @@ estate_nobles =
 		}
 		
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = {
-					estate_loyalty = {
-						estate = estate_nobles
-						loyalty = 50
-					}	
-				}
+			factor = 0
+		}
+	}
+	
+	#Accept Temporary Centraliztion
+	interaction = {
+		name = "FA_ATC"
+		icon = 1
+		
+		years_between_use = 30
+		
+		potential = {
+			always = yes
+		}
+		
+		trigger = {
+			estate_loyalty = {
+				estate = estate_nobles
+				loyalty = 70
 			}
-			modifier = {
-				factor = 0
-				manpower_percentage = 0.25				
+			estate_influence = {
+				estate = estate_nobles
+				influence = 45
 			}
-			modifier = {
-				factor = 0
-				is_at_war = no
-			}			
+		}
+		
+		effect = {
+			add_estate_loyalty = {
+				estate = estate_nobles
+				loyalty = -25
+			}
+			every_owned_province = {
+				add_local_autonomy = -20
+			}
+			add_country_modifier = {
+				name = temporarycentralization 
+				duration = 185
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	#Influence Foreign Aristocrats
+	interaction = {
+		name = "FA_IFA"
+		icon = 1
+		
+		years_between_use = 20
+		
+		potential = {
+			always = yes
+		}
+		
+		trigger = {
+			estate_loyalty = {
+				estate = estate_nobles
+				loyalty = 60
+			}
+			estate_influence = {
+				estate = estate_nobles
+				influence = 50
+			}
+		}
+		
+		effect = {
+			add_estate_loyalty = {
+				estate = estate_nobles
+				loyalty = -5
+			}
+			add_country_modifier = {
+				name = influentialnobles  
+				duration = 1825
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	#Shoulder Military Costs
+	interaction = {
+		name = "FA_SMC"
+		icon = 1
+		
+		years_between_use = 30
+		
+		potential = {
+			always = yes
+		}
+		
+		trigger = {
+			estate_loyalty = {
+				estate = estate_nobles
+				loyalty = 70
+			}
+			estate_influence = {
+				estate = estate_nobles
+				influence = 70
+			}
+		}
+		
+		effect = {
+			add_estate_loyalty = {
+				estate = estate_nobles
+				loyalty = -10
+			}
+			add_country_modifier = {
+				name = noblespayingformilitary   
+				duration = 1825
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
 		}
 	}
 }

@@ -11,37 +11,14 @@ estate_church =
 	always_remove_on_religious_conquest = yes
 	
 	# They want to control at least this % of the country's non-overseas development, if # of home provinecs is above set amount
-	min_territory = 10 
-	min_provinces_to_want_territory = 10
+	min_territory = 0
+	min_provinces_to_want_territory = 6
 	wanted_territory_modifier = {
 		desc = EST_VAL_HINDU_CLERGY
 		trigger = {
 			religion = hinduism
 		}	
 		value = -5
-	}
-	wanted_territory_modifier = {
-		desc = EST_VAL_PAPAL_LANDS
-		trigger = {
-			tag = PAP
-		}	
-		value = -10
-	}
-	wanted_territory_modifier = {
-		desc = EST_VAL_CATHOLIC
-		trigger = {
-			religion = catholic
-			NOT = { tag = PAP }
-		}	
-		value = 5
-	}
-	wanted_territory_modifier = {
-		desc = EST_VAL_THEOCRACY
-		trigger = {
-			government = theocracy
-			NOT = { tag = PAP }
-		}	
-		value = 5
 	}	
 
 	# If true, country will get estate
@@ -50,17 +27,6 @@ estate_church =
 		NOT = { government = native_council }
 		NOT = { government = siberian_native_council }
 		NOT = { government = celestial_empire }
-		NOT = { government = altepetl }
-		NOT = { government = hegemonic_kingdom }
-		NOT = { government = hegemonic_empire }
-		NOT = { government = tribal_confederation }
-		NOT = { government = mayapan }
-		NOT = { government = kuchkabal }
-		NOT = { government = centralized_altepetl }
-		NOT = { government = centralized_kingdom }
-		NOT = { government = centralized_empire }
-		NOT = { government = tlaxcallan_confederate }
-		NOT = { government = tarascan_tribute_kingdom }
 
 		OR = {
 			NOT = { tag = USA }
@@ -76,47 +42,37 @@ estate_church =
 	}
 	
 	# Min autonomy in estate provinces
-	min_autonomy = 25
+	min_autonomy = 50
 	
 	# Estate cancels out the following multiplicative local autonomy effects:
-	autonomy_does_not_affect = local_tax_modifier
+	#autonomy_does_not_affect = local_tax_modifier
 
 	# These scale with loyalty & power
 	country_modifier_happy = {
-		global_tax_modifier = 0.2
-		papal_influence = 1
-		devotion = 0.5
-		church_power_modifier = 0.1
-		monthly_fervor_increase = 1
-		stability_cost_modifier = -0.1
+		global_unrest = -2
+		stability_cost_modifier = -0.25
 	}
 	country_modifier_neutral = {
-		global_tax_modifier = 0.2
+		global_unrest = -1
 	}	
 	country_modifier_angry = {
-		global_tax_modifier = -0.1
-		papal_influence = -1
-		devotion = -0.5
-		church_power_modifier = -0.25
-		monthly_fervor_increase = -1
-		stability_cost_modifier = 0.1
+		legitimacy = -5
 	}	
 	
 	# These do not scale, but only applied in provinces owned by the estate
 	province_modifier_happy = {
 		local_missionary_strength = 0.02
-		local_tax_modifier = 0.1
-		local_unrest = -2
+		local_unrest = -1
 	}
 	province_modifier_neutral = {
-		local_unrest = -2
+		local_unrest = -1
 	}	
 	province_modifier_angry = {
-		local_unrest = 5
+		local_unrest = 4
 	}	
 	
 	# Influence modifiers
-	base_influence = 20
+	base_influence = 30
 	influence_modifier = {
 		desc = EST_VAL_THEOCRACY
 		trigger = {
@@ -198,7 +154,6 @@ estate_church =
 	loyalty_modifier = {
 		desc = EST_VAL_PIOUS
 		trigger = {
-			religion_group = muslim
 			piety = 0.5
 			NOT = { piety = 0.75 }
 		}
@@ -207,7 +162,6 @@ estate_church =
 	loyalty_modifier = {
 		desc = EST_VAL_VERY_PIOUS
 		trigger = {
-			religion_group = muslim
 			piety = 0.75
 		}
 		loyalty = 10
@@ -215,7 +169,6 @@ estate_church =
 	loyalty_modifier = {
 		desc = EST_VAL_NOT_PIOUS
 		trigger = {
-			religion_group = muslim
 			NOT = { piety = -0.5 }
 			piety = -0.75
 		}
@@ -224,55 +177,9 @@ estate_church =
 	loyalty_modifier = {
 		desc = EST_VAL_VERY_UNPIOUS
 		trigger = {
-			religion_group = muslim
 			NOT = { piety = -0.75 }
 		}
 		loyalty = -10
-	}
-	loyalty_modifier = {
-		desc = EST_VAL_PROTESTANT
-		trigger = {
-			religion = protestant
-		}
-		loyalty = 10
-	}
-	loyalty_modifier = {
-		desc = EST_VAL_PAPAL_CONTROLLER
-		trigger = {
-			is_papal_controller = yes
-		}
-		loyalty = 10
-	}
-	loyalty_modifier = {
-		desc = EST_VAL_STATUTE_IN_RESTRAINTS
-		trigger = {
-			has_country_modifier = the_statue_in_restraint_of_appeals
-		}
-		loyalty = 5
-	}
-	loyalty_modifier = {
-		desc = EST_VAL_SHEIKH_UL_ISLAM
-		trigger = {
-			has_country_modifier = the_sheikh_ul_islam
-		}
-		loyalty = 5
-	}
-	loyalty_modifier = {
-		desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
-		trigger = {
-			OR = {
-				has_disaster = estate_nobility_disaster
-				has_disaster = estate_burghers_disaster
-			}
-		}
-		loyalty = -20
-	}
-	loyalty_modifier = {
-		desc = EST_VAL_FULL_RELIGIOUS
-		trigger = {
-			full_idea_group = religious_ideas
-		}
-		loyalty = 10
 	}
 	
 	custom_name = {
@@ -334,7 +241,6 @@ estate_church =
 	# Does the AI want to give any extra territory beyond the minimum?
 	ai_territory_modifier = {
 		trigger = {
-			has_idea_group = religious_ideas
 			num_of_cities = 10
 		}	
 		value = 10		
@@ -342,279 +248,123 @@ estate_church =
 	
 	# Special interactions
 	interaction = {
-		name = "DEMAND_SUPPORT_CHURCH"
-		icon = 2
+		name = "GRANT_FAVOR"
+		icon = 1
 		
-		years_between_use = 20
+		years_between_use = 0
 		
 		potential = {
-			NOT = { has_disaster = estate_nobility_disaster }
-			NOT = { has_disaster = estate_burghers_disaster }
+			always = yes
 		}
 		
 		trigger = {		
-			estate_loyalty = {
-				estate = estate_church
-				loyalty = 30
-			}	
-			estate_influence = {
-				estate = estate_church
-				influence = 25
-			}			
+			always = yes
 		}
 		
 		effect = {
-			if = {
-				limit = {
-					NOT = {
-						estate_influence = {
-							estate = estate_church
-							influence = 50
-						}	
-					}
-				}
-				add_adm_power = 50
-			}
-			if = {
-				limit = {
-					estate_influence = {
-						estate = estate_church
-						influence = 50
-					}
-					NOT = {
-						estate_influence = {
-							estate = estate_church
-							influence = 75
-						}	
-					}
-				}
-				add_adm_power = 100
-			}
-			if = {
-				limit = {
-					estate_influence = {
-						estate = estate_church
-						influence = 75
-					}
-					NOT = {
-						estate_influence = {
-							estate = estate_church
-							influence = 100
-						}	
-					}
-				}
-				add_adm_power = 150
-			}
-			if = {
-				limit = {
-					estate_influence = {
-						estate = estate_church
-						influence = 100
-					}
-				}
-				add_adm_power = 200
-			}				
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = -20
-			}
+			country_event = { id = gpe.01 }
 		}
 		
 		ai_will_do = {
 			factor = 0		
 		}
 	}
+	
 	interaction = {
-		name = "MAKE_GENEROUS_DONATION"
-		icon = 7
+		name = "REVOKE_FAVOR"
+		icon = 1
+		
+		years_between_use = 0
+		
+		potential = {
+			always = yes
+		}
+		
+		trigger = {		
+			always = yes
+		}
+		
+		effect = {
+			country_event = { id = rpe.01 }
+		}
+		
+		ai_will_do = {
+			factor = 0		
+		}
+	}
+	
+	interaction = {
+		name = "GIVE_GIFT"
+		icon = 1
+		
+		years_between_use = 0
+		
+		potential = {
+			always = yes
+		}
+		
+		trigger = {		
+			always = yes
+		}
+		
+		effect = {
+			hidden_effect = {
+				update_blc_priests_p = yes
+				update_blc_priests_l = yes
+			
+				subtract_variable = { which = blcpriestslow which = blcpriestslow }
+				change_variable = { which = blcpriestslow which = blcpriests }
+				multiply_variable = { which = blcpriestslow value = 2 }
+				subtract_variable = { which = blcpriestshigh which = blcpriestshigh }
+				change_variable = { which = blcpriestshigh which = blcpriests }
+				multiply_variable = { which = blcpriestshigh value = 3.5 }
+				multiply_variable = { which = blcpriests value = 3 }
+			}
+			country_event = { id = blg.01 }
+		}
+		
+		ai_will_do = {
+			factor = 0		
+		}
+	}
+	
+	#Favors
+	#Religiously Justify War
+	interaction = {
+		name = "FPO_RJW"
+		icon = 1
 		
 		years_between_use = 10
 		
 		potential = {
-			NOT = { has_disaster = estate_nobility_disaster }
-			NOT = { has_disaster = estate_burghers_disaster }
-		}
-		
-		trigger = {
 			always = yes
 		}
 		
-		effect = {
-			add_years_of_income = -0.25
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 15
-			}
-		}
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { years_of_income = 0.5 }				
-			}
-			modifier = {
-				factor = 0
-				estate_loyalty = {
-					estate = estate_church
-					loyalty = 40
-				}
-			}			
-		}		
-	}
-	interaction = {
-		name = "SEEK_SUPPORT_OF_CLERGY"
-		icon = 17
-		
-		years_between_use = 20
-		
 		trigger = {
-			always = yes
-		}
-		
-		effect = {
-			add_prestige = -5
-			add_legitimacy = -5
-			add_republican_tradition = -0.03
-			add_devotion = -3
-			add_piety = 0.05
-			if = {
-				limit = { religion = protestant }
-				add_church_power = 10
+			any_country = {
+				defensive_war_with = ROOT
 			}
-			add_patriarch_authority = 0.05
-			if = {
-				limit = { religion = reformed }
-				add_fervor = 10
-			}
-			add_estate_influence_modifier = {
+			estate_loyalty = {
 				estate = estate_church
-				desc = EST_VAL_SOUGHT_SUPPORT
-				influence = 10
-				duration = 7300
+				loyalty = 55
 			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 15
-			}
-		}
-	
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				estate_loyalty = {
-					estate = estate_church
-					loyalty = 30
-				}						
-			}
-			modifier = {
-				factor = 0
-				estate_influence = {
-					estate = estate_church
-					influence = 60
-				}						
-			}			
-		}
-	}
-	interaction = {
-		name = "RECRUIT_MINISTER"
-		icon = 10
-		
-		potential = {
-			NOT = { has_disaster = estate_nobility_disaster }
-			NOT = { has_disaster = estate_burghers_disaster }
-		}
-		
-		years_between_use = 30
-		
-		trigger = {
 			estate_influence = {
 				estate = estate_church
-				influence = 40
+				influence = 25
 			}
 		}
 		
 		effect = {
-			if = {
-				limit = {
-					monthly_income = 25
-				}
-				define_advisor = {
-					type = theologian
-					skill = 3
-					discount = yes
-				}
+			add_stability = 1
+			
+			add_country_modifier = {
+				name = religiouswar 
+				duration = 1095
 			}
-			if = {
-				limit = { NOT = { monthly_income = 25 } }
-				define_advisor = {
-					type = theologian
-					skill = 2
-					discount = yes
-				}
-			}
-			add_estate_influence_modifier = {
+			
+			add_estate_loyalty = {
 				estate = estate_church
-				desc = EST_VAL_CLERGY_MINISTER
-				influence = 15
-				duration = 10950
-			}
-		}
-		
-		ai_will_do = {
-			factor = 0			
-		}
-	}
-	interaction = {
-		name = "RECRUIT_INQUISITOR"
-		icon = 11
-		
-		potential = {
-			NOT = { has_disaster = estate_nobility_disaster }
-			NOT = { has_disaster = estate_burghers_disaster }
-		}
-		
-		years_between_use = 30
-		
-		trigger = {
-			estate_influence = {
-				estate = estate_church
-				influence = 40
-			}
-		}
-		
-		effect = {
-			if = {
-				limit = {
-					monthly_income = 25
-				}
-				define_advisor = {
-					type = inquisitor
-					skill = 3
-					discount = yes
-				}
-			}
-			if = {
-				limit = { NOT = { monthly_income = 25 } }
-				define_advisor = {
-					type = inquisitor
-					skill = 2
-					discount = yes
-				}
-			}
-			add_estate_influence_modifier = {
-				estate = estate_church
-				desc = EST_VAL_CLERGY_INQUISITOR
-				influence = 10
-				duration = 10950
-			}
-			if = {
-				limit = { has_estate = estate_dhimmi }
-				add_estate_loyalty = {
-					estate = estate_dhimmi
-					loyalty = -15
-				}
+				loyalty = -5
 			}
 		}
 		
@@ -622,74 +372,193 @@ estate_church =
 			factor = 0
 		}
 	}
+	
+	#Encourage Ferverous Defense
 	interaction = {
-		name = "NEW_WORLD_MISSION"
-		icon = 15
-		
-		years_between_use = 20
+		name = "FPO_EFD"
+		icon = 1
+		years_between_use = 10
 		
 		potential = {
-			has_idea_group = exploration_ideas
-			NOT = { has_disaster = estate_nobility_disaster }
-			NOT = { has_disaster = estate_burghers_disaster }
+			always = yes
 		}
 		
 		trigger = {
+			any_country = {
+				offensive_war_with = ROOT
+			}
+			estate_loyalty = {
+				estate = estate_church
+				loyalty = 55
+			}
 			estate_influence = {
 				estate = estate_church
-				influence = 40
+				influence = 25
 			}
 		}
 		
 		effect = {
 			add_country_modifier = {
-				name = "new_world_missions"
-				duration = 7300
+				name = ferverousdefense 
+				duration = 1095
 			}
-			add_estate_influence_modifier = {
+			
+			add_estate_loyalty = {
 				estate = estate_church
-				desc = EST_VAL_NEW_WORLD_MISSION
-				influence = 15
-				duration = 7300
+				loyalty = -5
 			}
 		}
 		
 		ai_will_do = {
-			factor = 0			
+			factor = 0
 		}
 	}
+	
+	#Bless Ruler
 	interaction = {
-		name = "SEND_EMISSARY_TO_POPE"
-		icon = 14
-		
-		years_between_use = 20
+		name = "FPO_BR"
+		icon = 1
+		years_between_use = 10
 		
 		potential = {
-			religion = catholic
-			NOT = { tag = PAP }
-			NOT = { has_disaster = estate_nobility_disaster }
-			NOT = { has_disaster = estate_burghers_disaster }
+			always = yes
 		}
 		
 		trigger = {
+			estate_loyalty = {
+				estate = estate_church
+				loyalty = 70
+			}
 			estate_influence = {
 				estate = estate_church
 				influence = 40
 			}
+			NOT = { has_ruler_modifier = blessedruler }
 		}
 		
 		effect = {
-			add_papal_influence = 10
+			add_legitimacy = 20
+			add_stability = 1
+			add_ruler_modifier = {
+				name = blessedruler 
+			}
+			
+			add_estate_loyalty = {
+				estate = estate_church
+				loyalty = -10
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	#Denounce Aristocracy
+	interaction = {
+		name = "FPO_DAS"
+		icon = 1
+		years_between_use = 10
+		
+		potential = {
+			always = yes
+		}
+		
+		trigger = {
+			estate_loyalty = {
+				estate = estate_church
+				loyalty = 70
+			}
+			estate_influence = {
+				estate = estate_church
+				influence = 50
+			}
+		}
+		
+		effect = {
+			add_estate_loyalty = {
+				estate = estate_nobles
+				loyalty = -30
+			}
+			
+			add_estate_influence_modifier = {
+				estate = estate_nobles
+				desc = "FPO_HDAS"
+				influence = -20
+				duration = 7300
+			}
+			
 			add_estate_influence_modifier = {
 				estate = estate_church
-				desc = EST_VAL_EMISSARY_TO_POPE
-				influence = 10
+				desc = "FPO_HDAS"
+				influence = 5
+				duration = 7300
+			}
+			
+			add_estate_influence_modifier = {
+				estate = estate_burghers
+				desc = "FPO_HDAS"
+				influence = 5
 				duration = 7300
 			}
 		}
-	
+		
 		ai_will_do = {
-			factor = 0			
-		}	
+			factor = 0
+		}
+	}
+	
+	#Denounce Merchants
+	interaction = {
+		name = "FPO_DMS"
+		icon = 1
+		years_between_use = 10
+		
+		potential = {
+			always = yes
+		}
+		
+		trigger = {
+			estate_loyalty = {
+				estate = estate_church
+				loyalty = 70
+			}
+			estate_influence = {
+				estate = estate_church
+				influence = 50
+			}
+		}
+		
+		effect = {
+			add_estate_loyalty = {
+				estate = estate_burghers
+				loyalty = -30
+			}
+			
+			add_estate_influence_modifier = {
+				estate = estate_burghers
+				desc = "FPO_HDMS"
+				influence = -20
+				duration = 7300
+			}
+			
+			add_estate_influence_modifier = {
+				estate = estate_church
+				desc = "FPO_HDMS"
+				influence = 5
+				duration = 7300
+			}
+			
+			add_estate_influence_modifier = {
+				estate = estate_nobles
+				desc = "FPO_HDMS"
+				influence = 5
+				duration = 7300
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
 	}
 }

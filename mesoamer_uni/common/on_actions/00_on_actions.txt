@@ -1,186 +1,7 @@
 # country
 on_startup = {
-	#Setup Population Potential
-	TEN = {
-		country_event = { id = ppcalc.01 }
-	}
-	
-	#Fix Loans so they aren't absurdly big
-	every_country = {
-		loan_size = 1
-	}
-
-	#Apply Global Modifiers
-	every_country = {
-		add_country_modifier = {
-			name = "mesoamerican_logistics"
-			duration = -1
-		}
-
-		add_country_modifier = {
-			name = "pga"
-			duration = -1
-		}
-	}
-
-	#Set Default Draft Laws
-	every_province = {
-		add_permanent_province_modifier = {
- 			name = base_law
- 			duration = -1
-		}	
-		add_province_modifier = {
-			name = e_expectedservice
-			duration = -1
-		}	
-		add_province_modifier = {
-			name = a_expectedservice
-			duration = -1
-		}
-		add_province_modifier = {
-			name = c_oldestson
-			duration = -1
-		}
-	
-	}
-
-	#Apply Obstacles
-	every_province = {
-		add_permanent_province_modifier = {
-			name = nopackanimals
-			duration = -1
-		}
-	}
-
-	#Displays local pop potential
-	#every_province = {
-	#	add_permanent_province_modifier = {
-	#		name = ppdisplay
-	#		duration = -1
-	#	}
-	#}
-
-	#Set Default Tribute Requirements	
-	every_country = {
-		limit = {
-			OR = {
-				government = altepetl
-				government = hegemonic_kingdom
-				government = hegemonic_empire
-			}
-		}
-		add_country_modifier = {
-			name = "normalwealth"
-			duration = -1
-		}	
-		add_country_modifier = {
-			name = "normalwarriors"
-			duration = -1
-		}
-		add_country_modifier = {
-			name = "normalsupplies"
-			duration = -1
-		}
-
-		set_variable = { which = staplefoodbins value = 0 }
-		set_variable = { which = luxuryfoodbins value = 0 }
-		set_variable = { which = cocoabins value = 0 }
-		set_variable = { which = textilebins value = 0 }
-		set_variable = { which = obsidianbins value = 0 }
-		set_variable = { which = preciousbins value = 0 }
-		set_variable = { which = quetzalbins value = 0 }
-		set_variable = { which = saltbins value = 0 }
-		set_variable = { which = copperbins value = 0 }
-		set_variable = { which = goldbins value = 0 }
-		set_variable = { which = limebins value = 0 }
-		set_variable = { which = lumberstacks value = 0 }
-	}
-
-	#Remove initial manpower - without this everyone starts with 
-	#manpower not affected by draft law for some reason
-	every_country = {
-		add_manpower = -1000
-	}
-
-	TEN = {
-		add_country_modifier = {
-			name = "manpowercalcwait"
-			duration = 335
-		}
-	}
-	#Building Testing
-	1 = {
-		add_building = bureau1
-	}
-
-	#Display Glory Events
-	TEN = {
-		country_event = { id = glory.1}
-	}
-
-	TCP = {
-		country_event = { id = glory.2}
-	}
-
-	TET = {
-		country_event = { id = glory.3}
-	}
-
-	AZC = {
-		country_event = { id = glory.4}
-	}
-
-	CHL = {
-		country_event = { id = glory.5}
-	}
-
-	IUA = {
-		country_event = { id = glory.6}
-	}
-
-	LOM = {
-		country_event = { id = glory.7}
-	}
-	
-	KKG = {
-		country_event = { id = glory.8}
-	}
-
-	#Required Additional Diplomacy Setup
-	TEN = {
-		
-		add_opinion = {
- 			who = TET
- 			modifier = opinion_triple_alliance
-		}
-		add_opinion = {
- 			who = TCP
- 			modifier = opinion_triple_alliance
-		}	
-	}
-	TET = {
-
-		add_opinion = {
- 			who = TEN
- 			modifier = opinion_triple_alliance
-		}
-		add_opinion = {
- 			who = TCP
- 			modifier = opinion_triple_alliance
-		}	
-
-	}
-	TCP = {
-
-
-		add_opinion = {
- 			who = TET
- 			modifier = opinion_triple_alliance
-		}
-		add_opinion = {
- 			who = TEN
- 			modifier = opinion_triple_alliance
-		}	
+	events = {
+		init.01
 	}
 }
 
@@ -448,11 +269,59 @@ on_war_lost = {
 # country
 # root = winning country, from = loser country
 on_battle_won_country = {
+	if = {
+		limit = {
+			ROOT = {
+				AND = {
+					ai = no
+					has_idea = warcouncil
+				}
+			}
+			
+		}
+		ROOT = { add_legitimacy = 5 }
+	}
+	if = {
+		limit = {
+			ROOT = {
+				AND = {
+					ai = no
+					NOT = { has_idea = warcouncil }
+				}
+			}
+			
+		}
+		ROOT = { add_legitimacy = 2.5 }
+	}
 }
 
 # country
 # root = loser country, from = winner country
 on_battle_lost_country = {
+	if = {
+		limit = {
+			ROOT = {
+				AND = { 
+					ai = no
+					has_idea = warcouncil
+				}
+			}
+			
+		}
+		ROOT = { add_legitimacy = -5 }
+	}
+	if = {
+		limit = {
+			ROOT = {
+				AND = {
+					ai = no
+					NOT = { has_idea = warcouncil }
+				}
+			}
+			
+		}
+		ROOT = { add_legitimacy = -2.5 }
+	}
 	random_events = {
 		90 = 0
 		10 = friendship_events.1 #Historical Friendship Broken
@@ -1142,16 +1011,17 @@ on_bi_yearly_pulse_4 = {
 
 # country random events
 on_thri_yearly_pulse = {
+	
 	#Keep Ruling Dynasty in Power for AI
-	if = {
-		limit = {
-			ai = yes
-		}
-		add_faction_influence = {
-			faction = currentdynasty
-			influence = 100
-		}
-	}
+	#if = {
+	#	limit = {
+	#		ai = yes
+	#	}
+	#	add_faction_influence = {
+	#		faction = currentdynasty
+	#		influence = 100
+	#	}
+	#}
 	#Newly annexed provinces won't get the new owner's draft law without this	
 	if = {
 		limit = {
@@ -1311,6 +1181,8 @@ on_thri_yearly_pulse = {
 			}
 		}
 	}
+	
+	
 	random_events = {
 		# Republics
 		100 = republics.4

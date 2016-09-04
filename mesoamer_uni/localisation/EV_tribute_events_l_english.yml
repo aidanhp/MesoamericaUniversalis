@@ -18,16 +18,16 @@
  
  tributecoll3.t: "Set Warrior Requirements"
  tributecoll3.d: "When a city pays us tribute in warriors, how much should they pay? \n *Selecting the high option will increase the base likelihood for a vassal to refuse to pay, the low option will do the opposite.*" 
- tributecoll3.a: "Require 10% of a city's fighting men from each city each year."
- tributecoll3.b: "Require 5% of a city's fighting men from each city each year."
- tributecoll3.c: "Require 2.5% of a city's fighting men from each city each year."
+ tributecoll3.a: "Require 6% of a city's fighting men from each city each year."
+ tributecoll3.b: "Require 4% of a city's fighting men from each city each year."
+ tributecoll3.c: "Require 2% of a city's fighting men from each city each year."
  tributecoll3.dd: "Manage a different area."
  
  tributecoll4.t: "Set Supplies Requirements"
  tributecoll4.d: "When a city pays us tribute in supplies, how much should they pay? \n *Selecting the high option will increase the base likelihood for a vassal to refuse to pay, the low option will do the opposite.*" 
- tributecoll4.a: "Require 6 large bins of fine goods."
- tributecoll4.b: "Require 4 large bins of fine goods."
- tributecoll4.c: "Require 2 large bins of fine goods."
+ tributecoll4.a: "Require 6 large bins of local goods."
+ tributecoll4.b: "Require 4 large bins of local goods."
+ tributecoll4.c: "Require 2 large bins of local goods."
  tributecoll4.dd: "Manage a different area."
  
  tributecoll5.t: "Time for Tribute"

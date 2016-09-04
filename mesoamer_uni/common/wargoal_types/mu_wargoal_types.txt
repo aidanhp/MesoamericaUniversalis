@@ -6,8 +6,8 @@ expandhegemony = {
 		prestige_factor = 1.25
 		peace_cost_factor = 0.75
 
-		#allowed_provinces = { always = no }
-		#allowed_provinces_are_eligible = yes
+		allowed_provinces = { always = no }
+		allowed_provinces_are_eligible = yes
 	
 		po_become_protectorate = yes
 	}

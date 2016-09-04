@@ -1,0 +1,173 @@
+#Buy loyalty with luxury goods interfact
+namespace = blg
+
+#For Priests
+country_event = {
+	id = blg.01
+	
+	title = "blg1.t"
+	desc = "blg1.d"
+	picture = DIPLOMACY_eventPicture
+	
+	is_triggered_only = yes
+	
+	#Small gift
+	option = {
+		name = "blg1.a"
+		trigger = { 
+			check_variable = { which = luxurygoods which = blcpriestslow }
+		}
+		subtract_variable = { which = luxurygoods which = blcpriestslow }
+		
+		add_estate_loyalty = {
+			estate = estate_church
+			loyalty = 5
+		}
+	}
+	
+	#Medium gift
+	option = {
+		name = "blg1.b"
+		trigger = { 
+			check_variable = { which = luxurygoods which = blcpriests }
+		}
+		subtract_variable = { which = luxurygoods which = blcpriests }
+		
+		add_estate_loyalty = {
+			estate = estate_church
+			loyalty = 10
+		}
+	}
+	
+	#Large gift
+	option = {
+		name = "blg1.c"
+		trigger = { 
+			check_variable = { which = luxurygoods which = blcpriestshigh }
+		}
+		subtract_variable = { which = luxurygoods which = blcpriestshigh }
+		
+		add_estate_loyalty = {
+			estate = estate_church
+			loyalty = 15
+		}
+	}
+	
+	option = {
+		name = "blg1.dd"
+	}
+}
+
+#For Nobles
+country_event = {
+	id = blg.02
+	
+	title = "blg2.t"
+	desc = "blg2.d"
+	picture = DIPLOMACY_eventPicture
+	
+	is_triggered_only = yes
+	
+	#Small gift
+	option = {
+		name = "blg2.a"
+		trigger = { 
+			check_variable = { which = luxurygoods which = blcnobleslow }
+		}
+		subtract_variable = { which = luxurygoods which = blcnobleslow }
+		
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = 5
+		}
+	}
+	
+	#Medium gift
+	option = {
+		name = "blg2.b"
+		trigger = { 
+			check_variable = { which = luxurygoods which = blcnobles }
+		}
+		subtract_variable = { which = luxurygoods which = blcnobles }
+		
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = 10
+		}
+	}
+	
+	#Large gift
+	option = {
+		name = "blg2.c"
+		trigger = { 
+			check_variable = { which = luxurygoods which = blcnobleshigh }
+		}
+		subtract_variable = { which = luxurygoods which = blcnobleshigh }
+		
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = 15
+		}
+	}
+	
+	option = {
+		name = "blg2.dd"
+	}
+}
+
+#For Merchants
+country_event = {
+	id = blg.03
+	
+	title = "blg3.t"
+	desc = "blg3.d"
+	picture = DIPLOMACY_eventPicture
+	
+	is_triggered_only = yes
+	
+	#Small gift
+	option = {
+		name = "blg3.a"
+		trigger = { 
+			check_variable = { which = luxurygoods which = blcmerchantslow }
+		}
+		subtract_variable = { which = luxurygoods which = blcmerchantslow }
+		
+		add_estate_loyalty = {
+			estate = estate_burghers
+			loyalty = 5
+		}
+	}
+	
+	#Medium gift
+	option = {
+		name = "blg3.b"
+		trigger = { 
+			check_variable = { which = luxurygoods which = blcmerchants }
+		}
+		subtract_variable = { which = luxurygoods which = blcmerchants }
+		
+		add_estate_loyalty = {
+			estate = estate_burghers
+			loyalty = 10
+		}
+	}
+	
+	#Large gift
+	option = {
+		name = "blg3.c"
+		trigger = { 
+			check_variable = { which = luxurygoods which = blcmerchantshigh }
+		}
+		subtract_variable = { which = luxurygoods which = blcmerchantshigh }
+		
+		add_estate_loyalty = {
+			estate = estate_burghers
+			loyalty = 15
+		}
+	}
+	
+	option = {
+		name = "blg3.dd"
+	}
+}

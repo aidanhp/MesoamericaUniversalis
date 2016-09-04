@@ -25,7 +25,7 @@ technology = {
 	ctown = yes
 	cworkshop = yes
 	cestate = yes
-	
+	missionschool = yes
 	
 	mschool = yes
 	umobile = yes
@@ -70,7 +70,6 @@ technology = {
 	
 	allowed_idea_groups = 2
 	
-	missionschool = yes
 }
 
 technology = {
@@ -92,7 +91,7 @@ technology = {
 	# Tech 6
 	year = 1506
 	
-	max_states = 8
+	max_states = 2
 	administrative_efficiency = 0.10
 }
 
@@ -267,7 +266,6 @@ technology = {
 	# Tech 26
 	year = 1745
 	
-	allowed_idea_groups 	= 	7
 }
 
 technology = {
@@ -291,7 +289,6 @@ technology = {
 	# Tech 29
 	year = 1790
 	
-	allowed_idea_groups = 8
 	enlightened_despotism = yes
 	bureaucratic_despotism = yes
 }

@@ -1,0 +1,17 @@
+#	Example:
+# 
+#	example_trigger = {
+#		tag = SWE
+#		ai = no
+#	}
+#
+#
+#	In a script file:
+#
+#	trigger = {
+# 		fucking typo in the example really paradox
+#		exampel_trigger = yes
+#	}
+#
+
+

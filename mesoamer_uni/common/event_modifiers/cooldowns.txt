@@ -1,0 +1,119 @@
+﻿#Cooldowns for a variety of uses
+
+#Cooldown after granting a privilege before you are allowed to revoke it
+starter = {
+
+}
+
+PO_LPE_cooldown = {
+
+}
+
+PO_ELS_cooldown = {
+
+}
+
+PO_ATC_cooldown = {
+
+}
+
+PO_P_cooldown = {
+
+}
+
+N_MMA_cooldown = {
+
+}
+
+N_ECFG_cooldown = {
+
+}
+
+N_HLR_cooldown = {
+
+}
+
+N_EXL_cooldown = {
+
+}
+
+N_P_cooldown = {
+
+}
+
+MR_LSL_cooldown = {
+
+}
+
+MR_SCG_cooldown = {
+
+}
+
+MR_ETL_cooldown = {
+
+}
+
+MR_ISC_cooldown = {
+
+}
+
+MR_IMV_cooldown = {
+
+}
+
+#Cooldown after revoking a privilege before you are allowed to grant it
+RPO_LPE_cooldown = {
+
+}
+
+RPO_ELS_cooldown = {
+
+}
+
+RPO_ATC_cooldown = {
+
+}
+
+RPO_P_cooldown = {
+
+}
+
+RN_MMA_cooldown = {
+
+}
+
+RN_ECFG_cooldown = {
+
+}
+
+RN_HLR_cooldown = {
+
+}
+
+RN_EXL_cooldown = {
+
+}
+
+RN_P_cooldown = {
+
+}
+
+RMR_LSL_cooldown = {
+
+}
+
+RMR_SCG_cooldown = {
+
+}
+
+RMR_ETL_cooldown = {
+
+}
+
+RMR_ISC_cooldown = {
+
+}
+
+RMR_IMV_cooldown = {
+
+}

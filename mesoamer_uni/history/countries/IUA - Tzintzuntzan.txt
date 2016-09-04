@@ -14,5 +14,12 @@ historical_rival = TEN
 		adm = 4
 		dip = 4
 		mil = 5
+		leader = {
+			name = "Hirepan"
+			shock = 5
+			fire = 1
+			manuever = 3
+			siege = 2
+		}
 	}
 }

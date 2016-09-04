@@ -22,6 +22,24 @@
  set_draft_laws_title: "Set Draft Laws"
  set_draft_laws_desc: "Legally codify military service requirements for people from all rungs of society."
  
+ #Buying Down Influence
+ buydowninfluence_title: "Buy Down Faction Influence"
+ buydowninfluence_desc: "Convince a faction to concede some of its influence in exchange for a gift of luxury goods extracted from our own lands and those of any vassals we may have."
+ 
+ #Exchanging Supplies for Buffs/Stuff
+ exchangeluxurygoods_title: "Exchange Luxury Goods for Ducats"
+ exchangeluxurygoods_desc: "Bring luxury goods out of our storehouse and use them to help pay for state expenses."
+ exchangemilitarysupplies_title: "Temporarily Expand Supply Lines"
+ exchangemilitarysupplies_desc: "Retrieve military supplies from our storehouse to temporarily boost our capacity to supply armies. The cost of expanding supply lines scales with army size."
+ investbuildingsupplies_title: "Invest Building Supplies in Area"
+ investbuildingsupplies_desc: "Invest building supplies from our storehouse in an area we own provinces in to temporarily reduce build cost."
+ 
+ #From Idea Groups
+ raise_trib_army_title: "Raise Army from Tributaries"
+ raise_trib_army_desc: "Call upon our tributaries to put men loyal to us on the field."
+ resettle_colonies_title: "Resettle to Colonies"
+ resettle_colonies_desc: "Offload some of our problem citizens into the colonies."
+ 
  #Formables
  restore_toltec_title: "Restore the Toltec Empire"
  restore_toltec_desc: "Centuries ago, the mighty Toltec Empire dominated all of Mesoamerica, its cultural and political influence spreading to every last corner of our world. However, famine, unrest, and barbarian invasions eventually led to the decline of this greatest of empires, with the Toltecs finally falling when their capital, Tula, was burned to the ground by barbarians. No one has achieved such power since. Now, most of the royal houses of Mesoamerica are descended from Toltec nobility, so we do have legitimate grounds to back our claim as its successor, if we can unite the areas the toltecs controlled and glorify ourselves in the eyes of others."
@@ -42,6 +60,7 @@
  purepecha_empire_title: "Form Iréchecua Tzintzuntzáni"
  purepecha_empire_desc: "The founder of our dynasty, Tariacuri, saw it as the divinely-ordained destiny of his descendents to build a vast, powerful empire around Lake Patzcuaro. Through many trials and tribulations, we have managed to conquer the lakeshore and many of the surrounding areas, and now we have the resources to fulfill this great mission. If we can conquer enough land and totally subjugate the lords of Ihuatzlo and Patzcuaro, we can do what the gods intended us to."
  
+
  #PRIVILEGES
  #Granting
  gpmaster_title: "§g•Grant Privileges to Faction§!"
@@ -95,7 +114,7 @@
  rpmasterhide_desc: ""
  rppriestmaster_title: "§Y•Revoke Privileges from Priestly Orders§!"
  rppriestmaster_desc: "Shows all privileges that can be revoked from the Priestly Orders."
- rppriestmasterhide_title: "§Y•Hide Priestly Order Privilege Decisions§!"
+ rppriestmasterhide_title: "§Y•Hide Priestly Order Revocation Decisions§!"
  rppliftpoliticalembargo_title: "§Y–Political Embargo on the Priesthood§!"
  rppliftpoliticalembargo_desc: "Prevent priests from holding positions of political power."
  rppelevatestatus_title: "§Y–Revoke Priestly Legal Status§!"
@@ -107,7 +126,7 @@
  
  rpnoblesmaster_title: "§R•Revoke Privileges from the Nobility§!"
  rpnoblesmaster_desc: "Shows all privileges that can be revoked from the Nobility."
- rpnoblesmasterhide_title: "§R•Hide Nobility Privilege Decisions§!"
+ rpnoblesmasterhide_title: "§R•Hide Nobility Revocation Decisions§!"
  rpnmilitaryp_title: "§R–Instate Military Meritocracy§!"
  rpnmilitaryp_desc: "Allow commoners to use the military as a means of social advancement."
  rpngovernmentp_title: "§R–Allow Commoners in Government§!"
@@ -119,9 +138,9 @@
  rpnpension_title: "§R–Revoke Income Delegated to Nobility§!"
  rpnpension_desc: "Revoke the pension delegated to the nobility."
  
- rpmerchantsmaster_title: "§G•Revoke Privileges to the Merchants§!"
+ rpmerchantsmaster_title: "§G•Revoke Privileges from the Merchants§!"
  rpmerchantsmaster_desc: "Shows all privileges that can be revoked from the Merchants."
- rpmerchantsmasterhide_title: "§G•Hide Merchant Privilege Decisions§!"
+ rpmerchantsmasterhide_title: "§G•Hide Merchant Revocation Decisions§!"
  rpmliftsumptuarylaws_title: "§G–Instate Sumptuary Laws§!"
  rpmliftsumptuarylaws_desc: "Introduce laws regulating displays of status and wealth among merchants."
  rpmcaravanguards_title: "§G–Revoke Caravan Guards§!"

@@ -31,6 +31,8 @@ fort_15th = {
 	
 	influencing_fort = yes
 	
+	destroy_on_conquest = yes
+	
 	ai_will_do = {
 		factor = 1000
 		modifier = {
@@ -83,6 +85,8 @@ fort_16th = {
 	
 	influencing_fort = yes
 	
+	destroy_on_conquest = yes
+	
 	ai_will_do = {
 		factor = 1000
 		modifier = {
@@ -133,6 +137,8 @@ fort_17th = {
 	
 	influencing_fort = yes
 	
+	destroy_on_conquest = yes
+	
 	ai_will_do = {
 		factor = 1000
 		modifier = {
@@ -181,6 +187,8 @@ fort_18th = {
 	
 	
 	make_obsolete = fort_17th
+	
+	destroy_on_conquest = yes
 	
 	modifier = {
 		fort_level = 8

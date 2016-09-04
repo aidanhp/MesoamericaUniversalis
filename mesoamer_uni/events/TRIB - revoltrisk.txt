@@ -1,0 +1,429 @@
+namespace = rrisk 
+
+#Handles updating of revolt risk 3 times a year 
+country_event = {
+	id = rrisk.01
+
+	title = "rrisk1.t"
+	desc = "rrisk1.d"
+	picture = ECONOMY_eventPicture
+
+	is_triggered_only = yes
+	
+	hidden = yes
+	
+	option = {
+		name = "rrisk1.a"
+		every_subject_country = {
+			limit = {
+				always = yes
+			}
+			#MITIGATING FACTORS
+			#From Ideas
+			if = {
+				limit = {
+					overlord = {
+						has_idea = showsofstrength 
+					}
+				}
+				add_liberty_desire = -2
+			}
+			
+			if = {
+				limit = {
+					overlord = {
+						has_idea = tribtrade
+					}
+				}
+				add_liberty_desire = -1
+			}
+			
+			if = {
+				limit = {
+					overlord = {
+						has_idea = formalreqs
+					}
+				}
+				add_liberty_desire = -1
+			}
+			
+			if = {
+				limit = {
+					overlord = {
+						has_idea = tributeministers
+					}
+				}
+				add_liberty_desire = -1
+			}
+			
+			if = {
+				limit = {
+					overlord = {
+						has_idea = lawcode
+					}
+				}
+				add_liberty_desire = -2
+			}
+			
+			if = {
+				limit = {
+					overlord = {
+						has_idea = unchallengable
+					}
+				}
+				add_liberty_desire = -3
+			}
+			
+			if = {
+				limit = {
+					overlord = {
+						AND = {
+							has_idea = gloriousleader
+							legitimacy = 95
+						}
+					}
+				}
+				add_liberty_desire = -5
+			}
+			
+			if = {
+				limit = {
+					overlord = {
+						has_idea = subjectspy
+					}
+				}
+				add_liberty_desire = -2
+			}
+			
+			if = {
+				limit = {
+					overlord = {
+						has_idea = threatofaction
+					}
+				}
+				add_liberty_desire = -2
+			}
+			
+			if = {
+				limit = {
+					overlord = {
+						has_idea = multicultural_states
+					}
+				}
+				add_liberty_desire = -1
+			}
+			
+			#From Prestige
+			if = {
+				limit = {
+					overlord = {
+						prestige = 0
+						NOT = { prestige = 5 }
+					}
+				}
+				add_liberty_desire = -0.5
+			}
+			
+			if = {
+				limit = {
+					overlord = {
+						prestige = 5
+						NOT = { prestige = 10 }
+					}
+				}
+				add_liberty_desire = -0.75
+			}
+			
+			if = {
+				limit = {
+					overlord = {
+						prestige = 10
+						NOT = { prestige = 20 }
+					}
+				}
+				add_liberty_desire = -1
+			}
+			
+			if = {
+				limit = {
+					overlord = {
+						prestige = 20
+						NOT = { prestige = 30 }
+					}
+				}
+				add_liberty_desire = -1.25
+			}
+			
+			if = {
+				limit = {
+					overlord = {
+						prestige = 30
+						NOT = { prestige = 40 }
+					}
+				}
+				add_liberty_desire = -1.5
+			}
+			
+			if = {
+				limit = {
+					overlord = {
+						prestige = 40
+						NOT = { prestige = 50 }
+					}
+				}
+				add_liberty_desire = -1.75
+			}
+			
+			if = {
+				limit = {
+					overlord = {
+						prestige = 50
+						NOT = { prestige = 60 }
+					}
+				}
+				add_liberty_desire = -2
+			}
+			
+			if = {
+				limit = {
+					overlord = {
+						prestige = 60
+						NOT = { prestige = 70 }
+					}
+				}
+				add_liberty_desire = -2.25
+			}
+			
+			if = {
+				limit = {
+					overlord = {
+						prestige = 70
+						NOT = { prestige = 80 }
+					}
+				}
+				add_liberty_desire = -2.5
+			}
+			
+			if = {
+				limit = {
+					overlord = {
+						prestige = 80
+						NOT = { prestige = 90 }
+					}
+				}
+				add_liberty_desire = -2.75
+			}
+			
+			if = {
+				limit = {
+					overlord = {
+						prestige = 90
+					}
+				}
+				add_liberty_desire = -3
+			}
+			
+			#From Tribute Requirements
+			if = {
+				limit = {
+					overlord = {
+						has_country_modifier = lowwarriors
+					}
+				}
+				add_liberty_desire = -2
+			}
+			
+			if = {
+				limit = {
+					overlord = {
+						has_country_modifier = lowsupplies
+					}
+				}
+				add_liberty_desire = -2
+			}
+			
+			#From Legitimacy
+			if = {
+				limit = {
+					overlord = {
+						legitimacy = 90
+					}
+				}
+				add_liberty_desire = -1
+			}
+			
+			#AGGRAVATING FACTORS
+			#From Ideas
+			if = {
+				limit = {
+					overlord = {
+						AND = {
+							has_idea = gloriousleader
+							NOT = { legitimacy = 70 }
+						}
+					}
+				}
+				add_liberty_desire = 5
+			}
+			
+			if = {
+				limit = {
+					overlord = {
+						has_idea = nicepolicy
+					}
+				}
+				add_liberty_desire = 2
+			}
+			
+			#From Army Size
+			if = {
+				limit = {
+					overlord = {
+						NOT = { army_size = 4 }
+					}
+				}
+				add_liberty_desire = 5
+			}
+			
+			#From Tribute Requirements
+			if = {
+				limit = {
+					overlord = {
+						has_country_modifier = highwarriors
+					}
+				}
+				add_liberty_desire = 2
+			}
+			
+			if = {
+				limit = {
+					overlord = {
+						has_country_modifier = highsupplies
+					}
+				}
+				add_liberty_desire = 2
+			}
+			
+			#From Legitimacy 
+			if = {
+				limit = {
+					overlord = {
+						legitimacy = 80
+						NOT = { legitimacy = 90 }
+					}
+				}
+				add_liberty_desire = 1
+			}
+			
+			if = {
+				limit = {
+					overlord = {
+						legitimacy = 70
+						NOT = { legitimacy = 80 }
+					}
+				}
+				add_liberty_desire = 2
+			}
+			
+			if = {
+				limit = {
+					overlord = {
+						legitimacy = 60
+						NOT = { legitimacy = 70 }
+					}
+				}
+				add_liberty_desire = 3
+			}
+			
+			if = {
+				limit = {
+					overlord = {
+						legitimacy = 40
+						NOT = { legitimacy = 60 }
+					}
+				}
+				add_liberty_desire = 4
+			}
+			
+			if = {
+				limit = {
+					overlord = {
+						legitimacy = 20
+						NOT = { legitimacy = 40 }
+					}
+				}
+				add_liberty_desire = 5
+			}
+			
+			if = {
+				limit = {
+					overlord = {
+						legitimacy = 0 
+						NOT = { legitimacy = 20 }
+					}
+				}
+				add_liberty_desire = 6
+			}
+			
+			#From Development
+			if = {
+				limit = {
+					capital_scope = {
+						development = 4000
+					}
+				}
+				add_liberty_desire = 4
+			}
+			
+			if = {
+				limit = {
+					capital_scope = {
+						development = 6000
+					}
+				}
+				add_liberty_desire = 6
+			}
+			
+			if = {
+				limit = {
+					capital_scope = {
+						development = 10000
+					}
+				}
+				add_liberty_desire = 10
+			}
+			
+			#From Overlord Stability
+			if = {
+				limit = {
+					overlord = {
+						NOT = { stability = 0 }
+					}
+				}
+				add_liberty_desire = 4
+			}
+			
+			if = {
+				limit = {
+					overlord = {
+						NOT = { stability = -1 }
+					}
+				}
+				add_liberty_desire = 2
+			}
+			
+			if = {
+				limit = {
+					overlord = {
+						NOT = { stability = -2 }
+					}
+				}
+				add_liberty_desire = 2
+			}
+			
+			#From Overlord vs Subject Culture 
+			#Not sure how to implement this yet!
+		}
+	}
+}
+

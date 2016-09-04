@@ -1,0 +1,7 @@
+﻿l_english: 
+ #TRIGGERED MODIFIERS
+ notriggeredmodifiers: "No Triggered Modifiers"
+ notriggeredmodifiers_desc: "Prevents any triggered modifiers from affecting this country."
+ insuffb_cs: "Insufficient Bureaucracy - City State"
+ insuffb_k: "Insufficient Bureaucracy - Kingdom"
+ insuffb_e: "Insufficient Bureaucracy - Empire"

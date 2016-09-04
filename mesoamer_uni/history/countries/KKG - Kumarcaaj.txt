@@ -14,5 +14,12 @@ fixed_capital = 195
 		adm = 5
 		dip = 6
 		mil = 5
+		leader = {
+			name = "Q'uik'ab"
+			shock = 5
+			fire = 2
+			manuever = 4
+			siege = 1
+		}
 	}
 }

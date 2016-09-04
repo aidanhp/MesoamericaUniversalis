@@ -287,6 +287,7 @@ same_culture_group = {
 	local_tax_modifier = -0.15				#10% penalty if same culture group but nothing else. Not applied if the controller is the Union Tag of the culture group, or has culture_group_union set.
 	local_manpower_modifier = -0.15
 	local_sailors_modifier = -0.1
+	local_unrest = 4
 }
 
 non_accepted_culture = {
@@ -294,7 +295,7 @@ non_accepted_culture = {
 	local_missionary_strength = -0.02
 	local_manpower_modifier = -0.33
 	local_sailors_modifier = -0.2
-	local_unrest = 2					#1% revolt risk!
+	local_unrest = 6					#1% revolt risk!
 	
 }
 
@@ -376,9 +377,11 @@ local_autonomy_multiplicative = {
 	province_trade_power_modifier = -0.5
 	land_forcelimit_modifier = -1.0
 	naval_forcelimit_modifier = -1.0
+	
 }
 
 local_autonomy = {
+	local_unrest = 12
 }
 
 
@@ -423,9 +426,10 @@ in_trade_company = {
 ##########################################################################
 
 base_values = {
-	nobles_influence = 0.01
-	merchants_influence = 0.01
-	priests_influence = 0.01
+	nobles_influence = 0.10
+	merchants_influence = 0.07
+	priests_influence = 0.05
+	currentdynasty_influence = -0.05
 	merc_maintenance_modifier = 1.5
 	merchants = 2							#Start with 2 merchants
 	diplomats = 2							#Start with 2 diplomats..
@@ -453,7 +457,7 @@ base_values = {
 
 	#Balancing
 	global_tax_modifier = -0.999
-	core_creation = -0.75
+	core_creation = -0.67
 	#ae_impact = -0.33
 	#production_efficiency = -0.997
 	#global_trade_goods_size_modifier = -0.997
@@ -467,9 +471,8 @@ ai_nation = {
 }
 
 war_taxes = {
-	land_maintenance_modifier = -0.20
-	naval_maintenance_modifier = -0.20
-	possible_mercenaries = 0.05
+	global_tax_modifier = 0.10
+	war_exhaustion = 0.05
 }
 
 stability = {
@@ -478,7 +481,8 @@ stability = {
 }
 
 positive_stability = {
-	merchants_influence = 0.01
+	core_creation = -0.05
+	merchants_influence = 0.04
 	global_unrest = -1					#-1% revolt risk each step
 	global_tax_modifier = 0.05				
 	global_missionary_strength = 0.005
@@ -491,6 +495,7 @@ positive_stability = {
 }
 
 negative_stability = {
+	#core_creation = 0.05
 	priests_influence = 0.10
 	global_unrest = -2					#-1% EXTRA revolt risk each step
 	legitimacy = 1
@@ -542,12 +547,12 @@ bankruptcy = {
 
 war = {
 	nobles_influence = 0.05
-	priests_influence = 0.02
+	priests_influence = 0.05
 }
 
 peace = {
 	merchants_influence = 0.01
-	war_exhaustion = -0.1
+	war_exhaustion = -0.20
 	improve_relation_modifier = 0.10
 	#monthly_fervor_increase = 1
 	global_autonomy = -0.1
@@ -558,15 +563,15 @@ call_for_peace = {
 }
 
 war_exhaustion = {
+	global_autonomy = 0.05
 	global_unrest = 1
 	global_regiment_recruit_speed = 0.02
 	global_ship_recruit_speed = 0.02
 	core_creation = 0.03
-	temples_influence = -0.05
-	mr_aristocrats_influence = -0.05
 	manpower_recovery_speed = -0.01
 	sailors_recovery_speed = -0.01
 	siege_ability = -0.01
+	land_morale = -0.01
 	global_trade_goods_size_modifier = -0.02
 }
 
@@ -689,7 +694,7 @@ num_of_provinces = {
 
 # Multiplied by current Legitimacy - 50
 legitimacy = {
-	global_unrest = -4
+	global_unrest = -8
 	tolerance_own = 2
 	tolerance_heathen = 2
 	tolerance_heretic = 2
@@ -906,12 +911,13 @@ march_subject = {
 }
 
 vassal_subject = {
-	#land_forcelimit = 1
+	land_forcelimit = 1
 	diplomatic_upkeep = 1
 	#currentdynasty_influence = 0.01
 }
 
 protecorate_subject = {
+	land_forcelimit = 0.5
 }
 
 union_subject = {
@@ -919,8 +925,8 @@ union_subject = {
 
 indep_nation = {
 	global_tax_income = 12
-	land_forcelimit	= 6
-	naval_forcelimit = 12
+	land_forcelimit	= 5
+	naval_forcelimit = 8
 }
 
 subject_nation = {

@@ -4,11 +4,11 @@ controller = TLX
 culture = tlaxcallan
 religion = newnahuatl 
 hre = no
-base_tax = 404
-base_production = 805
+base_tax = 868
+base_production = 1741
 trade_goods = grain
-base_manpower = 2808
-capital = "Tlaxcallan"
+base_manpower = 6090
+capital = "Tlaxcala"
 is_city = yes
 fort_15th = yes
 

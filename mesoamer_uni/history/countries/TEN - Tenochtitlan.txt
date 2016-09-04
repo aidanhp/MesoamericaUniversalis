@@ -24,8 +24,23 @@ historical_friend = TCP
 			name = "Itzcoatl"
 			shock = 4
 			fire = 3
-			manuever = 3
+			manuever = 5
 			siege = 2 
 		}
+	}
+
+}
+
+1427.1.2 = {
+	heir = {
+		name = "Moteuczomah Ilhuicamina"
+		monarch_name = "Moteuczomah Ilhuicamina"
+		dynasty = "Tenoch" 
+		birth_date = 1398.3.17
+		death_date = 1469.1.1
+		claim = 100
+		adm = 5
+		dip = 5
+		mil = 6
 	}
 }

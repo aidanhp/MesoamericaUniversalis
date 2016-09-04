@@ -66,37 +66,7 @@ alliance = {
 #Tenoch Vassals
 protectorate = {
 	first = TEN
-	second = XOC
-	start_date = 1428.1.1
-	end_date = 1821.1.1
-}
-protectorate = {
-	first = TEN
-	second = MIZ
-	start_date = 1428.1.1
-	end_date = 1821.1.1
-}
-protectorate = {
-	first = TEN
-	second = CUI
-	start_date = 1428.1.1
-	end_date = 1821.1.1
-}
-protectorate = {
-	first = TEN
-	second = CUH
-	start_date = 1428.1.1
-	end_date = 1821.1.1
-}
-protectorate = {
-	first = TEN
-	second = OTO
-	start_date = 1428.1.1
-	end_date = 1821.1.1
-}
-protectorate = {
-	first = TEN
-	second = TPP
+	second = COY
 	start_date = 1428.1.1
 	end_date = 1821.1.1
 }
@@ -108,19 +78,33 @@ protectorate = {
 }
 protectorate = {
 	first = TEN
+	second = MEX
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+protectorate = {
+	first = TEN
+	second = COL
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+protectorate = {
+	first = TEN
 	second = IXL
 	start_date = 1428.1.1
 	end_date = 1821.1.1
 }
+
 protectorate = {
 	first = TEN
-	second = XOC
+	second = BBN
 	start_date = 1428.1.1
 	end_date = 1821.1.1
 }
+
 protectorate = {
 	first = TEN
-	second = ACO
+	second = BBM
 	start_date = 1428.1.1
 	end_date = 1821.1.1
 }

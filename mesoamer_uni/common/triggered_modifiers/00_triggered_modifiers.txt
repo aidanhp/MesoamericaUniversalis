@@ -3,3 +3,73 @@
 #
 # Effects are fully scriptable here.
 
+#Insufficient Bureaucracy
+#City state without a city state bureaucracy
+insuffb_cs = {
+	potential = {
+		AND = {
+			is_year = 1429
+			government_rank = 1
+			#ai = no
+		}
+		NOT = { government_rank = 2 }
+		
+	}
+	
+	trigger = {
+		capital_scope = {
+			NOT = { has_building = bureau1 }
+		}
+	}
+	
+	global_unrest = 2
+	stability_cost_modifier = 0.25
+	global_manpower_modifier = -0.025
+	global_tax_modifier = -0.025
+}
+
+#Kingdom without a kingdom bureaucracy
+insuffb_k = {
+	potential = {
+		AND = {
+			is_year = 1429
+			government_rank = 2
+			#ai = no
+		}
+		NOT = { government_rank = 3 }
+	}
+	
+	trigger = {
+		
+		capital_scope = {
+			NOT = { has_building = bureau2 }
+		}
+	}
+	
+	global_unrest = 4
+	stability_cost_modifier = 0.25
+	global_manpower_modifier = -0.025
+	global_tax_modifier = -0.025
+}
+
+#Empire without a empire bureaucracy
+insuffb_e = {
+	potential = {
+		AND = {
+			is_year = 1429
+			government_rank = 3
+			#ai = no
+		}
+	}
+	
+	trigger = {
+		capital_scope = {
+			NOT = { has_building = bureau3 }
+		}
+	}
+	
+	global_unrest = 6
+	stability_cost_modifier = 0.25
+	global_manpower_modifier = -0.025
+	global_tax_modifier = -0.025
+}

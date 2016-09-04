@@ -12,10 +12,10 @@ country_event = {
 
 	is_triggered_only = yes
 		
-	option = {
-		name = "tributecoll1.a"
-		country_event = { id = tributecoll.02 }
-	}
+	#option = {
+	#	name = "tributecoll1.a"
+	#	country_event = { id = tributecoll.02 }
+	#}
 
 	option = {
 		name = "tributecoll1.b"
@@ -190,7 +190,7 @@ country_event = {
 	picture = ECONOMY_eventPicture
 
 	trigger = {
-		year = 1429
+		is_year = 1429
 		num_of_protectorates = 1
 		OR = {
 			government = altepetl
@@ -201,7 +201,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		days = 1
+		days = 0
 	}
 
 	immediate = {
@@ -242,31 +242,31 @@ country_event = {
 			country_event = { id = tributecoll.07 }
 		}
 
-		if = {
-			limit = {
-				FROM = {
-					has_country_modifier = highwealth 
-				}
-			}
-			add_treasury = -20
-		}
-		if = {
-			limit = {
-				FROM = {
-					has_country_modifier = normalwealth 
-				}
-			}
-			add_treasury = -10
-		}
+		#if = {
+		#	limit = {
+		#		FROM = {
+		#			has_country_modifier = highwealth 
+		#		}
+		#	}
+		#	add_treasury = -20
+		#}
+		#if = {
+		#	limit = {
+		#		FROM = {
+		#			has_country_modifier = normalwealth 
+		#		}
+		#	}
+		#	add_treasury = -10
+		#}
 
-		if = {
-			limit = {
-				FROM = {
-					has_country_modifier = lowwealth 
-				}
-			}
-			add_treasury = -5
-		}
+		#if = {
+		#	limit = {
+		#		FROM = {
+		#			has_country_modifier = lowwealth 
+		#		}
+		#	}
+		#	add_treasury = -5
+		#}
 
 		if = {
 			limit = {
@@ -274,7 +274,7 @@ country_event = {
 					has_country_modifier = highwarriors
 				}
 			}
-			add_manpower = -0.10
+			add_manpower = -0.06
 		}
 		if = {
 			limit = {
@@ -282,7 +282,7 @@ country_event = {
 					has_country_modifier = normalwarriors
 				}
 			}
-			add_manpower = -0.05
+			add_manpower = -0.04
 		}
 
 		if = {
@@ -291,7 +291,7 @@ country_event = {
 					has_country_modifier = lowwarriors
 				}
 			}
-			add_manpower = -0.025
+			add_manpower = -0.02
 		}
 
 		if = {
@@ -305,13 +305,16 @@ country_event = {
 				limit = {
 					ROOT = {
 						capital_scope = {
-							trade_goods = grain
+							OR = {
+								trade_goods = grain
+								trade_goods = aquaticfoods
+							}
 						}
 					}
 				}
 				
 				ROOT = {
-					change_variable = { which = staplefoodbins value = -6 }
+					change_variable = { which = staplefooditems value = -6 }
 				}
 			}
 			
@@ -321,14 +324,15 @@ country_event = {
 						capital_scope = {
 							OR = {
 								trade_goods = fruits
-								trade_goods = aquaticfoods
+								trade_goods = choclate
+								trade_goods = salt
 							}
 						}
 					}
 				}
 				
 				ROOT = {
-					change_variable = { which = luxuryfoodbins value = -6 }
+					change_variable = { which = luxuryfooditems value = -6 }
 				}
 			}
 			
@@ -336,27 +340,19 @@ country_event = {
 				limit = {
 					ROOT = {
 						capital_scope = {
-							trade_goods = choclate
+							OR = {
+								trade_goods = textiles
+								trade_goods = preciousstones
+								trade_goods = plumes
+								trade_goods = bronze
+								trade_goods = gold
+							}
 						}
 					}
 				}
 				
 				ROOT = {
-					change_variable = { which = cocoabins value = -6 }
-				}
-			}
-			
-			if = {
-				limit = {
-					ROOT = {
-						capital_scope = {
-							trade_goods = textiles
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = textilebins value = -6 }
+					change_variable = { which = luxurygoods value = -6 }
 				}
 			}
 			
@@ -370,7 +366,7 @@ country_event = {
 				}
 				
 				ROOT = {
-					change_variable = { which = obsidianbins value = -6 }
+					change_variable = { which = militarysupplies value = -6 }
 				}
 			}
 			
@@ -378,100 +374,20 @@ country_event = {
 				limit = {
 					ROOT = {
 						capital_scope = {
-							trade_goods = preciousstones
+							OR = { 
+								trade_goods = lime
+								trade_goods = lumber
+							}
 						}
 					}
 				}
 				
 				ROOT = {
-					change_variable = { which = preciousbins value = -6 }
-				}
-			}
-			
-			if = {
-				limit = {
-					ROOT = {
-						capital_scope = {
-							trade_goods = plumes
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = quetzalbins value = -6 }
-				}
-			}
-			
-			if = {
-				limit = {
-					ROOT = {
-						capital_scope = {
-							trade_goods = salt
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = saltbins value = -6 }
-				}
-			}
-			
-			if = {
-				limit = {
-					ROOT = {
-						capital_scope = {
-							trade_goods = bronze
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = copperbins value = -6 }
-				}
-			}
-			
-			if = {
-				limit = {
-					ROOT = {
-						capital_scope = {
-							trade_goods = gold
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = goldbins value = -6 }
-				}
-			}
-			
-			if = {
-				limit = {
-					ROOT = {
-						capital_scope = {
-							trade_goods = lime
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = limebins value = -6 }
-				}
-			}
-			
-			if = {
-				limit = {
-					ROOT = {
-						capital_scope = {
-							trade_goods = lumber
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = lumberstacks value = -6 }
+					change_variable = { which = buildingsupplies value = -6 }
 				}
 			}
 		}
+		
 		if = {
 			limit = {
 				FROM = {
@@ -483,13 +399,16 @@ country_event = {
 				limit = {
 					ROOT = {
 						capital_scope = {
-							trade_goods = grain
+							OR = {
+								trade_goods = grain
+								trade_goods = aquaticfoods
+							}
 						}
 					}
 				}
 				
 				ROOT = {
-					change_variable = { which = staplefoodbins value = -4 }
+					change_variable = { which = staplefooditems  value = -4 }
 				}
 			}
 			
@@ -499,14 +418,15 @@ country_event = {
 						capital_scope = {
 							OR = {
 								trade_goods = fruits
-								trade_goods = aquaticfoods
+								trade_goods = choclate
+								trade_goods = salt
 							}
 						}
 					}
 				}
 				
 				ROOT = {
-					change_variable = { which = luxuryfoodbins value = -4 }
+					change_variable = { which = luxuryfooditems value = -4 }
 				}
 			}
 			
@@ -514,27 +434,19 @@ country_event = {
 				limit = {
 					ROOT = {
 						capital_scope = {
-							trade_goods = choclate
+							OR = {
+								trade_goods = textiles
+								trade_goods = preciousstones
+								trade_goods = plumes
+								trade_goods = bronze
+								trade_goods = gold
+							}
 						}
 					}
 				}
 				
 				ROOT = {
-					change_variable = { which = cocoabins value = -4 }
-				}
-			}
-			
-			if = {
-				limit = {
-					ROOT = {
-						capital_scope = {
-							trade_goods = textiles
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = textilebins value = -4 }
+					change_variable = { which = luxurygoods value = -4 }
 				}
 			}
 			
@@ -548,7 +460,7 @@ country_event = {
 				}
 				
 				ROOT = {
-					change_variable = { which = obsidianbins value = -4 }
+					change_variable = { which = militarysupplies value = -4 }
 				}
 			}
 			
@@ -556,97 +468,16 @@ country_event = {
 				limit = {
 					ROOT = {
 						capital_scope = {
-							trade_goods = preciousstones
+							OR = { 
+								trade_goods = lime
+								trade_goods = lumber
+							}
 						}
 					}
 				}
 				
 				ROOT = {
-					change_variable = { which = preciousbins value = -4 }
-				}
-			}
-			
-			if = {
-				limit = {
-					ROOT = {
-						capital_scope = {
-							trade_goods = plumes
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = quetzalbins value = -4 }
-				}
-			}
-			
-			if = {
-				limit = {
-					ROOT = {
-						capital_scope = {
-							trade_goods = salt
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = saltbins value = -4 }
-				}
-			}
-			
-			if = {
-				limit = {
-					ROOT = {
-						capital_scope = {
-							trade_goods = bronze
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = copperbins value = -4 }
-				}
-			}
-			
-			if = {
-				limit = {
-					ROOT = {
-						capital_scope = {
-							trade_goods = gold
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = goldbins value = -4 }
-				}
-			}
-			
-			if = {
-				limit = {
-					ROOT = {
-						capital_scope = {
-							trade_goods = lime
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = limebins value = -4 }
-				}
-			}
-			
-			if = {
-				limit = {
-					ROOT = {
-						capital_scope = {
-							trade_goods = lumber
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = lumberstacks value = -4 }
+					change_variable = { which = buildingsupplies value = -4 }
 				}
 			}
 		}
@@ -662,13 +493,16 @@ country_event = {
 				limit = {
 					ROOT = {
 						capital_scope = {
-							trade_goods = grain
+							OR = {
+								trade_goods = grain
+								trade_goods = aquaticfoods
+							}
 						}
 					}
 				}
 				
 				ROOT = {
-					change_variable = { which = staplefoodbins value = -2 }
+					change_variable = { which = staplefooditems value = -2 }
 				}
 			}
 			
@@ -678,14 +512,15 @@ country_event = {
 						capital_scope = {
 							OR = {
 								trade_goods = fruits
-								trade_goods = aquaticfoods
+								trade_goods = choclate
+								trade_goods = salt
 							}
 						}
 					}
 				}
 				
 				ROOT = {
-					change_variable = { which = luxuryfoodbins value = -2 }
+					change_variable = { which = luxuryfooditems value = -2 }
 				}
 			}
 			
@@ -693,27 +528,19 @@ country_event = {
 				limit = {
 					ROOT = {
 						capital_scope = {
-							trade_goods = choclate
+							OR = {
+								trade_goods = textiles
+								trade_goods = preciousstones
+								trade_goods = plumes
+								trade_goods = bronze
+								trade_goods = gold
+							}
 						}
 					}
 				}
 				
 				ROOT = {
-					change_variable = { which = cocoabins value = -2 }
-				}
-			}
-			
-			if = {
-				limit = {
-					ROOT = {
-						capital_scope = {
-							trade_goods = textiles
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = textilebins value = -2 }
+					change_variable = { which = luxurygoods value = -2 }
 				}
 			}
 			
@@ -727,7 +554,7 @@ country_event = {
 				}
 				
 				ROOT = {
-					change_variable = { which = obsidianbins value = -2 }
+					change_variable = { which = militarysupplies value = -2 }
 				}
 			}
 			
@@ -735,97 +562,16 @@ country_event = {
 				limit = {
 					ROOT = {
 						capital_scope = {
-							trade_goods = preciousstones
+							OR = { 
+								trade_goods = lime
+								trade_goods = lumber
+							}
 						}
 					}
 				}
 				
 				ROOT = {
-					change_variable = { which = preciousbins value = -2 }
-				}
-			}
-			
-			if = {
-				limit = {
-					ROOT = {
-						capital_scope = {
-							trade_goods = plumes
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = quetzalbins value = -2 }
-				}
-			}
-			
-			if = {
-				limit = {
-					ROOT = {
-						capital_scope = {
-							trade_goods = salt
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = saltbins value = -2 }
-				}
-			}
-			
-			if = {
-				limit = {
-					ROOT = {
-						capital_scope = {
-							trade_goods = bronze
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = copperbins value = -2 }
-				}
-			}
-			
-			if = {
-				limit = {
-					ROOT = {
-						capital_scope = {
-							trade_goods = gold
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = goldbins value = -2 }
-				}
-			}
-			
-			if = {
-				limit = {
-					ROOT = {
-						capital_scope = {
-							trade_goods = lime
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = limebins value = -2 }
-				}
-			}
-			
-			if = {
-				limit = {
-					ROOT = {
-						capital_scope = {
-							trade_goods = lumber
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = lumberstacks value = -2 }
+					change_variable = { which = buildingsupplies value = -2 }
 				}
 			}
 		}
@@ -846,6 +592,97 @@ country_event = {
 		ai_chance = {
 			factor = 15
 			
+			#REDUCTIONS FROM IDEAS
+			modifier = {
+				factor = 0.90
+				FROM = {
+					has_idea = showsofstrength
+				}
+			}
+			
+			modifier = {
+				factor = 0.95
+				FROM = {
+					has_idea = tribtrade
+				}
+			}
+			
+			modifier = {
+				factor = 0.95
+				FROM = {
+					has_idea = formalreqs
+				}
+			}
+			
+			modifier = {
+				factor = 0.90
+				FROM = {
+					has_idea = tributeminsters
+				}
+			}
+			
+			modifier = {
+				factor = 0.90
+				FROM = {
+					has_idea = lawcode
+				}
+			}
+			
+			modifier = {
+				factor = 0.75
+				FROM = {
+					has_idea = unchallengable
+				}
+			}
+			
+			modifier = {
+				factor = 0
+				FROM = {
+					AND = {
+						has_idea = gloriousleader
+						legitimacy = 95
+					}
+				}
+			}
+			
+			modifier = {
+				factor = 1.5
+				FROM = {
+					AND = {
+						has_idea = gloriousleader
+						NOT = { legitimacy = 70 }
+					}
+				}
+			}
+			
+			modifier = {
+				factor = 0.85
+				FROM = {
+					has_idea = subjectspy
+				}
+			}
+			
+			modifier = {
+				factor = 0.85
+				FROM = {
+					has_idea = threatofaction
+				}
+			}
+			
+			modifier = {
+				factor = 1.15
+				FROM = {
+					has_idea = nicepolicy
+				}
+			}
+			
+			modifier = {
+				factor = 0.80
+				FROM = {
+					has_idea = multicultural_states
+				}
+			}
+			
 			#AI HANDICAP B/C THE AI IS AN INBRED SACK OF POTATOES
 			modifier = {
 				factor = 0.66
@@ -856,10 +693,59 @@ country_event = {
 
 			#HANDICAP FOR TENOCHTITLAN TO ALLOW FASTER EXPANSION
 			modifier = {
-				factor 0.33
+				factor = 0.33
 				FROM = {
 					tag = TEN
 					NOT = { year = 1519 }
+				}
+			}
+			
+			#BALANCING MODIFIERS
+			modifier = {
+				factor = 0.66
+				FROM = {
+					is_at_war = no
+				}
+			}
+			
+			#Small cities are significantly less likely to revolt
+			modifier = {
+				factor = 0.50
+				ROOT = {
+					capital_scope = {
+						NOT = { development = 2000 }
+					}
+				}
+			}
+			
+			#LIBERTY DESIRE MODIFIERS
+			modifier = {
+				factor = 0.66
+				ROOT = {
+					libety_desire = 0
+				}
+			}
+			
+			modifier = {
+				factor = 1.25
+				ROOT = {
+					liberty_desire = 1
+					NOT = { libety_desire = 25 }
+				}
+			}
+			
+			modifier = {
+				factor = 1.5
+				ROOT = {
+					liberty_desire = 25
+					NOT = { libety_desire = 50 }
+				}
+			}
+			
+			modifier = {
+				factor = 3
+				ROOT = {
+					liberty_desire = 50
 				}
 			}
 			
@@ -1226,6 +1112,7 @@ country_event = {
 				factor = 1.5
 				FROM = {
 					has_country_modifier = highwealth
+					NOT = { has_idea = giftsoflove }
 				}
 			}
 			
@@ -1233,6 +1120,7 @@ country_event = {
 				factor = 1.5
 				FROM = {
 					has_country_modifier = highwarriors
+					NOT = { has_idea = giftsoflove }
 				}
 			}
 			
@@ -1240,6 +1128,7 @@ country_event = {
 				factor = 1.5
 				FROM = {
 					has_country_modifier = highsupplies
+					NOT = { has_idea = giftsoflove }
 				}
 			}
 			
@@ -1280,31 +1169,31 @@ country_event = {
 	option = {
 		name = "tributecoll7.a"
 
-		if = {
-			limit = {
-				ROOT = {
-					has_country_modifier = highwealth 
-				}
-			}
-			add_treasury = 20
-		}
-		if = {
-			limit = {
-				ROOT = {
-					has_country_modifier = normalwealth 
-				}
-			}
-			add_treasury = 10
-		}
+		#if = {
+		#	limit = {
+		#		ROOT = {
+		#			has_country_modifier = highwealth 
+		#		}
+		#	}
+		#	add_treasury = 20
+		#}
+		#if = {
+		#	limit = {
+		#		ROOT = {
+		#			has_country_modifier = normalwealth 
+		#		}
+		#	}
+		#	add_treasury = 10
+		#}
 
-		if = {
-			limit = {
-				ROOT = {
-					has_country_modifier = lowwealth 
-				}
-			}
-			add_treasury = 5
-		}
+		#if = {
+		#	limit = {
+		#		ROOT = {
+		#			has_country_modifier = lowwealth 
+		#		}
+		#	}
+		#	add_treasury = 5
+		#}
 
 		if = {
 			limit = {
@@ -1321,7 +1210,7 @@ country_event = {
 				}
 				
 			}
-			add_manpower = 0.025
+			add_manpower = 0.03
 		}
 
 		if = {
@@ -1344,13 +1233,16 @@ country_event = {
 				limit = {
 					FROM = {
 						capital_scope = {
-							trade_goods = grain
+							OR = {
+								trade_goods = grain
+								trade_goods = aquaticfoods
+							}
 						}
 					}
 				}
 				
 				ROOT = {
-					change_variable = { which = staplefoodbins value = 6 }
+					change_variable = { which = staplefooditems value = 6 }
 				}
 			}
 			
@@ -1360,14 +1252,15 @@ country_event = {
 						capital_scope = {
 							OR = {
 								trade_goods = fruits
-								trade_goods = aquaticfoods
+								trade_goods = choclate
+								trade_goods = salt
 							}
 						}
 					}
 				}
 				
 				ROOT = {
-					change_variable = { which = luxuryfoodbins value = 6 }
+					change_variable = { which = luxuryfooditems value = 6 }
 				}
 			}
 			
@@ -1375,27 +1268,19 @@ country_event = {
 				limit = {
 					FROM = {
 						capital_scope = {
-							trade_goods = choclate
+							OR = {
+								trade_goods = textiles
+								trade_goods = preciousstones
+								trade_goods = plumes
+								trade_goods = bronze
+								trade_goods = gold
+							}
 						}
 					}
 				}
 				
 				ROOT = {
-					change_variable = { which = cocoabins value = 6 }
-				}
-			}
-			
-			if = {
-				limit = {
-					FROM = {
-						capital_scope = {
-							trade_goods = textiles
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = textilebins value = 6 }
+					change_variable = { which = luxurygoods value = 6 }
 				}
 			}
 			
@@ -1409,7 +1294,7 @@ country_event = {
 				}
 				
 				ROOT = {
-					change_variable = { which = obsidianbins value = 6 }
+					change_variable = { which = militarysupplies value = 6 }
 				}
 			}
 			
@@ -1417,100 +1302,18 @@ country_event = {
 				limit = {
 					FROM = {
 						capital_scope = {
-							trade_goods = preciousstones
+							OR = { 
+								trade_goods = lime
+								trade_goods = lumber
+							}
 						}
 					}
 				}
 				
 				ROOT = {
-					change_variable = { which = preciousbins value = 6 }
+					change_variable = { which = buildingsupplies value = 6 }
 				}
 			}
-			
-			if = {
-				limit = {
-					FROM = {
-						capital_scope = {
-							trade_goods = plumes
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = quetzalbins value = 6 }
-				}
-			}
-			
-			if = {
-				limit = {
-					FROM = {
-						capital_scope = {
-							trade_goods = salt
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = saltbins value = 6 }
-				}
-			}
-			
-			if = {
-				limit = {
-					FROM = {
-						capital_scope = {
-							trade_goods = bronze
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = copperbins value = 6 }
-				}
-			}
-			
-			if = {
-				limit = {
-					FROM = {
-						capital_scope = {
-							trade_goods = gold
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = goldbins value = 6 }
-				}
-			}
-			
-			if = {
-				limit = {
-					FROM = {
-						capital_scope = {
-							trade_goods = lime
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = limebins value = 6 }
-				}
-			}
-			
-			if = {
-				limit = {
-					FROM = {
-						capital_scope = {
-							trade_goods = lumber
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = lumberstacks value = 6 }
-				}
-			}
-			
 		}
 		if = {
 			limit = {	
@@ -1523,13 +1326,16 @@ country_event = {
 				limit = {
 					FROM = {
 						capital_scope = {
-							trade_goods = grain
+							OR = {
+								trade_goods = grain
+								trade_goods = aquaticfoods
+							}
 						}
 					}
 				}
 				
 				ROOT = {
-					change_variable = { which = staplefoodbins value = 4 }
+					change_variable = { which = staplefooditems  value = 4 }
 				}
 			}
 			
@@ -1539,14 +1345,15 @@ country_event = {
 						capital_scope = {
 							OR = {
 								trade_goods = fruits
-								trade_goods = aquaticfoods
+								trade_goods = choclate
+								trade_goods = salt
 							}
 						}
 					}
 				}
 				
 				ROOT = {
-					change_variable = { which = luxuryfoodbins value = 4 }
+					change_variable = { which = luxuryfooditems value = 4 }
 				}
 			}
 			
@@ -1554,27 +1361,19 @@ country_event = {
 				limit = {
 					FROM = {
 						capital_scope = {
-							trade_goods = choclate
+							OR = {
+								trade_goods = textiles
+								trade_goods = preciousstones
+								trade_goods = plumes
+								trade_goods = bronze
+								trade_goods = gold
+							}
 						}
 					}
 				}
 				
 				ROOT = {
-					change_variable = { which = cocoabins value = 4 }
-				}
-			}
-			
-			if = {
-				limit = {
-					FROM = {
-						capital_scope = {
-							trade_goods = textiles
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = textilebins value = 4 }
+					change_variable = { which = luxurygoods value = 4 }
 				}
 			}
 			
@@ -1588,7 +1387,7 @@ country_event = {
 				}
 				
 				ROOT = {
-					change_variable = { which = obsidianbins value = 4 }
+					change_variable = { which = militarysupplies value = 4 }
 				}
 			}
 			
@@ -1596,97 +1395,16 @@ country_event = {
 				limit = {
 					FROM = {
 						capital_scope = {
-							trade_goods = preciousstones
+							OR = { 
+								trade_goods = lime
+								trade_goods = lumber
+							}
 						}
 					}
 				}
 				
 				ROOT = {
-					change_variable = { which = preciousbins value = 4 }
-				}
-			}
-			
-			if = {
-				limit = {
-					FROM = {
-						capital_scope = {
-							trade_goods = plumes
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = quetzalbins value = 4 }
-				}
-			}
-			
-			if = {
-				limit = {
-					FROM = {
-						capital_scope = {
-							trade_goods = salt
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = saltbins value = 4 }
-				}
-			}
-			
-			if = {
-				limit = {
-					FROM = {
-						capital_scope = {
-							trade_goods = bronze
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = copperbins value = 4 }
-				}
-			}
-			
-			if = {
-				limit = {
-					FROM = {
-						capital_scope = {
-							trade_goods = gold
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = goldbins value = 4 }
-				}
-			}
-			
-			if = {
-				limit = {
-					FROM = {
-						capital_scope = {
-							trade_goods = lime
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = limebins value = 4 }
-				}
-			}
-			
-			if = {
-				limit = {
-					FROM = {
-						capital_scope = {
-							trade_goods = lumber
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = lumberstacks value = 4 }
+					change_variable = { which = buildingsupplies value = 4 }
 				}
 			}
 		}
@@ -1702,13 +1420,16 @@ country_event = {
 				limit = {
 					FROM = {
 						capital_scope = {
-							trade_goods = grain
+							OR = {
+								trade_goods = grain
+								trade_goods = aquaticfoods
+							}
 						}
 					}
 				}
 				
 				ROOT = {
-					change_variable = { which = staplefoodbins value = 2 }
+					change_variable = { which = staplefooditems value = 2 }
 				}
 			}
 			
@@ -1718,14 +1439,15 @@ country_event = {
 						capital_scope = {
 							OR = {
 								trade_goods = fruits
-								trade_goods = aquaticfoods
+								trade_goods = choclate
+								trade_goods = salt
 							}
 						}
 					}
 				}
 				
 				ROOT = {
-					change_variable = { which = luxuryfoodbins value = 2 }
+					change_variable = { which = luxuryfooditems value = 2 }
 				}
 			}
 			
@@ -1733,27 +1455,19 @@ country_event = {
 				limit = {
 					FROM = {
 						capital_scope = {
-							trade_goods = choclate
+							OR = {
+								trade_goods = textiles
+								trade_goods = preciousstones
+								trade_goods = plumes
+								trade_goods = bronze
+								trade_goods = gold
+							}
 						}
 					}
 				}
 				
 				ROOT = {
-					change_variable = { which = cocoabins value = 2 }
-				}
-			}
-			
-			if = {
-				limit = {
-					FROM = {
-						capital_scope = {
-							trade_goods = textiles
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = textilebins value = 2 }
+					change_variable = { which = luxurygoods value = 2 }
 				}
 			}
 			
@@ -1767,7 +1481,7 @@ country_event = {
 				}
 				
 				ROOT = {
-					change_variable = { which = obsidianbins value = 2 }
+					change_variable = { which = militarysupplies value = 2 }
 				}
 			}
 			
@@ -1775,97 +1489,16 @@ country_event = {
 				limit = {
 					FROM = {
 						capital_scope = {
-							trade_goods = preciousstones
+							OR = { 
+								trade_goods = lime
+								trade_goods = lumber
+							}
 						}
 					}
 				}
 				
 				ROOT = {
-					change_variable = { which = preciousbins value = 2 }
-				}
-			}
-			
-			if = {
-				limit = {
-					FROM = {
-						capital_scope = {
-							trade_goods = plumes
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = quetzalbins value = 2 }
-				}
-			}
-			
-			if = {
-				limit = {
-					FROM = {
-						capital_scope = {
-							trade_goods = salt
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = saltbins value = 2 }
-				}
-			}
-			
-			if = {
-				limit = {
-					FROM = {
-						capital_scope = {
-							trade_goods = bronze
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = copperbins value = 2 }
-				}
-			}
-			
-			if = {
-				limit = {
-					FROM = {
-						capital_scope = {
-							trade_goods = gold
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = goldbins value = 2 }
-				}
-			}
-			
-			if = {
-				limit = {
-					FROM = {
-						capital_scope = {
-							trade_goods = lime
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = limebins value = 2 }
-				}
-			}
-			
-			if = {
-				limit = {
-					FROM = {
-						capital_scope = {
-							trade_goods = lumber
-						}
-					}
-				}
-				
-				ROOT = {
-					change_variable = { which = lumberstacks value = 2 }
+					change_variable = { which = buildingsupplies value = 2 }
 				}
 			}
 		}

@@ -3255,9 +3255,9 @@ threatened_war = {
 }
 
 share_advanced_neighbor = {
-	opinion = 50
+	opinion = 0
 	months = 1 #Updated every month.
-	max = 50
+	max = 0
 }
 
 

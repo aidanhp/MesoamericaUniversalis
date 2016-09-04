@@ -1,0 +1,1082 @@
+#Invest building supplies interface
+namespace = ibs
+
+#Main menu
+country_event = {
+	id = ibs.01
+	
+	title = "ibs1.t"
+	desc = "ibs1.d"
+	picture = CITY_VIEW_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "ibs1.a"
+		trigger = {
+			any_province = {
+				AND = {
+					area = mex1_area
+					owned_by = ROOT
+				}			
+			}
+		}
+		country_event = { id = ibs.02 }
+	}
+	
+	option = {
+		name = "ibs1.b"
+		trigger = {
+			any_province = {
+				AND = {
+					area = mex2_area
+					owned_by = ROOT
+				}			
+			}
+		}
+		country_event = { id = ibs.03 }
+	}
+	
+	option = {
+		name = "ibs1.c"
+		trigger = {
+			any_province = {
+				AND = {
+					area = mex3_area
+					owned_by = ROOT
+				}			
+			}
+		}
+		country_event = { id = ibs.04 }
+	}
+	
+	option = {
+		name = "ibs1.dd"
+		trigger = {
+			any_province = {
+				AND = {
+					area = mex4_area
+					owned_by = ROOT
+				}			
+			}
+		}
+		country_event = { id = ibs.05 }
+	}
+	
+	option = {
+		name = "ibs1.e"
+		trigger = {
+			any_province = {
+				AND = {
+					area = mex5_area
+					owned_by = ROOT
+				}			
+			}
+		}
+		country_event = { id = ibs.06 }
+	}
+	
+	option = {
+		name = "ibs1.f"
+		trigger = {
+			any_province = {
+				AND = {
+					area = mex6_area
+					owned_by = ROOT
+				}			
+			}
+		}
+		country_event = { id = ibs.07 }
+	}
+	
+	option = {
+		name = "ibs1.g"
+		trigger = {
+			any_province = {
+				AND = {
+					area = mex7_area
+					owned_by = ROOT
+				}			
+			}
+		}
+		country_event = { id = ibs.08 }
+	}
+	
+	option = {
+		name = "ibs1.h"
+		trigger = {
+			any_province = {
+				AND = {
+					area = mex8_area
+					owned_by = ROOT
+				}			
+			}
+		}
+		country_event = { id = ibs.09 }
+	}
+	
+	option = {
+		name = "ibs1.i"
+		trigger = {
+			any_province = {
+				AND = {
+					area = mex9_area
+					owned_by = ROOT
+				}			
+			}
+		}
+		country_event = { id = ibs.10 }
+	}
+	
+	option = {
+		name = "ibs1.j"
+		trigger = {
+			any_province = {
+				AND = {
+					area = mex10_area
+					owned_by = ROOT
+				}			
+			}
+		}
+		country_event = { id = ibs.11 }
+	}
+	
+	option = {
+		name = "ibs1.k"
+		trigger = {
+			any_province = {
+				AND = {
+					area = mex11_area
+					owned_by = ROOT
+				}			
+			}
+		}
+		country_event = { id = ibs.12 }
+	}
+	
+	option = {
+		name = "ibs1.l"
+		trigger = {
+			any_province = {
+				AND = {
+					area = mex12_area
+					owned_by = ROOT
+				}			
+			}
+		}
+		country_event = { id = ibs.13 }
+	}
+	
+	option = {
+		name = "ibs1.m"
+		trigger = {
+			any_province = {
+				AND = {
+					area = mex13_area
+					owned_by = ROOT
+				}			
+			}
+		}
+		country_event = { id = ibs.14 }
+	}
+	
+	option = {
+		name = "ibs1.n"
+		trigger = {
+			any_province = {
+				AND = {
+					area = mex14_area
+					owned_by = ROOT
+				}			
+			}
+		}
+		country_event = { id = ibs.15 }
+	}
+	
+	option = {
+		name = "ibs1.o"
+		trigger = {
+			any_province = {
+				AND = {
+					area = mex15_area
+					owned_by = ROOT
+				}			
+			}
+		}
+		country_event = { id = ibs.16 }
+	}
+	
+	option = {
+		name = "ibs1.p"
+		trigger = {
+			any_province = {
+				AND = {
+					area = mex16_area
+					owned_by = ROOT
+				}			
+			}
+		}
+		country_event = { id = ibs.17 }
+	}
+	
+	option = {
+		name = "ibs1.q"
+		trigger = {
+			any_province = {
+				AND = {
+					area = mex17_area
+					owned_by = ROOT
+				}			
+			}
+		}
+		country_event = { id = ibs.18 }
+	}
+	
+	option = {
+		name = "ibs1.r"
+		trigger = {
+			any_province = {
+				AND = {
+					area = mex18_area
+					owned_by = ROOT
+				}			
+			}
+		}
+		country_event = { id = ibs.19 }
+	}
+	
+	option = {
+		name = "ibs1.s"
+		trigger = {
+			any_province = {
+				AND = {
+					area = mex19_area
+					owned_by = ROOT
+				}			
+			}
+		}
+		country_event = { id = ibs.20 }
+	}
+	
+	option = {
+		name = "ibs1.tt"
+		clr_country_flag = buildsupopen
+	}
+}
+
+#East Anahuac
+country_event = {
+	id = ibs.02
+	
+	title = "ibs2.t"
+	desc = "ibs2.d"
+	picture = CITY_VIEW_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			update_bic_a1 = yes
+		}
+	}
+	
+	#Make the investment
+	option = {
+		name = "ibs2.a"
+		trigger = {
+			check_variable = { which = buildingsupplies which = a1investcost }
+		}
+		subtract_variable = { which = buildingsupplies which = a1investcost }
+		every_province = {
+			limit = {
+				area = mex1_area
+				owned_by = ROOT
+			}
+			add_province_modifier = {
+				name = binvestment 
+				duration = 365
+			}
+		}
+		country_event = { id = ibs.01 }
+	}
+	
+	#Back
+	option = {
+		name = "ibs2.b"
+		country_event = { id = ibs.01 }
+	}
+}
+
+#West Anahuac
+country_event = {
+	id = ibs.03
+	
+	title = "ibs3.t"
+	desc = "ibs3.d"
+	picture = CITY_VIEW_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			update_bic_a2 = yes
+		}
+	}
+	
+	#Make the investment
+	option = {
+		name = "ibs3.a"
+		trigger = {
+			check_variable = { which = buildingsupplies which = a2investcost }
+		}
+		subtract_variable = { which = buildingsupplies which = a2investcost }
+		every_province = {
+			limit = {
+				area = mex2_area
+				owned_by = ROOT
+			}
+			add_province_modifier = {
+				name = binvestment 
+				duration = 365
+			}
+		}
+		country_event = { id = ibs.01 }
+	}
+	
+	#Back
+	option = {
+		name = "ibs3.b"
+		country_event = { id = ibs.01 }
+	}
+}
+
+#Tlaxcalla
+country_event = {
+	id = ibs.04
+	
+	title = "ibs4.t"
+	desc = "ibs4.d"
+	picture = CITY_VIEW_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			update_bic_a3 = yes
+		}
+	}
+	
+	#Make the investment
+	option = {
+		name = "ibs4.a"
+		trigger = {
+			check_variable = { which = buildingsupplies which = a3investcost }
+		}
+		subtract_variable = { which = buildingsupplies which = a3investcost }
+		every_province = {
+			limit = {
+				area = mex3_area
+				owned_by = ROOT
+			}
+			add_province_modifier = {
+				name = binvestment 
+				duration = 365
+			}
+		}
+		country_event = { id = ibs.01 }
+	}
+	
+	#Back
+	option = {
+		name = "ibs4.b"
+		country_event = { id = ibs.01 }
+	}
+}
+
+#Huasteca
+country_event = {
+	id = ibs.05
+	
+	title = "ibs5.t"
+	desc = "ibs5.d"
+	picture = CITY_VIEW_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			update_bic_a4 = yes
+		}
+	}
+	
+	#Make the investment
+	option = {
+		name = "ibs5.a"
+		trigger = {
+			check_variable = { which = buildingsupplies which = a4investcost }
+		}
+		subtract_variable = { which = buildingsupplies which = a4investcost }
+		every_province = {
+			limit = {
+				area = mex4_area
+				owned_by = ROOT
+			}
+			add_province_modifier = {
+				name = binvestment 
+				duration = 365
+			}
+		}
+		country_event = { id = ibs.01 }
+	}
+	
+	#Back
+	option = {
+		name = "ibs5.b"
+		country_event = { id = ibs.01 }
+	}
+}
+
+#Northern Reaches
+country_event = {
+	id = ibs.06
+	
+	title = "ibs6.t"
+	desc = "ibs6.d"
+	picture = CITY_VIEW_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			update_bic_a5 = yes
+		}
+	}
+	
+	#Make the investment
+	option = {
+		name = "ibs6.a"
+		trigger = {
+			check_variable = { which = buildingsupplies which = a5investcost }
+		}
+		subtract_variable = { which = buildingsupplies which = a5investcost }
+		every_province = {
+			limit = {
+				area = mex5_area
+				owned_by = ROOT
+			}
+			add_province_modifier = {
+				name = binvestment 
+				duration = 365
+			}
+		}
+		country_event = { id = ibs.01 }
+	}
+	
+	#Back
+	option = {
+		name = "ibs6.b"
+		country_event = { id = ibs.01 }
+	}
+}
+
+#Patzcuaro Basin
+country_event = {
+	id = ibs.07
+	
+	title = "ibs7.t"
+	desc = "ibs7.d"
+	picture = CITY_VIEW_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			update_bic_a6 = yes
+		}
+	}
+	
+	#Make the investment
+	option = {
+		name = "ibs7.a"
+		trigger = {
+			check_variable = { which = buildingsupplies which = a6investcost }
+		}
+		subtract_variable = { which = buildingsupplies which = a6investcost }
+		every_province = {
+			limit = {
+				area = mex6_area
+				owned_by = ROOT
+			}
+			add_province_modifier = {
+				name = binvestment 
+				duration = 365
+			}
+		}
+		country_event = { id = ibs.01 }
+	}
+	
+	#Back
+	option = {
+		name = "ibs7.b"
+		country_event = { id = ibs.01 }
+	}
+}
+
+#Far West
+country_event = {
+	id = ibs.08
+	
+	title = "ibs8.t"
+	desc = "ibs8.d"
+	picture = CITY_VIEW_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			update_bic_a7 = yes
+		}
+	}
+	
+	#Make the investment
+	option = {
+		name = "ibs8.a"
+		trigger = {
+			check_variable = { which = buildingsupplies which = a7investcost }
+		}
+		subtract_variable = { which = buildingsupplies which = a7investcost }
+		every_province = {
+			limit = {
+				area = mex7_area
+				owned_by = ROOT
+			}
+			add_province_modifier = {
+				name = binvestment 
+				duration = 365
+			}
+		}
+		country_event = { id = ibs.01 }
+	}
+	
+	#Back
+	option = {
+		name = "ibs8.b"
+		country_event = { id = ibs.01 }
+	}
+}
+
+#Tonallan
+country_event = {
+	id = ibs.09
+	
+	title = "ibs9.t"
+	desc = "ibs9.d"
+	picture = CITY_VIEW_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			update_bic_a8 = yes
+		}
+	}
+	
+	#Make the investment
+	option = {
+		name = "ibs9.a"
+		trigger = {
+			check_variable = { which = buildingsupplies which = a8investcost }
+		}
+		subtract_variable = { which = buildingsupplies which = a8investcost }
+		every_province = {
+			limit = {
+				area = mex8_area
+				owned_by = ROOT
+			}
+			add_province_modifier = {
+				name = binvestment 
+				duration = 365
+			}
+		}
+		country_event = { id = ibs.01 }
+	}
+	
+	#Back
+	option = {
+		name = "ibs9.b"
+		country_event = { id = ibs.01 }
+	}
+}
+
+#Colliman
+country_event = {
+	id = ibs.10
+	
+	title = "ibs10.t"
+	desc = "ibs10.d"
+	picture = CITY_VIEW_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			update_bic_a9 = yes
+		}
+	}
+	
+	#Make the investment
+	option = {
+		name = "ibs10.a"
+		trigger = {
+			check_variable = { which = buildingsupplies which = a9investcost }
+		}
+		subtract_variable = { which = buildingsupplies which = a9investcost }
+		every_province = {
+			limit = {
+				area = mex9_area
+				owned_by = ROOT
+			}
+			add_province_modifier = {
+				name = binvestment 
+				duration = 365
+			}
+		}
+		country_event = { id = ibs.01 }
+	}
+	
+	#Back
+	option = {
+		name = "ibs10.b"
+		country_event = { id = ibs.01 }
+	}
+}
+
+#Olmeca
+country_event = {
+	id = ibs.11
+	
+	title = "ibs11.t"
+	desc = "ibs11.d"
+	picture = CITY_VIEW_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			update_bic_a10 = yes
+		}
+	}
+	
+	#Make the investment
+	option = {
+		name = "ibs11.a"
+		trigger = {
+			check_variable = { which = buildingsupplies which = a10investcost }
+		}
+		subtract_variable = { which = buildingsupplies which = a10investcost }
+		every_province = {
+			limit = {
+				area = mex10_area
+				owned_by = ROOT
+			}
+			add_province_modifier = {
+				name = binvestment 
+				duration = 365
+			}
+		}
+		country_event = { id = ibs.01 }
+	}
+	
+	#Back
+	option = {
+		name = "ibs11.b"
+		country_event = { id = ibs.01 }
+	}
+}
+
+#Mayan Highlands
+country_event = {
+	id = ibs.12
+	
+	title = "ibs12.t"
+	desc = "ibs12.d"
+	picture = CITY_VIEW_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			update_bic_a11 = yes
+		}
+	}
+	
+	#Make the investment
+	option = {
+		name = "ibs12.a"
+		trigger = {
+			check_variable = { which = buildingsupplies which = a11investcost }
+		}
+		subtract_variable = { which = buildingsupplies which = a11investcost }
+		every_province = {
+			limit = {
+				area = mex11_area
+				owned_by = ROOT
+			}
+			add_province_modifier = {
+				name = binvestment 
+				duration = 365
+			}
+		}
+		country_event = { id = ibs.01 }
+	}
+	
+	#Back
+	option = {
+		name = "ibs12.b"
+		country_event = { id = ibs.01 }
+	}
+}
+
+#Central America
+country_event = {
+	id = ibs.13
+	
+	title = "ibs13.t"
+	desc = "ibs13.d"
+	picture = CITY_VIEW_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			update_bic_a12 = yes
+		}
+	}
+	
+	#Make the investment
+	option = {
+		name = "ibs13.a"
+		trigger = {
+			check_variable = { which = buildingsupplies which = a12investcost }
+		}
+		subtract_variable = { which = buildingsupplies which = a12investcost }
+		every_province = {
+			limit = {
+				area = mex12_area
+				owned_by = ROOT
+			}
+			add_province_modifier = {
+				name = binvestment 
+				duration = 365
+			}
+		}
+		country_event = { id = ibs.01 }
+	}
+	
+	#Back
+	option = {
+		name = "ibs13.b"
+		country_event = { id = ibs.01 }
+	}
+}
+
+#Oaxaca
+country_event = {
+	id = ibs.14
+	
+	title = "ibs14.t"
+	desc = "ibs14.d"
+	picture = CITY_VIEW_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			update_bic_a13 = yes
+		}
+	}
+	
+	#Make the investment
+	option = {
+		name = "ibs14.a"
+		trigger = {
+			check_variable = { which = buildingsupplies which = a13investcost }
+		}
+		subtract_variable = { which = buildingsupplies which = a13investcost }
+		every_province = {
+			limit = {
+				area = mex13_area
+				owned_by = ROOT
+			}
+			add_province_modifier = {
+				name = binvestment 
+				duration = 365
+			}
+		}
+		country_event = { id = ibs.01 }
+	}
+	
+	#Back
+	option = {
+		name = "ibs14.b"
+		country_event = { id = ibs.01 }
+	}
+}
+
+#Guerrero
+country_event = {
+	id = ibs.15
+	
+	title = "ibs15.t"
+	desc = "ibs15.d"
+	picture = CITY_VIEW_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			update_bic_a14 = yes
+		}
+	}
+	
+	#Make the investment
+	option = {
+		name = "ibs15.a"
+		trigger = {
+			check_variable = { which = buildingsupplies which = a14investcost }
+		}
+		subtract_variable = { which = buildingsupplies which = a14investcost }
+		every_province = {
+			limit = {
+				area = mex14_area
+				owned_by = ROOT
+			}
+			add_province_modifier = {
+				name = binvestment 
+				duration = 365
+			}
+		}
+		country_event = { id = ibs.01 }
+	}
+	
+	#Back
+	option = {
+		name = "ibs15.b"
+		country_event = { id = ibs.01 }
+	}
+}
+
+#Southern Yucatan
+country_event = {
+	id = ibs.16
+	
+	title = "ibs16.t"
+	desc = "ibs16.d"
+	picture = CITY_VIEW_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			update_bic_a15 = yes
+		}
+	}
+	
+	#Make the investment
+	option = {
+		name = "ibs16.a"
+		trigger = {
+			check_variable = { which = buildingsupplies which = a15investcost }
+		}
+		subtract_variable = { which = buildingsupplies which = a15investcost }
+		every_province = {
+			limit = {
+				area = mex15_area
+				owned_by = ROOT
+			}
+			add_province_modifier = {
+				name = binvestment 
+				duration = 365
+			}
+		}
+		country_event = { id = ibs.01 }
+	}
+	
+	#Back
+	option = {
+		name = "ibs16.b"
+		country_event = { id = ibs.01 }
+	}
+}
+
+#Western Yucatan
+country_event = {
+	id = ibs.17
+	
+	title = "ibs17.t"
+	desc = "ibs17.d"
+	picture = CITY_VIEW_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			update_bic_a16 = yes
+		}
+	}
+	
+	#Make the investment
+	option = {
+		name = "ibs17.a"
+		trigger = {
+			check_variable = { which = buildingsupplies which = a16investcost }
+		}
+		subtract_variable = { which = buildingsupplies which = a16investcost }
+		every_province = {
+			limit = {
+				area = mex16_area
+				owned_by = ROOT
+			}
+			add_province_modifier = {
+				name = binvestment 
+				duration = 365
+			}
+		}
+		country_event = { id = ibs.01 }
+	}
+	
+	#Back
+	option = {
+		name = "ibs17.b"
+		country_event = { id = ibs.01 }
+	}
+}
+
+#Mayapan
+country_event = {
+	id = ibs.18
+	
+	title = "ibs18.t"
+	desc = "ibs18.d"
+	picture = CITY_VIEW_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			update_bic_a17 = yes
+		}
+	}
+	
+	#Make the investment
+	option = {
+		name = "ibs18.a"
+		trigger = {
+			check_variable = { which = buildingsupplies which = a17investcost }
+		}
+		subtract_variable = { which = buildingsupplies which = a17investcost }
+		every_province = {
+			limit = {
+				area = mex17_area
+				owned_by = ROOT
+			}
+			add_province_modifier = {
+				name = binvestment 
+				duration = 365
+			}
+		}
+		country_event = { id = ibs.01 }
+	}
+	
+	#Back
+	option = {
+		name = "ibs18.b"
+		country_event = { id = ibs.01 }
+	}
+}
+
+#Northern Yucatan
+country_event = {
+	id = ibs.19
+	
+	title = "ibs19.t"
+	desc = "ibs19.d"
+	picture = CITY_VIEW_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			update_bic_a18 = yes
+		}
+	}
+	
+	#Make the investment
+	option = {
+		name = "ibs19.a"
+		trigger = {
+			check_variable = { which = buildingsupplies which = a18investcost }
+		}
+		subtract_variable = { which = buildingsupplies which = a18investcost }
+		every_province = {
+			limit = {
+				area = mex18_area
+				owned_by = ROOT
+			}
+			add_province_modifier = {
+				name = binvestment 
+				duration = 365
+			}
+		}
+		country_event = { id = ibs.01 }
+	}
+	
+	#Back
+	option = {
+		name = "ibs19.b"
+		country_event = { id = ibs.01 }
+	}
+}
+
+#Eastern Yucatan
+country_event = {
+	id = ibs.20
+	
+	title = "ibs20.t"
+	desc = "ibs20.d"
+	picture = CITY_VIEW_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			update_bic_a19 = yes
+		}
+	}
+	
+	#Make the investment
+	option = {
+		name = "ibs20.a"
+		trigger = {
+			check_variable = { which = buildingsupplies which = a19investcost }
+		}
+		subtract_variable = { which = buildingsupplies which = a19investcost }
+		every_province = {
+			limit = {
+				area = mex19_area
+				owned_by = ROOT
+			}
+			add_province_modifier = {
+				name = binvestment 
+				duration = 365
+			}
+		}
+		country_event = { id = ibs.01 }
+	}
+	
+	#Back
+	option = {
+		name = "ibs20.b"
+		country_event = { id = ibs.01 }
+	}
+}

@@ -101,6 +101,24 @@ annexationaction = {
 			}
 		}
 	}
+	condition = {
+		tooltip = ANNEX_WRONG_GOVERNMENT
+		potential = {
+			always = yes
+		}
+		allow = {
+			ROOT = {
+				OR = {
+					government = tlaxcallan_confederate
+					government = mayapan
+					government = tribal_confederation
+					government = altepetl
+					government = hegemonic_kingdom
+					government = hegemonic_empire
+				}
+			}
+		}
+	}
 	#condition = {
 	#	tooltip = ANNEXINVALID
 	#	potential = {

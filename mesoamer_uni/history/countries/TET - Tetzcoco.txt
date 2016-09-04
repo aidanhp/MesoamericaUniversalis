@@ -19,5 +19,12 @@ historical_friend = TCP
 		adm = 6
 		dip = 6
 		mil = 6
+		leader = {
+			name = "Nezahualcoyotl"
+			shock = 4
+			fire = 4
+			manuever = 4
+			siege = 1
+		}
 	}
 }

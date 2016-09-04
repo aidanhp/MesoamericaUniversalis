@@ -31,7 +31,8 @@
  draftlaw2.b: "Expected Service."
  draftlaw2.c: "Oldest Son."
  draftlaw2.dd: "All sons of age."
- draftlaw2.e: "Back"
+ draftlaw2.e: "Whatever's Necessary."
+ draftlaw2.f: "Back"
  
  draftlaw3.t: "Draft Law: Artisans"
  draftlaw3.d: "Select a draft law." 
@@ -39,7 +40,8 @@
  draftlaw3.b: "Expected Service."
  draftlaw3.c: "Oldest Son."
  draftlaw3.dd: "All sons of age."
- draftlaw3.e: "Back"
+ draftlaw3.e: "Whatever's Necessary."
+ draftlaw3.f: "Back"
  
  draftlaw4.t: "Draft Law: Commoners"
  draftlaw4.d: "Select a draft law." 
@@ -47,7 +49,8 @@
  draftlaw4.b: "Expected Service."
  draftlaw4.c: "Oldest Son."
  draftlaw4.dd: "All sons of age."
- draftlaw4.e: "Back"
+ draftlaw4.e: "Whatever's Necessary."
+ draftlaw4.f: "Back"
  
  
  

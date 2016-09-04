@@ -46,6 +46,7 @@ country_event = {
 			remove_province_modifier = e_expectedservice
 			remove_province_modifier = e_oldestson
 			remove_province_modifier = e_allsons
+			remove_province_modifier = e_necessary
 			add_province_modifier = {
 				name = e_optionalcareer
  				duration = -1
@@ -60,6 +61,7 @@ country_event = {
 			remove_province_modifier = e_optionalcareer
 			remove_province_modifier = e_oldestson
 			remove_province_modifier = e_allsons
+			remove_province_modifier = e_necessary
 			add_province_modifier = {
 				name = e_expectedservice
  				duration = -1
@@ -74,6 +76,7 @@ country_event = {
 			remove_province_modifier = e_optionalcareer
 			remove_province_modifier = e_expectedservice
 			remove_province_modifier = e_allsons
+			remove_province_modifier = e_necessary
 			add_province_modifier = {
 				name = e_oldestson
  				duration = -1
@@ -88,6 +91,7 @@ country_event = {
 			remove_province_modifier = e_optionalcareer
 			remove_province_modifier = e_expectedservice
 			remove_province_modifier = e_oldestson
+			remove_province_modifier = e_necessary
 			add_province_modifier = {
 				name = e_allsons
  				duration = -1
@@ -95,8 +99,27 @@ country_event = {
 		}
 		country_event = { id = draftlaw.01 }
 	}
+	
 	option = {
 		name = "draftlaw2.e"
+		trigger = {
+			has_idea = warlaw
+		}
+		every_owned_province = {
+			remove_province_modifier = e_optionalcareer
+			remove_province_modifier = e_expectedservice
+			remove_province_modifier = e_oldestson
+			remove_province_modifier = e_allsons
+			add_province_modifier = {
+				name = e_necessary
+ 				duration = -1
+			}
+		}
+		country_event = { id = draftlaw.01 }
+	}
+	
+	option = {
+		name = "draftlaw2.f"
 		country_event = { id = draftlaw.01 }
 	}
 }
@@ -117,6 +140,7 @@ country_event = {
 			remove_province_modifier = a_expectedservice
 			remove_province_modifier = a_oldestson
 			remove_province_modifier = a_allsons
+			remove_province_modifier = a_necessary
 			add_province_modifier = {
 				name = a_noservice
  				duration = -1
@@ -131,6 +155,7 @@ country_event = {
 			remove_province_modifier = a_noservice
 			remove_province_modifier = a_oldestson
 			remove_province_modifier = a_allsons
+			remove_province_modifier = a_necessary
 			add_province_modifier = {
 				name = a_expectedservice
  				duration = -1
@@ -145,6 +170,7 @@ country_event = {
 			remove_province_modifier = a_noservice
 			remove_province_modifier = a_expectedservice
 			remove_province_modifier = a_allsons
+			remove_province_modifier = a_necessary
 			add_province_modifier = {
 				name = a_oldestson
  				duration = -1
@@ -159,6 +185,7 @@ country_event = {
 			remove_province_modifier = a_noservice
 			remove_province_modifier = a_expectedservice
 			remove_province_modifier = a_oldestson
+			remove_province_modifier = a_necessary
 			add_province_modifier = {
 				name = a_allsons
  				duration = -1
@@ -166,8 +193,27 @@ country_event = {
 		}
 		country_event = { id = draftlaw.01 }
 	}
+	
 	option = {
 		name = "draftlaw3.e"
+		trigger = {
+			has_idea = warlaw
+		}
+		every_owned_province = {
+			remove_province_modifier = a_noservice
+			remove_province_modifier = a_expectedservice
+			remove_province_modifier = a_oldestson
+			remove_province_modifier = a_allsons
+			add_province_modifier = {
+				name = a_necessary
+ 				duration = -1
+			}
+		}
+		country_event = { id = draftlaw.01 }
+	}
+	
+	option = {
+		name = "draftlaw3.f"
 		country_event = { id = draftlaw.01 }
 	}
 }
@@ -188,6 +234,7 @@ country_event = {
 			remove_province_modifier = c_expectedservice
 			remove_province_modifier = c_oldestson
 			remove_province_modifier = c_allsons
+			remove_province_modifier = c_necessary
 			add_province_modifier = {
 				name = c_optionalcareer
  				duration = -1
@@ -202,6 +249,7 @@ country_event = {
 			remove_province_modifier = c_optionalcareer
 			remove_province_modifier = c_oldestson
 			remove_province_modifier = c_allsons
+			remove_province_modifier = c_necessary
 			add_province_modifier = {
 				name = c_expectedservice
  				duration = -1
@@ -216,6 +264,7 @@ country_event = {
 			remove_province_modifier = c_optionalcareer
 			remove_province_modifier = c_expectedservice
 			remove_province_modifier = c_allsons
+			remove_province_modifier = c_necessary
 			add_province_modifier = {
 				name = c_oldestson
  				duration = -1
@@ -230,6 +279,7 @@ country_event = {
 			remove_province_modifier = c_optionalcareer
 			remove_province_modifier = c_expectedservice
 			remove_province_modifier = c_oldestson
+			remove_province_modifier = c_necessary
 			add_province_modifier = {
 				name = c_allsons
  				duration = -1
@@ -237,8 +287,27 @@ country_event = {
 		}
 		country_event = { id = draftlaw.01 }
 	}
+	
 	option = {
 		name = "draftlaw4.e"
+		trigger = {
+			has_idea = warlaw
+		}
+		every_owned_province = {
+			remove_province_modifier = c_optionalcareer
+			remove_province_modifier = c_expectedservice
+			remove_province_modifier = c_oldestson
+			remove_province_modifier = a_allsons
+			add_province_modifier = {
+				name = c_nessecary
+ 				duration = -1
+			}
+		}
+		country_event = { id = draftlaw.01 }
+	}
+	
+	option = {
+		name = "draftlaw4.f"
 		country_event = { id = draftlaw.01 }
 	}
 }

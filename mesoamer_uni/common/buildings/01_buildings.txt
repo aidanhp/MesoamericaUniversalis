@@ -24,10 +24,12 @@
 
 #Level 1 Bureaucracy
 bureau1 = {
-	cost = 100
+	cost = 50
 	time = 6
 
 	allowed_num_of_buildings = 1
+	destroy_on_conquest = yes
+
 	trigger = {
 		AND = {
 			is_capital = yes
@@ -40,8 +42,15 @@ bureau1 = {
 		stability_cost_modifier = -0.05
 	}
 	
+	
 	ai_will_do = {
 		factor = 0
+		modifier = {
+			factor = 500
+			owner = {
+				has_country_modifier = insuffb_cs
+			}
+		}
 	}
 }
 
@@ -52,6 +61,8 @@ bureau2 = {
 	make_obsolete = bureau1
 
 	allowed_num_of_buildings = 1
+	destroy_on_conquest = yes
+	
 	trigger = {
 		is_capital = yes
 		FROM = {
@@ -67,6 +78,12 @@ bureau2 = {
 	
 	ai_will_do = {
 		factor = 0
+		modifier = {
+			factor = 500
+			owner = {
+				has_country_modifier = insuffb_k
+			}
+		}
 	}
 }
 
@@ -77,6 +94,8 @@ bureau3 = {
 	make_obsolete = bureau2
 
 	allowed_num_of_buildings = 1
+	destroy_on_conquest = yes
+	
 	trigger = {
 		is_capital = yes
 		FROM = {
@@ -92,6 +111,12 @@ bureau3 = {
 	
 	ai_will_do = {
 		factor = 0
+		modifier = {
+			factor = 500
+			owner = {
+				has_country_modifier = insuffb_e
+			}
+		}
 	}
 }
 
@@ -99,14 +124,14 @@ bureau3 = {
 law1 = {
 	cost = 50
 	time = 4
-
+	destroy_on_conquest = yes
 	#trigger = {
 	#NOTHING
 	#}
 
 	modifier = {
-		local_unrest = -1
-		local_tax_modifier = -0.025
+		local_unrest = -2
+		local_tax_modifier = -0.01
 	}
 	
 	ai_will_do = {
@@ -116,16 +141,17 @@ law1 = {
 
 #Level 2 Law Enforcement
 law2 = {
-	cost = 100
+	cost = 200
 	time = 5
 	make_obsolete = law1
+	destroy_on_conquest = yes
 	#trigger = {
 	#NOTHING
 	#}
 
 	modifier = {
-		local_unrest = -2
-		local_tax_modifier = -0.05
+		local_unrest = -4
+		local_tax_modifier = -0.02
 	}
 	
 	ai_will_do = {
@@ -135,16 +161,17 @@ law2 = {
 
 #Level 3 Law Enforcement
 law3 = {
-	cost = 150
+	cost = 400
 	time = 6
 	make_obsolete = law2
+	destroy_on_conquest = yes
 	#trigger = {
 	#NOTHING
 	#}
 
 	modifier = {
-		local_unrest = -4
-		local_tax_modifier = -0.075
+		local_unrest = -6
+		local_tax_modifier = -0.04
 	}
 	
 	ai_will_do = {
@@ -154,9 +181,9 @@ law3 = {
 
 #Administrative Office
 adminoffice = {
-	cost = 100
+	cost = 250
 	time = 6
-
+	destroy_on_conquest = yes
 	trigger = {
 		is_capital = no
 		FROM = {
@@ -177,9 +204,9 @@ adminoffice = {
 
 #Ethnic Village
 evillage = {
-	cost = 200
+	cost = 300
 	time = 8
-
+	destroy_on_conquest = yes
 	trigger = {
 		ROOT = { 
 			has_owner_culture = no
@@ -191,7 +218,7 @@ evillage = {
 	}
 
 	modifier = {
-		local_unrest = -6
+		local_unrest = -10
 		local_manpower_modifier = 0.05
 		local_tax_modifier = 0.05
 	}
@@ -210,9 +237,12 @@ farm1 = {
 	cost = 100
 	time = 4
 
-	#trigger = {
-	#Certain trade goods!
-	#}
+	manufactory = {
+		grain
+		aquaticfoods
+		fruits
+		choclate
+	}
 
 	modifier = {
 		trade_goods_size = 2.5
@@ -229,11 +259,18 @@ farm2 = {
 	cost = 200
 	time = 6
 	make_obsolete = farm1
+	destroy_on_conquest = yes
 	trigger = {
-	#Certain trade goods
 		FROM = {
 			has_idea = foodprod
 		}
+	}
+	
+	manufactory = {
+		grain
+		aquaticfoods
+		fruits
+		choclate
 	}
 
 	modifier = {
@@ -249,10 +286,16 @@ farm2 = {
 pmine = {
 	cost = 150
 	time = 8
-
-	#trigger = {
-	#metal goods
-	#}
+	
+	manufactory = {
+		obsidian
+		preciousstones
+		salt
+		bronze
+		gold
+		lime
+		iron
+	}
 
 	modifier = {
 		trade_goods_size = 2.0
@@ -269,13 +312,24 @@ imine = {
 	cost = 300
 	time = 12
 	make_obsolete = pmine
+	destroy_on_conquest = yes
 	trigger = {
-	#metals
+	
 		FROM = {
 			has_idea = metalsprod
 		}
 	}
-
+	
+	manufactory = {
+		obsidian
+		preciousstones
+		salt
+		bronze
+		gold
+		lime
+		iron
+	}
+	
 	modifier = {
 		trade_goods_size = 4.0
 		local_production_efficiency = 0.20
@@ -288,9 +342,9 @@ imine = {
 
 #Military Workshop
 mworkshop = {
-	cost = 75
+	cost = 200
 	time = 10
-
+	destroy_on_conquest = yes
 	trigger = {
 	#landexploitation
 		FROM = {
@@ -299,7 +353,7 @@ mworkshop = {
 	}
 
 	modifier = {
-		global_regiment_cost = -0.02
+		local_regiment_recruit_speed = -0.50
 		land_forcelimit_modifier = 0.02
 	}
 	
@@ -310,7 +364,7 @@ mworkshop = {
 
 #Workshop Level 1
 workshop1 = {
-	cost = 150
+	cost = 200
 	time = 4
 
 	#trigger = {
@@ -329,7 +383,7 @@ workshop1 = {
 
 #Workshop Level 2
 workshop2 = {
-	cost = 300
+	cost = 400
 	time = 6
 	make_obsolete = workshop1
 	#trigger = {
@@ -373,7 +427,7 @@ workshop3 = {
 ctown = {
 	cost = 150
 	time = 12
-
+	destroy_on_conquest = yes
 	trigger = {
 	#all these require colonial province modifier in province
 		FROM = {
@@ -395,7 +449,7 @@ ctown = {
 cworkshop = {
 	cost = 150
 	time = 12
-
+	destroy_on_conquest = yes
 	trigger = {
 	#NOTHING
 		FROM = {
@@ -417,7 +471,7 @@ cworkshop = {
 cestate = {
 	cost = 150
 	time = 12
-
+	destroy_on_conquest = yes
 	trigger = {
 	#NOTHING
 		FROM = {
@@ -444,6 +498,7 @@ nschool = {
 	cost = 75
 	time = 12
 	allowed_num_of_buildings = 20
+	destroy_on_conquest = yes
 	#trigger = {
 	#NOTHING
 	#}
@@ -462,7 +517,7 @@ nschool = {
 nuni = {
 	cost = 100
 	time = 12
-
+	destroy_on_conquest = yes
 	#trigger = {
 		
 	#}
@@ -482,7 +537,7 @@ nuni = {
 pschool = {
 	cost = 200
 	time = 12
-
+	destroy_on_conquest = yes
 	#trigger = {
 	#NOTHING
 	#}
@@ -502,7 +557,7 @@ pschool = {
 puni = {
 	cost = 250
 	time = 12
-
+	destroy_on_conquest = yes
 	#trigger = {
 	#NOTHING
 	#}
@@ -527,6 +582,7 @@ mschool = {
 	cost = 250
 	time = 12
 	allowed_num_of_buildings = 10
+	destroy_on_conquest = yes
 	trigger = {
 		FROM = {
 			has_idea = militaryschools
@@ -535,7 +591,6 @@ mschool = {
 	
 	modifier = {
 		army_tradition = 0.10
-		infantry_power = 0.025
 	}
 	
 	ai_will_do = {
@@ -545,9 +600,10 @@ mschool = {
 
 #Urban Mobilization
 umobile = {
-	cost = 150
+	cost = 250
 	time = 6
 	allowed_num_of_buildings = 20
+	destroy_on_conquest = yes
 	trigger = {
 		is_capital = no
 		FROM = {
@@ -557,8 +613,6 @@ umobile = {
 
 	modifier = {
 		local_manpower_modifier = 0.15
-		manpower_recovery_speed = 0.005
-		reinforce_speed = 0.005
 	}
 	
 	ai_will_do = {
@@ -568,9 +622,9 @@ umobile = {
 
 #Rural Mobilization
 rmobile = {
-	cost = 150
+	cost = 250
 	time = 6
-
+	destroy_on_conquest = yes
 	trigger = {
 		is_capital = no
 		FROM = {
@@ -580,8 +634,6 @@ rmobile = {
 	allowed_num_of_buildings = 20
 	modifier = {
 		local_manpower_modifier = 0.15
-		manpower_recovery_speed = 0.005
-		reinforce_speed = 0.005
 	}
 	
 	ai_will_do = {
@@ -604,7 +656,7 @@ ntemple = {
 
 	modifier = {
 		local_missionary_strength = 0.05
-		prestige = 0.1
+		local_tax_modifier = 0.01
 	}
 	
 	ai_will_do = {
@@ -638,7 +690,7 @@ missionschool = {
 massforts = {
 	cost = 100
 	time = 12
-
+	destroy_on_conquest = yes
 	trigger = {
 		FROM = {
 			has_idea = massfortifications
@@ -755,6 +807,7 @@ tguild = {
 	cost = 200
 	time = 12
 	allowed_num_of_buildings = 10
+	destroy_on_conquest = yes
 	trigger = {
 	#NOTHING
 		FROM = {
@@ -781,6 +834,7 @@ capitaldecor = {
 	cost = 500
 	time = 24
 	allowed_num_of_buildings = 1
+	destroy_on_conquest = yes
 	trigger = {
 		is_capital = true
 		FROM = {
@@ -803,6 +857,7 @@ greatpt = {
 	cost = 1000
 	time = 24
 	allowed_num_of_buildings = 1
+	destroy_on_conquest = yes
 	trigger = {
 	#NOTHING
 		FROM = {
@@ -826,6 +881,7 @@ greatf = {
 	cost = 1000
 	time = 24
 	allowed_num_of_buildings = 1
+	destroy_on_conquest = yes
 	trigger = {
 	#NOTHING
 		FROM = {
@@ -848,6 +904,7 @@ mes = {
 	cost = 750
 	time = 24
 	allowed_num_of_buildings = 1
+	destroy_on_conquest = yes
 	trigger = {
 	#NOTHING
 		FROM = {
@@ -869,6 +926,7 @@ normalpt = {
 	cost = 750
 	time = 24
 	allowed_num_of_buildings = 1
+	destroy_on_conquest = yes
 	#trigger = {
 	#NOTHING
 	#}
@@ -889,6 +947,7 @@ watergarden = {
 	cost = 750
 	time = 24
 	allowed_num_of_buildings = 1
+	destroy_on_conquest = yes
 	#trigger = {
 	#NOTHING
 	#}
@@ -908,6 +967,7 @@ royalzoo = {
 	cost = 1000
 	time = 24
 	allowed_num_of_buildings = 1
+	destroy_on_conquest = yes
 	trigger = {
 		is_capital = true
 	}
@@ -928,6 +988,7 @@ greatuni = {
 	cost = 1000
 	time = 24
 	allowed_num_of_buildings = 1
+	destroy_on_conquest = yes
 	#trigger = {
 	#NOTHING
 	#}

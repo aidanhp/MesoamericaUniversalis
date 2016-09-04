@@ -1,5 +1,8 @@
 ﻿l_english: 
  #MODIFIERS
+ #Game Direction Modifiers
+ euroinvasions: "European Invasions Enabled"
+ noinvasions: "European Invasions Disabled"
  
  #Population Potential
  #Display
@@ -7,33 +10,33 @@
  desc_ppdisplay: "This is the current population potential of this province. If the development of the province reaches this value, base population increase will stop and population will only go up as a result of stored food, buildings, or other effects."
  #From Terrain
  ppbase: "LLP: Base"
- desc_ppbase: "+1000 Local Population Potential"
+ desc_ppbase: "Local Population Potential: §G+1000§!"
  pplakeshore: "LPP: Lakeshore"
- desc_pplakeshore: "+10000 Local Population Potential"
+ desc_pplakeshore: "Local Population Potential: §G+10000§!"
  ppgrasslands: "LPP: Grasslands"
- desc_ppgrasslands: "+7500 Local Population Potential"
+ desc_ppgrasslands: "Local Population Potential: §G+7500§!"
  pphills: "LPP: Hills"
- desc_pphills: "+6000 Local Population Potential"
+ desc_pphills: "Local Population Potential: §G+6000§!"
  ppmountains: "LPP: Mountains"
- desc_ppmountains: "+5000 Local Population Potential"
+ desc_ppmountains: "Local Population Potential: §G+5000§!"
  ppdesert: "LPP: Desert"
- desc_ppdesert: "+4000 Local Population Potential"
+ desc_ppdesert: "Local Population Potential: §G+4000§!"
  
  #From Starting Development
  sdverylow: "LPP: Very Low Starting Development"
- desc_sdverylow: "+1000 Local Population Potential"
+ desc_sdverylow: "Local Population Potential: §G+1000§!"
  sdlow: "LPP: Low Starting Development"
- desc_sdlow: "+2500 Local Population Potential"
+ desc_sdlow: "Local Population Potential: §G+2500§!"
  mediumstartingdevelopment: "LPP: Average Starting Development"
- desc_mediumstartingdevelopment: "+5000 Local Population Potential"
+ desc_mediumstartingdevelopment: "Local Population Potential: §G+5000§!"
  sdaboveaverage: "LPP: Above Average Starting Development"
- desc_sdaboveaverage: "+7500 Local Population Potential"
+ desc_sdaboveaverage: "Local Population Potential: §G+7500§!"
  sdhigh: "LPP: High Starting Development"
- desc_sdhigh: "+10000 Local Population Potential"
+ desc_sdhigh: "Local Population Potential: §G+10000§!"
  sdveryhigh: "LPP: Very High Starting Development"
- desc_sdveryhigh: "+15000 Local Population Potential"
+ desc_sdveryhigh: "Local Population Potential: §G+15000§!"
  sdgargantuan: "LPP: Gargantuan Starting Development"
- desc_sdgargantuan: "+25000 Local Population Potential"
+ desc_sdgargantuan: "Local Population Potential: §G+25000§!"
  
  #Tribute Requirements
  highwealth: "High Wealth Requirements"
@@ -96,6 +99,8 @@
  #Obstacles
  nopackanimals: "No Pack Animals"
  desc_nopackanimals: "The lack of pack animals and mounts for soldiers makes traveling armies significantly slower."
+ legitimacythroughconquest: "Legitimacy Through Conquest"
+ desc_legitimacythroughconquest: "Our people require our ruler to be a capable warrior and conquerer. If he is unable to live up to their expectations, his position as ruler will be undermined. While this modifier is active, you will gain legitimacy when you win battles and lose it when you lose battles."
  
  #PRIVILEGE MODIFIERS
  #Priests
@@ -132,4 +137,26 @@
  insureventures: "Merchant Insurance"
  desc_insureventures: "A portion of government income has been set aside to bail out ailing merchants."
  
+ #Exchanges
+ wellsupplied: "Well Supplied"
+ desc_wellsupplied: "Our troops are currently well supplied."
+ binvestment: "Supplies Investment"
+ desc_binvestment: "Building supplies have been invested in this province."
  
+ #Special Province Modifiers
+ tlaxcalaforts: "The Forts of Tlaxcala"
+ desc_tlaxcalaforts: "The Tlaxcallans constructed great forts of stone, lime, and a kind of cement to protect themselves from their aggressive neighbors. The mountainous region made these forts even more effective."
+ 
+ #Idea Group Modifiers
+ e_necessary: "Elite Draft Law: Whatever's Necessary"
+ desc_e_necessary: "Any able bodied person is a potential candidate for conscription."
+ a_necessary: "Artisan Draft Law: Whatever's Necessary"
+ desc_a_necessary: "Any able bodied person is a potential candidate for conscription."
+ c_nessecary: "Commoner Draft Law: Whatever's Necessary"
+ desc_c_nessecary: "Any able bodied person is a potential candidate for conscription."
+ raised_army: "Raised Army from Tributaries"
+ desc_raised_army: "We recently raised an army from our tributaries, and must wait for them to recover before we could demand something like that again. Soldiers don't just appear out of thin air!"
+ resettled_colonists: "Resettled Colonists"
+ desc_resettled_colonists: "We have recently resettled colonists to this province, and they aren't particularily happy about it."
+ has_resettled: "Recent Resettlement"
+ desc_has_resettled: "We have recently resettled people to our colonies. Doing so again might make things a little too tense in the colonies, we need to wait a while."

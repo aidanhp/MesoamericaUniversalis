@@ -27,8 +27,7 @@ altepetl = {
 
 	rank = {
 		1 = {
-			diplomatic_annexation_cost = 100
-			reduced_liberty_desire = -75
+			#reduced_liberty_desire = -75
 		}
 	}
 	fixed_rank = 1
@@ -44,18 +43,12 @@ hegemonic_kingdom = {
 	
 	max_states = 1
 	min_autonomy = 60
-
-	faction = currentdynasty
-	faction = priests
-	faction = nobles
-	faction = merchants
 	
 	rank = {
 		2 = {
-			diplomatic_annexation_cost = 100
-			reduced_liberty_desire = -200	
+			#reduced_liberty_desire = -200	
 			diplomatic_upkeep = -1
-			prestige = 4
+			legitimacy = 1
 		}
 	}
 	fixed_rank = 2
@@ -75,10 +68,9 @@ hegemonic_empire = {
 
 	rank = {
 		3 = {
-			diplomatic_annexation_cost = 100
-			reduced_liberty_desire = -300
+			#reduced_liberty_desire = -300
 			diplomatic_upkeep = -2
-			prestige = 6	
+			legitimacy = 2	
 		}
 	}
 	fixed_rank = 3
@@ -132,7 +124,6 @@ mayapan = {
 
 	rank = {
 		3 = {
-			diplomatic_annexation_cost = 100
 			reduced_liberty_desire = -300
 			diplomatic_upkeep = 12
 		}
@@ -155,7 +146,9 @@ kuchkabal = {
 
 	rank = {
 		2 = {
-			global_autonomy = -0.20
+			global_autonomy = -0.10
+			core_creation = 0.75
+			years_of_nationalism = 15
 		}
 	}
 	fixed_rank = 2
@@ -249,8 +242,8 @@ tlaxcallan_confederate = {
 	rank = {
 		2 = {
 			diplomatic_upkeep = -1
-			global_manpower_modifier = 0.50
 			legitimacy = 5 
+			land_forcelimit_modifier = -0.33
 		}
 	}
 	fixed_rank = 2
@@ -265,7 +258,7 @@ tarascan_tribute_kingdom = {
 	unique_government = yes
 	valid_for_new_country = no
 
-	min_autonomy = 60
+	min_autonomy = 50
 	max_states = 1
 	
 	rank = {
@@ -273,6 +266,8 @@ tarascan_tribute_kingdom = {
 			#global_tax_modifier = 0.025
 			global_autonomy = -0.10
 			adm_tech_cost_modifier = -0.20
+			core_creation = 0.75
+			years_of_nationalism = 15
 		}
 	}
 	fixed_rank = 2

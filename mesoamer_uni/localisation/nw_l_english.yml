@@ -2,7 +2,7 @@
  LIBERTY_DESIRE_CURRENT:0 "Liberty Desire is currently: §Y$VAL$%§!"
  LIB_OUR_TARIFF:0 "We pay §Y$VAL$%§! of our income in tariffs to $MOTHER$, and if the tariffs are higher than our Liberty Desire, then the Liberty Desire increases by §G+$INC$%§! each year."
  LIBERTY_DESIRE_CURRENT_DESC:0 "Liberty Desire represents the colony's desire for independence. Increasing tariffs among other things will increase it over time."
- LIBERTY_DESIRE_CURRENT_LIMITS:0 "Liberty Desire represents the country's desire for independence. They may turn rebellious if their Liberty Desire is over §Y$VAL$%§!"
+ LIBERTY_DESIRE_CURRENT_LIMITS:0 "Liberty Desire represents the country's desire for independence. They may turn rebellious if their Liberty Desire is over §Y$VAL$%§!. Tributaries may still refuse to pay you and be released from your control even if they have low liberty desire. In addition to liberty desire, tributary revolt chance is affected by postitive prestige, ideas, and your tribute requirements."
  INCREASE_TARIFFS:0 "Increase Tariffs"
  INCREASE_TARIFFS_DESC:0 "Spend $POINTS|R$ $TYPE$ to increase the tariffs by $TARIFFS|%1G$. This will also increase $COUNTRY|Y$ Liberty Desire by §R$LIBERTY|0$%§!."
  INCREASE_TARRIF_MAX:0 "Tariffs are already at maximum."

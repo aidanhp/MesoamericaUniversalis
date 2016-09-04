@@ -47,16 +47,25 @@ country_event = {
 				}
 				every_country = {
 					add_manpower = -1000
-					add_manpower = 0.95
+					add_manpower = 0.99
 				}
 			}
+			
+			#every_province = {
+			#	limit = {
+			#		has_building = law1
+			#	}
+			#	controller = {
+			#		change_variable = { which = legaltradition value = 10 }
+			#	}
+			#}
 
 			
 			#Base Pop Increase/Decrease
 			every_country = {
 			if = {
 				limit = {
-					manpower_percentage = 0.51
+					manpower_percentage = 0.67
 				}
 				every_owned_province = {
 					if = {
@@ -1119,8 +1128,8 @@ country_event = {
 			}
 			if = {
 				limit = {
-						manpower_percentage = 0.34
-						NOT = { manpower_percentage = 0.51}
+						manpower_percentage = 0.49
+						NOT = { manpower_percentage = 0.67}
 				}
 				#No growth
 			}
@@ -1128,7 +1137,7 @@ country_event = {
 			if = {
 				limit = {
 						manpower_percentage = 0.0
-						NOT = { manpower_percentage = 0.34 }
+						NOT = { manpower_percentage = 0.49 }
 				}
 				every_owned_province = {
 					if = {

@@ -1,0 +1,67 @@
+#These decisions require ideas as prerequesites
+country_decisions = {
+	#Raise army in tributaries
+	raise_trib_army = {
+		potential = {
+			has_idea = tributemanpower
+		}
+		
+		allow = { 
+			AND = {
+				is_at_war = yes
+				num_of_protectorates = 1
+			}
+			NOT = { has_country_modifier = raised_army }
+		}
+		
+		effect = {
+			add_years_of_income = -2.0
+			every_subject_country = {
+				capital_scope = {
+					infantry = FROM
+				}
+			}
+			add_country_modifier = {
+				name = raised_army 
+				duration = 7300
+			}
+		}
+	}
+	
+	#Resettle to Colonies
+	resettle_colonies = {
+		potential = {
+			has_idea = resettlement
+		}
+		
+		allow = {
+			NOT = { has_country_modifier = has_resettled }
+			any_province = {
+				AND = {
+					is_colony = yes
+					owned_by = ROOT
+				}
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = has_resettled 
+				duration = 3650
+			}
+			every_province = {
+				limit = {
+					is_colony = yes
+					owned_by = ROOT
+				}
+				add_colonysize = 250
+				add_province_modifier = {
+					name = resettled_colonists
+					duration = 1825
+				}
+			}
+		}
+	}
+	
+	
+}
