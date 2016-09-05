@@ -240,20 +240,20 @@ on_war_won = {
 	#releases a city the AI takes as a vassal after the AI annexes it. 
 	if = {
 		limit = {
-			ROOT = {
+			AND = {
+				ROOT = {
 				ai = yes
-			}
-
-			FROM = {
-				every_core_province = {
-					owned_by = ROOT
 				}
-			}
-			OR = {
-				government = altepetl
-				government = hegemonic_kingdom
-				government = hegemonic_empire	
-				government = tlaxcallan_confederate
+
+				FROM = {
+					exists = no
+				}
+				OR = {
+					government = altepetl
+					government = hegemonic_kingdom
+					government = hegemonic_empire	
+					government = tlaxcallan_confederate
+				}
 			}
 		}
 		release_vassal = FROM
