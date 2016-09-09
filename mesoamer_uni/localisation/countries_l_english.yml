@@ -713,6 +713,16 @@
  HHI:0 "Huanimaro"
  HHJ:0 "Coalcoman"
  
+ #Mixtec/Zapotec Additions
+ HHK:0 "Juchatengo"
+ HHL:0 "Juquila"
+ HHM:0 "Jamiltepec"
+ HHN:0 "Acatepec"
+ HHO:0 "Suchixtepec"
+ HHP:0 "Pochulta"
+ HHQ:0 "Huatulco"
+ HHS:0 "Huamelula"
+ 
  #Formables
  TLT:0 "Toltec Empire"
  TLT_ADJ:0 "Toltec"

@@ -1,5 +1,9 @@
 ﻿l_english: 
  #Decisions
+ #Displaying Info
+ display_revolt_risk_title: "Assess the Loyalty of our Subjects"
+ display_revolt_risk_desc: "Send out men to check on the mood in our subjects, and whether it is of a loyal nature or a rebellious one."
+ rrisk_display: "An assessment of subject loyalty will be delivered to us in 20 days."
  
  #Tribute Collection
  set_tribute_requirements_title: "Set Tribute Requirements"

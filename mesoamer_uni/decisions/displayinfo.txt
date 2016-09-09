@@ -1,0 +1,29 @@
+country_decisions = {
+	display_vassal_supply = {
+		major = yes
+		potential = {
+			ai = no
+		}
+		allow = {
+			always = no
+		}
+		effect = {
+			custom_tooltip = vassalsupply_display
+		}
+	}
+	
+	display_revolt_risk = {
+		#major = yes
+		potential = {
+			ai = no
+			NOT = { has_country_flag = drrdisplaying }
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			set_country_flag = drrdisplaying
+			country_event = { id = rrisk.02 }
+		}
+	}
+}

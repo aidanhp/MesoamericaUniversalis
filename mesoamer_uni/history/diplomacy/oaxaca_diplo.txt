@@ -1,0 +1,21 @@
+#Tututepec Vassals
+protectorate = {
+	first = UTU
+	second = HHN
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+protectorate = {
+	first = UTU
+	second = HHP
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+#Tehuantepec Vassals
+protectorate = {
+	first = TEH
+	second = HHS
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}

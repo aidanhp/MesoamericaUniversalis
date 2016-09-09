@@ -1165,4 +1165,3 @@ native_policy_hostile =
 {
 	global_colonial_growth = 20
 }
-

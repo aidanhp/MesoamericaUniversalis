@@ -1,0 +1,15 @@
+bookmark =
+{
+	name = "IRECHECUA_TZINTZUNTZANI"
+	desc = "IRECHECUA_TZINTZUNTZANI_DESC"
+	date = 1428.1.30
+	
+	center = 84
+	default = no
+
+	
+
+	country = IUA
+	country = CIM
+	country = ZAT
+}

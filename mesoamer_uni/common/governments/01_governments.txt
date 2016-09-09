@@ -27,7 +27,8 @@ altepetl = {
 
 	rank = {
 		1 = {
-			#reduced_liberty_desire = -75
+			stability_cost_modifier = -0.50
+			legitimacy = 0.50
 		}
 	}
 	fixed_rank = 1

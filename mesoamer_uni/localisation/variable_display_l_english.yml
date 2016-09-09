@@ -62,5 +62,5 @@
  blcmerchantshigh: "Loyalty Cost"
  
  #VARIABLE DISPLAYS
- vassalsupply_display: "Staple Food Bins: §G[Root.staplefooditems.GetValue]§! \nLuxury Food Bins: §G[Root.luxuryfooditems.GetValue]§!\nLuxury Good Bins: §G[Root.luxurygoods.GetValue]§! \nMilitary Supplies Bins: §G[Root.militarysupplies.GetValue]§! \nBuilding Supplies Bins: §G[Root.buildingsupplies.GetValue]§! Legal Tradition: [Root.legaltradition.GetValue]"
+ vassalsupply_display: "Staple Food Bins: §G[Root.staplefooditems.GetValue]§! \nLuxury Food Bins: §G[Root.luxuryfooditems.GetValue]§!\nLuxury Good Bins: §G[Root.luxurygoods.GetValue]§! \nMilitary Supplies Bins: §G[Root.militarysupplies.GetValue]§! \nBuilding Supplies Bins: §G[Root.buildingsupplies.GetValue]§!"
  displaylpp_tooltip: "§G[TEN.Capital.provpp.GetValue]§! \n §G[TET.Capital.provpp.GetValue]§! \n §G[TCP.Capital.provpp.GetValue]§!"

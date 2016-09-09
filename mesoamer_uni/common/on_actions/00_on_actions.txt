@@ -202,10 +202,6 @@ on_colonial_reintegration = {
 
 # country
 on_peace_actor = {
-
-
-
-	
 	events = {
 		usa_dlc.36				# Evacuation Day
 		native_americans.7		# Appoint Peace Chief
@@ -236,17 +232,28 @@ on_peace_recipient = {
 # country
 # root = winning country, from = loser country
 on_war_won = {
+	ROOT = {
+		change_variable = { which = warsandbattlesrrisk value = -10 }
+		every_subject_country = {
+			add_liberty_desire = -10
+		}
+	}
 	#The AI Won't vassalize anyone if left to its own devices, so this instantly
 	#releases a city the AI takes as a vassal after the AI annexes it. 
 	if = {
 		limit = {
 			AND = {
 				ROOT = {
-				ai = yes
+					ai = yes
 				}
 
 				FROM = {
-					exists = no
+					every_core_province = {
+						owned_by = ROOT
+					}
+					capital_scope = {
+						owned_by = ROOT
+					}
 				}
 				OR = {
 					government = altepetl
@@ -264,11 +271,23 @@ on_war_won = {
 # country
 # root = loser country, from = winner country
 on_war_lost = {
+	ROOT = {
+		change_variable = { which = warsandbattlesrrisk value = 100 }
+		every_subject_country = {
+			add_liberty_desire = 100
+		}
+	}
 }
 
 # country
 # root = winning country, from = loser country
 on_battle_won_country = {
+	ROOT = {
+		change_variable = { which = warsandbattlesrrisk value = -1 }
+		every_subject_country = {
+			add_liberty_desire = -1
+		}
+	}
 	if = {
 		limit = {
 			ROOT = {
@@ -298,6 +317,12 @@ on_battle_won_country = {
 # country
 # root = loser country, from = winner country
 on_battle_lost_country = {
+	ROOT = {
+		change_variable = { which = warsandbattlesrrisk value = 10 }
+		every_subject_country = {
+			add_liberty_desire = 10
+		}
+	}
 	if = {
 		limit = {
 			ROOT = {
@@ -386,6 +411,64 @@ on_siege_lost_country = {
 # province
 # root = location, from = losing country
 on_siege_won_province = {
+	if = {
+		limit = {
+			ROOT = { 
+				has_province_modifier = annihilated_by_war
+			}
+		}
+		add_base_tax = -50
+		add_base_production = -100
+		add_base_manpower = -350
+		add_permanent_province_modifier = {
+			name = annihilated_by_war
+			duration = 5840
+		}
+	}
+	
+	if = {
+		limit = {
+			ROOT = { 
+				has_province_modifier = devestated_by_war
+			}
+		}
+		add_permanent_province_modifier = {
+			name = annihilated_by_war
+			duration = 5840
+		}
+		remove_province_modifier = devestated_by_war
+	}
+	
+	if = {
+		limit = {
+			ROOT = { 
+				has_province_modifier = damaged_by_war
+			}
+		}
+		add_permanent_province_modifier = {
+			name = devestated_by_war
+			duration = 2920
+		}
+		remove_province_modifier = damaged_by_war
+	}
+	
+	if = {
+		limit = {
+			ROOT = { 
+				NOT = {
+					OR = {
+						has_province_modifier = damaged_by_war
+						has_province_modifier = devestated_by_war
+						has_province_modifier = annihilated_by_war
+					}
+				}
+			}
+		}
+		add_permanent_province_modifier = {
+			name = damaged_by_war
+			duration = 1460
+		}
+	}
 }
 
 # province

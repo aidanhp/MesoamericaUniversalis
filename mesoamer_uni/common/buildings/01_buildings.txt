@@ -198,7 +198,13 @@ adminoffice = {
 	}
 	
 	ai_will_do = {
-		factor = 0
+		factor = 200
+		modifier = {
+			factor = 0
+			owner = {
+				is_at_war = yes
+			}
+		}
 	}
 }
 
@@ -224,7 +230,17 @@ evillage = {
 	}
 	
 	ai_will_do = {
-		factor = 0
+		factor = 100
+		modifier = {
+			factor = 0
+			owner = {
+				is_at_war = yes
+			}
+		}
+		modifier = {
+			factor = 1.5
+			unrest = 10
+		}
 	}
 }
 
@@ -250,7 +266,21 @@ farm1 = {
 	}
 	
 	ai_will_do = {
-		factor = 0
+		factor = 100
+		modifier = {
+			factor = 0
+			owner = {
+				is_at_war = yes
+			}
+		}
+		modifier = {
+			factor = 1.5
+			base_production = 400
+		}
+		modifier = {
+			factor = 2
+			base_production = 600
+		}
 	}
 }
 
@@ -278,7 +308,21 @@ farm2 = {
 	}
 	
 	ai_will_do = {
-		factor = 0
+		factor = 100
+		modifier = {
+			factor = 0
+			owner = {
+				is_at_war = yes
+			}
+		}
+		modifier = {
+			factor = 1.5
+			base_production = 400
+		}
+		modifier = {
+			factor = 2
+			base_production = 600
+		}
 	}
 }
 
@@ -303,7 +347,21 @@ pmine = {
 	}
 	
 	ai_will_do = {
-		factor = 0
+		factor = 100
+		modifier = {
+			factor = 0
+			owner = {
+				is_at_war = yes
+			}
+		}
+		modifier = {
+			factor = 1.5
+			base_production = 400
+		}
+		modifier = {
+			factor = 2
+			base_production = 600
+		}
 	}
 }
 
@@ -336,7 +394,21 @@ imine = {
 	}
 	
 	ai_will_do = {
-		factor = 0
+		factor = 100
+		modifier = {
+			factor = 0
+			owner = {
+				is_at_war = yes
+			}
+		}
+		modifier = {
+			factor = 1.5
+			base_production = 400
+		}
+		modifier = {
+			factor = 2
+			base_production = 600
+		}
 	}
 }
 
@@ -358,7 +430,13 @@ mworkshop = {
 	}
 	
 	ai_will_do = {
-		factor = 0
+		factor = 120
+		modifier = {
+			factor = 0
+			owner = {
+				is_at_war = yes
+			}
+		}
 	}
 }
 
@@ -377,7 +455,21 @@ workshop1 = {
 	}
 	
 	ai_will_do = {
-		factor = 0
+		factor = 100
+		modifier = {
+			factor = 0
+			owner = {
+				is_at_war = yes
+			}
+		}
+		modifier = {
+			factor = 1.5
+			base_production = 400
+		}
+		modifier = {
+			factor = 2
+			base_production = 600
+		}
 	}
 }
 
@@ -396,7 +488,21 @@ workshop2 = {
 	}
 	
 	ai_will_do = {
-		factor = 0
+		factor = 100
+		modifier = {
+			factor = 0
+			owner = {
+				is_at_war = yes
+			}
+		}
+		modifier = {
+			factor = 1.5
+			base_production = 400
+		}
+		modifier = {
+			factor = 2
+			base_production = 600
+		}
 	}
 }
 
@@ -415,7 +521,21 @@ workshop3 = {
 	}
 	
 	ai_will_do = {
-		factor = 0
+		factor = 100
+		modifier = {
+			factor = 0
+			owner = {
+				is_at_war = yes
+			}
+		}
+		modifier = {
+			factor = 1.5
+			base_production = 400
+		}
+		modifier = {
+			factor = 2
+			base_production = 600
+		}
 	}
 }
 
@@ -594,7 +714,13 @@ mschool = {
 	}
 	
 	ai_will_do = {
-		factor = 0
+		factor = 50
+		modifier = {
+			factor = 0
+			owner = {
+				is_at_war = yes
+			}
+		}
 	}
 }
 
@@ -616,7 +742,13 @@ umobile = {
 	}
 	
 	ai_will_do = {
-		factor = 0
+		factor = 75
+		modifier = {
+			factor = 0
+			owner = {
+				is_at_war = yes
+			}
+		}
 	}
 }
 
@@ -637,7 +769,13 @@ rmobile = {
 	}
 	
 	ai_will_do = {
-		factor = 0
+		factor = 75
+		modifier = {
+			factor = 0
+			owner = {
+				is_at_war = yes
+			}
+		}
 	}
 }
 
@@ -660,7 +798,17 @@ ntemple = {
 	}
 	
 	ai_will_do = {
-		factor = 0
+		factor = 75
+		modifier = {
+			factor = 0
+			owner = {
+				is_at_war = yes
+			}
+		}
+		modifier = {
+			factor = 150
+			has_owner_religion = no
+		}
 	}
 }
 
@@ -702,7 +850,13 @@ massforts = {
 	}
 	
 	ai_will_do = {
-		factor = 0
+		factor = 50
+		modifier = {
+			factor = 0
+			owner = {
+				is_at_war = yes
+			}
+		}
 	}
 }
 
@@ -725,7 +879,21 @@ mp1 = {
 	}
 	
 	ai_will_do = {
-		factor = 0
+		factor = 100
+		modifier = {
+			factor = 0
+			owner = {
+				is_at_war = yes
+			}
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { province_trade_power = 5 }
+		}		
+		modifier = {
+			factor = 20
+			province_trade_power = 10
+		}
 	}
 }
 
@@ -743,7 +911,21 @@ mp2 = {
 	}
 	
 	ai_will_do = {
-		factor = 0
+		factor = 100
+		modifier = {
+			factor = 0
+			owner = {
+				is_at_war = yes
+			}
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { province_trade_power = 5 }
+		}		
+		modifier = {
+			factor = 20
+			province_trade_power = 10
+		}
 	}
 }
 
@@ -761,7 +943,21 @@ mp3 = {
 	}
 	
 	ai_will_do = {
-		factor = 0
+		factor = 100
+		modifier = {
+			factor = 0
+			owner = {
+				is_at_war = yes
+			}
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { province_trade_power = 5 }
+		}		
+		modifier = {
+			factor = 20
+			province_trade_power = 10
+		}
 	}
 }
 
@@ -780,7 +976,21 @@ mp4 = {
 	}
 	
 	ai_will_do = {
-		factor = 0
+		factor = 100
+		modifier = {
+			factor = 0
+			owner = {
+				is_at_war = yes
+			}
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { province_trade_power = 5 }
+		}		
+		modifier = {
+			factor = 20
+			province_trade_power = 10
+		}
 	}
 }
 
@@ -798,7 +1008,21 @@ mp5 = {
 	}
 	
 	ai_will_do = {
-		factor = 0
+		factor = 100
+		modifier = {
+			factor = 0
+			owner = {
+				is_at_war = yes
+			}
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { province_trade_power = 5 }
+		}		
+		modifier = {
+			factor = 20
+			province_trade_power = 10
+		}
 	}
 }
 
@@ -821,7 +1045,13 @@ tguild = {
 	}
 	
 	ai_will_do = {
-		factor = 0
+		factor = 33
+		modifier = {
+			factor = 0
+			owner = {
+				is_at_war = yes
+			}
+		}
 	}
 }
 

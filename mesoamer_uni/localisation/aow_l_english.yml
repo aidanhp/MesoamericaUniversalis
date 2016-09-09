@@ -404,7 +404,7 @@
  LIB_TOO_HIGH_TARIFF:0 "$CHANGE$ due to Effective Tariff $TARIFF|Y$ higher than current Liberty desire $CURRENT|Y$.\n"
  LIB_FROM_OVERLORD:0 "$CHANGE$ due to War Exhaustion in §Y$OVERLORD$§!.\n"
  LIBERTY_DESIRE:0 "$COUNTRY$ Liberty desire: $VAL$"
- LIBERTY_DESIRE_FROM_TEMP:0 "Events and Province Defections: $VAL$"
+ LIBERTY_DESIRE_FROM_TEMP:0 "Loyalty: $VAL$"
  LIBERTY_DESIRE_FROM_TARIFFS:0 "Tariffs: $VAL$"
  LIBERTY_DESIRE_FROM_MARCH:0 "Is a March: $VAL$"
  LIBERTY_DESIRE_FROM_ROYAL_MARRIAGE:0 "Royal Marriage with §Y$OVERLORD$§!: $VAL$"

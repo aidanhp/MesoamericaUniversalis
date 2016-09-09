@@ -543,6 +543,16 @@ HHH     = "countries/Zirondaro.txt"
 HHI     = "countries/Huanimaro.txt"
 HHJ     = "countries/Coalcoman.txt"
 
+#Mixtec/Zapotec Additions
+HHK =   "countries/Juchatengo.txt"
+HHL =   "countries/Juquila.txt"
+HHM =   "countries/Jamiltepec.txt"
+HHN =   "countries/Acatepec.txt"
+HHO =   "countries/Suchixtepec.txt"
+HHP =   "countries/Pochulta.txt"
+HHQ =   "countries/Huatulco.txt"
+HHS =   "countries/Huamelula.txt"
+
 #Formables
 TLT     = "countries/ToltecEmpire.txt"
 LEA     = "countries/ActualLeague.txt"

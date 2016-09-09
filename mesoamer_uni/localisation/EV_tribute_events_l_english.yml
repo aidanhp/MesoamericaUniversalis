@@ -17,27 +17,28 @@
  tributecoll2.dd: "Manage a different area."
  
  tributecoll3.t: "Set Warrior Requirements"
- tributecoll3.d: "When a city pays us tribute in warriors, how much should they pay? \n *Selecting the high option will increase the base likelihood for a vassal to refuse to pay, the low option will do the opposite.*" 
+ tributecoll3.d: "When a city pays us tribute in warriors, how much should they pay? \nRemember, once you change your tribute requirements you will be unable to do so again for two years." 
  tributecoll3.a: "Require 6% of a city's fighting men from each city each year."
  tributecoll3.b: "Require 4% of a city's fighting men from each city each year."
  tributecoll3.c: "Require 2% of a city's fighting men from each city each year."
  tributecoll3.dd: "Manage a different area."
  
  tributecoll4.t: "Set Supplies Requirements"
- tributecoll4.d: "When a city pays us tribute in supplies, how much should they pay? \n *Selecting the high option will increase the base likelihood for a vassal to refuse to pay, the low option will do the opposite.*" 
+ tributecoll4.d: "When a city pays us tribute in supplies, how much should they pay? \nRemember, once you change your tribute requirements you will be unable to do so again for two years." 
  tributecoll4.a: "Require 6 large bins of local goods."
  tributecoll4.b: "Require 4 large bins of local goods."
  tributecoll4.c: "Require 2 large bins of local goods."
  tributecoll4.dd: "Manage a different area."
  
+ #Tribute Collection Event
  tributecoll5.t: "Time for Tribute"
  tributecoll5.d: "The time of the year has come for our vassals to pay us the tribute that we have put forth in our requirements. Let us hope they stay loyal, and let us exact quick revenge if they do not." 
  tributecoll5.a: "Send out the collectors!"
  
  tributecoll6.t: "Yearly Tribute Payment"
- tributecoll6.d: "Our overlord $FROMCOUNTRY$ is requesting that we pay the required yearly tribute. Staying loyal will win us favor with them, and refusing to pay will break our vassalage but put us at great risk of retribution."
+ tributecoll6.d: "Our overlord $FROMCOUNTRY$ is requesting that we pay the required yearly tribute. Staying loyal will ensure their continued protection, and refusing to pay will break our vassalage but put us at great risk of retribution."
  tributecoll6.a: "Pay the collector."
- tributecoll6.b: "Refuse to pay."
+ tributecoll6.b: "Refuse to pay!"
 
  tributecoll7.t: "$FROMCOUNTRY$ Pays Tribute"
  tributecoll7.d: "$FROMCOUNTRY$ has agreed to pay their yearly tribute."
@@ -46,3 +47,8 @@
  tributecoll8.t: "$FROMCOUNTRY$ Refuses to Pay Tribute"
  tributecoll8.d: "$FROMCOUNTRY$ has refused to pay tribute to us! They have broken away from our control and killed our tribute collector."
  tributecoll8.a: "This insolence will not go unpunished!"
+ 
+ #Display Revolt Risk Event
+ rrisk2.t: "Loyalty Report"
+ rrisk2.d: "Our spies report that the global loyalty of our subjects changed the liberty desire of our subjects by [Root.subjectrevoltrisk.GetValue] last month. \n\nThis number is decreased by: \n•Certain Ideas \n•High Prestige \n•Low Tribute Requirements \n•High Legitimacy \n•Winning Battles \n•Winning Wars \n\nThis number is increased by: \n•Certain Ideas \n•Having a very small army \n•High Tribute Requirements \n•Low Legitimacy \n•Negative Stability \n•Losing Battles \n•Losing Wars"
+ rrisk2.a: "Very well."

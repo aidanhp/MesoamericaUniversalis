@@ -160,3 +160,11 @@
  desc_resettled_colonists: "We have recently resettled colonists to this province, and they aren't particularily happy about it."
  has_resettled: "Recent Resettlement"
  desc_has_resettled: "We have recently resettled people to our colonies. Doing so again might make things a little too tense in the colonies, we need to wait a while."
+ 
+ #Province Devestation Modifiers
+ damaged_by_war: "Damaged by War"
+ desc_damaged_by_war: "Occupation in a recent war has damaged this province. What was lost is in the process of being rebuilt."
+ devestated_by_war: "Devestated by War"
+ desc_devestated_by_war: "Occupation in a recent war was devestated this already damaged province. What was lost is in the process of being rebuilt, but it will take a long time to return it to what it once was. \n§RThis province will not experience population growth while this modifier is active.§!"
+ annihilated_by_war: "Annihilated by War"
+ desc_annihilated_by_war: "Occupation in a recent war has completely annihilated this already devestated province. It is being rebuilt, but will likely never be the same again. \n§RThis province will not experience population growth or bins production while this modifier is active.§!"

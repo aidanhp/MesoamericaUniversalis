@@ -1,0 +1,19 @@
+#Special Modifiers for the Population System
+
+damaged_by_war = {
+	local_tax_modifier = -0.05
+	local_manpower_modifier = -0.05
+	province_trade_power_modifier = -0.25
+}
+
+devestated_by_war = {
+	local_tax_modifier = -0.10
+	local_manpower_modifier = -0.10
+	province_trade_power_modifier = -0.50
+}
+
+annihilated_by_war = {
+	local_tax_modifier = -0.15
+	local_manpower_modifier = -0.15
+	province_trade_power_modifier = -0.95
+}
