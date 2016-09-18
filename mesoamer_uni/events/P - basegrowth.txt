@@ -1,4 +1,4 @@
-﻿namespace = populations
+namespace = populations
 
 country_event = {
 	id = populations.01
@@ -6,39 +6,15 @@ country_event = {
 	title = "popup1.t"
 	desc = "popup1.d"
 	picture = ECONOMY_eventPicture
+	
+	is_triggered_only = yes
 
-	major = yes
-	trigger = {
-		AND = {
-			tag = TEN
-			year = 1428
-			NOT = { has_country_modifier = recentpopchange }
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	immediate = {
-		hidden_effect = {
-			every_country = {
-				add_country_modifier = {
-					name = "recentpopchange"
-					duration = 365
-				}
-			}
-		}
-	}
+	hidden = yes
 
 	option = {
 		name = "popup1.a"
 		
 		hidden_effect = {
-			TEN = {
-				country_event = { id = populations2.01 }
-			}
-
 			if = {	
 				limit = {
 					TEN = {
@@ -50,15 +26,6 @@ country_event = {
 					add_manpower = 0.99
 				}
 			}
-			
-			#every_province = {
-			#	limit = {
-			#		has_building = law1
-			#	}
-			#	controller = {
-			#		change_variable = { which = legaltradition value = 10 }
-			#	}
-			#}
 
 			
 			#Base Pop Increase/Decrease

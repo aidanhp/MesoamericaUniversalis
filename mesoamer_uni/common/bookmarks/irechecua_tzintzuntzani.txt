@@ -2,7 +2,7 @@ bookmark =
 {
 	name = "IRECHECUA_TZINTZUNTZANI"
 	desc = "IRECHECUA_TZINTZUNTZANI_DESC"
-	date = 1428.1.30
+	date = 1428.1.31
 	
 	center = 84
 	default = no

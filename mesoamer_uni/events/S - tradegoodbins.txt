@@ -10,11 +10,6 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	#trigger = {
-	#	tag = AZC
-	#	NOT = { has_country_modifier = bincooldown }
-	#}
-	
 	immediate = {
 		AZC = {
 			country_event = { id = bins.01 days = 30 }
@@ -23,11 +18,44 @@ country_event = {
 		every_country = {
 			country_event = { id = rrisk.01 days = 30 }
 		}
-		hidden_effect = {
-			add_country_modifier = {
-				name = "bincooldown"
-				duration = 29
+		
+		if = { 
+			limit = { 
+				NOT = { is_year = 1429 }
+				TEN = {
+					NOT = { has_country_modifier = bincooldown }
+				}
 			}
+			TEN = {
+				country_event = { id = countrystats.01 days = 334 }
+				country_event = { id = populations.01 days = 334 }
+				country_event = { id = populations2.01 days = 334 }
+				add_country_modifier = { 
+					name = bincooldown
+					duration = 334
+				}
+			}
+		}
+		if = {
+			limit = {
+				is_year = 1429
+				TEN = {
+					NOT = { has_country_modifier = bincooldown }
+				}
+			}
+			TEN = {
+				country_event = { id = countrystats.01 days = 365 }
+				country_event = { id = populations.01 days = 365 }
+				country_event = { id = populations2.01 days = 365 }
+				add_country_modifier = { 
+					name = bincooldown
+					duration = 365
+				}
+			}
+		}
+	
+		TEN = {
+			country_event = { id = admini.02 days = 30 }
 		}
 	}
 

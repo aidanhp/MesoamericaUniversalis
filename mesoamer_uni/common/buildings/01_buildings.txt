@@ -171,7 +171,7 @@ law3 = {
 
 	modifier = {
 		local_unrest = -6
-		local_tax_modifier = -0.04
+		local_tax_modifier = -0.03
 	}
 	
 	ai_will_do = {
@@ -617,14 +617,14 @@ cestate = {
 nschool = {
 	cost = 75
 	time = 12
-	allowed_num_of_buildings = 20
+	#allowed_num_of_buildings = 20
 	destroy_on_conquest = yes
 	#trigger = {
 	#NOTHING
 	#}
 
 	modifier = {
-		idea_cost = -0.005
+		#idea_cost = -0.005
 		local_tax_modifier = -0.01
 	}
 	
@@ -641,10 +641,10 @@ nuni = {
 	#trigger = {
 		
 	#}
-	allowed_num_of_buildings = 10
+	#allowed_num_of_buildings = 10
 	modifier = {
-		idea_cost = -0.005
-		technology_cost = -0.005
+		#idea_cost = -0.005
+		#technology_cost = -0.005
 		local_tax_modifier = -0.02
 	}
 	
@@ -661,11 +661,11 @@ pschool = {
 	#trigger = {
 	#NOTHING
 	#}
-	allowed_num_of_buildings = 20
+	#allowed_num_of_buildings = 20
 	modifier = {
-		idea_cost = -0.005
-		technology_cost = -0.005
-		local_tax_modifier = -0.025
+		#idea_cost = -0.005
+		#technology_cost = -0.005
+		local_tax_modifier = -0.03
 	}
 	
 	ai_will_do = {
@@ -681,11 +681,11 @@ puni = {
 	#trigger = {
 	#NOTHING
 	#}
-	allowed_num_of_buildings = 10
+	#allowed_num_of_buildings = 10
 	modifier = {
-		idea_cost = -0.005
-		technology_cost = -0.005
-		local_tax_modifier = -0.05
+		#idea_cost = -0.005
+		#technology_cost = -0.005
+		local_tax_modifier = -0.04
 	}
 	
 	ai_will_do = {

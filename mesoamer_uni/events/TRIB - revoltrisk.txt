@@ -14,6 +14,7 @@ country_event = {
 	
 	option = {
 		name = "rrisk1.a"
+		ROOT = { 
 		every_subject_country = {
 			limit = {
 				always = yes
@@ -50,7 +51,7 @@ country_event = {
 			if = {
 				limit = {
 					overlord = {
-						has_idea = formalreqs
+						has_idea = expanddip2
 					}
 				}
 				add_liberty_desire = -0.25
@@ -68,18 +69,6 @@ country_event = {
 				add_liberty_desire = -0.25
 				overlord = {
 					change_variable = { which = subjectrevoltrisk value = -0.25 }
-				}
-			}
-			
-			if = {
-				limit = {
-					overlord = {
-						has_idea = lawcode
-					}
-				}
-				add_liberty_desire = -0.50
-				overlord = {
-					change_variable = { which = subjectrevoltrisk value = -0.50 }
 				}
 			}
 			
@@ -535,6 +524,7 @@ country_event = {
 		}
 		change_variable = { which = subjectrevoltrisk which = warsandbattlesrrisk }
 		subtract_variable = { which = warsandbattlesrrisk which = warsandbattlesrrisk }
+	}
 	}
 }
 

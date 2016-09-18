@@ -11,6 +11,9 @@ country_event = {
 	picture = ECONOMY_eventPicture
 
 	is_triggered_only = yes
+	
+	hidden = yes 
+	
 	fire_only_once = yes
 	
 	trigger = {
@@ -118,7 +121,10 @@ country_event = {
 				set_variable = { which = msestimate value = 0 }
 				#Revolt risk
 				set_variable = { which = subjectrevoltrisk value = 0 }
-				
+				#Administrative Influence
+				set_variable = { which = admin_influence_overlord value = 0 }
+				set_variable = { which = admin_influence_home value = 0 }
+				set_variable = { which = admin_influence_other value = 0 }
 				
 				###############################################
 				#Remove Starting Manpower to Recalculate Later#
@@ -133,6 +139,165 @@ country_event = {
 				#	duration = 1
 				#}
 			}
+			
+			##########################
+			#Setup - Government Stats#
+			##########################
+			every_country = {
+				set_variable = { which = centralization value = 0 }
+				set_variable = { which = legaltradition value = 0 }
+				set_variable = { which = meritocratictradition value = 0 }
+				set_variable = { which = religioustradition value = 0 }
+				set_variable = { which = intellectualtradition value = 0 }
+				set_variable = { which = militancy value = 0 }
+				
+				if = {
+					limit = {
+						OR = { 
+							government = altepetl
+						}
+						NOT = { tag = TET }
+						NOT = { tag = TCP }
+					}
+					change_variable = { which = centralization value = -50 }
+					change_variable = { which = legaltradition value = -15 }
+					change_variable = { which = meritocratictradition value = 10 }
+					change_variable = { which = religioustradition value = 30 }
+					change_variable = { which = intellectualtradition value = -15 }
+					change_variable = { which = militancy value = 10 }
+				}
+				
+				if = {
+					limit = {
+						OR = { 
+							tag = TCP
+						}
+					}
+					change_variable = { which = centralization value = -55 }
+					change_variable = { which = legaltradition value = 15 }
+					change_variable = { which = meritocratictradition value = 15 }
+					change_variable = { which = religioustradition value = 35 }
+					change_variable = { which = intellectualtradition value = 15 }
+					change_variable = { which = militancy value = 25 }
+				}
+				
+				if = {
+					limit = {
+						OR = { 
+							tag = TET
+						}
+					}
+					change_variable = { which = centralization value = -55 }
+					change_variable = { which = legaltradition value = 25 }
+					change_variable = { which = meritocratictradition value = 15 }
+					change_variable = { which = religioustradition value = 35 }
+					change_variable = { which = intellectualtradition value = 25 }
+					change_variable = { which = militancy value = 25 }
+				}
+				
+				if = {
+					limit = {
+						OR = { 
+							tag = TEN
+						}
+					}
+					change_variable = { which = centralization value = -55 }
+					change_variable = { which = legaltradition value = 23 }
+					change_variable = { which = meritocratictradition value = 21 }
+					change_variable = { which = religioustradition value = 50 }
+					change_variable = { which = intellectualtradition value = 23 }
+					change_variable = { which = militancy value = 35 }
+				}
+				
+				if = {
+					limit = {
+						OR = { 
+							government = tribal_confederation
+						}
+					}
+					change_variable = { which = centralization value = -65 }
+					change_variable = { which = legaltradition value = -35 }
+					change_variable = { which = meritocratictradition value = 45 }
+					change_variable = { which = religioustradition value = 35 }
+					change_variable = { which = intellectualtradition value = -25 }
+					change_variable = { which = militancy value = 10 }
+				}
+				
+				if = {
+					limit = {
+						OR = { 
+							government = mayapan
+						}
+					}
+					change_variable = { which = centralization value = -65 }
+					change_variable = { which = legaltradition value = -15 }
+					change_variable = { which = meritocratictradition value = -5 }
+					change_variable = { which = religioustradition value = 45 }
+					change_variable = { which = intellectualtradition value = -35 }
+					change_variable = { which = militancy value = -15 }
+				}
+				
+				if = {
+					limit = {
+						OR = { 
+							government = kuchkabal
+						}
+						NOT = { tag = KKG }
+						NOT = { tag = KAQ }
+					}
+					change_variable = { which = centralization value = 5 }
+					change_variable = { which = legaltradition value = 2 }
+					change_variable = { which = meritocratictradition value = 2 }
+					change_variable = { which = religioustradition value = 45 }
+					change_variable = { which = intellectualtradition value = -5 }
+					change_variable = { which = militancy value = -25 }
+				}
+				
+				if = {
+					limit = {
+						OR = { 
+							tag = KKG
+							tag = KAQ
+						}
+					}
+					change_variable = { which = centralization value = 15 }
+					change_variable = { which = legaltradition value = 15 }
+					change_variable = { which = meritocratictradition value = 22 }
+					change_variable = { which = religioustradition value = 45 }
+					change_variable = { which = intellectualtradition value = 25 }
+					change_variable = { which = militancy value = 5 }
+				}
+				
+				if = {
+					limit = {
+						OR = { 
+							government = tlaxcallan_confederate
+						}
+					}
+					change_variable = { which = centralization value = -35 }
+					change_variable = { which = legaltradition value = 30 }
+					change_variable = { which = meritocratictradition value = 70 }
+					change_variable = { which = religioustradition value = 40 }
+					change_variable = { which = intellectualtradition value = 15 }
+					change_variable = { which = militancy value = -30 }
+				}
+				
+				if = {
+					limit = {
+						OR = { 
+							government = tarascan_tribute_kingdom
+						}
+					}
+					change_variable = { which = centralization value = 30 }
+					change_variable = { which = legaltradition value = 30 }
+					change_variable = { which = meritocratictradition value = 25 }
+					change_variable = { which = religioustradition value = 50 }
+					change_variable = { which = intellectualtradition value = 21 }
+					change_variable = { which = militancy value = 35 }
+				}
+				
+			}
+			
 			
 			##################################
 			#Setup- Altepetl Type Governments#
@@ -220,6 +385,34 @@ country_event = {
 			77 = {
 				add_province_modifier = {
 					name = tlaxcalaforts
+					duration = -1
+				}
+			}
+			
+			1 = {
+				add_province_modifier = {
+					name = importantcity
+					duration = -1
+				}
+			}
+			
+			3 = {
+				add_province_modifier = {
+					name = importantcity
+					duration = -1
+				}
+			}
+			
+			26 = {
+				add_province_modifier = {
+					name = importantcity
+					duration = -1
+				}
+			}
+			
+			84 = {
+				add_province_modifier = {
+					name = importantcity
 					duration = -1
 				}
 			}
@@ -355,18 +548,26 @@ country_event = {
 				add_building = watergarden
 			}
 			
+			################
+			################
+			#Initial Events#
+			################
+			################
+			
+			#First pop event 
+			
 			
 			#######
 			#Tests#
 			#######
-			every_country = {
-				set_variable = { which = legaltradition value = 10 }
-			}
 			
 			AZC = {
 				country_event = { id = bins.01 days = 1 }
 			}
 			
+			TEN = {
+				country_event = { id = populations.01 days = 1  }
+			}
 		}
 	}
 	

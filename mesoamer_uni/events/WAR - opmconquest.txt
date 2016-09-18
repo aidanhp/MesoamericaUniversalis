@@ -1,0 +1,177 @@
+namespace = opmconquest
+
+#This event is meant to make conquering OPMs more fun and less of a pain in the goddamn asshole
+#If you occupy an OPM's capital, they have a chance of just surrendering to you and ending the war
+country_event = {
+		id = opmconquest.01
+		
+		title = "opmconquest1.t"
+		desc = "opmconquest1.d"
+		
+		picture = COUNTRY_COLLAPSE_eventPicture
+		
+		trigger = {
+			capital_scope = { 
+				NOT = { controlled_by = ROOT }
+				NOT = { controlled_by = REB }
+				has_province_modifier = occupation
+				has_siege = no
+			}
+		}
+		
+		mean_time_to_happen = {
+			months = 12
+			modifier = {
+				capital_scope = { 
+				controller = {
+					OR = { 
+						government = tribal_confederation
+						government = mayapan
+						government = kuchkabal
+						government = centralized_altepetl
+						government = centralized_kingdom
+						government = centralized_empire
+						government = tlaxcallan_confederate
+						government = tarascan_tribute_kingdom
+					}
+				}
+				}
+				factor = 1.5
+			}
+			modifier = {
+				capital_scope = {
+					controller = {
+						OR = { 
+							tag = TEN
+							tag = TET
+							tag = TCP
+							tag = IUA
+						}
+					}
+				}
+				factor 0.75
+			}
+			modifier = {
+				capital_scope = { 
+					owner  = {
+						num_of_cities = 2
+					}
+				}
+				factor = 0
+			}
+			modifier = {
+				AND = {
+					any_country = {
+						offensive_war_with = ROOT
+					}
+					num_of_allies = 1
+				}
+				modifier = 1.5
+			}
+			
+			modifier = { 
+				war_score = 100
+				factor = 0
+			}
+			modifier = { 
+				war_score = 75
+				factor = 6
+			}
+			modifier = { 
+				war_score = 50
+				factor = 4
+			}
+			modifier = { 
+				war_score = 25
+				factor = 2
+			}
+			modifier = { 
+				NOT = { war_score = 0 }
+				factor = 0.95
+			}
+			modifier = { 
+				NOT = { war_score = -25 }
+				factor = 0.85
+			}
+			modifier = { 
+				NOT = { war_score = -50 }
+				factor = 0.7
+			}
+		}
+		
+		option = {
+			name = "opmconquest1.a"
+			capital_scope = { 
+				controller = { 
+					country_event = { id = opmconquest.02 }
+				}
+			}
+		}
+}
+
+country_event = {
+	id = opmconquest.02
+		
+	title = "opmconquest2.t"
+	desc = "opmconquest2.d"
+		
+	picture = COUNTRY_COLLAPSE_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "opmconquest2.a"
+		
+		#Cedes OPM capital to you if you can take provinces
+		if = { 
+			limit = { 
+				OR = {
+					government = tribal_confederation
+					government = mayapan
+					government = kuchkabal
+					government = centralized_altepetl
+					government = centralized_kingdom
+					government = centralized_empire
+					government = tlaxcallan_confederate
+					government = tarascan_tribute_kingdom
+				}
+			}
+			FROM = {
+				capital_scope = { 
+					remove_province_modifier = occupation
+					cede_province = ROOT
+				}
+			}
+		}
+		#OPM becomes tributary if you can't take provinces
+		if = {
+			limit = {
+				OR = { 
+					government = altepetl
+					government = hegemonic_kingdom
+					government = hegemonic_empire
+				}
+			}
+			ROOT = {
+				hidden_effect = { 
+					FROM = {
+						capital_scope = {
+							cede_province = ROOT
+						}
+					}
+				}
+				hidden_effect = {
+					release_vassal = FROM
+				}
+				create_protectorate = FROM
+			}
+			FROM = { 
+				hidden_effect = {
+					every_owned_province = {
+						remove_province_modifier = occupation
+					}
+				}
+			}
+		}
+	}
+}

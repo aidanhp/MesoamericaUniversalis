@@ -199,7 +199,7 @@ no_adjacent_controlled = {
 provincial_tax_income = {
 	global_tax_income = 0.05
 	#local_tax_modifier = -0.0019
-	#regiment_recruit_speed = -0.001
+	regiment_recruit_speed = -0.001
 }
 
 provincial_production_size = {
@@ -431,6 +431,7 @@ base_values = {
 	priests_influence = 0.05
 	currentdynasty_influence = -0.05
 	merc_maintenance_modifier = 1.5
+	land_maintenance_modifier = -0.50
 	merchants = 2							#Start with 2 merchants
 	diplomats = 2							#Start with 2 diplomats..
 	#missionaries = 1						#1 missionary

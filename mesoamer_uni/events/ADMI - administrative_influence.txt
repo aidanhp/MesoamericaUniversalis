@@ -1,0 +1,843 @@
+namespace = admini
+
+#Displays Administrative Influence Change
+country_event = {
+	id = admini.01
+
+	title = "admini1.t"
+	desc = "admini1.d"
+	picture = CITY_VIEW_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "admini1.a"
+		clr_country_flag = daidisplaying
+	}
+}
+
+#Updates Administrative Influence
+country_event = {
+	id = admini.02
+
+	title = "admini2.t"
+	desc = "admini2.d"
+	picture = CITY_VIEW_eventPicture
+
+	is_triggered_only = yes
+	
+	hidden = yes
+	
+	##########################################################################################
+	#This Event is EXTREMELY Important - Don't mess with it unless you know what you're doing!
+	#When adding a global administrative influence change (affects every city as long as the overlord meets the criteria), put it in **BOTH** OVERLORD AND SUBJECT SECTIONS
+	#When adding a city by city(affects only cities that meet the criteria) administrative influence change put it in the **INDIVIDUAL CITY CHANGE SECTION** in the subject section!
+	################################################################################################################################################################################
+	
+	option = {
+		name = "admini1.a"
+		
+		#UPDATES ADMIN INFLUENCE DISPLAY FOR THE OVERLORD
+		#NOTE - THE OVERLORD ONLY SEES GLOBAL CHANGE, NOT CHANGE ON A CITY BY CITY BASIS - THIS IS INTENDED!
+		every_country = {
+			limit = { 
+				OR =  {
+					num_of_vassals = 1
+					num_of_protectorates = 1
+				}
+			}
+			subtract_variable = { which =  admin_influence_other which = admin_influence_other }
+			subtract_variable = { which =  admin_influence_home which = admin_influence_home }
+			
+			change_variable = { which = admin_influence_other value = 0.02 }
+			change_variable = { which = admin_influence_home value = 0.05 }
+			if = {
+				limit = {
+					has_country_modifier = decentralization_5
+				}	
+				change_variable = { which = admin_influence_other value = -0.05 }
+				change_variable = { which = admin_influence_home value = -0.05 }
+			}
+				
+			if = {
+				limit = {
+					has_country_modifier = decentralization_4
+				}
+				change_variable = { which = admin_influence_other value = -0.04 }
+				change_variable = { which = admin_influence_home value = -0.04 }
+			}
+				
+			if = {
+				limit = {
+					has_country_modifier = decentralization_3
+				}
+				change_variable = { which = admin_influence_other value = -0.03 }
+				change_variable = { which = admin_influence_home value = -0.03 }
+			}
+				
+			if = {
+				limit = {
+					has_country_modifier = decentralization_2
+				}	
+				change_variable = { which = admin_influence_other value = -0.02 }
+				change_variable = { which = admin_influence_home value = -0.02 }
+			}
+				
+			if = {
+				limit = {
+					has_country_modifier = decentralization_1
+				}
+				change_variable = { which = admin_influence_other value = -0.01 }
+				change_variable = { which = admin_influence_home value = -0.01 }	
+			}
+				
+			if = {
+				limit = {
+					has_country_modifier = centralization_1
+				}
+				change_variable = { which = admin_influence_other value = 0.01 }
+				change_variable = { which = admin_influence_home value = 0.01 }
+			}
+				
+			if = {
+				limit = {
+					has_country_modifier = centralization_2
+				}	
+				change_variable = { which = admin_influence_other value = 0.02 }
+				change_variable = { which = admin_influence_home value = 0.02 }	
+			}
+				
+			if = {
+				limit = {
+					has_country_modifier = centralization_3
+				}
+				change_variable = { which = admin_influence_other value = 0.03 }
+				change_variable = { which = admin_influence_home value = 0.03 }
+			}
+				
+			if = {
+				limit = { 
+					has_country_modifier = centralization_4
+				}
+				change_variable = { which = admin_influence_other value = 0.04 }
+				change_variable = { which = admin_influence_home value = 0.04 }
+			}
+				
+			if = {
+				limit = {
+					has_country_modifier = centralization_5
+				}	
+				change_variable = { which = admin_influence_other value = 0.05 }
+				change_variable = { which = admin_influence_home value = 0.05 }
+			}
+				
+			if = {
+				limit = {
+					OR = { 
+						has_country_modifier = weaklaw_5
+					}
+				}
+				change_variable = { which = admin_influence_other value = -0.03 }
+				change_variable = { which = admin_influence_home value = -0.03 }
+			}
+				
+			if = {
+				limit = {
+					OR = {  
+						has_country_modifier = weaklaw_4
+						has_country_modifier = weaklaw_3
+					}
+				}	
+				change_variable = { which = admin_influence_other value = -0.02 }
+				change_variable = { which = admin_influence_home value = -0.02 }
+			}
+			
+			if = {
+				limit = {
+					OR = { 
+						has_country_modifier = weaklaw_2
+						has_country_modifier = weaklaw_1
+					}
+				}	
+				change_variable = { which = admin_influence_other value = -0.01 }
+				change_variable = { which = admin_influence_home value = -0.01 }
+			}
+				
+			if = {
+				limit = {
+					OR = { 
+						has_country_modifier = stronglaw_1
+						has_country_modifier = stronglaw_2
+					}
+				}
+				change_variable = { which = admin_influence_other value = 0.01 }
+				change_variable = { which = admin_influence_home value = 0.01 }
+			}
+				
+			if = {
+				limit = {
+					OR = { 
+						has_country_modifier = stronglaw_3
+						has_country_modifier = stronglaw_4
+					}
+				}
+				change_variable = { which = admin_influence_other value = 0.02 }
+				change_variable = { which = admin_influence_home value = 0.02 }	
+			}
+				
+			if = {
+				limit = {
+					OR = { 
+						has_country_modifier = stronglaw_5
+					}	
+				}
+				change_variable = { which = admin_influence_other value = 0.03 }
+				change_variable = { which = admin_influence_home value = 0.03 }
+			}
+				
+			if = {
+				limit = {
+					adm = 2
+				}	
+				change_variable = { which = admin_influence_other value = 0.01 }
+				change_variable = { which = admin_influence_home value = 0.01 }
+			}
+				
+			if = {
+				limit = {
+					adm = 4
+				}
+				change_variable = { which = admin_influence_other value = 0.01 }
+				change_variable = { which = admin_influence_home value = 0.01 }
+			}
+				
+			if = {
+				limit = {
+					adm = 6
+				}
+				change_variable = { which = admin_influence_other value = 0.01 }
+				change_variable = { which = admin_influence_home value = 0.01 }
+			}
+				
+			if = {
+				limit = {
+					has_idea = formalreqs
+				}	
+				change_variable = { which = admin_influence_other value = 0.01 }
+				change_variable = { which = admin_influence_home value = 0.01 }
+			}
+				
+			if = {
+				limit = {
+					has_idea = tributeministers
+				}	
+				change_variable = { which = admin_influence_other value = 0.01 }
+				change_variable = { which = admin_influence_home value = 0.01 }
+			}
+				
+			if = {
+				limit = {
+					has_idea = lawcode
+				}	
+				change_variable = { which = admin_influence_other value = 0.01 }
+				change_variable = { which = admin_influence_home value = 0.01 }
+			}
+				
+			if = {
+				limit = {
+					has_idea = closefriends
+				}
+				
+				change_variable = { which = admin_influence_other value = 0.02 }
+				change_variable = { which = admin_influence_home value = 0.02 }
+			}
+				
+			if = {
+				limit = {
+					has_idea = conqueststate
+				}
+					
+				change_variable = { which = admin_influence_other value = 0.02 }
+				change_variable = { which = admin_influence_home value = 0.02 }
+			}
+				
+			if = {
+				limit = {
+					has_idea = ruleoflaw
+				}
+				
+				change_variable = { which = admin_influence_other value = 0.01 }
+				change_variable = { which = admin_influence_home value = 0.01 }
+			}
+				
+			if = {
+				limit = {
+					has_idea = totalassim
+				}
+					
+				change_variable = { which = admin_influence_other value = 0.02 }
+				change_variable = { which = admin_influence_home value = 0.02 }
+			}
+				
+			if = {
+				limit = {
+					has_idea = fullexploit
+				}	
+				change_variable = { which = admin_influence_other value = 0.02 }
+				change_variable = { which = admin_influence_home value = 0.02 }			
+			}
+				
+			if = {
+				limit = {
+					has_idea = unitedidentity
+				}			
+				change_variable = { which = admin_influence_other value = 0.02 }
+				change_variable = { which = admin_influence_home value = 0.02 }
+			}
+
+			if = {
+				limit = {
+					adm = 2
+				}	
+				change_variable = { which = admin_influence_other value = 0.01 }
+				change_variable = { which = admin_influence_home value = 0.01 }
+			}
+				
+			if = {
+				limit = {
+					adm = 4
+				}
+				change_variable = { which = admin_influence_other value = 0.01 }
+				change_variable = { which = admin_influence_home value = 0.01 }
+			}
+				
+			if = {
+				limit = {
+					adm = 6
+				}
+				change_variable = { which = admin_influence_other value = 0.01 }
+				change_variable = { which = admin_influence_home value = 0.01 }
+			}			
+		}
+		
+		#UPDATES CHANGE FOR SUBJECTS
+		#SUBJECTS SEE THE CHANGE FOR THEIR INDIVIDUAL CITY
+		every_subject_country = {
+			limit = {
+				check_variable = { which = admin_influence_overlord value = 0 }
+				NOT = { check_variable = { which = admin_influence_overlord value = 100 } }
+			}
+			
+			#Change AI from overlord's gov stats
+			if = {
+				limit = {
+					overlord = { 
+						has_country_modifier = decentralization_5
+					}
+				}	
+				change_variable = { which = admin_influence_overlord value = -0.05 }
+			}
+				
+			if = {
+				limit = {
+					overlord = { 
+						has_country_modifier = decentralization_4
+					}
+				}
+				change_variable = { which = admin_influence_overlord value = -0.04 }
+			}
+				
+			if = {
+				limit = {
+					overlord = { 
+						has_country_modifier = decentralization_3
+					}
+				}
+				change_variable = { which = admin_influence_overlord value = -0.03 }
+			}
+				
+			if = {
+				limit = {
+					overlord = { 
+						has_country_modifier = decentralization_2
+					}
+				}	
+				change_variable = { which = admin_influence_overlord value = -0.02 }
+			}
+				
+			if = {
+				limit = {
+					overlord = { 
+						has_country_modifier = decentralization_1
+					}
+				}
+				change_variable = { which = admin_influence_overlord value = -0.01 }
+			}
+				
+			if = {
+				limit = {
+					overlord = { 
+						has_country_modifier = centralization_1
+					}
+				}
+				change_variable = { which = admin_influence_overlord value = 0.01 }
+			}
+				
+			if = {
+				limit = {
+					overlord = { 
+						has_country_modifier = centralization_2
+					}
+				}	
+				change_variable = { which = admin_influence_overlord value = 0.02 }
+			}
+				
+			if = {
+				limit = {
+					overlord = { 
+						has_country_modifier = centralization_3
+					}
+				}
+				change_variable = { which = admin_influence_overlord value = 0.03 }
+			}
+				
+			if = {
+				limit = {
+					overlord = { 
+						has_country_modifier = centralization_4
+					}
+				}
+				change_variable = { which = admin_influence_overlord value = 0.04 }
+			}
+				
+			if = {
+				limit = {
+					overlord = { 
+						has_country_modifier = centralization_5
+					}
+				}	
+				change_variable = { which = admin_influence_overlord value = 0.05 }
+			}
+				
+			if = {
+				limit = {
+					OR = { 
+						overlord = {
+							has_country_modifier = weaklaw_5
+						}
+					}
+				}
+				change_variable = { which = admin_influence_overlord value = -0.03 }
+			}
+				
+			if = {
+				limit = {
+					OR = { 
+						overlord = { 
+							has_country_modifier = weaklaw_4
+							has_country_modifier = weaklaw_3
+						}
+					}
+				}	
+				change_variable = { which = admin_influence_overlord value = -0.02 }
+			}
+			
+			if = {
+				limit = {
+					OR = { 
+						overlord = {
+							has_country_modifier = weaklaw_2
+							has_country_modifier = weaklaw_1
+						}
+					}
+				}	
+				change_variable = { which = admin_influence_overlord value = -0.01 }
+			}
+				
+			if = {
+				limit = {
+					OR = { 
+						overlord = { 
+							has_country_modifier = stronglaw_1
+							has_country_modifier = stronglaw_2
+						}
+					}
+				}
+				change_variable = { which = admin_influence_overlord value = 0.01 }
+			}
+				
+			if = {
+				limit = {
+					OR = { 
+						overlord = { 
+							has_country_modifier = stronglaw_3
+							has_country_modifier = stronglaw_4
+						}
+					}
+				}
+				change_variable = { which = admin_influence_overlord value = 0.02 }
+			}
+				
+			if = {
+				limit = {
+					OR = { 
+						overlord = { 
+							has_country_modifier = stronglaw_5
+						}
+					}	
+				}
+				change_variable = { which = admin_influence_overlord value = 0.03 }
+			}
+			
+			#Change AI from overlord's ruler admin
+			if = {
+				limit = {
+					overlord = { 
+						adm = 2
+					}
+				}	
+				change_variable = { which = admin_influence_overlord value = 0.01 }
+			}
+				
+			if = {
+				limit = {
+					overlord = { 
+						adm = 4
+					}
+				}
+				change_variable = { which = admin_influence_overlord value = 0.01 }
+			}
+				
+			if = {
+				limit = {
+					overlord = { 
+						adm = 6
+					}
+				}
+				change_variable = { which = admin_influence_overlord value = 0.01 }
+			}
+				
+			#Changes AI from overlord's ideas
+			if = {
+				limit = {
+					overlord = { 
+						has_idea = formalreqs
+					}
+				}	
+				change_variable = { which = admin_influence_overlord value = 0.01 }
+			}
+				
+			if = {
+				limit = {
+					overlord = { 
+						has_idea = tributeministers
+					}
+				}	
+				change_variable = { which = admin_influence_overlord value = 0.01 }
+			}
+				
+			if = {
+				limit = {
+					overlord = {
+						has_idea = lawcode
+					}
+				}	
+				change_variable = { which = admin_influence_overlord value = 0.01 }
+			}
+				
+			if = {
+				limit = {
+					overlord = { 
+						has_idea = closefriends
+					}
+				}
+				
+				change_variable = { which = admin_influence_overlord value = 0.01 }
+			}
+				
+			if = {
+				limit = {
+					overlord = { 
+						has_idea = conqueststate
+					}
+				}
+					
+				change_variable = { which = admin_influence_overlord value = 0.02 }
+			}
+				
+			if = {
+				limit = {
+					overlord = { 
+						has_idea = ruleoflaw
+					}
+				}
+				
+				change_variable = { which = admin_influence_overlord value = 0.01 }
+			}
+				
+			if = {
+				limit = {
+					overlord = { 
+						has_idea = totalassim
+					}
+				}
+					
+				change_variable = { which = admin_influence_overlord value = 0.02 }
+			}
+				
+			if = {
+				limit = {
+					overlord = { 
+						has_idea = fullexploit
+					}
+				}	
+				change_variable = { which = admin_influence_overlord value = 0.02 }	
+			}
+				
+			if = {
+				limit = {
+					overlord = { 
+						has_idea = unitedidentity
+					}
+				}			
+				change_variable = { which = admin_influence_overlord value = 0.02 }
+			}		
+			
+			#Changes AI from subject's location
+			if = {
+				limit = {
+				OR = {
+					AND = {
+						overlord = {
+							capital_scope = {
+								region = mex1_region
+							}
+						}
+						capital_scope = {
+							region = mex1_region
+						}
+					}
+					AND = {
+						overlord = {
+							capital_scope = {
+								region = mex2_region
+							}
+						}
+						capital_scope = {
+							region = mex2_region
+						}
+					}
+					AND = {
+						overlord = {
+							capital_scope = {
+								region = mex3_region
+							}
+						}
+						capital_scope = {
+							region = mex3_region
+						}
+					}
+					AND = {
+						overlord = {
+							capital_scope = {
+								region = mex4_region
+							}
+						}
+						capital_scope = {
+							region = mex4_region
+						}
+					}
+					AND = {
+						overlord = {
+							capital_scope = {
+								region = mex5_region
+							}
+						}
+						capital_scope = {
+							region = mex5_region
+						}
+					}
+					AND = {
+						overlord = {
+							capital_scope = {
+								region = mex6_region
+							}
+						}
+						capital_scope = {
+							region = mex6_region
+						}
+					}
+				}
+				}
+				change_variable = { which = admin_influence_overlord value = 0.03 }
+			}
+			change_variable = { which = admin_influence_overlord value = 0.02 }
+			
+			
+			################################
+			#INDIVIDUAL CITY CHANGE SECTION#
+			#PUT CHANGES HERE IF YOU **DO NOT** WANT THE OVERLORD TO SEE THEM AND THEY AFFECT ADMINISTRATIVE INFLUENCE ON A PER CITY BASIS#
+			#**DO NOT** PUT GLOBAL CHANGES IN HERE!#
+			########################################
+			
+			
+			#Changes AI from subject's liberty desire
+			if = {
+				limit = {
+					liberty_desire = 0
+					NOT = { liberty_desire = 1 }
+				}
+				change_variable = { which = admin_influence_overlord value = 0.01 }
+			}
+			if = {
+				limit = {
+					liberty_desire = 1
+					NOT = { liberty_desire = 10 }
+				}
+				change_variable = { which = admin_influence_overlord value = -0.02 }
+			}
+			if = {
+				limit = {
+					liberty_desire = 10
+					NOT = { liberty_desire = 40 }
+				}
+				change_variable = { which = admin_influence_overlord value = -0.03 }
+			}
+			if = {
+				limit = {
+					liberty_desire = 40
+					NOT = { liberty_desire = 60 }
+				}
+				change_variable = { which = admin_influence_overlord value = -0.05 }
+			}
+			if = {
+				limit = {
+					liberty_desire = 60
+				}
+				change_variable = { which = admin_influence_overlord value = -0.08 }
+			}
+			
+			
+			#INCREASING CONTROL SECTION!
+			#If Subject reaches vassalization or annexation thresholds, vassalize or annex them. 
+			if = {
+				limit = {
+					check_variable = { which = admin_influence_overlord value = 50 }
+					NOT = { is_vassal = yes }
+				}
+				country_event = { id = admini.05 }
+			}
+			if = {
+				limit = { 
+					check_variable = { which = admin_influence_overlord value = 99 }
+				}
+				country_event = { id = admini.04 }
+			}
+			
+			#Decreasing Control
+			if = {
+				limit = {
+					NOT = { check_variable = { which = admin_influence_overlord value = 40 } }
+					is_vassal = yes
+				}
+				overlord = { 
+					create_protectorate = ROOT
+				}
+			}
+		}
+	}
+}
+
+#Cede the provinces of a vassal that you have 100 admin influence with to you
+country_event = {
+	id = admini.03
+
+	title = "admini3.t"
+	desc = "admini3.d"
+	picture = CITY_VIEW_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "admini3.a"
+		every_province = {
+			limit = {
+				owned_by = FROM
+			}
+			cede_province = ROOT
+			add_core = ROOT
+		}
+	}
+}
+
+#Event where a vassal you have 100 AI with decides to be annexed or go to war
+country_event = {
+	id = admini.04
+
+	title = "admini4.t"
+	desc = "admini4.d"
+	picture = CITY_VIEW_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "admini4.a"
+		overlord = {
+			country_event = { id = admini.03 }
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "admini4.b"
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Event where a tributary you have 50 AI with decides to become a vassal or go to war
+country_event = {
+	id = admini.05
+
+	title = "admini5.t"
+	desc = "admini5.d"
+	picture = CITY_VIEW_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "admini5.a"
+		overlord = {
+			country_event = { id = admini.06 }
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "admini5.b"
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Event where you vassalize a tributary that agrees to become a vassal
+country_event = {
+	id = admini.06
+
+	title = "admini6.t"
+	desc = "admini6.d"
+	picture = CITY_VIEW_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "admini6.a"
+		vassalize = FROM
+	}
+}

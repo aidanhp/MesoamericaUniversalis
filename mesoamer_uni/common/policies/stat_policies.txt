@@ -1,0 +1,147 @@
+centralization_of_power = {
+
+	monarch_power = ADM
+
+	potential = {
+			
+	}
+	allow = {
+		NOT = { has_active_policy = decentralization_of_power  }
+	}
+	
+	global_unrest = 1
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+decentralization_of_power = {
+
+	monarch_power = ADM
+
+	potential = {
+			
+	}
+	allow = {
+		NOT = { has_active_policy = centralization_of_power  }
+	}
+	
+	global_unrest = -1
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+strengthen_legal_system = { 
+	monarch_power = ADM
+
+	potential = {
+			
+	}
+	allow = {
+		
+	}
+	stability_cost_modifier = -0.10
+	global_tax_modifier = -0.025
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+promote_meritocracy = {
+
+	monarch_power = ADM
+
+	potential = {
+			
+	}
+	allow = {
+		NOT = { has_active_policy = promote_patrimonialism }
+	}
+	
+	global_tax_modifier = -0.025
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+promote_patrimonialism = {
+
+	monarch_power = ADM
+
+	potential = {
+			
+	}
+	allow = {
+		NOT = { has_active_policy = promote_meritocracy }
+	}
+	
+	global_tax_modifier = 0.025
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+promote_religious_dogma = {
+	monarch_power = DIP
+
+	potential = {
+			
+	}
+	allow = {
+		NOT = { has_active_policy = reduce_religious_influence }
+	}
+	
+	tolerance_own = 2
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+reduce_religious_influence = {
+	monarch_power = DIP
+
+	potential = {
+			
+	}
+	allow = {
+		NOT = { has_active_policy = promote_religious_dogma }
+	}
+	
+	tolerance_own = -2
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+militarization = {
+	monarch_power = MIL
+
+	potential = {
+			
+	}
+	allow = {
+		NOT = { has_active_policy = demilitarization }
+	}
+	
+	army_tradition = 1
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+demilitarization = {
+	monarch_power = MIL
+
+	potential = {
+			
+	}
+	allow = {
+		NOT = { has_active_policy = militarization }
+	}
+	
+	army_tradition = -1
+	ai_will_do = {
+		factor = 0
+	}
+}

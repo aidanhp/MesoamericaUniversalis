@@ -52,3 +52,28 @@
  rrisk2.t: "Loyalty Report"
  rrisk2.d: "Our spies report that the global loyalty of our subjects changed the liberty desire of our subjects by [Root.subjectrevoltrisk.GetValue] last month. \n\nThis number is decreased by: \n•Certain Ideas \n•High Prestige \n•Low Tribute Requirements \n•High Legitimacy \n•Winning Battles \n•Winning Wars \n\nThis number is increased by: \n•Certain Ideas \n•Having a very small army \n•High Tribute Requirements \n•Low Legitimacy \n•Negative Stability \n•Losing Battles \n•Losing Wars"
  rrisk2.a: "Very well."
+ 
+ #Display Administrative Influence
+ admini1.t: "Administrative Influence Report"
+ admini1.d: "Our administrators give the following report: \nOur Monthly Administrative Influence Change in our Home Region: [Root.admin_influence_home.GetValue] \nOur Monthly Administrative Influence Change in Other Regions: [Root.admin_influence_other.GetValue] \n\nAdministrative Influence is used to increase your control over vassals and tributaries. Once you have fifty influence over a tributary, it will turn into a vassal. Once you have 100 influence over a vassal, it will be annexed by your nation. Tributary governments can only integrate vassals in their home region. \n\nThe speed of integration is increased by certain ideas, centralization, strong legal tradition, and high ruler administrative skill. \n\nThe speed of integration is decreased by decentralization and weak legal tradition. \n\nNote that the displayed numbers are the **global** change only, and do not reflect additional increases or decreases on a city by city basis, such as that from liberty desire."
+ admini1.a: "Very well."
+ 
+ #Increasing Control
+ admini3.t: "Full Integration of [From.GetName]"
+ admini3.d: "Slowly but surely, we expanded our influence over [From.GetName], and now our efforts have paid off. Their territory has been completely integrated into our state, and all their resources are at our disposal."
+ admini3.a: "Glory to us!"
+ 
+ admini4.t: "Overlord Prepares to Annex Us"
+ admini4.d: "Our overlord's administrative influence in our territory has reached such a high level that they are attempting to annex us."
+ admini4.a: "To them we finally kneel..."
+ admini4.b: "FREEEEEDOM!!!!!!!"
+ 
+ admini5.t: "Overlord Prepares Vassalization"
+ admini5.d: "Our overlord's administrative influence in our territory has reached such a high level that they are planning to turn us into a direct vassal. This will force us to join their wars."
+ admini5.a: "Very well."
+ admini5.b: "Never!"
+ 
+ admini6.t: "Vassalization of [From.GetName]"
+ admini6.d: "Our influence over [From.GetName] has reached such a high level that the local leaders have agreed to grant us more direct control over them. They have also agreed to join any future wars we may start."
+ admini6.a: "Good!"
+ 

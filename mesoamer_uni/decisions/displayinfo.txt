@@ -11,6 +11,19 @@ country_decisions = {
 			custom_tooltip = vassalsupply_display
 		}
 	}
+
+	display_gov_stats = {
+		major = yes
+		potential = {
+			ai = no
+		}
+		allow = {
+			always = no
+		}
+		effect = {
+			custom_tooltip = govstats_display
+		}
+	}
 	
 	display_revolt_risk = {
 		#major = yes
@@ -24,6 +37,33 @@ country_decisions = {
 		effect = {
 			set_country_flag = drrdisplaying
 			country_event = { id = rrisk.02 }
+		}
+	}
+	
+	display_admin_influence = {
+		potential = {
+			ai = no
+			NOT = { has_country_flag = daidisplaying }
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			set_country_flag = daidisplaying 
+			country_event = { id = admini.01 }
+		}
+	}
+	
+	display_overlord_admin_influence = {
+		potential = {
+			#ai = no
+			always = no
+		}
+		allow = { 
+			always = no
+		}
+		effect = { 
+			custom_tooltip = oai_display
 		}
 	}
 }

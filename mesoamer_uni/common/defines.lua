@@ -1,7 +1,7 @@
 NDefines = {
 
 NGame = {
-	START_DATE = "1428.1.30",
+	START_DATE = "1427.12.31",
 	END_DATE = "1821.1.2",
 	MAX_RANDOM_NEW_WORLD = "1492.1.1",
 
@@ -49,7 +49,7 @@ NDiplomacy = {
 	MAX_CLIENT_STATES = 10,							-- Max client states for one country
 
 	ALLOW_LEADER_DEMAND_TOGGLE = 0,					-- Whether or not player is allowed to set if warleader can negotiate for them
-	VASSALIZE_BASE_DEVELOPMENT_CAP = 10000, -- Countries with more total development than this cannot be vassalized
+	VASSALIZE_BASE_DEVELOPMENT_CAP = 100000, -- Countries with more total development than this cannot be vassalized
 	
 	RESTRICT_MARCH_SIZE = 0,			-- Are marches size restricted
 	MARCH_BASE_DEVELOPMENT_CAP = 200, -- Countries with more total development than this cannot be made into a march
@@ -612,7 +612,7 @@ NCountry = {
 	ENFORCE_CULTURE_TAX_MULTIPLIER = 2,
 	SIPHON_INCOME_FRACTION = 0.5,
 	SIPHON_INCOME_LIBERTY = 10,
-	DIVERT_TRADE_FRACTION = 1,
+	DIVERT_TRADE_FRACTION = 0.25,
 	SEIZE_TERRITORY_LIBERTY_MULTIPLIER = 5,
 	SEIZE_TERRITORY_LIBERTY_THRESHOLD = 50,
 	GRANT_PROVINCE_LIBERTY_MULTIPLIER = 0.5,
@@ -625,7 +625,7 @@ NCountry = {
 	EMBARGO_RIVALS_LIBERTY = 5,
 	SUPPORT_LOYALISTS_LIBERTY = -20,
 	SEND_OFFICERS_LIBERTY = -10,
-	DIVERT_TRADE_LIBERTY = 100,
+	DIVERT_TRADE_LIBERTY = 50,
 	PROMOTE_INVESTMENTS_TRADEPOWER = 0.5,
 	PROMOTE_INVESTMENTS_INFLATION = 0.03,
 	SCUTAGE_TAX_FRACTION = 0.5,
@@ -739,11 +739,11 @@ NMilitary = {
 	PARTICIPATION_SCORE_MERC_MULT = 0.5,			-- How much less participation do you get from mercs?
 	PARTICIPATION_SCORE_UNFORTIFIED_MULT = 0.1,		-- How much less participation do you get from besieging unfortified provinces?
 		
-	FORT_PER_DEV_RATIO = 50,						-- 1 non-obsolete maintained fort per this amount of development = +1 AT
+	FORT_PER_DEV_RATIO = 5000,						-- 1 non-obsolete maintained fort per this amount of development = +1 AT
 	MOVE_LOCK_PERCENTAGE = 0.5,						-- Unit movement is locked after this percentage of progress
 	REGULAR_LEADER_POWER = 1,						-- Used for generals & admirals (affects total pips)
 	EXPLORER_LEADER_POWER = 0.8,					-- Used for conquistadors & explorers (affects total pips)
-	BASE_MP_TO_MANPOWER = 0.01,		-- 250 men per manpower
+	BASE_MP_TO_MANPOWER = 0.01,		-- 10 men per manpower
 	SIEGE_ATTRITION = 1,
 	SIEGE_DISEASE_IMPACT = 0.05,						-- Fraction of besieging soldiers lost in a disease outbraek
 	NATIVE_FEROCITY_IMPACT = 0.05,					-- how many percentage each ferocity gives in combat bonus
@@ -774,17 +774,17 @@ NMilitary = {
 	MIN_MONTHLY_SAILORS = 0,						-- 0 men/month is minimum
 	SLAVE_RAIDS_SAILOR_FACTOR = 0.25,						-- 
 	SLAVE_RAIDS_DURATION = 3650,
-	INFANTRY_SPEED = 1.0, 							-- _MDEF_INFANTRY_SPEED = 10,
-	CAVALRY_SPEED = 1.0, 							-- _MDEF_CAVALRY_SPEED = 10,
-	ARTILLERY_SPEED = 1.0, 							-- _MDEF_ARTILLERY_SPEED = 10,
+	INFANTRY_SPEED = 1.5, 							-- _MDEF_INFANTRY_SPEED = 10,
+	CAVALRY_SPEED = 2.0, 							-- _MDEF_CAVALRY_SPEED = 10,
+	ARTILLERY_SPEED = 1.4, 							-- _MDEF_ARTILLERY_SPEED = 10,
 	HEAVY_SHIP_SPEED = 6.0, 						-- _MDEF_HEAVY_SHIP_SPEED = 10,
 	LIGHT_SHIP_SPEED = 10.0, 						-- _MDEF_LIGHT_SHIP_SPEED = 10,
 	GALLEY_SPEED = 4.0, 							-- _MDEF_GALLEY_SPEED = 10,
 	TRANSPORT_SPEED = 6.0, 							-- _MDEF_TRANSPORT_SPEED = 10,
-	INFANTRY_COST = 10.0, 							-- _MDEF_INFANTRY_COST = 10,		
-	CAVALRY_COST = 25.0, 							-- _MDEF_CAVALRY_COST = 10,		
-	ARTILLERY_COST = 30.0, 							-- _MDEF_ARTILLERY_COST = 10,		
-	FORTRESS_COST = 0.5,							-- base fort cost
+	INFANTRY_COST = 15.0, 							-- _MDEF_INFANTRY_COST = 10,		
+	CAVALRY_COST = 30.0, 							-- _MDEF_CAVALRY_COST = 10,		
+	ARTILLERY_COST = 40.0, 							-- _MDEF_ARTILLERY_COST = 10,		
+	FORTRESS_COST = 0.25,							-- base fort cost
 	HEAVY_SHIP_COST = 50, 							-- _MDEF_HEAVY_SHIP_COST = 10,		
 	LIGHT_SHIP_COST = 20, 							-- _MDEF_LIGHT_SHIP_COST = 10,	
 	GALLEY_COST = 10, 								-- _MDEF_GALLEY_COST = 10,		
@@ -796,7 +796,7 @@ NMilitary = {
 	LIGHT_SHIP_TIME = 365, 							-- _MDEF_LIGHT_SHIP_TIME = 10,	
 	GALLEY_TIME = 365, 								-- _MDEF_GALLEY_TIME = 10,		
 	TRANSPORT_TIME = 365, 							-- _MDEF_TRANSPORT_TIME = 10,		
-	MONTHLY_REINFORCE = 0.1,						-- Amount of regiment strength reinforced each month.
+	MONTHLY_REINFORCE = 0.05,						-- Amount of regiment strength reinforced each month.
 	MONTHLY_REPAIR = 0.1,							-- Ship repair speed.
 	EXTRA_LAND_REINFORCE_COST = 2.00,				-- extra cost for reinforcing land units (as a multiplier of maintenance).
 	TRADITION_GAIN_LAND = 10,						-- Tradition gain base value from land combat.

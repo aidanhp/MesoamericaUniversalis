@@ -2,7 +2,7 @@ bookmark =
 {
 	name = "SHATTERING_OF_MAYAPAN"
 	desc = "SHATTERING_OF_MAYAPAN_DESC"
-	date = 1428.1.30
+	date = 1428.1.31
 	
 	center = 150
 	default = no

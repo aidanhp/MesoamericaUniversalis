@@ -1,0 +1,382 @@
+namespace = countrystats 
+
+#Updates government stats each year
+country_event = {
+	id = countrystats.01
+	
+	title = "countrystats1.t"
+	desc = "countrystats1.d"
+	picture = CITY_VIEW_eventPicture
+	
+	is_triggered_only = yes
+	
+	hidden = yes
+	
+	option = {
+		name = "countrystats1.a"
+		
+		#Centralization
+		every_country = { 
+		if = {
+			limit = {
+				has_idea = conqueststate 
+			}
+			change_variable = { which = centralization value = 0.25 }
+		}
+		if = {
+			limit = {
+				has_idea = provministers
+			}
+			change_variable = { which = centralization value = 0.125 }
+		}
+		if = {
+			limit = {
+				has_idea = fullexploit
+			}
+			change_variable = { which = centralization value = 0.125 }
+		}
+		if = {
+			limit = {
+				has_idea = unitedidentity
+			}
+			change_variable = { which = centralization value = 0.25 }
+		}
+		if = {
+			limit = {
+				has_idea = closefriends
+			}
+			change_variable = { which = centralization value = 0.25 }
+		}
+		
+		if = {  
+			limit = {
+				has_active_policy = centralization_of_power
+			}
+			change_variable = { which = centralization value = 0.20 }
+		}
+		
+		if = {  
+			limit = {
+				has_active_policy = decentralization_of_power
+			}
+			change_variable = { which = centralization value = -2.0 }
+		}
+		
+		#Legal Tradition
+		if = {
+			limit = {
+				has_idea = lawcode
+			}
+			change_variable = { which = legaltradition value = 0.25 }
+		}
+		if = {
+			limit = {
+				has_idea = ruleoflaw
+			}
+			change_variable = { which = legaltradition value = 1.0 }
+		}
+		if = {
+			limit = {
+				has_idea = cosmopolitan
+			}
+			change_variable = { which = legaltradition value = 1.0 }
+		}
+		
+		every_owned_province = {
+			if = {
+				limit = {
+					has_building = law1
+				}
+				controller = { 
+					change_variable = { which = legaltradition value = 0.10 }
+				}
+			}
+			if = {
+				limit = {
+					has_building = law2
+				}
+				controller = { 
+					change_variable = { which = legaltradition value = 0.25 }
+				}
+			}
+			if = {
+				limit = {
+					has_building = law3
+				}
+				controller = { 
+					change_variable = { which = legaltradition value = 0.50 }
+				}
+			}
+		}
+		
+		if = {  
+			limit = {
+				has_active_policy = strengthen_legal_system
+			}
+			change_variable = { which = legaltradition value = 0.25 }
+		}
+		
+
+
+		#Meritocracy
+		if = {  
+			limit = {
+				has_active_policy = promote_meritocracy
+			}
+			change_variable = { which = meritocratictradition value = 0.25 }
+		}
+		
+		if = {  
+			limit = {
+				has_active_policy = promote_patrimonialism
+			}
+			change_variable = { which = meritocratictradition value = -2.0 }
+		}
+		
+		#Religious Tradition
+		if = {  
+			limit = {
+				has_active_policy = promote_religious_dogma
+			}
+			change_variable = { which = religioustradition value = 0.25 }
+		}
+		
+		if = {  
+			limit = {
+				has_active_policy = reduce_religious_influence
+			}
+			change_variable = { which = religioustradition value = -2.0 }
+		}
+		
+		#Intellectualism
+		every_owned_province = {
+			if = {
+				limit = {
+					has_building = nschool
+				}
+				controller = { 
+					change_variable = { which = intellectualtradition value = 0.25 }
+				}
+			}
+			if = {
+				limit = {
+					has_building = nuni
+				}
+				controller = { 
+					change_variable = { which = intellectualtradition value = 0.50 }
+				}
+			}
+			if = {
+				limit = {
+					has_building = pschool
+				}
+				controller = { 
+					change_variable = { which = intellectualtradition value = 0.75 }
+				}
+			}
+			if = {
+				limit = {
+					has_building = puni
+				}
+				controller = { 
+					change_variable = { which = intellectualtradition value = 1.0 }
+				}
+			}
+		}
+		
+		#Militancy
+		if = {
+			limit = {
+				has_idea = socialadvancement
+			}
+			change_variable = { which = militancy value = 0.50 }
+		}
+		if = {
+			limit = {
+				has_idea = warcouncil
+			}
+			change_variable = { which = militancy value = 1.0 }
+		}
+		if = {
+			limit = {
+				has_idea = dompolicy
+			}
+			change_variable = { which = militancy value = 0.50 }
+		}
+		if = {
+			limit = {
+				has_idea = nicepolicy
+			}
+			change_variable = { which = militancy value = -0.50 }
+		}
+		if = {
+			limit = {
+				army_tradition = 20
+			}
+			change_variable = { which = militancy value = 0.20 }
+		}
+		if = {
+			limit = {
+				army_tradition = 40
+			}
+			change_variable = { which = militancy value = 0.20 }
+		}
+		if = {
+			limit = {
+				army_tradition = 60
+			}
+			change_variable = { which = militancy value = 0.20 }
+		}
+		if = {
+			limit = {
+				army_tradition = 80
+			}
+			change_variable = { which = militancy value = 0.20 }
+		}
+		if = {
+			limit = {
+				army_tradition = 100
+			}
+			change_variable = { which = militancy value = 0.20 }
+		}
+		
+		if = {  
+			limit = {
+				has_active_policy = militarization
+			}
+			change_variable = { which = militancy value = 0.25 }
+		}
+		
+		if = {  
+			limit = {
+				has_active_policy = demilitarization
+			}
+			change_variable = { which = militancy value = -2.0 }
+		}
+		
+		#Keeps any stat from going above 100 or below -100
+		if = { 
+			limit = {
+				check_variable = { 
+					which = centralization
+					value = 100
+				}
+			}
+			set_variable = { which = centralization value = 100 }
+		}
+		if = { 
+			limit = {
+				check_variable = { 
+					which = legaltradition
+					value = 100
+				}
+			}
+			set_variable = { which = legaltradition value = 100 }
+		}
+		if = { 
+			limit = {
+				check_variable = { 
+					which = meritocratictradition
+					value = 100
+				}
+			}
+			set_variable = { which = meritocratictradition value = 100 }
+		}
+		if = { 
+			limit = {
+				check_variable = { 
+					which = religioustradition
+					value = 100
+				}
+			}
+			set_variable = { which = religioustradition value = 100 }
+		}
+		if = { 
+			limit = {
+				check_variable = { 
+					which = intellectualtradition
+					value = 100
+				}
+			}
+			set_variable = { which = intellectualtradition value = 100 }
+		}
+		if = { 
+			limit = {
+				check_variable = { 
+					which = militancy
+					value = 100
+				}
+			}
+			set_variable = { which = militancy value = 100 }
+		}
+		if = { 
+			limit = {
+				NOT = { 
+					check_variable = { 
+						which = centralization
+						value = -100
+					}
+				}
+			}
+			set_variable = { which = centralization value = -100 }
+		}
+		if = { 
+			limit = {
+				NOT = { 
+					check_variable = { 
+						which = legaltradition
+						value = -100
+					}
+				}
+			}
+			set_variable = { which = legaltradition value = -100 }
+		}
+		if = { 
+			limit = {
+				NOT = { 
+					check_variable = { 
+						which = meritocratictradition
+						value = -100
+					}
+				}
+			}
+			set_variable = { which = meritocratictradition value = -100 }
+		}
+		if = { 
+			limit = {
+				NOT = { 
+					check_variable = { 
+						which = religioustradition
+						value = -100
+					}
+				}
+			}
+			set_variable = { which = religioustradition value = -100 }
+		}
+		if = { 
+			limit = {
+				NOT = { 
+					check_variable = { 
+						which = intellectualtradition
+						value = -100
+					}
+				}
+			}
+			set_variable = { which = intellectualtradition value = -100 }
+		}
+		if = { 
+			limit = {
+				NOT = { 
+					check_variable = { 
+						which = militancy
+						value = -100
+					}
+				}
+			}
+			set_variable = { which = militancy value = -100 }
+		}
+		
+		}
+		
+	}
+}

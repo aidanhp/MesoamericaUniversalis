@@ -433,7 +433,13 @@ noinvasions = {
 
 #Special Province Modifiers
 tlaxcalaforts = {
-	local_defensiveness = 0.50
+	local_defensiveness = 0.25
+	fort_level = 1
+}
+
+importantcity = {
+	local_defensiveness = 0.25
+	fort_level = 1
 }
 
 #Idea Decisions
@@ -463,4 +469,8 @@ changedwarriorreqs = {
 
 changedsuppliesreqs = {
 
+}
+
+occupation = {
+	local_unrest = 6
 }

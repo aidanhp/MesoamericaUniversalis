@@ -112,8 +112,8 @@ manpower_high = {
 		NOT = { manpower_percentage = 0.80 }
 	}
 	
-	global_trade_goods_size_modifier = 0.5
-	production_efficiency = 0.5
+	global_trade_goods_size_modifier = 0.05
+	production_efficiency = 0.05
 	manpower_recovery_speed = -0.20
 }
 
