@@ -3,9 +3,9 @@ government_rank = 2
 mercantilism = 0.25
 technology_group = west_mexican 
 religion = newnahuatl 
-primary_culture = tepecano
-capital = 114
-fixed_capital = 114
+primary_culture = caxcan
+capital = 715
+fixed_capital = 715
 
 1427.1.1 = {
 	monarch = {

@@ -232,6 +232,7 @@ on_peace_recipient = {
 # country
 # root = winning country, from = loser country
 on_war_won = {
+	
 	ROOT = {
 		change_variable = { which = militancy value = 1 }
 	}
@@ -249,19 +250,39 @@ on_war_won = {
 				ROOT = {
 					ai = yes
 				}
-				
-				NOT = { exists = FROM }
-				
-				OR = {
-					government = altepetl
-					government = hegemonic_kingdom
-					government = hegemonic_empire	
-					government = tlaxcallan_confederate
+				FROM = {
+					NOT = { exists = yes }
+				}
+				ROOT = {
+					OR = {
+						government = altepetl
+						government = hegemonic_kingdom
+						government = hegemonic_empire	
+						government = tlaxcallan_confederate
+					}
 				}
 			}
 		}
 		release_vassal = FROM
 		create_protectorate = FROM
+		FROM = {
+			set_variable = { which = admin_influence_overlord value = 0 }
+			set_variable = { which = subjectrevoltrisk value = 0 }
+			capital_scope = {
+				add_province_modifier = {
+					name = e_expectedservice
+					duration = -1
+				}	
+				add_province_modifier = {
+					name = a_expectedservice
+					duration = -1
+				}
+				add_province_modifier = {
+					name = c_oldestson
+					duration = -1
+				}
+			}
+		}
 	}
 }
 
@@ -305,6 +326,12 @@ on_war_lost = {
 # country
 # root = winning country, from = loser country
 on_battle_won_country = {
+	if = {
+		limit = {
+			religion = newnahuatl
+		}
+		country_event = { id = captives.01 }
+	}
 	ROOT = {
 		change_variable = { which = warsandbattlesrrisk value = -1 }
 		every_subject_country = {

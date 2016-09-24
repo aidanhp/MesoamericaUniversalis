@@ -35,7 +35,7 @@
  exchangeluxurygoods_desc: "Bring luxury goods out of our storehouse and use them to help pay for state expenses."
  exchangemilitarysupplies_title: "Temporarily Expand Supply Lines"
  exchangemilitarysupplies_desc: "Retrieve military supplies from our storehouse to temporarily boost our capacity to supply armies. The cost of expanding supply lines scales with army size."
- investbuildingsupplies_title: "Invest Building Supplies in Area"
+ investbuildingsupplies_title: "Invest Building Supplies in Area - TEMPORARILY DISABLED"
  investbuildingsupplies_desc: "Invest building supplies from our storehouse in an area we own provinces in to temporarily reduce build cost."
  
  #From Idea Groups
@@ -64,7 +64,12 @@
  purepecha_empire_title: "Form Iréchecua Tzintzuntzáni"
  purepecha_empire_desc: "The founder of our dynasty, Tariacuri, saw it as the divinely-ordained destiny of his descendents to build a vast, powerful empire around Lake Patzcuaro. Through many trials and tribulations, we have managed to conquer the lakeshore and many of the surrounding areas, and now we have the resources to fulfill this great mission. If we can conquer enough land and totally subjugate the lords of Ihuatzlo and Patzcuaro, we can do what the gods intended us to."
  
-
+ #Special Buildings
+ add_new_pyramid_level_generic_title: "Expand the Great Pyramid of $CAPITAL_CITY$"
+ add_new_pyramid_level_generic_desc: "Declare that it is time to expand our greatest of monuments."
+ add_new_pyramid_level_tenoch_title: "Expand the Huey-Teocalli"
+ add_new_pyramid_level_tenoch_desc: "Declare that it is time to expand the Huey-Teocalli, our great monument to the gods and the foremost symbol of Mexica power."
+ 
  #PRIVILEGES
  #Granting
  gpmaster_title: "§g•Grant Privileges to Faction§!"

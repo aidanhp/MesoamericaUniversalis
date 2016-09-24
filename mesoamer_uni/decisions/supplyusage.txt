@@ -70,7 +70,7 @@ country_decisions = {
 		}
 		
 		allow = {
-		
+			always = no
 		}
 		
 		effect = {
@@ -83,8 +83,4 @@ country_decisions = {
 		}
 		
 	}
-	
-	
-	
-	
 }

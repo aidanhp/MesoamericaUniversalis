@@ -2785,7 +2785,7 @@
  MACRO_RULES:0 "Forbidden by rules."
  MACRO_WRONG_MANUFACTORY:0 "The Manufactory doesn't correspond to the goods produced in $PROVINCE$."
  MACRO_IS_COLONY:0 "$PROVINCE$ is a colony."
- MACRO_HAS_BUILDING:0 "§G$BUILDING$ is already built in $PROVINCE$.§!"
+ MACRO_HAS_BUILDING:0 ""
  MACRO_WRONG_TECH:0 "$BUILDING$ is not available for $TECH$."
  MACRO_NEED_BUILDING:0 "Need to build $BUILDING_NEEDED|R$ before $BUILDING$ can be built."
  MACRO_ALREADY_HIGHLEVEL:0 "$PROVINCE$ already has a special building."

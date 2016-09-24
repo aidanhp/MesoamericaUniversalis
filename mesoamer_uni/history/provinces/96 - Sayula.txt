@@ -1,14 +1,14 @@
-add_core = SAY
-owner = SAY
-controller = SAY
-culture = tepecano
-religion = newnahuatl 
+add_core = IID
+owner = IID
+controller = IID
+culture = tarascan
+religion = tarascan
 hre = no
 base_tax = 110
 base_production = 220
 trade_goods = grain
 base_manpower = 770
-capital = "Sayula"
+capital = "Tizapan"
 is_city = yes
 fort_15th = yes
 

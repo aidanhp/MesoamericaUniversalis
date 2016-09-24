@@ -364,7 +364,7 @@ NCountry = {
 	CIRCUMNAVIGATION_PROVINCE_6 = 1460,			-- Provinces for circumnavigation (cape of good hope)
 		
 	MIN_DEV_FOR_GREAT_POWER = 100,					-- Countries with less development than this cannot be considered Great Powers
-	PRIMITIVES_TECH_MODIFIER = 0.25,					-- Technology groups with a slower modifier than this count as 'primitives'
+	PRIMITIVES_TECH_MODIFIER = 0.0,					-- Technology groups with a slower modifier than this count as 'primitives'
 
 	SUPPORT_OWN_HEIR_PRESTIGE_COST = 10,
 	SUPPORT_OWN_HEIR_SUPPORT_BONUS = 5,
@@ -413,7 +413,7 @@ NCountry = {
 	NAT_FOCUS_INCREASE = 2,							-- extra power given to national focus power
 	NAT_FOCUS_YEARS = 25,							-- years before you can change focus again
 	NAT_FOCUS_YEARS_RANK = 5,						-- how many years are removed from nat focus cooldown per gov rank above 1
-	POWER_MAX = 999,								-- how much power can be stored at maximum.
+	POWER_MAX = 2000,								-- how much power can be stored at maximum.
 	DISMANTLE_HRE_PRESTIGE = 100,					-- Prestige gain on dismantling HRE
 	FREE_IDEA_GROUP_COST  = 3,						-- modifier on cheapness of "free" idea group
 	MAX_TOLERANCE_HERETIC = 3, 						-- maximum tolerance towards heretics
@@ -423,7 +423,7 @@ NCountry = {
 	
 	MERCHANT_REPUBLIC_SIZE_LIMIT = 20,
 	
-	IDEA_TO_TECH = -0.02,			-- percentage on tech reduction per idea.
+	IDEA_TO_TECH = -0.00,			-- percentage on tech reduction per idea.
 	TECH_TIME_COST = 0.3,			-- tech grow with 20% cost over time.
 	TECH_AHEAD_OF_TIME = 0.1,		-- per year ahead.
 	

@@ -1,0 +1,71 @@
+country_decisions = {
+	add_new_pyramid_level_generic = {
+		major = yes
+		potential = {
+			OR = { 
+				capital_scope = {
+					has_building = greatpt
+				}
+				capital_scope = {
+					has_building = greatpt2
+				}
+				capital_scope = {
+					has_building = greatpt3
+				}
+				capital_scope = {
+					has_building = greatpt4
+				}
+			}
+			
+			AND = {
+				NOT = { has_country_modifier = greatpt1_greatpt2 }
+				NOT = { has_country_modifier = greatpt2_greatpt3 }
+				NOT = { has_country_modifier = greatpt3_greatpt4 }
+				NOT = { has_country_modifier = greatpt4_greatpt5 }
+			}
+		}
+		allow = {
+			treasury = 1000
+		}
+		effect = {
+			country_event = { id = buildp.01 }
+		}
+	}
+	
+	#TODO
+	add_new_pyramid_level_tenoch = {
+		major = yes
+		potential = {
+			tag = TEN
+			OR = {
+				capital_scope = {
+					has_building = tenoch_gp2 
+				}
+				capital_scope = {
+					has_building = tenoch_gp3
+				}
+				capital_scope = {
+					has_building = tenoch_gp4
+				}
+				capital_scope = {
+					has_building = tenoch_gp5
+				}
+				capital_scope = {
+					has_building = tenoch_gp6
+				}
+				capital_scope = {
+					has_building = tenoch_gp7
+				}
+			}
+		}
+		allow = {
+			1 = {
+				owned_by = TEN
+			}
+			treasury = 1000
+		}
+		effect = {
+			country_event = { id = buildp.02 }
+		}
+	}
+}

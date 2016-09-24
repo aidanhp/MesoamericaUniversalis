@@ -792,7 +792,7 @@ weakintellectualism_5 = {
 		}
 	}
 	
-	technology_cost = 0.25
+	technology_cost = 1.0
 	idea_cost = 0.25
 }
 
@@ -808,7 +808,7 @@ weakintellectualism_4 = {
 		}
 	}
 	
-	technology_cost = 0.20
+	technology_cost = 0.80
 	idea_cost = 0.20
 }
 
@@ -824,7 +824,7 @@ weakintellectualism_3 = {
 		}
 	}
 	
-	technology_cost = 0.15
+	technology_cost = 0.60
 	idea_cost = 0.15
 }
 
@@ -840,7 +840,7 @@ weakintellectualism_2 = {
 		}
 	}
 	
-	technology_cost = 0.10
+	technology_cost = 0.40
 	idea_cost = 0.10
 }
 
@@ -856,7 +856,7 @@ weakintellectualism_1 = {
 		}
 	}
 	
-	technology_cost = 0.05
+	technology_cost = 0.20
 	idea_cost = 0.05
 }
 
@@ -872,7 +872,7 @@ strongintellectualism_1 = {
 		}
 	}
 	
-	technology_cost = -0.02
+	technology_cost = -0.05
 	idea_cost = -0.02
 }
 
@@ -888,7 +888,7 @@ strongintellectualism_2 = {
 		}
 	}
 	
-	technology_cost = -0.04
+	technology_cost = -0.10
 	idea_cost = -0.04
 }
 
@@ -904,7 +904,7 @@ strongintellectualism_3 = {
 		}
 	}
 	
-	technology_cost = -0.06
+	technology_cost = -0.15
 	idea_cost = -0.06
 }
 
@@ -920,7 +920,7 @@ strongintellectualism_4 = {
 		}
 	}
 	
-	technology_cost = -0.08
+	technology_cost = -0.20
 	idea_cost = -0.08
 }
 
@@ -936,7 +936,7 @@ strongintellectualism_5 = {
 		}
 	}
 	
-	technology_cost = -0.10
+	technology_cost = -0.25
 	idea_cost = -0.10
 }
 
@@ -1111,4 +1111,84 @@ militancy_5 = {
 	
 	land_morale = 0.25
 	war_exhaustion = -0.10
+}
+
+militancy_1p = {
+	potential = {
+		is_year = 1429
+	}
+	
+	trigger = {
+		AND = {
+			is_at_war = no
+			check_variable = { which = militancy value = 0 }
+			NOT = { check_variable = { which = militancy value = 20 } }
+		}
+	}
+	
+	legitimacy = -2
+}
+
+militancy_2p = {
+	potential = {
+		is_year = 1429
+	}
+	
+	trigger = {
+		AND = {
+			is_at_war = no
+			check_variable = { which = militancy value = 20 }
+			NOT = { check_variable = { which = militancy value = 40 } }
+		}
+	}
+	
+	legitimacy = -4
+}
+
+militancy_3p = {
+	potential = {
+		is_year = 1429
+	}
+	
+	trigger = {
+		AND = {
+			is_at_war = no
+			check_variable = { which = militancy value = 40 }
+			NOT = { check_variable = { which = militancy value = 60 } }
+		}
+	}
+	
+	legitimacy = -6
+}
+
+militancy_4p = {
+	potential = {
+		is_year = 1429
+	}
+	
+	trigger = {
+		AND = {
+			is_at_war = no
+			check_variable = { which = militancy value = 60 }
+			NOT = { check_variable = { which = militancy value = 80 } }
+		}
+	}
+	
+	legitimacy = -8
+}
+
+militancy_5p = {
+	potential = {
+		is_year = 1429
+	}
+	
+	trigger = {
+		AND = {
+			is_at_war = no
+			check_variable = { which = militancy value = 80 }
+			NOT = { check_variable = { which = militancy value = 100 } }
+		}
+	}
+	
+	legitimacy = -10
 }

@@ -8,7 +8,7 @@ base_tax = 110
 base_production = 220
 trade_goods = grain
 base_manpower = 770
-capital = "Xiconaque"
+capital = "Otomi"
 is_city = yes
 fort_15th = yes
 

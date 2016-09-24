@@ -5,67 +5,92 @@ random_new_world_region = {
 }
 
 ########################################
-# EUROPE                               #
+# MEXICO                               #
 ########################################
 
-mex1_region = {
-	areas = {
-		mex1_area
-		mex2_area
+central_mexico_r = {
+	areas = { 
+		western_shore_a
+		eastern_shore_a
+		southern_shore_a
+		xocotitlan_a
+		toluca_a
+		petlacalco_a
+		tula_a
+		tlaxcala_a
+		tepeacac_a
+		malinalco_a
+		cuahnahuac_a
+		yohualtepec_a
+		oztoman_a
 	}
 }
 
-mex2_region = {
+southern_mexico_r = {
 	areas = {
-		mex3_area
-		mex4_area
-		mex5_area
-		mex10_area
+		cihuatlan_a
+		yope_a
+		tututepec_a
+		tehuantepec_a
+		teotitlan_a
+		tochtepec_a
 	}
 }
 
-mex3_region = {
+gulf_coast_r = {
 	areas = {
-		mex13_area
-		mex14_area
+		cuetlaxtlan_a
+		huasteca_a
 	}
 }
 
-mex4_region = {
+michoacan_r = {
 	areas = {
-		mex6_area
-		mex7_area
-		mex8_area
-		mex9_area
+		patzcuaro_a
+		zacatula_a
+		cuitzeo_a
+		chapala_a
+		tetellan_a
 	}
 }
 
-mex5_region = {
+western_mexico_r = {
 	areas = {
-		mex11_area
-		mex12_area
+		colima_a
+		xalisco_a
+		cora_a
+		tonallan_a
 	}
 }
 
-mex6_region = {
+north_central_mexico_r = {
 	areas = {
-		mex15_area
-		mex16_area
-		mex17_area
-		mex18_area
-		mex19_area
+		metztitlan_a
 	}
 }
 
-#atlantica_region = {
-#	areas = {
-#		atlantica_area
-#	}
-#}
+mayan_highlands_r = {
+	areas = {	
+		xoconochco_a
+		west_highlands_a
+		east_highlands_a
+	}
+}
+
+central_america_r = {
+	areas = {
+		isthmus_a
+	}
+}
+
+yucatan_r = {
+	areas = {
+		xicalango_a
+		peten_a
+		mayapan_a
+		chichen_itza_a
+		ekab_a
+	}
+}
 
 
-#pacifica_region = {
-#	areas = {
-#		pacifica_area
-#	}
-#}

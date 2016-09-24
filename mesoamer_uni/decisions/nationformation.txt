@@ -33,9 +33,9 @@ country_decisions = {
 				}
 				has_country_modifier = toltecsuccessor
 			}
-			mex1_region = { type = all owned_by = ROOT }
-			mex2_region = { type = all owned_by = ROOT }
-			mex3_region = { type = all owned_by = ROOT }
+			central_mexico_r = { type = all owned_by = ROOT }
+			southern_mexico_r = { type = all owned_by = ROOT }
+			gulf_coast_r = { type = all owned_by = ROOT }
 
 			owns_or_vassal_of = 141 #Chichen Itza
 			prestige = 100
@@ -200,8 +200,7 @@ country_decisions = {
 		}
 
 		allow = {
-			owns_or_vassal_of = 3 #Tlacopan
-			owns_or_vassal_of = 26	#Tetzcoco
+			check_variable = { which = triple_alliance_influence value = 100 }
 			NOT = { exists = TNE }
 			NOT = { exists = TCE }
 			NOT = { exists = TOE }
@@ -213,6 +212,8 @@ country_decisions = {
 
 		effect = {
 			change_tag = TOE
+			vassalize = TET
+			vassalize = TCP
 			if = {
 				limit = {
 					OR = {
@@ -244,8 +245,7 @@ country_decisions = {
 		}
 
 		allow = {
-			owns_or_vassal_of = 3 
-			owns_or_vassal_of = 1
+			check_variable = { which = triple_alliance_influence value = 100 }
 			NOT = { exists = TNE }
 			NOT = { exists = TCE }
 			NOT = { exists = TOE }
@@ -257,6 +257,8 @@ country_decisions = {
 
 		effect = {
 			change_tag = TCE
+			vassalize = TEN
+			vassalize = TCP
 			if = {
 				limit = {
 					OR = {
@@ -287,8 +289,7 @@ country_decisions = {
 		}
 
 		allow = {
-			owns_or_vassal_of = 1 #Tlacopan
-			owns_or_vassal_of = 26	#Tetzcoco
+			check_variable = { which = triple_alliance_influence value = 100 }
 			NOT = { exists = TNE }
 			NOT = { exists = TCE }
 			NOT = { exists = TOE }
@@ -304,6 +305,8 @@ country_decisions = {
 
 		effect = {
 			change_tag = TNE
+			vassalize = TET
+			vassalize = TEN
 			if = {
 				limit = {
 					OR = {
@@ -327,49 +330,49 @@ country_decisions = {
 	}
 
 	#Form the Grand Chichimec Confederacy
-	grand_chichimec_confederacy = {
-		major = yes
-		potential = {
-			culture_group = chichimec
-			NOT = { tag = GCC }
-		}
-
-		allow = {
-			mex4_area = { type = all owned_by = ROOT }
-			mex5_area = { type = all owned_by = ROOT }
-			mex7_area = { type = all owned_by = ROOT }
-			mex8_area = { type = all owned_by = ROOT }
-		}
-
-		effect = {
-			change_tag = GCC
-			if = {
-				limit = {
-					OR = {
-						government = centralized_kingdom
-						government = centralized_altepetl
-					}
-				}
-				change_government = centralized_empire
-			}
-			if = {
-				limit = {
-					OR = {
-						government = hegemonic_kingdom
-						government = altepetl
-					}
-				
-				}
-				change_government = hegemonic_empire
-			}
-			if = {
-				limit = {
-					government = tribal_confederation
-				}
-				change_government = hegemonic_empire
-			}
-		}
-	}
+	#grand_chichimec_confederacy = {
+	#	major = yes
+	#	potential = {
+	#		culture_group = chichimec
+	#		NOT = { tag = GCC }
+	#	}
+	#
+	#	allow = {
+	#		mex4_area = { type = all owned_by = ROOT }
+	#		mex5_area = { type = all owned_by = ROOT }
+	#		mex7_area = { type = all owned_by = ROOT }
+	#		mex8_area = { type = all owned_by = ROOT }
+	#	}
+	#
+	#	effect = {
+	#		change_tag = GCC
+	#		if = {
+	#			limit = {
+	#				OR = {
+	#					government = centralized_kingdom
+	#					government = centralized_altepetl
+	#				}
+	#			}
+	#			change_government = centralized_empire
+	#		}
+	#		if = {
+	#			limit = {
+	#				OR = {
+	#					government = hegemonic_kingdom
+	#					government = altepetl
+	#				}
+	#			
+	#			}
+	#			change_government = hegemonic_empire
+	#		}
+	#		if = {
+	#			limit = {
+	#				government = tribal_confederation
+	#			}
+	#			change_government = hegemonic_empire
+	#		}
+	#	}
+	#}
 
 	#Form Irechecua Tzintzuntzani
 	purepecha_empire = {

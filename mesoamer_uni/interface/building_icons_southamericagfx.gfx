@@ -257,4 +257,54 @@ spriteTypes = {
 		texturefile = "gfx//interface//buildings//southamerica_greatuni.tga"
 		loadType = "INGAME"
 	}
+	
+	#Special Buildings
+	spriteType = {
+		name = "GFX_cholula_gp_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_cholula_gp.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_tenoch_gp2_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_tenoch_gp2.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_tenoch_gp3_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_tenoch_gp3.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_tenoch_gp4_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_tenoch_gp4.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_tenoch_gp5_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_tenoch_gp5.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_tenoch_gp6_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_tenoch_gp6.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_tenoch_gp7_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_tenoch_gp7.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_tenoch_gp8_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_tenoch_gp8.tga"
+		loadType = "INGAME"
+	}
+	
 }

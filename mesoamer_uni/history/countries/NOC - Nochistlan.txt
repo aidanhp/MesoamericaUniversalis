@@ -3,9 +3,9 @@ government_rank = 2
 mercantilism = 0.25
 technology_group = central_mexican 
 religion = newnahuatl 
-primary_culture = zacatec
-capital = 105
-fixed_capital = 105
+primary_culture = caxcan
+capital = 722
+fixed_capital = 722
 
 1427.1.1 = {
 	monarch = {

@@ -43,7 +43,7 @@ cb_expand_hegemony_ai = {
 	#}
 
 
-	war_goal = expandhegemony
+	war_goal = expandhegemonyai
 }
 
 

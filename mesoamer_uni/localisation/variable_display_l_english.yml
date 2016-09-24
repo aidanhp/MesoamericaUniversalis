@@ -6,6 +6,10 @@
  display_gov_stats_desc: "Mouse of the take decision box to see our government statistics. \nEach statistic ranges from -100 to 100 and grants you a different triggered modifier depending on its value. You can attempt to influence these statistics through your choices in events and decisions, or by enacting policies highlighted in §GGreen.§!"
  display_admin_influence_title: "Assess Administrative Influence on Subjects"
  display_admin_influence_desc: "Ask our bureaucracy for a report on how much influence the central government is wielding in our vassal states."
+ display_tai_title: "Assess Our Influence in the Triple Alliance"
+ display_tai_desc: "Estimate how much influence we wield in the Triple Alliance."
+ 
+ 
  
  #VARIABLES
  #These are the old supplies variables
@@ -73,8 +77,13 @@
  intellectualtradition: "Intellectual Tradition"
  militancy: "Militancy"
  
+ #Special
+ triple_alliance_influence: "Triple Alliance Influence"
+ 
+ 
  #VARIABLE DISPLAYS
  vassalsupply_display: "Staple Food Bins: §G[Root.staplefooditems.GetValue]§! \nLuxury Food Bins: §G[Root.luxuryfooditems.GetValue]§!\nLuxury Good Bins: §G[Root.luxurygoods.GetValue]§! \nMilitary Supplies Bins: §G[Root.militarysupplies.GetValue]§! \nBuilding Supplies Bins: §G[Root.buildingsupplies.GetValue]§!"
  govstats_display: "Centralization: §G[Root.centralization.GetValue]§! \nLegal Traditon: §G[Root.legaltradition.GetValue]§! \nMeritocratic Tradition: §G[Root.meritocratictradition.GetValue]§! \nReligious Tradition: §G[Root.religioustradition.GetValue]§! \nIntellectual Tradition: §G[Root.intellectualtradition.GetValue]§! \nMilitancy: §G[Root.militancy.GetValue]§!"
  displaylpp_tooltip: "§G[TEN.Capital.provpp.GetValue]§! \n §G[TET.Capital.provpp.GetValue]§! \n §G[TCP.Capital.provpp.GetValue]§!"
  oai_display: "Overlord Admin Influence: §G[Root.admin_influence_overlord.GetValue]§!"
+ tai_display: "Tenochtitlan's Influence: §G[TEN.triple_alliance_influence.GetValue]§! \nTetzcoco's Influence: §G[TET.triple_alliance_influence.GetValue]§! \nTlacopan's Influence: §G[TCP.triple_alliance_influence.GetValue]§!"

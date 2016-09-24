@@ -1,0 +1,811 @@
+tlatelolco = {
+	location = 2
+	color = { 197 14 35 }
+	members = {
+		1 609 610 611 3 4 5 38 37 6 7 2 
+	}
+	end = yes
+}
+
+tetzcoco = {
+	location = 26
+	color = { 195 25 200 }
+	outgoing = { 
+		name = "tlatelolco"
+		path = {
+		
+		}
+		control = {
+			1607.0 1010.0
+		}
+	}
+	members = {
+		26 27 28 31 29 30 25 22 19 20 18 11 8 13 43 21 23 438 12 
+	}
+}
+
+chalco = {
+	location = 33
+	color = { 178 21 241 }
+	outgoing = { 
+		name = "tetzcoco"
+		path = {
+		
+		}
+		control = {
+			1644.0 967.0
+		}
+	}
+	outgoing = { 
+		name = "tlatelolco"
+		path = {
+		
+		}
+		control = {
+			1593.0 959.0
+		}
+	}
+	members = {
+		36 35 34 396 33 32 409 
+	}
+}
+
+xocotitlan = {
+	location = 48
+	color = { 45 231 118 }
+	outgoing = { 
+		name = "petlacalco"
+		path = {
+		
+		}
+		control = {
+			1534.0 1080.0
+		}
+	}
+	members = {
+		48 9 437 47 10 
+	}
+}
+
+toluca = {
+	location = 49
+	color = { 37 157 255 }
+	outgoing = { 
+		name = "petlacalco"
+		path = {
+		
+		}
+		control = {
+			1523.0 1026.0
+		}
+	}
+	outgoing = { 
+		name = "xocotitlan"
+		path = {
+		
+		}
+		control = {
+			1501.0 1065.0
+		}
+	}
+	members = {
+		470 49 467 464 466 463 469 468 465 462 51 471 472 474 478
+	}
+}
+
+petlacalco = {
+	location = 394
+	color = { 46 21 226 }
+	outgoing = { 
+		name = "tlatelolco"
+		path = {
+		
+		}
+		control = {
+			1562.0 1032.0
+		}
+	}
+	members = {
+		394 50 395 461 460 459 458 457 456 455 454 453
+	}
+}
+
+tula = {
+	location = 44
+	color = { 16 204 41 }
+	outgoing = { 
+		name = "tetzcoco"
+		path = {
+		
+		}
+		control = {
+			1639.0 1062.0
+		}
+	}
+	outgoing = { 
+		name = "metztitlan"
+		path = {
+		
+		}
+		control = {
+			1613.0 1216.0
+		}
+	}
+	members = {
+		15 14 440 439 442 441 443 444 44 430 431 434 45 433 435 432 450 451
+	}
+}
+
+cholula = {
+	location = 77
+	color = { 208 210 35 }
+	outgoing = { 
+		name = "tetzcoco"
+		path = {
+		
+		}
+		control = {
+			1703.0 1001.0
+		}
+	}
+	members = {
+		76 77 75 408 24 17 16 578 
+	}
+}
+
+tepeacac = {
+	location = 67
+	color = { 228 130 35 }
+	outgoing = { 
+		name = "cholula"
+		path = {
+		
+		}
+		control = {
+			1804.0 924.0
+		}
+	}
+	members = {
+		536 534 67 531 532 530 529 528 413 411 53 410 415 416 418 528 522 537
+		526 525 523 521 423 421 419 420 415 424 426 427 
+	}
+}
+
+malinalco = {
+	location = 54
+	color = { 199 124 64 }
+	outgoing = { 
+		name = "toluca"
+		path = {
+		
+		}
+		control = {
+			1508.0 929.0
+		}
+	}
+	members = {
+		54 483 479 477 480 55 482 481 473 476 
+	}
+}
+
+cuahnahuac = {
+	location = 52
+	color = { 227 9 57 }
+	outgoing = { 
+		name = "chalco"
+		path = {
+		
+		}
+		control = {
+			1643.0 945.0
+		}
+	}
+	members = {
+		400 401 403 404 407 425 422 406 405 402 399 398 397 52 412 414
+		417 422
+	}
+}
+
+yohualtepec = {
+	location = 59 
+	color = { 226 40 255 }
+	outgoing = { 
+		name = "tepeacac"
+		path = {
+		
+		}
+		control = {
+			1804.0 803.0
+		}
+	}
+	outgoing = { 
+		name = "cuahnahuac"
+		path = {
+		
+		}
+		control = {
+			1679.0 787.0
+		}
+	}
+	outgoing = { 
+		name = "oztoman"
+		path = {
+		
+		}
+		control = {
+			1502.0 793.0
+		}
+	}
+	members = {
+		428 59 513 512 511 514 508 515 516 520 
+	}
+}
+
+oztoman = {
+	location = 56
+	color = { 102 39 212 }
+	outgoing = { 
+		name = "tetellan"
+		path = {
+		
+		}
+		control = {
+			1397.0 933.0
+		}
+	}
+	members = {
+		494 489 475 488 487 486 491 492 493 56 484 490 57 485
+	}
+}
+
+cihuatlan = {
+	location = 58
+	color = { 79 38 197 }
+	outgoing = { 
+		name = "zacatula"
+		path = {
+		
+		}
+		control = {
+			1098.0 742.0
+		}
+	}
+	members = {
+		503 502 699 501 500 499 498 497 58 496
+	}
+}
+
+yope = {
+	location = 81
+	color = { 38 212 169 }
+	outgoing = { 
+		name = "cihuatlan"
+		path = {
+		
+		}
+		control = {
+			1397.0 569.0
+		}
+	}
+	outgoing = { 
+		name = "oztoman"
+		path = {
+		
+		}
+		control = {
+			1459.0 696.0
+		}
+	}
+	members = {
+		81 495 510 505 507 504 506 62
+	}
+}
+
+tututepec = {
+	location = 79
+	color = { 18 115 25 }
+	outgoing = { 
+		name = "yope"
+		path = {
+		
+		}
+		control = {
+			1690.0 437.0
+		}
+	}
+	members = {
+		79 706 705 703 548 707 708 704 
+	}
+}
+
+tehuantepec = {
+	location = 80
+	color = { 116 212 76 }
+	outgoing = { 
+		name = "tochtepec"
+		path = {
+		
+		}
+		control = {
+			2240.0 429.0
+		}
+	}
+	outgoing = { 
+		name = "tututepec"
+		path = {
+		
+		}
+		control = {
+			2101.0 288.0
+		}
+	}
+	members = {
+		709 710 80 554 555 552 550 63 553
+	}
+}
+
+teotitlan = {
+	location = 78
+	color = { 235 213 76 }
+	outgoing = { 
+		name = "tepeacac"
+		path = {
+		
+		}
+		control = {
+			1910.0 764.0
+		}
+	}
+	outgoing = { 
+		name = "yohualtepec"
+		path = {
+		
+		}
+		control = {
+			1858.0 698.0
+		}
+	}
+	members = {
+		78 549 547 542 543 545 544 540 539 61 538 517 509 518 519 524 527
+		541 60 546
+	}
+}
+
+tochtepec = {
+	location = 65
+	color = { 228 143 26 }
+	outgoing = { 
+		name = "teotitlan"
+		path = {
+		
+		}
+		control = {
+			2078.0 561.0
+		}
+	}
+	members = {
+		65 551 557 564 565 566 568 567 63 556 
+	}
+}
+
+cuetlaxtlan = {
+	location = 66
+	color = { 199 85 91 }
+	outgoing = { 
+		name = "tuchpa"
+		path = {
+		
+		}
+		control = {
+			1919.0 1159.0
+		}
+	}
+	outgoing = { 
+		name = "cholula"
+		path = {
+		
+		}
+		control = {
+			1889.0 974.0
+		}
+	}
+	outgoing = { 
+		name = "tepeacac"
+		path = {
+		
+		}
+		control = {
+			1963.0 876.0
+		}
+	}
+	members = {
+		66 574 562 563 561 560 559 558 577 573 569 68 570 535 571 572 576 575 
+	}
+}
+
+tuchpa = {
+	location = 594
+	color = { 159 20 50 }
+	outgoing = { 
+		name = "tula"
+		path = {
+		
+		}
+		control = {
+			1745.0 1224.0
+		}
+	}
+	members = {
+		585 586 588 587 69 581 582 583 584 589 580 590 579 591 592 593 594 72
+		71 596 595 73 129 599 446 448 447 445 
+	}
+}
+
+tzintzuntzan = {
+	location = 84
+	color = { 117 53 153 }
+	members = {
+		84 85 86 362 654 363 364 373 365 368 89 686 367 372 370 389 662 
+		687 655 
+	}
+	end = yes
+}
+
+zacatula = {
+	location = 92
+	color = { 49 26 140 }
+	outgoing = { 
+		name = "tzintzuntzan"
+		path = {
+		
+		}
+		control = {
+			1095.0 952.0
+		}
+	}
+	members = {
+		92 701 393 660 659 658 657 390 661 663 664 91 667 392 665 666 391 
+		88 656 668 
+	}
+}
+
+cuitzeo = {
+	location = 369
+	color = { 43 83 130 }
+	outgoing = { 
+		name = "tzintzuntzan"
+		path = {
+		
+		}
+		control = {
+			1179.0 1067.0
+		}
+	}
+	members = {
+		369 377 692 693 371 366 688 374 691 382 700 690 685 688 695 379 381
+		689 694
+	}
+}
+
+chapala = {
+	location = 376
+	color = { 25 117 108 }
+	outgoing = { 
+		name = "cuitzeo"
+		path = {
+		
+		}
+		control = {
+			1041.0 1078.0
+		}
+	}
+	outgoing = { 
+		name = "tzintzuntzan"
+		path = {
+		
+		}
+		control = {
+			1065.0 981.0
+		}
+	}
+	members = {
+		103 111 110 96 376 684 683 682 681 674 384 675 385 670 669 671 672 384
+		673 679 678 90 383 677 680 375 97 676 715
+	}
+}
+
+tetellan = {
+	location = 380
+	color = { 14 109 63 }
+	outgoing = { 
+		name = "toluca"
+		path = {
+		
+		}
+		control = {
+			1445.0 1015.0
+		}
+	}
+	outgoing = { 
+		name = "cuitzeo"
+		path = {
+		
+		}
+		control = {
+			1322.0 1072.0
+		}
+	}
+	outgoing = { 
+		name = "tzintzuntzan"
+		path = {
+		
+		}
+		control = {
+			1270.0 995.0
+		}
+	}
+	members = {
+		452 449 378 380 388 697 696 386 698 87 387 388
+	}
+}
+
+colima = {
+	location = 94
+	color = { 133 115 35 }
+	outgoing = { 
+		name = "zacatula"
+		path = {
+		
+		}
+		control = {
+			840.0 854.0
+		}
+	}
+	members = {
+		93 94 95 108 107 109 117 118 711 713
+	}
+}
+
+xalisco = {
+	location = 716
+	color = { 133 80 64 }
+	outgoing = { 
+		name = "colima"
+		path = {
+		
+		}
+		control = {
+			566.0 1093.0
+		}
+	}
+	members = {
+		119 116 115 114 112 113 120 121 718 717 716 714
+	}
+}
+
+xecora = {
+	location = 123
+	color = { 133 40 50 }
+	outgoing = { 
+		name = "xalisco"
+		path = {
+		
+		}
+		control = {
+			624.0 1432.0
+		}
+	}
+	members = {
+		123 122 224 228 225 236 237 226 227 
+	}
+}
+
+tonallan = {
+	location = 715
+	color = { 230 160 124 }
+	outgoing = { 
+		name = "xecora"
+		path = {
+		
+		}
+		control = {
+			788.0 1432.0
+		}
+	}
+	outgoing = { 
+		name = "chapala"
+		path = {
+		
+		}
+		control = {
+			923.0 1405.0
+		}
+	}
+	members = {
+		222 106 223 224 105 104 102 101 100 99 98 125 124 719 720 721 722 723 724
+	}
+}
+
+metztitlan = {
+	location = 82
+	color = { 194 135 209 }
+	members = {
+		82 436 597 598 74 126 46 128 127 229 230 231 232 233 235 234 
+	}
+	end = yes
+}
+
+xoconochco = {
+	location = 64
+	color = { 193 183 251 }
+	outgoing = { 
+		name = "tehuantepec"
+		path = {
+		
+		}
+		control = {
+			2507.0 396.0
+		}
+	}
+	members = {
+		607 600 64 601 602 603 604 605 606 608 194 178 172 193 
+	}
+}
+
+kumarcaaj = {
+	location = 195
+	color = { 97 202 114 }
+	outgoing = { 
+		name = "xoconochco"
+		path = {
+		
+		}
+		control = {
+			2971.0 39.0
+		}
+	}
+	members = {
+		195 640 644 646 645 643 642 641 197 196 198 200 647 648 649 639  
+	}
+}
+
+iximche = {
+	location = 203
+	color = { 182 206 134 }
+	outgoing = { 
+		name = "kumarcaaj"
+		path = {
+		
+		}
+		control = {
+			3128.0 134.0
+		}
+	}
+	members = {
+		203 651 204 650 206 202 201 199  
+	}
+}
+
+choli = {
+	location = 187
+	color = { 218 227 118 }
+	outgoing = { 
+		name = "iximche"
+		path = {
+		
+		}
+		control = {
+			3281.0 138.0
+		}
+	}
+	members = {
+		187 205 207 218 219 208 189 188 209 221 220 210 211 212 214 213 215 
+		216 217
+	}
+}
+
+xicalango = {
+	location = 165
+	color = { 228 158 91 }
+	outgoing = { 
+		name = "cuetlaxtlan"
+		path = {
+		
+		}
+		control = {
+			2474.0 680.0
+		}
+	}
+	members = {
+		192 190 191 177 176 174 173 171 175 170 169 165 168 164 160 159 
+		156 157 155 154 153 
+	}
+}
+
+peten = {
+	location = 167
+	color = { 228 122 105 }
+	outgoing = { 
+		name = "xoconochco"
+		path = {
+		
+		}
+		control = {
+			2830.0 401.0
+		}
+	}
+	members = {
+		167 166 184 186 182 181 180 183 185 179 163 614 162 613
+	}
+}
+
+mayapan = {
+	location = 150
+	color = { 173 23 6 }
+	outgoing = { 
+		name = "peten"
+		path = {
+		
+		}
+		control = {
+			3203.0 842.0
+		}
+	}
+	outgoing = { 
+		name = "xicalango"
+		path = {
+		
+		}
+		control = {
+			3203.0 842.0
+		}
+	}
+	members = {
+		150 637 152 151 635 634 636 146 633 145 632 148 144 142 638 147
+	}
+}
+
+chichenitza = {
+	location = 141 
+	color = { 202 19 174 }
+	outgoing = { 
+		name = "mayapan"
+		path = {
+		
+		}
+		control = {
+			3485.0 1228.0
+		}
+	}
+	members = {
+		615 616 158 617 620 618 619 149 141 621 625 140 623 622 624  
+		138 137 631 
+	}
+}
+
+ekab = {
+	location = 131 
+	color = { 70 15 183 }
+	outgoing = { 
+		name = "chichenitza"
+		path = {
+		
+		}
+		control = {
+			3728.0 1297.0
+		}
+	}
+	outgoing = { 
+		name = "peten"
+		path = {
+		
+		}
+		control = {
+			3493.0 584.0
+		}
+	}
+	members = {
+		626 627 139 628 630 629 132 130 131 133 134 135 136
+	}
+	
+}

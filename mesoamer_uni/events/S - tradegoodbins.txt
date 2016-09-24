@@ -1,6 +1,7 @@
 namespace = bins 
 
 #This event produces a bin for every province depending on its trade good
+#It's also a really janky version of a monthly pulse.
 country_event = {
 	id = bins.01
 
@@ -11,6 +12,17 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
+		#Remove Warleader flag
+		every_country = {
+			limit = {
+				AND = {
+					is_at_war = no
+					has_country_modifier = warleader
+				}
+			}
+			remove_country_modifier = warleader
+		}
+		
 		AZC = {
 			country_event = { id = bins.01 days = 30 }
 		}
@@ -30,6 +42,7 @@ country_event = {
 				country_event = { id = countrystats.01 days = 334 }
 				country_event = { id = populations.01 days = 334 }
 				country_event = { id = populations2.01 days = 334 }
+				country_event = { id = calctai.01 days = 334 }
 				add_country_modifier = { 
 					name = bincooldown
 					duration = 334
@@ -47,6 +60,7 @@ country_event = {
 				country_event = { id = countrystats.01 days = 365 }
 				country_event = { id = populations.01 days = 365 }
 				country_event = { id = populations2.01 days = 365 }
+				country_event = { id = calctai.01 days = 365 }
 				add_country_modifier = { 
 					name = bincooldown
 					duration = 365

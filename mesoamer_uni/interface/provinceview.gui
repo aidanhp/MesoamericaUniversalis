@@ -5754,14 +5754,30 @@ guiTypes = {
 			text = "2000¤"	
 		}		
 		
+		#checkboxType = {
+		#	name = "build_normalpt"
+		#	position = { x = 217 y = 420 }
+		#	quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
+		#}
+		#
+		#instantTextBoxType={
+		#	name = "normalpt_cost"
+		#	position = {x = 217 y = 470 }
+		#	font = "vic_18"
+		#	borderSize = {x = 0 y = 0}	
+		#	maxWidth = 128
+		#	maxHeight = 18
+		#	text = "2000¤"	
+		#}
+		
 		checkboxType = {
-			name = "build_normalpt"
+			name = "build_watergarden"
 			position = { x = 217 y = 420 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 		
 		instantTextBoxType={
-			name = "normalpt_cost"
+			name = "watergarden_cost"
 			position = {x = 217 y = 470 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
@@ -5771,13 +5787,13 @@ guiTypes = {
 		}
 		
 		checkboxType = {
-			name = "build_watergarden"
+			name = "build_royalzoo"
 			position = { x = 269 y = 420 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 		
 		instantTextBoxType={
-			name = "watergarden_cost"
+			name = "royalzoo_cost"
 			position = {x = 269 y = 470 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
@@ -5787,13 +5803,13 @@ guiTypes = {
 		}
 		
 		checkboxType = {
-			name = "build_royalzoo"
+			name = "build_greatuni"
 			position = { x = 321 y = 420 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 		
 		instantTextBoxType={
-			name = "royalzoo_cost"
+			name = "greatuni_cost"
 			position = {x = 321 y = 470 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
@@ -5803,14 +5819,14 @@ guiTypes = {
 		}
 		
 		checkboxType = {
-			name = "build_greatuni"
-			position = { x = 373 y = 420 }
+			name = "build_cholula_gp"
+			position = { x = -1000 y = -1000 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 		
 		instantTextBoxType={
-			name = "greatuni_cost"
-			position = {x = 373 y = 470 }
+			name = "cholula_gp_cost"
+			position = {x = -1000 y = -1000 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 128

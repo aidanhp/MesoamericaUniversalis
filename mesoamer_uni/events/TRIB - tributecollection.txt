@@ -245,12 +245,15 @@ country_event = {
 
 	trigger = {
 		is_year = 1429
-		num_of_protectorates = 1
-		OR = {
-			government = altepetl
-			government = hegemonic_kingdom
-			government = hegemonic_empire
+		OR = { 
+			num_of_protectorates = 1
+			num_of_vassals = 1
 		}
+		#OR = {
+		#	government = altepetl
+		#	government = hegemonic_kingdom
+		#	government = hegemonic_empire
+		#}
 		NOT = { has_country_modifier = recentcollection }
 	}
 

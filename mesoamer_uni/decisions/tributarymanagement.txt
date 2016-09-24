@@ -2,10 +2,9 @@ country_decisions = {
 	set_tribute_requirements = {
 		major = yes
 		potential = {
-			OR = {
-				government = altepetl 
-				government = hegemonic_kingdom
-				government = hegemonic_empire
+			OR = { 
+				num_of_protectorates = 1
+				num_of_vassals = 1
 			}
 			NOT = { has_country_flag = managingtribute }
 		}

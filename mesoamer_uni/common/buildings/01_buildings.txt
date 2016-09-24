@@ -1089,16 +1089,133 @@ greatpt = {
 	allowed_num_of_buildings = 1
 	destroy_on_conquest = yes
 	trigger = {
-	#NOTHING
 		FROM = {
-			has_idea = ostentatious
+			NOT = {
+				OR = {
+					tag = TEN
+					tag = LLC
+				}
+			}
 		}
 	}
 
 	modifier = {
-	#may hold sacrificial ceremonies by decision
-		prestige = 3
+		land_morale = 0.02
+		prestige = 1
+		diplomatic_reputation = 1
+		tolerance_own = 1
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+greatpt2 = {
+	cost = 1000
+	time = 24
+	allowed_num_of_buildings = 1
+	destroy_on_conquest = yes
+	trigger = {
+		FROM = {
+			NOT = {
+				OR = {
+					tag = TEN
+					tag = LLC
+				}
+			}
+		}
+	}
+
+	modifier = {
+		land_morale = 0.04
+		prestige = 1.25
 		diplomatic_reputation = 2
+		tolerance_own = 2
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+greatpt3 = {
+	cost = 1000
+	time = 24
+	allowed_num_of_buildings = 1
+	destroy_on_conquest = yes
+	trigger = {
+		FROM = {
+			NOT = {
+				OR = {
+					tag = TEN
+					tag = LLC
+				}
+			}
+		}
+	}
+
+	modifier = {
+		land_morale = 0.06
+		prestige = 1.50
+		diplomatic_reputation = 3
+		tolerance_own = 3
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+greatpt4 = {
+	cost = 1000
+	time = 24
+	allowed_num_of_buildings = 1
+	destroy_on_conquest = yes
+	trigger = {
+		FROM = {
+			NOT = {
+				OR = {
+					tag = TEN
+					tag = LLC
+				}
+			}
+		}
+	}
+
+	modifier = {
+		land_morale = 0.08
+		prestige = 1.75
+		diplomatic_reputation = 4
+		tolerance_own = 4
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+greatpt5 = {
+	cost = 1000
+	time = 24
+	allowed_num_of_buildings = 1
+	destroy_on_conquest = yes
+	trigger = {
+		FROM = {
+			NOT = {
+				OR = {
+					tag = TEN
+					tag = LLC
+				}
+			}
+		}
+	}
+
+	modifier = {
+		land_morale = 0.10
+		prestige = 2.0
+		diplomatic_reputation = 5
+		tolerance_own = 5
 	}
 	
 	ai_will_do = {
@@ -1162,9 +1279,7 @@ normalpt = {
 	#}
 
 	modifier = {
-	#may hold sacrificial ceremonies by decision
-		prestige = 2
-		diplomatic_reputation = 2
+		
 	}
 	
 	ai_will_do = {
@@ -1233,6 +1348,138 @@ greatuni = {
 	}
 }
 
+##########################
+#Country-Unique Buildings#
+##########################
+#Great Pyramid of Cholula
+
+cholula_gp = {
+	cost = 1000
+	time = 24
+	
+	modifier = { 
+		land_morale = 0.15
+		prestige = 2.0
+		diplomatic_reputation = 4
+		tolerance_own = 6
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}	
+
+tenoch_gp2 = {
+	cost = 1000
+	time = 24
+	
+	modifier = { 
+		land_morale = 0.02
+		prestige = 0.5
+		#diplomatic_reputation = 1
+		tolerance_own = 1
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+tenoch_gp3 = {
+	cost = 1000
+	time = 24
+	
+	modifier = { 
+		land_morale = 0.04
+		prestige = 1.0
+		#diplomatic_reputation = 1
+		tolerance_own = 2
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+tenoch_gp4 = {
+	cost = 1000
+	time = 24
+	
+	modifier = { 
+		land_morale = 0.06
+		prestige = 1.5
+		diplomatic_reputation = 1
+		tolerance_own = 3
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+tenoch_gp5 = {
+	cost = 1000
+	time = 24
+	
+	modifier = { 
+		land_morale = 0.08
+		prestige = 2.0
+		diplomatic_reputation = 2
+		tolerance_own = 4
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+tenoch_gp6 = {
+	cost = 1000
+	time = 24
+	
+	modifier = { 
+		land_morale = 0.10
+		prestige = 2.5
+		diplomatic_reputation = 3
+		tolerance_own = 5
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+tenoch_gp7 = {
+	cost = 1000
+	time = 24
+	
+	modifier = { 
+		land_morale = 0.12
+		prestige = 3.0
+		diplomatic_reputation = 4
+		tolerance_own = 6
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+tenoch_gp8 = {
+	cost = 1000
+	time = 24
+	
+	modifier = { 
+		land_morale = 0.15
+		prestige = 4.0
+		diplomatic_reputation = 5
+		tolerance_own = 7
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
 
 ###END 
 

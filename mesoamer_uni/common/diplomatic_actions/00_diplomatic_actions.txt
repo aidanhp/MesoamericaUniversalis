@@ -73,6 +73,109 @@
 # sell_ships_action
 # counterespionage
 
+requestpeace = {
+	condition = {
+		tooltip = ONLY_WARLEADER
+		potential = {
+			always = yes
+		}
+		allow = {
+			FROM = { 
+				has_country_modifier = warleader
+			}
+		}
+	}
+}
+
+declarewar = {
+	condition = {
+		tooltip = YES
+		potential = {
+			
+		}
+		allow = {
+			always = yes
+		}
+	}
+	effect = {
+		ROOT = { 
+			add_country_modifier = {
+				name = "warleader"
+				duration = -1
+			}
+		}
+		FROM = {
+			add_country_modifier = {
+				name = "warleader"
+				duration = -1
+			}
+		}
+	}
+}
+allianceaction = {
+	condition = {
+		tooltip = TA_4
+		potential = {
+			FROM = {
+				OR = {
+					tag = TEN
+					tag = TET
+					tag = TCP
+				}
+			}
+		}
+		allow = {
+			always = no
+		}
+		
+	}
+	condition = {
+		tooltip = TA_1
+		potential = {
+			OR = {
+				tag = TEN
+			}
+			AND = {
+				alliance_with = TET
+				alliance_with = TCP
+			}
+		}
+		allow = {
+			always = no
+		}
+	}
+	condition = {
+		tooltip = TA_2
+		potential = {
+			OR = {
+				tag = TET
+			}
+			AND = {
+				alliance_with = TEN
+				alliance_with = TCP
+			}
+		}
+		allow = {
+			always = no
+		}
+	}
+	condition = {
+		tooltip = TA_3
+		potential = {
+			OR = {
+				tag = TCP
+			}
+			AND = {
+				alliance_with = TET
+				alliance_with = TEN
+			}
+		}
+		allow = {
+			always = no
+		}
+	}
+}
+
 royal_marriage = {
 	condition = {
 		tooltip = MARWAR
@@ -192,20 +295,18 @@ protectorateaction = {
 		potential = {
 		}
 		allow = {
-			FROM = {
-				is_nomad = no
-			}
+			always = no
 		}
 	}
 }
 
 ask_for_protection_action = {
 	condition = {
-		tooltip = HORDENOPROTECTORATE
+		tooltip = NO
 		potential = {
 		}
 		allow = {
-			is_nomad = no
+			always = no
 		}
 	}
 }

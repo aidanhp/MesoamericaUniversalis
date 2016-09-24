@@ -1,0 +1,144 @@
+namespace = buildp 
+
+country_event = {
+	id = buildp.01
+	
+	title = "buildp1.t"
+	desc = "buildp1.d"
+	picture = GREAT_BUILDING_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "buildp1.a"
+		custom_tooltip = buildp1.a.ctt
+		add_treasury = -1000
+		if = {
+			limit = {
+				capital_scope = {
+					has_building = greatpt
+				}
+			}
+			add_country_modifier = {
+				name = greatpt1_greatpt2
+				duration = -1
+			}
+		}
+		if = {
+			limit = {
+				capital_scope = {
+					has_building = greatpt2
+				}
+			}
+			add_country_modifier = {
+				name = greatpt2_greatpt3
+				duration = -1
+			}
+		}
+		if = {
+			limit = {
+				capital_scope = {
+					has_building = greatpt3
+				}
+			}
+			add_country_modifier = {
+				name = greatpt3_greatpt4
+				duration = -1
+			}
+		}
+		if = {
+			limit = {
+				capital_scope = {
+					has_building = greatpt4
+				}
+			}
+			add_country_modifier = {
+				name = greatpt4_greatpt5
+				duration = -1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = buildp.02
+	
+	title = "buildp2.t"
+	desc = "buildp2.d"
+	picture = GREAT_BUILDING_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "buildp2.a"
+		custom_tooltip = buildp2.a.ctt
+		add_treasury = -1000
+		
+		if = {
+			limit = {
+				capital_scope = {
+					has_building = tenoch_gp2 
+				}
+			}
+			add_country_modifier = {
+				name = hteocalli2_hteocalli3
+				duration = -1
+			}
+		}
+		if = {
+			limit = {
+				capital_scope = {
+					has_building = tenoch_gp3
+				}
+			}
+			add_country_modifier = {
+				name = hteocalli3_hteocalli4
+				duration = -1
+			}
+		}
+		if = {
+			limit = {
+				capital_scope = {
+					has_building = tenoch_gp4
+				}
+			}
+			add_country_modifier = {
+				name = hteocalli4_hteocalli5
+				duration = -1
+			}
+		}
+		if = {
+			limit = {
+				capital_scope = {
+					has_building = tenoch_gp5
+				}
+			}
+			add_country_modifier = {
+				name = hteocalli5_hteocalli6
+				duration = -1
+			}
+		}
+		if = {
+			limit = {
+				capital_scope = {
+					has_building = tenoch_gp6
+				}
+			}
+			add_country_modifier = {
+				name = hteocalli6_hteocalli7
+				duration = -1
+			}
+		}
+		if = {
+			limit = {
+				capital_scope = {
+					has_building = tenoch_gp7
+				}
+			}
+			add_country_modifier = {
+				name = hteocalli7_hteocalli8
+				duration = -1
+			}
+		}
+	}
+}

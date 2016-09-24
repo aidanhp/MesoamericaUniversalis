@@ -33,25 +33,25 @@ groups = {
 		trade_company = yes
 	}
 	reinvigorated_mayan = {
-		modifier = 0.40
+		modifier = 0.0
 		start_level = 3
 		cav_to_inf_ratio = 0.5
 		trade_company = yes
 	}
 	triple_alliance = {
-		modifier = 0.40
+		modifier = 0.0
 		start_level = 0
 		cav_to_inf_ratio = 0.5
 		trade_company = yes
 	}
 	central_mexican = {
-		modifier = 0.40
+		modifier = 0.0
 		start_level = 0
 		cav_to_inf_ratio = 0.5
 		trade_company = yes
 	}
 	tarascan = {
-		modifier = 0.50
+		modifier = 0.0
 		start_level = 0
 		cav_to_inf_ratio = 0.5
 		trade_company = yes
@@ -63,19 +63,19 @@ groups = {
 		trade_company = yes
 	}
 	northern_mayan = {
-		modifier = 0.60
+		modifier = 0.0
 		start_level = 0
 		cav_to_inf_ratio = 0.5
 		trade_company = yes
 	}
 	southern_mayan = {
-		modifier = 0.75
+		modifier = 0.0
 		start_level = 0
 		cav_to_inf_ratio = 0.5
 		trade_company = yes
 	}
 	semi_nomadic_tribe = {
-		modifier = 1.5
+		modifier = 0.0
 		start_level = 0
 		cav_to_inf_ratio = 0.5
 		trade_company = yes

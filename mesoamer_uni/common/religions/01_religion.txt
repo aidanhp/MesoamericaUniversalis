@@ -25,8 +25,8 @@ mexican_group = {
 		}
 		can_have_secondary_religion = yes
 		declare_war_in_regency = yes
-		#personal_deity = yes
 		has_patriarchs = yes	
+		#misguided_heretic = yes	
 	}
 
 	tarascan = {

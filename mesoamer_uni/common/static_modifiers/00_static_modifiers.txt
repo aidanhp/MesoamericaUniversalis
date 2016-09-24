@@ -243,13 +243,14 @@ capital_city = {
 
 # Multiplied in provinces of same religion.
 patriarch_authority_local = {
-	
+	local_unrest = -2
 }
 
 #for the country
 patriarch_authority_global = {
-	prestige = 5
-	land_morale = 0.20
+	prestige = 2.5
+	infantry_power = 0.10
+	global_tax_modifier = -0.075
 }
 
 colony_level = {
@@ -459,6 +460,7 @@ base_values = {
 	#Balancing
 	global_tax_modifier = -0.999
 	core_creation = -0.67
+	technology_cost = 0.33333
 	#ae_impact = -0.33
 	#production_efficiency = -0.997
 	#global_trade_goods_size_modifier = -0.997
@@ -467,7 +469,7 @@ base_values = {
 
 # AI 'cheats' that compensate for flaws in its long-term decision making, removing these may severely cripple the AI
 ai_nation = {
-	diplomats = 1 							# ai has to reserve a diplomat for short term action so it gets an extra to put it on equal footing with player
+	diplomats = 2 							# ai has to reserve a diplomat for short term action so it gets an extra to put it on equal footing with player
 	free_leader_pool = 1					# ai needs to have enough pool for 1 general & 1 admiral
 }
 

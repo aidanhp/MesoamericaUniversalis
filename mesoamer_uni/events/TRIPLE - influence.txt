@@ -1,0 +1,16 @@
+namespace = tainfluence 
+
+country_event = {
+	id = tainfluence.01
+	
+	title = "tainfluence1.t"
+	desc = "tainfluence1.d"
+	picture = DIPLOMACY_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "tainfluence1.a"
+		clr_country_flag = tainfluence_displaying
+	}
+}

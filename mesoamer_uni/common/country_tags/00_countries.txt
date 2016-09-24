@@ -553,6 +553,19 @@ HHP =   "countries/Pochulta.txt"
 HHQ =   "countries/Huatulco.txt"
 HHS =   "countries/Huamelula.txt"
 
+#New West Mexican States
+HHT =   "countries/Acoliman.txt"
+HHU =   "countries/Zacoalco.txt"
+HHV =   "countries/Tonala.txt"
+HHW =   "countries/Xalisco1.txt"
+HHX =   "countries/Xalisco2.txt"
+HHY =   "countries/Teul.txt"
+HHZ =   "countries/Tlatenango.txt"
+IIA =   "countries/Tuitlan.txt"
+IIB =   "countries/Jalpa.txt"
+IIC =   "countries/Juchipila.txt"
+IID =   "countries/Tizapan.txt"
+
 #Formables
 TLT     = "countries/ToltecEmpire.txt"
 LEA     = "countries/ActualLeague.txt"

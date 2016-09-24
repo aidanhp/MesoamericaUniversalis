@@ -181,7 +181,7 @@
  CIM_ADJ:0 "Colliman"
  TAM:0 "Tamazollan"
  TAM_ADJ:0 "Tamazollan"
- SAY:0 "Sayula"
+ SAY:0 "Sayula"#Sayula
  SAY_ADJ:0 "Sayula"
  ECP:0 "Tecpatitlan"
  ECP_ADJ:0 "Tecpatitlani"
@@ -722,6 +722,19 @@
  HHP:0 "Pochulta"
  HHQ:0 "Huatulco"
  HHS:0 "Huamelula"
+ 
+ #West Mexican States
+ HHT: "Acoliman"
+ HHU: "Zacoalco"
+ HHV: "Tonala"
+ HHW: "Camatlan"
+ HHX: "Xalisco"
+ HHY: "Teul"
+ HHZ: "Tlatenango"
+ IIA: "Tuitlan"
+ IIB: "Jalpa"
+ IIC: "Juchipila"
+ IID: "Tizapan"
  
  #Formables
  TLT:0 "Toltec Empire"

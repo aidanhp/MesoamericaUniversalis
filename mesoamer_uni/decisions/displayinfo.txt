@@ -66,4 +66,24 @@ country_decisions = {
 			custom_tooltip = oai_display
 		}
 	}
+
+	display_tai = {
+		#major = yes
+		potential = {
+			ai = no
+			NOT = { has_country_flag = tainfluence_displaying }
+			OR = { 
+				tag = TEN
+				tag = TET
+				tag = TCP
+			}
+		}	
+		allow = {
+			always = yes
+		}
+		effect = {
+			set_country_flag = tainfluence_displaying
+			country_event = { id = tainfluence.01 }
+		}
+	}
 }
