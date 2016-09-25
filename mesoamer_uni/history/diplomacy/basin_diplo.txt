@@ -40,28 +40,9 @@ royal_marriage = {
 	start_date = 1428.1.1
 	end_date = 1821.1.1
 }
-#Tlaxcallan Confederacy
-alliance = {
-	first = TLX
-	second = HUE
-	start_date = 1428.1.1
-	end_date = 1821.1.1
-}
-
-alliance = {
-	first = TLX
-	second = LLC
-	start_date = 1428.1.1
-	end_date = 1821.1.1
-}
 
 
-alliance = {
-	first = LLC
-	second = HUE
-	start_date = 1428.1.1
-	end_date = 1821.1.1
-}
+
 
 #Tenoch Vassals
 protectorate = {

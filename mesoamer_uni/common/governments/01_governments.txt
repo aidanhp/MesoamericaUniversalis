@@ -240,11 +240,15 @@ tlaxcallan_confederate = {
 	
 	max_states = 1
 	
+	allow_vassal_war = yes
+	allow_vassal_alliance = yes
+
+
 	rank = {
 		2 = {
 			diplomatic_upkeep = -1
 			legitimacy = 5 
-			land_forcelimit_modifier = -0.33
+			land_forcelimit_modifier = -0.60
 		}
 	}
 	fixed_rank = 2
@@ -272,4 +276,27 @@ tarascan_tribute_kingdom = {
 		}
 	}
 	fixed_rank = 2
+}
+
+#"Special"
+magic_island = {
+	monarchy = yes
+	
+	color = { 210 30 30 }
+	
+	allow_convert = no
+	unique_government = yes
+	valid_for_new_country = no
+
+	max_states = 1
+	
+	rank = {
+		3 = {
+			global_tax_modifier = 10
+			global_manpower_modifier = 10
+			discipline = 10
+			global_unrest = -1000
+		}
+	}
+	fixed_rank = 3
 }

@@ -566,6 +566,15 @@ IIB =   "countries/Jalpa.txt"
 IIC =   "countries/Juchipila.txt"
 IID =   "countries/Tizapan.txt"
 
+#Tlaxcallan Confederacy Additions
+IIE =   "countries/Hueyotlipan.txt"
+IIF =   "countries/Atlihuitzia.txt"
+IIG =   "countries/Tepeyanco.txt"
+IIH =   "countries/Huamantla.txt"
+III =   "countries/Tzompantzingo.txt"
+IIJ =   "countries/Tecoac.txt"
+
+
 #Formables
 TLT     = "countries/ToltecEmpire.txt"
 LEA     = "countries/ActualLeague.txt"
@@ -578,3 +587,6 @@ GCC     = "countries/GrandChichimecConfederacy.txt"
 TOE     = "countries/TenochcaEmpire.txt"
 TCE     = "countries/TetzcocahEmpire.txt"
 TNE     = "countries/TlacoEmpire.txt"
+
+#Special Countries
+MGI     = "countries/MagicIsland.txt"

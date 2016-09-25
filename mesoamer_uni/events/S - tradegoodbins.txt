@@ -23,10 +23,12 @@ country_event = {
 			remove_country_modifier = warleader
 		}
 		
-		AZC = {
+		#Run this event again in 30 days
+		MGI = {
 			country_event = { id = bins.01 days = 30 }
 		}
 		
+		#Update vassal loyalty for every country every 30 days
 		every_country = {
 			country_event = { id = rrisk.01 days = 30 }
 		}
@@ -34,15 +36,15 @@ country_event = {
 		if = { 
 			limit = { 
 				NOT = { is_year = 1429 }
-				TEN = {
+				MGI = {
 					NOT = { has_country_modifier = bincooldown }
 				}
 			}
-			TEN = {
-				country_event = { id = countrystats.01 days = 334 }
-				country_event = { id = populations.01 days = 334 }
-				country_event = { id = populations2.01 days = 334 }
-				country_event = { id = calctai.01 days = 334 }
+			MGI = {
+				country_event = { id = countrystats.01 days = 334 }#Update country stats once a year
+				country_event = { id = populations.01 days = 334 }#Update population once a year
+				country_event = { id = populations2.01 days = 334 }#Pop growth from surplus food
+				country_event = { id = calctai.01 days = 334 }#Update triple alliance influence
 				add_country_modifier = { 
 					name = bincooldown
 					duration = 334
@@ -52,11 +54,11 @@ country_event = {
 		if = {
 			limit = {
 				is_year = 1429
-				TEN = {
+				MGI = {
 					NOT = { has_country_modifier = bincooldown }
 				}
 			}
-			TEN = {
+			MGI = {
 				country_event = { id = countrystats.01 days = 365 }
 				country_event = { id = populations.01 days = 365 }
 				country_event = { id = populations2.01 days = 365 }
@@ -68,7 +70,7 @@ country_event = {
 			}
 		}
 	
-		TEN = {
+		MGI = { #Update admin influence every 30 days
 			country_event = { id = admini.02 days = 30 }
 		}
 	}

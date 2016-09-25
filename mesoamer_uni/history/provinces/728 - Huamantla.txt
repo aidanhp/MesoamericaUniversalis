@@ -1,0 +1,19 @@
+add_core = IIH
+owner = IIH
+controller = IIH
+culture = tlaxcallan
+religion = newnahuatl 
+hre = no
+base_tax = 251
+base_production = 502
+trade_goods = grain
+base_manpower = 1748
+capital = "Huamantla"
+is_city = yes
+fort_15th = yes
+
+discovered_by = semi_nomadic_tribe
+discovered_by = west_mexican
+discovered_by = tarascan
+discovered_by = central_mexican
+discovered_by = triple_alliance

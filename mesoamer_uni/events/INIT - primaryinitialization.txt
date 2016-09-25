@@ -112,15 +112,19 @@ country_event = {
 				set_variable = { which = luxurygoods value = 20 }
 				set_variable = { which = militarysupplies value = 10 }
 				set_variable = { which = buildingsupplies value = 20 }
+				
 				#Variable to estimate how many bins of military supplies you need 
 				#to expand supply lines
 				set_variable = { which = msestimate value = 0 }
+				
 				#Revolt risk
 				set_variable = { which = subjectrevoltrisk value = 0 }
+				
 				#Administrative Influence
 				set_variable = { which = admin_influence_overlord value = 0 }
 				set_variable = { which = admin_influence_home value = 0 }
 				set_variable = { which = admin_influence_other value = 0 }
+				
 				if = {
 					limit = {
 						is_vassal = yes
@@ -515,7 +519,7 @@ country_event = {
 			####################
 			#Start Calculations#
 			####################
-			TEN = {
+			MGI = {
 				##############################
 				#Calculates starting manpower#
 				##############################
@@ -661,15 +665,12 @@ country_event = {
 			#First pop event 
 			
 			
-			#######
-			#Tests#
-			#######
+			#####################
+			#Magic Island Events#
+			#####################
 			
-			AZC = {
+			MGI = {
 				country_event = { id = bins.01 days = 1 }
-			}
-			
-			TEN = {
 				country_event = { id = populations.01 days = 1  }
 			}
 		}

@@ -27,5 +27,5 @@ severe_winter = {
 }
 
 impassable = {
-	161
+	161 732
 }

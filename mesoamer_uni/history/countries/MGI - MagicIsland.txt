@@ -1,0 +1,18 @@
+government = magic_island
+government_rank = 2
+mercantilism = 0.25
+technology_group = central_mexican 
+religion = newnahuatl 
+primary_culture = mexica
+capital = 731
+fixed_capital = 731
+
+1427.1.1 = {
+	monarch = {
+		name = "World Administrator"
+		dynasty = "of Magic Island"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}

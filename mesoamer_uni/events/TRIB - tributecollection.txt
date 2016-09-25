@@ -249,11 +249,6 @@ country_event = {
 			num_of_protectorates = 1
 			num_of_vassals = 1
 		}
-		#OR = {
-		#	government = altepetl
-		#	government = hegemonic_kingdom
-		#	government = hegemonic_empire
-		#}
 		NOT = { has_country_modifier = recentcollection }
 	}
 

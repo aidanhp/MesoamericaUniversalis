@@ -1,0 +1,57 @@
+#Tlaxcallan Confederacy
+vassal = {
+	first = TLX
+	second = III
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = TLX
+	second = IIJ
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = HUE
+	second = IIE
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = HUE
+	second = IIF
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = LLC
+	second = IIG
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = LLC
+	second = IIH
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = TLX
+	second = HUE
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+
+vassal = {
+	first = TLX
+	second = LLC
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}

@@ -10,12 +10,14 @@
  ONLY_WARLEADER: "You can only negotiate peace with the warleader."
  
  #Bookmarks
+ RISE_OF_THE_AZTECS: "Victory of the Triple Alliance"
+ RISE_OF_THE_AZTECS_DESC: "In 1426, the long time dominators of the Valley of Mexico, the Tepanecs of Azcapotzalco, were cast into a succession crises by the death of their Tlatoani (King), Tezozomoc. Tezozomoc’s son Maxtla had usurped the throne from the legitimate heir, Tayatzin, whose claim was backed by most Tepanec tributaries, notably Tenochtitlan, the future capital of the Aztec Empire. After stealing the throne, Maxtla made a fateful mistake had the Tlatoani of Tenochtitlan, Chimalpopoca, assassinated. The Tepanec War thus begun, pitting the rapidly deteriorating Tepanec Empire against three city states: Tenochtitlan, lead by newly elected Itzcoatl, Tetzcoco, lead by the resurgent Nezahualcoyotl, and Tlacopan, another Tepanec city, lead by Totoquihuatzin. After a 114 day siege, Azcapotzalco was sacked and Maxtla fled into obscurity. Tenochtitlan, Tetzcoco, and Tlacopan went on to declare their cooperation, creating what would soon become Mesoamerica’s greatest empire: the Aztec Triple Alliance."
  IRECHECUA_TZINTZUNTZANI: "Irechecua Tzintzuntzani"
- IRECHECUA_TZINTZUNTZANI_DESC: "Just as the Aztec Triple Alliance rises in the east, the Great Kingdom of the Purepecha, Tzintzuntzan, rises in the west. Having secured the lands around Lake Patzcuaro, the kingdom has begun to turn its might outwards under glorious Cazonci Hirepan Uacusecha. Meanwhile, the kingdoms of Xalisco and Colliman expand their control over the far west, and the wealthy coastal city of Zacatula furthers its position as a great center of trade."
+ IRECHECUA_TZINTZUNTZANI_DESC: "Just as the Triple Alliance rises in the east, the great kingdom of the Purepecha, Tzintzuntzan, rises in the west. Founded by glorious hero Tariacuri, the kingdom had finally secured all major centers around Lake Patzcuaro by the early 1400s and was in the process of turning its great might outwards under the leadership of Cazonci Hirepan Uacusecha. Meanwhile, the wealthy port city of Zacatula furthers its position as a great center of trade, and the Kingdom of Colliman expands into the far west."
  KINGDOMS_OF_THE_HIGHLANDS: "Kingdoms of the Highlands"
- KINGDOMS_OF_THE_HIGHLANDS_DESC: "The struggle between two old rivals, the kingdoms of K'umarcaaj and Kaqchikel, reaches new heights as the two battle for supremacy over the Mayan highlands."
- SHATTERING_OF_MAYAPAN: "Shattering of Mayapan"
- SHATTERING_OF_MAYAPAN_DESC: "The centuries old League of Mayapan nears its breaking point as tensions between the Cocom and Tutul Xiu dynasties threaten to send the confederacy into civil war."
+ KINGDOMS_OF_THE_HIGHLANDS_DESC: "I need to read up on K’iche history before I write this bookmark."
+ SHATTERING_OF_MAYAPAN: "The Fall of Kukulkan's Realm"
+ SHATTERING_OF_MAYAPAN_DESC: "The League of Mayapan, a confederacy founded by the semi-mythological Kukulkan, united the Yucatan Peninsula under one banner for centuries, but by the 1400s it was in terminal decline. Internal conflict, ecological catastrophes, and a diminished capital had slowly eaten away at the Confederacy’s power, and tensions between the Xiu and Cocom dynasties now threatened to permanently end the unity it once provided and usher in a new age of petty kingdoms competing for power."
  
  
  #GEOGRAPHY

@@ -736,6 +736,15 @@
  IIC: "Juchipila"
  IID: "Tizapan"
  
+ #Tlaxcallan Additions
+ IIE: "Hueyotlipan"
+ IIF: "Atlihuitzia"
+ IIG: "Tepeyanco"
+ IIH: "Huamantla"
+ III: "Tzompantzingo"
+ IIJ: "Tecoac"
+ 
+ 
  #Formables
  TLT:0 "Toltec Empire"
  TLT_ADJ:0 "Toltec"
@@ -757,7 +766,9 @@
  TNE:0 "Tlaco Empire"
  TNE_ADJ:0 "Tlaco"
  
- 
+ #"Special" Countries
+ MGI:0 "Magic Island"
+ MGI_ADJL0 "Magical"
  
  
  
