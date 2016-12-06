@@ -89,7 +89,7 @@ bureau2 = {
 
 #Level 3 Bureaucracy
 bureau3 = {
-	cost = 500
+	cost = 1000
 	time = 6
 	make_obsolete = bureau2
 
@@ -126,12 +126,12 @@ law1 = {
 	time = 4
 	destroy_on_conquest = yes
 	#trigger = {
-	#NOTHING
+	#Fuck All
 	#}
 
 	modifier = {
 		local_unrest = -2
-		local_tax_modifier = -0.01
+		local_tax_modifier = -0.002
 	}
 	
 	ai_will_do = {
@@ -151,7 +151,7 @@ law2 = {
 
 	modifier = {
 		local_unrest = -4
-		local_tax_modifier = -0.02
+		local_tax_modifier = -0.005
 	}
 	
 	ai_will_do = {
@@ -171,7 +171,7 @@ law3 = {
 
 	modifier = {
 		local_unrest = -6
-		local_tax_modifier = -0.03
+		local_tax_modifier = -0.01
 	}
 	
 	ai_will_do = {
@@ -181,13 +181,22 @@ law3 = {
 
 #Administrative Office
 adminoffice = {
-	cost = 250
+	cost = 800
 	time = 6
 	destroy_on_conquest = yes
 	trigger = {
 		is_capital = no
 		FROM = {
-			has_idea = provministers
+			OR = { 
+				has_idea = administrative_centers
+				has_idea = regional_capitals_ac
+				has_idea = regional_capitals_gc
+			}
+		}
+		NOT = {
+			any_neighbor_province = {
+				has_building = adminoffice
+			}
 		}
 	}
 
@@ -218,7 +227,7 @@ evillage = {
 			has_owner_culture = no
 		}
 		FROM = {
-			has_idea = ethnicresettle
+			has_idea = ethnic_resettlement
 		}
 		#Total Assimilation ideas - not a province of your culture
 	}
@@ -425,8 +434,7 @@ mworkshop = {
 	}
 
 	modifier = {
-		local_regiment_recruit_speed = -0.50
-		land_forcelimit_modifier = 0.02
+		land_forcelimit_modifier = 0.05
 	}
 	
 	ai_will_do = {
@@ -615,17 +623,12 @@ cestate = {
 
 #Noble School
 nschool = {
-	cost = 75
+	cost = 50
 	time = 12
-	#allowed_num_of_buildings = 20
 	destroy_on_conquest = yes
-	#trigger = {
-	#NOTHING
-	#}
 
 	modifier = {
-		#idea_cost = -0.005
-		local_tax_modifier = -0.01
+		local_tax_modifier = -0.005
 	}
 	
 	ai_will_do = {
@@ -635,17 +638,13 @@ nschool = {
 
 #Noble University
 nuni = {
-	cost = 100
+	cost = 200
 	time = 12
+	make_obsolete = nschool
 	destroy_on_conquest = yes
-	#trigger = {
-		
-	#}
-	#allowed_num_of_buildings = 10
+
 	modifier = {
-		#idea_cost = -0.005
-		#technology_cost = -0.005
-		local_tax_modifier = -0.02
+		local_tax_modifier = -0.008
 	}
 	
 	ai_will_do = {
@@ -655,17 +654,17 @@ nuni = {
 
 #Public School
 pschool = {
-	cost = 200
+	cost = 400
 	time = 12
 	destroy_on_conquest = yes
-	#trigger = {
-	#NOTHING
-	#}
-	#allowed_num_of_buildings = 20
+
+	trigger = {
+		has_idea = social_engineering
+	}
+	
 	modifier = {
-		#idea_cost = -0.005
-		#technology_cost = -0.005
-		local_tax_modifier = -0.03
+		local_unrest = -6
+		local_autonomy = -0.10
 	}
 	
 	ai_will_do = {
@@ -700,21 +699,22 @@ puni = {
 #Military School
 mschool = {
 	cost = 250
-	time = 12
-	allowed_num_of_buildings = 10
+	time = 6
 	destroy_on_conquest = yes
 	trigger = {
+		is_capital = no
 		FROM = {
-			has_idea = militaryschools
+			has_idea = local_garrisons
 		}
 	}
-	
 	modifier = {
-		army_tradition = 0.10
+		local_manpower = -1.0
+		local_unrest = -8
+		local_autonomy = -0.10
 	}
 	
 	ai_will_do = {
-		factor = 50
+		factor = 75
 		modifier = {
 			factor = 0
 			owner = {
@@ -785,7 +785,7 @@ rmobile = {
 
 #Temple
 ntemple = {
-	cost = 100
+	cost = 200
 	time = 12
 
 	#trigger = {
@@ -794,7 +794,7 @@ ntemple = {
 
 	modifier = {
 		local_missionary_strength = 0.05
-		local_tax_modifier = 0.01
+		local_tax_modifier = 0.015
 	}
 	
 	ai_will_do = {
@@ -814,7 +814,7 @@ ntemple = {
 
 #Missionary School
 missionschool = {
-	cost = 200
+	cost = 100
 	time = 12
 
 	#trigger = {
@@ -822,7 +822,7 @@ missionschool = {
 	#}
 
 	modifier = {
-		global_missionary_strength = 0.0025
+		global_missionary_strength = 0.002
 	}
 	
 	ai_will_do = {
@@ -846,7 +846,7 @@ massforts = {
 	}
 
 	modifier = {
-		local_defensiveness = 0.33
+		local_defensiveness = 0.50
 	}
 	
 	ai_will_do = {
@@ -902,9 +902,9 @@ mp2 = {
 	cost = 200
 	time = 12
 	make_obsolete = mp1
-	#trigger = {
-	#NOTHING
-	#}
+	trigger = {
+		development = 15
+	}
 
 	modifier = {
 		province_trade_power_modifier = 0.75
@@ -934,9 +934,9 @@ mp3 = {
 	cost = 300
 	time = 12
 	make_obsolete = mp2
-	#trigger = {
-	#NOTHING
-	#}
+	trigger = {
+		development = 40
+	}
 
 	modifier = {
 		province_trade_power_modifier = 1
@@ -967,9 +967,9 @@ mp4 = {
 	cost = 500
 	time = 12
 	make_obsolete = mp3
-	#trigger = {
-	#NOTHING
-	#}
+	trigger = {
+		development = 80
+	}
 
 	modifier = {
 		province_trade_power_modifier = 1.5
@@ -999,9 +999,9 @@ mp5 = {
 	cost = 750
 	time = 12
 	make_obsolete = mp4
-	#trigger = {
-	#NOTHING
-	#}
+	trigger = {
+		development = 120
+	}
 
 	modifier = {
 		province_trade_power_modifier = 2
@@ -1068,7 +1068,7 @@ capitaldecor = {
 	trigger = {
 		is_capital = true
 		FROM = {
-			has_idea = elaboratecapital
+			has_idea = material_hegemony
 		}
 	}
 
@@ -1232,7 +1232,7 @@ greatf = {
 	trigger = {
 	#NOTHING
 		FROM = {
-			has_idea = cultureexchange
+			has_idea = cultural_exchange
 		}
 	}
 

@@ -1,0 +1,577 @@
+﻿l_english: 
+ #########
+ #Estates#
+ #########
+ estate_anobles: "Altepetl Nobles"
+ estate_anobles_desc: ""
+ estate_unobles: "Upper Nobles"
+ estate_unobles_desc: ""
+ estate_lnobles: "Lower Nobles"
+ estate_lnobles_desc: ""
+ estate_merchant: "Merchants"
+ estate_merchant_desc: ""
+ estate_priesthood: "Priesthood"
+ estate_priesthood_desc: ""
+ 
+ ##############
+ #Interactions#
+ ##############
+ GRANT_PRIV: "Grant Privilege"
+ GRANT_FAV: "Grant Favor"
+ REQUEST_SUPPORT: "Request Support"
+ WEAKEN_ESTATE: "Weaken Estate"
+ 
+ #####################
+ #Influence Modifiers#
+ #####################
+ EST_AN_P1: "P: Exclusive Military Leadership: §Y10.0%§!"
+ EST_AN_P2: "P: Exclusive Military Orders: §Y10.0%§!"
+ EST_AN_P3: "P: Exclusive Legal Protections: §Y10.0%§!
+ EST_AN_P4: "P: Exclusive Bureaucracy Positions: §Y10.0%§!"
+ EST_AN_P5: "P: Exclusive Social Rights: §Y10.0%§!"
+ EST_AN_P6: "P: Tribute Sharing: §Y10.0%§!"
+ 
+ EST_UN_P1: "P: Exclusive Generalship: §Y10.0%§!"
+ EST_UN_P2: "P: Exclusive Officer Corps: §Y10.0%§!"
+ EST_UN_P3: "P: Exclusive Legal Protections: §Y10.0%§!"
+ EST_UN_P4: "P: Exclusive Advisory Positions: §Y10.0%§!"
+ EST_UN_P5: "P: Exclusive Bureaucracy Positions: §Y10.0%§!"
+ EST_UN_P6: "P: Exclusive Social Rights: §Y10.0%§!"
+ EST_UN_P7: "P: Significant Autonomy: §Y10.0%§!"
+ EST_UN_P8: "P: Significant Tribute Sharing: §Y10.0%§!"
+ 
+ EST_LN_P1: "P: Guaranteed Noble Status: §Y10.0%§!"
+ EST_LN_P2: "P: New Men Banned: §Y10.0%§!"
+ EST_LN_P3: "P: Increased Legal Protections: §Y10.0%§!"
+ EST_LN_P4: "P: Expanded Social Rights: §Y10.0%§!"
+ EST_LN_P5: "P: Exclusive Military Orders: §Y10.0%§!"
+ 
+ EST_MS_P1: "P: Repealed Sumptuary Laws: §Y10.0%§!"
+ EST_MS_P2: "P: Permitted Land Ownership: §Y10.0%§!"
+ EST_MS_P3: "P: Oppressed Foreign Merchants: §Y10.0%§!"
+ EST_MS_P4: "P: Unlimited Trade Licence: §Y10.0%§!"
+ EST_MS_P5: "P: Guaranteed Legal Protection: §Y10.0%§!"
+ 
+ EST_PH_P1: "P: Lifted Political Embargo: §Y10.0%§!"
+ EST_PH_P2: "P: Reserved Advisory Positions: §Y10.0%§!"
+ EST_PH_P3: "P: No Legal Judgement: §Y10.0%§!"
+ EST_PH_P4: "P: Elevated Social Status: §Y10.0%§!"
+ EST_PH_P5: "P: Mandated Religious Schooling: §Y10.0%§!"
+ 
+ #Loyalty Modifiers
+ EST_UN_LM_1: "At War: §R-100.0§!"
+ 
+ ###################
+ #Country Modifiers# 
+ ###################
+ #NOT CURRENTLY USED BECAUSE IT INCREASES YEARLY JANK BY TWO HUNDRED POINTS
+ an_exclusive_military_leadership: "AN: Exclusive Military Leadership \n§R-0.25§! Yearly Meritocratic Tradition"
+ an_exclusive_military_orders: "AN: Exclusive Military Orders \n§R-0.25§! Yearly Meritocratic Tradition"
+ an_exclusive_legal_protections: "AN: Exclusive Legal Protections \n§R-0.25§! Yearly Legal Tradition"
+ an_exclusive_bureaucracy_positions: "AN: Exclusive Bureaucracy Positions \n§R-0.25§! Yearly Meritocratic Tradition"
+ an_exclusive_social_rights: "AN: Exclusive Social Rights \n§R-0.25§! Yearly Meritocratic Tradition"
+ an_share_tribute: "AN: Shared Tribute"
+ 
+ ln_guarantee_noble_status: "LN: Guaranteed Noble Status"
+ ln_ban_new_men: "LN: Banned New Men \n§R-0.50§! Yearly Meritocratic Tradition"
+ ln_increased_legal_protections: "LN: Increased Legal Protections \n§R-0.25§! Yearly Legal Tradition"
+ ln_expanded_social_rights: "LN: Expanded Social Rights \n§R-0.25§! Yearly Meritocratic Tradition"
+ ln_exclusive_military_orders: "LN: Exclusive Military Orders \n§R-0.50§! Yearly Meritocratic Tradition"
+ 
+ ms_repeal_sumptuary_laws: "MS: Repealed Sumptuary Laws"
+ ms_permit_land_ownership: "MS: Permitted Land Ownership"
+ ms_oppress_foreign_merchants: "MS: Oppressing Foreign Merchants"
+ ms_unlimited_trade: "MS: Unlimited Trade Licence"
+ ms_guarantee_legal_protection: "MS: Guaranteed Legal Protection \n§R-0.25§! Yearly Legal Tradition"
+ 
+ ph_lift_political_embargoes: "PH: Lifted Political Embargo"
+ ph_reserve_advisories: "PH: Reserved Advisories \n§R-0.25§! Yearly Meritocratic Tradition"
+ ph_withold_legal_judgement: "PH: No Legal Judgement \n§R-0.25§! Yearly Legal Tradition"
+ ph_elevate_social_status: "PH: Elevated Social Status"
+ ph_mandate_religious_schooling: "PH: Mandated Religious Schooling \n§G+0.50§! Yearly Religious Tradition"
+ 
+ un_exclusive_generalship: "UN: Exclusive Generalship \n§R-0.25§! Yearly Meritocratic Tradition"
+ un_exclusive_officers: "UN: Exclusive Officer Corps \n§R-0.25§! Yearly Meritocratic Tradition"
+ un_exclusive_legal_protections: "UN: Exclusive Legal Protections \n§R-0.25§! Yearly Legal Tradition"
+ un_exclusive_advisory_positions: "UN: Exclusive Advisory Positions \n§R-0.25§! Yearly Meritocratic Tradition"
+ un_exclusive_bureaucracy_positions: "UN: Exclusive Bureaucracy Positions \n§R-0.25§! Yearly Meritocratic Tradition"
+ un_exclusive_social_rights: "UN: Exclusive Social Rights \n§R-0.25§! Yearly Meritocratic Tradition"
+ un_significant_autonomy: "UN: Significant Autonomy"
+ un_significant_tribute_sharing: "UN: Significant Tribute Sharing"
+ 
+ an_bc_down: "Noble Building Investment"
+ un_bc_down: "Upper Noble Building Investment"
+ ln_bc_down: "Lower Noble Building Investment"
+ ms_bc_down: "Merchant Building Investment"
+ 
+ #Other Ones
+ #Upper Nobles
+ un_civil_war_brewing: "Civil War Brewing"
+ 
+ ####################
+ #Province Modifiers#
+ ####################
+ punished_deviants: "Punished Deviants"
+ 
+ #########################
+ #Interactions Interfaces#
+ #########################
+ 
+ #ALTEPETL NOBLES
+ #Grant Privileges
+ grantpriv1.t: "Grant Privileges"
+ grantpriv1.d: "Choose a privilege to grant to this estate. \nRemember, privilges can only be revoked through the Weaken Estate interaction, otherwise they never expire."
+ grantpriv1.a: "Exclusive Military Leadership"
+ grantpriv1.b: "Exclusive Military Orders"
+ grantpriv1.c: "Exclusive Legal Protections"
+ grantpriv1.dd: "Exclusive Bureaucracy Positions"
+ grantpriv1.e: "Exclusive Social Rights"
+ grantpriv1.f: "Share Tribute"
+ grantpriv1.g: "Not right now."
+ 
+ #Grant Favors
+ grantfav1.t: "Grant Favors"
+ grantfav1.d: "Grant a favor to this estate. The favors an estate wants from you refresh every 5 years."
+ grantfav1.s1.a: "Grant Military Leadership Position"
+ grantfav1.s1.b: "Grant Special Positions"
+ grantfav1.s1.c: "Honor Nobles"
+ 
+ grantfav1.s2.a: "Tolerate Legal Infractions"
+ grantfav1.s2.b: "Give Financial Support"
+ grantfav1.s2.c: "Small Land Grants"
+ 
+ grantfav1.s3.a: "Grant Labor Tribute"
+ grantfav1.s3.b: "Grant Temporary Tribute Exemption"
+ grantfav1.s3.c: "Grant Special Positions"
+ 
+ grantfav1.s4.a: "Grant Military Leadership Position"
+ grantfav1.s4.b: "Tolerate Legal Infractions"
+ grantfav1.s4.c: "Temporary Tribute Exemption"
+ grantfav1.a: "Not right now."
+ 
+ #Request Support
+ requestsupport1.t: "Request Support"
+ requestsupport1.d: "Request support from this estate. \nYou currently have [Root.an_favors.GetValue] favors with the Altepetl Nobles. \nRequesting support consumes favors. You can spend favors you don't have, but it will indebt you to the estate, and they will expect you to pay them back by granting them favors and privileges. If you fail to do so, they will lose loyalty every year."
+ requestsupport1.a: "Offensive War Support"
+ requestsupport1.b: "Defensive War Support"
+ requestsupport1.c: "Constructions Support"
+ requestsupport1.dd: "Not right now."
+ 
+ requestsupport2.t: "Request Offensive War Support"
+ requestsupport2.d: "Request support in an offensive war. \nYou need 20 favors to request level 1 support, 40 favors for level 2, and 60 for level 3. \nYou currently have [Root.an_favors.GetValue] favors with this estate."
+ requestsupport2.a: "The nobles grant some support in the war."
+ requestsupport2.b: "The nobles grant significant support in the war."
+ requestsupport2.c: "The nobles grant massive support in the war."
+ requestsupport2.dd: "Back"
+ 
+ requestsupport3.t: "Request Defensive War Support"
+ requestsupport3.d: "Request support in an defensive war. \nYou need 10 favors to request level 1 support, 20 favors for level 2, and 30 for level 3. \nYou currently have [Root.an_favors.GetValue] favors with this estate."
+ requestsupport3.a: "The nobles grant some support in the war."
+ requestsupport3.b: "The nobles grant significant support in the war."
+ requestsupport3.c: "The nobles grant massive support in the war."
+ requestsupport3.dd: "Back"
+ 
+ requestsupport17.t: "Request Constructions Support"
+ requestsupport17.d: "Request support for building new infrastructure and monuments. This has a base cost of 10 favors and increases by 2 favors for each province in the area you own."
+ #This is used for all the constructions support interfaces
+ requestsupport17.a: "West Anahuac"
+ requestsupport17.b: "East Anahuac"
+ requestsupport17.c: "South Anahuac"
+ requestsupport17.dd: "Xocotitlan"
+ requestsupport17.e: "Toluca"
+ requestsupport17.f: "Petlacalco"
+ requestsupport17.g: "Tula"
+ requestsupport17.h: "Tlaxcala"
+ requestsupport17.i: "Tepeacac"
+ requestsupport17.j: "Malinalco"
+ requestsupport17.k: "Cuahnahuac"
+ requestsupport17.l: "Yohualtepec"
+ requestsupport17.m: "Oztoman"
+ requestsupport17.n: "Cihuatlan"
+ requestsupport17.o: "Yope"
+ requestsupport17.p: "West Oaxaca"
+ requestsupport17.q: "East Oaxaca"
+ requestsupport17.r: "Teotitlan"
+ requestsupport17.s: "Tochtepec"
+ requestsupport17.tt: "Cuetlaxtlan"
+ requestsupport17.u: "Huasteca"
+ requestsupport17.v: "Patzcuaro"
+ requestsupport17.w: "Zacatula"
+ requestsupport17.x: "Cuitzeo"
+ requestsupport17.y: "Chapala"
+ requestsupport17.z: "Tetellan"
+ requestsupport17.aa: "Colima"
+ requestsupport17.bb: "Xalisco"
+ requestsupport17.cc: "Cora"
+ requestsupport17.ee: "Tonallan"
+ requestsupport17.ff: "Metztitlan"
+ requestsupport17.gg: "Xoconochco"
+ requestsupport17.hh: "West Highlands"
+ requestsupport17.ii: "East Highlands"
+ requestsupport17.jj: "Central America"
+ requestsupport17.kk: "Xicalango"
+ requestsupport17.ll: "Peten"
+ requestsupport17.mm: "Mayapan"
+ requestsupport17.nn: "Chichen Itza"
+ requestsupport17.oo: "Ekab"
+ requestsupport17.pp: "Not right now."
+ 
+ #Weaken
+ EST_AN_WKN_END: "No armies controlled by this estate exist."
+ 
+ weakenan1.t: "Weakening the Nobles"
+ weakenan1.d: "If you so wish, you may provoke a conflict with the nobility in an attempt to break their influence within the country. If successful, you will be able to replace the nobility with more loyal persons and strip them of their lands and privileges. Victory, however, will not be easy. The nobles wield significant influence within the country and are capable of raising large armies to resist you."
+ weakenan1.a: "Time to confront them!"
+ weakenan1.b: "Perhaps later."
+ 
+ weakenan2.t: "The Conflict Begins"
+ weakenan2.d: "Dark days are ahead! $MONARCH$ $MONARCHTITLE$ has grown tired of the decadant and overprivileged nobility holding such sway in society, and has decided to strip them of their privileges and kill anyone who disagrees. The nobles, furious at this tyrannical behaviour, have gathered support throughout the country and hope to capture the capital and put $MONARCH$ to death for his transgressions."
+ weakenan2.a: "Let them come, and die!"
+ 
+ weakenan3.t: "Noble Uprising Crushed!"
+ weakenan3.d: "At last, the seditious nobles have been put down by $MONARCH$'s overwhelming and inexorable force of arms. The remaining nobles are either captured and awaiting justice or on the run, never to return."
+ weakenan3.a: "Elevate proven commoners to create a new nobility."
+ weakenan3.b: "Redistribute titles among the families of the old nobility."
+ 
+ weakenan4.t: "Noble Uprising Successful!"
+ weakenan4.d: "What tragedy! $MONARCH$'s miscalculated declaration of war against the nobility has lead to his own dethronement and the furthur advancement of the nobility. At least the time of conflicts has ended, but for how long?"
+ weakenan4.a: "It was an accident, I swear!"
+ 
+ 
+ #UPPER NOBLES
+ #Grant Privileges
+ grantpriv2.t: "Grant Privileges"
+ grantpriv2.d: "Choose a privilege to grant to this estate. \nRemember, privilges can only be revoked through the Weaken Estate interaction, otherwise they never expire."
+ grantpriv2.a: "Exclusive Generalship"
+ grantpriv2.b: "Exclusive Officer Corps"
+ grantpriv2.c: "Exclusive Legal Protections"
+ grantpriv2.dd: "Exclusive Advisory Positions"
+ grantpriv2.e: "Exclusive Bureaucracy Positions"
+ grantpriv2.f: "Exclusive Social Rights"
+ grantpriv2.g: "Grant Significant Autonomy"
+ grantpriv2.h: "Share Tribute"
+ grantpriv2.i: "Not right now."
+ 
+ #Grant Favors
+ grantfav2.t: "Grant Favors"
+ grantfav2.d: "Grant a favor to this estate. The favors an estate wants from you refresh every 5 years."
+ grantfav2.s1.a: "Grant Military Leadership Position"
+ grantfav2.s1.b: "Honor Noble"
+ grantfav2.s1.c: "Grant Special Positions"
+ 
+ grantfav2.s2.a: "Grant Labor Tribute"
+ grantfav2.s2.b: "Financial Support"
+ grantfav2.s2.c: "Temporary Tribute Exemption"
+ 
+ grantfav2.s3.a: "Tolerate Legal Infractions"
+ grantfav2.s3.b: "Temporary Draft Exemption"
+ grantfav2.s3.c: "Grant Autonomy"
+ 
+ grantfav2.s4.a: "Temporary Tribute Exemption"
+ grantfav2.s4.b: "Honor Noble"
+ grantfav2.s4.c: "Grant Special Positions"
+ grantfav2.a: "Not right now."
+ 
+ #Request Support
+ requestsupport4.t: "Request Support"
+ requestsupport4.d: "Request support from this estate. \nYou currently have [Root.un_favors.GetValue] favors with the Upper Nobles. \nRequesting support consumes favors. You can spend favors you don't have, but it will indebt you to the estate, and they will expect you to pay them back by granting them favors and privileges. If you fail to do so, they will lose loyalty every year."
+ requestsupport4.a: "Offensive War Support"
+ requestsupport4.b: "Defensive War Support"
+ requestsupport4.c: "Constructions Support"
+ requestsupport4.dd: "Not right now."
+ 
+ requestsupport5.t: "Request Offensive War Support"
+ requestsupport5.d: "Request support in an offensive war. \nYou need 20 favors to request level 1 support, 40 favors for level 2, and 60 for level 3. \nYou currently have [Root.un_favors.GetValue] favors with this estate."
+ requestsupport5.a: "The nobles grant some support in the war."
+ requestsupport5.b: "The nobles grant significant support in the war."
+ requestsupport5.c: "The nobles grant massive support in the war."
+ requestsupport5.dd: "Back"
+ 
+ requestsupport6.t: "Request Defensive War Support"
+ requestsupport6.d: "Request support in an defensive war. \nYou need 10 favors to request level 1 support, 20 favors for level 2, and 30 for level 3. \nYou currently have [Root.un_favors.GetValue] favors with this estate."
+ requestsupport6.a: "The nobles grant some support in the war."
+ requestsupport6.b: "The nobles grant significant support in the war."
+ requestsupport6.c: "The nobles grant massive support in the war."
+ requestsupport6.dd: "Back"
+ 
+ #Weaken
+ EST_UN_WKN_END: "If a territorial state, no provinces or armies are controlled by Upper Noble Rebels. If a tributary state, the Upper Noble Capital has 2 or fewer vassals and a warscore of -75 or lower against you."
+ 
+ weakenun1.t: "Weakening the Upper Nobles"
+ weakenun1.d: "If you so wish, you may provoke a conflict with the upper nobility in an attempt to break their influence in the country. If successful, you will be able to replace the upper nobility with more loyal persons and strip them of their lands and privileges. However, achieving success will not be easy. The upper nobles will resist with all their might and are capable of fielding large forces under a unified command."
+ weakenun1.a: "Time to knock them down a few notches."
+ weakenun1.b: "Perhaps later."
+ 
+ weakenun2.t: "War with the Upper Nobles"
+ weakenun2.d: "Dark days are ahead! $MONARCHTITLE$ $MONARCH$ has decided that the Upper Nobility has reached an unacceptable level of influence and must be cut down to size. The Nobles, furious at this tyrannical behaviour, have fled the capital with their retinues and fortunes to establish a new capital, and raised several armies to challenge the $MONARCHTITLE$. Only time will tell how much blood will be spilled before $COUNTRY$ is united once again."
+ weakenun2.a: "They will all be dashed against our blades!"
+ 
+ weakenun3.t: "Request for Support"
+ weakenun3.d: "The Upper Nobility of $OVERLORD$ has come into conflict with its government, and is planning a revolt against it. They have asked us for support. This will vassalize us to them when the war starts."
+ weakenun3.a: "Absolutely not!"
+ weakenun3.b: "Absolutely yes!"
+ 
+ weakenun4.t: "The Rebellion Starts"
+ weakenun4.d: "The rebellion against our overlord has begun! To arms and victory!"
+ weakenun4.a: "To arms!"
+ 
+ weakenun5.t: "[From.GetName] Betrays Us!"
+ weakenun5.d: "The city of [From.GetName] has betrayed us and joined the Upper Nobles in their rebellion!"
+ weakenun5.a: "This transgression will not be forgotten when we win!"
+ 
+ weakenun6.t: "War Ends in Victory!"
+ weakenun6.d: "At last, the civil war has come to a close. The rebel armies have been scattered and the upper nobles are either dead, on the run with the remnants of their forces, or thoroughly beaten and captured, soon to be tried for their crimes."
+ weakenun6.a: "Promote loyal lower nobles to create a new class of Upper Nobles."
+ weakenun6.b: "Attempt to eliminate the Upper Nobles altogether."
+ 
+ weakenun7.t: "War Ends in Defeat!"
+ weakenun7.d: "What a catastrophe! The upper nobles have utterly defeated us, and confirmed their superior status in our nation. Breaking their power will be even more difficult in the future."
+ weakenun7.a: "They'll pay for this in time."
+ 
+ weakenun8.t: "Upper Nobles Raise Army!"
+ weakenun8.d: "One of our provinces has been seized by a new army raised by the Upper Nobles!"
+ weakenun8.a: "They'll pay for that in time."
+ 
+ #LOWER NOBLES
+ #Grant Privileges
+ grantpriv3.t: "Grant Privileges"
+ grantpriv3.d: "Choose a privilege to grant to this estate. \nRemember, privilges can only be revoked through the Weaken Estate interaction, otherwise they never expire."
+ grantpriv3.a: "Guarantee Noble Status"
+ grantpriv3.b: "Ban New Men"
+ grantpriv3.c: "Increased Legal Protection"
+ grantpriv3.dd: "Expand Social Rights"
+ grantpriv3.e: "Exclusive Military Orders"
+ grantpriv3.f: "Not right now."
+ 
+ #Grant Favors
+ grantfav3.t: "Grant Favors"
+ grantfav3.d: "Grant a favor to this estate. The favors an estate wants from you refresh every 5 years."
+ grantfav3.s1.a: "Grant Military Leadership Position"
+ grantfav3.s1.b: "Temporary Tribute Exemption"
+ grantfav3.s1.c: "Financial Support"
+ 
+ grantfav3.s2.a: "Tolerate Legal Infractions"
+ grantfav3.s2.b: "Grant Special Positions"
+ grantfav3.s2.c: "Grant Labor Tribute"
+ 
+ grantfav3.s3.a: "Small Land Grants"
+ grantfav3.s3.b: "Honor Noble"
+ grantfav3.s3.c: "Temporary Tribute Exemption"
+ grantfav3.a: "Not right now."
+ 
+ #Request Support
+ requestsupport7.t: "Request Support"
+ requestsupport7.d: "Request support from this estate. \nYou currently have [Root.ln_favors.GetValue] favors with the Lower Nobles. \nRequesting support consumes favors. You can spend favors you don't have, but it will indebt you to the estate, and they will expect you to pay them back by granting them favors and privileges. If you fail to do so, they will lose loyalty every year."
+ requestsupport7.a: "Offensive War Support"
+ requestsupport7.b: "Defensive War Support"
+ requestsupport7.c: "Constructions Support"
+ requestsupport7.dd: "Not right now."
+ 
+ requestsupport8.t: "Request Offensive War Support"
+ requestsupport8.d: "Request support in an offensive war. \nYou need 20 favors to request level 1 support, 40 favors for level 2, and 60 for level 3. \nYou currently have [Root.ln_favors.GetValue] favors with this estate."
+ requestsupport8.a: "The nobles grant some support in the war."
+ requestsupport8.b: "The nobles grant significant support in the war."
+ requestsupport8.c: "The nobles grant massive support in the war."
+ requestsupport8.dd: "Back"
+ 
+ requestsupport9.t: "Request Defensive War Support"
+ requestsupport9.d: "Request support in an defensive war. \nYou need 10 favors to request level 1 support, 20 favors for level 2, and 30 for level 3. \nYou currently have [Root.ln_favors.GetValue] favors with this estate."
+ requestsupport9.a: "The nobles grant some support in the war."
+ requestsupport9.b: "The nobles grant significant support in the war."
+ requestsupport9.c: "The nobles grant massive support in the war."
+ requestsupport9.dd: "Back"
+ 
+ #Weaken
+ weakenln1.t: "Weakening the Lower Nobles"
+ weakenln1.d: "If you so wish, you may attempt to provoke a conflict with the lower nobles in order to break their influence in the country. If successful, you will be able to replace the upper nobility with more loyal persons and strip them of their lands and privileges. Victory must be hard won, however, as the Lower Nobles are numerous and command great loyalty from their local subjects."
+ weakenln1.a: "Let's lower them a bit more."
+ weakenln1.b: "Perhaps later."
+ 
+ weakenln2.t: "The Conflict Begins!"
+ weakenln2.d: "Dark days are ahead! $MONARCHTITLE$ $MONARCH$'s patience with the self-important spoiled whiners comprising the Lower Nobility has run out, and thus they must be forcefully excised from the country. The Lower Nobles, furious at this tyrannical behaviour, have fled to their estates and raised armies from their subjects. They plan to weaken $MONARCH$'s grip over the countryside and then march on the capital and divide $MONARCH$ into several distinct pieces."
+ weakenln2.a: "They shall all be seperated from their vital organs and extremities!"
+ 
+ weakenln3.t: "Lower Noble Uprising Crushed!"
+ weakenln3.d: "Peace has returned to $COUNTRY$, as $MONARCH$ has finally crushed the treasonous rebellion of the Lower Nobility. The sad remnants of their armies have been scattered, and those who have not been captured are fleeing into exile and obscurity."
+ weakenln3.a: "Promote worthy commoners to the vacant positions."
+ weakenln3.b: "Redistribute titles and lands to family of the old nobility."
+ 
+ weakenln4.t: "Lower Noble Uprising Successful!"
+ weakenln4.d: "Terrible misfortune has afflicted our country! The clearly mentally unsound ruler $MONARCH$ has gotten the better of himself with his inept power play against the lower nobility. He will surely regret his mistakes as he is publically ripped into four pieces and the Lower Nobility consolidates their privilege."
+ weakenln4.a: "What?!"
+ 
+ weakenln5.t: "Lower Nobles Raise Another Army!"
+ weakenln5.d: "The Lower Nobility has evidently scraped together another army in one of our provinces."
+ weakenln5.a: "It won't last long."
+ 
+ #MERCHANTS
+ #Grant Privileges
+ grantpriv4.t: "Grant Privileges"
+ grantpriv4.d: "Choose a privilege to grant to this estate. \nRemember, privilges can only be revoked through the Weaken Estate interaction, otherwise they never expire."
+ grantpriv4.a: "Repeal Sumptuary Laws"
+ grantpriv4.b: "Allow Commoner Ownership"
+ grantpriv4.c: "Oppress Foreign Merchants"
+ grantpriv4.dd: "Grant Unlimited Trade Licence"
+ grantpriv4.e: "Guarantee Legal Protections"
+ grantpriv4.f: "Not right now."
+ 
+ #Grant Favors
+ grantfav4.t: "Grant Favors"
+ grantfav4.d: "Grant a favor to this estate. The favors an estate wants from you refresh every 5 years."
+ grantfav4.s1.a: "Sponsor Trade Venture"
+ grantfav4.s1.b: "Tolerate Unsavory Trade Pratice"
+ grantfav4.s1.c: "Tax Rival Merchants"
+ 
+ grantfav4.s2.a: "Grant Honorary Noble Titles"
+ grantfav4.s2.b: "Hire Road Guards"
+ grantfav4.s2.c: "Hold Special Market"
+ 
+ grantfav4.s3.a: "Temporary Tax Exemption"
+ grantfav4.s3.b: "Divert Army Porters"
+ grantfav4.s3.c: "Tax Rival Merchants"
+ grantfav4.a: "Not right now."
+ 
+ #Request Support
+ requestsupport10.t: "Request Support"
+ requestsupport10.d: "Request support from this estate. \nYou currently have [Root.ms_favors.GetValue] favors with the Merchants. \nRequesting support consumes favors. You can spend favors you don't have, but it will indebt you to the estate, and they will expect you to pay them back by granting them favors and privileges. If you fail to do so, they will lose loyalty every year."
+ requestsupport10.a: "War Funding"
+ requestsupport10.b: "Constructions Support"
+ requestsupport10.c: "Not right now."
+ 
+ requestsupport11.t: "Request War Funding"
+ requestsupport11.d: "Request war funding. \nYou need 20 favors to request level 1 support, 40 favors for level 2, and 60 for level 3. \nYou currently have [Root.ms_favors.GetValue] favors with this estate."
+ requestsupport11.a: "The merchants grant small amounts of war funding."
+ requestsupport11.b: "The merchants grant medium amounts of war funding."
+ requestsupport11.c: "The merchants grant large amounts of war funding."
+ requestsupport11.dd: "Not right now."
+ 
+ requestsupport12.t: "War Funding"
+ requestsupport12.d: "The merchants have provided the war funding they promised."
+ requestsupport12.a: "We will put it to good use."
+ 
+ #Weaken
+ weakenms1.t: "Weakening the Merchants"
+ weakenms1.d: " If you so wish, you may attempt to reduce the influence of the wealthy Merchants in our country. Unlike the nobles, the merchants are unable to raise their own armies in all but the largest and most economically powerful countries, where they are able to hire mercenary companies and pay your enemies for support. In most countries, you may simply decide to repeal their privileges at the cost of loyalty and they will not offer any kind of armed resistence. However, if their loyalty drops into the red zone, they will take all their wealth and move somewhere else, leaving you without a merchant estate at all for a time. \nMerchants will meet your attempts to weaken them with armed resistence if your development is at least 100,000, they have less than 60 loyalty, and they have at least 40 influence. \nThe merchants will leave your country if they have less than 35 loyalty when you revoek a privilege but are unwilling to fight you."
+ weakenms1.a: "Reinstate sumptuary laws."
+ weakenms1.b: "Disallow Commoner Ownership"
+ weakenms1.c: "Stop Oppressing Foreign Merchants"
+ weakenms1.dd: "Revoke Unlimited Trade Licence"
+ weakenms1.e: "Refuse to Guarantee Legal Protections"
+ weakenms1.f: "Not right now."
+ 
+ weakenms2.t: "The Conflict Begins!"
+ weakenms2.d: "Dark days are ahead! $MONARCHTITLE$ $MONARCH$ has blantantly refused to continue supporting the disgustingly decadent lifestyle of the upper mercantile class, and the merchants have thusly fled the capital with their undoubtedly ill-begotten gains and hired vast regiments of mercenaries to put an end to $MONARCH$'s tyrannical economic regulation."
+ weakenms2.a: "I will seize their means of production!"
+ 
+ weakenms3.t: "Conflict Ends in Victory"
+ weakenms3.d: "Rejoice! The unholy private armies of the upper merchant class have been single handedly smashed by our just ruler, $MONARCH$, further proving his repute as a great warrior and champion of the common man. The few left alive have been locked up, and will never exploit tlamemes for profit again!"
+ weakenms3.a: "Replace them with more reasonable merchants."
+ weakenms3.b: "There is no room for such filth in our country."
+
+ weakenms4.t: "Conflict Ends in Defeat!"
+ weakenms4.d: "Cataclysm! The private armies of the upper merchant class have somehow managed to defeat the armies of $MONARCH$, probably through some fell alliance with the more unsavory deities. This is truly a sad day for workers everywhere."
+ weakenms4.a: "This is merely a temporary setback." 
+ 
+ weakenms5.t: "Merchants Buy Another Private Army!"
+ weakenms5.d: "It would seem that the corrupt and seditious mercantiles have found more misguided peasent warriors willing to trade their lives for money."
+ weakenms5.a: "And so they shall!"
+ 
+ #PRIESTHOOD
+ #Grant Privileges
+ grantpriv5.t: "Grant Privileges"
+ grantpriv5.d: "Choose a privilege to grant to this estate. \nRemember, privilges can only be revoked through the Weaken Estate interaction, otherwise they never expire."
+ grantpriv5.a: "Lift Political Embargo"
+ grantpriv5.b: "Reserve Important Advisory Positions"
+ grantpriv5.c: "No Legal Judgement"
+ grantpriv5.dd: "Elevate Social Status"
+ grantpriv5.e: "Mandate Religious Schooling"
+ grantpriv5.f: "Not right now."
+ 
+ #Grant Favors
+ grantfav5.t: "Grant Favors"
+ grantfav5.d: "Grant a favor to this estate. The favors an estate wants from you refresh every 5 years."
+ grantfav5.s1.a: "Sponsor Religious Ceremony"
+ grantfav5.s1.b: "Sponsor New Religious Codex"
+ grantfav5.s1.c: "Recruit More Priests"
+ 
+ grantfav5.s2.a: "Make Pious Display"
+ grantfav5.s2.b: "Appoint Low Level Advisors"
+ grantfav5.s2.c: "Build a Small Shrine"
+ 
+ grantfav5.s3.a: "Hold a Small Bloodletting Ceremony"
+ grantfav5.s3.b: "Punish Religious Deviants"
+ grantfav5.s3.c: "Reward Pious Commoners"
+ 
+ grantfav5.s4.a: "Punish Religious Deviants"
+ grantfav5.s4.b: "Appoint Low Level Advisors"
+ grantfav5.s4.c: "Sponsor Religious Ceremony"
+ grantfav5.a: "Not right now."
+ 
+ #Request Support
+ requestsupport14.t: "Request Support"
+ requestsupport14.d: "Request support from this estate. \nYou currently have [Root.ph_favors.GetValue] favors with the Priesthood. \nRequesting support consumes favors. You can spend favors you don't have, but it will indebt you to the estate, and they will expect you to pay them back by granting them favors and privileges. If you fail to do so, they will lose loyalty every year."
+ requestsupport14.a: "Proclaim Holy War"
+ requestsupport14.b: "Stabilize Country"
+ requestsupport14.c: "Not right now."
+ 
+ requestsupport15.t: "Proclaim a Holy War"
+ requestsupport15.d: "Ask the priesthood to proclaim the current war a holy war. This can only be done if you are at war and will cost 50 favors."
+ requestsupport15.a: "We fight in the name of the gods!"
+ requestsupport15.b: "Not right now."
+ 
+ requestsupport16.t: "Stabilize the Country"
+ requestsupport16.d: "Ask the priesthood to work to stabilize the country. \nYou need 20 favors to request level 1 support, 30 favors for level 2, and 40 for level 3. \nYou currently have [Root.ph_favors.GetValue] favors with this estate."
+ requestsupport16.a: "The priests will do some work towards stabilization."
+ requestsupport16.b: "The priests will do significant work towards stabilization."
+ requestsupport16.c: "The priests will dedicate all of their time to stabilization."
+ requestsupport16.dd: "Not right now."
+ 
+ weakenph1.t: "Weakening the Priesthood"
+ weakenph1.d: "If you so wish, you may attempt to reduce the influence of the Priesthood in your country. Unlike the nobles, the Priesthood is usually incapable of raising its own armies and will be forced to simply accept the revocation of privileges, though at the cost of loyalty. But, if you command a powerful country with high Religious Tradition and the Priesthood is influential enough, the Priests will raise armies of the faithful against you and work to weaken your legitimacy as a monarch. \nThe Priests will meet your attempts to weaken them with armed resistence if your development is at least 50,000, your Religious Tradition is at least 80, their influence is at least 40, and their loyalty is less than 60. "
+ weakenph1.a: "Reinstate the Political Embargo"
+ weakenph1.b: "Cancel Reserved Advisory Positions"
+ weakenph1.c: "Force full legal compliance."
+ weakenph1.dd: "Normalize social status."
+ weakenph1.e: "Refuse to continue mandating religious schooling."
+ weakenph1.f: "Not right now."
+ 
+ weakenph2.t: "The Conflict Begins!"
+ weakenph2.d: "Dark days are ahead! $MONARCHTITLE$ $MONARCH$ has become frustrated with the ever growing power of the Priesthood and their inordinate influence within the country, and decided to revoke a privilege the Priesthood held especially dear. The Priests have fled the capital and raised armies of the faithful, spreading word of $MONARCH$'s lack of piety and how he must be punished with extreme physical torment and replace with someone more worthy."
+ weakenph2.a: "These lunatics don't even realize that I'm the divinely ordained one!"
+ 
+ weakenph3.t: "Conflict Ends in Victory!"
+ weakenph3.d: "At last, the misguided and unholy priesthood has been annihilated by the divinely ordained armies of $MONARCH$. There can be no question that the priesthood had been infiltrated by some kind of otherworldly demons at the highest level and $MONARCH$ has done a great deed by excising such dangerous beings from our government."
+ weakenph3.a: "Rebuild the Priesthood with more reasonable men."
+ weakenph3.b: "We will do without a strong Priesthood for a time."
+ 
+ weakenph4.t: "Conflict Ends in Defeat"
+ weakenph4.d: "How unfortunate for $MONARCH$ that he was possessed by evil gods and led to ruin at such a spry young age. With any luck, his successor will have no such vulnerabilities, especially with the guidance of our glorious priesthood."
+ weakenph4.a: "Wait! I've always been a pious man!"
+ 
+ weakenph5.t: "Priesthood Raises Another Army!"
+ weakenph5.d: "The misguided 'faithful' of one of our provinces have been pressed into service by the rebelling Priesthood."
+ weakenph5.a: "Smash them!"
+ 
+ 
+ #Birth of an Estate
+ estatebirth1.t: "Birth of the Upper Nobility"
+ estatebirth1.d: "As our power grows, so does the power of our noble class. Strengthened by the steadily increasing wealth of our state and glory from military conquest, the nobles have reached a position of extreme prominence and influence in our country. While this makes them more capable of assisting us, it also signals that angering them will become an increasingly dangerous course of action."
+ estatebirth1.a: "A mixed blessing."
+ 
+ estatebirth2.t: "Birth of the Lower Nobility"
+ estatebirth2.d: "Our extensive influence and lordship over dozens of noble dynasties has led to the birth of a new social class: the Lower Nobility. Above the commoners but not nearly as wealthy or powerful as the Upper Nobles, the Lower Nobles rule small cities and villages or work as professional soldiers and bureaucrats, and are generally easy for the monarch to control. Still, angering them enough could provoke a dangerous general rebellion."
+ estatebirth2.a: "Great, more whiners."
+ 
+ estatebirth3.t: "Birth of the Merchant Class"
+ estatebirth3.d: "Trade has become an increasingly important part of our economy, and that combined with the less rigid social hierarchy has led to the birth of a powerful commercial class. While not of noble birth and often the object of ire and jealousy by nobles who view them as pretentious upstarts, the Merchants have begun to organize and now wield significant influence in our nation."
+ estatebirth3.a: "I can already see where this is going..."
+ 
+ estatebirth4.t: "Rebirth of the Priesthood Estate"
+ estatebirth4.d: "In the past, we managed to completely break the political influence of the Priesthood in our country, but we were never able to break the religious faith of our subjects. As time passes and the past wrongs of the Priesthood are forgotten, our people increasingly look to them as more than just offerers of religious guidance, and the Priesthood has successfully restored at least some of its prior influence in our government."
+ estatebirth4.a: "They better not try anything this time!"
+ 
+ 
+ 
+ 
+ 
+ 

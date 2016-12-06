@@ -1,9 +1,9 @@
 government = altepetl 
-government_rank = 2
+government_rank = 1
 mercantilism = 0.25
 technology_group = west_mexican 
-religion = matlatxinca 
-primary_culture = tarascan
+religion = newnahuatl
+primary_culture = matlatxinca 
 fixed_capital = 494
 capital = 494
 

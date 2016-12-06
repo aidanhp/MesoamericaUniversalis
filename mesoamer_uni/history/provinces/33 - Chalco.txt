@@ -4,11 +4,11 @@ controller = CHL
 culture = chalca
 religion = newnahuatl 
 hre = no
-base_tax = 292
-base_production = 583
+base_tax = 5
+base_production = 10
 trade_goods = grain
-base_manpower = 2037
-capital = "Chalco"
+base_manpower = 36
+capital = "Acxotlan"
 is_city = yes
 fort_15th = yes
 

@@ -1,0 +1,45 @@
+ph_uprising = {
+	potential = {
+		has_estate = estate_priesthood
+	}
+	
+	can_start = {
+		has_country_modifier = ph_conflict_brewing
+	}
+	
+	can_stop = {
+		NOT = { has_country_modifier = ph_conflict_brewing }
+	}
+	
+	progress = {
+		modifier = {
+			factor = 100
+			has_country_modifier = ph_conflict_brewing
+		}
+	}
+	
+	can_end = {
+		custom_trigger_tooltip = {
+			tooltip = EST_AN_WKN_END
+			always = no					
+		}
+	}
+	
+	modifier = {
+		global_unrest = 6
+		stability_cost_modifier = 0.25
+		diplomatic_reputation = -2
+		legitimacy = -20
+	}
+	
+	on_start = weakenph.02
+	#on_end = civil_war.100
+	
+	on_monthly = {
+		events = {
+		}
+		random_events = { 
+			1000 = 0
+		}
+	}
+}

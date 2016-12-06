@@ -2,13 +2,13 @@ add_core = UND
 add_core = IUA
 owner = IUA
 controller = IUA
-culture = tarascan
+culture = pirinda
 religion = tarascan
 hre = no
-base_tax = 110
-base_production = 220
+base_tax = 1
+base_production = 2
 trade_goods = grain
-base_manpower = 770
+base_manpower = 8
 capital = "Undameo"
 is_city = yes
 

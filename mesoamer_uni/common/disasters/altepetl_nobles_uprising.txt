@@ -1,0 +1,44 @@
+an_uprising = {
+	potential = {
+		has_estate = estate_anobles
+	}
+	
+	can_start = {
+		has_country_modifier = an_uprising_brewing
+	}
+	
+	can_stop = {
+		NOT = { has_country_modifier = an_uprising_brewing }
+	}
+	
+	progress = {
+		modifier = {
+			factor = 100
+			has_country_modifier = an_uprising_brewing
+		}
+	}
+	
+	can_end = {
+		custom_trigger_tooltip = {
+			tooltip = EST_AN_WKN_END
+			always = no					
+		}
+	}
+	
+	modifier = {
+		global_unrest = 4
+		stability_cost_modifier = 0.50
+		diplomatic_reputation = -3
+	}
+	
+	on_start = weakenan.02
+	#on_end = civil_war.100
+	
+	on_monthly = {
+		events = {
+		}
+		random_events = { 
+			1000 = 0
+		}
+	}
+}

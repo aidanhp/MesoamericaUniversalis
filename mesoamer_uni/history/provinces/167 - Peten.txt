@@ -1,16 +1,13 @@
-add_core = PET
-owner = PET
-controller = PET
 culture = centralmayan
-religion = newmayan 
-hre = no
-base_tax = 90
-base_production = 180
-trade_goods = textiles 
-base_manpower = 630
 capital = "Peten"
-is_city = yes
-fort_15th = yes
-
+religion = newmayan
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 3
+native_size = 25
+native_ferocity = 2
+native_hostileness = 8
 discovered_by = northern_mayan
 discovered_by = southern_mayan

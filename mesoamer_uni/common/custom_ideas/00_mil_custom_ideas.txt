@@ -108,8 +108,24 @@ mil_idea_modifiers = {
 		cavalry_power = 0.05
 		level_cost_2 = 3
 		level_cost_3 = 9
-		level_cost_4 = 18			
-	}		
+		level_cost_4 = 18
+		chance = {
+			factor = 1
+			modifier = {
+				factor = 2
+				government = steppe_horde
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					technology_group = andean
+					technology_group = south_american
+					technology_group = mesoamerican
+					technology_group = north_american
+				}
+			}
+		}		
+	}
 	custom_idea_artillery_power = {
 		artillery_power = 0.05
 	}
@@ -124,6 +140,22 @@ mil_idea_modifiers = {
 		level_cost_2 = 3
 		level_cost_3 = 9
 		level_cost_4 = 18
+		chance = {
+			factor = 1
+			modifier = {
+				factor = 2
+				government = steppe_horde
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					technology_group = andean
+					technology_group = south_american
+					technology_group = mesoamerican
+					technology_group = north_american
+				}
+			}
+		}
 	}
 	custom_idea_artillery_cost = {
 		artillery_cost = -0.05

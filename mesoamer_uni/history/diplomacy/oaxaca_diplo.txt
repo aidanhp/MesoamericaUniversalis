@@ -1,21 +1,46 @@
 #Tututepec Vassals
-protectorate = {
-	first = UTU
-	second = HHN
+
+#Tehuantepec Vassals
+
+#Cuilapan Vassals
+
+vassal = {
+	first = JJH
+	second = EEB
 	start_date = 1428.1.1
 	end_date = 1821.1.1
 }
-protectorate = {
-	first = UTU
-	second = HHP
+vassal = {
+	first = JJH
+	second = EEE
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+vassal = {
+	first = JJH
+	second = DZD
 	start_date = 1428.1.1
 	end_date = 1821.1.1
 }
 
-#Tehuantepec Vassals
-protectorate = {
-	first = TEH
-	second = HHS
+vassal = {
+	first = JJH
+	second = DYD
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+#Zaachila Vassals
+vassal = {
+	first = JJG
+	second = JJH
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = JJG
+	second = TEH
 	start_date = 1428.1.1
 	end_date = 1821.1.1
 }

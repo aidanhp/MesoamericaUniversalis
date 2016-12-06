@@ -1,5 +1,5 @@
-government = altepetl 
-government_rank = 2
+government = ttt_subordinate_lordship
+government_rank = 1
 mercantilism = 0.25
 technology_group = west_mexican 
 religion = tarascan
@@ -10,7 +10,7 @@ fixed_capital = 362
 1427.1.1 = {
 	monarch = {
 		name = "Hiquingaje"
-		dynasty = "Pechataro"
+		dynasty = "Uacusecha"
 		adm = 4
 		dip = 4
 		mil = 4

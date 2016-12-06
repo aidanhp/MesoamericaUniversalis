@@ -1,13 +1,13 @@
-add_core = XOC
+`add_core = XOC
 owner = XOC
 controller = XOC
 culture = xochimila
 religion = newnahuatl 
 hre = no
-base_tax = 125
-base_production = 250
+base_tax = 3
+base_production = 6
 trade_goods = grain
-base_manpower = 875
+base_manpower = 23
 capital = "Xochimilco"
 is_city = yes
 fort_15th = yes

@@ -1,0 +1,40 @@
+﻿l_english: 
+ #Upper Nobles
+ upper_noble_rebels_demand: "New Ruler"
+ upper_noble_rebels_demand_desc: "The Upper Nobles are apalled at your tyrannical behaviour and want someone else on the throne who won't try to take away their privileges."
+ upper_noble_rebels_title: "Upper Noble"
+ upper_noble_rebels_name: "$COUNTRY_ADJ$ Upper Nobles"
+ upper_noble_rebels_desc: ""
+ upper_noble_rebels_army: "$COUNTRY_ADJ$ Upper Noble"
+ 
+ #Lower Nobles
+ lower_noble_rebels_demand: "New Ruler"
+ lower_noble_rebels_demand_desc: "The Lower Nobles are apalled at your tyrannical behaviour and want someone else on the throne who won't try to take away their privileges."
+ lower_noble_rebels_title: "Lower Noble"
+ lower_noble_rebels_name: "$COUNTRY_ADJ$ Lower Nobles"
+ lower_noble_rebels_desc: ""
+ lower_noble_rebels_army: "$COUNTRY_ADJ$ Lower Noble"
+ 
+ #Altepetl Nobles
+ altepetl_noble_rebels_demand: "New Ruler"
+ altepetl_noble_rebels_demand_desc: "The Nobles are apalled at your tyrannical behaviour and want someone else on the throne who won't try to take away their privileges."
+ altepetl_noble_rebels_title: "Noble"
+ altepetl_noble_rebels_name: "$COUNTRY_ADJ$ Nobles"
+ altepetl_noble_rebels_desc: ""
+ altepetl_noble_rebels_army: "$COUNTRY_ADJ$ Noble"
+ 
+ #Merchant Mercenaries
+ merchant_merc_rebels_demand: "New Ruler"
+ merchant_merc_rebels_demand_desc: "The Merchants are apalled at your tyrannical behaviour and want someone else on the throne who won't try to take away their privileges."
+ merchant_merc_rebels_title: "Merchant"
+ merchant_merc_rebels_name: "$COUNTRY_ADJ$ Merchant Mercenaries"
+ merchant_merc_rebels_desc: ""
+ merchant_merc_rebels_army: "$COUNTRY_ADJ$ Merchant Mercenaries"
+ 
+ #Priesthood 
+ holy_rebels_demand: "New Ruler"
+ holy_rebels_demand_desc: "The Priesthood is appalled at your unpious behaviour and demands a ruler who will enthusiastically support their dogma."
+ holy_rebels_title: "Religious Militants"
+ holy_rebels_name: "$COUNTRY_ADJ$ Religious Militants"
+ holy_rebels_desc: ""
+ holy_rebels_army: "$COUNTRY_ADJ$ Warriors of the Faith"

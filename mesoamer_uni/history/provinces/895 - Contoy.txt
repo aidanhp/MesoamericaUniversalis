@@ -1,0 +1,16 @@
+add_core = EKA
+owner = EKA
+controller = EKA
+culture = yucatecmayan
+religion = newmayan 
+hre = no
+base_tax = 1
+base_production = 2
+trade_goods = grain
+base_manpower = 6
+capital = "Contoy"
+is_city = yes
+fort_15th = yes
+
+discovered_by = northern_mayan
+discovered_by = southern_mayan

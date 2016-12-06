@@ -1,0 +1,21 @@
+#idea decision modifiers
+
+absolutelynoclue = {
+
+}
+
+grand_festival_CD = {
+	
+}
+
+grand_military_parade = {
+	infantry_power = 0.075
+}
+
+impressed_lords = {
+	global_autonomy = -0.15
+}
+
+impressed_commoners = {
+	global_unrest = -4
+}

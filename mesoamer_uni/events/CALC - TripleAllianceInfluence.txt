@@ -22,11 +22,10 @@ country_event = {
 					tag = TCP
 				}
 			}
-			every_subject_country = {
-				overlord = {
+			every_owned_province = {
+				owner = {
 					change_variable = { which = triple_alliance_influence value = 0.05 }
 				}
-			
 			}
 			if = { 
 				limit = {

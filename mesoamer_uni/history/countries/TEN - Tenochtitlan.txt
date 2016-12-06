@@ -1,4 +1,4 @@
-government = hegemonic_kingdom
+government = altepetl
 government_rank = 2
 mercantilism = 0.25
 technology_group = triple_alliance
@@ -28,6 +28,10 @@ historical_friend = TCP
 			siege = 2 
 		}
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = well_advised_personality 
+	add_ruler_personality = architectural_visionary_personality  
+	add_ruler_personality = bold_fighter_personality  
 
 }
 

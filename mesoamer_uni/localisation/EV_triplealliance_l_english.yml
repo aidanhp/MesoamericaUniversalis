@@ -1,5 +1,0 @@
-﻿l_english: 
- #Triple Alliance Events
- tainfluence1.t: "Triple Alliance Influence"
- tainfluence1.d: "The relative power of the cities in the Triple Alliance is as follows: \nTenochtitlan: [TEN.triple_alliance_influence.GetValue] \nTetzcoco: [TET.triple_alliance_influence.GetValue] \nTlacopan: [TCP.triple_alliance_influence.GetValue] \n\nYour influence increases every year as a result of the following factors: \n•Number of Subjects \n•Positive Prestige \n•Over 70 Legitimacy \n•Positive Diplomatic Reputation \n\nYour influence decreases every year as a result of the following factors: \n•Negative Prestige \n•Legitimacy below 70 \n•Negative diplomatic reputation \n•Not being allied to both of the other members"
- tainfluence1.a: "Very well."

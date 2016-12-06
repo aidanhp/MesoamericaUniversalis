@@ -1,0 +1,334 @@
+﻿l_english: 
+ #Symbols
+ #§G§!
+ 
+ #TEST
+ variable_test: "[Root.area_ducats.GetValue]"
+ 
+ #############
+ #FOR ESTATES#
+ #############
+ #Birth of Estates
+ EST_un_birth: "The Upper Nobles estate will be added, and will replace all previous noble estates."
+ EST_ln_birth: "The Lower Nobles estate will be added."
+ EST_ms_birth: "The Merchants estate will be added."
+ EST_ph_birth: "The Priesthood estate will be added."
+ #Generic
+ EST_repeal_priv: "This privilege will be repealed."
+ EST_leave_country: "This estate will leave your country. It will likely reappear at some point in the future."
+ 
+ #Altepetl Nobles
+ EST_an_influence_50:0 "The Altepetl Nobles will gain §Y5.0§! influence until this privilege is repealed."
+ EST_an_influence_100:0 "The Altepetl Nobles will gain §Y10.0§! influence until this privilege is repealed."
+ EST_an_influence_150:0 "The Altepetl Nobles will gain §Y15.0§! influence until this privilege is repealed."
+ EST_an_influence_200:0 "The Altepetl Nobles will gain §Y20.0§! influence until this privilege is repealed."
+ EST_an_influence_250:0 "The Altepetl Nobles will gain §Y25.0§! influence until this privilege is repealed."
+ 
+ EST_an_p_emlr: "Reserve the right to lead armies for the nobles and yourself. No filthy commoners allowed!"
+ EST_an_p_emo: "Prevent commoners from being able to enter the prestigious military orders."
+ EST_an_p_elp: "Try nobles in special courts and allow them to loosely interpret the law in general."
+ EST_an_p_ebp: "Guarantee powerful bureaucratic positions to powerful nobles and make the positions hereditary."
+ EST_an_p_esr: "Make the nobles feel good about themselves by allowing them to do things that commoners can't, like drink in public or have concubines."
+ EST_an_p_st: "Share a large portion of the tribute you recieve from both your subject commoners and conquered cities with the nobles every year."
+ 
+ EST_an_f_gmlp: "Hand a generalship to an ambitious noble."
+ EST_an_f_tli: "Agree to sweep a few legal infractions by the nobles under the rug."
+ EST_an_f_gsp: "Appoint the sons of some nobles to positions in the government."
+ EST_an_f_glt: "Divert a few of the commoners under your control to the nobles for labor purposes."
+ EST_an_f_slg: "Slightly expand the personal holdings of a few nobles."
+ EST_an_f_tte: "Exempt the nobles from paying you significant tribute for the next two years."
+ EST_an_f_hn: "Hold a public ceremony to honor the deeds of a few nobles."
+ EST_an_f_fs: "Grant some financial support to a few struggling noble families."
+ 
+ #Upper Nobles
+ EST_un_influence_50: "The Upper Nobles will gain §Y5.0§! influence until this privilege is repealed."
+ EST_un_influence_100: "The Upper Nobles will gain §Y10.0§! influence until this privilege is repealed."
+ EST_un_influence_150: "The Upper Nobles will gain §Y15.0§! influence until this privilege is repealed."
+ EST_un_influence_200: "The Upper Nobles will gain §Y20.0§! influence until this privilege is repealed."
+ EST_un_influence_250: "The Upper Nobles will gain §Y25.0§! influence until this privilege is repealed."
+ 
+ EST_un_p_eg: "Only your family and the upper nobles will be allowed to lead armies."
+ EST_un_p_oc: "Ban anyone who isn't related to the upper nobles from being in the officer corps."
+ EST_un_p_lp: "The upper nobles will no longer have to worry about silly things like laws, but don't worry, they promise not to abuse it too much!"
+ EST_un_p_eap: "The upper nobles will be granted permanent, inheritable advisory positions with much influence."
+ EST_un_p_ebp: "The upper nobles will have first pickings when it comes to deciding who gets jobs in the bureaucracy."
+ EST_un_p_esr: "Give the upper nobles special social rights, such as the ability to consume certain beverages, have concubines, and hold audiences with the monarch whenever they want."
+ EST_un_p_gsa: "Relinquish most of your control over provinces the upper nobles own."
+ EST_un_p_sts: "Share a large portion of the tribute you recieve from both your subject commoners and conquered cities with the upper nobles every year."
+ 
+ EST_un_f_gmlp: "Hand a generalship to an ambitious upper noble."
+ EST_un_f_tli: "Somehow, the a few upper nobles still managed to get into legal trouble. Step in and pardon them."
+ EST_un_f_gia: "Grant increased autonomy to a powerful land owning noble family."
+ EST_un_f_gsp: "Appoint the sons of a few powerful nobles to important government positions."
+ EST_un_f_glt: "Divert a few of the commoners under your control to the upper nobles for labor purposes."
+ EST_un_f_tte: "Exempt the upper nobles from paying you significant tribute for the next two years."
+ EST_un_f_hn: "Hold a public ceremony to honor the accomplishments of a few upper nobles."
+ EST_un_f_fs: "Use state funds to help out a few struggling upper noble families."
+ EST_un_f_tde: "Exempt a few commoners under the control of the upper nobles from the military draft."
+ 
+ EST_un_eliminate: "The Upper Noble estate will be removed, but is likely to return at some later date."
+ 
+ #Upper Nobles Disaster
+ un_civil_war_newcap: "   The Upper Nobles flee to this city and establish a new capital."
+ un_civil_war_start: "The Upper Nobles lose all of their privileges, you lose all favors with them, all interactions are disabled, and their loyalty plunges to 0 for the duration of the war."
+ 
+ 
+ #Lower Nobles
+ EST_ln_influence_50: "The Lower Nobles will gain §Y5.0§! influence until this privilege is repealed."
+ EST_ln_influence_100: "The Lower Nobles will gain §Y10.0§! influence until this privilege is repealed."
+ EST_ln_influence_150: "The Lower Nobles will gain §Y15.0§! influence until this privilege is repealed."
+ EST_ln_influence_200: "The Lower Nobles will gain §Y20.0§! influence until this privilege is repealed."
+ EST_ln_influence_250: "The Lower Nobles will gain §Y25.0§! influence until this privilege is repealed."
+ 
+ EST_ln_p_gns: "Sometimes the lower nobles are afraid that they might loose their noble status. Guarantee to them that that will never happen."
+ EST_ln_p_bnm: "Make the lower nobles feel better about themselves by banning commoners from being able to enter the lower nobility in any way."
+ EST_ln_p_ilp: "Make it much more difficult for a lower noble to get into legal trouble."
+ EST_ln_p_esr: "Grant the lower nobles the same social rights as the upper nobles."
+ EST_ln_p_emo: "Prevent any commoners from getting into the military orders."
+ 
+ EST_ln_f_gmlp: "Hand a generalship to an ambitious lower noble."
+ EST_ln_f_tli: "Sweep a few legal charges under the rug."
+ EST_ln_f_gsp: "Appoint the sons of a few lower nobles to government positions."
+ EST_ln_f_glt: "Divert a few of the commoners under your control to the lower nobles for labor purposes."
+ EST_ln_f_slg: "Slightly expand the personal holdings of a few lower nobles."
+ EST_ln_f_tte: "Exempt the lower nobles from paying you significant tribute for the next two years."
+ EST_ln_f_hn: "Hold a public ceremony to honor the accomplishments of a few lower nobles."
+ EST_ln_f_fs: "Help out a few struggling lower noble families financially."
+ 
+ #Merchants
+ EST_m_influence_50: "The Merchants will gain §Y5.0§! influence until this privilege is repealed."
+ EST_m_influence_100: "The Merchants will gain §Y10.0§! influence until this privilege is repealed."
+ EST_m_influence_150: "The Merchants will gain §Y15.0§! influence until this privilege is repealed."
+ EST_m_influence_200: "The Merchants will gain §Y20.0§! influence until this privilege is repealed."
+ EST_m_influence_250: "The Merchants will gain §Y25.0§! influence until this privilege is repealed."
+ 
+ EST_m_p_rsl: "Repeal the laws prohibiting public displays of wealth from merchants."
+ EST_m_p_aco: "Allow members of the merchant class to personally control large groups of commoners just as the nobles do.."
+ EST_m_p_ofm: "Actively repress the activities of foreign merchants wherever possible."
+ EST_m_p_utl: "Allow merchants to legally trade with anyone, including enemies of the state."
+ EST_m_p_glp: "Guarantee merchants the same legal protections as nobles."
+ 
+ EST_m_f_ght: "Grant honorary noble titles to a few merchants."
+ EST_m_f_sv: "Personally sponsor a trade venture."
+ EST_m_f_hrg: "Hire a contingent of guards to protect a few traveling merchants."
+ EST_m_f_tusp: "Pardon a few exploitative and unsavory trade practices."
+ EST_m_f_hsm: "Host and advertise a special market that only approved merchants may participate in."
+ EST_m_f_dap: "Divert a few transporters from the army to help move trade goods around."
+ EST_m_f_trm: "Levy a heavy one time tax on merchants your merchants dislike."
+ EST_m_f_tte: "Take the loss for a temporary tax exemption on trade goods."
+ 
+ #Special 
+ EST_m_rq_wf_1: "Recieve a small donation every year from the merchants. Lasts for five years or until you are no longer at war."
+ EST_m_rq_wf_2: "Recieve a medium donation every year from the merchants. Lasts for five years or until you are no longer at war."
+ EST_m_rq_wf_3: "Recieve a large donation every year from the merchants. Lasts for five years or until you are no longer at war."
+ 
+ #Priesthood
+ EST_ph_influence_50: "The Priesthood will gain §Y5.0§! influence until this privilege is repealed."
+ EST_ph_influence_100: "The Priesthood will gain §Y10.0§! influence until this privilege is repealed."
+ EST_ph_influence_150: "The Priesthood will gain §Y15.0§! influence until this privilege is repealed."
+ EST_ph_influence_200: "The Priesthood will gain §Y20.0§! influence until this privilege is repealed."
+ EST_ph_influence_250: "The Priesthood will gain §Y25.0§! influence until this privilege is repealed."
+ 
+ EST_ph_p_lpe: "Lift the ban on priests being able to occupy certain government positions."
+ EST_ph_p_riap: "Reserve important advisory positions for members of the priesthood."
+ EST_ph_p_wlj: "Grant the priests the right to judge themselves and do not subjugate them to the official law code."
+ EST_ph_p_ess: "Elevate the social status of priests to around the same level as nobles."
+ EST_ph_p_mrs: "Mandate religious schooling by the priesthood for all citizens."
+ 
+ EST_ph_f_src: "Personally sponsor a religious ceremony."
+ EST_ph_f_mpd: "Make a conspicuous display of piety for the commoners."
+ EST_ph_f_alla: "Grant lower level advisory positions to members of the priesthood."
+ EST_ph_f_rmp: "Recruit, forcefully if nessecary, more people for the priesthood."
+ EST_ph_f_bss: "Build a small public shrine to a favored god."
+ EST_ph_f_hbc: "Hold a bloodletting ceremony with several important members of society."
+ EST_ph_f_snrb: "Pay for the creation of an elaborate new religious codex."
+ EST_ph_f_prd: "Punish a few people the priesthood has marked as religious deviants."
+ EST_ph_f_rpc: "Grant a monetary reward to faithful commoners."
+ 
+ #ESTATE GOV STAT CHANGES
+ EST_gs_c_025: "Lose §R0.25§! §YCentralization§! per year until this privilege is repealed."
+ EST_gs_c_050: "Lose §R0.50§! §YCentralization§! per year until this privilege is repealed."
+ EST_gs_c_075: "Lose §R0.75§! §YCentralization§! per year until this privilege is repealed."
+ EST_gs_c_100: "Lose §R1.00§! §YCentralization§! per year until this privilege is repealed."
+ 
+ EST_gs_lt_025: "Lose §R0.25§! §YLegal Tradition§! per year until this privilege is repealed."
+ EST_gs_lt_050: "Lose §R0.50§! §YLegal Tradition§! per year until this privilege is repealed."
+ EST_gs_lt_075: "Lose §R0.75§! §YLegal Tradition§! per year until this privilege is repealed."
+ EST_gs_lt_100: "Lose §R1.00§! §YLegal Tradition§! per year until this privilege is repealed."
+ 
+ EST_gs_mt_025: "Lose §R0.25§! §YMeritocratic Tradition§! per year until this privilege is repealed."
+ EST_gs_mt_050: "Lose §R0.50§! §YMeritocratic Tradition§! per year until this privilege is repealed."
+ EST_gs_mt_075: "Lose §R0.75§! §YMeritocratic Tradition§! per year until this privilege is repealed."
+ EST_gs_mt_100: "Lose §R1.00§! §YMeritocratic Tradition§! per year until this privilege is repealed."
+ 
+ EST_gs_rt_025: "Gain §G0.25§! §YReligious Tradition§! per year until this privilege is repealed."
+ EST_gs_rt_050: "Gain §G0.50§! §YReligious Tradition§! per year until this privilege is repealed."
+ EST_gs_rt_075: "Gain §G0.75§! §YReligious Tradition§! per year until this privilege is repealed."
+ EST_gs_rt_100: "Gain §G1.00§! §YReligious Tradition§! per year until this privilege is repealed."
+ 
+ EST_gs_mil_025: "Gain §G0.25§! §YMilitancy§! per year until this privilege is repealed."
+ EST_gs_mil_050: "Gain §G0.50§! §YMilitancy§! per year until this privilege is repealed."
+ EST_gs_mil_075: "Gain §G0.75§! §YMilitancy§! per year until this privilege is repealed."
+ EST_gs_mil_100: "Gain §G1.00§! §YMilitancy§! per year until this privilege is repealed."
+ 
+ #ESTATE CORRUPTION CHANGES
+ EST_crpt_i_0025: "Gain §R0.25§! §YCorruption§! per year until this privilege is repealed."
+ EST_crpt_i_0050: "Gain §R0.50§! §YCorruption§! per year until this privilege is repealed."
+ EST_crpt_i_0100: "Gain §R1.0§! §YCorruption§! per year until this privilege is repealed."
+ 
+ #FAVORS
+ EST_fav_i_02: "Gain §G2§! §YFavors§! with this estate."
+ EST_fav_i_04: "Gain §G4§! §YFavors§! with this estate."
+ EST_fav_i_05: "Gain §G5§! §YFavors§! with this estate."
+ EST_fav_i_10: "Gain §G10§! §YFavors§! with this estate."
+ EST_fav_i_40: "Gain §G40§! §YFavors§! with this estate."
+ EST_fav_i_60: "Gain §G60§! §YFavors§! with this estate."
+ EST_fav_i_100: "Gain §G100§! §YFavors§! with this estate."
+ 
+ EST_fav_d_005: "Lose §R5§! §YFavors§! with this estate."
+ EST_fav_d_010: "Lose §R10§! §YFavors§! with this estate."
+ EST_fav_d_015: "Lose §R15§! §YFavors§! with this estate."
+ EST_fav_d_020: "Lose §R20§! §YFavors§! with this estate."
+ EST_fav_d_025: "Lose §R25§! §YFavors§! with this estate."
+ EST_fav_d_030: "Lose §R30§! §YFavors§! with this estate."
+ EST_fav_d_040: "Lose §R40§! §YFavors§! with this estate."
+ EST_fav_d_050: "Lose §R50§! §YFavors§! with this estate."
+ EST_fav_d_060: "Lose §R60§! §YFavors§! with this estate."
+ 
+ #########################
+ #GOVERNMENT STAT CHANGES#
+ #########################
+ #Centralization
+ GOVS_cen_i_0025: "Gain §G2.5§! §YCentralization§!."
+ GOVS_cen_i_0050: "Gain §G5.0§! §YCentralization§!."
+ GOVS_cen_i_0075: "Gain §G7.5§! §YCentralization§!."
+ GOVS_cen_i_0010: "Gain §G10.0§! §YCentralization§!."
+ GOVS_cen_i_0015: "Gain §G15.0§! §YCentralization§!."
+ GOVS_cen_i_0020: "Gain §G20.0§! §YCentralization§!."
+ 
+ GOVS_cen_d_0025: "Lose §R2.5§! §YCentralization§!."
+ GOVS_cen_d_0050: "Lose §R5.0§! §YCentralization§!."
+ GOVS_cen_d_0075: "Lose §R7.5§! §YCentralization§!."
+ GOVS_cen_d_0010: "Lose §R10.0§! §YCentralization§!."
+ 
+ #Legal Tradition
+ GOVS_lt_i_0025: "Gain §G2.5§! §YLegal Tradition§!."
+ GOVS_lt_i_0050: "Gain §G5.0§! §YLegal Tradition§!."
+ GOVS_lt_i_0075: "Gain §G7.5§! §YLegal Tradition§!."
+ GOVS_lt_i_0010: "Gain §G10.0§! §YLegal Tradition§!."
+ GOVS_lt_i_0250: "Gain §G25.0§! §YLegal Tradition§!."
+ 
+ GOVS_lt_d_0025: "Lose §R2.5§! §YLegal Tradition§!."
+ GOVS_lt_d_0050: "Lose §R5.0§! §YLegal Tradition§!."
+ GOVS_lt_d_0075: "Lose §R7.5§! §YLegal Tradition§!."
+ GOVS_lt_d_0010: "Lose §R10.0§! §YLegal Tradition§!."
+ 
+ #Meritocratic Tradition
+ GOVS_mt_i_0025: "Gain §G2.5§! §YMeritocratic Tradition§!."
+ GOVS_mt_i_0050: "Gain §G5.0§! §YMeritocratic Tradition§!."
+ GOVS_mt_i_0075: "Gain §G7.5§! §YMeritocratic Tradition§!."
+ GOVS_mt_i_0010: "Gain §G10.0§! §YMeritocratic Tradition§!."
+ GOVS_mt_i_0250: "Gain §G25.0§! §YMeritocratic Tradition§!."
+ 
+ GOVS_mt_d_0025: "Lose §R2.5§! §YMeritocratic Tradition§!."
+ GOVS_mt_d_0050: "Lose §R5.0§! §YMeritocratic Tradition§!."
+ GOVS_mt_d_0075: "Lose §R7.5§! §YMeritocratic Tradition§!."
+ GOVS_mt_d_0010: "Lose §R10.0§! §YMeritocratic Tradition§!."
+ 
+ #Spiritualism
+ GOVS_sprt_i_0005: "Gain §G0.50§! §YReligious Tradition§!."
+ GOVS_sprt_i_0007: "Gain §G0.75§! §YReligious Tradition§!."
+ GOVS_sprt_i_0010: "Gain §G1.0§! §YReligious Tradition§!."
+ GOVS_sprt_i_0015: "Gain §G1.50§! §YReligious Tradition§!."
+ GOVS_sprt_i_0020: "Gain §G2.0§! §YReligious Tradition§!."
+ GOVS_sprt_i_0022: "Gain §G2.25§! §YReligious Tradition§!."
+ GOVS_sprt_i_0030: "Gain §G3.0§! §YReligious Tradition§!."
+ GOVS_sprt_i_0035: "Gain §G3.50§! §YReligious Tradition§!."
+ GOVS_sprt_i_0037: "Gain §G3.75§! §YReligious Tradition§!."
+ GOVS_sprt_i_0040: "Gain §G4.0§! §YReligious Tradition§!."
+ GOVS_sprt_i_0045: "Gain §G4.50§! §YReligious Tradition§!."
+ GOVS_sprt_i_0052: "Gain §G5.25§! §YReligious Tradition§!."
+ GOVS_sprt_i_0060: "Gain §G6.0§! §YReligious Tradition§!."
+ GOVS_sprt_i_0067: "Gain §G6.75§! §YReligious Tradition§!."
+ GOVS_sprt_i_0075: "Gain §G7.50§! §YReligious Tradition§!."
+ 
+ GOVS_sprt_i_0025: "Gain §G2.5§! §YReligious Tradition§!."
+ GOVS_sprt_i_0050: "Gain §G5.0§! §YReligious Tradition§!."
+ GOVS_sprt_i_0075: "Gain §G7.5§! §YReligious Tradition§!."
+ GOVS_sprt_i_0010: "Gain §G10.0§! §YReligious Tradition§!."
+ GOVS_sprt_i_0250: "Gain §G25.0§! §YReligious Tradition§!."
+ 
+ GOVS_sprt_d_0025: "Lose §R2.5§! §YReligious Tradition§!."
+ GOVS_sprt_d_0050: "Lose §R5.0§! §YReligious Tradition§!."
+ GOVS_sprt_d_0075: "Lose §R7.5§! §YReligious Tradition§!."
+ GOVS_sprt_d_0010: "Lose §R10.0§! §YReligious Tradition§!."
+ GOVS_sprt_d_0250: "Lose §R25.0§! §YReligious Tradition§!."
+ GOVS_sprt_d_0500: "Lose §R50.0§! §YReligious Tradition§!."
+ 
+ #Intellectualism
+ GOVS_int_i_0025: "Gain §G2.5§! §YIntellectual Tradition§!."
+ GOVS_int_i_0050: "Gain §G5.0§! §YIntellectual Tradition§!."
+ GOVS_int_i_0075: "Gain §G7.5§! §YIntellectual Tradition§!."
+ GOVS_int_i_0010: "Gain §G10.0§! §YIntellectual Tradition§!."
+ 
+ GOVS_int_d_0025: "Lose §R2.5§! §YIntellectual Tradition§!."
+ GOVS_int_d_0050: "Lose §R5.0§! §YIntellectual Tradition§!."
+ GOVS_int_d_0075: "Lose §R7.5§! §YIntellectual Tradition§!."
+ GOVS_int_d_0010: "Lose §R10.0§! §YIntellectual Tradition§!."
+ 
+ #Militancy
+ GOVS_mil_i_0025: "Gain §G2.5§! §YMilitancy§!."
+ GOVS_mil_i_0050: "Gain §G5.0§! §YMilitancy§!."
+ GOVS_mil_i_0075: "Gain §G7.5§! §YMilitancy§!."
+ GOVS_mil_i_0010: "Gain §G10.0§! §YMilitancy§!."
+ GOVS_mil_i_0200: "Gain §G20.0§! §YMilitancy§!."
+ GOVS_mil_i_0500: "Gain §G50.0§! §YMilitancy§!."
+ 
+ GOVS_mil_d_0025: "Lose §R2.5§! §YMilitancy§!."
+ GOVS_mil_d_0050: "Lose §R5.0§! §YMilitancy§!."
+ GOVS_mil_d_0075: "Lose §R7.5§! §YMilitancy§!."
+ GOVS_mil_d_0010: "Lose §R10.0§! §YMilitancy§!."
+ 
+ ###########################
+ #TRIPLE ALLIANCE INFLUENCE#
+ ###########################
+ TAI_i_005: "Gain §G5§! Triple Alliance Influence."
+ TAI_i_010: "Gain §G10§! Triple Alliance Influence."
+ TAI_i_015: "Gain §G15§! Triple Alliance Influence."
+ TAI_i_030: "Gain §G30§! Triple Alliance Influence."
+ TAI_i_050: "Gain §G50§! Triple Alliance Influence."
+ 
+ TAI_d_005: "Lose §R5§! Triple Alliance Influence."
+ 
+ #############
+ #FOR TRIBUTE#
+ #############
+ TRIB_duc_high: "Gain ducats equal to §G33%§! of this area's development."
+ TRIB_duc_normal: "Gain ducats equal to §G25%§! of this area's development."
+ TRIB_duc_low: "Gain ducats equal to §G15%§! of this area's development."
+ 
+ TRIB_mp_high: "Gain §G1000§! manpower for every 25 development in this area."
+ TRIB_mp_normal: "Gain §G1000§! manpower for every 35 development in this area."
+ TRIB_mp_low: "Gain §G1000§! manpower for every 50 development in this area."
+ 
+ ###########
+ #RELIGIONS#
+ ###########
+ RGN_NWHTL_lose_captives: "Lose all captives."
+ 
+ 
+ ###########
+ #BUILDINGS#
+ ###########
+ BLD_sld_d_025: "All subjects lose §G25.0§! Liberty Desire."
+ 
+ #############
+ #IDEA EVENTS#
+ #############
+ EV_HGF_military_parade: "A military parade will be held in the capital in 7 days time."
+ EV_HGF_lords_feast: "A lord's feast will be held in the capital in 7 days time."
+ EV_HGF_commons_feast: "A common's feast will be held in the capital in 7 days time."
+ 
+ 
+ 
+ 

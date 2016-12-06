@@ -2,48 +2,14 @@ cb_expand_hegemony = {
 	valid_for_subject = no
 
 	prerequisites = {
-		ROOT = {
-			ai = no
-		}
 		OR = {
 			government = altepetl
-			government = hegemonic_kingdom
-			government = hegemonic_empire
 			government = tlaxcallan_confederate
 		}
 		NOT = { vassal_of = ROOT }
 	}
-
-	attacker_disabled_po = {
-		po_demand_provinces
-	}
-
 
 	war_goal = expandhegemony
-}
-
-cb_expand_hegemony_ai = {
-	valid_for_subject = no
-
-	prerequisites = {
-		ROOT = {
-			ai = yes
-		}
-		OR = {
-			government = altepetl
-			government = hegemonic_kingdom
-			government = hegemonic_empire
-			government = tlaxcallan_confederate
-		}
-		NOT = { vassal_of = ROOT }
-	}
-
-	#attacker_disabled_po = {
-	#
-	#}
-
-
-	war_goal = expandhegemonyai
 }
 
 
@@ -52,8 +18,10 @@ cb_direct_conquest = {
 
 	prerequisites = {
 		OR = {
+			government = centralized_altepetl
 			government = tribal_confederation
-			government = tarascan_tribute_kingdom
+			government = feudal_chiefdom
+			government = ttt_subordinate_lordship
 		}
 		NOT = { vassal_of = ROOT }
 		is_neighbor_of = FROM
@@ -70,4 +38,13 @@ cb_unite_maya = {
 	}
 
 	war_goal = unitemaya
+}
+
+cb_un_civil_war = {
+	
+	prerequisites = {
+		always = no
+	}
+	
+	war_goal = expandhegemonyai
 }

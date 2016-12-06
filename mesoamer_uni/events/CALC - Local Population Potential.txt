@@ -9,138 +9,85 @@ country_event = {
 
 	is_triggered_only = yes
 
-	hidden = yes
-	
-	fire_only_once = yes
+	#hidden = yes
 
 	option = {
 		name = "ppcalc1.a"
 		
-		hidden_effect = {
 		every_province = {
-			set_variable = { which = provpp value = 1000 }
-			add_permanent_province_modifier = {
-				name = ppbase
-				duration = -1
-			}
+			subtract_variable = { which = provpp which = provpp }
 			
+			#From Terrain
 			if = {
 				limit = {
 					has_terrain = grasslands
 				}
-				change_variable = { which = provpp value = 7500 }
-				add_permanent_province_modifier = {
-					name = ppgrasslands
-					duration = -1
-				}
+				change_variable = { which = provpp value = 40 }
 			}
 			if = {
 				limit = {
 					has_terrain = hills
 				}
-				change_variable = { which = provpp value = 6000 }
-				add_permanent_province_modifier = {
-					name = pphills
-					duration = -1
-				}
+				change_variable = { which = provpp value = 30 }
 			}
 			if = {
 				limit = {
 					has_terrain = mountain
 				}
-				change_variable = { which = provpp value = 5000 }
-				add_permanent_province_modifier = {
-					name = ppmountains
-					duration = -1
-				}
+				change_variable = { which = provpp value = 25 }
 			}
 			if = {
 				limit = {
 					has_terrain = desert
 				}
-				change_variable = { which = provpp value = 4000 }
-				add_permanent_province_modifier = {
-					name = ppdesert
-					duration = -1
-				}
+				change_variable = { which = provpp value = 15 }
 			}
+			
+			#Capital of a Kingdom
 			if = {
 				limit = {
-					development = 3
-					NOT = { development = 600 }
+					is_capital = yes
+					owner = {
+						government_rank = 2
+						NOT = { government_rank = 3 }
+					}
 				}
-				change_variable = { which = provpp value = 1000 }
-				add_permanent_province_modifier = {
-					name = sdverylow
-					duration = -1
-				}
+				change_variable = { which = provpp value = 60 }
 			}
+			
+			#Capital of an Empire
 			if = {
 				limit = {
-					development = 600
-					NOT = { development = 1000 }
+					is_capital = yes
+					owner = {
+						government_rank = 3
+					}
 				}
-				change_variable = { which = provpp value = 2500 }
-				add_permanent_province_modifier = {
-					name = sdlow
-					duration = -1
-				}
+				change_variable = { which = provpp value = 150 }
 			}
+			
+			#Is a Major Trade Center
 			if = {
 				limit = {
-					development = 1000
-					NOT = { development = 1300 }
+					has_province_modifier = major_trade_center
 				}
-				change_variable = { which = provpp value = 5000 }
-				add_permanent_province_modifier = {
-					name = mediumstartingdevelopment  
-					duration = -1
-				}
+				change_variable = { which = provpp value = 10 }
 			}
+			
+			#Buildings
 			if = {
 				limit = {
-					development = 1300
-					NOT = { development = 2000 }
+					has_building = farm1
 				}
-				change_variable = { which = provpp value = 7500 }
-				add_permanent_province_modifier = {
-					name = sdaboveaverage
-					duration = -1
-				}
+				change_variable = { which = provpp value = 10 }
 			}
+			
 			if = {
 				limit = {
-					development = 2000
-					NOT = { development = 3000 }
+					has_building = farm2
 				}
-				change_variable = { which = provpp value = 10000 }
-				add_permanent_province_modifier = {
-					name = sdhigh
-					duration = -1
-				}
+				change_variable = { which = provpp value = 20 }
 			}
-			if = {
-				limit = {
-					development = 3000
-					NOT = { development = 5000 }
-				}
-				change_variable = { which = provpp value = 15000 }
-				add_permanent_province_modifier = {
-					name = sdveryhigh
-					duration = -1
-				}
-			}
-			if = {
-				limit = {
-					development = 5000
-				}
-				change_variable = { which = provpp value = 25000 }
-				add_permanent_province_modifier = {
-					name = sdgargantuan
-					duration = -1
-				}
-			}
-		}
 		}
 	}
 }

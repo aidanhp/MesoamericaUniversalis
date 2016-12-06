@@ -1,0 +1,25 @@
+country_decisions = {
+	set_tribute_requirements = {
+		major = yes
+		potential = {
+			OR = { 
+				num_of_protectorates = 1
+				num_of_vassals = 1
+			}
+			NOT = { has_country_flag = managingtribute }
+		}
+
+		allow = {
+
+		}
+
+		effect = {
+			set_country_flag = managingtribute
+			country_event = { id = tributecoll.01 }
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

@@ -1,0 +1,18 @@
+government = kuchkabal 
+government_rank = 2
+mercantilism = 0.25
+technology_group = southern_mayan
+religion = newmayan 
+primary_culture = highlandsmayan
+capital = 198
+fixed_capital = 198
+
+1427.1.1 = {
+	monarch = {
+		name = "Placeholder"
+		dynasty = "Tujal"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

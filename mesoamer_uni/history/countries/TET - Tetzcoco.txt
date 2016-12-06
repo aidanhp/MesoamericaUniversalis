@@ -27,4 +27,7 @@ historical_friend = TCP
 			siege = 1
 		}
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = lawgiver_personality   
+	add_ruler_personality = scholar_personality    
 }

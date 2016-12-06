@@ -5,4 +5,15 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1;30;sea;41;-1;-1;-1;-1;c4
 1;611;sea;41;-1;-1;-1;-1;c5
 611;26;sea;612;-1;-1;-1;-1;c6
+
+#Tabasco Wasteland
+164;168;sea;744;-1;-1;-1;-1;nada
+164;165;sea;744;-1;-1;-1;-1;nada
+165;168;sea;744;-1;-1;-1;-1;nada
+165;169;sea;744;-1;-1;-1;-1;nada
+
+#Ekab's Islands
+891;892;sea;251;-1;-1;-1;-1;nada
+899;903;sea;252;-1;-1;-1;-1;nada
+
 -1;-1;;-1;-1;-1;-1;-1;-1;

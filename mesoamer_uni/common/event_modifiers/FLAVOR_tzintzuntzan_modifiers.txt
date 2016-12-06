@@ -1,0 +1,70 @@
+consolidation_of_the_realm = {
+	land_morale = 0.10
+	global_autonomy = -0.10
+	global_tax_income = -25
+	global_manpower_modifier = -0.10
+	stability_cost_modifier = 0.25
+}
+
+no_administrators = {
+	diplomatic_upkeep = -6
+	global_autonomy = 0.15
+	core_creation = 0.25
+}
+
+non_institutionalized_military = {
+	discipline = -0.05
+	land_maintenance_modifier = 1.0
+	global_regiment_cost = 0.25
+}
+
+concessions_of_the_nobility = {
+	land_forcelimit_modifier = 0.20
+	global_autonomy = -0.10
+	global_tax_modifier = 0.05
+}
+
+military_i_1 = {
+	global_tax_income = -2
+	global_manpower_modifier = -0.04
+}
+
+military_i_2 = {
+	global_tax_income = -4
+	global_manpower_modifier = -0.08
+}
+
+military_i_3 = {
+	global_tax_income = -6
+	global_manpower_modifier = -0.12
+}
+
+assist_mi_1 = {
+	global_tax_income = -2.5
+	global_manpower_modifier = -0.05
+}
+
+assist_mi_2 = {
+	global_tax_income = -1.5
+	global_manpower_modifier = -0.03
+}
+
+reformed_military = {
+	reinforce_speed = 0.25
+	discipline = 0.025
+	land_attrition = -0.05
+}
+
+integrating_chichimecs = {
+	stability_cost_modifier = 0.25
+	global_unrest = 2
+}
+
+chichimec_immigrants = {
+	local_unrest = 4
+	local_tax_modifier = 0.05
+}
+
+chichimec_auxiliaries = {
+	infantry_power = 0.20
+}

@@ -31,7 +31,7 @@ mexican_group = {
 
 	tarascan = {
 		color = { 0.70 0.40 0.30 }
-		icon = 17
+		icon = 11
 		country = {
 			global_missionary_strength = 0.05
 			legitimacy = 2
@@ -53,7 +53,7 @@ mexican_group = {
 	
 	zapotec = {
 		color = { 0.20 0.40 0.80 }
-		icon = 17
+		icon = 12
 		country = {
 			hostile_attrition = 4
 			production_efficiency = 0.15
@@ -72,7 +72,7 @@ mexican_group = {
 
 	mixtec = {
 		color = { 0.20 0.90 0.40 }
-		icon = 17
+		icon = 13
 		country = {
 			defensiveness = 0.33
 			war_exhaustion_cost = -0.50
@@ -99,7 +99,7 @@ yucatan_group = {
 
 	newmayan = {
 		color = { 0.30 0.80 0.80 }
-		icon = 17
+		icon = 19
 		country = {
 			land_morale = 0.15
 			build_cost = -0.33

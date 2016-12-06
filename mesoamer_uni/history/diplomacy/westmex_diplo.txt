@@ -12,6 +12,21 @@ vassal = {
 	start_date = 1428.1.1
 	end_date = 1821.1.1
 }
+
+vassal = {
+	first = IUA
+	second = PCH
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = IUA
+	second = FFO
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
 #Colliman Kingdom
 vassal = {
 	first = CIM

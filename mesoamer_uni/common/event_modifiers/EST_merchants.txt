@@ -1,0 +1,37 @@
+#Modifiers for merchant estate
+ms_repeal_sumptuary_laws = {
+
+}
+
+ms_permit_land_ownership = {
+
+}
+
+ms_oppress_foreign_merchants = {
+	yearly_corruption = 0.50
+}
+
+ms_unlimited_trade = {
+	yearly_corruption = 0.50
+}
+
+ms_guarantee_legal_protection = {
+
+}
+
+ms_war_contribution_1 = {
+	trade_efficiency = -0.05
+}
+
+ms_war_contribution_2 = {
+	trade_efficiency = -0.10
+}
+
+ms_war_contribution_3 = {
+	trade_efficiency = -0.15
+}
+
+ms_conflict_brewing = {
+	diplomatic_reputation = -2
+	trade_efficiency = -0.20
+}

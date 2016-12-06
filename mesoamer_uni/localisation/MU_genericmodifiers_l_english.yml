@@ -1,0 +1,151 @@
+﻿l_english: 
+ #MODIFIERS
+ #Game Direction Modifiers
+ euroinvasions: "European Invasions Enabled"
+ noinvasions: "European Invasions Disabled"
+ 
+ #Trade
+ major_trade_center: "Major Center of Trade"
+ 
+ #Map CE Modifiers
+ perc_map: "Perfect Communication"
+ npc_map: "Near Perfect Communication"
+ vgc_map: "Very Good Communication"
+ gc_map: "Good Communication"
+ fc_map: "Fair Communication"
+ dc_map: "Difficult Communication"
+ pc_map: "Poor Communication"
+ vpc_map: "Very Poor Communication"
+ tc_map: "Terrible Communication"
+ mc_map: "Minimal Communication"
+ 
+ #Tribute Requirements
+ highwealth: "High Wealth Requirements"
+ normalwealth: "Normal Wealth Requirements"
+ lowwealth: "Low Wealth Requirements"
+ 
+ highwarriors: "High Warrior Requirements"
+ normalwarriors: "Normal Warrior Requirements"
+ lowwarriors: "Low Warrior Requirements"
+ 
+ highsupplies: "High Supplies Requirements"
+ normalsupplies: "Normal Supplies Requirements"
+ lowsupplies: "Low Supplies Requirements"
+ 
+ recentcollection: "Recent Tribute Collection"
+ desc_recentcollection: "Recently, we successfully extracted tribute from some or all of our vassals."
+ 
+ bincooldown: "Bin Calculation Cooldown"
+ desc_bincooldown: "Don't look at me! I don't exist!"
+ 
+ #Balancing
+ suppliedbytenoch: "Supplied by Tenochtitlan"
+ desc_suppliedbytenoch: "This province is in close proximity to the great city of Tenochtitlan and thus has a higher supply limit."
+ 
+ #Draft Laws
+ base_law: "Base Draft Law"
+ desc_base_law: "This modifier is irremoveable and used to help calculate how much of a province's manpower you can use.
+ 
+ e_optionalcareer: "Nobility Draft Law: Optional Career"
+ desc_e_optionalcareer: "Military service is a purely optional career for sons of the nobility." 
+ e_expectedservice: "Nobility Draft Law: Expected Service"
+ desc_e_expectedservice: "Military service is still optional for sons of the nobility, but not serving in the military at some point is frowned upon." 
+ e_oldestson: "Nobility Draft Law: Oldest Son"
+ desc_e_oldestson: "Military service is a legal requirement for the oldest son of every noble family." 
+ e_allsons: "Nobility Draft Law: All Sons"
+ desc_e_oldestson: "Military service is a legal requirement for all sons of age of every noble family."
+ 
+ a_noservice: "Artisan Draft Law: No Service"
+ desc_a_noservice: "Artisans are exempt from any military service." 
+ a_expectedservice: "Artisan Draft Law: Expected Service"
+ desc_a_expectedservice: "Military service is optional for sons of artisans, but not serving in the military at some point is frowned upon." 
+ a_oldestson: "Artisan Draft Law: Oldest Son"
+ desc_a_oldestson: "Military service is a legal requirement for the oldest son of every artisan family." 
+ a_allsons: "Artisan Draft Law: All Sons"
+ desc_a_oldestson: "Military service is a legal requirement for all sons of age of every artisan family."
+ 
+ c_optionalcareer: "Commoner Draft Law: Optional Career"
+ desc_c_optionalcareer: "Military service is a purely optional career for a sons of commoners." 
+ c_expectedservice: "Commoner Draft Law: Expected Service"
+ desc_c_expectedservice: "Military service is still optional for sons of commoners, but not serving in the military at some point is frowned upon." 
+ c_oldestson: "Commoner Draft Law: Oldest Son"
+ desc_c_oldestson: "Military service is a legal requirement for the oldest son of every commoner family." 
+ c_allsons: "Commoner Draft Law: All Sons"
+ desc_c_oldestson: "Military service is a legal requirement for all sons of age of every commoner family."
+ 
+ #Special
+ toltecsuccessor: "Toltec Successor State"
+ desc_toltecsuccessor: "We have legitimized ourselves as a successor state to the Toltec Empire."
+ 
+ #Obstacles
+ nopackanimals: "No Pack Animals"
+ desc_nopackanimals: "The lack of pack animals and mounts for soldiers makes traveling armies significantly slower."
+ legitimacythroughconquest: "Legitimacy Through Conquest"
+ desc_legitimacythroughconquest: "Our people require our ruler to be a capable warrior and conquerer. If he is unable to live up to their expectations, his position as ruler will be undermined. While this modifier is active, you will gain legitimacy when you win battles and lose it when you lose battles."
+ 
+ #PRIVILEGE MODIFIERS
+ #Priests
+ priestsingov: "Priests in Government"
+ desc_priestsingov: "The political embargo on the priesthood has been lifted and priests can hold positions of political power."
+ elevatedpriesthood: "Elevated Priesthood"
+ desc_elevatedpriesthood: "The priests have been granted the same legal rights as nobles."
+ priestcouncilors: "Priest Councilors"
+ desc_priestcouncilors: "Priests have been appointed as advisors to important government officials."
+ moneytopriests: "Priest Pension"
+ desc_moneytopriests: "The priesthood has been delegated a pension to cover all expenses they may have."
+ 
+ #Nobles
+ militarypatrimonialism: "Military Patrimonialism"
+ desc_militarypatrimonialism: "The military is no longer an avenue for social advancement and the military orders are only open to members of the nobility."
+ governmentpatrimonialism: "Government Patrimonialism"
+ desc_governmentpatrimonialism: "Government positions can no longer be held by commoners."
+ exclusivenoblerights: "Exclusive Aristocratic Rights"
+ desc_exclusivenoblerights: "The nobility enjoys special legal privileges blocked to any other social class."
+ extendedestates: "Extended Estates"
+ desc_extendedestates: "The nobility has been granted additional land and more control over commoners."
+ noblepension: "Aristocratic Pension"
+ desc_noblepension: "The nobility has been granted a special pension as additional payment for their service to the state."
+ 
+ #Merchants
+ merchantextravagance: "Merchant Extravagance"
+ desc_merchantextravagance: "Sumptuary laws controlling the ability of merchants to display wealth and show off their status have been lifted."
+ caravanguards: "Caravan Guards"
+ caravanguards_desc: "The state has funded and supplied the men for a system of guards to protect traveling merchants."
+ exclusivetrade: "Exclusive Trade Licences"
+ desc_exclusivetrade: "Our merchants have been given exclusive trading rights in our territory."
+ increasedspypay: "Increased Spy Compensation"
+ desc_increasedspypay: "Spies have been delegated additional compensation for their service to the state."
+ insureventures: "Merchant Insurance"
+ desc_insureventures: "A portion of government income has been set aside to bail out ailing merchants."
+ 
+ #Exchanges
+ wellsupplied: "Well Supplied"
+ desc_wellsupplied: "Our troops are currently well supplied."
+ binvestment: "Supplies Investment"
+ desc_binvestment: "Building supplies have been invested in this province."
+ 
+ #Special Province Modifiers
+ tlaxcalaforts: "The Forts of Tlaxcala"
+ desc_tlaxcalaforts: "The Tlaxcallans constructed great forts of stone, lime, and a kind of cement to protect themselves from their aggressive neighbors. The mountainous region made these forts even more effective."
+ 
+ #Idea Group Modifiers
+ e_necessary: "Elite Draft Law: Whatever's Necessary"
+ desc_e_necessary: "Any able bodied person is a potential candidate for conscription."
+ a_necessary: "Artisan Draft Law: Whatever's Necessary"
+ desc_a_necessary: "Any able bodied person is a potential candidate for conscription."
+ c_nessecary: "Commoner Draft Law: Whatever's Necessary"
+ desc_c_nessecary: "Any able bodied person is a potential candidate for conscription."
+ raised_army: "Raised Army from Tributaries"
+ desc_raised_army: "We recently raised an army from our tributaries, and must wait for them to recover before we could demand something like that again. Soldiers don't just appear out of thin air!"
+ resettled_colonists: "Resettled Colonists"
+ desc_resettled_colonists: "We have recently resettled colonists to this province, and they aren't particularily happy about it."
+ has_resettled: "Recent Resettlement"
+ desc_has_resettled: "We have recently resettled people to our colonies. Doing so again might make things a little too tense in the colonies, we need to wait a while."
+ 
+ #Province Devestation Modifiers
+ damaged_by_war: "Damaged by War"
+ desc_damaged_by_war: "Occupation in a recent war has damaged this province. What was lost is in the process of being rebuilt."
+ devestated_by_war: "Devestated by War"
+ desc_devestated_by_war: "Occupation in a recent war was devestated this already damaged province. What was lost is in the process of being rebuilt, but it will take a long time to return it to what it once was. \n§RThis province will not experience population growth while this modifier is active.§!"
+ annihilated_by_war: "Annihilated by War"
+ desc_annihilated_by_war: "Occupation in a recent war has completely annihilated this already devestated province. It is being rebuilt, but will likely never be the same again. \n§RThis province will not experience population growth or bins production while this modifier is active.§!"

@@ -1,0 +1,15 @@
+add_core = CUP
+owner = CUP
+controller = CUP
+culture = yucatecmayan
+religion = newmayan 
+hre = no
+base_tax = 1
+base_production = 2
+trade_goods = grain 
+base_manpower = 6
+capital = "Pochboch"
+is_city = yes
+
+discovered_by = northern_mayan
+discovered_by = southern_mayan

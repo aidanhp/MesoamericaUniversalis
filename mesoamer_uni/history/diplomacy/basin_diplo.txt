@@ -40,72 +40,24 @@ royal_marriage = {
 	start_date = 1428.1.1
 	end_date = 1821.1.1
 }
+#Tenoch Vassal
 
+#Tetzcocah Vassals
 
-
-
-#Tenoch Vassals
-protectorate = {
-	first = TEN
-	second = COY
-	start_date = 1428.1.1
-	end_date = 1821.1.1
-}
-protectorate = {
-	first = TEN
-	second = HUI
-	start_date = 1428.1.1
-	end_date = 1821.1.1
-}
-protectorate = {
-	first = TEN
-	second = MEX
-	start_date = 1428.1.1
-	end_date = 1821.1.1
-}
-protectorate = {
-	first = TEN
-	second = COL
-	start_date = 1428.1.1
-	end_date = 1821.1.1
-}
-protectorate = {
-	first = TEN
-	second = IXL
+#Tlaco Vassals
+vassal = {
+	first = TCP
+	second = AZC
 	start_date = 1428.1.1
 	end_date = 1821.1.1
 }
 
-protectorate = {
-	first = TEN
-	second = BBN
+#Chalca Vassals 
+vassal = {
+	first = CHL
+	second = MIZ
 	start_date = 1428.1.1
 	end_date = 1821.1.1
 }
 
-protectorate = {
-	first = TEN
-	second = BBM
-	start_date = 1428.1.1
-	end_date = 1821.1.1
-}
-
-#Tetzcoca Vassals
-protectorate = {
-	first = TET
-	second = HUX
-	start_date = 1428.1.1
-	end_date = 1821.1.1
-}
-protectorate = {
-	first = TET
-	second = CLI
-	start_date = 1428.1.1
-	end_date = 1821.1.1
-}
-
-#Tlacopan Vassals
-#vassal = {
-#	first = TCP
-#	second = COY
-#}
+#Xochimilca Vassals

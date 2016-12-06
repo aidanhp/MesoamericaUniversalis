@@ -1,0 +1,20 @@
+namespace = IUA_MAJORS
+
+#Consolidation of the Realm
+country_event = {
+	id = IUA_MAJORS.01
+	
+	title = "IUA_MAJORS1.t"
+	desc = "IUA_MAJORS1.d"
+	
+	picture = REFORM_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "IUA_MAJORS1.a"
+		add_stability = 2
+		custom_tooltip = EST_un_birth
+		set_country_flag = has_upper_nobles
+	}
+}

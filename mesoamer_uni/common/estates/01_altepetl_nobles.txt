@@ -1,0 +1,323 @@
+estate_anobles = {
+	icon = 2
+	
+	color = { 200 0 50 }
+	
+	keep_on_conquest = no
+	
+	min_territory = 15
+	min_provinces_to_want_territory = 3
+	
+	#wanted_territory_modifier = {
+	#	desc = EXAMPLE
+	#	trigger = {
+	#		government = example
+	#	}	
+	#	value = 5		
+	#}
+	
+	trigger = {
+		has_country_flag = has_altepetl_nobles
+	}
+	
+	province_trigger = {
+		always = yes
+	}	
+	
+	min_autonomy = 50
+	
+	#autonomy_does_not_affect = local_manpower_modifier
+	
+	country_modifier_happy = {
+		global_tax_modifier = 0.10
+	}
+	
+	country_modifier_neutral = {
+		global_tax_modifier = 0.05
+		land_forcelimit_modifier = -0.10
+	}	
+	country_modifier_angry = {
+		land_forcelimit_modifier = -0.50
+	}
+	
+	province_modifier_happy = {
+		local_defensiveness = 0.15
+		local_autonomy = -0.05
+	}
+	province_modifier_neutral = {
+		local_defensiveness = 0.10
+	}	
+	province_modifier_angry = {
+		local_autonomy = 0.20
+	}		
+	
+	base_influence = 40
+	influence_modifier = {
+		desc = EST_AN_P1
+		trigger = {
+			has_country_flag = an_exclusive_military_leadership
+		}	
+		influence = 10
+	}
+	
+	influence_modifier = {
+		desc = EST_AN_P2
+		trigger = {
+			has_country_flag = an_exclusive_military_orders
+		}	
+		influence = 10
+	}
+	
+	influence_modifier = {
+		desc = EST_AN_P3
+		trigger = {
+			has_country_flag = an_exclusive_legal_protections
+		}	
+		influence = 10
+	}
+	
+	influence_modifier = {
+		desc = EST_AN_P4
+		trigger = {
+			has_country_flag = an_exclusive_bureaucracy_positions
+		}	
+		influence = 10
+	}
+	
+	influence_modifier = {
+		desc = EST_AN_P5
+		trigger = {
+			has_country_flag = an_exclusive_social_rights
+		}	
+		influence = 10
+	}
+	
+	influence_modifier = {
+		desc = EST_AN_P6
+		trigger = {
+			has_country_flag = an_share_tribute
+		}	
+		influence = 10
+	}
+	
+	#loyalty_modifier = {
+	#	desc = EST_VAL_FULL_ARISTOCRATIC
+	#	trigger = {
+	#		full_idea_group = aristocracy_ideas
+	#	}
+	#	loyalty = 10
+	#}
+	
+	#custom_name = {
+	#	desc = estate_beys
+	#	trigger = {
+	#		technology_group = ottoman
+	#	}
+	#}
+	
+	ai_grant_province = {
+		factor = 1	
+		modifier = {
+			factor = 0.5
+			development = 2000
+		}
+		modifier = {
+			factor = 2
+			NOT = { development = 2000 }
+		}				
+		modifier = {
+			factor = 0.75
+			has_owner_culture = yes
+		}
+		modifier = {
+			factor = 0.75
+			province_trade_power = 5
+		}			
+		modifier = {
+			factor = 0.75
+			province_trade_power = 10
+		}			
+	}	
+	
+	interaction = {
+		name = "GRANT_PRIV"
+		icon = 1
+		
+		years_between_use = 0
+		
+		potential = {
+			always = yes
+		}
+		
+		trigger = {
+			NOT = { has_disaster = an_uprising }
+		}
+		
+		effect = {
+			country_event = { id = grantpriv.01 }
+		}
+		
+		ai_will_do = {
+			factor = 0			
+		}
+	}
+	
+	interaction = {
+		name = "GRANT_FAV"
+		icon = 7
+		
+		years_between_use = 0
+		
+		potential = {
+			always = yes
+		}
+		
+		trigger = {
+			NOT = { has_disaster = an_uprising }
+		}
+		
+		effect = {
+			hidden_effect = { 
+				if = {
+					limit = {
+						MGI = {
+							NOT = { has_country_modifier = mgi_favor_cooldown }
+						}
+					}
+					
+					if = {
+						limit = {
+							MGI = {
+								is_variable_equal = { which = favor_request_type value = 3}
+							}
+						}
+						MGI = {
+							change_variable = { which = favor_request_type value = -3 }
+							set_country_flag = picked_frt
+						}
+					}
+					if = {
+						limit = {
+							MGI = { 
+								is_variable_equal = { which = favor_request_type value = 2}
+								NOT = { has_country_flag = picked_frt }
+							}
+						}
+						MGI = {
+							change_variable = { which = favor_request_type value = 1 }
+							set_country_flag = picked_frt
+						}
+					}
+					if = {
+						limit = {
+							MGI = {
+								is_variable_equal = { which = favor_request_type value = 1}
+								NOT = { has_country_flag = picked_frt }
+							}
+						}
+						MGI = { 
+							change_variable = { which = favor_request_type value = 1 }
+							set_country_flag = picked_frt
+						}
+					}
+					if = {
+						limit = {
+							MGI = {
+								is_variable_equal = { which = favor_request_type value = 0}
+								NOT = { has_country_flag = picked_frt }
+							}
+						}
+						MGI = {
+							change_variable = { which = favor_request_type value = 1 }
+							set_country_flag = picked_frt
+						}
+					}
+					MGI = { 
+						clr_country_flag = picked_frt
+					}
+					clr_country_flag = EST_AN_F1_used
+					clr_country_flag = EST_AN_F2_used
+					clr_country_flag = EST_AN_F3_used
+					clr_country_flag = EST_UN_F1_used
+					clr_country_flag = EST_UN_F2_used
+					clr_country_flag = EST_UN_F3_used
+					clr_country_flag = EST_LN_F1_used
+					clr_country_flag = EST_LN_F2_used
+					clr_country_flag = EST_LN_F3_used
+					clr_country_flag = EST_MS_F1_used
+					clr_country_flag = EST_MS_F2_used
+					clr_country_flag = EST_MS_F3_used
+					clr_country_flag = EST_PH_F1_used
+					clr_country_flag = EST_PH_F2_used
+					clr_country_flag = EST_PH_F3_used
+					MGI = {
+						add_country_modifier = { 
+							name = mgi_favor_cooldown
+							duration = 2
+						}
+					}
+				}
+			}
+			country_event = { id = grantfav.01 }
+		}
+		
+		ai_will_do = {
+			factor = 0			
+		}
+	}
+	
+	interaction = {
+		name = "REQUEST_SUPPORT"
+		icon = 6
+		
+		years_between_use = 0
+		
+		potential = {
+			always = yes
+		}
+		
+		trigger = {		
+			estate_loyalty = {
+				estate = estate_anobles
+				loyalty = 30
+			}
+			NOT = { has_disaster = an_uprising }
+		}
+		
+		effect = {
+			country_event = { id = requestsupport.01}
+		}
+		
+		ai_will_do = {
+			factor = 0		
+		}
+	}
+	
+	interaction = {
+		name = "WEAKEN_ESTATE"
+		icon = 4
+		
+		years_between_use = 0
+		
+		potential = {
+			always = yes
+		}
+		
+		trigger = {		
+			NOT = { has_disaster = an_uprising }
+			NOT = { has_country_modifier = weakened_an }
+			estate_influence = {
+				estate = estate_anobles
+				influence = 60
+			}
+		}
+		
+		effect = {
+			country_event = { id = weakenan.01 }
+		}
+		
+		ai_will_do = {
+			factor = 0		
+		}
+	}
+}

@@ -1,0 +1,33 @@
+﻿
+fuckall69 = {
+
+}
+
+#Tribute System Modifiers
+
+tribreqs_high = {
+	global_unrest = 12
+	legitimacy = -3
+}
+
+tribreqs_normal = {
+	global_unrest = 6
+	legitimacy = -2
+}
+
+tribreqs_low = {
+	global_unrest = 3
+	legitimacy = -1
+}
+
+tribreqs_changed_CD = {
+	
+}
+
+will_pay = {
+
+}
+
+wont_pay = {
+	local_unrest = 20
+}

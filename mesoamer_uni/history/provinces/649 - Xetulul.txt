@@ -7,9 +7,9 @@ religion = newmayan
 capital = "Xetulul"
 trade_goods = grain
 hre = no
-base_tax = 90
-base_production = 180
-base_manpower = 630
+base_tax = 2
+base_production = 4
+base_manpower = 15
 is_city = yes
 
 discovered_by = northern_mayan

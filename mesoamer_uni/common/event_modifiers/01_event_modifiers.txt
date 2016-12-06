@@ -1,5 +1,40 @@
 ﻿
 #For Tribute Requirements
+stronk = {
+	siege_ability = 4
+	land_morale = 10
+	discipline = 10
+	ae_impact = -0.99
+}
+
+recentpopchange = {
+	
+}
+
+recentcollection = {
+	prestige = 0.5
+}
+pga = {
+	technology_cost = -0.05
+	idea_cost = -0.25
+	manpower_recovery_speed = 0.20
+}
+
+mesoamerican_logistics = {
+	land_attrition = 0.10
+	land_forcelimit_modifier = -0.25
+	global_autonomy = 0.40
+	stability_cost_modifier = 1.0
+}
+
+suppliedbytenoch = {
+	supply_limit_modifier = 0.75
+	#local_manpower_modifier = -1.0
+}
+
+mediumstartingdevelopment = {
+
+}
 
 highwealth = {
 	prestige = 0.10

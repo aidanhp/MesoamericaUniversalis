@@ -5,6 +5,7 @@ monarch_power = MIL
 # ahead_of_time = {
 # }
 
+
 # Pre-era techs
 technology = {
 	# Tech 0
@@ -15,59 +16,65 @@ technology = {
 	infantry_fire		= 	0.25
 	infantry_shock 		= 	0.33		
 	land_morale 		= 	2.0
-	combat_width = 5
+	combat_width = 8
 	fort_15th = yes
 
-	enable = cm_earlyinfantry
-	enable = nmaya_spearmen
-	enable = smaya_spearmen
-	enable = sn_tribalwarriors
-	enable = t_tariacuriinfantry
-	enable = ta_infantry
-	enable = wm_earlyinfantry
+	enable = cm_central_mexican_spearmen
+	enable = nm_northern_maya_spearmen
+	enable = sm_southern_maya_infantry
+	enable = sn_tribal_warriors
+	enable = ta_triple_alliance_infantry
+	enable = tar_tariacuri_infantry
+	enable = wm_west_mexican_infantry
 
 	
 }
 
 technology = {
 	# Tech 1
-	year = 1441
+	year = 1429 
+	supply_limit = 0.50
+	military_tactics = 0.10
+}
+
+technology = {
+	# Tech 1
+	year = 1450
 	military_tactics = 0.25
-	
-	combat_width = 5
+	combat_width = 4
 }
 
 technology = {
 	# Tech 2
-	year = 1454
+	year = 1472
 
-	supply_limit = 0.25
-	infantry_shock = 0.10
-	infantry_fire = 0.10
+	supply_limit = 0.50
+	land_morale = 0.50
+	may_force_march = yes
 }
 
 # The 30 big techs from here on
 
 technology = {
 	# Tech 3
-	year = 1467
+	year = 1494
 	
-	military_tactics = 0.25
-	
-	enable = cm_middleinfantry
-	enable = nmaya_atlatlspearmen
-	enable = smaya_atlatlspearmen
-	enable = t_tariacuriinfantryaux
-	enable = ta_combinedinfantry
-	enable = wm_middleinfantry
+	fort_16th = yes
 }
 
 technology = {
 	# Tech 4
-	year = 1480
+	year = 1516
 	
-	combat_width = 3
-	supply_limit = 0.25
+	combat_width = 4
+	infantry_fire		= 	0.25
+	infantry_shock 		= 	0.15	
+	enable = cm_central_mexican_combined_arms
+	enable = nm_late_northern_maya_infantry
+	enable = sm_late_southern_maya_infantry
+	enable = ta_late_triple_alliance_infantry
+	enable = tar_purepecha_legions
+	enable = wm_late_west_mexican_infantry
 }
 
 technology = {

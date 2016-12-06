@@ -1,0 +1,115 @@
+#Flavor Decisions For Tzintzuntzan
+country_decisions = {
+	IUA_consolidate_the_realm = {
+		major = yes
+		potential ={
+			tag = IUA
+			government = feudal_chiefdom
+			84 = {
+				owned_by = IUA
+			}
+		}
+		allow = {
+			84 = {
+				has_building = bureau2
+			}
+			OR = {
+				has_idea = territorial_ideology
+				has_idea = hegemonic_ideology
+			}
+			owns_core_province = 84
+			owns_core_province = 363
+			owns_core_province = 373
+			owns_core_province = 365
+			owns_core_province = 364
+			owns_core_province = 370
+			owns_core_province = 371
+			FFO = {
+				vassal_of = IUA
+			}
+			PCH = {
+				vassal_of = IUA
+			}
+			PAT = {
+				vassal_of = IUA
+			}
+			IHU = {
+				vassal_of = IUA
+			}
+			reverse_has_opinion = {
+				who = FFO
+				value = 150
+			}
+			reverse_has_opinion = {
+				who = PCH
+				value = 150
+			}
+			reverse_has_opinion = {
+				who = PAT
+				value = 150
+			}
+			reverse_has_opinion = {
+				who = IHU
+				value = 150
+			}
+		}
+		effect = {
+			add_prestige = 20
+			inherit = FFO
+			inherit = PCH
+			inherit = PAT
+			inherit = IHU
+			
+			if = {
+				limit = {
+					has_idea = territorial_ideology
+				}
+				change_government = centralized_altepetl
+			}
+			if = {
+				limit = {
+					has_idea = hegemonic_ideology
+				}
+				change_government = altepetl
+			}
+			
+			country_event = { id = IUA_MAJORS.01 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	IUA_delcare_the_empire = {
+		major = yes
+		potential ={
+			tag = IUA
+		}
+		allow = {
+			NOT = { government = feudal_chiefdom }
+			num_of_cities = 40
+			prestige = 50
+			legitimacy = 75
+			stability = 0
+			owns_core_province = 84
+			owns_core_province = 85
+			owns_core_province = 86
+			owns_core_province = 362
+			owns_core_province = 654
+			owns_core_province = 369
+			owns_core_province = 389
+			owns_core_province = 96
+			owns_core_province = 658
+			owns_core_province = 91
+			
+		}
+		effect = {
+			add_prestige = 25
+			change_tag = IRT
+			set_government_rank = 3
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

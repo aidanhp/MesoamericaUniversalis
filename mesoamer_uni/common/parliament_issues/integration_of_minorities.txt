@@ -3,6 +3,7 @@ integration_of_minorities = {
 	category = 3
 
 	allow = {
+		always = no #No longer works well with new culture acceptance system.
 		any_owned_province = {
 			has_seat_in_parliament = no
 			has_owner_accepted_culture = no
@@ -77,7 +78,7 @@ integration_of_minorities = {
 	}
 	
 	modifier = {
-		accepted_culture_threshold = -0.1
+		num_accepted_cultures = 1
 	}
 	
 	chance = {

@@ -1,0 +1,577 @@
+namespace = esuccession 
+
+#Ruler Dies - Generic
+country_event = {
+	id = esuccession.01
+	title = esuccession1.t
+	desc = esuccession1.d
+	picture = KING_SICK_IN_BED_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			every_subject_country = {
+				add_liberty_desire = 15
+			}
+		}
+	}
+
+	option = {
+		name = "esuccession1.a"
+		add_years_of_income = -2.0
+		add_legitimacy = 10
+		add_stability = 1
+		add_country_modifier = {
+			name = deliberations_of_the_council
+			duration = -1
+		}
+		country_event = { id = esuccession.02 days = 7 }
+	}
+	
+	option = {
+		name = "esuccession1.b"
+		add_years_of_income = -0.40
+		add_country_modifier = {
+			name = deliberations_of_the_council
+			duration = -1
+		}
+		country_event = { id = esuccession.02 days = 7 }
+	}
+	
+	option = {
+		name = "esuccession1.c"
+		add_legitimacy = -10
+		add_prestige = -10
+		add_country_modifier = {
+			name = deliberations_of_the_council
+			duration = -1
+		}
+		country_event = { id = esuccession.02 days = 7 }
+	}
+	
+}
+
+#Influence the Council
+country_event = {
+	id = esuccession.02
+	
+	title = "esuccession2.t"
+	desc = "esuccession2.d"
+	picture = DIPLOMACY_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "esuccession2.a"
+		hidden_effect = {
+			add_country_modifier = {
+				name = ES_increased_chance
+				duration = -1
+			}
+		}
+	}
+	
+	option = {
+		name = "esuccession2.b"
+		hidden_effect = {
+			add_country_modifier = {
+				name = ES_no_chance
+				duration = -1
+			}
+		}
+	}
+	
+	option = {
+		name = "esuccession2.c"
+		hidden_effect = {
+			add_country_modifier = {
+				name = ES_indifferent
+				duration = -1
+			}
+		}
+	}
+}
+
+#Council chooses a new ruler
+country_event = {
+	id = esuccession.03
+	
+	title = "esuccession3.t"
+	desc = "esuccession3.d"
+	picture = COURT_eventPicture
+	
+	trigger = {
+		AND = {
+			has_country_modifier = deliberations_of_the_council
+			OR = {
+				has_country_modifier = ES_increased_chance
+				has_country_modifier = ES_no_chance
+				has_country_modifier = ES_indifferent
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 3
+	}
+	
+	immediate = {
+		hidden_effect = { 
+		subtract_variable = { which = heir_apparent_weight value = heir_apparent_weight }
+		subtract_variable = { which = adm_points_weight value = adm_points_weight }
+		subtract_variable = { which = dip_points_weight value = dip_points_weight }
+		subtract_variable = { which = mil_points_weight value = mil_points_weight }
+		ES_weight_ruler = yes
+		if = {
+			limit = {
+				has_country_modifier = ES_no_chance 
+			}
+			change_variable = { which = heir_apparent_weight value = -5 }
+		}
+		if = {
+			limit = {
+				has_country_modifier = ES_increased_chance 
+			}
+			change_variable = { which = heir_apparent_weight value = 4 }
+		}
+		if = {
+			limit = {
+				AND = {
+					has_country_modifier = ES_increased_chance 
+					adm = 4
+				}
+				change_variable = { which = heir_apparent_weight value = 1 }
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					has_country_modifier = ES_increased_chance 
+					dip = 4
+				}
+				change_variable = { which = heir_apparent_weight value = 1 }
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					has_country_modifier = ES_increased_chance 
+					mil = 4
+				}
+				change_variable = { which = heir_apparent_weight value = 1 }
+			}
+		}
+		
+		if = {
+			limit = {
+				check_variable = { heir_apparent_weight value = 6 }
+			}
+			add_country_modifier = {
+				name = ruler_picked
+				duration = -1
+			}
+			#Heir Apparent stays ruler
+		}
+		
+		if = {
+			limit = {
+				AND = {
+					check_variable = { which = mil_points_weight value = 3 }
+					check_variable = { which = heir_apparent_weight value = 5 }
+					NOT = { has_country_flag = ruler_picked }
+				}	
+			}
+			add_country_modifier = {
+				name = ruler_picked
+				duration = -1
+			}
+			random_list = {
+				60 = {
+					#Heir Apparent
+				}
+				40 = {
+					define_ruler = {
+						dynasty = ROOT
+						age = 38
+						claim = 90
+						female = no
+						adm = 2
+						dip = 2
+						mil = 4
+					}
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				AND = {
+					check_variable = { which = mil_points_weight value = 3 }
+					NOT = { has_country_flag = ruler_picked }
+				}	
+			}
+			add_country_modifier = {
+				name = ruler_picked
+				duration = -1
+			}
+			random_list = {
+				25 = {
+					define_ruler = {
+						dynasty = ROOT
+						age = 24
+						claim = 90
+						female = no
+						adm = 0
+						dip = 0
+						mil = 5
+					}
+				}
+				25 = {
+					define_ruler = {
+						dynasty = ROOT
+						age = 40
+						claim = 90
+						female = no
+						adm = 1
+						dip = 2
+						mil = 4
+					}
+				}
+				30 = {
+					define_ruler = {
+						dynasty = ROOT
+						age = 31
+						claim = 90
+						female = no
+						adm = 1
+						dip = 2
+						mil = 4
+					}
+				}
+				10 = {
+					define_ruler = {
+						dynasty = ROOT
+						age = 18
+						claim = 90
+						female = no
+						adm = 3
+						dip = 3
+						mil = 5
+					}
+				}
+				10 = {
+					define_ruler = {
+						dynasty = ROOT
+						age = 22
+						claim = 90
+						female = no
+						adm = 4
+						dip = 4
+						mil = 6
+					}
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				AND = {
+					check_variable = { which = adm_points_weight value = 3 }
+					check_variable = { which = heir_apparent_weight value = 5 }
+					NOT = { has_country_flag = ruler_picked }
+				}	
+			}
+			add_country_modifier = {
+				name = ruler_picked
+				duration = -1
+			}
+			random_list = {
+				60 = {
+					#Heir Apparent
+				}
+				40 = {
+					define_ruler = {
+						dynasty = ROOT
+						age = 38
+						claim = 90
+						female = no
+						adm = 4
+						dip = 2
+						mil = 2
+					}
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				AND = {
+					check_variable = { which = adm_points_weight value = 3 }
+					NOT = { has_country_flag = ruler_picked }
+				}	
+			}
+			add_country_modifier = {
+				name = ruler_picked
+				duration = -1
+			}
+			random_list = {
+				25 = {
+					define_ruler = {
+						dynasty = ROOT
+						age = 24
+						claim = 90
+						female = no
+						adm = 4
+						dip = 2
+						mil = 1
+					}
+				}
+				25 = {
+					define_ruler = {
+						dynasty = ROOT
+						age = 40
+						claim = 90
+						female = no
+						adm = 4
+						dip = 2
+						mil = 2
+					}
+				}
+				30 = {
+					define_ruler = {
+						dynasty = ROOT
+						age = 31
+						claim = 90
+						female = no
+						adm = 4
+						dip = 1
+						mil = 3
+					}	
+				}
+				10 = {
+					define_ruler = {
+						dynasty = ROOT
+						age = 18
+						claim = 90
+						female = no
+						adm = 5
+						dip = 3
+						mil = 3
+					}
+				}
+				10 = {
+					define_ruler = {
+						dynasty = ROOT
+						age = 22
+						claim = 90
+						female = no
+						adm = 6
+						dip = 4
+						mil = 4
+					}
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				AND = {
+					check_variable = { which = dip_points_weight value = 3 }
+					check_variable = { which = heir_apparent_weight value = 5 }
+					NOT = { has_country_flag = ruler_picked }
+				}	
+			}
+			add_country_modifier = {
+				name = ruler_picked
+				duration = -1
+			}
+			random_list = {
+				60 = {
+					#Heir Apparent
+				}
+				40 = {
+					define_ruler = {
+						dynasty = ROOT
+						age = 38
+						claim = 90
+						female = no
+						adm = 2
+						dip = 5
+						mil = 1
+					}
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				AND = {
+					check_variable = { which = dip_points_weight value = 3 }
+					NOT = { has_country_flag = ruler_picked }
+				}	
+			}
+			add_country_modifier = {
+				name = ruler_picked
+				duration = -1
+			}
+			random_list = {
+				25 = {
+					define_ruler = {
+						dynasty = ROOT
+						age = 24
+						claim = 90
+						female = no
+						adm = 2
+						dip = 5
+						mil = 1
+					}
+				}
+				25 = {
+					define_ruler = {
+						dynasty = ROOT
+						age = 40
+						claim = 90
+						female = no
+						adm = 2
+						dip = 4
+						mil = 2
+					}
+				}	
+				30 = {
+					define_ruler = {
+						dynasty = ROOT
+						age = 31
+						claim = 90
+						female = no
+						adm = 2
+						dip = 4
+						mil = 1
+					}
+				}
+				10 = {
+					define_ruler = {
+						dynasty = ROOT
+						age = 18
+						claim = 90
+						female = no
+						adm = 3
+						dip = 5
+						mil = 3
+					}
+				}
+				10 = {
+					define_ruler = {
+						dynasty = ROOT
+						age = 22
+						claim = 90
+						female = no
+						adm = 4
+						dip = 6
+						mil = 4
+					}
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				NOT = { has_country_modifier = ruler_picked }
+			}
+			add_country_modifier = {
+				name = ruler_picked
+				duration = -1
+			}
+			random_list = {
+				25 = {
+					define_ruler = {
+						dynasty = ROOT
+						age = 37
+						claim = 90
+						female = no
+						adm = 2
+						dip = 2
+						mil = 2
+					}
+				}
+				25 = {
+					define_ruler = {
+						dynasty = ROOT
+						age = 37
+						claim = 90
+						female = no
+						adm = 2
+						dip = 2
+						mil = 4
+					}
+				}
+				10 = {
+					define_ruler = {
+						dynasty = ROOT
+						age = 37
+						claim = 90
+						female = no
+						adm = 2
+						dip = 4
+						mil = 2
+					}
+				}
+				10 = {
+					define_ruler = {
+						dynasty = ROOT
+						age = 37
+						claim = 90
+						female = no
+						adm = 4
+						dip = 2
+						mil = 2
+					}
+				}
+				10 = {
+					define_ruler = {
+						dynasty = ROOT
+						age = 37
+						claim = 90
+						female = no
+						adm = 3
+						dip = 3
+						mil = 3
+					}
+				}
+				10 = {
+					define_ruler = {
+						dynasty = ROOT
+						age = 37
+						claim = 90
+						female = no
+						adm = 4
+						dip = 4
+						mil = 4
+					}
+				}
+				10 = {
+					define_ruler = {
+						dynasty = ROOT
+						age = 37
+						claim = 90
+						female = no
+						adm = 5
+						dip = 5
+						mil = 5
+					}
+				}
+			}
+		}
+		
+		remove_country_modifier = ruler_picked 
+		remove_country_modifier = ES_increased_chance 
+		remove_country_modifier = ES_no_chance 
+		remove_country_modifier = ES_indifferent 
+		}
+	}
+	
+	option = {
+		name = "esuccession3.a"
+		remove_country_modifier = deliberations_of_the_council 
+	}
+}

@@ -74,17 +74,17 @@
 # counterespionage
 
 requestpeace = {
-	condition = {
-		tooltip = ONLY_WARLEADER
-		potential = {
-			always = yes
-		}
-		allow = {
-			FROM = { 
-				has_country_modifier = warleader
-			}
-		}
-	}
+	#condition = {
+	#	tooltip = ONLY_WARLEADER
+	#	potential = {
+	#		always = yes
+	#	}
+	#	allow = {
+	#		FROM = { 
+	#			has_country_modifier = warleader
+	#		}
+	#	}
+	#}
 }
 
 declarewar = {
@@ -293,6 +293,7 @@ protectorateaction = {
 	condition = {
 		tooltip = HORDENOPROTECTORATE
 		potential = {
+			always = no
 		}
 		allow = {
 			always = no

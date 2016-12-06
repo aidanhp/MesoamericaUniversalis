@@ -1,0 +1,295 @@
+﻿l_english: 
+ #All 3 
+ tainfluence1.t: "Triple Alliance Influence"
+ tainfluence1.d: "The relative power of the cities in the Triple Alliance is as follows: \nTenochtitlan: [TEN.triple_alliance_influence.GetValue] \nTetzcoco: [TET.triple_alliance_influence.GetValue] \nTlacopan: [TCP.triple_alliance_influence.GetValue] \n\nYour influence increases every year as a result of the following factors: \n•Number of Provinces \n•Positive Prestige \n•Over 70 Legitimacy \n•Positive Diplomatic Reputation \n\nYour influence decreases every year as a result of the following factors: \n•Negative Prestige \n•Legitimacy below 70 \n•Negative diplomatic reputation \n•Not being allied to both of the other members"
+ tainfluence1.a: "Very well."
+ 
+ #SPECIAL REBELS
+
+ 
+ #SPECIAL LOCALIZATION
+ TEN_REDISTRIBUTIVE_POLICY: "Redistributive Policy: +15%"
+ TEN_DEPENDENCY_POLICY: "Dependency Policy: -10%"
+ 
+ #-------------------------#
+ #FOR TENOCHTITLAN
+ 
+ #--CUSTOM TOOLTIPS
+ FLA_TEN_001: "The Upper Nobles will want 15% more development."
+ FLA_TEN_002: "The Upper Nobles will want 10% less development."
+ FLA_TEN_003: "The Feigned War will happen in two month's time."
+ FLA_TEN_004: "The Famine of One Rabbit begins."
+ FLA_TEN_005: "The Famine continues."
+ FLA_TEN_006: "Some of your people may migrate to the Gulf Coast."
+ FLA_TEN_007: "Tlacaelel will rewrite history."
+ FLA_TEN_008: "Tlacaelel will reluctantly agree not to rewrite history."
+ FLA_TEN_009: "Much knowledge of the past will be destroyed."
+ FLA_TEN_010: "Some knowledge of the past will be destroyed."
+ FLA_TEN_011: "No knowledge of the past will be destroyed."
+ FLA_TEN_012: "Tlacaelel will get back to you in a week."
+ FLA_TEN_013: "The warriors depart."
+ FLA_TEN_014: "The explorers and priests depart."
+ 
+ #--EVENT MODIFIDERS
+ TEN_tlacaelel_tlacochcalcatl: "Tlacaelel the Tlacochcalcatl"
+ TEN_tlacaelel_cihuacoatl: "Tlacaelel the Cihuacoatl"
+ TEN_redistributive_policy: "Redistributive Policy"
+ TEN_dependency_policy: "Dependency Policy"
+ TEN_harassing_xochimilco: "Harassing Xochimilco"
+ TEN_dubious_loyalty_tetzcoco: "Dubious Loyalty of Tetzcoco"
+ TEN_famine_starting: "Famine Starting"
+ TEN_locust_plague_mitigated: "Locust Plague Mitigated \n	§R-7.5% Local Growth Rate§!"
+ TEN_locust_plague: "Locust Plague \n	§R-15% Local Growth Rate§!"
+ TEN_reduced_famine: "Mitigated Famine \n	§R-10% Local Growth Rate§!"
+ TEN_famine_emigration: "Famine Emigration \n	§R-10% Local Growth Rate§!"
+ TEN_great_legal_reform: "The Great Legal Reforms"
+ 
+ #--DECISIONS
+ 
+ #--DISASTERS
+ one_rabbit_famine: "Famine of 1 Rabbit"
+ one_rabbit_famine_desc: "A great famine has struck the Valley of Mexico and our society is suffering like never before."
+ 
+ #--MAJORS
+ #----Consolidation of the Valley
+ TEN_MAJORS1.t: "$MONARCH$'s Social Reforms"
+ TEN_MAJORS1.d: "In the wake of the short-lived Tepanec Empire, $MONARCH$ has been considering ways to prevent the Mexica of Tenochtitlan from ending up like the Tepanecs of Azcapotzalco. There is no doubt that deep internal division was a crucial factor in the fall of the Tepanecs, and so $MONARCH$ realizes that cultivating an upper class that will not resist the commands of the capital is crucial to our future success. There are a few ways to go about this. \nThe first option is to secure the loyalty of the newly formed upper nobility by redistributing parts of conquered land to them after each conquest, according to the value of their service to the crown. \nThe second option is to try and prevent the nobility from ever acquiring the power needed to pose a threat to the crown by refusing them any land grants and making them completely dependent on small factions of the tribute we receive from conquered cities."
+ TEN_MAJORS1.a: "Go with the first reform."
+ TEN_MAJORS1.b: "Go with the second reform."
+ 
+ TEN_MAJORS2.t: "Tetzcoco Requests Help"
+ TEN_MAJORS2.d: "Tetzcoco’s ruler, [TET.Monarch.GetName] has formally requested our help against dangerous rebels in his kingdom in the cities of Huexotla, Tepechpan, and Coatl-Ichan. Apparently several Tlatoanis are still sympathetic to exiled Tepanec ruler Maxtla and hope to weaken the Triple Alliance. Helping to put down the rebellion would be costly to us, but it would undoubtedly deepen the friendship between us and Tetzcoco and increase our influence in the Triple Alliance."
+ TEN_MAJORS2.a: "We will help our brothers in arms!"
+ TEN_MAJORS2.b: "We can't afford it."
+ 
+ TEN_MAJORS3.t: "The Temple and the Xochimilcas"
+ TEN_MAJORS3.d: "The large confederated altepetl of Xochimilco is one of our primary competitors in the Valley of Mexico, blocking our expansion into the rich and populous southern zone of the area. The Xochimilcas are purported to be quite incensed at our recent expansion, and, could, in the mind of the clever Tlacaelel, be tricked into declaring war on us. Tlacaelel has devised a plan to accomplish this: we will politely but condescendingly ask the Xochimilcas for wood and stone to help build a new temple, forcing them to either non-violently acknowledge our overlordship or infuriating them further at our supposed insolence. If they refuse, we will continue with frustrating, power grabbing slights against them until they are forced to attack us or lose all credibility in the eyes of their people."
+ TEN_MAJORS3.a: "A sound plan!"
+ TEN_MAJORS3.b: "We can't risk fighting them right now."
+ 
+ TEN_MAJORS4.t: "Tenochs Demand Materials"
+ TEN_MAJORS4.d: "The pretentious and power-hungry [TEN.Monarch.GetName] of Tenochtitlan has sent us a most disturbing request. Apparently they are building a new temple to their wretched god Huitzilopochtli and believe that we are tributaries of theirs and thus owe them wood and stone for the construction. Agreeing to supply them with this would be nothing short of a humiliating vassalization of our Altepetl, but not doing so is very likely to result in war eventually."
+ TEN_MAJORS4.a: "They'll be getting one kind of wood, that's for sure."
+ TEN_MAJORS4.b: "We can't win this fight."
+ 
+ TEN_MAJORS5.t: "Xochimilco Agrees to Pay"
+ TEN_MAJORS5.d: "Not even Tlacaelel could have foreseen things going this well! Apparently the Xochimilcas were so cowed by our strength that they didn’t have any will to resist our domination. They will be our vassals from now on."
+ TEN_MAJORS5.a: "A great diplomatic victory!"
+ 
+ TEN_MAJORS6.t: "Xochimilco Refuses to Pay"
+ TEN_MAJORS6.d: "Just as Tlacaelel foresaw, the proud rulers of Xochimilco have refused to supply us with wood and stone. Henceforth we will kill any of their citizens who dare step on our lands and harass their borders incessantly until they become aggravated enough to declare war on us."
+ TEN_MAJORS6.a: "Proceed with the plan."
+ 
+ TEN_MAJORS7.t: "Tenochs Harass Our People"
+ TEN_MAJORS7.d: "A small group of Tenoch soldiers has killed several merchants, farmers, and women near our border with them. Our people are angry at the attack and wish for us to either strike back against the Tenochs or negotiate a deal with them that will end this."
+ TEN_MAJORS7.a: "This means war!"
+ TEN_MAJORS7.b: "Try to calm the people down."
+ TEN_MAJORS7.c: "Enough! We will submit."
+ 
+ TEN_MAJORS8.t: "Xochimilco Declares War"
+ TEN_MAJORS8.d: "Our strategy of harassing the Xochimilca seems to have worked, for they have declared war on us in the name of honor. Tlacaelel is quite pleased."
+ TEN_MAJORS8.a: "They've made their last mistake."
+ 
+ TEN_MAJORS9.t: "Xochimilco Ignores Us"
+ TEN_MAJORS9.d: "Several recent harassment sorties seemed to have been ignored by the leadership of Xochimilco. Should we keep pressuring them, or let off?"
+ TEN_MAJORS9.a: "Keep it up!"
+ TEN_MAJORS9.b: "Stop harassing them."
+ 
+ TEN_MAJORS10.t: "Xochimilco Submits"
+ TEN_MAJORS10.d: "Growing tired of our constant harassment and apparently unwilling to go to war against our unstoppable army, the ruler of Xochimilco has decided to submit to our power."
+ TEN_MAJORS10.a: "Very wise of them."
+ 
+ TEN_MAJORS11.t: "The Feigned War?"
+ TEN_MAJORS11.d: "While our ruler $MONARCH$ and Tetzcoco’s ruler [TET.Monarch.GetName] are close allies, there has been a perceptible and growing atmosphere of tension between the two when they have met lately. Both rule powerful kingdoms on opposite sides of the Valley, both command large armies, and both recognize the parallel to the constantly feuding realms of Azcapotzalco and Acolhuacan just a few decades ago. They do not wish for there to be a conflict between the two of them, but the way things are shaping up, it seems that a war may be unavoidable. \nAlthough [TET.Monarch.GetName] has made it clear that he is willing to submit to Tenochtitlan symbolically to prevent a war, Tlacaelel has pointed out that future generations may be displeased with this arrangement and with Tenochtitlan’s dominance over Tetzcoco, angered that [TET.Monarch.GetName] never had a chance to prove his valor and strength on the battlefield and the Tenochs never proved that they deserved to be their lords. To solve this, he has proposed a special agreement. Tenochtitlan and Tetzcoco will fight a short ‘fake war’ by prior secret agreement, in which their armies will fight a bloodless mock battle outside of Tetzcoco, and then the ruler of Tetzcoco will retreat inside of his city and set fire to his own temple as a sign of surrender, ending the rivalry between the two cities for good and allowing them to work together until the end of days."
+ TEN_MAJORS11.a: "Ask Tetzcoco to fight the Feigned War with us."
+ TEN_MAJORS11.b: "Ask Tetzcoco to symbolically submit."
+ 
+ TEN_MAJORS12.t: "Tetzcoco Agrees"
+ TEN_MAJORS12.d: "Tetzcoco has wisely agreed to participate in our feigned war. The battle will commence in two month's time."
+ TEN_MAJORS12.a: "Very good."
+ 
+ TEN_MAJORS13.t: "Tetzcoco Wants to Win"
+ TEN_MAJORS13.d: "Tetzcoco has agreed to participate in the feigned war on one condition: they, not us, get to be the winners. This would clearly put them in charge of the Triple Alliance, at least for now."
+ TEN_MAJORS13.a: "Fine."
+ TEN_MAJORS13.b: "Are they insane? Call it off!"
+ TEN_MAJORS13.c: "Then they'll get a real war instead!"
+ 
+ TEN_MAJORS14.t: "Tetzcoco Refuses"
+ TEN_MAJORS14.d: "Tetzcoco has surprisingly refused to participate in our feigned war, claiming that it is unnecessary and the peace will be kept anyway."
+ TEN_MAJORS14.a: "I hope so."
+ TEN_MAJORS14.b: "No it won't!"
+ 
+ TEN_MAJORS15.t: "Tetzcoco Agrees"
+ TEN_MAJORS15.d: "This is a great day for the Mexica people, and the Acolhua people! Tetzcoco’s ruler, [TET.Monarch.GetName], has agreed to symbolically submit his realm to us! This will end our rivalry and make us the clear leaders of the Triple Alliance for the present."
+ TEN_MAJORS15.a: "Wonderful!"
+ 
+ TEN_MAJORS16.t: "Tetzcoco Refuses"
+ TEN_MAJORS16.d: "Surprisingly enough, Tetzcoco has backtracked and refused to symbolically submit to us. This complicates matters severely."
+ TEN_MAJORS16.a: "Fair enough, we will not force them to."
+ TEN_MAJORS16.b: "They will regret that."
+ 
+ TEN_MAJORS17.t: "Feigned War (Tenochtitlan Wins)"
+ TEN_MAJORS17.d: "This morning the armies of Tenochtitlan and Tetzcoco met outside of the city of Tetzcoco, resplendent in their battle gear, banners whipping in the wind, drums thundering loud enough to wake every man, woman, and child in the Valley of Mexico. The soldiers drew their spears and macuahuitls, all wrapped in cloth to prevent injury of the ‘enemy’, and fought an elaborate mock battle for nearly an hour before the Tetzcocahs fell back to the city and [TET.Monarch.GetName] set fire to his main temple, signifying surrender and the end of the rivalry between the two cities and the beginning of what would become one of the most prosperous relationships in world history."
+ TEN_MAJORS17.a: "Beautiful."
+ TEN_MAJORS17.b: "This is the way it must be."
+ 
+ TEN_MAJORS18.t: "Feigned War (Tetzcoco Wins)"
+ TEN_MAJORS18.d: "This morning the armies of Tenochtitlan and Tetzcoco met outside of the city of Tenochtitlan, resplendent in their battle gear, banners whipping in the wind, drums thundering loud enough to wake every man, woman, and child in the Valley of Mexico. The soldiers drew their spears and macuahuitls, all wrapped in cloth to prevent injury of the ‘enemy’, and fought an elaborate mock battle for nearly an hour before the Tenochs fell back to the city and [TEN.Monarch.GetName] set fire to his main temple, signifying surrender and the end of the rivalry between the two cities and the beginning of what would hopefully be a stronger bond between the cities."
+ TEN_MAJORS18.a: "Beautiful."
+ TEN_MAJORS18.b: "This is the way it must be."
+ 
+ #----Famine of One Rabbit
+ TEN_MAJORS19.t: "The Plague of Six Rabbit"
+ TEN_MAJORS19.d: "In the year 6 Rabbit a terrible plague of locusts struck the Valley of Mexico, devouring the majority of the harvest and subsequently killing many thousands of commoners who had little stored food."
+ TEN_MAJORS19.a: "Import as much food as possible and dole it out."
+ TEN_MAJORS19.b: "How unfortunate."
+ 
+ TEN_MAJORS20.t: "An Early Frost"
+ TEN_MAJORS20.d: "Early and severe autumn frosts have killed much of the immature corn in our fields. Luckily, our people have some food stored from last year, but it won’t last forever."
+ TEN_MAJORS20.a: "This isn't good."
+ 
+ TEN_MAJORS21.t: "Famine!"
+ TEN_MAJORS21.d: "Surely we have committed some grave sin, for the early frosts of the previous year have come again this year, and the people have not had the good harvest they needed to replenish their empty storehouses. A depressed mood has swept over our lands as the people wonder what they have done to deserve such hunger. "
+ TEN_MAJORS21.a: "What a tragedy!"
+ 
+ TEN_MAJORS22.t: "The Drought of 12 Flint"
+ TEN_MAJORS22.d: "The famine continues! For two years we have had early frosts, and now a withering drought has completely annihilated this year’s harvest."
+ TEN_MAJORS22.a: "Could things get any worse?"
+ 
+ TEN_MAJORS23.t: "The Drought of 13 House"
+ TEN_MAJORS23.d: "This catastrophe is perhaps the worst in our history! Another terrible drought has destroyed this year’s harvest, and the people have become animals, eating roots, bad maize, corn silk, flowers, maguey sap, leaves, and pulp, and even the seeds required to plant the next year’s harvest. Many have sold themselves and their children into slavery for corn. \nIf we do not find some way to provide the people with food, they will all die and our cities will be depopulated."
+ TEN_MAJORS23.a: "Open the royal granaries and import food."
+ TEN_MAJORS23.b: "Let them leave the Valley in search of food."
+ 
+ TEN_MAJORS24.t: "Emigration from [Root.GetName]"
+ TEN_MAJORS24.d: "A large group of people from [Root.GetName] have decided to migrate to the productive Gulf Coast to escape the famine."
+ TEN_MAJORS24.a: "Good luck to them."
+ 
+ TEN_MAJORS25.t: "Refugees from the Valley of Mexico"
+ TEN_MAJORS25.d: "A terrible famine has motivated a large group of farmers from the Valley of Mexico to come to our productive land."
+ TEN_MAJORS25.a: "They are welcome!"
+ 
+ TEN_MAJORS26.t: "The Famine Ends!"
+ TEN_MAJORS26.d: "At last! An exceedingly bountiful harvest has graced our fields and the Valley of Mexico is one again full of healthy people."
+ TEN_MAJORS26.a: "A feast is in order!"
+ 
+ #----A True Empire
+ TEN_MAJORS27.t: "$MONARCH$'s Legal Reform"
+ TEN_MAJORS27.d: "As our empire grows ever larger, we must face the challenge of integrating millions of new subjects with their own laws and customs. The traditional approach is to simply let these old customs govern, but the traditional way has rarely been practiced on such a large scale. \nTo address the potential problems that such internal diversity may create, $MONARCH$ has proposed a vast state reform that will impose strict sumptuary laws, formalize the imperial legal system at the expense of local traditions, and establish state-approved standardized education for young men and women. It will be expensive to implement but would go a long way towards securing the cohesiveness of our empire if it is successful."
+ TEN_MAJORS27.a: "Implement the laws."
+ TEN_MAJORS27.b: "This will only antagonize a working system."
+ 
+ #--MINORS
+ #----Tlacaelel
+ TEN_MINORS1.t: "Tlacaelel's Rise"
+ TEN_MINORS1.d: "Tlacaelel (roughly translated as ‘Anguish Incarnate’), nephew of Itzcoatl and brother of Moteuczomah Ilhuicamina, is a rising power in the Triple Alliance. It was he who convinced Itzcoatl and the rest of the Mexica people to fight the Tepanecs instead of voluntarily submitting when Maxtla threatened to destroy both Tenochtitlan and Tlatelolco. It was he who put his life on the line to deliver the ritual declaration of war to Maxtla, and it was he whose ingenious military strategy defeated the large Tepanec army on the field and sacked Azcapotzalco. At the end of the Tepanec War, Tlacaelel was promoted to the office of Tlacochcalcatl (Person of the Armory) for his excellent service, and is now in charge of our battlefield strategy. We are lucky to have such a great man among us, who is likely to be greater still in the future."
+ TEN_MINORS1.a: "Lucky indeed!"
+ 
+ TEN_MINORS2.t: "Cihuacoatl"
+ TEN_MINORS2.d: "Tlacaelel approached $MONARCHTITLE$ $MONARCH$ today with a proposition. Although already a powerful and esteemed man with his role as Tlacochcalcatl, Tlacaelel believes he could serve us better if he was given more control. Unfortunately there is not currently a major position to be filled between $MONARCHTITLE$ and Tlacochcalcatl, so Tlacaelel has taken the liberty of inventing one. \nHe calls it ‘Cihuacoatl’, (Chief Judge, or Prime Minister), and it is to be the highest political position in the land, second only to the $MONARCHTITLE$ himself. It will in practice turn our altepetl into a sort of dual monarchy, in which Tlacaelel has nearly as much control as $MONARCH$ and the man will be able to exercise his great energy and wisdom in our military strategy, economy, foreign policy, and domestic affairs."
+ TEN_MINORS2.a: "Appoint Tlacaelel as Cihuacoatl!"
+ TEN_MINORS2.b: "There is only one lord of the Tenochs, and he does not share in power!"
+ 
+ TEN_MINORS3.t: "Tlacaelel's Reforms"
+ TEN_MINORS3.d: "With his new office, Tlacaelel has set to reforming the state according to his vision of its future. His first task is to rewrite history, casting the Mexica as the chosen people of the sun, with a sacred duty to supply the god Huitzilopochtli with sacrifices to sustain him in his fight for humanity against the end of the Fifth Age. As such, all history books that contradict this view are to be gathered in Tenochtitlan and burned. \nWhile this would certainly give our warriors more motivation to win on the battlefield, the loss of knowledge would be immense if all the books that Tlacaelel wishes to burn were destroyed. Even so, Tlacaelel believes it to be worthwhile in the long run."
+ TEN_MINORS3.a: "Let him proceed."
+ TEN_MINORS3.b: "Let him proceed, but hide some important books."
+ TEN_MINORS3.c: "It isn't worth it."
+ 
+ TEN_MINORS4.t: "Tlacaelel's Death"
+ TEN_MINORS4.d: "Today, dismal news wracked Tenochtitlan. The great man Tlacaelel, perhaps the wisest and most cunning man in the arts of state and warfare who ever lived, has died, at the age of 90. Tlacaelel will be remembered as the man who convinced the Mexica to fight the Tepanecs and turn themselves from subjects to masters, the man whose strategies secured victory over our fiercest enemies, a man of both great mercy and great retribution, a man of piety and wisdom, father of many excellent children, whose sound advice was crucial to every part of our success. \nTlacaelel’s dying wish was to have his ashes interred adjacent to those of the Emperors whom he had advised. \n\nIt was said of Tlacaelel’s legacy by the Nahua historian Chimalpahin that 'All those who succeeded him took this special name of Cihuacoatl and gloried in being called Cihuacoatl, and it remained consecrated as the highest title and rank in the world after that of emperor.'"
+ TEN_MINORS4.a: "The end of an era."
+ 
+ TEN_MINORS5.t: "The Lost Home in the North"
+ TEN_MINORS5.d: "Now that we have made a name for ourselves in the civilized parts of the world, there has been some interest in attempting to find the ancient ancestral homeland of the Mexica, Aztlan, where the mother of our patron god Huitzilopochtli is said to reside. $MONARCH$, being Huitzilopochtli’s foremost representative on earth and a man of significant enough power to organize such an expedition has become particularly fascinated with the idea. He has thus begun to assemble a force of several hundred elite warriors to send on the expedition."
+ TEN_MINORS5.a: "Consult with Tlacaelel first."
+ TEN_MINORS5.b: "Send the warriors to find Aztlan."
+ 
+ TEN_MINORS6.t: "Tlacaelel's Advice"
+ TEN_MINORS6.d: "Tlacaelel supports the expedition as divinely inspired, but he disagrees with $MONARCH$’s methods. He believes that sending elite warriors is foolish, as they are needed in Tenochtitlan, and the success of the expedition will not depend on strength of arms, valiance, or other such traits. Instead, we should send explorers and priests, and a great gift for Huitzilopochtli’s mother, Coatlicue."
+ TEN_MINORS6.a: "Send explorers and priests to find Aztlan."
+ TEN_MINORS6.b: "Send warriors to find Aztlan."
+ 
+ TEN_MINORS7.t: "The Expedition to Aztlan Succeeds"
+ TEN_MINORS7.d: "After nearly three years, the expedition we organized to find Aztlan has returned with no members missing. They tell quite the tale… \n'We traveled north, beyond the ancient ruins of Tula, to a place rumored to be the birthplace of Huitzilopochtli. There, a strange deity made us like birds, and we quickly traveled to Aztlan, where we found Nahuatl kinsmen and an aged man who claimed that he was related to Huitzilopochtli himself. He asked us several questions, and then took us on a dangerous journey, during which he both revealed his many mysterious powers and scolded us for our soft lifestyle in Tenochtitlan. We finally arrived at our destination, where we met Coatlicue herself, who we offered your gift and told of the great prestige and success of the Mexica. She was pleased with our success, but gave us a warning:' \n'Just as you, the Mexica, have conquered others, one day you too shall be conquered.'"
+ TEN_MINORS7.a: "We are humbled."
+ 
+ TEN_MINORS8.t: "The Expedition to Aztlan Fails"
+ TEN_MINORS8.d: "After nearly three years, the tattered remnants of the military expedition we sent to find Aztlan returned today. All but one of the leaders is dead and only a few dozen of the hundreds of soldiers have survived. They tell of a journey of great tribulations in the chichimec infested deserts of the north, and how they had wandered in circles for many months. Eventually, they found a strange but well maintained road, and decided to follow it, believing that it could lead them to someone they could ask about Aztlan. On the road, they encountered a people who looked very similar to them but spoke a completely unrecognizable language. Eventually the road led them a small city constructed of adobe, which the residents called Paquime. Paquime and its ruler reminded them very much of the Altepetl back home, for the city possessed many fine craftsman, several aqueducts, a sizeable market, and even a ballcourt, distant as it was from the fertile parts of the world, and so they stayed there for a while at the courtesy of the lord and his family, who promised to ask every trader coming into Paquime about Aztlan. Eventually, however, a feud between the lord of Paquime and several neighboring peoples turned into an all out war, and the Mexica were obligated to help protect him on account of his hospitality. The enemies were too numerous though, and Paquime was sacked and the lord was killed, along with many of the Mexica. The rest fled south, where more died of thirst and chichimec attacks on the way home before they finally arrived back in Tenochtitlan."
+ TEN_MINORS8.a: "A shame, truly."
+ 
+ #--CUTE
+
+ 
+ #-------------------------#
+ #FOR TETZCOCO
+ 
+ #--CUSTOM TOOLTIPS
+ FLA_TET_001: "If the Tenochs agree to help, they will gain 15 Triple Alliance Influence."
+ 
+ #--EVENT MODIFIDERS
+ 
+ #--DECISIONS
+ 
+ #--MAJORS
+ TET_FLAVOR1.t: "Huexotla's Rebellion"
+ TET_FLAVOR1.d: "Huexotla was one of the largest Acolhua cities in the Valley of Mexico after Tetzcoco, and along with Tetzcoco it had been subjugated by the Tepanecs in 1426 after a long war between the Tepanecs and Acolhuas. Despite this, Huexotla and several other Acolhua cities, such as Coatl-Ichan and Tepechpan, became the last of the last Tepanec strongholds in the basin, with Tlatoanis who had been placed in power by Maxtla still sympathetic to the cause of the exiled Emperor. These cities have now rebelled, chafing under the rule of the Triple Alliance. They have marshalled a significant force, large enough to pose a serious threat to $MONARCH$, so asking our ally Tenochtitlan for help may be necessary, although it may make us look weak and dependent on them. "
+ TET_FLAVOR1.a: "Ask the Tenochs for help."
+ TET_FLAVOR1.b: "We don't need help!"
+ 
+ TET_FLAVOR2.t: "Tenochs Send Assistance"
+ TET_FLAVOR2.d: "May generous ruler [TEN.Monarch.GetName] be praised! Our ever-loyal allies the Tenochs have sent us men and money to quash the Tepanec rebels!"
+ TET_FLAVOR2.a: "I knew we could count on them!"
+ 
+ TET_FLAVOR3.t: "Tenochs Refuse Assistance"
+ TET_FLAVOR3.d: "It seems we are on our own. The Tenochs have been unable to provide us with additional resources for our fight. They must have a good reason."
+ TET_FLAVOR3.a: "We'll be fine without them."
+ 
+ TET_FLAVOR4.t: "The Feigned War?"
+ TET_FLAVOR4.d: "There can be no denying the growing tension between our realm and the realm of Tenochtitlan. Even though we are allies, we are still de-facto competitors for control of the Valley, and something must be done if we are to avoid conflict with each other in the future. To this end, the Tlacochcalcatl of Tenochtitlan, Tlacaelel, has proposed that we fight a ‘feigned war’ with Tenochtitlan. He says that we will both gather our armies and stage a bloodless mock battle outside of Tetzcoco, and then the Tetzcocah soldiers will pretend to lose and fall back to the city, where $MONARCH$ will temporarily set fire to his main temple as a sign of surrender. This will apparently end the rivalry between our two cities by proving that we both tested ourselves on the battlefield and one of us came out on top. The Tenochs have made it clear that this will not result in our vassalage to them and is simply a ploy to get our people and future generations to not fight with each other."
+ TET_FLAVOR4.a: "A wise plan! We will do it."
+ TET_FLAVOR4.b: "We'll do it if we're the ones who win!"
+ TET_FLAVOR4.c: "This is unnecessary."
+ 
+ TET_FLAVOR5.t: "Symbolic Submittance"
+ TET_FLAVOR5.d: "There can be no denying the growing tension between our realm and the realm of Tenochtitlan. Even though we are allies, we are still de-facto competitors for control of the Valley, and something must be done if we are to avoid conflict with each other in the future. To this end, the Huey-Tlatoani of Tenochtitlan, [TEN.Monarch.GetName] has proposed that our city symbolically offers vassalage to Tenochtitlan to end any future rivalries."
+ TET_FLAVOR5.a: "If this is what it takes, so be it."
+ TET_FLAVOR5.b: "Never!"
+ 
+ TET_FLAVOR6.t: "Tenochs Agree"
+ TET_FLAVOR6.d: "Tenochtitlan has swallowed their pride and agreed to let us win the feigned war, which will be held in two month's time."
+ TET_FLAVOR6.a: "This is a historic victory!"
+ 
+ TET_FLAVOR7.t: "Tenochs Refuse"
+ TET_FLAVOR7.d: "Tenochtitlan has refused to let us win the feigned war and has called the whole thing off. In retrospect, them agreeing was highly unlikely, and now our relationship is going to be heavily strained."
+ TET_FLAVOR7.a: "Blast it all!"
+ 
+ TET_FLAVOR8.t: "Tenochtitlan Acquiesces"
+ TET_FLAVOR8.d: "The Tenochs have reluctantly accepted that we will not participate in their fake war."
+ TET_FLAVOR8.a: "I'm glad."
+ 
+ TET_FLAVOR9.t: "Tenochtitlan Acquiesces"
+ TET_FLAVOR9.d: "The Tenochs have reluctantly accepted that we will not submit to them."
+ TET_FLAVOR9.a: "I'm glad."
+ 
+ #--MINORS
+ 
+ #--CUTE
+ 
+ 
+ #-------------------------#
+ #FOR TLACOPAN
+ 
+ #--CUSTOM TOOLTIPS
+ 
+ #--EVENT MODIFIDERS
+ 
+ #--DECISIONS
+ 
+ #--MAJORS
+ 
+ #--MINORS
+ 
+ #--CUTE
+ 
+ 

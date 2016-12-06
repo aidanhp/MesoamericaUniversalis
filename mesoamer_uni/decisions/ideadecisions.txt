@@ -1,30 +1,23 @@
 #These decisions require ideas as prerequesites
 country_decisions = {
-	#Raise army in tributaries
-	raise_trib_army = {
+	#Hold Grand Festival
+	hold_grand_festival = {
 		potential = {
-			has_idea = tributemanpower
+			has_idea = grand_spectacle 
 		}
 		
-		allow = { 
-			AND = {
-				is_at_war = yes
-				num_of_protectorates = 1
-			}
-			NOT = { has_country_modifier = raised_army }
+		allow = {
+			NOT = { has_country_modifier = grand_festival_CD }
+			years_of_income = 0.75
 		}
 		
 		effect = {
-			add_years_of_income = -2.0
-			every_subject_country = {
-				capital_scope = {
-					infantry = FROM
-				}
-			}
 			add_country_modifier = {
-				name = raised_army 
-				duration = 7300
+				name = grand_festival_CD
+				duration = 3650
 			}
+			add_years_of_income = -0.75
+			country_event = { id = sideaevents.01 }
 		}
 	}
 	

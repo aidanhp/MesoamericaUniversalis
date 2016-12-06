@@ -1,0 +1,424 @@
+namespace = weakenun
+
+#Start the War?
+country_event = {
+	id = weakenun.01
+	
+	title = "weakenun1.t"
+	desc = "weakenun1.d"
+	picture = CIVIL_WAR_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "weakenun1.a"
+		add_country_modifier = {
+			name = un_civil_war_brewing
+			duration = -1
+		}
+		hidden_effect = {
+			every_subject_country = {
+				country_event = { id = weakenun.03}
+			}
+		}
+	}
+	
+	option = {
+		name = "weakenun1.b"
+	}
+}
+
+#Disaster Begins
+country_event = {
+	id = weakenun.02
+	
+	title = "weakenun2.t"
+	desc = "weakenun2.d"
+	picture = CIVIL_WAR_eventPicture
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		hidden_effect = { 
+			territorial_or_hegemonic = yes
+			remove_country_modifier = un_civil_war_brewing
+		}
+	}
+	
+	option = {
+		name = "weakenun2.a"
+		add_estate_loyalty = {
+			estate = estate_unobles
+			loyalty = -100
+		}
+		
+		if = {
+			limit = { 
+				OR = { 
+					has_country_flag = territorial_state
+					has_country_flag = tributary_state
+				}
+			}
+			add_stability = -1
+			
+			random_owned_province = { 
+				limit = {
+					is_capital = no
+				}
+				spawn_rebels = {
+					type = upper_noble_rebels
+					win = yes
+					size = 3
+				}
+			}
+			
+			random_owned_province = { 
+				limit = {
+					is_capital = no
+				}
+				spawn_rebels = {
+					type = upper_noble_rebels
+					win = yes
+					size = 3
+				}
+			}
+			
+			every_owned_province = {
+				limit = {
+					has_estate = estate_unobles
+				}
+				spawn_rebels = {
+					type = estate_unobles
+					win = yes
+					size = 2
+				}
+			}		
+			
+			custom_tooltip = un_civil_war_start 
+			hidden_effect = {
+				subtract_variable = { which = un_favors which = un_favors }
+				clr_country_flag = un_exclusive_generalship
+				clr_country_flag = un_exclusive_officers
+				clr_country_flag = un_exclusive_legal_protections
+				clr_country_flag = un_exclusive_advisory_positions
+				clr_country_flag = un_exclusive_bureaucracy_positions
+				clr_country_flag = un_exclusive_social_rights
+				clr_country_flag = un_significant_autonomy
+				clr_country_flag = un_significant_tribute_sharing
+			}
+		}
+		
+		if = {
+			limit = { 
+				has_country_flag = impossible
+			}
+			add_stability = -1
+			random_subject_country = {
+				limit = {
+					ai = yes
+				}
+				
+				hidden_effect = { 
+					add_country_modifier = {  
+						name = un_rebel_capital
+						duration = -1
+					}
+				}
+				
+				overlord = { 
+					declare_war_with_cb = {
+						who = PREV
+						casus_belli = cb_un_civil_war 
+					}
+				}
+
+				capital_scope = {
+					add_unit_construction = {
+						type = infantry
+						amount = 12
+						speed = 0.0
+						cost = 0
+					}
+				}
+				custom_tooltip = un_civil_war_newcap
+					
+				hidden_effect = { 
+					every_country = {
+						limit = {
+							has_country_flag = un_will_rebel
+						}
+						
+						country_event = { id = weakenun.04 }
+
+						overlord = { 
+							declare_war_with_cb = {
+								who = PREV
+								casus_belli = cb_un_civil_war 
+							}
+						}
+						PREV = {
+							vassalize = PREV
+						}
+						
+						every_country = { 
+							limit = {
+								NOT = { has_country_modifier = un_rebel_capital }
+								has_country_flag = un_will_rebel
+							}
+							remove_country_modifier = warleader
+						}
+						
+						clr_country_flag = un_will_rebel
+						change_master = yes
+					}
+				}
+				
+				
+			}
+			custom_tooltip = un_civil_war_start 
+			hidden_effect = {
+				subtract_variable = { which = un_favors which = un_favors }
+				clr_country_flag = un_exclusive_generalship
+				clr_country_flag = un_exclusive_officers
+				clr_country_flag = un_exclusive_legal_protections
+				clr_country_flag = un_exclusive_advisory_positions
+				clr_country_flag = un_exclusive_bureaucracy_positions
+				clr_country_flag = un_exclusive_social_rights
+				clr_country_flag = un_significant_autonomy
+				clr_country_flag = un_significant_tribute_sharing
+			}
+		}
+	}
+}
+
+#Asks if a country wants to become a vassal of the upper nobles 
+country_event = {
+	id = weakenun.03
+	
+	title = "weakenun3.t"
+	desc = "weakenun3.d"
+	picture = CITY_VIEW_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { #Stay Loyal
+		name = "weakenun3.a"
+		ai_chance = {
+			factor = 60
+		}
+	}
+	
+	option = { #Join the Rebellion
+		name = "weakenun3.b"
+		set_country_flag = un_will_rebel
+		ai_chance = {
+			factor = 40
+			
+			modifier = {
+				factor = 1.5
+				liberty_desire = 10
+			}
+			
+			modifier = {
+				factor = 3
+				liberty_desire = 25
+			}
+			
+			modifier = {
+				factor = 10
+				liberty_desire = 50
+			}
+		}
+	}
+}
+
+#Rebellon Starts 
+country_event = {
+	id = weakenun.04
+	
+	title = "weakenun4.t"
+	desc = "weakenun4.d"
+	picture = BATTLE_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		overlord = {
+			country_event = { id = weakenun.05 }
+		}
+	}
+	
+	option = {
+		
+		name = "weakenun4.a"
+	}
+}
+
+#A City has abandoned us!
+country_event = {
+	id = weakenun.05
+	
+	title = "weakenun5.t"
+	desc = "weakenun5.d"
+	picture = CITY_VIEW_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "weakenun5.a"
+	}
+}
+
+#Winning and losing
+
+#Winning
+country_event = {
+	id = weakenun.06
+	
+	title = "weakenun6.t"
+	desc = "weakenun6.d"
+	picture = CONQUEST_eventPicture
+	
+	trigger = {
+		has_disaster = un_civil_war
+		OR = {
+			AND = {
+				NOT = { has_spawned_rebels = upper_noble_rebels }
+				NOT = { government = altepetl }
+				NOT = { government = tlaxcallan_confederate }
+			}
+			any_country = {
+				AND = {
+					has_country_modifier = un_rebel_capital
+					NOT = { num_of_vassals = 3 }
+					NOT = { 
+						war_score_against = {
+							who = ROOT
+							value = -75
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 5
+	}
+	
+	option = {
+		name = "weakenun6.a"
+		
+		end_disaster = un_civil_war
+		
+		add_estate_loyalty = {
+			estate = estate_unobles
+			loyalty = 70
+		}
+		
+		add_country_modifier = {
+			name = weakened_un
+			duration = 9125
+		}
+		
+		
+		custom_tooltip = EST_fav_i_100
+		hidden_effect = {
+			change_variable = { which = un_favors value = 100 }
+		}
+	}
+	
+	option = {
+		name = "weakenun6.b"
+
+		end_disaster = un_civil_war
+		
+		add_country_modifier = {
+			name = weakened_un
+			duration = 9125
+		}
+		
+		custom_tooltip = EST_un_eliminate
+		clr_country_flag = has_upper_nobles
+	}
+}
+
+#Losing
+country_event = {
+	id = weakenun.07
+	
+	title = "weakenun7.t"
+	desc = "weakenun7.d"
+	picture = CONQUEST_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "weakenun7.a"
+		
+		end_disaster = un_civil_war
+		
+		kill_ruler = yes
+		add_stability = -1
+		add_estate_loyalty = {
+			estate = estate_unobles
+			loyalty = 40
+		}
+		
+		hidden_effect = {
+			set_country_flag = un_exclusive_generalship
+			set_country_flag = un_exclusive_officers
+			set_country_flag = un_exclusive_legal_protections
+			set_country_flag = un_exclusive_advisory_positions
+			set_country_flag = un_exclusive_bureaucracy_positions
+			set_country_flag = un_exclusive_social_rights
+			set_country_flag = un_significant_autonomy
+			set_country_flag = un_significant_tribute_sharing
+		}
+	}
+}
+
+#Events During the Disaster
+
+#Rebels Raise New Army (Only in Territorial States)
+country_event = {
+	id = weakenun.08
+	
+	title = "weakenun8.t"
+	desc = "weakenun8.d"
+	
+	picture = LAND_MILITARY_eventPicture
+	
+	trigger = {
+		has_disaster = un_civil_war
+		NOT = {
+			OR = {  
+				government = altepetl
+				government = tlaxcallan_confederate
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 4
+	}
+	
+	option = {
+		name = "weakenun8.a"
+		
+		random_owned_province = { 
+			limit = {
+				is_capital = no
+			}
+			spawn_rebels = {
+				type = upper_noble_rebels
+				win = yes
+				size = 3
+			}
+		}
+	}
+}

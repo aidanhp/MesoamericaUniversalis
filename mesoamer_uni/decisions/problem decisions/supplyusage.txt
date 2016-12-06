@@ -1,0 +1,86 @@
+#These decisions make used of supplies accumulated in the storehouse
+country_decisions = {
+	#buy down faction influence with luxury goods
+	buydowninfluence = {
+		potential = {
+			always = no
+			NOT = { has_country_flag = bdiopen } 
+		}
+		
+		allow = {
+			
+		}
+	
+		effect = {
+			set_country_flag = bdiopen
+			country_event = { id = bdi.01 }
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	#Exchange Luxury Goods for Ducats
+	exchangeluxurygoods = {
+		potential = {
+			
+		}
+	
+		allow = {
+			check_variable = { which = luxurygoods value = 25} 
+		}
+
+		effect = {
+			add_treasury = 100
+			change_variable = { which = luxurygoods value = -25 }
+		}
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1000
+				check_variable = { which = luxurygoods value = 25 }
+			}
+		}
+	}
+	#Exchange Military Supplies for a buff
+	exchangemilitarysupplies = {
+		potential = {
+			NOT = { has_country_flag = milsupexopen }
+		}
+
+		allow = {
+			army_size = 1
+			NOT = { has_country_modifier = wellsupplied }
+		}
+
+		effect = {
+			country_event = { id = milsup.01 }
+			set_country_flag = milsupexopen
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	#Invest Building Supplies
+	investbuildingsupplies = {
+		potential = {
+			NOT = { has_country_flag = buildsupopen }
+		}
+		
+		allow = {
+			always = no
+		}
+		
+		effect = {
+			country_event = { id = ibs.01 }
+			set_country_flag = buildsupopen
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+	}
+}

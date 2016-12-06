@@ -8,51 +8,49 @@
 # groups set to colonial=yes will be higher prioritized by the AI when spending power
 
 #ADMIN GROUPS
-tribute_ideas = {
+hegemonic_ideas = {
 	category = ADM
 	
 	bonus = {
-		improve_relation_modifier = 0.10
-		diplomatic_upkeep = 1
+		diplomatic_upkeep = 4
 	}
 
 	trigger = {
 		NOT = {
-			has_idea_group = directconquest_ideas
+			has_idea_group = territorial_ideas
 		}
 	}
 
-	expanddip1 = {
-		diplomats = 1
-		diplomatic_upkeep = 1
+	hegemonic_ideology = {
+		legitimacy = 1.0
+		prestige = 1.0
 	}
 
-	elaboratecapital = {
-		diplomatic_reputation = 2
-		prestige = 1
-	}
-
-	showsofstrength = {
-		#reduced_liberty_desire = -10
+	grand_spectacle = {
+		diplomatic_reputation = 1
 	}
 	
-	betterinfrastructure = {
-		envoy_travel_time = -0.75
-		land_attrition = -0.15
+	material_hegemony = {
+		
 	}
 
-	ambassadorcorps = {
-		diplomats = 3
+	economic_hegemony = {
+		trade_efficiency = 0.20
+		legitimacy = 0.5
+	}
+	
+	cultural_hegemony = {
+		culture_conversion_cost = -0.33
+		global_unrest = -2
 	}
 
-	tribtrade = {
-		#reduced_liberty_desire = -5
-		trade_steering = 0.25
-		trade_efficiency = 0.1
+	social_engineering = {
+		
 	}
 
-	bigstick = {
-		land_forcelimit_modifier  = 0.33
+	the_big_stick = {
+		land_forcelimit_modifier = 0.50
+		legitimacy = 0.5
 	}
 
 	ai_will_do = {
@@ -61,14 +59,13 @@ tribute_ideas = {
 		modifier = { 
 			factor = 10
 			OR = {
-				government = hegemonic_kingdom
-				government = hegemonic_empire
+				government = altepetl
 			}
 		}	
 		
 		modifier = {
 			factor = 0
-			government = tarascan_tribute_kingdom
+			government = centralized_altepetl
 		}	
 
 		modifier = {
@@ -78,46 +75,47 @@ tribute_ideas = {
 	}
 }
 
-directconquest_ideas = {
+territorial_ideas = {
 	category = ADM
 
 	bonus = {
-		global_manpower_modifier  = 0.05
+		core_creation = -0.165
 	}
 
 	trigger = {
 		NOT = {
-			has_idea_group = tribute_ideas
+			has_idea_group = hegemonic_ideas
 		}
 	}
 
-	conqueststate = {
-
+	territorial_ideology = {
+		core_creation = -0.165
 	}
 
-	conquestbureau = {
-		core_creation = -0.50
+	power_replacement = {
+		global_autonomy = -0.10
 	}
 	
-	maizecircus = {
-		years_of_nationalism = -10
-		global_unrest = -1
-	}
-
-	removesubversive = {
+	tortillas_and_circuses = {
+		years_of_nationalism = -5
 		global_unrest = -2
 	}
 
-	provministers = {
-		global_autonomy = -0.10
+	local_garrisons = {
+		
 	}
 
-	subtleoccupation = {
-		years_of_nationalism = -10
+	administrative_centers = {
+		
 	}
 
-	ruleoflaw = {
-		stability_cost_modifier = -0.50
+	centralized_law_code = {
+		stability_cost_modifier = -0.25
+	}
+
+	extensive_bureaucracy = {
+		adm_tech_cost_modifier = -0.20
+		legitimacy = 2.0
 	}
 
 	ai_will_do = {
@@ -126,14 +124,13 @@ directconquest_ideas = {
 		modifier = { 
 			factor = 0
 			OR = {
-				government = hegemonic_kingdom
-				government = hegemonic_empire
+				government = altepetl
 			}
 		}	
 		
 		modifier = {
 			factor = 10
-			government = tarascan_tribute_kingdom
+			government = centralized_altepetl
 		}	
 
 		modifier = {
@@ -143,216 +140,211 @@ directconquest_ideas = {
 	}
 }
 
-centraltribute_ideas = {
+coercion_ideas = {
 	category = ADM
 	
 	bonus = {
-		diplomatic_upkeep = 2
+		diplomatic_upkeep = 4
+		land_morale = 0.15
 	}
-
+	
 	trigger = {
-		full_idea_group = tribute_ideas
-
 		NOT = {
-			has_idea_group = mightyhegemony_ideas
+			has_idea_group = gradual_centralization_ideas
 		}
 	}
 
-	formalreqs = {
-		land_forcelimit_modifier = 0.10
-		global_tax_modifier = 0.025
-		global_manpower_modifier = 0.025
+	coercive_ideology = {
+		stability_cost_modifier = -0.40
+		global_unrest = -4
 	}
 
-	tributeministers = {
+	hegemonic_delegation = {
+		vassal_income = 0.15
+		reduced_liberty_desire = 50
+	}
+
+	unchallengeable_might = {
+		ae_impact = -0.33
+		relations_decay_of_me = 0.33
+	}
+
+	regional_capitals_ac  = {
 		
 	}
 
-	tributemanpower = {
-
-	}
-
-	expandambassador1 = {
-		diplomats = 3
-	}
-
-	expanddip2 = {
-		improve_relation_modifier = 0.50
-	}
-
-	lawcode = {
-		#reduced_liberty_desire = -10
-		stability_cost_modifier = -0.25
-	}
-
-	closefriends = {
+	militaristic_propaganda = {
 		
 	}
 
+	vast_trade_hegemony = {
+		trade_steering = 0.50
+		merchants = 4
+	}
+
+	royal_deification = {
+		legitimacy = 5
+	}
+		
 	ai_will_do = {
-		factor = 0.90
+		factor = 0.66
 	}
 }
 
-mightyhegemony_ideas = {
+gradual_centralization_ideas = {
 	category = ADM
 	
 	bonus = {
-		discipline = 0.075
+		legitimacy = 1.5
 	}
-
+	
 	trigger = {
-		full_idea_group = tribute_ideas
-
 		NOT = {
-			has_idea_group = centraltribute_ideas
+			has_idea_group = coercion_ideas
 		}
 	}
 
-	vastdiplo = {
-		diplomats = 4
+	centralization_ideology = {
+		legitimacy = 1.0
+		vassal_income = 0.05
 	}
 
-	unchallengable = {
-		#reduced_liberty_desire = -25
-		ae_impact = -0.25
+	subtle_occupation = {
+		global_unrest = -2
+		years_of_nationalism = -5
 	}
 
-	biggerstick = {
-		land_forcelimit_modifier  = 0.25
-	}
-
-	ostentatious = {
-		diplomatic_reputation = 2
-	}
-
-	moresupplyob = {
-		land_attrition = -0.20
-		global_regiment_cost = -0.20
-	}
-
-	tradehegemon = {
-		trade_steering = 0.25
-		merchants = 2
-	}
-	
-	gloriousleader = {
-		legitimacy = 2
-	}
-
-	ai_will_do = {
-		factor = 0.90
+	regional_capitals_gc = {
 		
+	}
+
+	local_bureaucracies  = {
+		global_autonomy = -0.15
+	}
+
+	imperial_infrastructure = {
+		build_cost = -0.15
+		years_of_nationalism = -2
+	}
+
+	diplomatic_integration = {
+		diplomatic_annexation_cost = -0.33
+		diplomatic_reputation = 1
+	}
+
+	true_centralization = {
+		legitimacy = 5
+	}
+		
+	ai_will_do = {
+		factor = 0.66
 	}
 }
 
-totalassimilation_ideas = {
+diverse_integration_ideas = {
+	category = ADM
+	
+	bonus = {
+		num_accepted_cultures  = 5
+	}
+	
+	trigger = {
+		NOT = {
+			has_idea_group = total_assimilation_ideas
+		}
+	}
+
+	diverse_integration = {
+		core_creation = 0.25
+		global_autonomy = 0.05
+		num_accepted_cultures = 1
+		tolerance_heathen = 1
+		tolerance_heretic = 1
+	}
+
+	integrated_military = {
+		army_tradition = 0.5
+		num_accepted_cultures = 1
+	}
+
+	cultural_exchange = {
+		idea_cost = -0.05
+	}
+
+	religious_egalitarianism  = {
+		tolerance_heretic = 4
+		tolerance_heathen = 4
+	}
+
+	cultural_egalitarianism = {
+		num_accepted_cultures = 10
+	}
+
+	cosmopolitan_capital = {
+		num_accepted_culutres = 5
+		advisor_pool = 3
+		advisor_cost = -0.20
+	}
+
+	united_identity = {
+		years_of_nationalism = -10
+	}
+		
+	ai_will_do = {
+		factor = 0.66
+	}
+}
+
+total_assimilation_ideas = {
 	category = ADM
 	
 	bonus = {
 		culture_conversion_cost = -0.25
 	}
-
-	trigger = {
-		full_idea_group = directconquest_ideas
-
-		NOT = {
-			has_idea_group = integration_ideas
-		}
-	}
-
-	totalassim = {
-		tolerance_own = 2
-		tolerance_heretic = -4
-		tolerance_heathen = -6
-		accepted_culture_threshold = 100
-	}
-
-	convert1 = {
-		missionaries = 1
-		global_heretic_missionary_strength = 0.03
-	}
-
-	convert2 = {
-		missionaries = 1
-		global_missionary_strength = 0.03
-	}
-		
-	acculturation = {
-		culture_conversion_cost = -0.50
-		years_of_nationalism = -5
-	}
-
-	assimties = {
-		global_autonomy = -0.10
-		culture_conversion_cost = -0.10
-	}
-
-	ethnicresettle = {
-		
-	}
-
-	fullexploit = {
-		global_manpower_modifier = 0.10
-		global_tax_modifier = 0.05
-	}
-
-	ai_will_do = {
-		factor = 0.90
-	}
-}
-
-integration_ideas = {
-	category = ADM
 	
-	bonus = {
-		accepted_culture_threshold = -0.25
-	}
-
 	trigger = {
-		full_idea_group = directconquest_ideas
-
 		NOT = {
-			has_idea_group = totalassimilation_ideas
+			has_idea_group = diverse_integration_ideas
 		}
 	}
 
-	diverseinte = {
-		accepted_culture_threshold = -0.10
-		core_creation = 0.15
-		global_autonomy = 0.10
-		tolerance_heretic = 2
-		tolerance_heathen = 2
+	total_assimilation = {
+		num_accepted_cultures = -1
+		tolerance_heathen = -4
+		tolerance_heretic = -4
+		tolerance_own = 2
 	}
 
-	cultureequal = {
-		accepted_culture_threshold = -0.25
-		global_unrest = -1
+	ethnic_resettlement = {
+		
 	}
 
-	religionequal = {
-		tolerance_heretic = 3
-		tolerance_heathen = 3
+	religious_purity = {
+		global_heretic_missionary_strength = 0.03
+		missionaries = 1
 	}
 
-	ethnicaux = {
-		global_manpower_modifier = 0.05
+	forced_acculturation  = {
+		culture_conversion_cost = -0.25
 	}
 
-	cultureexchange = {
-		idea_cost = -0.05
+	militant_proselytizing = {
+		global_missionary_strength = 0.03
+		missionaries = 1
 	}
 
-	unitedidentity = {
-		years_of_nationalism = -15
+	assimilative_ties = {
+		global_autonomy = -0.10
+		culture_conversion_cost = -0.25
 	}
 
-	cosmopolitan = {
-		accepted_culture_threshold = -0.25
-		advisor_pool = 3
+	superior_absolutism = {
+		legitimacy = 4
+		prestige = 2
 	}
+		
 	ai_will_do = {
-		factor = 0.90
+		factor = 0.66
 	}
 }
 
@@ -468,7 +460,7 @@ sneaky_ideas = {
 	}
 
 	subjectspy = {
-		#reduced_liberty_desire = -20
+		reduced_liberty_desire = -25
 	}
 	
 	antiuspoliticalsystem = {
@@ -523,7 +515,7 @@ colonization_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.66
+		factor = 0.0
 	}
 }
 
@@ -555,7 +547,7 @@ foreigndom_ideas = {
 	}
 
 	threatofaction = {
-		
+		reduced_liberty_desire = -25
 	}
 
 	absurdclaims = {
@@ -615,7 +607,7 @@ foreignnice_ideas = {
 	}
 
 	giftsoflove = {
-		
+		legitimacy = 0.75
 	}
 
 	goodreason = {

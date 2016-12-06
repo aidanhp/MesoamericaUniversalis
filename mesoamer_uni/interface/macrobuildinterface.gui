@@ -863,71 +863,39 @@ guiTypes = {
 			maxWidth = 80
 			maxHeight = 18
 			text = "Education"	
-		}		
+		}					
 		
 		checkboxType = {
-			name = "build_nschool"
+			name = "build_pschool"
 			position = { x = 216 y = 226 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 		
 		instantTextBoxType={
-			name = "nschool_cost"
+			name = "pschool_cost"
 			position = {x = 216 y = 276 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 128
 			maxHeight = 18
 			text = "2000¤"	
-		}
-		
-		checkboxType = {
-			name = "build_nuni"
-			position = { x = 268 y = 226 }
-			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
-		}
-		
-		instantTextBoxType={
-			name = "nuni_cost"
-			position = {x = 268 y = 276 }
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}	
-			maxWidth = 128
-			maxHeight = 18
-			text = "2000¤"	
-		}				
-		
-		checkboxType = {
-			name = "build_pschool"
-			position = { x = 320 y = 226 }
-			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
-		}
-		
-		instantTextBoxType={
-			name = "pschool_cost"
-			position = {x = 320 y = 276 }
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}	
-			maxWidth = 128
-			maxHeight = 18
-			text = "2000¤"	
 		}	
 		
-		checkboxType = {
-			name = "build_puni"
-			position = { x = 372 y = 226 }
-			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
-		}
+		#checkboxType = {
+		#	name = "build_puni"
+		#	position = { x = 372 y = 226 }
+		#	quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
+		#}
 		
-		instantTextBoxType={
-			name = "puni_cost"
-			position = {x = 372 y = 276 }
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}	
-			maxWidth = 128
-			maxHeight = 18
-			text = "2000¤"	
-		}	
+		#instantTextBoxType={
+		#	name = "puni_cost"
+		#	position = {x = 372 y = 276 }
+		#	font = "vic_18"
+		#	borderSize = {x = 0 y = 0}	
+		#	maxWidth = 128
+		#	maxHeight = 18
+		#	text = "2000¤"	
+		#}	
 		
 		
 		
@@ -1384,13 +1352,13 @@ guiTypes = {
 		}
 		
 		checkboxType = {
-			name = "build_normalpt"
+			name = "build_watergarden"
 			position = { x = 217 y = 614 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 		
 		instantTextBoxType={
-			name = "normalpt_cost"
+			name = "watergarden_cost"
 			position = {x = 217 y = 664 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
@@ -1400,13 +1368,13 @@ guiTypes = {
 		}
 		
 		checkboxType = {
-			name = "build_watergarden"
+			name = "build_royalzoo"
 			position = { x = 269 y = 614 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 		
 		instantTextBoxType={
-			name = "watergarden_cost"
+			name = "royalzoo_cost"
 			position = {x = 269 y = 664 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
@@ -1416,30 +1384,14 @@ guiTypes = {
 		}
 		
 		checkboxType = {
-			name = "build_royalzoo"
+			name = "build_greatuni"
 			position = { x = 321 y = 614 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 		
 		instantTextBoxType={
-			name = "royalzoo_cost"
-			position = {x = 321 y = 664 }
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}	
-			maxWidth = 128
-			maxHeight = 18
-			text = "2000¤"	
-		}
-		
-		checkboxType = {
-			name = "build_greatuni"
-			position = { x = 373 y = 614 }
-			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
-		}
-		
-		instantTextBoxType={
 			name = "greatuni_cost"
-			position = {x = 373 y = 664 }
+			position = {x = 321 y = 664 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 128

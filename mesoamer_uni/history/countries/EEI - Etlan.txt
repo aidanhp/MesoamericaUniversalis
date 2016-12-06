@@ -1,5 +1,5 @@
 government = altepetl 
-government_rank = 2
+government_rank = 1
 mercantilism = 0.25
 technology_group = central_mexican 
 religion = zapotec

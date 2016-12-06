@@ -16,20 +16,13 @@ nationwide_census = {
 			}
 			set_province_flag = nationwide_census_flag
 		}
-		#random_owned_province = {
-		#	limit = {
-		#		is_in_capital_area = yes
-		#		NOT = { has_province_flag = nationwide_census_flag }
-		#	}
-		#	set_province_flag = nationwide_census_flag
-		#}
 	}
 	
 	effect = {
 		hidden_effect = {
 			every_owned_province = {
 				limit = { has_province_flag = nationwide_census_flag }
-				add_base_tax = 1
+				add_base_manpower = 1
 				clr_province_flag = nationwide_census_flag
 			}
 		}
@@ -54,7 +47,7 @@ nationwide_census = {
 			tooltip = {
 				every_owned_province = {
 					limit = { has_province_flag = nationwide_census_flag }
-					add_base_tax = 1
+					add_base_manpower = 1
 				}
 			}
 		}

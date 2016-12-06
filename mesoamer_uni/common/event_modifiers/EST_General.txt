@@ -1,0 +1,77 @@
+﻿#Modifiers for altepetl nobles estate
+nothing = {
+
+}
+
+has_upper_nobles = {
+
+}
+
+has_lower_nobles = {
+	
+}
+
+has_altepetl_nobles = {
+
+}
+
+has_merchants = {
+
+}
+
+has_priesthood = {
+
+}
+
+mgi_favor_cooldown = {
+
+}
+
+an_tribute_exemption = {
+	global_tax_modifier = -0.05
+}
+
+un_tribute_exemption = {
+	global_tax_modifier = -0.08
+}
+
+ln_tribute_exemption = {
+	global_tax_modifier = -0.05
+}
+
+an_bc_down = {
+	local_build_cost = -0.20
+}
+
+un_bc_down = {
+	local_build_cost = -0.20
+}
+
+ln_bc_down = {
+	local_build_cost = -0.20
+}
+
+ms_bc_down = {
+	local_build_cost = -0.20
+}
+
+#Cooldowns
+weakened_an = {
+
+}
+
+weakened_un = {
+
+}
+
+weakened_ln = {
+
+}
+
+weakened_ms = {
+
+}
+
+weakened_ph = {
+
+}

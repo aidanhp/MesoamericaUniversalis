@@ -1,0 +1,52 @@
+one_rabbit_famine = {
+	potential = {
+		OR = {
+			capital_scope = {
+				area = western_shore_a 
+			}
+			capital_scope = {
+				area = eastern_shore_a  
+			}
+			capital_scope = {
+				area = southern_shore_a  
+			}
+		}
+		NOT = { has_country_flag = had_one_rabbit }
+	}
+	
+	can_start = {
+		has_country_modifier = TEN_famine_starting
+	}
+	
+	can_stop = {
+		NOT = { has_country_modifier = TEN_famine_starting }
+	}
+	
+	progress = {
+		modifier = {
+			factor = 10
+			has_country_modifier = TEN_famine_starting
+		}
+	}
+	
+	can_end = {
+		NOT = { has_country_modifier = TEN_famine_starting }
+	}
+	
+	modifier = {
+		global_manpower_modifier = -0.10
+		global_tax_modifier = -0.05
+		land_morale = -0.15
+	}
+	
+	on_start = TEN_MAJORS.21
+	#on_end = famine ends
+	
+	on_monthly = {
+		events = {
+		}
+		random_events = { 
+			1000 = 0
+		}
+	}
+}

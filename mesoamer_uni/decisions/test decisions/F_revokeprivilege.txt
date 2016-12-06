@@ -1,0 +1,563 @@
+#Handles Revoking of Privileges
+country_decisions = {
+	#Revoke Privileges from Faction Master Decision
+	rpmaster = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = rpopen }
+			always = no
+		}
+		
+		allow = {
+		
+		}
+		
+		effect = {
+			set_country_flag = rpopen
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	#Hides All Subdecisions
+	rpmasterhide = {
+		major = yes
+		potential = {
+			has_country_flag = rpopen
+		}
+		
+		allow = {
+		
+		}
+		
+		effect = {
+			clr_country_flag = rpopen
+		}
+	}
+
+	rppriestmaster = {
+		major = yes
+		potential = {
+			has_country_flag = rpopen
+			NOT = { has_country_flag = rppriestopen }
+		}
+		
+		allow = {
+		
+		}
+		
+		effect = {
+			set_country_flag = rppriestopen
+		}
+	}
+	
+	rppriestmasterhide = {
+		major = yes
+		potential = {
+			has_country_flag = rpopen
+			has_country_flag = rppriestopen 
+		}
+		
+		allow = {
+		
+		}
+		
+		effect = {
+			clr_country_flag = rppriestopen
+		}
+	}
+	
+	rppliftpoliticalembargo = {
+		potential = {
+			has_country_flag = rpopen
+			has_country_flag = rppriestopen 
+			has_country_modifier = priestsingov
+		}
+		
+		allow = {
+			NOT = {
+			faction_influence = {
+				faction = priests
+				influence = 30
+			}
+			}
+			
+			faction_influence = {
+				faction = currentdynasty
+				influence = 30
+			}
+		}
+		
+		effect = {
+			add_faction_influence = {
+				faction = priests
+				influence = -10
+			}
+			remove_country_modifier = priestsingov
+		}
+	}
+	
+	rppelevatestatus = {
+		potential = {
+			has_country_flag = rpopen
+			has_country_flag = rppriestopen 
+			has_country_modifier = elevatedpriesthood
+		}
+		
+		allow = {
+			NOT = {
+			faction_influence = {
+				faction = priests
+				influence = 20
+			}
+			}
+			
+			faction_influence = {
+				faction = currentdynasty
+				influence = 20
+			}
+		}
+		
+		effect = {
+			add_faction_influence = {
+				faction = priests
+				influence = -5
+			}
+			remove_country_modifier = elevatedpriesthood
+		}
+	}
+	
+	rppappointcouncilor = {
+		potential = {
+			has_country_flag = rpopen
+			has_country_flag = rppriestopen 
+			has_country_modifier = priestcouncilors 
+		}
+		
+		allow = {
+			NOT = {
+			faction_influence = {
+				faction = priests
+				influence = 15
+			}
+			}
+			
+			faction_influence = {
+				faction = currentdynasty
+				influence = 15
+			}
+		}
+		
+		effect = {
+			add_faction_influence = {
+				faction = priests
+				influence = -5
+			}
+			add_faction_influence = {
+				faction = nobles
+				influence = 5
+			}
+			remove_country_modifier = priestcouncilors
+		}
+	}
+	
+	rppdelegateincome = {
+		potential = {
+			has_country_flag = rpopen
+			has_country_flag = rppriestopen 
+			has_country_modifier = moneytopriests 
+		}
+		
+		allow = {
+			NOT = {
+			faction_influence = {
+				faction = priests
+				influence = 15
+			}
+			}
+			
+			faction_influence = {
+				faction = currentdynasty
+				influence = 15
+			}
+		}
+		
+		effect = {
+			add_faction_influence = {
+				faction = priests
+				influence = -5
+			}
+			remove_country_modifier = moneytopriests
+		}
+	}
+	
+	
+	rpnoblesmaster = {
+		major = yes
+		potential = {
+			has_country_flag = rpopen
+			NOT = { has_country_flag = rpnoblesopen }
+		}
+		
+		allow = {
+		
+		}
+		
+		effect = {
+			set_country_flag = rpnoblesopen
+		}
+	}
+	
+	rpnoblesmasterhide = {
+		major = yes
+		potential = {
+			has_country_flag = rpopen
+			has_country_flag = rpnoblesopen 
+		}
+		
+		allow = {
+		
+		}
+		
+		effect = {
+			clr_country_flag = rpnoblesopen
+		}
+	}
+	
+	rpnmilitaryp = {
+		potential = {
+			has_country_flag = rpopen
+			has_country_flag = rpnoblesopen 
+			has_country_modifier = militarypatrimonialism
+		}
+		
+		allow = {
+			NOT = {
+			faction_influence = {
+				faction = nobles
+				influence = 30
+			}
+			}
+			
+			faction_influence = {
+				faction = currentdynasty
+				influence = 30
+			}
+		}
+		
+		effect = {
+			add_faction_influence = {
+				faction = nobles
+				influence = -10
+			}
+			remove_country_modifier = militarypatrimonialism
+		}
+	}
+	
+	rpngovernmentp = {
+		potential = {
+			has_country_flag = rpopen
+			has_country_flag = rpnoblesopen 
+			has_country_modifier = governmentpatrimonialism
+		}
+		
+		allow = {
+			NOT = {
+			faction_influence = {
+				faction = nobles
+				influence = 25
+			}
+			}
+			
+			faction_influence = {
+				faction = currentdynasty
+				influence = 25
+			}
+		}
+		
+		effect = {
+			add_faction_influence = {
+				faction = nobles
+				influence = -5
+			}
+			remove_country_modifier = governmentpatrimonialism
+		}
+	}
+	
+	rpnexclusiverights = {
+		potential = {
+			has_country_flag = rpopen
+			has_country_flag = rpnoblesopen 
+			has_country_modifier = exclusivenoblerights
+		}
+		
+		allow = {
+			NOT = {
+			faction_influence = {
+				faction = nobles
+				influence = 30
+			}
+			}
+			
+			faction_influence = {
+				faction = currentdynasty
+				influence = 30
+			}
+		}
+		
+		effect = {
+			add_faction_influence = {
+				faction = nobles
+				influence = -10
+			}
+			remove_country_modifier = exclusivenoblerights
+		}
+	}
+	
+	rpnextendedestates = {
+		potential = {
+			has_country_flag = rpopen
+			has_country_flag = rpnoblesopen 
+			has_country_modifier = extendedestates 
+		}
+		
+		allow = {
+			NOT = {
+			faction_influence = {
+				faction = nobles
+				influence = 20
+			}
+			}
+			
+			faction_influence = {
+				faction = currentdynasty
+				influence = 20
+			}
+		}
+		
+		effect = {
+			add_faction_influence = {
+				faction = nobles
+				influence = -5
+			}
+			remove_country_modifier = extendedestates
+		}
+	}
+	
+	rpnpension = {
+		potential = {
+			has_country_flag = rpopen
+			has_country_flag = rpnoblesopen 
+			has_country_modifier = noblepension
+		}
+		
+		allow = {
+			NOT = {
+			faction_influence = {
+				faction = nobles
+				influence = 15
+			}
+			}
+			
+			faction_influence = {
+				faction = currentdynasty
+				influence = 15
+			}
+		}
+		
+		effect = {
+			add_faction_influence = {
+				faction = nobles
+				influence = -5
+			}
+			remove_country_modifier = noblepension
+		}
+	}
+	
+	rpmerchantsmaster = {
+		major = yes
+		potential = {
+			has_country_flag = rpopen
+			NOT = { has_country_flag = rpmerchantsopen }
+		}
+		
+		allow = {
+		
+		}
+		
+		effect = {
+			set_country_flag = rpmerchantsopen
+		}
+	}
+	
+	rpmerchantsmasterhide = {
+		major = yes
+		potential = {
+			has_country_flag = rpopen
+			has_country_flag = rpmerchantsopen 
+		}
+		
+		allow = {
+		
+		}
+		
+		effect = {
+			clr_country_flag = rpmerchantsopen
+		}
+	}
+	
+	rpmliftsumptuarylaws = {
+		potential = {
+			has_country_flag = rpopen
+			has_country_flag = rpmerchantsopen 
+			has_country_modifier = merchantextravagance 
+		}
+		
+		allow = {
+			NOT = {
+			faction_influence = {
+				faction = merchants
+				influence = 30
+			}
+			}
+			
+			faction_influence = {
+				faction = currentdynasty
+				influence = 30
+			}
+		}
+		
+		effect = {
+			add_faction_influence = {
+				faction = merchants
+				influence = -10
+			}
+			add_faction_influence = {
+				faction = nobles
+				influence = 5
+			}
+			remove_country_modifier = merchantextravagance
+		}
+	}
+	
+	rpmcaravanguards = {
+		potential = {
+			has_country_flag = rpopen
+			has_country_flag = rpmerchantsopen 
+			has_country_modifier = caravanguards 
+		}
+		
+		allow = {
+			NOT = {
+			faction_influence = {
+				faction = merchants
+				influence = 15
+			}
+			}
+			
+			faction_influence = {
+				faction = currentdynasty
+				influence = 15
+			}
+		}
+		
+		effect = {
+			add_faction_influence = {
+				faction = merchants
+				influence = -5
+			}
+			remove_country_modifier = caravanguards
+		}
+	}
+	
+	rpmexclusivetrade = {
+		potential = {
+			has_country_flag = rpopen
+			has_country_flag = rpmerchantsopen 
+			has_country_modifier = exclusivetrade 
+		}
+		
+		allow = {
+			NOT = {
+			faction_influence = {
+				faction = merchants
+				influence = 20
+			}
+			}
+			
+			faction_influence = {
+				faction = currentdynasty
+				influence = 20
+			}
+		}
+		
+		effect = {
+			add_faction_influence = {
+				faction = merchants
+				influence = -5
+			}
+			remove_country_modifier = exclusivetrade
+		}
+	}
+	
+	rpmbetterspypay = {
+		potential = {
+			has_country_flag = rpopen
+			has_country_flag = rpmerchantsopen 
+			has_country_modifier = increasedspypay 
+		}
+		
+		allow = {
+			NOT = {
+			faction_influence = {
+				faction = merchants
+				influence = 15
+			}
+			}
+			
+			faction_influence = {
+				faction = currentdynasty
+				influence = 15
+			}
+		}
+		
+		effect = {
+			add_faction_influence = {
+				faction = merchants
+				influence = -5
+			}
+			remove_country_modifier = increasedspypay
+		}
+	}
+	
+	rpminsureventures = {
+		potential = {
+			has_country_flag = rpopen
+			has_country_flag = rpmerchantsopen 
+			has_country_modifier = insureventures 
+		}
+		
+		allow = {
+			NOT = {
+			faction_influence = {
+				faction = merchants
+				influence = 20
+			}
+			}
+			
+			faction_influence = {
+				faction = currentdynasty
+				influence = 20
+			}
+		}
+		
+		effect = {
+			add_faction_influence = {
+				faction = merchants
+				influence = -5
+			}
+			remove_country_modifier = insureventures
+		}
+	}
+}

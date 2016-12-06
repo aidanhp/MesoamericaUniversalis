@@ -1,376 +1,152 @@
 # For specific government types
 # Will pick the first valid one it finds in list
 
-#For Centralized Governments
-gov_ccity = {
+gov_altepetl = {
 	rank = {
-		1 = CCITY
+		1 = ALTEPETL
+		2 = HEGEMONIC_KINGDOM
+		3 = HEGEMONIC_EMPIRE
 	}
+	
 	ruler_male = {
-		1 = SPEAKER
+		1 = TLATOANI
+		2 = HUEYTLATOANI
+		3 = HUEYHUEYTLATOANI
 	}
+	
 	ruler_female = {
-		1 = SPEAKER
+		1 = CIHUATTLATOANI
+		2 = HUEYCIHUATTLATOANI
+		3 = HUEYHUEYCIHUATTLATOANI
 	}
+	
+	trigger = {
+		government = altepetl
+		culture_group = nahua
+	}
+}
 
+gov_altepetl_mixtecamuzgo = {
+	rank = {
+		1 = NUUCANU
+		2 = HEGEMONIC_KINGDOM
+		3 = HEGEMONIC_EMPIRE
+	}
+	
+	ruler_male = {
+		1 = STOHO
+		2 = STOHO
+		3 = YYA
+	}
+	
+	ruler_female = {
+		1 = STOHO
+		2 = STOHO
+		3 = YYA
+	}
+	
+	trigger = {
+		government = altepetl
+		OR = {
+			primary_culture = newmixtec
+			primary_culture = amuzgo
+		}
+	}
+}
+
+gov_altepetl_zapotec = {
+	rank = {
+		1 = YEZ
+		2 = HEGEMONIC_KINGDOM
+		3 = HEGEMONIC_EMPIRE
+	}
+	
+	ruler_male = {
+		1 = DESPOT
+		2 = KING
+		3 = EMPEROR
+	}
+	
+	ruler_female = {
+		1 = DESPOT
+		2 = QUEEN
+		3 = EMPRESS
+	}
+	
+	trigger = {
+		government = altepetl
+		primary_culture = newzapotec
+	}
+}
+
+gov_altepetl_wm = {
+	rank = {
+		1 = IREDA
+		2 = HEGEMONIC_KINGDOM
+		3 = HEGEMONIC_EMPIRE
+	}
+	
+	ruler_male = {
+		1 = IRECHA
+		2 = CAZONCI
+		3 = CAZONCI
+	}
+	
+	ruler_female = {
+		1 = IRECHA
+		2 = CAZONCI
+		3 = CAZONCI
+	}
+	
+	trigger = {
+		government = altepetl
+		culture_group = purepecha
+	}
+}
+
+gov_centralized_altepetl = {
+	rank = {
+		1 = ALTEPETL
+		2 = KINGDOM
+		3 = EMPIRE
+	}
+	
+	ruler_male = {
+		1 = TLATOANI
+		2 = HUEYTLATOANI
+		3 = HUEYHUEYTLATOANI
+	}
+	
+	ruler_female = {
+		1 = CIHUATTLATOANI
+		2 = HUEYCIHUATTLATOANI
+		3 = HUEYHUEYCIHUATTLATOANI
+	}
+	
 	trigger = {
 		government = centralized_altepetl
 	}
 }
 
-gov_ckingdom = {
-	rank = {
-		2 = CKINGDOM
-	}
-	ruler_male = {
-		2 = ELDERSPEAKER
-	}
-	ruler_female = {
-		2 = ELDERSPEAKER
-	}
-
-	trigger = {
-		government = centralized_kingdom
-	}
-}
-
-gov_cempire = {
-	rank = {
-		3 = CEMPIRE
-	}
-	ruler_male = {
-		3 = ELDESTSPEAKER
-	}
-	ruler_female = {
-		3 = ELDESTSPEAKER
-	}
-
-	trigger = {
-		government = centralized_empire
-	}
-}
-
-#Nahua Names
-gov_altepetl = {
-	rank = {
-		1 = ALTEPETL
-	}
-
-	ruler_male = {
-		1 = TLATOANI
-	}
-
-	ruler_female = {
-		1 = TLATOANI
-	}
-
-	trigger = {
-		government = altepetl
-		
-		culture_group = nahua
-	}
-}
-
-gov_hegemonic_kingdom = {
-	rank = {
-		2 = HEGEMONIC_KINGDOM
-	}
-
-	ruler_male = {
-		2 = HUETLATOANI	
-	}
-
-	ruler_female = {
-		2 = HUETLATOANI	
-	}
-
-	trigger = {
-		government = hegemonic_kingdom
-		culture_group = nahua
-	}
-}
-
-gov_hegemonic_empire = {
-	rank = {
-		3 = HEGEMONIC_EMPIRE
-	}
-
-	ruler_male = {
-		3 = HUEHUETLATOANI
-	}
-
-	ruler_female = {
-		3 = HUEHUETLATOANI
-	}
-
-	trigger = {
-		OR = {
-			government = hegemonic_empire
-			government = centralized_empire
-		}
-		culture_group = nahua
-	}
-}
-
 gov_tribal_confederation = {
 	rank = {
-		1 = TRIBAL_CONFEDERATION
+		1 = CONFEDERATION
 	}
-
+	
 	ruler_male = {
 		1 = CHIEF
 	}
-
-	ruler_female = {
+	
+	ruler_male = {
 		1 = CHIEF
 	}
-
+	
 	trigger = {
 		government = tribal_confederation
 	}
 }
 
-#Chichimec Names
-gov_caltepetl = {
-	rank = {
-		1 = CALTEPETL
-	}
 
-	ruler_male = {
-		1 = CTLATOANI
-	}
-
-	ruler_female = {
-		1 = CTLATOANI
-	}
-
-	trigger = {
-		government = altepetl
-		culture_group = chichimec
-	}
-}
-
-gov_chegemonic_kingdom = {
-	rank = {
-		2 = CHEGEMONIC_KINGDOM
-	}
-
-	ruler_male = {
-		2 = CHUETLATOANI	
-	}
-
-	ruler_female = {
-		2 = CHUETLATOANI	
-	}
-
-	trigger = {
-		government = hegemonic_kingdom
-		culture_group = chichimec
-	}
-}
-
-gov_chegemonic_empire = {
-	rank = {
-		3 = CHEGEMONIC_EMPIRE
-	}
-
-	ruler_male = {
-		3 = CHUEHUETLATOANI
-	}
-
-	ruler_female = {
-		3 = CHUEHUETLATOANI
-	}
-
-	trigger = {
-		government = hegemonic_empire
-		culture_group = chichimec
-	}
-}
-
-#Mixtec Names
-gov_maltepetl = {
-	rank = {
-		1 = MALTEPETL
-	}
-
-	ruler_male = {
-		1 = MTLATOANI
-	}
-
-	ruler_female = {
-		1 = MTLATOANI
-	}
-
-	trigger = {
-		government = altepetl
-		OR = {
-			primary_culture = newmixtec
-			primary_culture = amuzgo
-		}
-	}
-}
-
-gov_mhegemonic_kingdom = {
-	rank = {
-		2 = MHEGEMONIC_KINGDOM
-	}
-
-	ruler_male = {
-		2 = MHUETLATOANI	
-	}
-
-	ruler_female = {
-		2 = MHUETLATOANI	
-	}
-
-	trigger = {
-		government = hegemonic_kingdom
-		OR = {
-			primary_culture = newmixtec
-			primary_culture = amuzgo
-		}
-	}
-}
-
-gov_mhegemonic_empire = {
-	rank = {
-		3 = MHEGEMONIC_EMPIRE
-	}
-
-	ruler_male = {
-		3 = MHUEHUETLATOANI
-	}
-
-	ruler_female = {
-		3 = MHUEHUETLATOANI
-	}
-
-	trigger = {
-		government = hegemonic_empire
-		OR = {
-			primary_culture = newmixtec
-			primary_culture = amuzgo
-		}
-
-	}
-}
-
-#Zapotec Names
-gov_zaltepetl = {
-	rank = {
-		1 = ZALTEPETL
-	}
-
-	ruler_male = {
-		1 = ZTLATOANI
-	}
-
-	ruler_female = {
-		1 = ZTLATOANI
-	}
-
-	trigger = {
-		government = altepetl
-		primary_culture = newzapotec
-	}
-}
-
-gov_zhegemonic_kingdom = {
-	rank = {
-		2 = ZHEGEMONIC_KINGDOM
-	}
-
-	ruler_male = {
-		2 = ZHUETLATOANI	
-	}
-
-	ruler_female = {
-		2 = ZHUETLATOANI	
-	}
-
-	trigger = {
-		government = hegemonic_kingdom
-		primary_culture = newzapotec
-	}
-}
-
-gov_zhegemonic_empire = {
-	rank = {
-		3 = ZHEGEMONIC_EMPIRE
-	}
-
-	ruler_male = {
-		3 = ZHUEHUETLATOANI
-	}
-
-	ruler_female = {
-		3 = ZHUEHUETLATOANI
-	}
-
-	trigger = {
-		government = hegemonic_empire
-		primary_culture = newzapotec
-	}
-}
-
-#Purepecha Names
-gov_paltepetl = {
-	rank = {
-		1 = PALTEPETL
-	}
-
-	ruler_male = {
-		1 = PTLATOANI
-	}
-
-	ruler_female = {
-		1 = PTLATOANI
-	}
-
-	trigger = {
-		government = altepetl
-		culture_group = purepecha
-	}
-}
-
-gov_phegemonic_kingdom = {
-	rank = {
-		2 = PHEGEMONIC_KINGDOM
-	}
-
-	ruler_male = {
-		2 = PHUETLATOANI	
-	}
-
-	ruler_female = {
-		2 = PHUETLATOANI	
-	}
-
-	trigger = {
-		government = hegemonic_kingdom
-		culture_group = purepecha
-	}
-}
-
-gov_phegemonic_empire = {
-	rank = {
-		3 = PHEGEMONIC_EMPIRE
-	}
-
-	ruler_male = {
-		3 = PHUEHUETLATOANI
-	}
-
-	ruler_female = {
-		3 = PHUEHUETLATOANI
-	}
-
-	trigger = {
-		government = hegemonic_empire
-		culture_group = purepecha
-	}
-}
 
 gov_mayapan = {
 	rank = {
@@ -386,7 +162,7 @@ gov_mayapan = {
 	}
 
 	trigger = {
-		government = mayapan
+		government = mayapan_1
 	}
 }
 
@@ -405,53 +181,8 @@ gov_kuchkabal = {
 
 	trigger = {
 		government = kuchkabal
-		NOT = {
-			OR = {
-				tag = KKG
-				tag = KAQ
-			}
-		}
 	}
 }
-
-gov_kuchkabalkumarcaaj = {
-	rank = {
-		2 = KKUCHKABAL
-	}
-
-	ruler_male = {
-		2 = KHALACH_UINIK
-	}
-
-	ruler_female = {
-		2 = KHALACH_UINIK
-	}
-
-	trigger = {
-		government = kuchkabal
-		tag = KKG
-	}
-}
-
-gov_kuchkabalkaqchikel = {
-	rank = {
-		2 = KQKUCHKABAL
-	}
-
-	ruler_male = {
-		2 = KQHALACH_UINIK
-	}
-
-	ruler_female = {
-		2 = KQHALACH_UINIK
-	}
-
-	trigger = {
-		government = kuchkabal
-		tag = KAQ
-	}
-}
-
 
 gov_tlaxcallan_confederate = {
 	rank = {
@@ -471,20 +202,51 @@ gov_tlaxcallan_confederate = {
 	}
 }
 
-gov_tarascan_tribute_kingdom = {
-	rank = {
-		2 = TARASCAN_TRIBUTE_KINGDOM
+#New Uniques
+gov_feudal_chiefdom = {
+	rank = { 
+		2 = FEUDAL_CHIEFDOM
 	}
-
 	ruler_male = {
 		2 = CAZONCI
 	}
-
 	ruler_female = {
 		2 = CAZONCI
 	}
-
 	trigger = {
-		government = tarascan_tribute_kingdom
+		government = feudal_chiefdom
+	}
+}
+
+gov_ttt_subordinate_lordship = {
+	rank = { 
+		1 = TTT_SUB_LORD
+	}
+	ruler_male = {
+		1 = IRECHA
+	}
+	ruler_female = {
+		1 = IRECHA
+	}
+	trigger = {
+		government = ttt_subordinate_lordship
+	}
+}
+
+gov_centralized_tributary_state = {
+	rank ={
+		2 = CENTRALIZED_TRIBUTARY_KINGDOM
+		3 = CENTRALIZED_TRIBUTARY_EMPIRE
+	}
+	ruler_male = {
+		2 = CAZONCI
+		3 = CAZONCI
+	}
+	ruler_female = {
+		2 = CAZONCI
+		3 = CAZONCI
+	}
+	trigger ={
+		government = centralized_tributary_state
 	}
 }

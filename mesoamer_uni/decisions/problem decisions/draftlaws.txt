@@ -1,0 +1,21 @@
+country_decisions = {
+	set_draft_laws = {
+		major = yes	
+		potential = {
+			NOT = { has_country_flag = managingdraftlaws }
+		}
+
+		allow = {
+			
+		}
+
+		effect = {
+			set_country_flag = managingdraftlaws
+			country_event = { id = draftlaw.01 }
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

@@ -1,0 +1,21 @@
+#Special Modifiers for Rulers and Succession
+
+deliberations_of_the_council = {
+	legitimacy = -2
+}
+
+ES_increased_chance = {
+
+}
+
+ES_no_chance = {
+
+}
+
+ES_indifferent = {
+
+}
+
+ruler_picked = {
+
+}

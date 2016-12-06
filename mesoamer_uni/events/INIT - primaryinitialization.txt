@@ -39,48 +39,130 @@ country_event = {
 				#Initialize player only variables#
 				##################################
 				
-				#Building cost for each area
-				set_variable = { which = a1investcost value = 10 }
-				set_variable = { which = a2investcost value = 10 }
-				set_variable = { which = a3investcost value = 10 }
-				set_variable = { which = a4investcost value = 10 }
-				set_variable = { which = a5investcost value = 10 }
-				set_variable = { which = a6investcost value = 10 }
-				set_variable = { which = a7investcost value = 10 }
-				set_variable = { which = a8investcost value = 10 }
-				set_variable = { which = a9investcost value = 10 }
-				set_variable = { which = a10investcost value = 10 }
-				set_variable = { which = a11investcost value = 10 }
-				set_variable = { which = a12investcost value = 10 }
-				set_variable = { which = a13investcost value = 10 }
-				set_variable = { which = a14investcost value = 10 }
-				set_variable = { which = a15investcost value = 10 }
-				set_variable = { which = a16investcost value = 10 }
-				set_variable = { which = a17investcost value = 10 }
-				set_variable = { which = a18investcost value = 10 }
-				set_variable = { which = a19investcost value = 10 }
+				set_variable = { which = westshore_fc value = 0 }
+				set_variable = { which = eastshore_fc value = 0 }
+				set_variable = { which = southshore_fc value = 0 }
+				set_variable = { which = xocotitlan_fc value = 0 }
+				set_variable = { which = toluca_fc value = 0 }
+				set_variable = { which = petlacalco_fc value = 0 }
+				set_variable = { which = tula_fc value = 0 }
+				set_variable = { which = tlaxcala_fc value = 0 }
+				set_variable = { which = tepeacac_fc value = 0 }
+				set_variable = { which = malinalco_fc value = 0 }
+				set_variable = { which = cuahnahuac_fc value = 0 }
+				set_variable = { which = yohualtepec_fc value = 0 }
+				set_variable = { which = oztoman_fc value = 0 }
+				set_variable = { which = cihuatlan_fc value = 0 }
+				set_variable = { which = yope_fc value = 0 }
+				set_variable = { which = tututepec_fc value = 0 }
+				set_variable = { which = tehuantepec_fc value = 0 }
+				set_variable = { which = teotitlan_fc value = 0 }
+				set_variable = { which = tochtepec_fc value = 0 }
+				set_variable = { which = cuetlaxtlan_fc value = 0 }
+				set_variable = { which = huasteca_fc value = 0 }
+				set_variable = { which = patzcuaro_fc value = 0 }
+				set_variable = { which = zacatula_fc value = 0 }
+				set_variable = { which = cuitzeo_fc value = 0 }
+				set_variable = { which = chapala_fc value = 0 }
+				set_variable = { which = tetellan_fc value = 0 }
+				set_variable = { which = colima_fc value = 0 }
+				set_variable = { which = xalisco_fc value = 0 }
+				set_variable = { which = cora_fc value = 0 }
+				set_variable = { which = tonallan_fc value = 0 }
+				set_variable = { which = metztitlan_fc value = 0 }
+				set_variable = { which = xoconochco_fc value = 0 }
+				set_variable = { which = westhighlands_fc value = 0 }
+				set_variable = { which = easthighlands_fc value = 0 }
+				set_variable = { which = isthmus_fc value = 0 }
+				set_variable = { which = xicalango_fc value = 0 }
+				set_variable = { which = peten_fc value = 0 }
+				set_variable = { which = mayapan_fc value = 0 }
+				set_variable = { which = chichenitza_fc value = 0 }
+				set_variable = { which = ekab_fc value = 0 }
 				
-				#Variable for how much it costs to buy loyalty with luxury goods
-				set_variable = { which = blcpriests value = 0 }
-				set_variable = { which = blcnobles value = 0 }
-				set_variable = { which = blcmerchants value = 0 }
-				#Highs and lows for previous
-				set_variable = { which = blcpriestslow value = 0 }
-				set_variable = { which = blcpriestshigh value = 0 }
-				set_variable = { which = blcnobleslow value = 0 }
-				set_variable = { which = blcnobleshigh value = 0 }
-				set_variable = { which = blcmerchantslow value = 0 }
-				set_variable = { which = blcmerchantshigh value = 0 }
+				
+				#Pick Estates
+				if = {
+					limit = {
+						government = altepetl
+						NOT = { government_rank = 2 }
+					}
+					set_country_flag = has_altepetl_nobles
+					set_country_flag = has_priesthood
+					set_variable = { which = an_favors value = 20 }
+					set_variable = { which = ph_favors value = 20 }
+				}
+				
+				if = {
+					limit = {
+						government = altepetl
+						OR = {
+							tag = TEN
+							tag = TET
+							tag = TCP
+						}
+					}
+					set_country_flag = has_upper_nobles
+					set_country_flag = has_priesthood
+					set_variable = { which = un_favors value = 20 }
+					set_variable = { which = ph_favors value = 20 }
+				}
+				
+				if = {
+					limit = {
+						government = tribal_confederation
+					}
+					set_country_flag = has_altepetl_nobles
+					set_variable = { which = an_favors value = 20 }
+				}
+				
+				if = {
+					limit = {
+						government = tlaxcallan_confederate
+					}
+					set_country_flag = has_lower_nobles
+					set_country_flag = has_priesthood
+					set_variable = { which = ln_favors value = 20 }
+					set_variable = { which = ph_favors value = 20 }
+				}
+				
+				if = {
+					limit = {
+						OR = {
+							government = mayapan_1
+							government = kuchkabal
+						}
+					}
+					set_country_flag = has_lower_nobles
+					set_country_flag = has_upper_nobles
+					set_country_flag = has_priesthood
+					set_variable = { which = ln_favors value = 20 }
+					set_variable = { which = uh_favors value = 20 }
+					set_variable = { which = ph_favors value = 20 }
+				}
+				
+				if = {
+					limit = {
+						OR = {
+							government = feudal_chiefdom
+							government = ttt_subordinate_lordship 
+						}
+					}
+					set_country_flag = has_priesthood
+					set_variable = { which = ln_favors value = 20 }
+					set_variable = { which = ph_favors value = 20 }
+				}
 			}
 			
 			######################
 			#Setup- Every Country#
 			######################
 			every_country = {
-				################
-				#Fix Loan Sizes#
-				################
-				loan_size = 1
+				
+				####################
+				#Initial Legitimacy#
+				####################
+				add_legitimacy = -25
 				
 				########################
 				#Apply Global Modifiers#
@@ -89,67 +171,125 @@ country_event = {
 					name = "mesoamerican_logistics"
 					duration = -1
 				}
+				
 				add_country_modifier = {
-					name = "pga"
+					name = "pga"#Postclassic Golden Age
 					duration = -1
 				}
 				
 				add_country_modifier = {
-					name = "normalwarriors"
-					duration = -1
-				}
-				add_country_modifier = {
-					name = "normalsupplies"
+					name = "tribreqs_normal"
 					duration = -1
 				}
 				
 				######################
 				#Initialize Variables#
 				######################
-				#Set Initial Stockpile of Supplies
-				set_variable = { which = staplefooditems value = 12 }
-				set_variable = { which = luxuryfooditems value = 6 }
-				set_variable = { which = luxurygoods value = 20 }
-				set_variable = { which = militarysupplies value = 10 }
-				set_variable = { which = buildingsupplies value = 20 }
+				#Power Perception
+				set_variable = { which = power_perception value = 55 } #0-100
+				set_variable = { which = power_perception_mc value = 0 } #Monthly Change
 				
-				#Variable to estimate how many bins of military supplies you need 
-				#to expand supply lines
-				set_variable = { which = msestimate value = 0 }
+				#Heir Type Choosen by Council
+				set_variable = { which = heir_apparent_weight value = 0 }
+				set_variable = { which = adm_points_weight value = 0 }
+				set_variable = { which = dip_points_weight value = 0 }
+				set_variable = { which = mil_points_weight value = 0 }
 				
-				#Revolt risk
-				set_variable = { which = subjectrevoltrisk value = 0 }
+				#Population System
+				set_variable = { which = owner_mp_percent value = 0}
 				
-				#Administrative Influence
-				set_variable = { which = admin_influence_overlord value = 0 }
-				set_variable = { which = admin_influence_home value = 0 }
-				set_variable = { which = admin_influence_other value = 0 }
+				#Tribute System
+				set_variable = { which = area_dev value = 0 }
+				set_variable = { which = area_dev_mp value = 0 }
 				
-				if = {
-					limit = {
-						is_vassal = yes
-					}
-					change_variable = { which = admin_influence_overlord value = 60 }
-				}
-				if = {
-					limit = {
-						is_protectorate = yes
-					}
-					change_variable = { which = admin_influence_overlord value = 20 }
-				}
+				set_variable = { which = westshore_mp value = 0 }
+				set_variable = { which = eastshore_mp value = 0 }
+				set_variable = { which = southshore_mp value = 0 }
+				set_variable = { which = xocotitlan_mp value = 0 }
+				set_variable = { which = toluca_mp value = 0 }
+				set_variable = { which = petlacalco_mp value = 0 }
+				set_variable = { which = tula_mp value = 0 }
+				set_variable = { which = tlaxcala_mp value = 0 }
+				set_variable = { which = tepeacac_mp value = 0 }
+				set_variable = { which = malinalco_mp value = 0 }
+				set_variable = { which = cuahnahuac_mp value = 0 }
+				set_variable = { which = yohualtepec_mp value = 0 }
+				set_variable = { which = oztoman_mp value = 0 }
+				set_variable = { which = cihuatlan_mp value = 0 }
+				set_variable = { which = yope_mp value = 0 }
+				set_variable = { which = tututepec_mp value = 0 }
+				set_variable = { which = tehuantepec_mp value = 0 }
+				set_variable = { which = teotitlan_mp value = 0 }
+				set_variable = { which = tochtepec_mp value = 0 }
+				set_variable = { which = cuetlaxtlan_mp value = 0 }
+				set_variable = { which = huasteca_mp value = 0 }
+				set_variable = { which = patzcuaro_mp value = 0 }
+				set_variable = { which = zacatula_mp value = 0 }
+				set_variable = { which = cuitzeo_mp value = 0 }
+				set_variable = { which = chapala_mp value = 0 }
+				set_variable = { which = tetellan_mp value = 0 }
+				set_variable = { which = colima_mp value = 0 }
+				set_variable = { which = xalisco_mp value = 0 }
+				set_variable = { which = cora_mp value = 0 }
+				set_variable = { which = tonallan_mp value = 0 }
+				set_variable = { which = metztitlan_mp value = 0 }
+				set_variable = { which = xoconochco_mp value = 0 }
+				set_variable = { which = westhighlands_mp value = 0 }
+				set_variable = { which = easthighlands_mp value = 0 }
+				set_variable = { which = isthmus_mp value = 0 }
+				set_variable = { which = xicalango_mp value = 0 }
+				set_variable = { which = peten_mp value = 0 }
+				set_variable = { which = mayapan_mp value = 0 }
+				set_variable = { which = chichenitza_mp value = 0 }
+				set_variable = { which = ekab_mp value = 0 }
+				
+				set_variable = { which = westshore_ad value = 0 }
+				set_variable = { which = eastshore_ad value = 0 }
+				set_variable = { which = southshore_ad value = 0 }
+				set_variable = { which = xocotitlan_ad value = 0 }
+				set_variable = { which = toluca_ad value = 0 }
+				set_variable = { which = petlacalco_ad value = 0 }
+				set_variable = { which = tula_ad value = 0 }
+				set_variable = { which = tlaxcala_ad value = 0 }
+				set_variable = { which = tepeacac_ad value = 0 }
+				set_variable = { which = malinalco_ad value = 0 }
+				set_variable = { which = cuahnahuac_ad value = 0 }
+				set_variable = { which = yohualtepec_ad value = 0 }
+				set_variable = { which = oztoman_ad value = 0 }
+				set_variable = { which = cihuatlan_ad value = 0 }
+				set_variable = { which = yope_ad value = 0 }
+				set_variable = { which = tututepec_ad value = 0 }
+				set_variable = { which = tehuantepec_ad value = 0 }
+				set_variable = { which = teotitlan_ad value = 0 }
+				set_variable = { which = tochtepec_ad value = 0 }
+				set_variable = { which = cuetlaxtlan_ad value = 0 }
+				set_variable = { which = huasteca_ad value = 0 }
+				set_variable = { which = patzcuaro_ad value = 0 }
+				set_variable = { which = zacatula_ad value = 0 }
+				set_variable = { which = cuitzeo_ad value = 0 }
+				set_variable = { which = chapala_ad value = 0 }
+				set_variable = { which = tetellan_ad value = 0 }
+				set_variable = { which = colima_ad value = 0 }
+				set_variable = { which = xalisco_ad value = 0 }
+				set_variable = { which = cora_ad value = 0 }
+				set_variable = { which = tonallan_ad value = 0 }
+				set_variable = { which = metztitlan_ad value = 0 }
+				set_variable = { which = xoconochco_ad value = 0 }
+				set_variable = { which = westhighlands_ad value = 0 }
+				set_variable = { which = easthighlands_ad value = 0 }
+				set_variable = { which = isthmus_ad value = 0 }
+				set_variable = { which = xicalango_ad value = 0 }
+				set_variable = { which = peten_ad value = 0 }
+				set_variable = { which = mayapan_ad value = 0 }
+				set_variable = { which = chichenitza_ad value = 0 }
+				set_variable = { which = ekab_ad value = 0 }
+				
+				
 				
 				###############################################
 				#Remove Starting Manpower to Recalculate Later#
 				###############################################
 				add_manpower = -1000
-				
-				#########################################################################################################################################
-				#Prevent triggered modifiers from showing up at the start, so you can see the box telling you that you got one at the start of the month#
-				#########################################################################################################################################
-				#add_country_modifier = {
-				#	name = notriggeredmodifiers 
-				#	duration = 1
-				#}
 			}
 			
 			##########################
@@ -163,11 +303,14 @@ country_event = {
 				set_variable = { which = intellectualtradition value = 0 }
 				set_variable = { which = militancy value = 0 }
 				
+				set_variable = { which = lt_gain value = 0 }
+				
 				if = {
 					limit = {
 						OR = { 
 							government = altepetl
 						}
+						NOT = { tag = TEN}
 						NOT = { tag = TET }
 						NOT = { tag = TCP }
 					}
@@ -297,13 +440,14 @@ country_event = {
 				if = {
 					limit = {
 						OR = { 
-							government = tarascan_tribute_kingdom
+							government = feudal_chiefdom 
+							government = ttt_subordinate_lordship 
 						}
 					}
-					change_variable = { which = centralization value = 30 }
-					change_variable = { which = legaltradition value = 30 }
-					change_variable = { which = meritocratictradition value = 25 }
-					change_variable = { which = religioustradition value = 50 }
+					change_variable = { which = centralization value = -18 }
+					change_variable = { which = legaltradition value = -5 }
+					change_variable = { which = meritocratictradition value = -5 }
+					change_variable = { which = religioustradition value = 30 }
 					change_variable = { which = intellectualtradition value = 16 }
 					change_variable = { which = militancy value = 35 }
 				}
@@ -315,26 +459,15 @@ country_event = {
 			#Setup- Altepetl Type Governments#
 			##################################
 			every_country = {
+				set_variable = { which = count value = 0}
 				limit = {
-					OR = {
-						government = altepetl
-						government = hegemonic_kingdom
-						government = hegemonic_empire
-					}
+					government = altepetl
 				}
-				####################################
-				#Apply Default Tribute Requirements#
-				####################################
-				#add_country_modifier = {
-				#	name = "normalwealth"
-				#	duration = -1
-				#}	
-				
 				
 				##########################
 				#Start Tribute Idea Group#
 				##########################
-				add_idea_group = tribute_ideas
+				#add_idea_group = tribute_ideas
 			}
 			
 			#######################
@@ -368,6 +501,75 @@ country_event = {
 					name = nopackanimals
 					duration = -1
 				}
+				
+				###################
+				#POPULATION SYSTEM#
+				###################
+				set_variable = { which = prov_growth_rate value = 0.012 } #Growth rate
+				set_variable = { which = prov_pop value = 0 } #Development
+				
+				
+				set_variable = { which = test1 value = 0 }
+				set_variable = { which = test2 value = 0 }
+				set_variable = { which = test3 value = 0 }
+				
+				set_variable = { which = unadded_decay_ep value = 0 }
+				set_variable = { which = unadded_decay_ap value = 0 }
+				set_variable = { which = unadded_decay_cp value = 0 }
+				
+				set_variable = { which = elite_pop_change value = 0 } 
+				set_variable = { which = artisan_pop_change value = 0 } 
+				set_variable = { which = common_pop_change value = 0} 
+				
+				set_variable = { which = elite_pop value = 0 }
+				set_variable = { which = artisan_pop value = 0 }
+				set_variable = { which = commoner_pop value = 0 }
+				
+				export_to_variable = {
+					which = elite_pop
+					value = base_tax
+				}
+				export_to_variable = {
+					which = artisan_pop
+					value = base_production
+				}
+				export_to_variable = {
+					which = commoner_pop
+					value = base_manpower
+				}
+				
+				multiply_variable = {
+					which = elite_pop
+					value = 1000
+				}
+				multiply_variable = {
+					which = artisan_pop
+					value = 1000
+				}
+				multiply_variable = {
+					which = commoner_pop
+					value = 1000
+				}
+				
+				set_variable = { which = provpp value = 100 } #Local Population Potential 
+				set_variable = { which = sack_deaths_e value = 0 } #Deaths when the province is sacked
+				set_variable = { which = sack_deaths_a value = 0 } #Deaths when the province is sacked
+				set_variable = { which = sack_deaths_c value = 0 } #Deaths when the province is sacked
+				
+				################
+				#TRIBUTE SYSTEM#
+				################
+				set_variable = { which = REFUSAL_CUTOFF value = 100 }
+				set_variable = { which = refusal_points value = 0 }
+				set_variable = { which = prov_unrest value = 0 }
+				
+				set_variable = { which = prov_dev_trib value = 0 }
+				
+				#################################
+				#COMMUNICATION EFFICIENCY SYSTEM#
+				#################################
+				set_variable = { which = CE_distance value = 0 }
+				
 			}
 			
 			###########################
@@ -390,35 +592,6 @@ country_event = {
 			77 = {
 				add_province_modifier = {
 					name = tlaxcalaforts
-					duration = -1
-				}
-			}
-			
-			#Hard to Siege
-			1 = {
-				add_province_modifier = {
-					name = importantcity
-					duration = -1
-				}
-			}
-			
-			3 = {
-				add_province_modifier = {
-					name = importantcity
-					duration = -1
-				}
-			}
-			
-			26 = {
-				add_province_modifier = {
-					name = importantcity
-					duration = -1
-				}
-			}
-			
-			84 = {
-				add_province_modifier = {
-					name = importantcity
 					duration = -1
 				}
 			}
@@ -525,13 +698,13 @@ country_event = {
 				##############################
 				add_country_modifier = {
 					name = "manpowercalcwait"
-					duration = 335
+					duration = 5
 				}
 				
 				######################################################################
 				#Run event to calculate local population potential for every province#
 				######################################################################
-				country_event = { id = ppcalc.01 days = 1 }
+				#country_event = { id = ppcalc.01 days = 1 }
 			}
 			
 			######################
@@ -623,11 +796,7 @@ country_event = {
 			##############
 			#Tzintzuntzan#
 			##############
-			IUA = {
-				add_idea_group = directconquest_ideas
-				add_idea = conqueststate
-				add_idea = conquestbureau
-			}
+			
 			
 			###################
 			###################
@@ -638,13 +807,13 @@ country_event = {
 			every_province = {
 				limit = {
 					is_capital = yes
+					NOT = { province_id = 84 }
 				}
 				add_building = bureau1
 				add_building = ntemple
 			}
 			
 			1 = {
-				add_building = mschool
 				add_building = tenoch_gp2
 			}
 			
@@ -656,22 +825,70 @@ country_event = {
 				add_building = cholula_gp
 			}
 			
+			############################
+			############################
+			#Setup - Specific Countries#
+			############################
+			############################
+			
+			
 			################
 			################
 			#Initial Events#
 			################
 			################
 			
-			#First pop event 
-			
-			
 			#####################
 			#Magic Island Events#
 			#####################
 			
 			MGI = {
-				country_event = { id = bins.01 days = 1 }
-				country_event = { id = populations.01 days = 1  }
+				country_event = { id = yearpulse.01 days = 1 }
+				country_event = { id = monthpulse.01 days = 1 }
+			}
+			
+			##########################
+			#Communication Efficiency#
+			##########################
+			every_country = {
+				country_event = { id = commeff.01}
+			}
+			
+			################
+			#In Development#
+			################
+			
+			MGI = {
+				set_variable = { which = favor_request_type value = 0 }
+			}
+			
+			TEN = {
+				#country_event = { id = commeff.01 }
+				#set_variable = { which = an_favors value = 20 }
+				#set_variable = { which = un_favors value = 20 }
+				#set_variable = { which = ln_favors value = 20 }
+				#set_variable = { which = ms_favors value = 20 }
+				#set_variable = { which = ph_favors value = 20 }
+				
+				#set_country_flag = has_altepetl_nobles
+				#set_country_flag = has_upper_nobles
+				#set_country_flag = has_lower_nobles
+				#set_country_flag = has_merchants
+				#set_country_flag = has_priesthood
+			}
+			
+			IUA = {
+				#set_variable = { which = an_favors value = 20 }
+				#set_variable = { which = un_favors value = 20 }
+				#set_variable = { which = ln_favors value = 20 }
+				#set_variable = { which = ms_favors value = 20 }
+				#set_variable = { which = ph_favors value = 20 }
+				
+				#set_country_flag = has_altepetl_nobles
+				#set_country_flag = has_upper_nobles
+				#set_country_flag = has_lower_nobles
+				#set_country_flag = has_merchants
+				#set_country_flag = has_priesthood
 			}
 		}
 	}

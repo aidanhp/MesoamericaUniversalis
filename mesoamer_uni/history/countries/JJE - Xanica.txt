@@ -1,0 +1,18 @@
+government = altepetl 
+government_rank = 1
+mercantilism = 0.25
+technology_group = central_mexican 
+religion = zapotec
+primary_culture = newzapotec
+capital = 738
+fixed_capital = 738
+
+1427.1.1 = {
+	monarch = {
+		name = "Placeholder"
+		dynasty = "Xanica"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

@@ -8,11 +8,12 @@ bookmark =
 	default = yes
 
 	
-
+	country = MGI
 	country = TEN
 	country = TET
 	country = TCP
 	country = AZC	
 	country = CHL
 	country = TLX
+	country = UTU
 }

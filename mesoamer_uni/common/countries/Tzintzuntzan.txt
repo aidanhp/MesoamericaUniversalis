@@ -34,67 +34,29 @@ historical_units = {
 }
 
 monarch_names = {
-	"Achcauhtli #0" = 20
-	"Acolmixtli #0" = 20
-	"Camaxtli #0" = 20	
-	"Chicahua #0" = 20	
-	"Chimalli #0" = 20	
-	"Citlalli #0" = 20	
-	"Coyotl #0" = 20	
-	"Cuauhtemoc #0" = 20	
-	"Cuetlachtli #0" = 20	
-	"Etalpalli #0" = 20	
-	"Eztli #0" = 20	
-	"Huemac #0" = 20	
-	"Huitzilihuitl #0" = 20	
-	"Huitzilin #0" = 20	
-	"Ilhicamina #0" = 20	
-	"Itztli #0" = 20	
-	"Milintica #0" = 20	
-	"Meztli #0" = 20	
-	"Necalli #0" = 20	
-	"Nezahualcoyotl #0" = 20	
-	"Nezahualpilli #0" = 20	
-	"Nochtli #0" = 20	
-	"Nopaltzin #0" = 20	
-	"Tezcacoatl #0" = 20	
-	"Tlacaelel #0" = 20	
-	"Tlazopilli #0" = 20	
-	"Xipilli #0" = 20	
-	"Xiuhcoatl #0" = 20	
-	"Yaotl #0" = 20	
-	"Yayauhqui #0" = 20	
+	"Hireticatame #1" = 10 
+	"Sicuirancha #1" = 10
+	"Tariacuri #1" = 10
+	"Hiqugage #1" = 10
+	"Hiripan #1" = 10
+	"Tangaxoan #1" = 10
+	"Tzitzicpandacuare #0" = 10
+	"Zangua #0" = 10
+	"Ticatame #0" = 10
+	"Cavujancha #0" = 10
+	"Tuinchumbra #0" = 10
 
-	"Chalchiuitl #0" = -1
-	"Citlalmina #0" = -1
-	"Coaxoch #0" = -1
-	"Cozamalotl #0" = -1
-	"Coszcatl #0" = -1
-	"Malinalxochitl #0" = -1
-	"Nenetl #0" = -1
-	"Quetzalxochitl #0" = -1
-	"Tlalli #0" = -1
-	"Xochitl #0" = -1
+	"Quenomen #0" = -1
+	"Mavina #0" = -1
+	"Xaratanga #0" = -1
 }
 
 leader_names = {
-	Yoatl Matlalihuitl Nochehuatl Tototl Cuauhtl Tochtli Zolin Cuetzpalli Itzcuintli
-	Huizitl Ocelotl Ozomatli Cuetlachtli Tecolotl Miztli Cipac Acatlotzin Ahuítzotl 
-	Ahuítzotl Cacamatzin Chalchiutlatonac Cuauhtemoc Eyahue Huitzilihuitl Ixtlilxochitl 
-	Izquemitl Nezahualpilli Maxixcatzin Olintecke Qualpopoca Quimichetl Tezozomoc 
-	Totoquihuatzin Xiconocatzin Xolotl Yaztachimal Zoanacochtzin 
-	
-	"Tonatiuh"
-	"Huehueteotl"
-	"Xiuhtecutli"
-	"Tlaloc"
-	"Tezcatlipoca"
-	"Quetzalcoatl"
-	"Mictlan"
-	"Mictlantecuhtli"
-	"Ehecatl"
-	"Xolotl"
-	"Xochipill"
+	Hireticatame Sicuirancha Tariacuri Pavacume Hiqugage Hiripan Tangaxoan Tzitzicpandacuare Zangua
+	Uresqua Cando Sica Zinaquambi Quama Quatamaripe Equandira Chague Cando Ticatame Tucuruan Paguingata
+	Trimaransco Cuini Sirangua Zincicha Tigame Tagani Patamu Chuicico Caracomoco Tariaran Cacapu Aramen
+	Vaspe Terazi Cariqua Tupuri Hivacha Zinzumi Hanzivia Cavujancha Tarando Horohta Vanzan Hutaco Hozi 
+	Tuinchumbra Yzniquanto Hapunduri Zapivatame Xoropiti Taresquesinguata 
 }
 
 ship_names = {

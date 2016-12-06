@@ -16,13 +16,6 @@ nationwide_land_survey = {
 			}
 			set_province_flag = nationwide_land_survey_flag
 		}
-		#random_owned_province = {
-		#	limit = {
-		#		is_in_capital_area = yes
-		#		NOT = { has_province_flag = nationwide_land_survey_flag }
-		#	}
-		#	set_province_flag = nationwide_land_survey_flag
-		#}
 	}
 	
 	effect = {
@@ -30,7 +23,7 @@ nationwide_land_survey = {
 			every_owned_province = {
 				limit = { has_province_flag = nationwide_land_survey_flag }
 				add_base_tax = 1
-				clr_province_flag = nationwide_land_survey_flag
+				add_base_production = nationwide_land_survey_flag
 			}
 		}
 		if = {
@@ -54,7 +47,7 @@ nationwide_land_survey = {
 			tooltip = {
 				every_owned_province = {
 					limit = { has_province_flag = nationwide_land_survey_flag }
-					add_base_tax = 1
+					add_base_production = 1
 				}
 			}
 		}

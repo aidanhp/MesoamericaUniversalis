@@ -6,10 +6,7 @@ expandhegemony = {
 		prestige_factor = 1.25
 		peace_cost_factor = 0.75
 
-		allowed_provinces = { always = no }
-		allowed_provinces_are_eligible = yes
-	
-		po_become_protectorate = yes
+		po_demand_provinces = yes
 	}
 
 	defender = {
@@ -17,35 +14,7 @@ expandhegemony = {
 		prestige_factor = 1.50
 		peace_cost_factor = 2
 
-		allowed_provinces = { always = no }
-		allowed_provinces_are_eligible = yes
-
-		po_demand_provinces = yes # I would add more goals here. Possible goals and order influences AI peace deals
-	}
-
-	war_name = EXPANDHEGEMONY_WARNAME
-}
-
-expandhegemonyai = {
-	type = take_capital
-
-	attacker = {
-		badboy_factor = 0.90
-		prestige_factor = 1.25
-		peace_cost_factor = 0.75
-	
-		po_become_protectorate = yes
-	}
-
-	defender = {
-		badboy_factor = 2
-		prestige_factor = 1.50
-		peace_cost_factor = 2
-
-		allowed_provinces = { always = no }
-		allowed_provinces_are_eligible = yes
-
-		po_demand_provinces = yes # I would add more goals here. Possible goals and order influences AI peace deals
+		po_demand_provinces = yes 
 	}
 
 	war_name = EXPANDHEGEMONY_WARNAME

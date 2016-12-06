@@ -1,0 +1,14 @@
+opinion_triple_alliance = {
+	opinion = 400
+	yearly_decay = 0
+}
+
+opinion_refusedtribute = {
+	opinion = -100
+	yearly_decay = 10
+}
+
+opinion_ta_infuriated = {
+	opinion = -200
+	yearly_decay = 10
+}

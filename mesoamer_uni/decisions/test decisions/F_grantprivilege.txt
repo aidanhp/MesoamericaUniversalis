@@ -1,0 +1,466 @@
+#Handles Granting of Privileges
+country_decisions = {
+	#Grant Privileges to Faction Master Decision
+	gpmaster = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = gpopen }
+			always = no
+		}
+		
+		allow = {
+		
+		}
+		
+		effect = {
+			set_country_flag = gpopen
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	#Hides All Subdecisions
+	gpmasterhide = {
+		major = yes
+		potential = {
+			has_country_flag = gpopen
+		}
+		
+		allow = {
+		
+		}
+		
+		effect = {
+			clr_country_flag = gpopen
+		}
+	}
+
+	gppriestmaster = {
+		major = yes
+		potential = {
+			has_country_flag = gpopen
+			NOT = { has_country_flag = gppriestopen }
+		}
+		
+		allow = {
+		
+		}
+		
+		effect = {
+			set_country_flag = gppriestopen
+		}
+	}
+	
+	gppriestmasterhide = {
+		major = yes
+		potential = {
+			has_country_flag = gpopen
+			has_country_flag = gppriestopen 
+		}
+		
+		allow = {
+		
+		}
+		
+		effect = {
+			clr_country_flag = gppriestopen
+		}
+	}
+	
+	gppliftpoliticalembargo = {
+		potential = {
+			has_country_flag = gpopen
+			has_country_flag = gppriestopen 
+			NOT = { has_country_modifier = priestsingov }
+		}
+		
+		allow = {
+			
+		}
+		
+		effect = {
+			add_faction_influence = {
+				faction = priests
+				influence = 10
+			}
+			add_country_modifier = {
+				name = "priestsingov"
+				duration = -1
+			}
+		}
+	}
+	
+	gppelevatestatus = {
+		potential = {
+			has_country_flag = gpopen
+			has_country_flag = gppriestopen 
+			NOT = { has_country_modifier = elevatedpriesthood }
+		}
+		
+		allow = {
+			NOT = { has_country_modifier = exclusivenoblerights }
+		}
+		
+		effect = {
+			add_faction_influence = {
+				faction = priests
+				influence = 5
+			}
+			add_country_modifier = {
+				name = "elevatedpriesthood"
+				duration = -1
+			}
+		}
+	}
+	
+	gppappointcouncilor = {
+		potential = {
+			has_country_flag = gpopen
+			has_country_flag = gppriestopen 
+			NOT = { has_country_modifier = priestcouncilors }
+		}
+		
+		allow = {
+			
+		}
+		
+		effect = {
+			add_faction_influence = {
+				faction = priests
+				influence = 5
+			}
+			add_faction_influence = {
+				faction = nobles
+				influence = -5
+			}
+			add_country_modifier = {
+				name = "priestcouncilors"
+				duration = -1
+			}
+		}
+	}
+	
+	gppdelegateincome = {
+		potential = {
+			has_country_flag = gpopen
+			has_country_flag = gppriestopen 
+			NOT = { has_country_modifier = moneytopriests }
+		}
+		
+		allow = {
+			
+		}
+		
+		effect = {
+			add_faction_influence = {
+				faction = priests
+				influence = 5
+			}
+			add_country_modifier = {
+				name = "moneytopriests"
+				duration = -1
+			}
+		}
+	}
+	
+	
+	gpnoblesmaster = {
+		major = yes
+		potential = {
+			has_country_flag = gpopen
+			NOT = { has_country_flag = gpnoblesopen }
+		}
+		
+		allow = {
+		
+		}
+		
+		effect = {
+			set_country_flag = gpnoblesopen
+		}
+	}
+	
+	gpnoblesmasterhide = {
+		major = yes
+		potential = {
+			has_country_flag = gpopen
+			has_country_flag = gpnoblesopen 
+		}
+		
+		allow = {
+		
+		}
+		
+		effect = {
+			clr_country_flag = gpnoblesopen
+		}
+	}
+	
+	gpnmilitaryp = {
+		potential = {
+			has_country_flag = gpopen
+			has_country_flag = gpnoblesopen 
+			NOT = { has_country_modifier = militarypatrimonialism }
+		}
+		
+		allow = {
+			
+		}
+		
+		effect = {
+			add_faction_influence = {
+				faction = nobles
+				influence = 10
+			}
+			add_country_modifier = {
+				name = "militarypatrimonialism"
+				duration = -1
+			}
+		}
+	}
+	
+	gpngovernmentp = {
+		potential = {
+			has_country_flag = gpopen
+			has_country_flag = gpnoblesopen 
+			NOT = { has_country_modifier = governmentpatrimonialism }
+		}
+		
+		allow = {
+			
+		}
+		
+		effect = {
+			add_faction_influence = {
+				faction = nobles
+				influence = 5
+			}
+			add_country_modifier = {
+				name = "governmentpatrimonialism"
+				duration = -1
+			}
+		}
+	}
+	
+	gpnexclusiverights = {
+		potential = {
+			has_country_flag = gpopen
+			has_country_flag = gpnoblesopen 
+			NOT = { has_country_modifier = exclusivenoblerights }
+		}
+		
+		allow = {
+			NOT = { has_country_modifier = elevatedpriesthood}
+			NOT = { has_country_modifier = merchantextravagance }
+		}
+		
+		effect = {
+			add_faction_influence = {
+				faction = nobles
+				influence = 10
+			}
+			add_country_modifier = {
+				name = "exclusivenoblerights"
+				duration = -1
+			}
+		}
+	}
+	
+	gpnextendedestates = {
+		potential = {
+			has_country_flag = gpopen
+			has_country_flag = gpnoblesopen 
+			NOT = { has_country_modifier = extendedestates }
+		}
+		
+		allow = {
+			
+		}
+		
+		effect = {
+			add_faction_influence = {
+				faction = nobles
+				influence = 5
+			}
+			add_country_modifier = {
+				name = "extendedestates"
+				duration = -1
+			}
+		}
+	}
+	
+	gpnpension = {
+		potential = {
+			has_country_flag = gpopen
+			has_country_flag = gpnoblesopen 
+			NOT = { has_country_modifier = noblepension }
+		}
+		
+		allow = {
+			
+		}
+		
+		effect = {
+			add_faction_influence = {
+				faction = nobles
+				influence = 5
+			}
+			add_country_modifier = {
+				name = "noblepension"
+				duration = -1
+			}
+		}
+	}
+	
+	gpmerchantsmaster = {
+		major = yes
+		potential = {
+			has_country_flag = gpopen
+			NOT = { has_country_flag = gpmerchantsopen }
+		}
+		
+		allow = {
+		
+		}
+		
+		effect = {
+			set_country_flag = gpmerchantsopen
+		}
+	}
+	
+	gpmerchantsmasterhide = {
+		major = yes
+		potential = {
+			has_country_flag = gpopen
+			has_country_flag = gpmerchantsopen 
+		}
+		
+		allow = {
+		
+		}
+		
+		effect = {
+			clr_country_flag = gpmerchantsopen
+		}
+	}
+	
+	gpmliftsumptuarylaws = {
+		potential = {
+			has_country_flag = gpopen
+			has_country_flag = gpmerchantsopen 
+			NOT = { has_country_modifier = merchantextravagance }
+		}
+		
+		allow = {
+			NOT = { has_country_modifier = exclusivenoblerights }
+		}
+		
+		effect = {
+			add_faction_influence = {
+				faction = merchants
+				influence = 10
+			}
+			add_faction_influence = {
+				faction = nobles
+				influence = -5
+			}
+			add_country_modifier = {
+				name = "merchantextravagance"
+				duration = -1
+			}
+		}
+	}
+	
+	gpmcaravanguards = {
+		potential = {
+			has_country_flag = gpopen
+			has_country_flag = gpmerchantsopen 
+			NOT = { has_country_modifier = caravanguards }
+		}
+		
+		allow = {
+			
+		}
+		
+		effect = {
+			add_faction_influence = {
+				faction = merchants
+				influence = 5
+			}
+			add_country_modifier = {
+				name = "caravanguards"
+				duration = -1
+			}
+		}
+	}
+	
+	gpmexclusivetrade = {
+		potential = {
+			has_country_flag = gpopen
+			has_country_flag = gpmerchantsopen 
+			NOT = { has_country_modifier = exclusivetrade }
+		}
+		
+		allow = {
+			
+		}
+		
+		effect = {
+			add_faction_influence = {
+				faction = merchants
+				influence = 5
+			}
+			add_country_modifier = {
+				name = "exclusivetrade"
+				duration = -1
+			}
+		}
+	}
+	
+	gpmbetterspypay = {
+		potential = {
+			has_country_flag = gpopen
+			has_country_flag = gpmerchantsopen 
+			NOT = { has_country_modifier = increasedspypay }
+		}
+		
+		allow = {
+			
+		}
+		
+		effect = {
+			add_faction_influence = {
+				faction = merchants
+				influence = 5
+			}
+			add_country_modifier = {
+				name = "increasedspypay"
+				duration = -1
+			}
+		}
+	}
+	
+	gpminsureventures = {
+		potential = {
+			has_country_flag = gpopen
+			has_country_flag = gpmerchantsopen 
+			NOT = { has_country_modifier = insureventures }
+		}
+		
+		allow = {
+			
+		}
+		
+		effect = {
+			add_faction_influence = {
+				faction = merchants
+				influence = 5
+			}
+			add_country_modifier = {
+				name = "insureventures"
+				duration = -1
+			}
+		}
+	}
+}

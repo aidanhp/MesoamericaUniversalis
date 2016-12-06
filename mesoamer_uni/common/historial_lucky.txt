@@ -1,2 +1,9 @@
 # Order here is the priority for taking them, if trigger is true.
 
+TEN = {
+	always = yes
+}	
+
+IUA = {
+	always = yes
+}

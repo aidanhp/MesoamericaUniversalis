@@ -4,11 +4,11 @@ controller = KOW
 culture = centralmayan
 religion = newmayan 
 hre = no
-base_tax = 50
-base_production = 100
+base_tax = 2
+base_production = 5
 trade_goods = grain
-base_manpower = 350
-capital = "Kowoj"
+base_manpower = 17
+capital = "Zacpeten"
 is_city = yes
 fort_15th = yes
 

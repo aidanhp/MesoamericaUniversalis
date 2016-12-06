@@ -4,10 +4,10 @@ controller = OCH
 culture = yucatecmayan
 religion = newmayan 
 hre = no
-base_tax = 90
-base_production = 180
+base_tax = 1
+base_production = 2
 trade_goods = grain 
-base_manpower = 630
+base_manpower = 6
 capital = "Chikindzonal"
 is_city = yes
 

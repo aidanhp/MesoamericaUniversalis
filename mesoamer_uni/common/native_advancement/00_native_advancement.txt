@@ -22,7 +22,7 @@ native_adm_ideas = {
 		global_unrest = -2
 	}
 	tribal_constitution = {
-		adm_tech_cost_modifier = -1.0
+		adm_tech_cost_modifier = -0.15
 	}
 	
 	ai_will_do = {
@@ -48,7 +48,7 @@ native_dip_ideas = {
 		colonists = 1
 	}
 	talking_leaves = { 
-		dip_tech_cost_modifier = -1.0
+		dip_tech_cost_modifier = -0.15
 	}
 	
 	ai_will_do = {
@@ -73,7 +73,7 @@ native_mil_ideas = {
 		land_attrition = -0.20
 	}
 	flexible_warfare = {
-		mil_tech_cost_modifier = -1.0
+		mil_tech_cost_modifier = -0.15
 	}
 	
 	ai_will_do = {

@@ -80,6 +80,7 @@ mayan_highlands_r = {
 central_america_r = {
 	areas = {
 		isthmus_a
+		magic_island_a
 	}
 }
 

@@ -1,0 +1,299 @@
+namespace = TEN_MINORS
+
+##################
+#TLACAELEL SERIES#
+##################
+#Tlacaelel's Rise
+country_event = {
+	id = TEN_MINORS.01
+	
+	title = "TEN_MINORS1.t"
+	desc = "TEN_MINORS1.d"
+	
+	picture = TLACAELEL_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = TEN
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = {
+		name = "TEN_MINORS1.a"
+		add_country_modifier = {
+			name = TEN_tlacaelel_tlacochcalcatl
+			duration = -1
+		}
+	}
+}
+
+#Cihuacoatl
+country_event = {
+	id = TEN_MINORS.02
+	
+	title = "TEN_MINORS2.t"
+	desc = "TEN_MINORS2.d"
+	
+	picture = TLACAELEL_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_country_modifier = TEN_tlacaelel_tlacochcalcatl
+		is_year = 1440
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = {
+		name = "TEN_MINORS2.a"
+		add_country_modifier = {
+			name = TEN_tlacaelel_cihuacoatl
+			duration = -1
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "TEN_MINORS2.b"
+		add_prestige = 25
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Tlacaelel's Reforms
+country_event = {
+	id = TEN_MINORS.03
+	
+	title = "TEN_MINORS3.t"
+	desc = "TEN_MINORS3.d"
+	
+	picture = TLACAELEL_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_country_modifier = TEN_tlacaelel_cihuacoatl
+		num_of_cities = 30
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = {
+		name = "TEN_MINORS3.a"
+		add_army_tradition = 50
+		custom_tooltip = GOVS_mil_i_0500
+		custom_tooltip = GOVS_sprt_i_0250
+		custom_tooltip = FLA_TEN_007
+		custom_tooltip = FLA_TEN_009
+		
+		hidden_effect = {
+			change_variable = { which = militancy value = 50 }
+			change_variable = { which = religioustradition value = 25 }
+			set_country_flag = treforms1
+		}
+		ai_chance = {
+			factor = 75
+		}
+	}
+	
+	option = {
+		name = "TEN_MINORS2.b"
+		add_army_tradition = 20
+		custom_tooltip = GOVS_mil_i_0200
+		custom_tooltip = GOVS_sprt_i_0250
+		custom_tooltip = FLA_TEN_007
+		custom_tooltip = FLA_TEN_010
+		
+		hidden_effect = {
+			change_variable = { which = militancy value = 20 }
+			change_variable = { which = religioustradition value = 25 }
+			set_country_flag = treforms2
+		}
+		
+		ai_chance = {
+			factor = 20
+		}
+	}
+	
+	option = {
+		name = "TEN_MINORS2.c"
+		add_stability = -1
+		custom_tooltip = FLA_TEN_008
+		custom_tooltip = FLA_TEN_011
+		
+		hidden_effect = {
+			set_country_flag = treforms3
+		}
+		
+		ai_chance = {
+			factor = 5
+		}
+	}
+}
+
+#Tlacaelel's Death
+country_event = {
+	id = TEN_MINORS.04
+	
+	title = "TEN_MINORS4.t"
+	desc = "TEN_MINORS4.d"
+	
+	picture = DEATH_OF_HEIR_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		OR = { 
+			has_country_modifier = TEN_tlacaelel_cihuacoatl
+			has_country_modifier = TEN_tlacaelel_tlacochcalcatl
+		}
+		is_year = 1487
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "TEN_MINORS4.a"
+		add_prestige = 50
+		remove_country_modifier = TEN_tlacaelel_tlacochcalcatl
+	}
+}
+
+######################
+#EXPEDITION TO AZTLAN#
+######################
+#The Lost Home in the North
+country_event = {
+	id = TEN_MINORS.05
+	
+	title = "TEN_MINORS5.t"
+	desc = "TEN_MINORS5.d"
+	
+	picture = RELIGION_eventPicture 
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 1445
+		OR = {
+			has_country_modifier = TEN_tlacaelel_cihuacoatl
+			has_country_modifier = TEN_tlacaelel_tlacochcalcatl
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+	}
+	
+	option = {
+		name = "TEN_MINORS5.a"
+		custom_tooltip = FLA_TEN_012
+		hidden_effect = { 
+			country_event = { id = TEN_MINORS.06 days = 7 }
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = {
+		name = "TEN_MINORS5.b"
+		custom_tooltip = FLA_TEN_013
+		hidden_effect = {
+			country_event = { id = TEN_MINORS.08 days = 1085}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Tlacaelel's Advice
+country_event = {
+	id = TEN_MINORS.06
+	
+	title = "TEN_MINORS6.t"
+	desc = "TEN_MINORS6.d"
+	
+	picture = TLACAELEL_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "TEN_MINORS6.a"
+		custom_tooltip = FLA_TEN_014
+		hidden_effect = {
+			country_event = { id = TEN_MINORS.07 days = 1085}
+		}
+		
+		ai_chance = {
+			factor = 75
+		}
+	}
+	
+	option = {
+		name = "TEN_MINORS6.b"
+		custom_tooltip = FLA_TEN_013
+		hidden_effect = {
+			country_event = { id = TEN_MINORS.08 days = 1085}
+		}
+		
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+#The Expedition Succeeds
+country_event = {
+	id = TEN_MINORS.07
+	
+	title = "TEN_MINORS7.t"
+	desc = "TEN_MINORS7.d"
+	
+	picture = RELIGION_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "TEN_MINORS7.a"
+		add_prestige = 50
+		add_legitimacy = 20
+	}
+}
+
+#The Expedition Fails
+country_event = {
+	id = TEN_MINORS.08
+	
+	title = "TEN_MINORS8.t"
+	desc = "TEN_MINORS8.d"
+	
+	picture = FAMINE_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "TEN_MINORS8.a"
+		add_prestige = -10
+	}
+}

@@ -1,0 +1,77 @@
+﻿#Modifiers for altepetl nobles estate
+nothing1 = {
+
+}
+
+an_exclusive_military_leadership = {
+	#-0.25 yearly meritocracy
+}
+
+an_exclusive_military_orders = {
+	#-0.25 yearly meritocracy
+}
+
+an_exclusive_legal_protections = {
+	#-0.5 yearly legal tradition
+}
+
+an_exclusive_bureaucracy_positions = {
+	#-0.25 yearly meritocracy
+}
+
+an_exclusive_social_rights = {
+
+}
+
+an_share_tribute = {
+	
+}
+
+an_o_war_support_1 = {
+	global_regiment_recruit_speed = -0.20
+	land_forcelimit_modifier = 0.10
+	manpower_recovery_speed = 0.10
+	land_maintenance_modifier = -0.10
+}
+
+an_o_war_support_2 = {
+	global_regiment_recruit_speed = -0.40
+	land_forcelimit_modifier = 0.20
+	manpower_recovery_speed = 0.20
+	land_maintenance_modifier = -0.20
+}
+
+an_o_war_support_3 = {
+	global_regiment_recruit_speed = -0.60
+	land_forcelimit_modifier = 0.40
+	manpower_recovery_speed = 0.25
+	land_maintenance_modifier = -0.25
+}
+
+an_d_war_support_1 = {
+	global_regiment_recruit_speed = -0.20
+	land_morale = 0.10
+	land_forcelimit_modifier = 0.10
+	manpower_recovery_speed = 0.10
+	land_maintenance_modifier = -0.10
+}
+
+an_d_war_support_2 = {
+	global_regiment_recruit_speed = -0.40
+	land_morale = 0.15
+	land_forcelimit_modifier = 0.20
+	manpower_recovery_speed = 0.20
+	land_maintenance_modifier = -0.20
+}
+
+an_d_war_support_3 = {
+	global_regiment_recruit_speed = -0.60
+	land_morale = 0.20
+	land_forcelimit_modifier = 0.40
+	manpower_recovery_speed = 0.25
+	land_maintenance_modifier = -0.25
+}
+
+an_uprising_brewing = {
+	diplomatic_reputation = -3
+}

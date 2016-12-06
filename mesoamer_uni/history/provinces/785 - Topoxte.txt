@@ -1,0 +1,16 @@
+add_core = KOW
+owner = KOW
+controller = KOW
+culture = centralmayan
+religion = newmayan 
+hre = no
+base_tax = 2
+base_production = 4
+trade_goods = grain
+base_manpower = 13
+capital = "Topoxte"
+is_city = yes
+fort_15th = yes
+
+discovered_by = northern_mayan
+discovered_by = southern_mayan

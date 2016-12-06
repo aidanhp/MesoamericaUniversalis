@@ -1,0 +1,1055 @@
+#Communication Efficiency
+namespace = commeff
+
+#Calculate CE for one country
+country_event = {
+	id = commeff.01
+
+	title = "commeff1.t"
+	desc = "commeff1.d"
+	picture = ECONOMY_eventPicture
+
+	is_triggered_only = yes
+	
+	hidden = yes
+	
+	option = {
+		name = "communication1.a"
+		
+		every_owned_province = {
+			subtract_variable = { which = CE_distance which = CE_distance }
+			clr_province_flag = distance_set0
+			clr_province_flag = distance_set1
+			clr_province_flag = distance_set2
+			clr_province_flag = distance_set3
+			clr_province_flag = distance_set4
+			clr_province_flag = distance_set5
+			clr_province_flag = distance_set6
+			clr_province_flag = distance_set7
+			clr_province_flag = distance_set8
+			clr_province_flag = distance_set9
+			clr_province_flag = distance_set10
+			clr_province_flag = distance_set11
+			clr_province_flag = distance_set12
+			clr_province_flag = distance_set13
+			clr_province_flag = distance_set14
+			clr_province_flag = distance_set15
+			clr_province_flag = distance_set16
+			clr_province_flag = distance_set17
+			clr_province_flag = distance_set18
+			clr_province_flag = distance_set19
+			clr_province_flag = distance_set20
+			clr_province_flag = distance_set21
+			clr_province_flag = distance_set22
+			clr_province_flag = distance_set23
+			clr_province_flag = distance_set24
+			
+			remove_province_modifier = perfect_communication
+			remove_province_modifier = near_perfect_communication
+			remove_province_modifier = very_good_communication
+			remove_province_modifier = good_communication
+			remove_province_modifier = fair_communication
+			remove_province_modifier = difficult_communication
+			remove_province_modifier = poor_communication
+			remove_province_modifier = very_poor_communication
+			remove_province_modifier = terrible_communication
+			remove_province_modifier = minimal_communication
+			
+			remove_province_modifier = perc_map
+			remove_province_modifier = npc_map
+			remove_province_modifier = vgc_map
+			remove_province_modifier = gc_map
+			remove_province_modifier = fc_map
+			remove_province_modifier = dc_map
+			remove_province_modifier = pc_map
+			remove_province_modifier = vpc_map
+			remove_province_modifier = tc_map
+			remove_province_modifier = mc_map
+			
+		}
+		
+		capital_scope = { 
+			set_province_flag = distance_set0
+			every_neighbor_province = {
+				limit = {
+					owned_by = ROOT
+				}
+				change_variable = { which = CE_distance value = 17 }
+				set_province_flag = distance_set1
+			}
+		}
+		
+		every_owned_province = {
+			limit = { #Narrows it down to every province that borders the capital
+				has_province_flag = distance_set1
+			}
+			every_neighbor_province = {
+				limit = { #Every province that neighbors a province that neighbors the capital and has not had its distance set
+					owned_by = ROOT
+					NOT = { has_province_flag = distance_set0 }
+					NOT = { has_province_flag = distance_set1 }
+					NOT = { has_province_flag = distance_set2 }
+				}
+				change_variable = { which = CE_distance value = 34 } #This far from the capital
+				set_province_flag = distance_set2  #Distance has been set, will not be overwritten
+			}
+		}
+		
+		every_owned_province = {
+			limit = {
+				has_province_flag = distance_set2
+			}
+			every_neighbor_province = {
+				limit = {
+					owned_by = ROOT
+					NOT = { has_province_flag = distance_set0 }
+					NOT = { has_province_flag = distance_set1 }
+					NOT = { has_province_flag = distance_set2 }
+					NOT = { has_province_flag = distance_set3 }
+				}
+				change_variable = { which = CE_distance value = 51 }
+				set_province_flag = distance_set3
+			}
+		}
+		
+		every_owned_province = {
+			limit = {
+				has_province_flag = distance_set3
+			}
+			every_neighbor_province = {
+				limit = {
+					owned_by = ROOT
+					NOT = { has_province_flag = distance_set0 }
+					NOT = { has_province_flag = distance_set1 }
+					NOT = { has_province_flag = distance_set2 }
+					NOT = { has_province_flag = distance_set3 }
+					NOT = { has_province_flag = distance_set4 }
+				}
+				change_variable = { which = CE_distance value = 68 }
+				set_province_flag = distance_set4
+			}
+		}
+		
+		every_owned_province = {
+			limit = {
+				has_province_flag = distance_set4
+			}
+			every_neighbor_province = {
+				limit = {
+					owned_by = ROOT
+					NOT = { has_province_flag = distance_set0 }
+					NOT = { has_province_flag = distance_set1 }
+					NOT = { has_province_flag = distance_set2 }
+					NOT = { has_province_flag = distance_set3 }
+					NOT = { has_province_flag = distance_set4 }
+					NOT = { has_province_flag = distance_set5 }
+				}
+				change_variable = { which = CE_distance value = 85 }
+				set_province_flag = distance_set5
+			}
+		}
+		
+		every_owned_province = {
+			limit = {
+				has_province_flag = distance_set5
+			}
+			every_neighbor_province = {
+				limit = {
+					owned_by = ROOT
+					NOT = { has_province_flag = distance_set0 }
+					NOT = { has_province_flag = distance_set1 }
+					NOT = { has_province_flag = distance_set2 }
+					NOT = { has_province_flag = distance_set3 }
+					NOT = { has_province_flag = distance_set4 }
+					NOT = { has_province_flag = distance_set5 }
+					NOT = { has_province_flag = distance_set6 }
+				}
+				change_variable = { which = CE_distance value = 102 }
+				set_province_flag = distance_set6
+			}
+		}
+		
+		every_owned_province = {
+			limit = {
+				has_province_flag = distance_set6
+			}
+			every_neighbor_province = {
+				limit = {
+					owned_by = ROOT
+					NOT = { has_province_flag = distance_set0 }
+					NOT = { has_province_flag = distance_set1 }
+					NOT = { has_province_flag = distance_set2 }
+					NOT = { has_province_flag = distance_set3 }
+					NOT = { has_province_flag = distance_set4 }
+					NOT = { has_province_flag = distance_set5 }
+					NOT = { has_province_flag = distance_set6 }
+					NOT = { has_province_flag = distance_set7 }
+				}
+				change_variable = { which = CE_distance value = 119 }
+				set_province_flag = distance_set7
+			}
+		}
+		
+		every_owned_province = {
+			limit = {
+				has_province_flag = distance_set7
+			}
+			every_neighbor_province = {
+				limit = {
+					owned_by = ROOT
+					NOT = { has_province_flag = distance_set0 }
+					NOT = { has_province_flag = distance_set1 }
+					NOT = { has_province_flag = distance_set2 }
+					NOT = { has_province_flag = distance_set3 }
+					NOT = { has_province_flag = distance_set4 }
+					NOT = { has_province_flag = distance_set5 }
+					NOT = { has_province_flag = distance_set6 }
+					NOT = { has_province_flag = distance_set7 }
+					NOT = { has_province_flag = distance_set8 }
+				}
+				change_variable = { which = CE_distance value = 136 }
+				set_province_flag = distance_set8
+			}
+		}
+		
+		every_owned_province = {
+			limit = {
+				has_province_flag = distance_set8
+			}
+			every_neighbor_province = {
+				limit = {
+					owned_by = ROOT
+					NOT = { has_province_flag = distance_set0 }
+					NOT = { has_province_flag = distance_set1 }
+					NOT = { has_province_flag = distance_set2 }
+					NOT = { has_province_flag = distance_set3 }
+					NOT = { has_province_flag = distance_set4 }
+					NOT = { has_province_flag = distance_set5 }
+					NOT = { has_province_flag = distance_set6 }
+					NOT = { has_province_flag = distance_set7 }
+					NOT = { has_province_flag = distance_set8 }
+					NOT = { has_province_flag = distance_set9 }
+				}
+				change_variable = { which = CE_distance value = 153 }
+				set_province_flag = distance_set9
+			}
+		}
+		
+		every_owned_province = {
+			limit = {
+				has_province_flag = distance_set9
+			}
+			every_neighbor_province = {
+				limit = {
+					owned_by = ROOT
+					NOT = { has_province_flag = distance_set0 }
+					NOT = { has_province_flag = distance_set1 }
+					NOT = { has_province_flag = distance_set2 }
+					NOT = { has_province_flag = distance_set3 }
+					NOT = { has_province_flag = distance_set4 }
+					NOT = { has_province_flag = distance_set5 }
+					NOT = { has_province_flag = distance_set6 }
+					NOT = { has_province_flag = distance_set7 }
+					NOT = { has_province_flag = distance_set8 }
+					NOT = { has_province_flag = distance_set9 }
+					NOT = { has_province_flag = distance_set10 }
+				}
+				change_variable = { which = CE_distance value = 170 }
+				set_province_flag = distance_set10
+			}
+		}
+		
+		every_owned_province = {
+			limit = {
+				has_province_flag = distance_set10
+			}
+			every_neighbor_province = {
+				limit = {
+					owned_by = ROOT
+					NOT = { has_province_flag = distance_set0 }
+					NOT = { has_province_flag = distance_set1 }
+					NOT = { has_province_flag = distance_set2 }
+					NOT = { has_province_flag = distance_set3 }
+					NOT = { has_province_flag = distance_set4 }
+					NOT = { has_province_flag = distance_set5 }
+					NOT = { has_province_flag = distance_set6 }
+					NOT = { has_province_flag = distance_set7 }
+					NOT = { has_province_flag = distance_set8 }
+					NOT = { has_province_flag = distance_set9 }
+					NOT = { has_province_flag = distance_set10 }
+					NOT = { has_province_flag = distance_set11 }
+				}
+				change_variable = { which = CE_distance value = 187 }
+				set_province_flag = distance_set11
+			}
+		}
+		
+		every_owned_province = {
+			limit = {
+				has_province_flag = distance_set11
+			}
+			every_neighbor_province = {
+				limit = {
+					owned_by = ROOT
+					NOT = { has_province_flag = distance_set0 }
+					NOT = { has_province_flag = distance_set1 }
+					NOT = { has_province_flag = distance_set2 }
+					NOT = { has_province_flag = distance_set3 }
+					NOT = { has_province_flag = distance_set4 }
+					NOT = { has_province_flag = distance_set5 }
+					NOT = { has_province_flag = distance_set6 }
+					NOT = { has_province_flag = distance_set7 }
+					NOT = { has_province_flag = distance_set8 }
+					NOT = { has_province_flag = distance_set9 }
+					NOT = { has_province_flag = distance_set10 }
+					NOT = { has_province_flag = distance_set11 }
+					NOT = { has_province_flag = distance_set12 }
+				}
+				change_variable = { which = CE_distance value = 204 }
+				set_province_flag = distance_set12
+			}
+		}
+		
+		every_owned_province = {
+			limit = {
+				has_province_flag = distance_set12
+			}
+			every_neighbor_province = {
+				limit = {
+					owned_by = ROOT
+					NOT = { has_province_flag = distance_set0 }
+					NOT = { has_province_flag = distance_set1 }
+					NOT = { has_province_flag = distance_set2 }
+					NOT = { has_province_flag = distance_set3 }
+					NOT = { has_province_flag = distance_set4 }
+					NOT = { has_province_flag = distance_set5 }
+					NOT = { has_province_flag = distance_set6 }
+					NOT = { has_province_flag = distance_set7 }
+					NOT = { has_province_flag = distance_set8 }
+					NOT = { has_province_flag = distance_set9 }
+					NOT = { has_province_flag = distance_set10 }
+					NOT = { has_province_flag = distance_set11 }
+					NOT = { has_province_flag = distance_set12 }
+					NOT = { has_province_flag = distance_set13 }
+				}
+				change_variable = { which = CE_distance value = 221 }
+				set_province_flag = distance_set13
+			}
+		}
+		
+		every_owned_province = {
+			limit = {
+				has_province_flag = distance_set13
+			}
+			every_neighbor_province = {
+				limit = {
+					owned_by = ROOT
+					NOT = { has_province_flag = distance_set0 }
+					NOT = { has_province_flag = distance_set1 }
+					NOT = { has_province_flag = distance_set2 }
+					NOT = { has_province_flag = distance_set3 }
+					NOT = { has_province_flag = distance_set4 }
+					NOT = { has_province_flag = distance_set5 }
+					NOT = { has_province_flag = distance_set6 }
+					NOT = { has_province_flag = distance_set7 }
+					NOT = { has_province_flag = distance_set8 }
+					NOT = { has_province_flag = distance_set9 }
+					NOT = { has_province_flag = distance_set10 }
+					NOT = { has_province_flag = distance_set11 }
+					NOT = { has_province_flag = distance_set12 }
+					NOT = { has_province_flag = distance_set13 }
+					NOT = { has_province_flag = distance_set14 }
+				}
+				change_variable = { which = CE_distance value = 238 }
+				set_province_flag = distance_set14
+			}
+		}
+		
+		every_owned_province = {
+			limit = {
+				has_province_flag = distance_set14
+			}
+			every_neighbor_province = {
+				limit = {
+					owned_by = ROOT
+					NOT = { has_province_flag = distance_set0 }
+					NOT = { has_province_flag = distance_set1 }
+					NOT = { has_province_flag = distance_set2 }
+					NOT = { has_province_flag = distance_set3 }
+					NOT = { has_province_flag = distance_set4 }
+					NOT = { has_province_flag = distance_set5 }
+					NOT = { has_province_flag = distance_set6 }
+					NOT = { has_province_flag = distance_set7 }
+					NOT = { has_province_flag = distance_set8 }
+					NOT = { has_province_flag = distance_set9 }
+					NOT = { has_province_flag = distance_set10 }
+					NOT = { has_province_flag = distance_set11 }
+					NOT = { has_province_flag = distance_set12 }
+					NOT = { has_province_flag = distance_set13 }
+					NOT = { has_province_flag = distance_set14 }
+					NOT = { has_province_flag = distance_set15 }
+				}
+				change_variable = { which = CE_distance value = 255 }
+				set_province_flag = distance_set15
+			}
+		}
+		
+		every_owned_province = {
+			limit = {
+				has_province_flag = distance_set15
+			}
+			every_neighbor_province = {
+				limit = {
+					owned_by = ROOT
+					NOT = { has_province_flag = distance_set0 }
+					NOT = { has_province_flag = distance_set1 }
+					NOT = { has_province_flag = distance_set2 }
+					NOT = { has_province_flag = distance_set3 }
+					NOT = { has_province_flag = distance_set4 }
+					NOT = { has_province_flag = distance_set5 }
+					NOT = { has_province_flag = distance_set6 }
+					NOT = { has_province_flag = distance_set7 }
+					NOT = { has_province_flag = distance_set8 }
+					NOT = { has_province_flag = distance_set9 }
+					NOT = { has_province_flag = distance_set10 }
+					NOT = { has_province_flag = distance_set11 }
+					NOT = { has_province_flag = distance_set12 }
+					NOT = { has_province_flag = distance_set13 }
+					NOT = { has_province_flag = distance_set14 }
+					NOT = { has_province_flag = distance_set15 }
+					NOT = { has_province_flag = distance_set16 }
+				}
+				change_variable = { which = CE_distance value = 272 }
+				set_province_flag = distance_set16
+			}
+		}
+		
+		every_owned_province = {
+			limit = {
+				has_province_flag = distance_set16
+			}
+			every_neighbor_province = {
+				limit = {
+					owned_by = ROOT
+					NOT = { has_province_flag = distance_set0 }
+					NOT = { has_province_flag = distance_set1 }
+					NOT = { has_province_flag = distance_set2 }
+					NOT = { has_province_flag = distance_set3 }
+					NOT = { has_province_flag = distance_set4 }
+					NOT = { has_province_flag = distance_set5 }
+					NOT = { has_province_flag = distance_set6 }
+					NOT = { has_province_flag = distance_set7 }
+					NOT = { has_province_flag = distance_set8 }
+					NOT = { has_province_flag = distance_set9 }
+					NOT = { has_province_flag = distance_set10 }
+					NOT = { has_province_flag = distance_set11 }
+					NOT = { has_province_flag = distance_set12 }
+					NOT = { has_province_flag = distance_set13 }
+					NOT = { has_province_flag = distance_set14 }
+					NOT = { has_province_flag = distance_set15 }
+					NOT = { has_province_flag = distance_set16 }
+					NOT = { has_province_flag = distance_set17 }
+				}
+				change_variable = { which = CE_distance value = 289 }
+				set_province_flag = distance_set17
+			}
+		}
+		
+		every_owned_province = {
+			limit = {
+				has_province_flag = distance_set17
+			}
+			every_neighbor_province = {
+				limit = {
+					owned_by = ROOT
+					NOT = { has_province_flag = distance_set0 }
+					NOT = { has_province_flag = distance_set1 }
+					NOT = { has_province_flag = distance_set2 }
+					NOT = { has_province_flag = distance_set3 }
+					NOT = { has_province_flag = distance_set4 }
+					NOT = { has_province_flag = distance_set5 }
+					NOT = { has_province_flag = distance_set6 }
+					NOT = { has_province_flag = distance_set7 }
+					NOT = { has_province_flag = distance_set8 }
+					NOT = { has_province_flag = distance_set9 }
+					NOT = { has_province_flag = distance_set10 }
+					NOT = { has_province_flag = distance_set11 }
+					NOT = { has_province_flag = distance_set12 }
+					NOT = { has_province_flag = distance_set13 }
+					NOT = { has_province_flag = distance_set14 }
+					NOT = { has_province_flag = distance_set15 }
+					NOT = { has_province_flag = distance_set16 }
+					NOT = { has_province_flag = distance_set17 }
+					NOT = { has_province_flag = distance_set18 }
+				}
+				change_variable = { which = CE_distance value = 306 }
+				set_province_flag = distance_set18
+			}
+		}
+		
+		every_owned_province = {
+			limit = {
+				has_province_flag = distance_set18
+			}
+			every_neighbor_province = {
+				limit = {
+					owned_by = ROOT
+					NOT = { has_province_flag = distance_set0 }
+					NOT = { has_province_flag = distance_set1 }
+					NOT = { has_province_flag = distance_set2 }
+					NOT = { has_province_flag = distance_set3 }
+					NOT = { has_province_flag = distance_set4 }
+					NOT = { has_province_flag = distance_set5 }
+					NOT = { has_province_flag = distance_set6 }
+					NOT = { has_province_flag = distance_set7 }
+					NOT = { has_province_flag = distance_set8 }
+					NOT = { has_province_flag = distance_set9 }
+					NOT = { has_province_flag = distance_set10 }
+					NOT = { has_province_flag = distance_set11 }
+					NOT = { has_province_flag = distance_set12 }
+					NOT = { has_province_flag = distance_set13 }
+					NOT = { has_province_flag = distance_set14 }
+					NOT = { has_province_flag = distance_set15 }
+					NOT = { has_province_flag = distance_set16 }
+					NOT = { has_province_flag = distance_set17 }
+					NOT = { has_province_flag = distance_set18 }
+					NOT = { has_province_flag = distance_set19 }
+				}
+				change_variable = { which = CE_distance value = 323 }
+				set_province_flag = distance_set19
+			}
+		}
+		
+		every_owned_province = {
+			limit = {
+				has_province_flag = distance_set19
+			}
+			every_neighbor_province = {
+				limit = {
+					owned_by = ROOT
+					NOT = { has_province_flag = distance_set0 }
+					NOT = { has_province_flag = distance_set1 }
+					NOT = { has_province_flag = distance_set2 }
+					NOT = { has_province_flag = distance_set3 }
+					NOT = { has_province_flag = distance_set4 }
+					NOT = { has_province_flag = distance_set5 }
+					NOT = { has_province_flag = distance_set6 }
+					NOT = { has_province_flag = distance_set7 }
+					NOT = { has_province_flag = distance_set8 }
+					NOT = { has_province_flag = distance_set9 }
+					NOT = { has_province_flag = distance_set10 }
+					NOT = { has_province_flag = distance_set11 }
+					NOT = { has_province_flag = distance_set12 }
+					NOT = { has_province_flag = distance_set13 }
+					NOT = { has_province_flag = distance_set14 }
+					NOT = { has_province_flag = distance_set15 }
+					NOT = { has_province_flag = distance_set16 }
+					NOT = { has_province_flag = distance_set17 }
+					NOT = { has_province_flag = distance_set18 }
+					NOT = { has_province_flag = distance_set19 }
+					NOT = { has_province_flag = distance_set20 }
+				}
+				change_variable = { which = CE_distance value = 340 }
+				set_province_flag = distance_set20
+			}
+		}
+		
+		every_owned_province = {
+			limit = {
+				has_province_flag = distance_set20
+			}
+			every_neighbor_province = {
+				limit = {
+					owned_by = ROOT
+					NOT = { has_province_flag = distance_set0 }
+					NOT = { has_province_flag = distance_set1 }
+					NOT = { has_province_flag = distance_set2 }
+					NOT = { has_province_flag = distance_set3 }
+					NOT = { has_province_flag = distance_set4 }
+					NOT = { has_province_flag = distance_set5 }
+					NOT = { has_province_flag = distance_set6 }
+					NOT = { has_province_flag = distance_set7 }
+					NOT = { has_province_flag = distance_set8 }
+					NOT = { has_province_flag = distance_set9 }
+					NOT = { has_province_flag = distance_set10 }
+					NOT = { has_province_flag = distance_set11 }
+					NOT = { has_province_flag = distance_set12 }
+					NOT = { has_province_flag = distance_set13 }
+					NOT = { has_province_flag = distance_set14 }
+					NOT = { has_province_flag = distance_set15 }
+					NOT = { has_province_flag = distance_set16 }
+					NOT = { has_province_flag = distance_set17 }
+					NOT = { has_province_flag = distance_set18 }
+					NOT = { has_province_flag = distance_set19 }
+					NOT = { has_province_flag = distance_set20 }
+					NOT = { has_province_flag = distance_set21 }
+				}
+				change_variable = { which = CE_distance value = 357 }
+				set_province_flag = distance_set21
+			}
+		}
+		
+		every_owned_province = {
+			limit = {
+				has_province_flag = distance_set21
+			}
+			every_neighbor_province = {
+				limit = {
+					owned_by = ROOT
+					NOT = { has_province_flag = distance_set0 }
+					NOT = { has_province_flag = distance_set1 }
+					NOT = { has_province_flag = distance_set2 }
+					NOT = { has_province_flag = distance_set3 }
+					NOT = { has_province_flag = distance_set4 }
+					NOT = { has_province_flag = distance_set5 }
+					NOT = { has_province_flag = distance_set6 }
+					NOT = { has_province_flag = distance_set7 }
+					NOT = { has_province_flag = distance_set8 }
+					NOT = { has_province_flag = distance_set9 }
+					NOT = { has_province_flag = distance_set10 }
+					NOT = { has_province_flag = distance_set11 }
+					NOT = { has_province_flag = distance_set12 }
+					NOT = { has_province_flag = distance_set13 }
+					NOT = { has_province_flag = distance_set14 }
+					NOT = { has_province_flag = distance_set15 }
+					NOT = { has_province_flag = distance_set16 }
+					NOT = { has_province_flag = distance_set17 }
+					NOT = { has_province_flag = distance_set18 }
+					NOT = { has_province_flag = distance_set19 }
+					NOT = { has_province_flag = distance_set20 }
+					NOT = { has_province_flag = distance_set21 }
+					NOT = { has_province_flag = distance_set22 }
+				}
+				change_variable = { which = CE_distance value = 374 }
+				set_province_flag = distance_set22
+			}
+		}
+		
+		every_owned_province = {
+			limit = {
+				has_province_flag = distance_set22
+			}
+			every_neighbor_province = {
+				limit = {
+					owned_by = ROOT
+					NOT = { has_province_flag = distance_set0 }
+					NOT = { has_province_flag = distance_set1 }
+					NOT = { has_province_flag = distance_set2 }
+					NOT = { has_province_flag = distance_set3 }
+					NOT = { has_province_flag = distance_set4 }
+					NOT = { has_province_flag = distance_set5 }
+					NOT = { has_province_flag = distance_set6 }
+					NOT = { has_province_flag = distance_set7 }
+					NOT = { has_province_flag = distance_set8 }
+					NOT = { has_province_flag = distance_set9 }
+					NOT = { has_province_flag = distance_set10 }
+					NOT = { has_province_flag = distance_set11 }
+					NOT = { has_province_flag = distance_set12 }
+					NOT = { has_province_flag = distance_set13 }
+					NOT = { has_province_flag = distance_set14 }
+					NOT = { has_province_flag = distance_set15 }
+					NOT = { has_province_flag = distance_set16 }
+					NOT = { has_province_flag = distance_set17 }
+					NOT = { has_province_flag = distance_set18 }
+					NOT = { has_province_flag = distance_set19 }
+					NOT = { has_province_flag = distance_set20 }
+					NOT = { has_province_flag = distance_set21 }
+					NOT = { has_province_flag = distance_set22 }
+					NOT = { has_province_flag = distance_set23 }
+				}
+				change_variable = { which = CE_distance value = 391 }
+				set_province_flag = distance_set23
+			}
+		}
+		
+		every_owned_province = {
+			limit = {
+				has_province_flag = distance_set23
+			}
+			every_neighbor_province = {
+				limit = {
+					owned_by = ROOT
+					NOT = { has_province_flag = distance_set0 }
+					NOT = { has_province_flag = distance_set1 }
+					NOT = { has_province_flag = distance_set2 }
+					NOT = { has_province_flag = distance_set3 }
+					NOT = { has_province_flag = distance_set4 }
+					NOT = { has_province_flag = distance_set5 }
+					NOT = { has_province_flag = distance_set6 }
+					NOT = { has_province_flag = distance_set7 }
+					NOT = { has_province_flag = distance_set8 }
+					NOT = { has_province_flag = distance_set9 }
+					NOT = { has_province_flag = distance_set10 }
+					NOT = { has_province_flag = distance_set11 }
+					NOT = { has_province_flag = distance_set12 }
+					NOT = { has_province_flag = distance_set13 }
+					NOT = { has_province_flag = distance_set14 }
+					NOT = { has_province_flag = distance_set15 }
+					NOT = { has_province_flag = distance_set16 }
+					NOT = { has_province_flag = distance_set17 }
+					NOT = { has_province_flag = distance_set18 }
+					NOT = { has_province_flag = distance_set19 }
+					NOT = { has_province_flag = distance_set20 }
+					NOT = { has_province_flag = distance_set21 }
+					NOT = { has_province_flag = distance_set22 }
+					NOT = { has_province_flag = distance_set23 }
+					NOT = { has_province_flag = distance_set24 }
+				}
+				change_variable = { which = CE_distance value = 408 }
+				set_province_flag = distance_set24
+			}
+		}
+		
+		every_owned_province = {
+			if = {
+				limit = {
+					is_capital = no
+					OR = {
+						region = western_mexico_r
+						region = michoacan_r
+					}
+				}
+				change_variable = { which = CE_distance value = 17 }
+			}
+		
+			if = {
+				limit = {
+					is_capital = no
+					OR = {
+						region = central_mexico_r
+						region = southern_mexico_r
+					}
+				}
+				change_variable = { which = CE_distance value = -17 }
+			}
+		}
+		
+		every_owned_province = {
+			if = {
+				limit = {
+					has_building = adminoffice 
+				}
+				change_variable = { which = CE_distance value = -140 }
+			}
+			if = {
+				limit = {
+					any_neighbor_province = {
+						has_building = adminoffice 
+					}
+				}
+				change_variable = { which = CE_distance value = -85 }
+			}
+		}
+			
+		every_owned_province = {
+			if = {
+				limit = {
+					NOT = { 
+						check_variable = {
+							which = CE_distance
+							value = 1
+						}
+					}
+				}
+				add_province_modifier = {
+					name = perfect_communication
+					duration = -1
+				}
+				if = {
+					limit = {
+						owner = {
+							ai = no
+						}
+					}
+					add_province_modifier = {
+						name = perc_map
+						duration = -1
+					}
+				}
+			}
+		}
+		
+		every_owned_province = {
+			if = {
+				limit = {
+					check_variable = { 
+						which = CE_distance 
+						value = 1
+					}
+					NOT = { 
+						check_variable = {
+							which = CE_distance
+							value = 51
+						}
+					}
+				}
+				add_province_modifier = {
+					name = near_perfect_communication
+					duration = -1
+				}
+				if = {
+					limit = {
+						owner = {
+							ai = no
+						}
+					}
+					add_province_modifier = {
+						name = npc_map
+						duration = -1
+					}
+				}
+			}
+		}
+		
+		every_owned_province = {
+			if = {
+				limit = {
+					check_variable = { 
+						which = CE_distance 
+						value = 51
+					}
+					NOT = { 
+						check_variable = {
+							which = CE_distance
+							value = 85
+						}
+					}
+				}
+				add_province_modifier = {
+					name = very_good_communication
+					duration = -1
+				}
+				if = {
+					limit = {
+						owner = {
+							ai = no
+						}
+					}
+					add_province_modifier = {
+						name = vgc_map
+						duration = -1
+					}
+				}
+			}
+		}
+		
+		every_owned_province = {
+			if = {
+				limit = {
+					check_variable = { 
+						which = CE_distance 
+						value = 85
+					}
+					NOT = { 
+						check_variable = {
+							which = CE_distance
+							value = 119
+						}
+					}
+				}
+				add_province_modifier = {
+					name = good_communication
+					duration = -1
+				}
+				if = {
+					limit = {
+						owner = {
+							ai = no
+						}
+					}
+					add_province_modifier = {
+						name = gc_map
+						duration = -1
+					}
+				}
+			}
+		}
+		
+		every_owned_province = {
+			if = {
+				limit = {
+					check_variable = { 
+						which = CE_distance 
+						value = 119
+					}
+					NOT = { 
+						check_variable = {
+							which = CE_distance
+							value = 153
+						}
+					}
+				}
+				add_province_modifier = {
+					name = fair_communication
+					duration = -1
+				}
+				if = {
+					limit = {
+						owner = {
+							ai = no
+						}
+					}
+					add_province_modifier = {
+						name = fc_map
+						duration = -1
+					}
+				}
+			}
+		}
+		
+		every_owned_province = {
+			if = {
+				limit = {
+					check_variable = { 
+						which = CE_distance 
+						value = 153
+					}
+					NOT = { 
+						check_variable = {
+							which = CE_distance
+							value = 187
+						}
+					}
+				}
+				add_province_modifier = {
+					name = difficult_communication
+					duration = -1
+				}
+				if = {
+					limit = {
+						owner = {
+							ai = no
+						}
+					}
+					add_province_modifier = {
+						name = dc_map
+						duration = -1
+					}
+				}
+			}
+		}
+		
+		every_owned_province = {
+			if = {
+				limit = {
+					check_variable = { 
+						which = CE_distance 
+						value = 187
+					}
+					NOT = { 
+						check_variable = {
+							which = CE_distance
+							value = 221
+						}
+					}
+				}
+				add_province_modifier = {
+					name = poor_communication
+					duration = -1
+				}
+				if = {
+					limit = {
+						owner = {
+							ai = no
+						}
+					}
+					add_province_modifier = {
+						name = pc_map
+						duration = -1
+					}
+				}
+			}
+		}
+		
+		every_owned_province = {
+			if = {
+				limit = {
+					check_variable = { 
+						which = CE_distance 
+						value = 221
+					}
+					NOT = { 
+						check_variable = {
+							which = CE_distance
+							value = 255
+						}
+					}
+				}
+				add_province_modifier = {
+					name = very_poor_communication
+					duration = -1
+				}
+				if = {
+					limit = {
+						owner = {
+							ai = no
+						}
+					}
+					add_province_modifier = {
+						name = vpc_map
+						duration = -1
+					}
+				}
+			}
+		}
+		
+		every_owned_province = {
+			if = {
+				limit = {
+					check_variable = { 
+						which = CE_distance 
+						value = 255
+					}
+					NOT = { 
+						check_variable = {
+							which = CE_distance
+							value = 289
+						}
+					}
+				}
+				add_province_modifier = {
+					name = terrible_communication
+					duration = -1
+				}
+				if = {
+					limit = {
+						owner = {
+							ai = no
+						}
+					}
+					add_province_modifier = {
+						name = tc_map
+						duration = -1
+					}
+				}
+			}
+		}
+		
+		every_owned_province = {
+			if = {
+				limit = {
+					check_variable = { 
+						which = CE_distance 
+						value = 289
+					}
+				}
+				add_province_modifier = {
+					name = minimal_communication
+					duration = -1
+				}
+				if = {
+					limit = {
+						owner = {
+							ai = no
+						}
+					}
+					add_province_modifier = {
+						name = mc_map
+						duration = -1
+					}
+				}
+			}
+		}
+	}
+}
+

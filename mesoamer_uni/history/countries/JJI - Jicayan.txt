@@ -1,0 +1,18 @@
+government = altepetl 
+government_rank = 1
+mercantilism = 0.25
+technology_group = central_mexican 
+religion = mixtec 
+primary_culture = newmixtec
+capital = 742
+fixed_capital = 742
+
+1427.1.1 = {
+	monarch = {
+		name = "Placeholder"
+		dynasty = "Jicayan"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

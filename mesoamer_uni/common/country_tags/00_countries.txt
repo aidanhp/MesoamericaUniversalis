@@ -588,5 +588,39 @@ TOE     = "countries/TenochcaEmpire.txt"
 TCE     = "countries/TetzcocahEmpire.txt"
 TNE     = "countries/TlacoEmpire.txt"
 
+#Guatemalan Highlands Additions Phase II
+IIK     = "countries/Sija.txt"
+IIL     = "countries/Xecul.txt"
+IIM     = "countries/XochO.txt"
+IIN     = "countries/ChuwaTZak.txt"
+IIO     = "countries/Ilocab.txt"
+IIP     = "countries/Xinabujul.txt"
+IIQ     = "countries/Balamija.txt"
+IIR     = "countries/AkAab.txt"
+IIS     = "countries/Tujal.txt"
+IIT     = "countries/Cubulcaal.txt"
+IIU     = "countries/TzAlAmja.txt"
+IIV     = "countries/Chajoma.txt"
+IIW     = "countries/Pocub.txt"
+IIX     = "countries/Itztapa.txt"
+IIY     = "countries/Izquintepeque.txt"
+
+#Mixtec/Zapotec Additions Phase II
+IIZ     = "countries/Zenzontepec.txt"
+JJA     = "countries/Huaxpaltepec.txt"
+JJB     = "countries/Cacalotepec.txt"
+JJC     = "countries/Mixtepec.txt"
+JJD     = "countries/Loxicha.txt"
+JJE     = "countries/Xanica.txt"
+JJF     = "countries/Astata.txt"
+JJG     = "countries/Zaachila.txt"
+JJH     = "countries/Cuilapan.txt"
+JJI     = "countries/Jicayan.txt"
+JJJ     = "countries/Pinotepa.txt"
+
+#Tabasco
+JJK     = "countries/Pontonchan.txt"
+JJL     = "countries/Copilco.txt"
+
 #Special Countries
 MGI     = "countries/MagicIsland.txt"

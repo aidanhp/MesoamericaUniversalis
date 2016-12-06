@@ -1,13 +1,13 @@
 add_core = HHF
 owner = HHF
 controller = HHF
-culture = tarascan
+culture = maxahua
 religion = tarascan 
 hre = no
-base_tax = 110
-base_production = 220
+base_tax = 1
+base_production = 2
 trade_goods = grain
-base_manpower = 770
+base_manpower = 8
 capital = "Jungapeo"
 is_city = yes
 fort_15th = yes

@@ -1,0 +1,120 @@
+namespace = gsuccession
+
+#Appoint a new favorite successor - triggered
+country_event = {
+	id = gsuccession.01
+	
+	title = "gsuccession1.t"
+	desc = "gsuccession1.d"
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "gsuccession1.a"
+		hidden_effect = {
+			define_heir = {
+				dynasty = ROOT
+				claim = 80
+				age = 18
+				adm = 1
+				dip = 2
+				mil = 3
+				male = yes
+			}
+		}
+	}
+	
+	option = {
+		name = "gsuccession1.b"
+		hidden_effect = {
+			define_heir = {
+				dynasty = ROOT
+				claim = 80
+				age = 18
+				adm = 2
+				dip = 4
+				mil = 1
+				male = yes
+			}
+		}
+	}
+	
+	option = {
+		name = "gsuccession1.c"
+		hidden_effect = {
+			define_heir = {
+				dynasty = ROOT
+				claim = 80
+				age = 18
+				adm = 3
+				dip = 1
+				mil = 1
+				male = yes
+			}
+		}
+	}
+}
+
+#Appoint a new favorite successor - heir needed
+country_event = {
+	id = gsuccession.02
+	
+	title = "gsuccession2.t"
+	desc = "gsuccession2.d"
+	picture = COURT_eventPicture
+	
+	trigger = {
+		NOT = { has_heir = yes }
+		NOT = { has_country_modifier = deliberations_of_the_council }
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = "gsuccession2.a"
+		hidden_effect = {
+			define_heir = {
+				dynasty = ROOT
+				claim = 80
+				age = 18
+				adm = 1
+				dip = 2
+				mil = 3
+				male = yes
+			}
+		}
+	}
+	
+	option = {
+		name = "gsuccession2.b"
+		hidden_effect = {
+			define_heir = {
+				dynasty = ROOT
+				claim = 80
+				age = 18
+				adm = 2
+				dip = 4
+				mil = 1
+				male = yes
+			}
+		}
+	}
+	
+	option = {
+		name = "gsuccession2.c"
+		hidden_effect = {
+			define_heir = {
+				dynasty = ROOT
+				claim = 80
+				age = 18
+				adm = 3
+				dip = 1
+				mil = 1
+				male = yes
+			}
+		}
+	}
+}

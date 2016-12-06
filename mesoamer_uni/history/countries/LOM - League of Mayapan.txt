@@ -1,4 +1,4 @@
-government = mayapan
+government = mayapan_1
 government_rank = 2
 mercantilism = 0.25
 technology_group = northern_mayan
@@ -7,12 +7,16 @@ primary_culture = yucatecmayan
 capital = 150
 fixed_capital = 150
 
-1427.1.1 = {
+1415.1.1 = {
 	monarch = {
 		name = "Hunac"
 		dynasty = "Cocom"
-		adm = 4
-		dip = 4
+		adm = 1
+		dip = 0
 		mil = 4
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = greedy_personality 
+	add_ruler_personality = cruel_personality 
+	add_ruler_personality = malevolent_personality 
 }

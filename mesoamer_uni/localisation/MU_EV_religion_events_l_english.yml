@@ -1,0 +1,28 @@
+﻿l_english:
+ #Nahuatl
+ #EVENTS
+ captives1.t: "Warriors Captured"
+ captives1.d: "In our recent victory on the battlefield, we captured several warriors."
+ captives1.a: "Take them to $CAPITAL_CITY$!"
+ captives2.t: "Sacrificial Ceremony"
+ captives2.d: "Crowds of people have gathered around the ceremonial precinct of $CAPITAL_CITY$, cheering as lines of captured enemies are escorted to the central temple to serve their greater purpose. Their captors, rewarded with beautiful robes and special insignia, look on as $MONARCHTITLE$ $MONARCH$ arrives on the scene, resplendent in royal regalia and wielding a freshly sharpened blade."
+ captives2.a: "Sacrifice the important captives yourself!"
+ captives2.b: "Let the Priesthood do it all."
+ 
+ #DECISIONS
+ nahuatl_sacrific_captives_title: "Sacrifice Religious Captives"
+ nahuatl_sacrific_captives_desc: "Hold a great religious ceremony in the capital and sacrifice the warriors we have captured in battle to the gods."
+ 
+ #Tarascan
+ 
+ 
+ #Mixtec
+ 
+ 
+ #Zapotec
+ 
+ 
+ #Mayan - Yucatec
+ 
+ 
+ #Mayan - Highland

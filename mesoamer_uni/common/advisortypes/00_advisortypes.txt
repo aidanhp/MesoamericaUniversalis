@@ -4,6 +4,9 @@
 #
 # Uses all 'modifiers' possible that are exported as a Modifier.
 
+# Note that ai_will_do calculates a priority.
+# An advisor may be chosen over another if its random priority exceeds it. RandomPriority(advisor) := rand[1, 2[ * Priority(advisor).
+
 
 ######################################################
 # Administrative Advisors
@@ -19,6 +22,10 @@ philosopher = {
 	chance = {
 		factor = 1
 	}
+	
+	ai_will_do = {
+		factor = 1
+	}
 }
 
 ######################################################
@@ -26,11 +33,15 @@ natural_scientist = {
 	monarch_power = ADM
 	
 	# Bonus
-	production_efficiency = 0.20
+	production_efficiency = 0.10
 	
 	chance = {
 		factor = 1
-	}	
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
 }
 
 ######################################################
@@ -42,7 +53,11 @@ artist = {
 	
 	chance = {
 		factor = 1
-	}	
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
 }
 
 ######################################################
@@ -50,11 +65,15 @@ treasurer = {
 	monarch_power = ADM
 	
 	# Bonus
-	global_tax_modifier = 0.025
+	global_tax_modifier = 0.05
 	
 	chance = {
 		factor = 1
-	}	
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
 }
 
 ######################################################
@@ -62,11 +81,15 @@ theologian = {
 	monarch_power = ADM
 	
 	# Bonus
-	global_unrest = -2
+	global_unrest = -4
 
 	chance = {
 		factor = 1
 
+	}
+	
+	ai_will_do = {
+		factor = 1
 	}
 }
 
@@ -75,11 +98,15 @@ master_of_mint = {
 	monarch_power = ADM
 	
 	# Bonus
-	inflation_reduction = 0.10
+	inflation_reduction = 0.15
 	
 	chance = {
 		factor = 1
-	}	
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
 }
 
 ######################################################
@@ -87,9 +114,13 @@ inquisitor = {
 	monarch_power = ADM
 	
 	# Bonus
-	global_missionary_strength = 0.03
-
+	global_missionary_strength = 0.04
+	
 	chance = {
+		factor = 1
+	}
+	
+	ai_will_do = {
 		factor = 1
 	}
 }
@@ -108,7 +139,11 @@ statesman = {
 	
 	chance = {
 		factor = 1
-	}	
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
 }
 
 ######################################################
@@ -126,6 +161,10 @@ naval_reformer = {
 			has_port = no
 		}
 	}
+	
+	ai_will_do = {
+		factor = 1
+	}
 }
 
 ######################################################
@@ -133,9 +172,13 @@ trader = {
 	monarch_power = DIP
 	
 	# Bonus
-	global_trade_power = 0.075
+	trade_efficiency = 0.10
 	
 	chance = {
+		factor = 1
+	}
+	
+	ai_will_do = {
 		factor = 1
 	}
 }
@@ -145,9 +188,13 @@ spymaster = {
 	monarch_power = DIP
 	
 	# Bonus
-	spy_offence = 0.33
+	spy_offence = 0.25
 	
 	chance = {
+		factor = 1
+	}
+	
+	ai_will_do = {
 		factor = 1
 	}
 }
@@ -170,6 +217,10 @@ colonial_governor = {
 			owner = { is_colonial_nation = yes }
 		}
 	}
+	
+	ai_will_do = {
+		factor = 1
+	}
 }
 
 ######################################################
@@ -177,9 +228,13 @@ diplomat = {
 	monarch_power = DIP
 	
 	# Bonus
-	relations_decay_of_me = 0.25
+	relations_decay_of_me = 0.2
 	
 	chance = {
+		factor = 1
+	}
+	
+	ai_will_do = {
 		factor = 1
 	}
 }
@@ -198,6 +253,10 @@ navigator = {
 			owner = { NOT = { num_of_colonists = 1 } }
 		}
 	}
+	
+	ai_will_do = {
+		factor = 1
+	}
 }
 
 
@@ -214,7 +273,11 @@ army_reformer = {
 	
 	chance = {
 		factor = 1
-	}	
+	}
+	
+	ai_will_do = {
+		factor = 1.8
+	}
 }
 
 ######################################################
@@ -222,10 +285,14 @@ army_organiser = {
 	monarch_power = MIL
 	
 	# Bonus
-	land_forcelimit_modifier = 0.10
+	land_forcelimit_modifier = 0.15
 	
 	chance = {
 		factor = 1
+	}
+	
+	ai_will_do = {
+		factor = 1.5
 	}
 }
 
@@ -239,6 +306,10 @@ commandant = {
 	chance = {
 		factor = 1
 	}
+	
+	ai_will_do = {
+		factor = 1.8
+	}
 }
 
 ######################################################
@@ -251,6 +322,14 @@ quartermaster = {
 	chance = {
 		factor = 1
 	}
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.4
+			is_at_war = yes
+		}
+	}
 }
 
 ######################################################
@@ -258,10 +337,18 @@ recruitmaster = {
 	monarch_power = MIL
 	
 	# Bonus
-	manpower_recovery_speed = 0.33
+	global_manpower_modifier = 0.10
 	
 	chance = {
 		factor = 1
+	}
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			is_at_war = no
+		}
 	}
 }
 
@@ -270,12 +357,16 @@ fortification_expert = {
 	monarch_power = MIL
 	
 	# Bonus
-	defensiveness = 0.25
+	defensiveness = 0.2
 	
 	chance = {
 		factor = 1
 		
-	}	
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
 }
 
 ######################################################
@@ -283,9 +374,17 @@ grand_captain = {
 	monarch_power = MIL
 	
 	# Bonus
-	land_maintenance_modifier = -0.10
+	land_maintenance_modifier = -0.15
 		
 	chance = {
 		factor = 1
+	}
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			is_at_war = no
+		}
 	}
 }

@@ -4,20 +4,25 @@ country_decisions = {
 		major = yes
 		potential = {
 			government = altepetl
+			government_rank = 1
+			NOT = { government_rank = 2 }
 		}
 
 		allow = {
-			num_of_protectorates = 4
+			num_of_cities = 10
 			prestige = 25
 		}
 		effect = {
-			change_government = hegemonic_kingdom
+			set_government_rank = 2
+			change_variable = { which = centralization value = 10 }
+			change_variable = { which = legaltradition value = 5}
 		}
 	}
 	kingdomtoempire = {
 		major = yes
 		potential = {
-			government = hegemonic_kingdom	
+			government = altepetl
+			government_rank = 2
 			NOT = {
 				OR = {
 					tag = TEN
@@ -28,11 +33,13 @@ country_decisions = {
 		}
 
 		allow = {
-			num_of_protectorates = 25
+			num_of_cities = 60
 			prestige = 80
 		}
 		effect = {
-			change_government = hegemonic_empire
+			set_government_rank = 3
+			change_variable = { which = centralization value = 10 }
+			change_variable = { which = legaltradition value = 10 }
 		}
 	}
 
@@ -43,47 +50,45 @@ country_decisions = {
 		potential = {
 			NOT = { tag = IUA }
 			NOT = { government = kuchkabal }
+			NOT = { government = centralized_altepetl}
 		}
 		allow = {
-			has_idea = conqueststate
-			stability = 2
+			has_idea = territorial_ideology
+			stability = 1
+			adm_power = 100
 		}
 		effect = {	
 			add_adm_power = -100
-			change_government = centralized_kingdom
+			add_stability = -2
+			change_government = centralized_altepetl
+			if = {
+				limit = {
+					government_rank = 1
+				}
+				set_government_rank = 2
+			}
+			change_variable = { which = centralization value = 10 }
+			change_variable = { which = legaltradition value = 5 }
 		}
 	}
 	
-	
-	ccitytockingdom = { 
-		major = yes
-		potential = {
-			government = centralized_altepetl
-		}
-
-		allow = {
-			num_of_provinces_in_states = 5
-			prestige = 50
-		}
-		
-		effect = {
-			change_government = centralized_kingdom
-		}
-	}
 
 	ckingdomtocempire = { 
 		major = yes
 		potential = {
-			government = centralized_kingdom
+			government = centralized_altepetl
+			NOT = { government_rank = 3}
 		}
 
 		allow = {
-			num_of_provinces_in_states = 20
+			num_of_cities = 60
 			prestige = 80
 		}
 		
 		effect = {
-			change_government = centralized_empire
+			set_government_rank = 3
+			change_variable = { which = centralization value = 10 }
+			change_variable = { which = legaltradition value = 10 }
 		}
 	}
 

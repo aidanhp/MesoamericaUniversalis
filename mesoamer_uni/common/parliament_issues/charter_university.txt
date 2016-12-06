@@ -18,21 +18,18 @@ charter_university = {
 		modifier = {
 			factor = 2
 			any_neighbor_country = {
-				technology_group = ROOT
 				tech_difference = 5
 			}
 		}
 		modifier = {
 			factor = 2
 			any_neighbor_country = {
-				technology_group = ROOT
 				tech_difference = 8
 			}
 		}
 		modifier = {
 			factor = 3
 			any_neighbor_country = {
-				technology_group = ROOT
 				tech_difference = 10
 			}
 		}

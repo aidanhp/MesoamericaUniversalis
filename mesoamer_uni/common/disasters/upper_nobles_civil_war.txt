@@ -1,0 +1,44 @@
+un_civil_war = {
+	potential = {
+		has_estate = estate_unobles
+	}
+	
+	can_start = {
+		has_country_modifier = un_civil_war_brewing
+	}
+	
+	can_stop = {
+		NOT = { has_country_modifier = un_civil_war_brewing }
+	}
+	
+	progress = {
+		modifier = {
+			factor = 100
+			has_country_modifier = un_civil_war_brewing
+		}
+	}
+	
+	can_end = {
+		custom_trigger_tooltip = {
+			tooltip = EST_UN_WKN_END
+			always = no					
+		}
+	}
+	
+	modifier = {
+		global_unrest = 5
+		stability_cost_modifier = 1.0
+		diplomatic_reputation = -6
+	}
+	
+	on_start = weakenun.02
+	#on_end = civil_war.100
+	
+	on_monthly = {
+		events = {
+		}
+		random_events = { 
+			1000 = 0
+		}
+	}
+}

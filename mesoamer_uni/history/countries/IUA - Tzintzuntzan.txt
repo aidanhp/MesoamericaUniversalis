@@ -1,4 +1,4 @@
-government = tarascan_tribute_kingdom
+government = feudal_chiefdom
 government_rank = 2
 mercantilism = 0.25
 technology_group = tarascan
@@ -7,10 +7,11 @@ primary_culture = tarascan
 capital = 84
 fixed_capital = 84
 historical_rival = TEN
-1427.1.1 = {
+1401.4.19 = {
 	monarch = {
 		name = "Hirepan"
 		dynasty = "Uacusecha"
+		birth_date = 1367.1.1
 		adm = 4
 		dip = 4
 		mil = 5
@@ -21,5 +22,23 @@ historical_rival = TEN
 			manuever = 3
 			siege = 2
 		}
+		clear_scripted_personalities = yes 
+	}
+	add_ruler_personality = conqueror_personality    
+	add_ruler_personality = well_connected_personality     
+	add_ruler_personality = lawgiver_personality    
+}
+
+1427.1.2 = {
+	heir = {
+		name = "Tangaxuan"
+		monarch_name = "Tangaxuan"
+		dynasty = "Uacusecha" 
+		birth_date = 1401.3.17
+		death_date = 1469.1.1
+		claim = 100
+		adm = 5
+		dip = 5
+		mil = 5
 	}
 }

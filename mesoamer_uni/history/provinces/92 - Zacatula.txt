@@ -1,0 +1,19 @@
+add_core = ZAT
+owner = ZAT
+controller = ZAT
+culture = chumbia
+religion = newnahuatl 
+hre = no
+base_tax = 3
+base_production = 8
+trade_goods = grain
+base_manpower = 24
+capital = "Zacatula"
+is_city = yes
+fort_15th = yes
+
+discovered_by = semi_nomadic_tribe
+discovered_by = west_mexican
+discovered_by = tarascan
+discovered_by = central_mexican
+discovered_by = triple_alliance

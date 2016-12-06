@@ -26,3 +26,9 @@ lake = {
 	triangle_strip = { 876 1121 747 1160 993 1131 876 1224 }
 	height = 33
 }
+
+#Lake Peten
+lake = {
+	triangle_strip = { 3310 522 3214 503 3414 460 3406 525  }
+	height = 26
+}

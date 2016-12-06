@@ -1,351 +1,2808 @@
-continent_mexico = {
-	1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 
-	45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85
-	86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120
-	121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151
-	152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182
-	183 184 185 186 187 188 189 190 191 192 193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 
-	214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237
-	362 363 364 365 366 367 368 369 370 371 372 373 374 375 376 377 378 379 380 381 382 383 384 385 386 387 388 389 390 391 392 393 394
-	395 396
+continent_1 = {
+1
+}
+continent_2 = {
+2
+}
+continent_3 = {
+3
+}
+continent_4 = {
+4
+}
+continent_5 = {
+5
+}
+continent_6 = {
+6
+}
+continent_7 = {
+7
+}
+continent_8 = {
+8
+}
+continent_9 = {
+9
+}
+continent_10 = {
+10
+}
+continent_11 = {
+11
+}
+continent_12 = {
+12
+}
+continent_13 = {
+13
+}
+continent_14 = {
+14
+}
+continent_15 = {
+15
+}
+continent_16 = {
+16
+}
+continent_17 = {
+17
+}
+continent_18 = {
+18
+}
+continent_19 = {
+19
+}
+continent_20 = {
+20
+}
+continent_21 = {
+21
+}
+continent_22 = {
+22
+}
+continent_23 = {
+23
+}
+continent_24 = {
+24
+}
+continent_25 = {
+25
+}
+continent_26 = {
+26
+}
+continent_27 = {
+27
+}
+continent_28 = {
+28
+}
+continent_29 = {
+29
+}
+continent_30 = {
+30
+}
+continent_31 = {
+31
+}
+continent_32 = {
+32
+}
+continent_33 = {
+33
+}
+continent_34 = {
+34
+}
+continent_35 = {
+35
+}
+continent_36 = {
+36
+}
+continent_37 = {
+37
+}
+continent_38 = {
+38
+}
+continent_39 = {
+39
+}
+continent_40 = {
+40
+}
+continent_41 = {
+41
+}
+continent_42 = {
+42
+}
+continent_43 = {
+43
+}
+continent_44 = {
+44
+}
+continent_45 = {
+45
+}
+continent_46 = {
+46
+}
+continent_47 = {
+47
+}
+continent_48 = {
+48
+}
+continent_49 = {
+49
+}
+continent_50 = {
+50
+}
+continent_51 = {
+51
+}
+continent_52 = {
+52
+}
+continent_53 = {
+53
+}
+continent_54 = {
+54
+}
+continent_55 = {
+55
+}
+continent_56 = {
+56
+}
+continent_57 = {
+57
+}
+continent_58 = {
+58
+}
+continent_59 = {
+59
+}
+continent_60 = {
+60
+}
+continent_61 = {
+61
+}
+continent_62 = {
+62
+}
+continent_63 = {
+63
+}
+continent_64 = {
+64
+}
+continent_65 = {
+65
+}
+continent_66 = {
+66
+}
+continent_67 = {
+67
+}
+continent_68 = {
+68
+}
+continent_69 = {
+69
+}
+continent_70 = {
+70
+}
+continent_71 = {
+71
+}
+continent_72 = {
+72
+}
+continent_73 = {
+73
+}
+continent_74 = {
+74
+}
+continent_75 = {
+75
+}
+continent_76 = {
+76
+}
+continent_77 = {
+77
+}
+continent_78 = {
+78
+}
+continent_79 = {
+79
+}
+continent_80 = {
+80
+}
+continent_81 = {
+81
+}
+continent_82 = {
+82
+}
+continent_83 = {
+83
+}
+continent_84 = {
+84
+}
+continent_85 = {
+85
+}
+continent_86 = {
+86
+}
+continent_87 = {
+87
+}
+continent_88 = {
+88
+}
+continent_89 = {
+89
+}
+continent_90 = {
+90
+}
+continent_91 = {
+91
+}
+continent_92 = {
+92
+}
+continent_93 = {
+93
+}
+continent_94 = {
+94
+}
+continent_95 = {
+95
+}
+continent_96 = {
+96
+}
+continent_97 = {
+97
+}
+continent_98 = {
+98
+}
+continent_99 = {
+99
+}
+continent_100 = {
+100
+}
+continent_101 = {
+101
+}
+continent_102 = {
+102
+}
+continent_103 = {
+103
+}
+continent_104 = {
+104
+}
+continent_105 = {
+105
+}
+continent_106 = {
+106
+}
+continent_107 = {
+107
+}
+continent_108 = {
+108
+}
+continent_109 = {
+109
+}
+continent_110 = {
+110
+}
+continent_111 = {
+111
+}
+continent_112 = {
+112
+}
+continent_113 = {
+113
+}
+continent_114 = {
+114
+}
+continent_115 = {
+115
+}
+continent_116 = {
+116
+}
+continent_117 = {
+117
+}
+continent_118 = {
+118
+}
+continent_119 = {
+119
+}
+continent_120 = {
+120
+}
+continent_121 = {
+121
+}
+continent_122 = {
+122
+}
+continent_123 = {
+123
+}
+continent_124 = {
+124
+}
+continent_125 = {
+125
+}
+continent_126 = {
+126
+}
+continent_127 = {
+127
+}
+continent_128 = {
+128
+}
+continent_129 = {
+129
+}
+continent_130 = {
+130
+}
+continent_131 = {
+131
+}
+continent_132 = {
+132
+}
+continent_133 = {
+133
+}
+continent_134 = {
+134
+}
+continent_135 = {
+135
+}
+continent_136 = {
+136
+}
+continent_137 = {
+137
+}
+continent_138 = {
+138
+}
+continent_139 = {
+139
+}
+continent_140 = {
+140
+}
+continent_141 = {
+141
+}
+continent_142 = {
+142
+}
+continent_143 = {
+143
+}
+continent_144 = {
+144
+}
+continent_145 = {
+145
+}
+continent_146 = {
+146
+}
+continent_147 = {
+147
+}
+continent_148 = {
+148
+}
+continent_149 = {
+149
+}
+continent_150 = {
+150
+}
+continent_151 = {
+151
+}
+continent_152 = {
+152
+}
+continent_153 = {
+153
+}
+continent_154 = {
+154
+}
+continent_155 = {
+155
+}
+continent_156 = {
+156
+}
+continent_157 = {
+157
+}
+continent_158 = {
+158
+}
+continent_159 = {
+159
+}
+continent_160 = {
+160
+}
+continent_161 = {
+161
+}
+continent_162 = {
+162
+}
+continent_163 = {
+163
+}
+continent_164 = {
+164
+}
+continent_165 = {
+165
+}
+continent_166 = {
+166
+}
+continent_167 = {
+167
+}
+continent_168 = {
+168
+}
+continent_169 = {
+169
+}
+continent_170 = {
+170
+}
+continent_171 = {
+171
+}
+continent_172 = {
+172
+}
+continent_173 = {
+173
+}
+continent_174 = {
+174
+}
+continent_175 = {
+175
+}
+continent_176 = {
+176
+}
+continent_177 = {
+177
+}
+continent_178 = {
+178
+}
+continent_179 = {
+179
+}
+continent_180 = {
+180
+}
+continent_181 = {
+181
+}
+continent_182 = {
+182
+}
+continent_183 = {
+183
+}
+continent_184 = {
+184
+}
+continent_185 = {
+185
+}
+continent_186 = {
+186
+}
+continent_187 = {
+187
+}
+continent_188 = {
+188
+}
+continent_189 = {
+189
+}
+continent_190 = {
+190
+}
+continent_191 = {
+191
+}
+continent_192 = {
+192
+}
+continent_193 = {
+193
+}
+continent_194 = {
+194
+}
+continent_195 = {
+195
+}
+continent_196 = {
+196
+}
+continent_197 = {
+197
+}
+continent_198 = {
+198
+}
+continent_199 = {
+199
+}
+continent_200 = {
+200
+}
+continent_201 = {
+201
+}
+continent_202 = {
+202
+}
+continent_203 = {
+203
+}
+continent_204 = {
+204
+}
+continent_205 = {
+205
+}
+continent_206 = {
+206
+}
+continent_207 = {
+207
+}
+continent_208 = {
+208
+}
+continent_209 = {
+209
+}
+continent_210 = {
+210
+}
+continent_211 = {
+211
+}
+continent_212 = {
+212
+}
+continent_213 = {
+213
+}
+continent_214 = {
+214
+}
+continent_215 = {
+215
+}
+continent_216 = {
+216
+}
+continent_217 = {
+217
+}
+continent_218 = {
+218
+}
+continent_219 = {
+219
+}
+continent_220 = {
+220
+}
+continent_221 = {
+221
+}
+continent_222 = {
+222
+}
+continent_223 = {
+223
+}
+continent_224 = {
+224
+}
+continent_225 = {
+225
+}
+continent_226 = {
+226
+}
+continent_227 = {
+227
+}
+continent_228 = {
+228
+}
+continent_229 = {
+229
+}
+continent_230 = {
+230
+}
+continent_231 = {
+231
+}
+continent_232 = {
+232
+}
+continent_233 = {
+233
+}
+continent_234 = {
+234
+}
+continent_235 = {
+235
+}
+continent_236 = {
+236
+}
+continent_237 = {
+237
+}
+continent_238 = {
+238
+}
+continent_239 = {
+239
+}
+continent_240 = {
+240
+}
+continent_241 = {
+241
+}
+continent_242 = {
+242
+}
+continent_243 = {
+243
+}
+continent_244 = {
+244
+}
+continent_245 = {
+245
+}
+continent_246 = {
+246
+}
+continent_247 = {
+247
+}
+continent_248 = {
+248
+}
+continent_249 = {
+249
+}
+continent_250 = {
+250
+}
+continent_251 = {
+251
+}
+continent_252 = {
+252
+}
+continent_253 = {
+253
+}
+continent_254 = {
+254
+}
+continent_255 = {
+255
+}
+continent_256 = {
+256
+}
+continent_257 = {
+257
+}
+continent_258 = {
+258
+}
+continent_259 = {
+259
+}
+continent_260 = {
+260
+}
+continent_261 = {
+261
+}
+continent_262 = {
+262
+}
+continent_263 = {
+263
+}
+continent_264 = {
+264
+}
+continent_265 = {
+265
+}
+continent_266 = {
+266
+}
+continent_267 = {
+267
+}
+continent_268 = {
+268
+}
+continent_269 = {
+269
+}
+continent_270 = {
+270
+}
+continent_271 = {
+271
+}
+continent_272 = {
+272
+}
+continent_273 = {
+273
+}
+continent_274 = {
+274
+}
+continent_275 = {
+275
+}
+continent_276 = {
+276
+}
+continent_277 = {
+277
+}
+continent_278 = {
+278
+}
+continent_279 = {
+279
+}
+continent_280 = {
+280
+}
+continent_281 = {
+281
+}
+continent_282 = {
+282
+}
+continent_283 = {
+283
+}
+continent_284 = {
+284
+}
+continent_285 = {
+285
+}
+continent_286 = {
+286
+}
+continent_287 = {
+287
+}
+continent_288 = {
+288
+}
+continent_289 = {
+289
+}
+continent_290 = {
+290
+}
+continent_291 = {
+291
+}
+continent_292 = {
+292
+}
+continent_293 = {
+293
+}
+continent_294 = {
+294
+}
+continent_295 = {
+295
+}
+continent_296 = {
+296
+}
+continent_297 = {
+297
+}
+continent_298 = {
+298
+}
+continent_299 = {
+299
+}
+continent_300 = {
+300
+}
+continent_301 = {
+301
+}
+continent_302 = {
+302
+}
+continent_303 = {
+303
+}
+continent_304 = {
+304
+}
+continent_305 = {
+305
+}
+continent_306 = {
+306
+}
+continent_307 = {
+307
+}
+continent_308 = {
+308
+}
+continent_309 = {
+309
+}
+continent_310 = {
+310
+}
+continent_311 = {
+311
+}
+continent_312 = {
+312
+}
+continent_313 = {
+313
+}
+continent_314 = {
+314
+}
+continent_315 = {
+315
+}
+continent_316 = {
+316
+}
+continent_317 = {
+317
+}
+continent_318 = {
+318
+}
+continent_319 = {
+319
+}
+continent_320 = {
+320
+}
+continent_321 = {
+321
+}
+continent_322 = {
+322
+}
+continent_323 = {
+323
+}
+continent_324 = {
+324
+}
+continent_325 = {
+325
+}
+continent_326 = {
+326
+}
+continent_327 = {
+327
+}
+continent_328 = {
+328
+}
+continent_329 = {
+329
+}
+continent_330 = {
+330
+}
+continent_331 = {
+331
+}
+continent_332 = {
+332
+}
+continent_333 = {
+333
+}
+continent_334 = {
+334
+}
+continent_335 = {
+335
+}
+continent_336 = {
+336
+}
+continent_337 = {
+337
+}
+continent_338 = {
+338
+}
+continent_339 = {
+339
+}
+continent_340 = {
+340
+}
+continent_341 = {
+341
+}
+continent_342 = {
+342
+}
+continent_343 = {
+343
+}
+continent_344 = {
+344
+}
+continent_345 = {
+345
+}
+continent_346 = {
+346
+}
+continent_347 = {
+347
+}
+continent_348 = {
+348
+}
+continent_349 = {
+349
+}
+continent_350 = {
+350
+}
+continent_351 = {
+351
+}
+continent_352 = {
+352
+}
+continent_353 = {
+353
+}
+continent_354 = {
+354
+}
+continent_355 = {
+355
+}
+continent_356 = {
+356
+}
+continent_357 = {
+357
+}
+continent_358 = {
+358
+}
+continent_359 = {
+359
+}
+continent_360 = {
+360
+}
+continent_361 = {
+361
+}
+continent_362 = {
+362
+}
+continent_363 = {
+363
+}
+continent_364 = {
+364
+}
+continent_365 = {
+365
+}
+continent_366 = {
+366
+}
+continent_367 = {
+367
+}
+continent_368 = {
+368
+}
+continent_369 = {
+369
+}
+continent_370 = {
+370
+}
+continent_371 = {
+371
+}
+continent_372 = {
+372
+}
+continent_373 = {
+373
+}
+continent_374 = {
+374
+}
+continent_375 = {
+375
+}
+continent_376 = {
+376
+}
+continent_377 = {
+377
+}
+continent_378 = {
+378
+}
+continent_379 = {
+379
+}
+continent_380 = {
+380
+}
+continent_381 = {
+381
+}
+continent_382 = {
+382
+}
+continent_383 = {
+383
+}
+continent_384 = {
+384
+}
+continent_385 = {
+385
+}
+continent_386 = {
+386
+}
+continent_387 = {
+387
+}
+continent_388 = {
+388
+}
+continent_389 = {
+389
+}
+continent_390 = {
+390
+}
+continent_391 = {
+391
+}
+continent_392 = {
+392
+}
+continent_393 = {
+393
+}
+continent_394 = {
+394
+}
+continent_395 = {
+395
+}
+continent_396 = {
+396
+}
+continent_397 = {
 397
+}
+continent_398 = {
 398
+}
+continent_399 = {
 399
+}
+continent_400 = {
 400
+}
+continent_401 = {
 401
+}
+continent_402 = {
 402
+}
+continent_403 = {
 403
+}
+continent_404 = {
 404
+}
+continent_405 = {
 405
+}
+continent_406 = {
 406
+}
+continent_407 = {
 407
+}
+continent_408 = {
 408
+}
+continent_409 = {
 409
+}
+continent_410 = {
 410
+}
+continent_411 = {
 411
+}
+continent_412 = {
 412
+}
+continent_413 = {
 413
+}
+continent_414 = {
 414
+}
+continent_415 = {
 415
+}
+continent_416 = {
 416
+}
+continent_417 = {
 417
+}
+continent_418 = {
 418
+}
+continent_419 = {
 419
+}
+continent_420 = {
 420
+}
+continent_421 = {
 421
+}
+continent_422 = {
 422
+}
+continent_423 = {
 423
+}
+continent_424 = {
 424
+}
+continent_425 = {
 425
+}
+continent_426 = {
 426
+}
+continent_427 = {
 427
+}
+continent_428 = {
 428
+}
+continent_429 = {
 429
+}
+continent_430 = {
 430
+}
+continent_431 = {
 431
+}
+continent_432 = {
 432
+}
+continent_433 = {
 433
+}
+continent_434 = {
 434
+}
+continent_435 = {
 435
+}
+continent_436 = {
 436
+}
+continent_437 = {
 437
+}
+continent_438 = {
 438
+}
+continent_439 = {
 439
+}
+continent_440 = {
 440
+}
+continent_441 = {
 441
+}
+continent_442 = {
 442
+}
+continent_443 = {
 443
+}
+continent_444 = {
 444
+}
+continent_445 = {
 445
+}
+continent_446 = {
 446
+}
+continent_447 = {
 447
+}
+continent_448 = {
 448
+}
+continent_449 = {
 449
+}
+continent_450 = {
 450
+}
+continent_451 = {
 451
+}
+continent_452 = {
 452
+}
+continent_453 = {
 453
+}
+continent_454 = {
 454
+}
+continent_455 = {
 455
+}
+continent_456 = {
 456
+}
+continent_457 = {
 457
+}
+continent_458 = {
 458
+}
+continent_459 = {
 459
+}
+continent_460 = {
 460
+}
+continent_461 = {
 461
+}
+continent_462 = {
 462
+}
+continent_463 = {
 463
+}
+continent_464 = {
 464
+}
+continent_465 = {
 465
+}
+continent_466 = {
 466
+}
+continent_467 = {
 467
+}
+continent_468 = {
 468
+}
+continent_469 = {
 469
+}
+continent_470 = {
 470
+}
+continent_471 = {
 471
+}
+continent_472 = {
 472
+}
+continent_473 = {
 473
+}
+continent_474 = {
 474
+}
+continent_475 = {
 475
+}
+continent_476 = {
 476
+}
+continent_477 = {
 477
+}
+continent_478 = {
 478
+}
+continent_479 = {
 479
+}
+continent_480 = {
 480
+}
+continent_481 = {
 481
+}
+continent_482 = {
 482
+}
+continent_483 = {
 483
+}
+continent_484 = {
 484
+}
+continent_485 = {
 485
+}
+continent_486 = {
 486
+}
+continent_487 = {
 487
+}
+continent_488 = {
 488
+}
+continent_489 = {
 489
+}
+continent_490 = {
 490
+}
+continent_491 = {
 491
+}
+continent_492 = {
 492
+}
+continent_493 = {
 493
+}
+continent_494 = {
 494
+}
+continent_495 = {
 495
+}
+continent_496 = {
 496
+}
+continent_497 = {
 497
+}
+continent_498 = {
 498
+}
+continent_499 = {
 499
+}
+continent_500 = {
 500
+}
+continent_501 = {
 501
+}
+continent_502 = {
 502
+}
+continent_503 = {
 503
+}
+continent_504 = {
 504
+}
+continent_505 = {
 505
+}
+continent_506 = {
 506
+}
+continent_507 = {
 507
+}
+continent_508 = {
 508
+}
+continent_509 = {
 509
+}
+continent_510 = {
 510
+}
+continent_511 = {
 511
+}
+continent_512 = {
 512
+}
+continent_513 = {
 513
+}
+continent_514 = {
 514
+}
+continent_515 = {
 515
+}
+continent_516 = {
 516
+}
+continent_517 = {
 517
+}
+continent_518 = {
 518
+}
+continent_519 = {
 519
+}
+continent_520 = {
 520
+}
+continent_521 = {
 521
+}
+continent_522 = {
 522
+}
+continent_523 = {
 523
+}
+continent_524 = {
 524
+}
+continent_525 = {
 525
+}
+continent_526 = {
 526
+}
+continent_527 = {
 527
+}
+continent_528 = {
 528
+}
+continent_529 = {
 529
+}
+continent_530 = {
 530
+}
+continent_531 = {
 531
+}
+continent_532 = {
 532
+}
+continent_533 = {
 533
+}
+continent_534 = {
 534
+}
+continent_535 = {
 535
+}
+continent_536 = {
 536
+}
+continent_537 = {
 537
+}
+continent_538 = {
 538
+}
+continent_539 = {
 539
+}
+continent_540 = {
 540
+}
+continent_541 = {
 541
+}
+continent_542 = {
 542
+}
+continent_543 = {
 543
+}
+continent_544 = {
 544
+}
+continent_545 = {
 545
+}
+continent_546 = {
 546
+}
+continent_547 = {
 547
+}
+continent_548 = {
 548
+}
+continent_549 = {
 549
+}
+continent_550 = {
 550
+}
+continent_551 = {
 551
+}
+continent_552 = {
 552
+}
+continent_553 = {
 553
+}
+continent_554 = {
 554
+}
+continent_555 = {
 555
+}
+continent_556 = {
 556
+}
+continent_557 = {
 557
+}
+continent_558 = {
 558
+}
+continent_559 = {
 559
+}
+continent_560 = {
 560
+}
+continent_561 = {
 561
+}
+continent_562 = {
 562
+}
+continent_563 = {
 563
+}
+continent_564 = {
 564
+}
+continent_565 = {
 565
+}
+continent_566 = {
 566
+}
+continent_567 = {
 567
+}
+continent_568 = {
 568
+}
+continent_569 = {
 569
+}
+continent_570 = {
 570
+}
+continent_571 = {
 571
+}
+continent_572 = {
 572
+}
+continent_573 = {
 573
+}
+continent_574 = {
 574
+}
+continent_575 = {
 575
+}
+continent_576 = {
 576
+}
+continent_577 = {
 577
+}
+continent_578 = {
 578
+}
+continent_579 = {
 579
+}
+continent_580 = {
 580
+}
+continent_581 = {
 581
+}
+continent_582 = {
 582
+}
+continent_583 = {
 583
+}
+continent_584 = {
 584
+}
+continent_585 = {
 585
+}
+continent_586 = {
 586
+}
+continent_587 = {
 587
+}
+continent_588 = {
 588
+}
+continent_589 = {
 589
+}
+continent_590 = {
 590
+}
+continent_591 = {
 591
+}
+continent_592 = {
 592
+}
+continent_593 = {
 593
+}
+continent_594 = {
 594
+}
+continent_595 = {
 595
+}
+continent_596 = {
 596
+}
+continent_597 = {
 597
+}
+continent_598 = {
 598
+}
+continent_599 = {
 599
+}
+continent_600 = {
 600
+}
+continent_601 = {
 601
+}
+continent_602 = {
 602
+}
+continent_603 = {
 603
+}
+continent_604 = {
 604
+}
+continent_605 = {
 605
+}
+continent_606 = {
 606
+}
+continent_607 = {
 607
+}
+continent_608 = {
 608
+}
+continent_609 = {
 609
+}
+continent_610 = {
 610
+}
+continent_611 = {
 611
+}
+continent_612 = {
 612
+}
+continent_613 = {
 613
+}
+continent_614 = {
 614
+}
+continent_615 = {
 615
+}
+continent_616 = {
 616
+}
+continent_617 = {
 617
+}
+continent_618 = {
 618
+}
+continent_619 = {
 619
+}
+continent_620 = {
 620
+}
+continent_621 = {
 621
+}
+continent_622 = {
 622
+}
+continent_623 = {
 623
+}
+continent_624 = {
 624
+}
+continent_625 = {
 625
+}
+continent_626 = {
 626
+}
+continent_627 = {
 627
+}
+continent_628 = {
 628
+}
+continent_629 = {
 629
+}
+continent_630 = {
 630
+}
+continent_631 = {
 631
+}
+continent_632 = {
 632
+}
+continent_633 = {
 633
+}
+continent_634 = {
 634
+}
+continent_635 = {
 635
+}
+continent_636 = {
 636
+}
+continent_637 = {
 637
+}
+continent_638 = {
 638
+}
+continent_639 = {
 639
+}
+continent_640 = {
 640
+}
+continent_641 = {
 641
+}
+continent_642 = {
 642
+}
+continent_643 = {
 643
+}
+continent_644 = {
 644
+}
+continent_645 = {
 645
+}
+continent_646 = {
 646
+}
+continent_647 = {
 647
+}
+continent_648 = {
 648
+}
+continent_649 = {
 649
+}
+continent_650 = {
 650
+}
+continent_651 = {
 651
+}
+continent_652 = {
 652
+}
+continent_653 = {
 653
+}
+continent_654 = {
 654
+}
+continent_655 = {
 655
+}
+continent_656 = {
 656
+}
+continent_657 = {
 657
+}
+continent_658 = {
 658
+}
+continent_659 = {
 659
+}
+continent_660 = {
 660
+}
+continent_661 = {
 661
+}
+continent_662 = {
 662
+}
+continent_663 = {
 663
+}
+continent_664 = {
 664
+}
+continent_665 = {
 665
+}
+continent_666 = {
 666
+}
+continent_667 = {
 667
+}
+continent_668 = {
 668
+}
+continent_669 = {
 669
+}
+continent_670 = {
 670
+}
+continent_671 = {
 671
+}
+continent_672 = {
 672
+}
+continent_673 = {
 673
+}
+continent_674 = {
 674
+}
+continent_675 = {
 675
+}
+continent_676 = {
 676
+}
+continent_677 = {
 677
+}
+continent_678 = {
 678
+}
+continent_679 = {
 679
+}
+continent_680 = {
 680
+}
+continent_681 = {
 681
+}
+continent_682 = {
 682
+}
+continent_683 = {
 683
+}
+continent_684 = {
 684
+}
+continent_685 = {
 685
+}
+continent_686 = {
 686
+}
+continent_687 = {
 687
+}
+continent_688 = {
 688
+}
+continent_689 = {
 689
+}
+continent_690 = {
 690
+}
+continent_691 = {
 691
+}
+continent_692 = {
 692
+}
+continent_693 = {
 693
+}
+continent_694 = {
 694
+}
+continent_695 = {
 695
+}
+continent_696 = {
 696
+}
+continent_697 = {
 697
+}
+continent_698 = {
 698
+}
+continent_699 = {
 699
+}
+continent_700 = {
 700
+}
+continent_701 = {
 701
+}
+continent_702 = {
 702
+}
+continent_703 = {
 703
+}
+continent_704 = {
 704
+}
+continent_705 = {
 705
+}
+continent_706 = {
 706
+}
+continent_707 = {
 707
+}
+continent_708 = {
 708
+}
+continent_709 = {
 709
+}
+continent_710 = {
 710
+}
+continent_711 = {
 711
+}
+continent_712 = {
 712
+}
+continent_713 = {
 713
+}
+continent_714 = {
 714
+}
+continent_715 = {
 715
+}
+continent_716 = {
 716
+}
+continent_717 = {
 717
+}
+continent_718 = {
 718
+}
+continent_719 = {
 719
+}
+continent_720 = {
 720
+}
+continent_721 = {
 721
+}
+continent_722 = {
 722
+}
+continent_723 = {
 723
+}
+continent_724 = {
 724
+}
+continent_725 = {
 725
+}
+continent_726 = {
 726
+}
+continent_727 = {
 727
+}
+continent_728 = {
 728
+}
+continent_729 = {
 729
+}
+continent_730 = {
 730
+}
+continent_731 = {
 731
+}
+continent_732 = {
 732
 }
-
-# Used for RNW
-new_world = {
+continent_733 = {
+733
+}
+continent_734 = {
+734
+}
+continent_735 = {
+735
+}
+continent_736 = {
+736
+}
+continent_737 = {
+737
+}
+continent_738 = {
+738
+}
+continent_739 = {
+739
+}
+continent_740 = {
+740
+}
+continent_741 = {
+741
+}
+continent_742 = {
+742
+}
+continent_743 = {
+743
+}
+continent_744 = {
+744
+}
+continent_745 = {
+745
+}
+continent_746 = {
+746
+}
+continent_747 = {
+747
+}
+continent_748 = {
+748
+}
+continent_749 = {
+749
+}
+continent_750 = {
+750
+}
+continent_751 = {
+751
+}
+continent_752 = {
+752
+}
+continent_753 = {
+753
+}
+continent_754 = {
+754
+}
+continent_755 = {
+755
+}
+continent_756 = {
+756
+}
+continent_757 = {
+757
+}
+continent_758 = {
+758
+}
+continent_759 = {
+759
+}
+continent_760 = {
+760
+}
+continent_761 = {
+761
+}
+continent_762 = {
+762
+}
+continent_763 = {
+763
+}
+continent_764 = {
+764
+}
+continent_765 = {
+765
+}
+continent_766 = {
+766
+}
+continent_767 = {
+767
+}
+continent_768 = {
+768
+}
+continent_769 = {
+769
+}
+continent_770 = {
+770
+}
+continent_771 = {
+771
+}
+continent_772 = {
+772
+}
+continent_773 = {
+773
+}
+continent_774 = {
+774
+}
+continent_775 = {
+775
+}
+continent_776 = {
+776
+}
+continent_777 = {
+777
+}
+continent_778 = {
+778
+}
+continent_779 = {
+779
+}
+continent_780 = {
+780
+}
+continent_781 = {
+781
+}
+continent_782 = {
+782
+}
+continent_783 = {
+783
+}
+continent_784 = {
+784
+}
+continent_785 = {
+785
+}
+continent_786 = {
+786
+}
+continent_787 = {
+787
+}
+continent_788 = {
+788
+}
+continent_789 = {
+789
+}
+continent_790 = {
+790
+}
+continent_791 = {
+791
+}
+continent_792 = {
+792
+}
+continent_793 = {
+793
+}
+continent_794 = {
+794
+}
+continent_795 = {
+795
+}
+continent_796 = {
+796
+}
+continent_797 = {
+797
+}
+continent_798 = {
+798
+}
+continent_799 = {
+799
+}
+continent_800 = {
+800
+}
+continent_801 = {
+801
+}
+continent_802 = {
+802
+}
+continent_803 = {
+803
+}
+continent_804 = {
+804
+}
+continent_805 = {
+805
+}
+continent_806 = {
+806
+}
+continent_807 = {
+807
+}
+continent_808 = {
+808
+}
+continent_809 = {
+809
+}
+continent_810 = {
+810
+}
+continent_811 = {
+811
+}
+continent_812 = {
+812
+}
+continent_813 = {
+813
+}
+continent_814 = {
+814
+}
+continent_815 = {
+815
+}
+continent_816 = {
+816
+}
+continent_817 = {
+817
+}
+continent_818 = {
+818
+}
+continent_819 = {
+819
+}
+continent_820 = {
+820
+}
+continent_821 = {
+821
+}
+continent_822 = {
+822
+}
+continent_823 = {
+823
+}
+continent_824 = {
+824
+}
+continent_825 = {
+825
+}
+continent_826 = {
+826
+}
+continent_827 = {
+827
+}
+continent_828 = {
+828
+}
+continent_829 = {
+829
+}
+continent_830 = {
+830
+}
+continent_831 = {
+831
+}
+continent_832 = {
+832
+}
+continent_833 = {
+833
+}
+continent_834 = {
+834
+}
+continent_835 = {
+835
+}
+continent_836 = {
+836
+}
+continent_837 = {
+837
+}
+continent_838 = {
+838
+}
+continent_839 = {
+839
+}
+continent_840 = {
+840
+}
+continent_841 = {
+841
+}
+continent_842 = {
+842
+}
+continent_843 = {
+843
+}
+continent_844 = {
+844
+}
+continent_845 = {
+845
+}
+continent_846 = {
+846
+}
+continent_847 = {
+847
+}
+continent_848 = {
+848
+}
+continent_849 = {
+849
+}
+continent_850 = {
+850
+}
+continent_851 = {
+851
+}
+continent_852 = {
+852
+}
+continent_853 = {
+853
+}
+continent_854 = {
+854
+}
+continent_855 = {
+855
+}
+continent_856 = {
+856
+}
+continent_857 = {
+857
+}
+continent_858 = {
+858
+}
+continent_859 = {
+859
+}
+continent_860 = {
+860
+}
+continent_861 = {
+861
+}
+continent_862 = {
+862
+}
+continent_863 = {
+863
+}
+continent_864 = {
+864
+}
+continent_865 = {
+865
+}
+continent_866 = {
+866
+}
+continent_867 = {
+867
+}
+continent_868 = {
+868
+}
+continent_869 = {
+869
+}
+continent_870 = {
+870
+}
+continent_871 = {
+871
+}
+continent_872 = {
+872
+}
+continent_873 = {
+873
+}
+continent_874 = {
+874
+}
+continent_875 = {
+875
+}
+continent_876 = {
+876
+}
+continent_877 = {
+877
+}
+continent_878 = {
+878
+}
+continent_879 = {
+879
+}
+continent_880 = {
+880
+}
+continent_881 = {
+881
+}
+continent_882 = {
+882
+}
+continent_883 = {
+883
+}
+continent_884 = {
+884
+}
+continent_885 = {
+885
+}
+continent_886 = {
+886
+}
+continent_887 = {
+887
+}
+continent_888 = {
+888
+}
+continent_889 = {
+889
+}
+continent_890 = {
+890
+}
+continent_891 = {
+891
+}
+continent_892 = {
+892
+}
+continent_893 = {
+893
+}
+continent_894 = {
+894
+}
+continent_895 = {
+895
+}
+continent_896 = {
+896
+}
+continent_897 = {
+897
+}
+continent_898 = {
+898
+}
+continent_899 = {
+899
+}
+continent_900 = {
+900
+}
+continent_901 = {
+901
+}
+continent_902 = {
+902
+}
+continent_903 = {
+903
+}
+continent_904 = {
+904
+}
+continent_905 = {
+905
+}
+continent_906 = {
+906
+}
+continent_907 = {
+907
+}
+continent_908 = {
+908
+}
+continent_909 = {
+909
+}
+continent_910 = {
+910
+}
+continent_911 = {
+911
+}
+continent_912 = {
+912
+}
+continent_913 = {
+913
+}
+continent_914 = {
+914
+}
+continent_915 = {
+915
+}
+continent_916 = {
+916
+}
+continent_917 = {
+917
+}
+continent_918 = {
+918
+}
+continent_919 = {
+919
+}
+continent_920 = {
+920
+}
+continent_921 = {
+921
+}
+continent_922 = {
+922
+}
+continent_923 = {
+923
+}
+continent_924 = {
+924
+}
+continent_925 = {
+925
+}
+continent_926 = {
+926
+}
+continent_927 = {
+927
+}
+continent_928 = {
+928
+}
+continent_929 = {
+929
+}
+continent_930 = {
+930
+}
+continent_931 = {
+931
+}
+continent_932 = {
+932
+}
+continent_933 = {
+933
+}
+continent_934 = {
+934
+}
+continent_935 = {
+935
+}
+continent_936 = {
+936
 }

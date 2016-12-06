@@ -1,0 +1,17 @@
+add_core = JJK
+owner = JJK
+controller = JJK
+culture = mixezoquemayan
+religion = newmayan 
+hre = no
+base_tax = 2
+base_production = 5
+trade_goods = aquaticfoods 
+base_manpower = 19
+capital = "Potonchan"
+is_city = yes
+fort_15th = yes
+
+discovered_by = northern_mayan
+discovered_by = southern_mayan
+

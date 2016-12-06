@@ -15,6 +15,7 @@ technology = {
 	bureau2 = yes
 	bureau3 = yes
 	law1 = yes
+	law2 = yes
 	adminoffice = yes
 	evillage = yes
 	farm1 = yes
@@ -43,41 +44,51 @@ technology = {
 	watergarden = yes
 	royalzoo = yes
 	
-	allowed_idea_groups = 1
+	allowed_idea_groups = 2
 	
+}
+
+
+technology = {
+	# Tech 1
+	year = 1429
+	
+	administrative_efficiency = 0.10
 }
 
 technology = {
 	# Tech 1
-	year = 1441
+	year = 1450
 	
 	workshop1 = yes
-	production_efficiency	=	0.05
+	production_efficiency	=	0.10
 }
 
 technology = {
 	# Tech 2
-	year = 1454
+	year = 1472
 	
-	law2 = yes
+	allowed_idea_groups = 3
+	law3 = yes
 }
 
 # The 30 big techs from here on
 
 technology = {
 	# Tech 3
-	year = 1467
+	year = 1494
 	
-	allowed_idea_groups = 2
-	
+	max_states = 2
+	administrative_efficiency = 0.20
 }
 
 technology = {
 	# Tech 4
-	year = 1480
+	year = 1516
 	
-	production_efficiency	=	0.10
-	
+	workshop2 = yes
+	production_efficiency	=	0.20
+	allowed_idea_groups = 4
 }
 
 technology = {

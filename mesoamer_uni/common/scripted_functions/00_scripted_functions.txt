@@ -21,22 +21,20 @@ can_harsh_treatment = {
 }
 
 can_reduce_war_exhaustion = {
-	condition = {
-		tooltip = "CANNOT_REDUCE_WE"
-		potential = { 
-			always = yes
-		}
-		allow = {
-			OR = {
-				is_at_war = no
-				has_idea = attritionmentality
-			}
-			
-		}
-	}
 }
 
-can_westernise = {
+can_reduce_inflation = {
+}
+
+can_release_colonial_nation = {
+	condition = {
+		tooltip = "CAN_RELEASE_CN_WE_ARE_AT_WAR"
+		potential = {
+		}
+		allow = {
+			is_at_war = no
+		}
+	}
 }
 
 can_claim_defender_of_faith = {
@@ -46,18 +44,48 @@ can_change_national_focus = {
 }
 
 can_increase_stability = {
-	#condition = {
-	#	tooltip = "CANNOT_UP_STAB"
-	#	potential = {
-	#		always = yes
-	#	}
-	#	allow = {
-	#		NOT = { has_country_modifier = "stabcooldown" }
-	#	}
-	#}
 }
 
 # ROOT = province, FROM = country
+can_add_province_to_hre = {
+	condition = {
+		tooltip = "APH_NOT_OWNED_CONTROLLED"
+		potential = {
+		}
+		allow = {
+			owned_by = FROM
+			controlled_by = FROM
+		}
+	}
+}
+
+can_remove_province_from_hre = {
+	condition = {
+		tooltip = "RPH_AT_WAR"
+		potential = {
+		}
+		allow = {
+			owner = { is_at_war = no }
+		}
+	}
+	condition = {
+		tooltip = "RPH_SUBJECT"
+		potential = {
+		}
+		allow = {
+			owner = { is_subject = no }
+		}
+	}
+	condition = {
+		tooltip = "RPH_TRUCE_EMP"
+		potential = {
+		}
+		allow = {
+			owner = { NOT = { truce_with = emperor } }
+		}
+	}
+}
+
 can_increase_autonomy = {
 }
 
@@ -67,9 +95,15 @@ can_decrease_autonomy = {
 can_make_core = {
 }
 
+can_make_state = {
+}
+
+can_abandon_state = {
+}
+
 can_improve_tax = {
 	condition = {
-		tooltip = "CANT_DEVELOP"
+		tooltip = "POPULATION_SYS_NO"
 		potential = {
 			always = yes
 		}
@@ -81,7 +115,7 @@ can_improve_tax = {
 
 can_improve_production = {
 	condition = {
-		tooltip = "CANT_DEVELOP"
+		tooltip = "POPULATION_SYS_NO"
 		potential = {
 			always = yes
 		}
@@ -93,7 +127,7 @@ can_improve_production = {
 
 can_improve_manpower = {
 	condition = {
-		tooltip = "CANT_DEVELOP"
+		tooltip = "POPULATION_SYS_NO"
 		potential = {
 			always = yes
 		}
@@ -134,4 +168,18 @@ can_add_seat_in_parliament = {
 }
 
 can_add_estate = {
+}
+
+### Special functions
+
+# Called by can_add_province_to_hre
+is_possible_hre_province = {
+	condition = {
+		tooltip = "APH_ONLY_EUROPE"
+		potential = {
+		}
+		allow = {
+			continent = europe
+		}
+	}
 }

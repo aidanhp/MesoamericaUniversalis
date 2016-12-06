@@ -1,0 +1,6 @@
+#Flavor Decisions for the Triple Alliance
+country_decisions = {
+	#TEN_consolidate_the_basin = {
+	#
+	#}
+}

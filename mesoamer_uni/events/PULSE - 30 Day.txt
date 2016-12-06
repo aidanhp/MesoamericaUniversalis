@@ -1,0 +1,58 @@
+namespace = monthpulse
+
+#Handles updating of revolt risk once a month
+country_event = {
+	id = monthpulse.01
+
+	title = "monthpulse1.t"
+	desc = "monthpulse1.d"
+	picture = ECONOMY_eventPicture
+
+	is_triggered_only = yes
+	
+	hidden = yes
+	
+	immediate = {
+		MGI = {
+			country_event = { id = monthpulse.01 days = 30 }
+		}
+	}
+	option = {
+		name = "monthpulse.a"
+		
+		#Remove Warleader flag
+		every_country = {
+			limit = {
+				AND = {
+					is_at_war = no
+					has_country_modifier = warleader
+				}
+			}
+			remove_country_modifier = warleader
+		}
+		
+		every_province = {
+			limit = {
+				owner = {
+					ai = yes
+				}
+				add_permanent_province_modifier = {
+					name = base_law
+					duration = -1
+				}	
+				add_province_modifier = {
+					name = e_expectedservice
+					duration = -1
+				}	
+				add_province_modifier = {
+					name = a_expectedservice
+					duration = -1
+				}
+				add_province_modifier = {
+					name = c_oldestson
+					duration = -1
+				}
+			}
+		}
+	}
+}

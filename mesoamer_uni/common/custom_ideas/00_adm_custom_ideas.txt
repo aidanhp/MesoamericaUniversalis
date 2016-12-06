@@ -86,7 +86,7 @@ adm_idea_modifiers = {
 					government = steppe_horde
 				}
 			}
-		}		
+		}
 	}
 	custom_idea_horde_unity = {
 		horde_unity = 0.5
@@ -100,7 +100,7 @@ adm_idea_modifiers = {
 				factor = 0
 				NOT = { government = steppe_horde }
 			}
-		}		
+		}
 	}
 	custom_idea_devotion = {
 		devotion = 0.5
@@ -114,7 +114,7 @@ adm_idea_modifiers = {
 				factor = 0
 				NOT = { government = theocracy }
 			}
-		}		
+		}	
 	}
 	custom_idea_republican_tradition = {
 		republican_tradition = 0.005
@@ -135,13 +135,13 @@ adm_idea_modifiers = {
 		technology_cost = -0.05
 		level_cost_1 = 5
 		level_cost_2 = 30
-		max_level = 2		
+		max_level = 2
 	}
 	custom_idea_idea_cost = {
 		idea_cost = -0.05
 		max_level = 2	
 		level_cost_1 = 3
-		level_cost_2 = 18	
+		level_cost_2 = 18
 	}		
 	custom_idea_advisor_cost = {
 		advisor_cost = -0.05
@@ -160,53 +160,124 @@ adm_idea_modifiers = {
 		max_level = 2
 		level_cost_1 = 3
 		level_cost_2 = 18
-	}	
+		chance = {
+			factor = 1
+			modifier = {
+				factor = 1.5
+				dominant_religion = ROOT
+			}
+		}
+	}
 	custom_idea_tolerance_heretic = {
 		tolerance_heretic = 1
 		max_level = 2
 		level_cost_1 = 3
-		level_cost_2 = 18	
+		level_cost_2 = 18
+		chance = {
+			factor = 1
+			modifier = {
+				factor = 1.5
+				NOT = { dominant_religion = root }
+			}
+		}
 	}	
 	custom_idea_tolerance_heathen = {
 		tolerance_heathen = 1
 		max_level = 2
 		level_cost_1 = 3
 		level_cost_2 = 18
+		chance = {
+			factor = 1
+			modifier = {
+				factor = 1.5
+				NOT = { dominant_religion = root }
+			}
+		}
 	}
 	custom_idea_heir_chance = {
 		heir_chance = 0.25
 		level_cost_2 = 3
 		level_cost_3 = 9
-		level_cost_4 = 18			
-	}		
+		level_cost_4 = 18
+		chance = {
+			factor = 0.5
+			modifier = {
+				factor = 0
+				NOT = { government = monarchy }
+			}
+		}
+	}
 	custom_idea_enemy_core_creation = {
 		enemy_core_creation = 0.15
+		chance = {
+			factor = 0.25
+		}
 	}	
 	custom_idea_core_creation = {
-		core_creation = -0.05		
-	}	
+		core_creation = -0.05
+		chance = {
+			factor = 0.5
+			modifier = {
+				factor = 2
+				num_of_cities = 25
+			}
+		}
+	}
 	custom_idea_vassal_income = {
 		vassal_income = 0.05
 		level_cost_2 = 3
 		level_cost_3 = 9
-		level_cost_4 = 18			
-	}	
+		level_cost_4 = 18
+		chance = {
+			factor = 0.5
+			modifier = {
+				factor = 0
+				NOT = { num_of_vassals = 1 }
+			}
+			modifier = {
+				factor = 2
+				num_of_vassals = 2
+			}
+		}
+	}
 	custom_idea_religious_unity = {
 		religious_unity = 0.05
 		level_cost_2 = 3
 		level_cost_3 = 9
-		level_cost_4 = 18			
+		level_cost_4 = 18
+		chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				religious_unity = 1
+			}
+			modifier = {
+				factor = 1.5
+				NOT = { religious_unity = 0.75 }
+			}
+		}
 	}
 	custom_idea_global_autonomy = {
 		global_autonomy = -0.05		
 		level_cost_1 = 5
 		level_cost_2 = 30
-		max_level = 2		
+		max_level = 2
 	}
 	custom_idea_imperial_authority = {
 		imperial_authority = 0.1
 		level_cost_1 = 5
 		level_cost_2 = 30
-		max_level = 2		
+		max_level = 2
+		chance = {
+			factor = 0.5
+			modifier = {
+				factor = 0
+				is_part_of_hre = no
+			}
+			modifier = {
+				factor = 2
+				is_emperor = yes
+			}
+		}
 	}
 }

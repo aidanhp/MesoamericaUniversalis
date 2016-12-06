@@ -1,0 +1,73 @@
+﻿l_english: 
+ ########
+ #Rebels#
+ ########
+ tarascan_noble_rebels_demand: "Confirm our privileges!"
+ tarascan_noble_rebels_title: "Tzintzuntzani Nobles"
+ tarascan_noble_rebels_desc: "Angry at slights from the monarch, these rebels want to cement their privileges permanently."
+ 
+ #################
+ #Custom Tooltips#
+ #################
+ 
+ #################
+ #EVENT MODIFIERS#
+ #################
+ integrating_chichimecs: "Integrating Chichimecs"
+ chichimec_immigrants: "Chichimec Immigrants"
+ chichimec_auxiliaries: "Chichimec Auxiliaries"
+ desc_chichimec_auxiliaries: "A skilled corps of Chichimec archers have been integrated into our military."
+ 
+ ###########
+ #DECISIONS#
+ ###########
+ IUA_consolidate_the_realm_title: "Consolidate the Realm"
+ IUA_consolidate_the_realm_desc: "In 1350, Tariacuri founded our realm, then only a loose confederation of allied cities around Lake Patzcuaro. Through ingenious diplomatic and military maneuvering, he was able to elevate the constituent city of Tzintzuntzan to the top of the Confederacy and weld it together into something more, but he died before he had a chance to fully unify the Purepecha people. Now, it is up to us to finish his work, and turn Tzintzuntzan into a mighty kingdom!"
+ IUA_delcare_the_empire_title: "Declare the Empire of Tzintzuntzan"
+ IUA_delcare_the_empire_desc: "Our realm is the greatest to ever rise in West Mexico, greater even than the mighty lords of Teuchitlan hundreds of years ago. Our soldiers have subjugated vast swaths of land and people, and our capital has flourished into one of the world’s richest urban centers. We should no longer be satisfied with calling the Cazonci the ruler of a kingdom, for his is something much, much more."
+ ########
+ #EVENTS#
+ ########
+ 
+ #MAJORS
+ #Consolidation of the Realm 
+ IUA_MAJORS1.t: "Consolidation of the Realm"
+ IUA_MAJORS1.d: "It is a glorious day in Tzintzuntzan! The once loose alliance of city states has been turned into a mighty kingdom by the reforms of esteemed Cazonci $MONARCH$, and we are now unquestionably the greatest power in West Mexico. Still, our enemies are numerous and it will take great effort to bring the rest of the area under or supreme control. \nOur increase in power has come a price, however. A powerful nobility has emerged in our cities, and they will surely begin to push their own interests at the expense of the Cazonci. They will have to be controlled if we are to dominate the world. Still, this is a great victory for the Purepecha people, who, for the first time, have a unifying cause and a great city to call their own."
+ IUA_MAJORS1.a: "Tariacuri would be proud."
+ 
+ #Clash of Emperors
+ 
+ #The Saltpeter War
+ 
+ #The Conquest of Michoacan
+ 
+ #Pax Tzintzuntzani
+ 
+ #MINORS
+ 
+ #Chichimec Immigrants
+ fl_iua_mn.1.t: "Immigrants from the North"
+ fl_iua_mn.1.d: "In recent weeks, traveling merchants and military patrols assigned to border villages have reported processions of people, sometimes hundreds strong, coming from the north and northeast. They are said to be poorly clad in the manner of chichimec barbarians, and they speak of great drought in their homelands. Word of our kingdom seems to have reached these hapless northern tribesmen, because they ask after a powerful lord who controls much fertile land and a wide, clear lake. Today, a large group arrived at the gates of Tzintzuntzan, looking weary but impressed by the riches of our capital. The leader apparent has requested sanctuary and land around Lake Patzcuaro in exchange for loyal service to yourself."
+ fl_iua_mn.1.a: "Grant the migrants sanctuary."
+ fl_iua_mn.1.b: "Direct them to the fertile valleys of the east."
+ 
+ fl_iua_mn.2.t: "More Northern Immigrants"
+ fl_iua_mn.2.d: "Having heard of our great power and generosity, another several villages full of immigrants have arrived at Tzintzuntzan, seeking a place to live within our kingdom."
+ fl_iua_mn.2.a: "Settle them!"
+ fl_iua_mn.2.b: "Send them someplace else."
+ 
+ fl_iua_mn.3.t: "Chichimec Leader Seeks Audience"
+ fl_iua_mn.3.d: "One of the chichimecs immigrants from the north, proclaiming himself a powerful chieftain with much experience in warfare, has requested an audience with you. The man is a rough sight but has an air of dignity about him and seems to think that he has an idea that will benefit our military."
+ fl_iua_mn.3.a: "Bring him in."
+ fl_iua_mn.3.b: "The barbarians and their 'ideas' will stay in the fields."
+ 
+ fl_iua_mn.4.t: "The Chichimec Leader"
+ fl_iua_mn.4.d: "The chichimec chieftain is lead into the royal palace, wide eyed but straight faced, flanked by richly clad royal guards. After offering you a gift of beautiful jewelry from the artisans of his tribe, he proceeds to explain how he thinks that his people could be more to you than simple farmers. In the north, he says, they were unparalleled warriors, particularly well known for their skill with the bow, usually seen as a low barbarian weapon. Pointing out that none of your enemies use the bow, not even the great kings in the far off valleys of the east, he proposes that you switch some of your military production to bows and arrows and allow him and allow him to lead his kin as a ranged auxiliary to your main forces, promising that it will be extremely effective."
+ fl_iua_mn.4.a: "Genious!"
+ fl_iua_mn.4.b: "I'm sorry, but the position of court jester is already filled."
+ 
+ fl_iua_mn.5.t: "Immigration from the North Ends"
+ fl_iua_mn.5.d: "Whatever calamity struck the north, it now seems to have passed. The number of incoming immigrants has dwindled and the ones that had previously arrived have settled in nicely."
+ fl_iua_mn.5.a: "It had to end sometime."
+ 
+ #CUTE

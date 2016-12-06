@@ -731,3 +731,209 @@ province;red;green;blue;x;x
 730;182;158;173;x;x
 731;54;32;32;x;x
 732;183;34;79;x;x
+733;55;36;126;Dar Ja'al;x
+734;183;38;173;Taqali;x
+735;55;40;32;Gezira;x
+736;183;42;79;Gojjam;x
+737;55;44;126;Gonder;x
+738;183;246;173;Butana;x
+739;56;48;32;Taka;x
+740;184;50;79;Tigre;x
+741;56;252;126;Dongola;x
+742;184;54;173;Berber;x
+743;56;56;32;Massawa;x
+744;184;58;79;Fuckall;x
+745;56;60;126;Suakin;x
+746;185;62;173;Kharga;x
+747;57;164;32;Qasr Ibrim;x
+748;185;66;79;Guam;x
+749;57;66;126;Rabaul;x
+750;185;70;173;Papua;x
+751;57;172;32;Solomon Islands;x
+752;185;75;79;Vanuatu;x
+753;58;76;126;Hawaii;x
+754;186;78;173;Kiribati;x
+755;58;180;32;Fiji;x
+756;186;82;79;Samoa;x
+757;58;85;126;Tahiti;x
+758;186;86;173;Irian;x
+759;58;188;32;Aorangi;x
+760;187;90;79;Corsica;x
+761;59;92;126;Maldives;x
+762;187;94;173;Yola;x
+763;231;176;70;Nis
+764;232;5;5;Skopje
+765;134;198;192;Sarajevo
+766;188;110;220;Euboea
+767;164;174;136;Kosti;x
+768;47;174;78;Medwa;x
+769;137;75;113;Kobbe;x
+770;194;235;0;Delta;x
+771;114;125;229;Guasipati;x
+772;27;143;57;Uyapari;x
+773;208;224;161;Riohacha;x
+774;31;196;124;Altagracia;x
+775;212;203;165;Coro;x
+776;193;104;146;Llanos;x
+777;184;224;133;Apure;x
+778;196;122;203;Atabapo;x
+779;39;189;75;Pore;x
+780;68;93;174;Merida;x
+781;66;255;110;Meta;x
+782;147;198;249;Puerto Carreno;x
+783;232;144;132;Guavire;x
+784;215;227;10;Nieva;x
+785;215;34;10;Popayan;x
+786;205;227;166;Darien;x
+787;210;55;24;Esmeraldas;x
+788;203;13;178;Piwra;x
+789;203;230;178;Tucume;x
+790;162;29;132;Moyomba;x
+791;26;229;50;Wankapampa;x
+792;208;231;17;Pisqupampa;x
+793;227;10;66;Chimbote;x
+794;234;182;195;Huaraz;x
+795;155;76;12;Camana;x
+796;212;200;121;Ayaviri;x
+797;212;54;121;Quero;x
+798;129;170;176;Tiahuanaco;x
+799;53;203;7;Exaltacion;x
+800;203;28;28;Madre de Dios;x
+801;229;187;219;Santa Cruz de la Sierra;x
+802;227;205;162;Sucre;x
+803;121;191;224;Tucuman;x
+804;164;195;139;Santa Catalina;x
+805;203;49;78;Tarija;x
+806;223;236;112;Puna de Atacama;x
+807;192;102;234;Calama;x
+808;87;166;169;Antofagasta;x
+809;74;6;176;Santiago del Estero;x
+810;115;227;215;La Rioja;x
+811;207;88;96;Chepes;x
+812;220;218;83;San Juan;x
+813;201;29;167;Quisquisacate;x
+814;61;225;80;San Luis;x
+815;112;183;0;Santa Fe;x
+816;195;231;140;Rosario;x
+817;238;42;55;Montevideo;x
+818;217;40;128;Colonia;x
+819;102;64;154;Salto;x
+820;239;193;128;Yareyu;x
+821;39;54;255;Chaco Central;x
+822;175;213;219;Misiones;x
+823;80;211;231;Highveld;x
+824;131;154;204;Rio Grande do Sul;x
+825;138;169;13;Santiago (Misiones);x
+826;243;235;206;Itapua;x
+827;179;64;89;Querandi;x
+828;130;104;224;Sauce;x
+829;28;77;217;Coquimbo;x
+830;220;131;82;Rio Negro;x
+831;16;91;52;Senqu;x
+832;196;165;91;Puelches;x
+833;234;27;27;Olavarria;x
+834;154;92;25;Chanar;x
+835;201;74;24;Bahia Blanca;x
+836;225;248;32;Florida Blanca;x
+837;198;12;148;Tehuelmapu;x
+838;162;91;52;Poya;x
+839;94;52;213;Chiquiyami;x
+840;141;225;31;Chiloe;x
+841;27;159;129;Aysen;x
+842;179;101;229;Chubut;x
+843;58;117;171;Teush;x
+844;97;56;208;Mendoza;x
+845;191;40;143;Matara;x
+846;9;140;159;Santa Tecla;x
+847;164;234;53;Griqualand;x
+848;124;22;150;Corumba;x
+849;140;215;23;Fuerte Borbon;x
+850;73;105;12;Melodia;x
+851;239;33;57;Povos das Missoes;x
+852;237;42;10;Barra;x
+853;219;26;16;Parnaiba;x
+854;13;172;47;Santa Catarina;x
+855;60;68;219;Cuiaba;x
+856;101;200;35;Rio Branco;x
+857;184;44;219;Marajo;x
+858;177;115;49;Santa Ana das Minas;x
+859;108;80;213;Araxas;x
+860;108;140;23;Ofaie;x
+861;51;88;196;Sao Joao del Rei;x
+862;50;191;200;Castro;x
+863;234;61;69;Campinas;x
+864;116;224;158;Araraquara;x
+865;237;44;0;Serro;x
+866;232;197;34;Vila Rica;x
+867;213;84;63;Guapore;x
+868;219;210;106;Cerejeiras;x
+869;30;80;222;Vila Bela;x
+870;225;47;5;Caceres Mato Grosso;x
+871;198;166;54;Diamantino;x
+872;227;31;59;Rio Das Mortes;x
+873;219;44;97;Ipora;x
+874;31;236;55;Vila Boa;x
+875;231;147;101;Formosa;x
+876;56;203;20;Conceicao;x
+877;220;138;41;Pontal;x
+878;83;46;201;Natividad;x
+879;232;205;202;Sergipe;x
+880;208;20;175;Jeremoabo;x
+881;62;16;191;Inhambupe;x
+882;133;105;215;Pambu;x
+883;200;153;63;Rio Contas;x
+884;81;145;18;Paratinga;x
+885;239;221;25;Campo Largo;x
+886;128;188;22;Luziana;x
+887;241;204;106;Coxim;x
+888;217;232;114;Alegoas;x
+889;21;102;201;Borborema;x
+890;218;229;92;Pastos Bons;x
+891;94;145;166;Timon;x
+892;49;196;123;Parnagua;x
+893;52;123;87;Grajau;x
+894;200;160;82;Alcantara;x
+895;229;22;80;Tucurui;x
+896;166;19;60;Para;x
+897;239;225;105;Santarem;x
+898;44;225;91;Pirara;x
+899;44;72;166;Waddai;x
+900;43;143;201;Faro;x
+901;222;176;35;Manaus;x
+902;239;49;105;Muturu;x
+903;72;80;35;Guyana;x
+904;225;45;45;Suriname;x
+905;236;171;15;Oiapoque;x
+906;236;78;0;;Zaraza;x
+907;167;186;36;;Chichas (Tupiza);x
+908;12;149;188;;Choquechaca (Caracaras);x
+909;31;124;26;;Charcas;x
+910;45;116;57;;Chachapoyas;x
+911;219;84;58;;Ucayali;x
+912;121;162;208;;Yurimaguas;x
+913;42;72;201;;Quillacas;x
+914;68;225;26;Macaya;x
+915;196;104;191;Matamba;x
+916;72;198;51;Mbata;x
+917;32;218;173;Buhera;x
+918;236;57;116;Manikya;x
+919;236;220;116;Madanda;x
+920;236;222;116;Hjälmaren;x
+921;29;59;159;Djerba;x
+922;107;121;191;Ingolstadt;x
+923;224;134;54;Straubing;x
+924;70;224;54;Regensburg
+925;239;33;81;Osterode
+926;255;133;59;Tarnow
+927;61;201;123;Sadecki
+928;241;249;20;Lwow
+929;208;213;71;Rowne
+930;85;232;161;Notec/Bydgoszcz
+931;75;169;217;Altmark
+932;52;253;37;Vogtland
+933;243;1;69;Glogau
+934;32;251;212;Eger
+935;88;163;215;Budejovice
+936;121;225;101;Sternberg
+937;255;239;163;Hradekco
+#938;231;154;5;Hoya

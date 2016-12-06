@@ -19,33 +19,21 @@ country_event = {
 		every_country = { 
 		if = {
 			limit = {
-				has_idea = conqueststate 
+				has_idea = territorial_ideology 
 			}
-			change_variable = { which = centralization value = 0.25 }
+			change_variable = { which = centralization value = 0.50 }
 		}
 		if = {
 			limit = {
-				has_idea = provministers
+				has_idea = centralization_ideology
 			}
 			change_variable = { which = centralization value = 0.125 }
 		}
 		if = {
 			limit = {
-				has_idea = fullexploit
+				has_idea = true_centralization
 			}
 			change_variable = { which = centralization value = 0.125 }
-		}
-		if = {
-			limit = {
-				has_idea = unitedidentity
-			}
-			change_variable = { which = centralization value = 0.25 }
-		}
-		if = {
-			limit = {
-				has_idea = closefriends
-			}
-			change_variable = { which = centralization value = 0.25 }
 		}
 		
 		if = {  
@@ -63,24 +51,49 @@ country_event = {
 		}
 		
 		#Legal Tradition
+		subtract_variable = { which = lt_gain which = lt_gain }
 		if = {
 			limit = {
-				has_idea = lawcode
+				has_idea = centralized_law_code
 			}
-			change_variable = { which = legaltradition value = 0.25 }
+			change_variable = { which = lt_gain value = 1.0 }
 		}
+		
+		if = {  
+			limit = {
+				has_active_policy = strengthen_legal_system
+			}
+			change_variable = { which = lt_gain value = 0.25 }
+		}
+		
 		if = {
 			limit = {
-				has_idea = ruleoflaw
+				has_country_flag = ln_increased_legal_protections
 			}
-			change_variable = { which = legaltradition value = 1.0 }
+			change_variable = { which = legaltradition value = -0.25 }
 		}
+		
 		if = {
 			limit = {
-				has_idea = cosmopolitan
+				has_country_flag = ms_guarantee_legal_protection
 			}
-			change_variable = { which = legaltradition value = 1.0 }
+			change_variable = { which = legaltradition value = -0.25 }
 		}
+		
+		if = {
+			limit = {
+				has_country_flag = ph_withold_legal_judgement
+			}
+			change_variable = { which = legaltradition value = -0.50 }
+		}
+		
+		if = {
+			limit = {
+				has_country_flag = un_exclusive_legal_protections
+			}
+			change_variable = { which = legaltradition value = -0.50 }
+		}
+		
 		
 		every_owned_province = {
 			if = {
@@ -88,7 +101,8 @@ country_event = {
 					has_building = law1
 				}
 				controller = { 
-					change_variable = { which = legaltradition value = 0.10 }
+					multiply_variable = { which = lt_gain value = 1.05 }
+					#change_variable = { which = legaltradition value = 0.10 }
 				}
 			}
 			if = {
@@ -96,7 +110,8 @@ country_event = {
 					has_building = law2
 				}
 				controller = { 
-					change_variable = { which = legaltradition value = 0.25 }
+					multiply_variable = { which = lt_gain value = 1.10 }
+					#change_variable = { which = legaltradition value = 0.25 }
 				}
 			}
 			if = {
@@ -104,20 +119,14 @@ country_event = {
 					has_building = law3
 				}
 				controller = { 
-					change_variable = { which = legaltradition value = 0.50 }
+					multiply_variable = { which = lt_gain value = 1.15 }
+					#change_variable = { which = legaltradition value = 0.50 }
 				}
 			}
 		}
 		
-		if = {  
-			limit = {
-				has_active_policy = strengthen_legal_system
-			}
-			change_variable = { which = legaltradition value = 0.25 }
-		}
+		change_variable = { which = legaltradition value = lt_gain }
 		
-
-
 		#Meritocracy
 		if = {  
 			limit = {
@@ -132,6 +141,112 @@ country_event = {
 			}
 			change_variable = { which = meritocratictradition value = -2.0 }
 		}
+		
+		if = {
+			limit = {
+				has_country_flag = an_exclusive_military_leadership
+			}
+			change_variable = { which = meritocratictradition value = -0.25 }
+		}
+		
+		if = {
+			limit = {
+				has_country_flag = an_exclusive_military_orders
+			}
+			change_variable = { which = meritocratictradition value = -0.25 }
+		}
+		
+		if = {
+			limit = {
+				has_country_flag = an_exclusive_bureaucracy_positions
+			}
+			change_variable = { which = meritocratictradition value = -0.25 }
+		}
+		
+		if = {
+			limit = {
+				has_country_flag = an_exclusive_social_rights
+			}
+			change_variable = { which = meritocratictradition value = -0.25 }
+		}
+		
+		if = {
+			limit = {
+				has_country_flag = ln_guarantee_noble_status
+			}
+			change_variable = { which = meritocratictradition value = -0.25 }
+		}
+		
+		if = {
+			limit = {
+				has_country_flag = ln_ban_new_men
+			}
+			change_variable = { which = meritocratictradition value = -0.50 }
+		}
+		
+		if = {
+			limit = {
+				has_country_flag = ln_expanded_social_rights
+			}
+			change_variable = { which = meritocratictradition value = -0.25 }
+		}
+		
+		if = {
+			limit = {
+				has_country_flag = ln_exclusive_military_orders
+			}
+			change_variable = { which = meritocratictradition value = -0.25 }
+		}
+		
+		if = {
+			limit = {
+				has_country_flag = ms_permit_land_ownership
+			}
+			change_variable = { which = meritocratictradition value = -0.25 }
+		}
+		
+		if = {
+			limit = {
+				has_country_flag = ph_reserve_advisories
+			}
+			change_variable = { which = meritocratictradition value = -0.50 }
+		}
+		
+		if = {
+			limit = {
+				has_country_flag = un_exclusive_generalship
+			}
+			change_variable = { which = meritocratictradition value = -0.25 }
+		}
+		
+		if = {
+			limit = {
+				has_country_flag = un_exclusive_officers
+			}
+			change_variable = { which = meritocratictradition value = -0.25 }
+		}
+		
+		if = {
+			limit = {
+				has_country_flag = un_exclusive_advisory_positions
+			}
+			change_variable = { which = meritocratictradition value = -0.25 }
+		}
+		
+		if = {
+			limit = {
+				has_country_flag = un_exclusive_bureaucracy_positions
+			}
+			change_variable = { which = meritocratictradition value = -0.25 }
+		}
+		
+		if = {
+			limit = {
+				has_country_flag = un_exclusive_social_rights
+			}
+			change_variable = { which = meritocratictradition value = -0.25 }
+		}
+		
 		
 		#Religious Tradition
 		if = {  
@@ -148,43 +263,42 @@ country_event = {
 			change_variable = { which = religioustradition value = -2.0 }
 		}
 		
-		#Intellectualism
-		every_owned_province = {
-			if = {
-				limit = {
-					has_building = nschool
-				}
-				controller = { 
-					change_variable = { which = intellectualtradition value = 0.25 }
-				}
+		if = {
+			limit = {
+				has_country_flag = ph_elevate_social_status
 			}
-			if = {
-				limit = {
-					has_building = nuni
-				}
-				controller = { 
-					change_variable = { which = intellectualtradition value = 0.50 }
-				}
+			change_variable = { which = religioustradition value = 0.25 }
+		}
+		
+		if = {
+			limit = {
+				has_country_flag = ph_mandate_religious_schooling
 			}
-			if = {
-				limit = {
-					has_building = pschool
-				}
-				controller = { 
-					change_variable = { which = intellectualtradition value = 0.75 }
-				}
+			change_variable = { which = religioustradition value = 0.50 }
+		}
+		
+		every_owned_province = { 
+			limit = {
+				has_building = missionschool
 			}
-			if = {
-				limit = {
-					has_building = puni
-				}
-				controller = { 
-					change_variable = { which = intellectualtradition value = 1.0 }
-				}
+			controller = {
+				change_variable = { which = religioustradition value = 0.05}
 			}
 		}
 		
 		#Militancy
+		if = {
+			limit = {
+				has_idea = militaristic_propaganda
+			}
+			change_variable = { which = militancy value = 0.50 }
+		}
+		if = {
+			limit = {
+				has_idea = integrated_military
+			}
+			change_variable = { which = militancy value = 0.50 }
+		}
 		if = {
 			limit = {
 				has_idea = socialadvancement

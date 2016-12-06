@@ -40,14 +40,45 @@ new_idea_dip_modifiers = {
 	
 	custom_idea_global_sailors_modifier = {
 		global_sailors_modifier = 0.1
+		chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { num_of_ports = 1 }
+			}
+		}
 	}
 	custom_idea_sailors_recovery_speed = {
 		sailors_recovery_speed = 0.05
+		chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { num_of_ports = 1 }
+			}
+		}
 	}
 	custom_idea_slave_raiders = {
 		may_perform_slave_raid = yes
 		max_level = 1
 		level_cost_1 = 20
+		chance = {
+			factor = 0.25
+			modifier = {
+				factor = 0
+				NOT = { num_of_ports = 1 }
+			}
+			modifier = {
+				factor = 2
+				religion = norse_pagan_reformed
+			}
+			modifier = {
+				factor = 2
+				capital_scope = {
+					region = maghreb_region
+				}
+			}
+		}
 	}
 }
 

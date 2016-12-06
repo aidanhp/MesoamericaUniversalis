@@ -74,8 +74,7 @@ revolutionary_rebels = {
 		modifier = {
 			factor = 0.1
 			owner = {
-				NOT = { technology_group = western }
-				NOT = { technology_group = eastern }
+				NOT = { has_institution = enlightenment }
 			}
 		}
 
@@ -144,7 +143,7 @@ revolutionary_rebels = {
 						government = shogunate
 						government = colonial_government
 						government = native_council
-						
+						government = revolutionary_republic
 					}
 				}
 			}
@@ -159,6 +158,18 @@ revolutionary_rebels = {
 			clr_country_flag = liberalism
 			remove_country_modifier = reduceed_war_expenditures
 			remove_country_modifier = decreased_morale
+		}
+		if = {
+			limit = {
+				has_dlc = "Rights of Man"
+				government = revolutionary_republic
+			}
+			add_faction_influence = {
+				faction = rr_jacobins
+				influence = 15
+			}
+			remove_country_modifier = constitutional_project
+			remove_country_modifier = consolidation_of_power
 		}
 	}
 }

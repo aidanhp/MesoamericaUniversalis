@@ -289,11 +289,12 @@ pretender_rebels = {
 						government = native_council
 						government = elective_monarchy
 						government = english_monarchy
+						government = ottoman_government
 					}
 				}
 			}
 			change_government = REB
-		}	
+		}
 		define_ruler = {
 			rebel = yes
 		}

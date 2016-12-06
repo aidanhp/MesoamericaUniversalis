@@ -1,0 +1,182 @@
+﻿l_english: 
+ #Tribute Events
+ 
+ #Modifiers
+ tribreqs_high: "High Tribute Requirements"
+ tribreqs_normal: "Normal Tribute Requirements"
+ tribreqs_low: "Low Tribute Requirements"
+ tribreqs_changed_CD: "Changed Tribute Requirements Cooldown"
+ 
+ #Set Tribute Requirements Interface 
+ tributecoll1.t: "Set Tribute Requirements"
+ tributecoll1.d: "Here you can set your tribute requirements. Higher requirements will increase the amount of ducats you recieve from a conquered area at the cost of penalities to unrest and legitimacy, so make sure you're powerful enough to scare your subjects into accepting high requirements before setting them. \nRemember, once you change tribute requirements you must wait 4 years to do so again." 
+ tributecoll1.a: "Set high requirements."
+ tributecoll1.b: "Set normal requirements."
+ tributecoll1.c: "Set low requirements."
+ tributecoll1.dd: "Back"
+ 
+ tributecoll2.t: "Time for Tribute!"
+ tributecoll2.d: "The time has come for our conquered subjects to pay tribute to us. May they all prove loyal, and may we excise any and all subversives without mercy!"
+ tributecoll2.a: "Send out the collectors!"
+ 
+ tributecoll3.t: "West Anahuac Pays Tribute"
+ tributecoll3.d: "The tribute has arrived from the cities of West Anahuac."
+ tributecoll3.a: "Excellent."
+ 
+ tributecoll4.t: "East Anahuac Pays Tribute"
+ tributecoll4.d: "The tribute has arrived from the cities of East Anahuac."
+ tributecoll4.a: "Excellent."
+ 
+ tributecoll5.t: "South Anahuac Pays Tribute"
+ tributecoll5.d: "The tribute has arrived from the cities of South Anahuac."
+ tributecoll5.a: "Excellent."
+ 
+ tributecoll6.t: "Xocotitlan Pays Tribute"
+ tributecoll6.d: "The tribute has arrived from the cities of Xocotitlan."
+ tributecoll6.a: "Excellent."
+ 
+ tributecoll7.t: "Toluca Pays Tribute"
+ tributecoll7.d: "The tribute has arrived from the cities of Toluca."
+ tributecoll7.a: "Excellent."
+ 
+ tributecoll8.t: "Petlacalco Pays Tribute"
+ tributecoll8.d: "The tribute has arrived from the cities of Petlacalco."
+ tributecoll8.a: "Excellent."
+ 
+ tributecoll9.t: "Tula Pays Tribute"
+ tributecoll9.d: "The tribute has arrived from the cities of Tula."
+ tributecoll9.a: "Excellent."
+ 
+ tributecoll10.t: "Tlaxcala Pays Tribute"
+ tributecoll10.d: "The tribute has arrived from the cities of Tlaxcala."
+ tributecoll10.a: "Excellent."
+ 
+ tributecoll11.t: "Tepeacac Pays Tribute"
+ tributecoll11.d: "The tribute has arrived from the cities of Tepeacac."
+ tributecoll11.a: "Excellent."
+ 
+ tributecoll12.t: "Malinalco Pays Tribute"
+ tributecoll12.d: "The tribute has arrived from the cities of Malinalco."
+ tributecoll12.a: "Excellent."
+ 
+ tributecoll13.t: "Cuahnahuac Pays Tribute"
+ tributecoll13.d: "The tribute has arrived from the cities of Cuahnahuac."
+ tributecoll13.a: "Excellent."
+ 
+ tributecoll14.t: "Yohualtepec Pays Tribute"
+ tributecoll14.d: "The tribute has arrived from the cities of Yohualtepec."
+ tributecoll14.a: "Excellent."
+ 
+ tributecoll15.t: "Oztoman Pays Tribute"
+ tributecoll15.d: "The tribute has arrived from the cities of Oztoman."
+ tributecoll15.a: "Excellent."
+ 
+ tributecoll16.t: "Cihuatlan Pays Tribute"
+ tributecoll16.d: "The tribute has arrived from the cities of Cihuatlan."
+ tributecoll16.a: "Excellent."
+ 
+ tributecoll17.t: "Yope Pays Tribute"
+ tributecoll17.d: "The tribute has arrived from the cities of Yope."
+ tributecoll17.a: "Excellent."
+ 
+ tributecoll18.t: "Tututepec Pays Tribute"
+ tributecoll18.d: "The tribute has arrived from the cities of Tututepec."
+ tributecoll18.a: "Excellent."
+ 
+ tributecoll19.t: "Tehuantepec Pays Tribute"
+ tributecoll19.d: "The tribute has arrived from the cities of Tehuantepec."
+ tributecoll19.a: "Excellent."
+ 
+ tributecoll20.t: "Teotitlan Pays Tribute"
+ tributecoll20.d: "The tribute has arrived from the cities of Teotitlan."
+ tributecoll20.a: "Excellent."
+ 
+ tributecoll21.t: "Tochtepec Pays Tribute"
+ tributecoll21.d: "The tribute has arrived from the cities of Tochtepec."
+ tributecoll21.a: "Excellent."
+ 
+ tributecoll22.t: "Cuetlaxtlan Pays Tribute"
+ tributecoll22.d: "The tribute has arrived from the cities of Cuetlaxtlan."
+ tributecoll22.a: "Excellent."
+ 
+ tributecoll23.t: "Huasteca Pays Tribute"
+ tributecoll23.d: "The tribute has arrived from the cities of Huasteca."
+ tributecoll23.a: "Excellent."
+ 
+ tributecoll24.t: "Patzcuaro Pays Tribute"
+ tributecoll24.d: "The tribute has arrived from the cities of Patzcuaro."
+ tributecoll24.a: "Excellent."
+ 
+ tributecoll25.t: "Zacatula Pays Tribute"
+ tributecoll25.d: "The tribute has arrived from the cities of Zacatula."
+ tributecoll25.a: "Excellent."
+ 
+ tributecoll26.t: "Cuitzeo Pays Tribute"
+ tributecoll26.d: "The tribute has arrived from the cities of Cuitzeo."
+ tributecoll26.a: "Excellent."
+ 
+ tributecoll27.t: "Chapala Pays Tribute"
+ tributecoll27.d: "The tribute has arrived from the cities of Chapala."
+ tributecoll27.a: "Excellent."
+ 
+ tributecoll28.t: "Tetellan Pays Tribute"
+ tributecoll28.d: "The tribute has arrived from the cities of Tetellan."
+ tributecoll28.a: "Excellent."
+ 
+ tributecoll29.t: "Colima Pays Tribute"
+ tributecoll29.d: "The tribute has arrived from the cities of Colima."
+ tributecoll29.a: "Excellent."
+ 
+ tributecoll30.t: "Xalisco Pays Tribute"
+ tributecoll30.d: "The tribute has arrived from the cities of Xalisco."
+ tributecoll30.a: "Excellent."
+ 
+ tributecoll31.t: "Cora Pays Tribute"
+ tributecoll31.d: "The tribute has arrived from the cities of Cora."
+ tributecoll31.a: "Excellent."
+ 
+ tributecoll32.t: "Tonallan Pays Tribute"
+ tributecoll32.d: "The tribute has arrived from the cities of Tonallan."
+ tributecoll32.a: "Excellent."
+ 
+ tributecoll33.t: "Metztitlan Pays Tribute"
+ tributecoll33.d: "The tribute has arrived from the cities of Metztitlan."
+ tributecoll33.a: "Excellent."
+ 
+ tributecoll34.t: "Xoconochco Pays Tribute"
+ tributecoll34.d: "The tribute has arrived from the cities of Xoconochco."
+ tributecoll34.a: "Excellent."
+ 
+ tributecoll35.t: "West Highlands Pays Tribute"
+ tributecoll35.d: "The tribute has arrived from the cities of West Highlands."
+ tributecoll35.a: "Excellent."
+ 
+ tributecoll36.t: "East Highlands Pays Tribute"
+ tributecoll36.d: "The tribute has arrived from the cities of East Highlands."
+ tributecoll36.a: "Excellent."
+ 
+ tributecoll37.t: "Central American Isthmus Pays Tribute"
+ tributecoll37.d: "The tribute has arrived from the cities of the Central American Isthmus."
+ tributecoll37.a: "Excellent."
+ 
+ tributecoll38.t: "Xicalango Pays Tribute"
+ tributecoll38.d: "The tribute has arrived from the cities of Xicalango."
+ tributecoll38.a: "Excellent."
+ 
+ tributecoll39.t: "Peten Pays Tribute"
+ tributecoll39.d: "The tribute has arrived from the cities of Peten."
+ tributecoll39.a: "Excellent."
+ 
+ tributecoll40.t: "Mayapan Pays Tribute"
+ tributecoll40.d: "The tribute has arrived from the cities of West Anahuac."
+ tributecoll40.a: "Excellent."
+ 
+ tributecoll41.t: "Chichen Itza Pays Tribute"
+ tributecoll41.d: "The tribute has arrived from the cities of Chichen Itza."
+ tributecoll41.a: "Excellent."
+ 
+ tributecoll42.t: "Ekab Pays Tribute"
+ tributecoll42.d: "The tribute has arrived from the cities of Ekab."
+ tributecoll42.a: "Excellent."
+ 
+ 

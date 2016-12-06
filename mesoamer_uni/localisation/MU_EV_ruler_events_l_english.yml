@@ -1,0 +1,62 @@
+﻿l_english: 
+ #Modifiers dealing with these events
+ deliberations_of_the_council: "Deliberations of the Council"
+
+ #Ruler Events
+ 
+ #Ruler/Heir Killed in Action - Doesn't work right now
+ killedinaction1.t: "Ruler Killed in Action"
+ killedinaction1.d: "Woe to us! Not only have we lost a battle, but our ruler perished in the melee. The heir apparent has temporarily taken charge of our country, and soon the upper nobility will begin deliberations and elect a new leader. For now though, we must mourn our loss."
+ killedinaction1.a: "Give him the great funeral he deserves!"
+ killedinaction1.b: "A simple funeral will suffice."
+ killedinaction1.c: "Claim we never found the body and try to erase the fool from history."
+ 
+ killedinaction2.t: "Heir Killed in Action"
+ killedinaction2.d: "A sad day indeed! Not only have we lost a battle, but the heir apparent has been killed in action. We must mourn our great loss!"
+ killedinaction2.a: "How awful! He must be given an elaborate funeral."
+ killedinaction2.b: "A small funeral will have to do."
+ killedinaction2.c: "Loss? This was the plan all along!"
+ 
+ killedinaction3.t: "Ruler Killed in Action"
+ killedinaction3.d: "Woe to us! Not only have we lost a battle, but our ruler was vanquished on the field. We must mourn this terrible loss!"
+ killedinaction3.a: "Give him the great funeral he deserves!"
+ killedinaction3.b: "A simple funeral will suffice."
+ killedinaction3.c: "Claim we never found the body and try to erase the fool from history."
+ 
+ #Elective Succession 
+ esuccession1.t: "Death of the $MONARCHTITLE$"
+ esuccession1.d: "Tragedy strikes again! Our $MONARCHTITLE$ has perished! The heir apparent has temporarily taken charge of our country. Soon, the wise and influential will come together to elect a more permanent leader for us, but for now we must mourn the loss of our leader."
+ esuccession1.a: "Only the greatest of funerals for our great leader!"
+ esuccession1.b: "A simple funeral will have to suffice."
+ esuccession1.c: "Claim we never found the body and try to erase the fool from history."
+ 
+ esuccession2.t: "Influence the Council"
+ esuccession2.d: "The council to elect the new $MONARCHTITLE$ has fully assembled, and now they are preparing to start the debate over who should become the next ruler. As the favorite of the previous monarch, they wish to know if you would accept the job if offered, or if you think someone else would be better suited."
+ esuccession2.a: "Of course I would accept the job!"
+ esuccession2.b: "Someone else should have it."
+ esuccession2.c: "Refuse to influence the election one way or the other."
+ 
+ esuccession3.t: "The Council Chooses $MONARCH$ as the new $MONARCHTITLE$"
+ esuccession3.d: "Today, the council formally announced $MONARCH$ as the next ruler of our nation! May he live long and bring us great success!"
+ esuccession3.a: "A celebration is in order!"
+ 
+ #Direct Succession
+ dsuccession1.t: "Death of the $MONARCHTITLE$"
+ dsuccession1.d: "Grief strikes us! Our $MONARCHTITLE$ has passed away! While the heir apparent has taken charge of the country, we must mourn the loss of our leader."
+ dsuccession1.a: "Hold a magnificent state funeral in the capital!"
+ dsuccession1.b: "Hold a nice, simple funeral for the nobles."
+ dsuccession1.c: "Pretend the fool didn't exist and hope no one notices."
+ 
+ #For Both
+ gsuccession1.t: "$MONARCHTITLE$ Picks a New Favorite"
+ gsuccession1.d: "The unfortunate death of the previous heir apparent requires the selection of a new favored successor."
+ gsuccession1.a: "Choose the most capable warrior."
+ gsuccession1.b: "Choose the best orator and diplomat."
+ gsuccession1.c: "Choose the most patient and hardworking."
+
+ gsuccession2.t: "$MONARCHTITLE$ Picks a New Favorite"
+ gsuccession2.d: "Succession is currently uncertain. It would be wise to select a favored heir."
+ gsuccession2.a: "Choose the most capable warrior."
+ gsuccession2.b: "Choose the best orator and diplomat."
+ gsuccession2.c: "Choose the most patient and hardworking."
+ 

@@ -1,0 +1,16 @@
+﻿l_english:
+ #Generic Disasters
+ un_civil_war: "Civil War with the Upper Nobles"
+ desc_un_civil_war: ""
+ 
+ an_uprising: "Noble Uprising"
+ desc_an_uprising: ""
+ 
+ ln_uprising: "Lower Noble Uprising"
+ desc_ln_uprising: ""
+ 
+ ms_conflict: "Conflict with the Merchants"
+ desc_ms_conflict: ""
+ 
+ ph_uprising: "Uprising of the Faithful"
+ desc_ph_uprising: ""
