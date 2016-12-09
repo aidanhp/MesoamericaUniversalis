@@ -1,6 +1,7 @@
 add_core = FFY
-owner = FFY
-controller = FFY
+add_core = GGB
+owner = GGB
+controller = GGB
 culture = tarascan
 religion = tarascan 
 hre = no

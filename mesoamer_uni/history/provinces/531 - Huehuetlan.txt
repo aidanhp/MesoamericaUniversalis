@@ -1,6 +1,7 @@
-controller = DOD
 add_core = DOD
-owner = DOD
+add_core = TPY
+owner = TPY
+controller = TPY
 culture = newtotonac 
 religion = newnahuatl
 hre = no

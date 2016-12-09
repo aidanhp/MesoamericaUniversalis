@@ -10,7 +10,7 @@ capital = 506
 
 1427.1.1 = {
 	monarch = {
-		name = "Gyazob"
+		name = "Kumi Coo Nana Ninu Yecu"
 		dynasty = "Acuitlapan"
 		adm = 4
 		dip = 4

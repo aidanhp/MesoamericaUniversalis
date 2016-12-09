@@ -1,2 +1,0 @@
-discovered_by = northern_mayan
-discovered_by = southern_mayan

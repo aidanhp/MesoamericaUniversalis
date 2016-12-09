@@ -18,7 +18,6 @@ country_event = {
 	trigger = {
 		OR = {
 			tag = IRT
-			tag = IUA
 		}
 		num_of_cities = 12
 		stability = 0
@@ -41,24 +40,25 @@ country_event = {
 				name = chichimec_immigrants
 				duration = -1
 			}
-			add_base_manpower = 107
-			add_base_production = 22
+			add_base_manpower = 3
+			add_base_production = 1
+			add_base_tax = 1
 		}
 		85 = {
 			add_province_modifier = {
 				name = chichimec_immigrants
 				duration = -1
 			}
-			add_base_manpower = 98
-			add_base_production = 17
+			add_base_manpower = 3
+			add_base_production = 1
 		}
 		86 = {
 			add_province_modifier = {
 				name = chichimec_immigrants
 				duration = -1
 			}
-			add_base_manpower = 91
-			add_base_production = 14
+			add_base_manpower = 3
+			add_base_production = 1
 		}
 		ai_chance = {
 			factor = 90
@@ -97,9 +97,7 @@ country_event = {
 		name = "fl_iua_mn.2.a"
 		add_treasury = -100
 		random_owned_province = {
-			add_base_tax = 5
-			add_base_production = 20
-			add_base_manpower = 70
+			add_base_manpower = 2
 			add_province_modifier = {
 				name = chichimec_immigrants
 				duration = -1

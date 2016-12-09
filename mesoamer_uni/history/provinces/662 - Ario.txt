@@ -1,6 +1,7 @@
 add_core = FFW
-owner = FFW
-controller = FFW
+add_core = PAT
+owner = PAT
+controller = PAT
 culture = tarascan
 religion = tarascan 
 hre = no

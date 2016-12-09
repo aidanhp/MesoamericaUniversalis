@@ -1,6 +1,7 @@
-controller = FFC
 add_core = FFC
-owner = FFC
+add_core = TZI
+owner = TZI
+controller = TZI
 culture = huastec 
 religion = newnahuatl
 hre = no

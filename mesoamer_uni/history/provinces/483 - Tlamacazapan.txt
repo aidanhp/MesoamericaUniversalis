@@ -1,6 +1,7 @@
-controller = BRB
+controller = TCH
+add_core = TCH
 add_core = BRB
-owner = BRB
+owner = TCH
 culture = matlatxinca 
 religion = newnahuatl
 hre = no

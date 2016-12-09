@@ -10,7 +10,7 @@ capital = 511
 
 1427.1.1 = {
 	monarch = {
-		name = "An"
+		name = "Uni Ua Cuine Nisami Devi"
 		dynasty = "Mitzinco"
 		adm = 4
 		dip = 4

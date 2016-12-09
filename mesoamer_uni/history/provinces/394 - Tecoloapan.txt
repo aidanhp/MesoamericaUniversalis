@@ -1,6 +1,7 @@
 add_core = ABC
-owner = ABC
-controller = ABC
+add_core = POT
+owner = POT
+controller = POT
 culture = tepanec 
 religion = newnahuatl
 hre = no

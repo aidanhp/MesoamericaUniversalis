@@ -1,6 +1,7 @@
-controller = DVD
 add_core = DVD
-owner = DVD
+add_core = CIX
+owner = CIX
+controller = CIX
 culture = newmixtec 
 religion = mixtec 
 hre = no

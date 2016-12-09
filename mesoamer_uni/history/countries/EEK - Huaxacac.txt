@@ -10,7 +10,7 @@ capital = 553
 
 1427.1.1 = {
 	monarch = {
-		name = "Rusiguunda"
+		name = "Lachi"
 		dynasty = "Huaxacac"
 		adm = 4
 		dip = 4

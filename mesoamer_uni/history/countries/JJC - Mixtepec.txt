@@ -9,7 +9,7 @@ fixed_capital = 736
 
 1427.1.1 = {
 	monarch = {
-		name = "Placeholder"
+		name = "Tsa’un uni Cuane Nuhu Jisi Nuu"
 		dynasty = "Mixtepec"
 		adm = 4
 		dip = 4

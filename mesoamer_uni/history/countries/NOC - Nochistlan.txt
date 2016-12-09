@@ -1,7 +1,7 @@
 government = altepetl 
 government_rank = 1
 mercantilism = 0.25
-technology_group = central_mexican 
+technology_group = west_mexican
 religion = newnahuatl 
 primary_culture = caxcan
 capital = 722

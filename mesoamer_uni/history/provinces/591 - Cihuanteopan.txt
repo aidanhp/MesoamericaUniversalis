@@ -1,6 +1,7 @@
-controller = EXE
 add_core = EXE
-owner = EXE
+add_core = FFF
+owner = FFF
+controller = FFF
 culture = huastec 
 religion = newnahuatl
 hre = no

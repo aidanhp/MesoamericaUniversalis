@@ -1,6 +1,7 @@
-controller = FFE
 add_core = FFE
-owner = FFE
+add_core = OXT
+owner = OXT
+controller = OXT
 culture = huastec 
 religion = newnahuatl
 hre = no

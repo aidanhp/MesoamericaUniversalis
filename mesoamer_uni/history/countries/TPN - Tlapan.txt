@@ -9,7 +9,7 @@ fixed_capital = 60
 
 1427.1.1 = {
 	monarch = {
-		name = "Cocijoeza"
+		name = "Tsa’un uvi Qhi Nuhu Jisi Nuu"
 		dynasty = "Tlapan"
 		adm = 4
 		dip = 4

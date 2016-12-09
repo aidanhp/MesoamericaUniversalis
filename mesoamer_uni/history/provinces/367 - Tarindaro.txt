@@ -1,6 +1,7 @@
 add_core = TAR
-owner = TAR
-controller = TAR
+add_core = IUA
+owner = IUA
+controller = IUA
 culture = tarascan
 religion = tarascan
 hre = no

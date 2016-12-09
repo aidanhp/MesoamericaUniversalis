@@ -10,7 +10,7 @@ capital = 543
 
 1427.1.1 = {
 	monarch = {
-		name = "Dao"
+		name = "Una Nooy Dzaui Dzine Nidesi Anute"
 		dynasty = "Xaltepec"
 		adm = 4
 		dip = 4

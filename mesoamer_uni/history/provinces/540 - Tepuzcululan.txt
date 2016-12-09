@@ -1,6 +1,7 @@
-controller = DXD
 add_core = DXD
-owner = DXD
+add_core = CIX
+owner = CIX
+controller = CIX
 culture = newmixtec 
 religion = mixtec 
 hre = no

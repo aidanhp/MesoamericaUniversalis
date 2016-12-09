@@ -1,6 +1,7 @@
-controller = AXA
+controller = HUY
+add_core = HUY
 add_core = AXA
-owner = AXA
+owner = HUY
 culture = acolhua 
 religion = newnahuatl
 hre = no

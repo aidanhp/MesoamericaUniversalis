@@ -10,7 +10,7 @@ capital = 557
 
 1427.1.1 = {
 	monarch = {
-		name = "Pijje"
+		name = "Yobixoij"
 		dynasty = "Macuilxochic"
 		adm = 4
 		dip = 4

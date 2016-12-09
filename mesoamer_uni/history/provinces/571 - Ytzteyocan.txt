@@ -1,6 +1,7 @@
-controller = ECE
 add_core = ECE
-owner = ECE
+add_core = CTH
+owner = CTH
+controller = CTH
 culture = huastec 
 religion = newnahuatl
 hre = no

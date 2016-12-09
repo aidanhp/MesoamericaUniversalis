@@ -1,6 +1,7 @@
-controller = DDD
+controller = TCC
+add_core = TCC
 add_core = DDD
-owner = DDD
+owner = TCC
 culture = matlatxinca 
 religion = newnahuatl
 hre = no

@@ -10,7 +10,7 @@ capital = 518
 
 1427.1.1 = {
 	monarch = {
-		name = "Ngolbex"
+		name = "Iin Quehi Yaha Tnoo Yecu"
 		dynasty = "Tzilacaapan"
 		adm = 4
 		dip = 4

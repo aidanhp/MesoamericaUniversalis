@@ -10,7 +10,7 @@ capital = 547
 
 1427.1.1 = {
 	monarch = {
-		name = "Chonna"
+		name = "U’u Qhi Dzaui Jicajiy"
 		dynasty = "Coaxomulco"
 		adm = 4
 		dip = 4

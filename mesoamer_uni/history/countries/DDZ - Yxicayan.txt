@@ -10,7 +10,7 @@ capital = 517
 
 1427.1.1 = {
 	monarch = {
-		name = "Lyebe"
+		name = "Tsa’un íín Cuane Nana Ninu Yecu"
 		dynasty = "Yxicayan"
 		adm = 4
 		dip = 4

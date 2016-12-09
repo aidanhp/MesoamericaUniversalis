@@ -28,7 +28,7 @@ groups = {
 	}
 	triple_alliance = {
 		start_level = 0
-		start_cost_modifier = 0.50
+		start_cost_modifier = 0
 		cav_to_inf_ratio = 0.5
 		nation_designer_cost = {
 			trigger = {

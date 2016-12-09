@@ -1,6 +1,7 @@
 add_core = TRT
-owner = TRT
-controller = TRT
+add_core = PAT
+owner = PAT
+controller = PAT
 culture = tarascan
 religion = tarascan
 hre = no

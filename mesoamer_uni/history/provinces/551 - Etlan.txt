@@ -1,6 +1,7 @@
-controller = EEI
 add_core = EEI
-owner = EEI
+add_core = THT
+owner = THT
+controller = THT
 culture = newzapotec
 religion = zapotec
 hre = no

@@ -1,6 +1,7 @@
-controller = ANA
+controller = AXO
+add_core = AXO
 add_core = ANA
-owner = ANA
+owner = AXO
 culture = acolhua 
 religion = newnahuatl
 hre = no

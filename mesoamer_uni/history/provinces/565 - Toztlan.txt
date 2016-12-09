@@ -1,6 +1,7 @@
-controller = EEW
 add_core = EEW
-owner = EEW
+add_core = THT
+owner = THT
+controller = THT
 culture = newtotonac 
 religion = newnahuatl
 hre = no

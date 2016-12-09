@@ -1,6 +1,7 @@
-controller = BZB
+controller = TCC
 add_core = BZB
-owner = BZB
+add_core = TCC
+owner = TCC
 culture = matlatxinca 
 religion = newnahuatl
 hre = no

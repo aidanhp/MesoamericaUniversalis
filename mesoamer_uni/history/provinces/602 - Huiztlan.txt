@@ -1,6 +1,7 @@
-controller = FFI
 add_core = FFI
-owner = FFI
+add_core = XCN
+owner = XCN
+controller = XCN
 culture = highlandsmayan
 religion = newmayan
 hre = no

@@ -10,7 +10,7 @@ capital = 540
 
 1427.1.1 = {
 	monarch = {
-		name = "Djoraxa"
+		name = "Iin Huahi Yaui Nicani Yuu"
 		dynasty = "Tepuzcululan"
 		adm = 4
 		dip = 4

@@ -1,6 +1,7 @@
 add_core = PHO
-owner = PHO
-controller = PHO
+add_core = GGK
+owner = GGK
+controller = GGK
 culture = tarascan
 religion = tarascan
 hre = no

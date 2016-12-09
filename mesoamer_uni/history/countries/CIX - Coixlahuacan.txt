@@ -9,7 +9,7 @@ fixed_capital = 61
 
 1427.1.1 = {
 	monarch = {
-		name = "Zaachilla"
+		name = "Tsa’un uni Huiyo Yaha Tnoo Yecu"
 		dynasty = "Coixlahuacan"
 		adm = 4
 		dip = 4

@@ -1,6 +1,7 @@
-controller = ENE
 add_core = ENE
-owner = ENE
+add_core = TLQ
+owner = TLQ
+controller = TLQ
 culture = huastec 
 religion = newnahuatl
 hre = no

@@ -1,6 +1,7 @@
-controller = BBG
+controller = HEA
+add_core = HEA
 add_core = BBG
-owner = BBG
+owner = HEA
 culture = acolhua 
 religion = newnahuatl
 hre = no

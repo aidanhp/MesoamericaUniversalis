@@ -1,6 +1,7 @@
-controller = AOA
+controller = AXO
+add_core = AXO
 add_core = AOA
-owner = AOA
+owner = AXO
 culture = otomi 
 religion = newnahuatl
 hre = no

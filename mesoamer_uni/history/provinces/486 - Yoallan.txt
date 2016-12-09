@@ -1,6 +1,7 @@
-controller = BUB
+controller = TCC
 add_core = BUB
-owner = BUB
+add_core = TCC
+owner = TCC
 culture = matlatxinca 
 religion = newnahuatl
 hre = no

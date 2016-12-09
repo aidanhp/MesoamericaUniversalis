@@ -1,6 +1,7 @@
-controller = DWD
 add_core = DWD
-owner = DWD
+add_core = CIX
+owner = CIX
+controller = CIX
 culture = newmixtec 
 religion = mixtec 
 hre = no

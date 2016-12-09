@@ -1,6 +1,7 @@
-controller = BQB
+controller = TCH
+add_core = TCH
 add_core = BQB
-owner = BQB
+owner = TCH
 culture = matlatxinca 
 religion = newnahuatl
 hre = no

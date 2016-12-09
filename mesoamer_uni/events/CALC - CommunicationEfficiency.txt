@@ -740,6 +740,19 @@ country_event = {
 				change_variable = { which = CE_distance value = -85 }
 			}
 		}
+		
+		every_owned_province = {
+			if = {
+				limit = {
+					NOT = {
+						any_neighbor_province = {
+							owned_by = ROOT
+						}
+					}
+				}
+				change_variable = { which = CE_distance value = 1000 }
+			}
+		}
 			
 		every_owned_province = {
 			if = {

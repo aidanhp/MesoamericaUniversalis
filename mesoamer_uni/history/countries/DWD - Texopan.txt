@@ -10,7 +10,7 @@ capital = 539
 
 1427.1.1 = {
 	monarch = {
-		name = "Coqui"
+		name = "Iín Quehi Yaui Nicani Yuu"
 		dynasty = "Texopan"
 		adm = 4
 		dip = 4

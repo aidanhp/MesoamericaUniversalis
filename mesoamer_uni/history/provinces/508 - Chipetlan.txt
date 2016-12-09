@@ -1,6 +1,7 @@
-controller = DDQ
+controller = TPN
+add_core = TPN
 add_core = DDQ
-owner = DDQ
+owner = TPN
 culture = newmixtec 
 religion = mixtec 
 hre = no

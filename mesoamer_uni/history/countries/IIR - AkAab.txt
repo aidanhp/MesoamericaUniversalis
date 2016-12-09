@@ -9,7 +9,7 @@ fixed_capital = 641
 
 1427.1.1 = {
 	monarch = {
-		name = "Placeholder"
+		name = "Nohochacyum"
 		dynasty = "Ak'Aab"
 		adm = 4
 		dip = 4

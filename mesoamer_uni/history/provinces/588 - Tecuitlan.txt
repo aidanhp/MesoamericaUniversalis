@@ -1,6 +1,7 @@
-controller = EUE
 add_core = EUE
-owner = EUE
+add_core = TLQ
+owner = TLQ
+controller = TLQ
 culture = huastec 
 religion = newnahuatl
 hre = no

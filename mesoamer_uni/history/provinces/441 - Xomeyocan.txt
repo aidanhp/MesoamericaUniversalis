@@ -1,6 +1,7 @@
-controller = BBB
+controller = HUY
 add_core = BBB
-owner = BBB
+add_core = HUY
+owner = HUY
 culture = acolhua 
 religion = newnahuatl
 hre = no

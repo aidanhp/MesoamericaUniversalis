@@ -1,6 +1,7 @@
-controller = BBD
+controller = HUY
+add_core = HUY
 add_core = BBD
-owner = BBD
+owner = HUY
 culture = acolhua 
 religion = newnahuatl
 hre = no

@@ -9,7 +9,7 @@ fixed_capital = 198
 
 1427.1.1 = {
 	monarch = {
-		name = "Placeholder"
+		name = "Cocaib"
 		dynasty = "Tujal"
 		adm = 4
 		dip = 4

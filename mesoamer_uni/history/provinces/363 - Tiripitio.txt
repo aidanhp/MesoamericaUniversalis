@@ -1,7 +1,7 @@
 add_core = TIR
-add_core = IUA
-owner = IUA
-controller = IUA
+add_core = IHU
+owner = IHU
+controller = IHU
 culture = tarascan
 religion = tarascan
 hre = no

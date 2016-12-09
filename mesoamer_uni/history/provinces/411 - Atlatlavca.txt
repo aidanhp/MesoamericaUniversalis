@@ -1,6 +1,7 @@
 add_core = AAQ
-owner = AAQ
-controller = AAQ
+add_core = HXT
+owner = HXT
+controller = HXT
 culture = chalca
 religion = newnahuatl
 hre = no

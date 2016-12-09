@@ -1,6 +1,7 @@
-controller = FFA
 add_core = FFA
-owner = FFA
+add_core = FFB
+owner = FFB
+controller = FFB
 culture = huastec 
 religion = newnahuatl
 hre = no

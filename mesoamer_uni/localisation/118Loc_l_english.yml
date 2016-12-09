@@ -359,6 +359,12 @@
  LIBERTY_DESIRE_FROM_DEVELOPMENT_VASSAL:0 "From $AMOUNT|Y$ development: $VAL$"
  NO_LOCAL_AUTONOMY_EFFECTS:0 "There are no current local autonomy effects in $NAME$."
  
+ REBELS_ARMY_DUE_TO:0 "They will get this size of armies due to:\n"
+ REBELS_ARMY_BASE:0 "Base: $BASE|Y$\n"
+ REBELS_ARMY_PROV:0 "$NAME$: $SIZE|Y$\n"
+ REBELS_ARMY_TECH_SCALE:1 "Military Technology: $VALUE$\n"
+ 
+ HEIR_CHANCE_TOOLTIP2:0 "If our heir dies or gets inherited, then our chance to get a new heir is modified by $CHANCE$."
  
  #"Continents"
  continent_1: "Mesoamerica"

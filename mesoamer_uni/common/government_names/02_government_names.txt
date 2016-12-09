@@ -22,7 +22,10 @@ gov_altepetl = {
 	
 	trigger = {
 		government = altepetl
-		culture_group = nahua
+		OR = {
+			culture_group = chichimec
+			culture_group = nahua
+		}
 	}
 }
 
@@ -100,7 +103,16 @@ gov_altepetl_wm = {
 	
 	trigger = {
 		government = altepetl
-		culture_group = purepecha
+		OR = { 
+			primary_culture = xilotlantxinco
+			primary_culture = cuitlateco
+			primary_culture = chumbia
+			primary_culture = cuauhcomeca
+			primary_culture = pirinda
+			primary_culture = matlatxinca
+			primary_culture = maxahua
+			primary_culture = tarascan
+		}
 	}
 }
 

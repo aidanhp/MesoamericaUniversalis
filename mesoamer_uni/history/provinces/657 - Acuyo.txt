@@ -1,6 +1,7 @@
 add_core = FFR
-owner = FFR
-controller = FFR
+add_core = FFQ
+owner = FFQ
+controller = FFQ
 culture = tarascan
 religion = tarascan 
 hre = no

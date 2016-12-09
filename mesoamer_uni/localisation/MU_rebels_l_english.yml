@@ -38,3 +38,16 @@
  holy_rebels_name: "$COUNTRY_ADJ$ Religious Militants"
  holy_rebels_desc: ""
  holy_rebels_army: "$COUNTRY_ADJ$ Warriors of the Faith"
+ 
+ #Seperatists
+ hg_nationalist_rebels_demand:0 "Independence for $INDEPENDENCE_COUNTRY$"
+ hg_nationalist_rebels_demand_desc:0 "The Separatists demand Independence for $INDEPENDENCE_COUNTRY$. They feel that their ruler should be of $CULTURE$ culture."
+ hg_nationalist_rebels_title:0 "Separatists"
+ hg_nationalist_rebels_name:0 "$INDEP$ Separatists"
+ hg_nationalist_rebels_desc:0 "Separatist rebels want freedom for their people. They are well led and equipped, but will tend to stay in provinces of their own culture."
+ 
+ tg_nationalist_rebels_demand:0 "Independence for $INDEPENDENCE_COUNTRY$"
+ tg_nationalist_rebels_demand_desc:0 "The Separatists demand Independence for $INDEPENDENCE_COUNTRY$. They feel that their ruler should be of $CULTURE$ culture."
+ tg_nationalist_rebels_title:0 "Separatists"
+ tg_nationalist_rebels_name:0 "$INDEP$ Separatists"
+ tg_nationalist_rebels_desc:0 "Separatist rebels want freedom for their people. They are well led and equipped, but will tend to stay in provinces of their own culture."

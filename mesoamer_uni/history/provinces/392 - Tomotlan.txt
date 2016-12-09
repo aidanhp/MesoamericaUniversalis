@@ -1,6 +1,7 @@
 add_core = TAT
-owner = TAT
-controller = TAT
+add_core = TCT
+owner = TCT
+controller = TCT
 culture = xilotlantxinco
 religion = tarascan
 hre = no

@@ -1,6 +1,7 @@
-controller = DDT
+controller = DDU
 add_core = DDT
-owner = DDT
+add_core = DDU
+owner = DDU
 culture = newmixtec 
 religion = mixtec 
 hre = no

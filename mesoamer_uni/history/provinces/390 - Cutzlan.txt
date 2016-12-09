@@ -1,6 +1,7 @@
 add_core = CTZ
-owner = CTZ
-controller = CTZ
+add_core = FFQ
+owner = FFQ
+controller = FFQ
 culture = tarascan
 religion = tarascan
 hre = no

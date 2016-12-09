@@ -1,6 +1,7 @@
 add_core = GGU
-owner = GGU
-controller = GGU
+add_core = IUA
+owner = IUA
+controller = IUA
 culture = teco
 religion = tarascan 
 hre = no

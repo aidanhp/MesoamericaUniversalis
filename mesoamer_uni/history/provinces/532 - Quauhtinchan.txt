@@ -1,6 +1,7 @@
-controller = DPD
 add_core = DPD
-owner = DPD
+add_core = TPY
+owner = TPY
+controller = TPY
 culture = newtotonac 
 religion = newnahuatl
 hre = no

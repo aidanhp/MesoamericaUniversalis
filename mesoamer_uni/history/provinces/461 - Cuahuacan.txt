@@ -1,6 +1,7 @@
-controller = BBU
 add_core = BBU
-owner = BBU
+add_core = POT
+owner = POT
+controller = POT
 culture = tepanec 
 religion = newnahuatl
 hre = no

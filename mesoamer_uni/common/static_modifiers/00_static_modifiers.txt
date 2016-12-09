@@ -200,6 +200,7 @@ no_adjacent_controlled = {
 
 provincial_tax_income = {
 	regiment_recruit_speed = -0.01
+	global_tax_income = 0.25
 }
 
 provincial_production_size = {

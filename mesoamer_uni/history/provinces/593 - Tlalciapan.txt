@@ -1,6 +1,7 @@
-controller = EZE
 add_core = EZE
-owner = EZE
+add_core = FFF
+owner = FFF
+controller = FFF
 culture = huastec 
 religion = newnahuatl
 hre = no

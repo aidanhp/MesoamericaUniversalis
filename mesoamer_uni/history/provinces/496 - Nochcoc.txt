@@ -1,6 +1,7 @@
-controller = DDE
+controller = CHT
 add_core = DDE
-owner = DDE
+add_core = CHT
+owner = CHT
 culture = cuitlateco 
 religion = newnahuatl
 hre = no

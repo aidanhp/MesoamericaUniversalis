@@ -1,6 +1,7 @@
-controller = DAD
+controller = YHL
 add_core = DAD
-owner = DAD
+add_core = YHL
+owner = YHL
 culture = newmixtec 
 religion = mixtec 
 hre = no

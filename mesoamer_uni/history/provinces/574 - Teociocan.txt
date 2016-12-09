@@ -1,6 +1,7 @@
-controller = EGE
 add_core = EGE
-owner = EGE
+add_core = CLX
+owner = CLX
+controller = CLX
 culture = newtotonac 
 religion = newnahuatl
 hre = no

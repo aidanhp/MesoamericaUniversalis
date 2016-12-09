@@ -1,6 +1,7 @@
-controller = DDP
+controller = TPN
 add_core = DDP
-owner = DDP
+add_core = TPN
+owner = TPN
 culture = newmixtec 
 religion = mixtec 
 hre = no

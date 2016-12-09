@@ -1,6 +1,7 @@
-controller = EEZ
 add_core = EEZ
-owner = EEZ
+add_core = THT
+owner = THT
+controller = THT
 culture = newzapotec
 religion = zapotec
 hre = no

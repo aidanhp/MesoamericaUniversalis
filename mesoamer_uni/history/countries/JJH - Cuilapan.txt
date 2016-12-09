@@ -2,14 +2,14 @@ government = altepetl
 government_rank = 1
 mercantilism = 0.25
 technology_group = central_mexican 
-religion = zapotec
-primary_culture = newzapotec
+religion = mixtec
+primary_culture = newmixtec
 capital = 741
 fixed_capital = 741
 
 1427.1.1 = {
 	monarch = {
-		name = "Placeholder"
+		name = "Iín Sayacu Dzaui Dzine Nidesi Anute"
 		dynasty = "Cuilapan"
 		adm = 4
 		dip = 4

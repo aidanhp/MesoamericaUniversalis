@@ -1,6 +1,7 @@
 add_core = PCH
-owner = PCH
-controller = PCH
+add_core = PAT
+owner = PAT
+controller = PAT
 culture = tarascan
 religion = tarascan
 hre = no

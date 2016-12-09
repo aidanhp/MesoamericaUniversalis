@@ -1,6 +1,7 @@
-controller = DMD
 add_core = DMD
-owner = DMD
+add_core = TPY
+owner = TPY
+controller = TPY
 culture = newtotonac 
 religion = newnahuatl
 hre = no

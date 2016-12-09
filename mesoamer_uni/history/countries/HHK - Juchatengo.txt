@@ -9,7 +9,7 @@ fixed_capital = 703
 
 1427.1.1 = {
 	monarch = {
-		name = "Placeholder"
+		name = "Iín Qhi Dzaui Dzine Nidesi Anute"
 		dynasty = "Juchatengo"
 		adm = 4
 		dip = 4

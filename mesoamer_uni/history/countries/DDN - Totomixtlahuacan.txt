@@ -10,7 +10,7 @@ capital = 505
 
 1427.1.1 = {
 	monarch = {
-		name = "Ipalnemoani"
+		name = "Tsa’un Uaco Nana Ninu Yecu"
 		dynasty = "Totomixtlahuacan"
 		adm = 4
 		dip = 4

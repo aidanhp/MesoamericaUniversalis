@@ -1,6 +1,7 @@
-controller = BJB
+controller = MAL
 add_core = BJB
-owner = BJB
+add_core = MAL
+owner = MAL
 culture = matlatxinca 
 religion = newnahuatl
 hre = no

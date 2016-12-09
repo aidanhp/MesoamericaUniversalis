@@ -1,6 +1,7 @@
-controller = DDY
+controller = DDW
+add_core = DDW
 add_core = DDY
-owner = DDY
+owner = DDW
 culture = newmixtec 
 religion = mixtec 
 hre = no

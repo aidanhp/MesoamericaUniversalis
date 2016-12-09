@@ -1,6 +1,7 @@
-controller = BCB
+controller = TUC
 add_core = BCB
-owner = BCB
+add_core = TUC
+owner = TUC
 culture = tepanec 
 religion = newnahuatl
 hre = no

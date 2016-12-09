@@ -9,7 +9,7 @@ fixed_capital = 63
 
 1427.1.1 = {
 	monarch = {
-		name = "Nguiiu"
+		name = "Pinobeya"
 		dynasty = "Coyolapan"
 		adm = 4
 		dip = 4

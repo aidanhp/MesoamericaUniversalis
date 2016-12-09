@@ -1,6 +1,7 @@
-controller = AVA
+controller = HUY
 add_core = AVA
-owner = AVA
+add_core = HUY
+owner = HUY
 culture = acolhua 
 religion = newnahuatl
 hre = no

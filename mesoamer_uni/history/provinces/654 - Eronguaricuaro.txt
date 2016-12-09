@@ -1,6 +1,7 @@
 add_core = FFO
-owner = FFO
-controller = FFO
+add_core = IUA
+owner = IUA
+controller = IUA
 culture = tarascan
 religion = tarascan 
 hre = no

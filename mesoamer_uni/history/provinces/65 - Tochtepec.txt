@@ -1,7 +1,7 @@
 add_core = THT
-controller = JJG
-add_core = JJG
-owner = JJG
+controller = THT
+add_core = THT
+owner = THT
 culture = newzapotec
 religion = zapotec
 hre = no

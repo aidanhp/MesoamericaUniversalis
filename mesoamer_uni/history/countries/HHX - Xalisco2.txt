@@ -9,8 +9,8 @@ fixed_capital = 717
 
 1427.1.1 = {
 	monarch = {
-		name = "Placeholder"
-		dynasty = "Placeholder"
+		name = "Tecocoltzin"
+		dynasty = "Xalisco"
 		adm = 4
 		dip = 4
 		mil = 4

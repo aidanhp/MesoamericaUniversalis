@@ -1,6 +1,7 @@
 add_core = HHE
-owner = HHE
-controller = HHE
+add_core = HHC
+owner = HHC
+controller = HHC
 culture = pirinda
 religion = tarascan 
 hre = no

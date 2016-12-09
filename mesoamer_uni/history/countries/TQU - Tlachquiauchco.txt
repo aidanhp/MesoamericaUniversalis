@@ -9,7 +9,7 @@ fixed_capital = 62
 
 1427.1.1 = {
 	monarch = {
-		name = "Cocijopi"
+		name = "U’u Cuaa Nuhu Jisi Nuu"
 		dynasty = "Tlachquiauchco"
 		adm = 4
 		dip = 4

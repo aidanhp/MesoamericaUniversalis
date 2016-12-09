@@ -1,6 +1,7 @@
 add_core = APA
-owner = APA
-controller = APA
+add_core = TCT
+owner = TCT
+controller = TCT
 culture = tarascan
 religion = tarascan
 hre = no

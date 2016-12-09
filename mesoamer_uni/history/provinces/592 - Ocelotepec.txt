@@ -1,6 +1,7 @@
-controller = EYE
 add_core = EYE
-owner = EYE
+add_core = FFF
+owner = FFF
+controller = FFF
 culture = huastec 
 religion = newnahuatl
 hre = no

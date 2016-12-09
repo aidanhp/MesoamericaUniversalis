@@ -2,8 +2,8 @@
  #Symbols
  #§G§!
  
- #TEST
- variable_test: "[Root.area_ducats.GetValue]"
+ #UI Tooltips 
+ NO_WE_DOWN_WAR: "You cannot reduce war exhuastion during a war."
  
  #############
  #FOR ESTATES#

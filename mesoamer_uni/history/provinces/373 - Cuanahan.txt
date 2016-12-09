@@ -1,6 +1,7 @@
 add_core = CNH
-owner = CNH
-controller = CNH
+add_core = PAT
+owner = PAT
+controller = PAT
 culture = tarascan
 religion = tarascan
 hre = no

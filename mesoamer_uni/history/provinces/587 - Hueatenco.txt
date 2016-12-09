@@ -1,6 +1,7 @@
-controller = ETE
 add_core = ETE
-owner = ETE
+add_core = TLQ
+owner = TLQ
+controller = TLQ
 culture = huastec 
 religion = newnahuatl
 hre = no

@@ -53,7 +53,7 @@ mexican_group = {
 	
 	zapotec = {
 		color = { 0.20 0.40 0.80 }
-		icon = 12
+		icon = 14
 		country = {
 			hostile_attrition = 4
 			production_efficiency = 0.15

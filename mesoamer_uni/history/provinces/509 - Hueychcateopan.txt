@@ -1,6 +1,7 @@
-controller = DDR
+controller = TPN
 add_core = DDR
-owner = DDR
+add_core = TPN
+owner = TPN
 culture = newmixtec 
 religion = mixtec 
 hre = no

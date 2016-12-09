@@ -1,7 +1,7 @@
 government = kuchkabal 
 government_rank = 2
 mercantilism = 0.25
-technology_group = central_mexican 
+technology_group = northern_mayan
 religion = newmayan 
 primary_culture = yucatecmayan
 capital = 160

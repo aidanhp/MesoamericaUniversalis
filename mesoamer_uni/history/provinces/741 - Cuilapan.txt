@@ -1,8 +1,8 @@
 add_core = JJH
 owner = JJH
 controller = JJH
-culture = newzapotec
-religion = zapotec
+culture = newmixtec
+religion = mixtec
 hre = no
 base_tax = 4
 base_production = 9

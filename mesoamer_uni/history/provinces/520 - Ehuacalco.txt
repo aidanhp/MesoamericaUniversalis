@@ -1,6 +1,7 @@
-controller = DCD
+controller = YHL
 add_core = DCD
-owner = DCD
+add_core = YHL
+owner = YHL
 culture = newmixtec 
 religion = mixtec 
 hre = no

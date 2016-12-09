@@ -1,6 +1,7 @@
 add_core = TPZ
-owner = TPZ
-controller = TPZ
+add_core = CUU
+owner = CUU
+controller = CUU
 culture = tepanec
 religion = newnahuatl 
 hre = no

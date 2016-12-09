@@ -1,6 +1,7 @@
 add_core = MAO
-owner = MAO
-controller = MAO
+add_core = TMB
+owner = TMB
+controller = TMB
 culture = tarascan
 religion = tarascan
 hre = no

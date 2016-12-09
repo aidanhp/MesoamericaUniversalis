@@ -1,6 +1,7 @@
 add_core = GGH
-owner = GGH
-controller = GGH
+add_core = TZC
+owner = TZC
+controller = TZC
 culture = tarascan
 religion = tarascan 
 hre = no

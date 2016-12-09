@@ -1,6 +1,7 @@
-controller = AWA
+controller = HUY
+add_core = HUY
 add_core = AWA
-owner = AWA
+owner = HUY
 culture = acolhua 
 religion = newnahuatl
 hre = no

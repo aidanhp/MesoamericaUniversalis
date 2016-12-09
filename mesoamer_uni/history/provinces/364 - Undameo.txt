@@ -1,7 +1,7 @@
 add_core = UND
-add_core = IUA
-owner = IUA
-controller = IUA
+add_core = IHU
+owner = IHU
+controller = IHU
 culture = pirinda
 religion = tarascan
 hre = no

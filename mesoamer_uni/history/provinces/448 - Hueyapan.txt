@@ -1,6 +1,7 @@
-controller = BBH
+controller = HEA
+add_core = HEA
 add_core = BBH
-owner = BBH
+owner = HEA
 culture = huastec 
 religion = newnahuatl
 hre = no

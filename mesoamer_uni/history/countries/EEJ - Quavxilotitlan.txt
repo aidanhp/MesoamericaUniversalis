@@ -10,7 +10,7 @@ capital = 552
 
 1427.1.1 = {
 	monarch = {
-		name = "Veeni"
+		name = "Huijata"
 		dynasty = "Quavxilotitlan"
 		adm = 4
 		dip = 4

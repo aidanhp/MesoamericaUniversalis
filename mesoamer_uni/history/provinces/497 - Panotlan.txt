@@ -1,6 +1,7 @@
-controller = DDF
+controller = CHT
 add_core = DDF
-owner = DDF
+add_core = CHT
+owner = CHT
 culture = cuitlateco 
 religion = newnahuatl
 hre = no
