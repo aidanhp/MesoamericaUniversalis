@@ -1,8 +1,8 @@
 add_core = JJF
 owner = JJF
 controller = JJF
-culture = newzapotec
-religion = zapotec
+culture = newmixtec
+religion = mixtec
 hre = no
 base_tax = 2
 base_production = 4

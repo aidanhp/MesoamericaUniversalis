@@ -1,7 +1,7 @@
 controller = BAB
 add_core = BAB
 owner = BAB
-culture = tepanec 
+culture = matlatxinca 
 religion = newnahuatl
 hre = no
 base_tax = 1

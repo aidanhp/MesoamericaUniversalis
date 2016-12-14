@@ -384,6 +384,47 @@ nahua = {
 			Chicuey Xiuhtoztzin Quauhtlamiyahualtzin Quetzalpetlatzin Tzihuacxochitzin 
 		}
 	}
+	
+	matlatxinca = {
+		male_names = {
+			Acamapichtli Itzcoatl Huitzilihuitl "Moteuczomah Ilhuicamina" Chimalpopoca Axayacatl Tizoc 
+			Ahuitzotl Moteuczomah Cuitlahuac Cuauhtemoc Nezahualcoyotl Tlacaelel "Xihuitl Temoc" Xochitl 
+			Olinqui Acolmiztli Yoyontzin Ixtlilxochitl Acolnahuacatl Tzacualcatl Itztlolinqui Xilomantzin
+			Tepanquizqui Quequecholtzin Tzompanteuctli Quetzaltototzin Cacamatzin Tlilpotonqui Tayaotzin 
+			Quauhtlapaltzin Tezcatlteuctli Tlacotzin Chimalpantzin Tepehuatzin Tezcatl Tatlatzincatzin 
+			Tlilpotonqui Nezahualpilli Miccacalcatl Ixtteocalletzin 
+		}
+		female_names = {
+			Matlalcihuatzin Maquiztzin Achihuapoltzin Xiuhpopocatzin Tollintzin Xochiacamapichtli Xillomantzin
+			Izapaplotzin Chiquatzin Totomochtzin Tlacoachcimaltzin Toznenetzin Cihuapilli Mauhcaxochitzin
+			Chicuey Xiuhtoztzin Quauhtlamiyahualtzin Quetzalpetlatzin Tzihuacxochitzin 
+		}
+	}
+	
+	cuitlateco = {
+		male_names = {
+			Acamapichtli Itzcoatl Huitzilihuitl "Moteuczomah Ilhuicamina" Chimalpopoca Axayacatl Tizoc 
+			Ahuitzotl Moteuczomah Cuitlahuac Cuauhtemoc Nezahualcoyotl Tlacaelel "Xihuitl Temoc" Xochitl 
+			Olinqui Acolmiztli Yoyontzin Ixtlilxochitl Acolnahuacatl Tzacualcatl Itztlolinqui Xilomantzin
+			Tepanquizqui Quequecholtzin Tzompanteuctli Quetzaltototzin Cacamatzin Tlilpotonqui Tayaotzin 
+			Quauhtlapaltzin Tezcatlteuctli Tlacotzin Chimalpantzin Tepehuatzin Tezcatl Tatlatzincatzin 
+			Tlilpotonqui Nezahualpilli Miccacalcatl Ixtteocalletzin 
+		}
+		female_names = {
+			Matlalcihuatzin Maquiztzin Achihuapoltzin Xiuhpopocatzin Tollintzin Xochiacamapichtli Xillomantzin
+			Izapaplotzin Chiquatzin Totomochtzin Tlacoachcimaltzin Toznenetzin Cihuapilli Mauhcaxochitzin
+			Chicuey Xiuhtoztzin Quauhtlamiyahualtzin Quetzalpetlatzin Tzihuacxochitzin 
+		}
+	}
+	
+	newtlapanec = {
+		male_names = {
+			Mbaa Huba Kuba Majuu Ife Nasama Miku Aka Ruhwa Ahmba Suwa Igi 
+		}
+		female_names = {
+			Ija Njga Agwaa Tokaja Ahgu 
+		}
+	}
 
 	dynasty_names = {
 		# CKII
@@ -2225,22 +2266,6 @@ west_central_mexican = {
 		}
 	}
 
-	cuitlateco = {
-		male_names = {
-			Hireticatame Sicuirancha Tariacuri Pavacume Hiqugage Hiripan Tangaxoan Tzitzicpandacuare Zangua
-			Uresqua Cando Sica Zinaquambi Quama Quatamaripe Equandira Chague Cando Ticatame Tucuruan Paguingata
-			Trimaransco Cuini Sirangua Zincicha Tigame Tagani Patamu Chuicico Caracomoco Tariaran Cacapu Aramen
-			Vaspe Terazi Cariqua Tupuri Hivacha Zinzumi Hanzivia Cavujancha Tarando Horohta Vanzan Hutaco Hozi 
-			Tuinchumbra Yzniquanto Hapunduri Zapivatame Xoropiti Taresquesinguata Zizambanacha Zizamban Curatame
-			Tariayaran Vatarecha Cuahuen Camejan Udecavecare Ypinchauni Turepupanquaran Mahicuri Tiripitihonto
-			Curiparaxan Carocaten Chaushori Nurivan Perapaqua Naca Chanhori Xoropiti Tarequestinguata 
-			Hapariva Cuynzurumu Utume Quanirescu Vacusquazita
-		}
-		female_names = {
-			Quenomen Mavina Xaratanga Picimbane Zucurabe Purupe Camavaperi Acivanime Pevame 
-		}
-	}
-
 	chumbia = {
 		male_names = {
 			Hireticatame Sicuirancha Tariacuri Pavacume Hiqugage Hiripan Tangaxoan Tzitzicpandacuare Zangua
@@ -2274,22 +2299,6 @@ west_central_mexican = {
 	}
 
 	pirinda = {
-		male_names = {
-			Hireticatame Sicuirancha Tariacuri Pavacume Hiqugage Hiripan Tangaxoan Tzitzicpandacuare Zangua
-			Uresqua Cando Sica Zinaquambi Quama Quatamaripe Equandira Chague Cando Ticatame Tucuruan Paguingata
-			Trimaransco Cuini Sirangua Zincicha Tigame Tagani Patamu Chuicico Caracomoco Tariaran Cacapu Aramen
-			Vaspe Terazi Cariqua Tupuri Hivacha Zinzumi Hanzivia Cavujancha Tarando Horohta Vanzan Hutaco Hozi 
-			Tuinchumbra Yzniquanto Hapunduri Zapivatame Xoropiti Taresquesinguata Zizambanacha Zizamban Curatame
-			Tariayaran Vatarecha Cuahuen Camejan Udecavecare Ypinchauni Turepupanquaran Mahicuri Tiripitihonto
-			Curiparaxan Carocaten Chaushori Nurivan Perapaqua Naca Chanhori Xoropiti Tarequestinguata 
-			Hapariva Cuynzurumu Utume Quanirescu Vacusquazita
-		}
-		female_names = {
-			Quenomen Mavina Xaratanga Picimbane Zucurabe Purupe Camavaperi Acivanime Pevame 
-		}
-	}
-
-	matlatxinca = {
 		male_names = {
 			Hireticatame Sicuirancha Tariacuri Pavacume Hiqugage Hiripan Tangaxoan Tzitzicpandacuare Zangua
 			Uresqua Cando Sica Zinaquambi Quama Quatamaripe Equandira Chague Cando Ticatame Tucuruan Paguingata

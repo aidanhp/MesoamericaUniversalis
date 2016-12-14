@@ -65,15 +65,15 @@ gov_altepetl_zapotec = {
 	}
 	
 	ruler_male = {
-		1 = DESPOT
-		2 = KING
-		3 = EMPEROR
+		1 = COQUI
+		2 = COQUI
+		3 = TAO_COQUI
 	}
 	
 	ruler_female = {
-		1 = DESPOT
-		2 = QUEEN
-		3 = EMPRESS
+		1 = COQUI
+		2 = COQUI
+		3 = TAO_COQUI
 	}
 	
 	trigger = {

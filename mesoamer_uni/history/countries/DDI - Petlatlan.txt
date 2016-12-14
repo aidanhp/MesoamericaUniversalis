@@ -10,7 +10,7 @@ capital = 500
 
 1427.1.1 = {
 	monarch = {
-		name = "Tangaxoan"
+		name = "Tlilpotonqui"
 		dynasty = "Petlatlan"
 		adm = 4
 		dip = 4

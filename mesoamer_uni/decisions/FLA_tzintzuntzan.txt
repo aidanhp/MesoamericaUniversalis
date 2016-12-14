@@ -17,32 +17,14 @@ country_decisions = {
 				has_idea = territorial_ideology
 				has_idea = hegemonic_ideology
 			}
-			owns_core_province = 84
-			owns_core_province = 363
-			owns_core_province = 373
-			owns_core_province = 365
-			owns_core_province = 364
-			owns_core_province = 370
-			owns_core_province = 371
-			FFO = {
-				vassal_of = IUA
-			}
-			PCH = {
-				vassal_of = IUA
-			}
+			legitimacy = 80
+			prestige = 40
+			num_of_cities = 16
 			PAT = {
 				vassal_of = IUA
 			}
 			IHU = {
 				vassal_of = IUA
-			}
-			reverse_has_opinion = {
-				who = FFO
-				value = 150
-			}
-			reverse_has_opinion = {
-				who = PCH
-				value = 150
 			}
 			reverse_has_opinion = {
 				who = PAT
@@ -55,8 +37,6 @@ country_decisions = {
 		}
 		effect = {
 			add_prestige = 20
-			inherit = FFO
-			inherit = PCH
 			inherit = PAT
 			inherit = IHU
 			

@@ -12,3 +12,8 @@ opinion_ta_infuriated = {
 	opinion = -200
 	yearly_decay = 10
 }
+
+opinion_mexica_brothers = {
+	opinion = 200
+	yearly_decay = 0
+}

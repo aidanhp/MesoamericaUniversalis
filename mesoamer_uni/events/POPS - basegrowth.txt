@@ -27,18 +27,229 @@ country_event = {
 				}
 			}
 		}
-		
 		every_province = {
 			limit = {
 				is_city = yes
 			}
 			#Calculate Growth Rate
 			subtract_variable = { which = prov_growth_rate which = prov_growth_rate }
-			change_variable = { which = prov_growth_rate value = 0.02 }
+			change_variable = { which = prov_growth_rate value = 0.015 }
 			
 			export_to_variable = {
 				which = prov_pop 
 				value = development
+			}
+			
+			#POSITIVE MODIFIERS
+			if = {
+				limit = {
+					owner = {
+						stability = 1
+					}
+				}
+				change_variable = { which = prov_growth_rate value = 0.005 }
+			}
+			
+			if = {
+				limit = {
+					owner = {
+						stability = 2
+					}
+				}
+				change_variable = { which = prov_growth_rate value = 0.005 }
+			}
+			
+			if = {
+				limit = {
+					owner = {
+						stability = 3
+					}
+				}
+				change_variable = { which = prov_growth_rate value = 0.005 }
+			}
+			
+			if = {
+				limit = {
+					owner = {
+						manpower_percentage = 0.60
+						NOT = { manpower_percentage = 0.70 }
+					}
+				}
+				change_variable = { which = prov_growth_rate value = 0.005 }
+			}
+			
+			if = {
+				limit = {
+					owner = {
+						manpower_percentage = 0.70
+						NOT = { manpower_percentage = 0.80 }
+					}
+				}
+				change_variable = { which = prov_growth_rate value = 0.010 }
+			}
+			
+			if = {
+				limit = {
+					owner = {
+						manpower_percentage = 0.80
+						NOT = { manpower_percentage = 0.90 }
+					}
+				}
+				change_variable = { which = prov_growth_rate value = 0.015 }
+			}
+			
+			if = {
+				limit = {
+					owner = {
+						manpower_percentage = 0.90
+					}
+				}
+				change_variable = { which = prov_growth_rate value = 0.020 }
+			}
+			
+			if = {
+				limit = {
+					owner = {
+						adm_tech = 2
+					}
+				}
+				change_variable = { which = prov_growth_rate value = 0.0075 }
+			}
+			
+			if = {
+				limit = {
+					has_building = farm1
+				}
+				change_variable = { which = prov_growth_rate value = 0.005 }
+			}
+			
+			if = {
+				limit = {
+					has_building = farm2
+				}
+				change_variable = { which = prov_growth_rate value = 0.010 }
+			}
+			
+			if = {
+				limit = {
+					province_trade_power = 5
+				}
+				change_variable = { which = prov_growth_rate value = 0.005 }
+			}
+			
+			if = {
+				limit = {
+					province_trade_power = 10
+				}
+				change_variable = { which = prov_growth_rate value = 0.005 }
+			}
+			
+			if = {
+				limit = {
+					province_trade_power = 20
+				}
+				change_variable = { which = prov_growth_rate value = 0.005 }
+			}
+			
+			if = {
+				limit = {
+					OR = {
+						trade_goods = grain
+						trade_goods = aquaticfoods
+						trade_goods = fruits
+					}
+				}
+				change_variable = { which = prov_growth_rate value = 0.005 }
+			}
+			
+			#NEGATIVE
+			if = {
+				limit = {
+					check_variable = { which = prov_pop which = provpp }
+				}
+				change_variable = { which = prov_growth_rate value = -0.065 }
+			}
+			
+			if = {
+				limit = {
+					NOT = { stability = 0 }
+				}
+				change_variable = { which = prov_growth_rate value = -0.005 }
+			}
+			
+			if = {
+				limit = {
+					NOT = { stability = -1 }
+				}
+				change_variable = { which = prov_growth_rate value = -0.010 }
+			}
+			
+			if = {
+				limit = {
+					NOT = { stability = -2 }
+				}
+				change_variable = { which = prov_growth_rate value = -0.015 }
+			}
+			
+			if = {
+				limit = {
+					owner = {
+						manpower_percentage = 0.30
+						NOT = { manpower_percentage = 0.50 }
+					}
+				}
+				change_variable = { which = prov_growth_rate value = -0.020 }
+			}
+			
+			if = {
+				limit = {
+					owner = {
+						manpower_percentage = 0.20
+						NOT = { manpower_percentage = 0.30 }
+					}
+				}
+				change_variable = { which = prov_growth_rate value = -0.030 }
+			}
+			
+			if = {
+				limit = {
+					owner = {
+						manpower_percentage = 0.10
+						NOT = { manpower_percentage = 0.20 }
+					}
+				}
+				change_variable = { which = prov_growth_rate value = -0.040 }
+			}
+			
+			if = {
+				limit = {
+					owner = {
+						manpower_percentage = 0.0
+						NOT = { manpower_percentage = 0.10 }
+					}
+				}
+				change_variable = { which = prov_growth_rate value = -0.050 }
+			}
+			
+			if = {
+				limit = {
+					has_province_modifier = damaged_by_war 
+				}
+				change_variable = { which = prov_growth_rate value = -0.005 }
+			}
+			
+			if = {
+				limit = {
+					has_province_modifier = devestated_by_war  
+				}
+				change_variable = { which = prov_growth_rate value = -0.010 }
+			}
+			
+			if = {
+				limit = {
+					has_province_modifier = annihilated_by_war   
+				}
+				change_variable = { which = prov_growth_rate value = -0.015 }
 			}
 			
 			#Store Total Pop in each category

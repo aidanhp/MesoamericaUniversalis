@@ -10,7 +10,7 @@ capital = 476
 
 1427.1.1 = {
 	monarch = {
-		name = "Ipalnemoani"
+		name = "Ixtteocalletzin"
 		dynasty = "Nochtepec"
 		adm = 4
 		dip = 4

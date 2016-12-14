@@ -72,7 +72,7 @@ mexican_group = {
 
 	mixtec = {
 		color = { 0.20 0.90 0.40 }
-		icon = 13
+		icon = 9
 		country = {
 			defensiveness = 0.33
 			war_exhaustion_cost = -0.50

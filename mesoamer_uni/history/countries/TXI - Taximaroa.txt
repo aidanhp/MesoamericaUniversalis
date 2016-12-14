@@ -9,7 +9,7 @@ fixed_capital = 380
 
 1427.1.1 = {
 	monarch = {
-		name = "Veeni"
+		name = "Vacusquazita"
 		dynasty = "Taximaroa"
 		adm = 4
 		dip = 4

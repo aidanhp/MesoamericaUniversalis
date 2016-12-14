@@ -9,7 +9,7 @@ fixed_capital = 386
 
 1427.1.1 = {
 	monarch = {
-		name = "Mbalaz"
+		name = "Vanzan"
 		dynasty = "Tafetan"
 		adm = 4
 		dip = 4

@@ -29,6 +29,9 @@
  FLA_TEN_012: "Tlacaelel will get back to you in a week."
  FLA_TEN_013: "The warriors depart."
  FLA_TEN_014: "The explorers and priests depart."
+ FLA_TEN_015: "The messengers will try to bring Tenochtitlan's subjects over to us."
+ FLA_TEN_016: "Tlacaelel will give Moquihuix an apt punishment."
+ FLA_TEN_017: "Tlatelolco will be forced into a personal union under Tenochtitlan."
  
  #--EVENT MODIFIDERS
  TEN_tlacaelel_tlacochcalcatl: "Tlacaelel the Tlacochcalcatl"
@@ -200,6 +203,7 @@
  TEN_MINORS4.d: "Today, dismal news wracked Tenochtitlan. The great man Tlacaelel, perhaps the wisest and most cunning man in the arts of state and warfare who ever lived, has died, at the age of 90. Tlacaelel will be remembered as the man who convinced the Mexica to fight the Tepanecs and turn themselves from subjects to masters, the man whose strategies secured victory over our fiercest enemies, a man of both great mercy and great retribution, a man of piety and wisdom, father of many excellent children, whose sound advice was crucial to every part of our success. \nTlacaelel’s dying wish was to have his ashes interred adjacent to those of the Emperors whom he had advised. \n\nIt was said of Tlacaelel’s legacy by the Nahua historian Chimalpahin that 'All those who succeeded him took this special name of Cihuacoatl and gloried in being called Cihuacoatl, and it remained consecrated as the highest title and rank in the world after that of emperor.'"
  TEN_MINORS4.a: "The end of an era."
  
+ #----Expedition to Aztlan
  TEN_MINORS5.t: "The Lost Home in the North"
  TEN_MINORS5.d: "Now that we have made a name for ourselves in the civilized parts of the world, there has been some interest in attempting to find the ancient ancestral homeland of the Mexica, Aztlan, where the mother of our patron god Huitzilopochtli is said to reside. $MONARCH$, being Huitzilopochtli’s foremost representative on earth and a man of significant enough power to organize such an expedition has become particularly fascinated with the idea. He has thus begun to assemble a force of several hundred elite warriors to send on the expedition."
  TEN_MINORS5.a: "Consult with Tlacaelel first."
@@ -218,6 +222,38 @@
  TEN_MINORS8.d: "After nearly three years, the tattered remnants of the military expedition we sent to find Aztlan returned today. All but one of the leaders is dead and only a few dozen of the hundreds of soldiers have survived. They tell of a journey of great tribulations in the chichimec infested deserts of the north, and how they had wandered in circles for many months. Eventually, they found a strange but well maintained road, and decided to follow it, believing that it could lead them to someone they could ask about Aztlan. On the road, they encountered a people who looked very similar to them but spoke a completely unrecognizable language. Eventually the road led them a small city constructed of adobe, which the residents called Paquime. Paquime and its ruler reminded them very much of the Altepetl back home, for the city possessed many fine craftsman, several aqueducts, a sizeable market, and even a ballcourt, distant as it was from the fertile parts of the world, and so they stayed there for a while at the courtesy of the lord and his family, who promised to ask every trader coming into Paquime about Aztlan. Eventually, however, a feud between the lord of Paquime and several neighboring peoples turned into an all out war, and the Mexica were obligated to help protect him on account of his hospitality. The enemies were too numerous though, and Paquime was sacked and the lord was killed, along with many of the Mexica. The rest fled south, where more died of thirst and chichimec attacks on the way home before they finally arrived back in Tenochtitlan."
  TEN_MINORS8.a: "A shame, truly."
  
+ #----Conflict with Tlatelolco 
+ TEN_MINORS9.t: "Death of Quauhtlatoatzin"
+ TEN_MINORS9.d: "Tlatoani Quauhtlatoatzin, the man who we placed in charge of our sister city of Tlatelolco after the previous Tlatoani, Tlacateotl, was killed by the Tepanec Empire, has died. Under his reign Tlatelolco grew to be one of the richest cities in world, and it is still not fully controlled by us despite being on the same island as our capital. We could take advantage temporary uncertainty caused by the Tlatoani’s death and force Tlatelolco to accept our own candidate for their throne. \nThe likely man for the job is Moquihuix of Tetzcoco, the son of Moteuczomah Ilhuicamina’s older sister. He is a capable warrior and leader, and has proven his loyalty to the Triple Alliance."
+ TEN_MINORS9.a: "Try to appoint Moquihuix to Tlatelolco's throne."
+ TEN_MINORS9.b: "It would be best not to intervene."
+ 
+ TEN_MINORS10.t: "A New Tlatoani"
+ TEN_MINORS10.d: "It would appear that our brothers in Tenochtitlan are hesitant to leave us to our own devices. Seeing our weakness after Quauhtlatoatzin’s death, they have put forth an alternate heir to our throne, Moquihuix of Tetzcoco. If we accept the appointment Tenochtitlan will likely come to dominate us."
+ TEN_MINORS10.a: "Let Moquihuix take the throne."
+ TEN_MINORS10.b: "No way!"
+ 
+ TEN_MINORS11.t: "Tlatelolco Acquiesces"
+ TEN_MINORS11.d: "Tlatelolco has agreed to let Moquihuix take their throne. It’s not like they had much choice in the matter, but it’s nice to know they won’t be too angry."
+ TEN_MINORS11.a: "Good..."
+ 
+ TEN_MINORS12.t: "Moquihuix's Plot"
+ TEN_MINORS12.d: "Tlatelolco is a very rich city, and being on the same island as the mighty Tenochtitlan, we have a unique opportunity. A carefully planned surprise attack has the possibility to catch the Tenochs completely off guard, and if we were successful, we could seize their entire empire in one fell swoop! Our Tlatoani, Moquihuix, is very tempted by this plan, and wishes to send ambassadors to several of Tenochtitlan’s subject cities to ask if they want to help."
+ TEN_MINORS12.a: "They'll never see it coming!"
+ TEN_MINORS12.b: "Far too risky."
+ 
+ TEN_MINORS13.t: "A Disturbing Development"
+ TEN_MINORS13.d: "Last night, two Tlatoanis from our subject cities stealthily arrived in Tenochtitlan in a canoe, and asked to see the $MONARCHTITLE$, $MONARCH$. They brought $MONARCH$ to the canoe, which appeared to be covered in bundles of reeds, but when they moved the reeds aside, there were several men, tied face down. The Tlatoanis explained that the men were from our sister city, Tlatelolco, and had been sent by Tlatelolco’s leader, Moquihuix, who we appointed, to incite them to rebel against $MONARCH$. It would seem we incorrectly judged Moquihuix’s character. Nonetheless, the two men were thanked for their loyalty to Tenochtitlan and sent home with gifts, but now we have to decide what to do about Tlatelolco. Tlacaelel claims that he has a an apt punishment, but refuses to reveal it."
+ TEN_MINORS13.a: "Let Tlacaelel go through with his plan."
+ TEN_MINORS13.b: "No plans, let's declare war now!"
+ 
+ TEN_MINORS14.t: "Tlacaelel's Punishment"
+ TEN_MINORS14.d: "The day after we found out that Moquihuix was plotting against us, Tlacaelel began to organize a great banquet in the Temple precinct, to which he invited Moquihuix and all of his nobles. Beforehand and secretly, Tlacaelel had Moquihuix’s subversive messengers killed, roasted in an oven, chopped up into small pieces, and served with dinner. The choice meats from Moquihuix’s ambassadors were served to the man himself, who was utterly oblivious to the situation. Tlacaelel and $MONARCH$, who had later been let in on the plan, walked around the banquet cheerfully, encouraging singing and dancing and revelry, and then at the end revealed to the Tlatelolcoas what had just happened. Enraged, they fled back to their city, where our armies were waiting. A fierce battle ensued, but $MONARCHTITLE$ $MONARCH$ eventually defeated Moquihuix in single combat at the top of his own temple, and then kicked the defeated and wounded man off the top of the temple to crash and die on the city street. "
+ TEN_MINORS14.a: "Poetic."
+ 
+ TEN_MINORS15.t: "A Terrible Punishment"
+ TEN_MINORS15.d: "Our plot to defeat Tenochtitlan has gone horribly wrong. \nToday, the Tenochs invited Moquihuix and many Tlatelolcoa nobles to their city for a great banquet, at which sumptuous food was served. Unfotunately, they later informed us that meat we had been eating was actually the flesh of the messengers we sent to incite Tenochtitlan's subjects to rebel. Moquihuix and his nobles fled back to Tlatelolco in outrage, where a fierce battle ensued. The warriors of Tenochtitlan eventually pushed us to our temple, and their leader, [TEN.Monarch.GetName], killed Moquihuix in single combat and proceeded to declare himself ruler of Tlatelolco, now and forever."
+ TEN_MINORS15.a: "NOOOOOOOOOOoooooooo........."
  #--CUTE
 
  

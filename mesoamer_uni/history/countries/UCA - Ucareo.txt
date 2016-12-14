@@ -9,7 +9,7 @@ fixed_capital = 379
 
 1427.1.1 = {
 	monarch = {
-		name = "Jzio"
+		name = "Quanirescu"
 		dynasty = "Ucareo"
 		adm = 4
 		dip = 4

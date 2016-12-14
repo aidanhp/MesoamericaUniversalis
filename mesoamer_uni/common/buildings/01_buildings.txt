@@ -181,7 +181,7 @@ law3 = {
 
 #Administrative Office
 adminoffice = {
-	cost = 800
+	cost = 600
 	time = 6
 	destroy_on_conquest = yes
 	trigger = {
@@ -219,7 +219,7 @@ adminoffice = {
 
 #Ethnic Village
 evillage = {
-	cost = 300
+	cost = 200
 	time = 8
 	destroy_on_conquest = yes
 	trigger = {
@@ -423,7 +423,7 @@ imine = {
 
 #Military Workshop
 mworkshop = {
-	cost = 200
+	cost = 250
 	time = 10
 	destroy_on_conquest = yes
 	trigger = {
@@ -516,7 +516,7 @@ workshop2 = {
 
 #Factory
 workshop3 = {
-	cost = 750
+	cost = 600
 	time = 12
 	make_obsolete = workshop2
 	#trigger = {
@@ -654,7 +654,7 @@ nuni = {
 
 #Public School
 pschool = {
-	cost = 400
+	cost = 250
 	time = 12
 	destroy_on_conquest = yes
 
@@ -698,7 +698,7 @@ puni = {
 
 #Military School
 mschool = {
-	cost = 250
+	cost = 300
 	time = 6
 	destroy_on_conquest = yes
 	trigger = {
@@ -708,9 +708,9 @@ mschool = {
 		}
 	}
 	modifier = {
-		local_manpower = -1.0
+		local_manpower = -0.50
 		local_unrest = -8
-		local_autonomy = -0.10
+		local_autonomy = -0.20
 	}
 	
 	ai_will_do = {
@@ -726,7 +726,7 @@ mschool = {
 
 #Urban Mobilization
 umobile = {
-	cost = 250
+	cost = 100
 	time = 6
 	allowed_num_of_buildings = 20
 	destroy_on_conquest = yes
@@ -754,7 +754,7 @@ umobile = {
 
 #Rural Mobilization
 rmobile = {
-	cost = 250
+	cost = 100
 	time = 6
 	destroy_on_conquest = yes
 	trigger = {
@@ -836,7 +836,7 @@ missionschool = {
 
 #Mass Fortifications
 massforts = {
-	cost = 100
+	cost = 150
 	time = 12
 	destroy_on_conquest = yes
 	trigger = {

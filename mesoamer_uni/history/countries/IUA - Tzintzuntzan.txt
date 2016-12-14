@@ -7,6 +7,9 @@ primary_culture = tarascan
 capital = 84
 fixed_capital = 84
 historical_rival = TEN
+historical_friend = PAT
+historical_friend = IHU
+
 1400.1.1 = {
 	monarch = {
 		name = "Tangaxoan I"

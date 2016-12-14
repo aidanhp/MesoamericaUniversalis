@@ -1,7 +1,7 @@
 controller = DDN
 add_core = DDN
 owner = DDN
-culture = newmixtec 
+culture = newtlapanec
 religion = mixtec 
 hre = no
 base_tax = 1

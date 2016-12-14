@@ -1,82 +1,82 @@
 #League of Mayapan
-protectorate = {
+vassal = {
 	first = LOM
 	second = CCT
 	start_date = 1428.1.1
 	end_date = 1821.1.1
 }
 
-protectorate = {
+vassal = {
 	first = LOM
 	second = UAY
 	start_date = 1428.1.1
 	end_date = 1821.1.1
 }
 
-protectorate = {
+vassal = {
 	first = LOM
 	second = OCH
 	start_date = 1428.1.1
 	end_date = 1821.1.1
 }
 
-protectorate = {
+vassal = {
 	first = LOM
 	second = CUP
 	start_date = 1428.1.1
 	end_date = 1821.1.1
 }
 
-protectorate = {
+vassal = {
 	first = LOM
 	second = TAZ
 	start_date = 1428.1.1
 	end_date = 1821.1.1
 }
 
-protectorate = {
+vassal = {
 	first = LOM
 	second = CAL
 	start_date = 1428.1.1
 	end_date = 1821.1.1
 }
 
-protectorate = {
+vassal = {
 	first = LOM
 	second = CHK
 	start_date = 1428.1.1
 	end_date = 1821.1.1
 }
 
-protectorate = {
+vassal = {
 	first = LOM
 	second = TIB
 	start_date = 1428.1.1
 	end_date = 1821.1.1
 }
 
-protectorate = {
+vassal = {
 	first = LOM
 	second = AKC
 	start_date = 1428.1.1
 	end_date = 1821.1.1
 }
 
-protectorate = {
+vassal = {
 	first = LOM
 	second = HOC
 	start_date = 1428.1.1
 	end_date = 1821.1.1
 }
 
-protectorate = {
+vassal = {
 	first = LOM
 	second = CEP
 	start_date = 1428.1.1
 	end_date = 1821.1.1
 }
 
-protectorate = {
+vassal = {
 	first = LOM
 	second = CAK
 	start_date = 1428.1.1
@@ -90,14 +90,14 @@ protectorate = {
 	end_date = 1821.1.1
 }
 
-protectorate = {
+vassal = {
 	first = LOM
 	second = CAP
 	start_date = 1428.1.1
 	end_date = 1821.1.1
 }
 
-protectorate = {
+vassal = {
 	first = LOM
 	second = CNP
 	start_date = 1428.1.1

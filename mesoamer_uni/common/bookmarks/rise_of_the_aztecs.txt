@@ -8,7 +8,7 @@ bookmark =
 	default = yes
 
 	
-	country = MGI
+	#country = MGI
 	country = TEN
 	country = TET
 	country = TCP

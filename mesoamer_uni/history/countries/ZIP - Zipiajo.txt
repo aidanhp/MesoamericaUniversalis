@@ -9,7 +9,7 @@ fixed_capital = 372
 
 1427.1.1 = {
 	monarch = {
-		name = "Chsaaxcejj"
+		name = "Turepupanquaran"
 		dynasty = "Zipia"
 		adm = 4
 		dip = 4

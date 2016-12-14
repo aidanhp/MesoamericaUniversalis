@@ -10,7 +10,7 @@ capital = 472
 
 1427.1.1 = {
 	monarch = {
-		name = "Gweiboone"
+		name = "Huitzilihuitl"
 		dynasty = "Tequaloyan"		
 		adm = 4
 		dip = 4

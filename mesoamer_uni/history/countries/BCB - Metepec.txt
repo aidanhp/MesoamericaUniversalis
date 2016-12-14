@@ -3,14 +3,14 @@ government_rank = 1
 mercantilism = 0.25
 technology_group = central_mexican 
 religion = newnahuatl 
-primary_culture = tepanec 
+primary_culture = matlatxinca 
 fixed_capital = 468
 capital = 468
 
 
 1427.1.1 = {
 	monarch = {
-		name = "Eyahue"
+		name = "Huitzilihuitl"
 		dynasty = "Metepec"
 		adm = 4
 		dip = 4

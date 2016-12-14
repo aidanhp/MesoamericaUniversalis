@@ -1,7 +1,7 @@
 controller = BBX
 add_core = BBX
 owner = BBX
-culture = tepanec 
+culture = matlatxinca 
 religion = newnahuatl
 hre = no
 base_tax = 1

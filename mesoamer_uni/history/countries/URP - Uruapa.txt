@@ -9,7 +9,7 @@ fixed_capital = 391
 
 1427.1.1 = {
 	monarch = {
-		name = "Ji"
+		name = "Tiripitihonto"
 		dynasty = "Urua"
 		adm = 4
 		dip = 4

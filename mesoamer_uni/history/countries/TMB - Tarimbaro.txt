@@ -9,7 +9,7 @@ fixed_capital = 371
 
 1427.1.1 = {
 	monarch = {
-		name = "Bzojj"
+		name = "Tucuruan"
 		dynasty = "Tarim"
 		adm = 4
 		dip = 4

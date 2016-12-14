@@ -1,4 +1,4 @@
-#Tarascan Vassals
+#Tarascans 
 vassal = {
 	first = IUA
 	second = IHU
@@ -13,19 +13,34 @@ vassal = {
 	end_date = 1821.1.1
 }
 
-vassal = {
-	first = IUA
-	second = PCH
+alliance = {
+	first = PAT
+	second = IHU
 	start_date = 1428.1.1
 	end_date = 1821.1.1
 }
 
-vassal = {
+royal_marriage = {
 	first = IUA
-	second = FFO
+	second = IHU
 	start_date = 1428.1.1
 	end_date = 1821.1.1
 }
+
+royal_marriage = {
+	first = IUA
+	second = PAT
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+royal_marriage = {
+	first = PAT
+	second = IHU
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
 
 #Colliman Kingdom
 vassal = {

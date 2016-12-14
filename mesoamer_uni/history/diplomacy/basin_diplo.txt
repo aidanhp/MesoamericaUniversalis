@@ -40,7 +40,19 @@ royal_marriage = {
 	start_date = 1428.1.1
 	end_date = 1821.1.1
 }
-#Tenoch Vassal
+#Mexica
+alliance = {
+	first = TEN
+	second = TLA
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+royal_marriage = {
+	first = TEN
+	second = TLA
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
 
 #Tetzcocah Vassals
 

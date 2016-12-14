@@ -122,6 +122,16 @@ allianceaction = {
 					tag = TET
 					tag = TCP
 				}
+				ROOT = {
+					NOT = { 
+						OR = {
+							tag = TEN 
+							tag = TET
+							tag = TCP
+							tag = TLA
+						}
+					}
+				}
 			}
 		}
 		allow = {
@@ -167,6 +177,28 @@ allianceaction = {
 			}
 			AND = {
 				alliance_with = TET
+				alliance_with = TEN
+			}
+		}
+		allow = {
+			always = no
+		}
+	}
+	condition = {
+		tooltip = TA_5
+		potential = {
+			tag = TLA
+			alliance_with = TEN
+		}
+		allow = {
+			always = no
+		}
+	}
+	condition = {
+		tooltip = TA_5
+		potential = {
+			FROM = { 
+				tag = TLA
 				alliance_with = TEN
 			}
 		}

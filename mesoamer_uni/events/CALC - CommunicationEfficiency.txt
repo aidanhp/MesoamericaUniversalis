@@ -745,6 +745,7 @@ country_event = {
 			if = {
 				limit = {
 					NOT = {
+						is_capital = yes
 						any_neighbor_province = {
 							owned_by = ROOT
 						}
@@ -764,9 +765,16 @@ country_event = {
 						}
 					}
 				}
-				add_province_modifier = {
-					name = perfect_communication
-					duration = -1
+				if = {
+					limit = {
+						owner = {
+							ai = yes
+						}
+					}
+					add_province_modifier = {
+						name = perfect_communication
+						duration = -1
+					}	
 				}
 				if = {
 					limit = {
@@ -796,9 +804,16 @@ country_event = {
 						}
 					}
 				}
-				add_province_modifier = {
-					name = near_perfect_communication
-					duration = -1
+				if = {
+					limit = {
+						owner = {
+							ai = yes
+						}
+					}
+					add_province_modifier = {
+						name = near_perfect_communication 
+						duration = -1
+					}	
 				}
 				if = {
 					limit = {
@@ -828,9 +843,16 @@ country_event = {
 						}
 					}
 				}
-				add_province_modifier = {
-					name = very_good_communication
-					duration = -1
+				if = {
+					limit = {
+						owner = {
+							ai = yes
+						}
+					}
+					add_province_modifier = {
+						name = very_good_communication  
+						duration = -1
+					}	
 				}
 				if = {
 					limit = {
@@ -860,9 +882,16 @@ country_event = {
 						}
 					}
 				}
-				add_province_modifier = {
-					name = good_communication
-					duration = -1
+				if = {
+					limit = {
+						owner = {
+							ai = yes
+						}
+					}
+					add_province_modifier = {
+						name = good_communication   
+						duration = -1
+					}	
 				}
 				if = {
 					limit = {
@@ -892,9 +921,16 @@ country_event = {
 						}
 					}
 				}
-				add_province_modifier = {
-					name = fair_communication
-					duration = -1
+				if = {
+					limit = {
+						owner = {
+							ai = yes
+						}
+					}
+					add_province_modifier = {
+						name = fair_communication    
+						duration = -1
+					}	
 				}
 				if = {
 					limit = {
@@ -924,9 +960,16 @@ country_event = {
 						}
 					}
 				}
-				add_province_modifier = {
-					name = difficult_communication
-					duration = -1
+				if = {
+					limit = {
+						owner = {
+							ai = yes
+						}
+					}
+					add_province_modifier = {
+						name = difficult_communication     
+						duration = -1
+					}	
 				}
 				if = {
 					limit = {
@@ -956,9 +999,16 @@ country_event = {
 						}
 					}
 				}
-				add_province_modifier = {
-					name = poor_communication
-					duration = -1
+				if = {
+					limit = {
+						owner = {
+							ai = yes
+						}
+					}
+					add_province_modifier = {
+						name = poor_communication      
+						duration = -1
+					}	
 				}
 				if = {
 					limit = {
@@ -988,9 +1038,16 @@ country_event = {
 						}
 					}
 				}
-				add_province_modifier = {
-					name = very_poor_communication
-					duration = -1
+				if = {
+					limit = {
+						owner = {
+							ai = yes
+						}
+					}
+					add_province_modifier = {
+						name = very_poor_communication       
+						duration = -1
+					}	
 				}
 				if = {
 					limit = {
@@ -1020,9 +1077,16 @@ country_event = {
 						}
 					}
 				}
-				add_province_modifier = {
-					name = terrible_communication
-					duration = -1
+				if = {
+					limit = {
+						owner = {
+							ai = yes
+						}
+					}
+					add_province_modifier = {
+						name = terrible_communication        
+						duration = -1
+					}	
 				}
 				if = {
 					limit = {
@@ -1046,9 +1110,16 @@ country_event = {
 						value = 289
 					}
 				}
-				add_province_modifier = {
-					name = minimal_communication
-					duration = -1
+				if = {
+					limit = {
+						owner = {
+							ai = yes
+						}
+					}
+					add_province_modifier = {
+						name = minimal_communication         
+						duration = -1
+					}	
 				}
 				if = {
 					limit = {
@@ -1062,6 +1133,10 @@ country_event = {
 					}
 				}
 			}
+		}
+		
+		every_owned_province = {
+			
 		}
 	}
 }

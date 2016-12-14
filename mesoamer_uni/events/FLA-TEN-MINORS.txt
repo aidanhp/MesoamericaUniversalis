@@ -297,3 +297,266 @@ country_event = {
 		add_prestige = -10
 	}
 }
+
+##########################
+#CONFLICT WITH TLATELOLCO#
+##########################
+#Death of Quauhtlatoatzin
+country_event = {
+	id = TEN_MINORS.09
+	
+	title = "TEN_MINORS9.t"
+	desc = "TEN_MINORS9.d"
+	
+	picture = DEATH_OF_HEIR_eventPicture 
+	
+	fire_only_once = yes
+	
+	trigger = {	
+		TLA = {
+			alliance_with = TEN
+			NOT = {
+				has_ruler = "Quauhtlatoatzin"
+			}
+			NOT = {
+				nums_of_cities = TEN
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "TEN_MINORS9.a"
+		
+		TLA = {
+			country_event = { id = TEN_MINORS.10 days = 1 }
+		}
+		
+		ai_chance = {
+			factor = 90
+		}
+	}
+	
+	option = {
+		name = "TEN_MINORS9.b"
+		
+		add_prestige = -10
+		
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+#A New Tlatoani (Tlatelolco)
+country_event = {
+	id = TEN_MINORS.10
+	
+	title = "TEN_MINORS10.t"
+	desc = "TEN_MINORS10.d"
+	
+	picture = COURT_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "TEN_MINORS10.a"
+		
+		TEN = {
+			country_event = { id = TEN_MINORS.11 days = 1 }
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "TEN_MINORS10.b"
+		
+		declare_war_with_cb = {
+			who = TEN
+			casus_belli = cb_expand_hegemony
+		}
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Tlatelolco Acquiesces 
+country_event = {
+	id = TEN_MINORS.11
+	
+	title = "TEN_MINORS11.t"
+	desc = "TEN_MINORS11.d"
+	
+	picture = COURT_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "TEN_MINORS11.a"
+		
+		TLA = {
+			define_ruler = {
+				name = "Moquihuix"
+				dynasty = "Tetzcocah" 
+				age = 30
+				claim = 85
+				regency = no
+				female = no
+				adm = 3
+				dip = 2
+				mil = 4
+			}
+		}
+		vassalize = TLA
+		add_prestige = 10
+		set_country_flag = appointed_moquihuix
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Moquihuix's Plot
+country_event = {
+	id = TEN_MINORS.12
+	
+	title = "TEN_MINORS12.t"
+	desc = "TEN_MINORS12.d"
+	
+	picture = DIPLOMACY_eventPicture 
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = TLA
+		has_ruler = "Moquihuix"
+		TEN = {
+			has_country_flag = appointed_moquihuix
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = {
+		name = "TEN_MINORS12.a"
+		
+		custom_tooltip = FLA_TEN_015
+		hidden_effect = {
+			TEN = {
+				country_event = { id = TEN_MINORS.13 days = 7 }
+			}
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "TEN_MINORS12.b"
+		
+		add_prestige = -1
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#A Distubing Development
+country_event = {
+	id = TEN_MINORS.13
+	
+	title = "TEN_MINORS13.t"
+	desc = "TEN_MINORS13.d"
+	
+	picture = ASSASSINATION_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "TEN_MINORS13.a"
+		
+		custom_tooltip = FLA_TEN_016
+		hidden_effect = {
+			country_event = { id = TEN_MINORS.14 days = 7 }
+			TLA = {
+				country_event = { id = TEN_MINORS.15 days = 7 }
+			}
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "TEN_MINORS13.b"
+		
+		declare_war_with_cb = {
+			who = TLA
+			casus_belli = cb_expand_hegemony
+		}
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Tlacaelel's Punishment (Tenochtitlan)
+country_event = {
+	id = TEN_MINORS.14
+	
+	title = "TEN_MINORS14.t"
+	desc = "TEN_MINORS14.d"
+	
+	picture = BATTLE_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "TEN_MINORS14.a"
+		
+		create_union = TLA
+		add_prestige = 25
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Tlacaelel's Punishment (Tlatelolco)
+country_event = {
+	id = TEN_MINORS.15
+	
+	title = "TEN_MINORS15.t"
+	desc = "TEN_MINORS15.d"
+	
+	picture = BATTLE_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "TEN_MINORS15.a"
+		
+		custom_tooltip = FLA_TEN_017
+		add_prestige = -25
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+}

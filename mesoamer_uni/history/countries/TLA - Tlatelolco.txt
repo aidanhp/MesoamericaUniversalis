@@ -9,7 +9,8 @@ fixed_capital = 2
 
 1427.1.1 = {
 	monarch = {
-		name = "Tlotzin"
+		name = "Quauhtlatoatzin"
+		birth_date = 1380.1.1
 		dynasty = "Tlatel"
 		adm = 4
 		dip = 4

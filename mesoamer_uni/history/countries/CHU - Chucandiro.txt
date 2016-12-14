@@ -9,7 +9,8 @@ fixed_capital = 366
 
 1427.1.1 = {
 	monarch = {
-		name = "No Ruler"
+		name = "Aramen"	
+		dynasty = "Chucandiro"
 		adm = 4
 		dip = 4
 		mil = 4

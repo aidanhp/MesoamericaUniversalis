@@ -1,13 +1,13 @@
 add_core = YOP	
 owner = YOP
 controller = YOP
-culture = amuzgo
+culture = newtlapanec
 religion = newnahuatl 
 hre = no
-base_tax = 2
-base_production = 4
+base_tax = 4
+base_production = 11
 trade_goods = aquaticfoods 
-base_manpower = 14
+base_manpower = 38
 capital = "Yopitzinco"
 is_city = yes
 fort_15th = yes

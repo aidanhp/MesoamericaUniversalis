@@ -31,7 +31,7 @@ hegemonic_ideas = {
 	}
 	
 	material_hegemony = {
-		
+		prestige = 0.10
 	}
 
 	economic_hegemony = {
@@ -45,7 +45,7 @@ hegemonic_ideas = {
 	}
 
 	social_engineering = {
-		
+		global_unrest = -0.25
 	}
 
 	the_big_stick = {
@@ -102,11 +102,11 @@ territorial_ideas = {
 	}
 
 	local_garrisons = {
-		
+		defensiveness = 0.10
 	}
 
 	administrative_centers = {
-		
+		core_creation = -0.05
 	}
 
 	centralized_law_code = {
@@ -149,6 +149,7 @@ coercion_ideas = {
 	}
 	
 	trigger = {
+		full_idea_group = hegemonic_ideas 
 		NOT = {
 			has_idea_group = gradual_centralization_ideas
 		}
@@ -170,11 +171,11 @@ coercion_ideas = {
 	}
 
 	regional_capitals_ac  = {
-		
+		core_creation = -0.20
 	}
 
 	militaristic_propaganda = {
-		
+		army_tradition = 0.10
 	}
 
 	vast_trade_hegemony = {
@@ -199,6 +200,7 @@ gradual_centralization_ideas = {
 	}
 	
 	trigger = {
+		full_idea_group = hegemonic_ideas 
 		NOT = {
 			has_idea_group = coercion_ideas
 		}
@@ -215,7 +217,7 @@ gradual_centralization_ideas = {
 	}
 
 	regional_capitals_gc = {
-		
+		core_creation = -0.20
 	}
 
 	local_bureaucracies  = {
@@ -249,6 +251,7 @@ diverse_integration_ideas = {
 	}
 	
 	trigger = {
+		full_idea_group = territorial_ideas 
 		NOT = {
 			has_idea_group = total_assimilation_ideas
 		}
@@ -303,6 +306,7 @@ total_assimilation_ideas = {
 	}
 	
 	trigger = {
+		full_idea_group = territorial_ideas 
 		NOT = {
 			has_idea_group = diverse_integration_ideas
 		}
@@ -316,7 +320,7 @@ total_assimilation_ideas = {
 	}
 
 	ethnic_resettlement = {
-		
+		global_unrest = -0.25
 	}
 
 	religious_purity = {
@@ -365,7 +369,7 @@ landexploit_ideas = {
 	}
 
 	militaryprod = {
-		
+		land_forcelimit_modifier = 0.075
 	}
 
 	foodprod = {
@@ -377,7 +381,7 @@ landexploit_ideas = {
 	}
 
 	metalsprod = {
-
+		infantry_power = 0.05
 	}
 
 	earlyindustry = {
@@ -408,7 +412,7 @@ tradeexploit_ideas = {
 	}
 
 	tradeguilds = {
-
+		trade_efficiency = 0.10
 	}
 
 	tariffpolicy = {
@@ -495,7 +499,7 @@ colonization_ideas = {
 	}
 	
 	resettlement = {
-		
+		global_unrest = -0.25
 	}
 
 	sponsordev1 = {
@@ -629,11 +633,11 @@ massmobilization_ideas = {
 	}
 
 	urbanrecruit = {
-
+		land_forcelimit_modifier = 0.05
 	}
 
 	ruralrecruit = {
-
+		land_forcelimit_modifier = 0.05
 	}
 
 	statefarms = {
@@ -649,7 +653,7 @@ massmobilization_ideas = {
 	}
 
 	warlaw = {
-		
+		global_regiment_cost = -0.05
 	}
 
 	optimizedtraining = {
@@ -690,7 +694,7 @@ eliteorders_ideas = {
 	}
 
 	warcouncil = {
-		
+		army_tradition = 0.10
 	}
 
 	tlacochcalcatl = {

@@ -9,7 +9,7 @@ fixed_capital = 90
 
 1427.1.1 = {
 	monarch = {
-		name = "Zne"
+		name = "Xoropiti"
 		dynasty = "Tancitaro"
 		adm = 4
 		dip = 4

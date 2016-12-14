@@ -198,86 +198,9 @@ on_siege_won_province = {
 				has_province_modifier = annihilated_by_war
 			}
 		}
-		ROOT = {
-			export_to_variable = { 
-				which = sack_deaths_e
-				value = base_tax
-			}
-			
-			export_to_variable = { 
-				which = sack_deaths_a
-				value = base_production
-			}
-			
-			export_to_variable = { 
-				which = sack_deaths_c
-				value = base_manpower
-			}
-			
-			multiply_variable = { 
-				which = sack_deaths_e
-				value = 0.08
-			}
-			
-			multiply_variable = { 
-				which = sack_deaths_a
-				value = 0.08
-			}
-			
-			multiply_variable = { 
-				which = sack_deaths_c
-				value = 0.08
-			}
-			
-			while = {
-				limit = {
-					check_variable = {
-						which = sack_deaths_e 
-						value = 0
-					}
-				}
-				add_base_tax = -1
-				subtract_variable = {
-					which = sack_deaths_e
-					value = 1
-				}
-			}
-			
-			while = {
-				limit = {
-					check_variable = {
-						which = sack_deaths_a
-						value = 0
-					}
-				}
-				add_base_production = -1
-				subtract_variable = {
-					which = sack_deaths_a
-					value = 1
-				}
-			}
-			
-			while = {
-				limit = {
-					check_variable = {
-						which = sack_deaths_c
-						value = 0
-					}
-				}
-				add_base_manpower = -1
-				subtract_variable = {
-					which = sack_deaths_c
-					value = 1
-				}
-			}
-			
-			subtract_variable = { which = sack_deaths_e which = sack_deaths_e }
-			subtract_variable = { which = sack_deaths_a which = sack_deaths_a }
-			subtract_variable = { which = sack_deaths_c which = sack_deaths_c }
-		}
 		add_permanent_province_modifier = {
 			name = annihilated_by_war
-			duration = 5840
+			duration = 1460
 		}
 	}
 	
@@ -289,7 +212,7 @@ on_siege_won_province = {
 		}
 		add_permanent_province_modifier = {
 			name = annihilated_by_war
-			duration = 5840
+			duration = 1095
 		}
 		remove_province_modifier = devestated_by_war
 	}
@@ -302,7 +225,7 @@ on_siege_won_province = {
 		}
 		add_permanent_province_modifier = {
 			name = devestated_by_war
-			duration = 2920
+			duration = 730
 		}
 		remove_province_modifier = damaged_by_war
 	}

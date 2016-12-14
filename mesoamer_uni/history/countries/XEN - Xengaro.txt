@@ -9,7 +9,7 @@ fixed_capital = 370
 
 1427.1.1 = {
 	monarch = {
-		name = "Binech"
+		name = "Mahicuri"
 		dynasty = "Xengaro"
 		adm = 4
 		dip = 4

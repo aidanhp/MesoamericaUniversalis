@@ -284,12 +284,6 @@ country_event = {
 				set_variable = { which = chichenitza_ad value = 0 }
 				set_variable = { which = ekab_ad value = 0 }
 				
-				
-				
-				###############################################
-				#Remove Starting Manpower to Recalculate Later#
-				###############################################
-				add_manpower = -1000
 			}
 			
 			##########################
@@ -762,6 +756,16 @@ country_event = {
 					who = TCP
 					modifier = opinion_triple_alliance
 				}	
+				add_opinion = {
+					who = TLA
+					modifier = opinion_mexica_brothers
+				}
+			}
+			TLA = { 
+				add_opinion = {
+					who = TEN
+					modifier = opinion_mexica_brothers
+				}
 			}
 			TET = {
 				set_variable = { which = triple_alliance_influence value = 20 }
@@ -786,6 +790,8 @@ country_event = {
 					modifier = opinion_triple_alliance
 				}	
 			}
+
+			
 			
 			####################
 			####################

@@ -66,3 +66,4 @@ TEN_great_legal_reform = {
 	stability_cost_modifier = -0.10
 	global_autonomy = -0.10
 }
+

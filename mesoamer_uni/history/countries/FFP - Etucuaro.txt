@@ -9,7 +9,7 @@ fixed_capital = 655
 
 1427.1.1 = {
 	monarch = {
-		name = "Pauacume"
+		name = "Zangua"
 		dynasty = "Etucuaro"
 		adm = 4
 		dip = 4

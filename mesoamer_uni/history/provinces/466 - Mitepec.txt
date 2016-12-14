@@ -1,7 +1,7 @@
 controller = BBZ
 add_core = BBZ
 owner = BBZ
-culture = tepanec 
+culture = matlatxinca 
 religion = newnahuatl
 hre = no
 base_tax = 1

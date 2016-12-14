@@ -10,7 +10,7 @@ capital = 428
 
 1427.1.1 = {
 	monarch = {
-		name = "Jituh"
+		name = "Zizambanacha"
 		dynasty = "Temohuayan"
 		adm = 4
 		dip = 4

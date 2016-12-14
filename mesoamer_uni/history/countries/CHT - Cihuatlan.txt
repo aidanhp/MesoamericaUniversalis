@@ -9,7 +9,7 @@ fixed_capital = 58
 
 1427.1.1 = {
 	monarch = {
-		name = "Hiripan"
+		name = "Tzacualcatl"
 		dynasty = "Cihuatlan"
 		adm = 4
 		dip = 4

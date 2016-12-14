@@ -1,13 +1,13 @@
 controller = BEB
 add_core = BEB
 owner = BEB
-culture = tepanec 
+culture = matlatxinca 
 religion = newnahuatl
 hre = no
-base_tax = 1
-base_production = 2
+base_tax = 4
+base_production = 8
 trade_goods = lumber 
-base_manpower = 8
+base_manpower = 28
 capital = "Calixtlahuacan"
 is_city = yes
 fort_15th = yes

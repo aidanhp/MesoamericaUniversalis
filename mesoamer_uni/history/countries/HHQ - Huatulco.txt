@@ -2,14 +2,14 @@ government = altepetl
 government_rank = 1
 mercantilism = 0.25
 technology_group = central_mexican 
-religion = zapotec
-primary_culture = newzapotec
+religion = mixtec
+primary_culture = newmixtec
 capital = 709
 fixed_capital = 709
 
 1427.1.1 = {
 	monarch = {
-		name = "Quiabelagayo"
+		name = "Oko Nooy Yaui Nicani Yuu"
 		dynasty = "Huatulco"
 		adm = 4
 		dip = 4

@@ -139,7 +139,6 @@ technology = {
 	# Tech 10
 	year = 1531
 	
-	allowed_idea_groups = 3
 	theocratic_government = yes
 }
 
@@ -174,7 +173,6 @@ technology = {
 	year = 1583
 	
 	plantations = yes
-	allowed_idea_groups	= 4
 }
 
 technology = {
@@ -210,7 +208,6 @@ technology = {
 	# Tech 18
 	year = 1635
 	
-	allowed_idea_groups	= 5
 }
 
 technology = {
@@ -241,8 +238,6 @@ technology = {
 technology = {
 	# Tech 22
 	year = 1687
-	
-	allowed_idea_groups = 6
 	constitutional_monarchy = yes
 	constitutional_republic = yes  
 

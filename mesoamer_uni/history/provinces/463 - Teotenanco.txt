@@ -1,7 +1,7 @@
 controller = BBW
 add_core = BBW
 owner = BBW
-culture = tepanec 
+culture = matlatxinca 
 religion = newnahuatl
 hre = no
 base_tax = 1

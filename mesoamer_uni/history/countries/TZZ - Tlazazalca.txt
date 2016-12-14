@@ -9,7 +9,7 @@ fixed_capital = 375
 
 1427.1.1 = {
 	monarch = {
-		name = "Yel"
+		name = "Paguingata"
 		dynasty = "Tlaza"
 		adm = 4
 		dip = 4
