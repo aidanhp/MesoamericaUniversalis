@@ -70,7 +70,7 @@ westmexican_ideas = {
 	
 	trigger = {
 		OR = { 
-			culture_group = purepecha
+			culture_group = west_central_mexican 
 			primary_culture = cuyutec
 			primary_culture = caxcan
 			primary_culture = tepecano
