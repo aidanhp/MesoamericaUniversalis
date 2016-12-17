@@ -27,6 +27,12 @@ country_event = {
 				}
 			}
 		}
+		every_country = {
+			export_to_variable = {
+				which = country_mp_level
+				value = manpower_percentage
+			}
+		}
 		every_province = {
 			limit = {
 				is_city = yes
@@ -66,45 +72,6 @@ country_event = {
 					}
 				}
 				change_variable = { which = prov_growth_rate value = 0.005 }
-			}
-			
-			if = {
-				limit = {
-					owner = {
-						manpower_percentage = 0.60
-						NOT = { manpower_percentage = 0.70 }
-					}
-				}
-				change_variable = { which = prov_growth_rate value = 0.005 }
-			}
-			
-			if = {
-				limit = {
-					owner = {
-						manpower_percentage = 0.70
-						NOT = { manpower_percentage = 0.80 }
-					}
-				}
-				change_variable = { which = prov_growth_rate value = 0.010 }
-			}
-			
-			if = {
-				limit = {
-					owner = {
-						manpower_percentage = 0.80
-						NOT = { manpower_percentage = 0.90 }
-					}
-				}
-				change_variable = { which = prov_growth_rate value = 0.015 }
-			}
-			
-			if = {
-				limit = {
-					owner = {
-						manpower_percentage = 0.90
-					}
-				}
-				change_variable = { which = prov_growth_rate value = 0.020 }
 			}
 			
 			if = {
@@ -189,46 +156,6 @@ country_event = {
 					NOT = { stability = -2 }
 				}
 				change_variable = { which = prov_growth_rate value = -0.015 }
-			}
-			
-			if = {
-				limit = {
-					owner = {
-						manpower_percentage = 0.30
-						NOT = { manpower_percentage = 0.50 }
-					}
-				}
-				change_variable = { which = prov_growth_rate value = -0.020 }
-			}
-			
-			if = {
-				limit = {
-					owner = {
-						manpower_percentage = 0.20
-						NOT = { manpower_percentage = 0.30 }
-					}
-				}
-				change_variable = { which = prov_growth_rate value = -0.030 }
-			}
-			
-			if = {
-				limit = {
-					owner = {
-						manpower_percentage = 0.10
-						NOT = { manpower_percentage = 0.20 }
-					}
-				}
-				change_variable = { which = prov_growth_rate value = -0.040 }
-			}
-			
-			if = {
-				limit = {
-					owner = {
-						manpower_percentage = 0.0
-						NOT = { manpower_percentage = 0.10 }
-					}
-				}
-				change_variable = { which = prov_growth_rate value = -0.050 }
 			}
 			
 			if = {

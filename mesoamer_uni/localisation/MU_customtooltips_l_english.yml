@@ -303,13 +303,13 @@
  #############
  #FOR TRIBUTE#
  #############
- TRIB_duc_high: "Gain ducats equal to §G33%§! of this area's development."
- TRIB_duc_normal: "Gain ducats equal to §G25%§! of this area's development."
- TRIB_duc_low: "Gain ducats equal to §G15%§! of this area's development."
+ TRIB_duc_high: "Gain ducats equal to §G33%§! of your non-capital development."
+ TRIB_duc_normal: "Gain ducats equal to §G25%§! of your non-capital development."
+ TRIB_duc_low: "Gain ducats equal to §G15%§! of your non-capital development."
  
- TRIB_mp_high: "Gain §G1000§! manpower for every 25 development in this area."
- TRIB_mp_normal: "Gain §G1000§! manpower for every 35 development in this area."
- TRIB_mp_low: "Gain §G1000§! manpower for every 50 development in this area."
+ TRIB_mp_high: "Gain §G1000§! manpower for every 25 non-capital development."
+ TRIB_mp_normal: "Gain §G1000§! manpower for every 35 non-capital development."
+ TRIB_mp_low: "Gain §G1000§! manpower for every 50 non-capital development."
  
  ###########
  #RELIGIONS#

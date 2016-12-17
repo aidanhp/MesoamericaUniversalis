@@ -7,19 +7,25 @@ primary_culture = highlandsmayan
 capital = 195
 fixed_capital = 195
 
-1427.1.1 = {
+1425.1.1 = {
 	monarch = {
 		name = "Q'uik'ab"
 		dynasty = "K'umarcaaj"
-		adm = 5
-		dip = 6
-		mil = 5
+		birth_date = 1400.1.1
+		adm = 6
+		dip = 4
+		mil = 6
 		leader = {
 			name = "Q'uik'ab"
 			shock = 5
-			fire = 2
+			fire = 4
 			manuever = 4
-			siege = 1
+			siege = 2
 		}
+		
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = immortal_personality 
+	add_ruler_personality = conqueror_personality 
+	add_ruler_personality = tactical_genius_personality 
 }

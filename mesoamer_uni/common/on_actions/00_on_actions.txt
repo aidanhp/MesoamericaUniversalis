@@ -52,10 +52,10 @@ on_peace_recipient = {
 # root = winning country, from = loser country
 on_war_won = {
 	ROOT = {
-		country_event = { id = commeff.01}
+		#country_event = { id = commeff.01}
 	}
 	FROM = {
-		country_event = { id = commeff.01}
+		#country_event = { id = commeff.01}
 	}
 	ROOT = {
 		change_variable = { which = militancy value = 1 }

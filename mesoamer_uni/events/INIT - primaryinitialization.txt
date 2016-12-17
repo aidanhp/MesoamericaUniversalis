@@ -196,94 +196,13 @@ country_event = {
 				set_variable = { which = mil_points_weight value = 0 }
 				
 				#Population System
-				set_variable = { which = owner_mp_percent value = 0}
+				set_variable = { which = country_mp_level value = 0}
 				
 				#Tribute System
-				set_variable = { which = area_dev value = 0 }
-				set_variable = { which = area_dev_mp value = 0 }
+				set_variable = { which = total_ducats_dev value = 0 }
+				set_variable = { which = total_mp_dev value = 0 }
 				
-				set_variable = { which = westshore_mp value = 0 }
-				set_variable = { which = eastshore_mp value = 0 }
-				set_variable = { which = southshore_mp value = 0 }
-				set_variable = { which = xocotitlan_mp value = 0 }
-				set_variable = { which = toluca_mp value = 0 }
-				set_variable = { which = petlacalco_mp value = 0 }
-				set_variable = { which = tula_mp value = 0 }
-				set_variable = { which = tlaxcala_mp value = 0 }
-				set_variable = { which = tepeacac_mp value = 0 }
-				set_variable = { which = malinalco_mp value = 0 }
-				set_variable = { which = cuahnahuac_mp value = 0 }
-				set_variable = { which = yohualtepec_mp value = 0 }
-				set_variable = { which = oztoman_mp value = 0 }
-				set_variable = { which = cihuatlan_mp value = 0 }
-				set_variable = { which = yope_mp value = 0 }
-				set_variable = { which = tututepec_mp value = 0 }
-				set_variable = { which = tehuantepec_mp value = 0 }
-				set_variable = { which = teotitlan_mp value = 0 }
-				set_variable = { which = tochtepec_mp value = 0 }
-				set_variable = { which = cuetlaxtlan_mp value = 0 }
-				set_variable = { which = huasteca_mp value = 0 }
-				set_variable = { which = patzcuaro_mp value = 0 }
-				set_variable = { which = zacatula_mp value = 0 }
-				set_variable = { which = cuitzeo_mp value = 0 }
-				set_variable = { which = chapala_mp value = 0 }
-				set_variable = { which = tetellan_mp value = 0 }
-				set_variable = { which = colima_mp value = 0 }
-				set_variable = { which = xalisco_mp value = 0 }
-				set_variable = { which = cora_mp value = 0 }
-				set_variable = { which = tonallan_mp value = 0 }
-				set_variable = { which = metztitlan_mp value = 0 }
-				set_variable = { which = xoconochco_mp value = 0 }
-				set_variable = { which = westhighlands_mp value = 0 }
-				set_variable = { which = easthighlands_mp value = 0 }
-				set_variable = { which = isthmus_mp value = 0 }
-				set_variable = { which = xicalango_mp value = 0 }
-				set_variable = { which = peten_mp value = 0 }
-				set_variable = { which = mayapan_mp value = 0 }
-				set_variable = { which = chichenitza_mp value = 0 }
-				set_variable = { which = ekab_mp value = 0 }
-				
-				set_variable = { which = westshore_ad value = 0 }
-				set_variable = { which = eastshore_ad value = 0 }
-				set_variable = { which = southshore_ad value = 0 }
-				set_variable = { which = xocotitlan_ad value = 0 }
-				set_variable = { which = toluca_ad value = 0 }
-				set_variable = { which = petlacalco_ad value = 0 }
-				set_variable = { which = tula_ad value = 0 }
-				set_variable = { which = tlaxcala_ad value = 0 }
-				set_variable = { which = tepeacac_ad value = 0 }
-				set_variable = { which = malinalco_ad value = 0 }
-				set_variable = { which = cuahnahuac_ad value = 0 }
-				set_variable = { which = yohualtepec_ad value = 0 }
-				set_variable = { which = oztoman_ad value = 0 }
-				set_variable = { which = cihuatlan_ad value = 0 }
-				set_variable = { which = yope_ad value = 0 }
-				set_variable = { which = tututepec_ad value = 0 }
-				set_variable = { which = tehuantepec_ad value = 0 }
-				set_variable = { which = teotitlan_ad value = 0 }
-				set_variable = { which = tochtepec_ad value = 0 }
-				set_variable = { which = cuetlaxtlan_ad value = 0 }
-				set_variable = { which = huasteca_ad value = 0 }
-				set_variable = { which = patzcuaro_ad value = 0 }
-				set_variable = { which = zacatula_ad value = 0 }
-				set_variable = { which = cuitzeo_ad value = 0 }
-				set_variable = { which = chapala_ad value = 0 }
-				set_variable = { which = tetellan_ad value = 0 }
-				set_variable = { which = colima_ad value = 0 }
-				set_variable = { which = xalisco_ad value = 0 }
-				set_variable = { which = cora_ad value = 0 }
-				set_variable = { which = tonallan_ad value = 0 }
-				set_variable = { which = metztitlan_ad value = 0 }
-				set_variable = { which = xoconochco_ad value = 0 }
-				set_variable = { which = westhighlands_ad value = 0 }
-				set_variable = { which = easthighlands_ad value = 0 }
-				set_variable = { which = isthmus_ad value = 0 }
-				set_variable = { which = xicalango_ad value = 0 }
-				set_variable = { which = peten_ad value = 0 }
-				set_variable = { which = mayapan_ad value = 0 }
-				set_variable = { which = chichenitza_ad value = 0 }
-				set_variable = { which = ekab_ad value = 0 }
-				
+			
 			}
 			
 			##########################
@@ -557,7 +476,7 @@ country_event = {
 				set_variable = { which = refusal_points value = 0 }
 				set_variable = { which = prov_unrest value = 0 }
 				
-				set_variable = { which = prov_dev_trib value = 0 }
+				set_variable = { which = capital_dev_trib value = 0 }
 				
 				#################################
 				#COMMUNICATION EFFICIENCY SYSTEM#
