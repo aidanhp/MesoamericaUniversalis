@@ -4957,7 +4957,6 @@ guiTypes = {
 	}
 	
 	### New buildings window (Common Sense and beyond) where layout is manual
-	### New buildings window (Common Sense and beyond) where layout is manual
 	windowType = {
 		name = "new_buildings_entry2"
 		backGround=""

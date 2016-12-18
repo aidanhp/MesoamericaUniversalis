@@ -31,7 +31,8 @@ country_event = {
 			remove_country_modifier = warleader
 		}
 		
-		every_province = {
+		every_country = { 
+		every_owned_province = {
 			limit = {
 				owner = {
 					ai = yes
@@ -53,6 +54,7 @@ country_event = {
 					duration = -1
 				}
 			}
+		}
 		}
 	}
 }

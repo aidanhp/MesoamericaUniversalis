@@ -185,9 +185,6 @@ country_event = {
 				######################
 				#Initialize Variables#
 				######################
-				#Power Perception
-				set_variable = { which = power_perception value = 55 } #0-100
-				set_variable = { which = power_perception_mc value = 0 } #Monthly Change
 				
 				#Heir Type Choosen by Council
 				set_variable = { which = heir_apparent_weight value = 0 }
@@ -196,7 +193,10 @@ country_event = {
 				set_variable = { which = mil_points_weight value = 0 }
 				
 				#Population System
-				set_variable = { which = country_mp_level value = 0}
+				set_variable = { which = pops_manpower_level value = 0}
+				set_variable = { which = pops_stability_level value = 0 }
+				set_variable = { which = pops_we_level value = 0 }
+				#set_variable = { which = pops_x_level value = 0 }
 				
 				#Tribute System
 				set_variable = { which = total_ducats_dev value = 0 }
@@ -419,55 +419,42 @@ country_event = {
 				#POPULATION SYSTEM#
 				###################
 				set_variable = { which = prov_growth_rate value = 0.012 } #Growth rate
-				set_variable = { which = prov_pop value = 0 } #Development
+				set_variable = { which = prov_pop value = 0 } #Total Development
 				
-				
-				set_variable = { which = test1 value = 0 }
-				set_variable = { which = test2 value = 0 }
-				set_variable = { which = test3 value = 0 }
-				
-				set_variable = { which = unadded_decay_ep value = 0 }
-				set_variable = { which = unadded_decay_ap value = 0 }
-				set_variable = { which = unadded_decay_cp value = 0 }
-				
-				set_variable = { which = elite_pop_change value = 0 } 
-				set_variable = { which = artisan_pop_change value = 0 } 
-				set_variable = { which = common_pop_change value = 0} 
-				
-				set_variable = { which = elite_pop value = 0 }
-				set_variable = { which = artisan_pop value = 0 }
-				set_variable = { which = commoner_pop value = 0 }
-				
-				export_to_variable = {
-					which = elite_pop
-					value = base_tax
-				}
-				export_to_variable = {
-					which = artisan_pop
-					value = base_production
-				}
-				export_to_variable = {
-					which = commoner_pop
+				set_variable = { which = commoner_pops value = 0 }
+				set_variable = { which = artisan_pops value = 0 }
+				set_variable = { which = elite_pops value = 0 }
+				export_to_variable = { 
+					which = commoner_pops
 					value = base_manpower
 				}
+				export_to_variable = { 
+					which = artisan_pops
+					value = base_production
+				}
+				export_to_variable = { 
+					which = elite_pops
+					value = base_tax
+				}
+				multiply_variable = { 
+					which = commoner_pops 
+					value = 1000
+				}
+				multiply_variable = { 
+					which = artisan_pops 
+					value = 1000
+				}
+				multiply_variable = { 
+					which = elite_pops 
+					value = 1000
+				}
+				set_variable = { which = commoner_pops_change value = 0 }
+				set_variable = { which = artisan_pops_change value = 0 }
+				set_variable = { which = elite_pops_change value = 0 }
 				
-				multiply_variable = {
-					which = elite_pop
-					value = 1000
-				}
-				multiply_variable = {
-					which = artisan_pop
-					value = 1000
-				}
-				multiply_variable = {
-					which = commoner_pop
-					value = 1000
-				}
-				
-				set_variable = { which = provpp value = 100 } #Local Population Potential 
-				set_variable = { which = sack_deaths_e value = 0 } #Deaths when the province is sacked
-				set_variable = { which = sack_deaths_a value = 0 } #Deaths when the province is sacked
-				set_variable = { which = sack_deaths_c value = 0 } #Deaths when the province is sacked
+				set_variable = { which = unadded_change_commoners value = 0 }
+				set_variable = { which = unadded_change_artisans value = 0 }
+				set_variable = { which = unadded_change_elites value = 0 }
 				
 				################
 				#TRIBUTE SYSTEM#
@@ -613,11 +600,6 @@ country_event = {
 					name = "manpowercalcwait"
 					duration = 5
 				}
-				
-				######################################################################
-				#Run event to calculate local population potential for every province#
-				######################################################################
-				#country_event = { id = ppcalc.01 days = 1 }
 			}
 			
 			######################

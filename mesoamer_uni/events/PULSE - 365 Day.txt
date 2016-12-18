@@ -20,11 +20,12 @@ country_event = {
 			
 			#Yearly Gameplay Events
 			MGI = {
-				#country_event = { id = populations.01 }#Update population once a year
-				#country_event = { id = countrystats.01 }#Update country stats once a year
-				#country_event = { id = calctai.01 }#Update triple alliance influence
-				#country_event = { id = estatefavors.01 }#Update Estate Favors 
-				#country_event = { id = yearpulse.01 days = 334 }#Rerun this event 
+				country_event = { id = ppcalc.01 } #Local Population Potential
+				country_event = { id = populations.01 }#Update population once a year
+				country_event = { id = countrystats.01 }#Update country stats once a year
+				country_event = { id = calctai.01 }#Update triple alliance influence
+				country_event = { id = estatefavors.01 }#Update Estate Favors 
+				country_event = { id = yearpulse.01 days = 334 }#Rerun this event 
 			}
 			
 			#Collect Tribute
@@ -36,12 +37,12 @@ country_event = {
 					}
 					num_of_cities = 2
 				}
-				#country_event = { id = tributecoll.02 days = 334 }
+				country_event = { id = tributecoll.02 days = 334 }
 			}
 			
 			#Payments from Estates
 			every_country = {
-				#country_event = { id = commeff.01}
+				country_event = { id = commeff.01}
 				if = {
 					limit = {
 						OR = {
@@ -76,11 +77,12 @@ country_event = {
 				}
 			}
 			MGI = {
-				#country_event = { id = populations.01 }
-				#country_event = { id = countrystats.01 }
-				#country_event = { id = calctai.01 }
-				#country_event = { id = estatefavors.01 }
-				#country_event = { id = yearpulse.01 days = 365}	
+				country_event = { id = ppcalc.01 } #Local Population Potential
+				country_event = { id = populations.01 }
+				country_event = { id = countrystats.01 }
+				country_event = { id = calctai.01 }
+				country_event = { id = estatefavors.01 }
+				country_event = { id = yearpulse.01 days = 365}	
 			}
 			
 			every_country = {
@@ -91,11 +93,11 @@ country_event = {
 					}
 					num_of_cities = 2
 				}
-				#country_event = { id = tributecoll.02 days = 365 }
+				country_event = { id = tributecoll.02 days = 365 }
 			}
 			
 			every_country = {
-				#country_event = { id = commeff.01}
+				country_event = { id = commeff.01}
 				if = {
 					limit = {
 						OR = {

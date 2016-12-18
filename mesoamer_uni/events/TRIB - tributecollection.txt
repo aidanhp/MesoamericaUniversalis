@@ -343,6 +343,7 @@ country_event = {
 						which = total_mp_dev
 						value = 0
 					}
+					NOT = { manpower_percentage = 2.5 }
 				}
 				add_manpower = 1
 				subtract_variable = { which = total_mp_dev value = 50 }
@@ -371,6 +372,7 @@ country_event = {
 						which = total_mp_dev
 						value = 0
 					}
+					NOT = { manpower_percentage = 2.5 }
 				}
 				add_manpower = 1
 				subtract_variable = { which = total_mp_dev value = 35 }
@@ -399,6 +401,7 @@ country_event = {
 						which = total_mp_dev
 						value = 0
 					}
+					NOT = { manpower_percentage = 2.5 }
 				}
 				add_manpower = 1
 				subtract_variable = { which = total_mp_dev value = 25 }

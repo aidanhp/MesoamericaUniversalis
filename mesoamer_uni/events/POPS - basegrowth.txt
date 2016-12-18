@@ -9,8 +9,6 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	#hidden = yes
-
 	option = {
 		name = "popup1.a"
 		
@@ -29,305 +27,587 @@ country_event = {
 		}
 		every_country = {
 			export_to_variable = {
-				which = country_mp_level
+				which = pops_manpower_level
 				value = manpower_percentage
 			}
-		}
-		every_province = {
-			limit = {
-				is_city = yes
-			}
-			#Calculate Growth Rate
-			subtract_variable = { which = prov_growth_rate which = prov_growth_rate }
-			change_variable = { which = prov_growth_rate value = 0.015 }
-			
 			export_to_variable = {
-				which = prov_pop 
-				value = development
+				which = pops_stability_level
+				value = stability
 			}
-			
-			#POSITIVE MODIFIERS
-			if = {
+			export_to_variable = {
+				which = pops_we_level
+				value = war_exhaustion
+			}
+		}
+		every_country = {
+			every_owned_province = { 
 				limit = {
-					owner = {
-						stability = 1
-					}
+					is_city = yes
+					continent = continent_1
 				}
-				change_variable = { which = prov_growth_rate value = 0.005 }
-			}
+				#Calculate Growth Rate
+				subtract_variable = { which = prov_growth_rate which = prov_growth_rate }
 			
-			if = {
-				limit = {
-					owner = {
-						stability = 2
-					}
+				export_to_variable = {
+					which = prov_pop 
+					value = development
 				}
-				change_variable = { which = prov_growth_rate value = 0.005 }
-			}
 			
-			if = {
-				limit = {
-					owner = {
-						stability = 3
-					}
-				}
-				change_variable = { which = prov_growth_rate value = 0.005 }
-			}
-			
-			if = {
-				limit = {
-					owner = {
-						adm_tech = 2
-					}
-				}
-				change_variable = { which = prov_growth_rate value = 0.0075 }
-			}
-			
-			if = {
-				limit = {
-					has_building = farm1
-				}
-				change_variable = { which = prov_growth_rate value = 0.005 }
-			}
-			
-			if = {
-				limit = {
-					has_building = farm2
-				}
-				change_variable = { which = prov_growth_rate value = 0.010 }
-			}
-			
-			if = {
-				limit = {
-					province_trade_power = 5
-				}
-				change_variable = { which = prov_growth_rate value = 0.005 }
-			}
-			
-			if = {
-				limit = {
-					province_trade_power = 10
-				}
-				change_variable = { which = prov_growth_rate value = 0.005 }
-			}
-			
-			if = {
-				limit = {
-					province_trade_power = 20
-				}
-				change_variable = { which = prov_growth_rate value = 0.005 }
-			}
-			
-			if = {
-				limit = {
-					OR = {
-						trade_goods = grain
-						trade_goods = aquaticfoods
-						trade_goods = fruits
-					}
-				}
-				change_variable = { which = prov_growth_rate value = 0.005 }
-			}
-			
-			#NEGATIVE
-			if = {
-				limit = {
-					check_variable = { which = prov_pop which = provpp }
-				}
-				change_variable = { which = prov_growth_rate value = -0.065 }
-			}
-			
-			if = {
-				limit = {
-					NOT = { stability = 0 }
-				}
-				change_variable = { which = prov_growth_rate value = -0.005 }
-			}
-			
-			if = {
-				limit = {
-					NOT = { stability = -1 }
-				}
-				change_variable = { which = prov_growth_rate value = -0.010 }
-			}
-			
-			if = {
-				limit = {
-					NOT = { stability = -2 }
-				}
-				change_variable = { which = prov_growth_rate value = -0.015 }
-			}
-			
-			if = {
-				limit = {
-					has_province_modifier = damaged_by_war 
-				}
-				change_variable = { which = prov_growth_rate value = -0.005 }
-			}
-			
-			if = {
-				limit = {
-					has_province_modifier = devestated_by_war  
-				}
-				change_variable = { which = prov_growth_rate value = -0.010 }
-			}
-			
-			if = {
-				limit = {
-					has_province_modifier = annihilated_by_war   
-				}
-				change_variable = { which = prov_growth_rate value = -0.015 }
-			}
-			
-			#Store Total Pop in each category
-			#Add a pop to the province if one of the three goes up enough in its category 
-			
-			#Set Change Values to the current total pop
-			set_variable = { which = test1 which = elite_pop }
-			set_variable = { which = test2 which = artisan_pop }
-			set_variable = { which = test3 which = commoner_pop }
-			
-			#Set the change equal to the number of gained or lost persons
-			multiply_variable = {
-				which = test1
-				which = prov_growth_rate
-			}
-			multiply_variable = {
-				which = test2
-				which = prov_growth_rate
-			}
-			multiply_variable = {
-				which = test3
-				which = prov_growth_rate
-			}
-			
-			#Update the total pop with the number of gained/lost people
-			change_variable = {
-				which = elite_pop
-				which = test1
-			}
-			change_variable = {
-				which = artisan_pop
-				which = test2
-			}
-			change_variable = {
-				which = commoner_pop
-				which = test3
-			}
-			
-			change_variable = { which = elite_pop_change which = test1 }
-			change_variable = { which = artisan_pop_change which = test2 }
-			change_variable = { which = commoner_pop_change which = test3 }
-			
-			if = {
-				limit = {
-					check_variable = {
-						which = prov_growth_rate
-						value = 0.0
-					}
-				}
-				
-				while = {
+				#POSITIVE
+				if = {
 					limit = {
-						check_variable = {
-							which = elite_pop_change
-							value = 1000
-						}
-					}
-					add_base_tax = 1
-					subtract_variable = {
-						which = elite_pop_change
-						value = 1000
-					}
-				}
-				
-				while = {
-					limit = {
-						check_variable = {
-							which = artisan_pop_change
-							value = 1000
-						}
-					}
-					add_base_production = 1
-					subtract_variable = {
-						which = artisan_pop_change
-						value = 1000
-					}
-				}
-				
-				while = {
-					limit = {
-						check_variable = {
-							which = commoner_pop_change
-							value = 1000
-						}
-					}
-					add_base_manpower = 1
-					subtract_variable = {
-						which = commoner_pop_change
-						value = 1000
-					}
-				}
-			}
-			
-			if = {
-				limit = {
-					NOT = { 
-						check_variable = {
-							which = prov_growth_rate
-							value = 0.0
-						}
-					}
-				}
-				
-				while = {
-					limit = {
-						NOT = { 
+						owner = {
 							check_variable = {
-								which = elite_pop_change
-								value = -1000
+								which = pops_manpower_level
+								value = 0.60
 							}
 						}
 					}
-					add_base_tax = -1
-					subtract_variable = {
-						which = elite_pop_change
-						value = -1000
-					}
+					change_variable = { which = prov_growth_rate value = 0.005 }
 				}
-				
-				while = {
+				if = {
 					limit = {
-						NOT = { 
+						owner = {
 							check_variable = {
-								which = artisan_pop_change
-								value = -1000
+								which = pops_manpower_level
+								value = 0.70
 							}
 						}
 					}
-					add_base_production = -1
-					subtract_variable = {
-						which = artisan_pop_change
-						value = -1000
-					}
+					change_variable = { which = prov_growth_rate value = 0.005 }
 				}
-				
-				while = {
+				if = {
 					limit = {
-						NOT = { 
+						owner = {
 							check_variable = {
-								which = commoner_pop_change
-								value = -1000
+								which = pops_manpower_level
+								value = 0.80
 							}
 						}
 					}
-					add_base_manpower = -1
-					subtract_variable = {
-						which = commoner_pop_change
-						value = -1000
+					change_variable = { which = prov_growth_rate value = 0.005 }
+				}
+				if = {
+					limit = {
+						owner = {
+							check_variable = {
+								which = pops_manpower_level
+								value = 0.90
+							}
+						}
+					}
+					change_variable = { which = prov_growth_rate value = 0.005 }
+				}
+			
+				if = {
+					limit = {
+						owner = {
+							check_variable = {
+								which = pops_stability_level
+								value = 1
+							}
+						}
+					}
+					change_variable = { which = prov_growth_rate value = 0.005 }
+				}
+			
+				if = {
+					limit = {
+						owner = {
+							check_variable = {
+								which = pops_stability_level
+								value = 2
+							}
+						}
+					}
+					change_variable = { which = prov_growth_rate value = 0.005 }
+				}
+			
+				if = {
+					limit = {
+						owner = {
+							check_variable = {
+								which = pops_stability_level
+								value = 3
+							}
+						}
+					}
+					change_variable = { which = prov_growth_rate value = 0.005 }
+				}
+				
+				if = {
+					limit = {
+						owner = {
+							adm_tech = 2
+						}
+					}
+					change_variable = { which = prov_growth_rate value = 0.0075 }
+				}
+				
+				if = {
+					limit = {
+						has_building = farm1
+					}
+					change_variable = { which = prov_growth_rate value = 0.005 }
+				}
+			
+				if = {
+					limit = {
+						has_building = farm2
+					}
+					change_variable = { which = prov_growth_rate value = 0.010 }
+				}
+				
+				if = {
+					limit = {
+						province_trade_power = 5
+					}
+					change_variable = { which = prov_growth_rate value = 0.005 }
+				}
+			
+				if = {
+					limit = {
+						province_trade_power = 10
+					}
+					change_variable = { which = prov_growth_rate value = 0.005 }
+				}
+			
+				if = {
+					limit = {
+						province_trade_power = 20
+					}
+					change_variable = { which = prov_growth_rate value = 0.005 }
+				}
+			
+				if = {
+					limit = {
+						OR = {
+							trade_goods = grain
+							trade_goods = aquaticfoods
+							trade_goods = fruits
+						}
+					}
+					change_variable = { which = prov_growth_rate value = 0.005 }
+				}
+			
+				#NEGATIVE
+				if = {
+					limit = {
+						check_variable = { which = prov_pop which = provpp }
+					}
+					change_variable = { which = prov_growth_rate value = -0.065 }
+				}
+				
+				if = {
+					limit = {
+						NOT = { check_variable = { which = pops_stability_level value = 0 } }
+					}
+					change_variable = { which = prov_growth_rate value = -0.0075 }
+				}
+				
+				if = {
+					limit = {
+						NOT = { check_variable = { which = pops_stability_level value = -1 } }
+					}
+					change_variable = { which = prov_growth_rate value = -0.0075 }
+				}
+				
+				if = {
+					limit = {
+						NOT = { check_variable = { which = pops_stability_level value = -2 } }
+					}
+					change_variable = { which = prov_growth_rate value = -0.0075 }
+				}
+				
+				if = {
+					limit = {
+						owner = {
+							NOT = { 
+								check_variable = {
+									which = pops_manpower_level
+									value = 0.50
+								}
+							}
+						}
+					}
+					change_variable = { which = prov_growth_rate value = -0.0075 }
+				}
+				
+				if = {
+					limit = {
+						owner = {
+							NOT = { 
+								check_variable = {
+									which = pops_manpower_level
+									value = 0.40
+								}
+							}
+						}
+					}
+					change_variable = { which = prov_growth_rate value = -0.0075 }
+				}
+				
+				if = {
+					limit = {
+						owner = {
+							NOT = { 
+								check_variable = {
+									which = pops_manpower_level
+									value = 0.30
+								}
+							}
+						}
+					}
+					change_variable = { which = prov_growth_rate value = -0.0075 }
+				}
+				
+				if = {
+					limit = {
+						owner = {
+							NOT = { 
+								check_variable = {
+									which = pops_manpower_level
+									value = 0.20
+								}
+							}
+						}
+					}
+					change_variable = { which = prov_growth_rate value = -0.0075 }
+				}
+				
+				if = {
+					limit = {
+						owner = {
+							NOT = { 
+								check_variable = {
+									which = pops_manpower_level
+									value = 0.10
+								}
+							}
+						}
+					}
+					change_variable = { which = prov_growth_rate value = -0.010 }
+				}
+				
+				if = {
+					limit = {
+						has_province_modifier = damaged_by_war 
+					}
+					change_variable = { which = prov_growth_rate value = -0.005 }
+				}
+			
+				if = {
+					limit = {
+						has_province_modifier = devestated_by_war  
+					}
+					change_variable = { which = prov_growth_rate value = -0.010 }
+				}
+			
+				if = {
+					limit = {
+						has_province_modifier = annihilated_by_war   
+					}
+					change_variable = { which = prov_growth_rate value = -0.015 }
+				}
+				
+				if = {
+					limit = {
+						owner = {
+							check_variable = { 
+								which = pops_we_level
+								value = 2
+							}
+						}
+					}
+					change_variable = { which = prov_growth_rate value = -0.003 }
+				}
+				
+				if = {
+					limit = {
+						owner = {
+							check_variable = { 
+								which = pops_we_level
+								value = 4
+							}
+						}
+					}
+					change_variable = { which = prov_growth_rate value = -0.003 }
+				}
+				
+				if = {
+					limit = {
+						owner = {
+							check_variable = { 
+								which = pops_we_level
+								value = 6
+							}
+						}
+					}
+					change_variable = { which = prov_growth_rate value = -0.003 }
+				}
+				
+				if = {
+					limit = {
+						owner = {
+							check_variable = { 
+								which = pops_we_level
+								value = 8
+							}
+						}
+					}
+					change_variable = { which = prov_growth_rate value = -0.003 }
+				}
+				
+				if = {
+					limit = {
+						owner = {
+							check_variable = { 
+								which = pops_we_level
+								value = 10
+							}
+						}
+					}
+					change_variable = { which = prov_growth_rate value = -0.003 }
+				}
+				
+				if = {
+					limit = {
+						owner = {
+							check_variable = { 
+								which = pops_we_level
+								value = 12
+							}
+						}
+					}
+					change_variable = { which = prov_growth_rate value = -0.003 }
+				}
+				
+				if = {
+					limit = {
+						owner = {
+							check_variable = { 
+								which = pops_we_level
+								value = 14
+							}
+						}
+					}
+					change_variable = { which = prov_growth_rate value = -0.003 }
+				}
+				
+				if = {
+					limit = {
+						owner = {
+							check_variable = { 
+								which = pops_we_level
+								value = 16
+							}
+						}
+					}
+					change_variable = { which = prov_growth_rate value = -0.003 }
+				}
+				
+				if = {
+					limit = {
+						owner = {
+							check_variable = { 
+								which = pops_we_level
+								value = 18
+							}
+						}
+					}
+					change_variable = { which = prov_growth_rate value = -0.003 }
+				}
+				
+				if = {
+					limit = {
+						owner = {
+							check_variable = { 
+								which = pops_we_level
+								value = 20
+							}
+						}
+					}
+					change_variable = { which = prov_growth_rate value = -0.003 }
+				}
+			
+				#Set change equal to current population
+				set_variable = { which = commoner_pops_change which = commoner_pops }
+				set_variable = { which = artisan_pops_change which = artisan_pops }
+				set_variable = { which = elite_pops_change which = elite_pops }
+			
+				#Determine level of change based off growth rate
+				multiply_variable = { which = commoner_pops_change which = prov_growth_rate }
+				multiply_variable = { which = artisan_pops_change which = prov_growth_rate }
+				multiply_variable = { which = elite_pops_change which = prov_growth_rate }
+			
+				#Add change to total population
+				change_variable = { which = commoner_pops which = commoner_pops_change }
+				change_variable = { which = artisan_pops which = artisan_pops_change }
+				change_variable = { which = elite_pops which = elite_pops_change }
+				
+				#Add population in this province
+				if = {
+					limit = {
+						check_variable = { which = prov_growth_rate value = 0.0 }
+					}
+					while = {
+						limit = {
+							check_variable = {
+								which = commoner_pops_change
+								value = 1000
+							}
+						}
+						add_base_manpower = 1
+						subtract_variable = { which = commoner_pops_change value = 1000 }
+					}
+					change_variable = { which = unadded_change_commoners which = commoner_pops_change }
+					
+					while = {
+						limit = {
+							check_variable = {
+								which = artisan_pops_change
+								value = 1000
+							}
+						}
+						add_base_production = 1
+						subtract_variable = { which = artisan_pops_change value = 1000 }
+					}
+					change_variable = { which = unadded_change_artisans which = artisan_pops_change }
+					
+					while = {
+						limit = {
+							check_variable = {
+								which = elite_pops_change
+								value = 1000
+							}
+						}
+						add_base_tax = 1
+						subtract_variable = { which = elite_pops_change value = 1000 }
+					}
+					change_variable = { which = unadded_change_elites which = elite_pops_change }
+					
+					while = { 
+						limit = {
+							check_variable = {
+								which = unadded_change_commoners
+								value = 1000
+							}
+						}
+						add_base_manpower = 1
+						subtract_variable = { which = unadded_change_commoners value = 1000 }
+					}
+					
+					while = { 
+						limit = {
+							check_variable = {
+								which = unadded_change_artisans
+								value = 1000
+							}
+						}
+						add_base_production = 1
+						subtract_variable = { which = unadded_change_artisans value = 1000 }
+					}
+					
+					while = { 
+						limit = {
+							check_variable = {
+								which = unadded_change_elites
+								value = 1000
+							}
+						}
+						add_base_tax = 1
+						subtract_variable = { which = unadded_change_elites value = 1000 }
 					}
 				}
-			}
-		}		
+				
+				#Subtract population in this province
+				if = {
+					limit = {
+						NOT = { check_variable = { which = prov_growth_rate value = 0.0 } }
+					}
+					while = {
+						limit = {
+							NOT = { 
+								check_variable = {
+									which = commoner_pops_change
+									value = -1000
+								}
+							}
+						}
+						add_base_manpower = -1
+						subtract_variable = { which = commoner_pops_change value = -1000 }
+					}
+					change_variable = { which = unadded_change_commoners which = commoner_pops_change }
+					
+					while = {
+						limit = {
+							NOT = { 
+								check_variable = {
+									which = artisan_pops_change
+									value = -1000
+								}
+							}
+						}
+						add_base_production = -1
+						subtract_variable = { which = artisan_pops_change value = -1000 }
+					}
+					change_variable = { which = unadded_change_artisans which = artisan_pops_change }
+					
+					while = {
+						limit = {
+							NOT = { 
+								check_variable = {
+									which = elite_pops_change
+									value = -1000
+								}
+							}
+						}
+						add_base_tax = -1
+						subtract_variable = { which = elite_pops_change value = -1000 }
+					}
+					change_variable = { which = unadded_change_elites which = elite_pops_change }
+					
+					while = { 
+						limit = {
+							NOT = { 
+								check_variable = {
+									which = unadded_change_commoners
+									value = -1000
+								}
+							}
+						}
+						add_base_manpower = -1
+						subtract_variable = { which = unadded_change_commoners value = -1000 }
+					}
+					
+					while = { 
+						limit = {
+							NOT = { 
+								check_variable = {
+									which = unadded_change_artisans
+									value = -1000
+								}
+							}
+						}
+						add_base_production = -1
+						subtract_variable = { which = unadded_change_artisans value = -1000 }
+					}
+					
+					while = { 
+						limit = {
+							NOT = {
+								check_variable = {
+									which = unadded_change_elites
+									value = -1000
+								}
+							}
+						}
+						add_base_tax = -1
+						subtract_variable = { which = unadded_change_elites value = -1000 }
+					}
+				}
+			}		
+		}
 	}	
 }
+

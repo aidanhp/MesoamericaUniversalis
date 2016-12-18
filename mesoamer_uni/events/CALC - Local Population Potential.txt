@@ -14,79 +14,81 @@ country_event = {
 	option = {
 		name = "ppcalc1.a"
 		
-		every_province = {
-			subtract_variable = { which = provpp which = provpp }
+		every_country = {
+			every_owned_province = {
+				subtract_variable = { which = provpp which = provpp }
 			
-			#From Terrain
-			if = {
-				limit = {
-					has_terrain = grasslands
-				}
-				change_variable = { which = provpp value = 40 }
-			}
-			if = {
-				limit = {
-					has_terrain = hills
-				}
-				change_variable = { which = provpp value = 30 }
-			}
-			if = {
-				limit = {
-					has_terrain = mountain
-				}
-				change_variable = { which = provpp value = 25 }
-			}
-			if = {
-				limit = {
-					has_terrain = desert
-				}
-				change_variable = { which = provpp value = 15 }
-			}
-			
-			#Capital of a Kingdom
-			if = {
-				limit = {
-					is_capital = yes
-					owner = {
-						government_rank = 2
-						NOT = { government_rank = 3 }
+				#From Terrain
+				if = {
+					limit = {
+						has_terrain = grasslands
 					}
+					change_variable = { which = provpp value = 30 }
 				}
-				change_variable = { which = provpp value = 60 }
-			}
-			
-			#Capital of an Empire
-			if = {
-				limit = {
-					is_capital = yes
-					owner = {
-						government_rank = 3
+				if = {
+					limit = {
+						has_terrain = hills
 					}
+					change_variable = { which = provpp value = 20 }
 				}
-				change_variable = { which = provpp value = 150 }
-			}
-			
-			#Is a Major Trade Center
-			if = {
-				limit = {
-					has_province_modifier = major_trade_center
+				if = {
+					limit = {
+						has_terrain = mountain
+					}
+					change_variable = { which = provpp value = 15 }
 				}
-				change_variable = { which = provpp value = 10 }
-			}
-			
-			#Buildings
-			if = {
-				limit = {
-					has_building = farm1
+				if = {
+					limit = {
+						has_terrain = desert
+					}
+					change_variable = { which = provpp value = 10 }
 				}
-				change_variable = { which = provpp value = 10 }
-			}
 			
-			if = {
-				limit = {
+				#Capital of a Kingdom
+				if = {
+					limit = {
+						is_capital = yes
+						owner = {
+							government_rank = 2
+							NOT = { government_rank = 3 }
+						}
+					}
+					change_variable = { which = provpp value = 60 }
+				}
+			
+				#Capital of an Empire
+				if = {
+					limit = {
+						is_capital = yes
+						owner = {
+							government_rank = 3
+						}
+					}
+					change_variable = { which = provpp value = 150 }
+				}
+			
+				#Is a Major Trade Center
+				if = {
+					limit = {
+						has_province_modifier = major_trade_center
+					}
+					change_variable = { which = provpp value = 10 }
+				}
+			
+				#Buildings
+				if = {
+					limit = {
+						has_building = farm1
+					}
+					change_variable = { which = provpp value = 10 }
+				}
+			
+				if = {
+					limit = {
 					has_building = farm2
+					}
+					change_variable = { which = provpp value = 15 }
 				}
-				change_variable = { which = provpp value = 20 }
 			}
 		}
 	}

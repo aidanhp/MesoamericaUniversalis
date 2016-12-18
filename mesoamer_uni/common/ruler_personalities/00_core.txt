@@ -4,6 +4,54 @@
 #3rd personality will be assigned after ruling for 25 years.
 #Most personalities are always available (unless contradictory to existing personality), a few are restricted to good rulers.
 
+### ALL RULER PERSONAILITIES ###
+# just_personality
+# righteous_personality
+# tolerant_personality
+# kind_hearted_personality
+# free_thinker_personality
+# well_connected_personality
+# calm_personality
+# careful_personality
+# secretive_personality
+# intricate_web_weaver_personality
+# fertile_personality
+# well_advised_personality
+# benevolent_personality
+# zealot_personality 
+# pious_personality
+# lawgiver_personality
+# midas_touched_personality
+# incorruptible_personality
+# architectural_visionary_personality
+# scholar_personality
+# entrepreneur_personality
+# industrious_personality
+# expansionist_personality
+# charismatic_negotiator_personality
+# silver_tongue_personality
+# conqueror_personality
+# tactical_genius_personality
+# bold_fighter_personality
+# strict_personality
+# inspiring_leader_personality
+# martial_educator_personality
+# navigator_personality
+# fierce_negotiator_personality
+# babbling_buffoon_personality
+# embezzler_personality
+# infertile_personality
+# drunkard_personality
+# sinner_personality
+# greedy_personality
+# cruel_personality
+# naive_personality
+# craven_personality
+# loose_lips_personality
+# obsessive_perfectionist_personality
+# malevolent_personality
+# immortal_personality
+
 ###############################################
 # Good
 ###############################################
@@ -113,7 +161,7 @@ righteous_personality = {
 	easy_war_chance_multiplier = 0.75
 	
 	legitimacy = 1
-	republican_tradition = 0.005
+	republican_tradition = 0.5
 	nation_designer_cost = 5
 } #1 better, 1 less bad
 
@@ -174,18 +222,21 @@ kind_hearted_personality = {
 	ruler_allow = {
 		allow = {
 			NOT = { ruler_has_personality = cruel_personality }
+			NOT = { ruler_has_personality = malevolent_personality }
 		}
 	}
 
 	heir_allow = {
 		allow = {
 			NOT = { heir_has_personality = cruel_personality }
+			NOT = { ruler_has_personality = malevolent_personality }
 		}
 	}
 	
 	consort_allow = {
 		allow = {
 			NOT = { consort_has_personality = cruel_personality }
+			NOT = { ruler_has_personality = malevolent_personality }
 		}
 	}
 	allow = {
@@ -1404,7 +1455,7 @@ silver_tongue_personality = {
 	
 	other_ai_war_chance_multiplier = 0.5
 	
-	relations_decay_of_me = 0.2
+	improve_relation_modifier = 0.2
 	nation_designer_cost = 5
 } #2 easier events, 3 better events
 
@@ -2632,11 +2683,11 @@ naive_personality = {
 	chance = {
 	}
 	
-	ignore_ae = yes
+	underestimate_ae = yes
 	fair_fights = yes
 	gift_chance = 90
 	
-	relations_decay_of_me = -0.2
+	improve_relation_modifier = -0.2
 	nation_designer_cost = -5
 } #1 Less bad event
 
@@ -2916,6 +2967,7 @@ malevolent_personality = {
 	ruler_allow = {
 		allow = {
 			NOT = { ruler_has_personality = benevolent_personality }
+			NOT = { ruler_has_personality = kind_hearted_personality }
 		}
 	
 		chance = {
@@ -2941,6 +2993,7 @@ malevolent_personality = {
 	heir_allow = {
 		allow = {
 			NOT = { heir_has_personality = benevolent_personality }
+			NOT = { heir_has_personality = kind_hearted_personality }
 		}
 	
 		chance = {
@@ -2966,6 +3019,7 @@ malevolent_personality = {
 	consort_allow = {
 		allow = {
 			NOT = { consort_has_personality = benevolent_personality }
+			NOT = { consort_has_personality = kind_hearted_personality }
 		}
 
 		chance = {
@@ -3017,4 +3071,5 @@ immortal_personality = {
 
 	immortal = 1 # dummy modifier only used to get the right icon
 	nation_designer_cost = 800
+	static = yes # Makes nation_designer_cost not scale with age etc. 
 }
