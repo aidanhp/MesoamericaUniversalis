@@ -1,13 +1,12 @@
 add_core = TRT
-add_core = PAT
-owner = PAT
-controller = PAT
+owner = TRT
+controller = TRT
 culture = tarascan
 religion = tarascan
 hre = no
 base_tax = 1
 base_production = 2
-trade_goods = ceramics 
+trade_goods = grain
 base_manpower = 8
 capital = "Taretan"
 is_city = yes

@@ -63,7 +63,7 @@ country_event = {
 							}
 						}
 					}
-					change_variable = { which = prov_growth_rate value = 0.005 }
+					change_variable = { which = prov_growth_rate value = 0.0010 }
 				}
 				if = {
 					limit = {
@@ -74,7 +74,7 @@ country_event = {
 							}
 						}
 					}
-					change_variable = { which = prov_growth_rate value = 0.005 }
+					change_variable = { which = prov_growth_rate value = 0.0020 }
 				}
 				if = {
 					limit = {
@@ -85,7 +85,7 @@ country_event = {
 							}
 						}
 					}
-					change_variable = { which = prov_growth_rate value = 0.005 }
+					change_variable = { which = prov_growth_rate value = 0.0030 }
 				}
 				if = {
 					limit = {
@@ -96,7 +96,7 @@ country_event = {
 							}
 						}
 					}
-					change_variable = { which = prov_growth_rate value = 0.005 }
+					change_variable = { which = prov_growth_rate value = 0.0050 }
 				}
 			
 				if = {
@@ -108,7 +108,7 @@ country_event = {
 							}
 						}
 					}
-					change_variable = { which = prov_growth_rate value = 0.005 }
+					change_variable = { which = prov_growth_rate value = 0.0025 }
 				}
 			
 				if = {
@@ -120,7 +120,7 @@ country_event = {
 							}
 						}
 					}
-					change_variable = { which = prov_growth_rate value = 0.005 }
+					change_variable = { which = prov_growth_rate value = 0.0025 }
 				}
 			
 				if = {
@@ -132,7 +132,7 @@ country_event = {
 							}
 						}
 					}
-					change_variable = { which = prov_growth_rate value = 0.005 }
+					change_variable = { which = prov_growth_rate value = 0.0050 }
 				}
 				
 				if = {
@@ -148,21 +148,21 @@ country_event = {
 					limit = {
 						has_building = farm1
 					}
-					change_variable = { which = prov_growth_rate value = 0.005 }
+					change_variable = { which = prov_growth_rate value = 0.0050 }
 				}
 			
 				if = {
 					limit = {
 						has_building = farm2
 					}
-					change_variable = { which = prov_growth_rate value = 0.010 }
+					change_variable = { which = prov_growth_rate value = 0.0050 }
 				}
 				
 				if = {
 					limit = {
 						province_trade_power = 5
 					}
-					change_variable = { which = prov_growth_rate value = 0.005 }
+					change_variable = { which = prov_growth_rate value = 0.0025 }
 				}
 			
 				if = {
@@ -195,7 +195,7 @@ country_event = {
 					limit = {
 						check_variable = { which = prov_pop which = provpp }
 					}
-					change_variable = { which = prov_growth_rate value = -0.065 }
+					change_variable = { which = prov_growth_rate value = -0.050 }
 				}
 				
 				if = {

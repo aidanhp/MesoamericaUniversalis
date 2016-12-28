@@ -1,12 +1,12 @@
 add_core = UAY
 owner = UAY
 controller = UAY
-culture = yucatecmayan
+culture = putun_chontal
 religion = newmayan 
 hre = no
 base_tax = 1
 base_production = 2
-trade_goods = grain 
+trade_goods = choclate
 base_manpower = 6
 capital = "Chable"
 is_city = yes

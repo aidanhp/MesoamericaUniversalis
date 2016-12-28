@@ -40,15 +40,28 @@ monarch_names = {
 	"Hiqugage #1" = 10
 	"Hiripan #1" = 10
 	"Tangaxoan #1" = 10
-	"Tzitzicpandacuare #0" = 10
+	"Tzitzispandáquare #0" = 10
 	"Zangua #0" = 10
 	"Ticatame #0" = 10
 	"Cavujancha #0" = 10
 	"Tuinchumbra #0" = 10
+	"Uresqua #0" = 10
+	"Zinaquambi #0" = 10
+	"Quatamaripe #0" = 10
+	"Turepupanquaran #0" = 10
+	"Tiripitihonto #0" = 10
+	"Vacusquazita #0" = 10
+	
 
 	"Quenomen #0" = -1
 	"Mavina #0" = -1
 	"Xaratanga #0" = -1
+	"Picimbane #0" = -1
+	"Zucurabe #0" = -1
+	"Purupe #0" = -1
+	"Camavaperi #0" = -1
+	"Acivanime #0" = -1
+	"Pevame #0" = -1
 }
 
 leader_names = {

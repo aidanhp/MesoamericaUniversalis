@@ -1,7 +1,7 @@
 add_core = UAY
 owner = UAY
 controller = UAY
-culture = yucatecmayan
+culture = putun_chontal
 religion = newmayan 
 hre = no
 base_tax = 1

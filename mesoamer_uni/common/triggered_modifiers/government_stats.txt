@@ -839,7 +839,7 @@ pacifism_5 = {
 		}
 	}
 	
-	land_morale = -0.25
+	land_morale = -0.10
 	war_exhaustion = 0.10
 }
 
@@ -857,7 +857,7 @@ pacifism_4 = {
 		}
 	}
 	
-	land_morale = -0.20
+	land_morale = -0.08
 	war_exhaustion = 0.08
 }
 
@@ -875,7 +875,7 @@ pacifism_3 = {
 		}
 	}
 	
-	land_morale = -0.15
+	land_morale = -0.06
 	war_exhaustion = 0.06
 }
 
@@ -893,7 +893,7 @@ pacifism_2 = {
 		}
 	}
 	
-	land_morale = -0.10
+	land_morale = -0.04
 	war_exhaustion = 0.04
 }
 
@@ -911,7 +911,7 @@ pacifism_1 = {
 		}
 	}
 	
-	land_morale = -0.05
+	land_morale = -0.02
 	war_exhaustion = 0.02
 }
 
@@ -929,7 +929,7 @@ militancy_1 = {
 		}
 	}
 	
-	land_morale = 0.05
+	land_morale = 0.02
 	war_exhaustion = -0.02
 }
 
@@ -947,7 +947,7 @@ militancy_2 = {
 		}
 	}
 	
-	land_morale = 0.10
+	land_morale = 0.04
 	war_exhaustion = -0.04
 }
 
@@ -965,7 +965,7 @@ militancy_3 = {
 		}
 	}
 	
-	land_morale = 0.15
+	land_morale = 0.06
 	war_exhaustion = -0.06
 }
 
@@ -983,7 +983,7 @@ militancy_4 = {
 		}
 	}
 	
-	land_morale = 0.20
+	land_morale = 0.08
 	war_exhaustion = -0.08
 }
 
@@ -1001,7 +1001,7 @@ militancy_5 = {
 		}
 	}
 	
-	land_morale = 0.25
+	land_morale = 0.10
 	war_exhaustion = -0.10
 }
 

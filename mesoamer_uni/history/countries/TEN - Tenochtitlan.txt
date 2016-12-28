@@ -29,7 +29,7 @@ historical_friend = TCP
 		}
 	}
 	clear_scripted_personalities = yes
-	add_ruler_personality = well_advised_personality 
+	add_ruler_personality = conqueror_personality    
 	add_ruler_personality = architectural_visionary_personality  
 	add_ruler_personality = bold_fighter_personality  
 

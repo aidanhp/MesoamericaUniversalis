@@ -22,7 +22,7 @@ altepetl = {
 	unique_government = yes
 	valid_for_new_country = no
 	
-	max_states = 2
+	max_states = 1
 	min_autonomy = 95
 
 	rank = {
@@ -47,6 +47,40 @@ altepetl = {
 			core_creation = -0.75 
 			global_unrest = -8
 			trade_efficiency = 0.40
+		}
+	}
+}
+
+centralized_altepetl = {
+	monarchy = yes
+
+	color = { 210 30 30 }
+	
+	allow_convert = no
+	unique_government = yes
+	valid_for_new_country = no
+	
+	max_states = 2
+	min_autonomy = 50
+
+	rank = {
+		1 = {
+			stability_cost_modifier = -1.0
+			global_autonomy = -0.10
+			adm_tech_cost_modifier = -0.10
+			core_creation = 0.20
+		}
+		2 = {
+			stability_cost_modifier = -0.66
+			global_autonomy = -0.15
+			adm_tech_cost_modifier = -0.15
+			core_creation = 0.20
+		}
+		3 = {
+			stability_cost_modifier = -0.33
+			global_autonomy = -0.20
+			adm_tech_cost_modifier = -0.20
+			core_creation = 0.20
 		}
 	}
 }
@@ -78,9 +112,9 @@ tribal_confederation = {
 	fixed_rank = 1
 }
 
-################
-#Yucatan Mexico#
-################
+####################
+#Unique Governments#
+####################
 mayapan_1 = {
 	monarchy = yes
 
@@ -135,45 +169,6 @@ kuchkabal = {
 	fixed_rank = 2
 }
 
-#############################
-#UNLOCKED BY DIRECT CONQUEST#
-#############################
-
-centralized_altepetl = {
-	monarchy = yes
-
-	color = { 210 30 30 }
-	
-	allow_convert = no
-	unique_government = yes
-	valid_for_new_country = no
-	
-	max_states = 2
-	min_autonomy = 50
-
-	rank = {
-		1 = {
-			stability_cost_modifier = -1.0
-			global_autonomy = -0.10
-			adm_tech_cost = -0.10
-		}
-		2 = {
-			stability_cost_modifier = -0.66
-			global_autonomy = -0.15
-			adm_tech_cost = -0.15
-		}
-		3 = {
-			stability_cost_modifier = -0.33
-			global_autonomy = -0.20
-			adm_tech_cost = -0.20
-		}
-	}
-}
-
-####################
-#Unique Governments#
-####################
-#Unique for Tlaxcaltecs
 tlaxcallan_confederate = {
 	monarchy = yes
 
@@ -194,82 +189,65 @@ tlaxcallan_confederate = {
 			diplomatic_upkeep = -1
 			legitimacy = 5 
 			land_forcelimit_modifier = -0.60
-		}
-	}
-	fixed_rank = 2
-}
-#Unique for Tzintzuntzan
-feudal_chiefdom = {
-	monarchy = yes
-	color = { 210 30 30 }
-	
-	allow_convert = no
-	unique_government = yes
-	valid_for_new_country = no
-	
-	min_autonomy = 60
-	max_states = 1
-	
-	rank = {
-		2 = {
-			core_creation = 0.25
-			land_forcelimit_modifier = -0.25
-			stability_cost_modifier = 0.50
-			global_autonomy = 0.10
-			adm_tech_cost = 0.33
+			
 		}
 	}
 	fixed_rank = 2
 }
 
-ttt_subordinate_lordship = {
+triarchal_confederation_sub = {
 	monarchy = yes
+
 	color = { 210 30 30 }
 	
 	allow_convert = no
 	unique_government = yes
 	valid_for_new_country = no
 	
-	min_autonomy = 60
-	max_states = 1
+	max_states = 2
+	min_autonomy = 50
+	
+	allow_vassal_war = yes
+	allow_vassal_alliance = yes
+
+
 	rank = {
 		1 = {
-			core_creation = 0.25
-			land_forcelimit_modifier = -0.10
-			stability_cost_modifier = 0.25
-			global_autonomy = -0.10
-			adm_tech_cost = 0.20
+			stability_cost_modifier = 0.20
+			global_autonomy = 0.05
+			legitimacy = 4
 		}
 	}
 	fixed_rank = 1
 }
 
-centralized_tributary_state = {
+triarchal_confederation_dom = {
 	monarchy = yes
+
 	color = { 210 30 30 }
 	
 	allow_convert = no
 	unique_government = yes
 	valid_for_new_country = no
 	
+	max_states = 2
 	min_autonomy = 50
-	max_states = 1
+	
+	allow_vassal_war = yes
+	allow_vassal_alliance = yes
+
+
 	rank = {
 		2 = {
-			adm_tech_cost_modifier = -0.20
-			core_creation = 0.50
-			years_of_nationalism = 15
-		}
-		3 = {
-			adm_tech_cost_modifier = -0.20
-			core_creation = 0.50
-			years_of_nationalism = 10	
+			stability_cost_modifier = 0.20
+			global_autonomy = 0.05
+			legitimacy = 4
+			prestige = 1
 		}
 	}
-	#fixed_rank = 2
+	fixed_rank = 2
 }
 
-#"Special"
 magic_island = {
 	monarchy = yes
 	

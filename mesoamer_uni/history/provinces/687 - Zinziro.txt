@@ -1,7 +1,6 @@
 add_core = GGV
-add_core = IUA
-owner = IUA
-controller = IUA
+owner = GGV
+controller = GGV
 culture = tarascan
 religion = tarascan 
 hre = no

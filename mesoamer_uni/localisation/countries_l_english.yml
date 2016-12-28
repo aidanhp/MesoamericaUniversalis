@@ -161,7 +161,7 @@
  ACA_ADJ: "Acambaran"
  IUA:0 "Tzintzuntzan"
  IUA_ADJ:0 "Tzintzuntzani"
- IHU:0 "Ihuatzlo"
+ IHU:0 "Ihuatzio"
  IHU_ADJ:0 "Ihuatzlan"
  PAT:0 "Patzcuaro"
  PAT_ADJ:0 "Patzcuaran"
@@ -1097,6 +1097,12 @@
  JJK_ADJ:0 "Pontonchani"
  JJL: "Copilco"
  JJL_ADJ:0 "Copilcan"
+ 
+ #Late Pre-Beta Additions
+ JJM:0 "Zinapecuaro"
+ JJM_ADJ:0 "Zinapecuaran"
+ JJN:0 "Zacapu"
+ JJN_ADJ:0 "Zacapu"
  
  
  #Formables

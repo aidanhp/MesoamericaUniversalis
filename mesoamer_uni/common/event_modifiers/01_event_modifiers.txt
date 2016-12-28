@@ -477,12 +477,6 @@ importantcity = {
 	fort_level = 1
 }
 
-major_trade_center = {
-	province_trade_power_value = 15
-	local_tax_modifier = 0.05
-	picture = "province_trade_power_value"
-}
-
 #Idea Decisions
 raised_army = {
 	land_forcelimit_modifier = 0.15

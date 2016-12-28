@@ -21,7 +21,10 @@ gov_altepetl = {
 	}
 	
 	trigger = {
-		government = altepetl
+		OR = { 
+			government = altepetl
+			government = centralized_altepetl
+		}
 		OR = {
 			culture_group = chichimec
 			culture_group = nahua
@@ -49,7 +52,10 @@ gov_altepetl_mixtecamuzgo = {
 	}
 	
 	trigger = {
-		government = altepetl
+		OR = { 
+			government = altepetl
+			government = centralized_altepetl
+		}
 		OR = {
 			primary_culture = newmixtec
 			primary_culture = amuzgo
@@ -77,7 +83,10 @@ gov_altepetl_zapotec = {
 	}
 	
 	trigger = {
-		government = altepetl
+		OR = { 
+			government = altepetl
+			government = centralized_altepetl
+		}
 		primary_culture = newzapotec
 	}
 }
@@ -96,13 +105,16 @@ gov_altepetl_wm = {
 	}
 	
 	ruler_female = {
-		1 = IRECHA
-		2 = CAZONCI
-		3 = CAZONCI
+		1 = URURI_IRECHA
+		2 = URURI_CAZONCI
+		3 = URURI_CAZONCI
 	}
 	
 	trigger = {
-		government = altepetl
+		OR = { 
+			government = altepetl
+			government = centralized_altepetl
+		}
 		OR = { 
 			primary_culture = xilotlantxinco
 			primary_culture = cuitlateco
@@ -116,27 +128,66 @@ gov_altepetl_wm = {
 	}
 }
 
-gov_centralized_altepetl = {
+gov_altepetl_north_maya = {
 	rank = {
-		1 = ALTEPETL
-		2 = KINGDOM
-		3 = EMPIRE
+		1 = BATALIB
+		2 = KUCHKABAL
+		3 = NOHOCH_KUCHKABAL
+	}
+
+	ruler_male = {
+		1 = BATAB
+		2 = HALACH_UINIK
+		3 = MAYA_AJAW
+	}
+
+	ruler_female = {
+		1 = BATAB
+		2 = HALACH_UINIK
+		3 = MAYA_AJAW
+	}
+
+	trigger = {
+		OR = { 
+			government = altepetl
+			government = centralized_altepetl
+		}
+		OR = {
+			primary_culture = mixezoquemayan
+			primary_culture = centralmayan
+			primary_culture = yucatecmayan
+			primary_culture = putun_chontal
+		}
+	}
+}
+
+gov_altepetl_highland_maya = {
+	rank = {
+		1 = TINIMIT
+		2 = AJAWIBAL
+		3 = NIM_QIJ_AJAWIBAL
 	}
 	
 	ruler_male = {
-		1 = TLATOANI
-		2 = HUEYTLATOANI
-		3 = HUEYHUEYTLATOANI
+		1 = AJAWAB
+		2 = AJPOP
+		3 = NIM_QIJ_AJPOP
 	}
 	
 	ruler_female = {
-		1 = CIHUATTLATOANI
-		2 = HUEYCIHUATTLATOANI
-		3 = HUEYHUEYCIHUATTLATOANI
+		1 = XOK_OJAW
+		2 = AJPOP
+		3 = NIM_QIJ_AJPOP
 	}
 	
 	trigger = {
-		government = centralized_altepetl
+		OR = { 
+			government = altepetl
+			government = centralized_altepetl
+		}
+		OR = {
+			primary_culture = highlandsmayan
+		}
 	}
 }
 
@@ -158,8 +209,6 @@ gov_tribal_confederation = {
 	}
 }
 
-
-
 gov_mayapan = {
 	rank = {
 		3 = LEAGUE_OF_MAYAPAN
@@ -175,24 +224,6 @@ gov_mayapan = {
 
 	trigger = {
 		government = mayapan_1
-	}
-}
-
-gov_kuchkabal = {
-	rank = {
-		2 = KUCHKABAL
-	}
-
-	ruler_male = {
-		2 = HALACH_UINIK
-	}
-
-	ruler_female = {
-		2 = HALACH_UINIK
-	}
-
-	trigger = {
-		government = kuchkabal
 	}
 }
 
@@ -214,51 +245,39 @@ gov_tlaxcallan_confederate = {
 	}
 }
 
-#New Uniques
-gov_feudal_chiefdom = {
-	rank = { 
-		2 = FEUDAL_CHIEFDOM
+#Tarascan
+gov_triarchal_confederation_dom = {
+	rank = {
+		2 = TRIARCHY_DOM
 	}
+	
 	ruler_male = {
 		2 = CAZONCI
 	}
+	
 	ruler_female = {
-		2 = CAZONCI
+		2 = URURI_CAZONCI
 	}
+	
 	trigger = {
-		government = feudal_chiefdom
+		government = triarchal_confederation_dom
 	}
 }
 
-gov_ttt_subordinate_lordship = {
-	rank = { 
-		1 = TTT_SUB_LORD
+gov_triarchal_confederation_sub = {
+	rank = {
+		1 = TRIARCHY_SUB
 	}
+	
 	ruler_male = {
 		1 = IRECHA
 	}
+	
 	ruler_female = {
-		1 = IRECHA
+		1 = URURI_IRECHA
 	}
+	
 	trigger = {
-		government = ttt_subordinate_lordship
-	}
-}
-
-gov_centralized_tributary_state = {
-	rank ={
-		2 = CENTRALIZED_TRIBUTARY_KINGDOM
-		3 = CENTRALIZED_TRIBUTARY_EMPIRE
-	}
-	ruler_male = {
-		2 = CAZONCI
-		3 = CAZONCI
-	}
-	ruler_female = {
-		2 = CAZONCI
-		3 = CAZONCI
-	}
-	trigger ={
-		government = centralized_tributary_state
+		government = triarchal_confederation_sub
 	}
 }

@@ -28,16 +28,11 @@ country_event = {
 		custom_tooltip = FLA_TEN_001
 		add_estate_loyalty = {
 			estate = estate_unobles
-			loyalty = 25
+			loyalty = 40
 		}
-		custom_tooltip = EST_fav_i_60
 		add_country_modifier = {
 			name = TEN_redistributive_policy
 			duration = -1
-		}
-		
-		hidden_effect = {
-			change_variable = { which = un_favors value = 60 }
 		}
 		
 		ai_chance = {
@@ -51,16 +46,14 @@ country_event = {
 		custom_tooltip = GOVS_cen_i_0015
 		add_estate_loyalty = {
 			estate = estate_unobles
-			loyalty = -15
+			loyalty = -25
 		}
-		custom_tooltip = EST_fav_d_020
 		add_country_modifier = {
 			name = TEN_dependency_policy
 			duration = -1
 		}
 		
 		hidden_effect = {
-			change_variable = { which = un_favors value = -20 }
 			change_variable = { which = centralization value = 15 }
 		}
 		
@@ -85,7 +78,7 @@ country_event = {
 		name = "TEN_MAJORS2.a"
 		custom_tooltip = TAI_i_015
 		add_manpower = -6
-		add_treasury = -200
+		add_treasury = -50
 		TET = {
 			country_event = { id = TET_FLAVOR.02 days = 1 }
 		}
@@ -248,7 +241,7 @@ country_event = {
 		name = "TEN_MAJORS7.a"
 		declare_war_with_cb = {
 			who = TEN
-			casus_belli = cb_expand_hegemony 
+			casus_belli = cb_feud_triggered 
 		}
 		TEN = { 
 			country_event = { id = TEN_MAJORS.08 days = 1 }
@@ -353,6 +346,7 @@ country_event = {
 	
 	option = {
 		name = "TEN_MAJORS10.a"
+		vassalize = XOC
 		remove_country_modifier = TEN_harassing_xochimilco
 	}
 }
@@ -462,7 +456,7 @@ country_event = {
 		name = "TEN_MAJORS13.c"
 		declare_war_with_cb = {
 			who = TET
-			casus_belli = cb_expand_hegemony 
+			casus_belli = cb_feud_triggered 
 		}
 	}
 }
@@ -494,7 +488,7 @@ country_event = {
 		
 		declare_war_with_cb = {
 			who = TET
-			casus_belli = cb_expand_hegemony 
+			casus_belli = cb_feud_triggered 
 		}
 	}
 }
@@ -553,7 +547,7 @@ country_event = {
 		
 		declare_war_with_cb = {
 			who = TET
-			casus_belli = cb_expand_hegemony 
+			casus_belli = cb_feud_triggered 
 		}
 	}
 }
@@ -576,10 +570,10 @@ country_event = {
 		}
 		add_prestige = 25 
 		add_legitimacy = 25
-		custom_tooltip = TAI_i_030
+		custom_tooltip = TAI_i_010
 		
 		hidden_effect = {
-			change_variable = { which = triple_alliance_influence value = 30 }
+			change_variable = { which = triple_alliance_influence value = 10 }
 		}
 	}
 	
@@ -609,10 +603,10 @@ country_event = {
 		}
 		add_prestige = 25 
 		add_legitimacy = 25
-		custom_tooltip = TAI_i_030
+		custom_tooltip = TAI_i_010
 		
 		hidden_effect = {
-			change_variable = { which = triple_alliance_influence value = 30 }
+			change_variable = { which = triple_alliance_influence value = 10 }
 		}
 	}
 	

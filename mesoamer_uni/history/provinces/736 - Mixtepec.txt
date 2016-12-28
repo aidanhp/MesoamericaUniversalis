@@ -1,7 +1,7 @@
 add_core = JJC
 owner = JJC
 controller = JJC
-culture = newmixtec
+culture = chatino
 religion = mixtec
 hre = no
 base_tax = 2

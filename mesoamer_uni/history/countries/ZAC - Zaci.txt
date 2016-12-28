@@ -1,4 +1,4 @@
-government = kuchkabal
+government = centralized_altepetl
 government_rank = 1
 mercantilism = 0.25
 technology_group = central_mexican 
@@ -9,7 +9,7 @@ fixed_capital = 140
 
 1427.1.1 = {
 	monarch = {
-		name = "Oxib"
+		name = "Ah Atira"
 		dynasty = "Zaci"
 		adm = 4
 		dip = 4

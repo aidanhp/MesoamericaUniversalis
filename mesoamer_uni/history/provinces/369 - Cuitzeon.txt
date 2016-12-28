@@ -1,13 +1,12 @@
 add_core = CEO
-add_core = IUA
-owner = IUA
-controller = IUA
+owner = CEO
+controller = CEO
 culture = tarascan
 religion = tarascan
 hre = no
 base_tax = 2
 base_production = 4
-trade_goods = grain
+trade_goods = aquaticfoods 
 base_manpower = 14
 capital = "Cuitzeo"
 is_city = yes

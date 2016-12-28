@@ -1,4 +1,4 @@
-government = kuchkabal
+government = centralized_altepetl
 government_rank = 2
 mercantilism = 0.25
 technology_group = southern_mayan
@@ -9,7 +9,7 @@ fixed_capital = 197
 
 1427.1.1 = {
 	monarch = {
-		name = "No Ruler"
+		name = "Cakamul"
 		dynasty = "Balamija"
 		adm = 4
 		dip = 4

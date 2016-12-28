@@ -1,15 +1,16 @@
-government = kuchkabal 
+government = centralized_altepetl
 government_rank = 2
 mercantilism = 0.25
 technology_group = northern_mayan
 religion = newmayan 
-primary_culture = aztec
+primary_culture = putun_chontal
 capital = 162
 fixed_capital = 162
 
 1427.1.1 = {
 	monarch = {
-		name = "No Ruler"
+		name = "Ah Zun"
+		dynasty = "Uaymil"
 		adm = 4
 		dip = 4
 		mil = 4

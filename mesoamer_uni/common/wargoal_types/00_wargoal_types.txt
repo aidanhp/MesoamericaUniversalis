@@ -816,15 +816,18 @@ take_province_excommunication = {
 superiority_trade = {
 	type = superiority
 	
-	badboy_factor = 1
-	prestige_factor = 2
-	peace_cost_factor = 0.75	
+	attacker = {
+		badboy_factor = 1.25
+		prestige_factor = 1.5
+		peace_cost_factor = 0.80
 	
-	po_revoke_cores = yes
-	po_gold = yes
-	po_concede_defeat = yes
-	po_trade_power = yes
-	
+		po_revoke_cores = yes
+		po_gold = yes
+		po_concede_defeat = yes
+		po_trade_power = yes
+		po_demand_provinces = yes
+		po_become_vassal = yes
+	}
 	
 	war_name = TRADE_WAR_NAME	
 }

@@ -1,7 +1,7 @@
 add_core = IXT
 owner = IXT
 controller = IXT
-culture = centralmayan
+culture = putun_chontal
 religion = newmayan 
 hre = no
 base_tax = 3

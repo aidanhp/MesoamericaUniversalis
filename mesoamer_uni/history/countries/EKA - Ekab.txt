@@ -1,4 +1,4 @@
-government = kuchkabal 
+government = centralized_altepetl
 government_rank = 2
 mercantilism = 0.25
 technology_group = northern_mayan
@@ -9,7 +9,7 @@ fixed_capital = 131
 
 1427.1.1 = {
 	monarch = {
-		name = "Ahpop-Achi"
+		name = "Ah Op"
 		dynasty = "Ekab"
 		adm = 4
 		dip = 4

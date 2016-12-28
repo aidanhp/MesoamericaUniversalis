@@ -1,13 +1,12 @@
 add_core = MAO
-add_core = TMB
-owner = TMB
-controller = TMB
+owner = MAO
+controller = MAO
 culture = tarascan
 religion = tarascan
 hre = no
 base_tax = 1
 base_production = 2
-trade_goods = grain
+trade_goods = aquaticfoods 
 base_manpower = 8
 capital = "Mayao"
 is_city = yes

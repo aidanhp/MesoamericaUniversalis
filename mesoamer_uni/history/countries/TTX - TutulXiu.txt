@@ -9,7 +9,7 @@ fixed_capital = 150
 
 1427.1.1 = {
 	monarch = {
-		name = "Yumcaaz"
+		name = "Ah Xupan"
 		dynasty = "Xiu"
 		adm = 4
 		dip = 4

@@ -1,0 +1,10 @@
+#Generic Effects
+bs2 = {
+
+}
+
+upgraded_government = {
+	land_morale = 0.05
+	diplomatic_reputation = 1
+}
+

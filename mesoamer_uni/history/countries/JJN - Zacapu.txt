@@ -1,0 +1,19 @@
+government = altepetl
+government_rank = 1
+mercantilism = 0.25
+technology_group = tarascan
+religion = tarascan 
+primary_culture = tarascan
+capital = 951
+fixed_capital = 951
+
+1427.1.1 = {
+	monarch = {
+		name = "Ticatame"
+		dynasty = "Zacapu"
+		adm = 4
+		dip = 4
+		mil = 4
+	} 
+}
+

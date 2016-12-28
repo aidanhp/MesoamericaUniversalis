@@ -1,4 +1,4 @@
-government = feudal_chiefdom
+government = triarchal_confederation_dom
 government_rank = 2
 mercantilism = 0.25
 technology_group = tarascan
@@ -10,11 +10,11 @@ historical_rival = TEN
 historical_friend = PAT
 historical_friend = IHU
 
-1400.1.1 = {
+1415.1.1 = {
 	monarch = {
 		name = "Tangaxoan I"
-		dynasty = "Uacusecha"
-		birth_date = 1390.1.1
+		dynasty = "Uanacaze"
+		birth_date = 1380.1.1
 		adm = 4
 		dip = 4
 		mil = 5
@@ -32,12 +32,12 @@ historical_friend = IHU
 	add_ruler_personality = lawgiver_personality    
 }
 
-1410.1.1 = {
+1420.1.1 = {
 	heir = {
-		name = "Tzitzic Pandacuare"
-		monarch_name = "Tzitzic Pandacuare"
+		name = "Tzitzispandáquare"
+		monarch_name = "Tzitzispandáquare"
 		dynasty = "Uacusecha" 
-		birth_date = 1410.1.1
+		birth_date = 1408.1.1
 		death_date = 1479.1.1
 		claim = 100
 		adm = 5

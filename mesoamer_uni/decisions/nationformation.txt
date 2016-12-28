@@ -44,6 +44,10 @@ country_decisions = {
 		effect = {
 			change_tag = TLT
 			set_government_rank = 3
+			add_country_modifier = { 
+				name = upgraded_government
+				duration = 1825 
+			}
 		}
 	}
 	#Restore the League of Mayapan
@@ -85,6 +89,10 @@ country_decisions = {
 		effect = {
 			change_tag = LEA
 			set_government_rank = 3
+			add_country_modifier = { 
+				name = upgraded_government
+				duration = 1825 
+			}
 		}
 	}
 
@@ -100,15 +108,16 @@ country_decisions = {
 			owns_or_vassal_of = 3 #Tlacopan
 			owns_or_vassal_of = 26	#Tetzcoco
 			
-			OR = {
-				num_of_cities = 20		
-				num_of_protectorates = 20
-			}
+			num_of_cities = 40
 		}
 
 		effect = {
 			change_tag = TPE
 			set_government_rank = 3
+			add_country_modifier = { 
+				name = upgraded_government
+				duration = 1825 
+			}
 		}
 	}
 
@@ -118,7 +127,6 @@ country_decisions = {
 		potential = {
 			primary_culture = tepanec
 			NOT = { tag = AZC }
-			NOT = { tag = TCP }
 		}
 
 		allow = {
@@ -126,15 +134,16 @@ country_decisions = {
 			owns_or_vassal_of = 3 #Tlacopan
 			owns_or_vassal_of = 26	#Tetzcoco
 			
-			OR = {
-				num_of_cities = 20		
-				num_of_protectorates = 20
-			}
+			num_of_cities = 40
 		}
 
 		effect = {
 			change_tag = TPE
 			set_government_rank = 3
+			add_country_modifier = { 
+				name = upgraded_government
+				duration = 1825 
+			}
 		}
 	}
 
@@ -147,21 +156,43 @@ country_decisions = {
 		}
 
 		allow = {
-			check_variable = { which = triple_alliance_influence value = 100 }
+			OR = { 
+				check_variable = { which = triple_alliance_influence value = 100 }
+				AND = {
+					26 = {
+						owned_by = TEN
+					}
+					3 = {
+						owned_by = TEN
+					}
+					
+				}
+			}
 			NOT = { exists = TNE }
 			NOT = { exists = TCE }
 			NOT = { exists = TOE }
-			OR = {
-				num_of_cities = 40		
-				num_of_protectorates = 40
-			}
+			num_of_cities = 40		
 		}
 
 		effect = {
 			change_tag = TOE
-			vassalize = TET
-			vassalize = TCP
+			if = {
+				limit = {
+					alliance_with = TET
+				}
+				vassalize = TET
+			}
+			if = {
+				limit = {
+					alliance_with = TCP
+				}
+				vassalize = TCP
+			}
 			set_government_rank = 3
+			add_country_modifier = { 
+				name = upgraded_government
+				duration = 1825 
+			}
 		}
 	}
 
@@ -174,21 +205,42 @@ country_decisions = {
 		}
 
 		allow = {
-			check_variable = { which = triple_alliance_influence value = 100 }
+			OR = { 
+				check_variable = { which = triple_alliance_influence value = 100 }
+				AND = {
+					1 = {
+						owned_by = TET
+					}
+					3 = {
+						owned_by = TET
+					}
+				}
+			}
 			NOT = { exists = TNE }
 			NOT = { exists = TCE }
 			NOT = { exists = TOE }
-			OR = {
-				num_of_cities = 40		
-				num_of_protectorates = 40
-			}
+			num_of_cities = 40		
 		}
 
 		effect = {
 			change_tag = TCE
-			vassalize = TEN
-			vassalize = TCP
+			if = {
+				limit = {
+					alliance_with = TEN
+				}
+				vassalize = TEN
+			}
+			if = {
+				limit = {
+					alliance_with = TCP
+				}
+				vassalize = TCP
+			}
 			set_government_rank = 3
+			add_country_modifier = { 
+				name = upgraded_government
+				duration = 1825 
+			}
 		}
 	}
 	
@@ -200,92 +252,46 @@ country_decisions = {
 		}
 
 		allow = {
-			check_variable = { which = triple_alliance_influence value = 100 }
+			OR = { 
+				check_variable = { which = triple_alliance_influence value = 100 }
+				AND = {
+					1 = {
+						owned_by = TCP
+					}
+					26 = {
+						owned_by = TCP
+					}
+				}
+			}
 			NOT = { exists = TNE }
 			NOT = { exists = TCE }
 			NOT = { exists = TOE }
-			OR = {
-				num_of_cities = 40		
-				num_of_protectorates = 40
-			}
+			num_of_cities = 40		
 			3 = {
-				development = 10000
+				development = 120
 			}
 			prestige = 100
 		}
 
 		effect = {
 			change_tag = TNE
-			vassalize = TET
-			vassalize = TEN
+			if = {
+				limit = {
+					alliance_with = TEN
+				}
+				vassalize = TEN
+			}
+			if = {
+				limit = {
+					alliance_with = TET
+				}
+				vassalize = TET
+			}
 			set_government_rank = 3
+			add_country_modifier = { 
+				name = upgraded_government
+				duration = 1825 
+			}
 		}
 	}
-
-	#Form the Grand Chichimec Confederacy
-	#grand_chichimec_confederacy = {
-	#	major = yes
-	#	potential = {
-	#		culture_group = chichimec
-	#		NOT = { tag = GCC }
-	#	}
-	#
-	#	allow = {
-	#		mex4_area = { type = all owned_by = ROOT }
-	#		mex5_area = { type = all owned_by = ROOT }
-	#		mex7_area = { type = all owned_by = ROOT }
-	#		mex8_area = { type = all owned_by = ROOT }
-	#	}
-	#
-	#	effect = {
-	#		change_tag = GCC
-	#		if = {
-	#			limit = {
-	#				OR = {
-	#					government = centralized_kingdom
-	#					government = centralized_altepetl
-	#				}
-	#			}
-	#			change_government = centralized_empire
-	#		}
-	#		if = {
-	#			limit = {
-	#				OR = {
-	#					government = hegemonic_kingdom
-	#					government = altepetl
-	#				}
-	#			
-	#			}
-	#			change_government = hegemonic_empire
-	#		}
-	#		if = {
-	#			limit = {
-	#				government = tribal_confederation
-	#			}
-	#			change_government = hegemonic_empire
-	#		}
-	#	}
-	#}
-
-	#Form Irechecua Tzintzuntzani
-	#purepecha_empire = {
-	#	major = yes
-	#	potential = {
-	#		tag = IUA
-	#		NOT = { tag = IRT }
-	#	}
-	#
-	#	allow = {
-	#		num_of_cities = 25
-	#		AND = {
-	#			owns = 84
-	#			owns = 85	
-	#			owns = 86
-	#		}
-	#	}
-	#
-	#	effect = {
-	#		change_tag = IRT
-	#	}
-	#}
 }

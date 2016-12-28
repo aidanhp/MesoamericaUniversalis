@@ -112,7 +112,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "TEN_MINORS2.b"
+		name = "TEN_MINORS3.b"
 		add_army_tradition = 20
 		custom_tooltip = GOVS_mil_i_0200
 		custom_tooltip = GOVS_sprt_i_0250
@@ -131,7 +131,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "TEN_MINORS2.c"
+		name = "TEN_MINORS3.c"
 		add_stability = -1
 		custom_tooltip = FLA_TEN_008
 		custom_tooltip = FLA_TEN_011
@@ -379,7 +379,7 @@ country_event = {
 		
 		declare_war_with_cb = {
 			who = TEN
-			casus_belli = cb_expand_hegemony
+			casus_belli = cb_feud_triggered
 		}
 		
 		ai_chance = {
@@ -506,7 +506,7 @@ country_event = {
 		
 		declare_war_with_cb = {
 			who = TLA
-			casus_belli = cb_expand_hegemony
+			casus_belli = cb_feud_triggered
 		}
 		
 		ai_chance = {

@@ -67,6 +67,8 @@ country_event = {
 	trigger = {
 		NOT = { has_heir = yes }
 		NOT = { has_country_modifier = deliberations_of_the_council }
+		NOT = { government = triarchal_confederation_dom }
+		NOT = { government = triarchal_confederation_sub }
 	}
 	
 	mean_time_to_happen = {

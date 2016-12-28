@@ -1,0 +1,34 @@
+#Trade/Production Modifiers
+
+#Generic
+major_trade_center = {
+	province_trade_power_value = 10
+	local_tax_modifier = 0.05
+	picture = "province_trade_power_value"
+}
+major_river_estuary = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
+#Special Places
+balsas_mines = { #Rich copper, silver, and gold mines along part of the Balsas river 
+	trade_goods_size = 5.0
+}
+
+patzcuaro_fish_stocks = { #Extremely plentiful fish stocks in lake patzcuaro
+	trade_goods_size = 2.5
+}
+
+xaracuaro_fish_market = {
+	trade_goods_size = 10.0
+	province_trade_power_value = 10
+}
+
+north_yucatan_salt_beds = { #Massive salt beds in Northern Yucatan
+	trade_goods_size = 2.5
+}
+
+salt_bed_of_caucel = { #Most productive salt bed in Mesoamerica - over 350k gallons of salt produced a year 
+	trade_goods_size = 7.5
+}

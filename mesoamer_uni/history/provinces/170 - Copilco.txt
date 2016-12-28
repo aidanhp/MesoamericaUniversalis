@@ -1,12 +1,12 @@
 add_core = JJL
 owner = JJL
 controller = JJL
-culture = mixezoquemayan
+culture = putun_chontal
 religion = newmayan 
 hre = no
 base_tax = 2
 base_production = 5
-trade_goods = aquaticfoods 
+trade_goods = grain
 base_manpower = 18
 capital = "Copilco"
 is_city = yes

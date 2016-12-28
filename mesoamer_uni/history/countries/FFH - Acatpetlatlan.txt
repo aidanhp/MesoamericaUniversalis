@@ -1,4 +1,4 @@
-government = kuchkabal
+government = centralized_altepetl
 government_rank = 1
 mercantilism = 0.25
 technology_group = southern_mayan
@@ -10,7 +10,7 @@ capital = 601
 
 1427.1.1 = {
 	monarch = {
-		name = "Cotuja"
+		name = "Rochoc'oy"
 		dynasty = "Acat"
 		adm = 4
 		dip = 4

@@ -33,6 +33,7 @@
  FLA_TEN_016: "Tlacaelel will give Moquihuix an apt punishment."
  FLA_TEN_017: "Tlatelolco will be forced into a personal union under Tenochtitlan."
  
+ 
  #--EVENT MODIFIDERS
  TEN_tlacaelel_tlacochcalcatl: "Tlacaelel the Tlacochcalcatl"
  TEN_tlacaelel_cihuacoatl: "Tlacaelel the Cihuacoatl"
@@ -52,6 +53,7 @@
  #--DISASTERS
  one_rabbit_famine: "Famine of 1 Rabbit"
  one_rabbit_famine_desc: "A great famine has struck the Valley of Mexico and our society is suffering like never before."
+ ONE_RABBIT_END: "Good harvests return to the Valley."
  
  #--MAJORS
  #----Consolidation of the Valley

@@ -270,7 +270,7 @@ country_event = {
 			}
 			multiply_variable = {
 				which = total_ducats_dev
-				value = 0.15
+				value = 0.05
 			}
 		}
 		if = {
@@ -279,7 +279,7 @@ country_event = {
 			}
 			multiply_variable = {
 				which = total_ducats_dev
-				value = 0.25
+				value = 0.10
 			}
 		}
 		if = {
@@ -288,7 +288,7 @@ country_event = {
 			}
 			multiply_variable = {
 				which = total_ducats_dev
-				value = 0.33
+				value = 0.20
 			}
 		}
 		
@@ -343,10 +343,10 @@ country_event = {
 						which = total_mp_dev
 						value = 0
 					}
-					NOT = { manpower_percentage = 2.5 }
+					NOT = { manpower_percentage = 1.5 }
 				}
 				add_manpower = 1
-				subtract_variable = { which = total_mp_dev value = 50 }
+				subtract_variable = { which = total_mp_dev value = 100 }
 			}
 		}
 		
@@ -372,10 +372,10 @@ country_event = {
 						which = total_mp_dev
 						value = 0
 					}
-					NOT = { manpower_percentage = 2.5 }
+					NOT = { manpower_percentage = 1.5 }
 				}
 				add_manpower = 1
-				subtract_variable = { which = total_mp_dev value = 35 }
+				subtract_variable = { which = total_mp_dev value = 75 }
 			}
 		}
 		
@@ -401,10 +401,10 @@ country_event = {
 						which = total_mp_dev
 						value = 0
 					}
-					NOT = { manpower_percentage = 2.5 }
+					NOT = { manpower_percentage = 1.5 }
 				}
 				add_manpower = 1
-				subtract_variable = { which = total_mp_dev value = 25 }
+				subtract_variable = { which = total_mp_dev value = 50 }
 			}
 		}
 		

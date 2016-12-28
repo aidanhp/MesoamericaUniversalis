@@ -1,4 +1,4 @@
-government = feudal_chiefdom
+government = triarchal_confederation_sub
 government_rank = 1
 mercantilism = 0.25
 technology_group = tarascan
@@ -9,16 +9,16 @@ fixed_capital = 86
 historical_friend = IUA
 historical_friend = IHU
 
-1400.1.1 = {
+1415.1.1 = {
 	monarch = {
-		name = "Hiqugage"
-		dynasty = "Uacusecha"
-		birth_date = 1380.1.1
+		name = "Hiquingaje"
+		dynasty = "Uanacaze"
+		birth_date = 1398.1.1
 		adm = 3
 		dip = 3
 		mil = 5
 		leader = {
-			name = "Hiqugage"
+			name = "Hiquingaje"
 			shock = 4
 			fire = 2
 			manuever = 2

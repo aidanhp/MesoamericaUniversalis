@@ -53,6 +53,31 @@ royal_marriage = {
 	start_date = 1428.1.1
 	end_date = 1821.1.1
 }
+#Tlatelolco
+alliance = {
+	first = TLA
+	second = TET
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+royal_marriage = {
+	first = TLA
+	second = TET
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+alliance = {
+	first = TLA
+	second = TCP
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+royal_marriage = {
+	first = TLA
+	second = TCP
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
 
 #Tetzcocah Vassals
 

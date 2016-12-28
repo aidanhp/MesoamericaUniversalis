@@ -270,7 +270,7 @@ farm1 = {
 	}
 
 	modifier = {
-		trade_goods_size = 2.5
+		trade_goods_size = 1.0
 		#More SCP Growth
 	}
 	
@@ -313,7 +313,7 @@ farm2 = {
 	}
 
 	modifier = {
-		trade_goods_size = 5.0
+		trade_goods_size = 2.5
 	}
 	
 	ai_will_do = {
@@ -351,7 +351,7 @@ pmine = {
 	}
 
 	modifier = {
-		trade_goods_size = 2.0
+		trade_goods_size = 1.0
 		local_production_efficiency = 0.10
 	}
 	
@@ -398,7 +398,7 @@ imine = {
 	}
 	
 	modifier = {
-		trade_goods_size = 4.0
+		trade_goods_size = 2.0
 		local_production_efficiency = 0.20
 	}
 	
@@ -458,7 +458,7 @@ workshop1 = {
 	#}
 
 	modifier = {
-		trade_goods_size_modifier = 0.25
+		trade_goods_size_modifier = 0.10
 		local_production_efficiency = 0.25
 	}
 	
@@ -491,7 +491,7 @@ workshop2 = {
 	#}
 
 	modifier = {
-		trade_goods_size_modifier = 0.50
+		trade_goods_size_modifier = 0.25
 		local_production_efficiency = 0.50
 	}
 	
@@ -524,7 +524,7 @@ workshop3 = {
 	#}
 
 	modifier = {
-		trade_goods_size_modifier = 1.5
+		trade_goods_size_modifier = 0.50
 		local_production_efficiency = 1.5
 	}
 	
@@ -875,7 +875,7 @@ mp1 = {
 	#}
 
 	modifier = {
-		province_trade_power_modifier = 0.5
+		province_trade_power_modifier = 0.25
 	}
 	
 	ai_will_do = {
@@ -907,7 +907,7 @@ mp2 = {
 	}
 
 	modifier = {
-		province_trade_power_modifier = 0.75
+		province_trade_power_modifier = 0.50
 	}
 	
 	ai_will_do = {
@@ -939,7 +939,7 @@ mp3 = {
 	}
 
 	modifier = {
-		province_trade_power_modifier = 1
+		province_trade_power_modifier = 0.75
 	}
 	
 	ai_will_do = {
@@ -972,7 +972,7 @@ mp4 = {
 	}
 
 	modifier = {
-		province_trade_power_modifier = 1.5
+		province_trade_power_modifier = 1.0
 	}
 	
 	ai_will_do = {
@@ -1004,7 +1004,7 @@ mp5 = {
 	}
 
 	modifier = {
-		province_trade_power_modifier = 2
+		province_trade_power_modifier = 1.5
 	}
 	
 	ai_will_do = {
@@ -1074,6 +1074,7 @@ capitaldecor = {
 
 	modifier = {
 		prestige = 1
+		legitimacy = 2
 		diplomatic_reputation = 1
 	}
 	

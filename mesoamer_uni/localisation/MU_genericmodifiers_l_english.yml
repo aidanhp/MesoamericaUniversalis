@@ -4,8 +4,22 @@
  euroinvasions: "European Invasions Enabled"
  noinvasions: "European Invasions Disabled"
  
+ #Generic Effects
+ upgraded_government: "Upgraded Rank" 
+ 
  #Trade
  major_trade_center: "Major Center of Trade"
+ major_river_estuary: "Major River Estuary"
+ balsas_mines: "Balsas Metal Mines"
+ desc_balsas_mines: "The mines along the balsas river were probably the richest in Mesoamerica, producing massive quantities of gold, silver, copper, jade and salt. They were one of the Tarascan Empire's primary sources of wealth and a repeated point of contention between the Tarascans and Aztecs."
+ patzcuaro_fish_stocks: "Patzcuaro Fish Stocks"
+ desc_patzcuaro_fish_stocks: "Lake Patzcuaro is extremely rich in fish."
+ xaracuaro_fish_market: "Xaracuaro Fish Market"
+ desc_xaracuaro_fish_marker: "The Xaracuaro fish market sold a lot of friggin' fish."
+ north_yucatan_salt_beds: "North Yucatan Salt Beds"
+ desc_north_yucatan_salt_beds: "The salt beds on the northern coast of the yucatan peninsula were the most productive in Mesoamerica."
+ salt_bed_of_caucel: "Salt Bed of Caucel"
+ desc_salt_bed_of_caucel: "The salt bed of caucel produced a phenomenal amount of salt for its small size - at least 350,000 gallons per year, or around 1,400,000 million liters."
  
  #Map CE Modifiers
  perc_map: "Perfect Communication"

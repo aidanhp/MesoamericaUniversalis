@@ -3,62 +3,58 @@
 
 
 # Base resources
+#FORMULA FOR DETEMINING PRICE: 2 + ((Value + Use Class) / 2)
 grain = {
-	base_price = 3.25
-}
-
-staplecrops = {
-	base_price = 3.25
+	base_price = 2.50
 }
 
 aquaticfoods = {
-	base_price = 2.5
+	base_price = 2.50
 }
 
 fruits = {
-	base_price = 3
+	base_price = 2.50
 }
 
-
 choclate = {
-	base_price = 3.5
+	base_price = 5.50
 }
 
 ceramics = {
-	base_price = 3
+	base_price = 4.0
 }
 
 textiles = {
-	base_price = 3
+	base_price = 4.50
 }
 
 obsidian = {
-	base_price = 5
+	base_price = 5.50
 }
 
 preciousstones = {
-	base_price = 4
+	base_price = 7.0
 }
 
 plumes = {
-	base_price = 4
+	base_price = 5.0
 }
 
 
 salt = {
-	base_price = 4
+	base_price = 4.50
 }
 
 bronze = {
-	base_price = 4.5 
+	base_price = 7.5
 }
 
 gold = {
-	base_price = 4.5 
+	base_price = 7.5
 }
 
 lime = {
-	base_price = 4
+	base_price = 5.0
 }
 
 iron = {
@@ -70,7 +66,27 @@ lumber = {
 	base_price = 2
 }
 
+balsas = {
+	base_price = 8.0
+}
+
+cotton = {
+	base_price = 4.0
+}
+
+honey = {
+	base_price = 3.0
+}
+
+slaves = {
+	base_price = 4.0
+}
+
+copal = {
+	base_price = 4.5
+}
+
 
 unknown = {
-	base_price = 0
+	base_price = 4.0
 }

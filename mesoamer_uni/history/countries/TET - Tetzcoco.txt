@@ -29,5 +29,6 @@ historical_friend = TCP
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = lawgiver_personality   
-	add_ruler_personality = scholar_personality    
+	add_ruler_personality = scholar_personality   
+	add_ruler_personality =	conqueror_personality     
 }

@@ -1,7 +1,7 @@
 add_core = HHK
 owner = HHK
 controller = HHK
-culture = newmixtec
+culture = chatino
 religion = mixtec
 hre = no
 base_tax = 2

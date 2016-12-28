@@ -53,12 +53,41 @@ on_peace_recipient = {
 on_war_won = {
 	ROOT = {
 		country_event = { id = commeff.01}
+		change_variable = { which = militancy value = 1 }
 	}
 	FROM = {
 		country_event = { id = commeff.01}
+		change_variable = { which = militancy value = -5 }
 	}
-	ROOT = {
-		change_variable = { which = militancy value = 1 }
+	if = {
+		limit = {
+			ROOT = {
+				tag = IUA
+			}
+			FROM = {
+				tag = IHU
+			}
+			has_global_flag = tarascan_succession_war
+		}
+		ROOT = { 
+			country_event = { id = IUA_MAJORS.16 }
+		}
+		clr_global_flag = tarascan_succession_war
+	}
+	if = {
+		limit = {
+			ROOT = {
+				tag = IHU
+			}
+			FROM = {
+				tag = IUA
+			}
+			has_global_flag = tarascan_succession_war
+		}
+		ROOT = { 
+			country_event = { id = IUA_MAJORS.17 }
+		}
+		clr_global_flag = tarascan_succession_war
 	}
 }
 
@@ -274,7 +303,16 @@ on_new_monarch = {
 
 # country
 on_monarch_death = {
-	
+	if = {
+		limit = {
+			tag = PAT
+			NOT = { has_country_flag = hiquingaje_dead }
+		}
+		set_country_flag = hiquingaje_dead
+		PAT = {
+			country_event = { id = IUA_MAJORS.07 }
+		}
+	}
 	if = {
 		limit = {
 			NOT = { has_idea = extensive_bureaucracy }

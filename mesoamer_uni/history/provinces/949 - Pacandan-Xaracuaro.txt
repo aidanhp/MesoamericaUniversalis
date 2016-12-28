@@ -1,0 +1,18 @@
+add_core = IUA
+owner = IUA
+controller = IUA
+culture = tarascan
+religion = tarascan 
+hre = no
+base_tax = 0
+base_production = 1
+trade_goods = aquaticfoods 
+base_manpower = 1
+capital = "Pacandan-Xaracuaro"
+is_city = yes
+
+discovered_by = semi_nomadic_tribe
+discovered_by = west_mexican
+discovered_by = tarascan
+discovered_by = central_mexican
+discovered_by = triple_alliance

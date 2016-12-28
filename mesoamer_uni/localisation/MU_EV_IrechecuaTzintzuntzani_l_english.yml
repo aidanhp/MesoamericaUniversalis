@@ -9,10 +9,20 @@
  #################
  #Custom Tooltips#
  #################
+ FLA_IUA_01: "The title of Cazonci will be transferred to Ihuatzio."
+ FLA_IUA_02: "The title of Cazonci will be transferred to Patzcuaro."
+ FLA_IUA_03: "The title of Cazonci will be transferred to Tzintzuntzan."
+ FLA_IUA_04: "The Triarchy will be abolished."
+ FLA_IUA_05: "Tzintzuntzan will gain a personal union over Patzcuaro."
+ FLA_IUA_06: "Ihuatzio will gain a personal union over Patzcauro."
+ FLA_IUA_07: "Ends your alliance and royal marriage with the other members of the Triarchy and allows you to select a new government type."
  
  #################
  #EVENT MODIFIERS#
  #################
+ no_sons: "No Sons"
+ desc_no_sons: "Our ruler is cursed with bad luck when it comes to keeping male heirs alive."
+ current_cazonci: "Cazonci Titleholder"
  integrating_chichimecs: "Integrating Chichimecs"
  chichimec_immigrants: "Chichimec Immigrants"
  chichimec_auxiliaries: "Chichimec Auxiliaries"
@@ -21,19 +31,98 @@
  ###########
  #DECISIONS#
  ###########
- IUA_consolidate_the_realm_title: "Consolidate the Realm"
- IUA_consolidate_the_realm_desc: "During the mid to late 1300s, the founder of our kingdom, Tariacuri, went from being an insignificant orphan to the master of a confederation that included all of the major cities around Lake Patzcuaro. Tariacuri had plans to turn the confederation into something more, but he died in 1400 before he was able to achieve this, and the realm was split between his three nephews: Tangaxoan in Tzintzuntzan, Hiripan in Patzcuaro, and Hiqugage in Ihuatzlo. The three brothers worked together to expand their holdings but unity seemed a ways off until recently, when Tzintzuntzan began to acquire preeminence over the other two kingdoms as its capital grew. We must finish the process and reunite Tariacuri’s realm!"
- IUA_delcare_the_empire_title: "Declare the Empire of Tzintzuntzan"
- IUA_delcare_the_empire_desc: "Our realm is the greatest to ever rise in West Mexico, greater even than the mighty lords of Teuchitlan hundreds of years ago. Our soldiers have subjugated vast swaths of land and people, and our capital has flourished into one of the world’s richest urban centers. We should no longer be satisfied with calling the Cazonci the ruler of a kingdom, for his is something much, much more."
+ IUA_betray_the_triarchy: "Betray the Triarchy"
+ IUA_betray_the_triarchy: "We have been constrained by the Purepecha Triarchy for too long! It is time to break away from this constraining system and make our own destiny. \nNOTE TO THE PLAYER: The Triarchy will automatically end by event when the first ruler of Patzcuaro dies. Only click this if you’re impatient."
+ 
+ 
  ########
  #EVENTS#
  ########
  
  #MAJORS
- #Consolidation of the Realm 
- IUA_MAJORS1.t: "Consolidation of the Realm"
- IUA_MAJORS1.d: "It is a glorious day in Tzintzuntzan! The once loose alliance of city states has been turned into a mighty kingdom by the reforms of esteemed Cazonci $MONARCH$, and we are now unquestionably the greatest power in West Mexico. Still, our enemies are numerous and it will take great effort to bring the rest of the area under or supreme control. \nOur increase in power has come a price, however. A powerful nobility has emerged in our cities, and they will surely begin to push their own interests at the expense of the Cazonci. They will have to be controlled if we are to dominate the world. Still, this is a great victory for the Purepecha people, who, for the first time, have a unifying cause and a great city to call their own."
- IUA_MAJORS1.a: "Tariacuri would be proud."
+ #Triarchy
+ IUA_MAJORS1.t: "Election of a New Cazonci"
+ IUA_MAJORS1.d: "The ruler of Tzintzuntzan has held the title of Cazonci for five years, and now it is time for another city to be placed in charge of the Triarchy. Tzintzuntzan cannot be elected again, we must pass the title to either Ihuatzio or Patzcuaro."
+ IUA_MAJORS1.a: "The ruler of Patzcuaro will be the new Cazonci."
+ IUA_MAJORS1.b: "The ruler of Ihuatzio will be the new Cazonci."
+ 
+ IUA_MAJORS2.t: "Election of a New Cazonci"
+ IUA_MAJORS2.d: "The ruler of Ihuatzio has held the title of Cazonci for five years, and now it is time for another city to be placed in charge of the Triarchy. Ihuatzio cannot be elected again, we must pass the title to either Tzintzuntzan or Patzcuaro."
+ IUA_MAJORS2.a: "The ruler of Patzcuaro will be the new Cazonci."
+ IUA_MAJORS2.b: "The ruler of Tzintzuntzan will be the new Cazonci."
+ 
+ IUA_MAJORS3.t: "Election of a New Cazonci"
+ IUA_MAJORS3.d: "The ruler of Patzcuaro has held the title of Cazonci for five years, and now it is time for another city to be placed in charge of the Triarchy. Patzcuaro cannot be elected again, we must pass the title to either Tzintzuntzan or Ihuatzio. "
+ IUA_MAJORS3.a: "The ruler of Ihuatzio will be the new Cazonci."
+ IUA_MAJORS3.b: "The ruler of Tzintzuntzan will be the new Cazonci."
+ 
+ IUA_MAJORS4.t: "[IUA.Monarch.GetName] is the New Cazonci!"
+ IUA_MAJORS4.d: "The Triarchy has elected [IUA.Monarch.GetName] of Tzintzuntzan as the new Cazonci. Every hamlet, village, town and city around the lake is celebrating the crowning of the new leader."
+ IUA_MAJORS4.a: "May he rule wisely."
+ 
+ IUA_MAJORS5.t: "[IHU.Monarch.GetName] is the New Cazonci!"
+ IUA_MAJORS5.d: "The Triarchy has elected [IHU.Monarch.GetName] of Ihuatzio as the new Cazonci. Every hamlet, village, town and city around the lake is celebrating the crowning of the new leader."
+ IUA_MAJORS5.a: "May he rule wisely."
+ 
+ IUA_MAJORS6.t: "[PAT.Monarch.GetName] is the New Cazonci!"
+ IUA_MAJORS6.d: "The Triarchy has elected [PAT.Monarch.GetName] of Patzcuaro as the new Cazonci. Every hamlet, village, town and city around the lake is celebrating the crowning of the new leader."
+ IUA_MAJORS6.a: "May he rule wisely."
+ 
+ IUA_MAJORS7.t: "The Death of Hiquingaje"
+ IUA_MAJORS7.d: "Hiquingaje, Tariacuri’s only living son and an esteemed lord and general, has died. \nHiquingaje is not survived by any clear male heirs, due to the storied deaths of his various sons and the unfortunate end of his favorite, Hiquingaje II. While we debate over who should succeed him, we should send word to the ruler of Ihuatzio, [IHU.Monarch.GetName], and the ruler of Tzintzuntzan, [IUA.Monarch.GetName], to ask for their input in the matter. In the meantime, a council of nobles will rule over Patzcuaro."
+ IUA_MAJORS7.a: "Send the messengers."
+ 
+ IUA_MAJORS8.t: "The Death of Hiquingaje"
+ IUA_MAJORS8.d: "A messenger has just arrived in [This.Capital.GetName], with terribly sad news. It seems that Hiquingaje, Tariacuri’s last living son, has died, but has left no male heir to inherit Patzcuaro. A regency council has taken temporary control of the kingdom while the succession is debated, and has summoned $MONARCHTITLE$ $MONARCH$ to Patzcuaro to participate in the selection of the next ruler. \nAs a relative of Tariacuri, $MONARCH$ would certainly have legitimate grounds to nominate himself as the one who should inherit Patzcuaro, if he so wished. Not doing so might be a risk if one of $MONARCH$’s counterparts nominates himself."
+ IUA_MAJORS8.a: "Attend and nominate yourself as the next ruler of Patzcuaro."
+ IUA_MAJORS8.b: "Atten, but don't nominate yourself."
+ 
+ IUA_MAJORS10.t: "Hiquingaje's Successor"
+ IUA_MAJORS10.d: "Today, the council to decide on the successor to the late Irecha of Patzcuaro, Hiquingaje, met. \nThe meeting was held in the city center, in the shadow of the great Yacatas temples, and began in the early morning. First, the Irecha of Ihuatzio, [IHU.Monarch.GetName], marched in, resplendent in the richest feathers and metal ornamentation, at the head of a column of well drilled soldiers. Not to be outdone, the Irecha of Tzintzuntzan, [IUA.Monarch.GetName], entered to the sound of drums and conch trumpets, also leading a small but well equipped force. \nThe two rulers, and the various important nobles of Patzcuaro than went into the city’s palace, where [IHU.Monarch.GetName] and [IUA.Monarch.GetName] found out to their dismay that they had both laid claim to the city’s throne. At first the debate over which of the two should become the next ruler was civil, but the tension slowly grew and eventually spiraled out of control when the two monarchs began to insult each other. The wise men of the council chastised them for disrespecting the memory of Tariacuri’s son, but by now both were enraged, and the meeting ended when [IHU.Monarch.GetName] stormed out of palace and took his soldiers back to Ihuatzio. The nobles restrained [IUA.Monarch.GetName], so that an armed conflict might not break out, but it was too late. When [IUA.Monarch.GetName] finally managed to get back to Tzintzuntzan, he found that it had been seized by [IHU.Monarch.GetName]’s armies. War could no longer be stopped."
+ IUA_MAJORS10.a: "This wasn't supposed to happen!"
+ IUA_MAJORS10.b: "The kingdom will be ours!"
+ IUA_MAJORS10.c: "Tzintzuntzan must be retaken!"
+ 
+ IUA_MAJORS11.t: "Hiquingaje's Successor"
+ IUA_MAJORS11.d: "Today, the council to decide on the successor to the late Irecha of Patzcuaro, Hiquingaje, met. \nThe meeting was held at the city center, in the shadow of the great Yacatas temples, and began in the early morning. First, the Irecha of Tzintzuntzan, [IUA.Monarch.GetName], arrived, resplendent and confident in fine feathers imported from far away lands and finely crafted metal ornamentation, with a small armed guard. Then, the Irecha of Ihuatzio, [IHU.Monarch.GetName], arrived, leading a small procession of nobles and musicians and smiling easily, and cheerfully greeting his brothers. \nThe two rulers, and the important nobility of Patzcuaro all gathered in the royal palace and began to debate who should inherit the kingdom. [IUA.Monarch.GetName] volunteered himself to be the next ruler, and the nobility seemed to be supportive of it. [IHU.Monarch.GetName], not wishing after the throne himself, also supported his brother’s ascent."
+ IUA_MAJORS11.a: "We are glad the issue is settled."
+ 
+ IUA_MAJORS12.t: "Hiquingaje's Successor"
+ IUA_MAJORS12.d: "Today, the council to decide on the successor to the late Irecha of Patzcuaro, Hiquingaje, met. \nThe meeting was held at the city center, in the shadow of the great Yacatas temples, and began in the early morning. First, the Irecha of Ihuatzio, [IHU.Monarch.GetName], arrived, resplendent and confident in fine feathers imported from far away lands and finely crafted metal ornamentation, with a small armed guard. Then, the Irecha of Tzintzuntzan, [IUA.Monarch.GetName], arrived, leading a small procession of nobles and musicians and smiling easily, and cheerfully greeting his brothers. \nThe two rulers, and the important nobility of Patzcuaro all gathered in the royal palace and began to debate who should inherit the kingdom. [IHU.Monarch.GetName] volunteered himself to be the next ruler, and the nobility seemed to be supportive of it. [IUA.Monarch.GetName], not wishing after the throne himself, also supported his brother’s ascent."
+ IUA_MAJORS12.a: "We are glad the issue is settled."
+ 
+ IUA_MAJORS13.t: "Hiquingaje's Successor"
+ IUA_MAJORS13.d: "Today the council to decide on the successor to the late Irecha of Patzcuaro, Hiquingaje, met. \nThe meeting was held at the city center, in the shadow of the great Yacatas temples, and and began in the early morning. [IUA.Monarch.GetName] and [IHU.Monarch.GetName] arrived together, in high spirits, at the head of a procession of guards, musicians, and various nobles, as well as several commoners who had come to learn the results. The two rulers, and the nobility of Patzcuaro all gathered in the royal palace and began to debate who should inherit the kingdom. After several hours of debate it was finally decided that Turepupanquaran, a minor member of the Uanacaze dynasty who had a proven record of adept administration, should take charge."
+ IUA_MAJORS13.a: "We are glad the issue is settled."
+ 
+ IUA_MAJORS14.t: "Our Reaction?"
+ IUA_MAJORS14.d: "A civil war has broken out between Ihuatzio and Tzintzuntzan. What should we do?"
+ IUA_MAJORS14.a: "Side with Tzintzuntzan!"
+ IUA_MAJORS14.b: "Side with Ihuatzio!"
+ IUA_MAJORS14.c: "Refuse to help either side."
+ 
+ IUA_MAJORS15.t: "War Measures"
+ IUA_MAJORS15.d: "Tzintzuntzan has been seized by the power-hungry tyrant, [IHU.Monarch.GetName]! Our kingdom is in great peril without its capital city, and there is no measure too drastic to enact to retake it. \nNoticing our dire situation, a rich merchant from Central Mexico who employs a large number of mercenaries has come to us with an offer. He claims that he can provide us with 5,000 of the finest Mexican soldiers, but the price will be high. This may be the extra edge we need to win the war."
+ IUA_MAJORS15.a: "Hire the mercenaries!"
+ IUA_MAJORS15.b: "I will not dilute our armies with barbarian sellspears from Mexico!"
+ 
+ IUA_MAJORS16.t: "Tzintzuntzan Victorious"
+ IUA_MAJORS16.d: "Victory to Tzintzuntzan! The traitors in Ihuatzio have finally been defeated, and we have successfully pressed our claim on the throne of Patzcuaro. \nThis war has proven that the Triarchy is inherently unstable. It would be a service to both the Purepecha people and the memory of Tariacuri if we were to reunite the three kingdoms under Tzintzuntzan."
+ IUA_MAJORS16.a: "We are whole once more!"
+ 
+ IUA_MAJORS17.t: "Ihuatzio Victorious"
+ IUA_MAJORS17.d: "Victory to Ihuatzio! The traitors in Tzintzuntzan have finally been defeated, and we have successfully pressed our claim on the throne of Patzcuaro. \nThis war has proven that the Triarchy is inherently unstable. It would be a service to both the Purepecha people and the memory of Tariacuri if we were to reunite the three kingdoms under Ihuatzio."
+ IUA_MAJORS17.a: "We are whole once more!"
+ 
+ IUA_MAJORS18.t: "A Path Forward"
+ IUA_MAJORS18.d: "With our recent sweeping victory in the succession war, it would be wise to restructure our political system so that it does not depend on the antiquated triarchy model any longer. We may opt for a decentralized hegemonic system, along the lines of the classic empires and kingdoms of central Mexico, or attempt to forge a new destiny as a centralized territorial state."
+ IUA_MAJORS18.a: "A new, glorious destiny for the Purepecha!"
+ IUA_MAJORS18.b: "A traditional hegemonic system."
+ 
+ IUA_MAJORS19.t: "$MONARCH$'s Great State Reform"
+ IUA_MAJORS19.d: "$MONARCH$ has set about perfecting the internal organization of the new, centralized Purepecha State. He has proposed a sweeping reform designed to significantly increase the power of the crown relative to the nobility, and to vastly increase the presence of state power in conquered cities. The following measures are the sum of the motion: \nThe nobles of certain problematic conquered provinces will be hereby replaced by loyal nobles appointed by the Cazonci. \nAll matters of succession among vassal nobles will hereby be brought to the capital to be decided by the Cazonci. \nProvincial nobles will hereby lose the rank of Irecha, and will be demoted to the rank of Caracha-Capacha. \nThe daughters of nobles will hereby be sent to the capital once they come of age, and the Cazonci will marry them to approved lords as he pleases to prevent dangerous alliances of noble houses. \nThe Cazonci will hereby be granted the power to set aside certain conquered lands as the exclusive property of the royal family. Anyone caught attempting to collect tribute on these lands, farming in these lands, or hunting in these lands without the permission of the Cazonci will be severely punished."
+ IUA_MAJORS19.a: "These reforms are just what we need!"
+ IUA_MAJORS19.b: "Far too radical!"
  
  #Clash of Emperors
  

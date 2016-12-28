@@ -85,7 +85,7 @@ westmexican_ideas = {
 	}
 	
 	multicultural_states = {
-		accepted_culture_threshold = -0.33
+		num_accepted_cultures = 1
 	}
 	
 	defensive_engineering = {
@@ -104,7 +104,7 @@ westmexican_ideas = {
 	}
 	
 	metal_weapons = {
-		
+		infantry_power = 0.05
 	}
 	
 	cultural_resilience = {
@@ -113,3 +113,47 @@ westmexican_ideas = {
 	}
 }
 
+putun_chontal_ideas = {
+	start = {
+		improve_relation_modifier = 0.50
+		trade_range_modifier = 0.10
+	}
+	
+	bonus = {
+		merchants = 1
+	}
+	
+	trigger = {
+		primary_culture = putun_chontal
+	}
+	free = yes
+	
+	linear_villages = {
+		global_unrest = -2
+	}
+	
+	wetlands_adaptability = {
+		idea_cost = -0.05
+	}
+	
+	land_of_kakaw = {
+		production_efficiency = 0.10
+	}
+	
+	people_of_many_tongues = {
+		diplomats = 1
+	}
+	
+	great_canoes = {
+		global_trade_power = 0.25
+	}
+	
+	dynastic_adventurers = {
+		spy_offence = 0.25
+	}
+	
+	vested_interests = {
+		merc_maintenance_modifier = -0.25
+		possible_mercenaries = 0.25
+	}	
+}

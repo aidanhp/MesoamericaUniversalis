@@ -16,4 +16,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 891;892;sea;251;-1;-1;-1;-1;nada
 899;903;sea;252;-1;-1;-1;-1;nada
 
+#Lake Patzcuaro
+84;949;sea;652;-1;-1;-1;-1;nada
 -1;-1;;-1;-1;-1;-1;-1;-1;

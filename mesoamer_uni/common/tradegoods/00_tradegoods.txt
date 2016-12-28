@@ -8,81 +8,22 @@ grain = {
 	modifier = {
 		land_forcelimit_modifier = 0.10
 	}
+	province = {
+		local_manpower_modifier = 0.025
+	}
 	chance = {
-		factor = 35
-		modifier = {
-			factor = 0
-			OR = {
-				has_terrain = desert
-				has_terrain = glacier
-				has_terrain = coastline
-				has_climate = arctic
-			}
-		}
-		modifier = {
-			factor = 0.15
-			OR = {
-				has_terrain = mountain
-				has_terrain = coastal_desert
-				has_terrain = forest
-				has_terrain = woods
-				has_terrain = hills
-				has_terrain = jungle
-			}
-		}
-		modifier = {
-			factor = 0.25
-			OR = {
-				has_terrain = highlands
-				has_terrain = marsh
-			}
-		}
-		modifier = {
-			factor = 0.25
-			OR = {
-				has_climate = arid
-				has_climate = tropical
-				
-			}
-		}
-		modifier = {
-			factor = 0.6
-			OR = {
-				has_terrain = drylands
-				has_terrain = savannah
-				has_terrain = steppe
-			}
-		}
-		modifier = {
-			factor = 0.35
-			has_winter = severe_winter
-		}
-		modifier = {
-			factor = 0.5
-			has_winter = normal_winter
-		}
-		modifier = {
-			factor = 1.5
-			has_terrain = farmlands
-		}
-		modifier = {
-			factor = 1.5
-			OR = {
-				region = poland_region
-				region = ruthenia_region
-			}
-		}
+		factor = 10
 	}
 }
 
-######
-#FOODS
-######
 staplecrops = {
 	color = { 0.96 0.93 0.58 }
 
 	modifier = {
 		land_forcelimit_modifier = 0.10
+	}
+	province = {
+		local_manpower_modifier = 0.025
 	}
 
 	chance = {
@@ -96,6 +37,9 @@ aquaticfoods = {
 	modifier = {
 		land_forcelimit_modifier = 0.10
 	}
+	province = {
+		local_manpower_modifier = 0.025
+	}
 
 	chance = {
 		factor = 10
@@ -106,7 +50,10 @@ fruits = {
 	color = { 0.1607 0.8549 0.2431 }
 
 	modifier = {
-		land_forcelimit_modifier = 0.10
+		land_morale = 0.05
+	}
+	province = {
+		local_manpower_modifier = 0.025
 	}
 
 	chance = {
@@ -114,14 +61,14 @@ fruits = {
 	}
 } 
 
-#############
-#LUXURY GOODS
-#############
 choclate = {
 	color = { 0.533 0.3647 0.2313 }
 
 	modifier = {
-		land_forcelimit_modifier = 0.10
+		trade_efficiency = 0.10
+	}
+	province = {
+		local_unrest = -1
 	}
 
 	chance = {
@@ -133,9 +80,12 @@ ceramics = {
 	color = { 0.9411 0.7019 0.5098 }
 
 	modifier = {
-		land_forcelimit_modifier = 0.10
+		production_efficiency = 0.10
 	}
-
+	province = {
+		local_production_efficiency = 0.05
+	}
+	
 	chance = {
 		factor = 10
 	}
@@ -145,9 +95,12 @@ textiles = {
 	color = { 0.9411 0.8431 0.5098 }
 
 	modifier = {
-		land_forcelimit_modifier = 0.10
+		prestige = 1
 	}
-
+	province = {
+		local_production_efficiency = 0.05
+	}
+	
 	chance = {
 		factor = 10
 	}
@@ -157,7 +110,11 @@ obsidian = {
 	color = { 0.33 0.33 0.33 }
 
 	modifier = {
-		land_forcelimit_modifier = 0.10
+		legitimacy = 0.25
+		global_trade_power = 0.10
+	}
+	province = {
+		local_tax_modifier = 0.05
 	}
 
 	chance = {
@@ -169,7 +126,10 @@ preciousstones = {
 	color = { 0.8862 0.1686 0.4549 }
 
 	modifier = {
-		land_forcelimit_modifier = 0.10
+		prestige = 1
+	}
+	province = {
+		local_tax_modifier = 0.05
 	}
 
 	chance = {
@@ -181,21 +141,26 @@ plumes = {
 	color = { 0.1647 0.9058 0.6705 }
 
 	modifier = {
-		land_forcelimit_modifier = 0.10
+		prestige = 0.50
+		legitimacy = 0.25
+	}
+	province = {
+		local_tax_modifier = 0.05
 	}
 
 	chance = {
 		factor = 10
 	}
 } 
-####################
-#MINERALS AND METALS
-####################
+
 salt = {
 	color = { 0.9137 0.9568 0.9411 }
 
 	modifier = {
-		land_forcelimit_modifier = 0.10
+		war_exhaustion = -0.025
+	}
+	province = {
+		local_tax_modifier = 0.05
 	}
 
 	chance = {
@@ -207,7 +172,11 @@ bronze = {
 	color = { 0.7686 0.6078 0.3215 }
 
 	modifier = {
-		land_forcelimit_modifier = 0.10
+		production_efficiency = 0.05
+		infantry_power = 0.05
+	}
+	province = {
+		local_production_efficiency = 0.05
 	}
 
 	chance = {
@@ -219,7 +188,10 @@ gold = {
 	color = { 0.8862 0.8078 0.1411 }
 
 	modifier = {
-		land_forcelimit_modifier = 0.10
+		global_tax_modifier = 0.075
+	}
+	province = {
+		local_tax_modifier = 0.05
 	}
 
 	chance = {
@@ -231,7 +203,10 @@ lime = {
 	color = { 0.7058 0.9098 0.4901 }
 
 	modifier = {
-		land_forcelimit_modifier = 0.10
+		build_cost = -0.10
+	}
+	province = {
+		local_build_cost = -0.05
 	}
 
 	chance = {
@@ -245,25 +220,105 @@ iron = {
 	modifier = {
 		land_forcelimit_modifier = 0.10
 	}
+	province = {
+		local_defensiveness = 0.15
+	}
 
 	chance = {
 		factor = 10
 	}
 } 
-######
-#OTHER
-######
+
 lumber = {
 	color = { 0.3803 0.2745 0.0901 }
 
 	modifier = {
-		land_forcelimit_modifier = 0.10
+		build_cost = -0.10
+	}
+	province = {
+		local_defensiveness = 0.15
 	}
 
 	chance = {
 		factor = 10
 	}
 } 
+
+balsas = {
+	color = { 0.95000 0.8078 0.1411 }
+
+	modifier = {
+		trade_efficiency = 0.10
+		prestige = 1
+	}
+	province = {
+		local_tax_modifier = 0.075
+	}
+
+	chance = {
+		factor = 10
+	}
+}
+
+cotton = {
+	color = { 0.95 0.95 0.95 }
+
+	modifier = {
+		infantry_power = 0.05
+	}
+	province = {
+		local_production_efficiency = 0.05
+	}
+
+	chance = {
+		factor = 10
+	}
+}
+
+honey = {
+	color = { 0.68235 0.39215 0.08627 }
+
+	modifier = {
+		global_unrest = -1
+	}
+	province = {
+		local_unrest = -1
+	}
+
+	chance = {
+		factor = 10
+	}
+}
+
+slaves = {
+	color = { 0.35686 0.23921 0.16078 }
+
+	modifier = {
+		production_efficiency = 0.10
+	}
+	province = {
+		local_production_efficiency = 0.05
+	}
+
+	chance = {
+		factor = 10
+	}
+}
+
+copal = {
+	color = { 0.69803 0.50196 0.30196 }
+
+	modifier = {
+		global_missionary_strength = 0.02
+	}
+	province = {
+		local_missionary_strength = 0.01
+	}
+
+	chance = {
+		factor = 10
+	}
+}
 
 
 unknown = {

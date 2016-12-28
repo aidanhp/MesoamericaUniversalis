@@ -102,8 +102,6 @@ country_event = {
 	desc = glory.6.d
 
 	picture = codex_IUA
-
-	fire_only_once = yes
 	
 	is_triggered_only = yes
 	

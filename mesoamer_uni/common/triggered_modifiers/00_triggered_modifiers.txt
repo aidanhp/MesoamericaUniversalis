@@ -85,5 +85,5 @@ ai_handicap = {
 	
 	legitimacy = 2
 	global_autonomy = -0.15
-	global_tax_income = 40
+	global_tax_modifier = 0.10
 }

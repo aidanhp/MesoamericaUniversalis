@@ -24,10 +24,11 @@ can_reduce_war_exhaustion = {
 	condition = {
 		tooltip = "NO_WE_DOWN_WAR"
 		potential = {
+			NOT = { has_idea = attritionmentality }
+			is_at_war = yes
 		}
 		allow = {
-			is_at_war = yes
-			NOT = { has_idea = attritionmentality  }
+			always = no
 		}
 	}	
 }

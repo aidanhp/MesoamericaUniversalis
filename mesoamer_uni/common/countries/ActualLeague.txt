@@ -34,29 +34,41 @@ historical_units = {
 }
 
 monarch_names = {
-	"Acamapichtli #1" = 20
-	"Iztcoatl #1" = 20
-	"Huitzilihhuitl #1" = 20
-	"Chimalpopoca #1" = 20
-	"Moteuczomah #0" = 20
-	"Tizoc #0" = 20
-	"Ahuitzotl #0" = 20
-	"Axayacatl #0" = 20
-	"Cuauhtemoc #0" = 20
-	"Cuitlahuah #0" = 15
-	
-	"Teyacapan #0" = -1
-	"Necahual #0" = -1
-	"Miyaoaxochitl #0" = -1
+	"Ah Zun #0" = 10
+	"Ah Uitz #0" = 10
+	"Ah Cuat #0" = 10
+	"Ah Atira #0" = 10
+	"Nabatun #0" = 10
+	"Ah Chac #0" = 10
+	"Nachan Kan #0" = 10
+	"Ah Cetz #0" = 10
+	"Ah Op #0" = 10
+	"Ah Kauil #0" = 10
+	"Ah Kukil #0" = 10
+	"Nappol Chuuah #0" = 10
+	"Ah Tzam #0" = 10
+	"Ba'alache' #0" = 10
+	"Xuulub #0" = 10
+	"Kitam #0" = 10
+	"Sak Bok #0" = 10
+	"Siina'an #0" = 10
+	"Hunac #0" = 10
+	"Ah Xupan #0" = 10
+
+	"Hatz'utz #0" = -1
+	"Pak'aal #0" = -1
+	"Xtz'aak #0" = -1
+	"Xunaan #0" = -1
+	"Xch'uupal #0" = -1
+	"Tz'unu'un #0" = -1
+	"Suhuy Pal #0" = -1
 }
 
 leader_names = {
-	Yoatl Matlalihuitl Nochehuatl Tototl Cuauhtl Tochtli Zolin Cuetzpalli Itzcuintli
-	Huizitl Ocelotl Ozomatli Cuetlachtli Tecolotl Miztli Cipac Acatlotzin Ahuítzotl 
-	Ahuítzotl Cacamatzin Chalchiutlatonac Cuauhtemoc Eyahue Huitzilihuitl Ixtlilxochitl 
-	Izquemitl Nezahualpilli Maxixcatzin Olintecke Qualpopoca Quimichetl Tezozomoc 
-	Totoquihuatzin Xiconocatzin Xolotl Yaztachimal Zoanacochtzin 
+	Ake Balam Batun Cab Camal Can Canche Canul Caulch Cen Cetzal Cob Cocom Cochuauh Chan Itza
+	Dzilb Ek Halban Holl "Huch Im" Huh Kantun Ku Noh Pech Tun Tzuc Utcab Xool Yah Chable Xul Xiu Coba
 }
+
 
 ship_names = {
 	Acolmiztli Acolnahuacat "Ah Hoya" "Ah Tzenul" Amimitl Apanecatl Atl Atlau Axoloa

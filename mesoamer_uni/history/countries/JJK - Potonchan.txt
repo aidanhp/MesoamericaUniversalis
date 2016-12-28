@@ -1,15 +1,15 @@
-government = kuchkabal 
-government_rank = 2
+government = centralized_altepetl
+government_rank = 1
 mercantilism = 0.25
 technology_group = northern_mayan
 religion = newmayan 
-primary_culture = centralmayan
+primary_culture = putun_chontal
 capital = 169
 fixed_capital = 169
 
 1427.1.1 = {
 	monarch = {
-		name = "Bakan"
+		name = "Nappol Chuuah"
 		dynasty = "Potonchan"
 		adm = 4
 		dip = 4

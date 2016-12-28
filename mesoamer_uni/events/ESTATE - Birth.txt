@@ -181,7 +181,7 @@ country_event = {
 	
 	option = {
 		name = "estatebirth3.a"
-		custom_tooltip = EST_ln_birth
+		custom_tooltip = EST_ms_birth
 		set_country_flag = has_merchants
 	}
 }

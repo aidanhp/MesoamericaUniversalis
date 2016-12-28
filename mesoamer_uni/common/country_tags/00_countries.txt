@@ -622,5 +622,9 @@ JJJ     = "countries/Pinotepa.txt"
 JJK     = "countries/Pontonchan.txt"
 JJL     = "countries/Copilco.txt"
 
+#Late Pre-Beta Additions
+JJM     = "countries/Zinapecuaro.txt"
+JJN     = "countries/Zacapu.txt"
+
 #Special Countries
 MGI     = "countries/MagicIsland.txt"

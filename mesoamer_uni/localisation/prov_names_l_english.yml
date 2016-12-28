@@ -83,7 +83,7 @@
  PROV82:0 "Metztitlan"
  PROV83:0 "Acambaro"
  PROV84:0 "Tzintzuntzan"
- PROV85:0 "Ihuatzlo"
+ PROV85:0 "Ihuatzio"
  PROV86:0 "Patzcuaro"
  PROV87:0 "Huetamo"
  PROV88:0 "Puruaran"
@@ -945,4 +945,6 @@
  PROV946:0 "Sierra Madre Oriental"
  PROV947:0 "Cempoala"
  PROV948:0 "Ecatepec"
- 
+ PROV949:0 "Pacandan-Xaracuaro"
+ PROV950:0 "Zinapecuaro"
+ PROV951:0 "Zacapu"

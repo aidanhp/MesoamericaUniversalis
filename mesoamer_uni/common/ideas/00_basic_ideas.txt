@@ -673,7 +673,7 @@ eliteorders_ideas = {
 	}
 
 	trainedfrombirth = {
-		discipline = 0.075
+		discipline = 0.05
 	}	
 
 	macuahuitl = {

@@ -30,7 +30,10 @@ one_rabbit_famine = {
 	}
 	
 	can_end = {
-		NOT = { has_country_modifier = TEN_famine_starting }
+		custom_trigger_tooltip = {
+			tooltip = ONE_RABBIT_END
+			always = no
+		}
 	}
 	
 	modifier = {

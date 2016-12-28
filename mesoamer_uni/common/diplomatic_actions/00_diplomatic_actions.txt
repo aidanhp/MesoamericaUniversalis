@@ -114,6 +114,74 @@ declarewar = {
 }
 allianceaction = {
 	condition = {
+		tooltip = TRI_1 
+		potential = {
+			OR = { 
+				FROM = {
+					government = triarchal_confederation_dom
+				}
+				FROM = {
+					government = triarchal_confederation_sub
+				}
+			}
+			ROOT = {
+				NOT = {
+					OR = {
+						tag = PAT
+						tag = IUA
+						tag = IHU
+					}
+				}
+			}
+		}
+		allow = {
+			always = no
+		}
+	}
+	
+	condition = {
+		tooltip = TRI_2
+		potential = {
+			tag = IUA
+			AND = { 
+				alliance_with = IHU
+				alliance_with = PAT
+			}
+		}
+		allow = {
+			always = no
+		}
+	}
+	
+	condition = {
+		tooltip = TRI_2
+		potential = {
+			tag = IHU
+			AND = { 
+				alliance_with = IUA
+				alliance_with = PAT
+			}
+		}
+		allow = {
+			always = no
+		}
+	}
+	
+	condition = {
+		tooltip = TRI_2
+		potential = {
+			tag = PAT
+			AND = { 
+				alliance_with = IHU
+				alliance_with = IUA
+			}
+		}
+		allow = {
+			always = no
+		}
+	}
+	
+	condition = {
 		tooltip = TA_4
 		potential = {
 			FROM = {

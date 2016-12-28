@@ -94,15 +94,15 @@ NDiplomacy = {
 	WE_IMPACT_ON_ANNEX_INTEGRATE = -0.05,			-- multiplied with current WE
 	EMPEROR_VOTE_DAYS = 60,	 						-- _DDEF_EMPEROR_VOTE_DAYS_; "Cooldown" until Electors can change their vote again.
 	TRUCE_YEARS = 2, 								-- _DDEF_TRUCE_YEARS_; Years of Truce
-	SCALED_TRUCE_YEARS = 2,						-- Additional years of truce based on % of warscore taken in war (100% warscore = full scaled truce years)
-	WARNING_YEARS = 20,								-- Years before warning expire
-	ANNUL_TREATIES_YEARS = 10,						-- Years before annul treaties expire
+	SCALED_TRUCE_YEARS = 4,						-- Additional years of truce based on % of warscore taken in war (100% warscore = full scaled truce years)
+	WARNING_YEARS = 10,								-- Years before warning expire
+	ANNUL_TREATIES_YEARS = 5,						-- Years before annul treaties expire
 	COALITION_YEARS = 5,							-- Years before coalition expire
-	GUARANTEE_YEARS = 20,							-- Years before guarantee expire
+	GUARANTEE_YEARS = 10,							-- Years before guarantee expire
 	REVANCHISM_MONTHLY_DECAY = 0.833,			-- about 20 years to decay all of it.
 	MONARCH_GOV_CHANGE_LEGITIMACY_PENALTY = 0.0,	-- Penalty(%) on the legitimacy when changing gov type to the monarchy
 	BASE_SPY_DISCOVERY_CHANCE = 0.25,
-	JUSTIFY_TRADE_CONFLICT_LIMIT = 0.2,			-- How big share of the trade power needed on the target to be able to justify a trade conflict
+	JUSTIFY_TRADE_CONFLICT_LIMIT = 0.075,			-- How big share of the trade power needed on the target to be able to justify a trade conflict
 	JUSTIFY_TRADE_CONFLICT_ACTOR_LIMIT = 0.1,	-- How big share of the trade power needed on the actor to be able to justify a trade conflict
 	PRESTIGE_PENALTY_ON_DISCOVER_JTC = -5,
 	
@@ -135,7 +135,7 @@ NDiplomacy = {
 	SPY_NETWORK_DISCOVER_WAR = 50,
 	SUPPORT_REBELS_EFFECT = 10,
 	SUPPORT_REBELS_MONEY_FACTOR = 0.5,
-	FABRICATE_CLAIM_COST = 20,
+	FABRICATE_CLAIM_COST = 10,
 	FABRICATE_CLAIM_COST_MODIFIER_PER_CLAIM = 0.25, 
 	JUSTIFY_TRADE_CONFLICT_COST = 10,
 	INFILTRATE_ADMINISTRATION_COST = 40,
@@ -767,7 +767,7 @@ NEconomy = {
 	WARTAXES_DURATION = 2,							-- _EDEF_WARTAXES_DURATION_
 	MINIMUM_INTERESTS = 0.25,						-- _EDEF_MINIMUM_INTERESTS_
 	BASE_INTERESTS = 4.0,							-- Base interests
-	LAND_MAINTENANCE_FACTOR = 0.6097568,					-- _EDEF_LAND_MAINTENANCE_FACTOR
+	LAND_MAINTENANCE_FACTOR = 0.25,					-- _EDEF_LAND_MAINTENANCE_FACTOR
 	HEAVY_SHIP_MAINT_FACTOR = 0.10,					-- _EDEF_HEAVY_SHIP_MAINT_FACTOR_
 	LIGHT_SHIP_MAINT_FACTOR = 0.03,					-- _EDEF_LIGHT_SHIP_MAINT_FACTOR_
 	GALLEY_MAINT_FACTOR = 0.04,						-- _EDEF_GALLEY_MAINT_FACTOR_
@@ -827,7 +827,7 @@ NMilitary = {
 	PARTICIPATION_SCORE_MERC_MULT = 0.5,			-- How much less participation do you get from mercs?
 	PARTICIPATION_SCORE_UNFORTIFIED_MULT = 0.1,		-- How much less participation do you get from besieging unfortified provinces?
 		
-	FORT_PER_DEV_RATIO = 5000,						-- 1 non-obsolete maintained fort per this amount of development = +1 AT
+	FORT_PER_DEV_RATIO = 200,						-- 1 non-obsolete maintained fort per this amount of development = +1 AT
 	MOVE_LOCK_PERCENTAGE = 0.5,						-- Unit movement is locked after this percentage of progress
 	REGULAR_LEADER_POWER = 1,						-- Used for generals & admirals (affects total pips)
 	EXPLORER_LEADER_POWER = 0.8,					-- Used for conquistadors & explorers (affects total pips)

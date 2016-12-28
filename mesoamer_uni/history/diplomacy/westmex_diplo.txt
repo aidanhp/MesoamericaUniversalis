@@ -1,12 +1,12 @@
 #Tarascans 
-vassal = {
+alliance = {
 	first = IUA
 	second = IHU
 	start_date = 1428.1.1
 	end_date = 1821.1.1
 }
 
-vassal = {
+alliance = {
 	first = IUA
 	second = PAT
 	start_date = 1428.1.1

@@ -1,4 +1,4 @@
-government = kuchkabal
+government = centralized_altepetl
 government_rank = 1
 mercantilism = 0.25
 technology_group = northern_mayan
@@ -9,7 +9,7 @@ fixed_capital = 149
 
 1427.1.1 = {
 	monarch = {
-		name = "Balam Quitze"
+		name = "Ah Cuat"
 		dynasty = "Tibolon"
 		adm = 4
 		dip = 4

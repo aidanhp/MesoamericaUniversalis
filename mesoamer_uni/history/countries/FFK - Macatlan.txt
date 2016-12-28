@@ -1,5 +1,5 @@
-government = kuchkabal
-government_rank = 2
+government = centralized_altepetl
+government_rank = 1
 mercantilism = 0.25
 technology_group = southern_mayan
 religion = newmayan
@@ -10,7 +10,7 @@ capital = 604
 
 1427.1.1 = {
 	monarch = {
-		name = "Kayom"
+		name = "Xitamel-Keh"
 		dynasty = "Macatlan"
 		adm = 4
 		dip = 4

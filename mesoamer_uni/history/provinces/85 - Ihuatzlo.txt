@@ -6,9 +6,9 @@ religion = tarascan
 hre = no
 base_tax = 3
 base_production = 6
-trade_goods = bronze 
-base_manpower = 22
-capital = "Ihuatzlo"
+trade_goods = aquaticfoods 
+base_manpower = 25
+capital = "Ihuatzio"
 is_city = yes
 fort_15th = yes
 

@@ -1,50 +1,47 @@
-cb_expand_hegemony = {
+cb_mercantile_expansion = {
 	valid_for_subject = no
-
-	prerequisites = {
-		OR = {
-			government = altepetl
-			government = tlaxcallan_confederate
-		}
-		NOT = { vassal_of = ROOT }
-	}
-
-	war_goal = expandhegemony
+	
+	is_triggered_only = yes
+	months = 48
+	
+	war_goal = mercantile_expansion
 }
 
-
-cb_direct_conquest = {
-	valid_for_subject = no
-
-	prerequisites = {
-		OR = {
-			government = centralized_altepetl
-			government = tribal_confederation
-			government = feudal_chiefdom
-			government = ttt_subordinate_lordship
-		}
-		NOT = { vassal_of = ROOT }
-		is_neighbor_of = FROM
-	}
-
-	war_goal = directconquest
-}
-
-cb_unite_maya = {
+cb_feud_yucatan = {
 	valid_for_subject = yes
 	
 	prerequisites = {
-		culture_group = mayan  
+		ROOT = { 
+			primary_culture = yucatecmayan 
+		}
+		FROM = { 
+			primary_culture = yucatecmayan 
+		}
 	}
-
-	war_goal = unitemaya
+	
+	war_goal = feud_yucatan
 }
 
-cb_un_civil_war = {
+cb_feud_triggered = {
+	valid_for_subject = no
+	
+	is_triggered_only = yes
+	months = 48
+	
+	war_goal = feud_normal
+}
+
+cb_eternal_war = {
+	valid_for_subject = no
 	
 	prerequisites = {
-		always = no
+		ROOT = {
+			tag = TEN
+		}
+		FROM = {
+			NOT = { vassal_of = ROOT }
+		}
 	}
 	
-	war_goal = expandhegemonyai
+	war_goal = eternal_war
 }

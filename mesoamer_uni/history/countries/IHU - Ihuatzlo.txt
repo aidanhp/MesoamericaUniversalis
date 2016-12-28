@@ -1,4 +1,4 @@
-government = feudal_chiefdom
+government = triarchal_confederation_sub
 government_rank = 1
 mercantilism = 0.25
 technology_group = tarascan
@@ -9,11 +9,11 @@ fixed_capital = 85
 historical_friend = IUA
 historical_friend = PAT
 
-1400.1.1 = {
+1415.1.1 = {
 	monarch = {
 		name = "Hiripan"
-		dynasty = "Uacusecha"
-		birth_date = 1383.1.1
+		dynasty = "Uanacaze"
+		birth_date = 1370.1.1
 		adm = 4
 		dip = 4
 		mil = 5
@@ -27,16 +27,16 @@ historical_friend = PAT
 	}
 }
 
-1405.1.1 = {
+1420.1.1 = {
 	heir = {
 		name = "Ticatame"
 		monarch_name = "Ticatame"
 		dynasty = "Uacusecha" 
-		birth_date = 1405.1.1
+		birth_date = 1403.1.1
 		death_date = 1454.1.1
 		claim = 100
 		adm = 4
-		dip = 4
-		mil = 4
+		dip = 5
+		mil = 2
 	}
 }

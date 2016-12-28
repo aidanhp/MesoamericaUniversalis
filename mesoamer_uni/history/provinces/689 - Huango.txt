@@ -1,13 +1,12 @@
-add_core = GGX
-add_core = IUA
-owner = IUA
-controller = IUA
+add_core = CEO
+owner = CEO
+controller = CEO
 culture = tarascan
 religion = tarascan 
 hre = no
 base_tax = 2
 base_production = 5
-trade_goods = grain
+trade_goods = salt
 base_manpower = 16
 capital = "Huango"
 is_city = yes

@@ -34,28 +34,42 @@ historical_units = {
 }
 
 monarch_names = {
-	"Acamapichtli #1" = 20
-	"Iztcoatl #1" = 20
-	"Huitzilihhuitl #1" = 20
-	"Chimalpopoca #1" = 20
-	"Moteuczomah #0" = 20
-	"Tizoc #0" = 20
-	"Ahuitzotl #0" = 20
-	"Axayacatl #0" = 20
-	"Cuauhtemoc #0" = 20
-	"Cuitlahuah #0" = 15
+	"Hireticatame #1" = 10 
+	"Sicuirancha #1" = 10
+	"Tariacuri #1" = 10
+	"Hiqugage #1" = 10
+	"Hiripan #1" = 10
+	"Tangaxoan #1" = 10
+	"Tzitzicpandacuare #0" = 10
+	"Zangua #0" = 10
+	"Ticatame #0" = 10
+	"Cavujancha #0" = 10
+	"Tuinchumbra #0" = 10
+	"Uresqua #0" = 10
+	"Zinaquambi #0" = 10
+	"Quatamaripe #0" = 10
+	"Turepupanquaran #0" = 10
+	"Tiripitihonto #0" = 10
+	"Vacusquazita #0" = 10
 	
-	"Teyacapan #0" = -1
-	"Necahual #0" = -1
-	"Miyaoaxochitl #0" = -1
+
+	"Quenomen #0" = -1
+	"Mavina #0" = -1
+	"Xaratanga #0" = -1
+	"Picimbane #0" = -1
+	"Zucurabe #0" = -1
+	"Purupe #0" = -1
+	"Camavaperi #0" = -1
+	"Acivanime #0" = -1
+	"Pevame #0" = -1
 }
 
 leader_names = {
-	Yoatl Matlalihuitl Nochehuatl Tototl Cuauhtl Tochtli Zolin Cuetzpalli Itzcuintli
-	Huizitl Ocelotl Ozomatli Cuetlachtli Tecolotl Miztli Cipac Acatlotzin Ahuítzotl 
-	Ahuítzotl Cacamatzin Chalchiutlatonac Cuauhtemoc Eyahue Huitzilihuitl Ixtlilxochitl 
-	Izquemitl Nezahualpilli Maxixcatzin Olintecke Qualpopoca Quimichetl Tezozomoc 
-	Totoquihuatzin Xiconocatzin Xolotl Yaztachimal Zoanacochtzin 
+	Hireticatame Sicuirancha Tariacuri Pavacume Hiqugage Hiripan Tangaxoan Tzitzicpandacuare Zangua
+	Uresqua Cando Sica Zinaquambi Quama Quatamaripe Equandira Chague Cando Ticatame Tucuruan Paguingata
+	Trimaransco Cuini Sirangua Zincicha Tigame Tagani Patamu Chuicico Caracomoco Tariaran Cacapu Aramen
+	Vaspe Terazi Cariqua Tupuri Hivacha Zinzumi Hanzivia Cavujancha Tarando Horohta Vanzan Hutaco Hozi 
+	Tuinchumbra Yzniquanto Hapunduri Zapivatame Xoropiti Taresquesinguata 
 }
 
 ship_names = {

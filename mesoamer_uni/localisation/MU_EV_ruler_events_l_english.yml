@@ -48,13 +48,13 @@
  dsuccession1.c: "Pretend the fool didn't exist and hope no one notices."
  
  #For Both
- gsuccession1.t: "$MONARCHTITLE$ Picks a New Favorite"
+ gsuccession1.t: "$MONARCH$ Picks a New Favorite"
  gsuccession1.d: "The unfortunate death of the previous heir apparent requires the selection of a new favored successor."
  gsuccession1.a: "Choose the most capable warrior."
  gsuccession1.b: "Choose the best orator and diplomat."
  gsuccession1.c: "Choose the most patient and hardworking."
 
- gsuccession2.t: "$MONARCHTITLE$ Picks a New Favorite"
+ gsuccession2.t: "$MONARCH$ Picks a New Favorite"
  gsuccession2.d: "Succession is currently uncertain. It would be wise to select a favored heir."
  gsuccession2.a: "Choose the most capable warrior."
  gsuccession2.b: "Choose the best orator and diplomat."

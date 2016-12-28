@@ -1,12 +1,12 @@
 add_core = XCA
 owner = XCA
 controller = XCA
-culture = centralmayan
+culture = putun_chontal
 religion = newmayan 
 hre = no
 base_tax = 3
 base_production = 7
-trade_goods = aquaticfoods 
+trade_goods = aquaticfoods
 base_manpower = 26
 capital = "Xicalango"
 is_city = yes

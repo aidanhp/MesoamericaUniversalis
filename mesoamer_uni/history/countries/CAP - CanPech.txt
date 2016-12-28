@@ -1,4 +1,4 @@
-government = kuchkabal 
+government = centralized_altepetl
 government_rank = 2
 mercantilism = 0.25
 technology_group = northern_mayan
@@ -9,7 +9,7 @@ fixed_capital = 159
 
 1427.1.1 = {
 	monarch = {
-		name = "Tziquin"
+		name = "Ah Tzam"
 		dynasty = "Pech"
 		adm = 4
 		dip = 4

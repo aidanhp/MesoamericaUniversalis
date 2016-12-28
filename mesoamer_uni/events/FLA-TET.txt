@@ -105,7 +105,7 @@ country_event = {
 	option = {
 		name = "TET_FLAVOR2.a"
 		add_manpower = 6
-		add_treasury = 200
+		add_treasury = 50
 	}
 }
 

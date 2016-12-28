@@ -29,8 +29,7 @@ country_event = {
 	
 	option = {
 		name = "fl_iua_mn.1.a"
-		custom_tooltip = FLA_IUA_2 
-		add_treasury = -250
+		add_treasury = -150
 		add_country_modifier = {
 			name = integrating_chichimecs 
 			duration = -1

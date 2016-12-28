@@ -18,7 +18,7 @@ technology = {
 	may_support_rebels = yes
 	may_infiltrate_administration = yes
 	may_agitate_for_liberty = yes
-	#may_fabricate_claims = yes
+	may_fabricate_claims = yes
 	
 	mp1 = yes
 	mp2 = yes
