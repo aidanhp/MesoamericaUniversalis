@@ -81,6 +81,8 @@
  book20.t: "Top Secret Files"
  book20.d: "???"
  book20.a: "Press to get top secret reward!"
+ top_secret: "Top Secret"
+ desc_top_secret: "Activates a special decision once you reach Empire rank."
  restore_byzantium_title: "Restore the Byzantine Empire"
  restore_byzantium_desc: "Restore the friggin' Roman Empire, except Byzantine and in Mexico. Why not, right? Make sure to post on r/eu4 to cash in on that karma."
  
