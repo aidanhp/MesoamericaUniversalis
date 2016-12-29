@@ -1,6 +1,8 @@
 ﻿l_english: 
  #Symbols
  #§G§!
+ #Top Secret
+ TOP_SECRET: "Unlocks a Special Decision once you reach Empire rank."
  
  #UI Tooltips 
  NO_WE_DOWN_WAR: "You cannot reduce war exhuastion during a war."

@@ -628,3 +628,4 @@ JJN     = "countries/Zacapu.txt"
 
 #Special Countries
 MGI     = "countries/MagicIsland.txt"
+BLR     = "countries/Karma.txt"

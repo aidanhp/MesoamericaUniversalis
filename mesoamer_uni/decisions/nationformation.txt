@@ -294,4 +294,19 @@ country_decisions = {
 			}
 		}
 	}
+	
+	#Joke Decision - Restore Byzantine Empire
+	restore_byzantium = {
+		major = yes
+		potential = {
+			has_country_modifier = top_secret
+			#government_rank = 3
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			change_tag = BLR
+		}
+	}
 }
