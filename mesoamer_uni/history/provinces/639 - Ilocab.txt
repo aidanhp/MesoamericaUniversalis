@@ -2,7 +2,7 @@ add_core = IIO
 owner = IIO
 controller = IIO
 
-culture = highlandsmayan
+culture = kichemayan 
 religion = newmayan 
 capital = "Ilocab"
 trade_goods = grain

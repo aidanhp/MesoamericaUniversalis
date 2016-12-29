@@ -2,7 +2,7 @@ add_core = IIY
 owner = IIY
 controller = IIY
 
-culture = highlandsmayan
+culture = kaqchikelmayan 
 religion = newmayan 
 capital = "Izquintepeque"
 trade_goods = obsidian 

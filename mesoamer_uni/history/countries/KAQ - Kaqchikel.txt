@@ -3,7 +3,7 @@ government_rank = 2
 mercantilism = 0.25
 technology_group = southern_mayan
 religion = newmayan 
-primary_culture = highlandsmayan
+primary_culture = kaqchikelmayan 
 capital = 203
 fixed_capital = 203
 

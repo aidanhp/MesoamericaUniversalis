@@ -1,4 +1,4 @@
-culture = highlandsmayan
+culture = tzotzilmayan 
 religion = newmayan
 capital = "North Xoconochco"
 trade_goods = unknown

@@ -2,7 +2,7 @@ add_core = IIX
 owner = IIX
 controller = IIX
 
-culture = highlandsmayan
+culture = kaqchikelmayan 
 religion = newmayan 
 capital = "Itztapa"
 trade_goods = obsidian 

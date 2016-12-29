@@ -34,15 +34,15 @@ historical_units = {
 }
 
 monarch_names = {
-	"Balam Quitze #0" = 10
-	"C'oc'oja #0" = 10
-	"Tz'iquin #0" = 10
-	"Ajcan #0" = 10
-	"C'ocaib #0" = 10
-	"C'onache #0" = 10
-	"C'otuja #0" = 10
-	"K'ucumatz #0" = 10
-	"Q'uik'ab #0" = 10
+	"Balam Quitze #1" = 10
+	"C'oc'oja #1" = 10
+	"Tz'iquin #1" = 10
+	"Ajcan #1" = 10
+	"C'ocaib #1" = 10
+	"C'onache #1" = 10
+	"C'otuja #1" = 10
+	"K'ucumatz #1" = 10
+	"Q'uik'ab #1" = 10
 	"C'aam #0" = 10
 	"Quej #0" = 10
 	"Wuqu-Batz' #0" = 10

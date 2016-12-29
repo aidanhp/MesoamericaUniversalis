@@ -2,7 +2,7 @@ add_core = IIU
 owner = IIU
 controller = IIU
 
-culture = highlandsmayan
+culture = kichemayan 
 religion = newmayan 
 capital = "Tz'al Amja"
 trade_goods = obsidian

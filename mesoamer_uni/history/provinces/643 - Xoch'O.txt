@@ -2,7 +2,7 @@ add_core = IIM
 owner = IIM
 controller = IIM
 
-culture = highlandsmayan
+culture = kichemayan 
 religion = newmayan 
 capital = "Xoch'O"
 trade_goods = grain

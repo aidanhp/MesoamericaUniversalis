@@ -1,7 +1,7 @@
 add_core = KOW
 owner = KOW
 controller = KOW
-culture = centralmayan
+culture = itzamayan
 religion = newmayan 
 hre = no
 base_tax = 2

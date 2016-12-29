@@ -1,4 +1,4 @@
-culture = centralmayan
+culture = cholmayan 
 capital = "Palenque"
 religion = newmayan
 trade_goods = unknown

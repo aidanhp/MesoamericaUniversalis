@@ -1,4 +1,4 @@
-culture = centralmayan
+culture = qeqchimayan 
 capital = "Subin"
 religion = newmayan
 trade_goods = unknown

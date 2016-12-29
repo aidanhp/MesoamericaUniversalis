@@ -2,7 +2,7 @@ add_core = IIK
 owner = IIK
 controller = IIK
 
-culture = highlandsmayan
+culture = kichemayan 
 religion = newmayan 
 capital = "Sija"
 trade_goods = grain

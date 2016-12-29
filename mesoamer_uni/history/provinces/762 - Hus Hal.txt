@@ -1,4 +1,4 @@
-culture = centralmayan
+culture = tzeltalmayan  
 capital = "Hus Hal"
 religion = newmayan
 trade_goods = unknown

@@ -215,7 +215,16 @@
  highlandsmayan: "Highlands Maya"
  yucatecmayan: "Yucatec"
  putun_chontal: "Putun Chontal"
- 
+ itzamayan: "Peten Itza"
+ qeqchimayan: "Qeqchi"
+ tzotzilmayan: "Tzotzil"
+ tzeltalmayan: "Tzeltal"
+ kichemayan: "Kiche"
+ kaqchikelmayan: "Kaqchikel"
+ tzutujilmayan: "Tzutujil"
+ mammayan: "Mam"
+ pokomammayan: "Pokomam"
+ cholmayan: "Chol"
  #Culture Groups
  mayan: "Maya"
  isthmus: "Isthmus"

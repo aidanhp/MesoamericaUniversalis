@@ -1,7 +1,7 @@
 controller = FFK
 add_core = FFK
 owner = FFK
-culture = highlandsmayan
+culture = kichemayan 
 religion = newmayan
 hre = no
 base_tax = 1

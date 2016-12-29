@@ -2,7 +2,7 @@ add_core = KKG
 owner = KKG
 controller = KKG
 
-culture = highlandsmayan
+culture = kichemayan 
 religion = newmayan 
 capital = "Mik'Ina"
 trade_goods = grain

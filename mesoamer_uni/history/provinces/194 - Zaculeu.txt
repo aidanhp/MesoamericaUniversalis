@@ -1,4 +1,4 @@
-culture = highlandsmayan
+culture = mammayan 
 religion = newmayan 
 capital = "North Xilotepec"
 trade_goods = unknown

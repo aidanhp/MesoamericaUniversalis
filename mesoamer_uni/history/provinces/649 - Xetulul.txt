@@ -2,7 +2,7 @@ add_core = TZJ
 owner = TZJ
 controller = TZJ
 
-culture = highlandsmayan
+culture = tzutujilmayan 
 religion = newmayan 
 capital = "Xetulul"
 trade_goods = bronze 

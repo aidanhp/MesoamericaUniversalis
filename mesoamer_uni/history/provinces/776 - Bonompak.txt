@@ -1,4 +1,4 @@
-culture = centralmayan
+culture = tzeltalmayan  
 capital = "Bonompak"
 religion = newmayan
 trade_goods = unknown

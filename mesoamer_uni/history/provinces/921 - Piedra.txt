@@ -1,7 +1,7 @@
 add_core = CCT
 owner = CCT
 controller = CCT
-culture = centralmayan
+culture = qeqchimayan 
 religion = newmayan 
 hre = no
 base_tax = 1

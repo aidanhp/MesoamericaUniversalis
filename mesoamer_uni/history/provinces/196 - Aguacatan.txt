@@ -2,7 +2,7 @@ add_core = IIP
 owner = IIP
 controller = IIP
 
-culture = highlandsmayan
+culture = kichemayan 
 religion = newmayan 
 capital = "Xinabajul"
 trade_goods = plumes

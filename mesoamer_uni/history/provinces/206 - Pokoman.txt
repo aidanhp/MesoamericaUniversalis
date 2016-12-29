@@ -2,7 +2,7 @@ add_core = POK
 owner = POK
 controller = POK
 
-culture = highlandsmayan
+culture = pokomammayan 
 religion = newmayan 
 capital = "Pokomam"
 trade_goods = grain

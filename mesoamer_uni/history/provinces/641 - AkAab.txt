@@ -2,7 +2,7 @@ add_core = IIR
 owner = IIR
 controller = IIR
 
-culture = highlandsmayan
+culture = kichemayan 
 religion = newmayan 
 capital = "Ak'Aab"
 trade_goods = plumes

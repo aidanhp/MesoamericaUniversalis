@@ -2,7 +2,7 @@ add_core = IIS
 owner = IIS
 controller = IIS
 
-culture = highlandsmayan
+culture = kichemayan 
 religion = newmayan 
 capital = "Tujal"
 trade_goods = grain

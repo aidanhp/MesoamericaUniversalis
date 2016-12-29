@@ -3,7 +3,7 @@ government_rank = 1
 mercantilism = 0.25
 technology_group = southern_mayan
 religion = newmayan 
-primary_culture = highlandsmayan
+primary_culture = pokomammayan 
 capital = 206
 fixed_capital = 206
 

@@ -1,4 +1,4 @@
-culture = centralmayan
+culture = tzotzilmayan 
 capital = "Carrizol"
 religion = newmayan
 trade_goods = unknown

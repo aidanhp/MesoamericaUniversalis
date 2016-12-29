@@ -3281,19 +3281,10 @@ isthmus = {
 
 mayan = {
 	graphical_culture = southamericagfx
-
-	mixezoquemayan = {
-		male_names = {
-			"Can Ek" "Balam Quitze" "Kan Boar" "Yax Kuk Mok" "Ah Can" "Vahxaqui Caam" "Ah Cacao" "Cham Bahlun" 
-			"Pacal Balam" "Yaxum Balam" "Butz Chan" "Chaan Muan" "Yax Pac" "Ahpop-Achi" "Kan Bahlun Mo" Cocom 
-			Pacal Ahmok Arana Bakan Bor Cocaib Cocoja Conache Cotuja Gucamatz Hnuyg Kayom Kukumatz 
-			Mochcouoh Nohochacyum Oxib Queh Tecunuman Tutul Xiu Tziquin Vataki Yumcaaz Zotz Ahkinxok "Cu Ix" 
-		}
-		female_names = {
-			Sacnite Adsila Aiyana Ayasha Ayita Bly Dena Halona Kimi Magena Nayeli Kisa Eme
-		}
-	}
-
+	
+	##############
+	#PLACEHOLDERS#
+	##############
 	centralmayan = {
 		male_names = {
 			"Can Ek" "Balam Quitze" "Kan Boar" "Yax Kuk Mok" "Ah Can" "Vahxaqui Caam" "Ah Cacao" "Cham Bahlun" 
@@ -3317,6 +3308,19 @@ mayan = {
 			"Jubatz" "Jelelaj" "Kui Kui" "Pu'yul" "Ixoqil" "Ixcun" "Esel"
 		}
 	}
+	###################
+	###################
+	###################
+	
+	mixezoquemayan = {
+		male_names = {
+			"Ah Zun" "Ah Uitz" "Ah Cuat" "Ah Atira" "Nabatun" "Ah Chac" "Nachan Kan" "Ah Cetz" "Ah Op" "Ah Kauil" "Ah Kukil"
+			"Nappol Chuuah" "Ah Tzam" "Ba'alache'" "Xuulub" "Kitam" "Sak Bok" "Siina'an" "Hunac" "Ah Xupan"
+		}
+		female_names = {
+			"Hatz'utz" "Pak'aal" "Xtz'aak" "Xunaan" "Xch'uupal" "Tz'unu'un" "Suhuy Pal"
+		}
+	}
 	
 	yucatecmayan = {
 		male_names = {
@@ -3337,7 +3341,121 @@ mayan = {
 			"Hatz'utz" "Pak'aal" "Xtz'aak" "Xunaan" "Xch'uupal" "Tz'unu'un" "Suhuy Pal"
 		}
 	}
+	
+	itzamayan = {
+		male_names = {
+			"Ah B'oo'" "Ah Chiinche" "Ah Ch'om" "Ah Kax" "Ah Tz'on" "B'alum" "Chamach" "Ch'o'" "Kan" "Keeh" "Kutz" "K'i'ix" 
+			"K'oxol" "Tzimin" "Xux"
+		}
+		female_names = {
+			"Atan" "Ch'iich'" "Ix Tabay" "Kab'" "Yutzil"
+		}
+	}
+	
+	qeqchimayan = {
+		male_names = {
+			"Aaq" "Aaqam" "Aj B'oox Uch" "Aj Rup Kuk" "Aj Yoo" "B'alam" "B'aqxul" "B'atz" "Chajal Kuk" "Cho'hix" "Kaqkoj"
+			"Xojb' Tz'i Pim" "Iitz'inb'ej" "Tzuul" 
+		}
+		female_names = {
+			"Imul" "K'amb'olay" "Kej" "Chahim" "Ixaqilb'ej" "Ixq" "Uutz'u'uj"
+		}
+	}
+	
+	tzotzilmayan = {
+		male_names = {
+			"J'kot" "Xinich" "Jten'ek'el" "Bankilal" "'Itz'inal" "'Ok'il" "Jna'vanej" "Julub Tak'in" "Chij" "T'iv"
+		}
+		female_names = {
+			"Bik't	al Mut" "Makum" "Pepen"
+		}
+	}
+	
+	#Placeholder Names
+	tzeltalmayan  = {
+		male_names = {
+			"J'kot" "Xinich" "Jten'ek'el" "Bankilal" "'Itz'inal" "'Ok'il" "Jna'vanej" "Julub Tak'in" "Chij" "T'iv"
+		}
+		female_names = {
+			"Bik'tal Mut" "Makum" "Pepen"
+		}
+	}
+	
+	kichemayan = {
+		male_names = {
+			"Balam Quitze" "C'oc'oja" "Tz'iquin" "Ajcan" "C'ocaib" "C'onache" "C'otuja" "K'ucumatz" "Q'uik'ab" 
+			"C'aam" "Quej" "Wuqu-Batz'" "Oxtlahuh-Tz'i" "Hun-iq'" "Cahi Imox" "Hun-Toh" "Lahuh-Ah" "Belehe Qat" 
+			"Chuluk" "Xitamel-Keh" "C'oraxonamak'" "Xmayquiej" "Quejnay" "C'oyoi" "Cakamul" "Rochoc'oy" 
+			"C'opichoch" "Sipac" "Acul" "Cucum" "Belejeb K'ij" "Atzij Winak" 
+		}
+		female_names = {
+			"Jubatz" "Jelelaj" "Kui Kui" "Pu'yul" "Ixoqil" "Ixcun" "Esel"
+		}
+	}
+	
+	#Placeholder names
+	kaqchikelmayan = {
+		male_names = {
+			"Balam Quitze" "C'oc'oja" "Tz'iquin" "Ajcan" "C'ocaib" "C'onache" "C'otuja" "K'ucumatz" "Q'uik'ab" 
+			"C'aam" "Quej" "Wuqu-Batz'" "Oxtlahuh-Tz'i" "Hun-iq'" "Cahi Imox" "Hun-Toh" "Lahuh-Ah" "Belehe Qat" 
+			"Chuluk" "Xitamel-Keh" "C'oraxonamak'" "Xmayquiej" "Quejnay" "C'oyoi" "Cakamul" "Rochoc'oy" 
+			"C'opichoch" "Sipac" "Acul" "Cucum" "Belejeb K'ij" "Atzij Winak" 
+		}
+		female_names = {
+			"Jubatz" "Jelelaj" "Kui Kui" "Pu'yul" "Ixoqil" "Ixcun" "Esel"
+		}
+	}
+	
+	#Placeholder names 
+	tzutujilmayan = {
+		male_names = {
+			"Balam Quitze" "C'oc'oja" "Tz'iquin" "Ajcan" "C'ocaib" "C'onache" "C'otuja" "K'ucumatz" "Q'uik'ab" 
+			"C'aam" "Quej" "Wuqu-Batz'" "Oxtlahuh-Tz'i" "Hun-iq'" "Cahi Imox" "Hun-Toh" "Lahuh-Ah" "Belehe Qat" 
+			"Chuluk" "Xitamel-Keh" "C'oraxonamak'" "Xmayquiej" "Quejnay" "C'oyoi" "Cakamul" "Rochoc'oy" 
+			"C'opichoch" "Sipac" "Acul" "Cucum" "Belejeb K'ij" "Atzij Winak" 
+		}
+		female_names = {
+			"Jubatz" "Jelelaj" "Kui Kui" "Pu'yul" "Ixoqil" "Ixcun" "Esel"
+		}
+	}
+	
+	#Placeholder names
+	mammayan = {
+		male_names = {
+			"Balam Quitze" "C'oc'oja" "Tz'iquin" "Ajcan" "C'ocaib" "C'onache" "C'otuja" "K'ucumatz" "Q'uik'ab" 
+			"C'aam" "Quej" "Wuqu-Batz'" "Oxtlahuh-Tz'i" "Hun-iq'" "Cahi Imox" "Hun-Toh" "Lahuh-Ah" "Belehe Qat" 
+			"Chuluk" "Xitamel-Keh" "C'oraxonamak'" "Xmayquiej" "Quejnay" "C'oyoi" "Cakamul" "Rochoc'oy" 
+			"C'opichoch" "Sipac" "Acul" "Cucum" "Belejeb K'ij" "Atzij Winak" 
+		}
+		female_names = {
+			"Jubatz" "Jelelaj" "Kui Kui" "Pu'yul" "Ixoqil" "Ixcun" "Esel"
+		}
+	}
 
+	#Placeholder names
+	pokomammayan = {
+		male_names = {
+			"Balam Quitze" "C'oc'oja" "Tz'iquin" "Ajcan" "C'ocaib" "C'onache" "C'otuja" "K'ucumatz" "Q'uik'ab" 
+			"C'aam" "Quej" "Wuqu-Batz'" "Oxtlahuh-Tz'i" "Hun-iq'" "Cahi Imox" "Hun-Toh" "Lahuh-Ah" "Belehe Qat" 
+			"Chuluk" "Xitamel-Keh" "C'oraxonamak'" "Xmayquiej" "Quejnay" "C'oyoi" "Cakamul" "Rochoc'oy" 
+			"C'opichoch" "Sipac" "Acul" "Cucum" "Belejeb K'ij" "Atzij Winak" 
+		}
+		female_names = {
+			"Jubatz" "Jelelaj" "Kui Kui" "Pu'yul" "Ixoqil" "Ixcun" "Esel"
+		}
+	}
+	
+	#Placeholder names
+	cholmayan = {
+		male_names = {
+			"Ah Zun" "Ah Uitz" "Ah Cuat" "Ah Atira" "Nabatun" "Ah Chac" "Nachan Kan" "Ah Cetz" "Ah Op" "Ah Kauil" "Ah Kukil"
+			"Nappol Chuuah" "Ah Tzam" "Ba'alache'" "Xuulub" "Kitam" "Sak Bok" "Siina'an"
+		}
+		female_names = {
+			"Hatz'utz" "Pak'aal" "Xtz'aak" "Xunaan" "Xch'uupal" "Tz'unu'un" "Suhuy Pal"
+		}	
+	}
+	
 	dynasty_names = {
 		Aké Bonampak Becan Bolonchen Chaac Camazotz Cancuén Caracol Cerros Chacchoben Chacmultun Chinikiha Chinkultic 
 		Chunchucmil Civiltuk Calakmul Copan Coba Dzibilchaltun Dzibilnocac Dzilam Edzná Ekab Gumarcaj Gucumatz Hocchob 

@@ -2,7 +2,7 @@ add_core = IIW
 owner = IIW
 controller = IIW
 
-culture = highlandsmayan
+culture = kaqchikelmayan 
 religion = newmayan 
 capital = "Pocob"
 trade_goods = grain

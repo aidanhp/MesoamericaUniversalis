@@ -1,4 +1,4 @@
-culture = highlandsmayan
+culture = tzotzilmayan 
 capital = "Siltepec"
 religion = newmayan
 trade_goods = unknown

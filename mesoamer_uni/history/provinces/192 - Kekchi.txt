@@ -1,4 +1,4 @@
-culture = centralmayan
+culture = qeqchimayan 
 religion = newmayan 
 capital = "North Xilotepec"
 trade_goods = unknown

@@ -1,4 +1,4 @@
-culture = highlandsmayan
+culture = mammayan 
 capital = "Tenam"
 religion = newmayan
 trade_goods = unknown

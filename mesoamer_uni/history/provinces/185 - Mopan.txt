@@ -1,7 +1,7 @@
 add_core = MOP
 owner = MOP
 controller = MOP
-culture = centralmayan
+culture = qeqchimayan 
 religion = newmayan 
 hre = no
 base_tax = 1

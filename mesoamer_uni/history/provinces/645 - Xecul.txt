@@ -2,7 +2,7 @@ add_core = IIL
 owner = IIL
 controller = IIL
 
-culture = highlandsmayan
+culture = kichemayan 
 religion = newmayan 
 capital = "Xecul"
 trade_goods = grain

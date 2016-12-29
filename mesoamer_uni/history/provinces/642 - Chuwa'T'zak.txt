@@ -2,7 +2,7 @@ add_core = IIN
 owner = IIN
 controller = IIN
 
-culture = highlandsmayan
+culture = kichemayan 
 religion = newmayan 
 capital = "Chuwa'T'Zak"
 trade_goods = grain

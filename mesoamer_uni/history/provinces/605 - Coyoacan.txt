@@ -1,7 +1,7 @@
 controller = FFL
 add_core = FFL
 owner = FFL
-culture = highlandsmayan
+culture = kichemayan 
 religion = newmayan
 hre = no
 base_tax = 1

@@ -1,4 +1,4 @@
-culture = centralmayan
+culture = tzeltalmayan  
 capital = "Lacandon"
 religion = newmayan
 trade_goods = unknown

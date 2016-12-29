@@ -1,4 +1,4 @@
-culture = centralmayan
+culture = tzotzilmayan 
 capital = "Hez"
 religion = newmayan
 trade_goods = unknown

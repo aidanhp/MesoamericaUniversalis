@@ -1,4 +1,4 @@
-culture = centralmayan
+culture = tzeltalmayan  
 capital = "Yaxchilan"
 religion = newmayan
 trade_goods = unknown

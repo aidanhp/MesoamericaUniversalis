@@ -2,7 +2,7 @@ add_core = IIQ
 owner = IIQ
 controller = IIQ
 
-culture = highlandsmayan
+culture = kichemayan 
 religion = newmayan 
 capital = "Balamija"
 trade_goods = plumes

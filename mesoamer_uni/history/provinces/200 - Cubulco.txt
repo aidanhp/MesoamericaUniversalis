@@ -2,7 +2,7 @@ add_core = IIT
 owner = IIT
 controller = IIT
 
-culture = highlandsmayan
+culture = kichemayan 
 religion = newmayan 
 capital = "Cubulcaal"
 trade_goods = grain

@@ -1,7 +1,7 @@
 add_core = DZU
 owner = DZU
 controller = DZU
-culture = centralmayan
+culture = qeqchimayan 
 religion = newmayan 
 hre = no
 base_tax = 1

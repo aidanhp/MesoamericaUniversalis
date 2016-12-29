@@ -1,4 +1,4 @@
-culture = highlandsmayan
+culture = mammayan 
 religion = newmayan
 capital = "South Xoconochco"
 trade_goods = unknown

@@ -1,4 +1,4 @@
-culture = centralmayan
+culture = tzeltalmayan  
 capital = "Chotal"
 religion = newmayan
 trade_goods = unknown

@@ -1,7 +1,7 @@
 add_core = XCN
 owner = XCN
 controller = XCN
-culture = highlandsmayan
+culture = kichemayan 
 religion = newmayan
 hre = no
 base_tax = 1
