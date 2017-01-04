@@ -34,4 +34,16 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/event_pictures_MU/TLACAELEL_eventPicture.dds"
 		allwaystransparent = yes
 	}
+	
+	spriteType = {
+		name = "CONQUEST_NATIVE_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_MU/CONQUEST_NATIVE_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "CODEX_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_MU/CODEX_eventPicture.dds"
+		allwaystransparent = yes
+	}
 }

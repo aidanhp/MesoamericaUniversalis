@@ -18,6 +18,7 @@ historical_friend = PAT
 		dip = 4
 		mil = 5
 		leader = {
+			type = general
 			name = "Hiripan"
 			shock = 3
 			fire = 2

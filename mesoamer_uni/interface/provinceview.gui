@@ -5909,31 +5909,31 @@ guiTypes = {
 			text = "2000¤"	
 		}
 		
+		#checkboxType = {
+		#	name = "build_royalzoo"
+		#	position = { x = 269 y = 420 }
+		#	quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
+		#}
+		
+		#instantTextBoxType={
+		#	name = "royalzoo_cost"
+		#	position = {x = 269 y = 470 }
+		#	font = "vic_18"
+		#	borderSize = {x = 0 y = 0}	
+		#	maxWidth = 128
+		#	maxHeight = 18
+		#	text = "2000¤"	
+		#}
+		
 		checkboxType = {
-			name = "build_royalzoo"
+			name = "build_greatuni"
 			position = { x = 269 y = 420 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 		
 		instantTextBoxType={
-			name = "royalzoo_cost"
-			position = {x = 269 y = 470 }
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}	
-			maxWidth = 128
-			maxHeight = 18
-			text = "2000¤"	
-		}
-		
-		checkboxType = {
-			name = "build_greatuni"
-			position = { x = 321 y = 420 }
-			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
-		}
-		
-		instantTextBoxType={
 			name = "greatuni_cost"
-			position = {x = 321 y = 470 }
+			position = {x = 269 y = 470 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 128

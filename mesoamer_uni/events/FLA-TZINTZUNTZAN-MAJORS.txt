@@ -1,0 +1,911 @@
+namespace = IUA_MAJORS
+
+#THE TRIARCHY
+#Election of a New Cazonci (Tzintzuntzan in Charge)
+country_event = {
+	id = IUA_MAJORS.01
+	
+	title = "IUA_MAJORS1.t"
+	desc = "IUA_MAJORS1.d"
+	
+	picture = COURT_eventPicture 
+	
+	trigger = {
+		tag = IUA
+		NOT = { has_country_modifier = current_cazonci }
+		has_country_flag = is_cazonci
+		NOT = { has_global_flag = no_cazonci_voting }
+	}
+	
+	mean_time_to_happen = {
+		days = 20
+	}
+	
+	option = { #Pass to Patzcuaro
+		name = "IUA_MAJORS1.a"
+		
+		change_government = triarchal_confederation_sub
+		custom_tooltip = FLA_IUA_02
+		hidden_effect = {
+			PAT = { 
+				set_country_flag = is_cazonci
+				add_country_modifier = {
+					name = current_cazonci
+					duration = 1800
+				}
+				change_government = triarchal_confederation_dom
+				country_event = { id = IUA_MAJORS.06 days = 2 }
+			}
+		}
+		clr_country_flag = is_cazonci
+		remove_country_modifier = current_cazonci
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = { #Pass to Ihuatzio
+		name = "IUA_MAJORS1.b"
+
+		change_government = triarchal_confederation_sub
+		custom_tooltip = FLA_IUA_01
+		hidden_effect = { 
+			IHU = { 
+				set_country_flag = is_cazonci
+				add_country_modifier = {
+					name = current_cazonci
+					duration = 1800
+				}
+				change_government = triarchal_confederation_dom
+				country_event = { id = IUA_MAJORS.05 days = 2 }
+			}
+		}
+		clr_country_flag = is_cazonci
+		remove_country_modifier = current_cazonci
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Election of a New Cazonci (Ihuatzio in Charge)
+country_event = {
+	id = IUA_MAJORS.02
+	
+	title = "IUA_MAJORS2.t"
+	desc = "IUA_MAJORS2.d"
+	
+	picture = COURT_eventPicture 
+	
+	trigger = {
+		tag = IHU
+		NOT = { has_country_modifier = current_cazonci }
+		has_country_flag = is_cazonci
+		NOT = { has_global_flag = no_cazonci_voting }
+	}
+	
+	mean_time_to_happen = {
+		days = 20
+	}
+	
+	option = { #Pass to Patzcuaro
+		name = "IUA_MAJORS2.a"
+		
+		change_government = triarchal_confederation_sub
+		custom_tooltip = FLA_IUA_02
+		hidden_effect = { 
+			PAT = { 
+				set_country_flag = is_cazonci
+				add_country_modifier = {
+					name = current_cazonci
+					duration = 1800
+				}
+				change_government = triarchal_confederation_dom
+				country_event = { id = IUA_MAJORS.06 days = 2 }
+			}
+		}
+		clr_country_flag = is_cazonci
+		remove_country_modifier = current_cazonci
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = { #Pass to Tzintzuntzan
+		name = "IUA_MAJORS2.b"
+
+		change_government = triarchal_confederation_sub
+		custom_tooltip = FLA_IUA_03
+		hidden_effect = { 
+			IUA = { 
+				set_country_flag = is_cazonci
+				add_country_modifier = {
+					name = current_cazonci
+					duration = 1800
+				}
+				change_government = triarchal_confederation_dom
+				country_event = { id = IUA_MAJORS.04 days = 2 }
+			}
+		}
+		clr_country_flag = is_cazonci
+		remove_country_modifier = current_cazonci
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Election of a New Cazonci (Patzcuaro in Charge)
+country_event = {
+	id = IUA_MAJORS.03
+	
+	title = "IUA_MAJORS3.t"
+	desc = "IUA_MAJORS3.d"
+	
+	picture = COURT_eventPicture 
+	
+	trigger = {
+		tag = PAT
+		NOT = { has_country_modifier = current_cazonci }
+		has_country_flag = is_cazonci
+		NOT = { has_global_flag = no_cazonci_voting }
+	}
+	
+	mean_time_to_happen = {
+		days = 20
+	}
+	
+	option = { #Pass to Ihuatzio
+		name = "IUA_MAJORS3.a"
+		
+		change_government = triarchal_confederation_sub
+		custom_tooltip = FLA_IUA_01
+		hidden_effect = { 
+			IHU = { 
+				set_country_flag = is_cazonci
+				add_country_modifier = {
+					name = current_cazonci
+					duration = 1800
+				}
+				change_government = triarchal_confederation_dom
+				country_event = { id = IUA_MAJORS.05 days = 2 }
+			}
+		}
+		clr_country_flag = is_cazonci
+		remove_country_modifier = current_cazonci
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = { #Pass to Tzintzuntzan
+		name = "IUA_MAJORS3.b"
+
+		change_government = triarchal_confederation_sub
+		custom_tooltip = FLA_IUA_03
+		hidden_effect = { 
+			IUA = { 
+				set_country_flag = is_cazonci
+				add_country_modifier = {
+					name = current_cazonci
+					duration = 1800
+				}
+				change_government = triarchal_confederation_dom
+				country_event = { id = IUA_MAJORS.04 days = 2 }
+			}
+		}
+		clr_country_flag = is_cazonci
+		remove_country_modifier = current_cazonci
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Tzintzuntzan is the New Cazonci
+country_event = {
+	id = IUA_MAJORS.04
+	
+	title = "IUA_MAJORS4.t"
+	desc = "IUA_MAJORS4.d"
+	
+	picture = COURT_eventPicture 
+	
+	is_triggered_only = yes
+	
+	major = yes
+	
+	option = {
+		name = "IUA_MAJORS4.a"
+		
+		add_prestige = 10
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Ihuatzio is the New Cazonci
+country_event = {
+	id = IUA_MAJORS.05
+	
+	title = "IUA_MAJORS5.t"
+	desc = "IUA_MAJORS5.d"
+	
+	picture = COURT_eventPicture 
+	
+	is_triggered_only = yes
+	
+	major = yes
+	
+	option = {
+		name = "IUA_MAJORS5.a"
+		
+		add_prestige = 10
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Patzcuaro is the New Cazonci
+country_event = {
+	id = IUA_MAJORS.06
+	
+	title = "IUA_MAJORS6.t"
+	desc = "IUA_MAJORS6.d"
+	
+	picture = COURT_eventPicture 
+	
+	is_triggered_only = yes
+	
+	major = yes
+	
+	option = {
+		name = "IUA_MAJORS6.a"
+		
+		add_prestige = 10
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#The Death of Hiquingaje (Patzcuaro)
+country_event = {
+	id = IUA_MAJORS.07
+	
+	title = "IUA_MAJORS7.t"
+	desc = "IUA_MAJORS7.d"
+	
+	picture = DEATH_OF_HEIR_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "IUA_MAJORS7.a"
+		
+		define_ruler = {
+			name = "Noble Council"
+			dynasty = "Uanacaze" 
+			age = 40
+			claim = 100
+			regency = yes
+			adm = 3
+			dip = 3
+			mil = 3
+		}
+		
+		hidden_effect = {
+			IUA = { 
+				country_event = { id = IUA_MAJORS.08 days = 2 }
+			}
+			IHU = {
+				country_event = { id = IUA_MAJORS.08 days = 2 }
+			}
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#The Death of Hiquingaje (Other Two)
+country_event = {
+	id = IUA_MAJORS.08
+	
+	title = "IUA_MAJORS8.t"
+	desc = "IUA_MAJORS8.d"
+	
+	picture = DEATH_OF_HEIR_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "IUA_MAJORS8.a"
+		
+		if = {
+			limit = {
+				tag = IUA
+			}
+			MGI = {
+				set_country_flag = IUA_contests
+			}
+		}
+		
+		if = {
+			limit = {
+				tag = IHU
+			}
+			MGI = {
+				set_country_flag = IHU_contests
+			}
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "IUA_MAJORS8.b"
+		
+		if = {
+			limit = {
+				tag = IUA
+			}
+			MGI = {
+				set_country_flag = IUA_wont_contest
+			}
+		}
+		
+		if = {
+			limit = {
+				tag = IHU
+			}
+			MGI = {
+				set_country_flag = IHU_wont_contest
+			}
+		}
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Decider Event - Decides what the meeting will look like.
+country_event = {
+	id = IUA_MAJORS.09
+	
+	title = "MU_AI.t"
+	desc = "MU_AI.d"
+	
+	picture = REFORM_eventPicture 
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = MGI
+		OR = {
+			has_country_flag = IUA_contests
+			has_country_flag = IUA_wont_contest
+		}
+		OR = {
+			has_country_flag = IHU_contests
+			has_country_flag = IHU_wont_contest
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "MU_AI.a"
+		
+		if = {
+			limit = {
+				AND = {
+					has_country_flag = IUA_contests
+					has_country_flag = IHU_contests
+				}
+			}
+			set_global_flag = no_cazonci_voting
+			IUA = {
+				country_event = { id = IUA_MAJORS.10 days = 7 }
+			}
+			IHU = {
+				country_event = { id = IUA_MAJORS.10 days = 7 }
+			}
+			PAT = { 
+				country_event = { id = IUA_MAJORS.10 days = 7 }
+			}
+		}
+		
+		if = {
+			limit = {
+				AND = {
+					has_country_flag = IUA_contests
+					has_country_flag = IHU_wont_contest
+				}
+			}
+			set_global_flag = no_cazonci_voting
+			IUA = {
+				country_event = { id = IUA_MAJORS.11 days = 7 }
+			}
+			IHU = {
+				country_event = { id = IUA_MAJORS.11 days = 7 }
+			}
+			PAT = { 
+				country_event = { id = IUA_MAJORS.11 days = 7 }
+			}
+		}
+		
+		if = {
+			limit = {
+				AND = {
+					has_country_flag = IUA_wont_contest
+					has_country_flag = IHU_contests
+				}
+			}
+			set_global_flag = no_cazonci_voting
+			IUA = {
+				country_event = { id = IUA_MAJORS.12 days = 7 }
+			}
+			IHU = {
+				country_event = { id = IUA_MAJORS.12 days = 7 }
+			}
+			PAT = { 
+				country_event = { id = IUA_MAJORS.12 days = 7 }
+			}
+		}
+		
+		if = {
+			limit = {
+				AND = {
+					has_country_flag = IUA_wont_contest
+					has_country_flag = IHU_wont_contest
+				}
+			}
+			IUA = {
+				country_event = { id = IUA_MAJORS.13 days = 7 }
+			}
+			IHU = {
+				country_event = { id = IUA_MAJORS.13 days = 7 }
+			}
+			PAT = { 
+				country_event = { id = IUA_MAJORS.13 days = 7 }
+			}
+		}
+		
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Hiquingaje's Successor (Both Contest)
+country_event = {
+	id = IUA_MAJORS.10
+	
+	title = "IUA_MAJORS10.t"
+	desc = "IUA_MAJORS10.d"
+	
+	picture = COURT_eventPicture 
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = { 
+			IUA = {
+				vassalize = PAT
+				free_vassal = PAT
+			}
+		}
+	}
+
+	option = {
+		name = "IUA_MAJORS10.a"
+		trigger = {
+			tag = PAT
+		}
+		
+		country_event = { id = IUA_MAJORS.14 days = 1 }
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "IUA_MAJORS10.b"
+		trigger = {
+			tag = IHU
+		}
+		
+		declare_war_with_cb = {
+			who = IUA
+			casus_belli = cb_feud_triggered
+		}
+		84 = {
+			change_controller = IHU
+		}
+		add_treasury = 100
+		add_manpower = 4
+		set_global_flag = tarascan_succession_war 
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "IUA_MAJORS10.c"
+		trigger = {
+			tag = IUA
+		}
+		
+		country_event = { id = IUA_MAJORS.15 days = 1 }
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Hiquingaje's Successor (Only Tzintzuntzan Contests)
+country_event = {
+	id = IUA_MAJORS.11
+	
+	title = "IUA_MAJORS11.t"
+	desc = "IUA_MAJORS11.d"
+	
+	picture = COURT_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "IUA_MAJORS11.a"
+		custom_tooltip = FLA_IUA_04
+		custom_tooltip = FLA_IUA_05
+		if = { 
+			limit = {
+				tag = IUA
+			}
+			IUA = {
+				create_union = PAT
+			}
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Hiquingaje's Successor (Only Ihuatzio Contests)
+country_event = {
+	id = IUA_MAJORS.12
+	
+	title = "IUA_MAJORS12.t"
+	desc = "IUA_MAJORS12.d"
+	
+	picture = COURT_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "IUA_MAJORS12.a"
+		custom_tooltip = FLA_IUA_04
+		custom_tooltip = FLA_IUA_06
+		if = { 
+			limit = {
+				tag = IHU
+			}
+			IHU = {
+				create_union = PAT
+			}
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Hiquingaje's Successor (Nobody Contests)
+country_event = {
+	id = IUA_MAJORS.13
+	
+	title = "IUA_MAJORS13.t"
+	desc = "IUA_MAJORS13.d"
+	
+	picture = COURT_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "IUA_MAJORS13.a"
+		
+		if = { 
+			limit = {
+				tag = PAT
+			}
+			PAT = {
+				define_ruler = {
+					name = "Turepupanquaran"
+					dynasty = "Uanacaze" 
+					age = 26
+					claim = 90
+					adm = 5
+					dip = 2
+					mil = 4
+				}
+			}
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Our Reaction? (Patzcuaro)
+country_event = {
+	id = IUA_MAJORS.14
+	
+	title = "IUA_MAJORS14.t"
+	desc = "IUA_MAJORS14.d"
+	
+	picture = DIPLOMACY_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "IUA_MAJORS14.a"
+		
+		declare_war_with_cb = {
+			who = IHU
+			casus_belli = cb_feud_triggered
+		}
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+	
+	option = {
+		name = "IUA_MAJORS14.b"
+		
+		declare_war_with_cb = {
+			who = IUA
+			casus_belli = cb_feud_triggered
+		}
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+	
+	option = {
+		name = "IUA_MAJORS14.c"
+		
+		add_prestige = -10
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#War Measures (Tzintzuntzan)
+country_event = {
+	id = IUA_MAJORS.15
+	
+	title = "IUA_MAJORS15.t"
+	desc = "IUA_MAJORS15.d"
+	
+	picture = BATTLE_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "IUA_MAJORS15.a"
+		
+		add_treasury = -100
+		random_owned_province = {
+			limit = {
+				controlled_by = IUA
+			}
+			add_unit_construction = {
+				type = ta_triple_alliance_infantry
+				amount = 5
+				speed = 0.05
+				cost = 0
+				mercenary = yes
+			}
+		}
+
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "IUA_MAJORS15.b"
+		
+		add_prestige = 15
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Tzintzuntzan Victorious
+country_event = {
+	id = IUA_MAJORS.16
+	
+	title = "IUA_MAJORS16.t"
+	desc = "IUA_MAJORS16.d"
+	
+	picture = CONQUEST_NATIVE_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "IUA_MAJORS16.a"
+		
+		inherit = IHU
+		inherit = PAT
+		country_event = { id = IUA_MAJORS.18 }
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Ihuatzio Victorious
+country_event = {
+	id = IUA_MAJORS.17
+	
+	title = "IUA_MAJORS17.t"
+	desc = "IUA_MAJORS17.d"
+	
+	picture = CONQUEST_NATIVE_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "IUA_MAJORS17.a"
+		
+		inherit = IUA
+		inherit = PAT
+		country_event = { id = IUA_MAJORS.18 }
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#A Path Forward
+country_event = {
+	id = IUA_MAJORS.18
+	
+	title = "IUA_MAJORS18.t"
+	desc = "IUA_MAJORS18.d"
+	
+	picture = REFORM_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "IUA_MAJORS18.a"
+		
+		custom_tooltip = GOVS_cen_i_0015
+		add_idea_group = territorial_ideas 
+		add_idea = territorial_ideology 
+		change_government = centralized_altepetl 
+		
+		hidden_effect = {
+			change_variable = { which = centralization value = 15 }
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "IUA_MAJORS18.b"
+		
+		set_variable = { which = centralization value = -45 }
+		add_idea_group = hegemonic_ideas  
+		add_idea = hegemonic_ideology  
+		change_government = altepetl  
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Tzizispandaquare's Reforms
+country_event = {
+	id = IUA_MAJORS.19
+	
+	title = "IUA_MAJORS19.t"
+	desc = "IUA_MAJORS19.d"
+	
+	picture = REFORM_eventPicture 
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		OR = { 
+			tag = IUA
+			tag = IHU
+		}
+		government = centralized_altepetl
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = {
+		name = "IUA_MAJORS19.a"
+		
+		add_stability = -1
+		custom_tooltip = GOVS_cen_i_0010
+		custom_tooltip = GOVS_lt_i_0010
+		add_country_modifier = {
+			name = IUA_great_state_reform
+			duration = -1
+		}
+		if = {
+			limit = {
+				has_estate = estate_unobles
+			}
+			add_estate_loyalty = {
+				estate = estate_unobles
+				loyalty = -25
+			}
+		}
+		if = {
+			limit = {
+				has_estate = estate_lnobles
+			}
+			add_estate_loyalty = {
+				estate = estate_lnobles
+				loyalty = -15
+			}
+		}
+		
+		hidden_effect = {
+			change_variable = { which = centralization value = 10 }
+			change_variable = { which = legaltradition value = 10 }
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "IUA_MAJORS19.b"
+		
+		add_stability = 2
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+}

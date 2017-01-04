@@ -1,0 +1,18 @@
+government = centralized_altepetl
+government_rank = 2
+mercantilism = 0.25
+technology_group = southern_mayan
+religion = newmayan 
+primary_culture = kichemayan
+capital = 201
+fixed_capital = 201
+
+1427.1.1 = {
+	monarch = {
+		name = "Belejeb K'ij"
+		dynasty = "Rabinal"
+		adm = 4
+		dip = 4
+		mil = 4
+	} 
+}

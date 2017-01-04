@@ -1,4 +1,4 @@
-﻿
+
 #For Tribute Requirements
 stronk = {
 	siege_ability = 4

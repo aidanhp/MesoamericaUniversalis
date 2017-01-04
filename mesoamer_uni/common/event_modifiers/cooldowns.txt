@@ -1,4 +1,4 @@
-﻿#Cooldowns for a variety of uses
+#Cooldowns for a variety of uses
 
 #Cooldown after granting a privilege before you are allowed to revoke it
 starter = {

@@ -18,6 +18,7 @@ historical_friend = IHU
 		dip = 3
 		mil = 5
 		leader = {
+			type = general
 			name = "Hiquingaje"
 			shock = 4
 			fire = 2

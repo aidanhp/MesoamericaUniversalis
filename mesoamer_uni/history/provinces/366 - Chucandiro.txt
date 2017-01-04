@@ -1,7 +1,6 @@
 add_core = CHU
-add_core = IUA
-owner = IUA
-controller = IUA
+owner = CHU
+controller = CHU
 culture = tarascan
 religion = tarascan
 hre = no

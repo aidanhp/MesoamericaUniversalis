@@ -1,6 +1,7 @@
 add_core = IIS
-owner = IIS
-controller = IIS
+add_core = KKC
+owner = KKC
+controller = KKC
 
 culture = kichemayan 
 religion = newmayan 

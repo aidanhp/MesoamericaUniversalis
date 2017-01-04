@@ -1,6 +1,7 @@
 add_core = GGW
-owner = GGW
-controller = GGW
+add_core = JJN
+owner = JJN
+controller = JJN
 culture = tarascan
 religion = tarascan 
 hre = no

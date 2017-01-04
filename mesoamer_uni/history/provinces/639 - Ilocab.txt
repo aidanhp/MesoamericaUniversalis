@@ -1,6 +1,7 @@
 add_core = IIO
-owner = IIO
-controller = IIO
+add_core = KKG
+owner = KKG
+controller = KKG
 
 culture = kichemayan 
 religion = newmayan 

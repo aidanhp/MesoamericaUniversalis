@@ -1,6 +1,7 @@
 add_core = XEN
-owner = XEN
-controller = XEN
+add_core = IUA
+owner = IUA
+controller = IUA
 culture = tarascan
 religion = tarascan
 hre = no

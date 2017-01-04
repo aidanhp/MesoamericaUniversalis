@@ -27,7 +27,6 @@ bureau1 = {
 	cost = 50
 	time = 6
 
-	allowed_num_of_buildings = 1
 	destroy_on_conquest = yes
 
 	trigger = {
@@ -60,7 +59,6 @@ bureau2 = {
 	time = 6
 	make_obsolete = bureau1
 
-	allowed_num_of_buildings = 1
 	destroy_on_conquest = yes
 	
 	trigger = {
@@ -93,7 +91,6 @@ bureau3 = {
 	time = 6
 	make_obsolete = bureau2
 
-	allowed_num_of_buildings = 1
 	destroy_on_conquest = yes
 	
 	trigger = {

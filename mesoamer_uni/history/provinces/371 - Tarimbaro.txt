@@ -1,6 +1,7 @@
 add_core = TMB
-owner = TMB
-controller = TMB
+add_core = CHU
+owner = CHU
+controller = CHU
 culture = tarascan
 religion = tarascan
 hre = no

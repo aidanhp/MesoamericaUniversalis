@@ -392,7 +392,7 @@ country_event = {
 	
 	title = "weakenms3.t"
 	desc = "weakenms3.d"
-	picture = CONQUEST_eventPicture
+	picture = CONQUEST_NATIVE_eventPicture
 	
 	trigger = {
 		has_disaster = ms_conflict
@@ -442,7 +442,7 @@ country_event = {
 	
 	title = "weakenms4.t"
 	desc = "weakenms4.d"
-	picture = CONQUEST_eventPicture
+	picture = CONQUEST_NATIVE_eventPicture
 	
 	is_triggered_only = yes
 	

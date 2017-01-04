@@ -1,6 +1,7 @@
 add_core = IIN
-owner = IIN
-controller = IIN
+add_core = KKG
+owner = KKG
+controller = KKG
 
 culture = kichemayan 
 religion = newmayan 

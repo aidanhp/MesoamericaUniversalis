@@ -1,4 +1,4 @@
-`add_core = XOC
+add_core = XOC
 owner = XOC
 controller = XOC
 culture = xochimila

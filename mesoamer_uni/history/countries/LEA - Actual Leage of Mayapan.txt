@@ -1,5 +1,5 @@
-government = hegemonic_kingdom
-technology_group = triple_alliance
-religion = newnahuatl
+government = altepetl
+technology_group = northern_mayan
+religion = newmayan
 primary_culture = yucatecmayan
 capital = 1	

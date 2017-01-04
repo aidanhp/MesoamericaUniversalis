@@ -1,4 +1,4 @@
-﻿#Modifiers for lower nobles
+#Modifiers for lower nobles
 ln_guarantee_noble_status = {
 
 }

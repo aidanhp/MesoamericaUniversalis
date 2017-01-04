@@ -55,12 +55,7 @@ country_decisions = {
 		major = yes	
 		potential = {
 			primary_culture = yucatecmayan
-			NOT = {
-				tag = LOM
-			}
-			NOT = {
-				exists = LOM
-			}
+			has_global_flag = may_restore_LOM
 			NOT = {
 				tag = LEA
 			}

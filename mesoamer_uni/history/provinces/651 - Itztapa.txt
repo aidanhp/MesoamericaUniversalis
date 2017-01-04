@@ -1,6 +1,7 @@
 add_core = IIX
-owner = IIX
-controller = IIX
+add_core = KAQ
+owner = KAQ
+controller = KAQ
 
 culture = kaqchikelmayan 
 religion = newmayan 

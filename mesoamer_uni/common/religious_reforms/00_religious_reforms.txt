@@ -8,7 +8,7 @@
 
 nahuatl_reforms = {
 	trigger = {
-		religion = nahuatl
+		always = no
 	}	
 
 	can_buy_idea = {
@@ -43,7 +43,7 @@ nahuatl_reforms = {
 
 inti_reforms = {
 	trigger = {
-		religion = inti
+		always = no
 	}	
 
 	can_buy_idea = {
@@ -79,7 +79,7 @@ inti_reforms = {
 
 mesoamerican_reforms = {
 	trigger = {
-		religion = mesoamerican_religion
+		always = no
 	}	
 
 	can_buy_idea = {

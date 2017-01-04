@@ -165,7 +165,7 @@ country_event = {
 		
 		if = {
 			limit = {
-				check_variable = { heir_apparent_weight value = 6 }
+				check_variable = { which = heir_apparent_weight value = 6 }
 			}
 			add_country_modifier = {
 				name = ruler_picked

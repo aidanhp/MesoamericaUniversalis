@@ -157,6 +157,10 @@ gov_altepetl_north_maya = {
 			primary_culture = centralmayan
 			primary_culture = yucatecmayan
 			primary_culture = putun_chontal
+			primary_culture = itzamayan
+			primary_culture = qeqchimayan
+			primary_culture = tzotzilmayan
+			primary_culture = tzeltalmayan
 		}
 	}
 }
@@ -186,7 +190,12 @@ gov_altepetl_highland_maya = {
 			government = centralized_altepetl
 		}
 		OR = {
-			primary_culture = highlandsmayan
+			primary_culture = kichemayan
+			primary_culture = kaqchikelmayan
+			primary_culture = tzutujilmayan
+			primary_culture = mammayan
+			primary_culture = pokomammayan
+			primary_culture = cholmayan
 		}
 	}
 }

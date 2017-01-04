@@ -1,6 +1,6 @@
-add_core = CEO
-owner = CEO
-controller = CEO
+add_core = GGX
+owner = GGX
+controller = GGX
 culture = tarascan
 religion = tarascan 
 hre = no

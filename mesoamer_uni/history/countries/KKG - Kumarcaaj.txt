@@ -3,7 +3,7 @@ government_rank = 2
 mercantilism = 0.25
 technology_group = southern_mayan
 religion = newmayan 
-primary_culture = highlandsmayan
+primary_culture = kichemayan
 capital = 195
 fixed_capital = 195
 
@@ -16,6 +16,7 @@ fixed_capital = 195
 		dip = 4
 		mil = 6
 		leader = {
+			type = general
 			name = "Q'uik'ab"
 			shock = 5
 			fire = 4

@@ -1,7 +1,7 @@
 add_core = ZIP
-add_core = IUA
-owner = IUA
-controller = IUA
+add_core = JJN
+owner = JJN
+controller = JJN
 culture = tarascan
 religion = tarascan
 hre = no

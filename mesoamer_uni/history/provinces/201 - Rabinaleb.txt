@@ -1,15 +1,16 @@
 add_core = IIU
-owner = IIU
-controller = IIU
+add_core = KKC
+owner = KKC
+controller = KKC
 
 culture = kichemayan 
 religion = newmayan 
 capital = "Tz'al Amja"
 trade_goods = obsidian
 hre = no
-base_tax = 2
-base_production = 4
-base_manpower = 15
+base_tax = 3
+base_production = 8
+base_manpower = 29
 is_city = yes
 
 discovered_by = northern_mayan

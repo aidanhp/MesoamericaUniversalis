@@ -1,4 +1,4 @@
-﻿#Modifiers for altepetl nobles estate
+#Modifiers for altepetl nobles estate
 nothing = {
 
 }

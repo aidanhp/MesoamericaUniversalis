@@ -1,6 +1,7 @@
 add_core = IIP
-owner = IIP
-controller = IIP
+add_core = KKD
+owner = KKD
+controller = KKD
 
 culture = kichemayan 
 religion = newmayan 

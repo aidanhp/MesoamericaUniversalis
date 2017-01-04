@@ -1,7 +1,6 @@
 add_core = GGF
-add_core = TZC
-owner = TZC
-controller = TZC
+owner = GGF
+controller = GGF
 culture = xilotlantxinco
 religion = tarascan 
 hre = no

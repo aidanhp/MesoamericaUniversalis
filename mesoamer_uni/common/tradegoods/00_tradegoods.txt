@@ -8,9 +8,6 @@ grain = {
 	modifier = {
 		land_forcelimit_modifier = 0.10
 	}
-	province = {
-		local_manpower_modifier = 0.025
-	}
 	chance = {
 		factor = 10
 	}
@@ -18,14 +15,9 @@ grain = {
 
 staplecrops = {
 	color = { 0.96 0.93 0.58 }
-
 	modifier = {
 		land_forcelimit_modifier = 0.10
 	}
-	province = {
-		local_manpower_modifier = 0.025
-	}
-
 	chance = {
 		factor = 10
 	}
@@ -33,14 +25,9 @@ staplecrops = {
 
 aquaticfoods = {
 	color = { 0.00 0.6117 1 }
-
 	modifier = {
 		land_forcelimit_modifier = 0.10
 	}
-	province = {
-		local_manpower_modifier = 0.025
-	}
-
 	chance = {
 		factor = 10
 	}
@@ -48,14 +35,9 @@ aquaticfoods = {
 
 fruits = {
 	color = { 0.1607 0.8549 0.2431 }
-
 	modifier = {
 		land_morale = 0.05
 	}
-	province = {
-		local_manpower_modifier = 0.025
-	}
-
 	chance = {
 		factor = 10
 	}
@@ -63,14 +45,9 @@ fruits = {
 
 choclate = {
 	color = { 0.533 0.3647 0.2313 }
-
 	modifier = {
 		trade_efficiency = 0.10
 	}
-	province = {
-		local_unrest = -1
-	}
-
 	chance = {
 		factor = 10
 	}
@@ -78,14 +55,9 @@ choclate = {
 
 ceramics = {
 	color = { 0.9411 0.7019 0.5098 }
-
 	modifier = {
 		production_efficiency = 0.10
 	}
-	province = {
-		local_production_efficiency = 0.05
-	}
-	
 	chance = {
 		factor = 10
 	}
@@ -93,14 +65,9 @@ ceramics = {
 
 textiles = {
 	color = { 0.9411 0.8431 0.5098 }
-
 	modifier = {
 		prestige = 1
 	}
-	province = {
-		local_production_efficiency = 0.05
-	}
-	
 	chance = {
 		factor = 10
 	}
@@ -108,15 +75,10 @@ textiles = {
 
 obsidian = {
 	color = { 0.33 0.33 0.33 }
-
 	modifier = {
 		legitimacy = 0.25
 		global_trade_power = 0.10
 	}
-	province = {
-		local_tax_modifier = 0.05
-	}
-
 	chance = {
 		factor = 10
 	}
@@ -124,14 +86,9 @@ obsidian = {
 
 preciousstones = {
 	color = { 0.8862 0.1686 0.4549 }
-
 	modifier = {
 		prestige = 1
 	}
-	province = {
-		local_tax_modifier = 0.05
-	}
-
 	chance = {
 		factor = 10
 	}
@@ -139,15 +96,10 @@ preciousstones = {
 
 plumes = {
 	color = { 0.1647 0.9058 0.6705 }
-
 	modifier = {
 		prestige = 0.50
 		legitimacy = 0.25
 	}
-	province = {
-		local_tax_modifier = 0.05
-	}
-
 	chance = {
 		factor = 10
 	}
@@ -155,14 +107,9 @@ plumes = {
 
 salt = {
 	color = { 0.9137 0.9568 0.9411 }
-
 	modifier = {
 		war_exhaustion = -0.025
 	}
-	province = {
-		local_tax_modifier = 0.05
-	}
-
 	chance = {
 		factor = 10
 	}
@@ -170,15 +117,10 @@ salt = {
 
 bronze = {
 	color = { 0.7686 0.6078 0.3215 }
-
 	modifier = {
 		production_efficiency = 0.05
 		infantry_power = 0.05
 	}
-	province = {
-		local_production_efficiency = 0.05
-	}
-
 	chance = {
 		factor = 10
 	}
@@ -186,14 +128,9 @@ bronze = {
 
 gold = {
 	color = { 0.8862 0.8078 0.1411 }
-
 	modifier = {
 		global_tax_modifier = 0.075
 	}
-	province = {
-		local_tax_modifier = 0.05
-	}
-
 	chance = {
 		factor = 10
 	}
@@ -201,14 +138,9 @@ gold = {
 
 lime = {
 	color = { 0.7058 0.9098 0.4901 }
-
 	modifier = {
 		build_cost = -0.10
 	}
-	province = {
-		local_build_cost = -0.05
-	}
-
 	chance = {
 		factor = 10
 	}
@@ -216,14 +148,9 @@ lime = {
 
 iron = {
 	color = { 0.3764 0.3568 0.3176 }
-
 	modifier = {
 		land_forcelimit_modifier = 0.10
 	}
-	province = {
-		local_defensiveness = 0.15
-	}
-
 	chance = {
 		factor = 10
 	}
@@ -231,14 +158,9 @@ iron = {
 
 lumber = {
 	color = { 0.3803 0.2745 0.0901 }
-
 	modifier = {
 		build_cost = -0.10
 	}
-	province = {
-		local_defensiveness = 0.15
-	}
-
 	chance = {
 		factor = 10
 	}
@@ -246,15 +168,10 @@ lumber = {
 
 balsas = {
 	color = { 0.95000 0.8078 0.1411 }
-
 	modifier = {
 		trade_efficiency = 0.10
 		prestige = 1
 	}
-	province = {
-		local_tax_modifier = 0.075
-	}
-
 	chance = {
 		factor = 10
 	}
@@ -262,14 +179,9 @@ balsas = {
 
 cotton = {
 	color = { 0.95 0.95 0.95 }
-
 	modifier = {
 		infantry_power = 0.05
 	}
-	province = {
-		local_production_efficiency = 0.05
-	}
-
 	chance = {
 		factor = 10
 	}
@@ -277,14 +189,9 @@ cotton = {
 
 honey = {
 	color = { 0.68235 0.39215 0.08627 }
-
 	modifier = {
 		global_unrest = -1
 	}
-	province = {
-		local_unrest = -1
-	}
-
 	chance = {
 		factor = 10
 	}
@@ -292,14 +199,9 @@ honey = {
 
 slaves = {
 	color = { 0.35686 0.23921 0.16078 }
-
 	modifier = {
 		production_efficiency = 0.10
 	}
-	province = {
-		local_production_efficiency = 0.05
-	}
-
 	chance = {
 		factor = 10
 	}
@@ -307,14 +209,9 @@ slaves = {
 
 copal = {
 	color = { 0.69803 0.50196 0.30196 }
-
 	modifier = {
 		global_missionary_strength = 0.02
 	}
-	province = {
-		local_missionary_strength = 0.01
-	}
-
 	chance = {
 		factor = 10
 	}

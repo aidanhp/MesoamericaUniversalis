@@ -19,14 +19,15 @@ historical_friend = IHU
 		dip = 4
 		mil = 5
 		leader = {
+			type = general
 			name = "Tangaxoan I"
 			shock = 5
 			fire = 1
 			manuever = 3
 			siege = 2
 		}
-		clear_scripted_personalities = yes 
 	}
+	clear_scripted_personalities = yes 
 	add_ruler_personality = conqueror_personality    
 	add_ruler_personality = well_connected_personality     
 	add_ruler_personality = lawgiver_personality    

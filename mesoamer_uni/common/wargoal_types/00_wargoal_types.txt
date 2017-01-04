@@ -1126,11 +1126,7 @@ annex_country = {
 	
 	badboy_factor = 0.5
 	prestige_factor = 1
-	peace_cost_factor = 1.0	
-	
-	allowed_provinces = {
-		is_claim = ROOT
-	}
+	peace_cost_factor = 0.5
 
 	#po_annex = yes
 	po_demand_provinces = yes

@@ -20,6 +20,7 @@ historical_friend = TCP
 		dip = 6
 		mil = 6
 		leader = {
+			type = general
 			name = "Nezahualcoyotl"
 			shock = 4
 			fire = 4

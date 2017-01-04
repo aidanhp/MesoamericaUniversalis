@@ -1,0 +1,18 @@
+government = altepetl 
+government_rank = 1
+mercantilism = 0.25
+technology_group = west_mexican 
+religion = tarascan
+primary_culture = tarascan
+capital = 964
+fixed_capital = 964
+
+1427.1.1 = {
+	monarch = {
+		name = "Sica"
+		dynasty = "Coahuayutla"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

@@ -1,18 +1,17 @@
-culture = mammayan 
-religion = newmayan
-capital = "South Xoconochco"
-trade_goods = unknown
+add_core = KKD
+owner = KKD
+controller = KKD
+
+culture = mammayan
+religion = newmayan 
+capital = "Ostuncalco"
+trade_goods = grain
 hre = no
-base_tax = 1
-base_production = 2
-base_manpower = 6
-native_size = 25
-native_ferocity = 2
-native_hostileness = 8
-discovered_by = semi_nomadic_tribe
-discovered_by = west_mexican
-discovered_by = tarascan
-discovered_by = central_mexican
-discovered_by = triple_alliance
+base_tax = 2
+base_production = 4
+base_manpower = 15
+is_city = yes
+fort_15th = yes
+
 discovered_by = northern_mayan
 discovered_by = southern_mayan

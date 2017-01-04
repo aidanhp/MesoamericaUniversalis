@@ -1,4 +1,4 @@
-﻿#Modifiers for upper nobles estate 
+#Modifiers for upper nobles estate 
 un_exclusive_generalship = {
 
 }

@@ -3,7 +3,7 @@ government_rank = 2
 mercantilism = 0.25
 technology_group = northern_mayan
 religion = newnahuatl 
-primary_culture = aztec
+primary_culture = yucatecmayan 
 capital = 148
 fixed_capital = 148
 

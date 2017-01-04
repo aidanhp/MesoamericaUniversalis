@@ -1,4 +1,4 @@
-﻿#Modifiers for priesthood estate
+#Modifiers for priesthood estate
 ph_lift_political_embargoes = {
 
 }

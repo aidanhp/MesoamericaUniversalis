@@ -1,0 +1,18 @@
+government = altepetl 
+government_rank = 1
+mercantilism = 0.25
+technology_group = west_mexican 
+religion = tarascan
+primary_culture = tarascan
+capital = 955
+fixed_capital = 955
+
+1427.1.1 = {
+	monarch = {
+		name = "Curparaxan"
+		dynasty = "Panindicuaro"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

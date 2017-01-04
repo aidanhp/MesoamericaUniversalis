@@ -2,8 +2,8 @@ government = centralized_altepetl
 government_rank = 2
 mercantilism = 0.25
 technology_group = northern_mayan
-religion = nahuatl
-primary_culture = aztec
+religion = newmayan
+primary_culture = yucatecmayan 
 capital = 159
 fixed_capital = 159
 

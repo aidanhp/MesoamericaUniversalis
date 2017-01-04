@@ -83,7 +83,7 @@ vassal = {
 	end_date = 1821.1.1
 }
 
-protectorate = {
+vassal = {
 	first = LOM
 	second = AHC
 	start_date = 1428.1.1
@@ -100,6 +100,13 @@ vassal = {
 vassal = {
 	first = LOM
 	second = CNP
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = LOM
+	second = EKA
 	start_date = 1428.1.1
 	end_date = 1821.1.1
 }

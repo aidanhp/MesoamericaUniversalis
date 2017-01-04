@@ -1,13 +1,18 @@
-culture = mammayan 
+add_core = KKD
+owner = KKD
+controller = KKD
+
+culture = mammayan
 religion = newmayan 
-capital = "North Xilotepec"
-trade_goods = unknown
+capital = "Zaculeu"
+trade_goods = grain
 hre = no
-base_tax = 1
-base_production = 1
-base_manpower = 3
-native_size = 25
-native_ferocity = 2
-native_hostileness = 8
+base_tax = 3
+base_production = 7
+base_manpower = 25
+is_city = yes
+fort_15th = yes
+
 discovered_by = northern_mayan
 discovered_by = southern_mayan
+

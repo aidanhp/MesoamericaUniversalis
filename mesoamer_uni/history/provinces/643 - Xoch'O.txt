@@ -1,6 +1,7 @@
 add_core = IIM
-owner = IIM
-controller = IIM
+add_core = KKD
+owner = KKD
+controller = KKD
 
 culture = kichemayan 
 religion = newmayan 

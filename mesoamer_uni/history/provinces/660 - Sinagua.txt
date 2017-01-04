@@ -1,7 +1,7 @@
 add_core = FFU
-add_core = ZAT
-owner = ZAT
-controller = ZAT
+add_core = FFT
+owner = FFT
+controller = FFT
 culture = tarascan
 religion = tarascan 
 hre = no

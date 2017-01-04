@@ -57,7 +57,7 @@ ruler_has_good_adm_personality = {
 	}
 }
 
-ruler_has_good_dip_personality {
+ruler_has_good_dip_personality = {
 	has_dlc = "Rights of Man" 
 	OR = {
 		ruler_has_personality = careful_personality
@@ -136,7 +136,7 @@ heir_has_good_adm_personality = {
 	}
 }
 
-heir_has_good_dip_personality {
+heir_has_good_dip_personality = {
 	has_dlc = "Rights of Man" 
 	OR = {
 		heir_has_personality = careful_personality
@@ -216,7 +216,7 @@ consort_has_good_adm_personality = {
 	}
 }
 
-consort_has_good_dip_personality {
+consort_has_good_dip_personality = {
 	has_dlc = "Rights of Man" 
 	OR = {
 		consort_has_personality = careful_personality

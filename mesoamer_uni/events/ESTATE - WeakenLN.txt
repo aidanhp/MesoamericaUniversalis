@@ -98,7 +98,7 @@ country_event = {
 	
 	title = "weakenln3.t"
 	desc = "weakenln3.d"
-	picture = CONQUEST_eventPicture
+	picture = CONQUEST_NATIVE_eventPicture
 	
 	trigger = {
 		has_disaster = ln_uprising
@@ -162,7 +162,7 @@ country_event = {
 	
 	title = "weakenln4.t"
 	desc = "weakenln4.d"
-	picture = CONQUEST_eventPicture
+	picture = CONQUEST_NATIVE_eventPicture
 	
 	is_triggered_only = yes
 	

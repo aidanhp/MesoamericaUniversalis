@@ -1,4 +1,4 @@
-government = hegemonic_kingdom
+government = centralized_altepetl
 technology_group = triple_alliance
 religion = tarascan
 primary_culture = tarascan

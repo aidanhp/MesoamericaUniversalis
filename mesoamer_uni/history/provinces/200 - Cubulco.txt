@@ -1,6 +1,7 @@
 add_core = IIT
-owner = IIT
-controller = IIT
+add_core = KKC
+owner = KKC
+controller = KKC
 
 culture = kichemayan 
 religion = newmayan 

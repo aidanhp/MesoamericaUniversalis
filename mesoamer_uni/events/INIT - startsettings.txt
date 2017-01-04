@@ -21,11 +21,11 @@ country_event = {
 		} 
 	}
 
-	option = {
-		name = "start1.b"
-		add_country_modifier = {
-			name = "noinvasions"
-			duration = -1
-		} 
-	}
+	#option = {
+	#	name = "start1.b"
+	#	add_country_modifier = {
+	#		name = "noinvasions"
+	#		duration = -1
+	#	} 
+	#}
 }

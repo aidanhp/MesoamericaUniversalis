@@ -1,7 +1,6 @@
 add_core = GGG
-add_core = GGK
-owner = GGK
-controller = GGK
+owner = GGG
+controller = GGG
 culture = tarascan
 religion = tarascan 
 hre = no
