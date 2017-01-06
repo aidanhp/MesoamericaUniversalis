@@ -101,8 +101,7 @@ country_event = {
 					has_building = law1
 				}
 				controller = { 
-					multiply_variable = { which = lt_gain value = 1.05 }
-					#change_variable = { which = legaltradition value = 0.10 }
+					change_variable = { which = legaltradition value = 0.10 }
 				}
 			}
 			if = {
@@ -110,8 +109,7 @@ country_event = {
 					has_building = law2
 				}
 				controller = { 
-					multiply_variable = { which = lt_gain value = 1.10 }
-					#change_variable = { which = legaltradition value = 0.25 }
+					change_variable = { which = legaltradition value = 0.25 }
 				}
 			}
 			if = {
@@ -119,8 +117,7 @@ country_event = {
 					has_building = law3
 				}
 				controller = { 
-					multiply_variable = { which = lt_gain value = 1.15 }
-					#change_variable = { which = legaltradition value = 0.50 }
+					change_variable = { which = legaltradition value = 0.50 }
 				}
 			}
 		}
@@ -260,7 +257,7 @@ country_event = {
 			limit = {
 				has_active_policy = reduce_religious_influence
 			}
-			change_variable = { which = religioustradition value = -2.0 }
+			change_variable = { which = religioustradition value = -1.0 }
 		}
 		
 		if = {
@@ -490,6 +487,24 @@ country_event = {
 			set_variable = { which = militancy value = -100 }
 		}
 		
+		#Calculate Change from last year 
+		set_variable = { which = cnt_new which = centralization }
+		set_variable = { which = lt_new which = legaltradition }
+		set_variable = { which = mrt_new which = meritocratictradition }
+		set_variable = { which = rt_new which = religioustradition }
+		set_variable = { which = mil_new which = militancy }
+		
+		subtract_variable = { which = cnt_new which = cnt_current }
+		subtract_variable = { which = lt_new which = lt_current }
+		subtract_variable = { which = mrt_new which = mrt_current }
+		subtract_variable = { which = rt_new which = rt_current }
+		subtract_variable = { which = mil_new which = mil_current }
+		
+		set_variable = { which = cnt_current which = centralization }
+		set_variable = { which = lt_current which = legaltradition }
+		set_variable = { which = mrt_current which = meritocratictradition }
+		set_variable = { which = rt_current which = religioustradition }
+		set_variable = { which = mil_current which = militancy }
 		}
 		
 	}

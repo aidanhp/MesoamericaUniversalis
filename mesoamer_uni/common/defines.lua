@@ -1,8 +1,8 @@
 NDefines = {
 
 NGame = {
-	START_DATE = "1427.12.31",
-	END_DATE = "1821.1.2",
+	START_DATE = "1428.1.30",
+	END_DATE = "1697.7.25",
 	MAX_RANDOM_NEW_WORLD = "1492.1.1",
 
 	GREAT_POWER_FRENZY_START = "1914.07.28",	-- Latest date for the start of the Great Power Frenzy (struggle).

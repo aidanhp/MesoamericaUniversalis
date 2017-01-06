@@ -582,15 +582,15 @@
  #FACTIONS END
  
  #Policies
- centralization_of_power: "§GCentralization of Power§!"
- decentralization_of_power: "§GDecentralization of Power§!"
- strengthen_legal_system: "§GStrengthen the Legal System§!"
- promote_meritocracy: "§GPromote Meritocracy§!"
- promote_patrimonialism: "§GPromote Patrimonialism§!"
- promote_religious_dogma: "§GPromote Religious Influence§!"
- reduce_religious_influence: "§GReduce Religious Influence§!"
- militarization: "§GMilitarization Efforts§!"
- demilitarization: "§GDemilitarization Efforts§!"
+ centralization_of_power: "§GCentralization of Power§! (§Y+0.25 CNT Yearly§!)"
+ decentralization_of_power: "§GDecentralization of Power§! (§Y-2.0 CNT Yearly§!)"
+ strengthen_legal_system: "§GStrengthen the Legal System§! (§Y+0.25 LT Yearly§!)"
+ promote_meritocracy: "§GPromote Meritocracy§! (§Y+0.25 MRT Yearly§!)"
+ promote_patrimonialism: "§GPromote Patrimonialism§! (§Y-2.0 MRT Yearly§!)"
+ promote_religious_dogma: "§GPromote Religious Influence§! (§Y+0.25 RT Yearly§!)"
+ reduce_religious_influence: "§GReduce Religious Influence§! (§Y-1.0 RT Yearly§!)"
+ militarization: "§GMilitarization Efforts§! (§Y+0.25 MIL Yearly§!)"
+ demilitarization: "§GDemilitarization Efforts§! (§Y-2.0 MIL Yearly§!)"
  
  #Test Stuff
  countrystats1.t: "Gov Stat Change"

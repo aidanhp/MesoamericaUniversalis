@@ -44,7 +44,168 @@ country_event = {
 					change_variable = { which = provpp value = 10 }
 				}
 			
-				#Capital of a Kingdom
+				
+				#From Total Development
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							total_development = 150
+						}
+					}
+					change_variable = { which = provpp value = 10 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							total_development = 200
+						}
+					}
+					change_variable = { which = provpp value = 10 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							total_development = 400
+						}
+					}
+					change_variable = { which = provpp value = 5 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							total_development = 600
+						}
+					}
+					change_variable = { which = provpp value = 5 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							total_development = 800
+						}
+					}
+					change_variable = { which = provpp value = 5 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							total_development = 1000
+						}
+					}
+					change_variable = { which = provpp value = 5 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							total_development = 1250
+						}
+					}
+					change_variable = { which = provpp value = 5 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							total_development = 1500
+						}
+					}
+					change_variable = { which = provpp value = 5 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							total_development = 1750
+						}
+					}
+					change_variable = { which = provpp value = 5 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							total_development = 2000
+						}
+					}
+					change_variable = { which = provpp value = 5 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							total_development = 2333
+						}
+					}
+					change_variable = { which = provpp value = 5 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							total_development = 2666
+						}
+					}
+					change_variable = { which = provpp value = 5 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							total_development = 3000
+						}
+					}
+					change_variable = { which = provpp value = 5 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							total_development = 3500
+						}
+					}
+					change_variable = { which = provpp value = 5 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							total_development = 4000
+						}
+					}
+					change_variable = { which = provpp value = 5 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							total_development = 5000
+						}
+					}
+					change_variable = { which = provpp value = 5 }
+				}
+				
 				if = {
 					limit = {
 						is_capital = yes
@@ -53,9 +214,20 @@ country_event = {
 							NOT = { government_rank = 3 }
 						}
 					}
-					change_variable = { which = provpp value = 60 }
+					change_variable = { which = provpp value = 20 }
 				}
 			
+				#Capital of a Kingdom
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							total_development = 100
+						}
+					}
+					change_variable = { which = provpp value = 15 }
+				}
+				
 				#Capital of an Empire
 				if = {
 					limit = {
@@ -64,23 +236,68 @@ country_event = {
 							government_rank = 3
 						}
 					}
-					change_variable = { which = provpp value = 150 }
+					change_variable = { which = provpp value = 50 }
 				}
-			
-				#Is a Major Trade Center
+				
+				#Trade Power
 				if = {
 					limit = {
-						has_province_modifier = major_trade_center
+						province_trade_power = 2.5
 					}
-					change_variable = { which = provpp value = 10 }
+					change_variable = { which = provpp value = 5 }
+				}
+				
+				if = {
+					limit = {
+						province_trade_power = 5.0
+					}
+					change_variable = { which = provpp value = 5 }
 				}
 			
+				if = {
+					limit = {
+						province_trade_power = 7.5
+					}
+					change_variable = { which = provpp value = 5 }
+				}
+				
+				if = {
+					limit = {
+						province_trade_power = 10.0
+					}
+					change_variable = { which = provpp value = 5 }
+				}
+				
+				if = {
+					limit = {
+						province_trade_power = 15.0
+					}
+					change_variable = { which = provpp value = 5 }
+				}
+				
+				if = {
+					limit = {
+						province_trade_power = 20.0
+					}
+					change_variable = { which = provpp value = 5 }
+				}
+				
 				#Buildings
 				if = {
 					limit = {
 						has_building = farm1
 					}
 					change_variable = { which = provpp value = 10 }
+				}
+				
+				#Tech
+				if = {
+					limit = {
+						owner = {
+							adm_tech = 2
+						}
+					}
+					change_variable = { which = provpp value = 5 }
 				}
 			
 				if = {

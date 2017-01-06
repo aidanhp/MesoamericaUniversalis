@@ -79,7 +79,7 @@ country_event = {
 				set_variable = { which = mayapan_fc value = 0 }
 				set_variable = { which = chichenitza_fc value = 0 }
 				set_variable = { which = ekab_fc value = 0 }
-				
+			
 				
 				#Pick Estates
 				if = {
@@ -354,18 +354,28 @@ country_event = {
 				if = {
 					limit = {
 						OR = { 
-							government = feudal_chiefdom 
-							government = ttt_subordinate_lordship 
+							government = triarchal_confederation_sub  
+							government = triarchal_confederation_sub   
 						}
 					}
 					change_variable = { which = centralization value = -18 }
-					change_variable = { which = legaltradition value = -5 }
-					change_variable = { which = meritocratictradition value = -5 }
+					change_variable = { which = legaltradition value = 10 }
+					change_variable = { which = meritocratictradition value = 10 }
 					change_variable = { which = religioustradition value = 30 }
 					change_variable = { which = intellectualtradition value = 16 }
 					change_variable = { which = militancy value = 35 }
 				}
 				
+				set_variable = { which = cnt_current which = centralization }
+				set_variable = { which = cnt_new which = 0 }
+				set_variable = { which = lt_current which = legaltradition }
+				set_variable = { which = lt_new which = 0 }
+				set_variable = { which = mrt_current which = meritocratictradition }
+				set_variable = { which = mrt_new which = 0 }
+				set_variable = { which = rt_current which = religioustradition }
+				set_variable = { which = rt_new which = 0 }
+				set_variable = { which = mil_current which = militancy }
+				set_variable = { which = mil_new which = 0 }
 			}
 			
 			
