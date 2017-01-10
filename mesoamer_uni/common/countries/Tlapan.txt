@@ -34,67 +34,30 @@ historical_units = {
 }
 
 monarch_names = {
-	"Achcauhtli #0" = 20
-	"Acolmixtli #0" = 20
-	"Camaxtli #0" = 20	
-	"Chicahua #0" = 20	
-	"Chimalli #0" = 20	
-	"Citlalli #0" = 20	
-	"Coyotl #0" = 20	
-	"Cuauhtemoc #0" = 20	
-	"Cuetlachtli #0" = 20	
-	"Etalpalli #0" = 20	
-	"Eztli #0" = 20	
-	"Huemac #0" = 20	
-	"Huitzilihuitl #0" = 20	
-	"Huitzilin #0" = 20	
-	"Ilhicamina #0" = 20	
-	"Itztli #0" = 20	
-	"Milintica #0" = 20	
-	"Meztli #0" = 20	
-	"Necalli #0" = 20	
-	"Nezahualcoyotl #0" = 20	
-	"Nezahualpilli #0" = 20	
-	"Nochtli #0" = 20	
-	"Nopaltzin #0" = 20	
-	"Tezcacoatl #0" = 20	
-	"Tlacaelel #0" = 20	
-	"Tlazopilli #0" = 20	
-	"Xipilli #0" = 20	
-	"Xiuhcoatl #0" = 20	
-	"Yaotl #0" = 20	
-	"Yayauhqui #0" = 20	
-
-	"Chalchiuitl #0" = -1
-	"Citlalmina #0" = -1
-	"Coaxoch #0" = -1
-	"Cozamalotl #0" = -1
-	"Coszcatl #0" = -1
-	"Malinalxochitl #0" = -1
-	"Nenetl #0" = -1
-	"Quetzalxochitl #0" = -1
-	"Tlalli #0" = -1
-	"Xochitl #0" = -1
+	"Mbaa #0" = 10
+	"Huba #0" = 10
+	"Kuba #0" = 10
+	"Majuu #0" = 10
+	"Ife #0" = 10
+	"Nasama #0" = 10
+	"Miku #0" = 10
+	"Aka #0" = 10
+	"Ruhwa #0" = 10
+	"Ahmba #0" = 10
+	"Suwa #0" = 10
+	"Igi #0" = 10
+	
+	"Ija #0" = -1
+	"Njga #0" = -1
+	"Agwaa #0" = -1
+	"Tokaja #0" = -1
+	"Ahgu #0" = -1
 }
 
 leader_names = {
-	Yoatl Matlalihuitl Nochehuatl Tototl Cuauhtl Tochtli Zolin Cuetzpalli Itzcuintli
-	Huizitl Ocelotl Ozomatli Cuetlachtli Tecolotl Miztli Cipac Acatlotzin Ahuítzotl 
-	Ahuítzotl Cacamatzin Chalchiutlatonac Cuauhtemoc Eyahue Huitzilihuitl Ixtlilxochitl 
-	Izquemitl Nezahualpilli Maxixcatzin Olintecke Qualpopoca Quimichetl Tezozomoc 
-	Totoquihuatzin Xiconocatzin Xolotl Yaztachimal Zoanacochtzin 
-	
-	"Tonatiuh"
-	"Huehueteotl"
-	"Xiuhtecutli"
-	"Tlaloc"
-	"Tezcatlipoca"
-	"Quetzalcoatl"
-	"Mictlan"
-	"Mictlantecuhtli"
-	"Ehecatl"
-	"Xolotl"
-	"Xochipill"
+	Tenoch Tetzcocah Tlaco Amaxal Chapulin Coyopotl Huitzil Moyotl Tecuampil Xique Ixehuatl Ahuatl Chilchoa 
+	Cuatlapantzi Michimani Techalotzi Quecholac Tecuanhuey Tuxpan Ehecatl Cuahutenco Coatl Cuahtzon Cuaxiloa 
+	Hueytletl Tecuampil Tlapaltototli Totozintle Xochitecatl Tlahuetl Tonacatl Zontlimatzi Chalci 
 }
 
 ship_names = {

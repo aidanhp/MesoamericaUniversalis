@@ -364,10 +364,6 @@ on_monarch_death = {
 				primary_culture = amuzgo  
 				primary_culture = newmixtec  
 				primary_culture = newzapotec  
-				primary_culture = amuzgo  
-				primary_culture = newmixtec  
-				primary_culture = newzapotec  
-				primary_culture = chatino  
 			}
 			ai = no
 			NOT = {

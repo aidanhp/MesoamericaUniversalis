@@ -365,6 +365,13 @@
  REBELS_ARMY_TECH_SCALE:1 "Military Technology: $VALUE$\n"
  
  HEIR_CHANCE_TOOLTIP2:0 "If our heir dies or gets inherited, then our chance to get a new heir is modified by $CHANCE$."
+ MAPMODE_COLONIALANDTRADECOMPANYREGIONS:0 "Colonial and Trade Regions"
+ MAPMODE_COLONIALANDTRADECOMPANYREGIONS_DESC:0 "Regions where colonial states and trade companies can form."
+ SORT_TIME:0 "Sort by the time it will take to convert."
+ SORT_UNITY:0 "Sort by the impact on religious unity converting this province will have."
+ UNITY_IMPACT:0 "Converting $NAME$ will increases religious unity by $CHANGE$.\nIt currently increases it by $CURR|Y$."
+ UNITY:0 "Unity"
+ REB:0 "Rebels"
  
  #"Continents"
  continent_1: "Mesoamerica"

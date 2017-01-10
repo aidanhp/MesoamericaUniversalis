@@ -331,6 +331,9 @@
  EV_HGF_lords_feast: "A lord's feast will be held in the capital in 7 days time."
  EV_HGF_commons_feast: "A common's feast will be held in the capital in 7 days time."
  
- 
+ ##############
+ #INSTITUTIONS#
+ ##############
+ WORLD_SYSTEM_PENALTY: "Countries that have not embraced the World System institution will get a technology cost penalty that increases by 1% per year, up to 50%."
  
  

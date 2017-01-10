@@ -427,11 +427,10 @@ nahua = {
 	}
 
 	dynasty_names = {
-		# CKII
-		"Acatl" "Atl" "Calli" "Cipactli" "Coatl" "Coyotl" "Cozcaquauhtli" "Cuetzpalin" "Ehecatl" "Icpalli" 
-		"Itz" "Itzcuintli" "Macehualli" "Malinalli" "Mazatl" "Miquiztli" "Nezahual" "Nochtli" "Ocelotl" 
-		"Ollin" "Otli" "Ozomatli" "Pipiltin" "Pochtecatl" "Quauhtli" "Quauitl" "Quiautl" "Tecpatl" 
-		"Tecuhtli" "Tepetl" "Tetl" "Tlantli" "Tochtli" "Toltecatl" "Xochitl"
+		"Tenoch" "Tetzcocah" "Tlaco" "Amaxal" "Chapulin" "Coyopotl" "Huitzil" "Moyotl" "Tecuampil" "Xique" "Ixehuatl" "Ahuatl"
+		"Chilchoa" "Chuatlapantzi" "Michimani" "Techalotzi" "Quecholac" "Tecuanhuey" "Tuxpan" "Ehecatl" "Cuahutenco" "Coatl"
+		"Cuahtzon" "Cuaxiloa" "Hueytletl" "Tecualt" "Tlapaltotoli" "Totozintle" "Xochitecatl" "Tlahuetl" "Tonacatl"
+		"Zontlimatzi" "Chalchi"
 	}
 }
 
@@ -3315,7 +3314,9 @@ mayan = {
 	mixezoquemayan = {
 		male_names = {
 			"Ah Zun" "Ah Uitz" "Ah Cuat" "Ah Atira" "Nabatun" "Ah Chac" "Nachan Kan" "Ah Cetz" "Ah Op" "Ah Kauil" "Ah Kukil"
-			"Nappol Chuuah" "Ah Tzam" "Ba'alache'" "Xuulub" "Kitam" "Sak Bok" "Siina'an" "Hunac" "Ah Xupan"
+			"Nappol Chuuah" "Ah Tzam" "Ba'alache'" "Xuulub" "Kitam" "Sak Bok" "Siina'an" "Hunac" "Ah Xupan" "Ah Kin" "Hun Uitzil"
+			"Ah Tapay-Nok" "Ah Paal" "Ah Sulim" "Ah Tzab" "Ah Chacah" "Ix Copacab" "Nabich" "Ah Kul" "Nahau" "Naum" "Ah Macan"
+			"Ixkil-Itzam" "Nadzul" "Ah Zuyok" "Chilam" "Ah Kukum" 
 		}
 		female_names = {
 			"Hatz'utz" "Pak'aal" "Xtz'aak" "Xunaan" "Xch'uupal" "Tz'unu'un" "Suhuy Pal"
@@ -3325,7 +3326,9 @@ mayan = {
 	yucatecmayan = {
 		male_names = {
 			"Ah Zun" "Ah Uitz" "Ah Cuat" "Ah Atira" "Nabatun" "Ah Chac" "Nachan Kan" "Ah Cetz" "Ah Op" "Ah Kauil" "Ah Kukil"
-			"Nappol Chuuah" "Ah Tzam" "Ba'alache'" "Xuulub" "Kitam" "Sak Bok" "Siina'an" "Hunac" "Ah Xupan"
+			"Nappol Chuuah" "Ah Tzam" "Ba'alache'" "Xuulub" "Kitam" "Sak Bok" "Siina'an" "Hunac" "Ah Xupan" "Ah Kin" "Hun Uitzil"
+			"Ah Tapay-Nok" "Ah Paal" "Ah Sulim" "Ah Tzab" "Ah Chacah" "Ix Copacab" "Nabich" "Ah Kul" "Nahau" "Naum" "Ah Macan"
+			"Ixkil-Itzam" "Nadzul" "Ah Zuyok" "Chilam" "Ah Kukum" 
 		}
 		female_names = {
 			"Hatz'utz" "Pak'aal" "Xtz'aak" "Xunaan" "Xch'uupal" "Tz'unu'un" "Suhuy Pal"
@@ -3335,7 +3338,9 @@ mayan = {
 	putun_chontal = { 
 		male_names = {
 			"Ah Zun" "Ah Uitz" "Ah Cuat" "Ah Atira" "Nabatun" "Ah Chac" "Nachan Kan" "Ah Cetz" "Ah Op" "Ah Kauil" "Ah Kukil"
-			"Nappol Chuuah" "Ah Tzam" "Ba'alache'" "Xuulub" "Kitam" "Sak Bok" "Siina'an"
+			"Nappol Chuuah" "Ah Tzam" "Ba'alache'" "Xuulub" "Kitam" "Sak Bok" "Siina'an" "Hunac" "Ah Xupan" "Ah Kin" "Hun Uitzil"
+			"Ah Tapay-Nok" "Ah Paal" "Ah Sulim" "Ah Tzab" "Ah Chacah" "Ix Copacab" "Nabich" "Ah Kul" "Nahau" "Naum" "Ah Macan"
+			"Ixkil-Itzam" "Nadzul" "Ah Zuyok" "Chilam" "Ah Kukum" 
 		}
 		female_names = {
 			"Hatz'utz" "Pak'aal" "Xtz'aak" "Xunaan" "Xch'uupal" "Tz'unu'un" "Suhuy Pal"
@@ -3449,7 +3454,9 @@ mayan = {
 	cholmayan = {
 		male_names = {
 			"Ah Zun" "Ah Uitz" "Ah Cuat" "Ah Atira" "Nabatun" "Ah Chac" "Nachan Kan" "Ah Cetz" "Ah Op" "Ah Kauil" "Ah Kukil"
-			"Nappol Chuuah" "Ah Tzam" "Ba'alache'" "Xuulub" "Kitam" "Sak Bok" "Siina'an"
+			"Nappol Chuuah" "Ah Tzam" "Ba'alache'" "Xuulub" "Kitam" "Sak Bok" "Siina'an" "Hunac" "Ah Xupan" "Ah Kin" "Hun Uitzil"
+			"Ah Tapay-Nok" "Ah Paal" "Ah Sulim" "Ah Tzab" "Ah Chacah" "Ix Copacab" "Nabich" "Ah Kul" "Nahau" "Naum" "Ah Macan"
+			"Ixkil-Itzam" "Nadzul" "Ah Zuyok" "Chilam" "Ah Kukum" 
 		}
 		female_names = {
 			"Hatz'utz" "Pak'aal" "Xtz'aak" "Xunaan" "Xch'uupal" "Tz'unu'un" "Suhuy Pal"
