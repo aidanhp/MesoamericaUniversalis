@@ -17,3 +17,17 @@ fixed_capital = 648
 		mil = 4
 	}
 }
+
+1427.5.1 = {
+	heir = {
+		name = "Tzutujil Pop"
+		monarch_name = "Tzutujil Pop"
+		dynasty = "Tzutujal" 
+		birth_date = 1405.3.17
+		death_date = 1470.1.1
+		claim = 100
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

@@ -1,0 +1,19 @@
+add_core = LLH
+owner = LLH
+controller = LLH
+culture = tlaxcallan
+religion = newnahuatl 
+hre = no
+base_tax = 3
+base_production = 6
+trade_goods = grain
+base_manpower = 21
+capital = "Quiahuixtlan"
+is_city = yes
+fort_15th = yes
+
+discovered_by = semi_nomadic_tribe
+discovered_by = west_mexican
+discovered_by = tarascan
+discovered_by = central_mexican
+discovered_by = triple_alliance

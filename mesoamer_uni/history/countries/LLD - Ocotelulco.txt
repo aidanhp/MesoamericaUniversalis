@@ -1,0 +1,17 @@
+government = centralized_altepetl
+government_rank = 1
+mercantilism = 0.25
+technology_group = central_mexican 
+religion = newnahuatl 
+primary_culture = tlaxcallan
+capital = 969
+fixed_capital = 969
+1427.1.1 = {
+	monarch = {
+		name = "Tlacomihua"
+		dynasty = "Ocotelulco"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

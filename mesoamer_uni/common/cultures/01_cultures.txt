@@ -3337,13 +3337,11 @@ mayan = {
 
 	putun_chontal = { 
 		male_names = {
-			"Ah Zun" "Ah Uitz" "Ah Cuat" "Ah Atira" "Nabatun" "Ah Chac" "Nachan Kan" "Ah Cetz" "Ah Op" "Ah Kauil" "Ah Kukil"
-			"Nappol Chuuah" "Ah Tzam" "Ba'alache'" "Xuulub" "Kitam" "Sak Bok" "Siina'an" "Hunac" "Ah Xupan" "Ah Kin" "Hun Uitzil"
-			"Ah Tapay-Nok" "Ah Paal" "Ah Sulim" "Ah Tzab" "Ah Chacah" "Ix Copacab" "Nabich" "Ah Kul" "Nahau" "Naum" "Ah Macan"
-			"Ixkil-Itzam" "Nadzul" "Ah Zuyok" "Chilam" "Ah Kukum" 
+			"Paxbolonacha" "Zipaque" "Coatle" "Mazat" "Izquin" "Malyna" "Acatel" "Uzelotl" "Tequepal" "Ayoco" "Tatuani"
+			"Chicoase" "Auxaual" "Pachimal" "Chanpel" "Pachimalahix" "Macuaabin" "Lamatazel" 
 		}
 		female_names = {
-			"Hatz'utz" "Pak'aal" "Xtz'aak" "Xunaan" "Xch'uupal" "Tz'unu'un" "Suhuy Pal"
+			"Tuxtl" "Suchil"
 		}
 	}
 	

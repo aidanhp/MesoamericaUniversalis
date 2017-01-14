@@ -9,7 +9,7 @@ fixed_capital = 740
 
 1427.1.1 = {
 	monarch = {
-		name = "Za'achila II"
+		name = "Rinijcoxij Chaleguesa"
 		dynasty = "Xipe"
 		adm = 2
 		dip = 1

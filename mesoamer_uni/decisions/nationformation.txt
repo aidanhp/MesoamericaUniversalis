@@ -295,7 +295,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			has_country_modifier = top_secret
-			#government_rank = 3
+			government_rank = 3
 		}
 		allow = {
 			always = yes

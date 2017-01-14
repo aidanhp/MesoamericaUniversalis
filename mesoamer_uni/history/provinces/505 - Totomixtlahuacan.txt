@@ -1,6 +1,7 @@
-controller = DDN
 add_core = DDN
-owner = DDN
+add_core = TPN
+owner = TPN
+controller = TPN
 culture = newtlapanec
 religion = mixtec 
 hre = no

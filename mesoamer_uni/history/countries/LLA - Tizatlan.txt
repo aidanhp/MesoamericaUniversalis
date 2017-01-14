@@ -1,0 +1,17 @@
+government = centralized_altepetl
+government_rank = 1
+mercantilism = 0.25
+technology_group = central_mexican 
+religion = newnahuatl 
+primary_culture = tlaxcallan
+capital = 967
+fixed_capital = 967
+1427.1.1 = {
+	monarch = {
+		name = "Aztahua Tlacatalli Tecuhtil"
+		dynasty = "Tizatlan"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

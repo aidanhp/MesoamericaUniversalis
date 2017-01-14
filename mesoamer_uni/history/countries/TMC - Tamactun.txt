@@ -9,8 +9,22 @@ fixed_capital = 164
 
 1427.1.1 = {
 	monarch = {
-		name = "Ah Cuat"
+		name = "Paxua"
 		dynasty = "Tixchel"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1427.5.1 = {
+	heir = {
+		name = "Pachimalahix"
+		monarch_name = "Pachimalahix"
+		dynasty = "Tixchel" 
+		birth_date = 1405.3.17
+		death_date = 1470.1.1
+		claim = 100
 		adm = 4
 		dip = 4
 		mil = 4

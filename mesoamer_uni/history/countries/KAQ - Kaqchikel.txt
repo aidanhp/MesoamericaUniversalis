@@ -7,12 +7,27 @@ primary_culture = kaqchikelmayan
 capital = 203
 fixed_capital = 203
 
-1427.1.1 = {
+1425.1.1 = {
 	monarch = {
-		name = "Wu'qu Batz"
-		dynasty = "Iximche"
+		name = "Vucubatz"
+		dynasty = "Kaqchikel"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1427.5.1 = {
+	heir = {
+		name = "Oxlahuh Tzii"
+		monarch_name = "Oxlahuh Tzii"
+		dynasty = "Kaqchikel" 
+		birth_date = 1410.3.17
+		death_date = 1470.1.1
+		claim = 100
 		adm = 4
 		dip = 4
 		mil = 4
 	}
 }
+

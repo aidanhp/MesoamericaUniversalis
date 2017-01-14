@@ -9,7 +9,7 @@ fixed_capital = 201
 
 1427.1.1 = {
 	monarch = {
-		name = "Belejeb K'ij"
+		name = "Talmalin"
 		dynasty = "Rabinal"
 		adm = 4
 		dip = 4

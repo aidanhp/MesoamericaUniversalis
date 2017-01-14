@@ -31,14 +31,14 @@ vassal = {
 }
 
 #Zaachila Vassals
-vassal = {
+union = {
 	first = JJG
 	second = JJH
 	start_date = 1428.1.1
 	end_date = 1821.1.1
 }
 
-vassal = {
+union = {
 	first = JJG
 	second = TEH
 	start_date = 1428.1.1
