@@ -21,8 +21,20 @@
  
  #Zapotec
  
+ #Maya - Holy Sites
+ HOLY_SITE_902_DESC: "The shrine of Ix Chel on Cozumel island was the most important pilgrimage site in the Late Postclassic - after Chichen Itza - and superseded the former in its importance to young women. Ix Chel was goddess of the moon as well as of fertility and childbirth. Transportation to the shrine was partially monopolized by Chontal Maya."
+ HOLY_SITE_135_DESC: "The city of Coba, with its temples and sacbeob ritual roads that stretch for miles, was active until after the close of the classic. Even in the postclassic, Coba retained ritual status, and became associated with the god Sun-Eyed Lord (K’inich Ahaw). Walking the ritual roads became a pilgrimage activity, and minor temples were constructed at the settlement into the 15th century."
+ HOLY_SITE_747_DESC: "Tikal, or as it was once called, Yax Mutul, was among the most wonderous of the Classic Maya cities, and was the capital of one of the most powerful kingdoms in Mesoamerican history. Despite this, Tikal collapsed with most of the rest of the cities in the Central Lowlands as a result of ecological decimation, extreme overpopulation, and an increase in warfare, with the final Great King, Jasaw Chan K’awiil the Second, erecting the city’s last monument in 869 AD before it fell silently into the depth of time. It’s certain, however, that it was never truly forgotten by the Maya. Evidence exists that the major temples of the site were being used for small scale burials connected with the Mayapan cultural era - and it is likely that rituals were conducted at the ruins by locals living in nearby hamlets in a similar way that they are to this very day. "
+ HOLY_SITE_141_DESC: "The Sacred Cenote at Chichen Itza was brought to prominence first by the hypothesized Toltec rulers of that city, and later perpetuated and even expanded as a pilgrimage site by the Itza clan when they came to power. The Itza utilized and enhanced the site’s religious prominence as a method of gaining authority and prestige among the competing kuchkabals of the day."
+ HOLY_SITE_77_DESC: "Cacaxtla, a mostly abandoned city within the realm of Cholula, is the furthest extent of major Maya cultural, financial, and religious influence in the Mexican heartland. Run as a trade center by Mexicanized Maya (likely Chontal Putun transplants)  to control trade routes recently abandoned with the fall of Teotihuacan during the Late Classic, the city was thoroughly Mayanized. The greatest example of this is the Temple of the Carrying-Frame, where the classical Maya merchant god God Ek' Chuwah is shown carrying his rich goods on the eponymous carrying-frame and guarding over the merchant nobility who controlled the city. "
+ blessing_of_fertility: "Blessing of Fertility \n\n         Global Population Growth: §G+0.0050%§!"
+ blessing_of_the_scribe: "Blessing of the Scribe"
+ blessing_of_the_warrior: "Blessing of the Warrior"
+ blessing_of_the_farmer: "Blessing of the Farmer"
+ blessing_of_the_conqueror: "Blessing of the Conqueror"
+ blessing_of_the_architect: "Blessing of the Architect"
+ blessing_of_the_merchant: "Blessing of the Merchant"
+ #Maya - Yucatec
  
- #Mayan - Yucatec
  
- 
- #Mayan - Highland
+ #Maya - Highland

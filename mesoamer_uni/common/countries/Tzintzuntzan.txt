@@ -65,11 +65,8 @@ monarch_names = {
 }
 
 leader_names = {
-	Hireticatame Sicuirancha Tariacuri Pavacume Hiqugage Hiripan Tangaxoan Tzitzicpandacuare Zangua
-	Uresqua Cando Sica Zinaquambi Quama Quatamaripe Equandira Chague Cando Ticatame Tucuruan Paguingata
-	Trimaransco Cuini Sirangua Zincicha Tigame Tagani Patamu Chuicico Caracomoco Tariaran Cacapu Aramen
-	Vaspe Terazi Cariqua Tupuri Hivacha Zinzumi Hanzivia Cavujancha Tarando Horohta Vanzan Hutaco Hozi 
-	Tuinchumbra Yzniquanto Hapunduri Zapivatame Xoropiti Taresquesinguata 
+	Uanacaze Uacusecha Zacapuireti Uanaceo Eneami Tsatsaki Uskuti Sanduri Caheri Zapi
+	Purecupehni Cuanicuti
 }
 
 ship_names = {
