@@ -1,5 +1,5 @@
 government = centralized_altepetl
-government_rank = 1
+government_rank = 2
 mercantilism = 0.25
 technology_group = northern_mayan
 religion = newmayan 

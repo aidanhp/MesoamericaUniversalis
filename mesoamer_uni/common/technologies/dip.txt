@@ -36,14 +36,14 @@ technology = {
 	# Tech 1
 	year = 1429
 	
-	trade_efficiency 		= 	0.10
+	trade_efficiency 		= 	0.05
 }
 
 technology = {
 	# Tech 1
 	year = 1450
 	
-	trade_efficiency 		= 	0.15
+	trade_efficiency 		= 	0.10
 }
 
 technology = {
@@ -71,7 +71,7 @@ technology = {
 	# Tech 4
 	year = 1516
 	
-	trade_efficiency = 0.20
+	trade_efficiency = 0.10
 	may_steal_maps = yes
 	may_study_technology = yes
 	

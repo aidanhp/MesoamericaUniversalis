@@ -20,7 +20,7 @@ decentralization_5 = {
 	global_unrest = -10
 	stability_cost_modifier = -0.50
 	core_creation = -0.25
-	trade_efficiency = 1.0
+	trade_efficiency = 0.50
 	hostile_attrition = 5
 	
 	global_autonomy = 0.50
@@ -43,7 +43,7 @@ decentralization_4 = {
 	global_unrest = -8
 	stability_cost_modifier = -0.40
 	core_creation = -0.20
-	trade_efficiency = 0.80
+	trade_efficiency = 0.40
 	hostile_attrition = 4
 	
 	global_autonomy = 0.40
@@ -66,7 +66,7 @@ decentralization_3 = {
 	global_unrest = -6
 	stability_cost_modifier = -0.30
 	core_creation = -0.15
-	trade_efficiency = 0.60
+	trade_efficiency = 0.30
 	hostile_attrition = 3
 	
 	global_autonomy = 0.30
@@ -89,7 +89,7 @@ decentralization_2 = {
 	global_unrest = -4
 	stability_cost_modifier = -0.20
 	core_creation = -0.10
-	trade_efficiency = 0.40
+	trade_efficiency = 0.20
 	hostile_attrition = 2
 	
 	global_autonomy = 0.20
@@ -112,7 +112,7 @@ decentralization_1 = {
 	global_unrest = -2
 	stability_cost_modifier = -0.10
 	core_creation = -0.05
-	trade_efficiency = 0.20
+	trade_efficiency = 0.10
 	hostile_attrition = 1
 	
 	global_autonomy = 0.10

@@ -23,18 +23,18 @@ nahua_ideas = {
 	free = yes
 	
 	calpulli_system = {
-		global_regiment_recruit_speed = -0.33
+		global_regiment_recruit_speed = -0.25
 		global_regiment_cost = -0.20
 	}
 	
 	pochteca_networks = {
-		spy_offence = 0.25
-		trade_efficiency = 0.25
+		spy_offence = 0.20
+		trade_efficiency = 0.20
 	}
 	
 	nahua_engineering = {
 		build_cost = -0.10
-		production_efficiency = 0.20
+		production_efficiency = 0.10
 	}
 	
 	poets_philosophers = { 
@@ -224,6 +224,7 @@ lowland_maya_ideas = {
 			primary_culture = yucatecmayan
 			primary_culture = itzamayan
 			primary_culture = qeqchimayan
+			primary_culture = cholmayan
 		}
 	}
 	free = yes
@@ -234,7 +235,7 @@ lowland_maya_ideas = {
 	
 	legacy_of_mayapan = {
 		ae_impact = -0.10
-		war_exhaustion = -0.025
+		war_exhaustion = -0.05
 	}
 	
 	cenotes_of_the_forest = {
@@ -255,6 +256,6 @@ lowland_maya_ideas = {
 	}
 	
 	uinik_and_batab = {
-		global_autonomy = -0.05
+		global_autonomy = -0.075
 	}
 }

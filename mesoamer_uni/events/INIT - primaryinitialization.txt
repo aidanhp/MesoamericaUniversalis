@@ -130,7 +130,7 @@ country_event = {
 					limit = {
 						OR = {
 							government = mayapan_1
-							government = kuchkabal
+							government = centralized_altepetl
 						}
 					}
 					set_country_flag = has_lower_nobles
@@ -309,17 +309,17 @@ country_event = {
 				if = {
 					limit = {
 						OR = { 
-							government = kuchkabal
+							government = centralized_altepetl
 						}
 						NOT = { tag = KKG }
 						NOT = { tag = KAQ }
 					}
-					change_variable = { which = centralization value = 5 }
-					change_variable = { which = legaltradition value = 2 }
-					change_variable = { which = meritocratictradition value = 2 }
+					change_variable = { which = centralization value = 10 }
+					change_variable = { which = legaltradition value = 10 }
+					change_variable = { which = meritocratictradition value = 5 }
 					change_variable = { which = religioustradition value = 45 }
 					change_variable = { which = intellectualtradition value = 1 }
-					change_variable = { which = militancy value = -25 }
+					change_variable = { which = militancy value = 5 }
 				}
 				
 				if = {
@@ -470,11 +470,12 @@ country_event = {
 				################
 				#TRIBUTE SYSTEM#
 				################
-				set_variable = { which = REFUSAL_CUTOFF value = 100 }
+				set_variable = { which = REFUSAL_CUTOFF value = 10 }
 				set_variable = { which = refusal_points value = 0 }
 				set_variable = { which = prov_unrest value = 0 }
 				
 				set_variable = { which = capital_dev_trib value = 0 }
+				set_variable = { which = wont_pay_dev value = 0 }
 				
 				#################################
 				#COMMUNICATION EFFICIENCY SYSTEM#
@@ -959,10 +960,27 @@ country_event = {
 			####################
 			####################
 			
-			##############
-			#Tzintzuntzan#
-			##############
+			#############
+			#Territorial#
+			#############
+			every_country = {
+				limit = {
+					government = centralized_altepetl
+				}
+				add_idea_group = territorial_ideas
+				add_idea = territorial_ideology
+			}
 			
+			###########
+			#Hegemonic#
+			###########
+			every_country = {
+				limit = {
+					government = altepetl
+				}
+				add_idea_group = hegemonic_ideas
+				add_idea = hegemonic_ideology
+			}
 			
 			###################
 			###################

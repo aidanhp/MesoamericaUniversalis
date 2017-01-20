@@ -14,6 +14,7 @@ country_event = {
 		hidden_effect = {
 			add_manpower = -0.50
 			change_government = centralized_altepetl
+			set_government_rank = 2
 			free_vassal = CNP
 			free_vassal = CAP
 			free_vassal = AHC

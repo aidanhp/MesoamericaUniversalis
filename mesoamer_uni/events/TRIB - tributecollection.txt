@@ -91,7 +91,9 @@ country_event = {
 			remove_province_modifier = wont_pay
 		}
 		every_owned_province = {
-		
+			limit = {
+				NOT = { is_capital = yes }
+			}
 			#Adds Refusal Points From Unrest
 			#1 Point for every 2 unrest
 			if = {
@@ -138,7 +140,7 @@ country_event = {
 				}
 				change_variable = { 
 					which = refusal_points
-					value = 1
+					value = 3
 				}
 			}
 			
@@ -150,7 +152,7 @@ country_event = {
 				}
 				change_variable = { 
 					which = refusal_points
-					value = 1
+					value = 3
 				}
 			}
 			
@@ -162,7 +164,7 @@ country_event = {
 				}
 				change_variable = { 
 					which = refusal_points
-					value = 1
+					value = 2
 				}
 			}
 			
@@ -174,7 +176,7 @@ country_event = {
 				}
 				change_variable = { 
 					which = refusal_points
-					value = 1
+					value = 2
 				}
 			}
 			
@@ -200,7 +202,7 @@ country_event = {
 						}
 					}
 				}
-				change_variable = { which = refusal_points value = 4 }
+				change_variable = { which = refusal_points value = 3 }
 			}
 			
 			#Pay or Naw
@@ -210,20 +212,20 @@ country_event = {
 			}
 			if = {
 				limit = {
-					check_variable = { #If refusal points are >= the cutoff, don't pay
+					check_variable = { 
 						which = refusal_points
 						which = REFUSAL_CUTOFF
 					}
 				}
 				random_list = {
-					50 = {
-						add_country_modifier = {
+					66 = {
+						add_province_modifier = {
 							name = wont_pay
-							duration = -1
+							duration = 730
 						}
-						remove_country_modifier = will_pay
+						remove_province_modifier = will_pay
 					}
-					50 = {
+					34 = {
 						#Do Nothing
 					}
 				}
@@ -292,6 +294,7 @@ country_event = {
 			}
 		}
 		
+		#Subtract Capital Development
 		capital_scope = {
 			export_to_variable = {
 				which = capital_dev_trib
@@ -314,7 +317,33 @@ country_event = {
 				}
 			}
 		}
-		
+		#Subtract Non-Paying Provinces Development
+		every_owned_province = {
+			limit = {
+				has_province_modifier = wont_pay
+			}
+			export_to_variable = {
+				which = wont_pay_dev
+				value = development
+			}
+			while = {
+				limit = {
+					check_variable = {
+						which = wont_pay_dev
+						value = 0 
+					}
+				}
+				owner = {
+					change_variable = { which = total_ducats_dev value = -0.25 }
+					change_variable = { which = total_mp_dev value = -1 }
+				}
+				subtract_variable = {
+					which = wont_pay_dev
+					value = 1
+				}
+				set_variable = { which = wont_pay_dev value = 0 }
+			}
+		}
 		
 	}
 	

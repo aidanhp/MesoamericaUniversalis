@@ -25,9 +25,15 @@ tribreqs_changed_CD = {
 }
 
 will_pay = {
-
+	trade_goods_size = 0.01
+	local_autonomy = -0.25
+	local_unrest = -2
+	picture = "province_pays"
 }
 
 wont_pay = {
-	local_unrest = 20
+	trade_goods_size = 0.01
+	local_unrest = 30
+	local_autonomy = 0.10
+	picture = "province_doesnt_pay"
 }

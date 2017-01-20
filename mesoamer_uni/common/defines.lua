@@ -218,7 +218,7 @@ NDiplomacy = {
 	PEACE_COST_CONVERSION = 0.5,					-- scaled with countrysize for forced conversion in peace.
 	PEACE_COST_RELEASE = 2, 						-- _DDEF_PEACE_COST_RELEASE_ Base Peace cost for releasing an annexed country (also increases with nr of provinces)
 	PEACE_COST_CONCEDE = 10, 						-- _DDEF_PEACE_COST_CONCEDE_ Base Peace cost for conceding defeat
-	PEACE_COST_GOLD_STEP = 1, 						-- _DDEF_PEACE_COST_GOLD_STEP_ Peace Cost for 1 month of income
+	PEACE_COST_GOLD_STEP = 2, 						-- _DDEF_PEACE_COST_GOLD_STEP_ Peace Cost for 1 month of income
 	PEACE_COST_ANNUL = 10, 							-- _DDEF_PEACE_COST_ANNUL_ Peace cost for annulment of treaties
 	PEACE_COST_CHANGE_GOVERNMENT = 50, 				-- _Peace cost for changing government form
 	PEACE_COST_TRADE_POWER = 60, 					-- Peace cost for demanding trade power
@@ -390,7 +390,7 @@ NCountry = {
 	HRE_RANK = 3,								-- Emperor of the HRE is displayed as this rank (for ruler title only)
 	HRE_MAX_RANK = 1,							-- for members
 	HRE_MAX_RANK_ELECTOR = 2,					-- for electors	
-	SUBJECT_MAX_RANK = 1,						-- max government rank of subjects
+	SUBJECT_MAX_RANK = 2,						-- max government rank of subjects
 	
 	PRESTIGE_GAIN_FOR_GOV_RANK_2 = 10,			-- Prestige gained on upgrading to government rank 2
 	PRESTIGE_GAIN_FOR_GOV_RANK_3 = 25,			-- Prestige gained on upgrading to government rank 3
@@ -554,9 +554,9 @@ NCountry = {
 	FACTION_BOOST_SIZE = 5,
 	WAREXHAUSTION_REDUCTION = 2,
 	HARSH_TREATMENT_IN_MONTHS = 180,	
-	RECENT_UPRISING_IN_MONTHS = 120,
+	RECENT_UPRISING_IN_MONTHS = 60,
 	UNREST_REVOLT_FACTOR = 0.5, -- How much does each point of unrest contribute to chance of revolt uprising increasing (base)
-	UPRISING_INCREASE = 10, -- Number of percent that the progress increases
+	UPRISING_INCREASE = 20, -- Number of percent that the progress increases
 	
 	PROMOTE_MERCANTILISM_INCREASE = 0.01,
 	DISHONOURED_ALLIANCE_DURATION = 1800,
@@ -827,7 +827,7 @@ NMilitary = {
 	PARTICIPATION_SCORE_MERC_MULT = 0.5,			-- How much less participation do you get from mercs?
 	PARTICIPATION_SCORE_UNFORTIFIED_MULT = 0.1,		-- How much less participation do you get from besieging unfortified provinces?
 		
-	FORT_PER_DEV_RATIO = 200,						-- 1 non-obsolete maintained fort per this amount of development = +1 AT
+	FORT_PER_DEV_RATIO = 20,						-- 1 non-obsolete maintained fort per this amount of development = +1 AT
 	MOVE_LOCK_PERCENTAGE = 0.5,						-- Unit movement is locked after this percentage of progress
 	REGULAR_LEADER_POWER = 1,						-- Used for generals & admirals (affects total pips)
 	EXPLORER_LEADER_POWER = 0.8,					-- Used for conquistadors & explorers (affects total pips)

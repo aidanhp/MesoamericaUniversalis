@@ -6,6 +6,10 @@
  
  #Generic Effects
  upgraded_government: "Upgraded Rank" 
+ will_pay: "Paying Tribute"
+ desc_will_pay: "This province has agreed to pay tribute for the year."
+ wont_pay: "Refusing Tribute Payment"
+ desc_wont_pay: "This province has refused to pay tribute! Unrest will be significantly increased until the rebellion is put down by military force."
  
  #Trade
  major_trade_center: "Major Center of Trade"

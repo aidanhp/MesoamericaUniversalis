@@ -87,7 +87,7 @@ technology = {
 	year = 1516
 	
 	workshop2 = yes
-	production_efficiency	=	0.20
+	production_efficiency	=	0.10
 	allowed_idea_groups = 4
 }
 

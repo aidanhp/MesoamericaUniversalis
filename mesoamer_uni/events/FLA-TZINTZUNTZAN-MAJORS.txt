@@ -763,6 +763,7 @@ country_event = {
 		
 		inherit = IHU
 		inherit = PAT
+		change_government = altepetl
 		country_event = { id = IUA_MAJORS.18 }
 		
 		ai_chance = {
@@ -787,6 +788,7 @@ country_event = {
 		
 		inherit = IUA
 		inherit = PAT
+		change_government = altepetl
 		country_event = { id = IUA_MAJORS.18 }
 		
 		ai_chance = {

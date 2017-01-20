@@ -86,6 +86,7 @@ territorial_ideas = {
 		NOT = {
 			has_idea_group = hegemonic_ideas
 		}
+		
 	}
 
 	territorial_ideology = {

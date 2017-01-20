@@ -5,7 +5,7 @@ estate_unobles = {
 	
 	keep_on_conquest = no
 	
-	min_territory = 25
+	min_territory = 15
 	min_provinces_to_want_territory = 6
 	
 	wanted_territory_modifier = {
@@ -13,7 +13,7 @@ estate_unobles = {
 		trigger = {
 			has_country_modifier = TEN_redistributive_policy
 		}	
-		value = 15		
+		value = 10		
 	}
 
 	wanted_territory_modifier = {
