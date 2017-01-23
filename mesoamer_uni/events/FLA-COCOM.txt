@@ -92,6 +92,48 @@ country_event = {
 				cede_province = TTX
 				add_core = TTX
 			}
+			829 = {
+				cede_province = TTX
+				add_core = TTX
+			}
+			828 = {
+				cede_province = TTX
+				add_core = TTX
+			}
+			827 = {
+				cede_province = TTX
+				add_core = TTX
+			}
+			821 = {
+				add_core = TTX
+			}
+			823 = {
+				add_core = TTX
+			}
+			826 = {
+				add_core = TTX
+			}
+			825 = {
+				add_core = TTX
+			}
+			637 = {
+				add_core = TTX
+			}
+			819 = {
+				add_core = TTX
+			}
+			820 = {
+				add_core = TTX
+			}
+			822 = {
+				add_core = TTX
+			}
+			152 = {
+				add_core = TTX
+			}
+			824 = {
+				add_core = TTX
+			}
 			
 			TTX = { 
 				every_owned_province = {

@@ -1,4 +1,4 @@
-unit_type = northern_mayan
+unit_type = maya 
 type = infantry
 
 maneuver = 1

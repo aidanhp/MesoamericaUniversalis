@@ -13,5 +13,4 @@ capital = "Hecelchakan"
 is_city = yes
 fort_15th = yes
 
-discovered_by = northern_mayan
-discovered_by = southern_mayan
+discovered_by = maya 

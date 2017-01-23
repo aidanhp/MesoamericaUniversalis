@@ -1,7 +1,7 @@
 government = centralized_altepetl
 government_rank = 2
 mercantilism = 0.25
-technology_group = northern_mayan
+technology_group = maya 
 religion = newmayan 
 primary_culture = yucatecmayan
 capital = 147
@@ -10,7 +10,7 @@ fixed_capital = 147
 1427.1.1 = {
 	monarch = {
 		name = "Nabatun"
-		dynasty = "Hocaba"
+		dynasty = "Iuit"
 		adm = 4
 		dip = 4
 		mil = 4

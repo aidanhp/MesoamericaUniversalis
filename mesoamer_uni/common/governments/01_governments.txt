@@ -30,21 +30,21 @@ altepetl = {
 			legitimacy = 4
 			stability_cost_modifier = 0.33
 			global_autonomy = 0.10
-			core_creation = -0.50
+			core_creation = -0.67
 			global_unrest = -4
 			trade_efficiency = 0.10
 		}
 		2 = {
 			stability_cost_modifier = 0.67
 			global_autonomy = 0.15
-			core_creation = -0.50
+			core_creation = -0.67
 			global_unrest = -6
 			trade_efficiency = 0.10
 		}
 		3 = {
 			stability_cost_modifier = 1.0
 			global_autonomy = 0.20
-			core_creation = -0.50
+			core_creation = -0.67
 			global_unrest = -8
 			trade_efficiency = 0.10
 		}
@@ -206,9 +206,6 @@ triarchal_confederation_sub = {
 	
 	max_states = 2
 	min_autonomy = 50
-	
-	allow_vassal_war = yes
-	allow_vassal_alliance = yes
 
 
 	rank = {
@@ -232,9 +229,6 @@ triarchal_confederation_dom = {
 	
 	max_states = 2
 	min_autonomy = 50
-	
-	allow_vassal_war = yes
-	allow_vassal_alliance = yes
 
 
 	rank = {

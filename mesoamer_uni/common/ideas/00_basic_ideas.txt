@@ -662,7 +662,7 @@ massmobilization_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.66
+		factor = 0.75
 	}
 }
 
@@ -682,7 +682,7 @@ eliteorders_ideas = {
 	}
 
 	bannerleaders = {
-		land_morale = 0.1
+		land_morale = 0.075
 	}
 
 	bodyarmor = {
@@ -691,7 +691,7 @@ eliteorders_ideas = {
 	}
 
 	socialadvancement = {
-		army_tradition = 1
+		army_tradition = 0.50
 	}
 
 	warcouncil = {
@@ -703,7 +703,7 @@ eliteorders_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0.95
+		factor = 0.75
 	}
 }
 
@@ -754,7 +754,7 @@ attritionwar_ideas = {
 
 	
 	ai_will_do = {
-		factor = 0.50
+		factor = 0.75
 	}
 }
 
@@ -762,7 +762,7 @@ quickwar_ideas = {
 	category = MIL
 	
 	bonus = {
-		leader_siege = 2
+		leader_siege = 1
 	}
 
 	trigger = {
@@ -798,11 +798,10 @@ quickwar_ideas = {
 	}
 
 	tacticalgenius = {
-		leader_land_shock = 1
 		leader_land_manuever = 1
 	}
 	ai_will_do = {
-		factor = 0.50
+		factor = 0.75
 	}
 }
 

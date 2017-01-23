@@ -4,13 +4,12 @@ controller = DZU
 culture = qeqchimayan 
 religion = newmayan 
 hre = no
-base_tax = 1
-base_production = 1
+base_tax = 2
+base_production = 4
 trade_goods = salt
-base_manpower = 3
+base_manpower = 14
 capital = "Dzuliunicob"
 is_city = yes
 fort_15th = yes
 
-discovered_by = northern_mayan
-discovered_by = southern_mayan
+discovered_by = maya 

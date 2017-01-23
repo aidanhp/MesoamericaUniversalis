@@ -11,5 +11,4 @@ base_manpower = 6
 capital = "Knuku"
 is_city = yes
 
-discovered_by = northern_mayan
-discovered_by = southern_mayan
+discovered_by = maya

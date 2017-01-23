@@ -98,25 +98,7 @@ groups = {
 			value = 75
 		}
 	}
-	northern_mayan = {
-		start_cost_modifier = 0
-		start_level = 0
-		cav_to_inf_ratio = 0.5
-		nation_designer_cost = {
-			trigger = {
-				capital_scope = {
-					OR = {
-						continent = new_world
-						continent = north_america
-						continent = south_america
-						continent = oceania
-					}
-				}
-			}
-			value = 75
-		}
-	}
-	southern_mayan = {
+	maya = {
 		start_cost_modifier = 0
 		start_level = 0
 		cav_to_inf_ratio = 0.5

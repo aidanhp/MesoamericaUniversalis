@@ -1,11 +1,11 @@
 government = centralized_altepetl
 government_rank = 2
 mercantilism = 0.25
-technology_group = northern_mayan
+technology_group = maya 
 religion = newmayan 
 primary_culture = yucatecmayan
-capital = 141
-fixed_capital = 141
+capital = 624
+fixed_capital = 624
 
 1427.1.1 = {
 	monarch = {

@@ -1,16 +1,16 @@
 government = centralized_altepetl
 government_rank = 2
 mercantilism = 0.25
-technology_group = northern_mayan
+technology_group = maya 
 religion = newmayan 
 primary_culture = yucatecmayan
-capital = 149
-fixed_capital = 149
+capital = 148
+fixed_capital = 148
 
 1427.1.1 = {
 	monarch = {
 		name = "Ah Cuat"
-		dynasty = "Tibolon"
+		dynasty = "Cocom"
 		adm = 4
 		dip = 4
 		mil = 4

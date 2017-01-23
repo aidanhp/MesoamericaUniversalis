@@ -4,13 +4,12 @@ controller = AHC
 culture = yucatecmayan
 religion = newmayan 
 hre = no
-base_tax = 1
-base_production = 2
+base_tax = 2
+base_production = 5
 trade_goods = salt
-base_manpower = 6
+base_manpower = 16
 capital = "Sisal"
 is_city = yes
 fort_15th = yes
 
-discovered_by = northern_mayan
-discovered_by = southern_mayan
+discovered_by = maya

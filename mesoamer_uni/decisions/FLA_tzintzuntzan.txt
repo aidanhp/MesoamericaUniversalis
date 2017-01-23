@@ -41,10 +41,18 @@ country_decisions = {
 				hidden_effect = {
 					break_marriage = PAT
 					break_marriage = IHU
-					vassalize = PAT
-					vassalize = IHU
-					free_vassal = PAT
-					free_vassal = IHU
+					PAT = {
+						add_opinion = {
+							who = IUA
+							modifier = opinion_betrayed_triarchy 
+						}
+					}
+					IHU = {
+						add_opinion = {
+							who = IUA
+							modifier = opinion_betrayed_triarchy 
+						}
+					}
 				}
 			}
 			if = {
@@ -82,6 +90,9 @@ country_decisions = {
 				}
 				remove_country_modifier = current_cazonci
 			}
+		}
+		ai_will_do = {
+			factor = 0
 		}
 	}
 }

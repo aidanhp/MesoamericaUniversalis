@@ -36,7 +36,8 @@ cb_eternal_war = {
 	
 	prerequisites = {
 		ROOT = {
-			tag = TEN
+			#Put in event
+			tag = MGI
 		}
 		FROM = {
 			NOT = { vassal_of = ROOT }
@@ -44,4 +45,43 @@ cb_eternal_war = {
 	}
 	
 	war_goal = eternal_war
+}
+
+cb_unite_valley_of_mexico = {
+	valid_for_subject = no
+
+	prerequisites = {
+		ROOT = {
+			OR = {
+				tag = TEN
+				tag = TET
+				tag = TCP
+				tag = TOE
+				tag = TCE
+				tag = TNE
+				tag = TPE
+			}
+		}
+		FROM = {
+			AND = { 
+				NOT = { tag = TEN }
+				NOT = { tag = TET }
+				NOT = { tag = TCP }
+				NOT = { vassal_of = ROOT }
+				OR = { 
+					capital_scope = {
+						area = western_shore_a 
+					}
+					capital_scope = {
+						area = eastern_shore_a 
+					}
+					capital_scope = {
+						area = southern_shore_a 
+					}
+				}
+			}
+		}
+	}
+	
+	war_goal = unite_valley_of_mexico
 }

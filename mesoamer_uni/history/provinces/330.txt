@@ -3,5 +3,4 @@ discovered_by = west_mexican
 discovered_by = tarascan
 discovered_by = central_mexican
 discovered_by = triple_alliance
-discovered_by = northern_mayan
-discovered_by = southern_mayan
+discovered_by = maya

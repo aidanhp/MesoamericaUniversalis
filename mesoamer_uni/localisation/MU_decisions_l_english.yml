@@ -26,21 +26,7 @@
  set_draft_laws_title: "Set Draft Laws"
  set_draft_laws_desc: "Legally codify military service requirements for people from all rungs of society."
  
- #Buying Down Influence
- buydowninfluence_title: "Buy Down Faction Influence"
- buydowninfluence_desc: "Convince a faction to concede some of its influence in exchange for a gift of luxury goods extracted from our own lands and those of any vassals we may have."
- 
- #Exchanging Supplies for Buffs/Stuff
- exchangeluxurygoods_title: "Exchange Luxury Goods for Ducats"
- exchangeluxurygoods_desc: "Bring luxury goods out of our storehouse and use them to help pay for state expenses."
- exchangemilitarysupplies_title: "Temporarily Expand Supply Lines"
- exchangemilitarysupplies_desc: "Retrieve military supplies from our storehouse to temporarily boost our capacity to supply armies. The cost of expanding supply lines scales with army size."
- investbuildingsupplies_title: "Invest Building Supplies in Area - TEMPORARILY DISABLED"
- investbuildingsupplies_desc: "Invest building supplies from our storehouse in an area we own provinces in to temporarily reduce build cost."
- 
  #From Idea Groups
- raise_trib_army_title: "Raise Army from Tributaries"
- raise_trib_army_desc: "Call upon our tributaries to put men loyal to us on the field."
  resettle_colonies_title: "Resettle to Colonies"
  resettle_colonies_desc: "Offload some of our problem citizens into the colonies."
  
@@ -69,100 +55,6 @@
  add_new_pyramid_level_generic_desc: "Declare that it is time to expand our greatest of monuments."
  add_new_pyramid_level_tenoch_title: "Expand the Huey-Teocalli"
  add_new_pyramid_level_tenoch_desc: "Declare that it is time to expand the Huey-Teocalli, our great monument to the gods and the foremost symbol of Mexica power."
- 
- #PRIVILEGES
- #Granting
- gpmaster_title: "§g•Grant Privileges to Faction§!"
- gpmaster_desc: "Allows you to grant privileges to a faction to increase their influence and allow you to ask favors of them."
- gpmasterhide_title: "§g•Hide All Faction Privilege Decisions§!"
- gpmasterhide_desc: ""
- gppriestmaster_title: "§Y•Grant Privileges to Priestly Orders§!"
- gppriestmaster_desc: "Shows all privileges that can be granted to the Priestly Orders."
- gppriestmasterhide_title: "§Y•Hide Priestly Order Privilege Decisions§!"
- gppliftpoliticalembargo_title: "§Y+Lift Political Embargo on the Priesthood§!"
- gppliftpoliticalembargo_desc: "Allow priests to hold positions of political as well as religious power."
- gppelevatestatus_title: "§Y+Elevate Priestly Legal Status§!"
- gppelevatestatus_desc: "Grant the priesthood the same legal rights as the nobility."
- gppappointcouncilor_title: "§Y+Appoint Piests as Councilors§!"
- gppappointcouncilor_desc: "Appoint priests as advisors to important government officials and allow them to sit on the council that chooses new rulers."
- gppdelegateincome_title: "§Y+Delegate Income to Priestly Orders§!"
- gppdelegateincome_desc: "Grant a portion of government income to the priestly orders to cover their expenses."
- 
- gpnoblesmaster_title: "§R•Grant Privileges to the Nobility§!"
- gpnoblesmaster_desc: "Shows all privileges that can be granted to the Nobility."
- gpnoblesmasterhide_title: "§R•Hide Nobility Privilege Decisions§!"
- gpnmilitaryp_title: "§R+Abolish Military Meritocracy§!"
- gpnmilitaryp_desc: "Prevent commoners from using the military as a means of social advancement."
- gpngovernmentp_title: "§R+Exclude Commoners from Government§!"
- gpngovernmentp_desc: "Prevent commoners from holding any government positions."
- gpnexclusiverights_title: "§R+Grant Exclusive Legal Rights§!"
- gpnexclusiverights_desc: "Guarantee and extend the legal rights of the nobility while locking them off from any other social class."
- gpnextendedestates_title: "§R+Extend Estates§!"
- gpnextendedestates_desc: "Increase the amount of land owned and the amount of commoners controlled by the military."
- gpnpension_title: "§R+Delegate Income to Nobility§!"
- gpnpension_desc: "Grant additional income to the nobility as payment for their continued service to the state."
- 
- gpmerchantsmaster_title: "§G•Grant Privileges to the Merchants§!"
- gpmerchantsmaster_desc: "Shows all privileges that can be granted to the Merchants."
- gpmerchantsmasterhide_title: "§G•Hide Merchant Privilege Decisions§!"
- gpmliftsumptuarylaws_title: "§G+Lift Sumptuary Laws§!"
- gpmliftsumptuarylaws_desc: "Repeal the laws regulating the displays of wealth and status on merchants."
- gpmcaravanguards_title: "§G+State-Sponsored Caravan Guards§!"
- gpmcaravanguards_desc: "Supply the men and funds for official caravan guards for traveling merchants."
- gpmexclusivetrade_title: "§G+Grant Exclusive Trade Licences§!"
- gpmexclusivetrade_desc: "Give our merchants exclusive trading privilege in our markets."
- gpmbetterspypay_title: "§G+Increased Compensation for Spies§!"
- gpmbetterspypay_desc: "Increase the compensation merchants recieve for dangerous spywork done in service to the state."
- gpminsureventures_title: "§G+Insure Merchant Ventures§!"
- gpminsureventures_desc: "Set aside a portion of government income to bail out ailing trading ventures."
- 
- #Revoking
- rpmaster_title: "§g•Revoke Privileges from Faction§!"
- rpmaster_desc: "Allows you to revoke privileges from a faction to increase their influence and allow you to ask favors of them."
- rpmasterhide_title: "§g•Hide All Revoke Privilege Decisions§!"
- rpmasterhide_desc: ""
- rppriestmaster_title: "§Y•Revoke Privileges from Priestly Orders§!"
- rppriestmaster_desc: "Shows all privileges that can be revoked from the Priestly Orders."
- rppriestmasterhide_title: "§Y•Hide Priestly Order Revocation Decisions§!"
- rppliftpoliticalembargo_title: "§Y–Political Embargo on the Priesthood§!"
- rppliftpoliticalembargo_desc: "Prevent priests from holding positions of political power."
- rppelevatestatus_title: "§Y–Revoke Priestly Legal Status§!"
- rppelevatestatus_desc: "Revoke noble legal rights from the priesthood."
- rppappointcouncilor_title: "§Y–Exclude Priests from Councilorship§!"
- rppappointcouncilor_desc: "Exclude priests from most advisory positions in the government."
- rppdelegateincome_title: "§Y–Revoke Income Delegated to Priestly Orders§!"
- rppdelegateincome_desc: "Revoke the pension delegated to the priests."
- 
- rpnoblesmaster_title: "§R•Revoke Privileges from the Nobility§!"
- rpnoblesmaster_desc: "Shows all privileges that can be revoked from the Nobility."
- rpnoblesmasterhide_title: "§R•Hide Nobility Revocation Decisions§!"
- rpnmilitaryp_title: "§R–Instate Military Meritocracy§!"
- rpnmilitaryp_desc: "Allow commoners to use the military as a means of social advancement."
- rpngovernmentp_title: "§R–Allow Commoners in Government§!"
- rpngovernmentp_desc: "Allow commoners to hold government positions."
- rpnexclusiverights_title: "§R–Revoke Exclusive Legal Rights§!"
- rpnexclusiverights_desc: "Revoke the extended rights granted to the nobility."
- rpnextendedestates_title: "§R–Limit Estates§!"
- rpnextendedestates_desc: "Reduce the size of noble estates."
- rpnpension_title: "§R–Revoke Income Delegated to Nobility§!"
- rpnpension_desc: "Revoke the pension delegated to the nobility."
- 
- rpmerchantsmaster_title: "§G•Revoke Privileges from the Merchants§!"
- rpmerchantsmaster_desc: "Shows all privileges that can be revoked from the Merchants."
- rpmerchantsmasterhide_title: "§G•Hide Merchant Revocation Decisions§!"
- rpmliftsumptuarylaws_title: "§G–Instate Sumptuary Laws§!"
- rpmliftsumptuarylaws_desc: "Introduce laws regulating displays of status and wealth among merchants."
- rpmcaravanguards_title: "§G–Revoke Caravan Guards§!"
- rpmcaravanguards_desc: "Refuse to continue paying for the caravan guard service."
- rpmexclusivetrade_title: "§G–Revoke Exclusive Trade Licences§!"
- rpmexclusivetrade_desc: "Revoke the monopoly our merchants have on our controlled markets and allow others to compete."
- rpmbetterspypay_title: "§G–Normal Compensation for Spies§!"
- rpmbetterspypay_desc: "Return to normal compensation for spies."
- rpminsureventures_title: "§G–Stop Insuring Merchant Ventures§!"
- rpminsureventures_desc: "Refuse to continue insuring merchant ventures."
- 
- 
- 
  
  
  

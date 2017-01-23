@@ -17,3 +17,8 @@ opinion_mexica_brothers = {
 	opinion = 200
 	yearly_decay = 0
 }
+
+opinion_betrayed_triarchy = {
+	opinion = -200
+	yearly_decay = 0.1
+}

@@ -13,6 +13,10 @@ capital = "Cuauhnahuac"
 is_city = yes
 fort_15th = yes
 
+1428.1.1 = {
+	add_claim = TEN
+}
+
 discovered_by = semi_nomadic_tribe
 discovered_by = west_mexican
 discovered_by = tarascan

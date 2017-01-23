@@ -1,10 +1,5 @@
 ﻿l_english: 
  #Decisions
- #Displaying Info
- display_revolt_risk_title: "Assess the Loyalty of our Subjects"
- display_revolt_risk_desc: "Send out men to check on the mood in our subjects, and whether it is of a loyal nature or a rebellious one."
- rrisk_display: "An assessment of subject loyalty will be delivered to us in 20 days."
- 
  #Tribute Collection
  set_tribute_requirements_title: "Set Tribute Requirements"
  set_tribute_requirements_desc: "Legally codify the amount of yearly tribute we expect from our vassals."
@@ -19,10 +14,11 @@
  switch_hegemonic_title: "Switch to a Hegemonic Government"
  switch_hegemonic_desc: "Restructure our government to create a state which rules through spectacle and the precieved threat of overwhelming military retaliation, with a mostly hands-off approach to local politics."
  
- 
  #Draft Law
  set_draft_laws_title: "Set Draft Laws"
  set_draft_laws_desc: "Legally codify military service requirements for people from all rungs of society."
+ hold_grand_festival_title: "Hold Grand Festival"
+ hold_grand_festival_desc: "Hold a grand festival to showcase the power of the regime. Can only be used once every 10 years."
  
  #From Idea Groups
  raise_trib_army_title: "Raise Army from Tributaries"

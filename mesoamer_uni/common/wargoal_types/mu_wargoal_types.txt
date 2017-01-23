@@ -80,7 +80,6 @@ feud_normal = {
 	peace_cost_factor = 1.25
 	
 	po_demand_provinces = yes
-	po_become_vassal = yes
 	
 	war_name = NORMALFEUD_WARNAME
 }
@@ -93,9 +92,21 @@ eternal_war = {
 	peace_cost_factor = 0.75
 	
 	po_demand_provinces = yes
-	po_become_vassal = yes
 	
 	war_name = ETERNAL_WARNAME
 }
+
+unite_valley_of_mexico = {
+	type = take_capital
+	
+	badboy_factor = 0.66
+	prestige_factor = 2
+	peace_cost_factor = 0.80
+	
+	po_demand_provinces = yes
+	
+	war_name = UNITEVALLEY_WARNAME
+}
+
 
 

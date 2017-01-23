@@ -96,10 +96,14 @@
  cb_eternal_war: "Eternal War"
  cb_eternal_war_desc: "We have formally declared de-facto eternal war on our neighbors. Let us act on it."
  
+ cb_unite_valley_of_mexico: "Unite the Valley of Mexico"
+ cb_unite_valley_of_mexico_desc: "In order to build a strong core area for future conquests, we must first unite the Valley of Mexico under the rule of the Triple Alliance."
+ 
  MERCANTILE_WARNAME: "$ORDER$$FIRST$ Mercantile War Against $SECOND_NAME$"
  YUCATANFEUD_WARNAME: "$ORDER$$FIRST$ Feud With $SECOND_NAME$"
  NORMALFEUD_WARNAME: "$ORDER$$FIRST$ Feud With $SECOND_NAME$"
  ETERNAL_WARNAME: "$ORDER$$FIRST$ Eternal War Against $SECOND_NAME$"
+ UNITEVALLEY_WARNAME: "$ORDER$$FIRST$ War for Unity Against $SECOND_NAME$"
  
  #Religions
  mexican_group: "Non-Yucatan Mexican"
