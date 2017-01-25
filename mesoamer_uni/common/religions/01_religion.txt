@@ -109,7 +109,7 @@ mexican_group = {
 		holy_sites = { 902 135 747 141 77 }
 
 		blessings = {
-			blessing_of_fertility
+			#blessing_of_fertility
 			blessing_of_the_scribe
 			blessing_of_the_warrior
 			blessing_of_the_farmer

@@ -1,7 +1,7 @@
 ######################################################################
-# Disgruntled nobles.
+# Angry rich fucks 
 ######################################################################
-noble_rebels = {
+local_noble_rebels = {
 
 	color = { 179 75 75 }
 
@@ -13,7 +13,7 @@ noble_rebels = {
 	gfx_type = culture_owner	
 	will_relocate = yes	
 	
-	resilient = no
+	resilient = yes
 	reinforcing = yes
 	general = yes
 	smart = yes
@@ -25,59 +25,89 @@ noble_rebels = {
 	morale = 1.0
 	
 	# Possible handle actions
-	handle_action_negotiate = yes
-	handle_action_stability = yes
-	handle_action_build_core = yes
-	handle_action_send_missionary = yes		
+	handle_action_negotiate = yes	
 	
 	# The rebel type with the highest modifier for this province gets picked
 	spawn_chance = {
 		factor = 1
 		modifier = {
-			factor = 0.01
-			is_overseas = yes
-		}
-		modifier = {
 			factor = 0
-			owner = { primary_culture = polish }
-		}
-		modifier = {
-			factor = 0.0
-			owner = {
-				is_colonial_nation = yes
+			OR = {
+				owner = { primary_culture = yucatecmayan }
+				owner = { primary_culture = putun_chontal }
 			}
 		}
-		modifier = {
-			factor = 0.0
-			owner = {
-				government = republic
-				republican_tradition = 0.8
-			}
+		
+		modifier = { 
+			factor = 0.2
+			nationalism = 10
 		}
 		modifier = {
-			factor = 20
-			owner = {
-				has_disaster = counts_feud
-				has_country_flag = pretender_flag
-			}
-		}	
+			factor = 1.25
+			NOT = { nationalism = 10 }
+		}
 		modifier = {
-			factor = 10
-			has_estate = estate_nobles
+			factor = 1.50
+			NOT = { nationalism = 5 }
+		}
+		modifier = {
+			factor = 1.75
+			NOT = { nationalism = 1 }
 		}
 		
 		modifier = {
-			factor = 2.5
+			factor = 1.25
 			owner = {
-				government = republic
-				NOT = { republican_tradition = 0.33 }
+				check_variable = { which = centralization value = 20 }
 			}
 		}
+		
 		modifier = {
-			factor = 2.5
+			factor = 1.25
 			owner = {
-				government = republic
-				NOT = { republican_tradition = 0.66 }
+				check_variable = { which = centralization value = 40 }
+			}
+		}
+		
+		modifier = {
+			factor = 1.25
+			owner = {
+				check_variable = { which = centralization value = 60 }
+			}
+		}
+		
+		modifier = {
+			factor = 1.25
+			owner = {
+				check_variable = { which = centralization value = 80 }
+			}
+		}
+		
+		modifier = {
+			factor = 1.25
+			owner = {
+				check_variable = { which = meritocratictradition value = 20 }
+			}
+		}
+		
+		modifier = {
+			factor = 1.25
+			owner = {
+				check_variable = { which = meritocratictradition value = 40 }
+			}
+		}
+		
+		modifier = {
+			factor = 1.25
+			owner = {
+				check_variable = { which = meritocratictradition value = 60 }
+			}
+		}
+		
+		modifier = {
+			factor = 1.25
+			owner = {
+				check_variable = { which = meritocratictradition value = 80 }
 			}
 		}
 	}
@@ -109,7 +139,7 @@ noble_rebels = {
  
  	# Province Scope
  	siege_won_trigger = {
-		NOT = { local_autonomy = 50 }
+		NOT = { local_autonomy = 90 }
 	}
 	siege_won_effect = {
 		add_local_autonomy = 10
@@ -126,28 +156,10 @@ noble_rebels = {
 	}
 	
 	# Localisation for their demands
-	demands_description = "noble_rebels_demand"
+	demands_description = "local_noble_rebels_demand"
 	
 	# Country Scope	
 	demands_enforced_effect = {
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_nobles
-				NOT = {
-					has_estate_influence_modifier = {
-						estate = estate_nobles
-						modifier = EST_VAL_NOBLES_EXTORTED_RIGHTS
-					}
-				}
-			}
-			add_estate_influence_modifier = {
-				estate = estate_nobles
-				desc = EST_VAL_NOBLES_EXTORTED_RIGHTS
-				influence = 15
-				duration = 5475
-			}
-		}
 		every_owned_province = {
 			limit = {
 				has_rebel_faction = REB
@@ -156,12 +168,13 @@ noble_rebels = {
 		}	
 		add_prestige = -20
 		add_legitimacy = -20
-		add_horde_unity = -20
-		if = {
-			limit = { has_disaster = counts_feud }
-			end_disaster = counts_feud
-			clr_country_flag = pretender_flag
-			clr_country_flag = monarch_flag
+		change_variable = {
+			which = meritocratictradition
+			value = -25
+		}
+		change_variable = {
+			which = centralization
+			value = -25
 		}
 	}
 }
