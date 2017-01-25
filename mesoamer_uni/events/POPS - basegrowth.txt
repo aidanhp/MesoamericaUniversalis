@@ -57,20 +57,23 @@ country_event = {
 				if = {
 					limit = {
 						owner = {
-							check_variable = {
-								which = pops_manpower_level
-								value = 0.60
-							}
+							has_country_modifier = baby_boom_global
 						}
 					}
-					change_variable = { which = prov_growth_rate value = 0.0010 }
+					change_variable = { which = prov_growth_rate value = 0.02 }
+				}
+				if = {
+					limit = {
+						has_province_modifier = baby_boom_local
+					}
+					change_variable = { which = prov_growth_rate value = 0.02 }
 				}
 				if = {
 					limit = {
 						owner = {
 							check_variable = {
 								which = pops_manpower_level
-								value = 0.70
+								value = 0.60
 							}
 						}
 					}
@@ -81,11 +84,22 @@ country_event = {
 						owner = {
 							check_variable = {
 								which = pops_manpower_level
+								value = 0.70
+							}
+						}
+					}
+					change_variable = { which = prov_growth_rate value = 0.0040 }
+				}
+				if = {
+					limit = {
+						owner = {
+							check_variable = {
+								which = pops_manpower_level
 								value = 0.80
 							}
 						}
 					}
-					change_variable = { which = prov_growth_rate value = 0.0030 }
+					change_variable = { which = prov_growth_rate value = 0.0060 }
 				}
 				if = {
 					limit = {
@@ -96,7 +110,7 @@ country_event = {
 							}
 						}
 					}
-					change_variable = { which = prov_growth_rate value = 0.0050 }
+					change_variable = { which = prov_growth_rate value = 0.010 }
 				}
 			
 				if = {
@@ -120,7 +134,7 @@ country_event = {
 							}
 						}
 					}
-					change_variable = { which = prov_growth_rate value = 0.0025 }
+					change_variable = { which = prov_growth_rate value = 0.0050 }
 				}
 			
 				if = {
@@ -209,6 +223,20 @@ country_event = {
 				#NEGATIVE
 				if = {
 					limit = {
+						owner = {
+							has_country_modifier = declining_birthrate_global
+						}
+					}
+					change_variable = { which = prov_growth_rate value = -0.02 }
+				}
+				if = {
+					limit = {
+						has_province_modifier = declining_birthrate_local
+					}
+					change_variable = { which = prov_growth_rate value = -0.02 }
+				}
+				if = {
+					limit = {
 						check_variable = { which = prov_pop which = provpp }
 					}
 					change_variable = { which = prov_growth_rate value = -0.050 }
@@ -246,7 +274,7 @@ country_event = {
 							}
 						}
 					}
-					change_variable = { which = prov_growth_rate value = -0.0075 }
+					change_variable = { which = prov_growth_rate value = -0.010 }
 				}
 				
 				if = {
@@ -260,7 +288,7 @@ country_event = {
 							}
 						}
 					}
-					change_variable = { which = prov_growth_rate value = -0.0075 }
+					change_variable = { which = prov_growth_rate value = -0.020 }
 				}
 				
 				if = {
@@ -274,7 +302,7 @@ country_event = {
 							}
 						}
 					}
-					change_variable = { which = prov_growth_rate value = -0.0075 }
+					change_variable = { which = prov_growth_rate value = -0.025 }
 				}
 				
 				if = {
@@ -288,7 +316,7 @@ country_event = {
 							}
 						}
 					}
-					change_variable = { which = prov_growth_rate value = -0.0075 }
+					change_variable = { which = prov_growth_rate value = -0.030 }
 				}
 				
 				if = {
@@ -302,14 +330,14 @@ country_event = {
 							}
 						}
 					}
-					change_variable = { which = prov_growth_rate value = -0.010 }
+					change_variable = { which = prov_growth_rate value = -0.035 }
 				}
 				
 				if = {
 					limit = {
 						has_province_modifier = damaged_by_war 
 					}
-					change_variable = { which = prov_growth_rate value = -0.005 }
+					change_variable = { which = prov_growth_rate value = -0.0075 }
 				}
 			
 				if = {

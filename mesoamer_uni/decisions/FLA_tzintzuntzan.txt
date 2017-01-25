@@ -3,6 +3,7 @@ country_decisions = {
 	IUA_betray_the_triarchy = {
 		major = yes
 		potential = {
+			NOT = { has_country_flag = betrayed_triarchy }
 			OR = { 
 				tag = PAT
 				tag = IHU
@@ -31,6 +32,7 @@ country_decisions = {
 			stability = 1
 		}
 		effect = {
+			set_country_flag = betrayed_triarchy
 			add_dip_power = -100
 			add_stability = -1
 			if = {

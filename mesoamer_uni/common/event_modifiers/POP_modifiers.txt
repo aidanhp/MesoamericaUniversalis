@@ -17,3 +17,20 @@ annihilated_by_war = {
 	local_manpower_modifier = -0.15
 	province_trade_power_modifier = -0.95
 }
+
+baby_boom_global = {
+	global_tax_modifier = 0.05
+}
+
+baby_boom_local = {
+	local_tax_modifier = 0.05
+}
+
+declining_birthrate_global = {
+	global_tax_modifier = -0.05
+}
+
+declining_birthrate_local = {
+	local_tax_modifier = -0.05
+}
+

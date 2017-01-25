@@ -1,4 +1,4 @@
-government = triarchal_confederation_dom
+government = altepetl 
 government_rank = 2
 mercantilism = 0.25
 technology_group = tarascan
@@ -37,7 +37,7 @@ historical_friend = IHU
 	heir = {
 		name = "Tzitzispandáquare"
 		monarch_name = "Tzitzispandáquare"
-		dynasty = "Uacusecha" 
+		dynasty = "Uanacaze" 
 		birth_date = 1408.1.1
 		death_date = 1479.1.1
 		claim = 100

@@ -178,10 +178,16 @@ country_event = {
 					duration = -1
 				}
 				
-				add_country_modifier = {
-					name = "tribreqs_normal"
-					duration = -1
+				if = {
+					limit = {
+						government = altepetl
+					}
+					add_country_modifier = {
+						name = "tribreqs_normal"
+						duration = -1
+					}
 				}
+				
 				
 				######################
 				#Initialize Variables#
@@ -198,6 +204,14 @@ country_event = {
 				set_variable = { which = pops_stability_level value = 0 }
 				set_variable = { which = pops_we_level value = 0 }
 				#set_variable = { which = pops_x_level value = 0 }
+				set_variable = { which = non_capital_development value = 0 }
+				export_to_variable = { 
+					which = non_capital_development
+					value = total_development
+				}
+				capital_scope = {
+					set_variable = { which = capital_development value = 0 }
+				}
 				
 				#Tribute System
 				set_variable = { which = total_ducats_dev value = 0 }
@@ -822,6 +836,42 @@ country_event = {
 					duration = -1
 				}
 			}
+			
+			654 = {
+				add_province_modifier = {
+					name = purepecha_core_zone
+					duration = -1
+				}
+			}
+			
+			687 = {
+				add_province_modifier = {
+					name = purepecha_core_zone
+					duration = -1
+				}
+			}
+			
+			949 = {
+				add_province_modifier = {
+					name = purepecha_core_zone
+					duration = -1
+				}
+			}
+			
+			362 = {
+				add_province_modifier = {
+					name = purepecha_core_zone
+					duration = -1
+				}
+			}
+			
+			363 = {
+				add_province_modifier = {
+					name = purepecha_core_zone
+					duration = -1
+				}
+			}
+			
 			####################
 			#Start Calculations#
 			####################

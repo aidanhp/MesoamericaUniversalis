@@ -48,6 +48,10 @@ country_decisions = {
 				name = upgraded_government
 				duration = 1825 
 			}
+			add_country_modifier = {
+				name = baby_boom_global
+				duration = 1825
+			}
 		}
 	}
 	#Restore the League of Mayapan
@@ -87,6 +91,10 @@ country_decisions = {
 			add_country_modifier = { 
 				name = upgraded_government
 				duration = 1825 
+			}
+			add_country_modifier = {
+				name = baby_boom_global
+				duration = 1825
 			}
 		}
 	}
@@ -139,6 +147,10 @@ country_decisions = {
 				name = upgraded_government
 				duration = 1825 
 			}
+			add_country_modifier = {
+				name = baby_boom_global
+				duration = 1825
+			}
 		}
 	}
 
@@ -188,6 +200,10 @@ country_decisions = {
 				name = upgraded_government
 				duration = 1825 
 			}
+			add_country_modifier = {
+				name = baby_boom_global
+				duration = 1825
+			}
 		}
 	}
 
@@ -235,6 +251,10 @@ country_decisions = {
 			add_country_modifier = { 
 				name = upgraded_government
 				duration = 1825 
+			}
+			add_country_modifier = {
+				name = baby_boom_global
+				duration = 1825
 			}
 		}
 	}
@@ -286,6 +306,10 @@ country_decisions = {
 			add_country_modifier = { 
 				name = upgraded_government
 				duration = 1825 
+			}
+			add_country_modifier = {
+				name = baby_boom_global
+				duration = 1825
 			}
 		}
 	}

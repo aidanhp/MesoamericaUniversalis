@@ -15,6 +15,31 @@ country_event = {
 		name = "ppcalc1.a"
 		
 		every_country = {
+			set_variable = { which = non_capital_development value = 0 }
+			export_to_variable = { 
+				which = non_capital_development
+				value = total_development
+			}
+			
+			capital_scope = {
+				set_variable = { which = capital_development value = 0 }
+				export_to_variable = { 
+					which = capital_development
+					value = development
+				}	
+				while = {
+					limit = {
+						check_variable = { 
+							which = capital_development
+							value = 0
+						}
+					}
+					owner = {
+						change_variable = { which = non_capital_development value = -1 }
+					}
+					change_variable = { which = capital_development value = -1 }
+				}
+			}
 			every_owned_province = {
 				subtract_variable = { which = provpp which = provpp }
 			
@@ -23,25 +48,46 @@ country_event = {
 					limit = {
 						has_terrain = grasslands
 					}
-					change_variable = { which = provpp value = 30 }
+					change_variable = { which = provpp value = 26 }
 				}
 				if = {
 					limit = {
 						has_terrain = hills
 					}
-					change_variable = { which = provpp value = 20 }
+					change_variable = { which = provpp value = 24 }
 				}
 				if = {
 					limit = {
 						has_terrain = mountain
 					}
-					change_variable = { which = provpp value = 15 }
+					change_variable = { which = provpp value = 22 }
 				}
 				if = {
 					limit = {
 						has_terrain = desert
 					}
-					change_variable = { which = provpp value = 10 }
+					change_variable = { which = provpp value = 20 }
+				}
+				
+				if = {
+					limit = {
+						area = western_shore_a
+					}
+					change_variable = { which = provpp value = 30 }
+				}
+				
+				if = {
+					limit = {
+						area = eastern_shore_a
+					}
+					change_variable = { which = provpp value = 15 }
+				}
+				
+				if = {
+					limit = {
+						area = southern_shore_a
+					}
+					change_variable = { which = provpp value = 30 }
 				}
 			
 				
@@ -50,7 +96,207 @@ country_event = {
 					limit = {
 						is_capital = yes
 						owner = { 
-							total_development = 150
+							check_variable = { which = non_capital_development value = 25 }
+						}
+					}
+					change_variable = { which = provpp value = 2 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = non_capital_development value = 50 }
+						}
+					}
+					change_variable = { which = provpp value = 2 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = non_capital_development value = 75 }
+						}
+					}
+					change_variable = { which = provpp value = 2 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = non_capital_development value = 100 }
+						}
+					}
+					change_variable = { which = provpp value = 2 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = non_capital_development value = 125 }
+						}
+					}
+					change_variable = { which = provpp value = 2 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = non_capital_development value = 150 }
+						}
+					}
+					change_variable = { which = provpp value = 2 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = non_capital_development value = 200 }
+						}
+					}
+					change_variable = { which = provpp value = 2 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = non_capital_development value = 250 }
+						}
+					}
+					change_variable = { which = provpp value = 2 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = non_capital_development value = 500 }
+						}
+					}
+					change_variable = { which = provpp value = 2 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = non_capital_development value = 750 }
+						}
+					}
+					change_variable = { which = provpp value = 2 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = non_capital_development value = 1000 }
+						}
+					}
+					change_variable = { which = provpp value = 5 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = non_capital_development value = 1333 }
+						}
+					}
+					change_variable = { which = provpp value = 5 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = non_capital_development value = 1667 }
+						}
+					}
+					change_variable = { which = provpp value = 5 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = non_capital_development value = 2000 }
+						}
+					}
+					change_variable = { which = provpp value = 5 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = non_capital_development value = 2333 }
+						}
+					}
+					change_variable = { which = provpp value = 5 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = non_capital_development value = 2667 }
+						}
+					}
+					change_variable = { which = provpp value = 5 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = non_capital_development value = 3000 }
+						}
+					}
+					change_variable = { which = provpp value = 5 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = non_capital_development value = 3500 }
+						}
+					}
+					change_variable = { which = provpp value = 5 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = non_capital_development value = 4000 }
+						}
+					}
+					change_variable = { which = provpp value = 5 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = non_capital_development value = 5000 }
+						}
+					}
+					change_variable = { which = provpp value = 5 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = non_capital_development value = 6000 }
 						}
 					}
 					change_variable = { which = provpp value = 10 }
@@ -60,169 +306,39 @@ country_event = {
 					limit = {
 						is_capital = yes
 						owner = { 
-							total_development = 200
+							check_variable = { which = non_capital_development value = 8000 }
 						}
 					}
-					change_variable = { which = provpp value = 10 }
+					change_variable = { which = provpp value = 20 }
 				}
 				
 				if = { 
 					limit = {
 						is_capital = yes
 						owner = { 
-							total_development = 400
+							check_variable = { which = non_capital_development value = 12000 }
 						}
 					}
-					change_variable = { which = provpp value = 5 }
+					change_variable = { which = provpp value = 30 }
 				}
 				
 				if = { 
 					limit = {
 						is_capital = yes
 						owner = { 
-							total_development = 600
+							check_variable = { which = non_capital_development value = 15000 }
 						}
 					}
-					change_variable = { which = provpp value = 5 }
+					change_variable = { which = provpp value = 40 }
 				}
 				
-				if = { 
-					limit = {
-						is_capital = yes
-						owner = { 
-							total_development = 800
-						}
-					}
-					change_variable = { which = provpp value = 5 }
-				}
-				
-				if = { 
-					limit = {
-						is_capital = yes
-						owner = { 
-							total_development = 1000
-						}
-					}
-					change_variable = { which = provpp value = 5 }
-				}
-				
-				if = { 
-					limit = {
-						is_capital = yes
-						owner = { 
-							total_development = 1250
-						}
-					}
-					change_variable = { which = provpp value = 5 }
-				}
-				
-				if = { 
-					limit = {
-						is_capital = yes
-						owner = { 
-							total_development = 1500
-						}
-					}
-					change_variable = { which = provpp value = 5 }
-				}
-				
-				if = { 
-					limit = {
-						is_capital = yes
-						owner = { 
-							total_development = 1750
-						}
-					}
-					change_variable = { which = provpp value = 5 }
-				}
-				
-				if = { 
-					limit = {
-						is_capital = yes
-						owner = { 
-							total_development = 2000
-						}
-					}
-					change_variable = { which = provpp value = 5 }
-				}
-				
-				if = { 
-					limit = {
-						is_capital = yes
-						owner = { 
-							total_development = 2333
-						}
-					}
-					change_variable = { which = provpp value = 5 }
-				}
-				
-				if = { 
-					limit = {
-						is_capital = yes
-						owner = { 
-							total_development = 2666
-						}
-					}
-					change_variable = { which = provpp value = 5 }
-				}
-				
-				if = { 
-					limit = {
-						is_capital = yes
-						owner = { 
-							total_development = 3000
-						}
-					}
-					change_variable = { which = provpp value = 5 }
-				}
-				
-				if = { 
-					limit = {
-						is_capital = yes
-						owner = { 
-							total_development = 3500
-						}
-					}
-					change_variable = { which = provpp value = 5 }
-				}
-				
-				if = { 
-					limit = {
-						is_capital = yes
-						owner = { 
-							total_development = 4000
-						}
-					}
-					change_variable = { which = provpp value = 5 }
-				}
-				
-				if = { 
-					limit = {
-						is_capital = yes
-						owner = { 
-							total_development = 5000
-						}
-					}
-					change_variable = { which = provpp value = 5 }
-				}
-				
+				#Capital of a Kingdom
 				if = {
 					limit = {
 						is_capital = yes
 						owner = {
 							government_rank = 2
 							NOT = { government_rank = 3 }
-						}
-					}
-					change_variable = { which = provpp value = 20 }
-				}
-			
-				#Capital of a Kingdom
-				if = { 
-					limit = {
-						is_capital = yes
-						owner = { 
-							total_development = 100
 						}
 					}
 					change_variable = { which = provpp value = 15 }
@@ -236,7 +352,7 @@ country_event = {
 							government_rank = 3
 						}
 					}
-					change_variable = { which = provpp value = 50 }
+					change_variable = { which = provpp value = 30 }
 				}
 				
 				#Trade Power
@@ -244,40 +360,110 @@ country_event = {
 					limit = {
 						province_trade_power = 2.5
 					}
-					change_variable = { which = provpp value = 5 }
+					change_variable = { which = provpp value = 2.5 }
 				}
 				
 				if = {
 					limit = {
 						province_trade_power = 5.0
 					}
-					change_variable = { which = provpp value = 5 }
+					change_variable = { which = provpp value = 2.5 }
 				}
 			
 				if = {
 					limit = {
 						province_trade_power = 7.5
 					}
-					change_variable = { which = provpp value = 5 }
+					change_variable = { which = provpp value = 2.5 }
 				}
 				
 				if = {
 					limit = {
 						province_trade_power = 10.0
 					}
-					change_variable = { which = provpp value = 5 }
+					change_variable = { which = provpp value = 2.5 }
+				}
+				
+				if = {
+					limit = {
+						province_trade_power = 12.5
+					}
+					change_variable = { which = provpp value = 2.5 }
 				}
 				
 				if = {
 					limit = {
 						province_trade_power = 15.0
 					}
-					change_variable = { which = provpp value = 5 }
+					change_variable = { which = provpp value = 2.5 }
+				}
+				
+				if = {
+					limit = {
+						province_trade_power = 17.5
+					}
+					change_variable = { which = provpp value = 2.5 }
 				}
 				
 				if = {
 					limit = {
 						province_trade_power = 20.0
+					}
+					change_variable = { which = provpp value = 2.5 }
+				}
+				
+				if = {
+					limit = {
+						province_trade_power = 22.5
+					}
+					change_variable = { which = provpp value = 5 }
+				}
+				
+				if = {
+					limit = {
+						province_trade_power = 25.0
+					}
+					change_variable = { which = provpp value = 5 }
+				}
+				
+				if = {
+					limit = {
+						province_trade_power = 27.5
+					}
+					change_variable = { which = provpp value = 5 }
+				}
+				
+				if = {
+					limit = {
+						province_trade_power = 30.0
+					}
+					change_variable = { which = provpp value = 5 }
+				}
+				
+				if = {
+					limit = {
+						province_trade_power = 35.0
+					}
+					change_variable = { which = provpp value = 5 }
+				}
+				
+				if = {
+					limit = {
+						province_trade_power = 40.0
+					}
+					change_variable = { which = provpp value = 5 }
+				}
+				
+				if = {
+					limit = {
+						province_trade_power = 45.0
+					}
+					change_variable = { which = provpp value = 5 }
+				}
+				
+				if = {
+					limit = {
+						province_trade_power = 50.0
 					}
 					change_variable = { which = provpp value = 5 }
 				}
@@ -287,7 +473,7 @@ country_event = {
 					limit = {
 						has_building = farm1
 					}
-					change_variable = { which = provpp value = 10 }
+					change_variable = { which = provpp value = 5 }
 				}
 				
 				#Tech
@@ -304,7 +490,7 @@ country_event = {
 					limit = {
 					has_building = farm2
 					}
-					change_variable = { which = provpp value = 15 }
+					change_variable = { which = provpp value = 10 }
 				}
 			}
 		}

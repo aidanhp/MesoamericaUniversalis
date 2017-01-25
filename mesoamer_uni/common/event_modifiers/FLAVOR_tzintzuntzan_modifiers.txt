@@ -2,6 +2,11 @@ bs1 = {
 
 }
 
+purepecha_core_zone = {
+	local_manpower_modifier = 0.50
+	local_autonomy = -0.50
+}
+
 no_sons = {
 	heir_chance = -10.0
 }

@@ -20,6 +20,7 @@
  #################
  #EVENT MODIFIERS#
  #################
+ purepecha_core_zone: "Purepecha Core Zone"
  no_sons: "No Sons"
  desc_no_sons: "Our ruler is cursed with bad luck when it comes to keeping male heirs alive."
  current_cazonci: "Cazonci Titleholder"
@@ -31,8 +32,8 @@
  ###########
  #DECISIONS#
  ###########
- IUA_betray_the_triarchy: "Betray the Triarchy"
- IUA_betray_the_triarchy: "We have been constrained by the Purepecha Triarchy for too long! It is time to break away from this constraining system and make our own destiny. \nNOTE TO THE PLAYER: The Triarchy will automatically end by event when the first ruler of Patzcuaro dies. Only click this if you’re impatient."
+ IUA_betray_the_triarchy_title: "Betray the Triarchy"
+ IUA_betray_the_triarchy_desc: "We have been constrained by the Purepecha Triarchy for too long! It is time to break away from this flawed system and forge our own destiny. \nNOTE TO THE PLAYER: The Triarchy will automatically end by event when the first ruler of Patzcuaro dies. Only click this if you’re impatient."
  
  
  ########
@@ -115,7 +116,7 @@
  IUA_MAJORS17.a: "We are whole once more!"
  
  IUA_MAJORS18.t: "A Path Forward"
- IUA_MAJORS18.d: "With our recent sweeping victory in the succession war, it would be wise to restructure our political system so that it does not depend on the antiquated triarchy model any longer. We may opt for a decentralized hegemonic system, along the lines of the classic empires and kingdoms of central Mexico, or attempt to forge a new destiny as a centralized territorial state."
+ IUA_MAJORS18.d: "With our recent sweeping victory in the succession war, it would be wise to restructure our political system so that it does not depend on the antiquated triarchy model any longer. We may opt to invest in a decentralized hegemonic system, along the lines of the classic empires and kingdoms of central Mexico, or attempt to forge a more centralized form of government."
  IUA_MAJORS18.a: "A new, glorious destiny for the Purepecha!"
  IUA_MAJORS18.b: "A traditional hegemonic system."
  

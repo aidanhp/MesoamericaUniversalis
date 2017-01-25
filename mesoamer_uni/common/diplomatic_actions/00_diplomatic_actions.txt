@@ -88,41 +88,14 @@ requestpeace = {
 }
 
 declarewar = {
-	condition = {
-		tooltip = YES
-		potential = {
-			
-		}
-		allow = {
-			always = yes
-		}
-	}
-	effect = {
-		ROOT = { 
-			add_country_modifier = {
-				name = "warleader"
-				duration = -1
-			}
-		}
-		FROM = {
-			add_country_modifier = {
-				name = "warleader"
-				duration = -1
-			}
-		}
-	}
 }
+
 allianceaction = {
 	condition = {
 		tooltip = TRI_1 
 		potential = {
-			OR = { 
-				FROM = {
-					government = triarchal_confederation_dom
-				}
-				FROM = {
-					government = triarchal_confederation_sub
-				}
+			NOT = { 
+				has_global_flag = no_cazonci_voting
 			}
 			ROOT = {
 				NOT = {
@@ -143,6 +116,9 @@ allianceaction = {
 		tooltip = TRI_2
 		potential = {
 			tag = IUA
+			NOT = { 
+				has_global_flag = no_cazonci_voting
+			}
 			AND = { 
 				alliance_with = IHU
 				alliance_with = PAT
@@ -157,6 +133,9 @@ allianceaction = {
 		tooltip = TRI_2
 		potential = {
 			tag = IHU
+			NOT = { 
+				has_global_flag = no_cazonci_voting
+			}
 			AND = { 
 				alliance_with = IUA
 				alliance_with = PAT
@@ -171,6 +150,9 @@ allianceaction = {
 		tooltip = TRI_2
 		potential = {
 			tag = PAT
+			NOT = { 
+				has_global_flag = no_cazonci_voting
+			}
 			AND = { 
 				alliance_with = IHU
 				alliance_with = IUA

@@ -10,5 +10,6 @@ trade_goods = grain
 base_manpower = 9
 capital = "Kaua"
 is_city = yes
+fort_15th = yes
 
 discovered_by = maya

@@ -314,13 +314,14 @@ country_event = {
 	
 	trigger = {	
 		TLA = {
-			alliance_with = TEN
+			OR = {
+				alliance_with = TEN
+				alliance_with = TOE
+			}
 			NOT = {
 				has_ruler = "Quauhtlatoatzin"
 			}
-			NOT = {
-				nums_of_cities = TEN
-			}
+			NOT = { ai = no }
 		}
 	}
 	

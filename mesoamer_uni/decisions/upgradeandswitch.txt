@@ -17,6 +17,10 @@ country_decisions = {
 				name = upgraded_government
 				duration = 1825 
 			}
+			add_country_modifier = {
+				name = baby_boom_global
+				duration = 1825
+			}
 		}
 	}
 	#Upgrade - Kingdom to Empire
@@ -46,6 +50,9 @@ country_decisions = {
 			add_country_modifier = { 
 				name = upgraded_government
 				duration = 1825 
+			}add_country_modifier = {
+				name = baby_boom_global
+				duration = 1825
 			}
 		}
 	}
@@ -73,6 +80,7 @@ country_decisions = {
 				}
 				set_variable = { which = centralization value = 10 }
 			}
+			remove_country_modifier = tribreqs_normal
 		}
 	}
 	#Switch - Hegemonic
@@ -97,7 +105,10 @@ country_decisions = {
 				}
 				set_variable = { which = centralization value = -40 }
 			}
+			add_country_modifier = {
+				name = "tribreqs_normal"
+				duration = -1
+			}
 		}
 	}
-	
 }

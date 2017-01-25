@@ -24,7 +24,6 @@ country_event = {
 	option = { #Pass to Patzcuaro
 		name = "IUA_MAJORS1.a"
 		
-		change_government = triarchal_confederation_sub
 		custom_tooltip = FLA_IUA_02
 		hidden_effect = {
 			PAT = { 
@@ -33,7 +32,6 @@ country_event = {
 					name = current_cazonci
 					duration = 1800
 				}
-				change_government = triarchal_confederation_dom
 				country_event = { id = IUA_MAJORS.06 days = 2 }
 			}
 		}
@@ -47,7 +45,6 @@ country_event = {
 	option = { #Pass to Ihuatzio
 		name = "IUA_MAJORS1.b"
 
-		change_government = triarchal_confederation_sub
 		custom_tooltip = FLA_IUA_01
 		hidden_effect = { 
 			IHU = { 
@@ -56,7 +53,6 @@ country_event = {
 					name = current_cazonci
 					duration = 1800
 				}
-				change_government = triarchal_confederation_dom
 				country_event = { id = IUA_MAJORS.05 days = 2 }
 			}
 		}
@@ -91,7 +87,6 @@ country_event = {
 	option = { #Pass to Patzcuaro
 		name = "IUA_MAJORS2.a"
 		
-		change_government = triarchal_confederation_sub
 		custom_tooltip = FLA_IUA_02
 		hidden_effect = { 
 			PAT = { 
@@ -100,7 +95,6 @@ country_event = {
 					name = current_cazonci
 					duration = 1800
 				}
-				change_government = triarchal_confederation_dom
 				country_event = { id = IUA_MAJORS.06 days = 2 }
 			}
 		}
@@ -114,7 +108,6 @@ country_event = {
 	option = { #Pass to Tzintzuntzan
 		name = "IUA_MAJORS2.b"
 
-		change_government = triarchal_confederation_sub
 		custom_tooltip = FLA_IUA_03
 		hidden_effect = { 
 			IUA = { 
@@ -123,7 +116,6 @@ country_event = {
 					name = current_cazonci
 					duration = 1800
 				}
-				change_government = triarchal_confederation_dom
 				country_event = { id = IUA_MAJORS.04 days = 2 }
 			}
 		}
@@ -158,7 +150,6 @@ country_event = {
 	option = { #Pass to Ihuatzio
 		name = "IUA_MAJORS3.a"
 		
-		change_government = triarchal_confederation_sub
 		custom_tooltip = FLA_IUA_01
 		hidden_effect = { 
 			IHU = { 
@@ -167,7 +158,6 @@ country_event = {
 					name = current_cazonci
 					duration = 1800
 				}
-				change_government = triarchal_confederation_dom
 				country_event = { id = IUA_MAJORS.05 days = 2 }
 			}
 		}
@@ -181,7 +171,6 @@ country_event = {
 	option = { #Pass to Tzintzuntzan
 		name = "IUA_MAJORS3.b"
 
-		change_government = triarchal_confederation_sub
 		custom_tooltip = FLA_IUA_03
 		hidden_effect = { 
 			IUA = { 
@@ -190,7 +179,6 @@ country_event = {
 					name = current_cazonci
 					duration = 1800
 				}
-				change_government = triarchal_confederation_dom
 				country_event = { id = IUA_MAJORS.04 days = 2 }
 			}
 		}
@@ -848,9 +836,32 @@ country_event = {
 		name = "IUA_MAJORS18.a"
 		
 		custom_tooltip = GOVS_cen_i_0015
-		add_idea_group = territorial_ideas 
-		add_idea = territorial_ideology 
-		change_government = centralized_altepetl 
+		if = {
+			limit = {
+				has_idea_group = territorial_ideas
+			}
+			add_adm_power = 250
+		}
+		if = {
+			limit = {
+				has_idea_group = hegemonic_ideas
+			}
+			remove_idea_group = hegemonic_ideas
+			add_idea_group = territorial_ideas
+			add_idea = territorial_ideology 
+			change_government = centralized_altepetl 
+		}
+		if = {
+			limit = {
+				NOT = { 
+					has_idea_group = hegemonic_ideas
+					has_idea_group = territorial_ideas
+				}
+			}
+			add_idea_group = territorial_ideas
+			add_idea = territorial_ideology 
+			change_government = centralized_altepetl 
+		}
 		
 		hidden_effect = {
 			change_variable = { which = centralization value = 15 }
@@ -865,9 +876,32 @@ country_event = {
 		name = "IUA_MAJORS18.b"
 		
 		set_variable = { which = centralization value = -45 }
-		add_idea_group = hegemonic_ideas  
-		add_idea = hegemonic_ideology  
-		change_government = altepetl  
+		if = {
+			limit = {
+				has_idea_group = hegemonic_ideas
+			}
+			add_mil_power = 250
+		}
+		if = {
+			limit = {
+				has_idea_group = territorial_ideas
+			}
+			remove_idea_group = territorial_ideas
+			add_idea_group = hegemonic_ideas
+			add_idea = hegemonic_ideology 
+			change_government = altepetl 
+		}
+		if = {
+			limit = {
+				NOT = { 
+					has_idea_group = hegemonic_ideas
+					has_idea_group = territorial_ideas
+				}
+			}
+			add_idea_group = hegemonic_ideas
+			add_idea = hegemonic_ideology 
+			change_government = altepetl 
+		}
 		
 		ai_chance = {
 			factor = 0
@@ -884,6 +918,8 @@ country_event = {
 	
 	picture = REFORM_eventPicture 
 	
+	fire_only_once = yes
+	
 	trigger = {
 		OR = { 
 			tag = IUA
@@ -893,7 +929,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 24
+		months = 36
 	}
 	
 	option = {

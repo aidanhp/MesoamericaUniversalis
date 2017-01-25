@@ -4,6 +4,12 @@
  euroinvasions: "European Invasions Enabled"
  noinvasions: "European Invasions Disabled"
  
+ #Population
+ baby_boom_global: "Baby Boom (Global Population Growth: §G+0.02%§!)"
+ baby_boom_local: "Baby Boom (Local Population Growth: §G+0.02%§!)"
+ declining_birthrate_global: "Declining Birthrate (Global Population Growth: §R-0.02%§!)"
+ declining_birthrate_local: "Declining Birthrate (Local Population Growth: §R-0.02%§!)"
+ 
  #Generic Effects
  upgraded_government: "Upgraded Rank" 
  will_pay: "Paying Tribute"

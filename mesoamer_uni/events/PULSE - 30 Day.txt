@@ -20,22 +20,27 @@ country_event = {
 	option = {
 		name = "monthpulse.a"
 		
-		#Remove Warleader flag
-		every_country = {
-			limit = {
-				AND = {
-					is_at_war = no
-					has_country_modifier = warleader
-				}
-			}
-			remove_country_modifier = warleader
-		}
-		
 		every_country = { 
-		every_owned_province = {
-			limit = {
-				owner = {
-					ai = yes
+			if = {
+				limit = {
+					government = centralized_altepetl
+				}
+				every_owned_province = {
+					limit = {
+						always = yes
+					}
+					remove_province_modifier = will_pay
+					remove_province_modifier = wont_pay
+				}
+				remove_country_modifier = tribreqs_high
+				remove_country_modifier = tribreqs_normal
+				remove_country_modifier = tribreqs_low
+			}
+			every_owned_province = {
+				limit = {
+					owner = {
+						ai = yes
+					}
 				}
 				add_permanent_province_modifier = {
 					name = base_law
@@ -54,7 +59,212 @@ country_event = {
 					duration = -1
 				}
 			}
-		}
+			every_owned_province = {
+				limit = {
+					owner = {
+						ai = no
+					}
+				}
+				if = {
+					limit = {
+						owner = { 
+							capital_scope = {
+								has_province_modifier = e_optionalcareer
+							}
+						}
+					}
+					add_province_modifier = {
+						name = e_optionalcareer
+						duration = -1
+					}	
+				}
+				if = {
+					limit = {
+						owner = {
+							capital_scope = {
+								has_province_modifier = e_expectedservice
+							}
+						}
+					}
+					add_province_modifier = {
+						name = e_expectedservice
+						duration = -1
+					}	
+				}
+				if = {
+					limit = {
+						owner = { 
+							capital_scope = {
+								has_province_modifier = e_oldestson
+							}
+						}
+					}
+					add_province_modifier = {
+						name = e_oldestson
+						duration = -1
+					}	
+				}
+				if = {
+					limit = {
+						owner = {
+							capital_scope = {
+								has_province_modifier = e_allsons
+							}
+						}
+					}
+					add_province_modifier = {
+						name = e_allsons
+						duration = -1
+					}	
+				}
+				if = {
+					limit = {
+						owner = { 
+							capital_scope = {
+								has_province_modifier = e_necessary
+							}
+						}
+					}
+					add_province_modifier = {
+						name = e_necessary
+						duration = -1
+					}	
+				}
+				
+				
+				if = {
+					limit = {
+						owner = { 
+							capital_scope = {
+								has_province_modifier = a_noservice
+							}
+						}
+					}
+					add_province_modifier = {
+						name = a_noservice
+						duration = -1
+					}	
+				}
+				if = {
+					limit = {
+						owner = { 
+							capital_scope = {
+								has_province_modifier = a_expectedservice
+							}
+						}
+					}
+					add_province_modifier = {
+						name = a_expectedservice
+						duration = -1
+					}	
+				}
+				if = {
+					limit = {
+						owner = {
+							capital_scope = {
+								has_province_modifier = a_oldestson
+							}
+						}
+					}
+					add_province_modifier = {
+						name = a_oldestson
+						duration = -1
+					}	
+				}
+				if = {
+					limit = {
+						owner = { 
+							capital_scope = {
+								has_province_modifier = a_allsons
+							}
+						}
+					}
+					add_province_modifier = {
+						name = a_allsons
+						duration = -1
+					}	
+				}
+				if = {
+					limit = {
+						owner = { 
+							capital_scope = {
+								has_province_modifier = a_necessary
+							}
+						}
+					}
+					add_province_modifier = {
+						name = a_necessary
+						duration = -1
+					}	
+				}
+				
+				
+				if = {
+					limit = {
+						owner = { 
+							capital_scope = {
+								has_province_modifier = c_noservice
+							}
+						}
+					}
+					add_province_modifier = {
+						name = c_noservice
+						duration = -1
+					}	
+				}
+				if = {
+					limit = {
+						owner = { 
+							capital_scope = {
+								has_province_modifier = c_expectedservice
+							}
+						}
+					}
+					add_province_modifier = {
+						name = c_expectedservice
+						duration = -1
+					}	
+				}
+				if = {
+					limit = {
+						owner = { 
+							capital_scope = {
+								has_province_modifier = c_oldestson
+							}
+						}
+					}
+					add_province_modifier = {
+						name = c_oldestson
+						duration = -1
+					}	
+				}
+				if = {
+					limit = {
+						owner = { 
+							capital_scope = {
+								has_province_modifier = c_allsons
+							}
+						}
+					}
+					add_province_modifier = {
+						name = c_allsons
+						duration = -1
+					}	
+				}
+				if = {
+					limit = {
+						owner = { 
+							capital_scope = {
+								has_province_modifier = c_necessary
+							}
+						}
+					}
+					add_province_modifier = {
+						name = c_necessary
+						duration = -1
+					}	
+				}
+			}
 		}
 	}
 }

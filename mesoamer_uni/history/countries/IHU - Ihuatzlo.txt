@@ -1,4 +1,4 @@
-government = triarchal_confederation_sub
+government = altepetl 
 government_rank = 1
 mercantilism = 0.25
 technology_group = tarascan
@@ -32,7 +32,7 @@ historical_friend = PAT
 	heir = {
 		name = "Ticatame"
 		monarch_name = "Ticatame"
-		dynasty = "Uacusecha" 
+		dynasty = "Uanacaze" 
 		birth_date = 1403.1.1
 		death_date = 1454.1.1
 		claim = 100
