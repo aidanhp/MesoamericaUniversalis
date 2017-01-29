@@ -654,3 +654,6 @@ LLI     = "countries/Ixtacuixtla.txt"
 #Special Countries
 MGI     = "countries/MagicIsland.txt"
 BLR     = "countries/Karma.txt"
+
+#Invaders
+CAX     = "countries/Caxtillan.txt"

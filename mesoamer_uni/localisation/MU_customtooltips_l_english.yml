@@ -335,5 +335,5 @@
  #INSTITUTIONS#
  ##############
  WORLD_SYSTEM_PENALTY: "Countries that have not embraced the World System institution will get a technology cost penalty that increases by 1% per year, up to 50%."
- 
- 
+ WPN_METAL_PENALTY: "Countries that have not embraced the Weaponized Metalworking institution will get a technology cost penalty that increases by 1% per year, up to 50%."
+ DAT_ANIMALS_PENALTY: "Countries that have not embraced the European Animals institution will get a technology cost penalty that increases by 1% per year, up to 50%"

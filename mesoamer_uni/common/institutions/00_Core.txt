@@ -225,3 +225,316 @@ world_system = {
 		}
 	}
 }
+
+
+
+##################################
+#Draft and Transportation Animals#
+##################################
+
+dat_animals = {
+	penalty = 0.50
+	
+	bonus = {
+		global_autonomy = -0.20
+		stability_cost_modifier = -0.15
+	}
+	
+	historical_start_date = 1519.1.1
+	historical_start_province = 947 #Cempoala
+	
+	history = {
+		OR = {
+			AND = {
+				is_year = 1525
+				region = central_mexico_r 
+			}
+			
+			AND = {
+				is_year = 1530
+				region = michoacan_r 
+			}
+			
+			AND = {
+				is_year = 1620
+				region = yucatan_r 
+			}
+			
+			AND = {
+				is_year = 1550
+				region = mayan_highlands_r  
+			}
+			is_year = 1630
+		}
+	}
+	
+	can_start = {
+		AND = {
+			is_year = 1519
+			is_core = CAX
+		}
+	}
+	start_chance = 25		#in 100 for when a province can_start
+	on_start = institutions.05
+	
+	can_embrace = {
+		always = yes
+	}
+	
+	embracement_speed = {
+		modifier = {
+			factor = 0.75
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = FRIENDLY_NEIGHBOR_DATANIMALS
+				any_friendly_coast_border_province = {
+					weaponized_metalworking = 100
+				}
+			}
+		}
+		modifier = {
+			factor = 0.50
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = ANY_NEIGHBOR_DATANIMALS
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+					weaponized_metalworking = 100
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 0.50
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = DEVELOPMENT_DATANIMALS
+				development = 15
+			}
+		}
+		
+		modifier = {
+			factor = 0.50
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = STAPLE_CROPS_DATANIMALS
+				trade_goods = grain
+			}
+		}
+		
+		modifier = {
+			factor = 1.0
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = EMBRACED_DATANIMALS
+				owner = {
+					has_institution = weaponized_metalworking
+				}
+			}
+		}
+	}
+	
+	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
+		factor = 24
+		
+		modifier = {
+			factor = 0.25
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.1
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.2
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.3
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.4
+		}
+	}
+}
+
+#########################
+#Weaponized Metalworking#
+#########################
+
+weaponized_metalworking = {
+	penalty = 0.50
+	
+	bonus = {
+		infantry_power = 0.25
+	}
+	
+	historical_start_date = 1521.1.1
+	historical_start_province = 947 #Cempoala
+	
+	history = {
+		OR = {
+			AND = {
+				is_year = 1525
+				region = central_mexico_r 
+			}
+			
+			AND = {
+				is_year = 1530
+				region = michoacan_r 
+			}
+			
+			AND = {
+				is_year = 1620
+				region = yucatan_r 
+			}
+			
+			AND = {
+				is_year = 1550
+				region = mayan_highlands_r  
+			}
+			is_year = 1630
+		}
+	}
+	
+	can_start = {
+		OR = { 
+			AND = { 
+				is_year = 1521
+				OR = {
+					owner = {
+						bronze = 1
+					}
+					owner = {
+						balsas = 1
+					}
+				}
+				OR = {
+					owner = { 
+						defensive_war_with = CAX
+					}
+					owner = { 
+						offensive_war_with = CAX
+					}
+				}
+			}
+			AND = {
+				is_year = 1525
+				is_core = CAX
+			}
+		}
+	}
+	start_chance = 50		#in 100 for when a province can_start
+	on_start = institutions.03
+	
+	can_embrace = {
+		always = yes
+	}
+	
+	embracement_speed = {
+		modifier = {
+			factor = 1.5
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = FRIENDLY_NEIGHBOR_WPN_METAL
+				any_friendly_coast_border_province = {
+					weaponized_metalworking = 100
+				}
+			}
+		}
+		modifier = {
+			factor = 0.75
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = ANY_NEIGHBOR_WPN_METAL
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+					weaponized_metalworking = 100
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.25
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = COPPER_WPN_METAL
+				trade_goods = bronze
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = BALSAS_WPN_METAL
+				trade_goods = balsas
+			}
+		}
+		
+		modifier = {
+			factor = 0.50
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = AT_WAR_WPN_METAL
+				owner = {
+					is_at_war = yes
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.0
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = AT_WAR_CAX_WPN_METAL
+				OR = {
+					owner = {
+						offensive_war_with = CAX
+					}
+					owner = {
+						defensive_war_with = CAX
+					}
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.0
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = EMBRACED_WPN_METAL
+				owner = {
+					has_institution = weaponized_metalworking
+				}
+			}
+		}
+	}
+	
+	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
+		factor = 24
+		
+		modifier = {
+			factor = 0.25
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.1
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.2
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.3
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.4
+		}
+	}
+}

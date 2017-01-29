@@ -263,3 +263,30 @@ magic_island = {
 	}
 	fixed_rank = 3
 }
+
+spanish_viceroyalty = {
+	monarchy = yes
+	
+	color = { 210 30 30 }
+	
+	allow_convert = no
+	unique_government = yes
+	valid_for_new_country = no
+
+	max_states = 10
+	
+	rank = {
+		3 = {
+			global_missionary_strength = 0.08
+			culture_conversion_cost = -0.33
+			global_manpower_modifier = 0.25
+			global_tax_modifier = 0.25
+			global_autonomy = -0.25
+			global_unrest = -10
+			core_cost = -0.90
+			missionaries = 3
+			colonists = 3
+		}
+	}
+	fixed_rank = 3
+}

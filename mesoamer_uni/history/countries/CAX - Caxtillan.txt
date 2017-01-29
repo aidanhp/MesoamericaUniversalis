@@ -1,0 +1,7 @@
+government = spanish_viceroyalty 
+government_rank = 3
+mercantilism = 0.75
+technology_group = central_mexican 
+religion = roman_catholic 
+primary_culture = caxtillan 
+capital = 1

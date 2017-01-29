@@ -1,6 +1,10 @@
 ﻿l_english: 
  #Units
- #Tier 1
+ 
+ ########
+ #Tier 1#
+ ########
+ #Infantry
  cm_central_mexican_spearmen: "Central Mexican Infantry"
  cm_central_mexican_spearmenDESCR: "The infantry unit of the central mexican army - a drafted farmer with some military training equipped with a wooden shield, an obsidian tipped spear, and a cotton breechcloth. May also be armed with an atlatl or a bow."
  my_maya_infantry: "Maya Infantry"
@@ -11,7 +15,11 @@
  tar_tariacuri_infantryDESCR: "The basic infantry unit utilized by Tariacuri to conquer the lands around Lake Patzcuaro. Mainly consists of drafted farmers with some military training armed with long obsidian tipped spears, heavy maces, or slings, and protected by wicker shields and thick cotton armor."
  wm_west_mexican_infantry: "West Mexican Infantry"
  wm_west_mexican_infantryDESCR: "The basic infantry unit of the west mexican army - a drafted farmer with some military training equipped with a wicker shield, a heavy mace, and protected by a cotton vest."
- 
+
+ ########
+ #Tier 2#
+ ########
+ #Infantry
  cm_central_mexican_combined_arms: "Late Central Mexican Infantry"
  cm_central_mexican_combined_armsDESCR: "A basic central mexican infantry unit honed by decades of large scale warfare with modern logistical and tactical adaptations."
  my_late_maya_infantry: "Late Maya Infantry"
@@ -19,6 +27,57 @@
  ta_late_triple_alliance_infantry: "Late Triple Alliance Infantry"
  ta_late_triple_alliance_infantryDESCR: "A basic Triple Alliance infantry unit with modern logistical and tactical adaptations, as well as improved equipment and training."
  tar_purepecha_legions: "Purepecha Legion"
- tar_purepecha_legions_DESCR: "A basic Purepecha infantry unit, but updated with logistical and tactical adaptations and more importantly with a core of skilled archers and auxiliary units of several conquered ethnic groups such as otomis and tecos."
+ tar_purepecha_legionsDESCR: "A basic Purepecha infantry unit, but updated with logistical and tactical adaptations and more importantly with a core of skilled archers and auxiliary units of several conquered ethnic groups such as otomis and tecos."
  wm_late_west_mexican_infantry: "Late West Mexican Infantry"
  wm_late_west_mexican_infantryDESCR: "A basic west mexican infantry unit honed by decades of large scale warfare with modern logistical and tactical adaptations."
+ 
+ ########
+ #Tier 3#
+ ########
+ #Infantry
+ cm_gunpowder_infantry: "Central Mexican Gunpowder Infantry"
+ cm_gunpowder_infantryDESCR: "The basic Central Mexican infantry unit, but equipped with various early gunpowder weapons in addition to traditional weapons and some metal spears."
+ my_gunpowder_infantry: "Maya Gunpowder Infantry"
+ my_gunpowder_infantryDESCR: "The basic Maya infantry unit, but equipped with various early gunpowder weapons in addition to traditional weapons and some metal spears."
+ ta_gunpowder_infantry: "Triple Alliance Gunpowder Infantry"
+ ta_gunpowder_infantryDESCR: "The basic Triple Alliance infantry unit, but equipped with various early gunpowder weapons in addition to traditional weapons and some metal spears."
+ tar_bronze_infantry: "Purepecha Bronze Infantry"
+ tar_bronze_infantryDESCR: "A basic Purepecha infantry unit, equipped with newly developed bronze weapons and armor and some early firearms."
+ wm_gunpowder_infantry: "West Mexican Gunpowder Infantry"
+ wm_gunpowder_infantryDESCR: "The basic West Mexican infantry unit, but equipped with various early gunpowder weapons in addition to traditional weapons and some metal spears."
+ #Cavalry
+ mesoamerican_lancers: "Mesoamerican Lancers"
+ mesoamerican_lancersDESCR: "Early mesoamerican cavalry. Consists of a regiment of men with some training with the new animals, equipped with spears or lances. Not particularily effective yet due to a lack of experience with horses and mounted combat."
+ mesoamerican_dragoons: "Mesoamerican Dragoons"
+ mesoamerican_dragoonsDESCR: "Medium cavalry that has been fully integrated into the Mesoamerican military. Equipped with some steel and cotton armor, and wielding lances or early firearms."
+ purepecha_horse_archers: "Purepecha Horse Archers"
+ purepecha_horse_archersDESCR: "Drawing on a long tradition of archery based warfare, the Purepecha military has quickly integrated horses into the military as a means of movement for our skilled archers."
+ 
+ #Artillery
+ rudimentary_artillery: "Rudimentary Artillery"
+ rudimentary_artilleryDESCR: "Early rudimentary artillery created by reverse engineering captured European pieces. Mainly consists of difficult to move, massive cannons capable of firing stones. Not very useful against infantry and unreliable due to the early stage of development."
+ bombards: "Bombards"
+ bombardsDESCR: "The first standardized artillery. Metalworking advancements have allowed a much more reliable and well designed weapon with more range and punch, but these bombards are still slow and of limited usefulness against infantry."
+ 
+ ########
+ #Tier 4#
+ ########
+ cm_musketmen: "Central Mexican Musketmen"
+ cm_musketmenDESCR: "The basic Central Mexican infantry unit, fully adapted to the new ways of war. The entire regiment is equipped and trained with muskets and steel weapons, and each man is protected by thick cotton armor with some steel fittings."
+ my_musketmen: "Maya Musketmen"
+ my_musketmenDESCR: "The basic Maya infantry unit, fully adapted to the new ways of war. The entire regiment is equipped and trained with muskets and steel weapons, and each man is protected by thick cotton armor with some steel fittings."
+ ta_imperial_musketmen: "Triple Alliance Imperial Musketmen"
+ ta_imperial_musketmenDESCR: "The basic Triple Alliance infantry unit, fully adapted to the new ways of war. The entire regiment is equipped and trained with muskets and steel weapons, and each man is protected by thick cotton armor with some steel fittings."
+ tar_musketmen: "Purepecha Musketmen"
+ tar_musketmenDESCR: "The basic Purepecha infantry unit, fully adapted to the new ways of war. The entire regiment is equipped and trained with muskets and steel weapons, and each man is protected by thick cotton armor with some steel fittings."
+ wm_musketmen: "West Mexican Musketmen"
+ wm_musketmenDESCR: "The basic West Mexican infantry unit, fully adapted to the new ways of war. The entire regiment is equipped and trained with muskets and steel weapons, and each man is protected by thick cotton armor with some steel fittings."
+ #Cavalry
+ mesoamerican_pistol_cavalry: "Mesoamerican Pistol Cavalry"
+ mesoamerican_pistol_cavalryDESCR: "Medium cavalry equipped with handheld pistols. By this time Mesoamericans are in full possession of all horse-related technologies and cavalry is a full match for its European counterparts."
+ 
+ #Artillery
+ regimental_cannon: "Regimental Cannon"
+ regimental_cannonDESCR: "This weapon represents a significant step up in artillery technology. It is far more mobile than previous versions and can be moved by a small team, and fires explosive shells, allowing to be an effective field gun as well as siege weapon."
+ huitzilopochtlis_wrath: "Huitzilopochtli's Wrath"
+ huitzilopochtlis_wrathDESCR: "Regimental cannons operated by teams of extensively trained Triple Alliance soldiers with a focus on mobility and overwhelming assault. Cannons are made of lighter materials and emblazoned with snake motifs."

@@ -149,6 +149,10 @@
  newmayan_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
  newmayan_rebels_army:0 "$RELIGION$ Army" 
  
+ christian_group: "Christian"
+ roman_catholic: "Roman Catholic"
+ roman_catholic_religion_desc: "The barbaric and bloodthirsty faith of the invaders who dare set foot in our world."
+ 
  #Trade Nodes
  tenochtitlan: "Tenochtitlan"
  tetzcoco: "Tetzcoco"
@@ -229,6 +233,7 @@
  mammayan: "Mam"
  pokomammayan: "Pokomam"
  cholmayan: "Chol"
+ caxtillan: "Caxtillan"
  #Culture Groups
  mayan: "Maya"
  isthmus: "Isthmus"
@@ -236,6 +241,7 @@
  mixteczapotec: "Oaxacan"
  nahua: "Nahua"
  chichimec: "Chichimec"
+ invaders: "Invader"
  
  #CUSTOM TOOLTIPS
  idct1:0 "May upgrade to Hegemonic Empire."
@@ -564,6 +570,18 @@
  institutions2.t: "Birth of the World System"
  institutions2.d: "After the collapse of the great Toltec dynasties of Tula and Chichen Itza in the twelfth and thirteenth centuries, a new world order began to arise throughout Mesoamerica, heralded by upstart cities such as Mayapan, Tetzcoco, Azcapotzalco, Yucu Dzaa, Zaachila, Jakawitz, and Tenochtitlan. Population growth increased dramatically, agriculture intensified, hundreds of large and small kingdoms were founded, and a general trend of deep interconnectedness appeared. This world order had received several shocks by 1440s, with great states on the rise in the Valley of Mexico, the Patzcuaro Basin, and the Maya Highlands. This new wealth, helped along by a booming economy of long distance trade routes carrying all manners of luxuries, an increasingly powerful mercantile class, new language transcending forms of writing and iconography, and a flourishing of arts, science, and writing in cities such as Tetzcoco, Tenochtitlan, Tzintzuntzan, Cholula, and Cuilapan created a sort of Postclassic renaissance flowing out of several core zones. The Mayas of Yucatan and Cuauhtemallan did not stagnate either, becoming masters of metal, stone, and paint, profiting like never before off of rich natural resources and building bustling port cities that regularly sent ships into the Caribbean. This golden age of ideas and trade is now ready to take hold accross Cemanahuac."
  institutions2.a: "This changes everything!"
+ institutions3.t: "Spread of Weaponized Metallurgy"
+ institutions3.d: "Although Mesoamerica had a long and rich history of metallurgy, metal weapons were never used in any significant quantity for a variety of reasons. Among these was the general belief that metal was sacred or that metal was a special material mostly used to denote social status, and the fact that metal edges were not as sharp as the far more common obsidian blades, which made them significantly less effective against the thick cotton armor often worn by Mesoamerican soldiers. However, with the introduction of european steel and iron armor, which is difficult for traditional weapons to penetrate, the production of metal weapons has slowly begun."
+ institutions3.a: "This changes everything!"
+ institutions4.t: "Spread of Weaponized Metallurgy"
+ institutions4.d: "Although Mesoamerica had a long and rich history of metallurgy, metal weapons were never used in any significant quantity for a variety of reasons. Among these was the general belief that metal was sacred or that metal was a special material mostly used to denote social status, and the fact that metal edges were not as sharp as the far more common obsidian blades, which made them significantly less effective against the thick cotton armor often worn by Mesoamerican soldiers. However, with the introduction of european steel and iron armor, which is difficult for traditional weapons to penetrate, the production of metal weapons has slowly begun."
+ institutions4.a: "This changes everything!"
+ institutions5.t: "Spread of European Animals"
+ institutions5.d: "Mesoamerica, and indeed North America in general was completely devoid of any draft or transportation animals and the various advantages that they afforded the old world civilizations. The lack of such animals made control over vast territories difficult and severely complicated the logistics of supplying large armies, requiring any large force to be accompanied by a significant number of dedicated human porters, and forcing a plethora of organizational innovations and large scale development of a road system. \nWhen these animals arrived in Mesoamerica along with Europeans, they proved a significant change not only to military tactics but also to society at large."
+ institutions5.a: "This changes everything!"
+ institutions6.t: "Spread of European Animals"
+ institutions6.d: "Mesoamerica, and indeed North America in general was completely devoid of any draft or transportation animals and the various advantages that they afforded the old world civilizations. The lack of such animals made control over vast territories difficult and severely complicated the logistics of supplying large armies, requiring any large force to be accompanied by a significant number of dedicated human porters, and forcing a plethora of organizational innovations and large scale development of a road system. \nWhen these animals arrived in Mesoamerica along with Europeans, they proved a significant change not only to military tactics but also to society at large."
+ institutions6.a: "This changes everything!"
  
  #Policies
  centralization_of_power: "§GCentralization of Power§! (§Y+0.25 CNT Yearly§!)"

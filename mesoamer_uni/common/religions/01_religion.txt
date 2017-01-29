@@ -119,3 +119,26 @@ mexican_group = {
 		}
 	}
 }
+
+christian_group = {
+	roman_catholic = {
+		color = { 0.8 0.8 0 }
+		icon = 1
+		
+		country = {
+			tolerance_own = 3
+			tolerance_heretic = -5
+		}
+		
+		country_as_secondary = {
+			diplomatic_reputation = 1
+			advisor_pool = 1
+		}
+	
+		province = {
+			local_missionary_strength = 0.03
+		}
+	
+		heretic = { BOGOMILIST WALDENSIAN FRATICELLI HUSSITE LOLLARD SOCINIAN }
+	}
+}

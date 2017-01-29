@@ -45,7 +45,7 @@ technology = {
 	royalzoo = yes
 	
 	allowed_idea_groups = 2
-	
+	max_states = 1
 }
 
 
@@ -57,7 +57,7 @@ technology = {
 }
 
 technology = {
-	# Tech 1
+	# Tech 2
 	year = 1450
 	
 	workshop1 = yes
@@ -65,7 +65,7 @@ technology = {
 }
 
 technology = {
-	# Tech 2
+	# Tech 3
 	year = 1472
 	
 	allowed_idea_groups = 3
@@ -75,15 +75,15 @@ technology = {
 # The 30 big techs from here on
 
 technology = {
-	# Tech 3
+	# Tech 4
 	year = 1494
 	
 	max_states = 2
-	administrative_efficiency = 0.20
+	administrative_efficiency = 0.10
 }
 
 technology = {
-	# Tech 4
+	# Tech 5
 	year = 1516
 	
 	workshop2 = yes
@@ -92,234 +92,63 @@ technology = {
 }
 
 technology = {
-	# Tech 5
-	year = 1493
-	
-	allowed_idea_groups = 3
-}
-
-technology = {
 	# Tech 6
-	year = 1506
+	year = 1538
 	
-	max_states = 2
-	administrative_efficiency = 0.10
+	#Innoculation Center
+	#+0.005% Global Growth Rate
 }
 
 technology = {
 	# Tech 7
-	year = 1519
+	year = 1560
 	
-	allowed_idea_groups = 4
-	workshop2 = yes
-	workshop3 = yes
-	law3 = yes
+	max_states = 4
+	administrative_efficiency = 0.10
+	allowed_idea_groups = 5
 }
 
 technology = {
 	# Tech 8
-
-	year = 1520
-	courthouse = yes
-	max_states = 5
-
+	year = 1582
+	
+	#+0.0025% Global Growth Rate
+	production_efficiency = 0.10
 }
 
 technology = {
 	# Tech 9
-	year = 1521
-	
-	#The Scythe
-	production_efficiency 	=	0.05
-	
 
+	year = 1604
+	
+	workshop3 = yes
+	production_efficiency = 0.10
 }
 
 technology = {
 	# Tech 10
-	year = 1531
+	year = 1626
 	
-	theocratic_government = yes
+	allowed_idea_groups = 6
 }
 
 technology = {
 	# Tech 11
-	year = 1544
+	year = 1648
 	
-	#Textile Manufactory
-	textile = yes  
-
-}
-
-technology = {
-	# Tech 12
-	year = 1557
-	
-	administrative_monarchy	= yes 
-	administrative_republic	= yes
 	max_states = 6
 }
 
 technology = {
-	# Tech 13
-	year = 1570
+	# Tech 12
+	year = 1670
 	
-	#Improved Drainage
-	production_efficiency 	=	0.05
+	administrative_efficiency = 0.20
 }
 
 technology = {
-	# Tech 14
-	year = 1583
+	#Tech 13
+	year = 1692
 	
-	plantations = yes
-}
-
-technology = {
-	# Tech 15
-	year = 1596
-	
-	may_force_march = yes
-	
-}
-
-technology = {
-	# Tech 16
-	year = 1609
-	
-	
-	production_efficiency 	=	0.05
-
-
-}
-
-technology = {
-	# Tech 17
-	year = 1622
-	
-	university = yes	
-	max_states = 9
-	
-	administrative_efficiency = 0.2
-	development_efficiency = 0.1
-}
-
-technology = {
-	# Tech 18
-	year = 1635
-	
-}
-
-technology = {
-	# Tech 19
-	year = 1648	
-	
-	#Cathedral
-	cathedral = yes
-}
-
-technology = {
-	# Tech 20
-	year = 1661
-	
-	absolute_monarchy = yes
-	republican_dictatorship = yes
-	max_states = 12
-}
-
-technology = {
-	# Tech 21
-	year = 1674
-	
-	#Land Clearance
-	production_efficiency 	=	0.05
-}
-
-technology = {
-	# Tech 22
-	year = 1687
-	constitutional_monarchy = yes
-	constitutional_republic = yes  
-
-	town_hall = yes
-}
-
-technology = {
-	# Tech 23
-	year = 1700
-	
-	administrative_efficiency = 0.2
-	development_efficiency = 0.1
-}
-
-technology = {
-	# Tech 24
-	year = 1715
-	
-	counting_house = yes  
-	max_states = 15
-}
-
-technology = {
-	# Tech 25
-	year = 1730
-	
-	#Improved Farm Animals
-	production_efficiency 	=	0.05
-}
-
-technology = {
-	# Tech 26
-	year = 1745
-	
-}
-
-technology = {
-	# Tech 27
-	year = 1760
-
-	administrative_efficiency = 0.2
-	development_efficiency = 0.1	
-	max_states = 18
-}
-
-technology = {
-	# Tech 28
-	year = 1775
-	
-	#Rotherham Plough
-	production_efficiency 	=	0.05
-}
-
-technology = {
-	# Tech 29
-	year = 1790
-	
-	enlightened_despotism = yes
-	bureaucratic_despotism = yes
-}
-
-technology = {
-	# Tech 30
-	year = 1805
-	
-	#Improved Draft Animals
-	production_efficiency 	=	0.05
-}
-
-technology = {
-	# Tech 31
-	year = 1820
-	
-	revolutionary_republic = yes
-	revolutionary_empire = yes
-	max_states = 21
-}
-
-technology = {
-	# Tech 32
-	year = 1835
-	
-	#Four field rotation
-	production_efficiency 	=	0.05
+	max_states = 8
 }

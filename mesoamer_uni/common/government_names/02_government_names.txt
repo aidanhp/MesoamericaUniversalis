@@ -453,3 +453,21 @@ gov_triarchal_confederation_sub = {
 		government = triarchal_confederation_sub
 	}
 }
+
+gov_viceroyalty = {
+	rank = {
+		3 = SPANISH_VICEROYALTY
+	}
+	
+	ruler_male = {
+		3 = CAPTAIN_GENERAL
+	}
+	
+	ruler_female = {
+		3 = CAPTAIN_GENERAL
+	}
+	
+	trigger = {
+		government = spanish_viceroyalty
+	}
+}

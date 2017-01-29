@@ -373,6 +373,14 @@
  UNITY:0 "Unity"
  REB:0 "Rebels"
  
+ BUTTON_EMBRACE:0 "Embrace"
+ INSTI_NOT_ACTIVE:0 "$NAME|Y$ has not yet been discovered."
+ INSTI_PRIMITIVE_CANNOT_EMBRACE_RELIGION:0 "Primitive countries must reform their religion before embracing Institutions."
+ INSTI_PRIMITIVE_CANNOT_EMBRACE_GOVERNMENT:0 "Primitive countries must reform their Government before embracing Institutions."
+ INSTI_TOO_EXPENSIVE:0 "We can not afford to embrace $NAME|Y$ as it would cost $COST|Y$¤ and we only have $CASH|Y$¤"
+ INSTI_NOT_ENOUGH_HOLD:0 "The institution of $NAME|Y$ has not a big enough hold of our country for us to fully embrace it.  It needs to be embraced in at least $NEED|Y$ percent of our autonomy modified development, but it is only embraced in $CURR|Y$ percent."
+ EMBRACE_INSTI_COST:0 "Embracing $NAME|Y$ will cost $COST|Y$¤ and change our technology costs by $TECH$."
+ 
  #"Continents"
  continent_1: "Mesoamerica"
  continent_2: "Mesoamerica"

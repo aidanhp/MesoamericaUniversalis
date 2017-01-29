@@ -194,6 +194,20 @@ spriteTypes = {
 		transparencecheck = yes
 	}	
 	
+	spriteType = {
+		name = "GFX_icon_institution_weaponized_metalworking"
+		texturefile = "gfx//interface//institutions//WeaponizedMetalworking.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}	
+	
+	spriteType = {
+		name = "GFX_icon_institution_dat_animals"
+		texturefile = "gfx//interface//institutions//DraftAndTransportationAnimals.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}	
+	
  	spriteType = {
 		name = "GFX_highlight_frame"
 		texturefile = "gfx//interface//institutions//highlight_frame.dds"
@@ -246,6 +260,20 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_institution_tab_world_system"
 		texturefile = "gfx/interface/institutions//WorldSystem_Tab.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_institution_tab_weaponized_metalworking"
+		texturefile = "gfx/interface/institutions//WeaponizedMetalworking_Tab.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_institution_tab_dat_animals"
+		texturefile = "gfx/interface/institutions//DraftAndTransportationAnimals_Tab.dds"
 		noOfFrames = 2
 		transparencecheck = yes
 	}

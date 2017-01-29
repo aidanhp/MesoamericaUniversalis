@@ -1,5 +1,5 @@
-controller = EAE
 add_core = EAE
+controller = EAE
 owner = EAE
 culture = huastec 
 religion = newnahuatl
