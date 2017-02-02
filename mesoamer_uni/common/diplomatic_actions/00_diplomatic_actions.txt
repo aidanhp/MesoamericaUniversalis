@@ -97,14 +97,10 @@ allianceaction = {
 			NOT = { 
 				has_global_flag = no_cazonci_voting
 			}
-			ROOT = {
-				NOT = {
-					OR = {
-						tag = PAT
-						tag = IUA
-						tag = IHU
-					}
-				}
+			OR = {
+				ROOT = { tag = IUA }
+				ROOT = { tag = PAT }
+				ROOT = { tag = IHU }
 			}
 		}
 		allow = {
@@ -115,7 +111,9 @@ allianceaction = {
 	condition = {
 		tooltip = TRI_2
 		potential = {
-			tag = IUA
+			FROM = { 
+				tag = IUA
+			}
 			NOT = { 
 				has_global_flag = no_cazonci_voting
 			}
@@ -132,7 +130,9 @@ allianceaction = {
 	condition = {
 		tooltip = TRI_2
 		potential = {
-			tag = IHU
+			FROM = { 
+				tag = IHU
+			}
 			NOT = { 
 				has_global_flag = no_cazonci_voting
 			}
@@ -149,7 +149,9 @@ allianceaction = {
 	condition = {
 		tooltip = TRI_2
 		potential = {
-			tag = PAT
+			FROM = { 
+				tag = PAT
+			}
 			NOT = { 
 				has_global_flag = no_cazonci_voting
 			}
