@@ -381,6 +381,11 @@
  INSTI_NOT_ENOUGH_HOLD:0 "The institution of $NAME|Y$ has not a big enough hold of our country for us to fully embrace it.  It needs to be embraced in at least $NEED|Y$ percent of our autonomy modified development, but it is only embraced in $CURR|Y$ percent."
  EMBRACE_INSTI_COST:0 "Embracing $NAME|Y$ will cost $COST|Y$¤ and change our technology costs by $TECH$."
  
+ ALL_OWNED_PROVS:0 "all owned provinces"
+ EVERY_OWNED_PROV:0 "Every owned Province"
+ MODIFIER_ADDED:0 "$WHERE$ gets '§Y$WHAT$§W' until §Y$DATE$§W, giving the following effects:\n$EFFECT$\n\n"
+ MODIFIER_ADDED_AREA:0 "$WHERE$ gets '§Y$WHAT$§W' until §Y$DATE$§W, giving the following effects:\n$EFFECT$\n\n"
+ 
  #"Continents"
  continent_1: "Mesoamerica"
  continent_2: "Mesoamerica"

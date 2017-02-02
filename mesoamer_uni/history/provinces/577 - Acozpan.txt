@@ -1,7 +1,7 @@
 controller = EJE
 add_core = EJE
 owner = EJE
-culture = huastec 
+culture = newtotonac
 religion = newnahuatl
 hre = no
 base_tax = 1

@@ -1,7 +1,8 @@
 add_core = EAE
-controller = EAE
-owner = EAE
-culture = huastec 
+add_core = CAX
+controller = CAX
+owner = CAX
+culture = newtotonac
 religion = newnahuatl
 hre = no
 base_tax = 3

@@ -15,7 +15,7 @@
  tar_tariacuri_infantryDESCR: "The basic infantry unit utilized by Tariacuri to conquer the lands around Lake Patzcuaro. Mainly consists of drafted farmers with some military training armed with long obsidian tipped spears, heavy maces, or slings, and protected by wicker shields and thick cotton armor."
  wm_west_mexican_infantry: "West Mexican Infantry"
  wm_west_mexican_infantryDESCR: "The basic infantry unit of the west mexican army - a drafted farmer with some military training equipped with a wicker shield, a heavy mace, and protected by a cotton vest."
-
+ 
  ########
  #Tier 2#
  ########
@@ -78,6 +78,20 @@
  
  #Artillery
  regimental_cannon: "Regimental Cannon"
- regimental_cannonDESCR: "This weapon represents a significant step up in artillery technology. It is far more mobile than previous versions and can be moved by a small team, and fires explosive shells, allowing to be an effective field gun as well as siege weapon."
+ regimental_cannonDESCR: "This weapon represents a significant step up in artillery technology. It is far more mobile than previous versions and can be moved by a small team, and fires explosive shells, allowing it to be an effective field gun as well as siege weapon."
  huitzilopochtlis_wrath: "Huitzilopochtli's Wrath"
  huitzilopochtlis_wrathDESCR: "Regimental cannons operated by teams of extensively trained Triple Alliance soldiers with a focus on mobility and overwhelming assault. Cannons are made of lighter materials and emblazoned with snake motifs."
+ 
+ #########
+ #Special#
+ #########
+ spain_infantry_1: "Spanish Infantry I"
+ spain_infantry_2: "Spanish Infantry II"
+ spain_infantry_3: "Spanish Infantry III"
+ spain_cavalry_1: "Spanish Cavalry I"
+ spain_cavalry_2: "Spanish Cavalry II"
+ spain_cavalry_3: "Spanish Cavalry III"
+ spain_artillery_1: "Spanish Artillery I"
+ spain_artillery_2: "Spanish Artillery II"
+ spain_artillery_3: "Spanish Artillery III"
+ 

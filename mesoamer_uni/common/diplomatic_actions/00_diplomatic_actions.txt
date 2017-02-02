@@ -74,17 +74,20 @@
 # counterespionage
 
 requestpeace = {
-	#condition = {
-	#	tooltip = ONLY_WARLEADER
-	#	potential = {
-	#		always = yes
-	#	}
-	#	allow = {
-	#		FROM = { 
-	#			has_country_modifier = warleader
-	#		}
-	#	}
-	#}
+	condition = {
+		tooltip = FIRST_WAR_INVASION
+		potential = {
+			FROM = { 
+				has_country_flag = first_war_invasion
+			}
+			ROOT = {
+				has_country_flag = first_war_invasion
+			}
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 declarewar = {

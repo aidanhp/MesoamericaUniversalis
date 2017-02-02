@@ -380,6 +380,14 @@ country_event = {
 					change_variable = { which = militancy value = 35 }
 				}
 				
+				CAX = {
+					set_variable = { which = centralization value = 60 }
+					set_variable = { which = legaltradition value = 20 }
+					set_variable = { which = meritocratictradition value = 10 }
+					set_variable = { which = religioustradition value = 70 }
+					set_variable = { which = militancy value = 60 }
+				}
+				
 				set_variable = { which = cnt_current which = centralization }
 				set_variable = { which = cnt_new which = 0 }
 				set_variable = { which = lt_current which = legaltradition }
@@ -1096,6 +1104,65 @@ country_event = {
 				set_variable = { which = favor_request_type value = 0 }
 			}
 			
+			every_province = {
+				discover_country = CAX
+			}
+			
+			CAX = {
+				add_idea_group = territorial_ideas
+				add_idea = territorial_ideology
+				add_idea = power_replacement
+				add_idea = tortillas_and_circuses
+				add_idea = local_garrisons
+				add_idea = administrative_centers
+				add_idea = centralized_law_code
+				add_idea = extensive_bureaucracy
+				
+				add_idea_group = total_assimilation_ideas
+				add_idea = total_assimilation
+				add_idea = ethnic_resettlement
+				add_idea = religious_purity
+				add_idea = forced_acculturation
+				add_idea = militant_proselytizing
+				add_idea = assimilative_ties
+				add_idea = superior_absolutism
+				
+				add_idea_group = landexploit_ideas
+				add_idea = productionministry
+				add_idea = improvedproduction
+				add_idea = militaryprod
+				add_idea = foodprod
+				add_idea = luxprod
+				add_idea = metalsprod
+				add_idea = earlyindustry
+				
+				add_idea_group = quickwar_ideas
+				add_idea = supplyplan
+				add_idea = offensivemind
+				add_idea = combinedarmstactics
+				add_idea = recon
+				add_idea = unbrokenadvance
+				add_idea = engineercorps
+				add_idea = tacticalgenius
+				
+				add_idea_group = eliteorders_ideas
+				add_idea = trainedfrombirth
+				add_idea = macuahuitl
+				add_idea = bannerleaders
+				add_idea = bodyarmor
+				add_idea = socialadvancement
+				add_idea = warcouncil
+				add_idea = tlacochcalcatl
+				
+				add_idea_group = foreigndom_ideas
+				add_idea = dompolicy
+				add_idea = irondip1
+				add_idea = irondip2
+				add_idea = threatofaction
+				add_idea = absurdclaims
+				add_idea = prestigiousforces
+				add_idea = diplomatintimidation
+			}
 			TEN = {
 				#country_event = { id = commeff.01 }
 				#set_variable = { which = an_favors value = 20 }

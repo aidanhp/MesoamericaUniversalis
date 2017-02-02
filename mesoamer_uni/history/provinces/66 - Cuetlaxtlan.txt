@@ -1,7 +1,7 @@
 add_core = CLX
 owner = CLX
 controller = CLX
-culture = huastec
+culture = newtotonac
 religion = newnahuatl 
 hre = no
 base_tax = 1

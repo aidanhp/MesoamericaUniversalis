@@ -19,6 +19,7 @@ country_event = {
 			name = "euroinvasions"
 			duration = -1
 		} 
+		set_global_flag = spanish_invasion_on
 	}
 
 	#option = {

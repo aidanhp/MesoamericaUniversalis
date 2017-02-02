@@ -282,10 +282,10 @@ spanish_viceroyalty = {
 			global_manpower_modifier = 0.25
 			global_tax_modifier = 0.25
 			global_autonomy = -0.25
-			global_unrest = -10
+			global_unrest = -25
 			core_cost = -0.90
 			missionaries = 3
-			colonists = 3
+			technology_cost = -0.05
 		}
 	}
 	fixed_rank = 3

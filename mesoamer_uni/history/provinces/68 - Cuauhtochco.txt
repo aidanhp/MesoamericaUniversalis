@@ -1,7 +1,7 @@
 add_core = CTH
 owner = CTH
 controller = CTH
-culture = huastec
+culture = newtotonac
 religion = newnahuatl 
 hre = no
 base_tax = 1

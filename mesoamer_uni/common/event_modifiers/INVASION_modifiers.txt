@@ -1,0 +1,62 @@
+bs55 = {
+
+}
+
+smallpox_spreading = {
+	global_autonomy = 0.05
+}
+
+fighting_smallpox = {
+	global_tax_modifier = -0.10
+	land_forcelimit_modifier = -0.20
+}
+
+smallpox_raging = {
+
+}
+
+recent_smallpox_epidemic = {
+	global_unrest = -4
+	land_morale = -0.05
+}
+
+smallpox_outbreak = {
+	trade_goods_size = 0.01
+	trade_goods_size_modifier = -0.33
+	local_autonomy = 0.05
+}
+
+rebellious_province = {
+	local_unrest = 8
+	local_autonomy = 0.25
+}
+
+spain_invasion_buff = {
+	missionaries = 3
+	colonists = 3
+	land_morale = 0.05
+	global_tax_income = 50
+	reduced_liberty_desire = 1000
+}
+
+spanish_puppet = {
+	legitimacy = -2
+}
+
+collapse_of_the_government = {
+	global_autonomy = 0.25
+	stability_cost = 0.50
+	global_unrest = 4
+	discipline = -0.15
+	land_morale = -0.10
+	global_regiment_recruit_speed = 1.0
+	army_tradition = -2.5
+}
+
+foiled_invasion = {
+	land_morale = -0.20
+	discipline = -0.05
+	global_manpower_modifier = -0.33
+	global_unrest = 15
+	global_autonomy = 0.20
+}

@@ -25,6 +25,9 @@ technology = {
 	enable = ta_triple_alliance_infantry
 	enable = tar_tariacuri_infantry
 	enable = wm_west_mexican_infantry
+	enable = spain_infantry_1
+	enable = spain_cavalry_1
+	enable = spain_artillery_1
 }
 
 technology = {
@@ -86,6 +89,9 @@ technology = {
 	enable = rudimentary_artillery
 	enable = mesoamerican_lancers
 	enable = purepecha_horse_archers
+	enable = spain_infantry_2
+	enable = spain_cavalry_2
+	enable = spain_artillery_2
 	infantry_fire = 0.25
 	cavalry_shock = 1.25
 	cavalry_fire = 1.0
@@ -142,6 +148,9 @@ technology = {
 	enable = wm_musketmen
 	enable = regimental_cannon
 	enable = huitzilopochtlis_wrath
+	enable = spain_infantry_3
+	enable = spain_cavalry_3
+	enable = spain_artillery_3
 }
 
 technology = {

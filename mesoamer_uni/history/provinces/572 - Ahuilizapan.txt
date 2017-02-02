@@ -1,7 +1,7 @@
 controller = EDE
 add_core = EDE
 owner = EDE
-culture = huastec 
+culture = newtotonac
 religion = newnahuatl
 hre = no
 base_tax = 1

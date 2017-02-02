@@ -1,7 +1,7 @@
 controller = EAE
 add_core = EAE
 owner = EAE
-culture = huastec 
+culture = newtotonac
 religion = newnahuatl
 hre = no
 base_tax = 1

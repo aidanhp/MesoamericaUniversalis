@@ -219,8 +219,33 @@ country_event = {
 					}
 					change_variable = { which = prov_growth_rate value = 0.005 }
 				}
+				
+				if = {
+					limit = {
+						owner = {
+							has_country_modifier = fighting_smallpox
+						}
+					}
+					change_variable = { which = prov_growth_rate value = 0.03 }
+				}
 			
 				#NEGATIVE
+				if = {
+					limit = {
+						owner = {
+							has_disaster = smallpox_yucatan
+						}
+					}
+					change_variable = { which = prov_growth_rate value = -0.15 }
+				}
+				if = {
+					limit = {
+						owner = {
+							has_disaster = smallpox_mexico
+						}
+					}
+					change_variable = { which = prov_growth_rate value = -0.15 }
+				}
 				if = {
 					limit = {
 						owner = {

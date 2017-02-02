@@ -60,6 +60,7 @@ country_decisions = {
 	switch_territorial = {
 		major = yes
 		potential = {
+			NOT = { tag = CAX }
 			NOT = { government = centralized_altepetl }
 		}
 		allow = {
@@ -87,6 +88,7 @@ country_decisions = {
 	switch_hegemonic = {
 		major = yes
 		potential = {
+			NOT = { tag = CAX }
 			NOT = { government = altepetl }
 		}
 		allow = {
