@@ -28,6 +28,7 @@ country_event = {
 		hidden_effect = {
 			PAT = { 
 				set_country_flag = is_cazonci
+				set_government_rank = 2
 				add_country_modifier = {
 					name = current_cazonci
 					duration = 1800
@@ -37,6 +38,7 @@ country_event = {
 		}
 		clr_country_flag = is_cazonci
 		remove_country_modifier = current_cazonci
+		set_government_rank = 1
 		ai_chance = {
 			factor = 50
 		}
@@ -49,6 +51,7 @@ country_event = {
 		hidden_effect = { 
 			IHU = { 
 				set_country_flag = is_cazonci
+				set_government_rank = 2
 				add_country_modifier = {
 					name = current_cazonci
 					duration = 1800
@@ -58,6 +61,7 @@ country_event = {
 		}
 		clr_country_flag = is_cazonci
 		remove_country_modifier = current_cazonci
+		set_government_rank = 1
 		ai_chance = {
 			factor = 50
 		}
@@ -91,6 +95,7 @@ country_event = {
 		hidden_effect = { 
 			PAT = { 
 				set_country_flag = is_cazonci
+				set_government_rank = 2
 				add_country_modifier = {
 					name = current_cazonci
 					duration = 1800
@@ -100,6 +105,7 @@ country_event = {
 		}
 		clr_country_flag = is_cazonci
 		remove_country_modifier = current_cazonci
+		set_government_rank = 1
 		ai_chance = {
 			factor = 50
 		}
@@ -112,6 +118,7 @@ country_event = {
 		hidden_effect = { 
 			IUA = { 
 				set_country_flag = is_cazonci
+				set_government_rank = 2
 				add_country_modifier = {
 					name = current_cazonci
 					duration = 1800
@@ -121,6 +128,7 @@ country_event = {
 		}
 		clr_country_flag = is_cazonci
 		remove_country_modifier = current_cazonci
+		set_government_rank = 1
 		ai_chance = {
 			factor = 50
 		}
@@ -154,6 +162,7 @@ country_event = {
 		hidden_effect = { 
 			IHU = { 
 				set_country_flag = is_cazonci
+				set_government_rank = 2
 				add_country_modifier = {
 					name = current_cazonci
 					duration = 1800
@@ -163,6 +172,7 @@ country_event = {
 		}
 		clr_country_flag = is_cazonci
 		remove_country_modifier = current_cazonci
+		set_government_rank = 1
 		ai_chance = {
 			factor = 50
 		}
@@ -175,6 +185,7 @@ country_event = {
 		hidden_effect = { 
 			IUA = { 
 				set_country_flag = is_cazonci
+				set_government_rank = 2
 				add_country_modifier = {
 					name = current_cazonci
 					duration = 1800
@@ -184,6 +195,7 @@ country_event = {
 		}
 		clr_country_flag = is_cazonci
 		remove_country_modifier = current_cazonci
+		set_government_rank = 1
 		ai_chance = {
 			factor = 50
 		}

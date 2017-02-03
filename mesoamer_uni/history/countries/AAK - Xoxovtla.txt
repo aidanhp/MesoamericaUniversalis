@@ -16,3 +16,5 @@ fixed_capital = 405
 		mil = 4
 	}
 }
+
+1426.1.1 = { leader = {	name = "Chimalpopoca Bonaparte"	type = general		rank = 3	fire = 6	shock = 6	manuever = 6	siege = 4	death_date = 1697.6.25 } }

@@ -104,6 +104,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			tag = AZC
+			NOT = { tag = TPE }
 		}
 
 		allow = {
@@ -130,6 +131,7 @@ country_decisions = {
 		potential = {
 			primary_culture = tepanec
 			NOT = { tag = AZC }
+			NOT = { tag = TPE }
 		}
 
 		allow = {
@@ -160,6 +162,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			tag = TEN
+			NOT = { tag = TOE }
 		}
 
 		allow = {
@@ -213,6 +216,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			tag = TET
+			NOT = { tag = TCE }
 		}
 
 		allow = {
@@ -264,6 +268,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			tag = TCP
+			NOT = { tag = TNE }
 		}
 
 		allow = {

@@ -89,7 +89,7 @@ country_event = {
 	trigger = {
 		owns = 947
 		primary_culture = newtotonac 
-		has_global_modifier = arrived_at_potonchan
+		has_global_flag = arrived_at_potonchan
 	}
 	
 	mean_time_to_happen = {
@@ -257,7 +257,7 @@ country_event = {
 	trigger = {
 		owns = 947
 		NOT = { primary_culture = newtotonac }
-		has_global_modifier = arrived_at_potonchan
+		has_global_flag = arrived_at_potonchan
 	}
 	
 	mean_time_to_happen = {
