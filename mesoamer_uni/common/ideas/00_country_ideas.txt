@@ -259,3 +259,56 @@ lowland_maya_ideas = {
 		global_autonomy = -0.075
 	}
 }
+
+highland_maya_ideas = {
+	start = {
+		leader_land_shock = 1
+		defensiveness = 0.10
+	}
+	
+	bonus = {
+		war_exhaustion = -0.05
+	}
+	
+	trigger = {
+		OR = {
+			primary_culture = kichemayan 
+			primary_culture = kaqchikelmayan 
+			primary_culture = tzutujilmayan 
+			primary_culture = mammayan 
+			primary_culture = pokomammayan  
+		}
+	}
+	free = yes
+	
+	men_of_tollan = {
+		discipline = 0.05
+	}
+	
+	tinamit_and_chinamit = {
+		global_autonomy = -0.075
+	}
+	
+	mobilized_bureaucracy = {
+		global_manpower_modifier = 0.05
+		land_forcelimit_modifier = 0.10
+		army_tradition = 0.25
+	}
+	
+	lords_and_vassals = {
+		stability_cost_modifier = -0.25
+	}
+	
+	little_brothers = {
+		vassal_income = 0.10
+		vassal_forcelimit_bonus = 1
+	}
+	
+	mountains_and_plains = {
+		production_efficiency = 0.15
+	}
+	
+	toltec_builders = {
+		build_cost = -0.15
+	}
+}

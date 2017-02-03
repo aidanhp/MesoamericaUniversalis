@@ -1,7 +1,6 @@
 add_core = EAE
-add_core = CAX
-controller = CAX
-owner = CAX
+controller = EAE
+owner = EAE
 culture = newtotonac
 religion = newnahuatl
 hre = no
