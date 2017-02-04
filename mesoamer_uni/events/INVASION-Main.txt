@@ -775,6 +775,39 @@ country_event = {
 ####################
 #GENERIC WAR EVENTS#
 ####################
+#Spanish Take Province
+province_event = {
+	id = INV_main.13
+	
+	title = "INV_main13.t"
+	desc = "INV_main13.d"
+	
+	picture = BATTLE_eventPicture 
+	
+	trigger = {
+		has_province_modifier = spanish_occupation
+	}
+	
+	mean_time_to_happen = {
+		months = 4
+	}
+	
+	option = {
+		name = "INV_main13.a"	
+		
+		ROOT = {
+			cede_province = CAX
+			add_core = CAX
+			remove_province_modifier = spanish_occupation
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+
 
 #Join or Die!
 

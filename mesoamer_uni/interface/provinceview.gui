@@ -5156,6 +5156,22 @@ guiTypes = {
 			text = "2000¤"	
 		}
 		
+		checkboxType = {
+			name = "build_ctown"
+			position = { x = 476 y = 32 }
+			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
+		}
+		
+		instantTextBoxType={
+			name = "ctown_cost"
+			position = {x = 476 y = 82 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 128
+			maxHeight = 18
+			text = "2000¤"	
+		}
+		
 		#checkboxType = {
 		#	name = "build_puni"
 		#	position = { x = 632 y = 32 }
@@ -5343,86 +5359,7 @@ guiTypes = {
 			text = "2000¤"	
 		}
 		
-		###COLONIAL
-		iconType = {
-			name = "colonial_banner"
-			position = { x = 441 y = 97 }
-			spriteType = "GFX_banner_left_3"
-		}
 		
-		instantTextBoxType={
-			name = "title_colonial"
-			position = {x = 481 y = 106 }
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}	
-			maxWidth = 120
-			maxHeight = 18
-			text = "Colonial"	
-		}
-		
-		checkboxType = {
-			name = "build_ctown"
-			position = { x = 476 y = 129 }
-			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
-		}
-		
-		instantTextBoxType={
-			name = "ctown_cost"
-			position = {x = 476 y = 179 }
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}	
-			maxWidth = 128
-			maxHeight = 18
-			text = "2000¤"	
-		}
-		
-		checkboxType = {
-			name = "build_ctown"
-			position = { x = 476 y = 129 }
-			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
-		}
-		
-		instantTextBoxType={
-			name = "ctown_cost"
-			position = {x = 476 y = 179 }
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}	
-			maxWidth = 128
-			maxHeight = 18
-			text = "2000¤"	
-		}
-		
-		checkboxType = {
-			name = "build_cworkshop"
-			position = { x = 528 y = 129 }
-			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
-		}
-		
-		instantTextBoxType={
-			name = "cworkshop_cost"
-			position = {x = 528 y = 179 }
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}	
-			maxWidth = 128
-			maxHeight = 18
-			text = "2000¤"	
-		}
-		
-		checkboxType = {
-			name = "build_cestate"
-			position = { x = 580 y = 129 }
-			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
-		}
-		
-		instantTextBoxType={
-			name = "cestate_cost"
-			position = {x = 580 y = 179 }
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}	
-			maxWidth = 128
-			maxHeight = 18
-			text = "2000¤"	
-		}
 		
 		###################
 		#TRADE & RELIGIOUS#

@@ -31,6 +31,8 @@
  desc_collapse_of_the_government: "Our government has been gutted by a Spanish massacre of administrators, priests, and military leaders."
  foiled_invasion: "Foiled Invasion"
  desc_foiled_invasion: "The initial Spanish Invasion has failed."
+ spanish_occupation: "Spanish Occupation"
+ desc_spanish_occupation: "This province is occupied by the Spanish and is being absorbed into the Spanish Colonial state."
  
  #--DECISIONS
  
@@ -81,6 +83,9 @@
  INV_main12.dd: "Force him to fight to the death on the gladiator stone!" 
  INV_main12.e: "Incinerate his body and erase him from the history books!"
  INV_main12.f: "Keep him as a pet in the royal zoo!"
+ INV_main13.t: "Spanish Seize $PROVINCENAME$"
+ INV_main13.d: "The Spanish invaders have suceeded in establishing control over $PROVINCENAME$."
+ INV_main13.a: "We must retake it!"
   
  #--PLAGUES
  INV_plagues1.t: "Death Sweeps the Land"

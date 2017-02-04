@@ -60,3 +60,7 @@ foiled_invasion = {
 	global_unrest = 15
 	global_autonomy = 0.20
 }
+
+spanish_occupation = {
+	local_unrest = -10
+}

@@ -99,11 +99,15 @@
  cb_unite_valley_of_mexico: "Unite the Valley of Mexico"
  cb_unite_valley_of_mexico_desc: "In order to build a strong core area for future conquests, we must first unite the Valley of Mexico under the rule of the Triple Alliance."
  
+ cb_spanish_conquest: "Colonial Conquest"
+ cb_spanish_conquest_desc: "We must conquer these lands in the name of the crown."
+ 
  MERCANTILE_WARNAME: "$ORDER$$FIRST$ Mercantile War Against $SECOND_NAME$"
  YUCATANFEUD_WARNAME: "$ORDER$$FIRST$ Feud With $SECOND_NAME$"
  NORMALFEUD_WARNAME: "$ORDER$$FIRST$ Feud With $SECOND_NAME$"
  ETERNAL_WARNAME: "$ORDER$$FIRST$ Eternal War Against $SECOND_NAME$"
  UNITEVALLEY_WARNAME: "$ORDER$$FIRST$ War for Unity Against $SECOND_NAME$"
+ SPANISH_CONQUEST: "$ORDER$$FIRST$ Conquest of $SECOND_NAME$"
  
  #Religions
  mexican_group: "Non-Yucatan Mexican"
@@ -447,9 +451,9 @@
  building_bureau1: "City State Bureaucracy \n§Y--Requires Capital Province§!"
  building_bureau2: "Kingdom Bureaucracy \n§Y--Requires Capital Province \n--Requires Kingdom Rank§!"
  building_bureau3: "Empire Bureaucracy \n§Y--Requires Capital Province \n--Requires Empire Rank§!"
- building_law1: "Simple Tribunal \n§WYearly Legal Tradition Gain:§! §G+5.0%§!"
- building_law2: "Local Court System \n§WYearly Legal Tradition Gain:§! §G+10.0%§!"
- building_law3: "Advanced Local Court System \n§WYearly Legal Tradition Gain:§! §G+15.0%§!"
+ building_law1: "Rudimentary Court System \n§WYearly Legal Tradition: §G+0.10§!"
+ building_law2: "Court System \n§WYearly Legal Tradition Gain:§! §G+0.20§!"
+ building_law3: "Advanced Court System \n§WYearly Legal Tradition Gain:§! §G+0.50§!"
  building_adminoffice: "Regional Capital \n§Y--Requires Idea 'Regional Capitals' (Territorial State, Coercion, or Gradual Centralization)§! \n§Y--No neighbor province may have this building.§! \n§WIncreases the Communication Efficiency of this province§! §Gsignificantly.§! \n§WIncreases the Communication Efficiency of neighboring provinces§! §Gsomewhat.§!"
  building_evillage: "Ethnic Village \n§Y--Requires Idea 'Ethnic Resettlement' (Total Assimilation)§! \n§Y--Requires a province not of the primary culture.§!"
  building_farm1: "Extended Farming "
@@ -460,7 +464,7 @@
  building_workshop1: "Early Dedicated Workshop"
  building_workshop2: "Improved Dedicated Workshop"
  building_workshop3: "Factory"
- building_ctown: "Colonial Town \n§Y--Requires Colonial Province§!"
+ building_ctown: "Inoculation Center \n§WProvides §! §Gmoderate§! §Wresistence to European diseases.§!"
  building_cworkshop: "Colonial Workshop \n§Y--Requires Colonial Province§!"
  building_cestate: "Colonial Estates \n§Y--Requires Colonial Province§!"
  building_nschool: "Rudimentary School System \n§WYearly Intellectualism:§! §G+0.10§!"

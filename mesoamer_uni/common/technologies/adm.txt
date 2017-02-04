@@ -95,7 +95,7 @@ technology = {
 	# Tech 6
 	year = 1538
 	
-	#Innoculation Center
+	ctown = yes
 	#+0.005% Global Growth Rate
 }
 

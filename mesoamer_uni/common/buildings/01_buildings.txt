@@ -122,12 +122,12 @@ law1 = {
 	cost = 50
 	time = 4
 	destroy_on_conquest = yes
-	#trigger = {
-	#Fuck All
-	#}
+	trigger = {
+		is_capital = yes
+	}
 
 	modifier = {
-		local_unrest = -2
+		global_unrest = -2
 		local_tax_modifier = -0.002
 	}
 	
@@ -142,12 +142,12 @@ law2 = {
 	time = 5
 	make_obsolete = law1
 	destroy_on_conquest = yes
-	#trigger = {
-	#NOTHING
-	#}
+	trigger = {
+		is_capital = yes
+	}
 
 	modifier = {
-		local_unrest = -4
+		global_unrest = -4
 		local_tax_modifier = -0.005
 	}
 	
@@ -162,12 +162,12 @@ law3 = {
 	time = 6
 	make_obsolete = law2
 	destroy_on_conquest = yes
-	#trigger = {
-	#NOTHING
-	#}
+	trigger = {
+		is_capital = yes
+	}
 
 	modifier = {
-		local_unrest = -6
+		global_unrest = -6
 		local_tax_modifier = -0.01
 	}
 	
@@ -569,49 +569,6 @@ ctown = {
 	}
 }
 
-
-#Colonial Workshop
-cworkshop = {
-	cost = 150
-	time = 12
-	destroy_on_conquest = yes
-	trigger = {
-	#NOTHING
-		FROM = {
-			has_idea = sponsordev2
-		}
-	}
-
-	modifier = {
-	#more artisans
-	}
-	
-	ai_will_do = {
-		factor = 0
-	}
-}
-
-
-#Colonial Estates
-cestate = {
-	cost = 150
-	time = 12
-	destroy_on_conquest = yes
-	trigger = {
-	#NOTHING
-		FROM = {
-			has_idea = sponsordev3
-		}
-	}
-
-	modifier = {
-	#more dickheads
-	}
-	
-	ai_will_do = {
-		factor = 0
-	}
-}
 
 #####################
 #EDUCATION BUILDINGS#

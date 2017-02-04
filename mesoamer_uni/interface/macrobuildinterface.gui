@@ -815,37 +815,37 @@ guiTypes = {
 			text = "2000¤"	
 		}
 		
-		checkboxType = {
-			name = "build_cworkshop"
-			position = { x = 61 y = 226 }
-			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
-		}
+		#checkboxType = {
+		#	name = "build_cworkshop"
+		#	position = { x = 61 y = 226 }
+		#	quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
+		#}
 		
-		instantTextBoxType={
-			name = "cworkshop_cost"
-			position = {x = 61 y = 276 }
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}	
-			maxWidth = 128
-			maxHeight = 18
-			text = "2000¤"	
-		}		
+		#instantTextBoxType={
+		#	name = "cworkshop_cost"
+		#	position = {x = 61 y = 276 }
+		#	font = "vic_18"
+		#	borderSize = {x = 0 y = 0}	
+		#	maxWidth = 128
+		#	maxHeight = 18
+		#	text = "2000¤"	
+		#}		
 		
-		checkboxType = {
-			name = "build_cestate"
-			position = { x = 113 y = 226 }
-			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
-		}
+		#checkboxType = {
+		#	name = "build_cestate"
+		#	position = { x = 113 y = 226 }
+		#	quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
+		#}
 		
-		instantTextBoxType={
-			name = "cestate_cost"
-			position = {x = 113 y = 276 }
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}	
-			maxWidth = 128
-			maxHeight = 18
-			text = "2000¤"	
-		}	
+		#instantTextBoxType={
+		#	name = "cestate_cost"
+		#	position = {x = 113 y = 276 }
+		#	font = "vic_18"
+		#	borderSize = {x = 0 y = 0}	
+		#	maxWidth = 128
+		#	maxHeight = 18
+		#	text = "2000¤"	
+		#}	
 		
 		
 		

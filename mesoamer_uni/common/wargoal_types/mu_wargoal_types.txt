@@ -108,5 +108,15 @@ unite_valley_of_mexico = {
 	war_name = UNITEVALLEY_WARNAME
 }
 
-
+spanish_conquest = {
+	type = superiority
+	
+	badboy_factor = 0.25
+	prestige_factor = 1.5
+	peace_cost_factor = 0.25
+	
+	po_demand_provinces = yes
+	
+	war_name = SPANISH_CONQUEST
+}
 

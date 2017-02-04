@@ -35,12 +35,12 @@ hegemonic_ideas = {
 	}
 
 	economic_hegemony = {
-		trade_efficiency = 0.20
+		trade_efficiency = 0.10
 		legitimacy = 0.5
 	}
 	
 	cultural_hegemony = {
-		culture_conversion_cost = -0.33
+		culture_conversion_cost = -0.25
 		global_unrest = -2
 	}
 
@@ -99,7 +99,6 @@ territorial_ideas = {
 	
 	tortillas_and_circuses = {
 		years_of_nationalism = -5
-		global_unrest = -2
 	}
 
 	local_garrisons = {
@@ -111,11 +110,11 @@ territorial_ideas = {
 	}
 
 	centralized_law_code = {
-		stability_cost_modifier = -0.25
+		stability_cost_modifier = -0.20
 	}
 
 	extensive_bureaucracy = {
-		adm_tech_cost_modifier = -0.20
+		adm_tech_cost_modifier = -0.10
 		legitimacy = 2.0
 	}
 
@@ -157,18 +156,18 @@ coercion_ideas = {
 	}
 
 	coercive_ideology = {
-		stability_cost_modifier = -0.40
+		stability_cost_modifier = -0.25
 		global_unrest = -4
 	}
 
 	hegemonic_delegation = {
-		vassal_income = 0.15
+		vassal_income = 0.10
 		reduced_liberty_desire = 50
 	}
 
 	unchallengeable_might = {
-		ae_impact = -0.33
-		relations_decay_of_me = 0.33
+		ae_impact = -0.20
+		relations_decay_of_me = 0.10
 	}
 
 	regional_capitals_ac  = {
@@ -180,12 +179,12 @@ coercion_ideas = {
 	}
 
 	vast_trade_hegemony = {
-		trade_steering = 0.50
-		merchants = 4
+		trade_steering = 0.10
+		merchants = 2
 	}
 
 	royal_deification = {
-		legitimacy = 5
+		legitimacy = 2.5
 	}
 		
 	ai_will_do = {
@@ -214,7 +213,6 @@ gradual_centralization_ideas = {
 
 	subtle_occupation = {
 		global_unrest = -2
-		years_of_nationalism = -5
 	}
 
 	regional_capitals_gc = {
@@ -231,12 +229,12 @@ gradual_centralization_ideas = {
 	}
 
 	diplomatic_integration = {
-		diplomatic_annexation_cost = -0.33
+		diplomatic_annexation_cost = -0.25
 		diplomatic_reputation = 1
 	}
 
 	true_centralization = {
-		legitimacy = 5
+		legitimacy = 2.5
 	}
 		
 	ai_will_do = {
@@ -286,8 +284,8 @@ diverse_integration_ideas = {
 
 	cosmopolitan_capital = {
 		num_accepted_culutres = 5
-		advisor_pool = 3
-		advisor_cost = -0.20
+		advisor_pool = 2
+		advisor_cost = -0.10
 	}
 
 	united_identity = {
@@ -344,7 +342,7 @@ total_assimilation_ideas = {
 	}
 
 	superior_absolutism = {
-		legitimacy = 4
+		legitimacy = 2
 		prestige = 2
 	}
 		
