@@ -1,5 +1,6 @@
 namespace = INV_plagues
 
+#SMALLPOX
 #Starts the Disaster
 country_event = {
 	id = INV_plagues.01
@@ -97,6 +98,184 @@ country_event = {
 		}
 		every_owned_province = {
 			remove_province_modifier = smallpox_outbreak
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#GENERIC DISEASE
+#Outbreak Begins
+province_event = {
+	id = INV_plagues.03
+	
+	title = "INV_plagues3.t"
+	desc = "INV_plagues3.d"
+	
+	picture = PLAGUE_eventPicture 
+	
+	trigger = {
+		is_year = 1525 
+		owner = {
+			NOT = {
+				has_disaster = smallpox_yucatan
+				has_disaster = smallpox_mexico
+				has_disaster = european_diseases
+			}
+			NOT = {
+				has_country_modifier = recent_disease_outbreak
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1800
+		
+		modifier = {
+			factor = 1.5
+			NOT = { development = 20 }
+		}
+		
+		modifier = {
+			factor = 1.5
+			NOT = { development = 10 }
+		}
+		
+		modifier = {
+			factor = 3
+			has_building = ctown
+		}
+		
+		modifier = {
+			factor = 0.90
+			development = 50
+		}
+		
+		modifier = {
+			factor = 0.90
+			development = 100
+		}
+		
+		modifier = {
+			factor = 0.90
+			development = 200
+		}
+		
+		modifier = {
+			factor = 0.80
+			NOT = { stability = 0 }
+		}
+	}
+	
+	option = {
+		name = "INV_plagues3.a"
+		
+		owner = { 
+			add_country_modifier = {
+				name = european_disease_spreading
+				duration = -1
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+country_event = {
+	id = INV_plagues.04
+	
+	title = "INV_plagues4.t"
+	desc = "INV_plagues4.d"
+	
+	picture = PLAGUE_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = { #Try as hard as you can to fight the plague
+		name = "INV_plagues4.a"
+		
+		custom_tooltip = FLA_INV_008
+		add_stability = -1
+		add_years_of_income = -0.8
+		remove_country_modifier = european_disease_spreading
+		add_country_modifier = {
+			name = fighting_disease
+			duration = -1
+		}
+		every_owned_province = {
+			add_permanent_province_modifier = {
+				name = european_disease_outbreak
+				duration = -1
+			}
+		}
+		hidden_effect = { 
+			add_country_modifier = {
+				name = disease_raging
+				duration = 1095
+			}
+		}
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = { #Fuck it, we're all dead
+		name = "INV_plagues4.b"
+		
+		add_stability = -1
+		remove_country_modifier = european_disease_spreading
+		every_owned_province = {
+			add_permanent_province_modifier = {
+				name = european_disease_outbreak
+				duration = -1
+			}
+		}
+		hidden_effect = { 
+			add_country_modifier = {
+				name = disease_raging
+				duration = 1095
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Ends the Disaster
+country_event = {
+	id = INV_plagues.05
+	
+	title = "INV_plagues5.t"
+	desc = "INV_plagues5.d"
+	
+	picture = PLAGUE_eventPicture 
+	
+	trigger = {
+		has_disaster = european_diseases
+		NOT  = { 
+			has_country_modifier = disease_raging
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 4
+	}
+	
+	option = {
+		name = "INV_plagues5.a"
+		
+		end_disaster = european_diseases
+		add_country_modifier = {
+			name = recent_disease_outbreak
+			duration = 5475
+		}
+		every_owned_province = {
+			remove_province_modifier = european_disease_outbreak
 		}
 		
 		ai_chance = {

@@ -1,0 +1,60 @@
+european_diseases = {
+	potential = {
+		is_year = 1519
+	}
+	
+	can_start = {
+		is_year = 1525
+		NOT = { 
+			has_disaster = smallpox_yucatan
+		}
+		NOT = { 
+			has_disaster = smallpox_mexico
+		}
+		NOT = { 
+			has_country_modifier = recent_smallpox_epidemic 
+		}
+		NOT = {
+			has_country_modifier = recent_disease_outbreak
+		}
+		has_country_modifier = european_disease_spreading
+	}
+	
+	can_stop = {
+		always = no
+	}
+	
+	progress = {
+		modifier = {
+			factor = 50
+			NOT = { has_country_modifier = recent_disease_outbreak }
+			has_country_modifier = european_disease_spreading
+		}
+	}
+	
+	can_end = {
+		custom_trigger_tooltip = {
+			tooltip = SMALLPOX_END
+			always = no
+		}
+	}
+	
+	modifier = {
+		land_morale = -0.10
+		infantry_power = -0.10
+		global_manpower_modifier = -0.10
+		global_tax_modifier = -0.10
+		#Prov Growth Rate -8%
+	}
+	
+	on_start = INV_plagues.04
+	#on_end = Ended by event, don't put anything here
+	
+	on_monthly = {
+		events = {
+		}
+		random_events = { 
+			1000 = 0
+		}
+	}
+}

@@ -82,77 +82,77 @@ country_event = {
 			
 				
 				#Pick Estates
-				if = {
-					limit = {
-						government = altepetl
-						NOT = { government_rank = 2 }
-					}
-					set_country_flag = has_altepetl_nobles
-					set_country_flag = has_priesthood
-					set_variable = { which = an_favors value = 20 }
-					set_variable = { which = ph_favors value = 20 }
-				}
+				#if = {
+				#	limit = {
+				#		government = altepetl
+				#		NOT = { government_rank = 2 }
+				#	}
+				#	set_country_flag = has_altepetl_nobles
+				#	set_country_flag = has_priesthood
+				#	set_variable = { which = an_favors value = 20 }
+				#	set_variable = { which = ph_favors value = 20 }
+				#}
 				
-				if = {
-					limit = {
-						government = altepetl
-						OR = {
-							tag = TEN
-							tag = TET
-							tag = TCP
-						}
-					}
-					set_country_flag = has_upper_nobles
-					set_country_flag = has_priesthood
-					set_variable = { which = un_favors value = 20 }
-					set_variable = { which = ph_favors value = 20 }
-				}
+				#if = {
+				#	limit = {
+				#		government = altepetl
+				#		OR = {
+				#			tag = TEN
+				#			tag = TET
+				#			tag = TCP
+				#		}
+				#	}
+				#	set_country_flag = has_upper_nobles
+				#	set_country_flag = has_priesthood
+				#	set_variable = { which = un_favors value = 20 }
+				#	set_variable = { which = ph_favors value = 20 }
+				#}
 				
-				if = {
-					limit = {
-						government = tribal_confederation
-					}
-					set_country_flag = has_altepetl_nobles
-					set_variable = { which = an_favors value = 20 }
-				}
+				#if = {
+				#	limit = {
+				#		government = tribal_confederation
+				#	}
+				#	set_country_flag = has_altepetl_nobles
+				#	set_variable = { which = an_favors value = 20 }
+				#}
 				
-				if = {
-					limit = {
-						government = tlaxcallan_confederate
-					}
-					set_country_flag = has_lower_nobles
-					set_country_flag = has_priesthood
-					set_variable = { which = ln_favors value = 20 }
-					set_variable = { which = ph_favors value = 20 }
-				}
+				#if = {
+				#	limit = {
+				#		government = tlaxcallan_confederate
+				#	}
+				#	set_country_flag = has_lower_nobles
+				#	set_country_flag = has_priesthood
+				#	set_variable = { which = ln_favors value = 20 }
+				#	set_variable = { which = ph_favors value = 20 }
+				#}
 				
-				if = {
-					limit = {
-						OR = {
-							government = mayapan_1
-							government = centralized_altepetl
-						}
-					}
-					set_country_flag = has_lower_nobles
-					set_country_flag = has_upper_nobles
-					set_country_flag = has_priesthood
-					set_variable = { which = ln_favors value = 20 }
-					set_variable = { which = uh_favors value = 20 }
-					set_variable = { which = ph_favors value = 20 }
-				}
+				#if = {
+				#	limit = {
+				#		OR = {
+				#			government = mayapan_1
+				#			government = centralized_altepetl
+				#		}
+				#	}
+				#	set_country_flag = has_lower_nobles
+				#	set_country_flag = has_upper_nobles
+				#	set_country_flag = has_priesthood
+				#	set_variable = { which = ln_favors value = 20 }
+				#	set_variable = { which = uh_favors value = 20 }
+				#	set_variable = { which = ph_favors value = 20 }
+				#}
 				
-				if = {
-					limit = {
-						OR = {
-							government = triarchal_confederation_sub
-							government = triarchal_confederation_dom
-						}
-					}
-					set_country_flag = has_priesthood
-					set_country_flag = has_upper_nobles
-					set_variable = { which = un_favors value = 20 }
-					set_variable = { which = ph_favors value = 20 }
-				}
+				#if = {
+				#	limit = {
+				#		OR = {
+				#			government = triarchal_confederation_sub
+				#			government = triarchal_confederation_dom
+				#		}
+				#	}
+				#	set_country_flag = has_priesthood
+				#	set_country_flag = has_upper_nobles
+				#	set_variable = { which = un_favors value = 20 }
+				#	set_variable = { which = ph_favors value = 20 }
+				#}
 			}
 			
 			######################

@@ -64,3 +64,28 @@ foiled_invasion = {
 spanish_occupation = {
 	local_unrest = -10
 }
+
+#Generic Disease Outbreak
+european_disease_spreading = {
+	global_autonomy = 0.05
+}
+
+fighting_disease = {
+	global_tax_modifier = -0.075
+	land_forcelimit_modifier = -0.15
+}
+
+disease_raging = {
+	
+}
+
+recent_disease_outbreak = {
+	global_unrest = -4
+	land_morale = -0.05
+}
+
+european_disease_outbreak = {
+	trade_goods_size = 0.01
+	trade_goods_size_modifier = -0.20
+	local_autonomy = 0.05
+}

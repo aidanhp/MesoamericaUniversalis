@@ -123,6 +123,39 @@ on_war_lost = {
 on_battle_won_country = {
 	if = {
 		limit = {
+			OR = {
+				ROOT = {
+					tag = CAX
+				}
+				FROM = {
+					tag = CAX
+				}
+			}
+			NOT = { has_global_flag = smallpox_mexico_happened }
+		}
+		if = {
+			limit = {
+				ROOT = {
+					NOT = { has_disaster = smallpox_yucatan }
+				}
+			}
+			ROOT = { 
+				country_event = { id = INV_plagues.01 days = 3 }
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					NOT = { has_disaster = smallpox_yucatan }
+				}
+			}
+			FROM = { 
+				country_event = { id = INV_plagues.01 days = 3 }
+			}
+		}
+	}
+	if = {
+		limit = {
 			religion = newnahuatl
 		}
 		country_event = { id = captives.01 }

@@ -1,0 +1,7 @@
+# Triggered modifiers are here.
+# these are checked for each countries once/month and then applied.
+#
+# Effects are fully scriptable here.
+
+#Insufficient Bureaucracy
+#City state without a city state bureaucracy

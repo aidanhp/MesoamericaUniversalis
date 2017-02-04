@@ -954,24 +954,6 @@ country_event = {
 			name = IUA_great_state_reform
 			duration = -1
 		}
-		if = {
-			limit = {
-				has_estate = estate_unobles
-			}
-			add_estate_loyalty = {
-				estate = estate_unobles
-				loyalty = -25
-			}
-		}
-		if = {
-			limit = {
-				has_estate = estate_lnobles
-			}
-			add_estate_loyalty = {
-				estate = estate_lnobles
-				loyalty = -15
-			}
-		}
 		
 		hidden_effect = {
 			change_variable = { which = centralization value = 10 }

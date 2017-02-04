@@ -235,6 +235,25 @@ country_event = {
 						owner = {
 							has_disaster = smallpox_yucatan
 						}
+						NOT = { has_building = ctown }
+					}
+					change_variable = { which = prov_growth_rate value = -0.15 }
+				}
+				if = {
+					limit = {
+						owner = {
+							has_disaster = smallpox_yucatan
+						}
+						has_building = ctown 
+					}
+					change_variable = { which = prov_growth_rate value = -0.12 }
+				}
+				if = {
+					limit = {
+						owner = {
+							has_disaster = smallpox_mexico
+						}
+						NOT = { has_building = ctown }
 					}
 					change_variable = { which = prov_growth_rate value = -0.15 }
 				}
@@ -243,9 +262,29 @@ country_event = {
 						owner = {
 							has_disaster = smallpox_mexico
 						}
+						has_building = ctown 
 					}
-					change_variable = { which = prov_growth_rate value = -0.15 }
+					change_variable = { which = prov_growth_rate value = -0.12 }
 				}
+				if = {
+					limit = {
+						owner = {
+							has_disaster = european_diseases
+						}
+						NOT = { has_building = ctown }
+					}
+					change_variable = { which = prov_growth_rate value = -0.10 }
+				}
+				if = {
+					limit = {
+						owner = {
+							has_disaster = european_diseases
+						}
+						has_building = ctown 
+					}
+					change_variable = { which = prov_growth_rate value = -0.07 }
+				}
+				
 				if = {
 					limit = {
 						owner = {

@@ -15,9 +15,12 @@
  ph_uprising: "Uprising of the Faithful"
  desc_ph_uprising: ""
  
- #Smallpox
+ #Disease
  smallpox_yucatan: "Smallpox Epidemic: Source Yucatan"
  desc_smallpox_yucatan: "A deadly smallpox epidemic brought by the barbarians from across the sea has started on the Yucatan Peninsula and is spreading."
 
  smallpox_mexico: "Smallpox Epidemic: Source Mexico"
  desc_smallpox_mexico: "A deadly smallpox epidemic brought by the barbarians from across the sea has started in Mexico and is spreading."
+ 
+ european_diseases: "European Diseases"
+ desc_european_diseases: "One of the many devestating diseases from Europe has afflicted our country."

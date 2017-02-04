@@ -11,6 +11,7 @@
  FLA_INV_005: "All Totonac culture provinces get the 'Rebellious Province' Modifier."
  FLA_INV_006: "All Totonac culture provinces are siezed by Caxtillan."
  FLA_INV_007: "Your ruler will attempt to convince the Spanish he is their new servant while a plan is formulated."
+ FLA_INV_008: "The yearly population loss from this disaster will be reduced from 10% to 7%."
  
  #--EVENT MODIFIDERS
  smallpox_outbreak: "Smallpox Outbreak"
@@ -33,6 +34,13 @@
  desc_foiled_invasion: "The initial Spanish Invasion has failed."
  spanish_occupation: "Spanish Occupation"
  desc_spanish_occupation: "This province is occupied by the Spanish and is being absorbed into the Spanish Colonial state."
+ european_disease_spreading: "European Disease Spreading"
+ desc_european_disease_spreading: "One of the many European diseases is spreading in our country."
+ fighting_disease: "Fighting Disease"
+ desc_fighting_disease: "We are doing our best to combat the effects of disease."
+ disease_raging: "Disease Raging"
+ recent_disease_outbreak: "Recent Disease Outbreak"
+ european_disease_outbreak: "European Disease Outbreak"
  
  #--DECISIONS
  
@@ -95,5 +103,14 @@
  INV_plagues2.t: "End of the Epidemic"
  INV_plagues2.d: "At last, the vile disease that afflicted us seems to have worn itself out. Hopefully it does not return."
  INV_plagues2.a: "Thank the gods!"
- 
+ INV_plagues3.t: "Disease Outbreak Beginning in $PROVINCENAME$"
+ INV_plagues3.d: "One of the various new European diseases has appeared in our country and is beginning to infect the populace."
+ INV_plagues3.a: "This is terrible!"
+ INV_plagues4.t: "European Disease Outbreak"
+ INV_plagues4.d: "The disease outbreak that recently began has started in earnest. Our people our sufferring, but we could blunt the disease's impact if we devoted a significant amount of money towards providing care for the sick."
+ INV_plagues4.a: "We must do everything we can."
+ INV_plagues4.b: "We cannot spare the money right now."
+ INV_plagues5.t: "End of the Epidemic"
+ INV_plagues5.d: "At last, the vile disease that afflicted us seems to have worn itself out. Hopefully it does not return."
+ INV_plagues5.a: "Finally!"
  

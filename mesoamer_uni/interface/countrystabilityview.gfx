@@ -61,6 +61,13 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 	
+	spriteType = {
+		name = "GFX_disaster_european_diseases"
+		texturefile = "gfx//interface//disasters//EuropeanDiseases.dds"
+		noOfFrames = 3
+		loadType = "INGAME"
+	}
+	
 	
 
 	spriteType = {

@@ -550,7 +550,7 @@ workshop3 = {
 
 #Colonial Town
 ctown = {
-	cost = 150
+	cost = 400
 	time = 12
 	destroy_on_conquest = yes
 	trigger = {
