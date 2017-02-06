@@ -5,63 +5,63 @@ namespace = TEN_MAJORS
 ###################################
 
 #Itzcoatl's Social Reforms
-country_event = {
-	id = TEN_MAJORS.01
-	
-	title = "TEN_MAJORS1.t"
-	desc = "TEN_MAJORS1.d"
-	
-	picture = REFORM_eventPicture 
-	
-	fire_only_once = yes
-	
-	trigger = {
-		tag = TEN
-	}
-	
-	mean_time_to_happen = {
-		months = 1
-	}
-	
-	option = {
-		name = "TEN_MAJORS1.a"
-		custom_tooltip = FLA_TEN_001
-		add_estate_loyalty = {
-			estate = estate_unobles
-			loyalty = 40
-		}
-		add_country_modifier = {
-			name = TEN_redistributive_policy
-			duration = -1
-		}
-		
-		ai_chance = {
-			factor = 80
-		}
-	}
-	
-	option = {
-		name = "TEN_MAJORS1.b"
-		custom_tooltip = FLA_TEN_002
-		custom_tooltip = GOVS_cen_i_0015
-		add_estate_loyalty = {
-			estate = estate_unobles
-			loyalty = -25
-		}
-		add_country_modifier = {
-			name = TEN_dependency_policy
-			duration = -1
-		}
-		
-		hidden_effect = {
-			change_variable = { which = centralization value = 15 }
-		}
-		
-		ai_chance = {
-			factor = 20
-		}
-	}
-}	
+#country_event = {
+#	id = TEN_MAJORS.01
+#	
+#	title = "TEN_MAJORS1.t"
+#	desc = "TEN_MAJORS1.d"
+#	
+#	picture = REFORM_eventPicture 
+#	
+#	fire_only_once = yes
+#	
+#	trigger = {
+#		tag = TEN
+#	}
+#	
+#	mean_time_to_happen = {
+#		months = 1
+#	}
+#	
+#	option = {
+#		name = "TEN_MAJORS1.a"
+#		custom_tooltip = FLA_TEN_001
+#		add_estate_loyalty = {
+#			estate = estate_unobles
+#			loyalty = 40
+#		}
+#		add_country_modifier = {
+#			name = TEN_redistributive_policy
+#			duration = -1
+#		}
+#		
+#		ai_chance = {
+#			factor = 80
+#		}
+#	}
+#	
+#	option = {
+#		name = "TEN_MAJORS1.b"
+#		custom_tooltip = FLA_TEN_002
+#		custom_tooltip = GOVS_cen_i_0015
+#		add_estate_loyalty = {
+#			estate = estate_unobles
+#			loyalty = -25
+#		}
+#		add_country_modifier = {
+#			name = TEN_dependency_policy
+#			duration = -1
+#		}
+#		
+#		hidden_effect = {
+#			change_variable = { which = centralization value = 15 }
+#		}
+#		
+#		ai_chance = {
+#			factor = 20
+#		}
+#	}
+#}	
 
 #Tetzcoco Requests Help Against Huexotla
 country_event = {
@@ -963,7 +963,514 @@ country_event = {
 	}
 }
 
+################
+#THE GREAT GAME#
+################
+#Imbalance in the Alliance
+country_event = {
+	id = TEN_MAJORS.28
+	
+	title = "TEN_MAJORS28.t"
+	desc = "TEN_MAJORS28.d"
+	
+	picture = COURT_eventPicture 
+	
+	fire_only_once = yes
+	
+	trigger = {
+		TEN = {
+			alliance_with = TET
+		}
+		is_year = 1455
+		TET = {
+			NOT = { num_of_cities = TEN }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+	}
+	
+	option = {
+		name = "TEN_MAJORS28.a"
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+	
+	option = {
+		name = "TEN_MAJORS28.b"
+		
+		TEN = {
+			country_event = { id = TEN_MAJORS.29 days = 3 }
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
 
+#Tetzcoco Challenges our Authority!
+country_event = {
+	id = TEN_MAJORS.29
+	
+	title = "TEN_MAJORS29.t"
+	desc = "TEN_MAJORS29.d"
+	
+	picture = DIPLOMACY_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "TEN_MAJORS29.a"
+		
+		custom_tooltip = FLA_TEN_018
+		TET = {
+			country_event = { id = TEN_MAJORS.30 days = 2 }
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "TEN_MAJORS29.b"
+		
+		custom_tooltip = TAI_d_010
+		hidden_effect = {
+			change_variable = { which = triple_alliance_influence value = -10 }
+		}
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Tenochtitlan Challenges Us!
+country_event = {
+	id = TEN_MAJORS.30
+	
+	title = "TEN_MAJORS30.t"
+	desc = "TEN_MAJORS30.d"
+	
+	picture = DIPLOMACY_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "TEN_MAJORS30.a"
+		
+		custom_tooltip = FLA_TEN_019
+		hidden_effect = {
+			TEN = {
+				country_event = { id = TEN_MAJORS.31 days = 7 }
+			}
+			TET = {
+				country_event = { id = TEN_MAJORS.31 days = 7 }
+			}
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "TEN_MAJORS30.b"
+		
+		add_prestige = -10
+		#Opinion Loss
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#The Great Game
+country_event = {
+	id = TEN_MAJORS.31
+	
+	title = "TEN_MAJORS31.t"
+	desc = "TEN_MAJORS31.d"
+	
+	picture = BALLGAME_eventPicture 
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "TEN_MAJORS31.a"
+		
+		if = {
+			limit = {
+				tag = TEN
+			}
+			set_global_flag = TEN_offensive_strat
+		}
+		
+		if = {
+			limit = {
+				tag = TET
+			}
+			set_global_flag = TET_offensive_strat
+		}
+		
+		hidden_effect = { 
+			if = {
+				limit = {
+					tag = TEN
+				}
+				MGI = {
+					country_event = { id = TEN_MAJORS.32 days = 2 }
+				}
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = {
+		name = "TEN_MAJORS31.b"
+		
+		if = {
+			limit = {
+				tag = TEN
+			}
+			set_global_flag = TEN_defensive_strat
+		}
+		
+		if = {
+			limit = {
+				tag = TET
+			}
+			set_global_flag = TET_defensive_strat
+		}
+		
+		hidden_effect = { 
+			if = {
+				limit = {
+					tag = TEN
+				}
+				MGI = {
+					country_event = { id = TEN_MAJORS.32 days = 2 }
+				}
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = {
+		name = "TEN_MAJORS31.b"
+		
+		if = {
+			limit = {
+				tag = TEN
+			}
+			set_global_flag = TEN_unorthodox_strat
+		}
+		
+		if = {
+			limit = {
+				tag = TET
+			}
+			set_global_flag = TET_unorthodox_strat
+		}
+		
+		hidden_effect = { 
+			if = {
+				limit = {
+					tag = TEN
+				}
+				MGI = {
+					country_event = { id = TEN_MAJORS.32 days = 2 }
+				}
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Special Event - Decides who Wins
+country_event = {
+	id = TEN_MAJORS.32
+	
+	title = "TEN_MAJORS32.t"
+	desc = "TEN_MAJORS32.d"
+	
+	picture = REFORM_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "TEN_MAJORS32.a"
+		
+		if = {
+			limit = {
+				NOT = {
+					has_global_flag = TET_offensive_strat
+					has_global_flag = TET_defensive_strat
+					has_global_flag = TET_unorthodox_strat
+				}
+			}
+			set_global_flag = TET_defensive_strat
+		}
+		if = {
+			limit = {
+				AND = {
+					has_global_flag = TEN_offensive_strat
+					has_global_flag = TET_offensive_strat
+				}
+			}
+			random_list = {
+				50 = {
+					TEN = { country_event = { id = TEN_MAJORS.33 } } #Tenochtitlan Loses
+					TET = { country_event = { id = TEN_MAJORS.34 } }#Tetzcoco Wins
+				}
+				50 = {
+					TEN = { country_event = { id = TEN_MAJORS.34 } }#Tenochtitlan Wins
+					TET = { country_event = { id = TEN_MAJORS.33 } }#Tetzcoco Loses
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				AND = {
+					has_global_flag = TEN_offensive_strat
+					has_global_flag = TET_defensive_strat
+				}
+			}
+			random_list = {
+				70 = {
+					TEN = { country_event = { id = TEN_MAJORS.33 } }#Tenochtitlan Loses
+					TET = { country_event = { id = TEN_MAJORS.34 } }#Tetzcoco Wins
+				}
+				30 = {
+					TEN = { country_event = { id = TEN_MAJORS.34 } }#Tenochtitlan Wins
+					TET = { country_event = { id = TEN_MAJORS.33 } }#Tetzcoco Loses
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				AND = {
+					has_global_flag = TEN_offensive_strat
+					has_global_flag = TET_unorthodox_strat
+				}
+			}
+			random_list = {
+				30 = {
+					TEN = { country_event = { id = TEN_MAJORS.33 } }#Tenochtitlan Loses
+					TET = { country_event = { id = TEN_MAJORS.34 } }#Tetzcoco Wins
+				}
+				70 = {
+					TEN = { country_event = { id = TEN_MAJORS.34 } }#Tenochtitlan Wins
+					TET = { country_event = { id = TEN_MAJORS.33 } }#Tetzcoco Loses
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				AND = {
+					has_global_flag = TEN_defensive_strat
+					has_global_flag = TET_offensive_strat
+				}
+			}
+			random_list = {
+				30 = {
+					TEN = { country_event = { id = TEN_MAJORS.33 } }#Tenochtitlan Loses
+					TET = { country_event = { id = TEN_MAJORS.34 } }#Tetzcoco Wins
+				}
+				70 = {
+					TEN = { country_event = { id = TEN_MAJORS.34 } }#Tenochtitlan Wins
+					TET = { country_event = { id = TEN_MAJORS.33 } }#Tetzcoco Loses
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				AND = {
+					has_global_flag = TEN_defensive_strat
+					has_global_flag = TET_defensive_strat
+				}
+			}
+			random_list = {
+				50 = {
+					TEN = { country_event = { id = TEN_MAJORS.33 } }#Tenochtitlan Loses
+					TET = { country_event = { id = TEN_MAJORS.34 } }#Tetzcoco Wins
+				}
+				50 = {
+					TEN = { country_event = { id = TEN_MAJORS.34 } }#Tenochtitlan Wins
+					TET = { country_event = { id = TEN_MAJORS.33 } }#Tetzcoco Loses
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				AND = {
+					has_global_flag = TEN_defensive_strat
+					has_global_flag = TET_unorthodox_strat
+				}
+			}
+			random_list = {
+				70 = {
+					TEN = { country_event = { id = TEN_MAJORS.33 } }#Tenochtitlan Loses
+					TET = { country_event = { id = TEN_MAJORS.34 } }#Tetzcoco Wins
+				}
+				30 = {
+					TEN = { country_event = { id = TEN_MAJORS.34 } }#Tenochtitlan Wins
+					TET = { country_event = { id = TEN_MAJORS.33 } }#Tetzcoco Loses
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				AND = {
+					has_global_flag = TEN_unorthodox_strat
+					has_global_flag = TET_offensive_strat
+				}
+			}
+			random_list = {
+				70 = {
+					TEN = { country_event = { id = TEN_MAJORS.33 } }#Tenochtitlan Loses
+					TET = { country_event = { id = TEN_MAJORS.34 } }#Tetzcoco Wins
+				}
+				30 = {
+					TEN = { country_event = { id = TEN_MAJORS.34 } }#Tenochtitlan Wins
+					TET = { country_event = { id = TEN_MAJORS.33 } }#Tetzcoco Loses
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				AND = {
+					has_global_flag = TEN_unorthodox_strat
+					has_global_flag = TET_defensive_strat
+				}
+			}
+			random_list = {
+				30 = {
+					TEN = { country_event = { id = TEN_MAJORS.33 } }#Tenochtitlan Loses
+					TET = { country_event = { id = TEN_MAJORS.34 } }#Tetzcoco Wins
+				}
+				70 = {
+					TEN = { country_event = { id = TEN_MAJORS.34 } }#Tenochtitlan Wins
+					TET = { country_event = { id = TEN_MAJORS.33 } }#Tetzcoco Loses
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				AND = {
+					has_global_flag = TEN_unorthodox_strat
+					has_global_flag = TET_unorthodox_strat
+				}
+			}
+			random_list = {
+				50 = {
+					TEN = { country_event = { id = TEN_MAJORS.33 } }#Tenochtitlan Loses
+					TET = { country_event = { id = TEN_MAJORS.34 } }#Tetzcoco Wins
+				}
+				50 = {
+					TEN = { country_event = { id = TEN_MAJORS.34 } }#Tenochtitlan Wins
+					TET = { country_event = { id = TEN_MAJORS.33 } }#Tetzcoco Loses
+				}
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Great Game Lost
+country_event = {
+	id = TEN_MAJORS.33
+	
+	title = "TEN_MAJORS33.t"
+	desc = "TEN_MAJORS33.d"
+	
+	picture = SUICIDE_eventPicture  #Switch this to a noose
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "TEN_MAJORS33.a"
+		
+		custom_tooltip = TAI_d_010
+		random_list = {
+			99 = {
+			
+			}
+			1 = {
+				kill_ruler = yes
+			}
+		}
+		hidden_effect = {
+			change_variable = { which = triple_alliance_influence value = -10 }
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Great Game Won
+country_event = {
+	id = TEN_MAJORS.34
+	
+	title = "TEN_MAJORS34.t"
+	desc = "TEN_MAJORS34.d"
+	
+	picture = BALLGAME_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "TEN_MAJORS34.a"
+	
+		custom_tooltip = TAI_i_010
+		add_prestige = 25
+		add_legitimacy = 25
+		hidden_effect = {
+			change_variable = { which = triple_alliance_influence value = 10 }
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+########################
+#VENTURES IN XOCONOCHCO#
+########################
+
+
+###################
+#PLEA TO MICHOACAN#
+###################
 
 
 

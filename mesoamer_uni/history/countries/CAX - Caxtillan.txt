@@ -4,4 +4,4 @@ mercantilism = 0.75
 technology_group = western_european
 religion = roman_catholic 
 primary_culture = caxtillan 
-capital = 1
+capital = 975

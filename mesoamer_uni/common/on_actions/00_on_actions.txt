@@ -397,6 +397,26 @@ on_monarch_death = {
 	}
 	if = {
 		limit = {
+			tag = JJG 
+			NOT = { has_country_flag = penobiya_dead }
+		}
+		set_country_flag = penobiya_dead
+		if = {
+			limit = {
+				TEH = {
+					is_lesser_in_union = yes
+				}
+				JJG = {
+					has_ruler = "Cosijopii"
+				}
+			}
+			JJG = {
+				country_event = { id = ZAA_FLAVOR.01 }
+			}
+		}
+	}
+	if = {
+		limit = {
 			NOT = { has_idea = extensive_bureaucracy }
 		}
 		add_legitimacy = -15
@@ -450,6 +470,9 @@ on_monarch_death = {
 			ai = no
 			NOT = {
 				has_country_modifier = deliberations_of_the_council
+			}
+			NOT = {
+				has_country_modifier = succession_conflict
 			}
 		}
 		ROOT = {

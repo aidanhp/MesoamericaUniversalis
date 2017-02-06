@@ -46,4 +46,16 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/event_pictures_MU/CODEX_eventPicture.dds"
 		allwaystransparent = yes
 	}
+	
+	spriteType = {
+		name = "BALLGAME_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_MU/BALLGAME_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "SUICIDE_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_MU/SUICIDE_eventPicture.dds"
+		allwaystransparent = yes
+	}
 }

@@ -1,7 +1,7 @@
 add_core = EEL
-controller = TEH
 add_core = TEH
 owner = TEH
+controller = TEH
 culture = newzapotec
 religion = zapotec
 hre = no

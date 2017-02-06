@@ -33,7 +33,8 @@
  FLA_TEN_015: "The messengers will try to bring Tenochtitlan's subjects over to us."
  FLA_TEN_016: "Tlacaelel will give Moquihuix an apt punishment."
  FLA_TEN_017: "Tlatelolco will be forced into a personal union under Tenochtitlan."
- 
+ FLA_TEN_018: "Make a bet with Tetzcoco - if we win, they will agree to lodge no further complaints. If we lose, we will be forced to give up some of our power in the Alliance."
+ FLA_TEN_019: "The Great Ball Game will take place in a week's time."
  
  #--EVENT MODIFIDERS
  TEN_tlacaelel_tlacochcalcatl: "Tlacaelel the Tlacochcalcatl"
@@ -185,6 +186,36 @@
  TEN_MAJORS27.a: "Implement the laws."
  TEN_MAJORS27.b: "This will only antagonize a working system."
  
+ #----The Great Game
+ TEN_MAJORS28.t: "Imbalance in the Alliance"
+ TEN_MAJORS28.d: "The short-lived rule of the Tepanec Empire and their vile rulers Tezozomoc and Maxtla led us to forge a bond with the other major city-states around Lake Tetzcoco. This bond was founded on the trust that brings men together against an oppressor, and was forged hot in the fires of war. But more and more it has seemed that Tenochtitlan is determined to be the sole member of our alliance. Did we not aid them in the rebuilding of their city following the ravages of the Tepaneca? Did we not follow them into battle to take the Valley from our enemies? Yet still the self-styled Huey-Tlatoani of Tenochtitlan slowly usurps our autonomy with his great strength and continues to gather more and more power in his capital."
+ TEN_MAJORS28.a: "Take the high road and stay quiet."
+ TEN_MAJORS28.b: "Lodge a formal complaint."
+ TEN_MAJORS29.t: "Tetzcoco Challenges our Authority!"
+ TEN_MAJORS29.d: "Our Triple Alliance was founded with the intention that it be an alliance of equals - at least between ourselves and Tetzcoco - but it has increasingly become clear that our city of Tenochtitlan controls the drum to which the One World marches. Recently, the Tlatoani [TET.Monarch.GetName] of Tetzcoco has dared to question our completely reasonable policy of trying to further integrate the Triple Alliance. It is up to Huey-Tlatoani $MONARCH$ to decide how to handle the delicate situation."
+ TEN_MAJORS29.a: "Challenge [TET.Monarch.GetName] to a ball game!"
+ TEN_MAJORS29.b: "Agree to relinquish some control."
+ TEN_MAJORS30.t: "A Challenge from Tenochtitlan"
+ TEN_MAJORS30.d: "The Huey-Tlatoani [TEN.Monarch.GetName] of Tenochtitlan has challenged $MONARCH$ to ollamaliztli, the traditional ball game, in response to our complaint. If we lose, we agree to no longer challenge Tenochtitlan’s diplomatic policies, but if we are to win, [TEN.Monarch.GetName] has agreed to slow his accumulation of power in Tenochtitlan."
+ TEN_MAJORS30.a: "Time to teach the Tenochs a lesson!"
+ TEN_MAJORS30.b: "This is his response? No way!"
+ TEN_MAJORS31.t: "The Great Game"
+ TEN_MAJORS31.d: "The Tlachtli court is set. The ollamaloni ball moves towards you, almost a blur. All eyes of the One World are upon you."
+ TEN_MAJORS31.a: "Play defensively, tire your opponent out."
+ TEN_MAJORS31.b: "Play offensively!"
+ TEN_MAJORS31.c: "Try an unorthodox strategy!"
+ TEN_MAJORS33.t: "The Great Game Lost!"
+ TEN_MAJORS33.d: "You cannot look your advisors in the eye, afterwards. The palace becomes intensely quiet for many days - none dare bring up the loss in your hearing. It doesn’t help to get rid of your own thoughts, your own regrets."
+ TEN_MAJORS33.a: "Aya, ayahue. Why was I born on this earth?"
+ TEN_MAJORS34.t: "The Great Game Won!"
+ TEN_MAJORS34.d: "The cheers are deafening. The priests attempt to make the appropriate prayers at the completion of a game, but they can hardly hear their own voices. All the One World now knows who possesses the true rightness in this Triple Alliance."
+ TEN_MAJORS34.a: "I never had a doubt."
+ 
+ #----Ventures in Xoconochco
+ 
+ #----Plea to Michoacan
+ 
+ 
  #--MINORS
  #----Tlacaelel
  TEN_MINORS1.t: "Tlacaelel's Rise"
@@ -257,7 +288,19 @@
  TEN_MINORS15.t: "A Terrible Punishment"
  TEN_MINORS15.d: "Our plot to defeat Tenochtitlan has gone horribly wrong. \nToday, the Tenochs invited Moquihuix and many Tlatelolcoa nobles to their city for a great banquet, at which sumptuous food was served. Unfotunately, they later informed us that meat we had been eating was actually the flesh of the messengers we sent to incite Tenochtitlan's subjects to rebel. Moquihuix and his nobles fled back to Tlatelolco in outrage, where a fierce battle ensued. The warriors of Tenochtitlan eventually pushed us to our temple, and their leader, [TEN.Monarch.GetName], killed Moquihuix in single combat and proceeded to declare himself ruler of Tlatelolco, now and forever."
  TEN_MINORS15.a: "NOOOOOOOOOOoooooooo........."
+ 
+ #----Huaxyacac
+ 
+ 
  #--CUTE
+ 
+ #----New Fire Ceremony
+ 
+ #----Balsas
+ 
+ #----Oztoman
+ 
+ #----Royal Zoo
 
  
  #-------------------------#

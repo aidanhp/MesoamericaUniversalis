@@ -67,3 +67,5 @@ TEN_great_legal_reform = {
 	global_autonomy = -0.10
 }
 
+
+

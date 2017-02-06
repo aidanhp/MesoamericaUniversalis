@@ -1,0 +1,9 @@
+#For Various
+bs696 = {
+
+}
+
+#ZAACHILA
+succession_conflict = {
+	stability_cost_modifier = 0.20
+}

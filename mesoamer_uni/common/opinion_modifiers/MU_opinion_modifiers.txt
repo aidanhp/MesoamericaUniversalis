@@ -22,3 +22,8 @@ opinion_betrayed_triarchy = {
 	opinion = -200
 	yearly_decay = 0.1
 }
+
+opinion_dynastic_conflict = {
+	opinion = -150
+	yearly_decay = 2
+}

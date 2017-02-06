@@ -1,0 +1,243 @@
+namespace = ZAA_FLAVOR
+
+#Succession Struggle at Zaachila!
+country_event = {
+	id = ZAA_FLAVOR.01
+	
+	title = "ZAA_FLAVOR1.t"
+	desc = "ZAA_FLAVOR1.d"
+	
+	picture = BATTLE_eventPicture 
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	major = yes
+	
+	immediate = {
+		hidden_effect = {
+			JJG = {
+				add_country_modifier = {
+					name = succession_conflict
+					duration = 100
+				}
+			}
+			TEH = {
+				add_country_modifier = {
+					name = succession_conflict
+					duration = 100
+				}
+			}
+		}
+	}
+	
+	option = { #Side with Cosijopii
+		name = "ZAA_FLAVOR1.a"
+		
+		break_union = JJH
+		break_union = TEH
+		switch_tag = TEH
+		TEH = {
+			add_opinion = {
+				who = JJG
+				modifier = opinion_dynastic_conflict
+			}
+			define_ruler = {
+				name = "Cosijopii"
+				dynasty = "Xipe" 
+				age = 45
+				claim = 100
+				regency = no
+				female = no
+				adm = 4
+				dip = 4
+				mil = 4
+				fixed = yes
+			}
+		}
+		JJG = {
+			add_opinion = {
+				who = TEH
+				modifier = opinion_dynastic_conflict
+			}
+			if = {
+				limit = {
+					553 = {
+						owned_by = JJG
+					}
+				}
+				553 = {
+					cede_province = TEH
+					add_core = TEH
+				}
+			}
+			if = {
+				limit = {
+					555 = {
+						owned_by = JJG
+					}
+				}
+				555 = {
+					cede_province = TEH
+					add_core = TEH
+				}
+			}
+			if = {
+				limit = {
+					63 = {
+						owned_by = JJG
+					}
+				}
+				63 = {
+					cede_province = TEH
+					add_core = TEH
+				}
+			}
+			define_ruler = {
+				name = "Lachi"
+				dynasty = "Xipe" 
+				age = 45
+				claim = 100
+				regency = no
+				female = no
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+			hidden_effect = {
+				kill_heir = yes
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = { #Side with the pretender
+		name = "ZAA_FLAVOR1.b"
+
+		break_union = JJH
+		break_union = TEH
+		TEH = {
+			add_opinion = {
+				who = JJG
+				modifier = opinion_dynastic_conflict
+			}
+			define_ruler = {
+				name = "Cosijopii"
+				dynasty = "Xipe" 
+				age = 45
+				claim = 100
+				regency = no
+				female = no
+				adm = 4
+				dip = 4
+				mil = 4
+				fixed = yes
+			}
+		}
+		JJG = {
+			add_opinion = {
+				who = TEH
+				modifier = opinion_dynastic_conflict
+			}
+			if = {
+				limit = {
+					553 = {
+						owned_by = JJG
+					}
+				}
+				553 = {
+					cede_province = TEH
+					add_core = TEH
+				}
+			}
+			if = {
+				limit = {
+					555 = {
+						owned_by = JJG
+					}
+				}
+				555 = {
+					cede_province = TEH
+					add_core = TEH
+				}
+			}
+			if = {
+				limit = {
+					63 = {
+						owned_by = JJG
+					}
+				}
+				63 = {
+					cede_province = TEH
+					add_core = TEH
+				}
+			}
+			define_ruler = {
+				name = "Lachi"
+				dynasty = "Xipe" 
+				age = 45
+				claim = 100
+				regency = no
+				female = no
+				adm = 2
+				dip = 2
+				mil = 2
+			}
+			hidden_effect = {
+				kill_heir = yes
+			}
+		}
+		
+		hidden_effect = {
+			JJH = {
+				country_event = { id = ZAA_FLAVOR.02 days = 2 }
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Zaachila in Chaos!
+country_event = {
+	id = ZAA_FLAVOR.02
+	
+	title = "ZAA_FLAVOR2.t"
+	desc = "ZAA_FLAVOR2.d"
+	
+	picture = BATTLE_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "ZAA_FLAVOR2.a"
+		
+		declare_war_with_cb = {
+			who = JJG
+			casus_belli = cb_feud_triggered 
+		}
+		add_prestige = 10
+		
+		ai_chance = {
+			factor = 90
+		}
+	}
+	
+	option = {
+		name = "ZAA_FLAVOR2.b"
+		
+		add_prestige = -10
+		
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+

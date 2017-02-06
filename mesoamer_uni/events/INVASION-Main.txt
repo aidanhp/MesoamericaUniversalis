@@ -606,10 +606,8 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		any_country = {
-			limit = {
-				has_country_flag = first_target
-			}
+		ROOT = {
+			has_country_flag = first_target
 			capital_scope = {
 				controlled_by = CAX
 			}

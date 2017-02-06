@@ -1,0 +1,206 @@
+﻿l_english: 
+ #Localization for Most Flavor Events
+ #SPECIAL REBELS
+
+ 
+ #SPECIAL LOCALIZATION
+ 
+ #-------------------------#
+ #ZAACHILA
+ opinion_dynastic_conflict: "Dynastic Conflict"
+ 
+ #--CUSTOM TOOLTIPS
+ 
+ #--EVENT MODIFIDERS
+ 
+ #--DECISIONS
+ 
+ #--DISASTERS
+ 
+ #--MAJORS
+ #----Succession Struggle
+ ZAA_FLAVOR1.t: "Succession Struggle at Zaachila!"
+ ZAA_FLAVOR1.d: "The death of Coqui Penobiya has led the large Zapotec kingdom of Zaachila to a succession struggle. The legitimate heir, Cosijopii, has been challenged in his capital by a pretender from another branch of the royal family, and a clash near the city resulted in Cosijopii and his court being forced to flee to the coastal city of Guisíi."
+ ZAA_FLAVOR1.a: "Support Cosijopii"
+ ZAA_FLAVOR1.b: "Support the Pretender"
+ ZAA_FLAVOR2.t: "Chaos in Zaachila!"
+ ZAA_FLAVOR2.d: "A succession war has broken out between Cosijopii and [JJG.Monarch.GetName] over the lands of Zaachila! The kingdom is greatly weakened, perhaps this would be a good time to strike and take Zaachila’s lands for ourselves!"
+ ZAA_FLAVOR2.a: "Attack!"
+ ZAA_FLAVOR2.b: "Let us bide our time instead."
+ 
+ #--MINORS
+ #----X
+ 
+ #--CUTE
+ 
+ 
+ #-------------------------#
+ #AZCAPOTZALCO
+ 
+ #--CUSTOM TOOLTIPS
+ 
+ #--EVENT MODIFIDERS
+ 
+ #--DECISIONS
+ 
+ #--DISASTERS
+ 
+ #--MAJORS
+ #----X
+ 
+ #--MINORS
+ #----X
+ 
+ #--CUTE
+ 
+ #-------------------------#
+ #CHALCO
+ 
+ #--CUSTOM TOOLTIPS
+ 
+ #--EVENT MODIFIDERS
+ 
+ #--DECISIONS
+ 
+ #--DISASTERS
+ 
+ #--MAJORS
+ #----X
+ 
+ #--MINORS
+ #----X
+ 
+ #--CUTE
+ 
+ #-------------------------#
+ #TLAXCALA
+ 
+ #--CUSTOM TOOLTIPS
+ 
+ #--EVENT MODIFIDERS
+ 
+ #--DECISIONS
+ 
+ #--DISASTERS
+ 
+ #--MAJORS
+ #----X
+ 
+ #--MINORS
+ #----X
+ 
+ #--CUTE
+ 
+ #-------------------------#
+ #ZAPOTEC GENERAL
+ 
+ #--CUSTOM TOOLTIPS
+ 
+ #--EVENT MODIFIDERS
+ 
+ #--DECISIONS
+ 
+ #--DISASTERS
+ 
+ #--MAJORS
+ #----X
+ 
+ #--MINORS
+ #----X
+ 
+ #--CUTE
+ 
+ #-------------------------#
+ #MIXTEC GENERAL
+ 
+ #--CUSTOM TOOLTIPS
+ 
+ #--EVENT MODIFIDERS
+ 
+ #--DECISIONS
+ 
+ #--DISASTERS
+ 
+ #--MAJORS
+ #----X
+ 
+ #--MINORS
+ #----X
+ 
+ #--CUTE
+ 
+ #-------------------------#
+ #NAHUA GENERAL
+ 
+ #--CUSTOM TOOLTIPS
+ 
+ #--EVENT MODIFIDERS
+ 
+ #--DECISIONS
+ 
+ #--DISASTERS
+ 
+ #--MAJORS
+ #----X
+ 
+ #--MINORS
+ #----X
+ 
+ #--CUTE
+ 
+ #-------------------------#
+ #PUREPECHA GENERAL
+ 
+ #--CUSTOM TOOLTIPS
+ 
+ #--EVENT MODIFIDERS
+ 
+ #--DECISIONS
+ 
+ #--DISASTERS
+ 
+ #--MAJORS
+ #----X
+ 
+ #--MINORS
+ #----X
+ 
+ #--CUTE
+ 
+ #-------------------------#
+ #LOWLAND MAYA GENERAL
+ 
+ #--CUSTOM TOOLTIPS
+ 
+ #--EVENT MODIFIDERS
+ 
+ #--DECISIONS
+ 
+ #--DISASTERS
+ 
+ #--MAJORS
+ #----X
+ 
+ #--MINORS
+ #----X
+ 
+ #--CUTE
+ 
+ #-------------------------#
+ #HIGHLAND MAYA GENERAL
+ 
+ #--CUSTOM TOOLTIPS
+ 
+ #--EVENT MODIFIDERS
+ 
+ #--DECISIONS
+ 
+ #--DISASTERS
+ 
+ #--MAJORS
+ #----X
+ 
+ #--MINORS
+ #----X
+ 
+ #--CUTE

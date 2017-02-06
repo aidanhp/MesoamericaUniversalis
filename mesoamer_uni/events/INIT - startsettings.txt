@@ -7,7 +7,7 @@ country_event = {
 	title = "start1.t"
 	desc = "start1.d"
 
-	picture = ECONOMY_eventPicture
+	picture = MESOAMERICAN_GODS_eventPicture
 
 	is_triggered_only = yes
 
@@ -20,6 +20,7 @@ country_event = {
 			duration = -1
 		} 
 		set_global_flag = spanish_invasion_on
+		#switch_tag = JJG
 	}
 
 	#option = {
