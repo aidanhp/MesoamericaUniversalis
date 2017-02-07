@@ -48,39 +48,45 @@ country_event = {
 					limit = {
 						has_terrain = grasslands
 					}
-					change_variable = { which = provpp value = 26 }
+					change_variable = { which = provpp value = 5 }
 				}
 				if = {
 					limit = {
 						has_terrain = hills
 					}
-					change_variable = { which = provpp value = 24 }
+					change_variable = { which = provpp value = 4 }
 				}
 				if = {
 					limit = {
 						has_terrain = mountain
 					}
-					change_variable = { which = provpp value = 22 }
+					change_variable = { which = provpp value = 4 }
 				}
 				if = {
 					limit = {
 						has_terrain = desert
 					}
-					change_variable = { which = provpp value = 20 }
+					change_variable = { which = provpp value = 3 }
 				}
 				
 				if = {
 					limit = {
+						province_id = 1
+					}
+					change_variable = { which = provpp value = 20 }
+				}
+				if = {
+					limit = {
 						area = western_shore_a
 					}
-					change_variable = { which = provpp value = 30 }
+					change_variable = { which = provpp value = 40 }
 				}
 				
 				if = {
 					limit = {
 						area = eastern_shore_a
 					}
-					change_variable = { which = provpp value = 15 }
+					change_variable = { which = provpp value = 30 }
 				}
 				
 				if = {
@@ -89,8 +95,276 @@ country_event = {
 					}
 					change_variable = { which = provpp value = 30 }
 				}
-			
 				
+				if = {
+					limit = {
+						area = xocotitlan_a
+					}
+					change_variable = { which = provpp value = 25 }
+				}
+				
+				if = {
+					limit = {
+						area = toluca_a
+					}
+					change_variable = { which = provpp value = 35 }
+				}
+				
+				if = {
+					limit = {
+						area = petlacalco_a
+					}
+					change_variable = { which = provpp value = 25 }
+				}
+				
+				if = {
+					limit = {
+						area = tula_a
+					}
+					change_variable = { which = provpp value = 25 }
+				}
+				
+				if = {
+					limit = {
+						area = tlaxcala_a
+					}
+					change_variable = { which = provpp value = 50 }
+				}
+				
+				if = {
+					limit = {
+						area = tepeacac_a
+					}
+					change_variable = { which = provpp value = 25 }
+				}
+				
+				if = {
+					limit = {
+						area = malinalco_a
+					}
+					change_variable = { which = provpp value = 25 }
+				}
+				
+				if = {
+					limit = {
+						area = cuahnahuac_a
+					}
+					change_variable = { which = provpp value = 25 }
+				}
+				
+				if = {
+					limit = {
+						area = yohualtepec_a
+					}
+					change_variable = { which = provpp value = 25 }
+				}
+				
+				if = {
+					limit = {
+						area = oztoman_a
+					}
+					change_variable = { which = provpp value = 30 }
+				}
+				
+				if = {
+					limit = {
+						area = cihuatlan_a
+					}
+					change_variable = { which = provpp value = 30 }
+				}
+				
+				if = {
+					limit = {
+						area = yope_a
+					}
+					change_variable = { which = provpp value = 35 }
+				}
+			
+				if = {
+					limit = {
+						area = tututepec_a
+					}
+					change_variable = { which = provpp value = 45 }
+				}
+				
+				if = {
+					limit = {
+						area = tehuantepec_a
+					}
+					change_variable = { which = provpp value = 45 }
+				}
+				
+				if = {
+					limit = {
+						area = teotitlan_a
+					}
+					change_variable = { which = provpp value = 30 }
+				}
+				
+				if = {
+					limit = {
+						area = tochtepec_a
+					}
+					change_variable = { which = provpp value = 30 }
+				}
+				
+				if = {
+					limit = {
+						area = teotitlan_a
+					}
+					change_variable = { which = provpp value = 30 }
+				}
+				
+				if = {
+					limit = {
+						area = cuetlaxtlan_a
+					}
+					change_variable = { which = provpp value = 35 }
+				}
+				
+				if = {
+					limit = {
+						area = huasteca_a
+					}
+					change_variable = { which = provpp value = 30 }
+				}
+				
+				if = {
+					limit = {
+						area = patzcuaro_a
+					}
+					change_variable = { which = provpp value = 50 }
+				}
+				
+				if = {
+					limit = {
+						area = zacatula_a
+					}
+					change_variable = { which = provpp value = 40 }
+				}
+				
+				if = {
+					limit = {
+						area = cuitzeo_a
+					}
+					change_variable = { which = provpp value = 35 }
+				}
+				
+				if = {
+					limit = {
+						area = chapala_a
+					}
+					change_variable = { which = provpp value = 25 }
+				}
+				
+				if = {
+					limit = {
+						area = tetellan_a
+					}
+					change_variable = { which = provpp value = 30 }
+				}
+				
+				if = {
+					limit = {
+						area = colima_a
+					}
+					change_variable = { which = provpp value = 30 }
+				}
+				
+				if = {
+					limit = {
+						area = huasteca_a
+					}
+					change_variable = { which = provpp value = 30 }
+				}
+				
+				if = {
+					limit = {
+						area = xalisco_a
+					}
+					change_variable = { which = provpp value = 30 }
+				}
+				if = {
+					limit = {
+						area = cora_a
+					}
+					change_variable = { which = provpp value = 30 }
+				}
+				
+				if = {
+					limit = {
+						area = tonallan_a
+					}
+					change_variable = { which = provpp value = 30 }
+				}
+				
+				if = {
+					limit = {
+						area = metztitlan_a
+					}
+					change_variable = { which = provpp value = 35 }
+				}
+				if = {
+					limit = {
+						area = xoconochco_a
+					}
+					change_variable = { which = provpp value = 30 }
+				}
+				
+				if = {
+					limit = {
+						area = west_highlands_a
+					}
+					change_variable = { which = provpp value = 25 }
+				}
+				
+				if = {
+					limit = {
+						area = east_highlands_a
+					}
+					change_variable = { which = provpp value = 25 }
+				}
+				if = {
+					limit = {
+						area = isthmus_a
+					}
+					change_variable = { which = provpp value = 30 }
+				}
+				
+				if = {
+					limit = {
+						area = xicalango_a
+					}
+					change_variable = { which = provpp value = 35 }
+				}
+				
+				if = {
+					limit = {
+						area = peten_a
+					}
+					change_variable = { which = provpp value = 35 }
+				}
+				if = {
+					limit = {
+						area = mayapan_a
+					}
+					change_variable = { which = provpp value = 35 }
+				}
+				
+				if = {
+					limit = {
+						area = chichen_itza_a
+					}
+					change_variable = { which = provpp value = 35 }
+				}
+				
+				if = {
+					limit = {
+						area = ekab_a
+					}
+					change_variable = { which = provpp value = 35 }
+				}
+			
 				#From Total Development
 				if = { 
 					limit = {
@@ -99,7 +373,7 @@ country_event = {
 							check_variable = { which = non_capital_development value = 25 }
 						}
 					}
-					change_variable = { which = provpp value = 2 }
+					change_variable = { which = provpp value = 1 }
 				}
 				
 				if = { 
@@ -109,7 +383,7 @@ country_event = {
 							check_variable = { which = non_capital_development value = 50 }
 						}
 					}
-					change_variable = { which = provpp value = 2 }
+					change_variable = { which = provpp value = 1 }
 				}
 				
 				if = { 
@@ -341,7 +615,7 @@ country_event = {
 							NOT = { government_rank = 3 }
 						}
 					}
-					change_variable = { which = provpp value = 15 }
+					change_variable = { which = provpp value = 5 }
 				}
 				
 				#Capital of an Empire
@@ -360,112 +634,112 @@ country_event = {
 					limit = {
 						province_trade_power = 2.5
 					}
-					change_variable = { which = provpp value = 2.5 }
+					change_variable = { which = provpp value = 2 }
 				}
 				
 				if = {
 					limit = {
 						province_trade_power = 5.0
 					}
-					change_variable = { which = provpp value = 2.5 }
+					change_variable = { which = provpp value = 2 }
 				}
 			
 				if = {
 					limit = {
 						province_trade_power = 7.5
 					}
-					change_variable = { which = provpp value = 2.5 }
+					change_variable = { which = provpp value = 2 }
 				}
 				
 				if = {
 					limit = {
 						province_trade_power = 10.0
 					}
-					change_variable = { which = provpp value = 2.5 }
+					change_variable = { which = provpp value = 2 }
 				}
 				
 				if = {
 					limit = {
 						province_trade_power = 12.5
 					}
-					change_variable = { which = provpp value = 2.5 }
+					change_variable = { which = provpp value = 2 }
 				}
 				
 				if = {
 					limit = {
 						province_trade_power = 15.0
 					}
-					change_variable = { which = provpp value = 2.5 }
+					change_variable = { which = provpp value = 2 }
 				}
 				
 				if = {
 					limit = {
 						province_trade_power = 17.5
 					}
-					change_variable = { which = provpp value = 2.5 }
+					change_variable = { which = provpp value = 2 }
 				}
 				
 				if = {
 					limit = {
 						province_trade_power = 20.0
 					}
-					change_variable = { which = provpp value = 2.5 }
+					change_variable = { which = provpp value = 2 }
 				}
 				
 				if = {
 					limit = {
 						province_trade_power = 22.5
 					}
-					change_variable = { which = provpp value = 5 }
+					change_variable = { which = provpp value = 2 }
 				}
 				
 				if = {
 					limit = {
 						province_trade_power = 25.0
 					}
-					change_variable = { which = provpp value = 5 }
+					change_variable = { which = provpp value = 2 }
 				}
 				
 				if = {
 					limit = {
 						province_trade_power = 27.5
 					}
-					change_variable = { which = provpp value = 5 }
+					change_variable = { which = provpp value = 2 }
 				}
 				
 				if = {
 					limit = {
 						province_trade_power = 30.0
 					}
-					change_variable = { which = provpp value = 5 }
+					change_variable = { which = provpp value = 2 }
 				}
 				
 				if = {
 					limit = {
 						province_trade_power = 35.0
 					}
-					change_variable = { which = provpp value = 5 }
+					change_variable = { which = provpp value = 2 }
 				}
 				
 				if = {
 					limit = {
 						province_trade_power = 40.0
 					}
-					change_variable = { which = provpp value = 5 }
+					change_variable = { which = provpp value = 2 }
 				}
 				
 				if = {
 					limit = {
 						province_trade_power = 45.0
 					}
-					change_variable = { which = provpp value = 5 }
+					change_variable = { which = provpp value = 2 }
 				}
 				
 				if = {
 					limit = {
 						province_trade_power = 50.0
 					}
-					change_variable = { which = provpp value = 5 }
+					change_variable = { which = provpp value = 2 }
 				}
 				
 				#Buildings
@@ -473,7 +747,7 @@ country_event = {
 					limit = {
 						has_building = farm1
 					}
-					change_variable = { which = provpp value = 5 }
+					change_variable = { which = provpp value = 2 }
 				}
 				
 				#Tech
@@ -483,14 +757,14 @@ country_event = {
 							adm_tech = 2
 						}
 					}
-					change_variable = { which = provpp value = 5 }
+					change_variable = { which = provpp value = 2 }
 				}
 			
 				if = {
 					limit = {
 					has_building = farm2
 					}
-					change_variable = { which = provpp value = 10 }
+					change_variable = { which = provpp value = 4 }
 				}
 			}
 		}

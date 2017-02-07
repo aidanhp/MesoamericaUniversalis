@@ -1,0 +1,2411 @@
+##########################################################################
+#####                             MESOAMERICA                        #####
+##########################################################################
+
+
+
+#Unit Override
+entity = { clone = "AZT_INFANTRY_1"				name = "TEN_INFANTRY_1" }
+entity = { clone = "AZT_INFANTRY_2"				name = "TEN_INFANTRY_2" }
+entity = { clone = "AZT_INFANTRY_3"				name = "TEN_INFANTRY_3" }
+
+entity = { clone = "AZT_INFANTRY_1"				name = "TET_INFANTRY_1" }
+entity = { clone = "AZT_INFANTRY_2"				name = "TET_INFANTRY_2" }
+entity = { clone = "AZT_INFANTRY_3"				name = "TET_INFANTRY_3" }
+
+entity = { clone = "AZT_INFANTRY_1"				name = "TCP_INFANTRY_1" }
+entity = { clone = "AZT_INFANTRY_2"				name = "TCP_INFANTRY_2" }
+entity = { clone = "AZT_INFANTRY_3"				name = "TCP_INFANTRY_3" }
+
+entity = { clone = "AZT_INFANTRY_1"				name = "TLT_INFANTRY_1" }
+entity = { clone = "AZT_INFANTRY_2"				name = "TLT_INFANTRY_2" }
+entity = { clone = "AZT_INFANTRY_3"				name = "TLT_INFANTRY_3" }
+
+entity = { clone = "AZT_INFANTRY_1"				name = "TPE_INFANTRY_1" }
+entity = { clone = "AZT_INFANTRY_2"				name = "TPE_INFANTRY_2" }
+entity = { clone = "AZT_INFANTRY_3"				name = "TPE_INFANTRY_3" }
+
+entity = { clone = "AZT_INFANTRY_1"				name = "TOE_INFANTRY_1" }
+entity = { clone = "AZT_INFANTRY_2"				name = "TOE_INFANTRY_2" }
+entity = { clone = "AZT_INFANTRY_3"				name = "TOE_INFANTRY_3" }
+
+entity = { clone = "AZT_INFANTRY_1"				name = "TCE_INFANTRY_1" }
+entity = { clone = "AZT_INFANTRY_2"				name = "TCE_INFANTRY_2" }
+entity = { clone = "AZT_INFANTRY_3"				name = "TCE_INFANTRY_3" }
+
+entity = { clone = "AZT_INFANTRY_1"				name = "TNE_INFANTRY_1" }
+entity = { clone = "AZT_INFANTRY_2"				name = "TNE_INFANTRY_2" }
+entity = { clone = "AZT_INFANTRY_3"				name = "TNE_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "LOM_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "LOM_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "LOM_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "JJL_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "JJL_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "JJL_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "JJK_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "JJK_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "JJK_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "XCA_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "XCA_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "XCA_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "IXT_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "IXT_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "IXT_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "TMC_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "TMC_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "TMC_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "CNP_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "CNP_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "CNP_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "CAP_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "CAP_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "CAP_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "AHC_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "AHC_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "AHC_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "CAK_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "CAK_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "CAK_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "CEP_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "CEP_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "CEP_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "HOC_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "HOC_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "HOC_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "TIB_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "TIB_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "TIB_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "AKC_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "AKC_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "AKC_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "CAC_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "CAC_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "CAC_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "TAZ_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "TAZ_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "TAZ_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "CHK_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "CHK_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "CHK_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "OCH_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "OCH_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "OCH_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "UAY_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "UAY_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "UAY_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "CCT_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "CCT_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "CCT_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "DZU_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "DZU_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "DZU_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "MOP_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "MOP_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "MOP_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "KOW_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "KOW_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "KOW_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "THI_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "THI_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "THI_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "XCN_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "XCN_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "XCN_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "FFJ_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "FFJ_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "FFJ_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "FFK_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "FFK_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "FFK_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "FFL_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "FFL_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "FFL_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "FFM_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "FFM_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "FFM_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "TZJ_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "TZJ_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "TZJ_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "KKD_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "KKD_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "KKD_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "IIQ_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "IIQ_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "IIQ_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "IIR_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "IIR_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "IIR_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "KKG_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "KKG_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "KKG_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "KAQ_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "KAQ_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "KAQ_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "KKC_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "KKC_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "KKC_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "IIW_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "IIW_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "IIW_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "POK_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "POK_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "POK_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "IIY_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "IIY_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "IIY_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "LOM_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "LOM_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "LOM_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "LOM_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "LOM_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "LOM_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "LOM_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "LOM_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "LOM_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "LOM_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "LOM_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "LOM_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "LOM_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "LOM_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "LOM_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "LOM_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "LOM_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "LOM_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "LOM_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "LOM_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "LOM_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "LOM_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "LOM_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "LOM_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "LOM_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "LOM_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "LOM_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "LOM_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "LOM_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "LOM_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "LOM_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "LOM_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "LOM_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "LOM_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "LOM_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "LOM_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "LOM_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "LOM_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "LOM_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "LOM_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "LOM_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "LOM_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "LOM_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "LOM_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "LOM_INFANTRY_3" }
+
+#Everyone
+entity = { clone = "ZAP_INFANTRY_1"				name = "TLX_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TLX_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TLX_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "HUE_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "HUE_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "HUE_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "ACO_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "ACO_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "ACO_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AZC_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AZC_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AZC_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "CEM_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "CEM_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "CEM_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "CHL_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "CHL_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "CHL_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "CHI_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "CHI_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "CHI_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "CIH_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "CIH_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "CIH_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "CIT_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "CIT_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "CIT_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "CLP_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "CLP_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "CLP_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "COL_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "COL_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "COL_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "CTL_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "CTL_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "CTL_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "CUI_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "CUI_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "CUI_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "ECA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "ECA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "ECA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "HUX_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "HUX_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "HUX_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "ITZ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "ITZ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "ITZ_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "IXL_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "IXL_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "IXL_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "MEX_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "MEX_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "MEX_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "MIZ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "MIZ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "MIZ_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "OTO_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "OTO_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "OTO_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TEM_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TEM_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TEM_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TEP_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TEP_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TEP_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TIZ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TIZ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TIZ_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TLN_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TLN_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TLN_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TLZ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TLZ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TLZ_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TOL_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TOL_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TOL_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TPL_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TPL_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TPL_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TPP_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TPP_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TPP_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TPZ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TPZ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TPZ_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TTZ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TTZ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TTZ_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "XAL_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "XAL_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "XAL_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "XIL_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "XIL_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "XIL_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "XOC_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "XOC_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "XOC_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "CLI_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "CLI_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "CLI_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "CUU_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "CUU_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "CUU_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "COY_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "COY_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "COY_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "HUI_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "HUI_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "HUI_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "HUY_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "HUY_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "HUY_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AXO_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AXO_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AXO_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "HEA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "HEA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "HEA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "ATO_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "ATO_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "ATO_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "XCT_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "XCT_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "XCT_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TUC_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TUC_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TUC_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "POT_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "POT_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "POT_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "OCU_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "OCU_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "OCU_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "CUH_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "CUH_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "CUH_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "HXT_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "HXT_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "HXT_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "MAL_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "MAL_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "MAL_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TCH_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TCH_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TCH_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "OZT_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "OZT_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "OZT_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TCC_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TCC_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TCC_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "CHT_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "CHT_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "CHT_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "YHL_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "YHL_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "YHL_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TPN_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TPN_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TPN_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "CIX_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "CIX_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "CIX_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TQU_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TQU_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TQU_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "CYL_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "CYL_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "CYL_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "XCN_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "XCN_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "XCN_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "THT_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "THT_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "THT_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "CLX_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "CLX_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "CLX_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TPY_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TPY_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TPY_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "CTH_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "CTH_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "CTH_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TLQ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TLQ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TLQ_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TLY_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TLY_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TLY_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TZP_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TZP_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TZP_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TUX_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TUX_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TUX_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TZI_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TZI_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TZI_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "OXT_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "OXT_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "OXT_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "LLC_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "LLC_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "LLC_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TEO_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TEO_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TEO_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "UTU_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "UTU_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "UTU_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TEH_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TEH_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TEH_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "YOP_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "YOP_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "YOP_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "MET_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "MET_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "MET_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "ACA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "ACA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "ACA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "IUA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "IUA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "IUA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "IHU_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "IHU_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "IHU_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "PAT_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "PAT_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "PAT_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "HTA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "HTA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "HTA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "PUR_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "PUR_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "PUR_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "URU_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "URU_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "URU_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TCT_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TCT_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TCT_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "APA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "APA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "APA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TCO_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TCO_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TCO_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "CIM_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "CIM_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "CIM_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TAM_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TAM_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TAM_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "SAY_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "SAY_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "SAY_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "ECP_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "ECP_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "ECP_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "XLO_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "XLO_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "XLO_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "MIT_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "MIT_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "MIT_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "ACT_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "ACT_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "ACT_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "MXT_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "MXT_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "MXT_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AYA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AYA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AYA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "COC_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "COC_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "COC_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TNA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TNA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TNA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "NOC_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "NOC_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "NOC_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "XCH_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "XCH_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "XCH_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "CUT_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "CUT_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "CUT_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AUT_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AUT_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AUT_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TOM_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TOM_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TOM_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AMO_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AMO_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AMO_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "CHA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "CHA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "CHA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "XHI_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "XHI_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "XHI_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TEU_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TEU_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TEU_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "ETZ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "ETZ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "ETZ_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TNM_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TNM_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TNM_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "GUA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "GUA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "GUA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "MEL_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "MEL_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "MEL_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AMA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AMA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AMA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "XLS_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "XLS_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "XLS_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TZA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TZA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TZA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "CTI_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "CTI_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "CTI_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AZA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AZA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AZA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "XEC_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "XEC_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "XEC_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "PEH_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "PEH_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "PEH_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "XIC_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "XIC_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "XIC_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "OTM_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "OTM_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "OTM_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "UZA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "UZA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "UZA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "PAM_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "PAM_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "PAM_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "CTO_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "CTO_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "CTO_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "EKA_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "EKA_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "EKA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "LAB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "LAB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "LAB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "POL_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "POL_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "POL_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "XEL_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "XEL_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "XEL_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "COB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "COB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "COB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TUL_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TUL_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TUL_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "CHK_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "CHK_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "CHK_INFANTRY_3" }
+
+entity = { clone = "MAY_INFANTRY_1"				name = "CAL_INFANTRY_1" }
+entity = { clone = "MAY_INFANTRY_2"				name = "CAL_INFANTRY_2" }
+entity = { clone = "MAY_INFANTRY_3"				name = "CAL_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TAZ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TAZ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TAZ_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "ZAC_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "ZAC_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "ZAC_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "CCI_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "CCI_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "CCI_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DZI_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DZI_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DZI_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "YOB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "YOB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "YOB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TOH_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TOH_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TOH_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "MOT_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "MOT_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "MOT_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "THO_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "THO_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "THO_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "HOC_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "HOC_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "HOC_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "SOT_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "SOT_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "SOT_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TIB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TIB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TIB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "MAY_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "MAY_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "MAY_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "MAN_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "MAN_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "MAN_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "UXM_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "UXM_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "UXM_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "MAX_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "MAX_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "MAX_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BEC_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BEC_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BEC_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "POC_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "POC_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "POC_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "HEC_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "HEC_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "HEC_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TAB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TAB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TAB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TOS_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TOS_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TOS_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "KAA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "KAA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "KAA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "CHP_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "CHP_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "CHP_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BAK_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BAK_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BAK_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "CCT_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "CCT_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "CCT_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TMC_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TMC_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TMC_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "XCA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "XCA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "XCA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "CEH_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "CEH_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "CEH_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "PET_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "PET_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "PET_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "IXT_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "IXT_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "IXT_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DZU_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DZU_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DZU_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "YAL_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "YAL_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "YAL_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "CNA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "CNA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "CNA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "THI_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "THI_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "THI_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "KOW_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "KOW_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "KOW_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "LAC_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "LAC_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "LAC_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "MOP_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "MOP_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "MOP_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "MAC_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "MAC_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "MAC_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "HTC_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "HTC_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "HTC_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "PCH_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "PCH_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "PCH_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TIR_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TIR_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TIR_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "UND_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "UND_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "UND_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "ZIR_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "ZIR_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "ZIR_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "CHU_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "CHU_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "CHU_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TAR_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TAR_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TAR_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TRT_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TRT_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TRT_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "CEO_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "CEO_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "CEO_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "XEN_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "XEN_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "XEN_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TMB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TMB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TMB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "ZIP_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "ZIP_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "ZIP_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "CNH_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "CNH_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "CNH_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "PUU_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "PUU_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "PUU_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TZZ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TZZ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TZZ_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "IXA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "IXA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "IXA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "MAO_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "MAO_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "MAO_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TUN_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TUN_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TUN_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "UCA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "UCA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "UCA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TXI_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TXI_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TXI_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "PRO_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "PRO_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "PRO_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "ARA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "ARA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "ARA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "PHO_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "PHO_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "PHO_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TZC_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TZC_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TZC_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TZU_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TZU_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TZU_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TAF_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TAF_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TAF_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TUZ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TUZ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TUZ_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "ZIT_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "ZIT_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "ZIT_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TBA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TBA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TBA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "CTZ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "CTZ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "CTZ_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "URP_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "URP_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "URP_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TAT_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TAT_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TAT_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "TAC_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "TAC_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "TAC_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "ZAT_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "ZAT_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "ZAT_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "ABC_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "ABC_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "ABC_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AAA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AAA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AAA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AAB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AAB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AAB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AAC_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AAC_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AAC_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AAD_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AAD_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AAD_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AAE_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AAE_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AAE_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AAF_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AAF_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AAF_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AAG_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AAG_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AAG_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AAH_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AAH_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AAH_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AAI_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AAI_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AAI_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AAJ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AAJ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AAJ_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AAK_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AAK_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AAK_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AAL_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AAL_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AAL_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AAM_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AAM_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AAM_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AAN_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AAN_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AAN_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AAO_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AAO_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AAO_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AAP_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AAP_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AAP_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AAQ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AAQ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AAQ_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AAR_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AAR_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AAR_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AAS_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AAS_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AAS_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AAT_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AAT_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AAT_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AAU_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AAU_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AAU_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AAV_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AAV_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AAV_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AAW_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AAW_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AAW_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AAX_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AAX_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AAX_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AAY_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AAY_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AAY_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AAZ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AAZ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AAZ_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "ABA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "ABA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "ABA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "ADA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "ADA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "ADA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AEA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AEA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AEA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AFA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AFA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AFA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AGA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AGA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AGA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AHA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AHA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AHA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AIA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AIA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AIA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AJA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AJA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AJA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AKA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AKA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AKA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "ALA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "ALA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "ALA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "ANA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "ANA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "ANA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AOA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AOA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AOA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AQA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AQA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AQA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "ARA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "ARA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "ARA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "ASA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "ASA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "ASA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "ATA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "ATA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "ATA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AUA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AUA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AUA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AVA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AVA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AVA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AWA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AWA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AWA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AXA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AXA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AXA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BBB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BBB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BBB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BBA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BBA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BBA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BBC_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BBC_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BBC_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BBD_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BBD_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BBD_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BBE_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BBE_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BBE_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BBF_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BBF_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BBF_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BBG_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BBG_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BBG_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BBH_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BBH_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BBH_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BBI_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BBI_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BBI_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BBJ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BBJ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BBJ_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BBK_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BBK_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BBK_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BBL_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BBL_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BBL_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BBM_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BBM_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BBM_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BBN_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BBN_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BBN_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BBO_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BBO_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BBO_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BBP_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BBP_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BBP_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BBQ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BBQ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BBQ_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BBR_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BBR_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BBR_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BBS_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BBS_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BBS_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BBT_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BBT_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BBT_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BBU_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BBU_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BBU_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BBV_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BBV_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BBV_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BBW_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BBW_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BBW_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BBX_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BBX_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BBX_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BBY_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BBY_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BBY_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BBZ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BBZ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BBZ_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BAB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BAB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BAB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BCB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BCB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BCB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BDB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BDB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BDB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BEB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BEB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BEB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BFB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BFB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BFB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BGB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BGB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BGB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BHB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BHB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BHB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BIB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BIB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BIB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BJB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BJB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BJB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BKB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BKB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BKB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BLB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BLB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BLB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BMB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BMB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BMB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BNB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BNB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BNB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BOB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BOB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BOB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BPB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BPB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BPB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BQB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BQB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BQB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BRB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BRB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BRB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BSB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BSB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BSB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BTB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BTB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BTB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BUB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BUB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BUB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BVB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BVB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BVB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BWB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BWB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BWB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BXB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BXB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BXB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BYB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BYB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BYB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "BZB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "BZB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "BZB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DDD_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DDD_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DDD_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DDA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DDA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DDA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DDB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DDB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DDB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DDC_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DDC_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DDC_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DDE_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DDE_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DDE_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DDF_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DDF_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DDF_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DDG_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DDG_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DDG_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DDH_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DDH_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DDH_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DDI_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DDI_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DDI_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DDJ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DDJ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DDJ_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DDK_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DDK_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DDK_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DDL_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DDL_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DDL_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DDM_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DDM_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DDM_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DDN_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DDN_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DDN_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DDO_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DDO_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DDO_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DDP_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DDP_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DDP_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DDQ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DDQ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DDQ_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DDR_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DDR_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DDR_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DDS_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DDS_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DDS_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DDT_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DDT_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DDT_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DDU_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DDU_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DDU_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DDV_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DDV_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DDV_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DDW_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DDW_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DDW_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DDX_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DDX_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DDX_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DDY_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DDY_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DDY_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DDZ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DDZ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DDZ_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DAD_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DAD_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DAD_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DBD_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DBD_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DBD_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DCD_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DCD_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DCD_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DED_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DED_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DED_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DFD_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DFD_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DFD_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DGD_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DGD_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DGD_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DHD_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DHD_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DHD_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DID_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DID_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DID_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DJD_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DJD_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DJD_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DKD_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DKD_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DKD_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DLD_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DLD_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DLD_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DMD_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DMD_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DMD_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DND_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DND_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DND_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DOD_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DOD_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DOD_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DPD_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DPD_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DPD_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DQD_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DQD_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DQD_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DRD_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DRD_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DRD_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DSD_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DSD_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DSD_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DTD_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DTD_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DTD_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DUD_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DUD_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DUD_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DVD_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DVD_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DVD_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DWD_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DWD_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DWD_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DXD_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DXD_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DXD_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DYD_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DYD_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DYD_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "DZD_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "DZD_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "DZD_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EEE_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EEE_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EEE_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EEA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EEA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EEA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EEB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EEB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EEB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EEC_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EEC_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EEC_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EED_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EED_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EED_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EEF_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EEF_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EEF_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EEG_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EEG_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EEG_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EEH_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EEH_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EEH_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EEI_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EEI_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EEI_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EEJ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EEJ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EEJ_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EEK_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EEK_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EEK_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EEL_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EEL_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EEL_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EEM_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EEM_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EEM_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EEN_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EEN_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EEN_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EEO_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EEO_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EEO_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EEP_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EEP_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EEP_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EEQ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EEQ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EEQ_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EER_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EER_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EER_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EES_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EES_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EES_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EET_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EET_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EET_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EEU_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EEU_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EEU_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EEV_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EEV_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EEV_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EEW_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EEW_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EEW_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EEX_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EEX_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EEX_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EEY_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EEY_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EEY_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EEZ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EEZ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EEZ_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EAE_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EAE_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EAE_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EBE_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EBE_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EBE_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "ECE_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "ECE_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "ECE_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EDE_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EDE_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EDE_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EFE_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EFE_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EFE_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EGE_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EGE_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EGE_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EHE_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EHE_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EHE_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EIE_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EIE_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EIE_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EJE_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EJE_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EJE_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EKE_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EKE_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EKE_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "ELE_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "ELE_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "ELE_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "ELE_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "ELE_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "ELE_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EME_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EME_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EME_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "ENE_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "ENE_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "ENE_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EOE_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EOE_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EOE_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EPE_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EPE_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EPE_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EQE_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EQE_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EQE_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "ERE_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "ERE_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "ERE_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "ESE_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "ESE_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "ESE_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "ETE_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "ETE_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "ETE_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EUE_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EUE_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EUE_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EVE_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EVE_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EVE_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EWE_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EWE_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EWE_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EXE_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EXE_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EXE_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EYE_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EYE_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EYE_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "EZE_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "EZE_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "EZE_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "FFF_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "FFF_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "FFF_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "FFA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "FFA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "FFA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "FFB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "FFB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "FFB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "FFC_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "FFC_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "FFC_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "FFD_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "FFD_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "FFD_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "FFE_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "FFE_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "FFE_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "FFG_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "FFG_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "FFG_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "FFH_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "FFH_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "FFH_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "FFI_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "FFI_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "FFI_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "FFJ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "FFJ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "FFJ_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "FFK_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "FFK_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "FFK_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "FFL_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "FFL_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "FFL_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "FFM_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "FFM_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "FFM_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "AZZ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "AZZ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "AZZ_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "FFO_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "FFO_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "FFO_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "FFP_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "FFP_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "FFP_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "FFQ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "FFQ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "FFQ_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "FFR_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "FFR_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "FFR_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "FFS_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "FFS_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "FFS_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "FFT_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "FFT_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "FFT_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "FFU_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "FFU_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "FFU_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "FFV_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "FFV_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "FFV_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "FFW_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "FFW_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "FFW_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "FFX_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "FFX_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "FFX_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "FFZ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "FFZ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "FFZ_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "GGA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "GGA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "GGA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "GGB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "GGB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "GGB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "GGC_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "GGC_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "GGC_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "GGD_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "GGD_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "GGD_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "GGE_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "GGE_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "GGE_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "GGF_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "GGF_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "GGF_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "GGG_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "GGG_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "GGG_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "GGH_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "GGH_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "GGH_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "GGI_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "GGI_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "GGI_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "GGJ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "GGJ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "GGJ_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "GGK_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "GGK_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "GGK_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "GGL_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "GGL_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "GGL_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "GGM_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "GGM_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "GGM_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "GGN_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "GGN_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "GGN_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "GGO_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "GGO_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "GGO_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "GGP_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "GGP_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "GGP_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "GGQ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "GGQ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "GGQ_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "GGR_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "GGR_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "GGR_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "GGS_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "GGS_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "GGS_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "GGT_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "GGT_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "GGT_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "GGU_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "GGU_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "GGU_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "GGV_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "GGV_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "GGV_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "GGW_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "GGW_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "GGW_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "GGX_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "GGX_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "GGX_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "GGZ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "GGZ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "GGZ_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "HHA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "HHA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "HHA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "HHB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "HHB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "HHB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "HHC_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "HHC_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "HHC_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "HHD_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "HHD_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "HHD_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "HHE_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "HHE_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "HHE_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "HHF_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "HHF_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "HHF_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "HHG_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "HHG_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "HHG_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "HHH_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "HHH_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "HHH_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "HHI_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "HHI_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "HHI_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "HHJ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "HHJ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "HHJ_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "HHK_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "HHK_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "HHK_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "HHL_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "HHL_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "HHL_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "HHM_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "HHM_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "HHM_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "HHN_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "HHN_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "HHN_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "HHO_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "HHO_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "HHO_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "HHP_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "HHP_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "HHP_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "HHQ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "HHQ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "HHQ_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "HHS_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "HHS_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "HHS_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "HHT_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "HHT_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "HHT_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "HHU_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "HHU_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "HHU_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "HHV_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "HHV_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "HHV_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "HHW_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "HHW_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "HHW_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "HHX_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "HHX_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "HHX_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "HHY_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "HHY_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "HHY_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "HHZ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "HHZ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "HHZ_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "IIA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "IIA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "IIA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "IIB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "IIB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "IIB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "IIC_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "IIC_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "IIC_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "IID_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "IID_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "IID_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "IIE_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "IIE_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "IIE_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "IIF_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "IIF_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "IIF_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "IIG_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "IIG_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "IIG_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "IIH_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "IIH_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "IIH_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "III_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "III_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "III_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "IIJ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "IIJ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "IIJ_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "IIK_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "IIK_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "IIK_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "IIL_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "IIL_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "IIL_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "IIM_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "IIM_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "IIM_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "IIN_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "IIN_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "IIN_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "IIO_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "IIO_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "IIO_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "IIP_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "IIP_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "IIP_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "IIQ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "IIQ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "IIQ_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "IIR_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "IIR_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "IIR_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "IIS_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "IIS_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "IIS_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "IIT_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "IIT_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "IIT_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "IIU_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "IIU_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "IIU_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "IIV_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "IIV_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "IIV_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "IIW_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "IIW_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "IIW_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "IIX_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "IIX_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "IIX_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "IIY_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "IIY_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "IIY_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "IIZ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "IIZ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "IIZ_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "JJA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "JJA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "JJA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "JJB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "JJB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "JJB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "JJC_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "JJC_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "JJC_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "JJD_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "JJD_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "JJD_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "JJE_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "JJE_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "JJE_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "JJF_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "JJF_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "JJF_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "JJH_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "JJH_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "JJH_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "JJI_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "JJI_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "JJI_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "JJJ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "JJJ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "JJJ_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "JJK_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "JJK_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "JJK_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "JJL_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "JJL_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "JJL_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "JJM_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "JJM_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "JJM_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "JJN_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "JJN_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "JJN_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "JJO_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "JJO_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "JJO_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "JJP_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "JJP_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "JJP_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "JJQ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "JJQ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "JJQ_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "JJR_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "JJR_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "JJR_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "JJS_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "JJS_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "JJS_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "JJT_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "JJT_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "JJT_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "JJU_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "JJU_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "JJU_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "JJV_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "JJV_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "JJV_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "JJW_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "JJW_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "JJW_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "JJX_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "JJX_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "JJX_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "JJY_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "JJY_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "JJY_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "JJZ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "JJZ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "JJZ_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "KKK_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "KKK_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "KKK_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "KKA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "KKA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "KKA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "KKB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "KKB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "KKB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "KKC_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "KKC_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "KKC_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "KKD_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "KKD_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "KKD_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "LLA_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "LLA_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "LLA_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "LLB_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "LLB_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "LLB_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "LLD_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "LLD_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "LLD_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "LLE_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "LLE_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "LLE_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "LLF_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "LLF_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "LLF_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "LLG_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "LLG_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "LLG_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "LLH_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "LLH_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "LLH_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "LLI_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "LLI_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "LLI_INFANTRY_3" }

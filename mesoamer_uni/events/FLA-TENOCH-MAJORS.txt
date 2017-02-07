@@ -710,7 +710,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1
+		days = 20
 	}
 	
 	option = {
@@ -759,7 +759,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1
+		days = 20
 	}
 	
 	option = {
@@ -787,7 +787,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1
+		days = 20
 	}
 	
 	option = {
@@ -845,7 +845,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 3
+		days = 20
 	}
 	
 	option = {

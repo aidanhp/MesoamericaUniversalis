@@ -283,29 +283,29 @@ dat_animals = {
 	
 	embracement_speed = {
 		modifier = {
-			factor = 0.75
+			factor = 0.10
 			scale = yes
 			custom_trigger_tooltip = {
 				tooltip = FRIENDLY_NEIGHBOR_DATANIMALS
 				any_friendly_coast_border_province = {
-					weaponized_metalworking = 100
+					dat_animals = 100
 				}
 			}
 		}
 		modifier = {
-			factor = 0.50
-			scale = yes
+			factor = 0.25
+			scale = no
 			custom_trigger_tooltip = {
 				tooltip = ANY_NEIGHBOR_DATANIMALS
 				any_neighbor_province = {
 					NOT = { owned_by = ROOT }
-					weaponized_metalworking = 100
+					dat_animals = 100
 				}
 			}
 		}
 		
 		modifier = {
-			factor = 0.50
+			factor = 0.05
 			scale = yes
 			custom_trigger_tooltip = {
 				tooltip = DEVELOPMENT_DATANIMALS
@@ -314,7 +314,7 @@ dat_animals = {
 		}
 		
 		modifier = {
-			factor = 0.50
+			factor = 0.10
 			scale = yes
 			custom_trigger_tooltip = {
 				tooltip = STAPLE_CROPS_DATANIMALS
@@ -328,7 +328,7 @@ dat_animals = {
 			custom_trigger_tooltip = {
 				tooltip = EMBRACED_DATANIMALS
 				owner = {
-					has_institution = weaponized_metalworking
+					has_institution = dat_animals
 				}
 			}
 		}
@@ -435,7 +435,7 @@ weaponized_metalworking = {
 	
 	embracement_speed = {
 		modifier = {
-			factor = 1.5
+			factor = 0.05
 			scale = yes
 			custom_trigger_tooltip = {
 				tooltip = FRIENDLY_NEIGHBOR_WPN_METAL
@@ -445,7 +445,7 @@ weaponized_metalworking = {
 			}
 		}
 		modifier = {
-			factor = 0.75
+			factor = 0.10
 			scale = yes
 			custom_trigger_tooltip = {
 				tooltip = ANY_NEIGHBOR_WPN_METAL
@@ -457,7 +457,7 @@ weaponized_metalworking = {
 		}
 		
 		modifier = {
-			factor = 1.25
+			factor = 0.10
 			scale = yes
 			custom_trigger_tooltip = {
 				tooltip = COPPER_WPN_METAL
@@ -466,7 +466,7 @@ weaponized_metalworking = {
 		}
 		
 		modifier = {
-			factor = 1.5
+			factor = 0.10
 			scale = yes
 			custom_trigger_tooltip = {
 				tooltip = BALSAS_WPN_METAL
@@ -475,7 +475,7 @@ weaponized_metalworking = {
 		}
 		
 		modifier = {
-			factor = 0.50
+			factor = 0.10
 			scale = yes
 			custom_trigger_tooltip = {
 				tooltip = AT_WAR_WPN_METAL
@@ -486,8 +486,8 @@ weaponized_metalworking = {
 		}
 		
 		modifier = {
-			factor = 1.0
-			scale = yes
+			factor = 0.50
+			scale = no
 			custom_trigger_tooltip = {
 				tooltip = AT_WAR_CAX_WPN_METAL
 				OR = {

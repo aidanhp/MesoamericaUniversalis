@@ -88,7 +88,7 @@ country_event = {
 							}
 						}
 					}
-					change_variable = { which = prov_growth_rate value = 0.0040 }
+					change_variable = { which = prov_growth_rate value = 0.0020 }
 				}
 				if = {
 					limit = {
@@ -99,7 +99,7 @@ country_event = {
 							}
 						}
 					}
-					change_variable = { which = prov_growth_rate value = 0.0060 }
+					change_variable = { which = prov_growth_rate value = 0.0020 }
 				}
 				if = {
 					limit = {
@@ -110,7 +110,7 @@ country_event = {
 							}
 						}
 					}
-					change_variable = { which = prov_growth_rate value = 0.010 }
+					change_variable = { which = prov_growth_rate value = 0.0025 }
 				}
 			
 				if = {
@@ -303,7 +303,7 @@ country_event = {
 					limit = {
 						check_variable = { which = prov_pop which = provpp }
 					}
-					change_variable = { which = prov_growth_rate value = -0.050 }
+					change_variable = { which = prov_growth_rate value = -0.10 }
 				}
 				
 				if = {
@@ -338,7 +338,7 @@ country_event = {
 							}
 						}
 					}
-					change_variable = { which = prov_growth_rate value = -0.010 }
+					change_variable = { which = prov_growth_rate value = -0.005 }
 				}
 				
 				if = {
@@ -352,7 +352,7 @@ country_event = {
 							}
 						}
 					}
-					change_variable = { which = prov_growth_rate value = -0.020 }
+					change_variable = { which = prov_growth_rate value = -0.005 }
 				}
 				
 				if = {
@@ -366,7 +366,7 @@ country_event = {
 							}
 						}
 					}
-					change_variable = { which = prov_growth_rate value = -0.025 }
+					change_variable = { which = prov_growth_rate value = -0.005 }
 				}
 				
 				if = {
@@ -380,7 +380,7 @@ country_event = {
 							}
 						}
 					}
-					change_variable = { which = prov_growth_rate value = -0.030 }
+					change_variable = { which = prov_growth_rate value = -0.005 }
 				}
 				
 				if = {
@@ -394,7 +394,7 @@ country_event = {
 							}
 						}
 					}
-					change_variable = { which = prov_growth_rate value = -0.035 }
+					change_variable = { which = prov_growth_rate value = -0.005 }
 				}
 				
 				if = {

@@ -468,8 +468,8 @@ NCountry = {
 	CULTURE_COST_DIFF_PRIMARY = 0,					-- Difference in cost in percent to convert to primary culture.
 	MONARCH_DEATH_STABILITY_PENALTY = 1,			-- Stab hit on monarch death
 	MONARCH_DEATH_LEADER_STABILITY_PENALTY = 1,		-- Stab hit on monarch death when a leader
-	MONARCH_DEATH = 0, 								-- _CDEF_MONARCH_DEATH_
-	HEIR_DEATH = 0, 								-- _CDEF_HEIR_DEATH_	(Only applies for heirs older than 20, and the chance increases with age.)
+	MONARCH_DEATH = 3, 								-- _CDEF_MONARCH_DEATH_
+	HEIR_DEATH = 1, 								-- _CDEF_HEIR_DEATH_	(Only applies for heirs older than 20, and the chance increases with age.)
 	LEGITIMACY_DYNASTY_CHANGE = 20,					-- Legitimacy a new dynasty starts out with
 	BASE_POWER_INCREASE = 4,						-- monthly base increase
 	NAT_FOCUS_DECREASE = -1,							-- power taken away from non national focus power
@@ -870,7 +870,7 @@ NMilitary = {
 	GALLEY_SPEED = 4.0, 							-- _MDEF_GALLEY_SPEED = 10,
 	TRANSPORT_SPEED = 6.0, 							-- _MDEF_TRANSPORT_SPEED = 10,
 	INFANTRY_COST = 10.0, 							-- _MDEF_INFANTRY_COST = 10,		
-	CAVALRY_COST = 30.0, 							-- _MDEF_CAVALRY_COST = 10,		
+	CAVALRY_COST = 50.0, 							-- _MDEF_CAVALRY_COST = 10,		
 	ARTILLERY_COST = 40.0, 							-- _MDEF_ARTILLERY_COST = 10,		
 	FORTRESS_COST = 0.05,							-- base fort cost
 	HEAVY_SHIP_COST = 50, 							-- _MDEF_HEAVY_SHIP_COST = 10,		

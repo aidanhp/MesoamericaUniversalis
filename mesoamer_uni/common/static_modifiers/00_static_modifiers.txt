@@ -473,7 +473,9 @@ ai_nation = {
 
 
 war_taxes = {
-	global_tax_modifier = 0.10
+	land_maintenance_modifier = -0.20
+	naval_maintenance_modifier = -0.20
+	possible_mercenaries = 0.20
 	war_exhaustion = 0.05
 }
 
@@ -678,7 +680,7 @@ num_of_marriages = {
 }
 
 num_of_provinces = {
-	land_forcelimit_modifier = 0.01
+	
 }
 
 # Multiplied by current Legitimacy - 50

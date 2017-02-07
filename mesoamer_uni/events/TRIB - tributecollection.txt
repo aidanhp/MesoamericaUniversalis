@@ -84,6 +84,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
+		hidden_effect = {
 		every_owned_province = {
 			subtract_variable = { which = prov_unrest which = prov_unrest }
 			subtract_variable = { which = refusal_points which = refusal_points }
@@ -231,6 +232,7 @@ country_event = {
 				}
 			}
 		}
+		}
 	}
 	
 	option = {
@@ -253,7 +255,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		
+		hidden_effect = { 
 		subtract_variable = { which = total_ducats_dev which = total_ducats_dev }
 		subtract_variable = { which = total_mp_dev which = total_mp_dev }
 		
@@ -344,7 +346,7 @@ country_event = {
 				set_variable = { which = wont_pay_dev value = 0 }
 			}
 		}
-		
+		}
 	}
 	
 	option = {
@@ -372,7 +374,7 @@ country_event = {
 						which = total_mp_dev
 						value = 0
 					}
-					NOT = { manpower_percentage = 1.5 }
+					NOT = { manpower_percentage = 1.05 }
 				}
 				add_manpower = 1
 				subtract_variable = { which = total_mp_dev value = 100 }
@@ -401,7 +403,7 @@ country_event = {
 						which = total_mp_dev
 						value = 0
 					}
-					NOT = { manpower_percentage = 1.5 }
+					NOT = { manpower_percentage = 1.05 }
 				}
 				add_manpower = 1
 				subtract_variable = { which = total_mp_dev value = 75 }
@@ -430,7 +432,7 @@ country_event = {
 						which = total_mp_dev
 						value = 0
 					}
-					NOT = { manpower_percentage = 1.5 }
+					NOT = { manpower_percentage = 1.05 }
 				}
 				add_manpower = 1
 				subtract_variable = { which = total_mp_dev value = 50 }

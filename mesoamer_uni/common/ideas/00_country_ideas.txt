@@ -29,7 +29,7 @@ nahua_ideas = {
 	
 	pochteca_networks = {
 		spy_offence = 0.20
-		trade_efficiency = 0.20
+		trade_efficiency = 0.05
 	}
 	
 	nahua_engineering = {

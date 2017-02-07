@@ -20,7 +20,6 @@ country_event = {
 			duration = -1
 		} 
 		set_global_flag = spanish_invasion_on
-		#switch_tag = JJG
 	}
 
 	#option = {

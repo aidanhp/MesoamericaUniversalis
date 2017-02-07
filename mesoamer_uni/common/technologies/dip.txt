@@ -2,7 +2,7 @@ monarch_power = DIP
 
 # applied when a country is ahead of time in this technology
 ahead_of_time = {
-	trade_efficiency = 0.2
+	spy_offence = 0.20
 	yearly_corruption = -0.05
 }
 
@@ -36,14 +36,14 @@ technology = {
 	# Tech 1
 	year = 1429
 	
-	trade_efficiency 		= 	0.05
+	trade_efficiency 		= 	0.025
 }
 
 technology = {
 	# Tech 2
 	year = 1450
 	
-	trade_efficiency 		= 	0.10
+	trade_efficiency 		= 	0.05
 }
 
 technology = {
@@ -68,7 +68,7 @@ technology = {
 	# Tech 5
 	year = 1516
 	
-	trade_efficiency = 0.10
+	trade_efficiency = 0.025
 	may_steal_maps = yes
 	may_study_technology = yes
 }
@@ -85,14 +85,14 @@ technology = {
 	# Tech 7
 	year = 1560
 
-	trade_efficiency = 0.10
+	trade_efficiency = 0.025
 }
 
 technology = {
 	# Tech 8
 	year = 1582
 	
-	trade_efficiency = 0.05
+	trade_efficiency = 0.025
 	merchants = 1
 }
 
@@ -107,7 +107,7 @@ technology = {
 	# Tech 10
 	year = 1626
 	
-	trade_efficiency = 0.05
+	trade_efficiency = 0.025
 	merchants = 1
 }
 
@@ -115,7 +115,7 @@ technology = {
 	# Tech 11
 	year = 1648
 	
-	trade_efficiency = 0.05
+	trade_efficiency = 0.025
 	merchants = 1
 }
 
@@ -123,7 +123,7 @@ technology = {
 	# Tech 12
 	year = 1670
 	
-	trade_efficiency = 0.05
+	trade_efficiency = 0.025
 	merchants = 1
 }
 
@@ -131,5 +131,5 @@ technology = {
 	# Tech 13
 	year = 1692
 	
-	trade_efficiency = 0.10
+	trade_efficiency = 0.025
 }

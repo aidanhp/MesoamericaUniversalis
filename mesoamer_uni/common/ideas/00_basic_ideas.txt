@@ -398,7 +398,7 @@ tradeexploit_ideas = {
 	category = DIP
 	
 	bonus = {
-		trade_efficiency = 0.20
+		trade_efficiency = 0.05
 		merchants = 1
 	}
 
@@ -407,7 +407,7 @@ tradeexploit_ideas = {
 	}
 
 	plannedroutes = {
-		trade_steering = 0.35
+		trade_steering = 0.15
 	}
 
 	tradeguilds = {
@@ -415,21 +415,21 @@ tradeexploit_ideas = {
 	}
 
 	tariffpolicy = {
-		global_own_trade_power = 0.33
+		global_own_trade_power = 0.15
 	}
 
 	cartographers = {
-		global_foreign_trade_power = 0.33
-		trade_range_modifier = 0.50
+		global_foreign_trade_power = 0.15
+		trade_range_modifier = 0.25
 	}
 
 	merchantadventure = {
-		trade_range_modifier = 1
-		trade_steering = 0.15
+		trade_range_modifier = 0.50
+		trade_steering = 0.10
 	}
 
 	largemerchantclass = {
-		merchants = 3
+		merchants = 2
 	}
 		
 	ai_will_do = {

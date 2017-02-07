@@ -173,6 +173,7 @@ country_event = {
 		name = "TEN_MINORS4.a"
 		add_prestige = 50
 		remove_country_modifier = TEN_tlacaelel_tlacochcalcatl
+		remove_country_modifier = TEN_tlacaelel_cihuacoatl
 	}
 }
 

@@ -162,13 +162,7 @@ country_event = {
 			name = chichimec_auxiliaries
 			duration = -1
 		}
-		define_general = {
-			name = "Tenamaxtli"
-			shock = 1
-			fire = 6
-			manuever = 6
-			siege = 1
-		}
+		create_general = 80
 	}
 	
 	option = {
