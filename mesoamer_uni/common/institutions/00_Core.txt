@@ -128,6 +128,7 @@ world_system = {
 				trade_income_percentage = 0.33
 			}
 		}
+		NOT = { province_id = 975 }
 	}
 	start_chance = 50		#in 100 for when a province can_start
 	on_start = institutions.01
@@ -269,10 +270,16 @@ dat_animals = {
 	}
 	
 	can_start = {
-		AND = {
-			is_year = 1519
-			is_core = CAX
+		OR = { 
+			owner = {
+				has_country_modifier = iron_and_horses
+			}
+			AND = {
+				is_year = 1519
+				is_core = CAX
+			}
 		}
+		NOT = { province_id = 975 }
 	}
 	start_chance = 25		#in 100 for when a province can_start
 	on_start = institutions.05
@@ -329,6 +336,17 @@ dat_animals = {
 				tooltip = EMBRACED_DATANIMALS
 				owner = {
 					has_institution = dat_animals
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.0
+			scale = no
+			custom_trigger_tooltip = {
+				tooltip = IRON_AND_HORSES
+				owner = {
+					has_country_modifier = iron_and_horses
 				}
 			}
 		}
@@ -397,10 +415,14 @@ weaponized_metalworking = {
 			}
 			is_year = 1630
 		}
+		NOT = { province_id = 975 }
 	}
 	
 	can_start = {
 		OR = { 
+			owner = {
+				has_country_modifier = iron_and_horses
+			}
 			AND = { 
 				is_year = 1521
 				OR = {
@@ -421,6 +443,7 @@ weaponized_metalworking = {
 				}
 			}
 			AND = {
+				has_global_flag = spanish_invasion_on
 				is_year = 1525
 				is_core = CAX
 			}
@@ -508,6 +531,17 @@ weaponized_metalworking = {
 				tooltip = EMBRACED_WPN_METAL
 				owner = {
 					has_institution = weaponized_metalworking
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.0
+			scale = no
+			custom_trigger_tooltip = {
+				tooltip = IRON_AND_HORSES
+				owner = {
+					has_country_modifier = iron_and_horses
 				}
 			}
 		}

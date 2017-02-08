@@ -41,6 +41,7 @@
  disease_raging: "Disease Raging"
  recent_disease_outbreak: "Recent Disease Outbreak"
  european_disease_outbreak: "European Disease Outbreak"
+ iron_and_horses: "Iron and Horses"
  
  #--DECISIONS
  
@@ -114,3 +115,7 @@
  INV_plagues5.d: "At last, the vile disease that afflicted us seems to have worn itself out. Hopefully it does not return."
  INV_plagues5.a: "Finally!"
  
+ #--Alt History
+ ALH_main1.t: "Men from the North Arrive in $CAPITAL_CITY$"
+ ALH_main1.d: "For hundreds of years, the most courageous of our traders have braved the great deserts of the North in search of rare and exotic goods from the strange and little known people who live in and beyond them. Now, a massive caravan of men claiming to be traders has arrived in the great city of $CAPITAL_CITY$ - with some very exotic goods indeed. The men were riding beasts described by amazed onlookers as ‘deer without horns’ - and wielding finely crafted blades of bronze and iron. Apparently, they had learned of these goods several decades ago when pale men arrived in the lands to the north with them - and bore them as weapons against the traders and their people. After many years of war a peace was made and trade began between the two groups. The traders learned how to care for and ride the so-called ‘horses’, and the art of ironworking. \nSince, they had been profiting significantly by setting up large-scale trade caravans on the backs of the horses and introducing them to all manner of lands. Their coming heralds one such caravan finding a dependable and safe route through the northern deserts - and many more are promised to arrive soon. They have gifted $MONARCH$ with several thousand horses and the knowledge of how to care for the beasts, as well as piles of iron weaponry. Next time, they promise, we will have to pay. \nStill, this is surely the beginning of an interesting new age."
+ ALH_main1.a: "How fantastic!"

@@ -57,6 +57,7 @@
  AT_WAR_WPN_METAL: "Province Owner is Currently at War"
  AT_WAR_CAX_WPN_METAL: "Province Owner is Currently at War with Caxtillan"
  EMBRACED_WPN_METAL: "Has Embraced Weaponized Metalworking"
+ IRON_AND_HORSES: "Has the modifier 'Iron and Horses' (Alt-History Only)"
  #Draft and Transporation Animals
  FRIENDLY_NEIGHBOR_DATANIMALS: "Friendly Neighbor Province has Draft and Transporation Animals"
  ANY_NEIGHBOR_DATANIMALS: "Any Neighbor Province has Draft and Transporation Animals"

@@ -22,11 +22,12 @@ country_event = {
 		set_global_flag = spanish_invasion_on
 	}
 
-	#option = {
-	#	name = "start1.b"
-	#	add_country_modifier = {
-	#		name = "noinvasions"
-	#		duration = -1
-	#	} 
-	#}
+	option = {
+		name = "start1.b"
+		add_country_modifier = {
+			name = "noinvasions"
+			duration = -1
+		} 
+		set_global_flag = spanish_invasion_off
+	}
 }

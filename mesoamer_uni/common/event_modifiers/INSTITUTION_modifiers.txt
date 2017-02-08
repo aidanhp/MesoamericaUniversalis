@@ -14,3 +14,8 @@ birthplace_of_weaponized_metalworking = {
 birthplace_of_draft_and_transportation_animals = {
 	trade_goods_size_modifier = 0.50
 }
+
+iron_and_horses = {
+	production_efficiency = 0.05
+}
+
