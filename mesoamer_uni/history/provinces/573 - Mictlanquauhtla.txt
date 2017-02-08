@@ -1,7 +1,6 @@
 add_core = EFE
-add_core = CLX
-owner = CLX
-controller = CLX
+owner = EFE
+controller = EFE
 culture = newtotonac
 religion = newnahuatl
 hre = no

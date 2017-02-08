@@ -10,6 +10,5 @@ trade_goods = salt
 base_manpower = 6
 capital = "Celestun"
 is_city = yes
-fort_15th = yes
 
 discovered_by = maya

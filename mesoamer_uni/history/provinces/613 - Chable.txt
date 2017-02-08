@@ -10,6 +10,5 @@ trade_goods = choclate
 base_manpower = 14
 capital = "Chable"
 is_city = yes
-fort_15th = yes
 
 discovered_by = maya

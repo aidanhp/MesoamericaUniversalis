@@ -10,6 +10,5 @@ trade_goods = cotton
 base_manpower = 6
 capital = "Chulul"
 is_city = yes
-fort_15th = yes
 
 discovered_by = maya

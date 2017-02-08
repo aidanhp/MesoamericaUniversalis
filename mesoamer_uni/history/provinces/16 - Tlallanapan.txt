@@ -10,7 +10,6 @@ trade_goods = grain
 base_manpower = 8
 capital = "Tlallanapan"
 is_city = yes
-fort_15th = yes
 
 discovered_by = semi_nomadic_tribe
 discovered_by = west_mexican

@@ -11,7 +11,6 @@ trade_goods = grain
 base_manpower = 14
 capital = "Tepoztlan"
 is_city = yes
-fort_15th = yes
 
 1428.1.1 = {
 	add_claim = TEN

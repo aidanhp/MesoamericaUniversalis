@@ -10,8 +10,6 @@ base_production = 3
 trade_goods = grain
 base_manpower = 12
 capital = "Cuanaho"
-is_city = yes
-fort_15th = yes
 
 discovered_by = semi_nomadic_tribe
 discovered_by = west_mexican

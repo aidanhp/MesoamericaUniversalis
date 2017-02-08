@@ -10,6 +10,5 @@ trade_goods = grain
 base_manpower = 20
 capital = "Tekanto"
 is_city = yes
-fort_15th = yes
 
 discovered_by = maya

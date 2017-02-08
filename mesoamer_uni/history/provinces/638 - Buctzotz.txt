@@ -9,6 +9,5 @@ base_production = 4
 trade_goods = grain 
 base_manpower = 14
 capital = "Buctzotz"
-is_city = yes
 
 discovered_by = maya

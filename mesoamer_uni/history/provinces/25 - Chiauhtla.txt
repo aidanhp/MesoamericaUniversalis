@@ -11,7 +11,6 @@ trade_goods = textiles
 base_manpower = 11
 capital = "Chiauhtla"
 is_city = yes
-fort_15th = yes
 
 discovered_by = semi_nomadic_tribe
 discovered_by = west_mexican

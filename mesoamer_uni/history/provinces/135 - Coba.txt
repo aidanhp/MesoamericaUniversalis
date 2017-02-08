@@ -11,6 +11,5 @@ trade_goods = ceramics
 base_manpower = 6
 capital = "Coba"
 is_city = yes
-fort_15th = yes
 
 discovered_by = maya 

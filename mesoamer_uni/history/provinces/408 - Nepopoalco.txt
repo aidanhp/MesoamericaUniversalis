@@ -1,6 +1,7 @@
 add_core = AAN
-owner = AAN
-controller = AAN
+add_core = HUE
+owner = HUE
+controller = HUE
 culture = chalca 
 religion = newnahuatl
 hre = no

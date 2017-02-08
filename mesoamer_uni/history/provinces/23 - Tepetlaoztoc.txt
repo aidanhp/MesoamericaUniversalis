@@ -1,6 +1,7 @@
 add_core = TPL
-owner = TPL
-controller = TPL
+add_core = HUE
+owner = HUE
+controller = HUE
 culture = acolhua
 religion = newnahuatl 
 hre = no

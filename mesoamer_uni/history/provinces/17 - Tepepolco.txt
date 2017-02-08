@@ -1,6 +1,7 @@
 add_core = TEP
-owner = TEP
-controller = TEP
+add_core = HUE
+owner = HUE
+controller = HUE
 culture = acolhua
 religion = newnahuatl 
 hre = no

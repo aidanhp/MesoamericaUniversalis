@@ -9,6 +9,5 @@ base_production = 3
 trade_goods = grain 
 base_manpower = 13
 capital = "Chemax"
-is_city = yes
 
 discovered_by = maya
