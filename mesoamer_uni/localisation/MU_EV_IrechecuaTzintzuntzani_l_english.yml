@@ -16,6 +16,7 @@
  FLA_IUA_05: "Tzintzuntzan will gain a personal union over Patzcuaro."
  FLA_IUA_06: "Ihuatzio will gain a personal union over Patzcauro."
  FLA_IUA_07: "Ends your alliance and royal marriage with the other members of the Triarchy and allows you to select a new government type."
+ FLA_IUA_08: "Enables special mechanic - Cultural Enclave Bonuses. Open triggered modifiers for more information."
  
  #################
  #EVENT MODIFIERS#
@@ -28,6 +29,15 @@
  chichimec_immigrants: "Chichimec Immigrants"
  chichimec_auxiliaries: "Chichimec Auxiliaries"
  desc_chichimec_auxiliaries: "A skilled corps of Chichimec archers have been integrated into our military."
+ IUA_cultural_enclaves: "Cultural Enclaves Enabled"
+ 
+ #########
+ #SPECIAL#
+ #########
+ matlatzinca_enclave: "[Special] Matlatxinca Enclave"
+ otomi_enclave: "[Special] Otomi Enclave"
+ teco_enclave: "[Special] Teco Enclave"
+ mexica_enclave: "[Special] Mexica Enclave"
  
  ###########
  #DECISIONS#

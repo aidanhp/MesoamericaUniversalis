@@ -1,0 +1,52 @@
+# Triggered modifiers are here.
+# these are checked for each countries once/month and then applied.
+#
+# Effects are fully scriptable here.
+
+matlatzinca_enclave = {
+	potential = {
+		has_country_modifier = IUA_cultural_enclaves
+	}
+	
+	trigger = {
+		accepted_culture = matlatxinca 
+	}
+	
+	defensiveness = 0.20
+}
+
+otomi_enclave = {
+	potential = {
+		has_country_modifier = IUA_cultural_enclaves
+	}
+	
+	trigger = {
+		accepted_culture = otomi 
+	}
+	
+	spy_offence = 0.25
+}
+
+teco_enclave = {
+	potential = {
+		has_country_modifier = IUA_cultural_enclaves
+	}
+	
+	trigger = {
+		accepted_culture = otomi 
+	}
+	
+	fire_damage = 0.15
+}
+
+mexica_enclave = {
+	potential = {
+		has_country_modifier = IUA_cultural_enclaves
+	}
+	
+	trigger = {
+		accepted_culture = mexica 
+	}
+	
+	army_tradition = 0.50
+}

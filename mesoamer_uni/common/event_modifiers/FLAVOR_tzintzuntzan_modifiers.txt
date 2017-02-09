@@ -37,3 +37,7 @@ IUA_great_state_reform = {
 	global_tax_modifier = 0.05
 	discipline = 0.05
 }
+
+IUA_cultural_enclaves = {
+	num_accepted_cultures = 1
+}

@@ -94,3 +94,7 @@ european_disease_outbreak = {
 	trade_goods_size_modifier = -0.20
 	local_autonomy = 0.05
 }
+
+ceded_province = {
+	
+}

@@ -95,6 +95,9 @@
  INV_main13.t: "Spanish Seize $PROVINCENAME$"
  INV_main13.d: "The Spanish invaders have suceeded in establishing control over $PROVINCENAME$."
  INV_main13.a: "We must retake it!"
+ INV_main14.t: "Rebels Ally with Caxtillan!"
+ INV_main14.d: "Several of our provinces, dissatisfied with our rule and perceived maltreatment, have risen up and allied themselves with the Caxtillteca in hopes of eventually reasserting their independence."
+ INV_main14.a: "Curse them!"
   
  #--PLAGUES
  INV_plagues1.t: "Death Sweeps the Land"

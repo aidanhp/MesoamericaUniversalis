@@ -847,6 +847,7 @@ country_event = {
 	option = {
 		name = "IUA_MAJORS18.a"
 		
+		custom_tooltip = FLA_IUA_08
 		custom_tooltip = GOVS_cen_i_0015
 		if = {
 			limit = {
@@ -875,6 +876,10 @@ country_event = {
 			change_government = centralized_altepetl 
 		}
 		
+		add_country_modifier = {
+			name = IUA_cultural_enclaves
+			duration = -1
+		}
 		hidden_effect = {
 			change_variable = { which = centralization value = 15 }
 		}
