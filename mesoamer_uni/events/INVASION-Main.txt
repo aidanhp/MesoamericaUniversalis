@@ -153,34 +153,7 @@ country_event = {
 				cede_province = CAX
 				add_core = CAX
 			}
-			CAX = {
-				set_country_flag = first_war_invasion
-				add_manpower = 100
-				add_treasury = 5000
-				add_country_modifier = {
-					name = spain_invasion_buff
-					duration = -1
-				}
-				define_ruler = {
-					name = "Hernando"
-					dynasty = "Cortes" 
-					age = 34
-					claim = 100
-					regency = no
-					female = no
-					adm = 3
-					dip = 6
-					mil = 4
-					attach_leader = "Hernan Cortes"
-				}
-				define_ruler_to_general = {
-					name = "Hernan Cortes"
-					shock = 5
-					fire = 5
-					manuever = 5
-					siege = 2
-				}
-			}
+			prepare_spanish_invasion = yes
 			####
 		}
 		
@@ -207,33 +180,7 @@ country_event = {
 				cede_province = CAX
 				add_core = CAX
 			}
-			CAX = {
-				add_manpower = 100
-				add_treasury = 5000
-				add_country_modifier = {
-					name = spain_invasion_buff
-					duration = -1
-				}
-				define_ruler = {
-					name = "Hernando"
-					dynasty = "Cortes" 
-					age = 34
-					claim = 100
-					regency = no
-					female = no
-					adm = 3
-					dip = 6
-					mil = 4
-					attach_leader = "Hernan Cortes"
-				}
-				define_ruler_to_general = {
-					name = "Hernan Cortes"
-					shock = 5
-					fire = 5
-					manuever = 5
-					siege = 2
-				}
-			}
+			prepare_spanish_invasion = yes
 			####
 		}
 		
@@ -275,14 +222,6 @@ country_event = {
 		}
 		
 		hidden_effect = {
-			CAX = {
-				add_manpower = 100
-				add_treasury = 5000
-				add_country_modifier = {
-					name = spain_invasion_buff
-					duration = -1
-				}
-			}
 			every_owned_province = {
 				limit = { 
 					culture = newtotonac
@@ -290,6 +229,7 @@ country_event = {
 				cede_province = CAX
 				add_core = CAX
 			}	
+			prepare_spanish_invasion = yes
 		}
 		
 		ai_chance = {
@@ -555,34 +495,7 @@ country_event = {
 				cede_province = CAX
 				add_core = CAX
 			}
-			CAX = {
-				set_country_flag = first_war_invasion
-				add_manpower = 100
-				add_treasury = 5000
-				add_country_modifier = {
-					name = spain_invasion_buff
-					duration = -1
-				}
-				define_ruler = {
-					name = "Hernando"
-					dynasty = "Cortes" 
-					age = 34
-					claim = 100
-					regency = no
-					female = no
-					adm = 3
-					dip = 6
-					mil = 4
-					attach_leader = "Hernan Cortes"
-				}
-				define_ruler_to_general = {
-					name = "Hernan Cortes"
-					shock = 5
-					fire = 5
-					manuever = 5
-					siege = 2
-				}
-			}
+			prepare_spanish_invasion = yes
 			####
 		}
 		

@@ -34,9 +34,14 @@ rebellious_province = {
 spain_invasion_buff = {
 	missionaries = 3
 	colonists = 3
-	land_morale = 0.05
-	global_tax_income = 50
+	land_morale = 0.10
+	global_tax_income = 100
 	reduced_liberty_desire = 1000
+	land_forcelimit_modifier = 0.50
+	global_autonomy = -0.50
+	core_cost = -0.50
+	shock_damage_received = -0.15
+	fire_damage_received = -0.15
 }
 
 spanish_puppet = {

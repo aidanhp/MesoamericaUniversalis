@@ -423,6 +423,7 @@ mworkshop = {
 	cost = 250
 	time = 10
 	destroy_on_conquest = yes
+	allowed_num_of_buildings = 10
 	trigger = {
 	#landexploitation
 		FROM = {

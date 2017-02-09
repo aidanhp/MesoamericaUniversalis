@@ -22,8 +22,8 @@ hegemonic_ideas = {
 	}
 
 	hegemonic_ideology = {
-		legitimacy = 1.0
-		prestige = 1.0
+		legitimacy = 0.5
+		prestige = 0.5
 	}
 
 	grand_spectacle = {

@@ -110,7 +110,7 @@ country_event = {
 							}
 						}
 					}
-					change_variable = { which = prov_growth_rate value = 0.0025 }
+					change_variable = { which = prov_growth_rate value = 0.0020 }
 				}
 			
 				if = {
@@ -134,7 +134,7 @@ country_event = {
 							}
 						}
 					}
-					change_variable = { which = prov_growth_rate value = 0.0050 }
+					change_variable = { which = prov_growth_rate value = 0.0025 }
 				}
 			
 				if = {
@@ -146,7 +146,7 @@ country_event = {
 							}
 						}
 					}
-					change_variable = { which = prov_growth_rate value = 0.0050 }
+					change_variable = { which = prov_growth_rate value = 0.0025 }
 				}
 				
 				if = {
@@ -155,7 +155,7 @@ country_event = {
 							adm_tech = 2
 						}
 					}
-					change_variable = { which = prov_growth_rate value = 0.0075 }
+					change_variable = { which = prov_growth_rate value = 0.0050 }
 				}
 				
 				if = {
@@ -183,14 +183,14 @@ country_event = {
 					limit = {
 						province_trade_power = 10
 					}
-					change_variable = { which = prov_growth_rate value = 0.005 }
+					change_variable = { which = prov_growth_rate value = 0.0025 }
 				}
 			
 				if = {
 					limit = {
 						province_trade_power = 20
 					}
-					change_variable = { which = prov_growth_rate value = 0.005 }
+					change_variable = { which = prov_growth_rate value = 0.0025 }
 				}
 			
 				if = {
@@ -352,7 +352,7 @@ country_event = {
 							}
 						}
 					}
-					change_variable = { which = prov_growth_rate value = -0.005 }
+					change_variable = { which = prov_growth_rate value = -0.0075 }
 				}
 				
 				if = {
@@ -366,7 +366,7 @@ country_event = {
 							}
 						}
 					}
-					change_variable = { which = prov_growth_rate value = -0.005 }
+					change_variable = { which = prov_growth_rate value = -0.0075 }
 				}
 				
 				if = {
@@ -380,7 +380,7 @@ country_event = {
 							}
 						}
 					}
-					change_variable = { which = prov_growth_rate value = -0.005 }
+					change_variable = { which = prov_growth_rate value = -0.0075 }
 				}
 				
 				if = {
@@ -394,7 +394,7 @@ country_event = {
 							}
 						}
 					}
-					change_variable = { which = prov_growth_rate value = -0.005 }
+					change_variable = { which = prov_growth_rate value = -0.0075 }
 				}
 				
 				if = {

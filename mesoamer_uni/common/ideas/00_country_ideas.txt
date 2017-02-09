@@ -54,7 +54,7 @@ nahua_ideas = {
 	
 	great_cultural_legacy = {
 		culture_conversion_cost = -0.25
-		legitimacy = 1
+		legitimacy = 0.5
 	}
 }
 

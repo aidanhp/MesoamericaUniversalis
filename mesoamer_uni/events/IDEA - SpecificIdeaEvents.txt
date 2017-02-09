@@ -53,7 +53,7 @@ country_event = {
 		
 		add_country_modifier = {
 			name = grand_military_parade
-			duration = -1
+			duration = 1825
 		}
 		
 		hidden_effect = {
@@ -77,7 +77,7 @@ country_event = {
 		
 		add_country_modifier = {
 			name = impressed_lords
-			duration = -1
+			duration = 1825
 		}
 	}
 }
@@ -97,8 +97,7 @@ country_event = {
 		
 		add_country_modifier = {
 			name = impressed_commoners
-			
-			duration = -1
+			duration = 1825
 		}
 	}
 }

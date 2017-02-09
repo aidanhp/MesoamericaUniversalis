@@ -45,18 +45,11 @@ hg_nationalist_rebels = {
 		modifier = {
 			factor = 0.01
 			NOT = { nationalism = 1 }
-			#NOT = { has_province_modifier = wont_pay }
-			owner = {
-				OR = {
-					accepted_culture = ROOT
-					culture_group = ROOT
-					primary_culture = ROOT
-				}
-			}
-			tolerance_to_this = 0			
+			tolerance_to_this = 0	
+			legitimacy = 25
 	 	}
 		modifier = {
-			factor = 100
+			factor = 100000
 			has_province_modifier = wont_pay
 		}
 		modifier = {

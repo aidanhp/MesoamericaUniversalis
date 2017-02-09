@@ -9,12 +9,12 @@ monarch_power = MIL
 # Pre-era techs
 technology = {
 	# Tech 0
-	year = 1428
+	year = 1415
 	
 	sprite_level = 1
 
 	infantry_fire		= 	0.25
-	infantry_shock 		= 	0.33		
+	infantry_shock 		= 	0.50		
 	land_morale 		= 	2.0
 	combat_width = 8
 	fort_15th = yes
@@ -68,7 +68,7 @@ technology = {
 	
 	combat_width = 4
 	infantry_fire		= 	0.25
-	infantry_shock 		= 	0.15	
+	infantry_shock 		= 	0.25	
 	enable = cm_central_mexican_combined_arms
 	enable = my_late_maya_infantry
 	enable = ta_late_triple_alliance_infantry
@@ -130,8 +130,9 @@ technology = {
 	year = 1626
 	
 	military_tactics = 0.25
-	cavalry_fire = 0.2
-	artillery_fire = 0.2	
+	cavalry_fire = 0.25
+	artillery_fire = 0.25
+	infantry_shock = 0.25
 }
 
 technology = {
@@ -140,6 +141,8 @@ technology = {
 	
 	sprite_level = 3
 	artillery_fire = 0.75
+	infantry_fire = 0.25
+	infantry_shock = 0.25
 	enable = mesoamerican_pistol_cavalry
 	enable = ta_imperial_musketmen
 	enable = cm_musketmen

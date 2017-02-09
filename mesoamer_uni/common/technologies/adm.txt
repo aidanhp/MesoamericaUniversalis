@@ -9,7 +9,7 @@ ahead_of_time = {
 # Pre-era techs
 technology = {
 	# Tech 0
-	year = 1428
+	year = 1415
 	
 	bureau1 = yes
 	bureau2 = yes

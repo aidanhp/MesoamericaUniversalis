@@ -460,7 +460,7 @@
  building_farm2: "Improved Extended Farming \n§Y--Requires Idea 'Advanced Food Production' (Land Exploitation)§!"
  building_pmine: "Primitive Mine"
  building_imine: "Mine \n§Y--Requires Idea 'Advanced Metals Production' (Land Exploitation)§!"
- building_mworkshop: "Military Workshop \n§Y--Requires Idea 'Improved Military Production' (Land Exploitation)§!"
+ building_mworkshop: "Military Workshop \n§Y--Requires Idea 'Improved Military Production' (Land Exploitation)§! \n§Y--May Build a Maximum of 10§!"
  building_workshop1: "Early Dedicated Workshop"
  building_workshop2: "Improved Dedicated Workshop"
  building_workshop3: "Factory"

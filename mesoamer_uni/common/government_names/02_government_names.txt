@@ -81,6 +81,7 @@ gov_altepetl_mixtecamuzgo = {
 		OR = {
 			primary_culture = newmixtec
 			primary_culture = amuzgo
+			primary_culture = chatino 
 		}
 	}
 }

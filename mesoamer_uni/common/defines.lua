@@ -471,7 +471,7 @@ NCountry = {
 	MONARCH_DEATH = 3, 								-- _CDEF_MONARCH_DEATH_
 	HEIR_DEATH = 1, 								-- _CDEF_HEIR_DEATH_	(Only applies for heirs older than 20, and the chance increases with age.)
 	LEGITIMACY_DYNASTY_CHANGE = 20,					-- Legitimacy a new dynasty starts out with
-	BASE_POWER_INCREASE = 4,						-- monthly base increase
+	BASE_POWER_INCREASE = 2,						-- monthly base increase
 	NAT_FOCUS_DECREASE = -1,							-- power taken away from non national focus power
 	NAT_FOCUS_INCREASE = 2,							-- extra power given to national focus power
 	NAT_FOCUS_YEARS = 25,							-- years before you can change focus again
@@ -493,7 +493,7 @@ NCountry = {
 	PS_BUY_IDEA = 400,
 	PS_BUY_NATIVE_ADVANCEMENT = 500,
 	PS_BUY_RELIGIOUS_REFORM = 0,
-	PS_ADVANCE_TECH = 600,
+	PS_ADVANCE_TECH = 800,
 	PS_BOOST_STABILITY = 100,
 	PS_BUY_GENERAL = 25,
 	PS_BUY_ADMIRAL = 25,
@@ -856,7 +856,7 @@ NMilitary = {
 	LIGHT_SHIP_SAILORS_COST = 50,					-- 1 = 1 men in cost.
 	GALLEY_SHIP_SAILORS_COST = 100,					-- 1 = 1 men in cost.
 	TRANSPORT_SHIP_SAILORS_COST = 50,				-- 1 = 1 men in cost.
-	MAX_MANPOWER = 10, 								-- years in mp pool
+	MAX_MANPOWER = 8, 								-- years in mp pool
 	MIN_MONTHLY_MANPOWER = 0.1,						-- 100 men/month is minimum
 	MAX_SAILORS = 10, 								-- years in mp pool
 	MIN_MONTHLY_SAILORS = 0,						-- 0 men/month is minimum
@@ -870,7 +870,7 @@ NMilitary = {
 	GALLEY_SPEED = 4.0, 							-- _MDEF_GALLEY_SPEED = 10,
 	TRANSPORT_SPEED = 6.0, 							-- _MDEF_TRANSPORT_SPEED = 10,
 	INFANTRY_COST = 10.0, 							-- _MDEF_INFANTRY_COST = 10,		
-	CAVALRY_COST = 50.0, 							-- _MDEF_CAVALRY_COST = 10,		
+	CAVALRY_COST = 40.0, 							-- _MDEF_CAVALRY_COST = 10,		
 	ARTILLERY_COST = 40.0, 							-- _MDEF_ARTILLERY_COST = 10,		
 	FORTRESS_COST = 0.10,							-- base fort cost
 	HEAVY_SHIP_COST = 50, 							-- _MDEF_HEAVY_SHIP_COST = 10,		
