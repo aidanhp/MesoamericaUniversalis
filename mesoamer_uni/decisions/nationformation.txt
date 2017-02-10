@@ -22,17 +22,6 @@ country_decisions = {
 		}
 
 		allow = {
-			OR = {
-				AND = {
-					NOT = { tag = TEN }
-					NOT = { tag = TCP }
-					NOT = { tag = TET }
-					NOT = { tag = TOE }
-					NOT = { tag = TCE }
-					NOT = { tag = TNE }
-				}
-				has_country_modifier = toltecsuccessor
-			}
 			central_mexico_r = { type = all owned_by = ROOT }
 			southern_mexico_r = { type = all owned_by = ROOT }
 			gulf_coast_r = { type = all owned_by = ROOT }
@@ -52,6 +41,7 @@ country_decisions = {
 				name = baby_boom_global
 				duration = 1825
 			}
+			country_event = { id = TOL_FLAVOR.01 }
 		}
 	}
 	#Restore the League of Mayapan
@@ -96,6 +86,7 @@ country_decisions = {
 				name = baby_boom_global
 				duration = 1825
 			}
+			country_event = { id = TOL_FLAVOR.03 }
 		}
 	}
 
@@ -122,6 +113,11 @@ country_decisions = {
 				name = upgraded_government
 				duration = 1825 
 			}
+			add_country_modifier = {
+				name = baby_boom_global
+				duration = 1825
+			}
+			country_event = { id = TEP_FLAVOR.01 }
 		}
 	}
 
@@ -288,7 +284,7 @@ country_decisions = {
 			NOT = { exists = TOE }
 			num_of_cities = 40		
 			3 = {
-				development = 120
+				development = 60
 			}
 			prestige = 100
 		}
@@ -307,6 +303,49 @@ country_decisions = {
 				}
 				vassalize = TET
 			}
+			set_government_rank = 3
+			add_country_modifier = { 
+				name = upgraded_government
+				duration = 1825 
+			}
+			add_country_modifier = {
+				name = baby_boom_global
+				duration = 1825
+			}
+		}
+	}
+	
+	declare_the_empire_of_tzintzuntzan = {
+		major = yes
+		potential = {
+			tag = IUA
+		}
+		allow = {
+			total_development = 1000
+			84 = {
+				owned_by = IUA
+			}
+			85 = {
+				owned_by = IUA
+			}
+			86 = {
+				owned_by = IUA
+			}
+			674 = {
+				owned_by = IUA
+			}
+			389 = {
+				owned_by = IUA
+			}
+			950 = {
+				owned_by = IUA
+			}
+			951 = {
+				owned_by = IUA
+			}
+		}
+		effect = {
+			change_tag = IRT
 			set_government_rank = 3
 			add_country_modifier = { 
 				name = upgraded_government

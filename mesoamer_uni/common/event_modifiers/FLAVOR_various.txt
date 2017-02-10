@@ -7,3 +7,15 @@ bs696 = {
 succession_conflict = {
 	stability_cost_modifier = 0.20
 }
+
+#TOLTEC
+second_capital = {
+	local_manpower_modifier = 0.50
+	local_tax_modifier = 0.50
+	local_autonomy_modifier = -0.50
+}
+
+crowned_quetzalcoatl = {
+	legitimacy = 1
+	global_unrest = -5
+}

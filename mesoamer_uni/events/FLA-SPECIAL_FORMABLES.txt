@@ -1,0 +1,121 @@
+namespace = TOL_FLAVOR
+
+#The Toltec Empire Restored!
+country_event = {
+	id = TOL_FLAVOR.01
+	
+	title = "TOL_FLAVOR1.t"
+	desc = "TOL_FLAVOR1.d"
+	
+	picture = REFORM_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "TOL_FLAVOR1.a"
+		
+		10 = {
+			add_province_modifier = {
+				name = second_capital
+				duration = -1
+			}
+			add_province_modifier = {
+				name = baby_boom_local
+				duration = 1825
+			}
+			if = {
+				NOT = {
+					has_building = adminoffice
+				}
+				add_building = adminoffice
+			}
+		}
+		custom_tooltip = FLA_TOL_001
+		hidden_effect = {
+			country_event = { id = TOL_FLAVOR.02 days = 30 }
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "TOL_FLAVOR1.b"
+		
+		set_capital = 10
+		10 = {
+			add_province_modifier = {
+				name = baby_boom_local
+				duration = 1825
+			}
+		}
+		custom_tooltip = FLA_TOL_001
+		hidden_effect = {
+			country_event = { id = TOL_FLAVOR.02 days = 30 }
+		}
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#$MONARCH$ Crowned Quetzalcoatl!
+country_event = {
+	id = TOL_FLAVOR.02
+	
+	title = "TOL_FLAVOR2.t"
+	desc = "TOL_FLAVOR2.d"
+	
+	picture = REFORM_eventPicture 
+	
+	is_triggered_only = yes
+	option = {
+		name = "TOL_FLAVOR2.a"
+		
+		add_legitimacy = 100
+		add_prestige = 100
+		add_stability = 3
+		add_country_modifier = {
+			name = crowned_quetzalcoatl
+			duration = -1
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#The League of Mayapan Restored!
+country_event = {
+	id = TOL_FLAVOR.03
+	
+	title = "TOL_FLAVOR3.t"
+	desc = "TOL_FLAVOR3.d"
+	
+	picture = REFORM_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "TOL_FLAVOR3.a"
+		
+		add_legitimacy = 100
+		add_prestige = 100
+		add_stability = 3
+		set_capital = 150
+		150 = {
+			add_province_modifier = {
+				name = baby_boom_local
+				duration = 1825
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+

@@ -44,7 +44,8 @@
  ###########
  IUA_betray_the_triarchy_title: "Betray the Triarchy"
  IUA_betray_the_triarchy_desc: "We have been constrained by the Purepecha Triarchy for too long! It is time to break away from this flawed system and forge our own destiny. \nNOTE TO THE PLAYER: The Triarchy will automatically end by event when the first ruler of Patzcuaro dies. Only click this if you’re impatient."
- 
+ declare_the_empire_of_tzintzuntzan_title: "Declare the Empire of Tzintzuntzan"
+ declare_the_empire_of_tzintzuntzan_desc: "We have conquered vast swaths of land in West Mexico and are more prestigious and powerful than any kingdom that has ever arisen in the region, even greater than the mighty lords of Teuchitlan hundreds of years ago. It is finally time to show the people of the world that West Mexico is not the backwards wasteland they have long assumed it to be, and crown $MONARCHTITLE$ $MONARCH$ as an Emperor!"
  
  ########
  #EVENTS#

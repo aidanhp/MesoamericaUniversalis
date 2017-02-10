@@ -626,7 +626,7 @@ country_event = {
 							government_rank = 3
 						}
 					}
-					change_variable = { which = provpp value = 30 }
+					change_variable = { which = provpp value = 20 }
 				}
 				
 				#Trade Power

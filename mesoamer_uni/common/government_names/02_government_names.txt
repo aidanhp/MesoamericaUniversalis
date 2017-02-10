@@ -1,6 +1,44 @@
 # For specific government types
 # Will pick the first valid one it finds in list
 
+gov_toltec_hegemonic = {
+	rank = {
+		3 = HEGEMONIC_EMPIRE
+	}
+	
+	ruler_male = {
+		3 = QUETZALCOATL
+	}
+	
+	ruler_female = {
+		3 = QUETZALCOATL
+	}
+	
+	trigger = {
+		tag = TLT
+		government = altepetl
+	}
+}
+
+gov_toltec_territorial = {
+	rank = {
+		3 = TERRITORIAL_EMPIRE
+	}
+	
+	ruler_male = {
+		3 = QUETZALCOATL
+	}
+	
+	ruler_female = {
+		3 = QUETZALCOATL
+	}
+	
+	trigger = {
+		tag = TLT
+		government = centralized_altepetl
+	}
+}
+
 gov_altepetl = {
 	rank = {
 		1 = ALTEPETL

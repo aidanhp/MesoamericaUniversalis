@@ -117,12 +117,12 @@ country_event = {
 	}
 	
 	immediate = {
-		hidden_effect = { 
-		subtract_variable = { which = heir_apparent_weight value = heir_apparent_weight }
-		subtract_variable = { which = adm_points_weight value = adm_points_weight }
-		subtract_variable = { which = dip_points_weight value = dip_points_weight }
-		subtract_variable = { which = mil_points_weight value = mil_points_weight }
-		ES_weight_ruler = yes
+		#hidden_effect = { 
+		subtract_variable = { which = heir_apparent_weight which = heir_apparent_weight }
+		subtract_variable = { which = adm_points_weight which = adm_points_weight }
+		subtract_variable = { which = dip_points_weight which = dip_points_weight }
+		subtract_variable = { which = mil_points_weight which = mil_points_weight }
+		#ES_weight_ruler = yes
 		if = {
 			limit = {
 				has_country_modifier = ES_no_chance 
@@ -133,7 +133,7 @@ country_event = {
 			limit = {
 				has_country_modifier = ES_increased_chance 
 			}
-			change_variable = { which = heir_apparent_weight value = 4 }
+			change_variable = { which = heir_apparent_weight value = 5 }
 		}
 		if = {
 			limit = {
@@ -141,7 +141,7 @@ country_event = {
 					has_country_modifier = ES_increased_chance 
 					adm = 4
 				}
-				change_variable = { which = heir_apparent_weight value = 1 }
+				change_variable = { which = heir_apparent_weight value = 3 }
 			}
 		}
 		if = {
@@ -150,7 +150,7 @@ country_event = {
 					has_country_modifier = ES_increased_chance 
 					dip = 4
 				}
-				change_variable = { which = heir_apparent_weight value = 1 }
+				change_variable = { which = heir_apparent_weight value = 3 }
 			}
 		}
 		if = {
@@ -159,7 +159,7 @@ country_event = {
 					has_country_modifier = ES_increased_chance 
 					mil = 4
 				}
-				change_variable = { which = heir_apparent_weight value = 1 }
+				change_variable = { which = heir_apparent_weight value = 3 }
 			}
 		}
 		
@@ -176,11 +176,9 @@ country_event = {
 		
 		if = {
 			limit = {
-				AND = {
-					check_variable = { which = mil_points_weight value = 3 }
-					check_variable = { which = heir_apparent_weight value = 5 }
-					NOT = { has_country_flag = ruler_picked }
-				}	
+				check_variable = { which = mil_points_weight value = 3 }
+				check_variable = { which = heir_apparent_weight value = 5 }
+				NOT = { has_country_modifier = ruler_picked }
 			}
 			add_country_modifier = {
 				name = ruler_picked
@@ -206,10 +204,36 @@ country_event = {
 		
 		if = {
 			limit = {
-				AND = {
-					check_variable = { which = mil_points_weight value = 3 }
-					NOT = { has_country_flag = ruler_picked }
-				}	
+				check_variable = { which = mil_points_weight value = 3 }
+				check_variable = { which = heir_apparent_weight value = 5 }
+				NOT = { has_country_modifier = ruler_picked }
+			}
+			add_country_modifier = {
+				name = ruler_picked
+				duration = -1
+			}
+			random_list = {
+				60 = {
+					#Heir Apparent
+				}
+				40 = {
+					define_ruler = {
+						dynasty = ROOT
+						age = 38
+						claim = 90
+						female = no
+						adm = 2
+						dip = 2
+						mil = 4
+					}
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				check_variable = { which = mil_points_weight value = 3 }
+				NOT = { has_country_modifier = ruler_picked }
 			}
 			add_country_modifier = {
 				name = ruler_picked
@@ -276,11 +300,9 @@ country_event = {
 		
 		if = {
 			limit = {
-				AND = {
-					check_variable = { which = adm_points_weight value = 3 }
-					check_variable = { which = heir_apparent_weight value = 5 }
-					NOT = { has_country_flag = ruler_picked }
-				}	
+				check_variable = { which = adm_points_weight value = 3 }
+				check_variable = { which = heir_apparent_weight value = 5 }
+				NOT = { has_country_modifier = ruler_picked }
 			}
 			add_country_modifier = {
 				name = ruler_picked
@@ -306,10 +328,8 @@ country_event = {
 		
 		if = {
 			limit = {
-				AND = {
-					check_variable = { which = adm_points_weight value = 3 }
-					NOT = { has_country_flag = ruler_picked }
-				}	
+				check_variable = { which = adm_points_weight value = 3 }
+				NOT = { has_country_modifier = ruler_picked }
 			}
 			add_country_modifier = {
 				name = ruler_picked
@@ -376,11 +396,9 @@ country_event = {
 		
 		if = {
 			limit = {
-				AND = {
-					check_variable = { which = dip_points_weight value = 3 }
-					check_variable = { which = heir_apparent_weight value = 5 }
-					NOT = { has_country_flag = ruler_picked }
-				}	
+				check_variable = { which = dip_points_weight value = 3 }
+				check_variable = { which = heir_apparent_weight value = 5 }
+				NOT = { has_country_modifier = ruler_picked }
 			}
 			add_country_modifier = {
 				name = ruler_picked
@@ -406,10 +424,8 @@ country_event = {
 		
 		if = {
 			limit = {
-				AND = {
-					check_variable = { which = dip_points_weight value = 3 }
-					NOT = { has_country_flag = ruler_picked }
-				}	
+				check_variable = { which = dip_points_weight value = 3 }
+				NOT = { has_country_modifier = ruler_picked }	
 			}
 			add_country_modifier = {
 				name = ruler_picked
@@ -567,7 +583,7 @@ country_event = {
 		remove_country_modifier = ES_increased_chance 
 		remove_country_modifier = ES_no_chance 
 		remove_country_modifier = ES_indifferent 
-		}
+		#}
 	}
 	
 	option = {

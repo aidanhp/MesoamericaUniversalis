@@ -179,12 +179,21 @@
  ekab: "Ekab"
  
  #Personal Deities
+ cocijo: "Cocijo"
+ cocijo_desc: "The Force Within Lightning"
+ xoo: "Xoo"
+ xoo_desc: "The Force Within Earthquakes"
  cozobi: "Cozobi"
- cozobi_desc: "God of Maize"
- copijcha: "Copijcha"
- copijcha_desc: "God of the Sun and War"
- kedo: "Kedo"
- kedo_desc: "God of Justice"
+ cozobi_desc: "The Force Within Harvests"
+ coqui: "Coqui"
+ coqui_desc: "Ancestor of Noblemen"
+ 
+ taadozo: "Taadozo"
+ taadozo_desc: "God of warfare, the sun, and human sacrifice."
+ xiton: "Xiton"
+ xiton_desc: "God of merchants."
+ zavui: "Zavui"
+ zavui_desc: "God of rain."
  
  #Cultures
  tepehuan: "Tepehuan"
