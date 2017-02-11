@@ -120,3 +120,11 @@
  new_maya_rebels_name:0 "$RELIGION$ Zealots"
  new_maya_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
  new_maya_rebels_army:0 "$RELIGION$ Army"
+ 
+ #Spanish Allies
+ spanish_allies_rebels_demand:0 "Defect to Caxtillan"
+ spanish_allies_rebels_demand_desc:0 "These rebels want to defect to Caxtillan and help them against us."
+ spanish_allies_rebels_title:0 "Spanish Allies"
+ spanish_allies_rebels_name:0 "Local Spanish Allies"
+ spanish_allies_rebels_desc:0 "Local people who would like their independence back are opportunistically allying themselves with Caxtillan against us. If only they knew that Caxtillan is worse!"
+ spanish_allies_rebels_army:0 "Spanish Allied Army"

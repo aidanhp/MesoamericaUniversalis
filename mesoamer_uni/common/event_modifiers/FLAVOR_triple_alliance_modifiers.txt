@@ -67,5 +67,10 @@ TEN_great_legal_reform = {
 	global_autonomy = -0.10
 }
 
+TEN_zoo = {
+	prestige = 0.25
+	legitimacy = 0.20
+	global_unrest = -1
+}
 
 

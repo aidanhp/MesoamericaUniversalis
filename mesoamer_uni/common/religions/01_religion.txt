@@ -33,11 +33,11 @@ mexican_group = {
 		color = { 0.70 0.40 0.30 }
 		icon = 11
 		country = {
-			global_missionary_strength = 0.04
+			global_missionary_strength = 0.02
 			legitimacy = 1
 		}
 		country_as_secondary = {
-			global_missionary_strength = 0.04
+			global_missionary_strength = 0.02
 			legitimacy = 1
 		}
 		province = {
@@ -74,8 +74,8 @@ mexican_group = {
 		color = { 0.20 0.90 0.40 }
 		icon = 9
 		country = {
-			defensiveness = 0.33
-			war_exhaustion_cost = -0.50
+			defensiveness = 0.20
+			war_exhaustion_cost = -0.25
 		}
 		country_as_secondary = {
 			defensiveness = 0.20

@@ -984,16 +984,270 @@ country_event = {
 #################
 #Western Revolts#
 #################
-
-####################
-#Conquered Cultures#
-####################
+#The Great Western Revolt
+country_event = {
+	id = IUA_MAJORS.20
+	
+	title = "IUA_MAJORS20.t"
+	desc = "IUA_MAJORS20.d"
+	
+	picture = ANGRY_MOB_eventPicture 
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 1475
+		OR = {
+			tag = IUA
+			tag = IRT
+		}
+		385 = {
+			owned_by = ROOT
+		}
+		95 = {
+			owned_by = ROOT
+		}
+		96 = {
+			owned_by = ROOT
+		}
+		110 = {
+			owned_by = ROOT
+		}
+		OR = {
+			offensive_war_with = TEN
+			offensive_war_with = TOE
+			offensive_war_with = CAX
+			defensive_war_with = TEN
+			defensive_war_with = TOE
+			defensive_war_with = CAX
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "IUA_MAJORS20.a"
+		
+		385 = {
+			spawn_rebels = {
+				type = hg_nationalist_rebels 
+				size = 2
+				win = yes
+			}
+		}
+		95 = {
+			spawn_rebels = {
+				type = hg_nationalist_rebels 
+				size = 2
+				win = yes
+			}
+		}
+		96 = {
+			spawn_rebels = {
+				type = hg_nationalist_rebels 
+				size = 2
+				win = yes
+			}
+		}
+		110 = {
+			spawn_rebels = {
+				type = hg_nationalist_rebels 
+				size = 2
+				win = yes
+			}
+		}
+		if = {
+			limit = {
+				94 = {
+					owned_by = ROOT
+				}
+			}
+			94 = {
+				spawn_rebels = {
+					type = hg_nationalist_rebels 
+					size = 2
+					win = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				713 = {
+					owned_by = ROOT
+				}
+			}
+			713 = {
+				spawn_rebels = {
+					type = hg_nationalist_rebels 
+					size = 2
+					win = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				108 = {
+					owned_by = ROOT
+				}
+			}
+			108 = {
+				spawn_rebels = {
+					type = hg_nationalist_rebels 
+					size = 2
+					win = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				711 = {
+					owned_by = ROOT
+				}
+			}
+			711 = {
+				spawn_rebels = {
+					type = hg_nationalist_rebels 
+					size = 2
+					win = yes
+				}
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
 
 ##############
 #Border Forts#
 ##############
-
-###################
-#Plea to Michoacan#
-###################
-
+#Found the Border Forts!
+country_event = {
+	id = IUA_MAJORS.21
+	
+	title = "IUA_MAJORS21.t"
+	desc = "IUA_MAJORS21.d"
+	
+	picture = FORT_eventPicture 
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 1470
+		OR = {
+			tag = IUA
+			tag = IRT
+		}
+		OR = {
+			offensive_war_with = TEN
+			offensive_war_with = TOE
+			offensive_war_with = TCP
+			offensive_war_with = TNE
+			offensive_war_with = TET
+			offensive_war_with = TCE
+			defensive_war_with = TEN
+			defensive_war_with = TOE
+			defensive_war_with = TCP
+			defensive_war_with = TNE
+			defensive_war_with = TET
+			defensive_war_with = TCE
+		}
+		380 = {
+			owned_by = ROOT
+		}
+		387 = {
+			owned_by = ROOT
+		}
+		952 = {
+			owned_by = ROOT
+		}
+		379 = {
+			owned_by = ROOT
+		}
+		484 = {
+			owned_by = ROOT
+		}
+		699 = {
+			owned_by = ROOT
+		}
+		87 = {
+			owned_by = ROOT
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "IUA_MAJORS21.a"
+		add_years_of_income = -1.0
+		add_mil_power = -100
+		380 = {
+			add_province_modifier = {
+				name = border_fort_system
+				duration = -1
+			}
+			change_culture = matlatxinca 
+		}
+		387 = {
+			add_province_modifier = {
+				name = border_fort_system
+				duration = -1
+			}
+			change_culture = otomi
+		}
+		952 = {
+			add_province_modifier = {
+				name = border_fort_system
+				duration = -1
+			}
+			change_culture = matlatxinca 
+		}
+		379 = {
+			add_province_modifier = {
+				name = border_fort_system
+				duration = -1
+			}
+			change_culture = matlatxinca 
+		}
+		484 = {
+			add_province_modifier = {
+				name = border_fort_system
+				duration = -1
+			}
+			change_culture = otomi
+		}
+		699 = {
+			add_province_modifier = {
+				name = border_fort_system
+				duration = -1
+			}
+			change_culture = otomi
+		}
+		87 = {
+			add_province_modifier = {
+				name = border_fort_system
+				duration = -1
+			}
+			change_culture = otomi
+		}
+		
+		ai_chance = {
+			factor = 80
+		}
+	}
+	
+	option = {
+		name = "IUA_MAJORS21.b"
+		
+		add_prestige = 10
+		
+		ai_chance = {
+			factor = 20
+		}
+	}
+}

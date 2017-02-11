@@ -48,12 +48,18 @@ technology = {
 	max_states = 1
 }
 
+technology = {
+	#Tech 0.5
+	year = 1428
+	
+	administrative_efficiency = 0.05
+}
 
 technology = {
 	# Tech 1
 	year = 1429
 	
-	administrative_efficiency = 0.10
+	administrative_efficiency = 0.05
 }
 
 technology = {

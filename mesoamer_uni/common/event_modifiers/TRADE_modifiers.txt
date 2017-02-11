@@ -17,7 +17,7 @@ balsas_mines = { #Rich copper, silver, and gold mines along part of the Balsas r
 }
 
 patzcuaro_fish_stocks = { #Extremely plentiful fish stocks in lake patzcuaro
-	trade_goods_size = 2.5
+	trade_goods_size = 1.5
 }
 
 xaracuaro_fish_market = {

@@ -4,6 +4,15 @@
 
  
  #SPECIAL LOCALIZATION
+ FLA_ALL1.t: "Comet Sighted!"
+ FLA_ALL1.d: "Peasants are always superstitious, and the appearance of a comet in the sky has caused panic among our people. They are convinced that this is a sign that the end of times is near or that something bad is going to happen in the near future."
+ FLA_ALL1.a: "Write an ominous poem about it."
+ FLA_ALL1.b: "Sacrifice a human heart to appease the comet!"
+ FLA_ALL1.c: "Throw something in a cenote!"
+ FLA_ALL1.dd: "Try the comet for treason."
+ FLA_ALL1.e: "The economy, fools!"
+ FLA_ALL1.f: "Warriors do not read comets!"
+ FLA_ALL1.g: "Pierce your tongue with a maguey spine in penance!"
  
  #-------------------------#
  #ZAACHILA

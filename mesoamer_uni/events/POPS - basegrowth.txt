@@ -56,11 +56,23 @@ country_event = {
 				#POSITIVE
 				if = {
 					limit = {
+						has_province_modifier = unethically_bountiful
+					}
+					change_variable = { which = prov_growth_rate value = 0.01 }
+				}
+				if = {
+					limit = {
+						has_province_modifier = unethically_bountiful
+					}
+					change_variable = { which = prov_growth_rate value = 0.01 }
+				}
+				if = {
+					limit = {
 						owner = {
-							has_country_modifier = baby_boom_global
+							has_country_modifier = favoring_xaratanga
 						}
 					}
-					change_variable = { which = prov_growth_rate value = 0.02 }
+					change_variable = { which = prov_growth_rate value = 0.005 }
 				}
 				if = {
 					limit = {
@@ -228,8 +240,52 @@ country_event = {
 					}
 					change_variable = { which = prov_growth_rate value = 0.03 }
 				}
+				
+				if = {
+					limit = {
+						owner = {
+							tag = CAX
+						}
+						NOT = {
+							is_year = 1530
+						}
+					}
+					change_variable = { which = prov_growth_rate value = 0.02 }
+				}
 			
 				#NEGATIVE
+				if = {
+					limit = {
+						owner = {
+							has_country_modifier = TEN_locust_plague_mitigated
+						}
+					}
+					change_variable = { which = prov_growth_rate value = -0.075 }
+				}
+				if = {
+					limit = {
+						owner = {
+							has_country_modifier = TEN_locust_plague
+						}
+					}
+					change_variable = { which = prov_growth_rate value = -0.12 }
+				}
+				if = {
+					limit = {
+						owner = {
+							has_country_modifier = TEN_reduced_famine
+						}
+					}
+					change_variable = { which = prov_growth_rate value = -0.08 }
+				}
+				if = {
+					limit = {
+						owner = {
+							has_country_modifier = TEN_famine_emigration
+						}
+					}
+					change_variable = { which = prov_growth_rate value = -0.08 }
+				}
 				if = {
 					limit = {
 						owner = {

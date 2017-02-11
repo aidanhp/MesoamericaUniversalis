@@ -745,6 +745,14 @@ on_thri_yearly_pulse = {
 
 on_thri_yearly_pulse_2 = {
 	random_events = {
+		# Random to increase or decrease force
+		25 = RLGN_PUREPECHA.01
+		25 = RLGN_PUREPECHA.02
+		25 = RLGN_PUREPECHA.03
+		25 = RLGN_PUREPECHA.04
+		25 = RLGN_PUREPECHA.05
+		25 = RLGN_PUREPECHA.06
+		300 = 0		
 	}
 }
 

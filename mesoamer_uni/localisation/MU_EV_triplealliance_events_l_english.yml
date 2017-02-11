@@ -46,10 +46,11 @@
  TEN_dubious_loyalty_tetzcoco: "Dubious Loyalty of Tetzcoco"
  TEN_famine_starting: "Famine Starting"
  TEN_locust_plague_mitigated: "Locust Plague Mitigated \n	§R-7.5% Local Growth Rate§!"
- TEN_locust_plague: "Locust Plague \n	§R-15% Local Growth Rate§!"
- TEN_reduced_famine: "Mitigated Famine \n	§R-10% Local Growth Rate§!"
- TEN_famine_emigration: "Famine Emigration \n	§R-10% Local Growth Rate§!"
+ TEN_locust_plague: "Locust Plague \n	§R-12% Local Growth Rate§!"
+ TEN_reduced_famine: "Mitigated Famine \n	§R-8.0% Local Growth Rate§!"
+ TEN_famine_emigration: "Famine Emigration \n	§R-8.0% Local Growth Rate§!"
  TEN_great_legal_reform: "The Great Legal Reforms"
+ TEN_zoo: "The Zoo of Tenochtitlan"
  
  #--DECISIONS
  
@@ -215,7 +216,25 @@
  #----Ventures in Xoconochco
  
  #----Plea to Michoacan
- 
+ TEN_MAJORS35.t: "A Plea to Michoacan"
+ TEN_MAJORS35.d: "The advance of the Caxtilteca has been disastrous, the battles waged have been furious. We cast about for allies, we search for our few friends. Although we have always been foes with the fishermen of Michoacan, perhaps now is the time to put aside old hatreds and face this strange menace together."
+ TEN_MAJORS35.a: "We don't need their help."
+ TEN_MAJORS35.b: "They are our best hope."
+ TEN_MAJORS36.t: "A Plea from Tenochtitlan"
+ TEN_MAJORS36.d: "Strange things are afoot in the world. We hear of men in enormous boats, riding hornless deer, and encased in metal tougher than our finest bronze. Some say they are Tolteca, some say they are simply foreigners here to trade. Whatever the truth, they appear to have taken a great interest in the Mexica, and today a message-rememberer reached us and repeated a message directly from the - admittedly vile - Huey Tlatoani of those people. Their realm is under siege. Even their island city of Tenochtitlan is threatened. It is true that the Mexica have ever been our enemy: they have attempted to crush us at every turn, and they desire nothing more than to consume the one world. Could we ever forgive them? Could we fight with shields together? With hummingbird banners floating together in the wind?"
+ TEN_MAJORS36.a: "Let them burn atop their own pyre."
+ TEN_MAJORS36.b: "We must see the truth of this."
+ TEN_MAJORS37.t: "A Plea Acknowledged"
+ TEN_MAJORS37.d: "We thank the gods, we thank the Giver of Life. Today a runner, a rememberer of words, came from Michoacan saying that the westerners wish to aid us. It seems that before they do, however, they wish to be appraised of the full strategic situation."
+ TEN_MAJORS37.a: "Send them a military advisor to tell them about the situation!"
+ TEN_MAJORS38.t: "A Plea Ignored"
+ TEN_MAJORS38.d: "The Purepecha have rejected our plea - no nation of the One World will aid us, it seems. \n'Have you grown weary of your servants? Are you angry with your servants, O Giver of Life?'"
+ TEN_MAJORS38.a: "Will no one aid us?"
+ TEN_MAJORS39.t: "Invasion of the World"
+ TEN_MAJORS39.d: " In return to our inquires, the Tenochca took the bold step of sending us one of their military advisors. With help from a translator, we have the truth of it all - or at least what the Mexicatl is willing to tell. They are apparently named the Castillteca, and they appear to have come to usurp the gods of this land, and to acquire as much gold as they can find. It seems they intend to conquer the Mexica entirely, and so strong is the confusion among our enemies that they appear to be biting at each other: we hear word of many of the acolhua rising up against their mexica brethren. If we intend to stand with our foes, now is the time. Although there may be other uses for this information."
+ TEN_MAJORS39.a: "Now is the time to strike. Cazonci $MONARCH$ will reign over all!"
+ TEN_MAJORS39.b: "The Purepecha and Mexica will stand together against these destroyers!"
+ TEN_MAJORS39.c: "Thank the Mexica for the information and bide our time."
  
  #--MINORS
  #----Tlacaelel
@@ -302,7 +321,10 @@
  #----Oztoman
  
  #----Royal Zoo
-
+ TEN_MINORS16.t: "A Veritable Menagerie"
+ TEN_MINORS16.d: "Our great city is large enough now that it houses several palaces - not just those of the $MONARCHTITLE$ $MONARCH$ and their family, but of past speakers as well: sumptuous dwellings which are occasionally occupied by the current speaker, guests, or utilized for festivals. However, Tlatoani $MONARCH$ has decided that the palace complex needs something else - something for the edification of themselves, the nobility, and even of the general populace to witness the wealth of their speaker. Most especially, it must be something the Speaker of Tetzcoco, [TET.Monarch.GetName], does not have. Tlatoani $MONARCH$ calls for the construction of a zoo!"
+ TEN_MINORS16.a: "Bring all the beasts and freaks!"
+ TEN_MINORS16.b: "We have better things to worry about."
  
  #-------------------------#
  #FOR TETZCOCO

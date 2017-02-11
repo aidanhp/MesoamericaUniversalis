@@ -30,6 +30,8 @@
  chichimec_auxiliaries: "Chichimec Auxiliaries"
  desc_chichimec_auxiliaries: "A skilled corps of Chichimec archers have been integrated into our military."
  IUA_cultural_enclaves: "Cultural Enclaves Enabled"
+ border_fort_system: "Border Fort System"
+ four_quarters: "Four Quarters"
  
  #########
  #SPECIAL#
@@ -136,6 +138,15 @@
  IUA_MAJORS19.a: "These reforms are just what we need!"
  IUA_MAJORS19.b: "Far too radical!"
  
+ IUA_MAJORS20.t: "The Great Western Revolt"
+ IUA_MAJORS20.d: "Disaster! Taking advantage of our focus on our current conflicts, our conquered provinces along the western seaboard have risen up in revolt! Some of our very own administrators are taking up arms and declaring independent realms!"
+ IUA_MAJORS20.a: "Let them feel Curicaueri’s fiery wrath!"
+ 
+ IUA_MAJORS21.t: "Found the Border Forts!"
+ IUA_MAJORS21.d: "Our state is strong. Our populace is growing. Our storehouses are receiving tribute from across the land. And yet still, the nahua powers plague us. The Tenochca-Mexica and their allies present too great a threat to go unignored. Our recent clashes with states and peoples in their sphere of influence has convinced $MONARCH$ that we must establish more permanent border fortifications. Therefore, all along our eastern border, we will construct a series of forts from which no person will be able to enter the realm unseen and unnoticed. We will populate these forts with refugees who have been fleeing the east - they will fight the hardest and remain loyal to keep these outsiders and ravagers away. These forts will be connected to our mountain fire beacon network, and always have runners ready to communicate with the center. We will be ever vigilant, ever a bastion against the warmongers of the east."
+ IUA_MAJORS21.a: "To be warned is to have three quarters of the battle won."
+ IUA_MAJORS21.b: "Us? On the defense? Never!"
+ 
  #Clash of Emperors
  
  #The Saltpeter War
@@ -170,5 +181,10 @@
  fl_iua_mn.5.t: "Immigration from the North Ends"
  fl_iua_mn.5.d: "Whatever calamity struck the north, it now seems to have passed. The number of incoming immigrants has dwindled and the ones that had previously arrived have settled in nicely."
  fl_iua_mn.5.a: "It had to end sometime."
+ 
+ fl_iua_mn.6.t: "Establish The Four Quarters!"
+ fl_iua_mn.6.d: "It has been a full sheaf of years, more than a man’s life, since Tariacuri was gifted with a vision of bringing our rule over the land. Now, with our realm extending in every direction, we can declare a new symbolic era for our state. From now until the end of this cycle of the world, our realm will be separated into the Four Quarters, with a caracha-capacha ruling over each at Xacona, at Tacambaro, at Zinapecuaro, and at Zacapu. Certainly, these new administrative centers will have use for worldly purposes - such as focusing and gathering our troops in those regions - but in truth, this represents our realm becoming symbolically and geographically complete, and a model of the world we live in revolving around Curicaueri’s force on earth, our Irecha Cazonci."
+ fl_iua_mn.6.a: "Let the Quarters extend to the ends of the One World!"
+ fl_iua_mn.6.b: "We should opt for something more secular."
  
  #CUTE

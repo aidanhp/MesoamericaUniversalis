@@ -1,0 +1,92 @@
+######################################################################
+# Nationalist rebels. Freedom!!!
+######################################################################
+spanish_allies_rebels = {
+
+	color = { 25 180 25 }
+
+	area = nation 			# Stays within provinces of their rebel tag
+	government = any				# No special preference
+	defection = CAX			# If the country seeks independence, defection specifies what type of provinces it wants.
+	independence = CAX 		# Seeks independence for spawn province culture. Will not spawn at all if there is no suitable tag.
+	defect_delay = 3				# Can spontaneously declare independence after 60 months (earliest)
+	unit_transfer = yes				# Units switch allegiance after enforcing demands.
+	gfx_type = culture_province	
+	will_relocate = yes	
+	
+	resilient = yes
+	reinforcing = yes
+	general = yes				
+	smart = yes
+	
+	artillery = 0.1
+	infantry = 0.6
+	cavalry = 0.3
+	
+	morale = 0.90
+
+	# Possible handle actions
+	handle_action_negotiate = yes
+	
+	# The rebel type with the highest modifier for this province gets picked
+	spawn_chance = {
+		factor = 0
+	}
+ 
+ 	# This is checked for EACH province in the Area of Operations
+	movement_evaluation = {
+		factor = 1
+		modifier = {
+			factor = 0.1
+			units_in_province = 1
+		}
+		modifier = {
+			factor = 0.001
+			controlled_by = REB
+		}
+		modifier = {
+			factor = 1.5
+			unrest = 2
+		}
+		modifier = {
+			factor = 1.5
+			unrest = 4
+		}
+		modifier = {
+			factor = 1.5
+			unrest = 6
+		}
+	}
+ 
+ 	# Province Scope
+ 	siege_won_trigger = {
+ 		always = yes
+ 	}
+	siege_won_effect = {
+		add_core = CAX
+	}
+	
+	# Country scope
+	can_negotiate_trigger = {
+		always = no
+	}
+	
+	# Country scope
+	can_enforce_trigger = {
+		always = yes
+	}
+	
+	# Localisation for their demands
+	demands_description = "spanish_allies_rebels_demand"
+	
+	# Country scope
+	demands_enforced_effect = {
+		add_prestige = -10	
+		every_owned_province = {
+			limit = {
+				is_core = CAX
+			}
+			cede_province = CAX
+		}	
+	}
+}

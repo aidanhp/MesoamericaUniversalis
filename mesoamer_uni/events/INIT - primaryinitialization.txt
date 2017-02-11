@@ -351,35 +351,6 @@ country_event = {
 					change_variable = { which = militancy value = 5 }
 				}
 				
-				if = {
-					limit = {
-						OR = { 
-							government = tlaxcallan_confederate
-						}
-					}
-					change_variable = { which = centralization value = -35 }
-					change_variable = { which = legaltradition value = 30 }
-					change_variable = { which = meritocratictradition value = 70 }
-					change_variable = { which = religioustradition value = 40 }
-					change_variable = { which = intellectualtradition value = 14 }
-					change_variable = { which = militancy value = -30 }
-				}
-				
-				if = {
-					limit = {
-						OR = { 
-							government = triarchal_confederation_sub  
-							government = triarchal_confederation_sub   
-						}
-					}
-					change_variable = { which = centralization value = -18 }
-					change_variable = { which = legaltradition value = 10 }
-					change_variable = { which = meritocratictradition value = 10 }
-					change_variable = { which = religioustradition value = 30 }
-					change_variable = { which = intellectualtradition value = 16 }
-					change_variable = { which = militancy value = 35 }
-				}
-				
 				CAX = {
 					set_variable = { which = centralization value = 60 }
 					set_variable = { which = legaltradition value = 20 }
@@ -691,12 +662,12 @@ country_event = {
 					duration = -1
 				}
 			}
-			362 = {
-				add_permanent_province_modifier = {
-					name = patzcuaro_fish_stocks 
-					duration = -1
-				}
-			}
+			#362 = {
+			#	add_permanent_province_modifier = {
+			#		name = patzcuaro_fish_stocks 
+			#		duration = -1
+			#	}
+			#}
 			654 = {
 				add_permanent_province_modifier = {
 					name = patzcuaro_fish_stocks 

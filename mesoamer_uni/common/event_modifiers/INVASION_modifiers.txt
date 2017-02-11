@@ -2,7 +2,11 @@ bs55 = {
 
 }
 
-smallpox_spreading = {
+smallpox_spreading_y = {
+	global_autonomy = 0.05
+}
+
+smallpox_spreading_m = {
 	global_autonomy = 0.05
 }
 

@@ -41,3 +41,14 @@ IUA_great_state_reform = {
 IUA_cultural_enclaves = {
 	num_accepted_cultures = 1
 }
+
+border_fort_system = {
+	local_defensiveness = 0.25
+	local_unrest = -6
+	local_autonomy = -0.15
+}
+
+four_quarters = {
+	local_autonomy = -0.20
+	local_unrest = -4
+}

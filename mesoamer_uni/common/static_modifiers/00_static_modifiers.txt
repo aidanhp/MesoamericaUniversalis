@@ -204,7 +204,7 @@ provincial_tax_income = {
 }
 
 provincial_production_size = {
-	trade_goods_size = 0.1
+	trade_goods_size = 0.20
 	global_tax_income = 0.015
 	#ship_recruit_speed = -0.001	
 }
@@ -620,12 +620,16 @@ navy_tradition = {
 }
 
 positive_piety = {
-	legitimacy = 10
+	global_unrest = -5
+	global_autonomy = -0.10
+	yearly_corruption = -0.10
 }
 
 #For convenience, its multiplied by negative piety in code.
 negative_piety = {
-	legitimacy = -10
+	global_unrest = 5
+	global_autonomy = 0.10
+	yearly_corruption = 0.10
 }
 
 defender_of_faith = {

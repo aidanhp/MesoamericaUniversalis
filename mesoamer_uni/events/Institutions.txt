@@ -31,15 +31,57 @@ country_event = {
 		hidden_effect = {
 			every_country = {
 				limit = {
-					ai = no
 					NOT = { tag = ROOT }
 				}
 				country_event = { id = institutions.02 }
 			}
-			every_country = {
-				every_province = {
-					discovered_by = PREV
+			every_province = {
+				limit = {
+					region = central_mexico_r
 				}
+				discover_country = ROOT
+			}
+			every_province = {
+				limit = {
+					region = southern_mexico_r
+				}
+				discover_country = ROOT
+			}
+			every_province = {
+				limit = {
+					region = gulf_coast_r
+				}
+				discover_country = ROOT
+			}
+			every_province = {
+				limit = {
+					region = michoacan_r
+				}
+				discover_country = ROOT
+			}
+			every_province = {
+				limit = {
+					region = western_mexico_r
+				}
+				discover_country = ROOT
+			}
+			every_province = {
+				limit = {
+					region = north_central_mexico_r
+				}
+				discover_country = ROOT
+			}
+			every_province = {
+				limit = {
+					region = mayan_highlands_r
+				}
+				discover_country = ROOT
+			}
+			every_province = {
+				limit = {
+					region = yucatan_r
+				}
+				discover_country = ROOT
 			}
 		}
 		

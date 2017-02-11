@@ -21,6 +21,14 @@ entity = { clone = "AZT_INFANTRY_1"				name = "TLT_INFANTRY_1" }
 entity = { clone = "AZT_INFANTRY_2"				name = "TLT_INFANTRY_2" }
 entity = { clone = "AZT_INFANTRY_3"				name = "TLT_INFANTRY_3" }
 
+entity = { clone = "ZAP_INFANTRY_1"				name = "JJG_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "JJG_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "JJG_INFANTRY_3" }
+
+entity = { clone = "ZAP_INFANTRY_1"				name = "ITZ_INFANTRY_1" }
+entity = { clone = "ZAP_INFANTRY_2"				name = "ITZ_INFANTRY_2" }
+entity = { clone = "ZAP_INFANTRY_3"				name = "ITZ_INFANTRY_3" }
+
 entity = { clone = "AZT_INFANTRY_1"				name = "TPE_INFANTRY_1" }
 entity = { clone = "AZT_INFANTRY_2"				name = "TPE_INFANTRY_2" }
 entity = { clone = "AZT_INFANTRY_3"				name = "TPE_INFANTRY_3" }
@@ -313,10 +321,6 @@ entity = { clone = "ZAP_INFANTRY_3"				name = "ECA_INFANTRY_3" }
 entity = { clone = "ZAP_INFANTRY_1"				name = "HUX_INFANTRY_1" }
 entity = { clone = "ZAP_INFANTRY_2"				name = "HUX_INFANTRY_2" }
 entity = { clone = "ZAP_INFANTRY_3"				name = "HUX_INFANTRY_3" }
-
-entity = { clone = "ZAP_INFANTRY_1"				name = "ITZ_INFANTRY_1" }
-entity = { clone = "ZAP_INFANTRY_2"				name = "ITZ_INFANTRY_2" }
-entity = { clone = "ZAP_INFANTRY_3"				name = "ITZ_INFANTRY_3" }
 
 entity = { clone = "ZAP_INFANTRY_1"				name = "IXL_INFANTRY_1" }
 entity = { clone = "ZAP_INFANTRY_2"				name = "IXL_INFANTRY_2" }

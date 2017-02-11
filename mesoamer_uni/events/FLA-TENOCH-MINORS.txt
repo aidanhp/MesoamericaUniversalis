@@ -192,6 +192,10 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+		OR = {
+			tag = TEN
+			tag = TOE
+		}
 		is_year = 1445
 		OR = {
 			has_country_modifier = TEN_tlacaelel_cihuacoatl
@@ -314,6 +318,10 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {	
+		OR = {
+			tag = TEN
+			tag = TOE
+		}
 		TLA = {
 			OR = {
 				alliance_with = TEN
@@ -582,5 +590,61 @@ country_event = {
 ###########
 #Royal Zoo#
 ###########
-
+#Event Template
+country_event = {
+	id = TEN_MINORS.16
+	
+	title = "TEN_MINORS16.t"
+	desc = "TEN_MINORS16.d"
+	
+	picture = COURT_eventPicture 
+	
+	fire_only_once = yes
+	
+	trigger = {
+		OR = { 
+			tag = TOE
+			tag = TEN
+		}
+		OR = {
+			1 = {
+				owned_by = TEN
+			}
+			1 = {
+				owned_by = TOE
+			}
+		}
+		1 = {
+			base_tax = 12
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 48
+	}
+	
+	option = {
+		name = "TEN_MINORS16.a"
+		add_years_of_income = -0.80
+		1 = {
+			add_province_modifier = {
+				name = TEN_zoo
+				duration = -1
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = {
+		name = "TEN_MINORS16.b"
+		
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
 

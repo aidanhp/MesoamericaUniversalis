@@ -1,0 +1,29 @@
+
+jackshit5 = {
+
+}
+
+corruption_racket = {
+	local_manpower_modifier = 0.10
+	local_tax_modifier = 0.10
+	local_autonomy = -0.25
+}
+
+unethically_bountiful = {
+	local_tax_modifier = 0.05
+}
+
+favoring_curicaueri = {
+	legitimacy = 0.50
+	infantry_power = 0.10
+}
+
+favoring_xaratanga = {
+	production_efficiency = 0.10
+}
+
+thankful_trader = {
+	trade_efficiency = 0.10
+}
+
+

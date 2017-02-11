@@ -279,7 +279,7 @@ country_event = {
 			country_event = { id = TEN_MAJORS.09 days = 1 }
 		}
 		ai_chance = {
-			factor = 40
+			factor = 100
 		}
 	}
 	
@@ -290,7 +290,7 @@ country_event = {
 		}
 		
 		ai_chance = {
-			factor = 20
+			factor = 0
 		}
 	}
 }
@@ -631,9 +631,10 @@ country_event = {
 	
 	picture = FAMINE_eventPicture 
 	
-	fire_only_once = yes
+	#fire_only_once = yes
 	
 	trigger = {
+		NOT = { has_country_flag = six_rabbit_done }
 		is_year = 1446
 		NOT = { is_year = 1447 }
 		capital_scope = {
@@ -648,10 +649,14 @@ country_event = {
 	mean_time_to_happen = {
 		months = 1
 	}
+
+	immediate = {
+		set_country_flag = six_rabbit_done 
+	}
 	
 	option = {
 		name = "TEN_MAJORS19.a"
-		add_years_of_income = -0.50
+		add_years_of_income = -0.75
 		every_owned_province = {
 			limit = {
 				OR = {
@@ -694,9 +699,10 @@ country_event = {
 	
 	picture = FAMINE_eventPicture 
 	
-	fire_only_once = yes
+	#fire_only_once = yes
 	
 	trigger = {
+		NOT = { has_country_flag = early_frost_done } 
 		is_year = 1450
 		NOT = { is_year = 1451 }
 		is_month = 8
@@ -711,6 +717,10 @@ country_event = {
 	
 	mean_time_to_happen = {
 		days = 20
+	}
+
+	immediate = {
+		set_country_flag = early_frost_done 
 	}
 	
 	option = {
@@ -749,9 +759,10 @@ country_event = {
 	
 	picture = FAMINE_eventPicture 
 	
-	fire_only_once = yes
+	#fire_only_once = yes
 	
 	trigger = {
+		NOT = { has_country_flag = twelve_flint_done }
 		is_year = 1452
 		NOT = { is_year = 1453 }
 		is_month = 8 
@@ -760,6 +771,10 @@ country_event = {
 	
 	mean_time_to_happen = {
 		days = 20
+	}
+
+	immediate = {
+		set_country_flag = twelve_flint_done
 	}
 	
 	option = {
@@ -777,9 +792,10 @@ country_event = {
 	
 	picture = FAMINE_eventPicture 
 	
-	fire_only_once = yes
+	#fire_only_once = yes
 	
 	trigger = {
+		NOT = { has_country_flag = thirteen_house_done } 
 		is_year = 1453
 		NOT = { is_year = 1454 }
 		is_month = 8 
@@ -790,9 +806,13 @@ country_event = {
 		days = 20
 	}
 	
+	immediate = {
+		set_country_flag = thirteen_house_done 
+	}
+
 	option = {
 		name = "TEN_MAJORS23.a"
-		add_years_of_income = -0.50
+		add_years_of_income = -0.75
 		every_owned_province = {
 			limit = {
 				OR = { 
@@ -890,9 +910,10 @@ country_event = {
 	
 	picture = FEAST_eventPicture 
 	
-	fire_only_once = yes
+	#fire_only_once = yes
 	
 	trigger = {
+		NOT = { has_country_flag = one_rabbit_ended }
 		is_year = 1455
 		has_disaster = one_rabbit_famine
 	}
@@ -901,6 +922,9 @@ country_event = {
 		months = 1
 	}
 	
+	immediate = {
+		set_country_flag = one_rabbit_ended 
+	}
 	option = {
 		name = "TEN_MAJORS26.a"
 		add_stability = 1
@@ -1410,7 +1434,7 @@ country_event = {
 	title = "TEN_MAJORS33.t"
 	desc = "TEN_MAJORS33.d"
 	
-	picture = SUICIDE_eventPicture  
+	picture = BALLGAME_eventPicture 
 	
 	is_triggered_only = yes
 	
@@ -1471,7 +1495,331 @@ country_event = {
 ###################
 #PLEA TO MICHOACAN#
 ###################
+#A Plea to Michoacan
+country_event = {
+	id = TEN_MAJORS.35
+	
+	title = "TEN_MAJORS35.t"
+	desc = "TEN_MAJORS35.d"
+	
+	picture = COURT_eventPicture 
+	
+	fire_only_once = yes
+		
+	trigger = {
+		tag = TOE
+		OR = {
+			defensive_war_with = CAX
+			offensive_war_with = CAX
+		}
+		NOT = { 
+			war_score_against = {
+				who = CAX
+				value = -50
+			}
+		}
+		OR = {
+			IRT = {
+				num_of_cities = 40
+				NOT = {
+					has_opinion = {
+						who = TOE
+						value = 0
+					}
+				}
+				NOT = {
+					offensive_war_with = CAX
+					defensive_war_with = CAX
+				}
+			}
+			IUA = {
+				num_of_cities = 40
+				NOT = {
+					has_opinion = {
+						who = TOE
+						value = 0
+					}
+				}
+				NOT = {
+					offensive_war_with = CAX
+					defensive_war_with = CAX
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "TEN_MAJORS35.a"
+		
+		add_prestige = 10
+		add_war_exhaustion = -2
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+	
+	option = {
+		name = "TEN_MAJORS35.b"
+		
+		if = {
+			limit = {
+				exists = IRT
+			}
+			IRT = { 
+				country_event = { id = TEN_MAJORS.36 days = 7 }
+			}
+		}
+		if = {
+			limit = {
+				exists = IUA
+			}
+			IUA = { 
+				country_event = { id = TEN_MAJORS.36 days = 7 }
+			}
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
 
+#A Plea from Tenochtitlan
+country_event = {
+	id = TEN_MAJORS.36
+	
+	title = "TEN_MAJORS36.t"
+	desc = "TEN_MAJORS36.d"
+	
+	picture = DIPLOMACY_eventPicture 
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "TEN_MAJORS36.a"
+		
+		add_prestige = 10
+		add_mil_power = 100
+		TOE = { 
+			country_event = { id = TEN_MAJORS.38 days = 7 }
+		}
+		
+		ai_chance = {
+			factor = 80
+		}
+	}
+	
+	option = {
+		name = "TEN_MAJORS36.b"
+		
+		TOE = { 
+			country_event = { id = TEN_MAJORS.37 days = 7 }
+		}
+		
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+#A Plea Acknowledged
+country_event = {
+	id = TEN_MAJORS.37
+	
+	title = "TEN_MAJORS37.t"
+	desc = "TEN_MAJORS37.d"
+	
+	picture = DIPLOMACY_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "TEN_MAJORS37.a"
+		
+		add_mil_power = -50
+		if = {
+			limit = {
+				exists = IRT
+			}
+			IRT = { 
+				country_event = { id = TEN_MAJORS.39 days = 7 }
+			}
+		}
+		if = {
+			limit = {
+				exists = IUA
+			}
+			IUA = { 
+				country_event = { id = TEN_MAJORS.39 days = 7 }
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#A Plea Ignored
+country_event = {
+	id = TEN_MAJORS.38
+	
+	title = "TEN_MAJORS38.t"
+	desc = "TEN_MAJORS38.d"
+	
+	picture = DIPLOMACY_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "TEN_MAJORS38.a"
+		
+		add_stability = -1
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#The Invasion of the World
+country_event = {
+	id = TEN_MAJORS.39
+	
+	title = "TEN_MAJORS39.t"
+	desc = "TEN_MAJORS39.d"
+	
+	picture = DIPLOMACY_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "TEN_MAJORS39.a"
+		
+		add_mil_power = 50
+		custom_tooltip = GOVS_mil_i_0050
+		declare_war_with_cb = {
+			who = TOE
+			casus_belli = cb_feud_triggered 
+		}
+		if = {
+			limit = {
+				exists = IRT
+			}
+			TOE = { 
+				add_opinion = {
+					who = IRT
+					modifier = opinion_betrayed_world
+				}
+			}
+		}
+		if = {
+			limit = {
+				exists = IUA
+			}
+			TOE = { 
+				add_opinion = {
+					who = IUA
+					modifier = opinion_betrayed_world
+				}
+			}
+		}
+		
+		hidden_effect = {
+			change_variable = { which = militancy value = 5 }
+		}
+		
+		ai_chance = {
+			factor = 20
+		}
+	}
+	
+	option = {
+		name = "TEN_MAJORS39.b"
+		
+		add_prestige = 10
+		if = {
+			limit = {
+				exists = IRT
+			}
+			IRT = {
+				add_opinion = {
+					who = TOE
+					modifier = opinion_defense_of_the_world
+				}
+			}
+			TOE = { 
+				add_opinion = {
+					who = IRT
+					modifier = opinion_defense_of_the_world
+				}
+			}
+		}
+		if = {
+			limit = {
+				exists = IUA
+			}
+			IUA = {
+				add_opinion = {
+					who = TOE
+					modifier = opinion_defense_of_the_world
+				}
+			}
+			TOE = { 
+				add_opinion = {
+					who = IUA
+					modifier = opinion_defense_of_the_world
+				}
+			}
+		}
+		declare_war_with_cb = {
+			who = CAX
+			casus_belli = cb_feud_triggered 
+		}
+		
+		ai_chance = {
+			factor = 80
+		}
+	}
+	
+	option = {
+		name = "TEN_MAJORS39.c"
+		trigger = { ai = no }
+		
+		add_prestige = -10
+		if = {
+			limit = {
+				exists = IRT
+			}
+			TOE = { 
+				add_opinion = {
+					who = IRT
+					modifier = opinion_betrayed_world
+				}
+			}
+		}
+		if = {
+			limit = {
+				exists = IUA
+			}
+			TOE = { 
+				add_opinion = {
+					who = IUA
+					modifier = opinion_betrayed_world
+				}
+			}
+		}
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
 
 
 

@@ -14,6 +14,8 @@
  FLA_INV_008: "The yearly population loss from this disaster will be reduced from 10% to 7%."
  
  #--EVENT MODIFIDERS
+ smallpox_spreading_y: "Smallpox Spreading: Yucatan"
+ smallpox_spreading_m: "Smallpox Spreading: Mexico"
  smallpox_outbreak: "Smallpox Outbreak"
  desc_smallpox_outbreak: "This province is experiencing a smallpox outbreak."
  recent_smallpox_epidemic: "Recent Smallpox Epidemic"

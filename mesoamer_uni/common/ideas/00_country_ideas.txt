@@ -60,7 +60,7 @@ nahua_ideas = {
 
 westmexican_ideas = {
 	start = {
-		production_efficiency = 0.20
+		production_efficiency = 0.10
 		defensiveness = 0.10
 	}
 	

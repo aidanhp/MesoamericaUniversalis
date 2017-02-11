@@ -33,6 +33,14 @@ technology = {
 }
 
 technology = {
+	# Tech 0.5
+	year = 1428
+	
+	trade_efficiency 		= 	0.025
+}
+
+
+technology = {
 	# Tech 1
 	year = 1429
 	

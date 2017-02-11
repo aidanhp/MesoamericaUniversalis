@@ -938,7 +938,7 @@
  PATRIARCH_AUTHORITY_LESS_THAN:0 "Less than §Y$VAL$§W percent of maximum captives.\n"
  PATRIARCH_AUTHORIT_AT_LEAST:0 "At least §Y$VAL$§W percent of maximum captives.\n"
  ADD_PATR_AUTH:0 "$DIRECTION$ $VALUE$ Captives"
- ADD_PIETY:0 "$DIRECTION$ $VALUE$ Piety"
+ ADD_PIETY:0 "$DIRECTION$ $VALUE$ Religious Force"
  ADD_DOOM:0 "$DIRECTION$ $VALUE$ Doom"
  ADD_AUTHORITY:0 "$DIRECTION$ $VALUE$ Authority"
  PATRIARCH_AUTHORITY_IN_PROVINCES:0 "Your nahuatl provinces:"

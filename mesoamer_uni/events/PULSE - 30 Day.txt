@@ -36,6 +36,12 @@ country_event = {
 				remove_country_modifier = tribreqs_normal
 				remove_country_modifier = tribreqs_low
 			}
+			if = {
+				limit = {
+					manpower_percentage = 1.10
+				}
+				add_manpower = -0.10
+			}
 			every_owned_province = {
 				limit = {
 					owner = {

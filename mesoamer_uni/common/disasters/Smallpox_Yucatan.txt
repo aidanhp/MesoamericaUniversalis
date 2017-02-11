@@ -12,6 +12,9 @@ smallpox_yucatan = {
 	}
 	
 	can_start = {
+		NOT = {
+			has_country_modifier = smallpox_spreading_m
+		}
 		NOT = { 
 			has_disaster = smallpox_mexico
 		}
@@ -19,7 +22,7 @@ smallpox_yucatan = {
 			has_country_modifier = recent_smallpox_epidemic 
 		}
 		OR = {
-			has_country_modifier = smallpox_spreading
+			has_country_modifier = smallpox_spreading_y
 			any_neighbor_country = {
 				has_disaster = smallpox_yucatan
 			}
@@ -35,7 +38,7 @@ smallpox_yucatan = {
 			factor = 50
 			NOT = { has_country_modifier = recent_smallpox_epidemic }
 			OR = {
-				has_country_modifier = smallpox_spreading
+				has_country_modifier = smallpox_spreading_y
 				any_neighbor_country = {
 					has_disaster = smallpox_yucatan
 				}

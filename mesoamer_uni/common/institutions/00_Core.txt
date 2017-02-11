@@ -539,6 +539,17 @@ weaponized_metalworking = {
 			factor = 1.0
 			scale = no
 			custom_trigger_tooltip = {
+				tooltip = WEST_MEXICAN_WPN_METAL
+				owner = {
+					has_idea = metal_weapons
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.0
+			scale = no
+			custom_trigger_tooltip = {
 				tooltip = IRON_AND_HORSES
 				owner = {
 					has_country_modifier = iron_and_horses

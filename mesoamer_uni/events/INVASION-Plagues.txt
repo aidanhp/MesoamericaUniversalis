@@ -1,7 +1,7 @@
 namespace = INV_plagues
 
 #SMALLPOX
-#Starts the Disaster
+#Starts the Disaster - Yucatan
 country_event = {
 	id = INV_plagues.01
 	
@@ -18,7 +18,8 @@ country_event = {
 		custom_tooltip = FLA_INV_001
 		add_stability = -1
 		add_years_of_income = -1.0
-		remove_country_modifier = smallpox_spreading
+		remove_country_modifier = smallpox_spreading_y
+		remove_country_modifier = smallpox_spreading_m
 		add_country_modifier = {
 			name = fighting_smallpox
 			duration = -1

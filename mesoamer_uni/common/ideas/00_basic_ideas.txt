@@ -49,7 +49,7 @@ hegemonic_ideas = {
 	}
 
 	the_big_stick = {
-		land_forcelimit_modifier = 0.50
+		land_forcelimit_modifier = 0.75
 		legitimacy = 0.5
 	}
 
@@ -207,7 +207,7 @@ gradual_centralization_ideas = {
 	}
 
 	centralization_ideology = {
-		legitimacy = 1.0
+		legitimacy = 0.5
 		vassal_income = 0.05
 	}
 
@@ -234,7 +234,7 @@ gradual_centralization_ideas = {
 	}
 
 	true_centralization = {
-		legitimacy = 2.5
+		legitimacy = 1.0
 	}
 		
 	ai_will_do = {

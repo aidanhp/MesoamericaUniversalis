@@ -27,3 +27,13 @@ opinion_dynastic_conflict = {
 	opinion = -150
 	yearly_decay = 2
 }
+
+opinion_defense_of_the_world = {
+	opinion = 200
+	yearly_decay = 10
+}
+
+opinion_betrayed_world = {
+	opinion = -150
+	yearly_decay = 5
+}
