@@ -46,9 +46,10 @@ prepare_spanish_invasion = {
 		975 = {
 			kill_units = CAX
 			cede_province = MGI
+			add_core = MGI
 		}
-		set_capital = 975
-		975 = {
+		set_capital = 947 
+		947 = {
 			add_unit_construction = {
 				type = infantry
 				amount = 30

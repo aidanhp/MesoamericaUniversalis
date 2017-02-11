@@ -109,7 +109,7 @@ in_state = {
 
 coastal = {
 	supply_limit_modifier = 0.5
-	province_trade_power_modifier = 0.25
+	province_trade_power_modifier = 0.10
 }
 
 seat_in_parliament = {
@@ -204,7 +204,7 @@ provincial_tax_income = {
 }
 
 provincial_production_size = {
-	trade_goods_size = 0.2
+	trade_goods_size = 0.1
 	global_tax_income = 0.015
 	#ship_recruit_speed = -0.001	
 }
@@ -233,7 +233,7 @@ development = {
 	land_forcelimit	= 0.10
 	naval_forcelimit = 0.05		
 	local_sailors = 10			
-	province_trade_power_value = 0.1
+	province_trade_power_value = 0.075
 }
 
 development_scaled = {

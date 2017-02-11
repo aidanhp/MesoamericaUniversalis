@@ -277,8 +277,8 @@ country_event = {
 	
 	option = {
 		name = "TEN_MINORS7.a"
-		add_prestige = 50
-		add_legitimacy = 20
+		add_prestige = 10
+		add_legitimacy = 10
 	}
 }
 

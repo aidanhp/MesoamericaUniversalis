@@ -551,7 +551,6 @@ meritocracy_1 = {
 	
 	global_unrest = -0.50
 	discipline = 0.01
-	leader_land_shock = 1
 }
 
 meritocracy_2 = {
@@ -569,7 +568,6 @@ meritocracy_2 = {
 	
 	global_unrest = -1.0
 	discipline = 0.02
-	leader_land_shock = 1
 	leader_land_fire = 1
 }
 
@@ -588,8 +586,7 @@ meritocracy_3 = {
 	
 	global_unrest = -1.5
 	discipline = 0.03
-	leader_land_shock = 1
-	leader_land_fire = 2
+	leader_land_fire = 1
 }
 
 meritocracy_4 = {
@@ -607,8 +604,7 @@ meritocracy_4 = {
 	
 	global_unrest = -2.0
 	discipline = 0.04
-	leader_land_shock = 2
-	leader_land_fire = 2
+	leader_land_fire = 1
 }
 
 meritocracy_5 = {
@@ -626,7 +622,6 @@ meritocracy_5 = {
 	
 	global_unrest = -2.5
 	discipline = 0.05
-	leader_land_shock = 2
 	leader_land_fire = 2
 	leader_siege = 1
 }

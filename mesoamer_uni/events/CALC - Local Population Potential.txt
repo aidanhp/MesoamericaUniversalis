@@ -233,21 +233,21 @@ country_event = {
 					limit = {
 						area = patzcuaro_a
 					}
-					change_variable = { which = provpp value = 50 }
+					change_variable = { which = provpp value = 40 }
 				}
 				
 				if = {
 					limit = {
 						area = zacatula_a
 					}
-					change_variable = { which = provpp value = 40 }
+					change_variable = { which = provpp value = 30 }
 				}
 				
 				if = {
 					limit = {
 						area = cuitzeo_a
 					}
-					change_variable = { which = provpp value = 35 }
+					change_variable = { which = provpp value = 30 }
 				}
 				
 				if = {

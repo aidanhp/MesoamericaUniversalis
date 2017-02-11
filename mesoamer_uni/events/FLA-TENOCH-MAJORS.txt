@@ -568,8 +568,8 @@ country_event = {
 		trigger = {
 			tag = TEN
 		}
-		add_prestige = 25 
-		add_legitimacy = 25
+		add_prestige = 10 
+		add_legitimacy = 5
 		custom_tooltip = TAI_i_010
 		
 		hidden_effect = {
@@ -1410,7 +1410,7 @@ country_event = {
 	title = "TEN_MAJORS33.t"
 	desc = "TEN_MAJORS33.d"
 	
-	picture = SUICIDE_eventPicture  #Switch this to a noose
+	picture = SUICIDE_eventPicture  
 	
 	is_triggered_only = yes
 	
@@ -1451,8 +1451,8 @@ country_event = {
 		name = "TEN_MAJORS34.a"
 	
 		custom_tooltip = TAI_i_010
-		add_prestige = 25
-		add_legitimacy = 25
+		add_prestige = 10
+		add_legitimacy = 5
 		hidden_effect = {
 			change_variable = { which = triple_alliance_influence value = 10 }
 		}

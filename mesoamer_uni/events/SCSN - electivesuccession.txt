@@ -65,30 +65,25 @@ country_event = {
 	option = {
 		name = "esuccession2.a"
 		hidden_effect = {
-			add_country_modifier = {
-				name = ES_increased_chance
-				duration = -1
-			}
+			set_country_flag = ES_increased_chance
+			country_event = { id =  esuccession.03 days = 7 }
 		}
+		
 	}
 	
 	option = {
 		name = "esuccession2.b"
 		hidden_effect = {
-			add_country_modifier = {
-				name = ES_no_chance
-				duration = -1
-			}
+			set_country_flag = ES_no_chance
+			country_event = { id =  esuccession.03 days = 7 }
 		}
 	}
 	
 	option = {
 		name = "esuccession2.c"
 		hidden_effect = {
-			add_country_modifier = {
-				name = ES_indifferent
-				duration = -1
-			}
+			set_country_flag = ES_indifferent
+			country_event = { id =  esuccession.03 days = 7 }
 		}
 	}
 }
@@ -101,66 +96,51 @@ country_event = {
 	desc = "esuccession3.d"
 	picture = COURT_eventPicture
 	
-	trigger = {
-		AND = {
-			has_country_modifier = deliberations_of_the_council
-			OR = {
-				has_country_modifier = ES_increased_chance
-				has_country_modifier = ES_no_chance
-				has_country_modifier = ES_indifferent
-			}
-		}
-	}
-	
-	mean_time_to_happen = {
-		days = 3
-	}
+	is_triggered_only = yes
 	
 	immediate = {
-		#hidden_effect = { 
+		hidden_effect = { 
 		subtract_variable = { which = heir_apparent_weight which = heir_apparent_weight }
 		subtract_variable = { which = adm_points_weight which = adm_points_weight }
 		subtract_variable = { which = dip_points_weight which = dip_points_weight }
 		subtract_variable = { which = mil_points_weight which = mil_points_weight }
-		#ES_weight_ruler = yes
+		ES_weight_ruler = yes
 		if = {
 			limit = {
-				has_country_modifier = ES_no_chance 
+				has_country_flag = ES_no_chance 
 			}
 			change_variable = { which = heir_apparent_weight value = -5 }
 		}
 		if = {
 			limit = {
-				has_country_modifier = ES_increased_chance 
+				has_country_flag = ES_increased_chance
 			}
-			change_variable = { which = heir_apparent_weight value = 5 }
+			change_variable = { which = heir_apparent_weight value = 3 }
+		}
+		if = {
+			limit = {
+				has_country_flag = ES_increased_chance
+				adm = 4
+			}
+			change_variable = { which = heir_apparent_weight value = 3 }
 		}
 		if = {
 			limit = {
 				AND = {
-					has_country_modifier = ES_increased_chance 
-					adm = 4
-				}
-				change_variable = { which = heir_apparent_weight value = 3 }
-			}
-		}
-		if = {
-			limit = {
-				AND = {
-					has_country_modifier = ES_increased_chance 
+					has_country_flag = ES_increased_chance
 					dip = 4
 				}
-				change_variable = { which = heir_apparent_weight value = 3 }
 			}
+			change_variable = { which = heir_apparent_weight value = 3 }
 		}
 		if = {
 			limit = {
 				AND = {
-					has_country_modifier = ES_increased_chance 
+					has_country_flag = ES_increased_chance
 					mil = 4
 				}
-				change_variable = { which = heir_apparent_weight value = 3 }
 			}
+			change_variable = { which = heir_apparent_weight value = 3 }
 		}
 		
 		if = {
@@ -580,10 +560,10 @@ country_event = {
 		}
 		
 		remove_country_modifier = ruler_picked 
-		remove_country_modifier = ES_increased_chance 
-		remove_country_modifier = ES_no_chance 
-		remove_country_modifier = ES_indifferent 
-		#}
+		clr_country_flag = ES_increased_chance 
+		clr_country_flag = ES_no_chance 
+		clr_country_flag = ES_indifferent 
+		}
 	}
 	
 	option = {
