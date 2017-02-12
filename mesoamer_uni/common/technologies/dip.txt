@@ -28,7 +28,7 @@ technology = {
 	nuni = yes
 	pschool = yes
 	puni = yes
-	nschool = yes	
+	#nschool = yes	
 	greatuni = yes
 }
 

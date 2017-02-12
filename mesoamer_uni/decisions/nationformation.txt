@@ -362,6 +362,7 @@ country_decisions = {
 	restore_byzantium = {
 		major = yes
 		potential = {
+			NOT = { exists = BLR }
 			has_country_modifier = top_secret
 			government_rank = 3
 		}

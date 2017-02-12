@@ -15,10 +15,6 @@ country_event = {
 	hidden = yes 
 	
 	fire_only_once = yes
-	
-	trigger = {
-		tag = TEN
-	}
 
 	immediate = {
 		hidden_effect = {

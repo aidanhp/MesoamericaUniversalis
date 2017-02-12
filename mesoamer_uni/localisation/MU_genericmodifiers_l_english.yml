@@ -39,15 +39,25 @@
  
  #Map CE Modifiers
  perc_map: "Perfect Communication"
+ perfect_communication: "Perfect Communication"
  npc_map: "Near Perfect Communication"
+ near_perfect_communication: "Near Perfect Communication"
  vgc_map: "Very Good Communication"
+ very_good_communication: "Very Good Communication"
  gc_map: "Good Communication"
+ good_communication: "Good Communication"
  fc_map: "Fair Communication"
+ fair_communication: "Fair Communication"
  dc_map: "Difficult Communication"
+ difficult_communication: "Difficult Communication"
  pc_map: "Poor Communication"
+ poor_communication: "Poor Communication"
  vpc_map: "Very Poor Communication"
+ very_poor_communication: "Very Poor Communication"
  tc_map: "Terrible Communication"
+ terrible_communication: "Terrible Communication"
  mc_map: "Minimal Communication"
+ minimal_communication: "Minimal Communication"
  
  #Tribute Requirements
  highwealth: "High Wealth Requirements"
