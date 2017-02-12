@@ -1,7 +1,13 @@
 # country
 on_startup = {
-	events = {
-		init.01
+	if = {
+		limit = {
+			NOT = { has_global_flag = init_done }
+		}
+		MGI = {
+			country_event = { id = init.01 }
+		}
+		set_global_flag = init_done
 	}
 }
 
