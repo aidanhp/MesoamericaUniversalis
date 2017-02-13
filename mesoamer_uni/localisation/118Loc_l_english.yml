@@ -464,6 +464,8 @@
  MODIFIER_FIRE_DAMAGE:0 "Land Fire damage"
  MODIFIER_SHOCK_DAMAGE:0 "Shock Damage"
  MODIFIER_FIRE_DAMAGE_RECIEVED:0 "Fire Damage received"
+ PEACE_END_RIVALRY:0 "End Rivalry"
+ END_RIVALRY_TOOLTIP:0 "$GIVER|Y$ are forced to remove $TAKER|Y$ as their Rival."
  
  #"Continents"
  continent_1: "Mesoamerica"

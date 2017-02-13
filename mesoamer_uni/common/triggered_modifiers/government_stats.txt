@@ -11,10 +11,7 @@ decentralization_5 = {
 	}
 	
 	trigger = {
-		AND = {
-			check_variable = { which = centralization value = -100 }
-			NOT = { check_variable = { which = centralization value = -80 } }
-		}
+		NOT = { check_variable = { which = centralization value = -80 } }
 	}
 	
 	global_unrest = -10
@@ -214,10 +211,7 @@ centralization_5 = {
 	}
 	
 	trigger = {
-		AND = {
-			check_variable = { which = centralization value = 80 }
-			NOT = { check_variable = { which = centralization value = 100 } }
-		}
+		check_variable = { which = centralization value = 80 }
 	}
 	
 	global_unrest = 5
@@ -240,10 +234,7 @@ weaklaw_5 = {
 	}
 	
 	trigger = {
-		AND = {
-			check_variable = { which = legaltradition value = -100 }
-			NOT = { check_variable = { which = legaltradition value = -80 } }
-		}
+		NOT = { check_variable = { which = legaltradition value = -80 } }
 	}
 	
 	stability_cost_modifier = 0.50
@@ -420,10 +411,7 @@ stronglaw_5 = {
 	}
 	
 	trigger = {
-		AND = {
-			check_variable = { which = legaltradition value = 80 }
-			NOT = { check_variable = { which = legaltradition value = 100 } }
-		}
+		check_variable = { which = legaltradition value = 80 }
 	}
 	
 	stability_cost_modifier = -0.25
@@ -444,10 +432,7 @@ patrimonialism_5 = {
 	}
 	
 	trigger = {
-		AND = {
-			check_variable = { which = meritocratictradition value = -100 }
-			NOT = { check_variable = { which = meritocratictradition value = -80 } }
-		}
+		NOT = { check_variable = { which = meritocratictradition value = -80 } }
 	}
 	
 	yearly_corruption = 1.0
@@ -614,10 +599,7 @@ meritocracy_5 = {
 	}
 	
 	trigger = {
-		AND = {
-			check_variable = { which = meritocratictradition value = 80 }
-			NOT = { check_variable = { which = meritocratictradition value = 100 } }
-		}
+		check_variable = { which = meritocratictradition value = 80 }
 	}
 	
 	global_unrest = -2.5
@@ -636,10 +618,7 @@ secularism_5 = {
 	}
 	
 	trigger = {
-		AND = {
-			check_variable = { which = religioustradition value = -100 }
-			NOT = { check_variable = { which = religioustradition value = -80 } }
-		}
+		NOT = { check_variable = { which = religioustradition value = -80 } }
 	}
 	
 	tolerance_heretic = 10
@@ -804,10 +783,7 @@ spiritualism_5 = {
 	}
 	
 	trigger = {
-		AND = {
-			check_variable = { which = religioustradition value = 80 }
-			NOT = { check_variable = { which = religioustradition value = 100 } }
-		}
+		check_variable = { which = religioustradition value = 80 }
 	}
 	
 	legitimacy = 2.5
@@ -829,7 +805,6 @@ pacifism_5 = {
 	trigger = {
 		AND = {
 			is_at_war = yes
-			check_variable = { which = militancy value = -100 }
 			NOT = { check_variable = { which = militancy value = -80 } }
 		}
 	}
@@ -992,7 +967,6 @@ militancy_5 = {
 		AND = {
 			is_at_war = yes
 			check_variable = { which = militancy value = 80 }
-			NOT = { check_variable = { which = militancy value = 100 } }
 		}
 	}
 	
@@ -1078,7 +1052,6 @@ militancy_5p = {
 		AND = {
 			is_at_war = no
 			check_variable = { which = militancy value = 80 }
-			NOT = { check_variable = { which = militancy value = 100 } }
 		}
 	}
 	

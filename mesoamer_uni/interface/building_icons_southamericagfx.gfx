@@ -223,6 +223,30 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_greatpt2_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_greatpt.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_greatpt3_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_greatpt.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_greatpt4_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_greatpt.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_greatpt5_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_greatpt.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
 		name = "GFX_greatf_southamericagfx"
 		texturefile = "gfx//interface//buildings//southamerica_greatf.tga"
 		loadType = "INGAME"

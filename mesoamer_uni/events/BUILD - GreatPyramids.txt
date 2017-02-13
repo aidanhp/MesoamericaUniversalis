@@ -169,14 +169,14 @@ country_event = {
 		add_years_of_income = -0.80
 		add_prestige = 20
 		
-		if = {
+if = {
 			limit = {
 				capital_scope = {
 					has_building = greatpt4
 				}
 			}
 			capital_scope = {
-				remove_building = greatp4
+				remove_building = greatpt4
 				add_building = greatpt5
 			}
 			
@@ -189,7 +189,7 @@ country_event = {
 				}
 			}
 			capital_scope = {
-				remove_building = greatp3
+				remove_building = greatpt3
 				add_building = greatpt4
 			}
 			
@@ -202,7 +202,7 @@ country_event = {
 				}
 			}
 			capital_scope = {
-				remove_building = greatp2
+				remove_building = greatpt2
 				add_building = greatpt3
 			}
 			
@@ -229,7 +229,6 @@ country_event = {
 		add_years_of_icnome = -0.40
 		add_prestige = 15
 		
-		
 		if = {
 			limit = {
 				capital_scope = {
@@ -237,7 +236,7 @@ country_event = {
 				}
 			}
 			capital_scope = {
-				remove_building = greatp4
+				remove_building = greatpt4
 				add_building = greatpt5
 			}
 			
@@ -250,7 +249,7 @@ country_event = {
 				}
 			}
 			capital_scope = {
-				remove_building = greatp3
+				remove_building = greatpt3
 				add_building = greatpt4
 			}
 			
@@ -263,7 +262,7 @@ country_event = {
 				}
 			}
 			capital_scope = {
-				remove_building = greatp2
+				remove_building = greatpt2
 				add_building = greatpt3
 			}
 			
@@ -291,14 +290,14 @@ country_event = {
 		
 		add_prestige = -15
 		
-		if = {
+if = {
 			limit = {
 				capital_scope = {
 					has_building = greatpt4
 				}
 			}
 			capital_scope = {
-				remove_building = greatp4
+				remove_building = greatpt4
 				add_building = greatpt5
 			}
 			
@@ -311,7 +310,7 @@ country_event = {
 				}
 			}
 			capital_scope = {
-				remove_building = greatp3
+				remove_building = greatpt3
 				add_building = greatpt4
 			}
 			
@@ -324,7 +323,7 @@ country_event = {
 				}
 			}
 			capital_scope = {
-				remove_building = greatp2
+				remove_building = greatpt2
 				add_building = greatpt3
 			}
 			

@@ -259,11 +259,13 @@ farm1 = {
 	cost = 100
 	time = 4
 
-	manufactory = {
-		grain
-		aquaticfoods
-		fruits
-		choclate
+	trigger = {
+		OR = { 
+			trade_goods = grain
+			trade_goods = aquaticfoods
+			trade_goods = fruits
+			trade_goods = choclate
+		}
 	}
 
 	modifier = {
@@ -300,13 +302,12 @@ farm2 = {
 		FROM = {
 			has_idea = foodprod
 		}
-	}
-	
-	manufactory = {
-		grain
-		aquaticfoods
-		fruits
-		choclate
+		OR = { 
+			trade_goods = grain
+			trade_goods = aquaticfoods
+			trade_goods = fruits
+			trade_goods = choclate
+		}
 	}
 
 	modifier = {
@@ -337,14 +338,17 @@ pmine = {
 	cost = 150
 	time = 8
 	
-	manufactory = {
-		obsidian
-		preciousstones
-		salt
-		bronze
-		gold
-		lime
-		iron
+	trigger = {
+		OR = { 
+			trade_goods = obsidian
+			trade_goods = preciousstones
+			trade_goods = salt
+			trade_goods = bronze
+			trade_goods = gold
+			trade_goods = lime
+			trade_goods = iron
+			trade_goods = balsas
+		}
 	}
 
 	modifier = {
@@ -378,20 +382,19 @@ imine = {
 	make_obsolete = pmine
 	destroy_on_conquest = yes
 	trigger = {
-	
+		OR = { 
+			trade_goods = obsidian
+			trade_goods = preciousstones
+			trade_goods = salt
+			trade_goods = bronze
+			trade_goods = gold
+			trade_goods = lime
+			trade_goods = iron
+			trade_goods = balsas
+		}
 		FROM = {
 			has_idea = metalsprod
 		}
-	}
-	
-	manufactory = {
-		obsidian
-		preciousstones
-		salt
-		bronze
-		gold
-		lime
-		iron
 	}
 	
 	modifier = {
@@ -423,7 +426,6 @@ mworkshop = {
 	cost = 250
 	time = 10
 	destroy_on_conquest = yes
-	allowed_num_of_buildings = 10
 	trigger = {
 	#landexploitation
 		FROM = {
@@ -432,7 +434,7 @@ mworkshop = {
 	}
 
 	modifier = {
-		land_forcelimit_modifier = 0.05
+		regiment_recruit_speed = -0.25
 	}
 	
 	ai_will_do = {
@@ -681,9 +683,9 @@ mschool = {
 
 #Urban Mobilization
 umobile = {
-	cost = 100
+	cost = 150
 	time = 6
-	allowed_num_of_buildings = 20
+	
 	destroy_on_conquest = yes
 	trigger = {
 		is_capital = no
@@ -709,7 +711,7 @@ umobile = {
 
 #Rural Mobilization
 rmobile = {
-	cost = 100
+	cost = 150
 	time = 6
 	destroy_on_conquest = yes
 	trigger = {
@@ -718,7 +720,7 @@ rmobile = {
 			has_idea = ruralrecruit
 		}
 	}
-	allowed_num_of_buildings = 20
+	
 	modifier = {
 		local_manpower_modifier = 0.15
 	}
@@ -983,7 +985,7 @@ mp5 = {
 
 #trade guild
 tguild = {
-	cost = 200
+	cost = 250
 	time = 12
 	destroy_on_conquest = yes
 	trigger = {
@@ -994,8 +996,7 @@ tguild = {
 	
 	modifier = {
 		province_trade_power_modifier = 0.33
-		global_prov_trade_power_modifier = 0.05
-		allowed_num_of_buildings = 10
+		local_tax_modifier = 0.15
 	}
 	
 	ai_will_do = {
@@ -1052,6 +1053,22 @@ greatpt = {
 				}
 			}
 		}
+		FROM = { 
+			NOT = { 
+				capital_scope = {
+					has_building = greatpt2
+				}
+				capital_scope = {
+					has_building = greatpt3
+				}
+				capital_scope = {
+					has_building = greatpt4
+				}
+				capital_scope = {
+					has_building = greatpt5
+				}
+			}
+		}
 	}
 
 	modifier = {
@@ -1077,6 +1094,22 @@ greatpt2 = {
 				OR = {
 					tag = TEN
 					tag = LLC
+				}
+			}
+		}
+		FROM = { 
+			NOT = { 
+				capital_scope = {
+					has_building = greatpt
+				}
+				capital_scope = {
+					has_building = greatpt3
+				}
+				capital_scope = {
+					has_building = greatpt4
+				}
+				capital_scope = {
+					has_building = greatpt5
 				}
 			}
 		}
@@ -1108,6 +1141,22 @@ greatpt3 = {
 				}
 			}
 		}
+		FROM = { 
+			NOT = { 
+				capital_scope = {
+					has_building = greatpt1
+				}
+				capital_scope = {
+					has_building = greatpt2
+				}
+				capital_scope = {
+					has_building = greatpt4
+				}
+				capital_scope = {
+					has_building = greatpt5
+				}
+			}
+		}
 	}
 
 	modifier = {
@@ -1136,6 +1185,22 @@ greatpt4 = {
 				}
 			}
 		}
+		FROM = { 
+			NOT = { 
+				capital_scope = {
+					has_building = greatpt1
+				}
+				capital_scope = {
+					has_building = greatpt2
+				}
+				capital_scope = {
+					has_building = greatpt3
+				}
+				capital_scope = {
+					has_building = greatpt5
+				}
+			}
+		}
 	}
 
 	modifier = {
@@ -1161,6 +1226,22 @@ greatpt5 = {
 				OR = {
 					tag = TEN
 					tag = LLC
+				}
+			}
+		}
+		FROM = { 
+			NOT = { 
+				capital_scope = {
+					has_building = greatpt1
+				}
+				capital_scope = {
+					has_building = greatpt2
+				}
+				capital_scope = {
+					has_building = greatpt3
+				}
+				capital_scope = {
+					has_building = greatpt4
 				}
 			}
 		}

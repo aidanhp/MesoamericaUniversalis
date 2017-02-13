@@ -1075,6 +1075,10 @@ country_event = {
 				discover_country = CAX
 			}
 			
+			33 = {
+				add_building = greatpt
+			}
+			
 			CAX = {
 				add_idea_group = territorial_ideas
 				add_idea = territorial_ideology
