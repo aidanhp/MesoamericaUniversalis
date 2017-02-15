@@ -356,15 +356,15 @@ landexploit_ideas = {
 	category = DIP
 	
 	bonus = {
-		production_efficiency = 0.15
+		production_efficiency = 0.10
 	}
 
 	productionministry = {
-		production_efficiency = 0.15
+		production_efficiency = 0.10
 	}
 
 	improvedproduction = {
-		global_trade_goods_size_modifier = 0.20
+		global_trade_goods_size_modifier = 0.15
 	}
 
 	militaryprod = {
@@ -376,7 +376,7 @@ landexploit_ideas = {
 	}
 
 	luxprod = {
-		global_trade_power = 0.2
+		global_trade_power = 0.15
 	}
 
 	metalsprod = {
@@ -407,7 +407,7 @@ tradeexploit_ideas = {
 	}
 
 	plannedroutes = {
-		trade_steering = 0.15
+		trade_steering = 0.10
 	}
 
 	tradeguilds = {
@@ -415,11 +415,11 @@ tradeexploit_ideas = {
 	}
 
 	tariffpolicy = {
-		global_own_trade_power = 0.15
+		global_own_trade_power = 0.10
 	}
 
 	cartographers = {
-		global_foreign_trade_power = 0.15
+		global_foreign_trade_power = 0.10
 		trade_range_modifier = 0.25
 	}
 
@@ -459,7 +459,7 @@ sneaky_ideas = {
 	}	
 
 	fortspy = {
-		siege_ability = 0.25
+		siege_ability = 0.20
 	}
 
 	subjectspy = {
@@ -514,7 +514,7 @@ colonization_ideas = {
 	}
 
 	colonialgoods = {
-		global_trade_power = 0.2
+		global_trade_power = 0.15
 	}
 
 	ai_will_do = {
@@ -542,11 +542,11 @@ foreigndom_ideas = {
 	}
 
 	irondip1 = {
-		province_warscore_cost = -0.20
+		province_warscore_cost = -0.10
 	}
 
 	irondip2 = {
-		unjustified_demands = -0.25
+		unjustified_demands = -0.15
 	}
 
 	threatofaction = {
@@ -610,7 +610,7 @@ foreignnice_ideas = {
 	}
 
 	giftsoflove = {
-		legitimacy = 0.75
+		legitimacy = 0.50
 	}
 
 	goodreason = {
@@ -628,7 +628,7 @@ massmobilization_ideas = {
 	category = MIL
 	
 	bonus = {
-		leader_land_manuever = 2
+		leader_land_manuever = 1
 	}
 
 	urbanrecruit = {
@@ -644,11 +644,11 @@ massmobilization_ideas = {
 	}
 
 	stateindustry = {
-		global_regiment_cost = -0.15
+		global_regiment_cost = -0.10
 	}
 
 	expandedgarrisons = {
-		garrison_size = 0.40
+		garrison_size = 0.25
 	}
 
 	warlaw = {
@@ -656,7 +656,7 @@ massmobilization_ideas = {
 	}
 
 	optimizedtraining = {
-		global_regiment_recruit_speed = -0.33
+		global_regiment_recruit_speed = -0.25
 	}
 
 	ai_will_do = {
@@ -685,11 +685,11 @@ eliteorders_ideas = {
 
 	bodyarmor = {
 		infantry_power = 0.05
-		land_morale = 0.05
+		land_morale = 0.025
 	}
 
 	socialadvancement = {
-		army_tradition = 0.50
+		army_tradition = 0.25
 	}
 
 	warcouncil = {
@@ -697,7 +697,7 @@ eliteorders_ideas = {
 	}
 
 	tlacochcalcatl = {
-		leader_land_shock = 1
+		shock_damage = 0.05
 	}
 
 	ai_will_do = {
@@ -719,17 +719,17 @@ attritionwar_ideas = {
 	}
 
 	constantresist = {
-		enemy_core_creation = 0.33
-		hostile_attrition = 2.5
+		enemy_core_creation = 0.20
+		hostile_attrition = 2
 	}
 
 	massfortifications = {
-		fort_maintenance_modifier = -0.40
+		fort_maintenance_modifier = -0.20
 	}
 
 	totaldefense = {
-		garrison_size = 0.33
-		defensiveness = 0.33
+		garrison_size = 0.25
+		defensiveness = 0.25
 	}
 
 	anyonecanfight = {
@@ -746,8 +746,8 @@ attritionwar_ideas = {
 	}
 
 	unyielding = {
-		land_morale = 0.10
-		recover_army_morale_speed = 0.33
+		land_morale = 0.05
+		recover_army_morale_speed = 0.25
 	}	
 
 	
@@ -774,13 +774,12 @@ quickwar_ideas = {
 	}
 
 	offensivemind = {
-		land_morale = 0.10
+		land_morale = 0.05
 		war_exhaustion = -0.05
 	}
 	
 	combinedarmstactics = {
-		leader_land_shock = 1
-		leader_land_fire = 1
+		fire_damage = 0.05
 	}
 
 	recon = {
@@ -792,7 +791,7 @@ quickwar_ideas = {
 	}
 
 	engineercorps = {
-		siege_ability = 0.25
+		siege_ability = 0.15
 	}
 
 	tacticalgenius = {

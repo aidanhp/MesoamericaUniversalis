@@ -604,7 +604,7 @@ meritocracy_5 = {
 	
 	global_unrest = -2.5
 	discipline = 0.05
-	leader_land_fire = 2
+	leader_land_fire = 1
 	leader_siege = 1
 }
 

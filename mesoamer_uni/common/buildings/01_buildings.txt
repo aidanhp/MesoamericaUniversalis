@@ -353,7 +353,6 @@ pmine = {
 
 	modifier = {
 		trade_goods_size = 1.0
-		local_production_efficiency = 0.10
 	}
 	
 	ai_will_do = {
@@ -398,8 +397,7 @@ imine = {
 	}
 	
 	modifier = {
-		trade_goods_size = 2.0
-		local_production_efficiency = 0.20
+		trade_goods_size = 1.5
 	}
 	
 	ai_will_do = {
@@ -459,7 +457,7 @@ workshop1 = {
 
 	modifier = {
 		trade_goods_size_modifier = 0.10
-		local_production_efficiency = 0.25
+		local_production_efficiency = 0.15
 	}
 	
 	ai_will_do = {
@@ -491,8 +489,8 @@ workshop2 = {
 	#}
 
 	modifier = {
-		trade_goods_size_modifier = 0.25
-		local_production_efficiency = 0.50
+		trade_goods_size_modifier = 0.20
+		local_production_efficiency = 0.25
 	}
 	
 	ai_will_do = {
@@ -524,8 +522,8 @@ workshop3 = {
 	#}
 
 	modifier = {
-		trade_goods_size_modifier = 0.50
-		local_production_efficiency = 1.5
+		trade_goods_size_modifier = 0.25
+		local_production_efficiency = 0.50
 	}
 	
 	ai_will_do = {

@@ -43,7 +43,7 @@ nahua_ideas = {
 	}
 	
 	military_orders = {
-		army_tradition = 0.5
+		army_tradition = 0.25
 		infantry_power = 0.10
 	}
 	
