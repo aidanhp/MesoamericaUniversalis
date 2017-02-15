@@ -774,9 +774,9 @@ missionschool = {
 	cost = 100
 	time = 12
 
-	#trigger = {
-	#NOTHING
-	#}
+	trigger = {
+		development = 50
+	}
 
 	modifier = {
 		global_missionary_strength = 0.002
@@ -1050,6 +1050,7 @@ greatpt = {
 				OR = {
 					tag = TEN
 					tag = LLC
+					tag = TOE
 				}
 			}
 		}

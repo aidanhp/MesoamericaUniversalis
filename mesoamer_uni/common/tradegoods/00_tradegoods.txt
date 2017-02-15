@@ -33,15 +33,15 @@ aquaticfoods = {
 	}
 } 
 
-fruits = {
-	color = { 0.1607 0.8549 0.2431 }
-	modifier = {
-		land_morale = 0.05
-	}
-	chance = {
-		factor = 10
-	}
-} 
+#fruits = {
+#	color = { 0.1607 0.8549 0.2431 }
+#	modifier = {
+#		land_morale = 0.05
+#	}
+#	chance = {
+#		factor = 10
+#	}
+#} 
 
 choclate = {
 	color = { 0.533 0.3647 0.2313 }
@@ -146,25 +146,25 @@ lime = {
 	}
 } 
 
-iron = {
-	color = { 0.3764 0.3568 0.3176 }
-	modifier = {
-		land_forcelimit_modifier = 0.10
-	}
-	chance = {
-		factor = 10
-	}
-} 
+#iron = {
+#	color = { 0.3764 0.3568 0.3176 }
+#	modifier = {
+#		land_forcelimit_modifier = 0.10
+#	}
+#	chance = {
+#		factor = 10
+#	}
+#} 
 
-lumber = {
-	color = { 0.3803 0.2745 0.0901 }
-	modifier = {
-		build_cost = -0.10
-	}
-	chance = {
-		factor = 10
-	}
-} 
+#lumber = {
+#	color = { 0.3803 0.2745 0.0901 }
+#	modifier = {
+#		build_cost = -0.10
+#	}
+#	chance = {
+#		factor = 10
+#	}
+#} 
 
 balsas = {
 	color = { 0.95000 0.8078 0.1411 }

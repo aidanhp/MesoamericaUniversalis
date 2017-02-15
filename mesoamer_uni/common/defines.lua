@@ -74,7 +74,7 @@ NDiplomacy = {
 	OVEREXTENSTION_POLL_BASE = 365,				-- days between at lower.
 	OVEREXTENSTION_POLL_CHANGE = 0.05,				-- each % reduces with this.
 	RIVAL_PEACE_COST_REDUCTION = -0.33,	
-	MAX_PEACE_TREATY_COST = 30,					-- in diplo power
+	MAX_PEACE_TREATY_COST = 5,					-- in diplo power
 	DESIRED_NUM_OF_ELECTORS = 7,
 	MAX_FREE_CITIES = 8,
 	MIN_NUM_ELECTORS_FOR_REMOVE_ELECTORATE = 2,		-- Limit is inclusive.
@@ -172,7 +172,7 @@ NDiplomacy = {
 	AE_THREATEN_WAR = 1.0,
 	
 	-- Peace Option Effects, base values for the winner. The loser gets the inverse.
-	PO_DEMAND_PROVINCES_AE = 0.08, 				-- _DDEF_PO_DEMAND_PROVINCES_AE = 10, (Per development)
+	PO_DEMAND_PROVINCES_AE = 0.10, 				-- _DDEF_PO_DEMAND_PROVINCES_AE = 10, (Per development)
 	PO_RETURN_CORES_AE = 0.5, 					-- (Per core, only applied if returning cores to vassals of winner)
 	PO_FORM_PU_AE = 0.1, 							-- _DDEF_PO_FORM_PU_AE = 10, (Per development)
 	PO_CONCEDE_COLONIAL_AE = 0.25,
@@ -493,7 +493,7 @@ NCountry = {
 	PS_BUY_IDEA = 400,
 	PS_BUY_NATIVE_ADVANCEMENT = 500,
 	PS_BUY_RELIGIOUS_REFORM = 0,
-	PS_ADVANCE_TECH = 800,
+	PS_ADVANCE_TECH = 900,
 	PS_BOOST_STABILITY = 100,
 	PS_BUY_GENERAL = 25,
 	PS_BUY_ADMIRAL = 25,

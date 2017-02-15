@@ -48,6 +48,7 @@ country_decisions = {
 	restore_league = {
 		major = yes	
 		potential = {
+			NOT = { exists = LEA }
 			primary_culture = yucatecmayan
 			has_global_flag = may_restore_LOM
 			NOT = {
@@ -94,6 +95,7 @@ country_decisions = {
 	restore_tepanec_azcapotzalco = {
 		major = yes
 		potential = {
+			NOT = { exists = TPE }
 			tag = AZC
 			NOT = { tag = TPE }
 		}
@@ -125,6 +127,7 @@ country_decisions = {
 	restore_tepanec_others = {
 		major = yes
 		potential = {
+			NOT = { exists = TPE }
 			primary_culture = tepanec
 			NOT = { tag = AZC }
 			NOT = { tag = TPE }
@@ -157,6 +160,7 @@ country_decisions = {
 	triple_alliance_ten = {
 		major = yes
 		potential = {
+			NOT = { exists = TOE }
 			tag = TEN
 			NOT = { tag = TOE }
 		}
@@ -211,6 +215,7 @@ country_decisions = {
 	triple_alliance_tet = {
 		major = yes
 		potential = {
+			NOT = { exists = TCE}
 			tag = TET
 			NOT = { tag = TCE }
 		}
@@ -263,6 +268,7 @@ country_decisions = {
 	triple_alliance_tcp = {
 		major = yes
 		potential = {
+			NOT = { exists = TNE }
 			tag = TCP
 			NOT = { tag = TNE }
 		}
@@ -318,6 +324,7 @@ country_decisions = {
 	declare_the_empire_of_tzintzuntzan = {
 		major = yes
 		potential = {
+			NOT = { exists = IUA }
 			tag = IUA
 		}
 		allow = {

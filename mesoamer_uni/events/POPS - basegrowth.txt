@@ -62,12 +62,6 @@ country_event = {
 				}
 				if = {
 					limit = {
-						has_province_modifier = unethically_bountiful
-					}
-					change_variable = { which = prov_growth_rate value = 0.01 }
-				}
-				if = {
-					limit = {
 						owner = {
 							has_country_modifier = favoring_xaratanga
 						}
@@ -159,15 +153,6 @@ country_event = {
 						}
 					}
 					change_variable = { which = prov_growth_rate value = 0.0025 }
-				}
-				
-				if = {
-					limit = {
-						owner = {
-							adm_tech = 2
-						}
-					}
-					change_variable = { which = prov_growth_rate value = 0.0050 }
 				}
 				
 				if = {

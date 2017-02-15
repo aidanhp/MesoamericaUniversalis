@@ -148,6 +148,7 @@ on_battle_won_country = {
 			ROOT = { 
 				country_event = { id = INV_plagues.01 days = 3 }
 			}
+			set_global_flag = smallpox_mexico_happened
 		}
 		if = {
 			limit = {
@@ -158,6 +159,7 @@ on_battle_won_country = {
 			FROM = { 
 				country_event = { id = INV_plagues.01 days = 3 }
 			}
+			set_global_flag = smallpox_mexico_happened
 		}
 	}
 	if = {

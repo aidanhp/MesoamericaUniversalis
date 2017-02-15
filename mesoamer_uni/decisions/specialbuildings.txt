@@ -36,7 +36,10 @@ country_decisions = {
 	add_new_pyramid_level_tenoch = {
 		major = yes
 		potential = {
-			tag = TEN
+			OR = { 
+				tag = TEN
+				tag = TOE
+			}
 			OR = {
 				capital_scope = {
 					has_building = tenoch_gp2 
@@ -57,10 +60,23 @@ country_decisions = {
 					has_building = tenoch_gp7
 				}
 			}
+			AND = {
+				NOT = { has_country_modifier = hteocalli2_hteocalli3 }
+				NOT = { has_country_modifier = hteocalli3_hteocalli4 }
+				NOT = { has_country_modifier = hteocalli4_hteocalli5 }
+				NOT = { has_country_modifier = hteocalli5_hteocalli6 }
+				NOT = { has_country_modifier = hteocalli6_hteocalli7 }
+				NOT = { has_country_modifier = hteocalli7_hteocalli8 }
+			}
 		}
 		allow = {
-			1 = {
-				owned_by = TEN
+			OR = { 
+				1 = {
+					owned_by = TEN
+				}
+				1 = {
+					owned_by = TOE
+				}
 			}
 			treasury = 1000
 			#patriarch_authority = 0.25

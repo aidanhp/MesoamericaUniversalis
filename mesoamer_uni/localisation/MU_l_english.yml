@@ -485,7 +485,7 @@
  building_umobile: "Urban Mobilization Center \n§Y--Requires Idea 'Urban Mobilization' (Mass Mobilization)§! \n§Y--Requires Non-Capital Province§!"
  building_rmobile: "Rural Mobilization Center \n§Y--Requires Idea 'Rural Mobilization' (Mass Mobilization)§! \n§Y--Requires Non-Capital Province§!"
  building_ntemple: "Temple"
- building_missionschool: "Monastery \n§WYearly Religious Tradition:§! §G+0.05§!"
+ building_missionschool: "Monastery \n§Y--Requires 50 Development in this Province§! \n§WYearly Religious Tradition:§! §G+0.05§!"
  building_massforts: "Mass Fortifications \n§Y--Requires Idea 'Mass Fortifications' (Attrition Warfare)§!"
  building_mp1: "Small Marketplace"
  building_mp2: "Medium Marketplace \n§Y--Requires 15 Development in this Province§!"

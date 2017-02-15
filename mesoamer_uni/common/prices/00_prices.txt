@@ -12,9 +12,9 @@ aquaticfoods = {
 	base_price = 2.50
 }
 
-fruits = {
-	base_price = 2.50
-}
+#fruits = {
+#	base_price = 2.50
+#}
 
 choclate = {
 	base_price = 5.50
@@ -57,14 +57,14 @@ lime = {
 	base_price = 5.0
 }
 
-iron = {
-	base_price = 2
-}
+#iron = {
+#	base_price = 2
+#}
 
 
-lumber = {
-	base_price = 2
-}
+#lumber = {
+#	base_price = 2
+#}
 
 balsas = {
 	base_price = 8.0
