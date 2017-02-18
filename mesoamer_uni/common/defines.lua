@@ -495,7 +495,7 @@ NCountry = {
 	PS_BUY_RELIGIOUS_REFORM = 0,
 	PS_ADVANCE_TECH = 900,
 	PS_BOOST_STABILITY = 100,
-	PS_BUY_GENERAL = 25,
+	PS_BUY_GENERAL = 50,
 	PS_BUY_ADMIRAL = 25,
 	PS_BUY_CONQUISTADOR = 50,
 	PS_BUY_EXPLORER = 50,
@@ -1182,7 +1182,7 @@ NAI = {
 	DIPLOMATIC_ACTION_BREAK_SCORE = 30, -- AI must score a diplomatic action less than this to break it off
 	DIPLOMATIC_ACTION_PERSONALITY_MULT = 1.5, -- How much more the AI values a diplomatic action if it suits their personality (improve relations for diplomat, etc)
 	
-	DIPLOMATIC_ACTION_OFFER_CONDOTTIERI_BASE_MULT = 33, -- AI scoring for offer condottieri, base scale.
+	DIPLOMATIC_ACTION_OFFER_CONDOTTIERI_BASE_MULT = 16, -- AI scoring for offer condottieri, base scale.
 	DIPLOMATIC_ACTION_OFFER_CONDOTTIERI_MONTHLY_PARTICIPATION_RATE = -0.1, --Base monthly decay in participation. Related to multipliers for war participation (but doesn't depend on number of regiments, so raw multiplier matters).
 	DIPLOMATIC_ACTION_OFFER_CONDOTTIERI_PARTICIPATION_BREAK = -1.8, --At this level of (lack of) participation from the player, the AI will break the condottieri agreement and tell all their friends.
 	DIPLOMATIC_ACTION_OFFER_CONDOTTIERI_PARTICIPATION_WARN = -1.2, --At this level of (lack of) participation from the player, a warning alert will be displayed about impendent AI discontent.

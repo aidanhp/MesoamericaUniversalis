@@ -15,19 +15,19 @@ TEN_dependency_policy = {
 }
 
 TEN_tlacaelel_tlacochcalcatl = {
-	leader_land_shock = 2
+	leader_land_shock = 1
 	leader_siege = 1
-	discipline = 0.075
+	discipline = 0.05
 }
 
 TEN_tlacaelel_cihuacoatl = {
-	leader_land_shock = 2
+	leader_land_shock = 1
 	leader_siege = 1
-	discipline = 0.075
+	discipline = 0.05
 	global_autonomy = -0.10
 	production_efficiency = 0.10
-	legitimacy = 2
-	ae_impact = -0.25
+	legitimacy = 1
+	ae_impact = -0.10
 }
 
 TEN_harassing_xochimilco = {

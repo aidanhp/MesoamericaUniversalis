@@ -83,7 +83,7 @@ ai_handicap = {
 		is_year = 1400
 	}
 	
-	legitimacy = 2
+	legitimacy = 3.5
 	global_autonomy = -0.15
 	global_tax_modifier = 0.10
 }

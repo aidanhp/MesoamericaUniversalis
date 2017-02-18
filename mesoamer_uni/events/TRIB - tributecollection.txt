@@ -274,7 +274,7 @@ country_event = {
 			}
 			multiply_variable = {
 				which = total_ducats_dev
-				value = 0.05
+				value = 0.04
 			}
 		}
 		if = {
@@ -283,7 +283,7 @@ country_event = {
 			}
 			multiply_variable = {
 				which = total_ducats_dev
-				value = 0.10
+				value = 0.06
 			}
 		}
 		if = {
@@ -292,7 +292,7 @@ country_event = {
 			}
 			multiply_variable = {
 				which = total_ducats_dev
-				value = 0.20
+				value = 0.08
 			}
 		}
 		
@@ -377,7 +377,7 @@ country_event = {
 					NOT = { manpower_percentage = 1.05 }
 				}
 				add_manpower = 1
-				subtract_variable = { which = total_mp_dev value = 100 }
+				subtract_variable = { which = total_mp_dev value = 120 }
 			}
 		}
 		
@@ -406,7 +406,7 @@ country_event = {
 					NOT = { manpower_percentage = 1.05 }
 				}
 				add_manpower = 1
-				subtract_variable = { which = total_mp_dev value = 75 }
+				subtract_variable = { which = total_mp_dev value = 90 }
 			}
 		}
 		
@@ -435,8 +435,13 @@ country_event = {
 					NOT = { manpower_percentage = 1.05 }
 				}
 				add_manpower = 1
-				subtract_variable = { which = total_mp_dev value = 50 }
+				subtract_variable = { which = total_mp_dev value = 60 }
 			}
+		}
+		
+		hidden_effect = {
+			add_treasury = 10
+			add_manpower = 1
 		}
 		
 		ai_chance = {

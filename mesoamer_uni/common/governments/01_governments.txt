@@ -67,7 +67,7 @@ centralized_altepetl = {
 	valid_for_new_country = no
 	
 	max_states = 2
-	min_autonomy = 50
+	min_autonomy = 40
 
 	rank = {
 		1 = {

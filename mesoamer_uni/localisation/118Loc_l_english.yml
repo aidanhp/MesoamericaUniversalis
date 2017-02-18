@@ -491,6 +491,10 @@
  MACRO_TEMPLATE_MAINT_COST_TT:0 "Maintenance Cost: $VAL|Y$¤"
  CUL_TIME_MONTHS:0 "Changing culture will take $MONTHS|Y$ months."
  
+ UNIT_ATTACK_NATIVS:0 "§YAttack Natives§!"
+ UNIT_ATTACK_NATIVES_DESC:0 "Attack the local population to eliminate the threat of them attacking your colonists later."
+ ATTACK_NATIVES_COST:0 "This will cost §Y$COST$§!£mil."
+ 
  #"Continents"
  continent_1: "Mesoamerica"
  continent_2: "Mesoamerica"

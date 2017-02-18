@@ -440,9 +440,9 @@ base_values = {
 	merchants = 2							#Start with 2 merchants
 	diplomats = 2							#Start with 2 diplomats..
 	missionaries = 1						#1 missionary
-	army_tradition_decay = 0.075				#lose 5% yearly
+	army_tradition_decay = 0.065				#lose 5% yearly
 	navy_tradition_decay = 0.05				#lose 5% yearly
-	prestige_decay = 0.05					#lose 5% prestige each year
+	prestige_decay = 0.075					#lose 5% prestige each year
 	tolerance_own = 3
 	diplomatic_upkeep = 4
 	tolerance_heathen = -3
@@ -692,7 +692,6 @@ legitimacy = {
 	legitimacy = -4
 	global_unrest = -30
 	reduced_liberty_desire = 200
-	prestige = 4
 	tolerance_own = 2
 	tolerance_heathen = 2
 	tolerance_heretic = 2
@@ -787,13 +786,11 @@ prestige = {
 	naval_morale = 0.1
 	global_spy_defence = 0.1				#+10/-10 
 	mercenary_cost = -0.33					#-33 to +33%
-	legitimacy = 2.0
 	relations_decay_of_me = 0.5
 	improve_relation_modifier = 0.10
 	monthly_fervor_increase = 1
 	ae_impact = -0.10
 	embracement_cost = -0.1
-	
 }
 
 no_debate_in_parliament = {
