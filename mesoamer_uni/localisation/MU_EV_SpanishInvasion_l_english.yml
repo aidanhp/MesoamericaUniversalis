@@ -63,7 +63,7 @@
  INV_main4.a: "Prepare an expedition now! These impertinant barbarians will be crushed!"
  INV_main4.b: "Invite these strangers to our capital- where we can contain and learn more about them."
  INV_main5.t: "Dealings with Caxtillan"
- INV_main5.d: "The pale, heavily armed foreigners who arrived at Cempoala recently are heading towards the capital of $FROM$, but have stopped in our lands along the way. Apparently they have designs to conquer $FROM$ and have heard that we are $FROM$’s greatest enemy. They wish to know whether or not we would support them in a war against $FROM$ if they were to start one."
+ INV_main5.d: "The pale, heavily armed foreigners who arrived at Cempoala recently are heading towards the capital of $FROMCOUNTRY$, but have stopped in our lands along the way. Apparently they have designs to conquer $FROMCOUNTRY$ and have heard that we are $FROMCOUNTRY$’s greatest enemy. They wish to know whether or not we would support them in a war against $FROMCOUNTRY$ if they were to start one."
  INV_main5.a: "Of course! These men would make fine allies."
  INV_main5.b: "These men are suicidal. We shall not join them."
  INV_main6.t: "The Strangers Arrive at $CAPITAL_CITY$"

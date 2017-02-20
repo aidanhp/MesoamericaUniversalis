@@ -463,7 +463,7 @@ sneaky_ideas = {
 	}
 
 	subjectspy = {
-		reduced_liberty_desire = -25
+		reduced_liberty_desire = 25
 	}
 	
 	antiuspoliticalsystem = {

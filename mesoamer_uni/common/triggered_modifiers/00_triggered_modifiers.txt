@@ -73,6 +73,20 @@ insuffb_e = {
 	global_tax_modifier = -0.025
 }
 
+vassalized_caxtillan = {
+	potential = {
+		is_year = 1519
+	}
+	
+	trigger = {
+		CAX = {
+			vassal_of = ROOT
+		}
+	}
+	
+	reduced_liberty_desire = -1000
+}
+
 #AI Handicaps
 ai_handicap = {
 	potential = {

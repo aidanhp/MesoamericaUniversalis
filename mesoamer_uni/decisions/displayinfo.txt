@@ -22,6 +22,11 @@ country_decisions = {
 				tag = TET
 				tag = TCP
 			}
+			NOT = {
+				tag = TOE
+				tag = TCE
+				tag = TNE
+			}
 		}	
 		allow = {
 			always = yes

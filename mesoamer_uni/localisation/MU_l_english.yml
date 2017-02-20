@@ -12,6 +12,8 @@
  TRI_2: "Members of the Purepecha Triarchy cannot ally with other nations. You must first break your alliance with at least one of the other members."
  ONLY_WARLEADER: "You can only negotiate peace with the warleader."
  POPULATION_SYS_NO: ""
+ VASSALIZE_SPAIN: "You cannot vassalize Caxtillan."
+ vassalized_caxtillan: "Vassalized Caxtillan"
  
  #Bookmarks
  RISE_OF_THE_AZTECS: "Victory of the Triple Alliance"

@@ -240,7 +240,7 @@ country_event = {
 		custom_tooltip = FLA_INV_005
 
 		hidden_effect = {
-			country_event = { id = INV_main.06 }
+			country_event = { id = INV_main.06 days = 30 }
 			every_country = { 
 				limit = {
 					is_rival = ROOT
@@ -263,8 +263,9 @@ country_event = {
 				country_event = { id = INV_main.05 days = 14 }
 			}
 		}
-		every_owned_province = {
+		every_province = {
 			limit = {
+				owned_by = ROOT
 				culture = newtotonac 
 			}
 			add_province_modifier = {
