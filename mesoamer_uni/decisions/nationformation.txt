@@ -51,9 +51,6 @@ country_decisions = {
 			NOT = { exists = LEA }
 			primary_culture = yucatecmayan
 			has_global_flag = may_restore_LOM
-			NOT = {
-				tag = LEA
-			}
 		}
 		allow = {
 			owns_or_vassal_of = 150 #Mayapan
