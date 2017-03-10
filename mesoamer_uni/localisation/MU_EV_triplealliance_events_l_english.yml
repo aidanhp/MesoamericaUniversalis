@@ -12,6 +12,13 @@
  TEN_REDISTRIBUTIVE_POLICY: "Redistributive Policy: +15%"
  TEN_DEPENDENCY_POLICY: "Dependency Policy: -10%"
  opinion_triple_alliance: "Triple Alliance Member"
+ opinion_refusedtribute:0 "Refused tribute"
+ opinion_ta_infuriated:0 "Triple Alliance infuriated"
+ opinion_mexica_brothers:0 "Mexica Brothers"
+ opinion_betrayed_triarchy:0 "Betrayed Triarchy"
+ opinion_defense_of_the_world:0 "Defense of the World"
+ opinion_betrayed_world:0 "Betrayed World"
+
  
  #-------------------------#
  #FOR TENOCHTITLAN

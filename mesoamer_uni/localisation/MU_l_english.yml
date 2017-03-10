@@ -95,6 +95,8 @@
  
  cb_feud_triggered: "Feud"
  cb_feud_triggered_desc: "Some slight grave enough to warrant war has been committed against us. We must punish the wrongdoers!"
+ feud_normal:0 "Show Superiority"
+ feud_normal_desc:0 "War goal is to show them superiority by winning battles."
  
  cb_eternal_war: "Eternal War"
  cb_eternal_war_desc: "We have formally declared de-facto eternal war on our neighbors. Let us act on it."
