@@ -395,7 +395,6 @@ on_monarch_death = {
 			attach_leader = "Hernan Cortes"
 		}
 		define_ruler_to_general = {
-			name = "Hernan Cortes"
 			shock = 5
 			fire = 5
 			manuever = 5

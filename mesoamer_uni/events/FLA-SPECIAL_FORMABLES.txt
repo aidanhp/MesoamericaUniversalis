@@ -24,8 +24,10 @@ country_event = {
 				duration = 1825
 			}
 			if = {
-				NOT = {
-					has_building = adminoffice
+				limit = {
+					NOT = {
+						has_building = adminoffice
+					}
 				}
 				add_building = adminoffice
 			}

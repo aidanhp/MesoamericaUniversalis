@@ -745,7 +745,7 @@ country_event = {
 	
 	option = {
 		name = "TEN_MAJORS21.a"
-		custom_toolip = FLA_TEN_004
+		custom_tooltip = FLA_TEN_004
 		remove_country_modifier = TEN_famine_starting
 	}
 }
@@ -779,7 +779,7 @@ country_event = {
 	
 	option = {
 		name = "TEN_MAJORS22.a"
-		custom_toolip = FLA_TEN_005
+		custom_tooltip = FLA_TEN_005
 	}
 }
 

@@ -177,7 +177,6 @@ country_event = {
 					mil = 5
 				}
 				define_ruler_to_general = {
-					name = "Ah Xupan Xiu"
 					shock = 5
 					fire = 2
 					manuever = 4

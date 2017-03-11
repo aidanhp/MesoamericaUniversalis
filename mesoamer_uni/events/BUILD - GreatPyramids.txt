@@ -226,7 +226,7 @@ if = {
 	option = { #Hold a simple but effective ceremony for the city
 		name = "buildp3.b"
 		
-		add_years_of_icnome = -0.40
+		add_years_of_income = -0.40
 		add_prestige = 15
 		
 		if = {

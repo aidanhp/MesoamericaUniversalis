@@ -100,7 +100,8 @@ world_system = {
 				owner = {
 					government_rank = 2
 				}
-				trade_power = 10
+				# Use trade_share clause instead.
+				#trade_power = 10
 				development = 40
 			}
 			AND = {
@@ -108,7 +109,7 @@ world_system = {
 				owner = {
 					government_rank = 2
 				}
-				trade_power = 10
+				#trade_power = 10
 				development = 50
 			}
 			AND = {
@@ -116,19 +117,19 @@ world_system = {
 				owner = {
 					government_rank = 2
 				}
-				trade_power = 20
+				#trade_power = 20
 				development = 50
 			}
 			AND = {
 				owner = {
 					government_rank = 2
 				}
-				trade_power = 20
+				#trade_power = 20
 				development = 60
 				trade_income_percentage = 0.33
 			}
 		}
-		NOT = { province_id = 975 }
+		NOT = { province_id = 975 } # Not Castille
 	}
 	start_chance = 50		#in 100 for when a province can_start
 	on_start = institutions.01

@@ -733,7 +733,7 @@ country_event = {
 			defensive_war_with = CAX
 			offensive_war_with = CAX
 		}
-		NOT = { warscore = 75 }
+		NOT = { war_score = 75 }
 	}
 	
 	mean_time_to_happen = {
