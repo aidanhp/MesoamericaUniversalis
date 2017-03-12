@@ -84,7 +84,7 @@
  
  #Draft Laws
  base_law: "Base Draft Law"
- desc_base_law: "This modifier is irremoveable and used to help calculate how much of a province's manpower you can use.
+ desc_base_law: "This modifier is irremoveable and used to help calculate how much of a province's manpower you can use."
  
  e_optionalcareer: "Nobility Draft Law: Optional Career"
  desc_e_optionalcareer: "Military service is a purely optional career for sons of the nobility." 

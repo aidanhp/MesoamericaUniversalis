@@ -48,3 +48,9 @@
  add_new_pyramid_level_tenoch_title: "Expand the Huey-Teocalli"
  add_new_pyramid_level_tenoch_desc: "Declare that it is time to expand the Huey-Teocalli, our great monument to the gods and the foremost symbol of Mexica power."
  
+ #Decision modifiers
+ grand_festival_CD:0 "Recent Grand Festival"
+ grand_military_parade:0 "Grand military parade"
+ impressed_lords:0 "Impressed lords"
+ impressed_commoners:0 "Impressed commoners"
+
