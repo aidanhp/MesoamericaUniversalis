@@ -5,16 +5,17 @@ spanish_allies_rebels = {
 
 	color = { 25 180 25 }
 
-	area = nation 			# Stays within provinces of their rebel tag
-	government = any				# No special preference
-	defection = CAX			# If the country seeks independence, defection specifies what type of provinces it wants.
-	independence = CAX 		# Seeks independence for spawn province culture. Will not spawn at all if there is no suitable tag.
-	defect_delay = 3				# Can spontaneously declare independence after 60 months (earliest)
-	unit_transfer = yes				# Units switch allegiance after enforcing demands.
-	gfx_type = culture_province	
-	will_relocate = yes	
+	area = nation 			
+	government = any			
+	defection = none			
+	independence = none 		
+	defect_delay = 12	
+	gfx_type = culture_province		
 	
-	resilient = yes
+	unit_transfer = yes				
+	will_relocate = no	
+	
+	resilient = no
 	reinforcing = yes
 	general = yes				
 	smart = yes
