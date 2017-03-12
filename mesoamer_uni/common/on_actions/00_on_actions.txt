@@ -264,9 +264,16 @@ on_siege_lost_country = {
 on_siege_won_province = {
 	if = {
 		limit = {
-			has_province_modifier = spanish_occupation
+			FROM = {
+				tag = CAX
+			}
+			ROOT = { 
+				has_province_modifier = spanish_occupation
+			}
 		}
-		remove_province_modifier = spanish_occupation
+		ROOT = { 
+			remove_province_modifier = spanish_occupation
+		}
 	}
 	
 	if = {
@@ -339,9 +346,11 @@ on_siege_lost_province =  {
 				NOT = { owned_by = CAX }
 			}
 		}
-		add_province_modifier = {
-			name = spanish_occupation
-			duration = -1
+		ROOT = { 
+			add_province_modifier = {
+				name = spanish_occupation
+				duration = -1
+			}
 		}
 	}
 	events = {

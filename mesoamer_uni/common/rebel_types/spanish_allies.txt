@@ -7,13 +7,12 @@ spanish_allies_rebels = {
 
 	area = nation 			
 	government = any			
-	defection = none			
-	independence = none 		
-	defect_delay = 12	
+	defection = none
+	#defect_delay = 120
+	independence = none			 		
+	unit_transfer = yes	
 	gfx_type = culture_province		
-	
-	unit_transfer = yes				
-	will_relocate = no	
+	will_relocate = no				
 	
 	resilient = no
 	reinforcing = yes
@@ -64,7 +63,10 @@ spanish_allies_rebels = {
  		always = yes
  	}
 	siege_won_effect = {
-		add_core = CAX
+		add_province_modifier = {
+			name = spanish_occupation
+			duration = -1
+		}
 	}
 	
 	# Country scope
