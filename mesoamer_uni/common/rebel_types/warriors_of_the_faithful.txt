@@ -113,7 +113,7 @@ holy_rebels = {
 	}
 	siege_won_effect = {
 		add_local_autonomy = 10
-		add_estate = estate_priesthood
+		set_estate = estate_priesthood
 	}
 	
 	# Country scope

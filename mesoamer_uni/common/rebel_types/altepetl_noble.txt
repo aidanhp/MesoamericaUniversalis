@@ -113,7 +113,7 @@ altepetl_noble_rebels = {
 	}
 	siege_won_effect = {
 		add_local_autonomy = 10
-		add_estate = estate_anobles
+		set_estate = estate_anobles
 	}
 	
 	# Country scope

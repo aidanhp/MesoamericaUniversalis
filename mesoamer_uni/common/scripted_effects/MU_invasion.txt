@@ -23,7 +23,6 @@ prepare_spanish_invasion = {
 			attach_leader = "Hernan Cortes"
 		}
 		define_ruler_to_general = {
-			name = "Hernando Cortes"
 			shock = 5
 			fire = 5
 			manuever = 5
@@ -44,7 +43,10 @@ prepare_spanish_invasion = {
 			siege = 1
 		}
 		975 = {
-			kill_units = CAX
+			kill_units = {
+				who = CAX
+				amount = 100
+			}
 			cede_province = MGI
 			add_core = MGI
 		}

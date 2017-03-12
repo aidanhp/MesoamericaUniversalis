@@ -39,7 +39,7 @@ ES_weight_ruler = {
 		limit = {
 			AND = {
 				is_at_war = yes
-				NOT = { warscore = 0 }
+				NOT = { war_score = 0 }
 			}
 		}
 		change_variable = { which = mil_points_weight value = 2 }

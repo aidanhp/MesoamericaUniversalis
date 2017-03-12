@@ -101,7 +101,6 @@ technology = {
 	year = 1582
 	
 	trade_efficiency = 0.025
-	merchants = 1
 }
 
 technology  = {
@@ -116,7 +115,6 @@ technology = {
 	year = 1626
 	
 	trade_efficiency = 0.025
-	merchants = 1
 }
 
 technology = {
@@ -124,7 +122,6 @@ technology = {
 	year = 1648
 	
 	trade_efficiency = 0.025
-	merchants = 1
 }
 
 technology = {
@@ -132,7 +129,6 @@ technology = {
 	year = 1670
 	
 	trade_efficiency = 0.025
-	merchants = 1
 }
 
 technology = {
