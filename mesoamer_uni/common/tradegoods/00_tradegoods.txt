@@ -13,13 +13,20 @@ grain = {
 	}
 }
 
+# Do not use "staplecrops" tradegood.  "Staple Crops" represented in
+# "grain" tradegood.
+#
+# Keeping around unused tradegoods only to prevent breaking save
+# files.  When we break save files anyway for 0.7 (new map) we should
+# also delete the staplecrops, fruits, lumber and iron tradegoods so
+# they don't show up in the ledger.
 staplecrops = {
 	color = { 0.96 0.93 0.58 }
 	modifier = {
 		land_forcelimit_modifier = 0.10
 	}
 	chance = {
-		factor = 10
+		factor = 0  # Not used in MU
 	}
 } 
 
@@ -39,7 +46,7 @@ fruits = {
 		land_morale = 0.05
 	}
 	chance = {
-		factor = 10
+		factor = 0  # Not used in MU
 	}
 } 
 
@@ -152,7 +159,7 @@ iron = {
 		land_forcelimit_modifier = 0.10
 	}
 	chance = {
-		factor = 10
+		factor = 0  # Not used in MU
 	}
 } 
 
@@ -162,7 +169,7 @@ lumber = {
 		build_cost = -0.10
 	}
 	chance = {
-		factor = 10
+		factor = 0  # Not used in MU
 	}
 } 
 
