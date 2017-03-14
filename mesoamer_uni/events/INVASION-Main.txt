@@ -702,6 +702,8 @@ province_event = {
 	
 	mean_time_to_happen = {
 		months = 4
+		NOT = { unit_in_battle = yes }
+		NOT = { unit_in_siege = yes }
 	}
 	
 	option = {
