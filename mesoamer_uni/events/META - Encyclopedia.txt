@@ -251,10 +251,31 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { #Back
+	option = { #Part II
 		name = "book9.a"
+		country_event = { id = book.29 }
+	}
+
+	option = { #Back
+		name = "book9.b"
 		country_event = { id = book.02 }
-		
+	}
+}
+
+#Government Stats, Part II
+country_event = {
+	id = book.29
+
+	title = "book29.t"
+	desc = "book29.d"
+
+	picture = CODEX_fg_ten
+
+	is_triggered_only = yes
+
+	option = { #Back
+		name = "book29.a"
+		country_event = { id = book.09 }
 	}
 }
 
