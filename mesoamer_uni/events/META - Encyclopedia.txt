@@ -122,6 +122,11 @@ country_event = {
 		country_event = { id = book.23 }
 	}
 	
+	option = { #Scroll down for more
+		name = "book3.h"
+		country_event = { id = book.28 }
+	}
+
 	option = { #Mesoamerican History Primer
 		name = "book3.f"
 		country_event = { id = book.24 }
@@ -633,3 +638,21 @@ country_event = {
 		country_event = { id = book.03 }
 	}
 }
+
+#Scroll down
+country_event = {
+	id = book.28
+
+	title = "book28.t"
+	desc = "book28.d"
+
+	picture = CODEX_fg_ten
+
+	is_triggered_only = yes
+
+	option = { #Back
+		name = "book28.a"
+		country_event = { id = book.03 }
+	}
+}
+
