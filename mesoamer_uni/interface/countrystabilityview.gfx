@@ -4,7 +4,8 @@ spriteTypes = {
 		name = "GFX_disaster_icon"
 		texturefile = "gfx/interface/disaster_icon.dds"
 	}
-	
+
+	# MU begin:
 	spriteType = {
 		name = "GFX_disaster_un_civil_war"
 		texturefile = "gfx//interface//disasters//civil_war.dds"
@@ -67,8 +68,7 @@ spriteTypes = {
 		noOfFrames = 3
 		loadType = "INGAME"
 	}
-	
-	
+	# MU end:
 
 	spriteType = {
 		name = "GFX_disaster_aspiration_for_liberty"
@@ -83,6 +83,13 @@ spriteTypes = {
 		noOfFrames = 3
 		loadType = "INGAME"
 	}
+	
+	spriteType = {
+		name = "GFX_disaster_court_and_country"
+		texturefile = "gfx//interface//disasters//court_and_country.dds"
+		noOfFrames = 3
+		loadType = "INGAME"
+	}	
 
 	spriteType = {
 		name = "GFX_disaster_counts_feud"
@@ -167,6 +174,20 @@ spriteTypes = {
 		noOfFrames = 3
 		loadType = "INGAME"
 	}	
+	
+	spriteType = {
+		name = "GFX_disaster_empire_of_china_in_name"
+		texturefile = "gfx//interface//disasters//empire_of_china_in_name.dds"
+		noOfFrames = 3
+		loadType = "INGAME"
+	}	
+
+	spriteType = {
+		name = "GFX_disaster_empire_of_china_nomadic_border"
+		texturefile = "gfx//interface//disasters//empire_of_china_nomadic_border.dds"
+		noOfFrames = 3
+		loadType = "INGAME"
+	}
 	
 	spriteType = {
 		name = "GFX_disaster_estate_church_disaster"

@@ -229,14 +229,14 @@ kind_hearted_personality = {
 	heir_allow = {
 		allow = {
 			NOT = { heir_has_personality = cruel_personality }
-			NOT = { ruler_has_personality = malevolent_personality }
+			NOT = { heir_has_personality = malevolent_personality }
 		}
 	}
 	
 	consort_allow = {
 		allow = {
 			NOT = { consort_has_personality = cruel_personality }
-			NOT = { ruler_has_personality = malevolent_personality }
+			NOT = { consort_has_personality = malevolent_personality }
 		}
 	}
 	allow = {
@@ -757,7 +757,7 @@ benevolent_personality = {
 	chance = {
 		modifier = {
 			factor = 1
-			num_of_vassals = 2
+			vassal = 2
 		}
 	}
 	

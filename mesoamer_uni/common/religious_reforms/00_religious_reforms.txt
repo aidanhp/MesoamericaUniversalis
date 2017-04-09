@@ -8,11 +8,11 @@
 
 nahuatl_reforms = {
 	trigger = {
-		always = no
+		religion = nahuatl
 	}	
 
 	can_buy_idea = {
-		num_of_vassals = 5
+		vassal = 5
 		is_at_war = no
 		NOT = { num_of_rebel_controlled_provinces = 1 }
 		stability = 1
@@ -43,7 +43,7 @@ nahuatl_reforms = {
 
 inti_reforms = {
 	trigger = {
-		always = no
+		religion = inti
 	}	
 
 	can_buy_idea = {
@@ -79,7 +79,7 @@ inti_reforms = {
 
 mesoamerican_reforms = {
 	trigger = {
-		always = no
+		religion = mesoamerican_religion
 	}	
 
 	can_buy_idea = {
