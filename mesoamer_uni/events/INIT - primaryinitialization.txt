@@ -18,7 +18,7 @@ country_event = {
 
 	immediate = {
 		hidden_effect = {
-			dismantle_hre = yes
+			#dismantle_hre = yes
 			####################
 			#Setup- Player Only#
 			####################
