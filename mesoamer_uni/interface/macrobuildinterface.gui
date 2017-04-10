@@ -34,6 +34,13 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}
 
+    iconType = {
+      name="cannot_afford"
+      spriteType = "GFX_cannot_afford"
+      position = { x = -25 y = 3 }
+      Orientation = "UPPER_LEFT"
+    }
+
 		iconType = {
 			name ="selected"
 			position = { x = -25 y = 3 }
@@ -80,6 +87,13 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
+
+    iconType = {
+      name="cannot_afford"
+      spriteType = "GFX_cannot_afford"
+      position = { x = 3 y = 30 }
+      Orientation = "UPPER_LEFT"
+    }
 		
 		iconType =
 		{
@@ -1415,6 +1429,104 @@ guiTypes = {
 		
 	}
 	
+	# List entry for the window with a list of provinces that a specific building can be built in
+	windowType = {
+		name = "building_province_list_entry"
+		position = { x = 150 y = 0 }
+		size = { x = 412 y = 26 }
+		fullscreen = no
+
+		guiButtonType = {
+			name = "province_button"
+			position = { x = 14 y = 0 }
+			quadTextureSprite ="GFX_building_list_button"
+#			buttonFont = "vic_18"
+		}
+		
+		instantTextBoxType = {
+			name = "province_name"
+			position = { x = 20 y = 4 }
+			textureFile = ""
+			font = "vic_18"
+			text = "noprovince"
+			maxWidth = 108
+			maxHeight = 18
+			format = left
+			fixedsize = yes
+			#allwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "building_cost"
+			position = { x = 200 y = 4 }
+			textureFile = ""
+			font = "vic_18"
+			text = "-1"
+			maxWidth = 60
+			maxHeight = 18
+			format = center
+			fixedsize = yes
+			allwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "free_slots"
+			position = { x = 129 y = 4 }
+			textureFile = ""
+			font = "vic_18"
+			text = "SLOTS"
+			maxWidth = 28
+			maxHeight = 18
+			format = center
+			fixedsize = yes
+			#allwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "improvement_text"
+			position = { x = 260 y = 4 }
+			textureFile = ""
+			font = "vic_18"
+			text = "+0.00¤"
+			maxWidth = 128
+			maxHeight = 18
+			format = right
+			fixedsize = yes
+			allwaystransparent = yes
+		}
+
+		#instantTextBoxType = {
+		#	name = "improvement_value_text"
+		#	position = { x = 342 y = 4 }
+		#	textureFile = ""
+		#	font = "vic_18"
+		#	text = "+0.00¤"
+		#	maxWidth = 50
+		#	maxHeight = 18
+		#	format = center
+		#	fixedsize = yes
+		#	allwaystransparent = yes
+		#}
+
+		iconType = {
+			name = "estate_icon"
+			spriteType = "GFX_estates_icons"
+			position = { x = 156 y = 1 }
+			scale = 0.55
+			Orientation = "UPPER_LEFT"
+			#allwaystransparent = yes
+		}
+
+		iconType = {
+			name = "tradegood_icon"
+			spriteType = "GFX_resource_icon_small"
+			position = { x = 178 y = 3 }
+			scale = 0.75
+			Orientation = "UPPER_LEFT"
+			#allwaystransparent = yes
+		}
+	}
+
 	##### CATEGORY ENTRY #####
 	windowType = {
 		name = "build_category_entry_land"

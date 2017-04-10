@@ -232,11 +232,11 @@ adm_idea_modifiers = {
 			factor = 0.5
 			modifier = {
 				factor = 0
-				NOT = { num_of_vassals = 1 }
+				NOT = { vassal = 1 }
 			}
 			modifier = {
 				factor = 2
-				num_of_vassals = 2
+				vassal = 2
 			}
 		}
 	}

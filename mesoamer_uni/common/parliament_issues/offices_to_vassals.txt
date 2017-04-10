@@ -4,11 +4,11 @@ offices_to_vassals = {
 
 	allow = {
 		OR = {
-			num_of_vassals = 2
-			num_of_unions = 2
+			vassal = 2
+			personal_union = 2
 			AND = {
-				num_of_vassals = 1
-				num_of_unions = 1
+				vassal = 1
+				personal_union = 1
 			}
 		}
 		government = monarchy
@@ -32,15 +32,15 @@ offices_to_vassals = {
 		factor = 1
 		modifier = {
 			factor = 2
-			num_of_vassals = 3
+			vassal = 3
 		}
 		modifier = {
 			factor = 3
-			num_of_vassals = 4
+			vassal = 4
 		}
 		modifier = {
 			factor = 4
-			num_of_vassals = 5
+			vassal = 5
 		}
 	}
 	
@@ -48,11 +48,11 @@ offices_to_vassals = {
 		factor = 1
 		modifier = {
 			factor = 2
-			num_of_vassals = 4
+			vassal = 4
 		}
 		modifier = {
 			factor = 2
-			num_of_unions = 2
+			personal_union = 2
 		}	
 	}
 }

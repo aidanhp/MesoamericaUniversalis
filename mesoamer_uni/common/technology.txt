@@ -1,8 +1,6 @@
 # Do not change tags in here without changing every other reference to them.
 # If adding new technology, make sure they are uniquely named.
 
-# Armies get a insufficient support penalty when the ratio cav / (inf+cav) is _higher_ than "cav_to_inf_ratio". This applies for the "unit_type" of a country.
-
 # Groups must be defined BEFORE tables.
 
 
@@ -11,7 +9,6 @@ groups = {
 	western_european = {
 		start_level = 0
 		start_cost_modifier = 0
-		cav_to_inf_ratio = 0.5
 		nation_designer_cost = {
 			trigger = {
 				capital_scope = {
@@ -29,7 +26,6 @@ groups = {
 	triple_alliance = {
 		start_level = 0
 		start_cost_modifier = 0
-		cav_to_inf_ratio = 0.5
 		nation_designer_cost = {
 			trigger = {
 				capital_scope = {
@@ -47,7 +43,6 @@ groups = {
 	central_mexican = {
 		start_cost_modifier = 0
 		start_level = 0
-		cav_to_inf_ratio = 0.5
 		nation_designer_cost = {
 			trigger = {
 				capital_scope = {
@@ -65,7 +60,6 @@ groups = {
 	tarascan = {
 		start_cost_modifier = 0
 		start_level = 0
-		cav_to_inf_ratio = 0.5
 		nation_designer_cost = {
 			trigger = {
 				capital_scope = {
@@ -83,7 +77,6 @@ groups = {
 	west_mexican = {
 		start_cost_modifier = 0
 		start_level = 0
-		cav_to_inf_ratio = 0.5
 		nation_designer_cost = {
 			trigger = {
 				capital_scope = {
@@ -101,7 +94,6 @@ groups = {
 	maya = {
 		start_cost_modifier = 0
 		start_level = 0
-		cav_to_inf_ratio = 0.5
 		nation_designer_cost = {
 			trigger = {
 				capital_scope = {
@@ -119,7 +111,6 @@ groups = {
 	semi_nomadic_tribe = {
 		start_cost_modifier = 0
 		start_level = 0
-		cav_to_inf_ratio = 0.5
 		nation_designer_cost = {
 			trigger = {
 				capital_scope = {

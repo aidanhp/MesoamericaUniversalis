@@ -294,7 +294,7 @@ country_event = {
 			any_country = {
 				AND = {
 					has_country_modifier = un_rebel_capital
-					NOT = { num_of_vassals = 3 }
+					NOT = { vassal = 3 }
 					NOT = { 
 						war_score_against = {
 							who = ROOT

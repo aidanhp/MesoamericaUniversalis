@@ -1,4 +1,13 @@
 ﻿l_english:
+
+ # Placeholder Age
+ # I'm confused why the same string definitions didn't work when I defined them in
+ # localisation/replace/EU4_l_english.yml.  Longer term we may want to re-do
+ # interface/ages_view.gui so it doesn't have references to the 4 PDX default Ages.
+ age_of_discovery_short:3 "Postclassic"
+ age_of_discovery:3 "Postclassic Period"
+ age_of_discovery_desc:3 "The Postclassic saw creation of a great many independent and quite inventive polities.  For more details please see the Mesoamerica Universalis Encyclopedia.  This Mod does not use the Ages/Splendor mechanics."
+
  #Trade Goods
  grain: "Staple Crops"
  grainDESC: "Represents the cultivated plants that were core to the Mesoamerican diet, such as maize, tomatoes, chili peppers, chia, beans, and squash."

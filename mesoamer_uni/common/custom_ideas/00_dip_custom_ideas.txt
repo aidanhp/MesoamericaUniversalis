@@ -414,7 +414,7 @@ dip_idea_modifiers = {
 			factor = 1
 			modifier = {
 				factor = 1.25
-				num_of_vassals = 2
+				vassal = 2
 			}
 		}
 	}		
