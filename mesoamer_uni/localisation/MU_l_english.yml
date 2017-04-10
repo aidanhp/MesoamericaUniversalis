@@ -115,7 +115,7 @@
  SPANISH_CONQUEST: "$ORDER$$FIRST$ Conquest of $SECOND_NAME$"
  
  #Religions
- mexican_group: "Non-Yucatan Mexican"
+ mexican_group: "Mesoamerican"
  newnahuatl: "Nahuatl"
  newnahuatl_religion_desc: "Covers a myriad of mesoamerican religions with similar gods and beliefs who practiced religiously motivated human sacrifice on large scales. States following this belief system would often adopt some of the gods of their conquered subjects, and likewise conquered subjects would add the patron god of their conquerers to their pantheon." 
  newnahuatl_rebels_demand:0 "Convert $COUNTRYNAME$"
