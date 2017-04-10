@@ -491,7 +491,8 @@ base_values = {
 	# MU: PDX default max_states changed from 1 to 5.  MU preference?
 	max_states = 5
 	num_accepted_cultures = 2
-	monthly_splendor = 1
+	# MU: no Ages/Splendor
+	monthly_splendor = 0
 	artillery_bonus_vs_fort = 5
 	cav_to_inf_ratio = 0.5
 }
@@ -834,7 +835,8 @@ luck = {
 	global_missionary_strength = 0.01
 	stability_cost_modifier = -0.10
 	global_institution_spread = 0.1
-	monthly_splendor = 1
+	# MU: no Ages/Splendor
+	monthly_splendor = 0
 
 	#economy
 	mercenary_cost = -0.25
@@ -939,7 +941,8 @@ uncontested_cores = {
 
 
 num_objectives_fullfilled = {
-	monthly_splendor = 2
+	# MU: no Ages/Splendor
+	monthly_splendor = 0
 }
 
 production_leader = {
