@@ -1,0 +1,18 @@
+government = despotic_monarchy 
+government_rank = 1
+mercantilism = 0.25
+technology_group = central_mexican
+religion = placeholderism
+primary_culture = placeholdertec
+capital = 170
+fixed_capital = 170
+
+1427.1.1 = {
+	monarch = {
+		name = "Random First Name"
+		dynasty = "Coalcoman"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

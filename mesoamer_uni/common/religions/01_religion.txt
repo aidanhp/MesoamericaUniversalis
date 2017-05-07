@@ -2,6 +2,31 @@
 
 # Uses all 'modifiers' possible thats exported as a Modifier.
 
+placeholder_group = {
+	defender_of_faith = no
+	can_form_personal_unions = no
+	flags_with_emblem_percentage = 33 # default == 0
+	flag_emblem_index_range = { 1 57 }
+	
+	placeholderism = {
+		color = { 0.30 0.80 0.30 }
+		icon = 17
+		country = {
+			tolerance_heathen = 6
+			tolerance_heretic = 6
+		}
+		country_as_secondary = {
+			tolerance_heathen = 6
+			tolerance_heretic = 6
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		can_have_secondary_religion = yes
+	}
+}
+
+
 mexican_group = {
 	defender_of_faith = no
 	can_form_personal_unions = no
@@ -26,7 +51,6 @@ mexican_group = {
 		can_have_secondary_religion = yes
 		declare_war_in_regency = yes
 		has_patriarchs = yes	
-		#misguided_heretic = yes	
 	}
 
 	tarascan = {
@@ -89,7 +113,7 @@ mexican_group = {
 		personal_deity = yes
 	}
 
-	newmayan = {
+	maya = {
 		color = { 0.30 0.80 0.80 }
 		icon = 19
 		country = {
@@ -105,18 +129,6 @@ mexican_group = {
 		}
 		can_have_secondary_religion = no
 		declare_war_in_regency = yes
-		
-		holy_sites = { 902 135 747 141 77 }
-
-		blessings = {
-			#blessing_of_fertility
-			blessing_of_the_scribe
-			blessing_of_the_warrior
-			blessing_of_the_farmer
-			blessing_of_the_conqueror
-			blessing_of_the_architect
-			blessing_of_the_merchant
-		}
 	}
 }
 

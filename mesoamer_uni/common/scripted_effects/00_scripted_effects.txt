@@ -187,3 +187,408 @@ add_stability_or_adm_power = {
 		add_stability = 1
 	}
 }
+
+boost_eunuchs_effect = {
+	if = {
+		limit = {
+			NOT = { has_dlc = "Mandate of Heaven" }
+		}
+		add_faction_influence = {
+			faction = enuchs
+			influence = 10
+		}
+	}
+}
+
+boost_eunuchs_large_effect = {
+	if = {
+		limit = {
+			NOT = { has_dlc = "Mandate of Heaven" }
+		}
+		add_faction_influence = {
+			faction = enuchs
+			influence = 15
+		}
+	}
+}
+
+reduce_eunuchs_effect = {
+	if = {
+		limit = {
+			NOT = { has_dlc = "Mandate of Heaven" }
+		}
+		add_faction_influence = {
+			faction = enuchs
+			influence = -10
+		}
+	}
+}
+
+reduce_eunuchs_large_effect = {
+	if = {
+		limit = {
+			NOT = { has_dlc = "Mandate of Heaven" }
+		}
+		add_faction_influence = {
+			faction = enuchs
+			influence = -15
+		}
+	}
+}
+
+boost_bureaucrats_effect = {
+	if = {
+		limit = {
+			NOT = { has_dlc = "Mandate of Heaven" }
+		}
+		add_faction_influence = {
+			faction = bureaucrats
+			influence = 10
+		}
+	}
+}
+
+boost_bureaucrats_large_effect = {
+	if = {
+		limit = {
+			NOT = { has_dlc = "Mandate of Heaven" }
+		}
+		add_faction_influence = {
+			faction = bureaucrats
+			influence = 15
+		}
+	}
+}
+
+reduce_bureaucrats_effect = {
+	if = {
+		limit = {
+			NOT = { has_dlc = "Mandate of Heaven" }
+		}
+		add_faction_influence = {
+			faction = bureaucrats
+			influence = -10
+		}
+	}
+}
+
+boost_temples_effect = {
+	if = {
+		limit = {
+			NOT = { has_dlc = "Mandate of Heaven" }
+		}
+		add_faction_influence = {
+			faction = temples
+			influence = 10
+		}
+	}
+}
+
+boost_temples_large_effect = {
+	if = {
+		limit = {
+			NOT = { has_dlc = "Mandate of Heaven" }
+		}
+		add_faction_influence = {
+			faction = temples
+			influence = 15
+		}
+	}
+}
+
+reduce_temples_effect = {
+	if = {
+		limit = {
+			NOT = { has_dlc = "Mandate of Heaven" }
+		}
+		add_faction_influence = {
+			faction = temples
+			influence = -10
+		}
+	}
+}
+
+reduce_temples_large_effect = {
+	if = {
+		limit = {
+			NOT = { has_dlc = "Mandate of Heaven" }
+		}
+		add_faction_influence = {
+			faction = temples
+			influence = -15
+		}
+	}
+}
+
+add_mandate_effect = {
+	if = {
+		limit = {
+			has_dlc = "Mandate of Heaven"
+			is_emperor_of_china = yes
+		}
+		add_mandate = 5
+	}
+}
+
+add_mandate_large_effect = {
+	if = {
+		limit = {
+			has_dlc = "Mandate of Heaven"
+			is_emperor_of_china = yes
+		}
+		add_mandate = 10
+	}
+}
+
+reduce_mandate_effect = {
+	if = {
+		limit = {
+			has_dlc = "Mandate of Heaven"
+			is_emperor_of_china = yes
+		}
+		add_mandate = -5
+	}
+}
+
+reduce_mandate_large_effect = {
+	if = {
+		limit = {
+			has_dlc = "Mandate of Heaven"
+			is_emperor_of_china = yes
+		}
+		add_mandate = -10
+	}
+}
+
+add_meritocracy_effect = {
+	if = {
+		limit = {
+			has_dlc = "Mandate of Heaven"
+			is_emperor_of_china = yes
+		}
+		add_meritocracy = 5
+	}
+}
+
+reduce_meritocracy_effect = {
+	if = {
+		limit = {
+			has_dlc = "Mandate of Heaven"
+			is_emperor_of_china = yes
+		}
+		add_meritocracy = -5
+	}
+}
+
+reduce_meritocracy_large_effect = {
+	if = {
+		limit = {
+			has_dlc = "Mandate of Heaven"
+			is_emperor_of_china = yes
+		}
+		add_meritocracy = -15
+	}
+}
+
+add_meritocracy_large_effect = {
+	if = {
+		limit = {
+			has_dlc = "Mandate of Heaven"
+			is_emperor_of_china = yes
+		}
+		add_meritocracy = 15
+	}
+}
+
+add_estate_church_loyalty_effect = {
+	if = {
+		limit = {
+			has_dlc = "The Cossacks"
+			has_estate = estate_church
+		}
+		add_estate_loyalty = {
+			estate = estate_church
+			loyalty = 10
+		}
+	}
+}
+
+reduce_estate_church_loyalty_effect = {
+	if = {
+		limit = {
+			has_dlc = "The Cossacks"
+			has_estate = estate_church
+		}
+		add_estate_loyalty = {
+			estate = estate_church
+			loyalty = -10
+		}
+	}
+}
+
+add_estate_nobles_loyalty_effect = {
+	if = {
+		limit = {
+			has_dlc = "The Cossacks"
+			has_estate = estate_nobles
+		}
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = 10
+		}
+	}
+}
+
+reduce_estate_nobles_loyalty_effect = {
+	if = {
+		limit = {
+			has_dlc = "The Cossacks"
+			has_estate = estate_nobles
+		}
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = -10
+		}
+	}
+}
+
+add_estate_burghers_loyalty_effect = {
+	if = {
+		limit = {
+			has_dlc = "The Cossacks"
+			has_estate = estate_burghers
+		}
+		add_estate_loyalty = {
+			estate = estate_burghers
+			loyalty = 10
+		}
+	}
+}
+
+reduce_estate_burghers_loyalty_effect = {
+	if = {
+		limit = {
+			has_dlc = "The Cossacks"
+			has_estate = estate_burghers
+		}
+		add_estate_loyalty = {
+			estate = estate_burghers
+			loyalty = -10
+		}
+	}
+}
+
+increase_legitimacy_small_effect = { #No IFs as the game hides these itself when incorrect.
+	add_legitimacy = 5
+	add_horde_unity = 5
+	add_devotion = 5
+	add_republican_tradition = 2.5
+}
+
+increase_legitimacy_medium_effect = { #No IFs as the game hides these itself when incorrect.
+	add_legitimacy = 10
+	add_horde_unity = 10
+	add_devotion = 10
+	add_republican_tradition = 5
+}
+
+reduce_legitimacy_small_effect = { #No IFs as the game hides these itself when incorrect.
+	add_legitimacy = -5
+	add_horde_unity = -5
+	add_devotion = -5
+	add_republican_tradition = -2.5
+}
+
+reduce_legitimacy_medium_effect = { #No IFs as the game hides these itself when incorrect.
+	add_legitimacy = -10
+	add_horde_unity = -10
+	add_devotion = -10
+	add_republican_tradition = -5
+}
+
+create_new_internal_consort_effect = { #Don't use if you want more options with different random consorts.
+	if = {
+		limit = {
+			has_dlc = "Rights of Man"
+			has_consort = no
+		}
+		define_consort = {
+			country_of_origin = ROOT
+		}
+	}
+}
+
+remove_advisor_adm_effect = {
+	if = {
+		limit = {
+			advisor = inquisitor
+		}
+		remove_advisor = inquisitor
+	}
+	if = {
+		limit = {
+			advisor = natural_scientist
+		}
+		remove_advisor = natural_scientist
+	}
+	if = {
+		limit = {
+			advisor = master_of_mint
+		}
+		remove_advisor = master_of_mint
+	}
+	if = {
+		limit = {
+			advisor = theologian
+		}
+		remove_advisor = theologian
+	}
+	if = { 
+		limit = {
+			advisor = artist
+		}
+		remove_advisor = artist
+	}
+	if = {
+		limit = {
+			advisor = philosopher
+		}
+		remove_advisor = philosopher
+	}
+	if = {
+		limit = { 
+			advisor = treasurer
+		}
+		remove_advisor = treasurer
+	}
+}
+
+increase_heir_dip_effect = {
+	if = {
+		limit = { NOT = { heir_dip = 6 } }
+		change_heir_dip = 1
+		ELSE = {
+			add_dip_power = 50
+		}
+	}
+}
+
+increase_heir_adm_effect = {
+	if = {
+		limit = { NOT = { heir_adm = 6 } }
+		change_heir_adm = 1
+		ELSE = {
+			add_adm_power = 50
+		}
+	}
+}
+
+increase_heir_mil_effect = {
+	if = {
+		limit = { NOT = { heir_mil = 6 } }
+		change_heir_mil = 1
+		ELSE = {
+			add_mil_power = 50
+		}
+	}
+}

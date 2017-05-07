@@ -145,6 +145,7 @@ righteous_personality = {
 			government = republic
 			government = monarchy
 		}
+		NOT = { government = celestial_empire }
 		NOT = { government = steppe_horde }
 		NOT = { government = tribal_despotism }
 		NOT = { government = tribal_kingdom }

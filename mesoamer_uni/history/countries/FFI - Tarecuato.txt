@@ -1,0 +1,18 @@
+government = despotic_monarchy 
+government_rank = 1
+mercantilism = 0.25
+technology_group = central_mexican
+religion = placeholderism
+primary_culture = placeholdertec
+capital = 140
+fixed_capital = 140
+
+1427.1.1 = {
+	monarch = {
+		name = "Random First Name"
+		dynasty = "Tarecuato"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

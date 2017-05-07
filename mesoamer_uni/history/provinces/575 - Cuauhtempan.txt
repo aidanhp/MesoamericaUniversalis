@@ -1,0 +1,16 @@
+add_core = VVZ
+add_core = VVY
+owner = VVY
+controller = VVY
+culture = placeholdertec
+religion = placeholderism
+hre = no
+base_tax = 1
+base_production = 3
+trade_goods = grain 
+base_manpower = 9
+capital = "Cuauhtempan"
+is_city = yes
+fort_15th = yes
+
+discovered_by = triple_alliance

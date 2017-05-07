@@ -89,6 +89,62 @@ paid_subject_loan = {
 	}
 }
 
+bestowed_gifts = {
+	reduced_liberty_desire = {
+		value = 15
+		yearly_decay = 1
+	}
+}
+
+sent_additional_troops = {
+	reduced_liberty_desire = {
+		value = 10
+		yearly_decay = 1
+	}
+}
+
+demanded_artifacts = {
+	liberty_desire = {
+		value = 25
+		yearly_decay = 1
+	}
+}
+
+demanded_additional_tribute = {
+	liberty_desire = {
+		value = 25
+		yearly_decay = 1
+	}
+}
+
+forced_seppuku = {
+	liberty_desire = {
+		value = 15
+		yearly_decay = 1
+	}
+}
+
+contributed_to_capital = {
+	liberty_desire = {
+		value = 25
+		yearly_decay = 1
+	}
+}
+
+conscripted_general = {
+	liberty_desire = {
+		value = 30
+		yearly_decay = 1
+	}
+}
+
+forced_isolation = {
+	liberty_desire = {
+		value = 25
+		yearly_decay = 1
+	}
+}
+
 lost_independence_war = {
 	reduced_liberty_desire = {
 		value = 50
@@ -99,6 +155,13 @@ lost_independence_war = {
 enforced_peace = {
 	liberty_desire = {
 		value = 10
+		yearly_decay = 1
+	}
+}
+
+overlord_refused_call = {
+	liberty_desire = {
+		value = 50
 		yearly_decay = 1
 	}
 }

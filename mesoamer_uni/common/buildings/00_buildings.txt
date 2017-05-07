@@ -17,8 +17,226 @@
 
 ################################################
 # Tier 1, 15th Century Buildings
-###############################################
+################################################
+marketplace = {
+	cost = 100
+	time = 12
+	
+	modifier = {
+		province_trade_power_modifier = 0.5
+	}
+	
+	ai_will_do = {
+		factor = 5000
+		modifier = {
+			factor = 0
+			NOT = { province_trade_power = 10 }
+		}
+	}
+}
 
+workshop = {
+	cost = 100
+	time = 12
+	modifier = {
+		local_production_efficiency = 0.5
+	}
+	
+	allow_in_gold_provinces = no
+
+	ai_will_do = {
+		factor = 1900
+		modifier = { 
+			factor = 0.95
+			NOT = { base_production = 15 }
+		}
+		modifier = { 
+			factor = 0.95
+			NOT = { base_production = 14 }
+		}
+		modifier = { 
+			factor = 0.95
+			NOT = { base_production = 13 }
+		}
+		modifier = { 
+			factor = 0.95
+			NOT = { base_production = 12 }
+		}
+		modifier = { 
+			factor = 0.95
+			NOT = { base_production = 11 }
+		}
+		modifier = { 
+			factor = 0.95
+			NOT = { base_production = 10 }
+		}
+		modifier = { 
+			factor = 0.95
+			NOT = { base_production = 9 }
+		}
+		modifier = { 
+			factor = 0.95
+			NOT = { base_production = 8 }
+		}
+		modifier = { 
+			factor = 0.95
+			NOT = { base_production = 7 }
+		}
+		modifier = { 
+			factor = 0.95
+			NOT = { base_production = 6 }
+		}
+	}
+}
+
+temple = {
+	cost = 100
+	time = 12
+	modifier = {
+		local_tax_modifier = 0.4
+	}
+	
+	ai_will_do = {
+		factor = 2500
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 15 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 14 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 13 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 12 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 11 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 10 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 9 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 8 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 7 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 6 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 5 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 4 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 3 }
+		}	
+		modifier = {
+			factor = 0
+			NOT = { base_tax = 2 }
+		}
+	}
+}
+
+barracks = {
+	cost = 100
+	time = 12
+	modifier = {
+		local_manpower_modifier = 0.5
+	}
+	
+	ai_will_do = {
+		factor = 1000
+		modifier = {
+			factor = 0
+			NOT = { base_manpower = 2 }
+		}
+		modifier = {
+			factor = 1.10
+			base_manpower = 3
+		}	
+		modifier = {
+			factor = 1.10
+			base_manpower = 4
+		}
+		modifier = {
+			factor = 1.10
+			base_manpower = 5
+		}
+		modifier = {
+			factor = 1.10
+			base_manpower = 6
+		}		
+		modifier = {
+			factor = 1.10
+			base_manpower = 7
+		}
+		modifier = {
+			factor = 1.10
+			base_manpower = 8
+		}
+		modifier = {
+			factor = 1.10
+			base_manpower = 9
+		}
+		modifier = {
+			factor = 1.10
+			base_manpower = 10
+		}		
+	}
+}		
+
+shipyard = {
+	cost = 100
+	time = 12
+	trigger = {
+		has_port = yes
+	}
+	modifier = {
+		naval_forcelimit = 2
+		ship_recruit_speed = -0.25
+		local_ship_repair = 0.25
+	}
+	
+	ai_will_do = {
+		factor = 1250
+		modifier = {
+			owner = { navy_size_percentage = .75 }
+			factor = 1.2
+		}
+		modifier = {
+			owner = { navy_size_percentage = .90 }
+			factor = 1.2
+		}
+		modifier = {
+			owner = { navy_size_percentage = 1.00 }
+			factor = 1.2
+		}
+		modifier = {
+			owner = { navy_size_percentage = 1.10 }
+			factor = 1.2
+		}
+	}
+}
 
 fort_15th = {
 	cost = 200
@@ -28,50 +246,120 @@ fort_15th = {
 	}
 	
 	onmap = yes
-	
 	influencing_fort = yes
 	
-	destroy_on_conquest = yes
-	
 	ai_will_do = {
-		factor = 1000
-		modifier = {
-			factor = 0.5
-			NOT = {
-				any_neighbor_province = {
-					NOT = { owned_by = ROOT }
-				}
-			}
-		}			
-		modifier = {
-			factor = 2.0
-			any_neighbor_province = {
-				NOT = { owned_by = ROOT }
-			}
-		}	
-		modifier = {
-			factor = 0.1
-			is_overseas = yes
-		}	
-		modifier = {
-			factor = 0
-			any_neighbor_province = {
-				owned_by = ROOT
-				OR = {
-					has_building = fort_15th
-					has_building = fort_16th
-					has_building = fort_17th
-					has_building = fort_18th
-				}
-			}
-		}		
-	}
+		factor = 3000 #Lots of logic in code instead, that multiplies with this value
+	} 
 }
 
 
 ################################################
 # Tier 2, 16th Century Buildings
 ################################################
+courthouse = {
+	cost = 100
+	time = 12
+	modifier = {
+		local_state_maintenance_modifier = -0.25
+		local_autonomy = -0.1
+	}
+	
+	ai_will_do = {
+		factor = 1500
+		modifier = {
+			factor = 0
+			nationalism = 1
+		}
+		modifier = {
+			factor = 0
+			is_state = no
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { development = 10 }
+		}
+	}
+}
+
+dock = {
+	cost = 100
+	time = 12
+	trigger = {
+		has_port = yes
+	}
+	modifier = {
+		local_sailors_modifier = 0.5
+	}
+	
+	ai_will_do = {
+		factor = 2000
+	}
+}
+
+regimental_camp = {
+	cost = 200
+	time = 12
+	modifier = {
+		land_forcelimit = 1
+	}
+	
+	ai_will_do = {
+		factor = 1250
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 10 
+		}		
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 20 
+		}		
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 30 
+		}		
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 40 
+		}	
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 50 
+		}
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 60 
+		}
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 70 
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 80 
+		}
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 90 
+		}
+		modifier = {
+			owner = { army_size_percentage = 0.75 }
+			factor = 1.2
+		}
+		modifier = {
+			owner = { army_size_percentage = 0.90 }
+			factor = 1.2
+		}
+		modifier = {
+			owner = { army_size_percentage = 1.00 }
+			factor = 1.2
+		}
+		modifier = {
+			owner = { army_size_percentage = 1.10 }
+			factor = 1.2
+		}
+	}
+}
 
 fort_16th = {
 	cost = 400
@@ -85,39 +373,249 @@ fort_16th = {
 	
 	influencing_fort = yes
 	
-	destroy_on_conquest = yes
+	ai_will_do = {
+		factor = 3000 #Lots of logic in code instead, that multiplies with this value
+	} 
+}
+
+################################################
+# Tier 3, 17th Century Buildings
+################################################
+cathedral = {
+	make_obsolete = temple
+	
+	cost = 300
+	time = 12
+	modifier = {
+		local_missionary_strength = 0.03
+		local_tax_modifier = 0.6
+	}
+	
+	ai_will_do = {
+		factor = 2500
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 15 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 14 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 13 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 12 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 11 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 10 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 9 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 8 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 7 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 6 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 5 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 4 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 3 }
+		}	
+		modifier = {
+			factor = 0
+			NOT = { base_tax = 2 }
+		}	
+	}
+}
+
+
+university = {
+	cost = 300
+	time = 12
+	modifier = {
+		local_development_cost = -0.20
+		allowed_num_of_buildings = 1
+	}
 	
 	ai_will_do = {
 		factor = 1000
 		modifier = {
-			factor = 0.5
-			NOT = {
-				any_neighbor_province = {
-					NOT = { owned_by = ROOT }
-				}
-			}
-		}			
+			factor = 2
+			is_capital = yes
+		}
 		modifier = {
-			factor = 2.0
-			any_neighbor_province = {
-				NOT = { owned_by = ROOT }
-			}
-		}	
+			factor = 1.1
+			NOT = { development = 20 }
+		}
 		modifier = {
-			factor = 0.1
-			is_overseas = yes
+			factor = 1.2
+			NOT = { development = 10 }
+		}
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 10
+		}		
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 20
+		}		
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 30
 		}	
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 40
+		}
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 50
+		}
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 60
+		}
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 70
+		}
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 80
+		}
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 90
+		}
+	}	
+}
+
+trade_depot = {
+	cost = 300
+	time = 12
+	
+	make_obsolete = marketplace
+	
+	modifier = {
+		province_trade_power_modifier = 1
+	}
+	
+	ai_will_do = {
+		factor = 5000
 		modifier = {
 			factor = 0
-			any_neighbor_province = {
-				owned_by = ROOT
-				OR = {
-					has_building = fort_15th
-					has_building = fort_16th
-					has_building = fort_17th
-					has_building = fort_18th
-				}
-			}
+			NOT = { province_trade_power = 10 }
+		}
+	}
+}
+
+grand_shipyard = {
+	cost = 300
+	time = 12
+	
+	make_obsolete = shipyard
+	
+	trigger = {
+		has_port = yes
+	}
+	modifier = {
+		naval_forcelimit = 4
+		ship_recruit_speed = -0.50
+		local_ship_repair = 0.50
+	}
+	
+	ai_will_do = {
+		factor = 1250
+		modifier = {
+			owner = { navy_size_percentage = .75 }
+			factor = 1.2
+		}
+		modifier = {
+			owner = { navy_size_percentage = .90 }
+			factor = 1.2
+		}
+		modifier = {
+			owner = { navy_size_percentage = 1.00 }
+			factor = 1.2
+		}
+		modifier = {
+			owner = { navy_size_percentage = 1.10 }
+			factor = 1.2
+		}
+	}
+}
+
+training_fields = {
+	cost = 300
+	time = 12
+	
+	make_obsolete = barracks
+	
+	modifier = {
+		local_manpower_modifier = 1
+	}
+	
+	ai_will_do = {
+		factor = 1200
+		modifier = {
+			factor = 0
+			NOT = { base_manpower = 2 }
+		}
+		modifier = {
+			factor = 1.10
+			base_manpower = 3
+		}	
+		modifier = {
+			factor = 1.10
+			base_manpower = 4
+		}
+		modifier = {
+			factor = 1.10
+			base_manpower = 5
+		}
+		modifier = {
+			factor = 1.10
+			base_manpower = 6
+		}		
+		modifier = {
+			factor = 1.10
+			base_manpower = 7
+		}
+		modifier = {
+			factor = 1.10
+			base_manpower = 8
+		}
+		modifier = {
+			factor = 1.10
+			base_manpower = 9
+		}
+		modifier = {
+			factor = 1.10
+			base_manpower = 10
 		}		
 	}
 }
@@ -137,47 +635,174 @@ fort_17th = {
 	
 	influencing_fort = yes
 	
-	destroy_on_conquest = yes
-	
 	ai_will_do = {
-		factor = 1000
-		modifier = {
-			factor = 0.5
-			NOT = {
-				any_neighbor_province = {
-					NOT = { owned_by = ROOT }
-				}
-			}
-		}			
-		modifier = {
-			factor = 2.0
-			any_neighbor_province = {
-				NOT = { owned_by = ROOT }
-			}
-		}	
-		modifier = {
-			factor = 0.1
-			is_overseas = yes
-		}	
-		modifier = {
-			factor = 0
-			any_neighbor_province = {
-				owned_by = ROOT
-				OR = {
-					has_building = fort_15th
-					has_building = fort_16th
-					has_building = fort_17th
-					has_building = fort_18th
-				}
-			}
-		}			
-	}
+		factor = 3000 #Lots of logic in code instead, that multiplies with this value
+	} 
 }
+
+
 
 ################################################
 # Tier 4, 18th Century Buildings
 ################################################
+stock_exchange = {
+	cost = 400
+	time = 12
+	
+	make_obsolete = trade_depot
+	
+	modifier = {
+		province_trade_power_modifier = 1.25
+	}
+	
+	ai_will_do = {
+		factor = 5000
+		modifier = {
+			factor = 0
+			NOT = { province_trade_power = 10 }
+		}
+	}
+}
 
+counting_house = {
+	cost = 400
+	time = 12
+	
+	make_obsolete = workshop
+	modifier = {
+		local_production_efficiency = 1
+	}
+	
+	allow_in_gold_provinces = no
+	
+	ai_will_do = {
+		factor = 1900
+		
+		modifier = { 
+			factor = 0.95
+			NOT = { base_production = 15 }
+		}
+		modifier = { 
+			factor = 0.95
+			NOT = { base_production = 14 }
+		}
+		modifier = { 
+			factor = 0.95
+			NOT = { base_production = 13 }
+		}
+		modifier = { 
+			factor = 0.95
+			NOT = { base_production = 12 }
+		}
+		modifier = { 
+			factor = 0.95
+			NOT = { base_production = 11 }
+		}
+		modifier = { 
+			factor = 0.95
+			NOT = { base_production = 10 }
+		}
+		modifier = { 
+			factor = 0.95
+			NOT = { base_production = 9 }
+		}
+		modifier = { 
+			factor = 0.95
+			NOT = { base_production = 8 }
+		}
+		modifier = { 
+			factor = 0.95
+			NOT = { base_production = 7 }
+		}
+		modifier = { 
+			factor = 0.95
+			NOT = { base_production = 6 }
+		}
+	}
+}
+
+
+
+
+town_hall = {
+	cost = 200
+	time = 12
+	
+	make_obsolete = courthouse
+	
+	modifier = {
+		local_state_maintenance_modifier = -0.5
+		local_autonomy = -0.2
+	}
+	
+	ai_will_do = {
+		factor = 1500
+		modifier = {
+			factor = 0
+			nationalism = 1
+		}
+		modifier = {
+			factor = 0
+			is_state = no
+		}		
+	
+		modifier = {
+			factor = 0.1
+			NOT = { development = 10 }
+		}
+	}
+}
+
+drydock = {
+	cost = 300
+	time = 12
+	
+	make_obsolete = dock
+	
+	trigger = {
+		has_port = yes
+	}
+	
+	modifier = {
+		local_sailors_modifier = 1.0
+	}	
+	
+	ai_will_do = {
+		factor = 2000
+	}
+}
+
+conscription_center = {
+	cost = 400
+	time = 12
+	
+	
+	make_obsolete = regimental_camp
+	
+	modifier = {
+		land_forcelimit = 2
+	}
+	
+	ai_will_do = {
+		factor = 1250
+		modifier = {
+			owner = { army_size_percentage = .75 }
+			factor = 1.2
+		}
+		modifier = {
+			owner = { army_size_percentage = .90 }
+			factor = 1.2
+		}
+		modifier = {
+			owner = { army_size_percentage = 1.00 }
+			factor = 1.2
+		}
+		modifier = {
+			owner = { army_size_percentage = 1.10 }
+			factor = 1.2
+		}
+	}
+}
 
 
 
@@ -188,8 +813,6 @@ fort_18th = {
 	
 	make_obsolete = fort_17th
 	
-	destroy_on_conquest = yes
-	
 	modifier = {
 		fort_level = 8
 	}
@@ -199,37 +822,311 @@ fort_18th = {
 	influencing_fort = yes
 	
 	ai_will_do = {
+		factor = 3000 #Lots of logic in code instead, that multiplies with this value
+	} 
+}
+
+################################################
+# Manufactories
+################################################
+
+
+wharf = {
+	cost = 500
+	time = 60
+	manufactory = {
+		naval_supplies
+		fish
+		salt
+	}
+	modifier = {
+		trade_goods_size = 1.0
+	}
+	onmap = yes
+	
+	ai_will_do = {
 		factor = 1000
 		modifier = {
-			factor = 0.5
-			NOT = {
-				any_neighbor_province = {
-					NOT = { owned_by = ROOT }
-				}
-			}
-		}			
+			factor = 0.95 
+			local_autonomy = 10
+		}
 		modifier = {
-			factor = 2.0
-			any_neighbor_province = {
-				NOT = { owned_by = ROOT }
-			}
+			factor = 0.95 
+			local_autonomy = 20
+		}
+		modifier = {
+			factor = 0.95 
+			local_autonomy = 30
+		}
+		modifier = {
+			factor = 0.95 
+			local_autonomy = 40
+		}
+		modifier = {
+			factor = 0.95 
+			local_autonomy = 50
+		}
+		modifier = {
+			factor = 0.95 
+			local_autonomy = 60
+		}
+		modifier = {
+			factor = 0.95 
+			local_autonomy = 70
 		}	
 		modifier = {
-			factor = 0.1
-			is_overseas = yes
+			factor = 0.95 
+			local_autonomy = 80
 		}	
 		modifier = {
-			factor = 0
-			any_neighbor_province = {
-				owned_by = ROOT
-				OR = {
-					has_building = fort_15th
-					has_building = fort_16th
-					has_building = fort_17th
-					has_building = fort_18th
-				}
-			}
-		}		
+			factor = 0.95 
+			local_autonomy = 90
+		}
+		modifier = {
+			NOT = { num_free_building_slots  = 3 }
+			factor = 1.5
+		}
 	}
 }
 
+weapons = {
+	cost = 500
+	time = 60
+	manufactory = {
+		copper
+		iron
+	}
+	modifier = {
+		trade_goods_size = 1.0
+	}
+	onmap = yes	
+	
+	ai_will_do = {
+		factor = 1000
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 10
+		}			
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 20
+		}		
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 30
+		}			
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 40
+		}		
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 50
+		}	
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 60
+		}	
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 70
+		}	
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 80
+		}	
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 90
+		}
+		modifier = {
+			NOT = { num_free_building_slots  = 3 }
+			factor = 1.5
+		}
+	}
+}
+
+textile = {
+	cost = 500
+	time = 60
+	manufactory = {
+		wool
+		cloth
+		silk
+		dyes
+	}
+	modifier = {
+		trade_goods_size = 1.0
+	}
+	onmap = yes
+	
+	ai_will_do = {
+		factor = 1000
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 10
+		}			
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 20
+		}		
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 30
+		}			
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 40
+		}		
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 50
+		}	
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 60
+		}	
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 70
+		}	
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 80
+		}	
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 90
+		}
+		modifier = {
+			NOT = { num_free_building_slots  = 3 }
+			factor = 1.5
+		}
+	}
+}
+
+
+
+plantations = {
+	cost = 500
+	time = 60
+	manufactory = {
+		coffee
+		cotton
+		sugar
+		tobacco
+		cocoa
+		grain
+	}
+	modifier = {
+		trade_goods_size = 1.0	
+	}
+	onmap = yes
+	
+	ai_will_do = {
+		factor = 1000
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 10
+		}			
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 20
+		}		
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 30
+		}			
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 40
+		}		
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 50
+		}	
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 60
+		}	
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 70
+		}	
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 80
+		}	
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 90
+		}	
+		modifier = {
+			NOT = { num_free_building_slots  = 3 }
+			factor = 1.5
+		}
+	}
+}
+
+tradecompany = {
+	cost = 500
+	time = 60
+	manufactory = {
+		ivory
+		tea
+		chinaware
+		slaves
+		spices
+		fur
+		wine
+		tropical_wood
+	}
+	modifier = {
+		trade_goods_size = 1.0	
+	}
+	onmap = yes
+
+	ai_will_do = {
+		factor = 1000
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 10
+		}			
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 20
+		}		
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 30
+		}			
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 40
+		}		
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 50
+		}	
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 60
+		}	
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 70
+		}	
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 80
+		}	
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 90
+		}	
+		modifier = {
+			NOT = { num_free_building_slots  = 3 }
+			factor = 1.5
+		}
+	}
+}

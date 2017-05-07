@@ -1,0 +1,18 @@
+government = despotic_monarchy 
+government_rank = 1
+mercantilism = 0.25
+technology_group = central_mexican 
+religion = placeholderism
+primary_culture = placeholdertec
+capital = 8
+fixed_capital = 8
+
+1427.1.1 = {
+	monarch = {
+		name = "Random First Name"
+		dynasty = "Ecatepec"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

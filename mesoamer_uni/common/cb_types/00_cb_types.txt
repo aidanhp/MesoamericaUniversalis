@@ -21,7 +21,10 @@ cb_restore_personal_union = {
 	months = 240
 
 	prerequisites = {
-		government = monarchy
+		OR = {
+			government = monarchy
+			government = dutch_republic
+		}
 		is_revolution_target = no
 		FROM = {
 			government = monarchy
@@ -160,7 +163,7 @@ cb_trade_war_triggered = {
 		po_release_annexed
 		po_return_cores
 		po_become_vassal
-		po_become_protectorate
+		po_become_tributary_state
 		po_form_personal_union
 	}
 }
@@ -171,11 +174,18 @@ cb_trade_conflict = {
 	is_triggered_only = yes
 	months = 24
 
-	war_goal = superiority_trade
+	war_goal = blockade_ports
 
 	attacker_disabled_po = {
-		po_become_protectorate
+		po_annex
+		po_demand_provinces
+		po_revoke_cores
+		po_release_vassals
+		po_release_annexed
+		po_return_cores
+		po_become_vassal
 		po_form_personal_union
+		po_become_tributary_state
 	}
 }
 
@@ -198,7 +208,7 @@ cb_trade_league_conflict = {
 		po_release_annexed
 		po_return_cores
 		po_become_vassal
-		po_become_protectorate
+		po_become_tributary_state
 		po_form_personal_union
 	}
 }
@@ -230,6 +240,7 @@ cb_humiliate = {
 
 	prerequisites = {
 		has_dlc = "Conquest of Paradise"
+		government = native_council
 		NOT = {
 			truce_with = FROM
 			num_of_cities = 2
@@ -273,9 +284,13 @@ cb_independence_war = {
 	independence = yes
 
 	prerequisites = {
-		is_subject = yes
+		is_subject_other_than_tributary_trigger = yes
 		is_subject_of = FROM
 		NOT = { is_colonial_nation_of = FROM }
+		OR = {
+			NOT = { government = daimyo }
+			NOT = { from = { government = shogunate } }
+		}
 		is_revolution_target = no
 	}
 
@@ -301,7 +316,7 @@ cb_nationalist = {
 
 	prerequisites = {
 		dip_tech = 23
-		is_subject = no
+		is_free_or_tributary_trigger = yes
 		culture_group_claim = FROM
 		is_revolution_target = no
 	}
@@ -318,11 +333,132 @@ cb_imperial = {
 			dip_tech = 23
 			invasion_nation = yes
 		}
-		is_subject = no
+		is_free_or_tributary_trigger = yes
 		is_revolution_target = no
 	}
 
 	war_goal = take_capital_imperial
+}
+
+# Daimyo on Japan
+cb_daimyo_annex = {
+	valid_for_subject = no
+	exclusive = yes
+	independence = yes
+
+	prerequisites = {
+		is_subject = yes
+		OR = {
+			vassal_of = FROM
+			junior_union_with = FROM
+		}
+		government = daimyo
+		from = { government = shogunate }
+		is_revolution_target = no
+	}
+
+	war_goal = annex_country
+}
+
+cb_independent_daimyo_annex = {
+	valid_for_subject = no
+	exclusive = yes
+
+	prerequisites = {
+		is_subject = no
+		NOT = {
+			vassal_of = FROM
+			junior_union_with = FROM
+		}
+		government = daimyo
+		from = { government = shogunate }
+		is_revolution_target = no
+	}
+
+	war_goal = annex_country
+}
+
+cb_shogun_annex = {
+	valid_for_subject = no
+
+	prerequisites = {
+		government = shogunate
+		from = {
+			government = daimyo
+			OR = {
+				num_of_cities = 10
+				is_subject = no
+			}
+		}
+		is_revolution_target = no
+	}
+
+	war_goal = annex_country
+}
+
+# Sengoku - Daimyo infighting
+cb_sengoku = {
+	valid_for_subject = no
+
+	prerequisites = {
+		government = daimyo
+		is_neighbor_of = FROM
+		is_subject = yes
+		from = {
+			government = daimyo
+			is_subject = yes
+		}
+		is_revolution_target = no
+	}
+
+	war_goal = annex_country
+}
+
+# Revolutionary CB
+cb_revolutionary = {
+	valid_for_subject = no
+
+	prerequisites = {
+		is_neighbor_of = FROM
+		cb_on_government_enemies = yes
+		NOT = {
+			government = papal_government
+			government = steppe_horde
+			government = dutch_republic
+			government = celestial_empire
+			government = iqta
+			government = daimyo
+			government = shogunate
+			government = colonial_government
+			government = native_council
+		}
+		FROM = {
+			NOT = {
+				government = papal_government
+				government = steppe_horde
+				government = dutch_republic
+				government = celestial_empire
+				government = iqta
+				government = daimyo
+				government = shogunate
+				government = colonial_government
+				government = native_council
+			}
+		}
+		OR = {
+			AND = {
+				government = monarchy
+				FROM = { government = republic }
+			}
+			AND = {
+				government = republic
+				NOT = { FROM = { government = republic } }
+			}
+		}
+		is_revolution_target = no
+	}
+
+	war_goal = war_goal_change_government_mutual
 }
 
 # Colonialist CB
@@ -395,9 +531,16 @@ cb_heretic = {
 cb_trade_war = {
 
 	prerequisites = {
-		AND = {
-			trade_embargo_by = FROM
-			NOT = { FROM = { trade_embargo_by = ROOT } }
+
+		OR = {
+			AND = {
+				trade_embargo_by = FROM
+				NOT = { FROM = { trade_embargo_by = ROOT } }
+			}
+			AND = {
+				government = merchant_republic
+				FROM = { government = merchant_republic }
+			}
 		}
 		is_revolution_target = no
 	}
@@ -412,7 +555,7 @@ cb_trade_war = {
 		po_release_annexed
 		po_return_cores
 		po_become_vassal
-		po_become_protectorate
+		po_become_tributary_state
 		po_form_personal_union
 	}
 }
@@ -437,9 +580,45 @@ cb_trade_league_dispute = {
 		po_release_annexed
 		po_return_cores
 		po_become_vassal
-		po_become_protectorate
+		po_become_tributary_state
 		po_form_personal_union
 	}
+}
+
+# Imperial Ban
+cb_imperial_ban = {
+	valid_for_subject = no
+
+	prerequisites = {
+		is_emperor = yes
+		is_imperial_ban_allowed = yes
+		FROM = {
+			capital_scope = { is_part_of_hre = no }
+			any_owned_province = {
+				is_part_of_hre = yes
+			}
+		}
+		is_revolution_target = no
+	}
+
+	war_goal = take_province_ban
+}
+
+# Liberate Elector
+cb_liberate_elector = {
+	valid_for_subject = no
+
+	prerequisites = {
+		is_emperor = yes
+		FROM = {
+			any_subject_country = {
+				is_elector = yes
+			}
+		}
+		is_revolution_target = no
+	}
+
+	war_goal = superiority_liberation
 }
 
 # Coalition CB
@@ -471,6 +650,56 @@ cb_claim_throne = {
 	}
 
 	war_goal = take_capital_throne
+}
+
+# Horde vs Civilized
+cb_horde_vs_civ = {
+	valid_for_subject = no
+
+	prerequisites = {
+		is_neighbor_of = FROM
+		FROM = {
+			is_nomad = no
+		}
+		is_nomad = yes
+		is_revolution_target = no
+	}
+
+	war_goal = superiority_horde
+}
+
+# Tribal vs Tribal Feud
+cb_tribal_feud = {
+	valid_for_subject = no
+
+	prerequisites = {
+		is_nomad = yes
+		FROM = {
+			is_nomad = yes
+		}
+		is_neighbor_of = FROM
+		is_revolution_target = no
+	}
+
+	war_goal = take_province_tribal_feud
+}
+
+# Revoke electorate
+cb_revoke_electorate = {
+	no_opinion_hit = yes
+
+	prerequisites = {
+		NOT = { has_dlc = "Common Sense" } # replaced by revoke elector diploaction
+		NOT = { has_dlc = "Art of War" } # breaks league system
+		FROM = {
+			is_elector = yes
+		}
+		is_emperor = yes
+		NOT = { religion = FROM }
+		is_revolution_target = no
+	}
+
+	war_goal = revoke_elector
 }
 
 # When someone is privateering in a node that you trade and have some power in.
@@ -522,6 +751,28 @@ cb_support_rebels = {
 	war_goal = take_capital_support_rebels
 }
 
+cb_religious_league = {
+	league = yes
+	ai_peace_desire = -50
+
+	valid_for_subject = no
+
+	prerequisites = {
+		has_dlc = "Art of War"
+		is_in_league_war = no
+		FROM = {
+			is_emperor = yes
+			is_in_league_war = no
+		}
+		is_league_leader = yes
+		hre_heretic_religion = ROOT
+		is_league_enemy = FROM
+		is_revolution_target = no
+	}
+
+	war_goal = superiority_religious_league
+}
+
 # Rival Humiliate CB
 cb_humiliate_rotw = {
 	valid_for_subject = no
@@ -538,16 +789,32 @@ cb_humiliate_rotw = {
 	attacker_disabled_po = {
 		po_annex
 		po_demand_provinces
-		po_revoke_cores
 		po_release_vassals
 		po_release_annexed
 		po_return_cores
 		po_become_vassal
-		po_become_protectorate
+		po_become_tributary_state
 		po_form_personal_union
 	}
 
 	war_goal = humiliate_rotw
+}
+
+# Force migration
+cb_force_migration = {
+
+	valid_for_subject = no
+
+	prerequisites = {
+		has_dlc = "The Cossacks"
+		is_neighbor_of = FROM
+		is_free_or_tributary_trigger = yes
+		FROM = {
+			can_migrate = yes
+			is_free_or_tributary_trigger = yes
+		}
+	}
+	war_goal = force_migration
 }
 
 # Forced our ally to break alliance
@@ -558,4 +825,18 @@ cb_forced_break_alliance = {
 	months = 120
 	
 	war_goal = superiority_insult
+}
+
+cb_force_tributary = {
+
+	valid_for_subject = no
+
+	prerequisites = {
+		has_dlc = "Mandate of Heaven"
+		is_emperor_of_china = yes
+		FROM = { is_subject = no }
+		is_neighbor_of = FROM
+	}
+	
+	war_goal = take_capital_force_tributary
 }

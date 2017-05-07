@@ -8,8 +8,6 @@ bookmark =
 	default = no
 
 	
-	country = KKG
-	country = KAQ
-	country = XCN
+	country = AAA
 	
 }

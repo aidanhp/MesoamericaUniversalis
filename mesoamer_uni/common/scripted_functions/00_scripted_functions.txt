@@ -21,19 +21,12 @@ can_harsh_treatment = {
 }
 
 can_reduce_war_exhaustion = {
-	condition = {
-		tooltip = "NO_WE_DOWN_WAR"
-		potential = {
-			NOT = { has_idea = attritionmentality }
-			is_at_war = yes
-		}
-		allow = {
-			always = no
-		}
-	}	
 }
 
 can_reduce_inflation = {
+}
+
+can_declare_bankruptcy = {
 }
 
 can_release_colonial_nation = {
@@ -58,42 +51,12 @@ can_increase_stability = {
 
 # ROOT = province, FROM = country
 can_add_province_to_hre = {
-	condition = {
-		tooltip = "APH_NOT_OWNED_CONTROLLED"
-		potential = {
-		}
-		allow = {
-			owned_by = FROM
-			controlled_by = FROM
-		}
-	}
+	
 }
 
 can_remove_province_from_hre = {
-	condition = {
-		tooltip = "RPH_AT_WAR"
-		potential = {
-		}
-		allow = {
-			owner = { is_at_war = no }
-		}
-	}
-	condition = {
-		tooltip = "RPH_SUBJECT"
-		potential = {
-		}
-		allow = {
-			owner = { is_subject = no }
-		}
-	}
-	condition = {
-		tooltip = "RPH_TRUCE_EMP"
-		potential = {
-		}
-		allow = {
-			owner = { NOT = { truce_with = emperor } }
-		}
-	}
+	
+
 }
 
 can_increase_autonomy = {
@@ -112,39 +75,12 @@ can_abandon_state = {
 }
 
 can_improve_tax = {
-	condition = {
-		tooltip = "POPULATION_SYS_NO"
-		potential = {
-			always = yes
-		}
-		allow = {
-			always = no
-		}
-	}
 }
 
 can_improve_production = {
-	condition = {
-		tooltip = "POPULATION_SYS_NO"
-		potential = {
-			always = yes
-		}
-		allow = {
-			always = no
-		}
-	}
 }
 
 can_improve_manpower = {
-	condition = {
-		tooltip = "POPULATION_SYS_NO"
-		potential = {
-			always = yes
-		}
-		allow = {
-			always = no
-		}
-	}
 }
 
 can_change_culture = {
@@ -172,6 +108,9 @@ can_seize_colony = {
 }
 
 can_burn_colony = {
+}
+
+can_colonize_province = {
 }
 
 can_add_seat_in_parliament = {

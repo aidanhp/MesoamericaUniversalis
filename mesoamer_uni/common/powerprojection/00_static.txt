@@ -70,9 +70,20 @@ guarantee_neighbour_of_rival = {
 	power = 0
 }
 
+current_age_power_projection = {
+	power = 3
+	max = 21
+}
+
 ##################################
 # DYNAMIC, ADDED AND THEN DECAYED
 ##################################
+last_age_power_projection = {
+	power = 3
+	yearly_decay = 1
+	max = 21
+}
+
 
 insulted_rival = {
 	power = 5

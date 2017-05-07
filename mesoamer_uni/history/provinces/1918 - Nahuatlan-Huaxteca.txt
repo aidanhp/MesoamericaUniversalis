@@ -1,0 +1,19 @@
+add_core = L76
+owner = L76
+controller = L76
+culture = placeholdertec
+religion = placeholderism
+hre = no
+base_tax = 1
+base_production = 3
+trade_goods = grain 
+base_manpower = 9
+capital = "Nahuatlan-Huaxteca"
+is_city = yes
+fort_15th = yes
+
+discovered_by = triple_alliance 
+discovered_by = central_mexican 
+discovered_by = tarascan 
+discovered_by = west_mexican 
+discovered_by = maya 

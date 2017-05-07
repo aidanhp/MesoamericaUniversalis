@@ -1,0 +1,17 @@
+add_core = A20
+add_core = A21
+owner = A21
+controller = A21
+culture = placeholdertec
+religion = placeholderism
+hre = no
+base_tax = 1
+base_production = 3
+trade_goods = grain 
+base_manpower = 9
+capital = "Tepetixtlan"
+is_city = yes
+fort_15th = yes
+
+discovered_by = central_mexican
+discovered_by = triple_alliance

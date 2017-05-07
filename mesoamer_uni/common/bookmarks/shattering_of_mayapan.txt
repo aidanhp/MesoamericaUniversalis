@@ -9,7 +9,5 @@ bookmark =
 
 	
 
-	country = LOM
-	country = CUP
-	country = EKA
+	country = AAA
 }

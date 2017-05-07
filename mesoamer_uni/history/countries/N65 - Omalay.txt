@@ -1,0 +1,17 @@
+government = despotic_monarchy 
+government_rank = 1
+mercantilism = 0.25
+technology_group = central_mexican
+religion = placeholderism
+primary_culture = placeholdertec
+capital = 2247
+fixed_capital = 2247
+
+1427.1.1 = {
+	monarch = {
+		name = "Omalay"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

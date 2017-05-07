@@ -1,1 +1,1 @@
-technology_group = western
+technology_group = central_mexican

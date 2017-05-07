@@ -1,23 +1,15 @@
-add_core = XAL
-owner = XAL
-controller = XAL
-culture = acolhua
-religion = newnahuatl 
+add_core = AAL
+owner = AAL
+controller = AAL
+culture = placeholdertec
+religion = placeholderism
 hre = no
-base_tax = 2
-base_production = 4
+base_tax = 1
+base_production = 3
 trade_goods = grain 
-base_manpower = 15
+base_manpower = 9
 capital = "Xaltocan"
 is_city = yes
 fort_15th = yes
 
-1428.1.1 = {
-	add_claim = TET
-}
-
-discovered_by = semi_nomadic_tribe
-discovered_by = west_mexican
-discovered_by = tarascan
-discovered_by = central_mexican
 discovered_by = triple_alliance

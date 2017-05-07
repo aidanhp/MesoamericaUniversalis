@@ -1,0 +1,18 @@
+government = despotic_monarchy 
+government_rank = 1
+mercantilism = 0.25
+technology_group = central_mexican
+religion = placeholderism
+primary_culture = placeholdertec
+capital = 1	
+fixed_capital = 1
+
+1427.1.1 = {
+	monarch = {
+		name = "Itzcoatl"
+		dynasty = "Tenoch"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

@@ -3,90 +3,113 @@
 
 
 # Base resources
-#FORMULA FOR DETEMINING PRICE: 2 + ((Value + Use Class) / 2)
 grain = {
-	base_price = 2.50
+	base_price = 2
 }
 
-aquaticfoods = {
-	base_price = 2.50
+wine = {
+	base_price = 2.5
 }
 
-fruits = {
-	base_price = 2.50
+wool = {
+	base_price = 2.5
 }
 
-choclate = {
-	base_price = 5.50
+cloth = {
+	base_price = 3
 }
 
-ceramics = {
-	base_price = 4.0
+fish = {
+	base_price = 2.5
 }
 
-textiles = {
-	base_price = 4.50
+fur = {
+	base_price = 2
 }
-
-obsidian = {
-	base_price = 5.50
-}
-
-preciousstones = {
-	base_price = 7.0
-}
-
-plumes = {
-	base_price = 5.0
-}
-
 
 salt = {
-	base_price = 4.50
+	base_price = 3
 }
 
-bronze = {
-	base_price = 7.5
+naval_supplies = {
+	base_price = 2
+}
+
+
+# Metals
+copper = {
+	base_price = 3
 }
 
 gold = {
-	base_price = 7.5
-}
-
-lime = {
-	base_price = 5.0
+	base_price = 0
+	goldtype = yes
 }
 
 iron = {
-	base_price = 2
+	base_price = 3
 }
 
 
-lumber = {
+# African Resources
+slaves = {
+	base_price = 2
+}
+ivory = {
+	base_price = 4 
+}
+
+
+# Eastern Resources
+tea = {
 	base_price = 2
 }
 
-balsas = {
-	base_price = 8.0
+chinaware = {
+	base_price = 3
+}
+
+spices = {
+	base_price = 3
+}
+
+
+# New World Resources
+coffee = {
+	base_price = 3
 }
 
 cotton = {
-	base_price = 4.0
+	base_price = 3
 }
 
-honey = {
-	base_price = 3.0
+sugar = {
+	base_price = 3 
 }
 
-slaves = {
-	base_price = 4.0
+tobacco = {
+	base_price = 3
 }
 
-copal = {
-	base_price = 4.5
+cocoa = {
+	base_price = 4 
 }
 
+# New Non-European Tradegoods
+
+silk = {
+	base_price = 4
+}
+
+
+tropical_wood = {
+	base_price = 2
+}
+
+dyes = {
+	base_price = 4 
+}
 
 unknown = {
-	base_price = 4.0
+	base_price = 0
 }

@@ -1,0 +1,19 @@
+add_core = L74
+owner = L74
+controller = L74
+culture = placeholdertec
+religion = placeholderism
+hre = no
+base_tax = 1
+base_production = 3
+trade_goods = grain 
+base_manpower = 9
+capital = "Tancuayalab"
+is_city = yes
+fort_15th = yes
+
+discovered_by = triple_alliance 
+discovered_by = central_mexican 
+discovered_by = tarascan 
+discovered_by = west_mexican 
+discovered_by = maya 

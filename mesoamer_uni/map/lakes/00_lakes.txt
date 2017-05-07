@@ -1,34 +1,115 @@
 # Good day guy trying to learn from this! Turns out if you want to make a lake that's
 # far above sea level you need to create one of these. The numbers are x and y coordinates of the vertices a mesh
-# and that mesh looks exactly like a lake. Only way to get it right is to guess and check 
-# Good luck
+# and that mesh looks exactly like a lake. The numbers come in sets of two, the first is x, the second is y
+# You find the x value by finding the x value of where you want one of the mesh's vertices to be on the province map
+# You find the y value finding the y value of said vertex and subtracting it from 2048
+# I'm not sure why sometimes it seems like you need four sets and sometimes it seems like you only need 3
 
-#Covers all Lakes in Mexican Basin
+
+#Lakes Texcoco, Xochimilco, Xaltocan, Chalco
 lake = {
-	triangle_strip = { 1527 936 1525 1010 1700 942 1600 1088 }
-	height = 36
+	triangle_strip = { 1503 1111 1484 1222 1411 1053 1606 1034 }
+	height = 43
 }
 
 #Lake Patzcuaro
 lake = {
-	triangle_strip = { 1142 1054 1106 1004 1173 1008 1154 1059}
-	height = 35
+	triangle_strip = { 1068 1120 1045 1106 1099 1106 1076 1148 }
+	height = 41
 }
 
 #Lake Cuitzeo
 lake = {
-	triangle_strip = { 1170 1075 1246 1130 1291 1073 1282 1105}
-	height = 35
+	triangle_strip = { 1156 1182 1106 1168 1214 1170 1153 1227 }
+	height = 40
 }
 
 #Lake Chapala
 lake = {
-	triangle_strip = { 876 1121 747 1160 993 1131 876 1224 }
-	height = 33
+	triangle_strip = { 873 1239 765 1240 911 1142 914 1295 }
+	height = 37
+}
+
+#Lake Sayula
+lake = {
+	triangle_strip = { 754 1202 766 1237 730 1182 777 1174 }
+	height = 36
+}
+
+#Lakes Northern Sayula and Atotonilco
+lake = {
+	triangle_strip = { 743 1256 744 1285 707 1261 769 1230 }
+	height = 36
+}
+
+#Lake Catemaco
+lake = {
+	triangle_strip = { 2154 918 2153 936 2137 912 2186 897 }
+	height = 29
+}
+
+#Lake Tehauntepec
+lake = {
+	triangle_strip = { 2101 578 2062 577 2084 615 }
+	height = 25
+}
+
+#Lake Malpaso
+lake = {
+	triangle_strip = { 2386 684 2389 715 2319 672 2469 645 }
+	height = 27
+}
+
+#Lake Atitlan
+lake = {
+	triangle_strip = { 2788 276 2803 304 2760 272 2806 242 }
+	height = 40
+}
+
+#Lake Amatitlan
+lake = {
+	triangle_strip = { 2905 223 2873 236 2893 253 }
+	height = 35
+}
+
+#Lake Ayazara
+lake = {
+	triangle_strip = { 2968 228 2968 239 2957 222 2982 223 }
+	height = 37
+}
+
+#Lake Guija
+lake = {
+	triangle_strip = { 3071 202 3071 220 3048 194 3095 188 }
+	height = 30
+}
+
+#Lake Coatepec
+lake = {
+	triangle_strip = { 3076 124 3052 124 3068 144 }
+	height = 32
+}
+
+#Lake Illopanco
+lake = {
+	triangle_strip = { 3173 88 3126 87 3156 124 }
+	height = 29
+}
+
+#Lake Yoljoa
+lake = {
+	triangle_strip = { 3318 322 3351 308 3305 274 }
+	height = 32
 }
 
 #Lake Peten
 lake = {
-	triangle_strip = { 3310 522 3214 503 3414 460 3406 525  }
-	height = 26
+	triangle_strip = { 3032 682 3073 638 2946 631 }
+	height = 24
+}
+
+#Lake Yaxha
+lake = {
+	triangle_strip = { 3122 666 3077 664 3104 689 }
+	height = 25
 }

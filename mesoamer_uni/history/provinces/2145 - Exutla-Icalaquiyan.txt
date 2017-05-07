@@ -1,0 +1,19 @@
+add_core = N38
+owner = N38
+controller = N38
+culture = placeholdertec
+religion = placeholderism
+hre = no
+base_tax = 1
+base_production = 3
+trade_goods = grain 
+base_manpower = 9
+capital = "Exutla-Icalaquiyan"
+is_city = yes
+fort_15th = yes
+
+discovered_by = triple_alliance 
+discovered_by = central_mexican 
+discovered_by = tarascan 
+discovered_by = west_mexican 
+discovered_by = maya 

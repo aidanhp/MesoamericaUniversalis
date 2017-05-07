@@ -1,19 +1,15 @@
-add_core = TLA
-owner = TLA
-controller = TLA
-culture = mexica
-religion = newnahuatl 
+add_core = AAB
+owner = AAB
+controller = AAB
+culture = placeholdertec
+religion = placeholderism
 hre = no
-base_tax = 2
-base_production = 4
+base_tax = 1
+base_production = 3
 trade_goods = grain 
-base_manpower = 14
+base_manpower = 9
 capital = "Tlatelolco"
 is_city = yes
 fort_15th = yes
 
-discovered_by = semi_nomadic_tribe
-discovered_by = west_mexican
-discovered_by = tarascan
-discovered_by = central_mexican
 discovered_by = triple_alliance

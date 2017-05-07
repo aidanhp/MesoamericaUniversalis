@@ -1,0 +1,15 @@
+add_core = HHU
+owner = HHU
+controller = HHU
+culture = placeholdertec
+religion = placeholderism
+hre = no
+base_tax = 1
+base_production = 3
+trade_goods = grain 
+base_manpower = 9
+capital = "Nextlalpan"
+is_city = yes
+fort_15th = yes
+
+discovered_by = triple_alliance

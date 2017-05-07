@@ -1,17 +1,2 @@
 # Order here is the priority for taking them, if trigger is true.
 
-TEN = {
-	NOT = {
-		is_year = 1519
-	}
-}	
-
-IUA = {
-	NOT = {
-		is_year = 1521
-	}
-}
-
-CAX = { 
-	always = yes
-}

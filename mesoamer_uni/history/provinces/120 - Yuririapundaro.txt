@@ -1,0 +1,15 @@
+add_core = EEO
+owner = EEO
+controller = EEO
+culture = placeholdertec
+religion = placeholderism
+hre = no
+base_tax = 1
+base_production = 3
+trade_goods = grain 
+base_manpower = 9
+capital = "Yuririapundaro"
+is_city = yes
+fort_15th = yes
+
+discovered_by = triple_alliance

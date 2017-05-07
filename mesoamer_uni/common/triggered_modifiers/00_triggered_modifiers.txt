@@ -2,102 +2,24 @@
 # these are checked for each countries once/month and then applied.
 #
 # Effects are fully scriptable here.
-
-#Insufficient Bureaucracy
-#City state without a city state bureaucracy
-insuffb_cs = {
+######################################
+# Italian - Submission to Emperor
+######################################
+submission_to_emperor = {
 	potential = {
-		AND = {
-			is_year = 1429
-			government_rank = 1
-			#ai = no
-		}
-		NOT = { government_rank = 2 }
-		
+		has_global_flag = italy_out_of_HRE
+		culture_group = latin
 	}
-	
+
 	trigger = {
+		is_emperor = no
+		NOT = { tag = ITA }
 		capital_scope = {
-			NOT = { has_building = bureau1 }
+			is_part_of_hre = yes
 		}
 	}
-	
-	global_unrest = 2
-	stability_cost_modifier = 0.25
-	global_manpower_modifier = -0.025
-	global_tax_modifier = -0.025
-}
 
-#Kingdom without a kingdom bureaucracy
-insuffb_k = {
-	potential = {
-		AND = {
-			is_year = 1429
-			government_rank = 2
-			#ai = no
-		}
-		NOT = { government_rank = 3 }
-	}
-	
-	trigger = {
-		capital_scope = {
-			NOT = { has_building = bureau2 }
-		}
-	}
-	
-	global_unrest = 4
-	stability_cost_modifier = 0.25
-	global_manpower_modifier = -0.025
-	global_tax_modifier = -0.025
-}
-
-#Empire without a empire bureaucracy
-insuffb_e = {
-	potential = {
-		AND = {
-			is_year = 1429
-			government_rank = 3
-			#ai = no
-		}
-	}
-	
-	trigger = {
-		capital_scope = {
-			NOT = { has_building = bureau3 }
-		}
-	}
-	
-	global_unrest = 6
-	stability_cost_modifier = 0.25
-	global_manpower_modifier = -0.025
-	global_tax_modifier = -0.025
-}
-
-vassalized_caxtillan = {
-	potential = {
-		is_year = 1519
-	}
-	
-	trigger = {
-		CAX = {
-			vassal_of = ROOT
-		}
-	}
-	
-	reduced_liberty_desire = -1000
-}
-
-#AI Handicaps
-ai_handicap = {
-	potential = {
-		ai = yes
-	}
-	
-	trigger = {
-		is_year = 1400
-	}
-	
-	legitimacy = 3.5
-	global_autonomy = -0.15
-	global_tax_modifier = 0.10
+	global_unrest = 3
+	stability_cost_modifier = 0.1
+	prestige = -1
 }

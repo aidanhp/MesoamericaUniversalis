@@ -151,9 +151,6 @@ colonial_relation = {
 	opinion = 50
 }
 
-in_protectorate = {
-	opinion = 25
-}
 
 excommunicated = {
 	opinion = -50
@@ -192,9 +189,14 @@ want_your_provinces = {
 	min = -200
 }
 
+want_subject_provinces = {
+	opinion = -15
+	min = -200
+}
+
 border_friction = {
-	opinion = 0
-	min = 0
+	opinion = -1
+	min = -200
 }
 
 historical_friend = {
@@ -380,17 +382,6 @@ they_force_unioned_us = {
 	yearly_decay = 2
 }
 
-protectorate_broke_free = {
-	opinion = -50
-	yearly_decay = 1
-	min = -50
-}
-
-protectorate_abandoned = {
-	opinion = -50
-	yearly_decay = 1
-	min = -50
-}
 
 elector_voted_for_us = 
 {
@@ -656,7 +647,7 @@ released_us_freely = {
 	yearly_decay = 1
 }
 
-fightinginside_japan = {
+fightinginside_realm = {
 	opinion = -25
 	yearly_decay = 1
 }
@@ -763,9 +754,13 @@ boh_papal_reconciled = {
 	yearly_decay = 1
 }
 
+hun_refused_to_help_rebels = {
+	opinion = 50
+	yearly_decay = 2
+}
+
 boh_heretic_hussite = {
-	opinion = -30
-	years = 30
+	opinion = -50
 	yearly_decay = 1
 }
 
@@ -773,6 +768,11 @@ boh_protestant_king = {
 	opinion = -60
 	years = 15
 	yearly_decay = 4
+}
+
+hun_crowned_by_rebels = {
+	opinion = -100
+	yearly_decay = 5
 }
 
 cyp_famagusta_taken = {
@@ -2205,6 +2205,11 @@ hun_bakocz_foreign_policy = {
 	yearly_decay = 2
 }
 
+hun_invited_jesuits = {
+	opinion = 50
+	yearly_decay = 1
+}
+
 ##################################################
 # Muslim DLC
 ##################################################
@@ -3272,9 +3277,9 @@ threatened_war = {
 }
 
 share_advanced_neighbor = {
-	opinion = 0
+	opinion = 50
 	months = 1 #Updated every month.
-	max = 0
+	max = 50
 }
 
 
@@ -3535,4 +3540,139 @@ pru_france_huguenots = {
 agricolas_reputation = {
 	opinion = -50
 	yearly_decay = 2
+}
+
+nor_strategic_marriage = {
+	opinion = 75
+	yearly_decay = 2
+}
+
+nor_taxation_conflict_over_hebrides = {
+	opinion = -50
+	yearly_decay = 1
+}
+
+nor_gave_away_orkney = {
+	opinion = -50
+	yearly_decay = 2
+}
+
+overlord_takes_stance_vs_hansa = {
+	opinion = 50
+	yearly_decay = 2
+}
+
+hanseatic_kalmar_conflict = {
+	opinion = -50
+	yearly_decay = 1
+}
+
+danish_dutch_burgundian_inspiration = {
+	opinion = 50
+	yearly_decay = 1
+}
+
+fra_gave_up_on_maine = {
+	opinion = -75
+	yearly_decay = 3
+}
+is_tributary = {
+	opinion = 15
+}
+
+they_forced_tributary = {
+	opinion = -100
+	yearly_decay = 2
+}
+
+tributary_state_broke_free = {
+	opinion = -50
+	yearly_decay = 2
+	min = -50
+}
+
+tributary_state_abandoned = {
+	opinion = -50
+	yearly_decay = 2
+	min = -50
+}
+
+chi_did_not_seize_opportunity = {
+	opinion = 25
+	yearly_decay = 2
+}
+
+chi_low_mandate_subjects = {
+	opinion = -50
+	yearly_decay = 3
+}
+
+chi_trade_opportunity = {
+	opinion = 50
+	yearly_decay = 2
+}
+
+tributary_same_overlord = {
+	opinion = 75
+	yearly_decay = 3
+}
+
+tributary_impressive_overlord = {
+	opinion = 60
+	yearly_decay = 2
+}
+
+tributary_forced_brain_drain = {
+	opinion = -75
+	yearly_decay = 3
+}
+
+tributary_stopped_smugglers = {
+	opinion = 50
+	yearly_decay = 2
+}
+
+tributary_harbored_criminals = {
+	opinion = -60
+	yearly_decay = 3
+}
+
+tributary_aiding_smugglers = {
+	opinion = -90
+	yearly_decay = 3
+}
+
+tributary_gave_up_political_refugees = {
+	opinion = 50
+	yearly_decay = 1
+}
+
+tributary_paid_for_service = {
+	opinion = 50
+	yearly_decay = 1
+}
+
+tributary_ungrateful_overlord = {
+	opinion = -25
+	yearly_decay = 1
+}
+
+overlord_supported_our_enemies = {
+	opinion = -50
+	yearly_decay = 2
+}
+
+pirate_haven = {
+	opinion = -50
+	yearly_decay = 1
+}
+
+pirate_fighting = {
+	opinion = 50
+	yearly_decay = 1
+}
+
+overlord_military_aid = {
+	opinion = 50
+	yearly_decay = 1
 }

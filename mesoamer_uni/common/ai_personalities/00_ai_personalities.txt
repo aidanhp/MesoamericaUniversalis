@@ -35,7 +35,7 @@ ai_capitalist = {
 		modifier = {
 			factor = 1.5
 			adm = 6
-		}
+		}				
 		modifier = {
 			factor = 1.25 
 			NOT = { total_development = 30 }
@@ -78,17 +78,8 @@ ai_diplomat = {
 		modifier = {
 			factor = 1.5
 			is_emperor = yes
-			total_development = 50
-		}
-		modifier = {
-			factor = 1.5
-			is_emperor = yes
 			total_development = 100
 		}
-		modifier = {
-			factor = 5
-			government = tribal
-		}		
 	}
 	icon = 3
 }
@@ -96,10 +87,6 @@ ai_diplomat = {
 ai_militarist = {
 	chance = {
 		factor = 100
-		modifier = {
-			factor = 100000
-			religion = newnahuatl
-		}
 		modifier = {
 			factor = 0
 			has_regency = yes
@@ -137,7 +124,7 @@ ai_militarist = {
 		modifier = {
 			factor = 1.5
 			mil = 6
-		}		
+		}	
 		modifier = {
 			factor = 1.25
 			any_neighbor_country = {
@@ -182,7 +169,7 @@ ai_colonialist = {
 		modifier = {
 			factor = 1.5
 			adm = 6
-		}			
+		}	
 		modifier = {
 			factor = 0
 			NOT = { num_of_colonists = 1 }

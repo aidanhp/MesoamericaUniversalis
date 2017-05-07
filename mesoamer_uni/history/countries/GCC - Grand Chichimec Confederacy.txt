@@ -1,5 +1,0 @@
-government = altepetl
-technology_group = triple_alliance
-religion = newnahuatl
-primary_culture = mexica
-capital = 1	

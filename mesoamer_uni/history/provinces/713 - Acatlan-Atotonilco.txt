@@ -1,0 +1,17 @@
+add_core = A35
+add_core = A32
+owner = A32
+controller = A32
+culture = placeholdertec
+religion = placeholderism
+hre = no
+base_tax = 1
+base_production = 3
+trade_goods = grain 
+base_manpower = 9
+capital = "Acatlan-Atotonilco"
+is_city = yes
+fort_15th = yes
+
+discovered_by = central_mexican
+discovered_by = triple_alliance

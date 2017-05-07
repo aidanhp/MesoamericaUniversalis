@@ -101,7 +101,6 @@ city = {
 	allowed_num_of_buildings = 2
 	local_sailors_modifier = 0.25
 	garrison_growth = 0.05
-	local_unrest = 12
 }
 
 port = {
@@ -119,8 +118,7 @@ in_capital_state = {
 
 coastal = {
 	supply_limit_modifier = 0.5
-	# MU
-	province_trade_power_modifier = 0.10
+	province_trade_power_modifier = 0.25
 }
 
 seat_in_parliament = {
@@ -211,23 +209,15 @@ no_adjacent_controlled = {
 
 provincial_tax_income = {
 	regiment_recruit_speed = -0.01
-	# MU: does this do anything?
-	global_tax_income = 0.040
 }
 
 provincial_production_size = {
-  # MU:
-	trade_goods_size = 0.15
-	# MU: does this do anything?
-	global_tax_income = 0.015
-	# MU:
-	#ship_recruit_speed = -0.001
+	trade_goods_size = 0.2
+	ship_recruit_speed = -0.01
 }
 
 manpower = {
-  # MU:
-	global_tax_income = 0.0042858
-	garrison_growth = 0.0002
+	garrison_growth = 0.01					#1% increase from manpower.
 }
 
 sailors = {
@@ -243,16 +233,13 @@ province_razed = {
 }
 
 development = {
-  # MU:
-	allowed_num_of_buildings = 0.25
-  # MU:
-	supply_limit_modifier = 0.01
+	allowed_num_of_buildings = 0.1
+	supply_limit_modifier = 0.02
 	local_missionary_strength = -0.001
 	land_forcelimit	= 0.1			# special case, affected by autonomy
 	naval_forcelimit = 0.1			# special case, affected by autonomy & set to 0 by code if not port
-	local_sailors = 25			# special case, affected by autonomy & set to 0 by code if not port
-  # MU:
-	province_trade_power_value = 0.075
+	local_sailors = 30			# special case, affected by autonomy & set to 0 by code if not port
+	province_trade_power_value = 0.2
 	local_amount_of_banners = 0.1
 }
 
@@ -467,11 +454,9 @@ base_values = {
 	merchants = 2							#Start with 2 merchants
 	diplomats = 2							#Start with 2 diplomats..
 	missionaries = 1						#1 missionary
-	# MU:
-	army_tradition_decay = 0.065				#lose 5% yearly
+	army_tradition_decay = 0.05				#lose 5% yearly
 	navy_tradition_decay = 0.05				#lose 5% yearly
-	# MU:
-	prestige_decay = 0.075					#lose 5% prestige each year
+	prestige_decay = 0.05					#lose 5% prestige each year
 	tolerance_own = 3
 	diplomatic_upkeep = 4
 	tolerance_heathen = -3
@@ -488,11 +473,9 @@ base_values = {
 	horde_unity = -2
 	devotion = -0.5
 	meritocracy = -2
-	# MU: PDX default max_states changed from 1 to 5.  MU preference?
 	max_states = 5
 	num_accepted_cultures = 2
-	# MU: no Ages/Splendor
-	monthly_splendor = 0
+	monthly_splendor = 1
 	artillery_bonus_vs_fort = 5
 	cav_to_inf_ratio = 0.5
 }
@@ -504,10 +487,11 @@ ai_nation = {
 }
 
 
+
 war_taxes = {
-  land_maintenance_modifier = -0.20
-  naval_maintenance_modifier = -0.20
-  possible_mercenaries = 0.05
+	land_maintenance_modifier = -0.20
+	naval_maintenance_modifier = -0.20
+	possible_mercenaries = 0.05
 }
 
 stability = {
@@ -555,6 +539,11 @@ lost_mandate_of_heaven = {
 	discipline = -0.1
 	stability_cost_modifier = 0.5
 	global_unrest = 10
+	global_trade_goods_size_modifier = -0.5
+	fire_damage_received = 0.5
+	shock_damage_received = 0.5
+	reduced_liberty_desire = -50
+	legitimacy = -1
 }
 
 cancelled_loan = {
@@ -670,11 +659,9 @@ mercantilism = {
 
 army_tradition = {
 	recover_army_morale_speed = 0.1
-	# MU:
-	land_morale = 0.10
+	land_morale = 0.25
 	manpower_recovery_speed = 0.1
-	# MU:
-	siege_ability = 0.20
+	siege_ability = 0.05
 	temples_influence = 0.1
 	mr_aristocrats_influence = 0.1
 	rr_girondists_influence = 0.1
@@ -689,22 +676,20 @@ navy_tradition = {
 	enuchs_influence = 0.1
 	mr_traders_influence = 0.1
 	blockade_efficiency = 1
-	sailors_recovery_speed = 0.1
+	sailors_recovery_speed = 0.2
 }
 
-# MU:
 positive_piety = {
-  global_unrest = -5
-  global_autonomy = -0.10
-  yearly_corruption = -0.10
+	land_morale = 0.10
+	global_missionary_strength = 0.03
+	defensiveness = 0.20
 }
 
 #For convenience, its multiplied by negative piety in code.
-# MU:
 negative_piety = {
-  global_unrest = 5
-  global_autonomy = 0.10
-  yearly_corruption = 0.10
+	technology_cost = -0.1
+	global_manpower_modifier = 0.20
+	global_tax_modifier = 0.20
 }
 
 defender_of_faith = {
@@ -761,8 +746,7 @@ num_of_marriages = {
 
 num_of_provinces = {
 	monthly_militarized_society = -0.015
-	# MU:
-	land_forcelimit_modifier = 0.01
+
 }
 
 # Multiplied by current Legitimacy - 50
@@ -835,8 +819,7 @@ luck = {
 	global_missionary_strength = 0.01
 	stability_cost_modifier = -0.10
 	global_institution_spread = 0.1
-	# MU: no Ages/Splendor
-	monthly_splendor = 0
+	monthly_splendor = 1
 
 	#economy
 	mercenary_cost = -0.25
@@ -941,8 +924,7 @@ uncontested_cores = {
 
 
 num_objectives_fullfilled = {
-	# MU: no Ages/Splendor
-	monthly_splendor = 0
+	monthly_splendor = 2
 }
 
 production_leader = {

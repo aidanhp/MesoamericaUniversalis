@@ -1,0 +1,20 @@
+add_core = M45
+add_core = M43
+owner = M43
+controller = M43
+culture = placeholdertec
+religion = placeholderism
+hre = no
+base_tax = 1
+base_production = 3
+trade_goods = grain 
+base_manpower = 9
+capital = "Chiazumba"
+is_city = yes
+fort_15th = yes
+
+discovered_by = triple_alliance 
+discovered_by = central_mexican 
+discovered_by = tarascan 
+discovered_by = west_mexican 
+discovered_by = maya 

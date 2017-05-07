@@ -1,21 +1,10 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
-1;609;sea;41;-1;-1;-1;-1;c1
-1;610;sea;41;-1;-1;-1;-1;c2
-2;4;sea;41;-1;-1;-1;-1;c3
-1;30;sea;41;-1;-1;-1;-1;c4
-1;611;sea;41;-1;-1;-1;-1;c5
-611;26;sea;612;-1;-1;-1;-1;c6
-
-#Tabasco Wasteland
-164;168;sea;744;-1;-1;-1;-1;nada
-164;165;sea;744;-1;-1;-1;-1;nada
-165;168;sea;744;-1;-1;-1;-1;nada
-165;169;sea;744;-1;-1;-1;-1;nada
-
-#Ekab's Islands
-891;892;sea;251;-1;-1;-1;-1;nada
-899;903;sea;252;-1;-1;-1;-1;nada
-
-#Lake Patzcuaro
-84;949;sea;652;-1;-1;-1;-1;nada
+#Valley of Mexico
+1;3;sea;1250;-1;-1;-1;-1;TenochitlanTlacopan
+2;6;sea;1250;-1;-1;-1;-1;TlatelolcoTenayuca
+#Lake Chalco
+2224;30;sea;1253;-1;-1;-1;-1;XicoChalco
+2225;30;sea;1253;-1;-1;-1;-1;TlapacoyacChalco
+#Lake Catemaco
+1898;1897;sea;1271;-1;-1;-1;-1;AgaltepecCatemaco
 -1;-1;;-1;-1;-1;-1;-1;-1;

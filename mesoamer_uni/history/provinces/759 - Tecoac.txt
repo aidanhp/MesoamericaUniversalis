@@ -1,0 +1,17 @@
+add_core = A81
+add_core = A76
+owner = A76
+controller = A76
+culture = placeholdertec
+religion = placeholderism
+hre = no
+base_tax = 1
+base_production = 3
+trade_goods = grain 
+base_manpower = 9
+capital = "Tecoac"
+is_city = yes
+fort_15th = yes
+
+discovered_by = central_mexican
+discovered_by = triple_alliance

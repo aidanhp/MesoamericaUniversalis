@@ -7,6 +7,17 @@
 # graphical_culture = westerngfx
 # second_graphical_culture = muslimgfx (fallback if the first does not exist)
 
+placeholder = {
+	graphical_culture = southamericagfx
+	placeholdertec = {
+		male_names = {
+			Boi
+		}
+		female_names = {
+			Grill
+		}
+	}
+}
 chichimec = {
 	graphical_culture = southamericagfx
 
@@ -3476,7 +3487,7 @@ invaders = {
 	graphical_culture = westerngfx
 	
 	caxtillan = {
-		primary = CAX
+		#primary = CAX
 		dynasty_names = {
 			"de Trastámara" "de Guzmán" "Álvarez de Toledo" "de la Cerda" "de Castilla" "de Valencia"
 			Téllez-Girón "Manrique de Lara" "de Ávalos" Enríquez "Osuna" "Argavieso" Ruspoli "Lasso de la Vega" "de Hoyos" Zayas "de Alcalá"

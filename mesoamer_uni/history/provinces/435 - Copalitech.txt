@@ -1,0 +1,16 @@
+add_core = QQQ
+add_core = QQX
+owner = QQX
+controller = QQX
+culture = placeholdertec
+religion = placeholderism
+hre = no
+base_tax = 1
+base_production = 3
+trade_goods = grain 
+base_manpower = 9
+capital = "Copalitech"
+is_city = yes
+fort_15th = yes
+
+discovered_by = triple_alliance

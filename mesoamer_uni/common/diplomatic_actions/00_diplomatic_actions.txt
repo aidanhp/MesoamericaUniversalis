@@ -64,216 +64,13 @@
 # form_coalition
 # request_to_join_federation
 # invite_to_federation
-# protectorateaction
-# ask_for_protection_action
 # support_heir
 # break_marriage
 # designate_march
 # ask_for_march
 # sell_ships_action
 # counterespionage
-
-requestpeace = {
-	condition = {
-		tooltip = FIRST_WAR_INVASION
-		potential = {
-			FROM = { 
-				has_country_flag = first_war_invasion
-			}
-			ROOT = {
-				has_country_flag = first_war_invasion
-			}
-		}
-		allow = {
-			always = no
-		}
-	}
-}
-
-declarewar = {
-}
-
-allianceaction = {
-	condition = {
-		tooltip = TRI_2
-		potential = {
-			NOT = { 
-				has_global_flag = no_cazonci_voting
-			}
-			OR = {
-				ROOT = { tag = IUA }
-				ROOT = { tag = PAT }
-				ROOT = { tag = IHU }
-			}
-		}
-		allow = {
-			always = no
-		}
-	}
-	
-	condition = {
-		tooltip = TRI_1
-		potential = {
-			FROM = { 
-				tag = IUA
-			}
-			NOT = { 
-				has_global_flag = no_cazonci_voting
-			}
-			AND = { 
-				IUA = { 
-					alliance_with = IHU
-				}
-				IUA = { 
-					alliance_with = PAT
-				}
-			}
-		}
-		allow = {
-			always = no
-		}
-	}
-	
-	condition = {
-		tooltip = TRI_1
-		potential = {
-			FROM = { 
-				tag = IHU
-			}
-			NOT = { 
-				has_global_flag = no_cazonci_voting
-			}
-			AND = { 
-				IHU = { 
-					alliance_with = IUA
-				}
-				IHU = {
-					alliance_with = PAT
-				}
-			}
-		}
-		allow = {
-			always = no
-		}
-	}
-	
-	condition = {
-		tooltip = TRI_1
-		potential = {
-			FROM = { 
-				tag = PAT
-			}
-			NOT = { 
-				has_global_flag = no_cazonci_voting
-			}
-			AND = { 
-				PAT = { 
-					alliance_with = IHU
-				}
-				PAT = { 
-					alliance_with = IUA
-				}
-			}
-		}
-		allow = {
-			always = no
-		}
-	}
-	
-	condition = {
-		tooltip = TA_4
-		potential = {
-			FROM = {
-				OR = {
-					tag = TEN
-					tag = TET
-					tag = TCP
-				}
-				ROOT = {
-					NOT = { 
-						OR = {
-							tag = TEN 
-							tag = TET
-							tag = TCP
-							tag = TLA
-						}
-					}
-				}
-			}
-		}
-		allow = {
-			always = no
-		}
-		
-	}
-	condition = {
-		tooltip = TA_1
-		potential = {
-			OR = {
-				tag = TEN
-			}
-			AND = {
-				alliance_with = TET
-				alliance_with = TCP
-			}
-		}
-		allow = {
-			always = no
-		}
-	}
-	condition = {
-		tooltip = TA_2
-		potential = {
-			OR = {
-				tag = TET
-			}
-			AND = {
-				alliance_with = TEN
-				alliance_with = TCP
-			}
-		}
-		allow = {
-			always = no
-		}
-	}
-	condition = {
-		tooltip = TA_3
-		potential = {
-			OR = {
-				tag = TCP
-			}
-			AND = {
-				alliance_with = TET
-				alliance_with = TEN
-			}
-		}
-		allow = {
-			always = no
-		}
-	}
-	condition = {
-		tooltip = TA_5
-		potential = {
-			tag = TLA
-			alliance_with = TEN
-		}
-		allow = {
-			always = no
-		}
-	}
-	condition = {
-		tooltip = TA_5
-		potential = {
-			FROM = { 
-				tag = TLA
-				alliance_with = TEN
-			}
-		}
-		allow = {
-			always = no
-		}
-	}
-}
+# abandon_union_action
 
 royal_marriage = {
 	condition = {
@@ -370,28 +167,21 @@ vassalaction = {
 	}
 }
 
-protectorateaction = {
+abandon_union_action = {
 	condition = {
-		tooltip = HORDENOPROTECTORATE
 		potential = {
-			always = no
 		}
 		allow = {
-			always = no
+			ROOT = {
+				senior_union_with = FROM
+				is_at_war = no
+			}
 		}
 	}
 }
 
-ask_for_protection_action = {
-	condition = {
-		tooltip = NO
-		potential = {
-		}
-		allow = {
-			always = no
-		}
-	}
-}
+
+
 
 form_coalition = {
 	condition = {

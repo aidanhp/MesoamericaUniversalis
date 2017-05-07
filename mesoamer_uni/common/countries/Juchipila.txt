@@ -2,7 +2,7 @@
 
 graphical_culture = southamericagfx
 
-color = { 235 122 0 }
+color = { 35 140 64 }
 
 historical_idea_groups = {
 	defensive_ideas
@@ -34,16 +34,16 @@ historical_units = {
 }
 
 monarch_names = {
-	"Acamapichtli #1" = 20
-	"Iztcoatl #1" = 20
-	"Huitzilihhuitl #1" = 20
-	"Chimalpopoca #1" = 20
+	"Acamapichtli #0" = 20
+	"Iztcoatl #0" = 20
+	"Huitzilihhuitl #0" = 20
+	"Chimalpopoca #0" = 20
 	"Moteuczomah #0" = 20
 	"Tizoc #0" = 20
 	"Ahuitzotl #0" = 20
 	"Axayacatl #0" = 20
 	"Cuauhtemoc #0" = 20
-	"Cuitlahuah #0" = 20
+	"Cuitlahuac #0" = 20
 	"Nezahualcoyotl #0" = 20	
 	"Tlacaelel #0" = 20
 	"Xihuitl Temoc #0" = 20	
@@ -122,9 +122,9 @@ ship_names = {
 
 
 army_names = {
-	"Army $PROVINCE$" 
+	"$PROVINCE$ Xiquipilli" 
 }
 
 fleet_names = {
-	"Glorious Fleet"
+	"$PROVINCE$ Fleet"
 }

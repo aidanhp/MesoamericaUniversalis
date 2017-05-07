@@ -1,7 +1,7 @@
 # If you add advisortypes, and use those tags, do not change them without changing everywhere they are used.
 #
 # Additional arguments: allow_only_male/allow_only_female
-#
+# Contains skill_scaled_modifier for which the effects get multiplied by the advisor's skill level
 # Uses all 'modifiers' possible that are exported as a Modifier.
 
 # Note that ai_will_do calculates a priority.
@@ -18,7 +18,9 @@ philosopher = {
 	
 	# Bonus
 	prestige = 1
-	
+
+	skill_scaled_modifier = { meritocracy = 0.5 }
+
 	chance = {
 		factor = 1
 	}
@@ -34,7 +36,9 @@ natural_scientist = {
 	
 	# Bonus
 	production_efficiency = 0.10
-	
+
+	skill_scaled_modifier = { meritocracy = 0.5 }	
+
 	chance = {
 		factor = 1
 	}
@@ -50,7 +54,9 @@ artist = {
 	
 	# Bonus
 	stability_cost_modifier = -0.10
-	
+
+	skill_scaled_modifier = { meritocracy = 0.5 }	
+
 	chance = {
 		factor = 1
 	}
@@ -67,6 +73,8 @@ treasurer = {
 	# Bonus
 	global_tax_modifier = 0.1
 	
+	skill_scaled_modifier = { meritocracy = 0.5 }	
+
 	chance = {
 		factor = 1
 	}
@@ -82,6 +90,8 @@ theologian = {
 	
 	# Bonus
 	global_unrest = -2
+
+	skill_scaled_modifier = { meritocracy = 0.5 }
 
 	chance = {
 		factor = 1
@@ -100,6 +110,8 @@ master_of_mint = {
 	# Bonus
 	inflation_reduction = 0.10
 	
+	skill_scaled_modifier = { meritocracy = 0.5 }
+
 	chance = {
 		factor = 1
 	}
@@ -116,6 +128,8 @@ inquisitor = {
 	# Bonus
 	global_missionary_strength = 0.02
 	
+	skill_scaled_modifier = { meritocracy = 0.5 }
+
 	chance = {
 		factor = 1
 	}
@@ -137,6 +151,8 @@ statesman = {
 	# Bonus
 	diplomatic_reputation = 1
 	
+	skill_scaled_modifier = { meritocracy = 0.5 }
+
 	chance = {
 		factor = 1
 	}
@@ -154,6 +170,8 @@ naval_reformer = {
 	
 	naval_morale = 0.1 
 	
+	skill_scaled_modifier = { meritocracy = 0.5 }
+
 	chance = {
 		factor = 1
 		modifier = {
@@ -174,6 +192,8 @@ trader = {
 	# Bonus
 	trade_efficiency = 0.10
 	
+	skill_scaled_modifier = { meritocracy = 0.5 }
+
 	chance = {
 		factor = 1
 	}
@@ -190,6 +210,8 @@ spymaster = {
 	# Bonus
 	spy_offence = 0.25
 	
+	skill_scaled_modifier = { meritocracy = 0.5 }
+
 	chance = {
 		factor = 1
 	}
@@ -206,6 +228,8 @@ colonial_governor = {
 	# Bonus
 	global_tariffs = 0.10
 	
+	skill_scaled_modifier = { meritocracy = 0.5 }
+
 	chance = {
 		factor = 1
 		modifier = {
@@ -229,7 +253,9 @@ diplomat = {
 	
 	# Bonus
 	improve_relation_modifier = 0.2
-	
+
+	skill_scaled_modifier = { meritocracy = 0.5 }	
+
 	chance = {
 		factor = 1
 	}
@@ -246,6 +272,8 @@ navigator = {
 	# Bonus
 	range = 0.20
 	
+	skill_scaled_modifier = { meritocracy = 0.5 }
+
 	chance = {
 		factor = 1
 		modifier = {
@@ -270,7 +298,9 @@ army_reformer = {
 	
 	# Bonus
 	land_morale = 0.10
-	
+
+	skill_scaled_modifier = { meritocracy = 0.5 }	
+
 	chance = {
 		factor = 1
 	}
@@ -287,6 +317,8 @@ army_organiser = {
 	# Bonus
 	land_forcelimit_modifier = 0.10
 	
+	skill_scaled_modifier = { meritocracy = 0.5 }
+
 	chance = {
 		factor = 1
 	}
@@ -303,6 +335,8 @@ commandant = {
 	# Bonus
 	discipline = 0.05
 	
+	skill_scaled_modifier = { meritocracy = 0.5 }
+
 	chance = {
 		factor = 1
 	}
@@ -318,6 +352,8 @@ quartermaster = {
 	
 	# Bonus
 	reinforce_speed = 0.33
+
+	skill_scaled_modifier = { meritocracy = 0.5 }
 
 	chance = {
 		factor = 1
@@ -339,6 +375,8 @@ recruitmaster = {
 	# Bonus
 	global_manpower_modifier = 0.10
 	
+	skill_scaled_modifier = { meritocracy = 0.5 }
+
 	chance = {
 		factor = 1
 	}
@@ -359,6 +397,8 @@ fortification_expert = {
 	# Bonus
 	defensiveness = 0.2
 	
+	skill_scaled_modifier = { meritocracy = 0.5 }
+
 	chance = {
 		factor = 1
 		
@@ -375,7 +415,9 @@ grand_captain = {
 	
 	# Bonus
 	land_maintenance_modifier = -0.10
-		
+
+	skill_scaled_modifier = { meritocracy = 0.5 }
+
 	chance = {
 		factor = 1
 	}

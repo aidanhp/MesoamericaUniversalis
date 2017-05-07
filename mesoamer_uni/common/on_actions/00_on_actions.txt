@@ -1,14 +1,5 @@
 # country
 on_startup = {
-	if = {
-		limit = {
-			NOT = { has_global_flag = init_done }
-		}
-		MGI = {
-			country_event = { id = init.01 }
-		}
-		set_global_flag = init_done
-	}
 }
 
 # country
@@ -18,19 +9,18 @@ on_religion_change = {
 
 # country.
 on_secondary_religion_change = {
-	
+	# Done from code: add_prestige = -50 (Define: CHANGE_SECONDARY_PRESTIGE_HIT)
 }
 
 # country. Spawned when Enforcing Rebel Demands through a Support Rebels-war.
 on_enforce_rebel_demands = {
 	# ROOT = The winning country
 	# FROM = The loosing country
-	set_country_flag = helped_rebels_win_war
 }
 
 # country
 on_colonial_liberation = {
-	
+
 }
 
 # country
@@ -57,152 +47,25 @@ on_peace_recipient = {
 # country
 # root = winning country, from = loser country
 on_war_won = {
-	ROOT = {
-		country_event = { id = commeff.01}
-		change_variable = { which = militancy value = 1 }
-	}
-	FROM = {
-		country_event = { id = commeff.01}
-		change_variable = { which = militancy value = -5 }
-	}
-	if = {
-		limit = {
-			ROOT = {
-				tag = IUA
-			}
-			FROM = {
-				tag = IHU
-			}
-			has_global_flag = tarascan_succession_war
-		}
-		ROOT = { 
-			country_event = { id = IUA_MAJORS.16 }
-		}
-		clr_global_flag = tarascan_succession_war
-	}
-	if = {
-		limit = {
-			ROOT = {
-				tag = IHU
-			}
-			FROM = {
-				tag = IUA
-			}
-			has_global_flag = tarascan_succession_war
-		}
-		ROOT = { 
-			country_event = { id = IUA_MAJORS.17 }
-		}
-		clr_global_flag = tarascan_succession_war
-	}
+	
 }
 
 # country
 # root = loser country, from = winner country
 on_war_lost = {
-	ROOT = {
-		if = {
-			limit = { 
-				is_rival = FROM
-			}
-		}
-		change_variable = { which = militancy value = 10 }
-	}
-	ROOT = {
-		if = {
-			limit = { 
-				NOT = { is_rival = FROM }
-			}
-		}
-		change_variable = { which = militancy value = -2 }
-	}
-	ROOT = {
-		add_legitimacy = -15
-	}
-	FROM = { 
-		add_legitimacy = 5
-	}
-}	
+	
+}
 
 # country
 # root = winning country, from = loser country
 on_battle_won_country = {
-	if = {
-		limit = {
-			OR = {
-				ROOT = {
-					tag = CAX
-				}
-				FROM = {
-					tag = CAX
-				}
-			}
-			NOT = { has_global_flag = smallpox_mexico_happened }
-		}
-		if = {
-			limit = {
-				ROOT = {
-					NOT = { has_disaster = smallpox_yucatan }
-				}
-			}
-			ROOT = { 
-				country_event = { id = INV_plagues.01 days = 3 }
-			}
-			set_global_flag = smallpox_mexico_happened
-		}
-		if = {
-			limit = {
-				FROM = {
-					NOT = { has_disaster = smallpox_yucatan }
-				}
-			}
-			FROM = { 
-				country_event = { id = INV_plagues.01 days = 3 }
-			}
-			set_global_flag = smallpox_mexico_happened
-		}
-	}
-	if = {
-		limit = {
-			religion = newnahuatl
-		}
-		country_event = { id = captives.01 }
-	}
-	
-	add_legitimacy = 2.5
-	if = {
-		limit = {
-			has_idea = militaristic_propaganda
-		}
-		add_legitimacy = 2.5
-	}
-	if = {
-		limit = {
-			has_idea = warcouncil
-		}
-		add_legitimacy = 2.5
-	}
 }
 
 # country
 # root = loser country, from = winner country
 on_battle_lost_country = {
-	add_legitimacy = -2.5
-	if = {
-		limit = {
-			has_idea = militaristic_propaganda
-		}
-		add_legitimacy = -2.5
-	}
-	if = {
-		limit = {
-			has_idea = warcouncil
-		}
-		add_legitimacy = -2.5
-	}
 	random_events = {
-		90 = 0
-		10 = friendship_events.1 #Historical Friendship Broken
+	
 	}
 }
 
@@ -210,7 +73,7 @@ on_battle_lost_country = {
 # root = location, from = loser country
 on_battle_won_province = {
 	random_events = {
-		
+
 	}
 }
 
@@ -262,99 +125,13 @@ on_siege_lost_country = {
 # province
 # root = location, from = losing country
 on_siege_won_province = {
-	if = {
-		limit = {
-			FROM = {
-				tag = CAX
-			}
-			ROOT = { 
-				has_province_modifier = spanish_occupation
-			}
-		}
-		ROOT = { 
-			remove_province_modifier = spanish_occupation
-		}
-	}
-	
-	if = {
-		limit = {
-			ROOT = { 
-				has_province_modifier = annihilated_by_war
-			}
-		}
-		add_permanent_province_modifier = {
-			name = annihilated_by_war
-			duration = 1460
-		}
-	}
-	
-	if = {
-		limit = {
-			ROOT = { 
-				has_province_modifier = devestated_by_war
-			}
-		}
-		add_permanent_province_modifier = {
-			name = annihilated_by_war
-			duration = 1095
-		}
-		remove_province_modifier = devestated_by_war
-	}
-	
-	if = {
-		limit = {
-			ROOT = { 
-				has_province_modifier = damaged_by_war
-			}
-		}
-		add_permanent_province_modifier = {
-			name = devestated_by_war
-			duration = 730
-		}
-		remove_province_modifier = damaged_by_war
-	}
-	
-	if = {
-		limit = {
-			ROOT = { 
-				NOT = {
-					OR = {
-						has_province_modifier = damaged_by_war
-						has_province_modifier = devestated_by_war
-						has_province_modifier = annihilated_by_war
-					}
-				}
-			}
-		}
-		add_permanent_province_modifier = {
-			name = damaged_by_war
-			duration = 1460
-		}
-	}
 }
 
 # province
 # root = location, from = winning country
 on_siege_lost_province =  {
-	if = {
-		limit = {
-			FROM = {
-				tag = CAX
-				NOT = { has_country_modifier = foiled_invasion }
-			}
-			ROOT = {
-				NOT = { owned_by = CAX }
-			}
-		}
-		ROOT = { 
-			add_province_modifier = {
-				name = spanish_occupation
-				duration = -1
-			}
-		}
-	}
 	events = {
-
+		
 	}
 }
 
@@ -364,177 +141,25 @@ on_siege_lost_province =  {
 on_abandon_colony = {
 }
 
+# OBS: Consider that the following on_actions can be called for Personal Union juniors as well.
 # country 
 on_new_monarch = {
 	events = {
+		
 	}
 	random_events = { 
 		
 	}
 }
 
+on_new_consort = {
+	
+}
+
 # country
 on_monarch_death = {
-	if = {
-		limit = {
-			tag = CAX
-			has_ruler = "Hernando Cortes"
-			has_country_flag = first_war_invasion
-		}
-		add_stability = 1
-		define_ruler = {
-			name = "Hernando"
-			dynasty = "Cortes" 
-			age = 34
-			claim = 100
-			regency = no
-			female = no
-			adm = 3
-			dip = 6
-			mil = 4
-			attach_leader = "Hernan Cortes"
-		}
-		define_ruler_to_general = {
-			shock = 5
-			fire = 5
-			manuever = 5
-			siege = 2
-		}
-	}
-	if = {
-		limit = {
-			tag = PAT
-			NOT = { has_country_flag = hiquingaje_dead }
-		}
-		set_country_flag = hiquingaje_dead
-		PAT = {
-			country_event = { id = IUA_MAJORS.07 }
-		}
-	}
-	if = {
-		limit = {
-			tag = JJG 
-			NOT = { has_country_flag = penobiya_dead }
-		}
-		set_country_flag = penobiya_dead
-		if = {
-			limit = {
-				TEH = {
-					is_lesser_in_union = yes
-				}
-				JJG = {
-					has_ruler = "Cosijopii"
-				}
-			}
-			JJG = {
-				country_event = { id = ZAA_FLAVOR.01 }
-			}
-		}
-	}
-	if = {
-		limit = {
-			NOT = { has_idea = extensive_bureaucracy }
-		}
-		add_legitimacy = -15
-	}
-	if = {
-		limit = {
-			has_idea = royal_deification
-		}
-		add_legitimacy = -30
-	}
-	#Elective Succession
-	if = {
-		limit = {
-			OR = {
-				government = altepetl
-				government = tlaxcallan_confederate 
-				government = centralized_altepetl
-				government = triarchal_confederation_sub 
-				government = triarchal_confederation_dom  
-			}
-			OR = {
-				primary_culture = tepehuan 
-				primary_culture = tepecano  
-				primary_culture = zacatec  
-				primary_culture = caxcan  
-				primary_culture = guachichil  
-				primary_culture = uza  
-				primary_culture = pame  
-				primary_culture = otomi  
-				primary_culture = guamare  
-				primary_culture = teco  
-				primary_culture = cahita  
-				primary_culture = cuyutec  
-				primary_culture = newtotonac  
-				primary_culture = huastec  
-				primary_culture = tlaxcallan  
-				primary_culture = xochimila  
-				primary_culture = mizquic  
-				primary_culture = colhua  
-				primary_culture = chalca  
-				primary_culture = acolhua  
-				primary_culture = tepanec  
-				primary_culture = mexica  
-				primary_culture = matlatxinca  
-				primary_culture = cuitlateco  
-				primary_culture = newtlapanec  
-				primary_culture = amuzgo  
-				primary_culture = newmixtec  
-				primary_culture = newzapotec  
-			}
-			ai = no
-			NOT = {
-				has_country_modifier = deliberations_of_the_council
-			}
-			NOT = {
-				has_country_modifier = succession_conflict
-			}
-		}
-		ROOT = {
-			country_event = { id = esuccession.01 }
-		}
-	}
-	
-	#Direct Succession
-	if = {
-		limit = {
-			OR = {
-				government = altepetl
-				government = tlaxcallan_confederate 
-				government = centralized_altepetl
-				government = triarchal_confederation_sub 
-				government = triarchal_confederation_dom  
-			}
-			OR = {
-					primary_culture = xilotlantxinco  
-					primary_culture = chumbia   
-					primary_culture = cuauhcomeca   
-					primary_culture = pirinda   
-					primary_culture = maxahua   
-					primary_culture = tarascan   
-					primary_culture = centralamericannative  
-					primary_culture = centralmayan  
-					primary_culture = highlandsmayan   
-					primary_culture = mixezoquemayan   
-					primary_culture = yucatecmayan   
-					primary_culture = putun_chontal   
-					primary_culture = itzamayan   
-					primary_culture = qeqchimayan   
-					primary_culture = tzotzilmayan   
-					primary_culture = tzeltalmayan    
-					primary_culture = kichemayan   
-					primary_culture = kaqchikelmayan   
-					primary_culture = tzutujilmayan   
-					primary_culture = mammayan  
-					primary_culture = pokomammayan   
-					primary_culture = cholmayan   
-				}
-			ai = no
-		}
-		ROOT = {
-			country_event = { id = dsuccession.01 }
-		}
+	events = {
+		
 	}
 }
 
@@ -580,7 +205,12 @@ on_diplomatic_annex = {
 
 # country
 on_heir_death = {
-	country_event = { id = gsuccession.01 }
+	
+}
+
+# country
+on_queen_death = {
+	
 }
 
 # country
@@ -597,7 +227,7 @@ on_weak_heir_claim = {
 # country : no heir in theocracy
 on_heir_needed_theocracy = {
 	events = {
-		
+	
 	}
 }
 
@@ -644,6 +274,12 @@ on_hre_released_vassal = {
 	}
 }
 
+# HRE member transferred from non-HRE vassalage to Emperor
+on_hre_transfered_vassal = {
+	events = {
+	}
+}
+
 # Emperor coming to the defense of a HRE member
 on_hre_defense = {
 	events = {
@@ -663,6 +299,28 @@ on_hre_province_reconquest = {
 	}
 }
 
+on_lock_hre_religion = {
+	events = {
+	
+	}
+}
+
+on_change_hre_religion = {
+	events = {
+		
+	}
+}
+
+on_hre_religion_white_peace = {
+	events = {
+	
+	}
+}
+
+# When a non-native changes government type
+on_government_change = {
+}
+
 # When a native changes government after filling all their advancement groups.
 on_native_change_government = {
 }
@@ -674,39 +332,36 @@ on_integrate = {
 	}
 }
 
-# Nation annexed
-on_annexed = {	
+# Nation annexed.
+# FROM is the nation being annexed
+on_annexed = {
 	events = {
 		
 	}
 }
 
-# Nation westernized
-# root = country
-on_westernized = {
+# When the chinese empire gets dismantled (e.g. when the emperor is annexed)
+# FROM = Emperor, ROOT = Current Nation
+on_chinese_empire_dismantled = {
 	events = {
 		
 	}
+}
+
+# When a nation gains the Mandate of Heaven (becomes the Emperor of China)
+# FROM = Old Emperor, ROOT = New Emperor
+on_mandate_of_heaven_gained = {
+	
+}
+
+# When a nation loses the Mandate of Heaven
+# FROM = New Emperor, ROOT = Old Emperor
+on_mandate_of_heaven_lost = {
+	
 }
 
 on_dismantle_revolution = {
-	
-}
 
-on_lock_hre_religion = {
-	
-}
-
-on_change_hre_religion = {
-	events = {
-		
-	}
-}
-
-on_hre_religion_white_peace = {
-	events = {
-		
-	}
 }
 
 # province
@@ -723,29 +378,25 @@ on_mil_development = {
 
 on_overextension_pulse = {
 	random_events = {
+	
 	}
 }
 
-on_westernisation_pulse = {
-	random_events = {
-	}
-}
 
 on_colonial_pulse = {
 	random_events = {
+	
 	}
 }
 
 # country random events
 on_bi_yearly_pulse = {
 	random_events = {
-		
 	}
 }
 
 on_bi_yearly_pulse_2 = {
 	random_events = {
-		
 	}
 }
 
@@ -757,18 +408,12 @@ on_bi_yearly_pulse_4 = {
 
 # country random events
 on_thri_yearly_pulse = {
+	random_events = {
+	}
 }
 
 on_thri_yearly_pulse_2 = {
 	random_events = {
-		# Random to increase or decrease force
-		25 = RLGN_PUREPECHA.01
-		25 = RLGN_PUREPECHA.02
-		25 = RLGN_PUREPECHA.03
-		25 = RLGN_PUREPECHA.04
-		25 = RLGN_PUREPECHA.05
-		25 = RLGN_PUREPECHA.06
-		300 = 0		
 	}
 }
 
@@ -778,6 +423,9 @@ on_thri_yearly_pulse_3 = {
 }
 
 on_thri_yearly_pulse_4 = {
+	random_events = {
+		
+	}
 }
 
 on_four_year_pulse = {
@@ -805,7 +453,7 @@ on_five_year_pulse = {
 
 # Estates pulse
 on_five_year_pulse_2 = {
-	random_events = {	           
+	random_events = {	
 	}
 }
 
@@ -842,11 +490,13 @@ on_circumnavigation = {
 
 on_become_free_city = {
 	events = {
+	
 	}
 }
 
 on_remove_free_city = {
 	events = {
+		
 	}
 }
 
@@ -854,7 +504,113 @@ on_revoke_estate_land_ai = { #AI can't handle the rebels atm or perform a gradua
 }
 
 on_revoke_estate_land = {
+
 }
 
 on_grant_estate_land = {
+}
+
+on_death_has_harem = {
+
+}
+
+on_select_heir_from_harem = {
+}
+
+on_fetishist_cult_change = {
+
+}
+
+# country
+on_gain_great_power_status = {
+
+}
+
+# country
+on_lose_great_power_status = {
+}
+
+# province
+on_province_religion_converted = {
+}
+
+# province
+on_province_culture_converted = {
+}
+
+# province
+# FROM = old owner
+on_province_owner_change = {
+	events = {
+	
+	}
+}
+
+# country
+on_parliament_debate_failed = {
+}
+
+# country
+on_parliament_debate_succeeded = {
+}
+
+# country
+on_harmonized_pagan = {
+	events = {
+	
+	}
+}
+on_harmonized_christian = {
+	events = {
+		
+	}
+}
+on_harmonized_muslim = {
+	events = {
+		
+	}
+}
+on_harmonized_jewish_group = {
+	events = {
+	
+	}
+}
+on_harmonized_zoroastrian_group = {
+	events = {
+		
+	}
+}
+on_harmonized_dharmic = {
+	events = {
+		
+	}
+}
+on_harmonized_mahayana = {
+	events = {
+	
+	}
+}
+on_harmonized_buddhism = { #Theravada
+	events = {
+		
+	}	
+}
+on_harmonized_shinto = {
+	events = {
+	
+	}
+}
+on_harmonized_vajrayana = {
+	events = {
+		
+	}
+}
+
+
+# country. from = overlord
+on_accept_tribute = {
+}
+
+# country. from = overlord
+on_refuse_tribute = {
 }

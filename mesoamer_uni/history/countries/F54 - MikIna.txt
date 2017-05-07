@@ -1,0 +1,18 @@
+government = despotic_monarchy 
+government_rank = 1
+mercantilism = 0.25
+technology_group = central_mexican 
+religion = placeholderism
+primary_culture = placeholdertec
+capital = 931
+fixed_capital = 931
+
+1427.1.1 = {
+	monarch = {
+		name = "Random First Name"
+		dynasty = "Mik'ina"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

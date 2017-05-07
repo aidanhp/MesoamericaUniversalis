@@ -1,0 +1,17 @@
+add_core = B11
+add_core = SSL
+owner = SSL
+controller = SSL
+culture = placeholdertec
+religion = placeholderism
+hre = no
+base_tax = 1
+base_production = 3
+trade_goods = grain 
+base_manpower = 9
+capital = "Tlaxichco"
+is_city = yes
+fort_15th = yes
+
+discovered_by = central_mexican
+discovered_by = triple_alliance

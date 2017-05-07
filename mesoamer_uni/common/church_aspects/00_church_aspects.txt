@@ -87,7 +87,7 @@ legalised_divorces_aspect = {
 		legitimacy = 0.25
 		devotion = 0.25
 		horde_unity = 0.25
-		republican_tradition = 0.001
+		republican_tradition = 0.1
 	}
 	ai_will_do = {
 		factor = 12

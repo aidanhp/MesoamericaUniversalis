@@ -1,0 +1,16 @@
+add_core = RRX
+add_core = RRY
+owner = RRY
+controller = RRY
+culture = placeholdertec
+religion = placeholderism
+hre = no
+base_tax = 1
+base_production = 3
+trade_goods = grain 
+base_manpower = 9
+capital = "Tecomatlan"
+is_city = yes
+fort_15th = yes
+
+discovered_by = triple_alliance

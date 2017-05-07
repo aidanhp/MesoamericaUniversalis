@@ -1,0 +1,15 @@
+add_core = FFC
+owner = FFC
+controller = FFC
+culture = placeholdertec
+religion = placeholderism
+hre = no
+base_tax = 1
+base_production = 3
+trade_goods = grain 
+base_manpower = 9
+capital = "Yurecuaro"
+is_city = yes
+fort_15th = yes
+
+discovered_by = triple_alliance

@@ -1,0 +1,20 @@
+add_core = F80
+add_core = F76
+owner = F76
+controller = F76
+culture = placeholdertec
+religion = placeholderism
+hre = no
+base_tax = 1
+base_production = 3
+trade_goods = grain 
+base_manpower = 9
+capital = "Nebaj"
+is_city = yes
+fort_15th = yes
+
+discovered_by = triple_alliance 
+discovered_by = central_mexican 
+discovered_by = tarascan 
+discovered_by = west_mexican 
+discovered_by = maya 

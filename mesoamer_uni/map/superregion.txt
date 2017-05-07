@@ -1,8 +1,8 @@
 # A region can only belong to one super region.
 
-mexico_superregion = {
-	
+new_world_superregion ={
 }
 
-new_world_superregion ={
+all_regions_superregion = {
+	all_map_region 
 }

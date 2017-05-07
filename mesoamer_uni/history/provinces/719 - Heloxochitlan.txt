@@ -1,0 +1,17 @@
+add_core = A41
+add_core = A38
+owner = A38
+controller = A38
+culture = placeholdertec
+religion = placeholderism
+hre = no
+base_tax = 1
+base_production = 3
+trade_goods = grain 
+base_manpower = 9
+capital = "Heloxochitlan"
+is_city = yes
+fort_15th = yes
+
+discovered_by = central_mexican
+discovered_by = triple_alliance

@@ -1,0 +1,18 @@
+government = despotic_monarchy 
+government_rank = 1
+mercantilism = 0.25
+technology_group = central_mexican 
+religion = placeholderism
+primary_culture = placeholdertec
+capital = 1645
+fixed_capital = 1645
+
+1427.1.1 = {
+	monarch = {
+		name = "Random First Name"
+		dynasty = "Tichac"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

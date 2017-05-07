@@ -1,97 +1,11 @@
 # A province can only belong to one region!
-
 # random_new_world_region is used for RNW. Must be first in this list.
 random_new_world_region = {
 }
 
-########################################
-# MEXICO                               #
-########################################
-
-central_mexico_r = {
-	areas = { 
-		western_shore_a
-		eastern_shore_a
-		southern_shore_a
-		xocotitlan_a
-		toluca_a
-		petlacalco_a
-		tula_a
-		tlaxcala_a
-		tepeacac_a
-		malinalco_a
-		cuahnahuac_a
-		yohualtepec_a
-		oztoman_a
-	}
-}
-
-southern_mexico_r = {
+all_map_region = {
 	areas = {
-		cihuatlan_a
-		yope_a
-		tututepec_a
-		tehuantepec_a
-		teotitlan_a
-		tochtepec_a
+		all_land_area
+		all_sea_area
 	}
 }
-
-gulf_coast_r = {
-	areas = {
-		cuetlaxtlan_a
-		huasteca_a
-	}
-}
-
-michoacan_r = {
-	areas = {
-		patzcuaro_a
-		zacatula_a
-		cuitzeo_a
-		chapala_a
-		tetellan_a
-	}
-}
-
-western_mexico_r = {
-	areas = {
-		colima_a
-		xalisco_a
-		cora_a
-		tonallan_a
-	}
-}
-
-north_central_mexico_r = {
-	areas = {
-		metztitlan_a
-	}
-}
-
-mayan_highlands_r = {
-	areas = {	
-		xoconochco_a
-		west_highlands_a
-		east_highlands_a
-	}
-}
-
-central_america_r = {
-	areas = {
-		isthmus_a
-		magic_island_a
-	}
-}
-
-yucatan_r = {
-	areas = {
-		xicalango_a
-		peten_a
-		mayapan_a
-		chichen_itza_a
-		ekab_a
-	}
-}
-
-

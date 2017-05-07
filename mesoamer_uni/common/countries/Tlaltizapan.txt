@@ -2,7 +2,7 @@
 
 graphical_culture = southamericagfx
 
-color = { 43 132 64 }
+color = { 53 140 255 }
 
 historical_idea_groups = {
 	defensive_ideas
@@ -43,7 +43,7 @@ monarch_names = {
 	"Ahuitzotl #0" = 20
 	"Axayacatl #0" = 20
 	"Cuauhtemoc #0" = 20
-	"Cuitlahuah #0" = 20
+	"Cuitlahuac #0" = 20
 	"Nezahualcoyotl #0" = 20	
 	"Tlacaelel #0" = 20
 	"Xihuitl Temoc #0" = 20	
@@ -122,9 +122,9 @@ ship_names = {
 
 
 army_names = {
-	"Army $PROVINCE$" 
+	"$PROVINCE$ Xiquipilli" 
 }
 
 fleet_names = {
-	"Glorious Fleet"
+	"$PROVINCE$ Fleet"
 }

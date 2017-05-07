@@ -1,0 +1,18 @@
+government = despotic_monarchy 
+government_rank = 1
+mercantilism = 0.25
+technology_group = central_mexican 
+religion = placeholderism
+primary_culture = placeholdertec
+capital = 963
+fixed_capital = 963
+
+1427.1.1 = {
+	monarch = {
+		name = "Random First Name"
+		dynasty = "Zaculeu"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
