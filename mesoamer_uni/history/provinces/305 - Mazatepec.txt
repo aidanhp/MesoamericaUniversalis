@@ -1,6 +1,7 @@
 add_core = LLR
-owner = LLR
-controller = LLR
+add_core = LLF 
+owner = LLF 
+controller = LLF 
 culture = placeholdertec
 religion = placeholderism
 hre = no

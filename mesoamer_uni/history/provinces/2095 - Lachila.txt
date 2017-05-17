@@ -1,6 +1,7 @@
 add_core = N19
-owner = N19
-controller = N19
+add_core = B60
+owner = B60
+controller = B60
 culture = placeholdertec
 religion = placeholderism
 hre = no

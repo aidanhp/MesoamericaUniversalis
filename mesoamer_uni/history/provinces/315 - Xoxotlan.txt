@@ -1,6 +1,7 @@
 add_core = MMB
-owner = MMB
-controller = MMB
+add_core = LLF 
+owner = LLF 
+controller = LLF 
 culture = placeholdertec
 religion = placeholderism
 hre = no

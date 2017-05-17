@@ -1,6 +1,6 @@
-add_core = RRP
-owner = RRP
-controller = RRP
+add_core = GGT
+owner = GGT
+controller = GGT
 culture = placeholdertec
 religion = placeholderism
 hre = no

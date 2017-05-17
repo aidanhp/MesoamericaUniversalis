@@ -1,6 +1,6 @@
-add_core = RRQ
-owner = RRQ
-controller = RRQ
+add_core = GGT
+owner = GGT
+controller = GGT
 culture = placeholdertec
 religion = placeholderism
 hre = no

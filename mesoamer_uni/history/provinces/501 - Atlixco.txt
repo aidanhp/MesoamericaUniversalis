@@ -1,6 +1,7 @@
 add_core = TTE
-owner = TTE
-controller = TTE
+add_core = A95
+owner = A95
+controller = A95
 culture = placeholdertec
 religion = placeholderism
 hre = no
