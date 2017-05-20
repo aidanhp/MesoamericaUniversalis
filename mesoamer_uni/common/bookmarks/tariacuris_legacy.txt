@@ -1,0 +1,15 @@
+bookmark =
+{
+	name = "TARIACURIS_LEGACY"
+	desc = "TARIACURIS_LEGACY_DESC"
+	date = 1428.1.31
+	
+	center = 43
+	default = no
+
+	country = BBP
+	country = BBW
+	country = BBX
+
+	easy_country = BBP
+}

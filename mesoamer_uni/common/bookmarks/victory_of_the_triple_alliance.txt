@@ -1,0 +1,23 @@
+bookmark =
+{
+	name = "VICTORY_OF_THE_TRIPLE_ALLIANCE"
+	desc = "VICTORY_OF_THE_TRIPLE_ALLIANCE_DESC"
+	date = 1428.1.31
+	
+	center = 1
+	default = yes
+
+	country = AAA
+	country = ACC
+	country = AAD
+	#country = AAE #Azcapotzalco
+	country = BBD
+	country = A75
+	country = A76
+	country = A77
+	country = A78
+	country = A95
+	country = LLF
+
+	easy_country = AAA
+}

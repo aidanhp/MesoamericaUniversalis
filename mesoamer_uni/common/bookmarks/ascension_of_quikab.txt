@@ -1,0 +1,13 @@
+bookmark =
+{
+	name = "ASCENSION_OF_QUIKAB"
+	desc = "ASCENSION_OF_QUIKAB_DESC"
+	date = 1428.1.31
+	
+	center = 903
+	default = no
+
+	country = F26
+	country = ZZY
+	country = A10
+}

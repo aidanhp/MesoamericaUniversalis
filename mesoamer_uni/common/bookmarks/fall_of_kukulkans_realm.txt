@@ -1,0 +1,14 @@
+bookmark =
+{
+	name = "FALL_OF_KUKULKANS_REALM"
+	desc = "FALL_OF_KUKULKANS_REALM_DESC"
+	date = 1428.1.31
+	
+	center = 1644
+	default = no
+
+	country = I96
+	country = I60
+	country = H33
+	country = L15
+}
