@@ -12,4 +12,8 @@ capital = "Yancuitlan"
 is_city = yes
 fort_15th = yes
 
-discovered_by = triple_alliance
+discovered_by = triple_alliance 
+discovered_by = central_mexican 
+discovered_by = tarascan 
+discovered_by = west_mexican 
+discovered_by = maya  
