@@ -1,7 +1,11 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
-#Valley of Mexico
-1;3;sea;1250;-1;-1;-1;-1;TenochitlanTlacopan
-2;6;sea;1250;-1;-1;-1;-1;TlatelolcoTenayuca
+#Lake Texcoco
+1;4;sea;1250;-1;-1;-1;-1;TenochitlanTlacopan
+1;26;sea;1250;-1;-1;-1;-1;TenochitlanMexicatzinco
+1;35;sea;1250;-1;-1;-1;-1;TenochitlanCoyohuacan
+1;2336;sea;1250;-1;-1;-1;-1;TenochitlanDike
+2;7;sea;1250;-1;-1;-1;-1;TlatelolcoTepeyac
+3;2336;sea;1251;-1;-1;-1;-1;TexcocoDike
 #Lake Chalco
 2224;30;sea;1253;-1;-1;-1;-1;XicoChalco
 2225;30;sea;1253;-1;-1;-1;-1;TlapacoyacChalco

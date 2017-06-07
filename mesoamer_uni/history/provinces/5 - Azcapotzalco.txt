@@ -1,7 +1,6 @@
 add_core = AAE
-add_core = AAD
-owner = AAD
-controller = AAD
+owner = AAE
+controller = AAE
 culture = placeholdertec
 religion = placeholderism
 hre = no
