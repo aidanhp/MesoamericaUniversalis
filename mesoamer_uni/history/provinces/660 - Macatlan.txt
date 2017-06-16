@@ -1,7 +1,6 @@
 add_core = ZZH
-add_core = ZZY
-owner = ZZY
-controller = ZZY
+owner = ZZH
+controller = ZZH
 culture = placeholdertec
 religion = placeholderism
 hre = no

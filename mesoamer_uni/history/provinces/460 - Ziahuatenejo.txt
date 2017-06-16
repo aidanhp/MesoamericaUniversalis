@@ -1,3 +1,4 @@
+add_core = RRP
 add_core = GGT
 owner = GGT
 controller = GGT

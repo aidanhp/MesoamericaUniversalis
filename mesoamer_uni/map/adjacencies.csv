@@ -1,4 +1,7 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
+############
+#OVER WATER#
+############
 #Lake Texcoco
 1;4;sea;1250;-1;-1;-1;-1;TenochitlanTlacopan
 1;26;sea;1250;-1;-1;-1;-1;TenochitlanMexicatzinco
@@ -11,4 +14,22 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 2225;30;sea;1253;-1;-1;-1;-1;TlapacoyacChalco
 #Lake Catemaco
 1898;1897;sea;1271;-1;-1;-1;-1;AgaltepecCatemaco
+###########
+#OVER Land#
+###########
+1779;1776;sea;2313;-1;-1;-1;-1;PotonchanXicallanco
+1777;1770;sea;2313;-1;-1;-1;-1;PalizadaPibil
+1640;1681;sea;2306;-1;-1;-1;-1;TancahCoba
+1681;1237;sea;2306;-1;-1;-1;-1;CobaTikuch
+1708;1709;sea;2307;-1;-1;-1;-1;ZamachSianKa'an
+1710;1701;sea;2307;-1;-1;-1;-1;ChancahKanpokolche
+1710;1711;sea;2309;-1;-1;-1;-1;ChancahHuntichmul
+1711;1716;sea;2309;-1;-1;-1;-1;HuntichmulYuyumpeten
+1712;1703;sea;2309;-1;-1;-1;-1;TzucacabChunhuhub
+1725;1735;sea;2310;-1;-1;-1;-1;ChunukumIxpimienta
+1735;1715;sea;2310;-1;-1;-1;-1;IxpimientaBakhalal
+1730;1728;sea;2311;-1;-1;-1;-1;LamanaiK'axob
+1730;1736;sea;2311;-1;-1;-1;-1;LamanaiHolzuz
+1731;1734;sea;2311;-1;-1;-1;-1;CalmotzTipu
+1676;1680;sea;2312;-1;-1;-1;-1;XulOpilchen
 -1;-1;;-1;-1;-1;-1;-1;-1;

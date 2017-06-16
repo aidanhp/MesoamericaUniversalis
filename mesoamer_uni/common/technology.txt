@@ -23,6 +23,7 @@ groups = {
 			value = 75
 		}
 	}
+	
 	triple_alliance = {
 		start_level = 0
 		start_cost_modifier = 0
@@ -40,6 +41,25 @@ groups = {
 			value = 75
 		}
 	}
+	
+	purepecha = {
+		start_cost_modifier = 0
+		start_level = 0
+		nation_designer_cost = {
+			trigger = {
+				capital_scope = {
+					OR = {
+						continent = new_world
+						continent = north_america
+						continent = south_america
+						continent = oceania
+					}
+				}
+			}
+			value = 75
+		}
+	}
+	
 	central_mexican = {
 		start_cost_modifier = 0
 		start_level = 0
@@ -57,23 +77,7 @@ groups = {
 			value = 75
 		}
 	}
-	tarascan = {
-		start_cost_modifier = 0
-		start_level = 0
-		nation_designer_cost = {
-			trigger = {
-				capital_scope = {
-					OR = {
-						continent = new_world
-						continent = north_america
-						continent = south_america
-						continent = oceania
-					}
-				}
-			}
-			value = 75
-		}
-	}
+	
 	west_mexican = {
 		start_cost_modifier = 0
 		start_level = 0
@@ -91,6 +95,7 @@ groups = {
 			value = 75
 		}
 	}
+	
 	maya = {
 		start_cost_modifier = 0
 		start_level = 0
@@ -108,7 +113,8 @@ groups = {
 			value = 75
 		}
 	}
-	semi_nomadic_tribe = {
+	
+	semi_nomadic = {
 		start_cost_modifier = 0
 		start_level = 0
 		nation_designer_cost = {

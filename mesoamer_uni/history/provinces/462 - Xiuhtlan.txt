@@ -1,3 +1,4 @@
+add_core = RRR
 add_core = GGT
 owner = GGT
 controller = GGT
