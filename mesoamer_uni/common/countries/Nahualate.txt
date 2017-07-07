@@ -2,7 +2,7 @@
 
 graphical_culture = southamericagfx
 
-color = { 29 56 32 }
+color = { 73 132 103 }
 
 historical_idea_groups = {
 	defensive_ideas
