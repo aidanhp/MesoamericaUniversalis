@@ -1,7 +1,7 @@
 add_core = M82
 owner = M82
 controller = M82
-culture = placeholdertec
+culture = otomi
 religion = placeholderism
 hre = no
 base_tax = 1

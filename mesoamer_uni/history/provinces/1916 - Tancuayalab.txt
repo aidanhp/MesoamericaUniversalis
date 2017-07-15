@@ -1,7 +1,7 @@
 add_core = L74
 owner = L74
 controller = L74
-culture = placeholdertec
+culture = huastec
 religion = placeholderism
 hre = no
 base_tax = 1

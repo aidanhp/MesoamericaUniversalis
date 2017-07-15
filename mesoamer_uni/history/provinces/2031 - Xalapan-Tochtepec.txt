@@ -1,7 +1,7 @@
 add_core = M64
 owner = M64
 controller = M64
-culture = placeholdertec
+culture = mazatec
 religion = placeholderism
 hre = no
 base_tax = 1

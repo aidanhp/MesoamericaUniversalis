@@ -1,7 +1,7 @@
 add_core = RRF
 owner = RRF
 controller = RRF
-culture = placeholdertec
+culture = cuitlatec
 religion = placeholderism
 hre = no
 base_tax = 1

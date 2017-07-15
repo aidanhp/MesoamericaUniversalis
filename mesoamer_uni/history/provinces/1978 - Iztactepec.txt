@@ -1,7 +1,7 @@
 add_core = M11
 owner = M11
 controller = M11
-culture = placeholdertec
+culture = zapotec
 religion = placeholderism
 hre = no
 base_tax = 1

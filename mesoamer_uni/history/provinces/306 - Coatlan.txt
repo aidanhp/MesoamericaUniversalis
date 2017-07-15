@@ -1,7 +1,7 @@
 add_core = LLS
 owner = LLS
 controller = LLS
-culture = placeholdertec
+culture = central_nahua
 religion = placeholderism
 hre = no
 base_tax = 1

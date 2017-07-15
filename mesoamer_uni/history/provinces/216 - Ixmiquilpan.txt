@@ -1,7 +1,7 @@
 add_core = IIF
 owner = IIF
 controller = IIF
-culture = placeholdertec
+culture = otomi
 religion = placeholderism
 hre = no
 base_tax = 1

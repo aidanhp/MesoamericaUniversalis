@@ -1,7 +1,7 @@
 add_core = M98
 owner = M98
 controller = M98
-culture = placeholdertec
+culture = central_nahua
 religion = placeholderism
 hre = no
 base_tax = 1

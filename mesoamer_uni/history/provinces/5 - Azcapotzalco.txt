@@ -1,7 +1,7 @@
 add_core = AAE
 owner = AAE
 controller = AAE
-culture = placeholdertec
+culture = tepanec
 religion = placeholderism
 hre = no
 base_tax = 1

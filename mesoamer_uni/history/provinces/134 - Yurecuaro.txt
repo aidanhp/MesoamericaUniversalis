@@ -1,7 +1,7 @@
 add_core = FFC
 owner = FFC
 controller = FFC
-culture = placeholdertec
+culture = purepecha
 religion = placeholderism
 hre = no
 base_tax = 1

@@ -1,7 +1,7 @@
 add_core = KKC
 owner = KKC
 controller = KKC
-culture = placeholdertec
+culture = mazahua
 religion = placeholderism
 hre = no
 base_tax = 1

@@ -1,7 +1,7 @@
 add_core = BBG
 owner = BBG
 controller = BBG
-culture = placeholdertec
+culture = xochimilca
 religion = placeholderism
 hre = no
 base_tax = 1

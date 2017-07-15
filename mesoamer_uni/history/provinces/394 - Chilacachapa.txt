@@ -1,7 +1,7 @@
 add_core = PPB
 owner = PPB
 controller = PPB
-culture = placeholdertec
+culture = huaxyacac_chontal
 religion = placeholderism
 hre = no
 base_tax = 1

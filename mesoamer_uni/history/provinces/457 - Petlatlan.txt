@@ -1,7 +1,7 @@
 add_core = RRM
 owner = RRM
 controller = RRM
-culture = placeholdertec
+culture = cuitlatec
 religion = placeholderism
 hre = no
 base_tax = 1

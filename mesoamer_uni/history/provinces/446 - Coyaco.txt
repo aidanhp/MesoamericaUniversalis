@@ -1,7 +1,7 @@
 add_core = RRB
 owner = RRB
 controller = RRB
-culture = placeholdertec
+culture = cuitlatec
 religion = placeholderism
 hre = no
 base_tax = 1

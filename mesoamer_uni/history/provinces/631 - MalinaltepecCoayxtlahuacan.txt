@@ -1,7 +1,7 @@
 add_core = YYD
 owner = YYD
 controller = YYD
-culture = placeholdertec
+culture = cuicatec
 religion = placeholderism
 hre = no
 base_tax = 1

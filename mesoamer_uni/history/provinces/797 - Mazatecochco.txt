@@ -1,7 +1,7 @@
 add_core = B20
 owner = B20
 controller = B20
-culture = placeholdertec
+culture = tlaxcallan
 religion = placeholderism
 hre = no
 base_tax = 1

@@ -1,7 +1,7 @@
 add_core = RRD
 owner = RRD
 controller = RRD
-culture = placeholdertec
+culture = cuitlatec
 religion = placeholderism
 hre = no
 base_tax = 1

@@ -1,7 +1,7 @@
 add_core = PPE
 owner = PPE
 controller = PPE
-culture = placeholdertec
+culture = mazahua
 religion = placeholderism
 hre = no
 base_tax = 1

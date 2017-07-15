@@ -1,7 +1,7 @@
 add_core = N02
 owner = N02
 controller = N02
-culture = placeholdertec
+culture = otomi
 religion = placeholderism
 hre = no
 base_tax = 1

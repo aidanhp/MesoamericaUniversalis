@@ -1,7 +1,7 @@
 add_core = M33
 owner = M33
 controller = M33
-culture = placeholdertec
+culture = mixtec
 religion = placeholderism
 hre = no
 base_tax = 1

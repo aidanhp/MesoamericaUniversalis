@@ -1,7 +1,7 @@
 add_core = F23
 owner = F23
 controller = F23
-culture = placeholdertec
+culture = huave
 religion = placeholderism
 hre = no
 base_tax = 1

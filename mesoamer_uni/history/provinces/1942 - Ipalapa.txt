@@ -1,7 +1,7 @@
 add_core = M01
 owner = M01
 controller = M01
-culture = placeholdertec
+culture = amuzgo
 religion = placeholderism
 hre = no
 base_tax = 1

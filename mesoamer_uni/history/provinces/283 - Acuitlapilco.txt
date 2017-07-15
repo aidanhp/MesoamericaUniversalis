@@ -1,7 +1,7 @@
 add_core = KKV
 owner = KKV
 controller = KKV
-culture = placeholdertec
+culture = mazahua
 religion = placeholderism
 hre = no
 base_tax = 1

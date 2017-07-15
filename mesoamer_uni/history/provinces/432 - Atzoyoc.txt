@@ -1,7 +1,7 @@
 add_core = QQN
 owner = QQN
 controller = QQN
-culture = placeholdertec
+culture = tlapanec
 religion = placeholderism
 hre = no
 base_tax = 1

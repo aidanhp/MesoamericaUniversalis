@@ -1,7 +1,7 @@
 add_core = GGK
 owner = GGK
 controller = GGK
-culture = placeholdertec
+culture = purepecha
 religion = placeholderism
 hre = no
 base_tax = 1

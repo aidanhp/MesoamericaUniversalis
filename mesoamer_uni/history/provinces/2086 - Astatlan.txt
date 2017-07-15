@@ -1,7 +1,7 @@
 add_core = N10
 owner = N10
 controller = N10
-culture = placeholdertec
+culture = chocho
 religion = placeholderism
 hre = no
 base_tax = 1

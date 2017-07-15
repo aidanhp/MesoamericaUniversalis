@@ -1,7 +1,7 @@
 add_core = DDJ
 owner = DDJ
 controller = DDJ
-culture = placeholdertec
+culture = purepecha
 religion = placeholderism
 hre = no
 base_tax = 1

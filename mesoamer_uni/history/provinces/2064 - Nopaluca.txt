@@ -1,7 +1,7 @@
 add_core = M87
 owner = M87
 controller = M87
-culture = placeholdertec
+culture = tlaxcallan
 religion = placeholderism
 hre = no
 base_tax = 1

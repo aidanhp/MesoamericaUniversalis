@@ -1,7 +1,7 @@
 add_core = JJI
 owner = JJI
 controller = JJI
-culture = placeholdertec
+culture = matlatzinca
 religion = placeholderism
 hre = no
 base_tax = 1

@@ -1,7 +1,7 @@
 add_core = JJS
 owner = JJS
 controller = JJS
-culture = placeholdertec
+culture = matlatzinca
 religion = placeholderism
 hre = no
 base_tax = 1

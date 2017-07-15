@@ -1,7 +1,7 @@
 add_core = N04
 owner = N04
 controller = N04
-culture = placeholdertec
+culture = tlapanec
 religion = placeholderism
 hre = no
 base_tax = 1

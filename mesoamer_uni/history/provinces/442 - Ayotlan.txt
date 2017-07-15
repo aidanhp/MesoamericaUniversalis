@@ -1,7 +1,7 @@
 add_core = QQX
 owner = QQX
 controller = QQX
-culture = placeholdertec
+culture = tlapanec
 religion = placeholderism
 hre = no
 base_tax = 1

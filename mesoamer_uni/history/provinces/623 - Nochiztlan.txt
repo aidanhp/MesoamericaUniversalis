@@ -1,7 +1,7 @@
 add_core = XXV
 owner = XXV
 controller = XXV
-culture = placeholdertec
+culture = mixtec
 religion = placeholderism
 hre = no
 base_tax = 1

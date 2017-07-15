@@ -1,7 +1,7 @@
 add_core = JJY
 owner = JJY
 controller = JJY
-culture = placeholdertec
+culture = matlatzinca
 religion = placeholderism
 hre = no
 base_tax = 1

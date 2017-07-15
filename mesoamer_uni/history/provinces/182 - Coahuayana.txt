@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = purepecha
 religion = placeholderism
 capital = "Coahuayana"
 trade_goods = unknown

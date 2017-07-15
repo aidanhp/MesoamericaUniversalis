@@ -1,7 +1,7 @@
 add_core = YYN
 owner = YYN
 controller = YYN
-culture = placeholdertec
+culture = zapotec
 religion = placeholderism
 hre = no
 base_tax = 1

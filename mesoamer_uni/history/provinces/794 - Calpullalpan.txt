@@ -1,7 +1,7 @@
 add_core = B17
 owner = B17
 controller = B17
-culture = placeholdertec
+culture = otomi
 religion = placeholderism
 hre = no
 base_tax = 1

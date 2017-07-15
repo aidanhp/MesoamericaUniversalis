@@ -1,7 +1,7 @@
 add_core = YYA
 owner = YYA
 controller = YYA
-culture = placeholdertec
+culture = chocho
 religion = placeholderism
 hre = no
 base_tax = 1

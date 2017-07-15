@@ -1,7 +1,7 @@
 add_core = AAA
 owner = AAA
 controller = AAA
-culture = placeholdertec
+culture = mexica
 religion = placeholderism
 hre = no
 base_tax = 1

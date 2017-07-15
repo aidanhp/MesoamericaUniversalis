@@ -1,7 +1,7 @@
 add_core = JJP
 owner = JJP
 controller = JJP
-culture = placeholdertec
+culture = matlatzinca
 religion = placeholderism
 hre = no
 base_tax = 1

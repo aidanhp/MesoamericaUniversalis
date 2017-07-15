@@ -1,7 +1,7 @@
 add_core = XAA
 owner = XAA
 controller = XAA
-culture = placeholdertec
+culture = mixtec
 religion = placeholderism
 hre = no
 base_tax = 1

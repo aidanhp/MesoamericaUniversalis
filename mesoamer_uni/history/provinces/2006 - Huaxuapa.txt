@@ -1,7 +1,7 @@
 add_core = M39
 owner = M39
 controller = M39
-culture = placeholdertec
+culture = mixtec
 religion = placeholderism
 hre = no
 base_tax = 1

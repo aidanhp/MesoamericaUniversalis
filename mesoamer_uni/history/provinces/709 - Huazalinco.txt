@@ -1,7 +1,7 @@
 add_core = A31
 owner = A31
 controller = A31
-culture = placeholdertec
+culture = metztitlani
 religion = placeholderism
 hre = no
 base_tax = 1

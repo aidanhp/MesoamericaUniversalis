@@ -1,7 +1,7 @@
 add_core = AAO
 owner = AAO
 controller = AAO
-culture = placeholdertec
+culture = acolhua
 religion = placeholderism
 hre = no
 base_tax = 1

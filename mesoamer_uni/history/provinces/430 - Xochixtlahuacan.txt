@@ -1,7 +1,7 @@
 add_core = QQL
 owner = QQL
 controller = QQL
-culture = placeholdertec
+culture = amuzgo
 religion = placeholderism
 hre = no
 base_tax = 1

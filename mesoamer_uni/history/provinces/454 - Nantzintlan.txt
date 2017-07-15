@@ -1,7 +1,7 @@
 add_core = RRJ
 owner = RRJ
 controller = RRJ
-culture = placeholdertec
+culture = cuitlatec
 religion = placeholderism
 hre = no
 base_tax = 1

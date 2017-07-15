@@ -1,7 +1,7 @@
 add_core = WWX
 owner = WWX
 controller = WWX
-culture = placeholdertec
+culture = huastec
 religion = placeholderism
 hre = no
 base_tax = 1

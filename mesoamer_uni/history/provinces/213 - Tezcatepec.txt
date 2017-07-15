@@ -1,7 +1,7 @@
 add_core = IIC
 owner = IIC
 controller = IIC
-culture = placeholdertec
+culture = otomi
 religion = placeholderism
 hre = no
 base_tax = 1

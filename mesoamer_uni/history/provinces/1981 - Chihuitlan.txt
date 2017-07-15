@@ -1,7 +1,7 @@
 add_core = M14
 owner = M14
 controller = M14
-culture = placeholdertec
+culture = zapotec
 religion = placeholderism
 hre = no
 base_tax = 1

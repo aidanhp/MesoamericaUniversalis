@@ -1,7 +1,7 @@
 add_core = N07
 owner = N07
 controller = N07
-culture = placeholdertec
+culture = mixtec
 religion = placeholderism
 hre = no
 base_tax = 1

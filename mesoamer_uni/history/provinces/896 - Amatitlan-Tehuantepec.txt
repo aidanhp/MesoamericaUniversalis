@@ -1,7 +1,7 @@
 add_core = F19
 owner = F19
 controller = F19
-culture = placeholdertec
+culture = zapotec
 religion = placeholderism
 hre = no
 base_tax = 1

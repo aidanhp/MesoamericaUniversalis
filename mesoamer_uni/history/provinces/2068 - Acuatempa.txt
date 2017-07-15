@@ -1,7 +1,7 @@
 add_core = M91
 owner = M91
 controller = M91
-culture = placeholdertec
+culture = chocho
 religion = placeholderism
 hre = no
 base_tax = 1

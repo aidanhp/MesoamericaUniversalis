@@ -1,7 +1,7 @@
 add_core = KKT
 owner = KKT
 controller = KKT
-culture = placeholdertec
+culture = mazahua
 religion = placeholderism
 hre = no
 base_tax = 1

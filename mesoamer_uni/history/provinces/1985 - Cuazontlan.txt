@@ -1,7 +1,7 @@
 add_core = M18
 owner = M18
 controller = M18
-culture = placeholdertec
+culture = zapotec
 religion = placeholderism
 hre = no
 base_tax = 1

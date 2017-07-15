@@ -1,7 +1,7 @@
 add_core = QQE
 owner = QQE
 controller = QQE
-culture = placeholdertec
+culture = mixtec
 religion = placeholderism
 hre = no
 base_tax = 1

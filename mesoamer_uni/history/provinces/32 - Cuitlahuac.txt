@@ -1,7 +1,7 @@
 add_core = BBF
 owner = BBF
 controller = BBF
-culture = placeholdertec
+culture = cuitlahuaca
 religion = placeholderism
 hre = no
 base_tax = 1

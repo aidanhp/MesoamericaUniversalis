@@ -1,7 +1,7 @@
 add_core = AAK
 owner = AAK
 controller = AAK
-culture = placeholdertec
+culture = tepanec
 religion = placeholderism
 hre = no
 base_tax = 1

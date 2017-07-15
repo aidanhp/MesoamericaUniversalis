@@ -1,7 +1,7 @@
 add_core = M26
 owner = M26
 controller = M26
-culture = placeholdertec
+culture = zoque
 religion = placeholderism
 hre = no
 base_tax = 1

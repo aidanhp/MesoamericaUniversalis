@@ -1,7 +1,7 @@
 add_core = OOO
 owner = OOO
 controller = OOO
-culture = placeholdertec
+culture = coixca
 religion = placeholderism
 hre = no
 base_tax = 1

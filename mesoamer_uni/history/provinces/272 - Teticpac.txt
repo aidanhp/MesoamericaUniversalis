@@ -1,7 +1,7 @@
 add_core = KKJ
 owner = KKJ
 controller = KKJ
-culture = placeholdertec
+culture = huaxyacac_chontal
 religion = placeholderism
 hre = no
 base_tax = 1

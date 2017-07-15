@@ -1,7 +1,7 @@
 add_core = JJF
 owner = JJF
 controller = JJF
-culture = placeholdertec
+culture = tepanec
 religion = placeholderism
 hre = no
 base_tax = 1

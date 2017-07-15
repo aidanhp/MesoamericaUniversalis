@@ -1,7 +1,7 @@
 add_core = L85
 owner = L85
 controller = L85
-culture = placeholdertec
+culture = huastec
 religion = placeholderism
 hre = no
 base_tax = 1

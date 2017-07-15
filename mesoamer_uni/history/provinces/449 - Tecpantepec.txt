@@ -1,7 +1,7 @@
 add_core = RRE
 owner = RRE
 controller = RRE
-culture = placeholdertec
+culture = cuitlatec
 religion = placeholderism
 hre = no
 base_tax = 1

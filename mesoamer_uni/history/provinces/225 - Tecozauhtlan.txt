@@ -1,7 +1,7 @@
 add_core = IIO
 owner = IIO
 controller = IIO
-culture = placeholdertec
+culture = otomi
 religion = placeholderism
 hre = no
 base_tax = 1

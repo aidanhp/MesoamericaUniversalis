@@ -1,7 +1,7 @@
 add_core = QQZ
 owner = QQZ
 controller = QQZ
-culture = placeholdertec
+culture = central_nahua
 religion = placeholderism
 hre = no
 base_tax = 1

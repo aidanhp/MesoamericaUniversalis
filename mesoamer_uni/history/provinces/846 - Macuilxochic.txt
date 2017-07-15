@@ -1,7 +1,7 @@
 add_core = B69
 owner = B69
 controller = B69
-culture = placeholdertec
+culture = zapotec
 religion = placeholderism
 hre = no
 base_tax = 1

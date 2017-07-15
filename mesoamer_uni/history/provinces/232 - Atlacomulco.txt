@@ -1,7 +1,7 @@
 add_core = IIV
 owner = IIV
 controller = IIV
-culture = placeholdertec
+culture = mazahua
 religion = placeholderism
 hre = no
 base_tax = 1

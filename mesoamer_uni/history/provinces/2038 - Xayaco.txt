@@ -1,7 +1,7 @@
 add_core = M71
 owner = M71
 controller = M71
-culture = placeholdertec
+culture = chinantec
 religion = placeholderism
 hre = no
 base_tax = 1

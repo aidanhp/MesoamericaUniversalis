@@ -1,7 +1,7 @@
 add_core = AAN
 owner = AAN
 controller = AAN
-culture = placeholdertec
+culture = tepanec
 religion = placeholderism
 hre = no
 base_tax = 1

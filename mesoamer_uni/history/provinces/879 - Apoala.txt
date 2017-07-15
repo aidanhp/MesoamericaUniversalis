@@ -1,7 +1,7 @@
 add_core = F02
 owner = F02
 controller = F02
-culture = placeholdertec
+culture = mixtec
 religion = placeholderism
 hre = no
 base_tax = 1

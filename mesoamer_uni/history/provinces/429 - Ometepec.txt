@@ -1,7 +1,7 @@
 add_core = QQK
 owner = QQK
 controller = QQK
-culture = placeholdertec
+culture = mixtec
 religion = placeholderism
 hre = no
 base_tax = 1

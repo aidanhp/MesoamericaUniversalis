@@ -1,7 +1,7 @@
 add_core = WWZ
 owner = WWZ
 controller = WWZ
-culture = placeholdertec
+culture = totonac
 religion = placeholderism
 hre = no
 base_tax = 1

@@ -1,7 +1,7 @@
 add_core = A22
 owner = A22
 controller = A22
-culture = placeholdertec
+culture = metztitlani
 religion = placeholderism
 hre = no
 base_tax = 1

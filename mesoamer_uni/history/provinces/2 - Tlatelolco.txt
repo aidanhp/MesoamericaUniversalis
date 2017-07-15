@@ -1,7 +1,7 @@
 add_core = AAB
 owner = AAB
 controller = AAB
-culture = placeholdertec
+culture = mexica
 religion = placeholderism
 hre = no
 base_tax = 1

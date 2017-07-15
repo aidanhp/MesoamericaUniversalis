@@ -1,7 +1,7 @@
 add_core = A62
 owner = A62
 controller = A62
-culture = placeholdertec
+culture = otomi
 religion = placeholderism
 hre = no
 base_tax = 1

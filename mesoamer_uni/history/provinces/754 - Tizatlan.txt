@@ -1,7 +1,7 @@
 add_core = A76
 owner = A76
 controller = A76
-culture = placeholdertec
+culture = tlaxcallan
 religion = placeholderism
 hre = no
 base_tax = 1

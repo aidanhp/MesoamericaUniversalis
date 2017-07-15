@@ -1,7 +1,7 @@
 add_core = KKN
 owner = KKN
 controller = KKN
-culture = placeholdertec
+culture = huaxyacac_chontal
 religion = placeholderism
 hre = no
 base_tax = 1

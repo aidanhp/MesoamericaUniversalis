@@ -1,7 +1,7 @@
 add_core = A34
 owner = A34
 controller = A34
-culture = placeholdertec
+culture = otomi
 religion = placeholderism
 hre = no
 base_tax = 1

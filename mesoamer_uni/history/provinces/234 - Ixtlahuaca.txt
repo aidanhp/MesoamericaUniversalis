@@ -1,7 +1,7 @@
 add_core = IIX
 owner = IIX
 controller = IIX
-culture = placeholdertec
+culture = mazahua
 religion = placeholderism
 hre = no
 base_tax = 1

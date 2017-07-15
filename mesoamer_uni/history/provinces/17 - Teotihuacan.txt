@@ -1,7 +1,7 @@
 add_core = AAQ
 owner = AAQ
 controller = AAQ
-culture = placeholdertec
+culture = acolhua
 religion = placeholderism
 hre = no
 base_tax = 1

@@ -1,7 +1,7 @@
 add_core = QQP
 owner = QQP
 controller = QQP
-culture = placeholdertec
+culture = central_nahua
 religion = placeholderism
 hre = no
 base_tax = 1

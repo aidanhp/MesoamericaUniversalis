@@ -1,7 +1,7 @@
 add_core = M78
 owner = M78
 controller = M78
-culture = placeholdertec
+culture = metztitlani
 religion = placeholderism
 hre = no
 base_tax = 1

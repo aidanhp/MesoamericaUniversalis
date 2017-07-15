@@ -1,7 +1,7 @@
 add_core = F21
 owner = F21
 controller = F21
-culture = placeholdertec
+culture = huave
 religion = placeholderism
 hre = no
 base_tax = 1

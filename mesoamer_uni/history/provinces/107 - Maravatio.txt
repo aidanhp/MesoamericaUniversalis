@@ -1,7 +1,7 @@
 add_core = EEB
 owner = EEB
 controller = EEB
-culture = placeholdertec
+culture = purepecha
 religion = placeholderism
 hre = no
 base_tax = 1

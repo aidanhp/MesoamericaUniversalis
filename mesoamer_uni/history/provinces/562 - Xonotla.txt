@@ -1,7 +1,7 @@
 add_core = VVM
 owner = VVM
 controller = VVM
-culture = placeholdertec
+culture = totonac
 religion = placeholderism
 hre = no
 base_tax = 1

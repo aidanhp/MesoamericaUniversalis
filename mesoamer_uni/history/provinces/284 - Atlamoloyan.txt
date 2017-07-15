@@ -1,7 +1,7 @@
 add_core = KKW
 owner = KKW
 controller = KKW
-culture = placeholdertec
+culture = mazahua
 religion = placeholderism
 hre = no
 base_tax = 1

@@ -1,7 +1,7 @@
 add_core = NNA
 owner = NNA
 controller = NNA
-culture = placeholdertec
+culture = central_nahua
 religion = placeholderism
 hre = no
 base_tax = 1

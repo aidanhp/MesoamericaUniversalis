@@ -1,7 +1,7 @@
 add_core = XXA
 owner = XXA
 controller = XXA
-culture = placeholdertec
+culture = totonac
 religion = placeholderism
 hre = no
 base_tax = 1

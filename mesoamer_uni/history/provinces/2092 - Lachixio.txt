@@ -1,7 +1,7 @@
 add_core = N16
 owner = N16
 controller = N16
-culture = placeholdertec
+culture = zapotec
 religion = placeholderism
 hre = no
 base_tax = 1

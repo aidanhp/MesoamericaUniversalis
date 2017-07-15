@@ -1,7 +1,7 @@
 add_core = IIE
 owner = IIE
 controller = IIE
-culture = placeholdertec
+culture = otomi
 religion = placeholderism
 hre = no
 base_tax = 1

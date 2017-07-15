@@ -1,7 +1,7 @@
 add_core = M29
 owner = M29
 controller = M29
-culture = placeholdertec
+culture = mixe
 religion = placeholderism
 hre = no
 base_tax = 1

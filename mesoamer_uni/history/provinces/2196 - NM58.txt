@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = huastec
 religion = placeholderism
 capital = "No Man's Land"
 trade_goods = unknown

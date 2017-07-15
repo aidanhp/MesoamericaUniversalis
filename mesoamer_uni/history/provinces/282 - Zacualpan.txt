@@ -1,7 +1,7 @@
 add_core = KKU
 owner = KKU
 controller = KKU
-culture = placeholdertec
+culture = mazahua
 religion = placeholderism
 hre = no
 base_tax = 1

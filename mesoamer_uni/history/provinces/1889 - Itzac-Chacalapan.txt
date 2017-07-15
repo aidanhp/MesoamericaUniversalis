@@ -1,7 +1,7 @@
 add_core = L47
 owner = L47
 controller = L47
-culture = placeholdertec
+culture = popoluca
 religion = placeholderism
 hre = no
 base_tax = 1

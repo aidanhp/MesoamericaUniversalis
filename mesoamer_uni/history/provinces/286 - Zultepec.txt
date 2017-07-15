@@ -1,7 +1,7 @@
 add_core = KKY
 owner = KKY
 controller = KKY
-culture = placeholdertec
+culture = central_nahua
 religion = placeholderism
 hre = no
 base_tax = 1

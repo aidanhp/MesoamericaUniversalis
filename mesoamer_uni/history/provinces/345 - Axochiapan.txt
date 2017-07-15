@@ -1,7 +1,7 @@
 add_core = NNF
 owner = NNF
 controller = NNF
-culture = placeholdertec
+culture = central_nahua
 religion = placeholderism
 hre = no
 base_tax = 1

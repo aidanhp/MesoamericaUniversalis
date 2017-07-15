@@ -1,7 +1,7 @@
 add_core = BBC
 owner = BBC
 controller = BBC
-culture = placeholdertec
+culture = acolhua
 religion = placeholderism
 hre = no
 base_tax = 1

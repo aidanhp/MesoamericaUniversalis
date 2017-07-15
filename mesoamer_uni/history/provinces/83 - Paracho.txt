@@ -1,7 +1,7 @@
 add_core = DDD
 owner = DDD
 controller = DDD
-culture = placeholdertec
+culture = purepecha
 religion = placeholderism
 hre = no
 base_tax = 1

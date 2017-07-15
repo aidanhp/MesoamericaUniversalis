@@ -1,7 +1,7 @@
 add_core = PPR
 owner = PPR
 controller = PPR
-culture = placeholdertec
+culture = coixca
 religion = placeholderism
 hre = no
 base_tax = 1

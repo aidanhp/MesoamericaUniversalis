@@ -1,7 +1,7 @@
 add_core = EER
 owner = EER
 controller = EER
-culture = placeholdertec
+culture = purepecha
 religion = placeholderism
 hre = no
 base_tax = 1

@@ -1,7 +1,7 @@
 add_core = L62
 owner = L62
 controller = L62
-culture = placeholdertec
+culture = eastern_nahua
 religion = placeholderism
 hre = no
 base_tax = 1

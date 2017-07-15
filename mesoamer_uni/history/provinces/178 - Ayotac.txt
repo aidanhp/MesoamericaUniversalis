@@ -1,7 +1,7 @@
 add_core = GGU
 owner = GGU
 controller = GGU
-culture = placeholdertec
+culture = chumbia
 religion = placeholderism
 hre = no
 base_tax = 1

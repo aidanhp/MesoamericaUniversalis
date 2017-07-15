@@ -1,7 +1,7 @@
 add_core = L53
 owner = L53
 controller = L53
-culture = placeholdertec
+culture = eastern_nahua
 religion = placeholderism
 hre = no
 base_tax = 1

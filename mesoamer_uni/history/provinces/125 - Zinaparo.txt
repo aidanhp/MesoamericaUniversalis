@@ -1,7 +1,7 @@
 add_core = EET
 owner = EET
 controller = EET
-culture = placeholdertec
+culture = purepecha
 religion = placeholderism
 hre = no
 base_tax = 1

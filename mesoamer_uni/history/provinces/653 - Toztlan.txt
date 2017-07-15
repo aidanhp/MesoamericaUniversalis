@@ -1,7 +1,7 @@
 add_core = ZZA
 owner = ZZA
 controller = ZZA
-culture = placeholdertec
+culture = eastern_nahua
 religion = placeholderism
 hre = no
 base_tax = 1

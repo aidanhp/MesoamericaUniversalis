@@ -1,7 +1,7 @@
 add_core = A64
 owner = A64
 controller = A64
-culture = placeholdertec
+culture = huastec
 religion = placeholderism
 hre = no
 base_tax = 1

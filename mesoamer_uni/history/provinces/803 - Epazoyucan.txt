@@ -1,7 +1,7 @@
 add_core = B26
 owner = B26
 controller = B26
-culture = placeholdertec
+culture = pame
 religion = placeholderism
 hre = no
 base_tax = 1

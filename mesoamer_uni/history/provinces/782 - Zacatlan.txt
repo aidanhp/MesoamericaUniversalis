@@ -1,7 +1,7 @@
 add_core = B05
 owner = B05
 controller = B05
-culture = placeholdertec
+culture = eastern_nahua
 religion = placeholderism
 hre = no
 base_tax = 1

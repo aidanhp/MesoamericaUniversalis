@@ -1,7 +1,7 @@
 add_core = DDH
 owner = DDH
 controller = DDH
-culture = placeholdertec
+culture = purepecha
 religion = placeholderism
 hre = no
 base_tax = 1

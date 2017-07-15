@@ -1,7 +1,7 @@
 add_core = AAH
 owner = AAH
 controller = AAH
-culture = placeholdertec
+culture = tepanec
 religion = placeholderism
 hre = no
 base_tax = 1

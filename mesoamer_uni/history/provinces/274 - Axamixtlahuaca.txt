@@ -1,7 +1,7 @@
 add_core = KKM
 owner = KKM
 controller = KKM
-culture = placeholdertec
+culture = huaxyacac_chontal
 religion = placeholderism
 hre = no
 base_tax = 1

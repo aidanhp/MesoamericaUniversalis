@@ -1,7 +1,7 @@
 add_core = M53
 owner = M53
 controller = M53
-culture = placeholdertec
+culture = mazatec
 religion = placeholderism
 hre = no
 base_tax = 1

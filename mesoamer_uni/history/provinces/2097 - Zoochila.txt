@@ -1,7 +1,7 @@
 add_core = N21
 owner = N21
 controller = N21
-culture = placeholdertec
+culture = zapotec
 religion = placeholderism
 hre = no
 base_tax = 1

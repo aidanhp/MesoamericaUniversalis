@@ -1,7 +1,7 @@
 add_core = PPJ
 owner = PPJ
 controller = PPJ
-culture = placeholdertec
+culture = huaxyacac_chontal
 religion = placeholderism
 hre = no
 base_tax = 1

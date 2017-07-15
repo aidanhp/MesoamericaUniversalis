@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = eastern_nahua
 religion = maya
 capital = "Coatzalcoalcos"
 trade_goods = unknown

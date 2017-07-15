@@ -1,7 +1,7 @@
 add_core = ZZC
 owner = ZZC
 controller = ZZC
-culture = placeholdertec
+culture = eastern_nahua
 religion = placeholderism
 hre = no
 base_tax = 1

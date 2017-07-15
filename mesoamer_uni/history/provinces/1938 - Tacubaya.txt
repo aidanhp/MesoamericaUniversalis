@@ -1,7 +1,7 @@
 add_core = L96
 owner = L96
 controller = L96
-culture = placeholdertec
+culture = mixtec
 religion = placeholderism
 hre = no
 base_tax = 1

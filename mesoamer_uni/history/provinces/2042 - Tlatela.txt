@@ -1,7 +1,7 @@
 add_core = M75
 owner = M75
 controller = M75
-culture = placeholdertec
+culture = eastern_nahua
 religion = placeholderism
 hre = no
 base_tax = 1

@@ -1,7 +1,7 @@
 add_core = MMK
 owner = MMK
 controller = MMK
-culture = placeholdertec
+culture = central_nahua
 religion = placeholderism
 hre = no
 base_tax = 1

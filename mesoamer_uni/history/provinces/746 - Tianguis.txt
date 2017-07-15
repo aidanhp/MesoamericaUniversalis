@@ -1,7 +1,7 @@
 add_core = A68
 owner = A68
 controller = A68
-culture = placeholdertec
+culture = metztitlani
 religion = placeholderism
 hre = no
 base_tax = 1

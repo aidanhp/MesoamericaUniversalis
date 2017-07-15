@@ -1,7 +1,7 @@
 add_core = IIA
 owner = IIA
 controller = IIA
-culture = placeholdertec
+culture = otomi
 religion = placeholderism
 hre = no
 base_tax = 1

@@ -1,7 +1,7 @@
 add_core = MMS
 owner = MMS
 controller = MMS
-culture = placeholdertec
+culture = central_nahua
 religion = placeholderism
 hre = no
 base_tax = 1

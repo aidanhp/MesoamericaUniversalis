@@ -1,7 +1,7 @@
 add_core = A53
 owner = A53
 controller = A53
-culture = placeholdertec
+culture = metztitlani
 religion = placeholderism
 hre = no
 base_tax = 1

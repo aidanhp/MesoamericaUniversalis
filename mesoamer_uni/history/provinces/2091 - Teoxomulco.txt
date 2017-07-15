@@ -1,7 +1,7 @@
 add_core = N15
 owner = N15
 controller = N15
-culture = placeholdertec
+culture = chatino
 religion = placeholderism
 hre = no
 base_tax = 1

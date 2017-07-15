@@ -1,7 +1,7 @@
 add_core = N28
 owner = N28
 controller = N28
-culture = placeholdertec
+culture = chinantec
 religion = placeholderism
 hre = no
 base_tax = 1

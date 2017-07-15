@@ -1,7 +1,7 @@
 add_core = B22
 owner = B22
 controller = B22
-culture = placeholdertec
+culture = otomi
 religion = placeholderism
 hre = no
 base_tax = 1

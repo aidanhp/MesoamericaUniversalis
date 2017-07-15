@@ -1,7 +1,7 @@
 add_core = A99
 owner = A99
 controller = A99
-culture = placeholdertec
+culture = cholulan
 religion = placeholderism
 hre = no
 base_tax = 1

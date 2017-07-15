@@ -1,7 +1,7 @@
 add_core = A66
 owner = A66
 controller = A66
-culture = placeholdertec
+culture = huastec
 religion = placeholderism
 hre = no
 base_tax = 1

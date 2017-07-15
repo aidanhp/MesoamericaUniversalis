@@ -1,7 +1,7 @@
 add_core = N49
 owner = N49
 controller = N49
-culture = placeholdertec
+culture = chalca
 religion = placeholderism
 hre = no
 base_tax = 1

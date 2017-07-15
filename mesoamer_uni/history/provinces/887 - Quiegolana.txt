@@ -1,7 +1,7 @@
 add_core = F10
 owner = F10
 controller = F10
-culture = placeholdertec
+culture = huaxyacac_chontal
 religion = placeholderism
 hre = no
 base_tax = 1

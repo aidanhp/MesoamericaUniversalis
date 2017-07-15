@@ -1,7 +1,7 @@
 add_core = YYU
 owner = YYU
 controller = YYU
-culture = placeholdertec
+culture = chinantec
 religion = placeholderism
 hre = no
 base_tax = 1

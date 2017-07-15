@@ -1,7 +1,7 @@
 add_core = M16
 owner = M16
 controller = M16
-culture = placeholdertec
+culture = zapotec
 religion = placeholderism
 hre = no
 base_tax = 1

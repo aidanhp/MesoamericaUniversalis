@@ -1,7 +1,7 @@
 add_core = L56
 owner = L56
 controller = L56
-culture = placeholdertec
+culture = eastern_nahua
 religion = placeholderism
 hre = no
 base_tax = 1

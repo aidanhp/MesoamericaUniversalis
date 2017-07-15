@@ -1,7 +1,7 @@
 add_core = DDK
 owner = DDK
 controller = DDK
-culture = placeholdertec
+culture = purepecha
 religion = placeholderism
 hre = no
 base_tax = 1

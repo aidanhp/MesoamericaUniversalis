@@ -1,7 +1,7 @@
 add_core = QQC
 owner = QQC
 controller = QQC
-culture = placeholdertec
+culture = mixtec
 religion = placeholderism
 hre = no
 base_tax = 1

@@ -1,7 +1,7 @@
 add_core = HHX
 owner = HHX
 controller = HHX
-culture = placeholdertec
+culture = otomi
 religion = placeholderism
 hre = no
 base_tax = 1

@@ -1,7 +1,7 @@
 add_core = L51
 owner = L51
 controller = L51
-culture = placeholdertec
+culture = chinantec
 religion = placeholderism
 hre = no
 base_tax = 1

@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = pame
 religion = placeholderism
 capital = "Mountain Pass"
 trade_goods = unknown

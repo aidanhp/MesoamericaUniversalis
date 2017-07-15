@@ -1,7 +1,7 @@
 add_core = AAL
 owner = AAL
 controller = AAL
-culture = placeholdertec
+culture = otomi
 religion = placeholderism
 hre = no
 base_tax = 1

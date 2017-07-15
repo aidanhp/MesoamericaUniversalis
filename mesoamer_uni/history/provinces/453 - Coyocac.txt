@@ -1,7 +1,7 @@
 add_core = RRI
 owner = RRI
 controller = RRI
-culture = placeholdertec
+culture = cuitlatec
 religion = placeholderism
 hre = no
 base_tax = 1

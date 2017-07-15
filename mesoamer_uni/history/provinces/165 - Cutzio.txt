@@ -1,7 +1,7 @@
 add_core = GGH
 owner = GGH
 controller = GGH
-culture = placeholdertec
+culture = purepecha
 religion = placeholderism
 hre = no
 base_tax = 1

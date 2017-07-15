@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = coixca
 religion = placeholderism
 capital = "No Man's Land"
 trade_goods = unknown

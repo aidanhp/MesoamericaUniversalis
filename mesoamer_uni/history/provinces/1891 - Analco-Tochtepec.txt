@@ -1,7 +1,7 @@
 add_core = L49
 owner = L49
 controller = L49
-culture = placeholdertec
+culture = zapotec
 religion = placeholderism
 hre = no
 base_tax = 1

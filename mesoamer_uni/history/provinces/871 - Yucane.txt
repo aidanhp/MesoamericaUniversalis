@@ -1,7 +1,7 @@
 add_core = B93
 owner = B93
 controller = B93
-culture = placeholdertec
+culture = mixtec
 religion = placeholderism
 hre = no
 base_tax = 1

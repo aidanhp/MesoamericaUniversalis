@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = zapotec
 religion = placeholderism 
 capital = "Monte Alban"
 trade_goods = unknown

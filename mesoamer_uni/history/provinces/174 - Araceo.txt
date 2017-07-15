@@ -1,7 +1,7 @@
 add_core = GGQ
 owner = GGQ
 controller = GGQ
-culture = placeholdertec
+culture = purepecha
 religion = placeholderism
 hre = no
 base_tax = 1

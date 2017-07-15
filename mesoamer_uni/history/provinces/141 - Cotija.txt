@@ -1,7 +1,7 @@
 add_core = FFJ
 owner = FFJ
 controller = FFJ
-culture = placeholdertec
+culture = purepecha
 religion = placeholderism
 hre = no
 base_tax = 1

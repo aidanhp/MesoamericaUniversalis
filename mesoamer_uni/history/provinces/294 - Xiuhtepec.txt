@@ -1,7 +1,7 @@
 add_core = LLG
 owner = LLG
 controller = LLG
-culture = placeholdertec
+culture = central_nahua
 religion = placeholderism
 hre = no
 base_tax = 1

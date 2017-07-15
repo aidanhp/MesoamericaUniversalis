@@ -1,7 +1,7 @@
 add_core = RRK
 owner = RRK
 controller = RRK
-culture = placeholdertec
+culture = cuitlatec
 religion = placeholderism
 hre = no
 base_tax = 1

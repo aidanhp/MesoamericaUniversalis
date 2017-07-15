@@ -1,7 +1,7 @@
 add_core = IIH
 owner = IIH
 controller = IIH
-culture = placeholdertec
+culture = otomi
 religion = placeholderism
 hre = no
 base_tax = 1

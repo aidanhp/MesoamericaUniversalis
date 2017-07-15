@@ -1,7 +1,7 @@
 add_core = HHU
 owner = HHU
 controller = HHU
-culture = placeholdertec
+culture = otomi
 religion = placeholderism
 hre = no
 base_tax = 1

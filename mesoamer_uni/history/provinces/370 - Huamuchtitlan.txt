@@ -1,7 +1,7 @@
 add_core = OOD
 owner = OOD
 controller = OOD
-culture = placeholdertec
+culture = coixca
 religion = placeholderism
 hre = no
 base_tax = 1

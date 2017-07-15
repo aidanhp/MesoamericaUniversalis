@@ -1,7 +1,7 @@
 add_core = EEJ
 owner = EEJ
 controller = EEJ
-culture = placeholdertec
+culture = purepecha
 religion = placeholderism
 hre = no
 base_tax = 1

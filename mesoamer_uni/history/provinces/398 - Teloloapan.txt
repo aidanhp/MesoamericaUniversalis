@@ -1,7 +1,7 @@
 add_core = PPF
 owner = PPF
 controller = PPF
-culture = placeholdertec
+culture = huaxyacac_chontal
 religion = placeholderism
 hre = no
 base_tax = 1

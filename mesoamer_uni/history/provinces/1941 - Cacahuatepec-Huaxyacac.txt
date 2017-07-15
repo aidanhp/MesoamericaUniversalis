@@ -1,7 +1,7 @@
 add_core = L99
 owner = L99
 controller = L99
-culture = placeholdertec
+culture = amuzgo
 religion = placeholderism
 hre = no
 base_tax = 1

@@ -1,7 +1,7 @@
 add_core = L58
 owner = L58
 controller = L58
-culture = placeholdertec
+culture = zapotec
 religion = placeholderism
 hre = no
 base_tax = 1

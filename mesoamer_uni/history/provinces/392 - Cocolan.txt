@@ -1,7 +1,7 @@
 add_core = OOZ
 owner = OOZ
 controller = OOZ
-culture = placeholdertec
+culture = huaxyacac_chontal
 religion = placeholderism
 hre = no
 base_tax = 1

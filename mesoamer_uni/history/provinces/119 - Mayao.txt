@@ -1,7 +1,7 @@
 add_core = EEN
 owner = EEN
 controller = EEN
-culture = placeholdertec
+culture = purepecha
 religion = placeholderism
 hre = no
 base_tax = 1

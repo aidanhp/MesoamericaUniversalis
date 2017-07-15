@@ -1,7 +1,7 @@
 add_core = AAG
 owner = AAG
 controller = AAG
-culture = placeholdertec
+culture = tepanec
 religion = placeholderism
 hre = no
 base_tax = 1

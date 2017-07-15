@@ -1,7 +1,7 @@
 add_core = MMZ
 owner = MMZ
 controller = MMZ
-culture = placeholdertec
+culture = central_nahua
 religion = placeholderism
 hre = no
 base_tax = 1

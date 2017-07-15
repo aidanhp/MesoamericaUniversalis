@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = chumbia
 religion = placeholderism
 capital = "Acalpican"
 trade_goods = unknown

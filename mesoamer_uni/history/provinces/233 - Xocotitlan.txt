@@ -1,7 +1,7 @@
 add_core = IIW
 owner = IIW
 controller = IIW
-culture = placeholdertec
+culture = mazahua
 religion = placeholderism
 hre = no
 base_tax = 1

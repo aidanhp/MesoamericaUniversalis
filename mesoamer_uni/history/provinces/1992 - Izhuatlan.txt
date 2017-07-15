@@ -1,7 +1,7 @@
 add_core = M25
 owner = M25
 controller = M25
-culture = placeholdertec
+culture = huave
 religion = placeholderism
 hre = no
 base_tax = 1

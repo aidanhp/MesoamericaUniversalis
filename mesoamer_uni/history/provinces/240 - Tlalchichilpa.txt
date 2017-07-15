@@ -1,7 +1,7 @@
 add_core = JJD
 owner = JJD
 controller = JJD
-culture = placeholdertec
+culture = mazahua
 religion = placeholderism
 hre = no
 base_tax = 1

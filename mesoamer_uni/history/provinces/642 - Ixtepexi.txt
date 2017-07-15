@@ -1,7 +1,7 @@
 add_core = YYO 
 owner = YYO 
 controller = YYO 
-culture = placeholdertec
+culture = zapotec
 religion = placeholderism
 hre = no
 base_tax = 1

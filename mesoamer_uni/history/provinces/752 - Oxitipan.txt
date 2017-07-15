@@ -1,7 +1,7 @@
 add_core = A74
 owner = A74
 controller = A74
-culture = placeholdertec
+culture = metztitlani
 religion = placeholderism
 hre = no
 base_tax = 1
