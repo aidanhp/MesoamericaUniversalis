@@ -1,7 +1,7 @@
 add_core = A85
-add_core = A77
-owner = A77
-controller = A77
+add_core = Z01
+owner = Z01
+controller = Z01
 culture = tlaxcallan
 religion = placeholderism
 hre = no

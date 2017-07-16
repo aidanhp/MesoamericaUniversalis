@@ -1677,3 +1677,6 @@ P03 = "countries/Caguamo.txt"
 P04 = "countries/Maisei.txt"
 P05 = "countries/Sabano.txt"
 P06 = "countries/Tliliuhquitepec.txt"
+
+#Special Countries - Formables/Invaders/Crazy Mechanics
+Z01 = "countries/Tlaxcallan.txt"
