@@ -1,4 +1,4 @@
-culture = purepecha
+culture = cuauhcomeca
 religion = placeholderism
 capital = "Motin"
 trade_goods = unknown

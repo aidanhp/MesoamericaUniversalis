@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = sayultec
 religion = placeholderism
 capital = "Apazulco"
 trade_goods = unknown

@@ -1,7 +1,7 @@
 add_core = N44
 owner = N44
 controller = N44
-culture = placeholdertec
+culture = caxcan
 religion = placeholderism
 hre = no
 base_tax = 1

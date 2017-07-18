@@ -1,7 +1,7 @@
 add_core = GGM
 owner = GGM
 controller = GGM
-culture = purepecha
+culture = cuauhcomeca
 religion = placeholderism
 hre = no
 base_tax = 1

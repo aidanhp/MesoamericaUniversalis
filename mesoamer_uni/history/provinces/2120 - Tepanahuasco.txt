@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = tecuexe
 religion = placeholderism
 capital = "Tepanahuasco"
 trade_goods = unknown

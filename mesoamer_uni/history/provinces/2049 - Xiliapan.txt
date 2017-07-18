@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = pame
 religion = placeholderism
 capital = "Xiliapan"
 trade_goods = unknown

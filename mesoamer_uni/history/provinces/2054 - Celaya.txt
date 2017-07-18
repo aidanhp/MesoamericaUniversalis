@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = guamare
 religion = placeholderism
 capital = "Celaya"
 trade_goods = unknown

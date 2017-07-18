@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = west_otomi
 religion = placeholderism
 capital = "Cuitzmala"
 trade_goods = unknown

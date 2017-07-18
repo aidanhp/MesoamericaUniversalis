@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = huichol
 religion = placeholderism
 capital = "Amatlan"
 trade_goods = unknown

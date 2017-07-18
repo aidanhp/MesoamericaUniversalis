@@ -1,7 +1,7 @@
 add_core = M06
 owner = M06
 controller = M06
-culture = placeholdertec
+culture = cahita
 religion = placeholderism
 hre = no
 base_tax = 1

@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = tepecano
 religion = placeholderism
 capital = "Camatlan"
 trade_goods = unknown

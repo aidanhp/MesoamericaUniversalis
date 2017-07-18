@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = tecuexe
 religion = placeholderism
 capital = "Temacapulin"
 trade_goods = unknown

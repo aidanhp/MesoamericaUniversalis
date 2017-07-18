@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = guachichil
 religion = placeholderism
 capital = "Ayotlan"
 trade_goods = unknown

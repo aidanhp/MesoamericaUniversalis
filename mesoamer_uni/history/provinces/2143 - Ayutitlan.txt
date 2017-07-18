@@ -1,7 +1,7 @@
 add_core = N36
 owner = N36
 controller = N36
-culture = placeholdertec
+culture = west_otomi
 religion = placeholderism
 hre = no
 base_tax = 1

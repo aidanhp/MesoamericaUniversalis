@@ -1,7 +1,7 @@
 add_core = GGO
 owner = GGO
 controller = GGO
-culture = purepecha
+culture = pame
 religion = placeholderism
 hre = no
 base_tax = 1

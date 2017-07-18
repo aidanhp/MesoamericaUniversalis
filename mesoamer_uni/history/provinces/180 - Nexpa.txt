@@ -1,4 +1,4 @@
-culture = purepecha
+culture = cuauhcomeca
 religion = placeholderism
 capital = "Nexpa"
 trade_goods = unknown

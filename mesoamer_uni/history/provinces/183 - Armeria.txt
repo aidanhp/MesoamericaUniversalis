@@ -1,4 +1,4 @@
-culture = purepecha
+culture = colimotl
 religion = placeholderism
 capital = "Armeria"
 trade_goods = unknown

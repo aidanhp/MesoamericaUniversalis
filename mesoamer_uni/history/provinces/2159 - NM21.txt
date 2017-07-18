@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = purepecha
 religion = placeholderism
 capital = "No Man's Land"
 trade_goods = unknown

@@ -1,7 +1,7 @@
 add_core = EEE
 owner = EEE
 controller = EEE
-culture = purepecha
+culture = matlatzinca
 religion = placeholderism
 hre = no
 base_tax = 1

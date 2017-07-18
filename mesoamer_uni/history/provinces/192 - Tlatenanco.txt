@@ -1,7 +1,7 @@
 add_core = HHI
 owner = HHI
 controller = HHI
-culture = placeholdertec
+culture = caxcan
 religion = placeholderism
 hre = no
 base_tax = 1

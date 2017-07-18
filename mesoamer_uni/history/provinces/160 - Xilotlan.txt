@@ -1,7 +1,7 @@
 add_core = GGC
 owner = GGC
 controller = GGC
-culture = purepecha
+culture = xilotlantzinca
 religion = placeholderism
 hre = no
 base_tax = 1

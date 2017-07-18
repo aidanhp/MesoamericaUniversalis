@@ -1,7 +1,7 @@
 add_core = HHJ
 owner = HHJ
 controller = HHJ
-culture = placeholdertec
+culture = caxcan
 religion = placeholderism
 hre = no
 base_tax = 1

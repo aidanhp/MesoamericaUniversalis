@@ -1,7 +1,7 @@
 add_core = GGS
 owner = GGS
 controller = GGS
-culture = purepecha
+culture = guamare
 religion = placeholderism
 hre = no
 base_tax = 1

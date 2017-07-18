@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = coca
 religion = placeholderism
 capital = "Chapala"
 trade_goods = unknown

@@ -21,6 +21,8 @@
  eastern_nahua: "Eastern Nahua" 
  central_nahua: "Central Nahua"
  archaic_toltec: "Archaic Toltec"
+ xilotlantzinca: "Xilotlantzinca" 
+ colimotl: "Colimotl"
  
  huaxyacac: "Huaxyacac"
  mixtec: "Mixtec"
@@ -37,6 +39,21 @@
  pantec: "Pantec"
  tolimec: "Tolimec"
  chumbia: "Chumbia"
+ coca: "Coca"
+ cuauhcomeca: "Cuauhcomeca"
+ west_otomi: "West Otomi"
+ 
+ northwest_mexican: "Northwest Mexican"
+ guamare: "Guamare"
+ cora: "Cora"
+ huichol: "Huichol"
+ caxcan: "Caxcan"
+ tecuexe: "Tecuexe"
+ tepehuan: "Tepehuan" 
+ tepecano: "Tepecano" 
+ totorame: "Totorame"
+ cuyotec: "Cuyotec" 
+ guachichil: "Guachichil"
  
  gulf_coast: "Gulf Coast"
  huastec: "Huastec"
@@ -68,4 +85,7 @@
  tlapanec: "Tlapanec"
  
  cuitlatec: "Cuitlatec"
+ 
+ cahita_group: "Cahita"
+ cahita: "Cahita"
  

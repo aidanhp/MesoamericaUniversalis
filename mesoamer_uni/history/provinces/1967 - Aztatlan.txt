@@ -1,7 +1,7 @@
 add_core = M09
 owner = M09
 controller = M09
-culture = placeholdertec
+culture = tepehuan
 religion = placeholderism
 hre = no
 base_tax = 1

@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = west_otomi
 religion = placeholderism
 capital = "No Man's Land"
 trade_goods = unknown

@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = cora
 religion = placeholderism
 capital = "Atimanica"
 trade_goods = unknown

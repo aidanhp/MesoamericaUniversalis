@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = pame
 religion = placeholderism
 capital = "Cadereyta"
 trade_goods = unknown

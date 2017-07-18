@@ -1,7 +1,7 @@
 add_core = GGJ
 owner = GGJ
 controller = GGJ
-culture = purepecha
+culture = xilotlantzinca
 religion = placeholderism
 hre = no
 base_tax = 1

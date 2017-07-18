@@ -1,7 +1,7 @@
 add_core = HHB
 owner = HHB
 controller = HHB
-culture = placeholdertec
+culture = west_otomi
 religion = placeholderism
 hre = no
 base_tax = 1

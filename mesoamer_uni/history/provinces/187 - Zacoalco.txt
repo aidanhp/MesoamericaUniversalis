@@ -1,7 +1,7 @@
 add_core = HHD
 owner = HHD
 controller = HHD
-culture = placeholdertec
+culture = coca
 religion = placeholderism
 hre = no
 base_tax = 1

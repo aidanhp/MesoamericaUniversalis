@@ -206,6 +206,24 @@ nahua = {
 		}
 	}
 	
+	xilotlantzinca = {
+		male_names = {
+			Placeholder
+		}
+		female_names = {
+			Placeholder
+		}
+	}
+	
+	colimotl = {
+		male_names = {
+			Placeholder
+		}
+		female_names = {
+			Placeholder
+		}
+	}
+	
 	dynasty_names = {
 		Placeholder
 	}
@@ -330,8 +348,129 @@ west_mexican = {
 		}
 	}
 	
+	coca = {
+		male_names = {
+			Placeholder
+		}
+		female_names = {
+			Placeholder
+		}
+	}
+	
+	cuauhcomeca = {
+		male_names = {
+			Placeholder
+		}
+		female_names = {
+			Placeholder
+		}
+	}
+	
+	west_otomi = {
+		male_names = {
+			Placeholder
+		}
+		female_names = {
+			Placeholder
+		}
+	}
+	
 	dynasty_names = {
 		Placeholder
+	}
+}
+
+northwest_mexican = {
+	graphical_culture = southamericagfx
+	
+	guamare = {
+		male_names = {
+			Placeholder
+		}
+		female_names = {
+			Placeholder
+		}
+	}
+	
+	cora = {
+		male_names = {
+			Placeholder
+		}
+		female_names = {
+			Placeholder
+		}
+	}
+	
+	huichol = {
+		male_names = {
+			Placeholder
+		}
+		female_names = {
+			Placeholder
+		}
+	}
+	
+	caxcan = {
+		male_names = {
+			Placeholder
+		}
+		female_names = {
+			Placeholder
+		}
+	}
+	
+	tecuexe = {
+		male_names = {
+			Placeholder
+		}
+		female_names = {
+			Placeholder
+		}
+	}
+	
+	tepehuan = {
+		male_names = {
+			Placeholder
+		}
+		female_names = {
+			Placeholder
+		}
+	}
+	
+	tepecano = {
+		male_names = {
+			Placeholder
+		}
+		female_names = {
+			Placeholder
+		}
+	}
+	
+	totorame = {
+		male_names = {
+			Placeholder
+		}
+		female_names = {
+			Placeholder
+		}
+	}
+	
+	cuyotec = {
+		male_names = {
+			Placeholder
+		}
+		female_names = {
+			Placeholder
+		}
+	}
+	
+	guachichil = {
+		male_names = {
+			Placeholder
+		}
+		female_names = {
+			Placeholder
+		}
 	}
 }
 
@@ -560,5 +699,18 @@ cuitlatec = {
 	
 	dynasty_names = {
 		Placeholder
+	}
+}
+
+cahita_group = {
+	graphical_culture = southamericagfx
+	
+	cahita = {
+		male_names = {
+			Placeholder
+		}
+		female_names = {
+			Placeholder
+		}
 	}
 }

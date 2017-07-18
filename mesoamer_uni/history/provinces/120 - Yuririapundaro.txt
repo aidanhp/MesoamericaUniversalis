@@ -1,7 +1,7 @@
 add_core = EEO
 owner = EEO
 controller = EEO
-culture = purepecha
+culture = guamare
 religion = placeholderism
 hre = no
 base_tax = 1

@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = tepehuan
 religion = placeholderism
 capital = "Tecuala"
 trade_goods = unknown

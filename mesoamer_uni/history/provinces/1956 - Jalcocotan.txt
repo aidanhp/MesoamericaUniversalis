@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = totorame
 religion = placeholderism
 capital = "Jalcocotan"
 trade_goods = unknown

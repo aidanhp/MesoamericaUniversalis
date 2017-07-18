@@ -1,7 +1,7 @@
 add_core = EEU
 owner = EEU
 controller = EEU
-culture = purepecha
+culture = guamare
 religion = placeholderism
 hre = no
 base_tax = 1

@@ -1,4 +1,4 @@
-culture = purepecha
+culture = colimotl
 religion = placeholderism
 capital = "Coahuayana"
 trade_goods = unknown

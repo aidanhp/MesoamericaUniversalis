@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = tecuexe
 religion = placeholderism
 capital = "Ocotic"
 trade_goods = unknown

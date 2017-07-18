@@ -1,7 +1,7 @@
 add_core = EEF
 owner = EEF
 controller = EEF
-culture = purepecha
+culture = matlatzinca
 religion = placeholderism
 hre = no
 base_tax = 1

@@ -1,7 +1,7 @@
 add_core = HHE
 owner = HHE
 controller = HHE
-culture = placeholdertec
+culture = sayultec
 religion = placeholderism
 hre = no
 base_tax = 1

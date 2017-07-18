@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = cuyotec
 religion = placeholderism
 capital = "Yelapa"
 trade_goods = unknown

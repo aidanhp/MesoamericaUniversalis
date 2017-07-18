@@ -1,7 +1,7 @@
 add_core = M08
 owner = M08
 controller = M08
-culture = placeholdertec
+culture = totorame
 religion = placeholderism
 hre = no
 base_tax = 1

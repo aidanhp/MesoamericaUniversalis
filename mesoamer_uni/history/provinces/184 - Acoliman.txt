@@ -1,7 +1,7 @@
 add_core = HHA
 owner = HHA
 controller = HHA
-culture = placeholdertec
+culture = colimotl
 religion = placeholderism
 hre = no
 base_tax = 1
