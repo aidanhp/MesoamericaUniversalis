@@ -1,7 +1,7 @@
 add_core = G04
 owner = G04
 controller = G04
-culture = placeholdertec
+culture = zoque
 religion = placeholderism
 hre = no
 base_tax = 1

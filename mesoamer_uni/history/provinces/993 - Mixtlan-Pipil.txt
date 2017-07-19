@@ -1,7 +1,7 @@
 add_core = G16
 owner = G16
 controller = G16
-culture = placeholdertec
+culture = pipil
 religion = placeholderism
 hre = no
 base_tax = 1

@@ -1,7 +1,7 @@
 add_core = F59
 owner = F59
 controller = F59
-culture = placeholdertec
+culture = western_kiche
 religion = placeholderism
 hre = no
 base_tax = 1

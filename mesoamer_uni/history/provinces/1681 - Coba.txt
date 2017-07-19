@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = yucatec
 religion = placeholderism 
 capital = "Coba"
 trade_goods = unknown

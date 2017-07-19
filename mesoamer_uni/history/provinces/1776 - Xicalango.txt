@@ -1,7 +1,7 @@
 add_core = L29
 owner = L29
 controller = L29
-culture = placeholdertec
+culture = putun_chontal
 religion = placeholderism
 hre = no
 base_tax = 1

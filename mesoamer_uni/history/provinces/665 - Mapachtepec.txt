@@ -1,7 +1,7 @@
 add_core = ZZM
 owner = ZZM
 controller = ZZM
-culture = placeholdertec
+culture = zoque
 religion = placeholderism
 hre = no
 base_tax = 1

@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = manche
 religion = maya
 capital = "Chijolom"
 trade_goods = unknown

@@ -1,7 +1,7 @@
 add_core = H05
 owner = H05
 controller = H05
-culture = placeholdertec
+culture = pipil
 religion = placeholderism
 hre = no
 base_tax = 1

@@ -1,7 +1,7 @@
 add_core = G13
 owner = G13
 controller = G13
-culture = placeholdertec
+culture = pipil
 religion = placeholderism
 hre = no
 base_tax = 1

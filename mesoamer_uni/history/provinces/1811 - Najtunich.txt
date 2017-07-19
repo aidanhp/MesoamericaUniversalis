@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = mopan
 religion = maya
 capital = "Najtunich"
 trade_goods = unknown

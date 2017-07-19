@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = yucatec
 religion = maya
 capital = "Tikal"
 trade_goods = unknown

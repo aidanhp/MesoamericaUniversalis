@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = torquegua
 religion = maya
 capital = "Quiragua"
 trade_goods = unknown

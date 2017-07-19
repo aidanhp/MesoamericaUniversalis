@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = torquegua
 religion = placeholderism
 capital = "Camotan"
 trade_goods = unknown

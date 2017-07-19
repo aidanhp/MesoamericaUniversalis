@@ -1,7 +1,7 @@
 add_core = G11
 owner = G11
 controller = G11
-culture = placeholdertec
+culture = pipil
 religion = placeholderism
 hre = no
 base_tax = 1

@@ -1,7 +1,7 @@
 add_core = G32
 owner = G32
 controller = G32
-culture = placeholdertec
+culture = pipil
 religion = placeholderism
 hre = no
 base_tax = 1

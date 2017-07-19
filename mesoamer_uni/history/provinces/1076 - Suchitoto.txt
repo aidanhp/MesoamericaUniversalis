@@ -1,7 +1,7 @@
 add_core = G99
 owner = G99
 controller = G99
-culture = placeholdertec
+culture = pipil
 religion = placeholderism
 hre = no
 base_tax = 1

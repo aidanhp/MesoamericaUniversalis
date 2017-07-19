@@ -1,7 +1,7 @@
 add_core = G25
 owner = G25
 controller = G25
-culture = placeholdertec
+culture = pipil
 religion = placeholderism
 hre = no
 base_tax = 1

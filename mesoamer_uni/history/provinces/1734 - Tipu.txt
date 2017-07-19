@@ -1,7 +1,7 @@
 add_core = J86
 owner = J86
 controller = J86
-culture = placeholdertec
+culture = yucatec
 religion = placeholderism
 hre = no
 base_tax = 1

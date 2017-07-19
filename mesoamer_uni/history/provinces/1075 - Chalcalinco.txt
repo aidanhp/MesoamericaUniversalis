@@ -1,7 +1,7 @@
 add_core = G98
 owner = G98
 controller = G98
-culture = placeholdertec
+culture = pipil
 religion = placeholderism
 hre = no
 base_tax = 1

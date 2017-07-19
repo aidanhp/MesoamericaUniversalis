@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = tzeltal
 religion = maya
 capital = "Cocoltenango"
 trade_goods = unknown

@@ -1,7 +1,7 @@
 add_core = I95
 owner = I95
 controller = I95
-culture = placeholdertec
+culture = yucatec
 religion = placeholderism
 hre = no
 base_tax = 1

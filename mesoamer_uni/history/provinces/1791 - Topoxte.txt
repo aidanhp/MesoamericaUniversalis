@@ -1,7 +1,7 @@
 add_core = L44
 owner = L44
 controller = L44
-culture = placeholdertec
+culture = kowoj
 religion = placeholderism
 hre = no
 base_tax = 1

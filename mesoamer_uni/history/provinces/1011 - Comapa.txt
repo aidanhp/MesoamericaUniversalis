@@ -1,7 +1,7 @@
 add_core = G34
 owner = G34
 controller = G34
-culture = placeholdertec
+culture = pipil
 religion = placeholderism
 hre = no
 base_tax = 1

@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = chiapanec
 religion = maya
 capital = "Jaltenango"
 trade_goods = unknown

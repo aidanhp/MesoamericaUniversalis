@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = zoque
 religion = maya
 capital = "Cintalapa"
 trade_goods = unknown

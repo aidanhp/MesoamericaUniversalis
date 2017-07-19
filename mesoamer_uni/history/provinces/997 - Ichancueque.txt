@@ -1,7 +1,7 @@
 add_core = G20
 owner = G20
 controller = G20
-culture = placeholdertec
+culture = pipil
 religion = placeholderism
 hre = no
 base_tax = 1

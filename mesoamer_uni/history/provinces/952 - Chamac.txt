@@ -1,7 +1,7 @@
 add_core = F75
 owner = F75
 controller = F75
-culture = placeholdertec
+culture = uspantec
 religion = placeholderism
 hre = no
 base_tax = 1

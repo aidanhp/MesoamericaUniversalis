@@ -1,7 +1,7 @@
 add_core = ZZK
 owner = ZZK
 controller = ZZK
-culture = placeholdertec
+culture = zoque
 religion = placeholderism
 hre = no
 base_tax = 1

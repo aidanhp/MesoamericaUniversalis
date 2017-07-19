@@ -1,7 +1,7 @@
 add_core = ZZG
 owner = ZZG
 controller = ZZG
-culture = placeholdertec
+culture = zoque
 religion = placeholderism
 hre = no
 base_tax = 1

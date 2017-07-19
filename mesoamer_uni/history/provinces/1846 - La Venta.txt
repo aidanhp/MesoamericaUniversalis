@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = popoluca
 religion = maya
 capital = "La Venta"
 trade_goods = unknown

@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = mopan
 religion = maya
 capital = "Cifuentes"
 trade_goods = unknown

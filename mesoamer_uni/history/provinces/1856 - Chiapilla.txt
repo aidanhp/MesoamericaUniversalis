@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = tzotzil
 religion = maya
 capital = "Chiapilla"
 trade_goods = unknown

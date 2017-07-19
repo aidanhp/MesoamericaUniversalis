@@ -1,7 +1,7 @@
 add_core = G43
 owner = G43
 controller = G43
-culture = placeholdertec
+culture = pipil
 religion = placeholderism
 hre = no
 base_tax = 1

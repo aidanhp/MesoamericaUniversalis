@@ -1,7 +1,7 @@
 add_core = L45
 owner = L45
 controller = L45
-culture = placeholdertec
+culture = putun_chontal
 religion = placeholderism
 hre = no
 base_tax = 1

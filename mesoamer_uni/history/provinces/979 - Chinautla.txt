@@ -1,7 +1,7 @@
 add_core = G02
 owner = G02
 controller = G02
-culture = placeholdertec
+culture = pokomam
 religion = placeholderism
 hre = no
 base_tax = 1

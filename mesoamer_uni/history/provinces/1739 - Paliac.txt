@@ -1,7 +1,7 @@
 add_core = J91
 owner = J91
 controller = J91
-culture = placeholdertec
+culture = mopan
 religion = placeholderism
 hre = no
 base_tax = 1

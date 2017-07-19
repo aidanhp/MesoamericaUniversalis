@@ -1,7 +1,7 @@
 add_core = G09
 owner = G09
 controller = G09
-culture = placeholdertec
+culture = southern_mam
 religion = placeholderism
 hre = no
 base_tax = 1

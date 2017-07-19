@@ -1,7 +1,7 @@
 add_core = F81
 owner = F81
 controller = F81
-culture = placeholdertec
+culture = ixil
 religion = placeholderism
 hre = no
 base_tax = 1

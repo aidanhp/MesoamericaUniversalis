@@ -1,7 +1,7 @@
 add_core = F25
 owner = F25
 controller = F25
-culture = placeholdertec
+culture = zoque
 religion = placeholderism
 hre = no
 base_tax = 1

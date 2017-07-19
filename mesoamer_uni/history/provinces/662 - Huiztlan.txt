@@ -1,7 +1,7 @@
 add_core = ZZJ
 owner = ZZJ
 controller = ZZJ
-culture = placeholdertec
+culture = zoque
 religion = placeholderism
 hre = no
 base_tax = 1

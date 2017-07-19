@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = lacandon_chol
 religion = maya
 capital = "Chotal"
 trade_goods = unknown

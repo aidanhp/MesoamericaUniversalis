@@ -1,7 +1,7 @@
 add_core = G35
 owner = G35
 controller = G35
-culture = placeholdertec
+culture = pipil
 religion = placeholderism
 hre = no
 base_tax = 1

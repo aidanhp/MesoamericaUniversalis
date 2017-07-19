@@ -1,7 +1,7 @@
 add_core = F76
 owner = F76
 controller = F76
-culture = placeholdertec
+culture = qayol
 religion = placeholderism
 hre = no
 base_tax = 1

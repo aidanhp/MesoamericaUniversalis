@@ -530,7 +530,187 @@ maya = {
 		}
 	}
 	
+	kowoj = {
+		male_names = {
+			Placeholder
+		}
+		female_names = {
+			Placeholder
+		}
+	}
+	
 	kiche = {
+		male_names = {
+			Placeholder
+		}
+		female_names = {
+			Placeholder
+		}
+	}
+	
+	tzutujil = {
+		male_names = {
+			Placeholder
+		}
+		female_names = {
+			Placeholder
+		}
+	}
+	
+	kaqchikel = {
+		male_names = {
+			Placeholder
+		}
+		female_names = {
+			Placeholder
+		}
+	}
+	
+	chajoma = {
+		male_names = {
+			Placeholder
+		}
+		female_names = {
+			Placeholder
+		}
+	}
+	
+	pokomam = {
+		male_names = {
+			Placeholder
+		}
+		female_names = {
+			Placeholder
+		}
+	}
+	
+	rabinal = {
+		male_names = {
+			Placeholder
+		}
+		female_names = {
+			Placeholder
+		}
+	}
+	
+	sacapul = {
+		male_names = {
+			Placeholder
+		}
+		female_names = {
+			Placeholder
+		}
+	}
+	
+	qayol = { #Aguacatec
+		male_names = {
+			Placeholder
+		}
+		female_names = {
+			Placeholder
+		}
+	}
+	
+	ixil = {
+		male_names = {
+			Placeholder
+		}
+		female_names = {
+			Placeholder
+		}
+	}
+	
+	uspantec = {
+		male_names = {
+			Placeholder
+		}
+		female_names = {
+			Placeholder
+		}
+	}
+	
+	southern_mam = {
+		male_names = {
+			Placeholder
+		}
+		female_names = {
+			Placeholder
+		}
+	}
+	
+	northern_mam = {
+		male_names = {
+			Placeholder
+		}
+		female_names = {
+			Placeholder
+		}
+	}
+	
+	western_kiche = {
+		male_names = {
+			Placeholder
+		}
+		female_names = {
+			Placeholder
+		}
+	}
+	
+	mopan = {
+		male_names = {
+			Placeholder
+		}
+		female_names = {
+			Placeholder
+		}
+	}
+	
+	lacandon_chol = {
+		male_names = {
+			Placeholder
+		}
+		female_names = {
+			Placeholder
+		}
+	}
+	
+	manche = {
+		male_names = {
+			Placeholder
+		}
+		female_names = {
+			Placeholder
+		}
+	}
+	
+	qeqchi = {
+		male_names = {
+			Placeholder
+		}
+		female_names = {
+			Placeholder
+		}
+	}
+	
+	torquegua = {
+		male_names = {
+			Placeholder
+		}
+		female_names = {
+			Placeholder
+		}
+	}
+	
+	tzotzil = {
+		male_names = {
+			Placeholder
+		}
+		female_names = {
+			Placeholder
+		}
+	}
+	
+	tzeltal = {
 		male_names = {
 			Placeholder
 		}
@@ -714,3 +894,43 @@ cahita_group = {
 		}
 	}
 }
+
+dummy_group = {
+	graphical_culture = southamericagfx
+	
+	dummy_culture = {
+		male_names = {
+			Placeholder
+		}
+		female_names = {
+			Placeholder
+		}
+	}
+}
+
+chiapan = {
+	graphical_culture = southamericagfx
+	
+	chiapanec = {
+		male_names = {
+			Placeholder
+		}
+		female_names = {
+			Placeholder
+		}
+	}
+}
+
+caribbean = {
+	graphical_culture = southamericagfx
+	
+	islander = {
+		male_names = {
+			Placeholder
+		}
+		female_names = {
+			Placeholder
+		}
+	}
+}
+

@@ -1,7 +1,7 @@
 add_core = G12
 owner = G12
 controller = G12
-culture = placeholdertec
+culture = southern_mam
 religion = placeholderism
 hre = no
 base_tax = 1

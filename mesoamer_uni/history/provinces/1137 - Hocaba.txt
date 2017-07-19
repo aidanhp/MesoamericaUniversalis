@@ -1,7 +1,7 @@
 add_core = H61
 owner = H61
 controller = H61
-culture = placeholdertec
+culture = yucatec
 religion = placeholderism
 hre = no
 base_tax = 1

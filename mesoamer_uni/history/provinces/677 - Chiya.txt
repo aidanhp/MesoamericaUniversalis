@@ -1,7 +1,7 @@
 add_core = ZZY
 owner = ZZY
 controller = ZZY
-culture = placeholdertec
+culture = tzutujil
 religion = placeholderism
 hre = no
 base_tax = 1

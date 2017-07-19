@@ -1,7 +1,7 @@
 add_core = G15
 owner = G15
 controller = G15
-culture = placeholdertec
+culture = southern_mam
 religion = placeholderism
 hre = no
 base_tax = 1

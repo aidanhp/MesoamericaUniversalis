@@ -1,7 +1,7 @@
 add_core = F67
 owner = F67
 controller = F67
-culture = placeholdertec
+culture = rabinal
 religion = placeholderism
 hre = no
 base_tax = 1

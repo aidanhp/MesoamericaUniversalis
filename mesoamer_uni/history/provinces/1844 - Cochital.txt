@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = putun_chontal
 religion = maya
 capital = "Cocohital"
 trade_goods = unknown

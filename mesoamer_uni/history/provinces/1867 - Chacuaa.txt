@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = qeqchi
 religion = maya
 capital = "Chacuaa"
 trade_goods = unknown

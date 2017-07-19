@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = none
 religion = placeholderism
 capital = "Mary Islands"
 trade_goods = unknown

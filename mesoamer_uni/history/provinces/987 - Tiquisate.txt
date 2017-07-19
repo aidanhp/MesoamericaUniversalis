@@ -1,7 +1,7 @@
 add_core = G10
 owner = G10
 controller = G10
-culture = placeholdertec
+culture = pipil
 religion = placeholderism
 hre = no
 base_tax = 1

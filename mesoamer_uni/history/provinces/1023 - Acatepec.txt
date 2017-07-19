@@ -1,7 +1,7 @@
 add_core = G46
 owner = G46
 controller = G46
-culture = placeholdertec
+culture = pipil
 religion = placeholderism
 hre = no
 base_tax = 1

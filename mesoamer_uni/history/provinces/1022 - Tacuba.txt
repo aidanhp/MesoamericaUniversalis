@@ -1,7 +1,7 @@
 add_core = G45
 owner = G45
 controller = G45
-culture = placeholdertec
+culture = pipil
 religion = placeholderism
 hre = no
 base_tax = 1

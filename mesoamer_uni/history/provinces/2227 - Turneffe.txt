@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = islander
 religion = placeholderism
 capital = "Turneffe"
 trade_goods = unknown

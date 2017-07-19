@@ -1,7 +1,7 @@
 add_core = G21
 owner = G21
 controller = G21
-culture = placeholdertec
+culture = pipil
 religion = placeholderism
 hre = no
 base_tax = 1

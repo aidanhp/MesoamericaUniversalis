@@ -1,7 +1,7 @@
 add_core = G26
 owner = G26
 controller = G26
-culture = placeholdertec
+culture = pipil
 religion = placeholderism
 hre = no
 base_tax = 1

@@ -1,7 +1,7 @@
 add_core = G07 
 owner = G07 
 controller = G07 
-culture = placeholdertec
+culture = pipil
 religion = placeholderism
 hre = no
 base_tax = 1

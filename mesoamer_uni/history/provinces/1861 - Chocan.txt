@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = manche
 religion = maya
 capital = "Chocan"
 trade_goods = unknown

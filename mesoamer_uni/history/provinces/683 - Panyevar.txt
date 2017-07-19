@@ -1,7 +1,7 @@
 add_core = A05
 owner = A05
 controller = A05
-culture = placeholdertec
+culture = western_kiche
 religion = placeholderism
 hre = no
 base_tax = 1

@@ -1,7 +1,7 @@
 add_core = F53
 owner = F53
 controller = F53
-culture = placeholdertec
+culture = western_kiche
 religion = placeholderism
 hre = no
 base_tax = 1
