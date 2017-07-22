@@ -7,12 +7,16 @@ primary_culture = placeholdertec
 capital = 1644
 fixed_capital = 1644
 
-1427.1.1 = {
+1421.1.1 = {
 	monarch = {
-		name = "Random First Name"
-		dynasty = "Mayapan"
-		adm = 4
-		dip = 4
-		mil = 4
+		name = "Hunac"
+		dynasty = "Cocom"
+		birth_date = 1390.1.1
+		adm = 3
+		dip = 3
+		mil = 2
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = malevolent_personality
+	add_ruler_personality = cruel_personality
 }

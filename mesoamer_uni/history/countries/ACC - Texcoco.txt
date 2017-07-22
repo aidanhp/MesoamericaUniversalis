@@ -1,5 +1,5 @@
 government = despotic_monarchy 
-government_rank = 1
+government_rank = 2
 mercantilism = 0.25
 technology_group = central_mexican
 religion = placeholderism
@@ -7,12 +7,17 @@ primary_culture = placeholdertec
 capital = 3
 fixed_capital = 3
 
-1427.1.1 = {
+1428.1.1 = {
 	monarch = {
-		name = "Random First Name"
-		dynasty = "Texcoco"
-		adm = 4
-		dip = 4
-		mil = 4
+		name = "Nezahualcoyotl"
+		dynasty = "Texcocah"
+		birth_date = 1402.1.1
+		adm = 6
+		dip = 6
+		mil = 6
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = scholar_personality
+	add_ruler_personality = lawgiver_personality
+	add_ruler_personality = inspiring_leader_personality
 }

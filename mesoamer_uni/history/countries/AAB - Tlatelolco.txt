@@ -7,10 +7,11 @@ primary_culture = placeholdertec
 capital = 2
 fixed_capital = 2
 
-1427.1.1 = {
+1428.1.1 = {
 	monarch = {
-		name = "Random First Name"
+		name = "Quauhtlatoatzin"
 		dynasty = "Tlatelolcah"
+		birth_date = 1400.1.1
 		adm = 4
 		dip = 4
 		mil = 4

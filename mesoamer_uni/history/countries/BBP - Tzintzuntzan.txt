@@ -1,5 +1,5 @@
 government = despotic_monarchy 
-government_rank = 1
+government_rank = 2
 mercantilism = 0.25
 technology_group = central_mexican
 religion = placeholderism
@@ -7,12 +7,28 @@ primary_culture = placeholdertec
 capital = 43
 fixed_capital = 43
 
-1427.1.1 = {
+1415.1.1 = {
 	monarch = {
-		name = "Random First Name"
+		name = "Tangaxoan"
 		dynasty = "Uanacaze"
+		birth_date = 1380.1.1	
 		adm = 4
 		dip = 4
-		mil = 4
+		mil = 5
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = conqueror_personality    
+}
+
+1415.1.2 = {
+	heir = {
+		name = "Tzitzispandacuare"
+		monarch_name = "Tzitzispandacuare"
+		dynasty = "Uanacaze"
+		birth_date = 1408.1.1	
+		claim = 100
+		adm = 5
+		dip = 5
+		mil = 5
 	}
 }

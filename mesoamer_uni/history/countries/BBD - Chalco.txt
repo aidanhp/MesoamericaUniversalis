@@ -7,10 +7,11 @@ primary_culture = placeholdertec
 capital = 30
 fixed_capital = 30
 
-1427.1.1 = {
+1407.1.1 = {
 	monarch = {
-		name = "Random First Name"
-		dynasty = "Chalca"
+		name = "Teotzin Teuctli"
+		dynasty = "Acxotlan"
+		birth_date = 1387.1.1
 		adm = 4
 		dip = 4
 		mil = 4

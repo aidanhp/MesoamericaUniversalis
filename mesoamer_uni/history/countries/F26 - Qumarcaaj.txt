@@ -1,5 +1,5 @@
 government = despotic_monarchy 
-government_rank = 1
+government_rank = 2
 mercantilism = 0.25
 technology_group = central_mexican 
 religion = placeholderism
@@ -7,12 +7,16 @@ primary_culture = placeholdertec
 capital = 903
 fixed_capital = 903
 
-1427.1.1 = {
+1425.1.1 = {
 	monarch = {
-		name = "Random First Name"
-		dynasty = "Qumarcaaj"
-		adm = 4
+		name = "Q'uik'ab"
+		dynasty = "K'umarcaaj"
+		birth_date = 1400.1.1
+		adm = 5
 		dip = 4
-		mil = 4
+		mil = 6
 	}
+	add_ruler_personality = conqueror_personality    
+	add_ruler_personality = tactical_genius_personality
+	add_ruler_personality = well_connected_personality
 }

@@ -7,10 +7,11 @@ primary_culture = placeholdertec
 capital = 951
 fixed_capital = 951
 
-1427.1.1 = {
+1408.1.1 = {
 	monarch = {
-		name = "Random First Name"
-		dynasty = "Ak'aab"
+		name = "Tecum Sic'om"
+		dynasty = "C'oja"
+		birth_date = 1390.1.1
 		adm = 4
 		dip = 4
 		mil = 4

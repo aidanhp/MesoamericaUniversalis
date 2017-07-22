@@ -1,5 +1,5 @@
 government = despotic_monarchy 
-government_rank = 1
+government_rank = 2
 mercantilism = 0.25
 technology_group = central_mexican 
 religion = placeholderism
@@ -7,12 +7,13 @@ primary_culture = placeholdertec
 capital = 688
 fixed_capital = 688
 
-1427.1.1 = {
+1425.1.1 = {
 	monarch = {
-		name = "Random First Name"
-		dynasty = "Iximche"
+		name = "Wuqu Batz"
+		dynasty = "Kaqchikel"
+		birth_date = 1400.1.1
 		adm = 4
 		dip = 4
-		mil = 4
+		mil = 5
 	}
 }

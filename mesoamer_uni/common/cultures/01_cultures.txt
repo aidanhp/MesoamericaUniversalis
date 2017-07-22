@@ -28,199 +28,463 @@ nahua = {
 	
 	mexica = {
 		male_names = {
-			Placeholder
+			Acamapichtli Itzcoatl Huitzilihuitl "Moteuczomah Ilhuicamina" Chimalpopoca Axayacatl Tizoc 
+			Ahuitzotl Moteuczomah Cuitlahuac Cuauhtemoc Nezahualcoyotl Tlacaelel "Xihuitl Temoc" Xochitl 
+			Olinqui Acolmiztli Yoyontzin Ixtlilxochitl Acolnahuacatl Tzacualcatl Itztlolinqui Xilomantzin
+			Tepanquizqui Quequecholtzin Tzompanteuctli Quetzaltototzin Cacamatzin Tlilpotonqui Tayaotzin 
+			Quauhtlapaltzin Tezcatlteuctli Tlacotzin Chimalpantzin Tepehuatzin Tezcatl Tatlatzincatzin 
+			Tlilpotonqui Nezahualpilli Miccacalcatl Ixtteocalletzin Yaocuixtli Itzcohuatzin Tehuelhueltzin
+			Cuauhtototzin Tezcacohuatzin Tehuehueltzintecuhtli Totoquihuatzin Quauhtlatoatzin Teotzin 
+			Aztahua Mixcoatl Totomochtzin Tenocelotzin Huetzin Cuatlahuice Itlacauhtzin Tozantzin 
+			Coatlitlantzin Tzontemoc Tezozomoc Moquihuix Maxtla Tzapocuetzin Atexcallihuehue Cocohtzin
+			Umacatzin Tlehuexolotzin Teyohualminqui Acatentehua Maxixcatzin Tzonpane Xayacamachan 
+			Mizquitl Zacancatzin Iyactzin Citlalpopoca
 		}
 		female_names = {
-			Placeholder
+			Matlalcihuatzin Maquiztzin Achihuapoltzin Xiuhpopocatzin Tollintzin Xochiacamapichtli Xillomantzin
+			Izapaplotzin Chiquatzin Totomochtzin Tlacoachcimaltzin Toznenetzin Cihuapilli Mauhcaxochitzin
+			Chicuey Xiuhtoztzin Quauhtlamiyahualtzin Quetzalpetlatzin Tzihuacxochitzin
 		}
 	}
 	
 	acolhua = {
 		male_names = {
-			Placeholder
+			Acamapichtli Itzcoatl Huitzilihuitl "Moteuczomah Ilhuicamina" Chimalpopoca Axayacatl Tizoc 
+			Ahuitzotl Moteuczomah Cuitlahuac Cuauhtemoc Nezahualcoyotl Tlacaelel "Xihuitl Temoc" Xochitl 
+			Olinqui Acolmiztli Yoyontzin Ixtlilxochitl Acolnahuacatl Tzacualcatl Itztlolinqui Xilomantzin
+			Tepanquizqui Quequecholtzin Tzompanteuctli Quetzaltototzin Cacamatzin Tlilpotonqui Tayaotzin 
+			Quauhtlapaltzin Tezcatlteuctli Tlacotzin Chimalpantzin Tepehuatzin Tezcatl Tatlatzincatzin 
+			Tlilpotonqui Nezahualpilli Miccacalcatl Ixtteocalletzin Yaocuixtli Itzcohuatzin Tehuelhueltzin
+			Cuauhtototzin Tezcacohuatzin Tehuehueltzintecuhtli Totoquihuatzin Quauhtlatoatzin Teotzin 
+			Aztahua Mixcoatl Totomochtzin Tenocelotzin Huetzin Cuatlahuice Itlacauhtzin Tozantzin 
+			Coatlitlantzin Tzontemoc Tezozomoc Moquihuix Maxtla Tzapocuetzin Atexcallihuehue Cocohtzin
+			Umacatzin Tlehuexolotzin Teyohualminqui Acatentehua Maxixcatzin Tzonpane Xayacamachan 
+			Mizquitl Zacancatzin Iyactzin Citlalpopoca
 		}
 		female_names = {
-			Placeholder
+			Matlalcihuatzin Maquiztzin Achihuapoltzin Xiuhpopocatzin Tollintzin Xochiacamapichtli Xillomantzin
+			Izapaplotzin Chiquatzin Totomochtzin Tlacoachcimaltzin Toznenetzin Cihuapilli Mauhcaxochitzin
+			Chicuey Xiuhtoztzin Quauhtlamiyahualtzin Quetzalpetlatzin Tzihuacxochitzin
 		}
 	}
 	
 	tepanec = {
 		male_names = {
-			Placeholder
+			Acamapichtli Itzcoatl Huitzilihuitl "Moteuczomah Ilhuicamina" Chimalpopoca Axayacatl Tizoc 
+			Ahuitzotl Moteuczomah Cuitlahuac Cuauhtemoc Nezahualcoyotl Tlacaelel "Xihuitl Temoc" Xochitl 
+			Olinqui Acolmiztli Yoyontzin Ixtlilxochitl Acolnahuacatl Tzacualcatl Itztlolinqui Xilomantzin
+			Tepanquizqui Quequecholtzin Tzompanteuctli Quetzaltototzin Cacamatzin Tlilpotonqui Tayaotzin 
+			Quauhtlapaltzin Tezcatlteuctli Tlacotzin Chimalpantzin Tepehuatzin Tezcatl Tatlatzincatzin 
+			Tlilpotonqui Nezahualpilli Miccacalcatl Ixtteocalletzin Yaocuixtli Itzcohuatzin Tehuelhueltzin
+			Cuauhtototzin Tezcacohuatzin Tehuehueltzintecuhtli Totoquihuatzin Quauhtlatoatzin Teotzin 
+			Aztahua Mixcoatl Totomochtzin Tenocelotzin Huetzin Cuatlahuice Itlacauhtzin Tozantzin 
+			Coatlitlantzin Tzontemoc Tezozomoc Moquihuix Maxtla Tzapocuetzin Atexcallihuehue Cocohtzin
+			Umacatzin Tlehuexolotzin Teyohualminqui Acatentehua Maxixcatzin Tzonpane Xayacamachan 
+			Mizquitl Zacancatzin Iyactzin Citlalpopoca
 		}
 		female_names = {
-			Placeholder
+			Matlalcihuatzin Maquiztzin Achihuapoltzin Xiuhpopocatzin Tollintzin Xochiacamapichtli Xillomantzin
+			Izapaplotzin Chiquatzin Totomochtzin Tlacoachcimaltzin Toznenetzin Cihuapilli Mauhcaxochitzin
+			Chicuey Xiuhtoztzin Quauhtlamiyahualtzin Quetzalpetlatzin Tzihuacxochitzin
 		}
 	}
 	
 	colhua = {
 		male_names = {
-			Placeholder
+			Acamapichtli Itzcoatl Huitzilihuitl "Moteuczomah Ilhuicamina" Chimalpopoca Axayacatl Tizoc 
+			Ahuitzotl Moteuczomah Cuitlahuac Cuauhtemoc Nezahualcoyotl Tlacaelel "Xihuitl Temoc" Xochitl 
+			Olinqui Acolmiztli Yoyontzin Ixtlilxochitl Acolnahuacatl Tzacualcatl Itztlolinqui Xilomantzin
+			Tepanquizqui Quequecholtzin Tzompanteuctli Quetzaltototzin Cacamatzin Tlilpotonqui Tayaotzin 
+			Quauhtlapaltzin Tezcatlteuctli Tlacotzin Chimalpantzin Tepehuatzin Tezcatl Tatlatzincatzin 
+			Tlilpotonqui Nezahualpilli Miccacalcatl Ixtteocalletzin Yaocuixtli Itzcohuatzin Tehuelhueltzin
+			Cuauhtototzin Tezcacohuatzin Tehuehueltzintecuhtli Totoquihuatzin Quauhtlatoatzin Teotzin 
+			Aztahua Mixcoatl Totomochtzin Tenocelotzin Huetzin Cuatlahuice Itlacauhtzin Tozantzin 
+			Coatlitlantzin Tzontemoc Tezozomoc Moquihuix Maxtla Tzapocuetzin Atexcallihuehue Cocohtzin
+			Umacatzin Tlehuexolotzin Teyohualminqui Acatentehua Maxixcatzin Tzonpane Xayacamachan 
+			Mizquitl Zacancatzin Iyactzin Citlalpopoca
 		}
 		female_names = {
-			Placeholder
+			Matlalcihuatzin Maquiztzin Achihuapoltzin Xiuhpopocatzin Tollintzin Xochiacamapichtli Xillomantzin
+			Izapaplotzin Chiquatzin Totomochtzin Tlacoachcimaltzin Toznenetzin Cihuapilli Mauhcaxochitzin
+			Chicuey Xiuhtoztzin Quauhtlamiyahualtzin Quetzalpetlatzin Tzihuacxochitzin
 		}
 	}
 	
 	xochimilca = {
 		male_names = {
-			Placeholder
+			Acamapichtli Itzcoatl Huitzilihuitl "Moteuczomah Ilhuicamina" Chimalpopoca Axayacatl Tizoc 
+			Ahuitzotl Moteuczomah Cuitlahuac Cuauhtemoc Nezahualcoyotl Tlacaelel "Xihuitl Temoc" Xochitl 
+			Olinqui Acolmiztli Yoyontzin Ixtlilxochitl Acolnahuacatl Tzacualcatl Itztlolinqui Xilomantzin
+			Tepanquizqui Quequecholtzin Tzompanteuctli Quetzaltototzin Cacamatzin Tlilpotonqui Tayaotzin 
+			Quauhtlapaltzin Tezcatlteuctli Tlacotzin Chimalpantzin Tepehuatzin Tezcatl Tatlatzincatzin 
+			Tlilpotonqui Nezahualpilli Miccacalcatl Ixtteocalletzin Yaocuixtli Itzcohuatzin Tehuelhueltzin
+			Cuauhtototzin Tezcacohuatzin Tehuehueltzintecuhtli Totoquihuatzin Quauhtlatoatzin Teotzin 
+			Aztahua Mixcoatl Totomochtzin Tenocelotzin Huetzin Cuatlahuice Itlacauhtzin Tozantzin 
+			Coatlitlantzin Tzontemoc Tezozomoc Moquihuix Maxtla Tzapocuetzin Atexcallihuehue Cocohtzin
+			Umacatzin Tlehuexolotzin Teyohualminqui Acatentehua Maxixcatzin Tzonpane Xayacamachan 
+			Mizquitl Zacancatzin Iyactzin Citlalpopoca
 		}
 		female_names = {
-			Placeholder
+			Matlalcihuatzin Maquiztzin Achihuapoltzin Xiuhpopocatzin Tollintzin Xochiacamapichtli Xillomantzin
+			Izapaplotzin Chiquatzin Totomochtzin Tlacoachcimaltzin Toznenetzin Cihuapilli Mauhcaxochitzin
+			Chicuey Xiuhtoztzin Quauhtlamiyahualtzin Quetzalpetlatzin Tzihuacxochitzin
 		}
 	}
 	
 	chalca = {
 		male_names = {
-			Placeholder
+			Acamapichtli Itzcoatl Huitzilihuitl "Moteuczomah Ilhuicamina" Chimalpopoca Axayacatl Tizoc 
+			Ahuitzotl Moteuczomah Cuitlahuac Cuauhtemoc Nezahualcoyotl Tlacaelel "Xihuitl Temoc" Xochitl 
+			Olinqui Acolmiztli Yoyontzin Ixtlilxochitl Acolnahuacatl Tzacualcatl Itztlolinqui Xilomantzin
+			Tepanquizqui Quequecholtzin Tzompanteuctli Quetzaltototzin Cacamatzin Tlilpotonqui Tayaotzin 
+			Quauhtlapaltzin Tezcatlteuctli Tlacotzin Chimalpantzin Tepehuatzin Tezcatl Tatlatzincatzin 
+			Tlilpotonqui Nezahualpilli Miccacalcatl Ixtteocalletzin Yaocuixtli Itzcohuatzin Tehuelhueltzin
+			Cuauhtototzin Tezcacohuatzin Tehuehueltzintecuhtli Totoquihuatzin Quauhtlatoatzin Teotzin 
+			Aztahua Mixcoatl Totomochtzin Tenocelotzin Huetzin Cuatlahuice Itlacauhtzin Tozantzin 
+			Coatlitlantzin Tzontemoc Tezozomoc Moquihuix Maxtla Tzapocuetzin Atexcallihuehue Cocohtzin
+			Umacatzin Tlehuexolotzin Teyohualminqui Acatentehua Maxixcatzin Tzonpane Xayacamachan 
+			Mizquitl Zacancatzin Iyactzin Citlalpopoca
 		}
 		female_names = {
-			Placeholder
+			Matlalcihuatzin Maquiztzin Achihuapoltzin Xiuhpopocatzin Tollintzin Xochiacamapichtli Xillomantzin
+			Izapaplotzin Chiquatzin Totomochtzin Tlacoachcimaltzin Toznenetzin Cihuapilli Mauhcaxochitzin
+			Chicuey Xiuhtoztzin Quauhtlamiyahualtzin Quetzalpetlatzin Tzihuacxochitzin
 		}
 	}
 	
 	cuitlahuaca = {
 		male_names = {
-			Placeholder
+			Acamapichtli Itzcoatl Huitzilihuitl "Moteuczomah Ilhuicamina" Chimalpopoca Axayacatl Tizoc 
+			Ahuitzotl Moteuczomah Cuitlahuac Cuauhtemoc Nezahualcoyotl Tlacaelel "Xihuitl Temoc" Xochitl 
+			Olinqui Acolmiztli Yoyontzin Ixtlilxochitl Acolnahuacatl Tzacualcatl Itztlolinqui Xilomantzin
+			Tepanquizqui Quequecholtzin Tzompanteuctli Quetzaltototzin Cacamatzin Tlilpotonqui Tayaotzin 
+			Quauhtlapaltzin Tezcatlteuctli Tlacotzin Chimalpantzin Tepehuatzin Tezcatl Tatlatzincatzin 
+			Tlilpotonqui Nezahualpilli Miccacalcatl Ixtteocalletzin Yaocuixtli Itzcohuatzin Tehuelhueltzin
+			Cuauhtototzin Tezcacohuatzin Tehuehueltzintecuhtli Totoquihuatzin Quauhtlatoatzin Teotzin 
+			Aztahua Mixcoatl Totomochtzin Tenocelotzin Huetzin Cuatlahuice Itlacauhtzin Tozantzin 
+			Coatlitlantzin Tzontemoc Tezozomoc Moquihuix Maxtla Tzapocuetzin Atexcallihuehue Cocohtzin
+			Umacatzin Tlehuexolotzin Teyohualminqui Acatentehua Maxixcatzin Tzonpane Xayacamachan 
+			Mizquitl Zacancatzin Iyactzin Citlalpopoca
 		}
 		female_names = {
-			Placeholder
+			Matlalcihuatzin Maquiztzin Achihuapoltzin Xiuhpopocatzin Tollintzin Xochiacamapichtli Xillomantzin
+			Izapaplotzin Chiquatzin Totomochtzin Tlacoachcimaltzin Toznenetzin Cihuapilli Mauhcaxochitzin
+			Chicuey Xiuhtoztzin Quauhtlamiyahualtzin Quetzalpetlatzin Tzihuacxochitzin
 		}
 	}
 	
 	mizquica = {
 		male_names = {
-			Placeholder
+			Acamapichtli Itzcoatl Huitzilihuitl "Moteuczomah Ilhuicamina" Chimalpopoca Axayacatl Tizoc 
+			Ahuitzotl Moteuczomah Cuitlahuac Cuauhtemoc Nezahualcoyotl Tlacaelel "Xihuitl Temoc" Xochitl 
+			Olinqui Acolmiztli Yoyontzin Ixtlilxochitl Acolnahuacatl Tzacualcatl Itztlolinqui Xilomantzin
+			Tepanquizqui Quequecholtzin Tzompanteuctli Quetzaltototzin Cacamatzin Tlilpotonqui Tayaotzin 
+			Quauhtlapaltzin Tezcatlteuctli Tlacotzin Chimalpantzin Tepehuatzin Tezcatl Tatlatzincatzin 
+			Tlilpotonqui Nezahualpilli Miccacalcatl Ixtteocalletzin Yaocuixtli Itzcohuatzin Tehuelhueltzin
+			Cuauhtototzin Tezcacohuatzin Tehuehueltzintecuhtli Totoquihuatzin Quauhtlatoatzin Teotzin 
+			Aztahua Mixcoatl Totomochtzin Tenocelotzin Huetzin Cuatlahuice Itlacauhtzin Tozantzin 
+			Coatlitlantzin Tzontemoc Tezozomoc Moquihuix Maxtla Tzapocuetzin Atexcallihuehue Cocohtzin
+			Umacatzin Tlehuexolotzin Teyohualminqui Acatentehua Maxixcatzin Tzonpane Xayacamachan 
+			Mizquitl Zacancatzin Iyactzin Citlalpopoca
 		}
 		female_names = {
-			Placeholder
+			Matlalcihuatzin Maquiztzin Achihuapoltzin Xiuhpopocatzin Tollintzin Xochiacamapichtli Xillomantzin
+			Izapaplotzin Chiquatzin Totomochtzin Tlacoachcimaltzin Toznenetzin Cihuapilli Mauhcaxochitzin
+			Chicuey Xiuhtoztzin Quauhtlamiyahualtzin Quetzalpetlatzin Tzihuacxochitzin
 		}
 	}
 	
 	tlaxcallan = {
 		male_names = {
-			Placeholder
+			Acamapichtli Itzcoatl Huitzilihuitl "Moteuczomah Ilhuicamina" Chimalpopoca Axayacatl Tizoc 
+			Ahuitzotl Moteuczomah Cuitlahuac Cuauhtemoc Nezahualcoyotl Tlacaelel "Xihuitl Temoc" Xochitl 
+			Olinqui Acolmiztli Yoyontzin Ixtlilxochitl Acolnahuacatl Tzacualcatl Itztlolinqui Xilomantzin
+			Tepanquizqui Quequecholtzin Tzompanteuctli Quetzaltototzin Cacamatzin Tlilpotonqui Tayaotzin 
+			Quauhtlapaltzin Tezcatlteuctli Tlacotzin Chimalpantzin Tepehuatzin Tezcatl Tatlatzincatzin 
+			Tlilpotonqui Nezahualpilli Miccacalcatl Ixtteocalletzin Yaocuixtli Itzcohuatzin Tehuelhueltzin
+			Cuauhtototzin Tezcacohuatzin Tehuehueltzintecuhtli Totoquihuatzin Quauhtlatoatzin Teotzin 
+			Aztahua Mixcoatl Totomochtzin Tenocelotzin Huetzin Cuatlahuice Itlacauhtzin Tozantzin 
+			Coatlitlantzin Tzontemoc Tezozomoc Moquihuix Maxtla Tzapocuetzin Atexcallihuehue Cocohtzin
+			Umacatzin Tlehuexolotzin Teyohualminqui Acatentehua Maxixcatzin Tzonpane Xayacamachan 
+			Mizquitl Zacancatzin Iyactzin Citlalpopoca
 		}
 		female_names = {
-			Placeholder
+			Matlalcihuatzin Maquiztzin Achihuapoltzin Xiuhpopocatzin Tollintzin Xochiacamapichtli Xillomantzin
+			Izapaplotzin Chiquatzin Totomochtzin Tlacoachcimaltzin Toznenetzin Cihuapilli Mauhcaxochitzin
+			Chicuey Xiuhtoztzin Quauhtlamiyahualtzin Quetzalpetlatzin Tzihuacxochitzin
 		}
 	}
 	
 	pipil = {
 		male_names = {
-			Placeholder
+			Acamapichtli Itzcoatl Huitzilihuitl "Moteuczomah Ilhuicamina" Chimalpopoca Axayacatl Tizoc 
+			Ahuitzotl Moteuczomah Cuitlahuac Cuauhtemoc Nezahualcoyotl Tlacaelel "Xihuitl Temoc" Xochitl 
+			Olinqui Acolmiztli Yoyontzin Ixtlilxochitl Acolnahuacatl Tzacualcatl Itztlolinqui Xilomantzin
+			Tepanquizqui Quequecholtzin Tzompanteuctli Quetzaltototzin Cacamatzin Tlilpotonqui Tayaotzin 
+			Quauhtlapaltzin Tezcatlteuctli Tlacotzin Chimalpantzin Tepehuatzin Tezcatl Tatlatzincatzin 
+			Tlilpotonqui Nezahualpilli Miccacalcatl Ixtteocalletzin Yaocuixtli Itzcohuatzin Tehuelhueltzin
+			Cuauhtototzin Tezcacohuatzin Tehuehueltzintecuhtli Totoquihuatzin Quauhtlatoatzin Teotzin 
+			Aztahua Mixcoatl Totomochtzin Tenocelotzin Huetzin Cuatlahuice Itlacauhtzin Tozantzin 
+			Coatlitlantzin Tzontemoc Tezozomoc Moquihuix Maxtla Tzapocuetzin Atexcallihuehue Cocohtzin
+			Umacatzin Tlehuexolotzin Teyohualminqui Acatentehua Maxixcatzin Tzonpane Xayacamachan 
+			Mizquitl Zacancatzin Iyactzin Citlalpopoca
 		}
 		female_names = {
-			Placeholder
+			Matlalcihuatzin Maquiztzin Achihuapoltzin Xiuhpopocatzin Tollintzin Xochiacamapichtli Xillomantzin
+			Izapaplotzin Chiquatzin Totomochtzin Tlacoachcimaltzin Toznenetzin Cihuapilli Mauhcaxochitzin
+			Chicuey Xiuhtoztzin Quauhtlamiyahualtzin Quetzalpetlatzin Tzihuacxochitzin
 		}
 	}
 	
 	coixca = {
 		male_names = {
-			Placeholder
+			Acamapichtli Itzcoatl Huitzilihuitl "Moteuczomah Ilhuicamina" Chimalpopoca Axayacatl Tizoc 
+			Ahuitzotl Moteuczomah Cuitlahuac Cuauhtemoc Nezahualcoyotl Tlacaelel "Xihuitl Temoc" Xochitl 
+			Olinqui Acolmiztli Yoyontzin Ixtlilxochitl Acolnahuacatl Tzacualcatl Itztlolinqui Xilomantzin
+			Tepanquizqui Quequecholtzin Tzompanteuctli Quetzaltototzin Cacamatzin Tlilpotonqui Tayaotzin 
+			Quauhtlapaltzin Tezcatlteuctli Tlacotzin Chimalpantzin Tepehuatzin Tezcatl Tatlatzincatzin 
+			Tlilpotonqui Nezahualpilli Miccacalcatl Ixtteocalletzin Yaocuixtli Itzcohuatzin Tehuelhueltzin
+			Cuauhtototzin Tezcacohuatzin Tehuehueltzintecuhtli Totoquihuatzin Quauhtlatoatzin Teotzin 
+			Aztahua Mixcoatl Totomochtzin Tenocelotzin Huetzin Cuatlahuice Itlacauhtzin Tozantzin 
+			Coatlitlantzin Tzontemoc Tezozomoc Moquihuix Maxtla Tzapocuetzin Atexcallihuehue Cocohtzin
+			Umacatzin Tlehuexolotzin Teyohualminqui Acatentehua Maxixcatzin Tzonpane Xayacamachan 
+			Mizquitl Zacancatzin Iyactzin Citlalpopoca
 		}
 		female_names = {
-			Placeholder
+			Matlalcihuatzin Maquiztzin Achihuapoltzin Xiuhpopocatzin Tollintzin Xochiacamapichtli Xillomantzin
+			Izapaplotzin Chiquatzin Totomochtzin Tlacoachcimaltzin Toznenetzin Cihuapilli Mauhcaxochitzin
+			Chicuey Xiuhtoztzin Quauhtlamiyahualtzin Quetzalpetlatzin Tzihuacxochitzin
 		}
 	}
 	
 	sayultec = {
 		male_names = {
-			Placeholder
+			Acamapichtli Itzcoatl Huitzilihuitl "Moteuczomah Ilhuicamina" Chimalpopoca Axayacatl Tizoc 
+			Ahuitzotl Moteuczomah Cuitlahuac Cuauhtemoc Nezahualcoyotl Tlacaelel "Xihuitl Temoc" Xochitl 
+			Olinqui Acolmiztli Yoyontzin Ixtlilxochitl Acolnahuacatl Tzacualcatl Itztlolinqui Xilomantzin
+			Tepanquizqui Quequecholtzin Tzompanteuctli Quetzaltototzin Cacamatzin Tlilpotonqui Tayaotzin 
+			Quauhtlapaltzin Tezcatlteuctli Tlacotzin Chimalpantzin Tepehuatzin Tezcatl Tatlatzincatzin 
+			Tlilpotonqui Nezahualpilli Miccacalcatl Ixtteocalletzin Yaocuixtli Itzcohuatzin Tehuelhueltzin
+			Cuauhtototzin Tezcacohuatzin Tehuehueltzintecuhtli Totoquihuatzin Quauhtlatoatzin Teotzin 
+			Aztahua Mixcoatl Totomochtzin Tenocelotzin Huetzin Cuatlahuice Itlacauhtzin Tozantzin 
+			Coatlitlantzin Tzontemoc Tezozomoc Moquihuix Maxtla Tzapocuetzin Atexcallihuehue Cocohtzin
+			Umacatzin Tlehuexolotzin Teyohualminqui Acatentehua Maxixcatzin Tzonpane Xayacamachan 
+			Mizquitl Zacancatzin Iyactzin Citlalpopoca
 		}
 		female_names = {
-			Placeholder
+			Matlalcihuatzin Maquiztzin Achihuapoltzin Xiuhpopocatzin Tollintzin Xochiacamapichtli Xillomantzin
+			Izapaplotzin Chiquatzin Totomochtzin Tlacoachcimaltzin Toznenetzin Cihuapilli Mauhcaxochitzin
+			Chicuey Xiuhtoztzin Quauhtlamiyahualtzin Quetzalpetlatzin Tzihuacxochitzin
 		}
 	}
 	
 	pinome = {
 		male_names = {
-			Placeholder
+			Acamapichtli Itzcoatl Huitzilihuitl "Moteuczomah Ilhuicamina" Chimalpopoca Axayacatl Tizoc 
+			Ahuitzotl Moteuczomah Cuitlahuac Cuauhtemoc Nezahualcoyotl Tlacaelel "Xihuitl Temoc" Xochitl 
+			Olinqui Acolmiztli Yoyontzin Ixtlilxochitl Acolnahuacatl Tzacualcatl Itztlolinqui Xilomantzin
+			Tepanquizqui Quequecholtzin Tzompanteuctli Quetzaltototzin Cacamatzin Tlilpotonqui Tayaotzin 
+			Quauhtlapaltzin Tezcatlteuctli Tlacotzin Chimalpantzin Tepehuatzin Tezcatl Tatlatzincatzin 
+			Tlilpotonqui Nezahualpilli Miccacalcatl Ixtteocalletzin Yaocuixtli Itzcohuatzin Tehuelhueltzin
+			Cuauhtototzin Tezcacohuatzin Tehuehueltzintecuhtli Totoquihuatzin Quauhtlatoatzin Teotzin 
+			Aztahua Mixcoatl Totomochtzin Tenocelotzin Huetzin Cuatlahuice Itlacauhtzin Tozantzin 
+			Coatlitlantzin Tzontemoc Tezozomoc Moquihuix Maxtla Tzapocuetzin Atexcallihuehue Cocohtzin
+			Umacatzin Tlehuexolotzin Teyohualminqui Acatentehua Maxixcatzin Tzonpane Xayacamachan 
+			Mizquitl Zacancatzin Iyactzin Citlalpopoca
 		}
 		female_names = {
-			Placeholder
+			Matlalcihuatzin Maquiztzin Achihuapoltzin Xiuhpopocatzin Tollintzin Xochiacamapichtli Xillomantzin
+			Izapaplotzin Chiquatzin Totomochtzin Tlacoachcimaltzin Toznenetzin Cihuapilli Mauhcaxochitzin
+			Chicuey Xiuhtoztzin Quauhtlamiyahualtzin Quetzalpetlatzin Tzihuacxochitzin
 		}
 	}
 	
 	teco = {
 		male_names = {
-			Placeholder
+			Acamapichtli Itzcoatl Huitzilihuitl "Moteuczomah Ilhuicamina" Chimalpopoca Axayacatl Tizoc 
+			Ahuitzotl Moteuczomah Cuitlahuac Cuauhtemoc Nezahualcoyotl Tlacaelel "Xihuitl Temoc" Xochitl 
+			Olinqui Acolmiztli Yoyontzin Ixtlilxochitl Acolnahuacatl Tzacualcatl Itztlolinqui Xilomantzin
+			Tepanquizqui Quequecholtzin Tzompanteuctli Quetzaltototzin Cacamatzin Tlilpotonqui Tayaotzin 
+			Quauhtlapaltzin Tezcatlteuctli Tlacotzin Chimalpantzin Tepehuatzin Tezcatl Tatlatzincatzin 
+			Tlilpotonqui Nezahualpilli Miccacalcatl Ixtteocalletzin Yaocuixtli Itzcohuatzin Tehuelhueltzin
+			Cuauhtototzin Tezcacohuatzin Tehuehueltzintecuhtli Totoquihuatzin Quauhtlatoatzin Teotzin 
+			Aztahua Mixcoatl Totomochtzin Tenocelotzin Huetzin Cuatlahuice Itlacauhtzin Tozantzin 
+			Coatlitlantzin Tzontemoc Tezozomoc Moquihuix Maxtla Tzapocuetzin Atexcallihuehue Cocohtzin
+			Umacatzin Tlehuexolotzin Teyohualminqui Acatentehua Maxixcatzin Tzonpane Xayacamachan 
+			Mizquitl Zacancatzin Iyactzin Citlalpopoca
 		}
 		female_names = {
-			Placeholder
+			Matlalcihuatzin Maquiztzin Achihuapoltzin Xiuhpopocatzin Tollintzin Xochiacamapichtli Xillomantzin
+			Izapaplotzin Chiquatzin Totomochtzin Tlacoachcimaltzin Toznenetzin Cihuapilli Mauhcaxochitzin
+			Chicuey Xiuhtoztzin Quauhtlamiyahualtzin Quetzalpetlatzin Tzihuacxochitzin
 		}
 	}
 	
 	metztitlani = {
 		male_names = {
-			Placeholder
+			Acamapichtli Itzcoatl Huitzilihuitl "Moteuczomah Ilhuicamina" Chimalpopoca Axayacatl Tizoc 
+			Ahuitzotl Moteuczomah Cuitlahuac Cuauhtemoc Nezahualcoyotl Tlacaelel "Xihuitl Temoc" Xochitl 
+			Olinqui Acolmiztli Yoyontzin Ixtlilxochitl Acolnahuacatl Tzacualcatl Itztlolinqui Xilomantzin
+			Tepanquizqui Quequecholtzin Tzompanteuctli Quetzaltototzin Cacamatzin Tlilpotonqui Tayaotzin 
+			Quauhtlapaltzin Tezcatlteuctli Tlacotzin Chimalpantzin Tepehuatzin Tezcatl Tatlatzincatzin 
+			Tlilpotonqui Nezahualpilli Miccacalcatl Ixtteocalletzin Yaocuixtli Itzcohuatzin Tehuelhueltzin
+			Cuauhtototzin Tezcacohuatzin Tehuehueltzintecuhtli Totoquihuatzin Quauhtlatoatzin Teotzin 
+			Aztahua Mixcoatl Totomochtzin Tenocelotzin Huetzin Cuatlahuice Itlacauhtzin Tozantzin 
+			Coatlitlantzin Tzontemoc Tezozomoc Moquihuix Maxtla Tzapocuetzin Atexcallihuehue Cocohtzin
+			Umacatzin Tlehuexolotzin Teyohualminqui Acatentehua Maxixcatzin Tzonpane Xayacamachan 
+			Mizquitl Zacancatzin Iyactzin Citlalpopoca
 		}
 		female_names = {
-			Placeholder
+			Matlalcihuatzin Maquiztzin Achihuapoltzin Xiuhpopocatzin Tollintzin Xochiacamapichtli Xillomantzin
+			Izapaplotzin Chiquatzin Totomochtzin Tlacoachcimaltzin Toznenetzin Cihuapilli Mauhcaxochitzin
+			Chicuey Xiuhtoztzin Quauhtlamiyahualtzin Quetzalpetlatzin Tzihuacxochitzin
 		}
 	}
 	
 	huexotzinca = {
 		male_names = {
-			Placeholder
+			Acamapichtli Itzcoatl Huitzilihuitl "Moteuczomah Ilhuicamina" Chimalpopoca Axayacatl Tizoc 
+			Ahuitzotl Moteuczomah Cuitlahuac Cuauhtemoc Nezahualcoyotl Tlacaelel "Xihuitl Temoc" Xochitl 
+			Olinqui Acolmiztli Yoyontzin Ixtlilxochitl Acolnahuacatl Tzacualcatl Itztlolinqui Xilomantzin
+			Tepanquizqui Quequecholtzin Tzompanteuctli Quetzaltototzin Cacamatzin Tlilpotonqui Tayaotzin 
+			Quauhtlapaltzin Tezcatlteuctli Tlacotzin Chimalpantzin Tepehuatzin Tezcatl Tatlatzincatzin 
+			Tlilpotonqui Nezahualpilli Miccacalcatl Ixtteocalletzin Yaocuixtli Itzcohuatzin Tehuelhueltzin
+			Cuauhtototzin Tezcacohuatzin Tehuehueltzintecuhtli Totoquihuatzin Quauhtlatoatzin Teotzin 
+			Aztahua Mixcoatl Totomochtzin Tenocelotzin Huetzin Cuatlahuice Itlacauhtzin Tozantzin 
+			Coatlitlantzin Tzontemoc Tezozomoc Moquihuix Maxtla Tzapocuetzin Atexcallihuehue Cocohtzin
+			Umacatzin Tlehuexolotzin Teyohualminqui Acatentehua Maxixcatzin Tzonpane Xayacamachan 
+			Mizquitl Zacancatzin Iyactzin Citlalpopoca
 		}
 		female_names = {
-			Placeholder
+			Matlalcihuatzin Maquiztzin Achihuapoltzin Xiuhpopocatzin Tollintzin Xochiacamapichtli Xillomantzin
+			Izapaplotzin Chiquatzin Totomochtzin Tlacoachcimaltzin Toznenetzin Cihuapilli Mauhcaxochitzin
+			Chicuey Xiuhtoztzin Quauhtlamiyahualtzin Quetzalpetlatzin Tzihuacxochitzin
 		}
 	}
 	
 	cholulan = {
 		male_names = {
-			Placeholder
+			Acamapichtli Itzcoatl Huitzilihuitl "Moteuczomah Ilhuicamina" Chimalpopoca Axayacatl Tizoc 
+			Ahuitzotl Moteuczomah Cuitlahuac Cuauhtemoc Nezahualcoyotl Tlacaelel "Xihuitl Temoc" Xochitl 
+			Olinqui Acolmiztli Yoyontzin Ixtlilxochitl Acolnahuacatl Tzacualcatl Itztlolinqui Xilomantzin
+			Tepanquizqui Quequecholtzin Tzompanteuctli Quetzaltototzin Cacamatzin Tlilpotonqui Tayaotzin 
+			Quauhtlapaltzin Tezcatlteuctli Tlacotzin Chimalpantzin Tepehuatzin Tezcatl Tatlatzincatzin 
+			Tlilpotonqui Nezahualpilli Miccacalcatl Ixtteocalletzin Yaocuixtli Itzcohuatzin Tehuelhueltzin
+			Cuauhtototzin Tezcacohuatzin Tehuehueltzintecuhtli Totoquihuatzin Quauhtlatoatzin Teotzin 
+			Aztahua Mixcoatl Totomochtzin Tenocelotzin Huetzin Cuatlahuice Itlacauhtzin Tozantzin 
+			Coatlitlantzin Tzontemoc Tezozomoc Moquihuix Maxtla Tzapocuetzin Atexcallihuehue Cocohtzin
+			Umacatzin Tlehuexolotzin Teyohualminqui Acatentehua Maxixcatzin Tzonpane Xayacamachan 
+			Mizquitl Zacancatzin Iyactzin Citlalpopoca
 		}
 		female_names = {
-			Placeholder
+			Matlalcihuatzin Maquiztzin Achihuapoltzin Xiuhpopocatzin Tollintzin Xochiacamapichtli Xillomantzin
+			Izapaplotzin Chiquatzin Totomochtzin Tlacoachcimaltzin Toznenetzin Cihuapilli Mauhcaxochitzin
+			Chicuey Xiuhtoztzin Quauhtlamiyahualtzin Quetzalpetlatzin Tzihuacxochitzin
 		}
 	}
 	
 	eastern_nahua = {
 		male_names = {
-			Placeholder
+			Acamapichtli Itzcoatl Huitzilihuitl "Moteuczomah Ilhuicamina" Chimalpopoca Axayacatl Tizoc 
+			Ahuitzotl Moteuczomah Cuitlahuac Cuauhtemoc Nezahualcoyotl Tlacaelel "Xihuitl Temoc" Xochitl 
+			Olinqui Acolmiztli Yoyontzin Ixtlilxochitl Acolnahuacatl Tzacualcatl Itztlolinqui Xilomantzin
+			Tepanquizqui Quequecholtzin Tzompanteuctli Quetzaltototzin Cacamatzin Tlilpotonqui Tayaotzin 
+			Quauhtlapaltzin Tezcatlteuctli Tlacotzin Chimalpantzin Tepehuatzin Tezcatl Tatlatzincatzin 
+			Tlilpotonqui Nezahualpilli Miccacalcatl Ixtteocalletzin Yaocuixtli Itzcohuatzin Tehuelhueltzin
+			Cuauhtototzin Tezcacohuatzin Tehuehueltzintecuhtli Totoquihuatzin Quauhtlatoatzin Teotzin 
+			Aztahua Mixcoatl Totomochtzin Tenocelotzin Huetzin Cuatlahuice Itlacauhtzin Tozantzin 
+			Coatlitlantzin Tzontemoc Tezozomoc Moquihuix Maxtla Tzapocuetzin Atexcallihuehue Cocohtzin
+			Umacatzin Tlehuexolotzin Teyohualminqui Acatentehua Maxixcatzin Tzonpane Xayacamachan 
+			Mizquitl Zacancatzin Iyactzin Citlalpopoca
 		}
 		female_names = {
-			Placeholder
+			Matlalcihuatzin Maquiztzin Achihuapoltzin Xiuhpopocatzin Tollintzin Xochiacamapichtli Xillomantzin
+			Izapaplotzin Chiquatzin Totomochtzin Tlacoachcimaltzin Toznenetzin Cihuapilli Mauhcaxochitzin
+			Chicuey Xiuhtoztzin Quauhtlamiyahualtzin Quetzalpetlatzin Tzihuacxochitzin
 		}
 	}
 	
 	central_nahua = {
 		male_names = {
-			Placeholder
+			Acamapichtli Itzcoatl Huitzilihuitl "Moteuczomah Ilhuicamina" Chimalpopoca Axayacatl Tizoc 
+			Ahuitzotl Moteuczomah Cuitlahuac Cuauhtemoc Nezahualcoyotl Tlacaelel "Xihuitl Temoc" Xochitl 
+			Olinqui Acolmiztli Yoyontzin Ixtlilxochitl Acolnahuacatl Tzacualcatl Itztlolinqui Xilomantzin
+			Tepanquizqui Quequecholtzin Tzompanteuctli Quetzaltototzin Cacamatzin Tlilpotonqui Tayaotzin 
+			Quauhtlapaltzin Tezcatlteuctli Tlacotzin Chimalpantzin Tepehuatzin Tezcatl Tatlatzincatzin 
+			Tlilpotonqui Nezahualpilli Miccacalcatl Ixtteocalletzin Yaocuixtli Itzcohuatzin Tehuelhueltzin
+			Cuauhtototzin Tezcacohuatzin Tehuehueltzintecuhtli Totoquihuatzin Quauhtlatoatzin Teotzin 
+			Aztahua Mixcoatl Totomochtzin Tenocelotzin Huetzin Cuatlahuice Itlacauhtzin Tozantzin 
+			Coatlitlantzin Tzontemoc Tezozomoc Moquihuix Maxtla Tzapocuetzin Atexcallihuehue Cocohtzin
+			Umacatzin Tlehuexolotzin Teyohualminqui Acatentehua Maxixcatzin Tzonpane Xayacamachan 
+			Mizquitl Zacancatzin Iyactzin Citlalpopoca
 		}
 		female_names = {
-			Placeholder
+			Matlalcihuatzin Maquiztzin Achihuapoltzin Xiuhpopocatzin Tollintzin Xochiacamapichtli Xillomantzin
+			Izapaplotzin Chiquatzin Totomochtzin Tlacoachcimaltzin Toznenetzin Cihuapilli Mauhcaxochitzin
+			Chicuey Xiuhtoztzin Quauhtlamiyahualtzin Quetzalpetlatzin Tzihuacxochitzin
 		}
 	}
 	
 	archaic_toltec = {
 		male_names = {
-			Placeholder
+			Acamapichtli Itzcoatl Huitzilihuitl "Moteuczomah Ilhuicamina" Chimalpopoca Axayacatl Tizoc 
+			Ahuitzotl Moteuczomah Cuitlahuac Cuauhtemoc Nezahualcoyotl Tlacaelel "Xihuitl Temoc" Xochitl 
+			Olinqui Acolmiztli Yoyontzin Ixtlilxochitl Acolnahuacatl Tzacualcatl Itztlolinqui Xilomantzin
+			Tepanquizqui Quequecholtzin Tzompanteuctli Quetzaltototzin Cacamatzin Tlilpotonqui Tayaotzin 
+			Quauhtlapaltzin Tezcatlteuctli Tlacotzin Chimalpantzin Tepehuatzin Tezcatl Tatlatzincatzin 
+			Tlilpotonqui Nezahualpilli Miccacalcatl Ixtteocalletzin Yaocuixtli Itzcohuatzin Tehuelhueltzin
+			Cuauhtototzin Tezcacohuatzin Tehuehueltzintecuhtli Totoquihuatzin Quauhtlatoatzin Teotzin 
+			Aztahua Mixcoatl Totomochtzin Tenocelotzin Huetzin Cuatlahuice Itlacauhtzin Tozantzin 
+			Coatlitlantzin Tzontemoc Tezozomoc Moquihuix Maxtla Tzapocuetzin Atexcallihuehue Cocohtzin
+			Umacatzin Tlehuexolotzin Teyohualminqui Acatentehua Maxixcatzin Tzonpane Xayacamachan 
+			Mizquitl Zacancatzin Iyactzin Citlalpopoca
 		}
 		female_names = {
-			Placeholder
+			Matlalcihuatzin Maquiztzin Achihuapoltzin Xiuhpopocatzin Tollintzin Xochiacamapichtli Xillomantzin
+			Izapaplotzin Chiquatzin Totomochtzin Tlacoachcimaltzin Toznenetzin Cihuapilli Mauhcaxochitzin
+			Chicuey Xiuhtoztzin Quauhtlamiyahualtzin Quetzalpetlatzin Tzihuacxochitzin
 		}
 	}
 	
 	xilotlantzinca = {
 		male_names = {
-			Placeholder
+			Acamapichtli Itzcoatl Huitzilihuitl "Moteuczomah Ilhuicamina" Chimalpopoca Axayacatl Tizoc 
+			Ahuitzotl Moteuczomah Cuitlahuac Cuauhtemoc Nezahualcoyotl Tlacaelel "Xihuitl Temoc" Xochitl 
+			Olinqui Acolmiztli Yoyontzin Ixtlilxochitl Acolnahuacatl Tzacualcatl Itztlolinqui Xilomantzin
+			Tepanquizqui Quequecholtzin Tzompanteuctli Quetzaltototzin Cacamatzin Tlilpotonqui Tayaotzin 
+			Quauhtlapaltzin Tezcatlteuctli Tlacotzin Chimalpantzin Tepehuatzin Tezcatl Tatlatzincatzin 
+			Tlilpotonqui Nezahualpilli Miccacalcatl Ixtteocalletzin Yaocuixtli Itzcohuatzin Tehuelhueltzin
+			Cuauhtototzin Tezcacohuatzin Tehuehueltzintecuhtli Totoquihuatzin Quauhtlatoatzin Teotzin 
+			Aztahua Mixcoatl Totomochtzin Tenocelotzin Huetzin Cuatlahuice Itlacauhtzin Tozantzin 
+			Coatlitlantzin Tzontemoc Tezozomoc Moquihuix Maxtla Tzapocuetzin Atexcallihuehue Cocohtzin
+			Umacatzin Tlehuexolotzin Teyohualminqui Acatentehua Maxixcatzin Tzonpane Xayacamachan 
+			Mizquitl Zacancatzin Iyactzin Citlalpopoca
 		}
 		female_names = {
-			Placeholder
+			Matlalcihuatzin Maquiztzin Achihuapoltzin Xiuhpopocatzin Tollintzin Xochiacamapichtli Xillomantzin
+			Izapaplotzin Chiquatzin Totomochtzin Tlacoachcimaltzin Toznenetzin Cihuapilli Mauhcaxochitzin
+			Chicuey Xiuhtoztzin Quauhtlamiyahualtzin Quetzalpetlatzin Tzihuacxochitzin
 		}
 	}
 	
 	colimotl = {
 		male_names = {
-			Placeholder
+			Acamapichtli Itzcoatl Huitzilihuitl "Moteuczomah Ilhuicamina" Chimalpopoca Axayacatl Tizoc 
+			Ahuitzotl Moteuczomah Cuitlahuac Cuauhtemoc Nezahualcoyotl Tlacaelel "Xihuitl Temoc" Xochitl 
+			Olinqui Acolmiztli Yoyontzin Ixtlilxochitl Acolnahuacatl Tzacualcatl Itztlolinqui Xilomantzin
+			Tepanquizqui Quequecholtzin Tzompanteuctli Quetzaltototzin Cacamatzin Tlilpotonqui Tayaotzin 
+			Quauhtlapaltzin Tezcatlteuctli Tlacotzin Chimalpantzin Tepehuatzin Tezcatl Tatlatzincatzin 
+			Tlilpotonqui Nezahualpilli Miccacalcatl Ixtteocalletzin Yaocuixtli Itzcohuatzin Tehuelhueltzin
+			Cuauhtototzin Tezcacohuatzin Tehuehueltzintecuhtli Totoquihuatzin Quauhtlatoatzin Teotzin 
+			Aztahua Mixcoatl Totomochtzin Tenocelotzin Huetzin Cuatlahuice Itlacauhtzin Tozantzin 
+			Coatlitlantzin Tzontemoc Tezozomoc Moquihuix Maxtla Tzapocuetzin Atexcallihuehue Cocohtzin
+			Umacatzin Tlehuexolotzin Teyohualminqui Acatentehua Maxixcatzin Tzonpane Xayacamachan 
+			Mizquitl Zacancatzin Iyactzin Citlalpopoca
 		}
 		female_names = {
-			Placeholder
+			Matlalcihuatzin Maquiztzin Achihuapoltzin Xiuhpopocatzin Tollintzin Xochiacamapichtli Xillomantzin
+			Izapaplotzin Chiquatzin Totomochtzin Tlacoachcimaltzin Toznenetzin Cihuapilli Mauhcaxochitzin
+			Chicuey Xiuhtoztzin Quauhtlamiyahualtzin Quetzalpetlatzin Tzihuacxochitzin
 		}
 	}
 	
