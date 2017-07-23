@@ -3,7 +3,7 @@ government_rank = 1
 mercantilism = 0.25
 technology_group = central_mexican
 religion = placeholderism
-primary_culture = placeholdertec
+primary_culture = otomi
 capital = 214
 fixed_capital = 214
 
