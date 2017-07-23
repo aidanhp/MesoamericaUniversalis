@@ -3,7 +3,7 @@ government_rank = 1
 mercantilism = 0.25
 technology_group = central_mexican
 religion = placeholderism
-primary_culture = placeholdertec
+primary_culture = caxcan
 capital = 2151
 fixed_capital = 2151
 
