@@ -1,1 +1,1 @@
-technology_group = central_mexican
+technology_group = central_mexican_tg

@@ -1,4 +1,4 @@
-unit_type = central_mexican
+unit_type = central_mexican_tg
 type = infantry
 
 maneuver = 1

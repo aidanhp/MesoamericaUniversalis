@@ -46,9 +46,31 @@ gov_nahuatl_monarchy = {
 		3 = HEIR
 	}
 	
+	
 	trigger = {
 		OR = {
 			primary_culture = mexica
+			primary_culture = acolhua
+			primary_culture = tepanec
+			primary_culture = colhua
+			primary_culture = xochimilca
+			primary_culture = chalca
+			primary_culture = cuitlahuaca
+			primary_culture = mizquica
+			primary_culture = tlaxcallan
+			primary_culture = pipil
+			primary_culture = coixca
+			primary_culture = sayultec
+			primary_culture = pinome
+			primary_culture = teco
+			primary_culture = metztitlani
+			primary_culture = huexotzinca
+			primary_culture = cholulan
+			primary_culture = eastern_nahua
+			primary_culture = central_nahua
+			primary_culture = archaic_toltec
+			primary_culture = xilotlantzinca
+			primary_culture = colimotl
 		}
 	}
 }
