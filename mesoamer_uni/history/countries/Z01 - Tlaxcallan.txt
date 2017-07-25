@@ -1,7 +1,7 @@
 government = despotic_monarchy 
 government_rank = 2
 mercantilism = 0.25
-technology_group = central_mexican_tg
+technology_group = tlaxcallan_tg
 religion = placeholderism
 primary_culture = tlaxcallan
 capital = 754
