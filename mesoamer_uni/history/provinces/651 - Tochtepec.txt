@@ -6,8 +6,9 @@ religion = placeholderism
 hre = no
 base_tax = 1
 base_production = 3
-trade_goods = grain 
 base_manpower = 9
+trade_goods = grain 
+
 capital = "Tochtepec"
 is_city = yes
 fort_15th = yes
