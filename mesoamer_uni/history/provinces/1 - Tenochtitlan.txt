@@ -4,9 +4,9 @@ controller = AAA
 culture = mexica
 religion = placeholderism
 hre = no
-base_tax = 1
-base_production = 3
-base_manpower = 9
+base_tax = 5
+base_production = 10
+base_manpower = 35
 trade_goods = grain 
 
 capital = "Tenochtitlan"

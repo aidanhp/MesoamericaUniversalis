@@ -1,12 +1,12 @@
 add_core = SSW 
 owner = SSW 
 controller = SSW 
-culture = central_nahua
+culture = chocho
 religion = placeholderism
 hre = no
-base_tax = 1
-base_production = 3
-base_manpower = 9
+base_tax = 2
+base_production = 4
+base_manpower = 14
 trade_goods = grain 
 
 capital = "Tepexic-Tepeacac"

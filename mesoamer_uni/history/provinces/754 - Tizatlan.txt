@@ -5,9 +5,9 @@ controller = Z01
 culture = tlaxcallan
 religion = placeholderism
 hre = no
-base_tax = 1
-base_production = 3
-base_manpower = 9
+base_tax = 3
+base_production = 6
+base_manpower = 23
 trade_goods = grain 
 
 capital = "Tizatlan"

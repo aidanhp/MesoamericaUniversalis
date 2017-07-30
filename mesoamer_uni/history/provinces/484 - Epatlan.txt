@@ -1,11 +1,12 @@
 add_core = SSN
-owner = SSN
-controller = SSN
+add_core = SSK
+owner = SSK
+controller = SSK
 culture = central_nahua
 religion = placeholderism
 hre = no
 base_tax = 1
-base_production = 3
+base_production = 2
 base_manpower = 9
 trade_goods = grain 
 

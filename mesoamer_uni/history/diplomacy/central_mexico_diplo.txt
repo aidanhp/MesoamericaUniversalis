@@ -64,16 +64,16 @@ vassal = {
 	end_date = 1821.1.1
 }
 
-#Chalca Vassals
+#Tlahuaca Vassals
 vassal = {
-	first = BBD
+	first = BBF
 	second = N49
 	start_date = 1428.1.1
 	end_date = 1821.1.1
 }
 
 vassal = {
-	first = BBD
+	first = BBF
 	second = N50
 	start_date = 1428.1.1
 	end_date = 1821.1.1

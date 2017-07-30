@@ -4,9 +4,9 @@ controller = SSX
 culture = central_nahua
 religion = placeholderism
 hre = no
-base_tax = 1
-base_production = 3
-base_manpower = 9
+base_tax = 3
+base_production = 6
+base_manpower = 22
 trade_goods = grain 
 
 capital = "Tecalco"

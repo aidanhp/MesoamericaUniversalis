@@ -5,9 +5,9 @@ controller = MM1
 culture = eastern_nahua
 religion = placeholderism
 hre = no
-base_tax = 1
-base_production = 3
-base_manpower = 9
+base_tax = 2
+base_production = 4
+base_manpower = 16
 trade_goods = grain 
 
 capital = "Zapotitlan"

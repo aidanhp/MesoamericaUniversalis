@@ -422,7 +422,7 @@ NCountry = {
 	STATE_MAINTENANCE_CONTINENT_FACTOR = 0.25,	-- different continet
 	STATE_MAINTENANCE_CULTURE_FACTOR = 0.25,		-- non accepted culture
 	
-	ALLOW_ZERO_BASE_VALUES = 0,						-- Affects base tax, base manpower, and base production
+	ALLOW_ZERO_BASE_VALUES = 1,						-- Affects base tax, base manpower, and base production
 	ALLOW_ESTATE_AND_PARLIAMENT_SEAT_IN_PROVINCE = 0, -- Whether or not a province can have both an estate and a parliament seat
 	ALLOW_ESTATE_IN_CAPITAL = 0,					 -- Whether or not the capital can be assigned to an estate
 	

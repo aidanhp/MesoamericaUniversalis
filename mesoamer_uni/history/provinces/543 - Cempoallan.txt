@@ -4,9 +4,9 @@ controller = UUU
 culture = totonac
 religion = placeholderism
 hre = no
-base_tax = 1
-base_production = 3
-base_manpower = 9
+base_tax = 6
+base_production = 12
+base_manpower = 43
 trade_goods = grain 
 
 capital = "Cempoallan"

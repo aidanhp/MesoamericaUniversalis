@@ -4,9 +4,9 @@ controller = AAK
 culture = tepanec
 religion = placeholderism
 hre = no
-base_tax = 1
-base_production = 3
-base_manpower = 9
+base_tax = 2
+base_production = 4
+base_manpower = 14
 trade_goods = grain 
 
 capital = "Citlaltepec"

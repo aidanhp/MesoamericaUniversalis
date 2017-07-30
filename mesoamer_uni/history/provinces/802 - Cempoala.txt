@@ -4,9 +4,9 @@ controller = B25
 culture = otomi
 religion = placeholderism
 hre = no
-base_tax = 1
-base_production = 3
-base_manpower = 9
+base_tax = 2
+base_production = 6
+base_manpower = 20
 trade_goods = grain 
 
 capital = "Cempoala"

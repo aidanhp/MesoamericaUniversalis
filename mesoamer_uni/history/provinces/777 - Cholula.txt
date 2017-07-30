@@ -4,9 +4,9 @@ controller = A99
 culture = cholulan
 religion = placeholderism
 hre = no
-base_tax = 1
-base_production = 3
-base_manpower = 9
+base_tax = 7
+base_production = 14
+base_manpower = 50
 trade_goods = grain 
 
 capital = "Cholula"
