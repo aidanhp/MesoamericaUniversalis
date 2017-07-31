@@ -1,11 +1,183 @@
-# A province can only belong to one region!
-# random_new_world_region is used for RNW. Must be first in this list.
-random_new_world_region = {
-}
-
-all_map_region = {
+#LAND
+central_mexico_region = {
 	areas = {
-		all_land_area
-		all_sea_area
+		mexico_colhuacan_area
+		acolhuacan_area
+		tepaneca_area
+		chalco_xochimilco_area
+		chiapan_atotonilco_apaxco_area
+		xilotepec_xocotitlan_area
+		ixtlahuaca_tollocan_area
+		temazcaltepec_area
+		ocuilan_malinalco_tlachco_area
+		ocuituco_area
+		huaxtepec_area
+		cuauhnahuac_area
+		axocopan_tezontepec_area
+		tlatlauhquitepec_area
+		tlapacoyan_tetela_area
+		cuauhchinanco_area
+		atotonilco_grande_area
+		tepeacac_ahuatlan_area
+		tlaxcala_area
+		huexotzinco_area
+		tototlapan_area
+		apan_area
 	}
 }
+
+caribbean_islands_region = {
+	areas = {
+		jamaica_area
+		islas_de_la_bahia_area
+		guanahatabey_artemisa_area
+		old_taino_area
+		habana_matanzas_area
+		sabaneque_las_villas_area
+		camaguey_las_tunas_area
+		cienfuegos_area
+		southern_cuba_area
+	}
+}
+
+western_mexico_region = {
+	areas = {
+		patzcuaro_basin_area
+		cuitzeo_area
+		taximaroa_area
+		purepechan_march_area
+		caxca_area
+		northwestern_mexico_area
+		nayarit_area
+		xalisco_area
+		western_motin_colima_area
+		autlan_area
+		tacambaro_area
+		uruapan_tancitaro_area
+		balsas_area
+		northern_michoacan_area
+		chapala_area
+	}
+}
+
+guerrero_region = {
+	areas = {
+		cihuatlan_area
+		tecpantepec_area
+		ayotlan_ometepec_cuahuiltan_area
+		tlapan_area
+		yopitzinco_area
+		chiauhtlan_area
+		tlacozauhtitlan_quiauhteopan_area
+		yoaltepec_tecomaixtlahuacan_caltitlan_area
+		tepequacuilco_area
+		tetellan_zompanco_area
+	}
+}
+
+gulf_coast_region = {
+	areas = {
+		tochtepec_area
+		tochpan_atlan_misantla_area
+		cuetlaxtlan_area
+		cempoallan_area
+		quauhtochco_area
+		xalapa_area
+		tzicoac_huexotla_area
+		oxitipan_area
+		tantoyuca_area
+		metztitlan_area
+		tuxtla_area
+	}
+}
+
+oaxaca_region = {
+	areas = {
+		teozacualco_area
+		ixtepexi_analco_area
+		coyolapan_zaachila_area
+		teozapotlan_area
+		coayxtlahuacan_area
+		tlachquiauhco_area
+		miahuatlan_coatlan_area
+		tututepec_area
+		mixteca_costa_area
+		tehuantepec_area
+		nejapa_area
+		teotitlan_area
+		coatlicamac_area
+		xaltepec_area
+		huaxuapa_area
+		acatlan_area
+	}
+}
+
+yucatan_region = {
+	areas = {
+		ecab_area
+		uaymil_area
+		chikinchel_area
+		cupul_area
+		ah_kin_chel_area
+		ah_canul_area
+		mani_area
+		cochuah_area
+		sotuta_area
+		chakan_hokaba_area
+		ceh_pech_area
+		kaan_pech_chanputun_area
+		xicallanco_area
+		chactemal_dzuilinicob_area
+		potonchan_area
+	}
+}
+
+maya_highlands_region = {
+	areas = {
+		xoconochco_area
+		tzutujil_area
+		coastal_kiche_area
+		mam_area
+		pipil_area
+		nonualco_lenca_area
+		izalco_pipil_area
+		cuscatlan_pipil_area
+		chaltenanco_pipil_area
+		chajoma_area
+		kaqchikel_area
+		kiche_area
+		rabinal_area
+		cocoltenanco_area
+		usamacinta_area
+	}
+}
+
+maya_central_lowlands_region = {
+	areas = {
+		kowoj_yalain_cehache_area
+		itza_area
+		mopan_manche_area
+		lacandon_area
+		polochic_area
+		motagua_area
+		chamelecon_area
+		coban_area
+		chotal_area
+		kekchi_area
+		malpaso_bolonchan_area
+	}
+}
+
+#SEA
+atlantic_region = {
+	areas = {
+		atlantic_ph_area
+	}
+}
+
+pacific_region = {
+	areas = {
+		pacific_ph_area
+	}
+}
+
