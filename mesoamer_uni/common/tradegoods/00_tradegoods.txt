@@ -3,28 +3,28 @@
 # Please add price definitions to prices.txt as well.
 
 #TRADE GOODS: MU
-#Staple Crops (ex, Beans, Maize, Chiles, Squash, Chia)
-#Aquatic Foods (ex, Fish, Water Insects, Shrimp)
-#Fruits (ex, Avacado, Nopal/Prickly Pear) 
-#Cocao 
-#Honey 
-#Salt 
-#Maguey
-#Cotton
-#Plumes (ex, Quetzal, Parrot)
-#Copal Incense 
-#Copper
-#Gold
-#Silver
-#Obsidian
-#Precious Stones (ex, Jade, Turquoise, Moonstone, Amethyst, Opal)
-#Lime (Limestone)
-#Wood
-#Rubber
-#Slaves
-#Ceramics
-#Balsas Metals *Special, do not assign yet
-#Metropolitan Goods *Special, do not assign yet
+#staple_crops (ex, Beans, Maize, Chiles, Squash, Chia)
+#aquatic_foods (ex, Fish, Water Insects, Shrimp)
+#fruits (ex, Avacado, Nopal/Prickly Pear) 
+#cacao 
+#honey 
+#salt 
+#maguey
+#cotton
+#plumes (ex, Quetzal, Parrot)
+#copal
+#copper
+#gold
+#silver
+#obsidian
+#precious_stones (ex, Jade, Turquoise, Moonstone, Amethyst, Opal)
+#lime (Limestone)
+#wood
+#rubber
+#slaves
+#ceramics
+#balsas_metals *Special, do not assign yet
+#metropolitan_goods *Special, do not assign yet
 
 #Resources 
 #All modifiers and chances are placeholders
