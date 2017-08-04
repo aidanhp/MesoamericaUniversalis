@@ -7,7 +7,7 @@ hre = no
 base_tax = 3
 base_production = 7
 base_manpower = 25
-trade_goods = grain 
+trade_goods = staple_crops 
 
 capital = "Tecuitlan"
 is_city = yes

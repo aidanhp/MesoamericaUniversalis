@@ -7,7 +7,7 @@ hre = no
 base_tax = 0
 base_production = 1
 base_manpower = 5
-trade_goods = grain 
+trade_goods = staple_crops 
 
 capital = "Nezahualcoyotl's Dike"
 is_city = yes

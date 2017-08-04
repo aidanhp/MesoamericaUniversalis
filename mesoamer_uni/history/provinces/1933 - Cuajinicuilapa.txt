@@ -5,9 +5,9 @@ culture = mixtec
 religion = placeholderism
 hre = no
 base_tax = 1
-base_production = 3
-base_manpower = 9
-trade_goods = grain 
+base_production = 2
+base_manpower = 7
+trade_goods = staple_crops 
 
 capital = "Cuajinicuilapa"
 is_city = yes

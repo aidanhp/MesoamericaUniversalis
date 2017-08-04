@@ -5,10 +5,10 @@ controller = H33
 culture = yucatec
 religion = placeholderism
 hre = no
-base_tax = 1
+base_tax = 0
 base_production = 3
 base_manpower = 9
-trade_goods = grain 
+trade_goods = staple_crops 
 
 capital = "Kinchil"
 is_city = yes

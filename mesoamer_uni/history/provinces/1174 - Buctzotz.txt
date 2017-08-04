@@ -5,10 +5,10 @@ controller = I08
 culture = yucatec
 religion = placeholderism
 hre = no
-base_tax = 1
-base_production = 3
-base_manpower = 9
-trade_goods = grain 
+base_tax = 2
+base_production = 4
+base_manpower = 14
+trade_goods = staple_crops 
 
 capital = "Buctzotz"
 is_city = yes

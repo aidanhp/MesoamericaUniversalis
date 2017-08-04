@@ -5,10 +5,10 @@ controller = I64
 culture = yucatec
 religion = placeholderism
 hre = no
-base_tax = 1
+base_tax = 2
 base_production = 3
-base_manpower = 9
-trade_goods = grain 
+base_manpower = 11
+trade_goods = staple_crops 
 
 capital = "Tixcancal"
 is_city = yes

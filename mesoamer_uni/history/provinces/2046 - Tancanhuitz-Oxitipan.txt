@@ -7,7 +7,7 @@ hre = no
 base_tax = 3
 base_production = 6
 base_manpower = 19
-trade_goods = grain 
+trade_goods = staple_crops 
 
 capital = "Tancanhuitz-Oxitipan"
 is_city = yes

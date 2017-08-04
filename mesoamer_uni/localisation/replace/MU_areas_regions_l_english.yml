@@ -151,8 +151,8 @@
  malpaso_bolonchan_area:0 "Malpaso-Bolonchan"
  
  #Atlantic
- atlantic_region:0 "Atlantic"
+ atlantic_region:0 ""
  atlantic_ph_area:0 ""
- pacific_region:0 "Pacific"
+ pacific_region:0 ""
  pacific_ph_area:0 ""
  

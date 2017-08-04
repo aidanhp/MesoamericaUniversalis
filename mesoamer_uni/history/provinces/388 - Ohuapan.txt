@@ -8,7 +8,7 @@ hre = no
 base_tax = 2
 base_production = 5
 base_manpower = 16
-trade_goods = grain 
+trade_goods = staple_crops 
 
 capital = "Ohuapan"
 is_city = yes

@@ -4,10 +4,10 @@ controller = I64
 culture = yucatec
 religion = placeholderism
 hre = no
-base_tax = 1
-base_production = 3
-base_manpower = 9
-trade_goods = grain 
+base_tax = 3
+base_production = 5
+base_manpower = 17
+trade_goods = staple_crops 
 
 capital = "Tases"
 is_city = yes

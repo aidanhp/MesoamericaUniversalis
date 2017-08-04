@@ -6,8 +6,8 @@ religion = placeholderism
 hre = no
 base_tax = 1
 base_production = 3
-base_manpower = 9
-trade_goods = grain 
+base_manpower = 10
+trade_goods = staple_crops 
 
 capital = "Chactemal"
 is_city = yes
