@@ -5,9 +5,9 @@ controller = F85
 culture = northern_mam
 religion = placeholderism
 hre = no
-base_tax = 1
-base_production = 2
-base_manpower = 7
+base_tax = 2
+base_production = 3
+base_manpower = 10
 trade_goods = staple_crops 
 
 capital = "Malacatan"

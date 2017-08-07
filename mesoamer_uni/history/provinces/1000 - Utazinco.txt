@@ -4,9 +4,9 @@ controller = G23
 culture = pipil
 religion = placeholderism
 hre = no
-base_tax = 1
+base_tax = 0
 base_production = 2
-base_manpower = 7
+base_manpower = 6
 trade_goods = staple_crops 
 
 capital = "Utazinco"
