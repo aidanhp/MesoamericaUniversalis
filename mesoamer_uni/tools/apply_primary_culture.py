@@ -1,6 +1,6 @@
 import os
 import shutil
-#This script automatically sets the primary culture of all countries as the culture in their capital province_file
+#This script automatically sets the primary culture of all countries to the culture of their capital in the province files
 #Written by ishky on the MU team
 provinces_base_path = "history/provinces/"
 countries_base_path = "history/countries/"

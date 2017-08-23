@@ -5,7 +5,7 @@
 #TRADE GOODS: MU
 #staple_crops (ex, Beans, Maize, Chiles, Squash, Chia)
 #aquatic_foods (ex, Fish, Water Insects, Shrimp)
-#fruits (ex, Avacado, Nopal/Prickly Pear) 
+#fruits (ex, Avacado, Nopal/Prickly Pear, Papaya) 
 #cacao 
 #honey 
 #salt 
