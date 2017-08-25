@@ -1,16 +1,17 @@
 government = despotic_monarchy 
 government_rank = 1
 mercantilism = 0.25
-technology_group = central_mexican
+technology_group = central_mexican_tg
 religion = placeholderism
-primary_culture = placeholdertec
+primary_culture = xochimilca
 capital = 33
 fixed_capital = 33
 
 1427.1.1 = {
 	monarch = {
-		name = "Random First Name"
+		name = "Quequecholtzin"
 		dynasty = "Xochimilco"
+		birth_date = 1400.1.1
 		adm = 4
 		dip = 4
 		mil = 4

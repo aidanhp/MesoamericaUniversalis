@@ -29,6 +29,9 @@ NDiplomacy = {
 	TRADE_LEAGUE_MIN_PRESTIGE_NEW_LEADER = 20,		-- Minimum required prestige to become the new leader of a Trade League when the old one is resigned.
 	TRADE_LEAGUE_BREAK_OPINION = -50,				-- AI will leave a Trade League if their opinion of you falls below this value.
 
+	PRESS_SAILORS_FRACTION = 0.2,
+	
+	
 	TREASURE_FLEET_OPINION_HIT = -25,				-- Opinion hit from pirating trasure flet max (scaled by gold pirated / 50).
 	DISHONORABLE_PEACE_MONTHS = 12,					-- See DISHONORABLE_PEACE_WARSCORE. Set to 0 to entirely disable the feature.
 	DISHONORABLE_PEACE_WARSCORE = -10,				-- If you have more than this amount of individual warscore, peacing out within DISHONORABLE_PEACE_MONTHS of war start counts as a dishonorable act and incurs a CALL_ALLY_DECLINE_PRESTIGE_PENALTY hit.
@@ -60,8 +63,10 @@ NDiplomacy = {
 	ALLOW_LEADER_DEMAND_TOGGLE = 0,					-- Whether or not player is allowed to set if warleader can negotiate for them
 	VASSALIZE_BASE_DEVELOPMENT_CAP = 100, 			-- Countries with more total development than this cannot be vassalized
 	
-	RESTRICT_MARCH_SIZE = 0,						-- Are marches size restricted
 	MARCH_BASE_DEVELOPMENT_CAP = 200, 				-- Countries with more total development than this cannot be made into a march
+	
+	MARCH_DEVELOPMENT_FRACTION = 0.25,
+	
 	
 	PEACE_IMPACT_ADM_SCORE = 0.25,
 	PEACE_IMPACT_DIP_SCORE = 0.25,
@@ -146,6 +151,7 @@ NDiplomacy = {
 	SUPPORT_REBELS_MONEY_FACTOR = 0.5,
 	FABRICATE_CLAIM_COST = 20,
 	FABRICATE_CLAIM_COST_MODIFIER_PER_CLAIM = 0.25, 
+	CLAIM_STATE_MODIFIER = 0.5,
 	JUSTIFY_TRADE_CONFLICT_COST = 10,
 	INFILTRATE_ADMINISTRATION_COST = 40,
 	SABOTAGE_REPUTATION_COST = 60,
@@ -375,6 +381,8 @@ NDiplomacy = {
 },
 
 NCountry = {
+	SIBERIAN_FRONTIER_DAILY_BASE = 5,		-- monthly..
+	SIBERIAN_FRONTIER_DAILY_RANGE = 11,
 	CONTRIBUTE_TO_CAPITAL_MIN_DEV_RATIO = 0.5,		-- Overlord's development times this value must be smaller than Subject's development.
 	FORCE_SEPPUKU_POWER_MULTIPLIER = 5,				-- Times victim's stats
 	SHOGUN_INTERACTIONS_DURATION = 10,				-- Years
@@ -414,7 +422,7 @@ NCountry = {
 	STATE_MAINTENANCE_CONTINENT_FACTOR = 0.25,	-- different continet
 	STATE_MAINTENANCE_CULTURE_FACTOR = 0.25,		-- non accepted culture
 	
-	ALLOW_ZERO_BASE_VALUES = 0,						-- Affects base tax, base manpower, and base production
+	ALLOW_ZERO_BASE_VALUES = 1,						-- Affects base tax, base manpower, and base production
 	ALLOW_ESTATE_AND_PARLIAMENT_SEAT_IN_PROVINCE = 0, -- Whether or not a province can have both an estate and a parliament seat
 	ALLOW_ESTATE_IN_CAPITAL = 0,					 -- Whether or not the capital can be assigned to an estate
 	
@@ -595,6 +603,7 @@ NCountry = {
 	PS_REMOVE_ACCEPTED_CULTURE_UNREST_DURATION = 5,
 	PS_STRENGTHEN_GOVERNMENT = 100,
 	PS_BOOST_MILITARIZATION = 50,
+	PS_ESTABLISH_SIBERIAN_FRONTIER = 20,
 	
 	
 	STRENGTHEN_GOVERNMENT_LEGITIMACY = 10,
@@ -699,7 +708,7 @@ NCountry = {
 	MIGRATION_DEPLETION_TIME = 7200,				-- How many days a province needs to recover from migrants
 	BASE_TARIFF = 0.10,								-- Basic part of colonies income that goes to tariffs
 	TARIFF_INCREASE_STEP = 0.05,					-- Increase on each boost
-	TARIFF_LIBERTY_INCREASE = 0.5,					-- Liberty increase for each % tariffs
+	TARIFF_LIBERTY_INCREASE = 1.0,					-- Liberty increase for each % tariffs
 	TARIFF_DECREASE_STEP = -0.05,					-- Decrease on each boost
 	HIGH_LIBERTY_DESIRE = 50, 						-- Limit for when a subject starts getting rebellious from liberty desire (also used for alert)
 	MONTHLY_LIBERTY_DECREASE = 0.1,					-- How much temporary liberty desire changes each month (towards 0 point)
@@ -892,6 +901,8 @@ NEconomy = {
 },
 
 NMilitary = {
+	COSSACKS_SHOCK_DAMAGE_BONUS = 0.1,
+	STRELTSY_FIRE_DAMAGE_BONUS = 0.1,
 	MAX_SAILOR_LACK_ATTRITION = 1,
 	SAILOR_MAINTAINANCE = 0.02,		-- of build cost.
 	BANNER_DISCIPLINE_BONUS = 0.1,
@@ -956,7 +967,7 @@ NMilitary = {
 	INFANTRY_COST = 10.0, 							-- _MDEF_INFANTRY_COST = 10,		
 	CAVALRY_COST = 25.0, 							-- _MDEF_CAVALRY_COST = 10,		
 	ARTILLERY_COST = 30.0, 							-- _MDEF_ARTILLERY_COST = 10,		
-	FORTRESS_COST = 0.5,							-- base fort cost
+	FORTRESS_COST = 0.0,							-- base fort cost
 	HEAVY_SHIP_COST = 50, 							-- _MDEF_HEAVY_SHIP_COST = 10,		
 	LIGHT_SHIP_COST = 20, 							-- _MDEF_LIGHT_SHIP_COST = 10,	
 	GALLEY_COST = 10, 								-- _MDEF_GALLEY_COST = 10,		
@@ -973,8 +984,8 @@ NMilitary = {
 	EXTRA_LAND_REINFORCE_COST = 2.00,				-- extra cost for reinforcing land units (as a multiplier of maintenance).
 	MERCENARY_REINFORCE_COST_MULTIPLIER = 1.0,			-- +100% extra cost for mercenaries being reinforced.
 	MERCENARY_BASE_COST = 10.0,					-- base cost added for a mercenary regiment
-	TRADITION_GAIN_LAND = 10,						-- Tradition gain base value from land combat.
-	TRADITION_GAIN_NAVAL = 20,						-- Tradition gain base value from naval combat.
+	TRADITION_GAIN_LAND = 20,						-- Tradition gain base value from land combat.
+	TRADITION_GAIN_NAVAL = 40,						-- Tradition gain base value from naval combat.
 	CONDOTTIERI_TRADITION_BONUS = 0.5,				-- This modifies army tradition gained from fighting with condottieris
 	-- MercSupportLimit = ( MERCENARY_SUPPORT_LIMIT_BASE + MERCENARY_SUPPORT_LIMIT_FRACTION * ArmySupportLimit ) * possible_mercenaries_modifier
 	MERCENARY_SUPPORT_LIMIT_BASE = 20,				-- Base (and thus minimum) value for mercenary support limit.
@@ -1111,7 +1122,7 @@ NAI = {
 	MIN_INCOME_FOR_SUBSIDIES = 20, -- Minimum monthly income for AI to want to spend some on subsidies
 	PS_SHORT_TERM_POOL = 100, -- Max power AI will store in its short-term spending pool
 	AGGRESSIVENESS = 300, -- Base chance (out of 10000) of AI being willing to start a war each diplomatic tick (~1.5 times a month)
-	AGGRESSIVENESS_BONUS_EASY_WAR = 500, -- Added to aggressiveness if the war is against a weak or particularily hated enemy
+	AGGRESSIVENESS_BONUS_EASY_WAR = 400, -- Added to aggressiveness if the war is against a weak or particularily hated enemy
 	MISSION_PICK_CHANCE = 33, -- Monthly chance of AI picking a mission if it lacks one (of 100)
 	TRADE_INTEREST_THRESHOLD = 3, -- Number of merchants required to be a nation with trade interest
 	DEFICIT_SPENDING_MIN_MONTHS = 6, -- AI must have at least this many monthly deficits of savings to be willing to deficit spend
@@ -1389,6 +1400,10 @@ NAI = {
 	DIPLOMATIC_ACTION_COUNTER_ESPIONAGE_ENEMY_FACTOR = 25, --AI scoring for counter espionage against an active enemy (someone we're at war with, antagonize or otherwise rival).
 	DIPLOMATIC_ACTION_TRIBUTARY_ACCEPTANCE_PER_DEVELOPMENT = -0.5,	-- AI scoring for accepting becoming a tributary state per raw development
 	DIPLOMATIC_ACTION_TRIBUTARY_EMPIRE_FACTOR = 10,			-- AI scoring for establishing Tributary States is increased by this if actor is Celestial Emperor or has horde government with rank Empire.
+	ALLIANCE_DESIRE_TOO_MANY_RELATIONS = -20,				-- AI desire/acceptance for alliance when it has or will get too many relations. Multiplies with number of relations above limit.
+	SUPPORT_INDEPENDENCE_DESIRE_TOO_MANY_RELATIONS = -20,	-- AI desire/acceptance for supporting independence when it has or will get too many relations. Multiplies with number of relations above limit.
+	MARRIAGE_DESIRE_TOO_MANY_RELATIONS = -50,				-- AI desire/acceptance for royal marriange when it has or will get too many relations. Multiplies with number of relations above limit.
+	GUARANTEE_DESIRE_TOO_MANY_RELATIONS = -50,				-- AI desire for guaranteeing when it has or will get too many relations. Multiplies with number of relations above limit.
 
 	INVADING_BRAVERY = 1.0									-- If (defender strength) / (invader strength) > INVADING_BRAVERY, the AI won't attempt a naval invasion
 },
@@ -1652,6 +1667,11 @@ NFrontend = {
 },
 
 NReligion = {
+	CONSECRATE_PATRIACH_AUTHORITY_BOOST = 0.05, --5% or so
+	CONSECRATE_PATRIARCH_THRESHOLD = 30, --in development
+	ORTHODOX_ICON_DURATION_MONTHS = 240,
+	ORTHODOX_ICON_AUTHORITY_COST = 0.1,
+
 	MAYA_COLLAPSE_PROVINCES = 10,	-- Maya collapses to this size on reform
 	MAYA_COLLAPSE_PROVINCES_PER_REFORM = 2,					-- Maya keeps this many extra provinces per reform
 	YEARLY_DOOM_INCREASE = 1,								-- Multiplied by number of provinces
@@ -1672,6 +1692,7 @@ NReligion = {
 	MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE = 150.0,				-- When spreading the religion to other provinces the distance wont exceed this number
 	MONTHLY_CONVERSION_SPEED = 5.0,								-- How many percent the conversions of centers of reformation will tick each month.
 	CONVERSION_ZEAL_DURATION = 10950,							-- Amount of days in which you cannot convert the province back.
+	KARMA_FOR_CONVERSION = 0.1,
 	MIN_CARDINALS = 7,											-- Least amount of cardinals/ Starting cardinals
 	MAX_CARDINALS = 49,											-- Max amount of cardinals
 	MAX_CARDINALS_PER_COUNTRY = 7,								-- Max cardinals in a single country
@@ -1696,10 +1717,10 @@ NReligion = {
 	KARMA_FOR_HONORING_CTA = 25,
 	KARMA_PER_RELEASED_PROVINCE = 1,
 	KARMA_PER_TAKEN_PROVINCE = -1,
-	KARMA_TOO_HIGH = 50,
-	KARMA_TOO_LOW = -50,
-	KARMA_JUST_RIGHT_HIGH = 25,
-	KARMA_JUST_RIGHT_LOW = -25,
+	KARMA_TOO_HIGH = 33,
+	KARMA_TOO_LOW = -33,
+	KARMA_JUST_RIGHT_HIGH = 33,
+	KARMA_JUST_RIGHT_LOW = -33,
 	KARMA_RESTORE_ON_RULER_DEATH = 25,
 
 	CHANGE_SECONDARY_PRESTIGE_HIT = -50,
@@ -1715,7 +1736,7 @@ NReligion = {
 
 NNationDesigner = {
 
-	POINTS_AVAILABLE = 10000,
+	POINTS_AVAILABLE = 200,
 	RULER_BASE_AGE = 30,					-- Creating a ruler with this age is free.
 	RULER_MIN_AGE = 20,						--
 	RULER_MAX_AGE = 40,
@@ -1761,10 +1782,22 @@ NNationDesigner = {
 	GOVERNMENT_RANK_COST_1 = -10,
 	GOVERNMENT_RANK_COST_2 = 0,
 	GOVERNMENT_RANK_COST_3 = 30,
+
+	MANDATE_SUBCONTINENT_NAME = "china_superregion", -- Name of the subcontinent where the Mandate will be given to the biggest nation by development when using random generated nations
 },
 
 NGovernment = {
 	SELECT_HEIR_FROM_HAREM_AT_MONARCH_AGE = 30, -- The age in years when an heir is selected if the government "has_harem" flag is set.
+	RUSSIAN_ABILITY_COST = 100,
+	RUSSIAN_ABILITY_POOL_SIZE = 150,
+	RUSSIAN_ABILITY_BASE_GAIN = 3,
+	RUSSIAN_ABILITY_SUBEDNIK_MIN_AUTONOMY = 10,
+	RUSSIAN_ABILITY_SUBEDNIK_AUTONOMY_CHANGE = -10,
+	RUSSIAN_ABILITY_OPRICHNINA_THRESHOLD = 0.3,
+	RUSSIAN_ABILITY_OPRICHNINA_AI_THRESHOLD = 0.85, -- AI will use ability when revolt risk is 90%, or when they have full power
+	RUSSIAN_ABILITY_OPRICHNINA_CHANGE = -0.3,
+	RUSSIAN_ABILITY_STRELTSY_WE_CHANGE = -2,
+	RUSSIAN_ABILITY_STRELTSY_SPAWN_SIZE = 0.2,
 },
 
 }

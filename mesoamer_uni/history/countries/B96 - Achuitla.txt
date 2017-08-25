@@ -1,9 +1,9 @@
 government = despotic_monarchy 
 government_rank = 1
 mercantilism = 0.25
-technology_group = central_mexican
+technology_group = huaxyacac_tg
 religion = placeholderism
-primary_culture = placeholdertec
+primary_culture = mixtec
 capital = 874
 fixed_capital = 874
 

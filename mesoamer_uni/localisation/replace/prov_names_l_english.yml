@@ -30,7 +30,7 @@
  PROV29:0 "Itztapollocan"
  PROV30:0 "Chalco"
  PROV31:0 "Mizquic"
- PROV32:0 "Cuitlahuac"
+ PROV32:0 "Tlahuac"
  PROV33:0 "Xochimilco"
  PROV34:0 "Huitzilopocho"
  PROV35:0 "Coyohuacan"
@@ -1775,7 +1775,7 @@
  PROV1773:0 "Naranjal"
  PROV1774:0 "Pocoiltun"
  PROV1775:0 "Carmen"
- PROV1776:1 "Xicalango"
+ PROV1776:1 "Xicallanco"
  PROV1777:0 "Palizada"
  PROV1778:0 "Chinol"
  PROV1779:0 "Potonchan"
@@ -2336,3 +2336,4 @@
  PROV2334:0 "Mountain Pass"
  PROV2335:0 "Mountain Pass" #Ecatepec?
  PROV2336:0 "Nezahualcoyotl's Dike"
+ PROV2337:0 ""

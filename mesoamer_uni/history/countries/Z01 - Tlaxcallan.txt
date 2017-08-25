@@ -1,0 +1,19 @@
+government = despotic_monarchy 
+government_rank = 2
+mercantilism = 0.25
+technology_group = tlaxcallan_tg
+religion = placeholderism
+primary_culture = tlaxcallan
+capital = 754
+fixed_capital = 754
+
+1426.1.1 = {
+	monarch = {
+		name = "Aztahua Tlacaztalli"
+		dynasty = "Tizatlan"
+		birth_date = 1405.1.1
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

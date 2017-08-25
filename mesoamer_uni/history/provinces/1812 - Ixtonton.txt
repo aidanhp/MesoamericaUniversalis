@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = mopan
 religion = maya
 capital = "Ixtonton"
 trade_goods = unknown
@@ -10,8 +10,11 @@ native_size = 25
 native_ferocity = 2
 native_hostileness = 8
 
-discovered_by = triple_alliance 
-discovered_by = central_mexican 
-discovered_by = tarascan 
-discovered_by = west_mexican 
-discovered_by = maya 
+discovered_by = western_european_tg
+discovered_by = triple_alliance_tg 
+discovered_by = tlaxcallan_tg
+discovered_by = purepecha_tg
+discovered_by = central_mexican_tg 
+discovered_by = huaxyacac_tg
+discovered_by = west_mexican_tg 
+discovered_by = maya_tg 

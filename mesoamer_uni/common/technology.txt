@@ -3,10 +3,9 @@
 
 # Groups must be defined BEFORE tables.
 
-
 groups = {
 	#New Tech Groups
-	western_european = {
+	western_european_tg = {
 		start_level = 0
 		start_cost_modifier = 0
 		nation_designer_cost = {
@@ -23,7 +22,8 @@ groups = {
 			value = 75
 		}
 	}
-	triple_alliance = {
+	
+	triple_alliance_tg = {
 		start_level = 0
 		start_cost_modifier = 0
 		nation_designer_cost = {
@@ -40,7 +40,26 @@ groups = {
 			value = 75
 		}
 	}
-	central_mexican = {
+	
+	tlaxcallan_tg = {
+		start_level = 0
+		start_cost_modifier = 0
+		nation_designer_cost = {
+			trigger = {
+				capital_scope = {
+					OR = {
+						continent = new_world
+						continent = north_america
+						continent = south_america
+						continent = oceania
+					}
+				}
+			}
+			value = 75
+		}
+	}
+	
+	purepecha_tg = {
 		start_cost_modifier = 0
 		start_level = 0
 		nation_designer_cost = {
@@ -57,7 +76,8 @@ groups = {
 			value = 75
 		}
 	}
-	tarascan = {
+	
+	central_mexican_tg = {
 		start_cost_modifier = 0
 		start_level = 0
 		nation_designer_cost = {
@@ -74,7 +94,8 @@ groups = {
 			value = 75
 		}
 	}
-	west_mexican = {
+	
+	huaxyacac_tg = {
 		start_cost_modifier = 0
 		start_level = 0
 		nation_designer_cost = {
@@ -91,7 +112,8 @@ groups = {
 			value = 75
 		}
 	}
-	maya = {
+	
+	west_mexican_tg = {
 		start_cost_modifier = 0
 		start_level = 0
 		nation_designer_cost = {
@@ -108,7 +130,8 @@ groups = {
 			value = 75
 		}
 	}
-	semi_nomadic_tribe = {
+	
+	maya_tg = {
 		start_cost_modifier = 0
 		start_level = 0
 		nation_designer_cost = {

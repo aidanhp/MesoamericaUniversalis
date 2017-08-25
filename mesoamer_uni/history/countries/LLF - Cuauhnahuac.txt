@@ -1,16 +1,17 @@
 government = despotic_monarchy 
-government_rank = 1
+government_rank = 2
 mercantilism = 0.25
-technology_group = central_mexican
+technology_group = central_mexican_tg
 religion = placeholderism
-primary_culture = placeholdertec
+primary_culture = central_nahua
 capital = 293
 fixed_capital = 293
 
-1427.1.1 = {
+1420.1.1 = {
 	monarch = {
-		name = "Random First Name"
+		name = "Cuauhtototzin"
 		dynasty = "Cuauhnahuac"
+		birth_date = 1395.1.1
 		adm = 4
 		dip = 4
 		mil = 4

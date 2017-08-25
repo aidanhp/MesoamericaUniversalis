@@ -7,17 +7,14 @@ bookmark =
 	center = 1
 	default = yes
 
-	country = AAA
-	country = ACC
-	country = AAD
-	#country = AAE #Azcapotzalco
-	country = BBD
-	country = A75
-	country = A76
-	country = A77
-	country = A78
-	country = A95
-	country = LLF
+	country = AAA #Tenochtitlan
+	country = ACC #Texcoco
+	country = AAD #Tlacopan
+	country = AAE #Azcapotzalco
+	country = BBD #Chalco
+	country = Z01 #Tlaxcallan
+	country = A95 #Huexotzinco
+	country = LLF #Cuauhnahuac
 
 	easy_country = AAA
 }

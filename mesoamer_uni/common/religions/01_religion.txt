@@ -27,14 +27,14 @@ placeholder_group = {
 }
 
 
-mexican_group = {
+mesoamerican_group = {
 	defender_of_faith = no
 	can_form_personal_unions = no
 	#center_of_religion = 1 
 	flags_with_emblem_percentage = 33 # default == 0
 	flag_emblem_index_range = { 1 57 }
 
-	newnahuatl = {
+	religion_nahuatl = {
 		color = { 0.30 0.80 0.30 }
 		icon = 17
 		country = {
@@ -53,7 +53,7 @@ mexican_group = {
 		has_patriarchs = yes	
 	}
 
-	tarascan = {
+	religion_purepecha = {
 		color = { 0.70 0.40 0.30 }
 		icon = 11
 		country = {
@@ -75,7 +75,7 @@ mexican_group = {
 	}
 
 	
-	zapotec = {
+	religion_zapotec = {
 		color = { 0.20 0.40 0.80 }
 		icon = 14
 		country = {
@@ -94,7 +94,7 @@ mexican_group = {
 		personal_deity = yes
 	}
 
-	mixtec = {
+	religion_mixtec = {
 		color = { 0.20 0.90 0.40 }
 		icon = 9
 		country = {
@@ -113,7 +113,7 @@ mexican_group = {
 		personal_deity = yes
 	}
 
-	maya = {
+	religion_maya = {
 		color = { 0.30 0.80 0.80 }
 		icon = 19
 		country = {

@@ -1,17 +1,25 @@
 add_core = A84
-add_core = A77
-owner = A77
-controller = A77
-culture = placeholdertec
+add_core = Z01
+owner = Z01
+controller = Z01
+culture = tlaxcallan
 religion = placeholderism
 hre = no
 base_tax = 1
 base_production = 3
-trade_goods = grain 
 base_manpower = 9
+trade_goods = staple_crops 
+
 capital = "Atlancatepec"
 is_city = yes
 fort_15th = yes
 
-discovered_by = central_mexican
-discovered_by = triple_alliance
+discovered_by = central_mexican_tg
+discovered_by = western_european_tg
+discovered_by = triple_alliance_tg 
+discovered_by = tlaxcallan_tg
+discovered_by = purepecha_tg
+discovered_by = central_mexican_tg 
+discovered_by = huaxyacac_tg
+discovered_by = west_mexican_tg 
+discovered_by = maya_tg

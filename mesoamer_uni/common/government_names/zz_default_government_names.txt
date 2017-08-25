@@ -3,19 +3,19 @@
 
 default_monarchy = {
 	rank = {
-		1 = DUCHY
+		1 = LORDSHIP
 		2 = KINGDOM
 		3 = EMPIRE
 	}	
 	
 	ruler_male = {
-		1 = DUKE
+		1 = LORD
 		2 = KING
 		3 = EMPEROR
 	}
 	
 	ruler_female = {
-		1 = DUCHESS
+		1 = LADY
 		2 = QUEEN	
 		3 = EMPRESS
 	}
@@ -33,15 +33,15 @@ default_monarchy = {
 	}
 	
 	heir_male = {
-		1 = HEIR
-		2 = HEIR
-		3 = HEIR
+		1 = PRINCE
+		2 = PRINCE
+		3 = PRINCE
 	}
 	
 	heir_female = {
-		1 = HEIR
-		2 = HEIR	
-		3 = HEIR
+		1 = PRINCESS
+		2 = PRINCESS
+		3 = PRINCESS
 	}
 	
 	trigger = {
@@ -52,20 +52,20 @@ default_monarchy = {
 default_republic = {
 	rank = {
 		1 = REPUBLIC
-		2 = GRAND_REPUBLIC
-		3 = GREAT_REPUBLIC
+		2 = REPUBLIC
+		3 = REPUBLIC
 	}
 	
 	ruler_male = {
-		1 = CONSUL
-		2 = GRAND_CONSUL
-		3 = GREAT_CONSUL
+		1 = LEADING_SPEAKER
+		2 = LEADING_SPEAKER
+		3 = LEADING_SPEAKER
 	}
 	
 	ruler_female = {
-		1 = CONSULESS
-		2 = GRAND_CONSULESS
-		3 = GREAT_CONSULESS
+		1 = LEADING_SPEAKER
+		2 = LEADING_SPEAKER
+		3 = LEADING_SPEAKER
 	}
 	
 	trigger = {
@@ -75,21 +75,21 @@ default_republic = {
 
 default_theocracy = {
 	rank = {
-		1 = BISHOPRIC
-		2 = ARCHBISHOPRIC
-		3 = PATRIARCHATE
+		1 = DIVINE_LORDSHIP
+		2 = DIVINE_KINGDOM
+		3 = DIVINE_EMPIRE
 	}
 	
 	ruler_male = {
-		1 = BISHOP
-		2 = ARCHBISHOP
-		3 = PATRIARCH
+		1 = HIGH_PRIEST
+		2 = GOD_KING
+		3 = GOD_EMPEROR
 	}
 	
 	ruler_female = {
-		1 = BISHOP_fem
-		2 = ARCHBISHOP_fem
-		3 = MATRIARCH
+		1 = HIGH_PRIESTESS
+		2 = GOD_QUEEN
+		3 = GOD_EMPRESS
 	}
 	
 	trigger = {

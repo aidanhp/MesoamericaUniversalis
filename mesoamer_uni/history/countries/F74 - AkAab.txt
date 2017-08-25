@@ -1,16 +1,17 @@
 government = despotic_monarchy 
 government_rank = 1
 mercantilism = 0.25
-technology_group = central_mexican 
+technology_group = maya_tg 
 religion = placeholderism
-primary_culture = placeholdertec
+primary_culture = sacapul
 capital = 951
 fixed_capital = 951
 
-1427.1.1 = {
+1408.1.1 = {
 	monarch = {
-		name = "Random First Name"
-		dynasty = "Ak'aab"
+		name = "Tecum Sic'om"
+		dynasty = "C'oja"
+		birth_date = 1390.1.1
 		adm = 4
 		dip = 4
 		mil = 4

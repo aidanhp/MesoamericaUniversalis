@@ -1,9 +1,9 @@
 government = despotic_monarchy 
 government_rank = 1
 mercantilism = 0.25
-technology_group = central_mexican
+technology_group = central_mexican_tg
 religion = placeholderism
-primary_culture = placeholdertec
+primary_culture = central_nahua
 capital = 2076
 fixed_capital = 2076
 

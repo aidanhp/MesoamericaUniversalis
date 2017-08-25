@@ -1,16 +1,17 @@
 government = despotic_monarchy 
 government_rank = 1
 mercantilism = 0.25
-technology_group = central_mexican
+technology_group = central_mexican_tg
 religion = placeholderism
-primary_culture = placeholdertec
+primary_culture = acolhua
 capital = 17
 fixed_capital = 17
 
-1427.1.1 = {
+1418.1.1 = {
 	monarch = {
-		name = "Random First Name"
+		name = "Totomochtzin"
 		dynasty = "Teotihuacan"
+		birth_date = 1390.1.1
 		adm = 4
 		dip = 4
 		mil = 4

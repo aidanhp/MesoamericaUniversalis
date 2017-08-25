@@ -1,0 +1,80 @@
+#Triple Alliance
+alliance = {
+	first = AAA
+	second = ACC
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+alliance = {
+	first = AAA
+	second = AAD
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+alliance = {
+	first = ACC
+	second = AAD
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+royal_marriage = {
+	first = AAA
+	second = ACC 
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+royal_marriage = {
+	first = AAA
+	second = AAD
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+royal_marriage = {
+	first = ACC
+	second = AAD
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+#Mexica
+alliance = {
+	first = AAA
+	second = AAB
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+royal_marriage = {
+	first = AAA
+	second = AAB
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+#Tlacopan Vassals 
+vassal = {
+	first = AAD
+	second = AAE
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+#Tlahuaca Vassals
+vassal = {
+	first = BBF
+	second = N49
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = BBF
+	second = N50
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}

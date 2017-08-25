@@ -3,6 +3,10 @@ REB = "countries/Rebels.txt"
 PIR = "countries/Pirates.txt"
 NAT = "countries/Natives.txt"
 
+#IMPORTANT NOTE
+#the following letters can not be used for the 
+#A01, A02, A03... etc format:
+# K, C, D, E, T
 AAA = "countries/Tenochtitlan.txt"
 AAB = "countries/Tlatelolco.txt"
 ACC = "countries/Texcoco.txt"
@@ -1673,3 +1677,6 @@ P03 = "countries/Caguamo.txt"
 P04 = "countries/Maisei.txt"
 P05 = "countries/Sabano.txt"
 P06 = "countries/Tliliuhquitepec.txt"
+
+#Special Countries - Formables/Invaders/Crazy Mechanics
+Z01 = "countries/Tlaxcallan.txt"

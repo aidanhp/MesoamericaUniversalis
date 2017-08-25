@@ -1,5 +1,11 @@
 # country
 on_startup = {
+	every_country = {
+		limit = {
+			ai = no
+		}
+		#country_event = { id = init_test.01 }
+	}
 }
 
 # country

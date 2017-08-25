@@ -1,0 +1,19 @@
+add_core = G44
+owner = G44
+controller = G44
+culture = pipil
+religion = placeholderism
+hre = no
+base_tax = 0
+base_production = 3
+trade_goods = staple_crops 
+base_manpower = 9
+capital = "Atiquizapa"
+is_city = yes
+fort_15th = yes
+
+discovered_by = triple_alliance_tg 
+discovered_by = central_mexican_tg 
+discovered_by = purepecha_tg 
+discovered_by = west_mexican_tg 
+discovered_by = maya_tg 
