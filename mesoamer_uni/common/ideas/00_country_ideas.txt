@@ -70,11 +70,8 @@ westmexican_ideas = {
 	
 	trigger = {
 		OR = { 
-			culture_group = west_central_mexican 
-			primary_culture = cuyutec
-			primary_culture = caxcan
-			primary_culture = tepecano
-			primary_culture = guachichil
+			culture_group = west_mexican 
+			culture_group = northwest_mexican 
 		}
 	}
 	free = yes
@@ -169,11 +166,7 @@ huaxyacac_ideas = {
 	}
 	
 	trigger = {
-		OR = { 
-			primary_culture = newzapotec
-			primary_culture = newmixtec
-			primary_culture = chatino
-		}
+		culture_group = huaxyacac
 	}
 	free = yes
 	
@@ -221,10 +214,9 @@ lowland_maya_ideas = {
 	
 	trigger = {
 		OR = {
-			primary_culture = yucatecmayan
-			primary_culture = itzamayan
-			primary_culture = qeqchimayan
-			primary_culture = cholmayan
+			primary_culture = yucatec
+			primary_culture = peten_itza
+			primary_culture = kowoj
 		}
 	}
 	free = yes
@@ -272,11 +264,20 @@ highland_maya_ideas = {
 	
 	trigger = {
 		OR = {
-			primary_culture = kichemayan 
-			primary_culture = kaqchikelmayan 
-			primary_culture = tzutujilmayan 
-			primary_culture = mammayan 
-			primary_culture = pokomammayan  
+			primary_culture = kiche 
+			primary_culture = tzutujil 
+			primary_culture = kaqchikel 
+			primary_culture = chajoma 
+			primary_culture = pokomam  
+			primary_culture = rabinal 
+			primary_culture = sacapul 
+			primary_culture = qayol 
+			primary_culture = ixil 
+			primary_culture = uspantec  
+			primary_culture = southern_mam 
+			primary_culture = northern_mam 
+			primary_culture = western_kiche 
+			primary_culture = qeqchi 
 		}
 	}
 	free = yes

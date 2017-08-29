@@ -64,7 +64,7 @@ guiTypes = {
 			iconType = {
 				name ="bg_load_screen"
 				spriteType = "GFX_loadingtip_bg"
-				position = { x= -350 y = -300 }
+				position = { x= -450 y = -300 }
 			}		
 
 			instantTextBoxType = {
