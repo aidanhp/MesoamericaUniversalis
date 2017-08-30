@@ -1,7 +1,6 @@
 add_core = M47
-add_core = L57
-owner = L57
-controller = L57
+owner = M47
+controller = M47
 culture = mazatec
 religion = placeholderism
 hre = no

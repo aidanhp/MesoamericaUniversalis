@@ -1,0 +1,17 @@
+government = despotic_monarchy 
+government_rank = 1
+mercantilism = 0.25
+technology_group = central_mexican_tg
+religion = placeholderism
+primary_culture = otomi
+capital = 2166
+
+1427.1.1 = {
+	monarch = {
+		name = "Random First Name"
+		dynasty = "Nopala"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

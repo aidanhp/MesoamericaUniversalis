@@ -1,6 +1,7 @@
 add_core = N14
-owner = N14
-controller = N14
+add_core = B92
+owner = B92
+controller = B92
 culture = mixtec
 religion = placeholderism
 hre = no

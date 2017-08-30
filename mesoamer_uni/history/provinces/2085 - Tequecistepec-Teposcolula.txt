@@ -1,6 +1,7 @@
 add_core = N09
-owner = N09
-controller = N09
+add_core = YYB
+owner = YYB
+controller = YYB
 culture = chocho
 religion = placeholderism
 hre = no

@@ -1,6 +1,7 @@
 add_core = XXZ
-owner = XXZ
-controller = XXZ
+add_core = YYB
+owner = YYB
+controller = YYB
 culture = chocho
 religion = placeholderism
 hre = no
