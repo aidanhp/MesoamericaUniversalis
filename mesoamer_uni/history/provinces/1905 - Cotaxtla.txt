@@ -1,17 +1,14 @@
-add_core = L63
-owner = L63
-controller = L63
-culture = eastern_nahua
+culture = placeholdertec
 religion = placeholderism
+capital = "Brussels"
+trade_goods = unknown
 hre = no
-base_tax = 4
-base_production = 8
-base_manpower = 28
-trade_goods = staple_crops 
-
-capital = "Cotaxtla"
-is_city = yes
-fort_15th = yes
+base_tax = 1
+base_production = 1
+base_manpower = 5
+native_size = 25
+native_ferocity = 2
+native_hostileness = 8
 
 discovered_by = western_european_tg
 discovered_by = triple_alliance_tg 

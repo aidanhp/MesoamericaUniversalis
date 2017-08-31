@@ -1,17 +1,14 @@
-add_core = JJM
-owner = JJM
-controller = JJM
 culture = placeholdertec
 religion = placeholderism
+capital = "Brussels"
+trade_goods = unknown
 hre = no
 base_tax = 1
-base_production = 2
-base_manpower = 7
-trade_goods = staple_crops 
-
-capital = "Atlapulco"
-is_city = yes
-fort_15th = yes
+base_production = 1
+base_manpower = 5
+native_size = 25
+native_ferocity = 2
+native_hostileness = 8
 
 discovered_by = western_european_tg
 discovered_by = triple_alliance_tg 
@@ -20,4 +17,4 @@ discovered_by = purepecha_tg
 discovered_by = central_mexican_tg 
 discovered_by = huaxyacac_tg
 discovered_by = west_mexican_tg 
-discovered_by = maya_tg
+discovered_by = maya_tg 
