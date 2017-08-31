@@ -9,87 +9,87 @@ staple_crops = {
 }
 
 aquatic_foods = {
-	base_price = 1
+	base_price = 2.5
 }
 
 fruits = {
-	base_price = 1
+	base_price = 2.5 
 }
 
 cacao = {
-	base_price = 1
+	base_price = 3
 }
 
 honey = {
-	base_price = 1
+	base_price = 2.5 
 }
 
 salt = {
-	base_price = 1
+	base_price = 2.5
 }
 
 maguey = {
-	base_price = 1
+	base_price = 2
 }
 
 cotton = {
-	base_price = 1
+	base_price = 3
 }
 
 plumes = {
-	base_price = 1
+	base_price = 3
 }
 
 copal = {
-	base_price = 1
+	base_price = 3
 }
 
 copper = {
-	base_price = 1
+	base_price = 3
 }
 
 gold = {
-	base_price = 1
+	base_price = 3.5
 }
 
 silver = {
-	base_price = 1 
+	base_price = 2.5  
 }
 
 obsidian = {
-	base_price = 1
+	base_price = 3
 }
 
 precious_stones = {
-	base_price = 1
+	base_price = 3.5 
 }
 
 lime = {
-	base_price = 1
+	base_price = 2.5
 }
 
 wood = {
-	base_price = 1
+	base_price = 2.5
 }
 
 rubber = {
-	base_price = 1
+	base_price = 3
 }
 
 slaves = {
-	base_price = 1
+	base_price = 3
 }
 
 ceramics = {
-	base_price = 1
+	base_price = 3
 }
 
 balsas_metals = {
-	base_price = 1
+	base_price = 4
 }
 
 metropolitan_goods = {
-	base_price = 1
+	base_price = 5
 }
 
 unknown = {
