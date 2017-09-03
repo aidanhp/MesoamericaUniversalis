@@ -37,7 +37,7 @@ cotton = {
 }
 
 plumes = {
-	base_price = 3
+	base_price = 3.5
 }
 
 copal = {
@@ -57,7 +57,7 @@ silver = {
 }
 
 obsidian = {
-	base_price = 3
+	base_price = 3.5
 }
 
 precious_stones = {
