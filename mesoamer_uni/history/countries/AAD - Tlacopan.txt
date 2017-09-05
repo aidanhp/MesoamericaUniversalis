@@ -7,6 +7,8 @@ primary_culture = tepanec
 capital = 4
 fixed_capital = 4
 
+#HISTORICAL*
+#^If historical has an asterisk after it that means the rulers are real but dates might be guesses
 1428.1.1 = {
 	monarch = {
 		name = "Totoquihuatzin"

@@ -7,6 +7,7 @@ primary_culture = purepecha
 capital = 50
 fixed_capital = 50
 
+#HISTORICAL*
 1415.1.1 = {
 	monarch = {
 		name = "Hiquingaje"

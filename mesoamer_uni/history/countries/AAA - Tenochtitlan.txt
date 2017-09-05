@@ -7,6 +7,9 @@ primary_culture = mexica
 capital = 1	
 fixed_capital = 1
 
+#HISTORICAL 
+#^If a country has this tag, that means that the ruler data is based off of real history 
+# and we did not have to randomly assign a name to the ruler
 1428.1.1 = {
 	monarch = {
 		name = "Itzcoatl"
