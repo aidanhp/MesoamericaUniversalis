@@ -848,7 +848,7 @@ pious_personality = {
 	}
 
 	allow = {
-		government = theocracy
+		#government = theocracy
 	}
 	
 	chance = {
@@ -858,11 +858,8 @@ pious_personality = {
 		}
 	}
 	
-	different_religion_war_multiplier = 1.5
-	wants_excommunicate = yes
-	heretic_ally_acceptance = -30
-	
-	devotion = 1
+	global_missionary_strength = 0.02
+	tolerance_own = 2
 	nation_designer_cost = 5
 } #1 Less bad
 

@@ -1,6 +1,7 @@
 add_core = F03
-owner = F03
-controller = F03
+add_core = YYB
+owner = YYB
+controller = YYB
 culture = mixtec
 religion = placeholderism
 hre = no

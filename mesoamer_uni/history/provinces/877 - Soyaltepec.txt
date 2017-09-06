@@ -1,6 +1,7 @@
 add_core = B99
-owner = B99
-controller = B99
+add_core = XXW
+owner = XXW
+controller = XXW
 culture = mixtec
 religion = placeholderism
 hre = no

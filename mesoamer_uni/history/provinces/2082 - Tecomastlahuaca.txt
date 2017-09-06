@@ -1,17 +1,14 @@
-add_core = N06
-owner = N06
-controller = N06
-culture = mixtec
+culture = placeholdertec
 religion = placeholderism
+capital = "Brussels"
+trade_goods = unknown
 hre = no
 base_tax = 1
-base_production = 3
-base_manpower = 10
-trade_goods = staple_crops 
-
-capital = "Tecomastlahuaca"
-is_city = yes
-fort_15th = yes
+base_production = 1
+base_manpower = 5
+native_size = 25
+native_ferocity = 2
+native_hostileness = 8
 
 discovered_by = western_european_tg
 discovered_by = triple_alliance_tg 

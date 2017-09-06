@@ -7,10 +7,12 @@ primary_culture = cholulan
 capital = 777
 fixed_capital = 777
 
+#SEMI-HISTORICAL 
+#^This tag means something about the ruler was taken from history
 1427.1.1 = {
 	monarch = {
-		name = "Random First Name"
-		dynasty = "Cholula"
+		name = "Teotzin"
+		dynasty = "Tenanquiahuac" #Dynasty based off of leading noble family in Cholula when spanish arrived 
 		adm = 4
 		dip = 4
 		mil = 4

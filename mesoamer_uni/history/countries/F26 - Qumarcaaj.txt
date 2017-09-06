@@ -7,6 +7,7 @@ primary_culture = kiche
 capital = 903
 fixed_capital = 903
 
+#HISTORICAL*
 1425.1.1 = {
 	monarch = {
 		name = "Q'uik'ab"

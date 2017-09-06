@@ -1,15 +1,16 @@
-add_core = TTB
-owner = TTB
-controller = TTB
-culture = chocho
+add_core = P07
+add_core = IIG
+owner = IIG
+controller = IIG
+culture = otomi
 religion = placeholderism
 hre = no
-base_tax = 3
-base_production = 5
-base_manpower = 19
+base_tax = 2
+base_production = 4
+base_manpower = 14
 trade_goods = staple_crops 
 
-capital = "Tecamechalco"
+capital = "Nopala"
 is_city = yes
 fort_15th = yes
 
@@ -20,4 +21,4 @@ discovered_by = purepecha_tg
 discovered_by = central_mexican_tg 
 discovered_by = huaxyacac_tg
 discovered_by = west_mexican_tg 
-discovered_by = maya_tg
+discovered_by = maya_tg 

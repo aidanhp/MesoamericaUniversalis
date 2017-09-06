@@ -7,6 +7,7 @@ primary_culture = acolhua
 capital = 17
 fixed_capital = 17
 
+#HISTORICAL*
 1418.1.1 = {
 	monarch = {
 		name = "Totomochtzin"

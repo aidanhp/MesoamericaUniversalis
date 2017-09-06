@@ -7,6 +7,7 @@ primary_culture = purepecha
 capital = 43
 fixed_capital = 43
 
+#HISTORICAL*
 1415.1.1 = {
 	monarch = {
 		name = "Tangaxoan"

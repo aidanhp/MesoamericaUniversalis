@@ -7,10 +7,23 @@ primary_culture = putun_chontal
 capital = 1762
 fixed_capital = 1762
 
-1427.1.1 = {
+#HISTORICAL*
+1404.1.1 = {
 	monarch = {
-		name = "Random First Name"
+		name = "Paxua"
 		dynasty = "Tixchel"
+		birth_date = 1384.1.1
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1404.1.2 = {
+	heir = {
+		name = "Pachimalahix"
+		dynasty = "Tixchel"
+		birth_date = 1410.1.1
 		adm = 4
 		dip = 4
 		mil = 4

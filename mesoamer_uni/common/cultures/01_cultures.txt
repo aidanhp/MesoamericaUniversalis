@@ -1506,10 +1506,66 @@ huaxyacac = {
 	
 	amuzgo = {
 		male_names = {
-			Placeholder
+			“Cüii Quitson” “Ve Quitson” “Ndye Quitson” “Ninnque Quitson” “‘On Quitson” “Yon Quitson” “Ntyque’ Quitson” 
+			“Nen Quitson” “Njen Quitson” “Nqui Quitson” “Nqui ncho’ cüii Quitson” “Nqui ncho’ ve Quitson” “Nqui ncho’ ndye Quitson”
+			“Cüii Jndye” “Ve Jndye” “Ndye Jndye” “Ninnque Jndye” “‘On Jndye” “Yon Jndye” “Ntyque’ Jndye” “Nen Jndye” 
+			“Njen Jndye” “Nqui Jndye” “Nqui ncho’ cüii Jndye” “Nqui ncho’ ve Jndye” “Nqui ncho’ ndye Jndye”
+			“Cüii V’aa” “Ve V’aa” “Ndye V’aa” “Ninnque V’aa” “‘On V’aa” “Yon V’aa” “Ntyque’ V’aa” “Nen V’aa” “Njen V’aa” 
+			“Nqui V’aa” “Nqui ncho’ cüii V’aa” “Nqui ncho’ ve V’aa” “Nqui ncho’ ndye V’aa”
+			“Cüii Quityon” “Ve Quityon” “Ndye Quityon” “Ninnque Quityon” “‘On Quityon”“Yon Quityon” “Ntyque’ Quityon” 
+			“Nen Quityon” “Njen Quityon” “Nqui Quityon” “Nqui ncho’ cüii Quityon” “Nqui ncho’ ve Quityon” “Nqui ncho’ ndye Quityon”
+			“Cüii Quitsu” “Ve Quitsu” “Ndye Quitsu” “Ninnque Quitsu” “‘On Quitsu” “Yon Quitsu” “Ntyque’ Quitsu” “Nen Quitsu” 
+			“Njen Quitsu” “Nqui Quitsu” “Nqui ncho’ cüii Quitsu” “Nqui ncho’ ve Quitsu” “Nqui ncho’ ndye Quitsu”
+			“Cüii Tsö’xquen” “Ve Tsö’xquen” “Ndye Tsö’xquen” “Ninnque Tsö’xquen” “‘On Tsö’xquen” “Yon Tsö’xquen” 
+			“Ntyque’ Tsö’xquen” “Nen Tsö’xquen” “Njen Tsö’xquen” “Nqui Tsö’xquen” “Nqui ncho’ cüii Tsö’xquen” 
+			“Nqui ncho’ ve Tsö’xquen” “Nqui ncho’ ndye Tsö’xquen”
+			“Cüii Tyosu” “Ve Tyosu” “Ndye Tyosu” “Ninnque Tyosu” “‘On Tyosu” “Yon Tyosu” “Ntyque’ Tyosu” “Nen Tyosu” “Njen Tyosu” 
+			“Nqui Tyosu” “Nqui ncho’ cüii Tyosu” “Nqui ncho’ ve Tyosu” “Nqui ncho’ ndye Tyosu”
+			“Cüii Ndaatioo” “Ve Ndaatioo” “Ndye Ndaatioo” “Ninnque Ndaatioo” “‘On Ndaatioo” “Yon Ndaatioo” “Ntyque’ Ndaatioo” 
+			“Nen Ndaatioo” “Njen Ndaatioo” “Nqui Ndaatioo” “Nqui ncho’ cüii Ndaatioo” “Nqui ncho’ ve Ndaatioo” “Nqui ncho’ ndye Ndaatioo”
+			“Cüii Quitsue’” “Ve Quitsue’” “Ndye Quitsue’” “Ninnque Quitsue’” “‘On Quitsue’” “Yon Quitsue’” “Ntyque’ Quitsue’” 
+			“Nen Quitsue’” “Njen Quitsue’” “Nqui Quitsue’” “Nqui ncho’ cüii Quitsue’” “Nqui ncho’ ve Quitsue’” “Nqui ncho’ ndye Quitsue’” 
+			“Cüii Mumu” “Ve Mumu” “Ndye Mumu” “Ninnque Mumu” “‘On Mumu” “Yon Mumu” “Ntyque’  Mumu” “Nen Mumu” “Njen Mumu” “Nqui Mumu” 
+			“Nqui ncho’ cüii Mumu” “Nqui ncho’ ve Mumu” “Nqui ncho’ ndye Mumu”
+			“Cüii Tsja’” “Ve Tsja’” “Ndye Tsja’” “Ninnque Tsja’” “‘On Tsja’” “Yon Tsja’” “Ntyque’ Tsja’” “Nen Tsja’” “Njen Tsja’” 
+			“Nqui Tsja’” “Nqui ncho’ cüii Tsja’” “Nqui ncho’ ve Tsja’” “Nqui ncho’ ndye Tsja’” 			
+			“Cüii Quichi” “Ve Quichi” “Ndye Quichi” “Ninnque Quichi” “‘On Quichi” “Yon Quichi” “Ntyque’  Quichi” “Nen Quichi” “Njen Quichi” 
+			“Nqui Quichi” “Nqui ncho’ cüii Quichi” “Nqui ncho’ ve Quichi” “Nqui ncho’ ndye Quichi” 
+			“Cüii Ndaatsua’” “Ve Ndaatsua’” “Ndye Ndaatsua’” “Ninnque Ndaatsua’” “‘On Ndaatsua’” “Yon Ndaatsua’” “Ntyque’ Ndaatsua’”
+			“Nen Ndaatsua’” “Njen Ndaatsua’” “Nqui Ndaatsua’” “Nqui ncho’ cüii Ndaatsua’” “Nqui ncho’ ve Ndaatsua’” “Nqui ncho’ ndye Ndaatsua’” 
+			“Cüii Ntjaa’” “Ve Ntjaa’” “Ndye Ntjaa’” “Ninnque Ntjaa’” “‘On Ntjaa’” “Yon Ntjaa’” “Ntyque’  Ntjaa’” “Nen Ntjaa’” “Njen Ntjaa’” 
+			“Nqui Ntjaa’” “Nqui ncho’ cüii Ntjaa’” “Nqui ncho’ ve Ntjaa’” “Nqui ncho’ ndye Ntjaa’”
 		}
 		female_names = {
-			Placeholder
+			“Cüii Quitson” “Ve Quitson” “Ndye Quitson” “Ninnque Quitson” “‘On Quitson” “Yon Quitson” “Ntyque’ Quitson” 
+			“Nen Quitson” “Njen Quitson” “Nqui Quitson” “Nqui ncho’ cüii Quitson” “Nqui ncho’ ve Quitson” “Nqui ncho’ ndye Quitson”
+			“Cüii Jndye” “Ve Jndye” “Ndye Jndye” “Ninnque Jndye” “‘On Jndye” “Yon Jndye” “Ntyque’ Jndye” “Nen Jndye” 
+			“Njen Jndye” “Nqui Jndye” “Nqui ncho’ cüii Jndye” “Nqui ncho’ ve Jndye” “Nqui ncho’ ndye Jndye”
+			“Cüii V’aa” “Ve V’aa” “Ndye V’aa” “Ninnque V’aa” “‘On V’aa” “Yon V’aa” “Ntyque’ V’aa” “Nen V’aa” “Njen V’aa” 
+			“Nqui V’aa” “Nqui ncho’ cüii V’aa” “Nqui ncho’ ve V’aa” “Nqui ncho’ ndye V’aa”
+			“Cüii Quityon” “Ve Quityon” “Ndye Quityon” “Ninnque Quityon” “‘On Quityon”“Yon Quityon” “Ntyque’ Quityon” 
+			“Nen Quityon” “Njen Quityon” “Nqui Quityon” “Nqui ncho’ cüii Quityon” “Nqui ncho’ ve Quityon” “Nqui ncho’ ndye Quityon”
+			“Cüii Quitsu” “Ve Quitsu” “Ndye Quitsu” “Ninnque Quitsu” “‘On Quitsu” “Yon Quitsu” “Ntyque’ Quitsu” “Nen Quitsu” 
+			“Njen Quitsu” “Nqui Quitsu” “Nqui ncho’ cüii Quitsu” “Nqui ncho’ ve Quitsu” “Nqui ncho’ ndye Quitsu”
+			“Cüii Tsö’xquen” “Ve Tsö’xquen” “Ndye Tsö’xquen” “Ninnque Tsö’xquen” “‘On Tsö’xquen” “Yon Tsö’xquen” 
+			“Ntyque’ Tsö’xquen” “Nen Tsö’xquen” “Njen Tsö’xquen” “Nqui Tsö’xquen” “Nqui ncho’ cüii Tsö’xquen” 
+			“Nqui ncho’ ve Tsö’xquen” “Nqui ncho’ ndye Tsö’xquen”
+			“Cüii Tyosu” “Ve Tyosu” “Ndye Tyosu” “Ninnque Tyosu” “‘On Tyosu” “Yon Tyosu” “Ntyque’ Tyosu” “Nen Tyosu” “Njen Tyosu” 
+			“Nqui Tyosu” “Nqui ncho’ cüii Tyosu” “Nqui ncho’ ve Tyosu” “Nqui ncho’ ndye Tyosu”
+			“Cüii Ndaatioo” “Ve Ndaatioo” “Ndye Ndaatioo” “Ninnque Ndaatioo” “‘On Ndaatioo” “Yon Ndaatioo” “Ntyque’ Ndaatioo” 
+			“Nen Ndaatioo” “Njen Ndaatioo” “Nqui Ndaatioo” “Nqui ncho’ cüii Ndaatioo” “Nqui ncho’ ve Ndaatioo” “Nqui ncho’ ndye Ndaatioo”
+			“Cüii Quitsue’” “Ve Quitsue’” “Ndye Quitsue’” “Ninnque Quitsue’” “‘On Quitsue’” “Yon Quitsue’” “Ntyque’ Quitsue’” 
+			“Nen Quitsue’” “Njen Quitsue’” “Nqui Quitsue’” “Nqui ncho’ cüii Quitsue’” “Nqui ncho’ ve Quitsue’” “Nqui ncho’ ndye Quitsue’” 
+			“Cüii Mumu” “Ve Mumu” “Ndye Mumu” “Ninnque Mumu” “‘On Mumu” “Yon Mumu” “Ntyque’  Mumu” “Nen Mumu” “Njen Mumu” “Nqui Mumu” 
+			“Nqui ncho’ cüii Mumu” “Nqui ncho’ ve Mumu” “Nqui ncho’ ndye Mumu”
+			“Cüii Tsja’” “Ve Tsja’” “Ndye Tsja’” “Ninnque Tsja’” “‘On Tsja’” “Yon Tsja’” “Ntyque’ Tsja’” “Nen Tsja’” “Njen Tsja’” 
+			“Nqui Tsja’” “Nqui ncho’ cüii Tsja’” “Nqui ncho’ ve Tsja’” “Nqui ncho’ ndye Tsja’” 			
+			“Cüii Quichi” “Ve Quichi” “Ndye Quichi” “Ninnque Quichi” “‘On Quichi” “Yon Quichi” “Ntyque’  Quichi” “Nen Quichi” “Njen Quichi” 
+			“Nqui Quichi” “Nqui ncho’ cüii Quichi” “Nqui ncho’ ve Quichi” “Nqui ncho’ ndye Quichi” 
+			“Cüii Ndaatsua’” “Ve Ndaatsua’” “Ndye Ndaatsua’” “Ninnque Ndaatsua’” “‘On Ndaatsua’” “Yon Ndaatsua’” “Ntyque’ Ndaatsua’”
+			“Nen Ndaatsua’” “Njen Ndaatsua’” “Nqui Ndaatsua’” “Nqui ncho’ cüii Ndaatsua’” “Nqui ncho’ ve Ndaatsua’” “Nqui ncho’ ndye Ndaatsua’” 
+			“Cüii Ntjaa’” “Ve Ntjaa’” “Ndye Ntjaa’” “Ninnque Ntjaa’” “‘On Ntjaa’” “Yon Ntjaa’” “Ntyque’  Ntjaa’” “Nen Ntjaa’” “Njen Ntjaa’” 
+			“Nqui Ntjaa’” “Nqui ncho’ cüii Ntjaa’” “Nqui ncho’ ve Ntjaa’” “Nqui ncho’ ndye Ntjaa’”
 		}
 	}
 	
@@ -1524,10 +1580,68 @@ huaxyacac = {
 	
 	huave = {
 		male_names = {
-			Placeholder
+			“Nop Jüm” “Ijpüw Jüm” “Arojpüw Jüm” “Piquiw Jüm” “Coquiaw Jüm” “Anaíw Jüm” “Ayaíw Jüm” “Ojquiyej Jüm” “Gajpowüw Jüm” 
+			“Gajpiüp Jüm”
+			“Nop Ncherrec” “Ijpüw Ncherrec” “Arojpüw Ncherrec” “Piquiw Ncherrec” “Coquiaw Ncherrec” “Anaíw Ncherrec” “Ayaíw Ncherrec” 
+			“Ojquiyej Ncherrec” “Gajpowüw Ncherrec” “Gajpiüp Ncherrec”
+			“Nop Nden” “Ijpüw Nden” “Arojpüw Nden” “Piquiw Nden” “Coquiaw Nden” “Anaíw Nden” “Ayaíw Nden” “Ojquiyej Nden” “Gajpowüw Nden” 
+			“Gajpiüp Nden” 
+			“Nop Jamiün” “Ijpüw Jamiün” “Arojpüw Jamiün” “Piquiw Jamiün” “Coquiaw Jamiün” “Anaíw Jamiün” “Ayaíw Jamiün” “Ojquiyej Jamiün” 
+			“Gajpowüw Jamiün” “Gajpiüp Jamiün” 
+			“Nop Ndiüc” “Ijpüw Ndiüc” “Arojpüw Ndiüc” “Piquiw Ndiüc” “Coquiaw Ndiüc” “Anaíw Ndiüc” “Ayaíw Ndiüc” “Ojquiyej Ndiüc” 
+			“Gajpowüw Ndiüc” “Gajpiüp Ndiüc”
+			“Nop Mixax omalaran” “Ijpüw Mixax omalaran” “Arojpüw Mixax omalaran” “Piquiw Mixax omalaran” “Coquiaw Mixax omalaran” 
+			“Anaíw Mixax omalaran” “Ayaíw Mixax omalaran” “Ojquiyej Mixax omalaran” “Gajpowüw Mixax omalaran” “Gajpiüp Mixax omalaran” 
+			“Nop Coy” “Ijpüw Coy” “Arojpüw Coy” “Piquiw Coy” “Coquiaw Coy” “Anaíw Coy” “Ayaíw Coy” “Ojquiyej Coy” “Gajpowüw Coy” 
+			“Gajpiüp Coy”
+			“Nop Yow” “Ijpüw Yow” “Arojpüw Yow” “Piquiw Yow” “Coquiaw Yow” “Anaíw Yow” “Ayaíw Yow” “Ojquiyej Yow” “Gajpowüw Yow” 
+			“Gajpiüp Yow” 
+			“Nop Pet” “Ijpüw Pet” “Arojpüw Pet” “Piquiw Pet” “Coquiaw Pet” “Anaíw Pet” “Ayaíw Pet” “Ojquiyej Pet” “Gajpowüw Pet” 
+			“Gajpiüp Pet”
+			“Nop Maching” “Ijpüw Maching” “Arojpüw Maching” “Piquiw Maching” “Coquiaw Maching” “Anaíw Maching” “Ayaíw Maching” 
+			“Ojquiyej Maching” “Gajpowüw Maching” “Gajpiüp Maching”
+			“Nop Lüw” “Ijpüw Lüw” “Arojpüw Lüw” “Piquiw Lüw” “Coquiaw Lüw” “Anaíw Lüw” “Ayaíw Lüw” “Ojquiyej Lüw” “Gajpowüw Lüw” 
+			“Gajpiüp Lüw”
+			“Nop Ateam” “Ijpüw Ateam” “Arojpüw Ateam” “Piquiw Ateam” “Coquiaw Ateam” “Anaíw Ateam” “Ayaíw Ateam” “Ojquiyej Ateam” 
+			“Gajpowüw Ateam” “Gajpiüp Ateam”
+			“Nop Lixleabon” “Ijpüw Lixleabon” “Arojpüw Lixleabon” “Piquiw Lixleabon” “Coquiaw Lixleabon” “Anaíw Lixleabon” 
+			“Ayaíw Lixleabon” “Ojquiyej Lixleabon” “Gajpowüw Lixleabon” “Gajpiüp Lixleabon”
+			“Nop Ijchiür” “Ijpüw Ijchiür” “Arojpüw Ijchiür” “Piquiw Ijchiür” “Coquiaw Ijchiür” “Anaíw Ijchiür” “Ayaíw Ijchiür” 
+			“Ojquiyej Ijchiür” “Gajpowüw Ijchiür” “Gajpiüp Ijchiür” 
+			“Nop Mbaj” “Ijpüw Mbaj” “Arojpüw Mbaj” “Piquiw Mbaj” “Coquiaw Mbaj” “Anaíw Mbaj” “Ayaíw Mbaj” “Ojquiyej Mbaj” 
+			“Gajpowüw Mbaj” “Gajpiüp Mbaj”
 		}
 		female_names = {
-			Placeholder
+			“Nop Jüm” “Ijpüw Jüm” “Arojpüw Jüm” “Piquiw Jüm” “Coquiaw Jüm” “Anaíw Jüm” “Ayaíw Jüm” “Ojquiyej Jüm” “Gajpowüw Jüm” 
+			“Gajpiüp Jüm”
+			“Nop Ncherrec” “Ijpüw Ncherrec” “Arojpüw Ncherrec” “Piquiw Ncherrec” “Coquiaw Ncherrec” “Anaíw Ncherrec” “Ayaíw Ncherrec” 
+			“Ojquiyej Ncherrec” “Gajpowüw Ncherrec” “Gajpiüp Ncherrec”
+			“Nop Nden” “Ijpüw Nden” “Arojpüw Nden” “Piquiw Nden” “Coquiaw Nden” “Anaíw Nden” “Ayaíw Nden” “Ojquiyej Nden” “Gajpowüw Nden” 
+			“Gajpiüp Nden” 
+			“Nop Jamiün” “Ijpüw Jamiün” “Arojpüw Jamiün” “Piquiw Jamiün” “Coquiaw Jamiün” “Anaíw Jamiün” “Ayaíw Jamiün” “Ojquiyej Jamiün” 
+			“Gajpowüw Jamiün” “Gajpiüp Jamiün” 
+			“Nop Ndiüc” “Ijpüw Ndiüc” “Arojpüw Ndiüc” “Piquiw Ndiüc” “Coquiaw Ndiüc” “Anaíw Ndiüc” “Ayaíw Ndiüc” “Ojquiyej Ndiüc” 
+			“Gajpowüw Ndiüc” “Gajpiüp Ndiüc”
+			“Nop Mixax omalaran” “Ijpüw Mixax omalaran” “Arojpüw Mixax omalaran” “Piquiw Mixax omalaran” “Coquiaw Mixax omalaran” 
+			“Anaíw Mixax omalaran” “Ayaíw Mixax omalaran” “Ojquiyej Mixax omalaran” “Gajpowüw Mixax omalaran” “Gajpiüp Mixax omalaran” 
+			“Nop Coy” “Ijpüw Coy” “Arojpüw Coy” “Piquiw Coy” “Coquiaw Coy” “Anaíw Coy” “Ayaíw Coy” “Ojquiyej Coy” “Gajpowüw Coy” 
+			“Gajpiüp Coy”
+			“Nop Yow” “Ijpüw Yow” “Arojpüw Yow” “Piquiw Yow” “Coquiaw Yow” “Anaíw Yow” “Ayaíw Yow” “Ojquiyej Yow” “Gajpowüw Yow” 
+			“Gajpiüp Yow” 
+			“Nop Pet” “Ijpüw Pet” “Arojpüw Pet” “Piquiw Pet” “Coquiaw Pet” “Anaíw Pet” “Ayaíw Pet” “Ojquiyej Pet” “Gajpowüw Pet” 
+			“Gajpiüp Pet”
+			“Nop Maching” “Ijpüw Maching” “Arojpüw Maching” “Piquiw Maching” “Coquiaw Maching” “Anaíw Maching” “Ayaíw Maching” 
+			“Ojquiyej Maching” “Gajpowüw Maching” “Gajpiüp Maching”
+			“Nop Lüw” “Ijpüw Lüw” “Arojpüw Lüw” “Piquiw Lüw” “Coquiaw Lüw” “Anaíw Lüw” “Ayaíw Lüw” “Ojquiyej Lüw” “Gajpowüw Lüw” 
+			“Gajpiüp Lüw”
+			“Nop Ateam” “Ijpüw Ateam” “Arojpüw Ateam” “Piquiw Ateam” “Coquiaw Ateam” “Anaíw Ateam” “Ayaíw Ateam” “Ojquiyej Ateam” 
+			“Gajpowüw Ateam” “Gajpiüp Ateam”
+			“Nop Lixleabon” “Ijpüw Lixleabon” “Arojpüw Lixleabon” “Piquiw Lixleabon” “Coquiaw Lixleabon” “Anaíw Lixleabon” 
+			“Ayaíw Lixleabon” “Ojquiyej Lixleabon” “Gajpowüw Lixleabon” “Gajpiüp Lixleabon”
+			“Nop Ijchiür” “Ijpüw Ijchiür” “Arojpüw Ijchiür” “Piquiw Ijchiür” “Coquiaw Ijchiür” “Anaíw Ijchiür” “Ayaíw Ijchiür” 
+			“Ojquiyej Ijchiür” “Gajpowüw Ijchiür” “Gajpiüp Ijchiür” 
+			“Nop Mbaj” “Ijpüw Mbaj” “Arojpüw Mbaj” “Piquiw Mbaj” “Coquiaw Mbaj” “Anaíw Mbaj” “Ayaíw Mbaj” “Ojquiyej Mbaj” 
+			“Gajpowüw Mbaj” “Gajpiüp Mbaj”
 		}
 	}
 	
@@ -1742,7 +1856,8 @@ maya = {
 			"Ah Zun" "Ah Uitz" "Ah Cuat" "Ah Atira" "Nabatun" "Ah Chac" "Nachan Kan" "Ah Cetz" "Ah Op" "Ah Kauil" "Ah Kukil"
 			"Nappol Chuuah" "Ah Tzam" "Ba'alache'" "Xuulub" "Kitam" "Sak Bok" "Siina'an" "Hunac" "Ah Xupan" "Ah Kin" "Hun Uitzil"
 			"Ah Tapay-Nok" "Ah Paal" "Ah Sulim" "Ah Tzab" "Ah Chacah" "Ix Copacab" "Nabich" "Ah Kul" "Nahau" "Naum" "Ah Macan"
-			"Ixkil-Itzam" "Nadzul" "Ah Zuyok" "Chilam" "Ah Kukum" 
+			"Ixkil-Itzam" "Nadzul" "Ah Zuyok" "Chilam" "Ah Kukum" "Napuc" "Nacamal" "Ah Kauitz" "Nachi" "Namox" "Itzam" 
+			"Nakuk" "Namon"
 		}
 		female_names = {
 			"Hatz'utz" "Pak'aal" "Xtz'aak" "Xunaan" "Xch'uupal" "Tz'unu'un" "Suhuy Pal"
@@ -1998,19 +2113,111 @@ oto_pamean = {
 	
 	mazahua = {
 		male_names = {
-			Placeholder
+			“Daje Ndajma” “Yeje Ndajma” “Jni’i Ndajma” “Nziojo Ndajma” “Ts’ich’a Ndajma” “Ñano Ndajma” “Yenchjo Ndajma” “Jñinchio Ndajma” 
+			“Nzinchjo Ndajma” “Dyëch’a Ndajma”
+			“Daje Ngumü” “Yeje Ngumü” “Jni’i Ngumü” “Nziojo Ngumü” “Ts’ich’a Ngumü” “Ñano Ngumü” “Yenchjo Ngumü” “Jñinchio Ngumü” 
+			“Nzinchjo Ngumü” “Dyëch’a Ngumü”
+			“Daje Sat’ajma” “Yeje Sat’ajma” “Jni’i Sat’ajma” “Nziojo Sat’ajma” “Ts’ich’a Sat’ajma” “Ñano Sat’ajma” “Yenchjo Sat’ajma” 
+			“Jñinchio Sat’ajma” “Nzinchjo Sat’ajma” “Dyëch’a Sat’ajma” 
+			“Daje Cjua’a” “Yeje Cjua’a” “Jni’i Cjua’a” “Nziojo Cjua’a” “Ts’ich’a Cjua’a” “Ñano Cjua’a” “Yenchjo Cjua’a” “Jñinchio Cjua’a” 
+			“Nzinchjo Cjua’a” “Dyëch’a Cjua’a”
+			“Daje Ndeje” “Yeje Ndeje” “Jni’i Ndeje” “Nziojo Ndeje” “Ts’ich’a Ndeje” “Ñano Ndeje” “Yenchjo Ndeje” “Jñinchio Ndeje” 
+			“Nzinchjo Ndeje” “Dyëch’a Ndeje”
+			“Daje Dyo’o “ “Yeje Dyo’o “ “Jni’i Dyo’o “ “Nziojo Dyo’o “ “Ts’ich’a Dyo’o “ “Ñano Dyo’o “ “Yenchjo Dyo’o “ 
+			“Jñinchio Dyo’o “ “Nzinchjo Dyo’o “ “Dyëch’a Dyo’o”
+			“Daje Xüjnü” “Yeje Xüjnü” “Jni’i Xüjnü” “Nziojo Xüjnü” “Ts’ich’a Xüjnü” “Ñano Xüjnü” “Yenchjo Xüjnü” 
+			“Jñinchio Xüjnü” “Nzinchjo Xüjnü” “Dyëch’a Xüjnü”
+			“Daje Dyebe” “Yeje Dyebe” “Jni’i Dyebe” “Nziojo Dyebe” “Ts’ich’a Dyebe” “Ñano Dyebe” “Yenchjo Dyebe” “Jñinchio Dyebe” 
+			“Nzinchjo Dyebe” “Dyëch’a Dyebe” 
+			“Daje Ndëjnë” “Yeje Ndëjnë” “Jni’i Ndëjnë” “Nziojo Ndëjnë” “Ts’ich’a Ndëjnë” “Ñano Ndëjnë” “Yenchjo Ndëjnë” “Jñinchio Ndëjnë” 
+			“Nzinchjo Ndëjnë” “Dyëch’a Ndëjnë”
 		}
 		female_names = {
-			Placeholder
+			“Daje Ndajma” “Yeje Ndajma” “Jni’i Ndajma” “Nziojo Ndajma” “Ts’ich’a Ndajma” “Ñano Ndajma” “Yenchjo Ndajma” “Jñinchio Ndajma” 
+			“Nzinchjo Ndajma” “Dyëch’a Ndajma”
+			“Daje Ngumü” “Yeje Ngumü” “Jni’i Ngumü” “Nziojo Ngumü” “Ts’ich’a Ngumü” “Ñano Ngumü” “Yenchjo Ngumü” “Jñinchio Ngumü” 
+			“Nzinchjo Ngumü” “Dyëch’a Ngumü”
+			“Daje Sat’ajma” “Yeje Sat’ajma” “Jni’i Sat’ajma” “Nziojo Sat’ajma” “Ts’ich’a Sat’ajma” “Ñano Sat’ajma” “Yenchjo Sat’ajma” 
+			“Jñinchio Sat’ajma” “Nzinchjo Sat’ajma” “Dyëch’a Sat’ajma” 
+			“Daje Cjua’a” “Yeje Cjua’a” “Jni’i Cjua’a” “Nziojo Cjua’a” “Ts’ich’a Cjua’a” “Ñano Cjua’a” “Yenchjo Cjua’a” “Jñinchio Cjua’a” 
+			“Nzinchjo Cjua’a” “Dyëch’a Cjua’a”
+			“Daje Ndeje” “Yeje Ndeje” “Jni’i Ndeje” “Nziojo Ndeje” “Ts’ich’a Ndeje” “Ñano Ndeje” “Yenchjo Ndeje” “Jñinchio Ndeje” 
+			“Nzinchjo Ndeje” “Dyëch’a Ndeje”
+			“Daje Dyo’o “ “Yeje Dyo’o “ “Jni’i Dyo’o “ “Nziojo Dyo’o “ “Ts’ich’a Dyo’o “ “Ñano Dyo’o “ “Yenchjo Dyo’o “ 
+			“Jñinchio Dyo’o “ “Nzinchjo Dyo’o “ “Dyëch’a Dyo’o”
+			“Daje Xüjnü” “Yeje Xüjnü” “Jni’i Xüjnü” “Nziojo Xüjnü” “Ts’ich’a Xüjnü” “Ñano Xüjnü” “Yenchjo Xüjnü” 
+			“Jñinchio Xüjnü” “Nzinchjo Xüjnü” “Dyëch’a Xüjnü”
+			“Daje Dyebe” “Yeje Dyebe” “Jni’i Dyebe” “Nziojo Dyebe” “Ts’ich’a Dyebe” “Ñano Dyebe” “Yenchjo Dyebe” “Jñinchio Dyebe” 
+			“Nzinchjo Dyebe” “Dyëch’a Dyebe” 
+			“Daje Ndëjnë” “Yeje Ndëjnë” “Jni’i Ndëjnë” “Nziojo Ndëjnë” “Ts’ich’a Ndëjnë” “Ñano Ndëjnë” “Yenchjo Ndëjnë” “Jñinchio Ndëjnë” 
+			“Nzinchjo Ndëjnë” “Dyëch’a Ndëjnë”
 		}
 	}
 	
 	chinantec = {
 		male_names = {
-			Placeholder
+			“Cong Guo lih” “Ton Guo lih” “Hnoa Guo lih” “Quiun Guo lih” “Hnii Guo lih” “Jnieng Guo lih” “Guio Guo lih” “Jnie Guo lih” 
+			“Niu Guo lih” “Guie Guo lih” “Guie cang Guo lih” “Guie ton  Guo lih” “Guie hnoa Guo lih”
+			“Cong M dsi”  “Ton M dsi” “Hnoa M dsi” “Quiun M dsi” “Hnii M dsi” “Jnieng M dsi” “Guio M dsi” “Jnie M dsi” “Niu M dsi” 
+			“Guie M dsi” “Guie cang M dsi” “Guie ton  M dsi” “Guie hnoa M dsi”
+			“Cong Hniu” “Ton Hniu” “Hnoa Hniu” “Quiun Hniu” “Hnii Hniu” “Jnieng Hniu” “Guio Hniu” “Jnie Hniu” “Niu Hniu” “Guie Hniu” 
+			“Guie cang Hniu” “Guie ton  Hniu” “Guie hnoa Hniu” 
+			“Cong Chi coh”  “Ton Chi coh”  “Hnoa Chi coh”  “Quiun Chi coh”  “Hnii Chi coh”  “Jnieng Chi coh”  “Guio Chi coh”  
+			“Jnie Chi coh”  “Niu Chi coh”  “Guie Chi coh”  “Guie cang Chi coh”  “Guie ton  Chi coh”  “Guie hnoa Chi coh” 
+			“Cong Lo cuo” “Ton Lo cuo” “Hnoa Lo cuo” “Quiun Lo cuo” “Hnii Lo cuo” “Jnieng Lo cuo” “Guio Lo cuo” “Jnie Lo cuo” 
+			“Niu Lo cuo” “Guie Lo cuo” “Guie cang Lo cuo” “Guie ton  Lo cuo” “Guie hnoa Lo cuo”
+			“Cong Jmoi” “Ton Jmoi” “Hnoa Jmoi” “Quiun Jmoi” “Hnii Jmoi” “Jnieng Jmoi” “Guio Jmoi” “Jnie Jmoi” “Niu Jmoi” “Guie Jmoi” 
+			“Guie cang Jmoi” “Guie ton  Jmoi” “Guie hnoa Jmoi”
+			“Cong Dsoi” “Ton Dsoi” “Hnoa Dsoi” “Quiun Dsoi” “Hnii Dsoi” “Jnieng Dsoi” “Guio Dsoi” “Jnie Dsoi” “Niu Dsoi” “Guie Dsoi” 
+			“Guie cang Dsoi” “Guie ton  Dsoi” “Guie hnoa Dsoi” 
+			“Cong Cuo” “Ton Cuo” “Hnoa Cuo” “Quiun Cuo” “Hnii Cuo” “Jnieng Cuo” “Guio Cuo” “Jnie Cuo” “Niu Cuo” “Guie Cuo” “Guie cang Cuo” 
+			“Guie ton  Cuo” “Guie hnoa Cuo”
+			“Cong Jniu teg” “Ton Jniu teg” “Hnoa Jniu teg” “Quiun Jniu teg” “Hnii Jniu teg” “Jnieng Jniu teg” “Guio Jniu teg” “Jnie Jniu teg” 
+			“Niu Jniu teg” “Guie Jniu teg” “Guie cang Jniu teg” “Guie ton  Jniu teg” “Guie hnoa Jniu teg”
+			“Cong Hieh li” “Ton Hieh li” “Hnoa Hieh li” “Quiun Hieh li” “Hnii Hieh li” “Jnieng Hieh li” “Guio Hieh li” “Jnie Hieh li” “Niu Hieh li” 
+			“Guie Hieh li” “Guie cang Hieh li” “Guie ton  Hieh li” “Guie hnoa Hieh li”
+			“Cong Moi” “Ton Moi” “Hnoa Moi” “Quiun Moi” “Hnii Moi” “Jnieng Moi” “Guio Moi” “Jnie Moi” “Niu Moi” “Guie Moi” “Guie cang Moi” “Guie ton  Moi” 
+			“Guie hnoa Moi” 
+			“Cong Tu tsonh” “Ton Tu tsonh” “Hnoa Tu tsonh” “Quiun Tu tsonh” “Hnii Tu tsonh” “Jnieng Tu tsonh” “Guio Tu tsonh” “Jnie Tu tsonh” “Niu Tu tsonh” 
+			“Guie Tu tsonh” “Guie cang Tu tsonh” “Guie ton  Tu tsonh” “Guie hnoa Tu tsonh”
+			“Cong Onh” “Ton Onh” “Hnoa Onh” “Quiun Onh” “Hnii Onh” “Jnieng Onh” “Guio Onh” “Jnie Onh” “Niu Onh” “Guie Onh” “Guie cang Onh” “Guie ton  Onh” 
+			“Guie hnoa Onh” 
+			“Cong Jmoa” “Ton Jmoa” “Hnoa Jmoa” “Quiun Jmoa” “Hnii Jmoa” “Jnieng Jmoa” “Guio Jmoa” “Jnie Jmoa” “Niu Jmoa” “Guie Jmoa” “Guie cang Jmoa”
+			“Guie ton  Jmoa” “Guie hnoa Jmoa” 
+			“Cong Li” “Ton Li” “Hnoa Li” “Quiun Li” “Hnii Li” “Jnieng Li” “Guio Li” “Jnie Li” “Niu Li” “Guie Li” “Guie cang Li” “Guie ton  Li” 
+			“Guie hnoa Li” 
 		}
 		female_names = {
-			Placeholder
+			“Cong Guo lih” “Ton Guo lih” “Hnoa Guo lih” “Quiun Guo lih” “Hnii Guo lih” “Jnieng Guo lih” “Guio Guo lih” “Jnie Guo lih” 
+			“Niu Guo lih” “Guie Guo lih” “Guie cang Guo lih” “Guie ton  Guo lih” “Guie hnoa Guo lih”
+			“Cong M dsi”  “Ton M dsi” “Hnoa M dsi” “Quiun M dsi” “Hnii M dsi” “Jnieng M dsi” “Guio M dsi” “Jnie M dsi” “Niu M dsi” 
+			“Guie M dsi” “Guie cang M dsi” “Guie ton  M dsi” “Guie hnoa M dsi”
+			“Cong Hniu” “Ton Hniu” “Hnoa Hniu” “Quiun Hniu” “Hnii Hniu” “Jnieng Hniu” “Guio Hniu” “Jnie Hniu” “Niu Hniu” “Guie Hniu” 
+			“Guie cang Hniu” “Guie ton  Hniu” “Guie hnoa Hniu” 
+			“Cong Chi coh”  “Ton Chi coh”  “Hnoa Chi coh”  “Quiun Chi coh”  “Hnii Chi coh”  “Jnieng Chi coh”  “Guio Chi coh”  
+			“Jnie Chi coh”  “Niu Chi coh”  “Guie Chi coh”  “Guie cang Chi coh”  “Guie ton  Chi coh”  “Guie hnoa Chi coh” 
+			“Cong Lo cuo” “Ton Lo cuo” “Hnoa Lo cuo” “Quiun Lo cuo” “Hnii Lo cuo” “Jnieng Lo cuo” “Guio Lo cuo” “Jnie Lo cuo” 
+			“Niu Lo cuo” “Guie Lo cuo” “Guie cang Lo cuo” “Guie ton  Lo cuo” “Guie hnoa Lo cuo”
+			“Cong Jmoi” “Ton Jmoi” “Hnoa Jmoi” “Quiun Jmoi” “Hnii Jmoi” “Jnieng Jmoi” “Guio Jmoi” “Jnie Jmoi” “Niu Jmoi” “Guie Jmoi” 
+			“Guie cang Jmoi” “Guie ton  Jmoi” “Guie hnoa Jmoi”
+			“Cong Dsoi” “Ton Dsoi” “Hnoa Dsoi” “Quiun Dsoi” “Hnii Dsoi” “Jnieng Dsoi” “Guio Dsoi” “Jnie Dsoi” “Niu Dsoi” “Guie Dsoi” 
+			“Guie cang Dsoi” “Guie ton  Dsoi” “Guie hnoa Dsoi” 
+			“Cong Cuo” “Ton Cuo” “Hnoa Cuo” “Quiun Cuo” “Hnii Cuo” “Jnieng Cuo” “Guio Cuo” “Jnie Cuo” “Niu Cuo” “Guie Cuo” “Guie cang Cuo” 
+			“Guie ton  Cuo” “Guie hnoa Cuo”
+			“Cong Jniu teg” “Ton Jniu teg” “Hnoa Jniu teg” “Quiun Jniu teg” “Hnii Jniu teg” “Jnieng Jniu teg” “Guio Jniu teg” “Jnie Jniu teg” 
+			“Niu Jniu teg” “Guie Jniu teg” “Guie cang Jniu teg” “Guie ton  Jniu teg” “Guie hnoa Jniu teg”
+			“Cong Hieh li” “Ton Hieh li” “Hnoa Hieh li” “Quiun Hieh li” “Hnii Hieh li” “Jnieng Hieh li” “Guio Hieh li” “Jnie Hieh li” “Niu Hieh li” 
+			“Guie Hieh li” “Guie cang Hieh li” “Guie ton  Hieh li” “Guie hnoa Hieh li”
+			“Cong Moi” “Ton Moi” “Hnoa Moi” “Quiun Moi” “Hnii Moi” “Jnieng Moi” “Guio Moi” “Jnie Moi” “Niu Moi” “Guie Moi” “Guie cang Moi” “Guie ton  Moi” 
+			“Guie hnoa Moi” 
+			“Cong Tu tsonh” “Ton Tu tsonh” “Hnoa Tu tsonh” “Quiun Tu tsonh” “Hnii Tu tsonh” “Jnieng Tu tsonh” “Guio Tu tsonh” “Jnie Tu tsonh” “Niu Tu tsonh” 
+			“Guie Tu tsonh” “Guie cang Tu tsonh” “Guie ton  Tu tsonh” “Guie hnoa Tu tsonh”
+			“Cong Onh” “Ton Onh” “Hnoa Onh” “Quiun Onh” “Hnii Onh” “Jnieng Onh” “Guio Onh” “Jnie Onh” “Niu Onh” “Guie Onh” “Guie cang Onh” “Guie ton  Onh” 
+			“Guie hnoa Onh” 
+			“Cong Jmoa” “Ton Jmoa” “Hnoa Jmoa” “Quiun Jmoa” “Hnii Jmoa” “Jnieng Jmoa” “Guio Jmoa” “Jnie Jmoa” “Niu Jmoa” “Guie Jmoa” “Guie cang Jmoa”
+			“Guie ton  Jmoa” “Guie hnoa Jmoa” 
+			“Cong Li” “Ton Li” “Hnoa Li” “Quiun Li” “Hnii Li” “Jnieng Li” “Guio Li” “Jnie Li” “Niu Li” “Guie Li” “Guie cang Li” “Guie ton  Li” 
+			“Guie hnoa Li” 
 		}
 	}
 	
@@ -2042,10 +2249,76 @@ popoluca_group = {
 	
 	mazatec = {
 		male_names = {
-			Placeholder
+			“Jngoo Chu xca” “Jo Chu xca” “Jan Chu xca” “Ñijon Chu xca” “‘On Chu xca” “Jon Chu xca” “Itoo Chu xca” “Jiin Chu xca” 
+			“Ñijan Chu xca” “Te Chu xca” “Tejngoo Chu xca” “Tejo Chu xca” “Tejan Chu xca”
+			“Jngoo Tjo” “Jo Tjo” “Jan Tjo” “Ñijon Tjo” “‘On Tjo” “Jon Tjo” “Itoo Tjo” “Jiin Tjo” “Ñijan Tjo” “Te Tjo” “Tejngoo Tjo” 
+			“Tejo Tjo” “Tejan Tjo”
+			“Jngoo Ndihya” “Jo Ndihya” “Jan Ndihya” “Ñijon Ndihya” “‘On Ndihya” “Jon Ndihya” “Itoo Ndihya” “Jiin Ndihya” “Ñijan Ndihya” 
+			“Te Ndihya” “Tejngoo Ndihya” “Tejo Ndihya” “Tejan Ndihya”
+			“Jngoo Kale” “Jo Kale” “Jan Kale” “Ñijon Kale” “‘On Kale” “Jon Kale” “Itoo Kale” “Jiin Kale” “Ñijan Kale” “Te Kale” 
+			“Tejngoo Kale” “Tejo Kale” “Tejan Kale”
+			“Jngoo Ye” “Jo Ye” “Jan Ye” “Ñijon Ye” “‘On Ye” “Jon Ye” “Itoo Ye” “Jiin Ye” “Ñijan Ye” “Te Ye” “Tejngoo Ye” “Tejo Ye” 
+			“Tejan Ye”
+			“Jngoo Nindarcu” “Jo Nindarcu” “Jan Nindarcu” “Ñijon Nindarcu” “‘On Nindarcu” “Jon Nindarcu” “Itoo Nindarcu” “Jiin Nindarcu” 
+			“Ñijan Nindarcu” “Te Nindarcu” “Tejngoo Nindarcu” “Tejo Nindarcu” “Tejan Nindarcu”
+			“Jngoo Natse” “Jo Natse” “Jan Natse” “Ñijon Natse” “‘On Natse” “Jon Natse” “Itoo Natse” “Jiin Natse” “Ñijan Natse” “Te Natse” 
+			“Tejngoo Natse” “Tejo Natse” “Tejan Natse”
+			“Jngoo Nanda” “Jo Nanda” “Jan Nanda” “Ñijon Nanda” “‘On Nanda” “Jon Nanda” “Itoo Nanda” “Jiin Nanda” “Ñijan Nanda” “Te Nanda” 
+			“Tejngoo Nanda” “Tejo Nanda” “Tejan Nanda”
+			“Jngoo Naña” “Jo Naña” “Jan Naña” “Ñijon Naña” “‘On Naña” “Jon Naña” “Itoo Naña” “Jiin Naña” “Ñijan Naña” “Te Naña” “Tejngoo Naña” 
+			“Tejo Naña” “Tejan Naña”
+			“Jngoo Langun” “Jo Langun” “Jan Langun” “Ñijon Langun” “‘On Langun” “Jon Langun” “Itoo Langun” “Jiin Langun” “Ñijan Langun” 
+			“Te Langun” “Tejngoo Langun” “Tejo Langun” “Tejan Langun”
+			“Jngoo Tsja naxa” “Jo Tsja naxa” “Jan Tsja naxa” “Ñijon Tsja naxa” “‘On Tsja naxa” “Jon Tsja naxa” “Itoo Tsja naxa” “Jiin Tsja naxa” 
+			“Ñijan Tsja naxa” “Te Tsja naxa” “Tejngoo Tsja naxa” “Tejo Tsja naxa” “Tejan Tsja naxa”
+			“Jngoo Lote rcu hani” “Jo Lote rcu hani” “Jan Lote rcu hani” “Ñijon Lote rcu hani” “‘On Lote rcu hani” “Jon Lote rcu hani” 
+			“Itoo Lote rcu hani” “Jiin Lote rcu hani” “Ñijan Lote rcu hani” “Te Lote rcu hani” “Tejngoo Lote rcu hani” 
+			“Tejo Lote rcu hani” “Tejan Lote rcu hani”
+			“Jngoo Fane nangui” “Jo Fane nangui” “Jan Fane nangui” “Ñijon Fane nangui” “‘On Fane nangui” “Jon Fane nangui” 
+			“Itoo Fane nangui” “Jiin Fane nangui” “Ñijan Fane nangui” “Te Fane nangui” “Tejngoo Fane nangui” “Tejo Fane nangui” 
+			“Tejan Fane nangui”
+			“Jngoo Ndyojondihi” “Jo Ndyojondihi” “Jan Ndyojondihi” “Ñijon Ndyojondihi” “‘On Ndyojondihi” “Jon Ndyojondihi” “Itoo Ndyojondihi” 
+			“Jiin Ndyojondihi” “Ñijan Ndyojondihi” “Te Ndyojondihi” “Tejngoo Ndyojondihi” “Tejo Ndyojondihi” “Tejan Ndyojondihi”
+			“Jngoo Tsi” “Jo Tsi” “Jan Tsi” “Ñijon Tsi” “‘On Tsi” “Jon Tsi” “Itoo Tsi” “Jiin Tsi” “Ñijan Tsi” “Te Tsi” “Tejngoo Tsi” 
+			“Tejo Tsi” “Tejan Tsi”
+			“Jngoo Naxu” “Jo Naxu” “Jan Naxu” “Ñijon Naxu” “‘On Naxu” “Jon Naxu” “Itoo Naxu” “Jiin Naxu” “Ñijan Naxu” “Te Naxu” “Tejngoo Naxu” 
+			“Tejo Naxu” “Tejan Naxu”
 		}
 		female_names = {
-			Placeholder
+			“Jngoo Chu xca” “Jo Chu xca” “Jan Chu xca” “Ñijon Chu xca” “‘On Chu xca” “Jon Chu xca” “Itoo Chu xca” “Jiin Chu xca” 
+			“Ñijan Chu xca” “Te Chu xca” “Tejngoo Chu xca” “Tejo Chu xca” “Tejan Chu xca”
+			“Jngoo Tjo” “Jo Tjo” “Jan Tjo” “Ñijon Tjo” “‘On Tjo” “Jon Tjo” “Itoo Tjo” “Jiin Tjo” “Ñijan Tjo” “Te Tjo” “Tejngoo Tjo” 
+			“Tejo Tjo” “Tejan Tjo”
+			“Jngoo Ndihya” “Jo Ndihya” “Jan Ndihya” “Ñijon Ndihya” “‘On Ndihya” “Jon Ndihya” “Itoo Ndihya” “Jiin Ndihya” “Ñijan Ndihya” 
+			“Te Ndihya” “Tejngoo Ndihya” “Tejo Ndihya” “Tejan Ndihya”
+			“Jngoo Kale” “Jo Kale” “Jan Kale” “Ñijon Kale” “‘On Kale” “Jon Kale” “Itoo Kale” “Jiin Kale” “Ñijan Kale” “Te Kale” 
+			“Tejngoo Kale” “Tejo Kale” “Tejan Kale”
+			“Jngoo Ye” “Jo Ye” “Jan Ye” “Ñijon Ye” “‘On Ye” “Jon Ye” “Itoo Ye” “Jiin Ye” “Ñijan Ye” “Te Ye” “Tejngoo Ye” “Tejo Ye” 
+			“Tejan Ye”
+			“Jngoo Nindarcu” “Jo Nindarcu” “Jan Nindarcu” “Ñijon Nindarcu” “‘On Nindarcu” “Jon Nindarcu” “Itoo Nindarcu” “Jiin Nindarcu” 
+			“Ñijan Nindarcu” “Te Nindarcu” “Tejngoo Nindarcu” “Tejo Nindarcu” “Tejan Nindarcu”
+			“Jngoo Natse” “Jo Natse” “Jan Natse” “Ñijon Natse” “‘On Natse” “Jon Natse” “Itoo Natse” “Jiin Natse” “Ñijan Natse” “Te Natse” 
+			“Tejngoo Natse” “Tejo Natse” “Tejan Natse”
+			“Jngoo Nanda” “Jo Nanda” “Jan Nanda” “Ñijon Nanda” “‘On Nanda” “Jon Nanda” “Itoo Nanda” “Jiin Nanda” “Ñijan Nanda” “Te Nanda” 
+			“Tejngoo Nanda” “Tejo Nanda” “Tejan Nanda”
+			“Jngoo Naña” “Jo Naña” “Jan Naña” “Ñijon Naña” “‘On Naña” “Jon Naña” “Itoo Naña” “Jiin Naña” “Ñijan Naña” “Te Naña” “Tejngoo Naña” 
+			“Tejo Naña” “Tejan Naña”
+			“Jngoo Langun” “Jo Langun” “Jan Langun” “Ñijon Langun” “‘On Langun” “Jon Langun” “Itoo Langun” “Jiin Langun” “Ñijan Langun” 
+			“Te Langun” “Tejngoo Langun” “Tejo Langun” “Tejan Langun”
+			“Jngoo Tsja naxa” “Jo Tsja naxa” “Jan Tsja naxa” “Ñijon Tsja naxa” “‘On Tsja naxa” “Jon Tsja naxa” “Itoo Tsja naxa” “Jiin Tsja naxa” 
+			“Ñijan Tsja naxa” “Te Tsja naxa” “Tejngoo Tsja naxa” “Tejo Tsja naxa” “Tejan Tsja naxa”
+			“Jngoo Lote rcu hani” “Jo Lote rcu hani” “Jan Lote rcu hani” “Ñijon Lote rcu hani” “‘On Lote rcu hani” “Jon Lote rcu hani” 
+			“Itoo Lote rcu hani” “Jiin Lote rcu hani” “Ñijan Lote rcu hani” “Te Lote rcu hani” “Tejngoo Lote rcu hani” 
+			“Tejo Lote rcu hani” “Tejan Lote rcu hani”
+			“Jngoo Fane nangui” “Jo Fane nangui” “Jan Fane nangui” “Ñijon Fane nangui” “‘On Fane nangui” “Jon Fane nangui” 
+			“Itoo Fane nangui” “Jiin Fane nangui” “Ñijan Fane nangui” “Te Fane nangui” “Tejngoo Fane nangui” “Tejo Fane nangui” 
+			“Tejan Fane nangui”
+			“Jngoo Ndyojondihi” “Jo Ndyojondihi” “Jan Ndyojondihi” “Ñijon Ndyojondihi” “‘On Ndyojondihi” “Jon Ndyojondihi” “Itoo Ndyojondihi” 
+			“Jiin Ndyojondihi” “Ñijan Ndyojondihi” “Te Ndyojondihi” “Tejngoo Ndyojondihi” “Tejo Ndyojondihi” “Tejan Ndyojondihi”
+			“Jngoo Tsi” “Jo Tsi” “Jan Tsi” “Ñijon Tsi” “‘On Tsi” “Jon Tsi” “Itoo Tsi” “Jiin Tsi” “Ñijan Tsi” “Te Tsi” “Tejngoo Tsi” 
+			“Tejo Tsi” “Tejan Tsi”
+			“Jngoo Naxu” “Jo Naxu” “Jan Naxu” “Ñijon Naxu” “‘On Naxu” “Jon Naxu” “Itoo Naxu” “Jiin Naxu” “Ñijan Naxu” “Te Naxu” “Tejngoo Naxu” 
+			“Tejo Naxu” “Tejan Naxu”
 		}
 	}
 	
@@ -2112,10 +2385,42 @@ cuitlatec = {
 	
 	cuitlatec = {
 		male_names = {
-			Placeholder
+			“Tahuaj Ijtejla” “Caxla Ijtejla” “Cali Ijtejla” “Paxla Ijtejla” “Puaxla Ijtejla” “Daschi Ijtejla” “Huischi Ijtejla” 
+			“Pujta Lijpuxla Ijtejla” “Noxla Ijtejla” “Tchonsla Ijtejla” “Aguiltahud Ijtejla” “Aguilcaxta Ijtejla” 
+			“Tahuaj Xla” “Caxla Xla” “Cali Xla” “Paxla Xla” “Puaxla Xla” “Daschi Xla” “Huischi Xla” “Pujta Lijpuxla Xla” “Noxla Xla” 
+			“Tchonsla Xla” “Aguiltahud Xla” “Aguilcaxta Xla”
+			“Tahuaj Cueduc” “Caxla Cueduc” “Cali Cueduc” “Paxla Cueduc” “Puaxla Cueduc” “Daschi Cueduc” “Huischi Cueduc” 
+			“Pujta Lijpuxla Cueduc” “Noxla Cueduc” “Tchonsla Cueduc” “Aguiltahud Cueduc” “Aguilcaxta Cueduc”
+			“Tahuaj Cooyo” “Caxla Cooyo” “Cali Cooyo” “Paxla Cooyo” “Puaxla Cooyo” “Daschi Cooyo” “Huischi Cooyo” 
+			“Pujta Lijpuxla Cooyo” “Noxla Cooyo” “Tchonsla Cooyo” “Aguiltahud Cooyo” “Aguilcaxta Cooyo”
+			“Tahuaj Poma” “Caxla Poma” “Cali Poma” “Paxla Poma” “Puaxla Poma” “Daschi Poma” “Huischi Poma” “Pujta Lijpuxla Poma” 
+			“Noxla Poma” “Tchonsla Poma” “Aguiltahud Poma” “Aguilcaxta Poma”
+			“Tahuaj Huma” “Caxla Huma” “Cali Huma” “Paxla Huma” “Puaxla Huma” “Daschi Huma” “Huischi Huma” “Pujta Lijpuxla Huma” 
+			“Noxla Huma” “Tchonsla Huma” “Aguiltahud Huma” “Aguilcaxta Huma” 
+			“Tahuaj Mojen” “Caxla Mojen” “Cali Mojen” “Paxla Mojen” “Puaxla Mojen” “Daschi Mojen” “Huischi Mojen” “Pujta Lijpuxla Mojen” 
+			“Noxla Mojen” “Tchonsla Mojen” “Aguiltahud Mojen” “Aguilcaxta Mojen”
+			“Tahuaj Tamulili Nononta” “Caxla Tamulili Nononta” “Cali Tamulili Nononta” “Paxla Tamulili Nononta” “Puaxla Tamulili Nononta” 
+			“Daschi Tamulili Nononta” “Huischi Tamulili Nononta” “Pujta Lijpuxla Tamulili Nononta” “Noxla Tamulili Nononta” 
+			“Tchonsla Tamulili Nononta” “Aguiltahud Tamulili Nononta” “Aguilcaxta Tamulili Nononta”
 		}
 		female_names = {
-			Placeholder
+			“Tahuaj Ijtejla” “Caxla Ijtejla” “Cali Ijtejla” “Paxla Ijtejla” “Puaxla Ijtejla” “Daschi Ijtejla” “Huischi Ijtejla” 
+			“Pujta Lijpuxla Ijtejla” “Noxla Ijtejla” “Tchonsla Ijtejla” “Aguiltahud Ijtejla” “Aguilcaxta Ijtejla” 
+			“Tahuaj Xla” “Caxla Xla” “Cali Xla” “Paxla Xla” “Puaxla Xla” “Daschi Xla” “Huischi Xla” “Pujta Lijpuxla Xla” “Noxla Xla” 
+			“Tchonsla Xla” “Aguiltahud Xla” “Aguilcaxta Xla”
+			“Tahuaj Cueduc” “Caxla Cueduc” “Cali Cueduc” “Paxla Cueduc” “Puaxla Cueduc” “Daschi Cueduc” “Huischi Cueduc” 
+			“Pujta Lijpuxla Cueduc” “Noxla Cueduc” “Tchonsla Cueduc” “Aguiltahud Cueduc” “Aguilcaxta Cueduc”
+			“Tahuaj Cooyo” “Caxla Cooyo” “Cali Cooyo” “Paxla Cooyo” “Puaxla Cooyo” “Daschi Cooyo” “Huischi Cooyo” 
+			“Pujta Lijpuxla Cooyo” “Noxla Cooyo” “Tchonsla Cooyo” “Aguiltahud Cooyo” “Aguilcaxta Cooyo”
+			“Tahuaj Poma” “Caxla Poma” “Cali Poma” “Paxla Poma” “Puaxla Poma” “Daschi Poma” “Huischi Poma” “Pujta Lijpuxla Poma” 
+			“Noxla Poma” “Tchonsla Poma” “Aguiltahud Poma” “Aguilcaxta Poma”
+			“Tahuaj Huma” “Caxla Huma” “Cali Huma” “Paxla Huma” “Puaxla Huma” “Daschi Huma” “Huischi Huma” “Pujta Lijpuxla Huma” 
+			“Noxla Huma” “Tchonsla Huma” “Aguiltahud Huma” “Aguilcaxta Huma” 
+			“Tahuaj Mojen” “Caxla Mojen” “Cali Mojen” “Paxla Mojen” “Puaxla Mojen” “Daschi Mojen” “Huischi Mojen” “Pujta Lijpuxla Mojen” 
+			“Noxla Mojen” “Tchonsla Mojen” “Aguiltahud Mojen” “Aguilcaxta Mojen”
+			“Tahuaj Tamulili Nononta” “Caxla Tamulili Nononta” “Cali Tamulili Nononta” “Paxla Tamulili Nononta” “Puaxla Tamulili Nononta” 
+			“Daschi Tamulili Nononta” “Huischi Tamulili Nononta” “Pujta Lijpuxla Tamulili Nononta” “Noxla Tamulili Nononta” 
+			“Tchonsla Tamulili Nononta” “Aguiltahud Tamulili Nononta” “Aguilcaxta Tamulili Nononta”
 		}
 	}
 	
@@ -2155,10 +2460,44 @@ chiapan = {
 	
 	chiapanec = {
 		male_names = {
-			Placeholder
+			“Tiche Marimulu Nacapu” “Humihi Marimulu Nacapu” “Hemihi Marimulu Nacapu” “Ahua Mihi Marimulu Nacapu” 
+			“Hau Mihi Marimulu Nacapu” “Hamba Mihi Marimulu Nacapu” “Hendimihi Marimulu Nacapu” “Hahu Mihi Marimulu Nacapu” 
+			“Heli Mihi Marimulu Nacapu” “Henda Marimulu Nacapu” “Henda Mundiche Marimulu Nacapu”
+			“Tiche Nangu” “Humihi Nangu” “Hemihi Nangu” “Ahua Mihi Nangu” “Hau Mihi Nangu” “Hamba Mihi Nangu” 
+			“Hendimihi Nangu” “Hahu Mihi Nangu” “Heli Mihi Nangu” “Henda Nangu” “Henda Mundiche Nangu”
+			“Tiche Nulu Llacaume” “Humihi Nulu Llacaume” “Hemihi Nulu Llacaume” “Ahua Mihi Nulu Llacaume” “Hau Mihi Nulu Llacaume” 
+			“Hamba Mihi Nulu Llacaume” “Hendimihi Nulu Llacaume” “Hahu Mihi Nulu Llacaume” “Heli Mihi Nulu Llacaume”
+			“Henda Nulu Llacaume” “Henda Mundiche Nulu Llacaume”
+			“Tiche Nimbu” “Humihi Nimbu” “Hemihi Nimbu” “Ahua Mihi Nimbu” “Hau Mihi Nimbu” “Hamba Mihi Nimbu” “Hendimihi Nimbu” 
+			“Hahu Mihi Nimbu” “Heli Mihi Nimbu” “Henda Nimbu” “Henda Mundiche Nimbu” 
+			“Tiche Numbi” “Humihi Numbi” “Hemihi Numbi” “Ahua Mihi Numbi” “Hau Mihi Numbi” “Hamba Mihi Numbi” “Hendimihi Numbi” 
+			“Hahu Mihi Numbi” “Heli Mihi Numbi” “Henda Numbi” “Henda Mundiche Numbi” 
+			“Tiche Naguagua” “Humihi Naguagua” “Hemihi Naguagua” “Ahua Mihi Naguagua” “Hau Mihi Naguagua” “Hamba Mihi Naguagua” 
+			“Hendimihi Naguagua” “Hahu Mihi Naguagua” “Heli Mihi Naguagua” “Henda Naguagua” “Henda Mundiche Naguagua”
+			“Tiche Otoño” “Humihi Otoño” “Hemihi Otoño” “Ahua Mihi Otoño” “Hau Mihi Otoño” “Hamba Mihi Otoño” “Hendimihi Otoño” 
+			“Hahu Mihi Otoño” “Heli Mihi Otoño” “Henda Otoño” “Henda Mundiche Otoño” 
+			“Tiche Nulu” “Humihi Nulu” “Hemihi Nulu” “Ahua Mihi Nulu” “Hau Mihi Nulu” “Hamba Mihi Nulu” “Hendimihi Nulu” “Hahu Mihi Nulu” 
+			“Heli Mihi Nulu” “Henda Nulu” “Henda Mundiche Nulu” 
 		}
 		female_names = {
-			Placeholder
+			“Tiche Marimulu Nacapu” “Humihi Marimulu Nacapu” “Hemihi Marimulu Nacapu” “Ahua Mihi Marimulu Nacapu” 
+			“Hau Mihi Marimulu Nacapu” “Hamba Mihi Marimulu Nacapu” “Hendimihi Marimulu Nacapu” “Hahu Mihi Marimulu Nacapu” 
+			“Heli Mihi Marimulu Nacapu” “Henda Marimulu Nacapu” “Henda Mundiche Marimulu Nacapu”
+			“Tiche Nangu” “Humihi Nangu” “Hemihi Nangu” “Ahua Mihi Nangu” “Hau Mihi Nangu” “Hamba Mihi Nangu” 
+			“Hendimihi Nangu” “Hahu Mihi Nangu” “Heli Mihi Nangu” “Henda Nangu” “Henda Mundiche Nangu”
+			“Tiche Nulu Llacaume” “Humihi Nulu Llacaume” “Hemihi Nulu Llacaume” “Ahua Mihi Nulu Llacaume” “Hau Mihi Nulu Llacaume” 
+			“Hamba Mihi Nulu Llacaume” “Hendimihi Nulu Llacaume” “Hahu Mihi Nulu Llacaume” “Heli Mihi Nulu Llacaume”
+			“Henda Nulu Llacaume” “Henda Mundiche Nulu Llacaume”
+			“Tiche Nimbu” “Humihi Nimbu” “Hemihi Nimbu” “Ahua Mihi Nimbu” “Hau Mihi Nimbu” “Hamba Mihi Nimbu” “Hendimihi Nimbu” 
+			“Hahu Mihi Nimbu” “Heli Mihi Nimbu” “Henda Nimbu” “Henda Mundiche Nimbu” 
+			“Tiche Numbi” “Humihi Numbi” “Hemihi Numbi” “Ahua Mihi Numbi” “Hau Mihi Numbi” “Hamba Mihi Numbi” “Hendimihi Numbi” 
+			“Hahu Mihi Numbi” “Heli Mihi Numbi” “Henda Numbi” “Henda Mundiche Numbi” 
+			“Tiche Naguagua” “Humihi Naguagua” “Hemihi Naguagua” “Ahua Mihi Naguagua” “Hau Mihi Naguagua” “Hamba Mihi Naguagua” 
+			“Hendimihi Naguagua” “Hahu Mihi Naguagua” “Heli Mihi Naguagua” “Henda Naguagua” “Henda Mundiche Naguagua”
+			“Tiche Otoño” “Humihi Otoño” “Hemihi Otoño” “Ahua Mihi Otoño” “Hau Mihi Otoño” “Hamba Mihi Otoño” “Hendimihi Otoño” 
+			“Hahu Mihi Otoño” “Heli Mihi Otoño” “Henda Otoño” “Henda Mundiche Otoño” 
+			“Tiche Nulu” “Humihi Nulu” “Hemihi Nulu” “Ahua Mihi Nulu” “Hau Mihi Nulu” “Hamba Mihi Nulu” “Hendimihi Nulu” “Hahu Mihi Nulu” 
+			“Heli Mihi Nulu” “Henda Nulu” “Henda Mundiche Nulu”
 		}
 	}
 }

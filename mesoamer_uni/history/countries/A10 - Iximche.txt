@@ -7,6 +7,7 @@ primary_culture = kaqchikel
 capital = 688
 fixed_capital = 688
 
+#HISTORICAL*
 1425.1.1 = {
 	monarch = {
 		name = "Wuqu Batz"

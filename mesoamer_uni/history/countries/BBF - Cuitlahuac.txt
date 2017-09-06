@@ -7,6 +7,7 @@ primary_culture = cuitlahuaca
 capital = 32
 fixed_capital = 32
 
+#HISTORICAL*
 1427.1.1 = {
 	monarch = {
 		name = "Xochitl Olinqui"

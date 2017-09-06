@@ -1,7 +1,7 @@
 add_core = B64
 owner = B64
 controller = B64
-culture = mixtec
+culture = zapotec
 religion = placeholderism
 hre = no
 base_tax = 2

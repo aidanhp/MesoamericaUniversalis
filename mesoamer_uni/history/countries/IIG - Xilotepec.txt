@@ -7,6 +7,7 @@ primary_culture = otomi
 capital = 217
 fixed_capital = 217
 
+#HISTORICAL*
 1428.1.1 = {
 	monarch = {
 		name = "Mixcoatl"

@@ -7,6 +7,7 @@ primary_culture = tlaxcallan
 capital = 754
 fixed_capital = 754
 
+#HISTORICAL*
 1426.1.1 = {
 	monarch = {
 		name = "Aztahua Tlacaztalli"
