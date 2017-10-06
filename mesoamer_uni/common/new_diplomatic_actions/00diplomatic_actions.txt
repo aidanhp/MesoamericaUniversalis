@@ -58,7 +58,7 @@ demand_dummy = {
 	
 	is_visible = {
 		always = no ############################ Remove this line to unleash the magic ########################################
-		religion_group = christian
+		#religion_group = christian
 		is_subject = no
 		FROM = {
 			is_subject = no
@@ -119,8 +119,7 @@ demand_dummy = {
 			name = OPINION
 			export_to_variable = {
 				variable_name = ai_value
-				#value = opinion who = FROM with = THIS # This is supposed to work in the future
-				value = 10 # Temporary value until then
+				value = 
 			}
 			divide_variable = {
 				which = ai_value

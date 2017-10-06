@@ -7,7 +7,7 @@ hre = no
 base_tax = 6
 base_production = 12
 base_manpower = 43
-trade_goods = staple_crops 
+trade_goods = aquatic_foods
 
 capital = "Cempoallan"
 is_city = yes

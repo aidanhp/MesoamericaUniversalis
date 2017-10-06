@@ -7,9 +7,9 @@ hre = no
 base_tax = 2
 base_production = 5
 base_manpower = 17
-trade_goods = staple_crops 
+trade_goods = gold
 
-capital = "Zacatula"
+capital = "Zacatollan"
 is_city = yes
 fort_15th = yes
 

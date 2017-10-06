@@ -6,6 +6,9 @@ on_startup = {
 		}
 		#country_event = { id = init_test.01 }
 	}
+	AAA = {
+		country_event = { id = init.01 }
+	}
 }
 
 # country

@@ -7,7 +7,7 @@ hre = no
 base_tax = 2
 base_production = 5
 base_manpower = 17
-trade_goods = staple_crops 
+trade_goods = fruits
 
 capital = "Atotonilco"
 is_city = yes

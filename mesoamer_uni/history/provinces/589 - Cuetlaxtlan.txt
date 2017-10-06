@@ -7,7 +7,7 @@ hre = no
 base_tax = 4
 base_production = 8
 base_manpower = 28
-trade_goods = staple_crops 
+trade_goods = plumes
 
 capital = "Cuetlaxtlan"
 is_city = yes

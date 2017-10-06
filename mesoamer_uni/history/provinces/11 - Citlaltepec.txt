@@ -7,7 +7,7 @@ hre = no
 base_tax = 2
 base_production = 4
 base_manpower = 14
-trade_goods = staple_crops 
+trade_goods = maguey
 
 capital = "Citlaltepec"
 is_city = yes

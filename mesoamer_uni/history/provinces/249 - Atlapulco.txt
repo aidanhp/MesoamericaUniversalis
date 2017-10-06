@@ -1,7 +1,7 @@
 culture = placeholdertec
 religion = placeholderism
 capital = "Brussels"
-trade_goods = unknown
+trade_goods = wood
 hre = no
 base_tax = 1
 base_production = 1

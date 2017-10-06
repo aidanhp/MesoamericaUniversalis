@@ -1,0 +1,59 @@
+#TRADE MODIFIERS FOR PROVINCES WITH HISTORICALLY NOTABLE PRODUCTION OF A CERTAIN GOOD
+
+brine_springs_of_alahuiztlan = {
+	trade_goods_size = 4.0
+}
+
+brine_spring_of_tonatiuhco = {
+	trade_goods_size = 4.0
+}
+
+brine_spring_of_piaztlan = {
+	trade_goods_size = 3.0
+}
+
+brine_spring_of_acatlan = {
+	trade_goods_size = 3.0
+}
+
+tequexquite_soils_of_cuitzeo = {
+	trade_goods_size = 3.5
+}
+
+salt_beds_of_sacapulas = {
+	trade_goods_size = 4.0
+}
+
+brine_beds_of_tehuantepec = {
+	trade_goods_size = 3.5
+}
+
+brine_beds_of_tonala = {
+	trade_goods_size = 3.5
+}
+
+salt_flats_of_emal = {
+	trade_goods_size = 6.0
+}
+
+salt_flats_of_xtuul = {
+	trade_goods_size = 5.0
+}
+
+northern_yucatec_salt_flats = {
+	trade_goods_size = 2.5
+}
+
+balsas_mines = {
+	trade_goods_size = 4.0
+}
+
+otumba_obsidian_source = {
+	trade_goods_size = 6.0
+	province_trade_power_value = 8
+}
+
+pachuca_obsidian_source = {
+	trade_goods_size = 3.0
+	province_trade_power_value = 4
+}
