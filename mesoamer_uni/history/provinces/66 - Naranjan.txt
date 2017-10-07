@@ -8,7 +8,7 @@ hre = no
 base_tax = 1
 base_production = 3
 base_manpower = 9
-trade_goods = staple_crops 
+trade_goods = maguey
 
 capital = "Naranjan"
 is_city = yes

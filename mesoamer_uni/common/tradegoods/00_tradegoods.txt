@@ -25,14 +25,10 @@
 #ceramics
 #domesticated_animals
 #construction_stone
-#balsas_metals *Special, do not assign yet
-#tolteca_crafts *Special, do not assign yet
+#balsas_metals 
+#tolteca_crafts 
 
-#Possible new trade goods - construction stone, domesticated animals
-#Resources 
-#All modifiers and chances are placeholders
-#Jontiben - I recommend giving each trade good a unique color to help you when making the map
-#I'll leave the colors up to you, they don't have to be permanent 
+#Possible trade goods for later - Amatl Paper, Tin
 
 staple_crops = {
 	color = { 0.96 0.93 0.58 }
