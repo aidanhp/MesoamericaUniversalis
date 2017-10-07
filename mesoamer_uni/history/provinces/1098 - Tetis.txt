@@ -12,7 +12,7 @@ trade_goods = staple_crops
 
 capital = "Tetis"
 is_city = yes
-fort_15th = yes
+
 
 discovered_by = western_european_tg
 discovered_by = triple_alliance_tg 

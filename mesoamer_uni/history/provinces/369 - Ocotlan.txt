@@ -12,7 +12,7 @@ trade_goods = copal
 
 capital = "Ocotlan"
 is_city = yes
-fort_15th = yes
+
 
 discovered_by = western_european_tg
 discovered_by = triple_alliance_tg 

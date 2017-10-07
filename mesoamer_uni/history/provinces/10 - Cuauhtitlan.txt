@@ -12,7 +12,7 @@ trade_goods = ceramics
 
 capital = "Cuauhtitlan"
 is_city = yes
-fort_15th = yes
+
 
 discovered_by = triple_alliance_tg 
 discovered_by = central_mexican_tg 

@@ -10,7 +10,7 @@ trade_goods = staple_crops
 base_manpower = 9
 capital = "Tlalchapa"
 is_city = yes
-fort_15th = yes
+
 
 discovered_by = triple_alliance_tg 
 discovered_by = central_mexican_tg 
