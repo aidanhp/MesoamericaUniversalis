@@ -7,7 +7,7 @@ hre = no
 base_tax = 7
 base_production = 14
 base_manpower = 50
-trade_goods = staple_crops 
+trade_goods = tolteca_crafts
 
 capital = "Cholula"
 is_city = yes

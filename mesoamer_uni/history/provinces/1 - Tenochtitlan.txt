@@ -7,7 +7,7 @@ hre = no
 base_tax = 5
 base_production = 10
 base_manpower = 35
-trade_goods = staple_crops 
+trade_goods = tolteca_crafts
 
 capital = "Tenochtitlan"
 is_city = yes
