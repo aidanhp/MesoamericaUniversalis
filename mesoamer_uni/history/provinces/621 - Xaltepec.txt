@@ -7,7 +7,8 @@ religion = placeholderism
 hre = no
 base_tax = 2
 base_production = 3
-base_manpower = gold
+base_manpower = 11
+trade_goods = gold
 
 capital = "Xaltepec"
 is_city = yes
