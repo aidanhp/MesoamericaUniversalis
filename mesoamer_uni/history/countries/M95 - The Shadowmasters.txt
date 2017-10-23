@@ -9,8 +9,8 @@ fixed_capital = 2072
 
 1.1.1 = {
 	monarch = {
-		name = "Jared"
-		dynasty = "Diamond"
+		name = "Jared Diamond"
+		dynasty = " "
 		birth_date = 1.1.1
 		adm = 6
 		dip = 6
@@ -24,9 +24,9 @@ fixed_capital = 2072
 
 1.1.2 = {
 	heir = {
-		name = "Erich"
-		monarch_name = "Erich"
-		dynasty = "von Daniken" 
+		name = "Erich von Daniken"
+		monarch_name = "Erich von Daniken"
+		dynasty = " " 
 		birth_date = 1.1.1
 		death_date = 2500.1.1
 		claim = 100
