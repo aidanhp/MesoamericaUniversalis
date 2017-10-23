@@ -1,0 +1,36 @@
+# For specific government types
+# Will pick the first valid one it finds in list
+
+gov_eternal_universal_monarchy = {
+	rank = {
+		3 = UNIVERSAL_EMPIRE
+	}
+	
+	ruler_male = {
+		3 = SHADOW_EMPEROR
+	}
+	
+	ruler_female = {
+		3 = SHADOW_EMPRESS
+	}
+	
+	consort_male = {
+		3 = DARK_PRINCE
+	}
+
+	consort_female = {
+		3 = DARK_PRINCESS
+	}
+	
+	heir_male = {
+		3 = DARK_PRINCE
+	}
+
+	heir_female = {
+		3 = DARK_PRINCESS
+	}
+	
+	trigger = {
+		government = eternal_universal_monarchy
+	}
+}

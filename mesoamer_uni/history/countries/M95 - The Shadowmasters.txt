@@ -1,0 +1,37 @@
+government = eternal_universal_monarchy 
+government_rank = 3
+mercantilism = 1.0
+technology_group = western_european_tg
+religion = none
+primary_culture = shadowmaster
+capital = 2072
+fixed_capital = 2072
+
+1.1.1 = {
+	monarch = {
+		name = "Jared"
+		dynasty = "Diamond"
+		birth_date = 1.1.1
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = silver_tongue_personality  
+	add_ruler_personality = malevolent_personality  
+	add_ruler_personality = immortal_personality    
+}
+
+1.1.2 = {
+	heir = {
+		name = "Erich"
+		monarch_name = "Erich"
+		dynasty = "von Daniken" 
+		birth_date = 1.1.1
+		death_date = 2500.1.1
+		claim = 100
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}

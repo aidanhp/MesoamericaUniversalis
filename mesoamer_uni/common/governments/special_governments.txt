@@ -1,0 +1,44 @@
+#Do not change tags in here without changing every other reference to them.
+#If adding new forms of governemnts, make sure they are uniquely named.
+
+#Uses all 'modifiers' possible that's exported as a Modifier.
+
+# valid_for_new_country determines which governments can be converted to normally
+# allow_convert determines which governments can be force-converted to and from via CBs
+
+#ai_will_do will only check if it's valid,and won't break unions or switch to republic from monarchy, nor check to convert to something earlier in the file.
+#ai_importance determines overall 'quality' of government when government is auto-picked.
+
+####################################
+#
+#Monarchies
+#
+####################################
+
+eternal_universal_monarchy = {
+	monarchy = yes
+	
+	valid_for_new_country = no
+	valid_for_nation_designer = no
+	nation_designer_cost = 0
+	
+	color = { 5 5 5 }
+		
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 0
+	
+	max_states = 999
+
+	rank = {
+		3 = {
+			global_unrest = -500
+			global_autonomy = -5
+			land_morale = 50.0 
+			discipline = 5.0 
+			global_tax_income = 50
+		}
+	}
+	fixed_rank = 3
+}

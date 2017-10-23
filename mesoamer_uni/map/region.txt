@@ -168,6 +168,12 @@ maya_central_lowlands_region = {
 	}
 }
 
+mordor = {
+	areas = {
+		the_dark_island
+	}
+}
+
 #SEA
 atlantic_region = {
 	areas = {
