@@ -1,0 +1,56 @@
+#################################################
+# MODIFIERS RELATED TO NEW GAME MECHANICS IN MU #
+#################################################
+
+###################
+#Draft Laws System#
+###################
+
+draft_system = {
+	local_manpower_modifier = -1.0
+}
+
+elite_warrior_class = {
+	local_manpower = 0.05
+	local_manpower_modifier = 0.01
+}
+
+draft_law_level_1 = {
+	local_manpower_modifier = 0.025
+	local_unrest = 0.25
+	local_tax_modifier = -0.025
+	local_production_efficiency = -0.0375
+	local_build_time = 0.05
+}
+
+draft_law_level_2 = {
+	local_manpower_modifier = 0.05
+	local_unrest = 0.50
+	local_tax_modifier = -0.05
+	local_production_efficiency = -0.075
+	local_build_time = 0.10
+}
+
+draft_law_level_3 = {
+	local_manpower_modifier = 0.10
+	local_unrest = 0.75
+	local_tax_modifier = -0.10
+	local_production_efficiency = -0.15
+	local_build_time = 0.20
+}
+
+draft_law_level_4 = {
+	local_manpower_modifier = 0.125
+	local_unrest = 1.0
+	local_tax_modifier = -0.125
+	local_production_efficiency = -0.1875
+	local_build_time = 0.25
+}
+
+recruitment_drive = {
+	manpower_recovery_speed = 4.0
+}
+
+draft_law_change_cooldown = {
+	#No effect 
+}

@@ -1,13 +1,20 @@
 # country
 on_startup = {
+	if = {
+		limit = {
+			NOT = { has_global_flag = init_done }
+		}
+		M95 = {
+			country_event = { id = init.01 }
+		}
+		set_global_flag = init_done
+	}
+	#Effect tester - uncomment the country event to use
 	every_country = {
 		limit = {
 			ai = no
 		}
 		#country_event = { id = init_test.01 }
-	}
-	AAA = {
-		country_event = { id = init.01 }
 	}
 }
 

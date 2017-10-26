@@ -1,0 +1,40 @@
+#Event Template
+country_event = {
+	id = NAMESPACE.##
+	
+	title = "NAMESPACE1.t"
+	desc = "NAMESPACE1.d"
+	
+	picture = REFORM_eventPicture 
+	
+	#fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	#trigger = {
+	#	
+	#}
+	
+	#mean_time_to_happen = {
+	#	months = 1
+	#}
+	
+	option = {
+		name = "NAMESPACE1.a"
+		#Effects
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = {
+		name = "NAMESPACE1.b"
+		#Effects
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+

@@ -1,0 +1,36 @@
+﻿l_english:
+ ##############################################################################################################
+ #Event/Decision/Tooltip/Modifier Localization for New Mechanics that do not clearly fit into Another Category#
+ ##############################################################################################################
+ 
+ #Draft Laws#
+ 
+ #Events
+ draft_laws1.t: "Set Draft Law"
+ draft_laws1.d: "Here you can declare a new draft law. Draft laws determine your maximum available manpower - the more extreme the draft law, the larger the pool of men you can potentially recruit from. If you change your draft law, you will be unable to do so again for one year. \nCurrently, our draft law is set to level [Root.v_draft_law.GetValue]."
+ draft_laws1.a: "Draft Law 1 - 5% of Male Commoners"
+ draft_laws1.b: "Draft Law 2 - 10% of Male Commoners"
+ draft_laws1.c: "Draft Law 3 - 20% of Male Commoners"
+ draft_laws1.dd: "Draft Law 4 - 25% of Male Commoners"
+ draft_laws1.e: "Done"
+ #Tooltips
+ draft_laws_tt_1: "If this draft law is lower than your current one, your manpower will be reduced to the new maximum."
+ #Modifiers
+ draft_system: "Draft System"
+ desc_draft_system: "This mod uses a draft law system to determine the precentage of a province's population you can call to war. To change the draft law, use the 'Set Draft Law' decision."
+ elite_warrior_class: "Elite Warrior Class"
+ desc_elite_warrior_class: "Represents the manpower contribution of the elite warrior class present throughout Mesoamerica; essentially the Mesoamerican equivalent of knights." 
+ draft_law_level_1: "Draft Law Level 1"
+ draft_law_level_2: "Draft Law Level 2"
+ draft_law_level_3: "Draft Law Level 3"
+ draft_law_level_4: "Draft Law Level 4" 
+ recruitment_drive: "Recruitment Drive"
+ desc_recruitment_drive: "We have recently increased our draft law and a recruitment drive is under way." 
+ draft_law_change_cooldown: "Draft Law Change Cooldown"
+ #Decisions
+ set_draft_laws_title: "Set Draft Laws"
+ set_draft_laws_desc: "Declare a new recruitment policy that will either increase or decrease your potential manpower pool, and also affect your provinces in various ways. \nCurrently, our draft law is set to level [Root.v_draft_law.GetValue]." 
+ 
+ 
+ 
+ 

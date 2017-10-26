@@ -15,14 +15,7 @@ country_event = {
 	option = {
 		name = "init_test1.a"
 		
-		2220 = {
-			export_to_variable = {
-				which = test_v1
-				value = base_tax 
-			}
-		}
-		
-		change_variable = { which = test_v1 value = 0.5 }
+		add_manpower = 0.10
 		
 		ai_chance = {
 			factor = 50
