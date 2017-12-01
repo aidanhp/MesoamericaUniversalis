@@ -90,10 +90,22 @@ legalised_divorces_aspect = {
 		republican_tradition = 0.1
 	}
 	ai_will_do = {
-		factor = 12
+		factor = 6
 		modifier = {
 			factor = 2
-			NOT = { legitimacy = 60 }
+			NOT = { legitimacy_equivalent = 80 }
+		}
+		modifier = {
+			factor = 2
+			NOT = { legitimacy_equivalent = 60 }
+		}
+		modifier = {
+			factor = 2
+			NOT = { legitimacy_equivalent = 40 }
+		}
+		modifier = {
+			factor = 0
+			legitimacy_equivalent = 95
 		}
 	}
 }

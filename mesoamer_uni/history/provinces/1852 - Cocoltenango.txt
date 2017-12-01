@@ -1,5 +1,5 @@
 culture = tzeltal
-religion = maya
+religion = religion_maya
 capital = "Cocoltenango"
 trade_goods = unknown
 hre = no

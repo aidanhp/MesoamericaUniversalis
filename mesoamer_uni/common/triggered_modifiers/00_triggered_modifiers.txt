@@ -2,24 +2,272 @@
 # these are checked for each countries once/month and then applied.
 #
 # Effects are fully scriptable here.
-######################################
-# Italian - Submission to Emperor
-######################################
-submission_to_emperor = {
+
+#Legitimacy#
+legitimacy_nreq_1 = {
 	potential = {
-		has_global_flag = italy_out_of_HRE
-		culture_group = latin
+		has_country_modifier = normal_tribute_requirements
 	}
-
+	
 	trigger = {
-		is_emperor = no
-		NOT = { tag = ITA }
-		capital_scope = {
-			is_part_of_hre = yes
-		}
+		legitimacy = 90
 	}
+	
+	global_unrest = -2
+}
 
+legitimacy_nreq_2 = {
+	potential = {
+		has_country_modifier = normal_tribute_requirements
+	}
+	
+	trigger = {
+		legitimacy = 80
+		NOT = { legitimacy = 90 }
+	}
+	
+	global_unrest = -1
+}
+
+legitimacy_nreq_3 = {
+	potential = {
+		has_country_modifier = normal_tribute_requirements
+	}
+	
+	trigger = {
+		legitimacy = 70
+		NOT = { legitimacy = 80 }
+	}
+	
 	global_unrest = 3
-	stability_cost_modifier = 0.1
-	prestige = -1
+}
+
+legitimacy_nreq_4 = {
+	potential = {
+		has_country_modifier = normal_tribute_requirements
+	}
+	
+	trigger = {
+		legitimacy = 60
+		NOT = { legitimacy = 70 }
+	}
+	
+	global_unrest = 6
+}
+
+legitimacy_nreq_5 = {
+	potential = {
+		has_country_modifier = normal_tribute_requirements
+	}
+	
+	trigger = {
+		legitimacy = 50
+		NOT = { legitimacy = 60 }
+	}
+	
+	global_unrest = 9
+}
+
+legitimacy_nreq_6 = {
+	potential = {
+		has_country_modifier = normal_tribute_requirements
+	}
+	
+	trigger = {
+		legitimacy = 40
+		NOT = { legitimacy = 50 }
+	}
+	
+	global_unrest = 12
+}
+
+legitimacy_nreq_7 = {
+	potential = {
+		has_country_modifier = normal_tribute_requirements
+	}
+	
+	trigger = {
+		legitimacy = 30
+		NOT = { legitimacy = 40 }
+	}
+	
+	global_unrest = 15
+}
+
+legitimacy_nreq_8 = {
+	potential = {
+		has_country_modifier = normal_tribute_requirements
+	}
+	
+	trigger = {
+		legitimacy = 20
+		NOT = { legitimacy = 30 }
+	}
+	
+	global_unrest = 18
+}
+
+legitimacy_nreq_9 = {
+	potential = {
+		has_country_modifier = normal_tribute_requirements
+	}
+	
+	trigger = {
+		legitimacy = 10
+		NOT = { legitimacy = 20 }
+	}
+	
+	global_unrest = 21
+}
+
+legitimacy_nreq_10 = {
+	potential = {
+		has_country_modifier = normal_tribute_requirements
+	}
+	
+	trigger = {
+		legitimacy = 0
+		NOT = { legitimacy = 10 }
+	}
+	
+	global_unrest = 24
+}
+
+#Government Stats#
+hegemonic_5 = {
+	potential = {
+		always = yes
+	}
+	
+	trigger = {
+		NOT = { check_variable = { which = v_terr_hege value = -80 } }
+	}
+	
+	global_autonomy = 0.10
+	core_creation = -0.25
+}
+
+hegemonic_4 = {
+	potential = {
+		always = yes
+	}
+	
+	trigger = {
+		check_variable = { which = v_terr_hege value = -80 }
+		NOT = { check_variable = { which = v_terr_hege value = -60 } }
+	}
+	
+	global_autonomy = 0.08
+	core_creation = -0.20
+}
+
+hegemonic_3 = {
+	potential = {
+		always = yes
+	}
+	
+	trigger = {
+		check_variable = { which = v_terr_hege value = -60 }
+		NOT = { check_variable = { which = v_terr_hege value = -40 } }
+	}
+	
+	global_autonomy = 0.06
+	core_creation = -0.15
+}
+
+hegemonic_2 = {
+	potential = {
+		always = yes
+	}
+	
+	trigger = {
+		check_variable = { which = v_terr_hege value = -40 }
+		NOT = { check_variable = { which = v_terr_hege value = -20 } }
+	}
+	
+	global_autonomy = 0.04
+	core_creation = -0.10
+}
+
+hegemonic_1 = {
+	potential = {
+		always = yes
+	}
+	
+	trigger = {
+		check_variable = { which = v_terr_hege value = -20 }
+		NOT = { check_variable = { which = v_terr_hege value = 0 } }
+	}
+	
+	global_autonomy = 0.02
+	core_creation = -0.05
+}
+
+territorial_1 = {
+	potential = {
+		always = yes
+	}
+	
+	trigger = {
+		check_variable = { which = v_terr_hege value = 0 }
+		NOT = { check_variable = { which = v_terr_hege value = 20 } }
+	}
+	
+	global_autonomy = -0.02
+	max_states = 1 
+}
+
+territorial_2 = {
+	potential = {
+		always = yes
+	}
+	
+	trigger = {
+		check_variable = { which = v_terr_hege value = 20 }
+		NOT = { check_variable = { which = v_terr_hege value = 40 } }
+	}
+	
+	global_autonomy = -0.04
+	max_states = 2
+}
+
+territorial_3 = {
+	potential = {
+		always = yes
+	}
+	
+	trigger = {
+		check_variable = { which = v_terr_hege value = 40 }
+		NOT = { check_variable = { which = v_terr_hege value = 60 } }
+	}
+	
+	global_autonomy = -0.06
+	max_states = 3
+}
+
+territorial_4 = {
+	potential = {
+		always = yes
+	}
+	
+	trigger = {
+		check_variable = { which = v_terr_hege value = 60 }
+		NOT = { check_variable = { which = v_terr_hege value = 80 } }
+	}
+	
+	global_autonomy = -0.08
+	max_states = 4
+}
+
+territorial_5 = {
+	potential = {
+		always = yes
+	}
+	
+	trigger = {
+		check_variable = { which = v_terr_hege value = 80 }
+	}
+	
+	global_autonomy = -0.10
+	max_states = 5
 }

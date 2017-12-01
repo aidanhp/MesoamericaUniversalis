@@ -51,7 +51,7 @@ default = {
 	# Properties:
 	has_overlords_ruler = no
 	can_fight_independence_war = yes
-	is_voluntary = no											# Whether they can leave the relationship whenever they want
+	is_voluntary = no									# Whether they can leave the relationship whenever they want
 	transfer_trade_power = no
 	transfer_trade_if_merchant_republic = no
 	joins_overlords_wars = yes
@@ -59,9 +59,9 @@ default = {
 	can_be_integrated = no
 	can_release_and_play = no							# "Release Colony" in SubjectView
 	uses_tariffs = no
-	dynamically_created_during_history = no			# If the country is automatically created. ( Makes for special checks during history )
-	eats_overlords_colonies = no							# Wheter subject assumes control of overlord's colonies in same colonial region.
-	has_colonial_parent = no								# Regulates most rules that should hold only for colonies
+	dynamically_created_during_history = no				# If the country is automatically created. ( Makes for special checks during history )
+	eats_overlords_colonies = no						# Wheter subject assumes control of overlord's colonies in same colonial region.
+	has_colonial_parent = no							# Regulates most rules that should hold only for colonies
 	overlord_can_attack = yes
 	overlord_can_be_subject = no
 	can_have_subjects_of_other_types = no
@@ -71,29 +71,33 @@ default = {
 	can_release_in_peace = yes
 	uses_military_focus = yes
 	overlord_protects_external = no						# Whether overlord always gets called (declinable) against countries without the same overlord. When this is 'no' overlord will only join if the defender would have been blocked (by its subject type) from attacking the attacker.
-	counts_for_borders = yes								# Whether distance between borders counts this subject type as part of its overlord's borders.
-	overlord_enforce_peace_attacking = no			# Whether the overlord can enforce peace on the subject's enemy even when the subject is the attacker
-	can_use_claims = yes									# Whether the overlord can use the subject's claims and cores for declaring war
+	counts_for_borders = yes							# Whether distance between borders counts this subject type as part of its overlord's borders.
+	overlord_enforce_peace_attacking = no				# Whether the overlord can enforce peace on the subject's enemy even when the subject is the attacker
+	can_use_claims = yes								# Whether the overlord can use the subject's claims and cores for declaring war
 	gives_daimyo_bonuses = no
 	gets_help_with_rebels = no							# Only for AI. Bidirectional.
 	share_rebel_popup = yes								# Whether the Overlord gets popups about Subject's rebels and sees them in Stability View.
+	separatists_become_subjects = no					# Whether separatist rebels enforcing demands will become subjects of the overlord.
 	allows_taking_land_without_independence = no
 	can_transfer_in_peace = yes							# Whether this subject type can be made into a vassal with the "Transfer Subject" Age Ability.
+	can_set_mil_focus = yes
+	can_send_missionary_to_subject = yes				# Requires Cradle of Civilization
+	can_union_break = no								# Only works together with has_overlords_ruler
 	
 	max_government_rank = 0								# 0 means no limit
 	cities_required_for_bonuses = 0						# How many cities the subject needs before giving bonuses to overlord
-	trust_on_start = 35										# Overlord and subject will each get this much extra trust with each other at game start
+	trust_on_start = 35									# Overlord and subject will each get this much extra trust with each other at game start
 
 	base_liberty_desire = 0.0
 	liberty_desire_negative_prestige = 0.0
 	liberty_desire_development_ratio = 0.0
 	liberty_desire_same_dynasty = 0.0
-	pays_overlord = 0.0										# 1.0 represents the amount payed by vassals
-	forcelimit_bonus = 0.0									# 1.0 represents bonus from having a vassal
-	military_focus = 1.0										# How much the AI subject should spend etc. on army and forts. 0 should make them spend nothing. Very high values will probably not make a big difference since there will be sanity checks.
+	pays_overlord = 0.0									# 1.0 represents the amount payed by vassals
+	forcelimit_bonus = 0.0								# 1.0 represents bonus from having a vassal
+	military_focus = 1.0								# How much the AI subject should spend etc. on army and forts. 0 should make them spend nothing. Very high values will probably not make a big difference since there will be sanity checks.
 
-	relative_power_class = 1 								# See description above
-	diplomacy_view_class = 1								# See description above
+	relative_power_class = 1 							# See description above
+	diplomacy_view_class = 1							# See description above
 
 	can_fight = {
 	}
@@ -135,6 +139,7 @@ default = {
 	demand_artifacts = no
 	demand_additional_tribute = no
 	force_seppuku = no
+	press_sailors = no
 	contribute_to_capital = no
 	force_isolation = no
 	return_land = no
@@ -158,9 +163,6 @@ default = {
 vassal = {
 	copy_from = default
 	
-	use_vassal_ui = yes
-	construct_vassal = yes
-	
 	# Graphics:
 	sprite = GFX_icon_vassal
 	diplomacy_overlord_sprite = GFX_diplomacy_leadvassal
@@ -180,6 +182,8 @@ vassal = {
 	forcelimit_bonus = 1.0
 
 	relative_power_class = 2
+	
+	restoration_cb = cb_disloyal_vassal
 
 	# Subject Interactions:
 	scutage = yes
@@ -203,11 +207,6 @@ vassal = {
 
 march = {
 	copy_from = vassal
-
-	use_march_ui = yes
-	use_vassal_ui = no
-	construct_vassal = no
-	construct_march = yes	
 	
 	# Graphics:
 	sprite = GFX_icon_march
@@ -240,7 +239,7 @@ march = {
 		modifier = march_bonus
 		trigger = {
 			NOT = {
-				total_development = 200
+				development_of_overlord_fraction = 0.25
 			}
 		}
 		expiration_message_overlord = MARCHTOOLARGE
@@ -251,13 +250,13 @@ march = {
 daimyo_vassal = {
 	copy_from = vassal
 	count = vassal
-
 	
 	# Properties:
 	has_power_projection = yes
 	takes_diplo_slot = no
 	gives_daimyo_bonuses = yes
 	gets_help_with_rebels = no
+	separatists_become_subjects = yes
 	allows_taking_land_without_independence = yes
 	can_use_claims = no
 
@@ -323,9 +322,6 @@ daimyo_vassal = {
 
 personal_union = {
 	copy_from = default
-	
-	use_union_ui = yes
-	construct_union = yes
 
 	# Graphics:
 	sprite = GFX_court_union
@@ -338,12 +334,16 @@ personal_union = {
 	overlord_can_attack = no
 	has_power_projection = no
 	gets_help_with_rebels = yes
+	can_have_subjects_of_other_types = yes
+	can_union_break = yes
 
 	liberty_desire_negative_prestige = 1.0
 	military_focus = 0.66
 
 	relative_power_class = 1
 
+	restoration_cb = cb_restore_personal_union
+	
 	# Subject Interactions:
 	placate_rulers = no
 	enforce_culture = yes
@@ -363,7 +363,6 @@ client_vassal = {
 	copy_from = vassal
 	count = vassal
 	
-
 	# Graphics:
 	diplomacy_overlord_sprite = GFX_diplomacy_leadclients
 	diplomacy_subject_sprite = GFX_diplomacy_areclients
@@ -380,7 +379,6 @@ client_vassal = {
 client_march = {
 	copy_from = march
 	count = march
-	
 
 	# Graphics:
 	diplomacy_overlord_sprite = GFX_diplomacy_leadclients
@@ -398,9 +396,6 @@ client_march = {
 
 colony = {
 	copy_from = default
-
-	use_colonial_ui = yes
-	construct_colonial = yes
 	
 	# Graphics:
 	sprite = GFX_subject_colony_icon
@@ -420,13 +415,15 @@ colony = {
 	dynamically_created_during_history = yes
 	overlord_enforce_peace_attacking = yes
 	can_transfer_in_peace = no
+	press_sailors = yes
+	forcelimit_bonus = 1.0
 	
 	liberty_desire_development_ratio = 0.1
 
 	max_government_rank = 1
 	cities_required_for_bonuses = 10
 
-	relative_power_class = 1
+	relative_power_class = 0
 
 	can_fight = {
 		other_overlord = colony
@@ -503,6 +500,8 @@ tributary_state = {
 	can_use_claims = no
 	share_rebel_popup = no
 	can_transfer_in_peace = no
+	can_set_mil_focus = no
+	can_send_missionary_to_subject = no
 	
 	liberty_desire_development_ratio = 0.175
 	trust_on_start = 0

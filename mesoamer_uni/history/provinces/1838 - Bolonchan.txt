@@ -1,5 +1,5 @@
 culture = tzotzil
-religion = maya
+religion = religion_maya
 capital = "Bolonchan"
 trade_goods = unknown
 hre = no

@@ -1,5 +1,5 @@
 culture = manche
-religion = maya
+religion = religion_maya
 capital = "Chijolom"
 trade_goods = unknown
 hre = no

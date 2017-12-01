@@ -1,5 +1,5 @@
 culture = mopan
-religion = maya
+religion = religion_maya
 capital = "Cifuentes"
 trade_goods = unknown
 hre = no

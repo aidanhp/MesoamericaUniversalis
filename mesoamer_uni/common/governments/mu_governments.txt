@@ -1,0 +1,100 @@
+#Do not change tags in here without changing every other reference to them.
+#If adding new forms of governemnts, make sure they are uniquely named.
+
+#Uses all 'modifiers' possible that's exported as a Modifier.
+
+# valid_for_new_country determines which governments can be converted to normally
+# allow_convert determines which governments can be force-converted to and from via CBs
+
+#ai_will_do will only check if it's valid,and won't break unions or switch to republic from monarchy, nor check to convert to something earlier in the file.
+#ai_importance determines overall 'quality' of government when government is auto-picked.
+
+############
+#Monarchies#
+############
+absolute_hereditary_monarchy = {
+	monarchy = yes
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	
+	color = { 179 25 25 }
+		
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+
+	rank = {
+		1 = {
+			max_states = 1
+			legitimacy = 0.5
+			max_absolutism = 5
+		}
+		2 = {
+			max_states = 2
+			legitimacy = 0.5
+			max_absolutism = 7.5
+		}
+		3 = {
+			max_states = 3
+			legitimacy = 0.5
+			max_absolutism = 10
+		}
+	}
+}
+
+absolute_elective_monarchy = {
+	monarchy = yes
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	
+	color = { 179 25 25 }
+		
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+
+	rank = {
+		1 = {
+			max_states = 1
+			max_absolutism = 5
+		}
+		2 = {
+			max_states = 2
+			max_absolutism = 7.5
+		}
+		3 = {
+			max_states = 3
+			max_absolutism = 10
+		}
+	}
+}
+
+###########
+#Republics#
+###########
+
+#Noble Republic
+
+#Senatorial Republic 
+
+#############
+#Theocracies#
+#############
+
+all_mechanics = {
+	monarchy = yes
+	valid_for_new_country = no
+	valid_for_nation_designer = no
+
+	government_abilities = {
+		russian_mechanic
+		feudal_theocracy_mechanic
+		tribal_federation_mechanic
+		mamluk_mechanic
+		iqta_mechanic
+	}
+}

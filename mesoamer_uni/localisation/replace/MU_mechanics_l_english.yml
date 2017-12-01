@@ -1,10 +1,7 @@
 ﻿l_english:
- ##############################################################################################################
  #Event/Decision/Tooltip/Modifier Localization for New Mechanics that do not clearly fit into Another Category#
- ##############################################################################################################
  
  #Draft Laws#
- 
  #Events
  draft_laws1.t: "Set Draft Law"
  draft_laws1.d: "Here you can declare a new draft law. Draft laws determine your maximum available manpower - the more extreme the draft law, the larger the pool of men you can potentially recruit from. If you change your draft law, you will be unable to do so again for one year. \nCurrently, our draft law is set to level [Root.v_draft_law.GetValue]."
@@ -14,6 +11,7 @@
  draft_laws1.dd: "Draft Law 4 - 25% of Male Commoners"
  draft_laws1.e: "Done"
  #Tooltips
+ display_test_variable_tt: "Num of States: [Root.v_num_of_states.GetValue]"
  draft_laws_tt_1: "If this draft law is lower than your current one, your manpower will be reduced to the new maximum."
  #Modifiers
  draft_system: "Draft System"
@@ -31,6 +29,27 @@
  set_draft_laws_title: "Set Draft Laws"
  set_draft_laws_desc: "Declare a new recruitment policy that will either increase or decrease your potential manpower pool, and also affect your provinces in various ways. \nCurrently, our draft law is set to level [Root.v_draft_law.GetValue]." 
  
- 
+ #Tribute System#
+ #Events
+ tribute1.t: "Set Tribute Requirements"
+ tribute1.d: "Here you declare new tribute requirements. Tribute requirements determine how much manpower and how many ducats you recieve each year in tribute payments from provinces you own that are not in states. The higher your tribute requirements, the more manpower and ducats you will recieve. However, you must ensure that you stay above a certain level of legitimacy or you may face large-scale rebellions. Each level of tribute requirements has a different legitimacy 'cutoff', where going lower becomes dangerous. \n• At low requirements, the cutoff is 70 legitimacy. \n• At normal requirements, the cutoff is 80 legitimacy. \n• At high requirements, the cutoff is 95 legitimacy. \nCurrently, our tribute requirements are set to level [Root.v_trib_reqs.GetValue]."
+ tribute1.a: "Set requirements to low (level 1)"
+ tribute1.b: "Set requirements to normal (level 2)"
+ tribute1.c: "Set requirements to high (level 3)"
+ tribute1.dd: "Done"
+ tribute2.t: "Time for Tribute"
+ tribute2.d: "Time to make those damned peasants pay up!"
+ tribute2.a: "Send out the tribute collectors!"
+ #Tooltips
+ trib_reqs_low_tt: "Every year you will recieve ducats equal to 4% of your tribute paying population with an additional 10 ducats, capped at 400. You will also gain 1000 manpower for every set of 120,000 tribute paying people in your realm." 
+ trib_reqs_norm_tt: "Every year you will recieve ducats equal to 6% of your tribute paying population with an additional 10 ducats, capped at 600. You will also gain 1000 manpower for every set of 90,000 tribute paying people in your realm." 
+ trib_reqs_high_tt: "Every year you will recieve ducats equal to 8% of your tribute paying population with an additional 10 ducats, capped at 800. You will also gain 1000 manpower for every set of 60,000 tribute paying people in your realm." 
+ #Modifiers
+ low_tribute_requirements: "Low Tribute Requirements"
+ normal_tribute_requirements: "Normal Tribute Requirements"
+ high_tribute_requirements: "High Tribute Requirements" 
+ #Decisions
+ set_tribute_requirements_title: "Set Tribute Requirements"
+ set_tribute_requirements_desc: "Declare a change in tribute requirements for your tributary (non-state) provinces. To learn more about the tribute system, see the encyclopedia entry."
  
  

@@ -1,0 +1,261 @@
+#Calculation of Government Stats
+namespace = stats_calc 
+
+#Calculate all gov stats yearly
+country_event = {
+	id = stats_calc.01
+	
+	title = "stats_calc1.t"
+	desc = "stats_calc1.d"
+	
+	picture = REFORM_eventPicture 
+	
+	is_triggered_only = yes
+	
+	#trigger = {
+	#	
+	#}
+	
+	immediate = {
+		every_country = {
+			#Calculate Territorial vs. Hegemonic#
+			#States
+			if = {
+				limit = {
+					num_of_states = 3
+				}
+				change_variable = { which = v_terr_hege_change value = 0.5 } 
+			}
+			if = {
+				limit = {
+					num_of_states = 4
+				}
+				change_variable = { which = v_terr_hege_change value = 0.5 } 
+			}
+			if = {
+				limit = {
+					num_of_states = 5
+				}
+				change_variable = { which = v_terr_hege_change value = 0.5 } 
+			}
+			if = {
+				limit = {
+					num_of_states = 6
+				}
+				change_variable = { which = v_terr_hege_change value = 0.5 } 
+			}
+			if = {
+				limit = {
+					num_of_states = 7
+				}
+				change_variable = { which = v_terr_hege_change value = 0.5 } 
+			}
+			if = {
+				limit = {
+					num_of_states = 8
+				}
+				change_variable = { which = v_terr_hege_change value = 0.5 } 
+			}
+			if = {
+				limit = {
+					num_of_states = 9
+				}
+				change_variable = { which = v_terr_hege_change value = 0.5 } 
+			}
+			if = {
+				limit = {
+					num_of_states = 10
+				}
+				change_variable = { which = v_terr_hege_change value = 0.5 } 
+			}
+			if = {
+				limit = {
+					num_of_states = 11
+				}
+				change_variable = { which = v_terr_hege_change value = 0.25 } 
+			}
+			if = {
+				limit = {
+					num_of_states = 12
+				}
+				change_variable = { which = v_terr_hege_change value = 0.25 } 
+			}
+			if = {
+				limit = {
+					num_of_states = 13
+				}
+				change_variable = { which = v_terr_hege_change value = 0.25 } 
+			}
+			if = {
+				limit = {
+					num_of_states = 14
+				}
+				change_variable = { which = v_terr_hege_change value = 0.25 } 
+			}
+			if = {
+				limit = {
+					num_of_states = 15
+				}
+				change_variable = { which = v_terr_hege_change value = 0.25 } 
+			}
+			if = {
+				limit = {
+					num_of_states = 16
+				}
+				change_variable = { which = v_terr_hege_change value = 0.25 } 
+			}
+			if = {
+				limit = {
+					num_of_states = 17
+				}
+				change_variable = { which = v_terr_hege_change value = 0.25 } 
+			}
+			if = {
+				limit = {
+					num_of_states = 18
+				}
+				change_variable = { which = v_terr_hege_change value = 0.25 } 
+			}
+			if = {
+				limit = {
+					num_of_states = 19
+				}
+				change_variable = { which = v_terr_hege_change value = 0.25 } 
+			}
+			if = {
+				limit = {
+					num_of_states = 20
+				}
+				change_variable = { which = v_terr_hege_change value = 0.25 } 
+			}
+			
+			#Policies
+			if = {
+				limit = {
+					AND = {
+						has_active_policy = territorial_strategy
+						NOT = { check_variable = { which = v_terr_hege value = 20 } }
+					}
+				}
+				change_variable = { which = v_terr_hege_change value = 2 } 
+			}
+			if = {
+				limit = {
+					AND = {
+						has_active_policy = territorial_strategy
+						check_variable = { which = v_terr_hege value = 20 }
+					}
+				}
+				change_variable = { which = v_terr_hege_change value = 1 } 
+			}
+			if = {
+				limit = {
+					AND = {
+						has_active_policy = hegemonic_strategy
+						check_variable = { which = v_terr_hege value = -20 }
+					}
+				}
+				change_variable = { which = v_terr_hege_change value = -2 } 
+			}
+			if = {
+				limit = {
+					AND = {
+						has_active_policy = hegemonic_strategy
+						check_variable = { which = v_terr_hege value = -20 }
+					}
+				}
+				change_variable = { which = v_terr_hege_change value = -1 } 
+			}
+			
+			#Vassals
+			if = {
+				limit = {
+					num_of_vassals = 1 
+				}
+				change_variable = { which = v_terr_hege_change value = -0.5 } 
+				
+				if = {
+					limit = {
+						num_of_vassals = 2 
+					}
+					change_variable = { which = v_terr_hege_change value = -0.5 } 
+				}
+				if = {
+					limit = {
+						num_of_vassals = 3 
+					}
+					change_variable = { which = v_terr_hege_change value = -0.5 } 
+				}
+				if = {
+					limit = {
+						num_of_vassals = 4 
+					}
+					change_variable = { which = v_terr_hege_change value = -0.5 } 
+				}
+				if = {
+					limit = {
+						num_of_vassals = 5 
+					}
+					change_variable = { which = v_terr_hege_change value = -0.5 } 
+				}
+				if = {
+					limit = {
+						num_of_vassals = 6 
+					}
+					change_variable = { which = v_terr_hege_change value = -0.5 } 
+				}
+				if = {
+					limit = {
+						num_of_vassals = 7 
+					}
+					change_variable = { which = v_terr_hege_change value = -0.5 } 
+				}
+				if = {
+					limit = {
+						num_of_vassals = 8 
+					}
+					change_variable = { which = v_terr_hege_change value = -0.5 } 
+				}
+				if = {
+					limit = {
+						num_of_vassals = 9 
+					}
+					change_variable = { which = v_terr_hege_change value = -0.5 } 
+				}
+				if = {
+					limit = {
+						num_of_vassals = 10 
+					}
+					change_variable = { which = v_terr_hege_change value = -0.5 } 
+				}
+			}
+			
+			#Cleanup
+			change_variable = { which = v_terr_hege value = v_terr_hege_change }
+			set_variable = { which = v_terr_hege_display_c value = v_terr_hege_change }
+			set_variable = { which = v_terr_hege_change value = 0 }
+			
+			#Legal Tradition#
+			
+			
+			#Meritocratic Tradition#
+			
+			
+			#Religious Tradition#
+			
+			
+			#Militancy#
+			
+			
+		}
+	}
+	
+	option = {
+		name = "stats_calc1.a"
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+

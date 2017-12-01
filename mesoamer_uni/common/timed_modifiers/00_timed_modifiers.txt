@@ -145,6 +145,13 @@ forced_isolation = {
 	}
 }
 
+pressed_sailors= {
+	liberty_desire = {
+		value = 15
+		yearly_decay = 1
+	}
+}
+
 lost_independence_war = {
 	reduced_liberty_desire = {
 		value = 50

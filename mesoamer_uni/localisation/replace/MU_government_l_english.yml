@@ -1,5 +1,7 @@
 ﻿l_english:
- ##Government Ranks##
+ #Localization for Governments#
+ 
+ #Government Ranks#
  #Defaults
  LORDSHIP: "Lordship"
  DIVINE_LORDSHIP: "Divine Lordship"
@@ -10,7 +12,7 @@
  TLAHTOHCAYOTL: "Tlahtohcayotl"
  HUEY_TLAHTOHCAYOTL: "Huey-Tlahtohcayotl"
  
- ##Titles##
+ #Titles#
  #Defaults
  LORD: "Lord"
  LADY: "Lady"
@@ -30,3 +32,13 @@
  CIHUATLATOANI: "Cihuatlatoani"
  HUEY_CIHUATLATOANI: "Huey-Cihuatlatoani"
  HUEYHUEY_CIHUATLATOANI: "Hueyhuey-Cihuatlatoani"
+ 
+ #Government Types#
+ 
+ #Gov-related Decisions#
+ display_government_stats_title: "Display Government Statistics"
+ display_government_stats_desc: "Mouse over the decision box to view your current Government Stats. Government statistics/stats are a set of five values that grant your country various bonuses and detriments. They are affected by in-game actions such as policies, event choices, or even winning wars. To learn more, see the encyclopedia entry."
+ 
+ #Gov-related custom tooltips#
+ display_gov_stats_tt: "Territorial vs. Hegemonic: §G[Root.v_terr_hege.GetValue]§! (Change Last Year: §Y[Root.v_terr_hege_display_c.GetValue]§!) \nLegal Tradition: §G[Root.v_legal_tradition.GetValue]§! \nMeritocratic Tradition: §G[Root.v_merit_tradition.GetValue]§! \nReligious Tradition: §G[Root.v_religious_tradition.GetValue]§! \nMilitancy: §G[Root.v_militancy.GetValue]§!"
+ 

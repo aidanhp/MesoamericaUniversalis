@@ -1,5 +1,7 @@
 ﻿l_english: 
- #Nahua
+ #Localization for National Ideas#
+ 
+ #Nahua#
  nahua_ideas: "Nahua Ideas"
  nahua_ideas_start: "Nahua Traditions"
  nahua_ideas_bonus: "Nahua Ambitions"
@@ -18,7 +20,7 @@
  great_cultural_legacy: "Great Cultural Legacy"
  great_cultural_legacy_desc: "The nahuas saw themselves as the preservers of the long cultural tradition of central mexico, especially that of Tula and Teotihuacan. These two great abandoned cities were a constant reminder to those who came before and rulers often made pilgrimages to them and would connect themselves to their legacy in any way possible to maintain their own legitimacy to rule."
  
- #West Mexican
+ #West Mexican#
  westmexican_ideas: "West Mexican Ideas"
  westmexican_ideas_start: "West Mexican Traditions"
  westmexican_ideas_bonus: "West Mexican Ambitions"
@@ -37,7 +39,7 @@
  cultural_resilience: "Cultural Resilience"
  cultural_resilience_desc: "Cultures in our area are notoriously difficult to subdue, and even more difficult to assimilate, especially for outsiders."
  
- #Putun Chontal
+ #Putun Chontal#
  putun_chontal_ideas: "Putun Chontal Ideas"
  putun_chontal_ideas_start: "Putun Chontal Traditions"
  putun_chontal_ideas_bonus: "Putun Chontal Ambitions"
@@ -56,7 +58,7 @@
  vested_interests: "Vested Interests"
  vested_interests_desc: "Sometimes we must flex our muscles to maintain our position and relations with other states. Fortunately, there will always be warriors ready to exercise our influence… for the right cost."
  
- #Huaxyacac
+ #Huaxyacac#
  huaxyacac_ideas: "Huaxyacac Ideas"
  huaxyacac_ideas_start: "Huaxyacac Traditions"
  huaxyacac_ideas_bonus: "Huaxyacac Ambitions"
@@ -75,7 +77,7 @@
  border_markets: "Border Markets"
  border_markets_desc: "Although the main exports of the highlands of our land are agricultural and mineral, many luxuries reach us from the southern coast - pearls, cotton, cacao, feathers, shells, and a unique purple dye from a snail. It’s important that these goods be traded freely throughout the realm, and the establishment of border markets between each of the small kingdoms in the land - and between us and our neighbors to the north - allows us to facilitate and profit from that trade."
  
- #Lowland Maya
+ #Lowland Maya#
  lowland_maya_ideas: "Lowland Maya Ideas"
  lowland_maya_ideas_start: "Lowland Maya Traditions"
  lowland_maya_ideas_bonus: "Lowland Maya Ambitions"
@@ -94,7 +96,7 @@
  uinik_and_batab: "Uinik and Batab"
  uinik_and_batab_desc: "On every level, our society is administered efficiently. There are a number of states, of course, ruled by a Halach Uinik who exacts tribute from the towns of their kingdom and governs the whole. Below him, each town is administered first by a batab governor, then by a deputy, then by a council of governors. In wartime, matters are controlled by the nakom captain. Each town is also divided into wards - and each of these has a governor, too. This complex system of central control and delegation ensures that our state is effectively administered at all levels and all times."
  
- #Highland Maya
+ #Highland Maya#
  highland_maya_ideas: "Highland Maya Ideas"
  highland_maya_ideas_start: "Highland Maya Traditions"
  highland_maya_ideas_bonus: "Highland Maya Ambitions"

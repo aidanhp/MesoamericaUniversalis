@@ -1,0 +1,166 @@
+#Events related to the tribute system
+namespace = tribute
+
+#Set Tribute Requirements
+country_event = {
+	id = tribute.01
+	
+	title = "tribute1.t"
+	desc = "tribute1.d"
+	
+	picture = ECONOMY_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "tribute1.a"
+		trigger = {
+			NOT = { has_country_modifier = low_tribute_requirements }
+		}
+		custom_tooltip = trib_reqs_low_tt
+		
+		add_adm_power = -50
+		add_years_of_income = -0.20
+		
+		remove_country_modifier = normal_tribute_requirements
+		remove_country_modifier = high_tribute_requirements
+		
+		add_country_modifier = { 
+			name = low_tribute_requirements
+			duration = -1
+		}
+		
+		hidden_effect = {
+			set_variable = { which = v_trib_reqs value = 1 }
+			set_variable = { which = v_trib_legitimacy_cuttoff value = 70 } 
+			clr_country_flag = managing_trib_reqs
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = {
+		name = "tribute1.b"
+		trigger = {
+			NOT = { has_country_modifier = normal_tribute_requirements }
+		}
+		custom_tooltip = trib_reqs_norm_tt
+		
+		add_adm_power = -50
+		add_years_of_income = -0.20
+		
+		remove_country_modifier = low_tribute_requirements
+		remove_country_modifier = high_tribute_requirements
+		
+		add_country_modifier = { 
+			name = normal_tribute_requirements
+			duration = -1
+		}
+		
+		hidden_effect = {
+			set_variable = { which = v_trib_reqs value = 2 }
+			set_variable = { which = v_trib_legitimacy_cuttoff value = 80 } 
+			clr_country_flag = managing_trib_reqs
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = {
+		name = "tribute1.c"
+		trigger = {
+			NOT = { has_country_modifier = high_tribute_requirements }
+		}
+		custom_tooltip = trib_reqs_high_tt
+		
+		add_adm_power = -50
+		add_years_of_income = -0.20
+		
+		remove_country_modifier = low_tribute_requirements
+		remove_country_modifier = normal_tribute_requirements
+		
+		add_country_modifier = { 
+			name = high_tribute_requirements
+			duration = -1
+		}
+		
+		hidden_effect = {
+			set_variable = { which = v_trib_reqs value = 3 }
+			set_variable = { which = v_trib_legitimacy_cuttoff value = 95 } 
+			clr_country_flag = managing_trib_reqs
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = {
+		name = "tribute1.dd"
+		
+		clr_country_flag = managing_trib_reqs
+	
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Send out the Collectors!
+country_event = {
+	id = tribute.02
+	
+	title = "tribute2.t"
+	desc = "tribute2.d"
+	
+	picture = ECONOMY_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "tribute2.a"
+		
+		country_event = { id = tribute.03 days = 14 }
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Tribute Collection
+country_event = {
+	id = tribute.03
+	
+	title = "tribute3.t"
+	desc = "tribute3.d"
+	
+	picture = ECONOMY_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		#Decide who will pay and add their development to the tribute population
+		
+		#A province's local unrest is the primary determinant of how likely they are to rebel. Local unrest is affected by a lot of things
+		#Legitimacy is most important. The lower your legitimacy below your legitimacy cutoff, the higher local unrest will be
+	}
+	
+	option = {
+		name = "tribute3.a"
+		
+		#Pay tribute
+		
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+
+

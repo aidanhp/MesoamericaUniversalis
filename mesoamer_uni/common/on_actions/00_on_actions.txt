@@ -93,6 +93,22 @@ on_battle_won_province = {
 	}
 }
 
+#Unit Scope OnAction for Battle Won
+on_battle_won_unit = {
+	if = {
+		limit = {
+			unit_owner = { ai = no } #Scopes to Unit Owner from Unit Scope
+			general_with_steam_name = yes #Unit Scope Trigger
+		}
+		unit_owner = { set_country_flag = general_with_steam_name_won_battle }
+	}
+}
+
+# #Unit Scope OnAction for Battle Lost
+on_battle_lost_unit = {
+	
+}
+
 # province
 # root = location, from = country doing it
 on_added_to_trade_company ={
@@ -200,6 +216,13 @@ on_death_election = {
 	}
 }
 
+# country
+on_death_foreign_slave_ruler = {
+	events = {
+		mamluk_events.0 # Choose new ruler
+	}
+}
+
 # country 
 on_replace_governor = {
 	events = {
@@ -214,8 +237,8 @@ on_bankruptcy = {
 
 # country (country annexing, root = target)
 on_diplomatic_annex = {
-	events = {
-		
+	FROM = {
+		change_variable = { which = v_terr_hege_change value = 5 }
 	}
 }
 
@@ -405,6 +428,9 @@ on_colonial_pulse = {
 	}
 }
 
+on_siberian_pulse = {
+}
+
 # country random events
 on_bi_yearly_pulse = {
 	random_events = {
@@ -548,10 +574,21 @@ on_lose_great_power_status = {
 
 # province
 on_province_religion_converted = {
+	FROM = {
+		change_variable = { which = v_terr_hege_change value = 0.5 }
+	}
 }
 
 # province
 on_province_culture_converted = {
+	FROM = {
+		change_variable = { which = v_terr_hege_change value = 0.5 }
+	}
+}
+
+# THIS = Province, FROM = Country who Propogated
+on_convert_by_trade_policy = {
+	
 }
 
 # province
@@ -623,10 +660,74 @@ on_harmonized_vajrayana = {
 }
 
 
+# country
+on_russian_sudebnik = {
+
+}
+
+# country
+on_russian_oprichnina = {
+
+}
+
+# country
+on_russian_streltsy = {
+
+}
+
+# province
+on_consecrate_patriarch = {
+}
+
 # country. from = overlord
 on_accept_tribute = {
 }
 
 # country. from = overlord
 on_refuse_tribute = {
+}
+
+# country
+on_leader_recruited = {
+}
+
+# country
+on_general_recruited = {
+
+}
+
+# country
+on_admiral_recruited = {
+}
+
+# country
+on_conquistador_recruited = {
+}
+
+# country
+on_explorer_recruited = {
+}
+
+# THIS = Province, FROM = Country
+on_regiment_recruited = {
+	
+}
+
+# THIS = Province, FROM = Country
+on_mercenary_recruited = {
+
+}
+
+# THIS = One province in the state
+on_add_pasha = {
+}
+
+# THIS = One province in the state
+on_remove_pasha = {
+
+}
+
+# THIS = Province
+on_janissares_raised = {
+	
 }

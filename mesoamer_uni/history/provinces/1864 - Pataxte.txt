@@ -1,5 +1,5 @@
 culture = qeqchi
-religion = maya
+religion = religion_maya
 capital = "Pataxte"
 trade_goods = unknown
 hre = no

@@ -1,0 +1,9 @@
+Event file categories
+
+CTRY - mechanical events about the upper workings of a country
+INIT - game initialization/setup
+TEST - testing
+FLAV - flavor events for specific countries/cultures
+POPS - population
+RLGN - religion related
+BLDG - building related

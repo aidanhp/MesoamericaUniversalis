@@ -1,5 +1,7 @@
 ﻿l_english:
- ##Tech Groups##
+ #Localization for everything related to technology#
+ 
+ #Tech Groups#
  western_european_tg: "Western European"
  triple_alliance_tg: "Triple Alliance"
  tlaxcallan_tg: "Tlaxcallan"
@@ -8,4 +10,4 @@
  huaxyacac_tg: "Huaxyacac"
  west_mexican_tg: "West Mexican"
  maya_tg: "Maya"
- ##Technology##
+ #Technology#

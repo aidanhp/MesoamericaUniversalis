@@ -12,10 +12,7 @@ groups = {
 			trigger = {
 				capital_scope = {
 					OR = {
-						continent = new_world
-						continent = north_america
-						continent = south_america
-						continent = oceania
+						continent = continent_1
 					}
 				}
 			}
@@ -30,10 +27,7 @@ groups = {
 			trigger = {
 				capital_scope = {
 					OR = {
-						continent = new_world
-						continent = north_america
-						continent = south_america
-						continent = oceania
+						continent = continent_1
 					}
 				}
 			}
@@ -48,10 +42,7 @@ groups = {
 			trigger = {
 				capital_scope = {
 					OR = {
-						continent = new_world
-						continent = north_america
-						continent = south_america
-						continent = oceania
+						continent = continent_1
 					}
 				}
 			}
@@ -66,10 +57,7 @@ groups = {
 			trigger = {
 				capital_scope = {
 					OR = {
-						continent = new_world
-						continent = north_america
-						continent = south_america
-						continent = oceania
+						continent = continent_1
 					}
 				}
 			}
@@ -84,10 +72,7 @@ groups = {
 			trigger = {
 				capital_scope = {
 					OR = {
-						continent = new_world
-						continent = north_america
-						continent = south_america
-						continent = oceania
+						continent = continent_1
 					}
 				}
 			}
@@ -102,10 +87,7 @@ groups = {
 			trigger = {
 				capital_scope = {
 					OR = {
-						continent = new_world
-						continent = north_america
-						continent = south_america
-						continent = oceania
+						continent = continent_1
 					}
 				}
 			}
@@ -120,10 +102,7 @@ groups = {
 			trigger = {
 				capital_scope = {
 					OR = {
-						continent = new_world
-						continent = north_america
-						continent = south_america
-						continent = oceania
+						continent = continent_1
 					}
 				}
 			}
@@ -138,10 +117,7 @@ groups = {
 			trigger = {
 				capital_scope = {
 					OR = {
-						continent = new_world
-						continent = north_america
-						continent = south_america
-						continent = oceania
+						continent = continent_1
 					}
 				}
 			}

@@ -83,6 +83,15 @@ can_improve_production = {
 can_improve_manpower = {
 }
 
+can_exploit_tax = {
+}
+
+can_exploit_production = {
+}
+
+can_exploit_manpower = {
+}
+
 can_change_culture = {
 }
 
@@ -111,6 +120,9 @@ can_burn_colony = {
 }
 
 can_colonize_province = {
+}
+
+can_colonize_province_siberian_frontier = {
 }
 
 can_add_seat_in_parliament = {

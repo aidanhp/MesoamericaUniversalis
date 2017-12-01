@@ -1,10 +1,12 @@
 ﻿l_english:
- #New Terrain Types
+ #Localization for Everything Related to Terrain#
+ 
+ #New Terrain Types#
  tropical_savanna:0 "Tropical Savanna"
  tropical_savanna_desc:0 "Tropical savanna represents humid, open areas of low, rolling hills with medium tropical tree cover and thick grasses."
  subtropical_highland_forest:0 "Subtropical Highland Forest"
  subtropical_highland_forest_desc:0 "Subtropical highland forest represents the temperate highland forests found in certain parts of Mesoamerica, mainly in the central highlands near mountains. Vegetation is dominated by pines, oaks, and junipers."
  
- #Edited Descriptions of Old Terrain Types
+ #Edited Descriptions of Old Terrain Types#
  
  

@@ -156,7 +156,6 @@ cb_trade_war_triggered = {
 	war_goal = superiority_trade
 
 	attacker_disabled_po = {
-		po_annex
 		po_demand_provinces
 		po_revoke_cores
 		po_release_vassals
@@ -165,6 +164,7 @@ cb_trade_war_triggered = {
 		po_become_vassal
 		po_become_tributary_state
 		po_form_personal_union
+		po_transfer_vassals
 	}
 }
 
@@ -177,7 +177,6 @@ cb_trade_conflict = {
 	war_goal = blockade_ports
 
 	attacker_disabled_po = {
-		po_annex
 		po_demand_provinces
 		po_revoke_cores
 		po_release_vassals
@@ -186,6 +185,7 @@ cb_trade_conflict = {
 		po_become_vassal
 		po_form_personal_union
 		po_become_tributary_state
+		po_transfer_vassals
 	}
 }
 
@@ -201,7 +201,6 @@ cb_trade_league_conflict = {
 	war_goal = blockade_ports
 
 	attacker_disabled_po = {
-		po_annex
 		po_demand_provinces
 		po_revoke_cores
 		po_release_vassals
@@ -210,6 +209,7 @@ cb_trade_league_conflict = {
 		po_become_vassal
 		po_become_tributary_state
 		po_form_personal_union
+		po_transfer_vassals
 	}
 }
 
@@ -370,7 +370,7 @@ cb_independent_daimyo_annex = {
 			vassal_of = FROM
 			junior_union_with = FROM
 		}
-		government = daimyo
+		government = indep_daimyo
 		from = { government = shogunate }
 		is_revolution_target = no
 	}
@@ -427,6 +427,7 @@ cb_revolutionary = {
 			government = dutch_republic
 			government = celestial_empire
 			government = iqta
+			government = mamluk_government
 			government = daimyo
 			government = shogunate
 			government = colonial_government
@@ -439,6 +440,7 @@ cb_revolutionary = {
 				government = dutch_republic
 				government = celestial_empire
 				government = iqta
+				government = mamluk_government
 				government = daimyo
 				government = shogunate
 				government = colonial_government
@@ -480,6 +482,27 @@ cb_liberation = {
 	}
 
 	war_goal = take_capital_liberation
+}
+
+# Holy War
+cb_crusade = {
+	valid_for_subject = no
+
+	prerequisites = {
+		is_neighbor_of = FROM
+		NOT = { religion_group = FROM }
+		NOT = {	has_matching_religion = FROM }
+		OR = {
+			AND = {
+				crusade_target = { tag = FROM }
+				religion = catholic
+			}
+			cb_on_religious_enemies = yes
+		}
+		is_revolution_target = no
+	}
+
+	war_goal = superiority_crusade
 }
 
 # Defender of the Faith
@@ -527,6 +550,40 @@ cb_heretic = {
 	war_goal = superiority_heretic
 }
 
+# Excommunication War
+cb_excommunication = {
+	valid_for_subject = no
+
+	prerequisites = {
+		FROM = {
+			is_excommunicated = yes
+			religion = catholic
+		}
+		religion = catholic
+		is_excommunicated = no
+		FROM = {
+			is_neighbor_of = ROOT
+			any_owned_province = {
+				OR = {
+					is_core = ROOT
+					is_claim = ROOT
+					any_neighbor_province = {
+						owned_by = ROOT
+					}
+				}
+			}
+		}
+		OR = {
+			hre_religion_treaty = no
+			capital_scope = { is_part_of_hre = no }
+			FROM = { capital_scope = { is_part_of_hre = no } }
+		}
+		is_revolution_target = no
+	}
+
+	war_goal = take_province_excommunication
+}
+
 # Trade War
 cb_trade_war = {
 
@@ -548,7 +605,6 @@ cb_trade_war = {
 	war_goal = superiority_trade_mutual
 
 	attacker_disabled_po = {
-		po_annex
 		po_demand_provinces
 		po_revoke_cores
 		po_release_vassals
@@ -557,6 +613,7 @@ cb_trade_war = {
 		po_become_vassal
 		po_become_tributary_state
 		po_form_personal_union
+		po_transfer_vassals
 	}
 }
 
@@ -573,7 +630,6 @@ cb_trade_league_dispute = {
 	war_goal = superiority_trade_mutual
 
 	attacker_disabled_po = {
-		po_annex
 		po_demand_provinces
 		po_revoke_cores
 		po_release_vassals
@@ -582,6 +638,7 @@ cb_trade_league_dispute = {
 		po_become_vassal
 		po_become_tributary_state
 		po_form_personal_union
+		po_transfer_vassals
 	}
 }
 
@@ -751,6 +808,65 @@ cb_support_rebels = {
 	war_goal = take_capital_support_rebels
 }
 
+# Revolution
+cb_crush_the_revolution = {
+	ai_peace_desire = -50
+	valid_for_subject = no
+
+
+	prerequisites = {
+		OR = {
+			capital_scope = { continent = europe }
+			is_neighbor_of = FROM
+		}
+		revolution_target_exists = yes
+		is_revolution_target = no
+		is_free_or_tributary_trigger = yes
+		OR = {
+			government = enlightened_despotism
+			government = despotic_monarchy
+			government = feudal_monarchy
+			government = administrative_monarchy
+			government = constitutional_monarchy
+			government = bureaucratic_despotism
+		}
+		NOT = {
+			revolution_target = {
+				war_with = ROOT
+			}
+			revolution_target = {
+				truce_with = ROOT
+			}
+			revolution_target = {
+				alliance_with = ROOT
+			}
+		}
+		FROM = {
+			is_revolution_target = yes
+		}
+	}
+
+	war_goal = take_capital_revolution
+}
+
+cb_spread_the_revolution = {
+	valid_for_subject = no
+
+	prerequisites = {
+		is_revolution_target = yes
+		OR = {
+			ai = no
+			capital_scope = { continent = europe }
+		}
+		FROM = {
+			NOT = { is_subject_of = ROOT }
+			NOT = { government = revolutionary_republic }
+		}
+	}
+
+	war_goal = superiority_revolution
+}
+
 cb_religious_league = {
 	league = yes
 	ai_peace_desire = -50
@@ -773,6 +889,43 @@ cb_religious_league = {
 	war_goal = superiority_religious_league
 }
 
+cb_flower_wars = {
+
+	valid_for_subject = no
+
+	prerequisites = {
+		has_dlc = "El Dorado"
+		religion = nahuatl
+		is_free_or_tributary_trigger = yes
+		is_religion_reformed = no
+		FROM = {
+			NOT = { is_subject_of = ROOT }
+		}
+		is_neighbor_of = FROM
+	}
+
+	war_goal = take_capital_vassalize
+}
+
+cb_maya_expansion = {
+
+	valid_for_subject = no
+
+	prerequisites = {
+		has_dlc = "El Dorado"
+		religion = mesoamerican_religion
+		is_free_or_tributary_trigger = yes
+		is_religion_reformed = no
+		FROM = {
+			NOT = { is_subject_of = ROOT }
+			religion_group = pagan
+		}
+		is_neighbor_of = FROM
+	}
+
+	war_goal = take_capital_mayan
+}
+
 # Rival Humiliate CB
 cb_humiliate_rotw = {
 	valid_for_subject = no
@@ -787,7 +940,6 @@ cb_humiliate_rotw = {
 	}
 
 	attacker_disabled_po = {
-		po_annex
 		po_demand_provinces
 		po_release_vassals
 		po_release_annexed
@@ -795,9 +947,71 @@ cb_humiliate_rotw = {
 		po_become_vassal
 		po_become_tributary_state
 		po_form_personal_union
+		po_transfer_vassals
 	}
 
 	war_goal = humiliate_rotw
+}
+
+# Reunification of China
+cb_chinese_unification = {
+	valid_for_subject = no
+
+	prerequisites = {
+		is_free_or_tributary_trigger = yes
+		OR = {
+			AND = {
+				has_dlc = "Mandate of Heaven"
+				is_emperor_of_china = yes
+			}
+			AND = {
+				NOT = { has_dlc = "Mandate of Heaven" }
+				culture_group = east_asian #Chinese
+				OR = {	#Manchus won't get this unless they unify
+					tag = MCH
+					tag = QNG
+					NOT = { primary_culture = manchu }
+				}
+			}
+		}
+		
+		FROM = { #Applies against other powers in China unless they have the Mandate of Heaven
+			NOT = { is_subject_of = ROOT }
+			OR = {
+				has_dlc = "Mandate of Heaven"
+				culture_group = east_asian #Chinese
+			}
+			any_owned_province = {
+				OR = {
+					region = north_china_region
+					region = xinan_region
+					region = south_china_region
+				}
+			}
+			NOT = { has_country_modifier = the_mandate_of_heaven }
+		}
+		is_neighbor_of = FROM
+	}
+
+	war_goal = superiority_chinese_unification
+}
+
+# Take the Mandate of Heaven
+cb_take_mandate = {
+	valid_for_subject = no
+
+	prerequisites = {
+		has_dlc = "Mandate of Heaven"
+		is_subject = no
+		is_neighbor_of = FROM
+		FROM = { is_emperor_of_china = yes }
+		OR = {
+			religion_group = pagan
+			religion_group = eastern
+		}
+	}
+
+	war_goal = take_capital_take_mandate
 }
 
 # Force migration

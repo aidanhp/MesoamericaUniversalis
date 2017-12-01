@@ -32,18 +32,44 @@ country_event = {
 				add_yearly_manpower = 0.55
 				
 				#Initialize Variables
+				set_variable = { which = v_terr_hege value = -40 }
+				set_variable = { which = v_terr_hege_change value = 0 }
+				set_variable = { which = v_terr_hege_display_c value = 0 } 
+				
+				set_variable = { which = v_legal_tradition value = 20 } 
+				set_variable = { which = v_merit_tradition value = 20 }
+				set_variable = { which = v_religious_tradition value = 20 } 
+				set_variable = { which = v_militancy value = 20 }
+				
 				set_variable = { which = v_draft_law value = 2 }
+				
+				set_variable = { which = v_trib_reqs value = 2 }
+				set_variable = { which = v_trib_legitimacy_cuttoff value = 80 }
+				set_variable = { which = v_trib_manpower value = 0 }
+				set_variable = { which = v_trib_ducats value = 0 }
 			}
 			
 			############################
 			#SETUP - SPECIFIC COUNTRIES#
 			############################
-			
+			every_country = { #Sets normal tribute requirements for all hegemonic countries
+				limit = { #Note - replace with having the first hegemonic idea unlocked later 
+					NOT = { check_variable = { which = v_terr_hege value = 20 } } 
+				}
+				add_country_modifier = {
+					name = normal_tribute_requirements
+					duration = -1
+				}
+			}
 		
 			########################
 			#SETUP - EVERY PROVINCE#
 			########################
 			every_province = {
+				#Initialize Variables
+				
+				
+				#Apply Universal Modifiers
 				add_permanent_province_modifier = {
 					name = draft_system 
 					duration = -1

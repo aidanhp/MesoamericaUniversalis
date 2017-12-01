@@ -1,5 +1,5 @@
 culture = yucatec
-religion = maya
+religion = religion_maya
 capital = "Bobal"
 trade_goods = unknown
 hre = no

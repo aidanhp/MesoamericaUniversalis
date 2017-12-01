@@ -1,5 +1,7 @@
 ﻿l_english:
- ##Trade Nodes##
+ #Localization for everything related to trade#
+ 
+ #Trade Nodes#
  tenochtitlan_tlatelolco_tn: "Tenochtitlan-Tlatelolco"
  cuscatlan_tn: "Cuscatlan"
  izalco_tn: "Izalco"
@@ -68,7 +70,8 @@
  kumarcaaj_tn: "K'umarcaaj"
  mayapan_tn: "Mayapan"
  tzintzuntzan_tn: "Tzintzuntzan"
- ##Normal Trade Goods##
+ 
+ #Normal Trade Goods#
  staple_crops: "Staple Crops"
  staple_cropsDESC: "Mesoamerica’s primary staple was maize, but several other widely consumed secondary crops such as beans, chile peppers, tomatoes, and squashes gave Mesoamericans an exceptionally nutritious diet. These crops would later go on to become essential staples all over the world after the Columbian Exchange."
  aquatic_foods: "Aquatic Foods"
@@ -113,7 +116,7 @@
  domesticated_animalsDESC: "Contrary to the efforts of certain modern mythmakers, Mesoamerica was home to several domesticated and semi-domesticated animals before the Columbian exchange, including several breeds of dogs, two breeds of turkey, and the muscovy duck. Semi-domesticates included the rabbit, the peccary and the deer, which were to greater or lesser degrees kept in captivity at or near cities. All animals mentioned, including dogs (although dogs had other obvious uses) were used as food sources. Several cities in the Valley of Mexico were notable for hosting large markets focusing on specific types of animals."
  construction_stone: "Construction Stone"
  construction_stoneDESC: "Besides limestone, there were several harder stones employed to make large structures and statues, such as basalt, andesite, and granite. Quarries of such stone were highly sought after, and the closer to the destination the better, since there were no transportation animals available. All stones had to be moved entirely by human labor, either carried by groups of humans or rolled to the destination on logs."
- ##Special Trade Goods##
+ #Special Trade Goods#
  balsas_metals: "Balsas Metals"
  balsas_metalsDESC: "The area around the Balsas River was perhaps the most metal-rich area in all of Mesoamerica, with large and bountiful mines of copper, silver, and gold. The mines also yielded salt and jade, and anyone who controlled the mines wielded massive economic power. The Mexica Empire and the Purepecha Kingdom fought over the mines several times starting the 1470s, but for the most part they remained firmly in Purepecha hands."
  tolteca_crafts: "Tolteca Crafts"

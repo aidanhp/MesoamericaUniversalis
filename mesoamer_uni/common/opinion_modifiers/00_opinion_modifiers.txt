@@ -180,6 +180,14 @@ consort_regent_marriage_ties = { # Goes under consort_marriage_ties in interface
 	opinion = 15
 }
 
+religious_school_relation = {
+	opinion = 25
+}
+
+same_religious_school_relation = {
+	opinion = 10
+}
+
 ##################################
 # Strategy
 ##################################
@@ -658,7 +666,7 @@ broke_transfer_trade_power = {
 }
 
 broke_march = {
-	opinion = -200
+	opinion = -50
 	yearly_decay = 3
 }
 
@@ -1182,7 +1190,7 @@ spa_ceded_malta_pap = {
 }
 
 spa_refused_ceding_malta = {
-	opinion = 25
+	opinion = -25
 	years = 25
 	yearly_decay = 1
 }
@@ -3657,6 +3665,11 @@ tributary_ungrateful_overlord = {
 	yearly_decay = 1
 }
 
+tributary_refused_tribute = {
+	opinion = -20
+	yearly_decay = 2
+}
+
 overlord_supported_our_enemies = {
 	opinion = -50
 	yearly_decay = 2
@@ -3674,5 +3687,110 @@ pirate_fighting = {
 
 overlord_military_aid = {
 	opinion = 50
+	yearly_decay = 1
+}
+
+st_nicholas_icon_gratitude = {
+	opinion = 50
+	yearly_decay = 2
+}
+
+siberian_intermezzo = {
+	opinion = -60
+	yearly_decay = 3
+}
+
+sack_of_x = {
+	opinion = -50
+	yearly_decay = 2
+}
+
+hired_defectors = {
+	opinion = -50
+	yearly_decay = 2
+}
+
+refused_to_hire_defectors = {
+	opinion = 50
+	yearly_decay = 2
+}
+
+coffee_plant_spread = {
+	opinion = -50
+	yearly_decay = 1
+}
+
+scholars_patronized_locally = {
+	opinion = 35
+	yearly_decay = 3
+}
+
+academic_respect = {
+	opinion = 50
+	yearly_decay = 2
+}
+
+growing_merchant_community = {
+	opinion = 50
+	yearly_decay = 2
+}
+
+merchants_discriminated = {
+	opinion = -50
+	yearly_decay = 2
+}
+
+making_us_rich = {
+	opinion = 50
+	yearly_decay = 3
+}
+
+meddled_in_trade = {
+	opinion = -50
+	yearly_decay = 3
+}
+
+helped_clear_out_bandits = {
+	opinion = 50
+	yearly_decay = 2
+}
+
+protectionism = {
+	opinion = -50
+	yearly_decay = 2
+}
+
+adopted_islamic_titles = {
+	opinion = 75
+	yearly_decay = 2
+}
+
+converted_to_islam = {
+	opinion = 50
+	yearly_decay = 1
+}
+
+discriminated_our_countrymen = {
+	opinion = -50
+	yearly_decay = 3
+}
+
+unsafe_caravans = {
+	opinion = -75
+	yearly_decay = 5
+}
+
+opinion_ruler_of_our_culture = {
+	opinion = 35
+	yearly_decay = 1
+}
+
+opinion_ruler_of_our_religion = {
+	opinion = 35
+	yearly_decay = 1
+}
+
+entertaining_heathens = {
+	opinion = -35
 	yearly_decay = 1
 }

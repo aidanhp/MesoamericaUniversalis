@@ -1,5 +1,5 @@
 culture = lacandon_chol
-religion = maya
+religion = religion_maya
 capital = "Chotal"
 trade_goods = unknown
 hre = no

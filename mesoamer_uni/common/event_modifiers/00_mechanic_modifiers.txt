@@ -2,9 +2,7 @@
 # MODIFIERS RELATED TO NEW GAME MECHANICS IN MU #
 #################################################
 
-###################
 #Draft Laws System#
-###################
 
 draft_system = {
 	local_manpower_modifier = -1.0
@@ -17,7 +15,6 @@ elite_warrior_class = {
 
 draft_law_level_1 = {
 	local_manpower_modifier = 0.025
-	local_unrest = 0.25
 	local_tax_modifier = -0.025
 	local_production_efficiency = -0.0375
 	local_build_time = 0.05
@@ -25,7 +22,7 @@ draft_law_level_1 = {
 
 draft_law_level_2 = {
 	local_manpower_modifier = 0.05
-	local_unrest = 0.50
+	local_unrest = 2
 	local_tax_modifier = -0.05
 	local_production_efficiency = -0.075
 	local_build_time = 0.10
@@ -33,7 +30,7 @@ draft_law_level_2 = {
 
 draft_law_level_3 = {
 	local_manpower_modifier = 0.10
-	local_unrest = 0.75
+	local_unrest = 4
 	local_tax_modifier = -0.10
 	local_production_efficiency = -0.15
 	local_build_time = 0.20
@@ -41,7 +38,7 @@ draft_law_level_3 = {
 
 draft_law_level_4 = {
 	local_manpower_modifier = 0.125
-	local_unrest = 1.0
+	local_unrest = 6
 	local_tax_modifier = -0.125
 	local_production_efficiency = -0.1875
 	local_build_time = 0.25
@@ -53,4 +50,21 @@ recruitment_drive = {
 
 draft_law_change_cooldown = {
 	#No effect 
+}
+
+#Tribute System#
+
+high_tribute_requirements = {
+	legitimacy = -3
+	global_unrest = 6
+}
+
+normal_tribute_requirements = {
+	legitimacy = -2
+	global_unrest = 3
+}
+
+low_tribute_requirements = {
+	legitimacy = -1
+	global_unrest = 1 
 }

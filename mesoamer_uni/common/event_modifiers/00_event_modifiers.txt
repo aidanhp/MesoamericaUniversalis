@@ -800,6 +800,7 @@ counter_reformation = {
 	missionaries = 2
 	technology_cost = 0.05
 	idea_cost = 0.05
+	religion = yes
 }
 
 russian_patriarchate = {
@@ -811,6 +812,7 @@ edict_de_nantes = {
 	tolerance_own = -1
 	religious_unity = 0.25
 }
+
 
 the_state_is_me = {
 	prestige = 0.5
@@ -830,6 +832,11 @@ the_provincial_system = {
 	global_unrest = 1
 }
 
+friday_prayers = {
+	tolerance_own = 1
+	monthly_piety = -0.01
+	diplomatic_reputation = -1
+}
 
 national_merchants = {
 	local_tax_modifier = -0.1
@@ -1007,10 +1014,11 @@ loyalist_stronghold = {
 }
 
 the_advancement_of_true_religion_act = {
-	global_unrest = 1
-	global_missionary_strength = 0.01
+	global_institution_spread = -0.05
+	global_missionary_strength = 0.005
 	religion = yes
 }
+
 the_blasphemy_act = {
 	global_missionary_strength = 0.01
 	tolerance_heretic = -1
@@ -1019,6 +1027,7 @@ the_blasphemy_act = {
 
 the_act_of_uniformity = {
 	global_missionary_strength = 0.01
+	embracement_cost = 0.1
 	religion = yes
 }
 
@@ -1690,6 +1699,11 @@ quantity_modifier = {
 	global_manpower_modifier = 0.25
 }
 
+spread_of_enlightenment_ideals = {
+	global_unrest = 4
+	global_institution_spread = 0.15
+}
+
 #Special places
 stora_kopparberget_modifier = { #Great Copper Mountain
 	trade_goods_size = 5.0
@@ -1705,6 +1719,42 @@ spice_islands_modifier = { #Main entrepots of the Mollucas, point of origin for 
 
 skanemarket = { #Skånemarknaden - Biggest Herring Market in Europe
 	trade_goods_size = 1.5
+}
+
+granary_of_the_mediterranean = {
+	trade_goods_size = 2.0
+}
+
+ven_murano_glass_industry = {
+	trade_goods_size = 2.0
+	mr_guilds_influence = 0.02
+}
+
+diamond_mines_of_golconda_modifier = { #The only major source of diamonds in the world for most of the game.
+	trade_goods_size = 4.0
+}
+
+coffea_arabica_modifier = { #Removed by prices.32 event
+	trade_goods_size = 3.0
+}
+
+bookmarket_of_x = { #Added by prices.36 event
+	trade_goods_size = 1.0
+	local_institution_spread = 0.25
+}
+
+grand_bank_fisheries = {
+	trade_goods_size = 2.0
+}
+
+diamond_district = {
+	trade_goods_size = 0.5
+	trade_value_modifier = 0.15
+}
+
+perfume_capital = {
+	trade_value_modifier = 0.15
+	trade_goods_size = 0.5
 }
 
 comet_ore_modifier = { #RNW Comet Mine
@@ -1733,7 +1783,7 @@ important_natural_harbor = {
 	province_trade_power_value = 10
 	naval_forcelimit = 1
 	local_development_cost = -0.05
-	local_sailors_modifier = 0.50
+	local_sailors_modifier = 0.25
 	picture = "province_trade_power_value"
 }
 
@@ -1743,7 +1793,7 @@ center_of_trade_modifier = {
 	province_trade_power_value = 10
 	naval_forcelimit = 2
 	local_development_cost = -0.05
-	local_sailors_modifier = 0.25
+	local_sailors_modifier = 0.50
 	picture = "province_trade_power_value"
 }
 
@@ -1767,6 +1817,7 @@ trade_post_modifier = {
 }
 
 # Important river estuaries
+# If you add any be sure to update the has_river_estuary_trigger scripted trigger too.
 river_estuary_modifier = {
 	province_trade_power_value = 10
 	picture = "estuary_icon"
@@ -1907,7 +1958,7 @@ ganges_estuary_modifier = {	#One for each Ganges Mouth
 	picture = "estuary_icon"
 }
 
-djanges_estuary_modifier = {
+djanges_estuary_modifier = { #RNW
 	province_trade_power_value = 5
 	picture = "estuary_icon"
 }
@@ -1917,7 +1968,7 @@ indus_estuary_modifier = {
 	picture = "estuary_icon"
 }
 
-sindus_estuary_modifier = {
+sindus_estuary_modifier = { #RNW
 	province_trade_power_value = 10
 	picture = "estuary_icon"
 }
@@ -1927,8 +1978,8 @@ euphrates_estuary_modifier = {
 	picture = "estuary_icon"
 }
 
-nile_estuary_modifier = {
-	province_trade_power_value = 10
+nile_estuary_modifier = { #Split between Rashid and Dumyat
+	province_trade_power_value = 5
 	picture = "estuary_icon"
 }
 
@@ -1997,7 +2048,7 @@ krishna_estuary_modifier = {
 	picture = "estuary_icon"
 }
 
-chrishna_estuary_modifier = {
+chrishna_estuary_modifier = { #RNW
 	province_trade_power_value = 10
 	picture = "estuary_icon"
 }
@@ -2071,6 +2122,7 @@ lollards = {
 
 justices_of_peace = {
 	stability_cost_modifier = -0.1
+	state_maintenance_modifier = -0.1
 }
 
 the_admirality = {
@@ -2299,8 +2351,7 @@ pietism = {
 }
 
 traitorous_officers = {
-	land_morale = -0.05
-	naval_morale = -0.05
+	local_unrest = 5
 }
 
 executed_officers = {
@@ -2347,6 +2398,11 @@ the_hats_trade_restrictions = {
 local_free_trade = {
 	trade_goods_size_modifier = -0.5
 
+}
+
+dhimmi_building_restrictions = {
+	tolerance_own = 0.5
+	tolerance_heathen = -0.5
 }
 
 # Russia flavor modifiers
@@ -2729,7 +2785,8 @@ tur_navy_reform = {
 tur_janissaries_timer = { }
 
 tur_janissaries_salary = {
-	infantry_cost = 0.2
+	is_janissary_modifier = yes #Without CoC this part is ignored and this becomes a normal global modifier.
+	land_maintenance_modifier = 0.1
 }
 
 enderun_academy = {
@@ -2799,10 +2856,20 @@ mutinous_soldiers = {
 }
 
 janissaries_denied_reward = {
-	manpower_recovery_speed = -0.2
-	discipline = -0.1
+	is_janissary_modifier = yes
+	reinforce_cost_modifier = 0.25
+	discipline = -0.05
 }
 
+strictly_enforced_janissary_discipline = {
+	is_janissary_modifier = yes
+	discipline = 0.015
+}
+
+non_christian_janissaries = {
+	is_janissary_modifier = yes
+	reinforce_cost_modifier = -0.5
+}
 
 increased_janissary_recruitment = {
 	global_manpower_modifier = 0.25
@@ -2812,17 +2879,29 @@ increased_janissary_recruitment = {
 }
 
 janissary_landholders = {
-	global_trade_goods_size_modifier = -0.25
+	is_janissary_modifier = yes
+	discipline = -0.025
 }
 
 janissaries_upset = {
 	global_unrest = 2
 }
 
+janissaries_disciplined = {
+	is_janissary_modifier = yes
+	land_maintenance_modifier = 0.1
+}
+
+#Janissary Disaster:
+janissary_coup_pay = {
+	is_janissary_modifier = yes
+	land_maintenance_modifier = 0.15
+}
+
 tur_janissary = {
 	manpower_recovery_speed = 0.1
-	infantry_power = 0.10
-	discipline = 0.05
+	infantry_power = 0.05
+	discipline = 0.025
 }
 
 hun_black_army = {
@@ -3495,7 +3574,6 @@ hsa_military_reform = {
 hsa_adler_ship = {
 	global_ship_cost = -0.10
 	naval_morale = 0.1
-	
 }
 hsa_peter_ship = {
 	global_ship_cost = -0.10
@@ -3512,8 +3590,8 @@ ara_consulate_sea = {
 ara_book_consulate_sea = {
 	prestige = 0.25
 	dip_tech_cost_modifier = -0.05
-	trade_efficiency = 0.1
-	
+	global_trade_power = 0.1
+	trade_efficiency = 0.05
 }
 ara_monastery_maria = {
 	global_missionary_strength = 0.02
@@ -4193,11 +4271,6 @@ ven_venetian_school = {
 	prestige = 1
 }
 
-ven_murano_glass_industry = {
-	local_tax_modifier = 0.2
-	mr_guilds_influence = 0.02
-}
-
 ven_nobility_bought = {
 	global_tax_modifier = 0.05 #Income from sold titles
 	mr_traders_influence = 0.02
@@ -4233,7 +4306,7 @@ ven_council_of_ten_strong = {
 
 #Netherlands
 ned_house_of_elzevir = {
-	local_tax_modifier = 0.2
+	trade_goods_size = 0.5
 	local_institution_spread = 0.05
 	prestige = 0.5
 }
@@ -4507,7 +4580,7 @@ dan_bavarian_holdings = {
 }
 
 dansborg_factory = {
-	trade_goods_size_modifier = 0.1
+	trade_goods_size_modifier = 0.25
 	local_institution_spread = 0.1
 }
 
@@ -4534,6 +4607,12 @@ dan_ulfeldt_deposed = {
 	legitimacy = 0.5
 	global_tax_modifier = 0.1
 	global_unrest = 1
+}
+
+#Timurids
+
+shahrukhs_empire = {
+	reduced_liberty_desire = 50
 }
 
 ##################################################
@@ -4955,10 +5034,10 @@ penal_colony = {
 }
 
 quarantined_influenza = {
-	province_trade_power_modifier = -1.0
- 	local_manpower_modifier = -0.5
-	local_tax_modifier = -0.5
-	trade_goods_size = -0.5
+	province_trade_power_modifier = -0.25
+ 	local_manpower_modifier = -0.25
+	local_tax_modifier = -0.25
+	trade_goods_size = -0.25
 }
 
 influenza = {
@@ -5144,7 +5223,8 @@ guru_har_rai = {
 }
 
 guru_har_krishan = {
-	diplomatic_upkeep = -1
+	tolerance_own = 2
+	diplomatic_reputation = -1
 	religion = yes
 }
 
@@ -5156,6 +5236,17 @@ guru_tegh_bahadur = {
 guru_gobind_singh = {
 	discipline = 0.05
 	religious_unity = 0.2
+	religion = yes
+}
+
+guru_granth_sahib_spread = {
+	missionaries = 1
+	state_maintenance_modifier = -0.15
+	religion = yes
+}
+
+guru_granth_sahib_military = {
+	drill_gain_modifier = 0.5
 	religion = yes
 }
 
@@ -6153,6 +6244,20 @@ restricted_offices = {
 #Estates
 only_noble_officers = {
 	army_tradition = -1
+}
+
+amir_dominance = {
+	legitimacy = -0.5
+	global_autonomy = 0.03
+	infantry_cost = 0.1
+	cavalry_cost = 0.25	
+}
+
+mamluk_amir_dominance = {
+	legitimacy = -0.5
+	global_autonomy = 0.03
+	infantry_cost = 0.1
+	cavalry_cost = 0.25
 }
 
 noble_power_elective_monarchy = {
@@ -7651,6 +7756,22 @@ sea_route_to_india = {
 	global_colonial_growth = 25
 }
 
+por_conquest_of_hormuz = {
+	trade_efficiency = 0.15
+	global_trade_power = 0.03
+}
+
+#OMA
+sultan_of_muscat = {
+	trade_efficiency = 0.15
+	land_morale = 0.1
+}
+
+omani_ambition = {
+	naval_maintenance_modifier = -0.15
+	legitimacy = 1
+}
+
 #TUS
 emperor_condemns_tuscany = {
 	fabricate_claims_cost = -0.25
@@ -9084,6 +9205,643 @@ took_land_from_monastics = {
 	local_development_cost = 0.2
 }
 
+#Professionalism Events
+
+enemies_sacked_city = {
+	global_unrest = -2
+}
+
+soldiers_stimulating_local_economy = {
+	local_production_efficiency = 0.1
+	local_tax_modifier = 0.1
+}
+
+integration_of_local_militias = {
+	defensiveness = 0.25
+	manpower_recovery_speed = -0.2
+}
+
+thriving_weapons_industry = {
+	local_development_cost = -0.15
+	trade_goods_size_modifier = 0.35
+}
+
+regimental_town = {
+	local_manpower_modifier = 0.25
+	local_development_cost = -0.15
+}
+
+wargames = {
+	yearly_army_professionalism = 0.01
+	land_maintenance_modifier = 0.1
+}
+
+cheated_rolls = {
+	local_manpower_modifier = -0.5
+}
+
+reassessement_provinces = {
+	local_unrest = 8
+	local_manpower_modifier = -0.25
+}
+
+gunpowder_core = {
+	drill_gain_modifier = 0.4
+	land_maintenance_modifier = 0.15
+}
+
+standardized_uniforms_modifier = {
+	drill_gain_modifier = 0.4
+	land_maintenance_modifier = 0.1
+}
+
+#Muslim Schools
+wahabism_modifier = {
+	religion = yes
+	land_morale = 0.15
+	missionaries = 1
+	tolerance_heathen = -2
+	tolerance_heretic = -3
+}
+
+talented_qadi = {
+	local_state_maintenance_modifier = -0.25
+	local_unrest = -2
+	local_build_cost = -0.15
+}
+
+ghazis_from_abroad = {
+	manpower_recovery_speed = 0.15
+}
+
+sufi_shrine = {
+	local_unrest = -2
+	tax_income = 2
+	local_autonomy = 0.1
+}
+
+sought_sufi_sheikh = {
+	tolerance_own = 1
+	tolerance_heretic = 1
+}
+
+ruler_not_favoring_sufis = {
+	legitimacy = 1
+	adm_tech_cost_modifier = -0.1
+}
+
+alevi_modifier = {
+	local_unrest = 6
+	local_missionary_strength = 0.03
+	local_autonomy = 0.03
+}
+
+new_madrassah = {
+	local_development_cost = -0.1
+	local_missionary_strength = 0.01
+	local_tax_modifier = 0.15
+}
+
+foreign_shiite_settlers = {
+	local_missionary_strength = 0.02
+	trade_goods_size_modifier = 0.15
+	local_unrest = 2
+}
+
+foreign_shiite_urbanites = {
+	local_development_cost = -0.1
+	trade_goods_size_modifier = 0.15
+	local_unrest = 2
+}
+
+local_sufi = {
+	local_missionary_strength = 0.03
+	local_autonomy = 0.1
+}
+
+local_sufi_chased_away = {
+	local_missionary_strength = -0.05
+	local_autonomy = -0.1
+}
+
+courtly_disorder = {
+	trade_goods_size_modifier = -0.25 
+	local_autonomy = 0.05
+}
+
+ruler_overriding_ulema = {
+	local_state_maintenance_modifier = 0.5
+	local_unrest = 2
+}
+
+upset_lodges = {
+	local_unrest = 4
+	local_missionary_strength = 0.01
+}
+
+agreed_with_mufti = {
+	local_tax_modifier = -0.25
+	local_manpower_modifier = -0.25
+}
+
+disagreed_with_mufti = {
+	local_unrest = 5
+}
+
+waqfs_donated = {
+	local_tax_modifier = -0.6
+	local_development_cost = -0.15
+}
+
+urban_decay = {
+	local_development_cost = 0.5
+}
+
+upkeep_of_holy_cities = {
+	global_tax_modifier = -0.2
+}
+
+expanded_madrasah = {
+	local_development_cost = -0.15
+	local_tax_modifier = -0.75
+	trade_goods_size_modifier = -0.5
+}
+
+hampered_expansion_of_madrasah = {
+	local_development_cost = 0.15
+}
+
+corrupt_sadrs = {
+	yearly_corruption = 0.01
+	global_tax_modifier = -0.1
+}
+
+ulema_displeased = {
+	tolerance_own = -1
+}
+
+religious_heterodoxy = {
+	local_tax_modifier = -0.75
+	local_unrest = -2
+}
+
+imposed_religious_orthodoxy = {
+	local_unrest = -2
+}
+
+#Sheik ul Islams:
+bad_loyal_mufti_modifier = {
+	religion = yes
+	global_tax_modifier = 0.05
+}
+
+ok_loyal_mufti_modifier = {
+	religion = yes
+	global_tax_modifier = 0.1
+}
+
+good_loyal_mufti_modifier = {
+	religion = yes
+	global_tax_modifier = 0.1
+	global_autonomy = -0.05
+}
+
+bad_pious_mufti_modifier = {
+	religion = yes
+	tolerance_own = 0.5
+}
+
+ok_pious_mufti_modifier = {
+	religion = yes
+	tolerance_own = 1
+}
+
+good_pious_mufti_modifier = {
+	religion = yes
+	tolerance_own = 1
+	yearly_corruption = -0.05
+}
+	
+bad_sufi_modifier = {
+	religion = yes
+	legitimacy = 0.5
+}
+
+ok_sufi_modifier = {
+	religion = yes
+	legitimacy = 1
+}
+
+good_sufi_modifier = {
+	religion = yes
+	legitimacy = 1
+	global_missionary_strength = 0.02
+}
+
+#Trade Policy Events
+
+foreign_merchant_community = {
+	trade_goods_size_modifier = 0.25
+	local_development_cost = -0.1
+}
+
+foreign_merchants_discriminated = {
+	province_trade_power_value = 5
+	province_trade_power_modifier = 0.1
+}
+
+local_goods_in_demand = {
+	trade_goods_size = 1.0
+	province_trade_power_value = 5
+}
+
+outsiders_cleared_our_merchants = {
+	trade_goods_size = 1.0
+	local_autonomy = -0.05
+}
+
+local_merchants_outcompeted = {
+	trade_goods_size_modifier = 0.25
+	local_unrest = 2
+	province_trade_power_modifier = -0.25
+}
+
+local_protectionism = {
+	trade_goods_size_modifier = -0.25
+	local_unrest = -2
+	province_trade_power_modifier = 0.25
+}
+
+regulated_economic_growth = {
+	trade_goods_size_modifier = 0.15
+	trade_value_modifier = 0.15
+}
+
+unregulated_economic_growth = {
+	local_unrest = 4
+	trade_goods_size_modifier = 0.15
+	trade_goods_size = 0.25
+	trade_value_modifier = 0.15
+}
+
+lack_of_demand_for_local_goods = {
+	trade_goods_size = -0.25
+}
+
+traditional_values_supported = {
+	local_unrest = -6
+	local_tax_modifier = 0.15
+}
+
+influx_of_foreign_ideas = {
+	local_institution_spread = 0.25
+	local_development_cost = -0.15
+	local_unrest = 8
+}
+
+trading_settlement = {
+	local_missionary_strength = 0.03
+	local_development_cost = -0.15
+}
+
+muslim_traders_controlled = {
+	local_missionary_strength = -0.01
+	local_tax_modifier = 0.25
+	local_development_cost = 0.15
+}
+
+islamic_missionaries = {
+	local_autonomy = 0.1
+	local_missionary_strength = 0.03
+}
+
+muslim_sailor_community = {
+	local_missionary_strength = 0.02
+	local_sailors_modifier = 0.5
+}
+
+mosque_of_x = { #Applied in other provinces
+	local_missionary_strength = 0.03
+	local_autonomy = 0.1
+}
+
+religious_community_isolated = { #Applied in the origin province
+	local_missionary_strength = 0.05
+}
+
+islamic_titles = {
+	advisor_cost = -0.15
+	tolerance_own = -2
+	religion = yes
+}
+
+defended_traditional_kingship = {
+	tolerance_own = 2
+	tolerance_heathen = -1
+	legitimacy = 1
+	religion = yes
+}
+
+chiefs_with_pretensions = {
+	local_missionary_strength = -0.03
+	local_autonomy = 0.2
+	local_unrest = 6
+}
+
+rejection_of_syncretism = {
+	global_missionary_strength = 0.01
+	tolerance_own = 1
+	religion = yes
+}
+
+#Tribal Federation Events
+
+unruly_tribes = {
+	local_unrest = 6
+}
+
+urbanites_chastised = {
+	local_tax_modifier = 0.15
+	local_development_cost = 0.1
+	trade_goods_size = -0.15
+}
+
+city_protected = {
+	local_defensiveness = 0.25
+	local_development_cost = -0.1
+	trade_goods_size = 0.15
+}
+
+religious_fervor_among_tribesmen = {
+	land_morale = 0.1
+}
+
+religious_propaganda = {
+	local_unrest = 6
+}
+
+divided_loyalties = {
+	local_manpower_modifier = -0.5
+	local_tax_modifier = -0.5
+}
+
+favored_clan = {
+	local_tax_modifier = -0.25
+	local_state_maintenance_modifier = 0.1
+}
+
+disfavored_clan = {
+	local_unrest = 6
+}
+
+strong_local_clan = {
+	local_manpower_modifier = 0.25
+	local_unrest = -4
+}
+
+strong_national_clan = {
+	local_tax_modifier = 0.15
+	local_development_cost = -0.1
+	local_unrest = 4
+}
+
+unsafe_roads_hurting_demand = {
+	trade_value_modifier = -0.25
+}
+
+rooting_out_raiders = {
+	local_unrest = 8
+}
+
+caravans_protected_by_raiders = {
+	local_unrest = -4
+	local_tax_modifier = -0.25
+}
+
+pasha_removed_modifier = {
+	local_unrest = 5
+}
+
+#Mamluk GOvernment
+
+crushed_non_mamluk_rebels = {
+	global_unrest = -1
+}
+
+placated_non_mamluk_rebels = {
+	global_manpower_modifier = 0.05
+}
+
+tarh = {
+	trade_goods_size = -0.25
+}
+
+unprofitable_monopolies = {
+	trade_value_modifier = -0.5
+}
+
+factionalism = {
+	stability_cost_modifier = 0.15
+	legitimacy = 0.5
+}
+
+ruler_supporting_faction = {
+	global_manpower_modifier = 0.15
+	legitimacy = -0.5
+}
+
+cairo_markets = {
+	local_tax_modifier = -0.5
+	trade_goods_size = 0.25
+	trade_value_modifier = 0.1
+}
+
+cairo_slums = {
+	development_cost = -0.15
+	local_tax_modifier = -0.15
+	local_build_cost = 0.1
+}
+
+cairo_al_ahzar = {
+	monthly_piety = 0.02
+	technology_cost = -0.05
+	local_tax_modifier = -0.5
+	local_production_efficiency = -0.5
+}
+
+cairo_defences = {
+	local_defensiveness = 0.25
+	local_build_cost = -0.15
+}
+
+monuments_of_cairo = {
+	legitimacy = 0.5
+	local_development_cost = 0.15
+}
+
+bedouin_amir_al_hajj = {
+	global_manpower_modifier = 0.1
+	prestige = -0.5
+}
+
+warrior_amir_al_hajj = {
+	prestige = 0.5
+}
+
+diplomat_amir_al_hajj = {
+	trade_efficiency = 0.05
+}
+
+mamluk_amir_al_hajj = {
+	global_manpower_modifier = 0.1
+}
+
+awlad_al_nas_commander = {
+	local_defensiveness = 0.15
+	local_manpower_modifier = 0.25
+}
+
+mamluk_commander = {
+	local_unrest = -4
+	local_defensiveness = 0.15
+}
+
+trusting_old_guard = {
+	legitimacy = -1.5
+	state_maintenance_modifier = -0.1
+}
+
+loyal_mamluks_in_high_positions = {
+	legitimacy = 1.5
+	state_maintenance_modifier = 0.1
+}
+
+purification_of_tax_laws = {
+	global_tax_modifier = -0.15
+	global_unrest = -1
+}
+
+furusiyya = {
+	cavalry_power = 0.1
+	cavalry_cost = 0.1
+}
+
+#Agent Culture/Religion Events
+heir_is_our_heir = {
+	local_unrest = -3
+}
+
+foreigner_on_throne = {
+	local_unrest = 2
+}
+
+support_for_ruler = {
+	local_unrest = -2
+}
+
+heretic_on_throne = {
+	local_unrest = 3
+	local_missionary_strength = -0.05
+}
+
+heathen_on_throne = {
+	local_unrest = 5
+	local_missionary_strength = -0.05
+}
+
+support_for_heretic_ruler = {
+	local_unrest = -3
+	local_missionary_strength = -0.05
+}
+
+support_for_heathen_ruler = {
+	local_unrest = -3
+	local_missionary_strength = -0.05
+}
+
+alien_ruler = {
+	local_unrest = 5
+	local_missionary_strength = -0.05
+}
+
+increased_tolerance_of_heretics = {
+	tolerance_heretic = 1
+	global_heretic_missionary_strength = -0.02
+}
+
+supressing_personal_faith = {
+	legitimacy = 0.5
+	religion = yes
+}
+
+supressed_religious_minority = {
+	local_unrest = 3
+}
+
+heathen_ruler_religious_tensions = {
+	local_unrest = 4
+}
+
+learning_from_cultural_brethren = {
+	technology_cost = -0.05
+}
+
+support_for_advisor = {
+	local_unrest = -2
+	local_production_efficiency = 0.1
+}
+
+influential_power_holder = {
+	state_maintenance_modifier = -0.1
+	local_manpower_modifier = 0.1
+	local_tax_modifier = 0.1
+	local_development_cost = -0.1
+}
+
+social_unrest_mysticism = {
+	local_unrest = 6
+}
+
+loss_of_legal_competence = {
+	advisor_cost = 0.1
+}
+
+fraternities_strengthened = {
+	trade_goods_size_modifier = 0.25
+	local_autonomy = 0.03
+}
+
+coffee_house_turmoil = {
+	local_unrest = 6
+}
+
+sufi_orders_in_check = {
+	local_autonomy = -0.05
+}
+
+sufi_order_integration = {
+	local_unrest = -4
+}
+
+#Mission:
+new_colony = {
+	trade_efficiency = 0.1
+	prestige = 1
+}
+
+trading_post_modifier = {
+	province_trade_power_modifier = 0.2
+	province_trade_power_value = 1
+	trade_value = 0.5
+
+	picture = "province_trade_power_value"
+}
+
+rise_of_the_ayyubids = {
+	years_of_nationalism = -5
+	prestige = 1
+}
+
 ##################################################
 # High American missions
 ##################################################
@@ -9106,8 +9864,11 @@ tutorial_modifier = {
 	global_unrest = -15
 	global_regiment_recruit_speed = -0.5
 	naval_morale = 5
+	land_morale = 1
+	discipline = 0.15
 	ship_durability = 5
 	heavy_ship_power = 2
+	land_attrition = -1
 }
 
 tutorial_negative_modifier = {

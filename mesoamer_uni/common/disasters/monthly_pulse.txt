@@ -30,47 +30,61 @@ pulse_system = {
 	}
 
 	on_monthly = {
-		events = {
-			# always
+		# always
 			
 
-			# is_january = yes
-			
-
-			# is_february = yes
-			
-
-			# is_march = yes
-			
-
-			# is_april = yes
-			
-			
-			# is_may = yes
-			
-			
-			# is_june = yes
-			
-
-			# is_july = yes
-			
-
-			# is_august = yes
-			
-			
-			# is_september = yes
-			
-			
-			# is_october = yes
-			
-			
-			# is_november = yes
-			
-			
-			# is_december = yes
-			
-			
+		# is_january = yes
+		if = {
+			limit = {
+				is_month = 0
+				NOT = { is_month = 1 }
+			}
+			country_event = { id = stats_calc.01 } 
+			every_country = {
+				limit = {
+					OR = {
+						has_country_modifier = high_tribute_requirements
+						has_country_modifier = normal_tribute_requirements
+						has_country_modifier = low_tribute_requirements
+					}
+					num_of_provinces_in_territories = 1
+				}
+				country_event = { id = tribute.02 }
+			}
 		}
+
+		# is_february = yes
+			
+
+		# is_march = yes
+			
+
+		# is_april = yes
+			
+			
+		# is_may = yes
+			
+			
+		# is_june = yes
+			
+
+		# is_july = yes
+			
+
+		# is_august = yes
+			
+			
+		# is_september = yes
+			
+			
+		# is_october = yes
+			
+			
+		# is_november = yes
+			
+			
+		# is_december = yes
+			
 
 		# Last day of month
 		#trigger_switch = {

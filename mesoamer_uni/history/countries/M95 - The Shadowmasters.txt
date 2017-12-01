@@ -24,8 +24,8 @@ fixed_capital = 2072
 
 1.1.2 = {
 	heir = {
-		name = "Erich von Daniken"
-		monarch_name = "Erich von Daniken"
+		name = "Ivan van Sertima"
+		monarch_name = "Ivan van Sertima"
 		dynasty = " " 
 		birth_date = 1.1.1
 		death_date = 2500.1.1

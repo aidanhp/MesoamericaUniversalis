@@ -1,4 +1,4 @@
-government = despotic_monarchy 
+government = absolute_hereditary_monarchy 
 government_rank = 1
 mercantilism = 0.25
 technology_group = triple_alliance_tg

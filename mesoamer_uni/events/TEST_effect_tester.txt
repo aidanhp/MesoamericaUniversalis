@@ -15,7 +15,12 @@ country_event = {
 	option = {
 		name = "init_test1.a"
 		
-		add_manpower = 0.10
+		export_to_variable = {
+			which = v_num_of_states
+			value = number_of_states
+		}
+		
+		custom_tooltip = display_test_variable_tt
 		
 		ai_chance = {
 			factor = 50
