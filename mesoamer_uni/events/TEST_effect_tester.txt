@@ -15,12 +15,18 @@ country_event = {
 	option = {
 		name = "init_test1.a"
 		
-		export_to_variable = {
-			which = v_num_of_states
-			value = number_of_states
-		}
+		#custom_tooltip = display_test_variable_tt
 		
-		custom_tooltip = display_test_variable_tt
+		33 = {
+			spawn_rebels = {
+				type = nationalist_rebels
+				size = 1
+			}
+			spawn_rebels = {
+				type = nationalist_rebels
+				size = 2
+			}
+		}
 		
 		ai_chance = {
 			factor = 50

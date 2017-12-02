@@ -28,7 +28,8 @@ NDefines.NDiplomacy.PO_BECOME_VASSAL_AE = 0.075 					-- _DDEF_PO_BECOME_VASSAL_A
 
 -- Country
 NDefines.NCountry.ALLOW_ZERO_BASE_VALUES = 1						-- Affects base tax, base manpower, and base production
-
+NDefines.NCountry.REVOLT_SIZE_DEVELOPMENT_MULTIPLIER = 0.20	-- Multiplied with the province's development
+NDefines.NCountry.REVOLT_SIZE_BASE = 1
 -- Economy
 
 -- Military
@@ -40,6 +41,7 @@ NDefines.NMilitary.MERCENARY_SUPPORT_LIMIT_BASE = 2				-- Base (and thus minimum
 NDefines.NMilitary.MERCENARY_SUPPORT_LIMIT_FRACTION = 0.1			-- Fraction of regular army support/force limit that goes into mercenary support limit.
 NDefines.NMilitary.DAYS_PER_PHASE = 2								-- How many days each fire and shock phase lasts
 NDefines.NMilitary.DAYS_PER_SIEGE_PHASE = 8						-- How many days each siege phase lasts
+NDefines.NMilitary.SIEGE_FORCE_NEEDED_MULTIPLIER = 1				-- x times garrison to be able to siege.
 
 -- AI
 

@@ -157,13 +157,19 @@ on_siege_lost_country = {
 # province
 # root = location, from = losing country
 on_siege_won_province = {
+	
 }
 
 # province
 # root = location, from = winning country
 on_siege_lost_province =  {
-	events = {
-		
+	if = { 
+		limit = { 
+			FROM = {
+				NOT = { tag = REB } 
+			}
+		}
+		remove_province_modifier = provincial_antagonism
 	}
 }
 

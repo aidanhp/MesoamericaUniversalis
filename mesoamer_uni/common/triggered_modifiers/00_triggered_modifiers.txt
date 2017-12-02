@@ -4,6 +4,135 @@
 # Effects are fully scriptable here.
 
 #Legitimacy#
+legitimacy_lreq_1 = {
+	potential = {
+		has_country_modifier = low_tribute_requirements
+	}
+	
+	trigger = {
+		legitimacy = 90
+	}
+	
+	global_unrest = -3
+}
+
+legitimacy_lreq_2 = {
+	potential = {
+		has_country_modifier = low_tribute_requirements
+	}
+	
+	trigger = {
+		legitimacy = 80
+		NOT = { legitimacy = 90 }
+	}
+	
+	global_unrest = -2
+}
+
+legitimacy_lreq_3 = {
+	potential = {
+		has_country_modifier = low_tribute_requirements
+	}
+	
+	trigger = {
+		legitimacy = 70
+		NOT = { legitimacy = 80 }
+	}
+	
+	global_unrest = -1
+}
+
+legitimacy_lreq_4 = {
+	potential = {
+		has_country_modifier = low_tribute_requirements
+	}
+	
+	trigger = {
+		legitimacy = 60
+		NOT = { legitimacy = 70 }
+	}
+	
+	global_unrest = 3
+}
+
+legitimacy_lreq_5 = {
+	potential = {
+		has_country_modifier = low_tribute_requirements
+	}
+	
+	trigger = {
+		legitimacy = 50
+		NOT = { legitimacy = 60 }
+	}
+	
+	global_unrest = 6
+}
+
+legitimacy_lreq_6 = {
+	potential = {
+		has_country_modifier = low_tribute_requirements
+	}
+	
+	trigger = {
+		legitimacy = 40
+		NOT = { legitimacy = 50 }
+	}
+	
+	global_unrest = 9
+}
+
+legitimacy_lreq_7 = {
+	potential = {
+		has_country_modifier = low_tribute_requirements
+	}
+	
+	trigger = {
+		legitimacy = 30
+		NOT = { legitimacy = 40 }
+	}
+	
+	global_unrest = 12
+}
+
+legitimacy_lreq_8 = {
+	potential = {
+		has_country_modifier = low_tribute_requirements
+	}
+	
+	trigger = {
+		legitimacy = 20
+		NOT = { legitimacy = 30 }
+	}
+	
+	global_unrest = 15
+}
+
+legitimacy_lreq_9 = {
+	potential = {
+		has_country_modifier = low_tribute_requirements
+	}
+	
+	trigger = {
+		legitimacy = 10
+		NOT = { legitimacy = 20 }
+	}
+	
+	global_unrest = 18
+}
+
+legitimacy_lreq_10 = {
+	potential = {
+		has_country_modifier = low_tribute_requirements
+	}
+	
+	trigger = {
+		legitimacy = 0
+		NOT = { legitimacy = 10 }
+	}
+	
+	global_unrest = 21
+}
+
 legitimacy_nreq_1 = {
 	potential = {
 		has_country_modifier = normal_tribute_requirements
@@ -131,6 +260,135 @@ legitimacy_nreq_10 = {
 	}
 	
 	global_unrest = 24
+}
+
+legitimacy_hreq_1 = {
+	potential = {
+		has_country_modifier = high_tribute_requirements
+	}
+	
+	trigger = {
+		legitimacy = 95
+	}
+	
+	global_unrest = -1
+}
+
+legitimacy_hreq_2 = {
+	potential = {
+		has_country_modifier = high_tribute_requirements
+	}
+	
+	trigger = {
+		legitimacy = 90
+		NOT = { legitimacy = 95 }
+	}
+	
+	global_unrest = 3
+}
+
+legitimacy_hreq_3 = {
+	potential = {
+		has_country_modifier = high_tribute_requirements
+	}
+	
+	trigger = {
+		legitimacy = 80
+		NOT = { legitimacy = 90 }
+	}
+	
+	global_unrest = 6
+}
+
+legitimacy_hreq_4 = {
+	potential = {
+		has_country_modifier = high_tribute_requirements
+	}
+	
+	trigger = {
+		legitimacy = 70
+		NOT = { legitimacy = 80 }
+	}
+	
+	global_unrest = 9
+}
+
+legitimacy_hreq_5 = {
+	potential = {
+		has_country_modifier = high_tribute_requirements
+	}
+	
+	trigger = {
+		legitimacy = 60
+		NOT = { legitimacy = 70 }
+	}
+	
+	global_unrest = 12
+}
+
+legitimacy_hreq_6 = {
+	potential = {
+		has_country_modifier = high_tribute_requirements
+	}
+	
+	trigger = {
+		legitimacy = 50
+		NOT = { legitimacy = 60 }
+	}
+	
+	global_unrest = 15
+}
+
+legitimacy_hreq_7 = {
+	potential = {
+		has_country_modifier = high_tribute_requirements
+	}
+	
+	trigger = {
+		legitimacy = 40
+		NOT = { legitimacy = 50 }
+	}
+	
+	global_unrest = 18
+}
+
+legitimacy_hreq_8 = {
+	potential = {
+		has_country_modifier = high_tribute_requirements
+	}
+	
+	trigger = {
+		legitimacy = 30
+		NOT = { legitimacy = 40 }
+	}
+	
+	global_unrest = 21
+}
+
+legitimacy_hreq_9 = {
+	potential = {
+		has_country_modifier = high_tribute_requirements
+	}
+	
+	trigger = {
+		legitimacy = 20
+		NOT = { legitimacy = 30 }
+	}
+	
+	global_unrest = 25
+}
+
+legitimacy_hreq_10 = {
+	potential = {
+		has_country_modifier = high_tribute_requirements
+	}
+	
+	trigger = {
+		legitimacy = 0
+		NOT = { legitimacy = 20 }
+	}
+	
+	global_unrest = 30
 }
 
 #Government Stats#

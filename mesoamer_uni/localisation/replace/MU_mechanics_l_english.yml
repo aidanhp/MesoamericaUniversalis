@@ -40,10 +40,17 @@
  tribute2.t: "Time for Tribute"
  tribute2.d: "Time to make those damned peasants pay up!"
  tribute2.a: "Send out the tribute collectors!"
+ tribute3.t: "Tribute Payments Arrive"
+ tribute3.d: "The tribute collectors have returned with the yearly tribute payments of our loyal subjects in the form of various luxury goods, currencies, weapons, armor, and men for our armies."
+ tribute3.a: "Excellent."
  #Tooltips
  trib_reqs_low_tt: "Every year you will recieve ducats equal to 4% of your tribute paying population with an additional 10 ducats, capped at 400. You will also gain 1000 manpower for every set of 120,000 tribute paying people in your realm." 
  trib_reqs_norm_tt: "Every year you will recieve ducats equal to 6% of your tribute paying population with an additional 10 ducats, capped at 600. You will also gain 1000 manpower for every set of 90,000 tribute paying people in your realm." 
  trib_reqs_high_tt: "Every year you will recieve ducats equal to 8% of your tribute paying population with an additional 10 ducats, capped at 800. You will also gain 1000 manpower for every set of 60,000 tribute paying people in your realm." 
+ recieve_trib_low_tt: "Recieve ducats equal to 4% of your tribute paying population plus an additional 10, capped at 400. Recieve 1000 manpower for every set of 120,000 tribute paying people in your realm." 
+ recieve_trib_normal_tt: "Recieve ducats equal to 6% of your tribute paying population plus an additional 10, capped at 600. Recieve 1000 manpower for every set of 90,000 tribute paying people in your realm."
+ recieve_trib_high_tt: " Recieve ducats equal to 8% of your tribute paying population plus an additional 10, capped at 800. Recieve 1000 manpower for every set of 60,000 tribute paying people in your realm."
+ trib_variable_check_tt: "DEBUG TOOLTIP, REMOVE LATER! Tributary Ducats: [Root.v_trib_ducats_pool.GetValue] Tributary Manpower: [Root.v_trib_manpower_pool.GetValue]"
  #Modifiers
  low_tribute_requirements: "Low Tribute Requirements"
  normal_tribute_requirements: "Normal Tribute Requirements"

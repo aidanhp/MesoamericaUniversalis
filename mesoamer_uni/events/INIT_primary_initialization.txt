@@ -44,9 +44,11 @@ country_event = {
 				set_variable = { which = v_draft_law value = 2 }
 				
 				set_variable = { which = v_trib_reqs value = 2 }
-				set_variable = { which = v_trib_legitimacy_cuttoff value = 80 }
-				set_variable = { which = v_trib_manpower value = 0 }
-				set_variable = { which = v_trib_ducats value = 0 }
+				set_variable = { which = v_trib_ducats_cutoff value = 600 }
+				set_variable = { which = v_trib_dcutoff_counter value = 0 }
+				set_variable = { which = v_trib_manpower_pool value = 0 }
+				set_variable = { which = v_trib_ducats_pool value = 0 }
+				set_variable = { which = v_trib_non_paying_dev value = 0 }
 			}
 			
 			############################
@@ -67,7 +69,10 @@ country_event = {
 			########################
 			every_province = {
 				#Initialize Variables
-				
+				set_variable = { which = v_trib_angerypoints value = 0 }
+				set_variable = { which = v_trib_ducats_p value = 0 }
+				set_variable = { which = v_trib_manpower_p value = 0 }
+				set_variable = { which = v_trib_non_paying_dev_p value = 0 }
 				
 				#Apply Universal Modifiers
 				add_permanent_province_modifier = {

@@ -68,3 +68,16 @@ low_tribute_requirements = {
 	legitimacy = -1
 	global_unrest = 1 
 }
+
+provincial_antagonism = {
+	trade_goods_size = 0.01
+	local_autonomy = 1
+	picture = "province_doesnt_pay"
+}
+
+provincial_cooperation = {
+	trade_goods_size = 0.01
+	local_unrest = -2
+	local_autonomy = -0.025
+	picture = "province_pays"
+}
