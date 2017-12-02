@@ -42,9 +42,11 @@ NDefines.NMilitary.MERCENARY_SUPPORT_LIMIT_FRACTION = 0.1			-- Fraction of regul
 NDefines.NMilitary.DAYS_PER_PHASE = 2								-- How many days each fire and shock phase lasts
 NDefines.NMilitary.DAYS_PER_SIEGE_PHASE = 8						-- How many days each siege phase lasts
 NDefines.NMilitary.SIEGE_FORCE_NEEDED_MULTIPLIER = 1				-- x times garrison to be able to siege.
+NDefines.NMilitary.BASE_COMBAT_WIDTH = 16.0						-- _MDEF_BASE_COMBAT_WIDTH_
 
 -- AI
-
+NDefines.NAI.AI_USES_HISTORICAL_IDEA_GROUPS = 0 -- If set to 0, ai will use ai_will_do instead of historical ideagroups when picking ideagroups (ai never uses historical ideagroups in custom/random setup)
+	
 -- Graphics
 NDefines.NGraphics.CITY_SPRAWL_SHRINK_DISTANCE = 150.0 			-- Start shrinking at this distance
 NDefines.NGraphics.CITY_SPRAWL_DRAW_DISTANCE = 200.0				-- Remove at this distance

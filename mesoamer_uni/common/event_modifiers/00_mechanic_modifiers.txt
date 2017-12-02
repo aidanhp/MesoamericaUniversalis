@@ -78,6 +78,6 @@ provincial_antagonism = {
 provincial_cooperation = {
 	trade_goods_size = 0.01
 	local_unrest = -2
-	local_autonomy = -0.025
+	local_autonomy = -0.01
 	picture = "province_pays"
 }

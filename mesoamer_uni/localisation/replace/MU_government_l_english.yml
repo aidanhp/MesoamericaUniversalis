@@ -34,6 +34,10 @@
  HUEYHUEY_CIHUATLATOANI: "Hueyhuey-Cihuatlatoani"
  
  #Government Types#
+ absolute_hereditary_monarchy: "Absolute Hereditary Monarchy"
+ absolute_hereditary_monarchy_desc: "A system of government where a single head of state has absolute authority over their vassals, and the position of head of state is passed down generation to generation within a single family through direct inheritance."
+ absolute_elective_monarchy: "Absolute Elective Monarchy"
+ absolute_elective_monarchy_desc: "A system of government where a single head of state has absolute authority over their vassals. However, instead of the head of state directly inheriting their position, the male relatives of a deceased monarch and the upper nobility convene to elect the new monarch from among the royal family when a death occurs."
  
  #Gov-related Decisions#
  display_government_stats_title: "Display Government Statistics"

@@ -31,6 +31,9 @@ country_event = {
 				add_manpower = -1000
 				add_yearly_manpower = 0.55
 				
+				#Temp fix for weird bug
+				remove_idea_group = defensive_ideas
+				
 				#Initialize Variables
 				set_variable = { which = v_terr_hege value = -40 }
 				set_variable = { which = v_terr_hege_change value = 0 }
