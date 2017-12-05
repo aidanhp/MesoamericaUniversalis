@@ -28,8 +28,10 @@ NDefines.NDiplomacy.PO_BECOME_VASSAL_AE = 0.075 					-- _DDEF_PO_BECOME_VASSAL_A
 
 -- Country
 NDefines.NCountry.ALLOW_ZERO_BASE_VALUES = 1						-- Affects base tax, base manpower, and base production
-NDefines.NCountry.REVOLT_SIZE_DEVELOPMENT_MULTIPLIER = 0.20	-- Multiplied with the province's development
+NDefines.NCountry.REVOLT_SIZE_DEVELOPMENT_MULTIPLIER = 0.25	-- Multiplied with the province's development
 NDefines.NCountry.REVOLT_SIZE_BASE = 1
+NDefines.NCountry.MIN_DEVELOPMENT_FOR_GOV_RANK_2 = 100		-- Need at least this much development to upgrade to government rank 2
+NDefines.NCountry.MIN_DEVELOPMENT_FOR_GOV_RANK_3 = 1500		-- Need at least this much development to upgrade to government rank 3
 -- Economy
 
 -- Military
@@ -43,6 +45,7 @@ NDefines.NMilitary.DAYS_PER_PHASE = 2								-- How many days each fire and shoc
 NDefines.NMilitary.DAYS_PER_SIEGE_PHASE = 8						-- How many days each siege phase lasts
 NDefines.NMilitary.SIEGE_FORCE_NEEDED_MULTIPLIER = 1				-- x times garrison to be able to siege.
 NDefines.NMilitary.BASE_COMBAT_WIDTH = 16.0						-- _MDEF_BASE_COMBAT_WIDTH_
+NDefines.NMilitary.GARRISON_SIZE = 2000 							-- GARRISON_SIZE
 
 -- AI
 NDefines.NAI.AI_USES_HISTORICAL_IDEA_GROUPS = 0 -- If set to 0, ai will use ai_will_do instead of historical ideagroups when picking ideagroups (ai never uses historical ideagroups in custom/random setup)

@@ -11,7 +11,8 @@ technology = { #Maritime Trade
 	year = 1428
 	
 	naval_morale = 2.0
-	#Trade Canoe and War Canoe 
+	enable = trade_canoe
+	enable = war_canoe
 	range =	60
 	trade_range	= 100
 	global_colonial_growth = 10

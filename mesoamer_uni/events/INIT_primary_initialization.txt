@@ -53,6 +53,14 @@ country_event = {
 				set_variable = { which = v_trib_ducats_pool value = 0 }
 				set_variable = { which = v_trib_non_paying_dev value = 0 }
 			}
+			#Set Starting Idea Group
+			every_country = {
+				limit = {
+					#Fill in later with exceptions
+				}
+				add_idea_group = hegemonic_ideas
+				add_idea = hegemonic_grand_strategy
+			}
 			
 			############################
 			#SETUP - SPECIFIC COUNTRIES#

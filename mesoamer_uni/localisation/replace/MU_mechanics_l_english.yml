@@ -55,8 +55,43 @@
  low_tribute_requirements: "Low Tribute Requirements"
  normal_tribute_requirements: "Normal Tribute Requirements"
  high_tribute_requirements: "High Tribute Requirements" 
+ legitimacy_lreq_1: "Low Tribute Requirements, 90+ Legitimacy"
+ legitimacy_lreq_2: "Low Tribute Requirements, 80-90 Legitimacy"
+ legitimacy_lreq_3: "Low Tribute Requirements, 70-80 Legitimacy"
+ legitimacy_lreq_4: "Low Tribute Requirements, 60-70 Legitimacy"
+ legitimacy_lreq_5: "Low Tribute Requirements, 50-60 Legitimacy"
+ legitimacy_lreq_6: "Low Tribute Requirements, 40-50 Legitimacy"
+ legitimacy_lreq_7: "Low Tribute Requirements, 30-40 Legitimacy"
+ legitimacy_lreq_8: "Low Tribute Requirements, 20-30 Legitimacy"
+ legitimacy_lreq_9: "Low Tribute Requirements, 10-20 Legitimacy"
+ legitimacy_lreq_10: "Low Tribute Requirements, 0-10 Legitimacy"
+ 
+ legitimacy_nreq_1: "Normal Tribute Requirements, 90+ Legitimacy"
+ legitimacy_nreq_2: "Normal Tribute Requirements, 80-90 Legitimacy"
+ legitimacy_nreq_3: "Normal Tribute Requirements, 70-80 Legitimacy"
+ legitimacy_nreq_4: "Normal Tribute Requirements, 60-70 Legitimacy"
+ legitimacy_nreq_5: "Normal Tribute Requirements, 50-60 Legitimacy"
+ legitimacy_nreq_6: "Normal Tribute Requirements, 40-50 Legitimacy"
+ legitimacy_nreq_7: "Normal Tribute Requirements, 30-40 Legitimacy"
+ legitimacy_nreq_8: "Normal Tribute Requirements, 20-30 Legitimacy"
+ legitimacy_nreq_9: "Normal Tribute Requirements, 10-20 Legitimacy"
+ legitimacy_nreq_10: "Normal Tribute Requirements, 0-10 Legitimacy"
+ 
+ legitimacy_hreq_1: "High Tribute Requirements, 95+ Legitimacy"
+ legitimacy_hreq_2: "High Tribute Requirements, 90-95 Legitimacy"
+ legitimacy_hreq_3: "High Tribute Requirements, 80-90 Legitimacy"
+ legitimacy_hreq_4: "High Tribute Requirements, 70-80 Legitimacy"
+ legitimacy_hreq_5: "High Tribute Requirements, 60-70 Legitimacy"
+ legitimacy_hreq_6: "High Tribute Requirements, 50-60 Legitimacy"
+ legitimacy_hreq_7: "High Tribute Requirements, 40-50 Legitimacy"
+ legitimacy_hreq_8: "High Tribute Requirements, 30-40 Legitimacy"
+ legitimacy_hreq_9: "High Tribute Requirements, 20-30 Legitimacy"
+ legitimacy_hreq_10: "High Tribute Requirements, 0-20 Legitimacy"
+ 
  #Decisions
  set_tribute_requirements_title: "Set Tribute Requirements"
  set_tribute_requirements_desc: "Declare a change in tribute requirements for your tributary (non-state) provinces. To learn more about the tribute system, see the encyclopedia entry."
  
- 
+ #Population System#
+ #Tooltips 
+ POPULATION_SYS_NO: "You cannot manually increase population, it must grow naturally."

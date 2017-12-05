@@ -56,17 +56,17 @@ draft_law_change_cooldown = {
 
 high_tribute_requirements = {
 	legitimacy = -3
-	global_unrest = 6
+	global_unrest = 3
 }
 
 normal_tribute_requirements = {
 	legitimacy = -2
-	global_unrest = 3
+	global_unrest = 1
 }
 
 low_tribute_requirements = {
 	legitimacy = -1
-	global_unrest = 1 
+	global_unrest = -1
 }
 
 provincial_antagonism = {

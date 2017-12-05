@@ -75,21 +75,75 @@ can_abandon_state = {
 }
 
 can_improve_tax = {
+	condition = {
+		tooltip = "POPULATION_SYS_NO"
+		potential = {
+			always = yes
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 can_improve_production = {
+	condition = {
+		tooltip = "POPULATION_SYS_NO"
+		potential = {
+			always = yes
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 can_improve_manpower = {
+	condition = {
+		tooltip = "POPULATION_SYS_NO"
+		potential = {
+			always = yes
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 can_exploit_tax = {
+	condition = {
+		tooltip = "NEVER"
+		potential = {
+			always = yes
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 can_exploit_production = {
+	condition = {
+		tooltip = "NEVER"
+		potential = {
+			always = yes
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 can_exploit_manpower = {
+	condition = {
+		tooltip = "NEVER"
+		potential = {
+			always = yes
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 can_change_culture = {

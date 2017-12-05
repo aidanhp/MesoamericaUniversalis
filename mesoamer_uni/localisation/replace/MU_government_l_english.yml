@@ -46,3 +46,16 @@
  #Gov-related custom tooltips#
  display_gov_stats_tt: "Territorial vs. Hegemonic: §G[Root.v_terr_hege.GetValue]§! (Change Last Year: §Y[Root.v_terr_hege_display_c.GetValue]§!) \nLegal Tradition: §G[Root.v_legal_tradition.GetValue]§! \nMeritocratic Tradition: §G[Root.v_merit_tradition.GetValue]§! \nReligious Tradition: §G[Root.v_religious_tradition.GetValue]§! \nMilitancy: §G[Root.v_militancy.GetValue]§!"
  
+ #Government Stats#
+ #Modifiers#
+ hegemonic_5: "Hegemonic 5"
+ hegemonic_4: "Hegemonic 4"
+ hegemonic_3: "Hegemonic 3" 
+ hegemonic_2: "Hegemonic 2" 
+ hegemonic_1: "Hegemonic 1" 
+ territorial_1: "Territorial 1"
+ territorial_2: "Territorial 2" 
+ territorial_3: "Territorial 3" 
+ territorial_4: "Territorial 4"
+ territorial_5: "Territorial 5"
+ 

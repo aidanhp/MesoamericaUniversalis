@@ -16,14 +16,14 @@ technology = { #Early Postclassic Warfare
 	land_morale 		= 	2.0
 	fort_15th = yes
 	
-	enable = cm_central_mexican_spearmen
-	enable = hu_huaxyacac_spearmen
-	enable = ma_maya_spearmen
-	enable = pu_purepecha_spearmen
-	enable = ta_triple_alliance_spearmen
-	enable = tl_tlaxcallan_spearmen
+	enable = cm_central_mexican_infantry
+	enable = hu_huaxyacac_infantry
+	enable = ma_maya_infantry
+	enable = pu_purepecha_infantry
+	enable = ta_triple_alliance_infantry
+	enable = tl_tlaxcallan_infantry
 	enable = we_spanish_infantry_1
-	enable = wm_west_mexican_spearmen
+	enable = wm_west_mexican_infantry
 }
 
 technology = { #The Oak Broadsword 

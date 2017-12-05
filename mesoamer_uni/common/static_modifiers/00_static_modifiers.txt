@@ -86,7 +86,6 @@ difficulty_very_hard_ai = {
 	idea_cost = -0.25
 	interest = -2
 	improve_relation_modifier = 0.5
-	development_cost = -0.2
 	build_cost = -0.25
 	ae_impact = -0.33
 }
@@ -140,8 +139,6 @@ tropical = {
 	supply_limit_modifier = -0.3
 	local_hostile_attrition = 2
 
-	local_development_cost = 0.15
-
 	picture = "climate_tropical"
 }
 
@@ -151,7 +148,6 @@ arctic = {
 	local_hostile_attrition = 1
 
 	allowed_num_of_buildings = -1
-	local_development_cost = 0.5
 
 	picture = "climate_arctic"
 }
@@ -160,8 +156,6 @@ arid = {
 	local_colonial_growth = -10
 	supply_limit_modifier = -0.2
 	local_hostile_attrition = 1
-
-	local_development_cost = 0.15
 
 	picture = "climate_arid"
 }
@@ -208,7 +202,7 @@ no_adjacent_controlled = {
 }
 
 provincial_tax_income = {
-	regiment_recruit_speed = -0.01
+	local_tax_modifier = 0.01
 }
 
 provincial_production_size = {
@@ -218,6 +212,7 @@ provincial_production_size = {
 
 manpower = {
 	garrison_growth = 0.01					#1% increase from manpower.
+	local_defensiveness = 0.008
 }
 
 sailors = {
@@ -244,7 +239,7 @@ development = {
 }
 
 development_scaled = {
-	local_development_cost = 0.03
+	
 }
 
 capital_city = {
@@ -355,7 +350,6 @@ devastation = {
 	trade_goods_size_modifier = -1
 	supply_limit_modifier = -0.5
 	local_institution_spread = -1.0
-	local_development_cost = 0.1
 	local_manpower_modifier = -1.0
 	local_sailors_modifier = -1.0
 	local_hostile_movement_speed = -0.25
@@ -363,7 +357,6 @@ devastation = {
 }
 
 prosperity = {
-	local_development_cost = -0.1
 	trade_goods_size_modifier = 0.25
 	local_autonomy = -0.05
 }
@@ -486,7 +479,7 @@ base_values = {
 	devotion = -0.5
 	meritocracy = -2
 	#max_states = 1
-	num_accepted_cultures = 2
+	num_accepted_cultures = 3
 	monthly_splendor = 1
 	artillery_bonus_vs_fort = 5
 	cav_to_inf_ratio = 0.5
@@ -1073,20 +1066,20 @@ union_subject = {
 all_nations = {
 	global_tax_income = 12
 	land_forcelimit	= 3
-	naval_forcelimit = 10
+	naval_forcelimit = 2
 }
 
 subject_nation = {
 	land_forcelimit	= -1
-	naval_forcelimit = -5
+	naval_forcelimit = -2
 }
 
 vassal_nation = {
-	development_cost = 0.5
+	
 }
 
 primitive_nation = {
-	development_cost = 0.5
+	
 }
 
 #scales to amount of up-to-date forts compared to total development
@@ -1326,7 +1319,6 @@ high_harmony = {
 
 low_harmony = {
 	tolerance_own = -3
-	development_cost = 0.25
 	legitimacy = -1
 	meritocracy = -2
 }
@@ -1424,7 +1416,7 @@ seize_clerical_holdings_modifier = {
 }
 
 invite_minorities_modifier = {
-	local_development_cost = -0.2
+	
 }
 
 ########################################
@@ -1451,7 +1443,6 @@ maliki_scholar_modifier = {
 	religion = yes
 	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
 	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
-	development_cost = -0.1
 }
 
 shafii_scholar_modifier = {
