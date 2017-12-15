@@ -26,7 +26,7 @@ technology = { #Early Postclassic Warfare
 	enable = wm_west_mexican_infantry
 }
 
-technology = { #The Oak Broadsword 
+technology = { #The Macuahuitl Broadsword 
 	# Tech 1
 	year = 1441
 	

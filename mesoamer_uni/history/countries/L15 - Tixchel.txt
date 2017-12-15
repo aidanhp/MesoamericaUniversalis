@@ -24,6 +24,7 @@ fixed_capital = 1762
 		name = "Pachimalahix"
 		dynasty = "Tixchel"
 		birth_date = 1410.1.1
+		death_date = 1450.1.1 #Placeholder
 		adm = 4
 		dip = 4
 		mil = 4

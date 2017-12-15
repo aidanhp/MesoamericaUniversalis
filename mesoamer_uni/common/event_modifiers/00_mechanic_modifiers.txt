@@ -81,3 +81,24 @@ provincial_cooperation = {
 	local_autonomy = -0.01
 	picture = "province_pays"
 }
+
+recent_rebellion = {
+	local_unrest = -100
+}
+
+#Elective Monarchy#
+
+deliberations_of_the_council = {
+	legitimacy = -2
+}
+
+#Consolidation of the Empire for HGs#
+
+prove_your_mettle = {
+	prestige_from_land = 2.0
+	army_tradition_from_battle = 1.0
+}
+
+signs_of_weakness = {
+	legitimacy = -5
+}

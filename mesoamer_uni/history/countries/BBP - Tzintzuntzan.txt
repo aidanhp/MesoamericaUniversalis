@@ -27,6 +27,7 @@ fixed_capital = 43
 		monarch_name = "Tzitzispandacuare"
 		dynasty = "Uanacaze"
 		birth_date = 1408.1.1	
+		death_date = 1479.1.1
 		claim = 100
 		adm = 5
 		dip = 5

@@ -52,6 +52,11 @@ country_event = {
 				set_variable = { which = v_trib_manpower_pool value = 0 }
 				set_variable = { which = v_trib_ducats_pool value = 0 }
 				set_variable = { which = v_trib_non_paying_dev value = 0 }
+				
+				set_variable = { which = v_em_heir_apparent_weight value = 0 }
+				set_variable = { which = v_em_adm_weight value = 0 }
+				set_variable = { which = v_em_dip_weight value = 0 }
+				set_variable = { which = v_em_mil_weight value = 0 }
 			}
 			#Set Starting Idea Group
 			every_country = {

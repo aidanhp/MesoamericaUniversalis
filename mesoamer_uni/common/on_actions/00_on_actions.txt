@@ -63,7 +63,14 @@ on_peace_recipient = {
 # country
 # root = winning country, from = loser country
 on_war_won = {
-	
+	if = {
+		limit = {
+			ROOT = {
+				has_country_flag = prove_mettle
+			}
+		}
+		country_event = { id = m_succession.07 }
+	}
 }
 
 # country
@@ -170,6 +177,10 @@ on_siege_lost_province =  {
 			}
 		}
 		remove_province_modifier = provincial_antagonism
+		add_province_modifier = {
+			name = recent_rebellion 
+			duration = 1825
+		}
 	}
 }
 
@@ -196,8 +207,21 @@ on_new_consort = {
 
 # country
 on_monarch_death = {
-	events = {
-		
+	if = {
+		limit = {
+			government = absolute_elective_monarchy 
+			NOT = { has_country_modifier = deliberations_of_the_council }
+		}
+		country_event = { id = m_succession.03 }
+	}
+	if = {
+		limit = {
+			government = absolute_hereditary_monarchy
+			NOT = { check_variable = { which = v_terr_hege value = 0 } }
+			total_development = 100
+			#total_development = 500
+		}
+		country_event = { id = m_succession.06 days = 30 }
 	}
 }
 
