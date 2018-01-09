@@ -96,3 +96,33 @@
  #Population System#
  #Tooltips 
  POPULATION_SYS_NO: "You cannot manually increase population, it must grow naturally."
+ 
+ #Communication Efficiency#
+ #Modifiers
+ perfect_communication: "Perfect Communication"
+ near_perfect_communication: "Near Perfect Communication"
+ very_good_communication: "Very Good Communication"
+ good_communication: "Good Communication"
+ fair_communication: "Fair Communication"
+ difficult_communication: "Difficult Communication"
+ poor_communication: "Poor Communication"
+ very_poor_communication: "Very Poor Communication"
+ terrible_communication: "Terrible Communication"
+ minimal_communication: "Minimal Communication"
+ 
+ ai_perfect_communication: "Perfect Communication"
+ ai_near_perfect_communication: "Near Perfect Communication"
+ ai_very_good_communication: "Very Good Communication"
+ ai_good_communication: "Good Communication"
+ ai_fair_communication: "Fair Communication"
+ ai_difficult_communication: "Difficult Communication"
+ ai_poor_communication: "Poor Communication"
+ ai_very_poor_communication: "Very Poor Communication"
+ ai_terrible_communication: "Terrible Communication"
+ ai_minimal_communication: "Minimal Communication"
+ 
+ #Special Global Modifiers
+ mesoamerican_logistics: "Mesoamerican Logistics"
+ desc_mesoamerican_logistics: "The rough terrain and lack of draft and transportation animals in Mesoamerica made controlling large realms and fielding large armies a more difficult task."
+ postclassic_golden_age: "Late Postclassic Golden Age"
+ desc_postclassic_golden_age: "In the Late Postclassic, Mesoamerica experienced a golden age as population growth increased drastically, the world was reintegrated into large kingdoms and empires, and the economy became more interconnected and productive, seeing the rise of a powerful merchant class capable of challenging the old elite. This was all accompanied by large-scale reurbanization, resulting in around half the population of core areas like the Valley of Mexico living in cities by the time the Spanish arrived in 1519." 

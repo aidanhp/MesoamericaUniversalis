@@ -1,0 +1,214 @@
+#COMMUNICATION EFFICIENCY
+
+perfect_communication = {
+	trade_goods_size = 0.01
+	local_unrest = -5
+	local_autonomy = -0.10
+	local_tax_modifier = 0.025
+	local_manpower_modifier = 0.025
+	regiment_recruit_speed = -0.20
+	
+	picture = "CE_1"
+}
+
+near_perfect_communication = {
+	trade_goods_size = 0.01
+	local_unrest = -4
+	local_autonomy = -0.08
+	local_tax_modifier = 0.02
+	local_manpower_modifier = 0.02
+	regiment_recruit_speed = -0.16
+	
+	picture = "CE_2"
+}
+
+very_good_communication = {
+	trade_goods_size = 0.01
+	local_unrest = -3
+	local_autonomy = -0.06
+	local_tax_modifier = 0.015
+	local_manpower_modifier = 0.015
+	regiment_recruit_speed = -0.12
+	
+	picture = "CE_3"
+}
+
+good_communication = {
+	trade_goods_size = 0.01
+	local_unrest = -2
+	local_autonomy = -0.04
+	local_tax_modifier = 0.01
+	local_manpower_modifier = 0.01
+	regiment_recruit_speed = -0.08
+	
+	picture = "CE_4"
+}
+
+fair_communication = {
+	trade_goods_size = 0.01
+	local_unrest = -1
+	local_autonomy = -0.02
+	local_tax_modifier = 0.005
+	local_manpower_modifier = 0.005
+	regiment_recruit_speed = -0.04
+	
+	picture = "CE_5"
+}
+
+difficult_communication = {
+	trade_goods_size = 0.01
+	local_unrest = 1
+	local_autonomy = 0.02
+	local_tax_modifier = -0.01
+	local_manpower_modifier = -0.01
+	regiment_recruit_speed = 0.04
+	
+	picture = "CE_6"
+}
+
+poor_communication = {
+	trade_goods_size = 0.01
+	local_unrest = 2
+	local_autonomy = 0.04
+	local_tax_modifier = -0.02
+	local_manpower_modifier = -0.02
+	regiment_recruit_speed = 0.08
+	
+	picture = "CE_7"
+}
+
+very_poor_communication = {
+	trade_goods_size = 0.01
+	local_unrest = 3
+	local_autonomy = 0.06
+	local_tax_modifier = -0.03
+	local_manpower_modifier = -0.03
+	regiment_recruit_speed = 0.12
+	
+	picture = "CE_8"
+}
+
+terrible_communication = {
+	trade_goods_size = 0.01
+	local_unrest = 4
+	local_autonomy = 0.08
+	local_tax_modifier = -0.04
+	local_manpower_modifier = -0.04
+	regiment_recruit_speed = 0.16
+	
+	picture = "CE_9"
+}
+
+minimal_communication = {
+	trade_goods_size = 0.01
+	local_unrest = 5
+	local_autonomy = 0.10
+	local_tax_modifier = -0.05
+	local_manpower_modifier = -0.05
+	regiment_recruit_speed = 0.20
+	
+	picture = "CE_10"
+}
+
+
+#For AI - doesn't show up on the trade map
+ai_perfect_communication = {
+	local_unrest = -5
+	local_autonomy = -0.10
+	local_tax_modifier = 0.025
+	local_manpower_modifier = 0.025
+	regiment_recruit_speed = -0.20
+	
+	picture = "CE_1"
+}
+
+ai_near_perfect_communication = {
+	local_unrest = -4
+	local_autonomy = -0.08
+	local_tax_modifier = 0.02
+	local_manpower_modifier = 0.02
+	regiment_recruit_speed = -0.16
+	
+	picture = "CE_2"
+}
+
+ai_very_good_communication = {
+	local_unrest = -3
+	local_autonomy = -0.06
+	local_tax_modifier = 0.015
+	local_manpower_modifier = 0.015
+	regiment_recruit_speed = -0.12
+	
+	picture = "CE_3"
+}
+
+ai_good_communication = {
+	local_unrest = -2
+	local_autonomy = -0.04
+	local_tax_modifier = 0.01
+	local_manpower_modifier = 0.01
+	regiment_recruit_speed = -0.08
+	
+	picture = "CE_4"
+}
+
+ai_fair_communication = {
+	trade_goods_size = 0.01
+	local_unrest = -1
+	local_autonomy = -0.02
+	local_tax_modifier = 0.005
+	local_manpower_modifier = 0.005
+	regiment_recruit_speed = -0.04
+	
+	picture = "CE_5"
+}
+
+ai_difficult_communication = {
+	local_unrest = 1
+	local_autonomy = 0.02
+	local_tax_modifier = -0.01
+	local_manpower_modifier = -0.01
+	regiment_recruit_speed = 0.04
+	
+	picture = "CE_6"
+}
+
+ai_poor_communication = {
+	local_unrest = 2
+	local_autonomy = 0.04
+	local_tax_modifier = -0.02
+	local_manpower_modifier = -0.02
+	regiment_recruit_speed = 0.08
+	
+	picture = "CE_7"
+}
+
+ai_very_poor_communication = {
+	local_unrest = 3
+	local_autonomy = 0.06
+	local_tax_modifier = -0.03
+	local_manpower_modifier = -0.03
+	regiment_recruit_speed = 0.12
+	
+	picture = "CE_8"
+}
+
+ai_terrible_communication = {
+	local_unrest = 4
+	local_autonomy = 0.08
+	local_tax_modifier = -0.04
+	local_manpower_modifier = -0.04
+	regiment_recruit_speed = 0.16
+	
+	picture = "CE_9"
+}
+
+ai_minimal_communication = {
+	local_unrest = 5
+	local_autonomy = 0.10
+	local_tax_modifier = -0.05
+	local_manpower_modifier = -0.05
+	regiment_recruit_speed = 0.20
+	
+	picture = "CE_10"
+}

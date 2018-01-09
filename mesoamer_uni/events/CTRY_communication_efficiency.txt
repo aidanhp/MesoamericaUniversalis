@@ -1,0 +1,329 @@
+#Communication Efficiency
+namespace = communication_efficiency
+
+#Calculate CE for one country
+province_event = {
+	id = communication_efficiency.01
+
+	title = "communication_efficiency1.t"
+	desc = "communication_efficiency1.d"
+	picture = ECONOMY_eventPicture
+
+	is_triggered_only = yes
+	
+	hidden = yes
+	
+	option = {
+		name = "communication1.a"
+		
+		owner = {
+			every_owned_province = {
+				if = {
+					limit = {
+						province_distance = {
+							who = ROOT 
+							distance = 0
+						}
+						NOT = {
+							province_distance = {
+								who = ROOT 
+								distance = 40
+							}
+						}
+					}
+					if = {
+						limit = {
+							owner = { 
+								ai = no
+							}
+						}
+						add_province_modifier = {
+							name = perfect_communication
+							duration = -1
+						}
+					}
+					else = {
+						add_province_modifier = {
+							name = ai_perfect_communication
+							duration = -1
+						}
+					}
+				}
+				if = {
+					limit = {
+						province_distance = {
+							who = ROOT 
+							distance = 40
+						}
+						NOT = {
+							province_distance = {
+								who = ROOT 
+								distance = 100
+							}
+						}
+					}
+					if = {
+						limit = {
+							owner = { 
+								ai = no
+							}
+						}
+						add_province_modifier = {
+							name = near_perfect_communication
+							duration = -1
+						}
+					}
+					else = {
+						add_province_modifier = {
+							name = ai_near_perfect_communication
+							duration = -1
+						}
+					}
+				}
+				if = {
+					limit = {
+						province_distance = {
+							who = ROOT 
+							distance = 100
+						}
+						NOT = {
+							province_distance = {
+								who = ROOT 
+								distance = 200
+							}
+						}
+					}
+					if = {
+						limit = {
+							owner = { 
+								ai = no
+							}
+						}
+						add_province_modifier = {
+							name = very_good_communication
+							duration = -1
+						}
+					}
+					else = {
+						add_province_modifier = {
+							name = ai_very_good_communication
+							duration = -1
+						}
+					}
+				}
+				if = {
+					limit = {
+						province_distance = {
+							who = ROOT 
+							distance = 200
+						}
+						NOT = {
+							province_distance = {
+								who = ROOT 
+								distance = 300
+							}
+						}
+					}
+					if = {
+						limit = {
+							owner = { 
+								ai = no
+							}
+						}
+						add_province_modifier = {
+							name = good_communication
+							duration = -1
+						}
+					}
+					else = {
+						add_province_modifier = {
+							name = ai_good_communication
+							duration = -1
+						}
+					}
+				}
+				if = {
+					limit = {
+						province_distance = {
+							who = ROOT 
+							distance = 300
+						}
+						NOT = {
+							province_distance = {
+								who = ROOT 
+								distance = 400
+							}
+						}
+					}
+					if = {
+						limit = {
+							owner = { 
+								ai = no
+							}
+						}
+						add_province_modifier = {
+							name = fair_communication
+							duration = -1
+						}
+					}
+					else = {
+						add_province_modifier = {
+							name = ai_fair_communication
+							duration = -1
+						}
+					}
+				}
+				if = {
+					limit = {
+						province_distance = {
+							who = ROOT 
+							distance = 400
+						}
+						NOT = {
+							province_distance = {
+								who = ROOT 
+								distance = 500
+							}
+						}
+					}
+					if = {
+						limit = {
+							owner = { 
+								ai = no
+							}
+						}
+						add_province_modifier = {
+							name = difficult_communication
+							duration = -1
+						}
+					}
+					else = {
+						add_province_modifier = {
+							name = ai_difficult_communication
+							duration = -1
+						}
+					}
+				}
+				if = {
+					limit = {
+						province_distance = {
+							who = ROOT 
+							distance = 500
+						}
+						NOT = {
+							province_distance = {
+								who = ROOT 
+								distance = 600
+							}
+						}
+					}
+					if = {
+						limit = {
+							owner = { 
+								ai = no
+							}
+						}
+						add_province_modifier = {
+							name = poor_communication
+							duration = -1
+						}
+					}
+					else = {
+						add_province_modifier = {
+							name = ai_poor_communication
+							duration = -1
+						}
+					}
+				}
+				if = {
+					limit = {
+						province_distance = {
+							who = ROOT 
+							distance = 600
+						}
+						NOT = {
+							province_distance = {
+								who = ROOT 
+								distance = 700
+							}
+						}
+					}
+					if = {
+						limit = {
+							owner = { 
+								ai = no
+							}
+						}
+						add_province_modifier = {
+							name = very_poor_communication
+							duration = -1
+						}
+					}
+					else = {
+						add_province_modifier = {
+							name = ai_very_poor_communication
+							duration = -1
+						}
+					}
+				}
+				if = {
+					limit = {
+						province_distance = {
+							who = ROOT 
+							distance = 700
+						}
+						NOT = {
+							province_distance = {
+								who = ROOT 
+								distance = 800
+							}
+						}
+					}
+					if = {
+						limit = {
+							owner = { 
+								ai = no
+							}
+						}
+						add_province_modifier = {
+							name = terrible_communication
+							duration = -1
+						}
+					}
+					else = {
+						add_province_modifier = {
+							name = ai_terrible_communication
+							duration = -1
+						}
+					}
+				}
+				if = {
+					limit = {
+						province_distance = {
+							who = ROOT 
+							distance = 800
+						}
+					}
+					if = {
+						limit = {
+							owner = { 
+								ai = no
+							}
+						}
+						add_province_modifier = {
+							name = minimal_communication
+							duration = -1
+						}
+					}
+					else = {
+						add_province_modifier = {
+							name = ai_minimal_communication
+							duration = -1
+						}
+					}
+				}
+			}
+		}
+	}
+}
+

@@ -32,3 +32,4 @@
  IMPR_FINAL_BASE_COST:0 ""
  IMPR_TOTAL_FURTHER_MODIFIED_BY:0 ""
  IMPR_FINAL_COST:0 "" 
+ MACRO_REQUIREMENT_NOT_FULFILLED:0 "Requirements for this building are not fulfilled for this province."

@@ -55,12 +55,12 @@ draft_law_change_cooldown = {
 #Tribute System#
 
 high_tribute_requirements = {
-	legitimacy = -3
+	legitimacy = -2
 	global_unrest = 3
 }
 
 normal_tribute_requirements = {
-	legitimacy = -2
+	legitimacy = -1.5
 	global_unrest = 1
 }
 
@@ -95,10 +95,24 @@ deliberations_of_the_council = {
 #Consolidation of the Empire for HGs#
 
 prove_your_mettle = {
-	prestige_from_land = 2.0
-	army_tradition_from_battle = 1.0
+	prestige_from_land = 1.0
+	army_tradition_from_battle = 0.50
 }
 
 signs_of_weakness = {
 	legitimacy = -5
+}
+
+#Special Global Modifiers#
+mesoamerican_logistics = { 
+	land_attrition = 0.05
+	land_forcelimit_modifier = -0.10
+	global_autonomy = 0.10
+	stability_cost_modifier = 0.50
+}
+
+postclassic_golden_age = {
+	idea_cost = -0.10
+	manpower_recovery_speed = 0.20
+	merchants = 1
 }

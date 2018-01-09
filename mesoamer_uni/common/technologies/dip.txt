@@ -26,9 +26,9 @@ technology = { #An International Economy
 	
 	trade_range = 100
 	range = 100
-	may_steal_maps = yes
 	may_slander_merchants = yes
 	num_accepted_cultures = 1
+	merchant_guild_outpost = yes
 }
 
 technology = { #Tlameme Expansion 
@@ -53,7 +53,7 @@ technology = { #Expanded Marketplaces
 	# Tech 4
 	year = 1480
 		
-	#Level 3 Marketplace
+	market_3 = yes
 }
 
 technology = { #Exchange Commodities 
@@ -70,7 +70,7 @@ technology = { #Great Markets
 	# Tech 6
 	year = 1506
 	
-	#Level 4 Marketplace 
+	market_4 = yes
 }
 
 technology = { #More Colonization Efforts 
@@ -79,4 +79,5 @@ technology = { #More Colonization Efforts
 	
 	range = 100
 	global_colonial_growth = 20	
+	may_steal_maps = yes
 }

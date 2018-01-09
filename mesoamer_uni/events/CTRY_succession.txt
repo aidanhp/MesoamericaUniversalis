@@ -3,7 +3,7 @@ namespace = m_succession
 
 #Appoint a successor (triggered)
 country_event = { 
-	id = m_succession1.01
+	id = m_succession.01
 	
 	title = "m_succession1.t"
 	desc = "m_succession1.d"
@@ -117,7 +117,7 @@ country_event = {
 
 #Appoint a successor (heir needed)
 country_event = { 
-	id = m_succession1.02
+	id = m_succession.02
 	
 	title = "m_succession2.t"
 	desc = "m_succession2.d"

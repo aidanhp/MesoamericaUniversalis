@@ -23,10 +23,465 @@
 # AI will consider each building to be worth 0.01 ducats per year as a base, so making ai_will_do above cost will have them build it at some point.
 # It will still check whether it can afford a building before doing so though, but may save up to it.
 
+#######
+#TRADE#
+#######
 
-################################################
-# Tier 1, 15th Century Buildings
-################################################
+market_1 = {
+	cost = 75
+	time = 4
+	modifier = {
+		province_trade_power_modifier = 0.33
+	}
+	
+	ai_will_do = {
+		factor = 1.5 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+	}
+}
+
+market_2 = {
+	cost = 150
+	time = 6
+	make_obsolete = market_1
+	trigger = {
+		development = 15
+	}
+	modifier = {
+		province_trade_power_modifier = 0.50
+	}
+	
+	ai_will_do = {
+		factor = 1.5 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+	}
+}
+
+market_3 = {
+	cost = 300
+	time = 8
+	make_obsolete = market_2
+	trigger = {
+		development = 25
+	}
+	modifier = {
+		province_trade_power_modifier = 0.75
+	}
+	
+	ai_will_do = {
+		factor = 1.5 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+	}
+}
+
+market_4 = {
+	cost = 400
+	time = 10
+	make_obsolete = market_3
+	trigger = {
+		development = 30
+	}
+	modifier = {
+		province_trade_power_modifier = 1.0
+	}
+	
+	ai_will_do = {
+		factor = 1.5 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+	}
+}
+
+merchant_guild_outpost = {
+	cost = 150
+	time = 6
+	trigger = {
+		is_capital = no
+	}
+	modifier = {
+		province_trade_power_value = 1
+		province_trade_power_modifier = 0.33
+		trade_goods_size_modifier = 0.33
+		#min_local_autonomy = 75
+	}
+	
+	ai_will_do = {
+		factor = 1.5 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+	}
+}
+
+##############
+#PRODUCTION I#
+##############
+
+workshop_1 = {
+	cost = 150
+	time = 6 
+	modifier = {
+		local_production_efficiency = 0.25
+		trade_goods_size_modifier = 0.10
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+great_workshop = {
+	cost = 300
+	time = 8
+	make_obsolete = workshop_1
+	modifier = {
+		local_production_efficiency = 0.50
+		trade_goods_size_modifier = 0.15
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+industrial_workshop = {
+	cost = 500
+	time = 10
+	make_obsolete = great_workshop
+	modifier = {
+		local_production_efficiency = 0.75
+		trade_goods_size_modifier = 0.20
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+military_workshop_1 = {
+	cost = 150
+	time = 4
+	modifier = {
+		regiment_recruit_speed = -0.33
+		local_regiment_cost = -0.10
+		land_forcelimit = 1
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+military_workshop_2 = {
+	cost = 250
+	time = 6
+	make_obsolete = military_workshop_1
+	modifier = {
+		regiment_recruit_speed = -0.50
+		local_regiment_cost = -0.20
+		land_forcelimit = 1
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+###############
+#PRODUCTION II#
+###############
+
+chinampas = {
+	cost = 250
+	time = 6
+	trigger = {
+		#Next to a freshwater lake
+		NOT = {
+			has_building = terrace_farms
+			has_building = farms
+		}
+	}
+	modifier = {
+		#+0.015% Local Population Growth
+	}
+	
+	ai_will_do = {
+		factor = 3
+	}
+}
+
+terrace_farms = {
+	cost = 250
+	time = 6
+	trigger = {
+		OR = {
+			has_terrain = hills
+			has_terrain = mountain
+		}
+		NOT = {
+			has_building = chinampas
+			has_building = farms
+		}
+	}
+	modifier = {
+		#+0.015% Local Population Growth
+	}
+	
+	ai_will_do = {
+		factor = 2
+	}
+}
+
+farms = {
+	cost = 250
+	time = 6
+	trigger = {
+		NOT = { 
+			has_building = chinampas 
+			has_building = terrace_farms
+		}
+	}
+	modifier = {
+		#+0.01% Local Population Growth
+	}
+	
+	ai_will_do = {
+		factor = 1.75
+	}
+}
+
+orchard = {
+	cost = 500
+	time = 12
+	manufactory = {
+		fruits
+		cacao
+		copal
+		rubber
+	}
+	modifier = {
+		trade_goods_size = 1.0
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+managed_forests = {
+	cost = 500
+	time = 12
+	manufactory = {
+		wood
+		plumes
+		honey
+		domesticated_animals
+	}
+	modifier = {
+		trade_goods_size = 1.0
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+great_plantation = {
+	cost = 500
+	time = 12
+	manufactory = {
+		cotton
+		maguey
+	}
+	modifier = {
+		trade_goods_size = 1.0
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+quarry = {
+	cost = 500
+	time = 12
+	manufactory = {
+		lime
+		construction_stone
+		obsidian
+	}
+	modifier = {
+		trade_goods_size = 1.0
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+mining_operation = {
+	cost = 500
+	time = 12
+	manufactory = {
+		copper
+		gold
+		silver
+		precious_stones
+		balsas_metals
+	}
+	modifier = {
+		trade_goods_size = 1.0
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+salt_operation = {
+	cost = 500
+	time = 12
+	manufactory = {
+		salt
+	}
+	modifier = {
+		trade_goods_size = 1.0
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+house_of_artists = {
+	cost = 800
+	time = 12
+	manufactory = {
+		ceramics
+		tolteca_crafts
+	}
+	modifier = {
+		trade_goods_size = 1.0
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+############
+#GOVERNMENT#
+############
+
+local_administrative_complex = {
+	cost = 200
+	time = 6
+	modifier = {
+		local_autonomy = -0.05
+		local_state_maintenance_modifier = -0.05
+	}
+	
+	#on_built = {
+	#	FROM = {
+	#		#Add +0.5 TvH
+	#	}
+	#}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+resettled_villages = {
+	cost = 150
+	time = 6
+	trigger = {
+		#Some idea
+		always = yes
+	}
+	modifier = {
+		local_autonomy = -0.025
+		local_unrest = -6
+	}
+	
+	#on_built = {
+	#	FROM = {
+	#		#Resettlement event
+	#	}
+	#}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+construction_center = {
+	cost = 500
+	time = 6
+	trigger = {
+		OR = {
+			is_capital = yes
+			has_building = administrative_center
+		}
+		FROM = {
+			has_idea = spectacular_constructions  
+		}
+	}
+	modifier = {
+		local_build_cost = -0.15
+		local_build_time = -0.25
+		allowed_num_of_buildings = 3
+	}
+	
+	ai_will_do = {
+		factor = 1.5
+	}
+}
+
+administrative_center = {
+	cost = 500
+	time = 6
+	trigger = {
+		FROM = {
+			has_idea = administrative_centers   
+		}
+	}
+	modifier = {
+		local_autonomy = -0.05
+		local_unrest = -2
+		local_manpower_modifier = 0.05
+		allowed_num_of_buildings = 1
+		#Increases CE of surrounding provinces
+	}
+	
+	ai_will_do = {
+		factor = 2
+	}
+}
+
+################
+#FORTIFICATIONS#
+################
+
+hill_fort = {
+	cost = 300
+	time = 6 
+	trigger = {
+		OR = {
+			has_terrain = hills
+			has_terrain = mountain
+		}
+		NOT = { 
+			has_building = fort_15th
+			has_building = fort_16th
+			has_building = fort_17th
+			has_building = fort_18th
+		}
+	}
+	modifier = {
+		fort_level = 3
+		local_defensiveness = 0.20
+	}
+	
+	#onmap = yes
+	influencing_fort = yes
+	
+	ai_will_do = {
+		factor = 1 #Lots of logic in code instead, that multiplies with this value
+	} 
+}
 
 fort_15th = {
 	cost = 200
@@ -65,11 +520,6 @@ fort_15th = {
 		factor = 1 #Lots of logic in code instead, that multiplies with this value
 	} 
 }
-
-
-################################################
-# Tier 2, 16th Century Buildings
-################################################
 
 fort_16th = {
 	cost = 400
@@ -110,11 +560,6 @@ fort_16th = {
 		factor = 1 #Lots of logic in code instead, that multiplies with this value
 	} 
 }
-
-################################################
-# Tier 3, 17th Century Buildings
-################################################
-
 
 fort_17th = {
 	cost = 600
@@ -157,12 +602,6 @@ fort_17th = {
 		factor = 1 #Lots of logic in code instead, that multiplies with this value
 	} 
 }
-
-
-
-################################################
-# Tier 4, 18th Century Buildings
-################################################
 
 fort_18th = {
 	cost = 800
@@ -207,6 +646,264 @@ fort_18th = {
 	} 
 }
 
-################################################
-# Manufactories
-################################################
+#########
+#CAPITAL#
+#########
+
+ceremonial_precinct = {
+	cost = 500
+	time = 12
+	trigger = {
+		is_capital = yes
+		development = 10
+	}
+	modifier = {
+		prestige = 0.5
+		#Allows construction of ceremonial precinct buildings
+	}
+	
+	ai_will_do = {
+		factor = 5
+	} 
+}
+
+ceremonial_precinct_walls = {
+	cost = 500
+	time = 12
+	trigger = {
+		has_building = ceremonial_precinct
+	}
+	modifier = {
+		local_defensiveness = 0.25
+	}
+	
+	ai_will_do = {
+		factor = 2.5
+	} 
+}
+
+grand_arsenal = {
+	cost = 500
+	time = 12
+	trigger = {
+		has_building = ceremonial_precinct
+	}
+	modifier = {
+		local_defensiveness = 0.15
+		regiment_recruit_speed = -0.66
+		army_tradition_decay = -0.01
+	}
+	
+	ai_will_do = {
+		factor = 2.5
+	} 
+}
+
+military_order_houses = {
+	cost = 500
+	time = 12
+	trigger = {
+		has_building = ceremonial_precinct
+	}
+	modifier = {
+		army_tradition_decay = -0.01
+		land_morale = 0.05
+	}
+	
+	ai_will_do = {
+		factor = 2.5
+	} 
+}
+
+water_garden = {
+	cost = 500
+	time = 12
+	trigger = {
+		has_building = ceremonial_precinct
+	}
+	modifier = {
+		prestige = 0.50
+		diplomatic_reputation = 1
+	}
+	
+	ai_will_do = {
+		factor = 2.5
+	} 
+}
+
+great_palace = {
+	cost = 500
+	time = 12
+	trigger = {
+		has_building = ceremonial_precinct
+	}
+	modifier = {
+		legitimacy = 0.5
+		diplomatic_reputation = 1
+	}
+	
+	ai_will_do = {
+		factor = 2.5
+	} 
+}
+
+great_calmecac = {
+	cost = 500
+	time = 12
+	trigger = {
+		has_building = ceremonial_precinct
+	}
+	modifier = {
+		technology_cost = -0.05
+		idea_cost = -0.05
+	}
+	
+	ai_will_do = {
+		factor = 2.5
+	} 
+}
+
+great_ballcourt = {
+	cost = 500
+	time = 12
+	trigger = {
+		has_building = ceremonial_precinct
+	}
+	modifier = {
+		global_unrest = -1
+	}
+	
+	ai_will_do = {
+		factor = 2.5
+	} 
+}
+
+great_pyramid_temple = {
+	cost = 1000
+	time = 24
+	trigger = {
+		has_building = ceremonial_precinct
+	}
+	modifier = {
+		prestige = 0.2
+		legitimacy = 0.2
+		tolerance_own = 0.4 
+		#Can be upgraded for more powerful bonuses
+	}
+	
+	ai_will_do = {
+		factor = 2.5
+	} 
+}
+
+########
+#UNIQUE#
+########
+
+huey_teocalli_2 = {
+	cost = 1000
+	time = 9999
+	modifier = {
+		war_exhaustion = -0.025
+		tolerance_own = 1
+	}
+	
+	ai_will_do = {
+		factor = 0
+	} 
+}
+
+huey_teocalli_3 = {
+	cost = 1000
+	time = 9999
+	modifier = {
+		war_exhaustion = -0.03
+		tolerance_own = 1.5
+	}
+	
+	ai_will_do = {
+		factor = 0
+	} 
+}
+
+huey_teocalli_4 = {
+	cost = 1000
+	time = 9999
+	modifier = {
+		war_exhaustion = -0.035
+		tolerance_own = 2
+	}
+	
+	ai_will_do = {
+		factor = 0
+	} 
+}
+
+huey_teocalli_5 = {
+	cost = 1000
+	time = 9999
+	modifier = {
+		war_exhaustion = -0.04
+		tolerance_own = 2.5
+	}
+	
+	ai_will_do = {
+		factor = 0
+	} 
+}
+
+huey_teocalli_6 = {
+	cost = 1000
+	time = 9999
+	modifier = {
+		war_exhaustion = -0.045
+		tolerance_own = 3
+	}
+	
+	ai_will_do = {
+		factor = 0
+	} 
+}
+
+huey_teocalli_7 = {
+	cost = 1000
+	time = 9999
+	modifier = {
+		war_exhaustion = -0.05
+		tolerance_own = 3
+		diplomatic_reputation = 1
+	}
+	
+	ai_will_do = {
+		factor = 0
+	} 
+}
+
+huey_teocalli_8 = {
+	cost = 1000
+	time = 9999
+	modifier = {
+		war_exhaustion = -0.05
+		tolerance_own = 3
+		diplomatic_reputation = 1
+		local_defensiveness = 0.10
+	}
+	
+	ai_will_do = {
+		factor = 0
+	} 
+}
+
+great_pyramid_of_cholula = {
+	cost = 1000
+	time = 9999
+	modifier = {
+		diplomatic_reputation = 1
+		tolerance_own = 2
+		global_missionary_strength = 0.03
+	}
+	
+	ai_will_do = {
+		factor = 0
+	} 
+}

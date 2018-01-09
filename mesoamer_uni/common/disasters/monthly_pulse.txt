@@ -51,6 +51,12 @@ pulse_system = {
 				}
 				country_event = { id = tribute.02 }
 			}
+			every_province = {
+				limit = {
+					is_capital = yes
+				}
+				province_event = { id = communication_efficiency.01 }
+			}
 		}
 
 		# is_february = yes

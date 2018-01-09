@@ -1,5 +1,25 @@
 #Major decisions shared by all countries
 country_decisions = {
+	test_decision = {
+		major = yes
+		potential = {
+			ai = no
+		}
+		allow = {
+			2 = {
+				province_distance = { 
+					who = THIS
+					distance = 1
+				}
+			}
+		}
+		effect = {
+			add_treasury = 5
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
 	set_draft_laws = {
 		major = yes 
 		potential = {

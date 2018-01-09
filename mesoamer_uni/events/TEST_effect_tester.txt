@@ -17,19 +17,131 @@ country_event = {
 		
 		#custom_tooltip = display_test_variable_tt
 		
-		33 = {
-			spawn_rebels = {
-				type = nationalist_rebels
-				size = 1
+		#if = {
+		#	limit = { 
+		#		1 = {
+		#			province_distance = {
+		#				who = 2
+		#				distance = 100
+		#			}
+		#		}
+		#	}
+		#	add_treasury = 5
+		#}
+			
+		if = {
+			limit = {
+				every_owned_province = {
+					province_distance = {
+						who = 1
+						distance = 20
+					}
+				}
 			}
-			spawn_rebels = {
-				type = nationalist_rebels
-				size = 2
+			owner = { 
+				add_treasury = 5
 			}
 		}
 		
 		ai_chance = {
 			factor = 50
+		}
+	}
+}
+
+#Assuming running distance of 30 miles in 1 day
+province_event = {
+	id = init_test.02
+	
+	title = "init_test2.t"
+	desc = "init_test2.d"
+	
+	picture = REFORM_eventPicture 
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		owner = {
+			every_owned_province = {
+				if = {
+					limit = {
+						province_distance = {
+							who = ROOT 
+							distance = 0
+						}
+						NOT = {
+							province_distance = {
+								who = ROOT 
+								distance = 20
+							}
+						}
+					}
+					add_province_modifier = {
+						name = perfect_communication
+						duration = -1
+					}
+					set_province_flag = ce_done
+				}
+				if = {
+					limit = {
+						province_distance = {
+							who = ROOT 
+							distance = 20
+						}
+						NOT = {
+							province_distance = {
+								who = ROOT 
+								distance = 40
+							}
+						}
+					}
+					add_province_modifier = {
+						name = near_perfect_communication
+						duration = -1
+					}
+					set_province_flag = ce_done
+				}
+				if = {
+					limit = {
+						province_distance = {
+							who = ROOT 
+							distance = 40
+						}
+						NOT = {
+							province_distance = {
+								who = ROOT 
+								distance = 60
+							}
+						}
+					}
+					add_province_modifier = {
+						name = very_good_communication
+						duration = -1
+					}
+					set_province_flag = ce_done
+				}
+				if = {
+					limit = {
+						province_distance = {
+							who = ROOT 
+							distance = 60
+						}
+						NOT = {
+							province_distance = {
+								who = ROOT 
+								distance = 80
+							}
+						}
+					}
+					add_province_modifier = {
+						name = good_communication
+						duration = -1
+					}
+					set_province_flag = ce_done
+				}
+			}
 		}
 	}
 }

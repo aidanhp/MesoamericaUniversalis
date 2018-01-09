@@ -9,6 +9,33 @@ ahead_of_time = {
 technology = { #Early Postclassic Political Structures 
 	# Tech 0
 	year = 1428
+	market_1 = yes
+	market_2 = yes
+	workshop_1 = yes
+	military_workshop_1 = yes
+	chinampas = yes
+	terrace_farms = yes
+	farms = yes
+	orchard = yes
+	managed_forests = yes
+	great_plantation = yes
+	quarry = yes
+	mining_operation = yes
+	salt_operation = yes
+	house_of_artists = yes
+	local_administrative_complex = yes
+	resettled_villages = yes
+	construction_center = yes
+	administrative_center = yes
+	ceremonial_precinct = yes
+	ceremonial_precinct_walls = yes
+	grand_arsenal = yes
+	military_order_houses = yes
+	water_garden = yes
+	great_palace = yes
+	great_calmecac = yes
+	great_ballcourt = yes
+	great_pyramid_temple = yes
 	
 	absolute_hereditary_monarchy = yes
 	absolute_elective_monarchy = yes
@@ -34,7 +61,7 @@ technology = { #Workshop Expansion
 	# Tech 3
 	year = 1467
 
-	#Some workshop building 
+	great_workshop = yes
 }
  
 technology = { #Legal Reform 
@@ -66,4 +93,6 @@ technology = { #Improved Administrative Writing
 	
 	allowed_idea_groups = 4
 	administrative_efficiency = 0.05
+	
+	industrial_workshop = yes
 }
