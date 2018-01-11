@@ -31,23 +31,7 @@ province_event = {
 							}
 						}
 					}
-					if = {
-						limit = {
-							owner = { 
-								ai = no
-							}
-						}
-						add_province_modifier = {
-							name = perfect_communication
-							duration = -1
-						}
-					}
-					else = {
-						add_province_modifier = {
-							name = ai_perfect_communication
-							duration = -1
-						}
-					}
+					set_variable = { which = v_ce_distance value = 0 } #Perfect
 				}
 				if = {
 					limit = {
@@ -62,23 +46,7 @@ province_event = {
 							}
 						}
 					}
-					if = {
-						limit = {
-							owner = { 
-								ai = no
-							}
-						}
-						add_province_modifier = {
-							name = near_perfect_communication
-							duration = -1
-						}
-					}
-					else = {
-						add_province_modifier = {
-							name = ai_near_perfect_communication
-							duration = -1
-						}
-					}
+					set_variable = { which = v_ce_distance value = 1 } #Near Perfect 
 				}
 				if = {
 					limit = {
@@ -93,23 +61,7 @@ province_event = {
 							}
 						}
 					}
-					if = {
-						limit = {
-							owner = { 
-								ai = no
-							}
-						}
-						add_province_modifier = {
-							name = very_good_communication
-							duration = -1
-						}
-					}
-					else = {
-						add_province_modifier = {
-							name = ai_very_good_communication
-							duration = -1
-						}
-					}
+					set_variable = { which = v_ce_distance value = 2 } #Very Good
 				}
 				if = {
 					limit = {
@@ -124,23 +76,7 @@ province_event = {
 							}
 						}
 					}
-					if = {
-						limit = {
-							owner = { 
-								ai = no
-							}
-						}
-						add_province_modifier = {
-							name = good_communication
-							duration = -1
-						}
-					}
-					else = {
-						add_province_modifier = {
-							name = ai_good_communication
-							duration = -1
-						}
-					}
+					set_variable = { which = v_ce_distance value = 3 } #Good
 				}
 				if = {
 					limit = {
@@ -155,23 +91,7 @@ province_event = {
 							}
 						}
 					}
-					if = {
-						limit = {
-							owner = { 
-								ai = no
-							}
-						}
-						add_province_modifier = {
-							name = fair_communication
-							duration = -1
-						}
-					}
-					else = {
-						add_province_modifier = {
-							name = ai_fair_communication
-							duration = -1
-						}
-					}
+					set_variable = { which = v_ce_distance value = 4 } #Fair 
 				}
 				if = {
 					limit = {
@@ -186,23 +106,7 @@ province_event = {
 							}
 						}
 					}
-					if = {
-						limit = {
-							owner = { 
-								ai = no
-							}
-						}
-						add_province_modifier = {
-							name = difficult_communication
-							duration = -1
-						}
-					}
-					else = {
-						add_province_modifier = {
-							name = ai_difficult_communication
-							duration = -1
-						}
-					}
+					set_variable = { which = v_ce_distance value = 5 } #Difficult
 				}
 				if = {
 					limit = {
@@ -217,23 +121,7 @@ province_event = {
 							}
 						}
 					}
-					if = {
-						limit = {
-							owner = { 
-								ai = no
-							}
-						}
-						add_province_modifier = {
-							name = poor_communication
-							duration = -1
-						}
-					}
-					else = {
-						add_province_modifier = {
-							name = ai_poor_communication
-							duration = -1
-						}
-					}
+					set_variable = { which = v_ce_distance value = 6 } #Poor
 				}
 				if = {
 					limit = {
@@ -248,23 +136,7 @@ province_event = {
 							}
 						}
 					}
-					if = {
-						limit = {
-							owner = { 
-								ai = no
-							}
-						}
-						add_province_modifier = {
-							name = very_poor_communication
-							duration = -1
-						}
-					}
-					else = {
-						add_province_modifier = {
-							name = ai_very_poor_communication
-							duration = -1
-						}
-					}
+					set_variable = { which = v_ce_distance value = 7 } #Very Poor
 				}
 				if = {
 					limit = {
@@ -279,23 +151,7 @@ province_event = {
 							}
 						}
 					}
-					if = {
-						limit = {
-							owner = { 
-								ai = no
-							}
-						}
-						add_province_modifier = {
-							name = terrible_communication
-							duration = -1
-						}
-					}
-					else = {
-						add_province_modifier = {
-							name = ai_terrible_communication
-							duration = -1
-						}
-					}
+					set_variable = { which = v_ce_distance value = 8 } #Terrible
 				}
 				if = {
 					limit = {
@@ -304,20 +160,233 @@ province_event = {
 							distance = 800
 						}
 					}
+					set_variable = { which = v_ce_distance value = 9 } #Minimal 
+				}
+			}
+			every_owned_province = { #Calls Event 2 for all provinces with Administrative Centers
+				limit = {
+					has_building = administrative_center 
+				}
+				province_event = { id = communication_efficiency.02 } 
+			}
+			
+			every_owned_province = { #Assigns proper modifiers 
+				if = {
+					limit = { 
+						check_variable = { which = v_ce_distance value = 9 }
+					}
 					if = {
 						limit = {
 							owner = { 
 								ai = no
 							}
 						}
-						add_province_modifier = {
+						add_province_modifier = { 
 							name = minimal_communication
 							duration = -1
 						}
 					}
 					else = {
-						add_province_modifier = {
+						add_province_modifier = { 
 							name = ai_minimal_communication
+							duration = -1
+						}
+					}
+				}
+				else_if = {
+					limit = { 
+						check_variable = { which = v_ce_distance value = 8 }
+					}
+					if = {
+						limit = {
+							owner = { 
+								ai = no
+							}
+						}
+						add_province_modifier = { 
+							name = terrible_communication
+							duration = -1
+						}
+					}
+					else = {
+						add_province_modifier = { 
+							name = ai_terrible_communication
+							duration = -1
+						}
+					}
+				}
+				else_if = {
+					limit = { 
+						check_variable = { which = v_ce_distance value = 7 }
+					}
+					if = {
+						limit = {
+							owner = { 
+								ai = no
+							}
+						}
+						add_province_modifier = { 
+							name = very_poor_communication
+							duration = -1
+						}
+					}
+					else = {
+						add_province_modifier = { 
+							name = ai_very_poor_communication
+							duration = -1
+						}
+					}
+				}
+				else_if = {
+					limit = { 
+						check_variable = { which = v_ce_distance value = 6 }
+					}
+					if = {
+						limit = {
+							owner = { 
+								ai = no
+							}
+						}
+						add_province_modifier = { 
+							name = poor_communication
+							duration = -1
+						}
+					}
+					else = {
+						add_province_modifier = { 
+							name = ai_poor_communication
+							duration = -1
+						}
+					}
+				}
+				else_if = {
+					limit = { 
+						check_variable = { which = v_ce_distance value = 5 }
+					}
+					if = {
+						limit = {
+							owner = { 
+								ai = no
+							}
+						}
+						add_province_modifier = { 
+							name = difficult_communication
+							duration = -1
+						}
+					}
+					else = {
+						add_province_modifier = { 
+							name = ai_difficult_communication
+							duration = -1
+						}
+					}
+				}
+				else_if = {
+					limit = { 
+						check_variable = { which = v_ce_distance value = 4 }
+					}
+					if = {
+						limit = {
+							owner = { 
+								ai = no
+							}
+						}
+						add_province_modifier = { 
+							name = fair_communication
+							duration = -1
+						}
+					}
+					else = {
+						add_province_modifier = { 
+							name = ai_fair_communication
+							duration = -1
+						}
+					}
+				}
+				else_if = {
+					limit = { 
+						check_variable = { which = v_ce_distance value = 3 }
+					}
+					if = {
+						limit = {
+							owner = { 
+								ai = no
+							}
+						}
+						add_province_modifier = { 
+							name = good_communication
+							duration = -1
+						}
+					}
+					else = {
+						add_province_modifier = { 
+							name = ai_good_communication
+							duration = -1
+						}
+					}
+				}
+				else_if = {
+					limit = { 
+						check_variable = { which = v_ce_distance value = 2 }
+					}
+					if = {
+						limit = {
+							owner = { 
+								ai = no
+							}
+						}
+						add_province_modifier = { 
+							name = very_good_communication
+							duration = -1
+						}
+					}
+					else = {
+						add_province_modifier = { 
+							name = ai_very_good_communication
+							duration = -1
+						}
+					}
+				}
+				else_if = {
+					limit = { 
+						check_variable = { which = v_ce_distance value = 1 }
+					}
+					if = {
+						limit = {
+							owner = { 
+								ai = no
+							}
+						}
+						add_province_modifier = { 
+							name = near_perfect_communication
+							duration = -1
+						}
+					}
+					else = {
+						add_province_modifier = { 
+							name = ai_near_perfect_communication
+							duration = -1
+						}
+					}
+				}
+				else_if = {
+					limit = { 
+						check_variable = { which = v_ce_distance value = 0 }
+					}
+					if = {
+						limit = {
+							owner = { 
+								ai = no
+							}
+						}
+						add_province_modifier = { 
+							name = perfect_communication
+							duration = -1
+						}
+					}
+					else = {
+						add_province_modifier = { 
+							name = ai_perfect_communication
 							duration = -1
 						}
 					}
@@ -327,3 +396,67 @@ province_event = {
 	}
 }
 
+#Calculate CE for an Administrative Center
+province_event = {
+	id = communication_efficiency.02
+
+	title = "communication_efficiency2.t"
+	desc = "communication_efficiency2.d"
+	picture = ECONOMY_eventPicture
+
+	is_triggered_only = yes
+	
+	hidden = yes
+	
+	option = {
+		name = "communication2.a" 
+		
+		if = {
+			limit = {
+				check_variable = { which = v_ce_distance value = 5 }
+			}
+			set_variable = { which = v_ce_distance value = 4 }
+		}
+		else_if = { 
+			limit = {
+				NOT = { 
+					check_variable = { which = v_ce_distance value = 5 }
+				}
+				check_variable = { which = v_ce_distance value = 0 } 
+			}
+			change_variable = { which = v_ce_distance value = -1 }
+		}
+		
+		owner = {
+			every_owned_province = {
+				limit = {
+					province_distance = {
+						who = ROOT 
+						distance = 1
+					}
+					NOT = {
+						province_distance = {
+							who = ROOT 
+							distance = 60
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = v_ce_distance value = 5 }
+					}	
+					change_variable = { which = v_ce_distance value = -2 }
+				}
+				else_if = { 
+					limit = {
+						NOT = { 
+							check_variable = { which = v_ce_distance value = 5 }
+						}
+						check_variable = { which = v_ce_distance value = 0 } 
+					}
+					change_variable = { which = v_ce_distance value = -1 }
+				}
+			}
+		}
+	}
+}

@@ -46,7 +46,10 @@ NDefines.NMilitary.DAYS_PER_SIEGE_PHASE = 8						-- How many days each siege pha
 NDefines.NMilitary.SIEGE_FORCE_NEEDED_MULTIPLIER = 1				-- x times garrison to be able to siege.
 NDefines.NMilitary.BASE_COMBAT_WIDTH = 16.0						-- _MDEF_BASE_COMBAT_WIDTH_
 NDefines.NMilitary.GARRISON_SIZE = 2000 							-- GARRISON_SIZE
-
+NDefines.NMilitary.INFANTRY_SPEED = 3.0 							-- _MDEF_INFANTRY_SPEED = 10,
+NDefines.NMilitary.CAVALRY_SPEED = 3.0 							-- _MDEF_CAVALRY_SPEED = 10,
+NDefines.NMilitary.ARTILLERY_SPEED = 3.0 							-- _MDEF_ARTILLERY_SPEED = 10,
+	
 -- AI
 NDefines.NAI.AI_USES_HISTORICAL_IDEA_GROUPS = 0 -- If set to 0, ai will use ai_will_do instead of historical ideagroups when picking ideagroups (ai never uses historical ideagroups in custom/random setup)
 	
