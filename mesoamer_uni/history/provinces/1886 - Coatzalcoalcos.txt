@@ -1,5 +1,5 @@
 culture = eastern_nahua
-religion = maya
+religion = religion_maya
 capital = "Coatzalcoalcos"
 trade_goods = unknown
 hre = no

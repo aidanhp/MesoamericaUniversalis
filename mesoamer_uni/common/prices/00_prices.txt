@@ -84,11 +84,19 @@ ceramics = {
 	base_price = 3
 }
 
+domesticated_animals = {
+	base_price = 3
+}
+
+construction_stone = {
+	base_price = 3
+}
+
 balsas_metals = {
 	base_price = 4
 }
 
-metropolitan_goods = {
+tolteca_crafts = {
 	base_price = 5
 }
 

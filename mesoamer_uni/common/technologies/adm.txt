@@ -6,117 +6,93 @@ ahead_of_time = {
 	yearly_corruption = -0.05
 }
 
-# Pre-era techs
-technology = {
+technology = { #Early Postclassic Political Structures 
 	# Tech 0
-	year = 1415
+	year = 1428
+	market_1 = yes
+	market_2 = yes
+	workshop_1 = yes
+	military_workshop_1 = yes
+	chinampas = yes
+	terrace_farms = yes
+	farms = yes
+	orchard = yes
+	managed_forests = yes
+	great_plantation = yes
+	quarry = yes
+	mining_operation = yes
+	salt_operation = yes
+	house_of_artists = yes
+	local_administrative_complex = yes
+	resettled_villages = yes
+	construction_center = yes
+	administrative_center = yes
+	ceremonial_precinct = yes
+	ceremonial_precinct_walls = yes
+	grand_arsenal = yes
+	military_order_houses = yes
+	water_garden = yes
+	great_palace = yes
+	great_calmecac = yes
+	great_ballcourt = yes
+	great_pyramid_temple = yes
+	
+	absolute_hereditary_monarchy = yes
+	absolute_elective_monarchy = yes
+	allowed_idea_groups = 1
+	may_support_rebels = yes
+}
+
+technology = { #Mass Agricultural Intensification 
+	# Tech 1
+	year = 1441
+	
+	production_efficiency = 0.10
+}
+
+technology = { #Mesoamerican Renaissance 
+	# Tech 2
+	year = 1454
 	
 	allowed_idea_groups = 2
-	max_states = 1
 }
 
-technology = {
-	#Tech 0.5
-	year = 1428
-	
-	administrative_efficiency = 0.05
-}
-
-technology = {
-	# Tech 1
-	year = 1429
-	
-	administrative_efficiency = 0.05
-}
-
-technology = {
-	# Tech 2
-	year = 1450
-	
-	production_efficiency	=	0.10
-}
-
-technology = {
+technology = { #Workshop Expansion 
 	# Tech 3
-	year = 1472
+	year = 1467
+
+	great_workshop = yes
+}
+ 
+technology = { #Legal Reform 
+	# Tech 4
+	year = 1480
 	
 	allowed_idea_groups = 3
+	max_states = 1
+	administrative_efficiency = 0.05
 }
 
-# The 30 big techs from here on
-
-technology = {
-	# Tech 4
-	year = 1494
-	
-	max_states = 2
-	administrative_efficiency = 0.10
-}
-
-technology = {
+technology = { #Improved Labor Organization 
 	# Tech 5
-	year = 1516
-	
-	production_efficiency	=	0.10
-	allowed_idea_groups = 4
+	year = 1493
+
+	production_efficiency = 0.10
 }
 
-technology = {
+technology = { #No Idea 
 	# Tech 6
-	year = 1538
+	year = 1506
 	
-	#+0.005% Global Growth Rate
+	may_force_march = yes
 }
 
-technology = {
+technology = { #Improved Administrative Writing
 	# Tech 7
-	year = 1560
+	year = 1519 
 	
-	max_states = 4
-	administrative_efficiency = 0.10
-	allowed_idea_groups = 5
-}
-
-technology = {
-	# Tech 8
-	year = 1582
+	allowed_idea_groups = 4
+	administrative_efficiency = 0.05
 	
-	#+0.0025% Global Growth Rate
-	production_efficiency = 0.10
-}
-
-technology = {
-	# Tech 9
-
-	year = 1604
-	
-	production_efficiency = 0.10
-}
-
-technology = {
-	# Tech 10
-	year = 1626
-	
-	allowed_idea_groups = 6
-}
-
-technology = {
-	# Tech 11
-	year = 1648
-	
-	max_states = 6
-}
-
-technology = {
-	# Tech 12
-	year = 1670
-	
-	administrative_efficiency = 0.20
-}
-
-technology = {
-	#Tech 13
-	year = 1692
-	
-	max_states = 8
+	industrial_workshop = yes
 }

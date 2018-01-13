@@ -1,5 +1,5 @@
 culture = placeholdertec
-religion = maya
+religion = religion_maya
 capital = "Non Existant"
 trade_goods = unknown
 hre = no

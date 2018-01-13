@@ -7,11 +7,11 @@ hre = no
 base_tax = 2
 base_production = 3
 base_manpower = 11
-trade_goods = staple_crops 
+trade_goods = honey
 
 capital = "Puctlan-Tochtepec-Mictlampa"
 is_city = yes
-fort_15th = yes
+
 
 discovered_by = western_european_tg
 discovered_by = triple_alliance_tg 

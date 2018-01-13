@@ -10,4 +10,5 @@ bookmark =
 	country = F26
 	country = ZZY
 	country = A10
+	country = G79
 }

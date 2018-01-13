@@ -1,5 +1,5 @@
 culture = tzotzil
-religion = maya
+religion = religion_maya
 capital = "Usamacinta"
 trade_goods = unknown
 hre = no

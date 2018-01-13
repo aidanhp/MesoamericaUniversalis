@@ -1,4 +1,4 @@
-government = despotic_monarchy 
+government = absolute_hereditary_monarchy 
 government_rank = 1
 mercantilism = 0.25
 technology_group = purepecha_tg
@@ -22,8 +22,11 @@ fixed_capital = 51
 1415.1.2 = {
 	heir = {
 		name = "Ticatame"
+		monarch_name = "Ticatame"
 		dynasty = "Uanacaze"
 		birth_date = 1403.1.1
+		death_date = 1450.1.1 #Placeholder
+		claim = 100
 		adm = 4
 		dip = 4
 		mil = 4

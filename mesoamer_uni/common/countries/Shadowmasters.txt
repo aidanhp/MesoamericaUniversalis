@@ -1,0 +1,61 @@
+#Country Name: Please see filename.
+
+graphical_culture = southamericagfx
+
+color = { 5 5 5 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Jared Diamond #1" = 20
+	"Graham Hancock #0" = 20
+	"Randall Carlson #0" = 20
+	"Erich von Daniken #0" = 20
+	"Ivan van Sertima #0" = 20
+	"Joseph Smith #0" = 20
+
+	"Lucifher #0" = -1
+}
+
+leader_names = {
+	" "
+}
+
+ship_names = {
+	"Chariot of the Gods"
+}
+
+army_names = {
+	"The Dark Legion"
+}
+
+fleet_names = {
+	"The Shadow Fleet"
+}

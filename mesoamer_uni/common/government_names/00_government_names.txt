@@ -3,7 +3,80 @@
 
 #Heir and consort titles are generally kept simple for clarity unless there is something special in particular that can be used.
 
-gov_nahuatl_monarchy = {
+gov_nahuatl_absolute_elective_monarchy = {
+	rank = {
+		1 = ALTEPETL
+		2 = TLAHTOHCAYOTL
+		3 = HUEY_TLAHTOHCAYOTL
+	}
+	
+	ruler_male = {
+		1 = TLATOANI
+		2 = HUEY_TLATOANI
+		3 = HUEYHUEY_TLATOANI
+	}
+	
+	ruler_female = {
+		1 = CIHUATLATOANI
+		2 = HUEY_CIHUATLATOANI
+		3 = HUEYHUEY_CIHUATLATOANI
+	}
+	
+	consort_male = {
+		1 = TLATOANI
+		2 = HUEY_TLATOANI
+		3 = HUEYHUEY_TLATOANI
+	}
+
+	consort_female = {
+		1 = CIHUATLATOANI
+		2 = HUEY_CIHUATLATOANI
+		3 = HUEYHUEY_CIHUATLATOANI
+	}
+	
+	heir_male = {
+		1 = HEIR_APPARENT
+		2 = HEIR_APPARENT
+		3 = HEIR_APPARENT
+	}
+
+	heir_female = {
+		1 = HEIR_APPARENT
+		2 = HEIR_APPARENT
+		3 = HEIR_APPARENT
+	}
+	
+	
+	trigger = {
+		government = absolute_elective_monarchy
+		OR = {
+			primary_culture = mexica
+			primary_culture = acolhua
+			primary_culture = tepanec
+			primary_culture = colhua
+			primary_culture = xochimilca
+			primary_culture = chalca
+			primary_culture = cuitlahuaca
+			primary_culture = mizquica
+			primary_culture = tlaxcallan
+			primary_culture = pipil
+			primary_culture = coixca
+			primary_culture = sayultec
+			primary_culture = pinome
+			primary_culture = teco
+			primary_culture = metztitlani
+			primary_culture = huexotzinca
+			primary_culture = cholulan
+			primary_culture = eastern_nahua
+			primary_culture = central_nahua
+			primary_culture = archaic_toltec
+			primary_culture = xilotlantzinca
+			primary_culture = colimotl
+		}
+	}
+}
+
+gov_nahuatl_absolute_hereditary_monarchy = {
 	rank = {
 		1 = ALTEPETL
 		2 = TLAHTOHCAYOTL
@@ -48,6 +121,7 @@ gov_nahuatl_monarchy = {
 	
 	
 	trigger = {
+		government = absolute_hereditary_monarchy
 		OR = {
 			primary_culture = mexica
 			primary_culture = acolhua

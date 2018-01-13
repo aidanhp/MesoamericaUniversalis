@@ -1,0 +1,128 @@
+﻿l_english:
+ #Event/Decision/Tooltip/Modifier Localization for New Mechanics that do not clearly fit into Another Category#
+ 
+ #Draft Laws#
+ #Events
+ draft_laws1.t: "Set Draft Law"
+ draft_laws1.d: "Here you can declare a new draft law. Draft laws determine your maximum available manpower - the more extreme the draft law, the larger the pool of men you can potentially recruit from. If you change your draft law, you will be unable to do so again for one year. \nCurrently, our draft law is set to level [Root.v_draft_law.GetValue]."
+ draft_laws1.a: "Draft Law 1 - 5% of Male Commoners"
+ draft_laws1.b: "Draft Law 2 - 10% of Male Commoners"
+ draft_laws1.c: "Draft Law 3 - 20% of Male Commoners"
+ draft_laws1.dd: "Draft Law 4 - 25% of Male Commoners"
+ draft_laws1.e: "Done"
+ #Tooltips
+ display_test_variable_tt: "Num of States: [Root.v_num_of_states.GetValue]"
+ draft_laws_tt_1: "If this draft law is lower than your current one, your manpower will be reduced to the new maximum."
+ #Modifiers
+ draft_system: "Draft System"
+ desc_draft_system: "This mod uses a draft law system to determine the precentage of a province's population you can call to war. To change the draft law, use the 'Set Draft Law' decision."
+ elite_warrior_class: "Elite Warrior Class"
+ desc_elite_warrior_class: "Represents the manpower contribution of the elite warrior class present throughout Mesoamerica; essentially the Mesoamerican equivalent of knights." 
+ draft_law_level_1: "Draft Law Level 1"
+ draft_law_level_2: "Draft Law Level 2"
+ draft_law_level_3: "Draft Law Level 3"
+ draft_law_level_4: "Draft Law Level 4" 
+ recruitment_drive: "Recruitment Drive"
+ desc_recruitment_drive: "We have recently increased our draft law and a recruitment drive is under way." 
+ draft_law_change_cooldown: "Draft Law Change Cooldown"
+ #Decisions
+ set_draft_laws_title: "Set Draft Laws"
+ set_draft_laws_desc: "Declare a new recruitment policy that will either increase or decrease your potential manpower pool, and also affect your provinces in various ways. \nCurrently, our draft law is set to level [Root.v_draft_law.GetValue]." 
+ 
+ #Tribute System#
+ #Events
+ tribute1.t: "Set Tribute Requirements"
+ tribute1.d: "Here you declare new tribute requirements. Tribute requirements determine how much manpower and how many ducats you recieve each year in tribute payments from provinces you own that are not in states. The higher your tribute requirements, the more manpower and ducats you will recieve. However, you must ensure that you stay above a certain level of legitimacy or you may face large-scale rebellions. Each level of tribute requirements has a different legitimacy 'cutoff', where going lower becomes dangerous. \n• At low requirements, the cutoff is 70 legitimacy. \n• At normal requirements, the cutoff is 80 legitimacy. \n• At high requirements, the cutoff is 95 legitimacy. \nCurrently, our tribute requirements are set to level [Root.v_trib_reqs.GetValue]."
+ tribute1.a: "Set requirements to low (level 1)"
+ tribute1.b: "Set requirements to normal (level 2)"
+ tribute1.c: "Set requirements to high (level 3)"
+ tribute1.dd: "Done"
+ tribute2.t: "Time for Tribute"
+ tribute2.d: "Time to make those damned peasants pay up!"
+ tribute2.a: "Send out the tribute collectors!"
+ tribute3.t: "Tribute Payments Arrive"
+ tribute3.d: "The tribute collectors have returned with the yearly tribute payments of our loyal subjects in the form of various luxury goods, currencies, weapons, armor, and men for our armies."
+ tribute3.a: "Excellent."
+ #Tooltips
+ trib_reqs_low_tt: "Every year you will recieve ducats equal to 4% of your tribute paying population with an additional 10 ducats, capped at 400. You will also gain 1000 manpower for every set of 120,000 tribute paying people in your realm." 
+ trib_reqs_norm_tt: "Every year you will recieve ducats equal to 6% of your tribute paying population with an additional 10 ducats, capped at 600. You will also gain 1000 manpower for every set of 90,000 tribute paying people in your realm." 
+ trib_reqs_high_tt: "Every year you will recieve ducats equal to 8% of your tribute paying population with an additional 10 ducats, capped at 800. You will also gain 1000 manpower for every set of 60,000 tribute paying people in your realm." 
+ recieve_trib_low_tt: "Recieve ducats equal to 4% of your tribute paying population plus an additional 10, capped at 400. Recieve 1000 manpower for every set of 120,000 tribute paying people in your realm." 
+ recieve_trib_normal_tt: "Recieve ducats equal to 6% of your tribute paying population plus an additional 10, capped at 600. Recieve 1000 manpower for every set of 90,000 tribute paying people in your realm."
+ recieve_trib_high_tt: " Recieve ducats equal to 8% of your tribute paying population plus an additional 10, capped at 800. Recieve 1000 manpower for every set of 60,000 tribute paying people in your realm."
+ trib_variable_check_tt: "DEBUG TOOLTIP, REMOVE LATER! Tributary Ducats: [Root.v_trib_ducats_pool.GetValue] Tributary Manpower: [Root.v_trib_manpower_pool.GetValue]"
+ #Modifiers
+ low_tribute_requirements: "Low Tribute Requirements"
+ normal_tribute_requirements: "Normal Tribute Requirements"
+ high_tribute_requirements: "High Tribute Requirements" 
+ recent_rebellion: "Recent Rebellion"
+ legitimacy_lreq_1: "Low Tribute Requirements, 90+ Legitimacy"
+ legitimacy_lreq_2: "Low Tribute Requirements, 80-90 Legitimacy"
+ legitimacy_lreq_3: "Low Tribute Requirements, 70-80 Legitimacy"
+ legitimacy_lreq_4: "Low Tribute Requirements, 60-70 Legitimacy"
+ legitimacy_lreq_5: "Low Tribute Requirements, 50-60 Legitimacy"
+ legitimacy_lreq_6: "Low Tribute Requirements, 40-50 Legitimacy"
+ legitimacy_lreq_7: "Low Tribute Requirements, 30-40 Legitimacy"
+ legitimacy_lreq_8: "Low Tribute Requirements, 20-30 Legitimacy"
+ legitimacy_lreq_9: "Low Tribute Requirements, 10-20 Legitimacy"
+ legitimacy_lreq_10: "Low Tribute Requirements, 0-10 Legitimacy"
+ 
+ legitimacy_nreq_1: "Normal Tribute Requirements, 90+ Legitimacy"
+ legitimacy_nreq_2: "Normal Tribute Requirements, 80-90 Legitimacy"
+ legitimacy_nreq_3: "Normal Tribute Requirements, 70-80 Legitimacy"
+ legitimacy_nreq_4: "Normal Tribute Requirements, 60-70 Legitimacy"
+ legitimacy_nreq_5: "Normal Tribute Requirements, 50-60 Legitimacy"
+ legitimacy_nreq_6: "Normal Tribute Requirements, 40-50 Legitimacy"
+ legitimacy_nreq_7: "Normal Tribute Requirements, 30-40 Legitimacy"
+ legitimacy_nreq_8: "Normal Tribute Requirements, 20-30 Legitimacy"
+ legitimacy_nreq_9: "Normal Tribute Requirements, 10-20 Legitimacy"
+ legitimacy_nreq_10: "Normal Tribute Requirements, 0-10 Legitimacy"
+ 
+ legitimacy_hreq_1: "High Tribute Requirements, 95+ Legitimacy"
+ legitimacy_hreq_2: "High Tribute Requirements, 90-95 Legitimacy"
+ legitimacy_hreq_3: "High Tribute Requirements, 80-90 Legitimacy"
+ legitimacy_hreq_4: "High Tribute Requirements, 70-80 Legitimacy"
+ legitimacy_hreq_5: "High Tribute Requirements, 60-70 Legitimacy"
+ legitimacy_hreq_6: "High Tribute Requirements, 50-60 Legitimacy"
+ legitimacy_hreq_7: "High Tribute Requirements, 40-50 Legitimacy"
+ legitimacy_hreq_8: "High Tribute Requirements, 30-40 Legitimacy"
+ legitimacy_hreq_9: "High Tribute Requirements, 20-30 Legitimacy"
+ legitimacy_hreq_10: "High Tribute Requirements, 0-20 Legitimacy"
+ 
+ #Decisions
+ set_tribute_requirements_title: "Set Tribute Requirements"
+ set_tribute_requirements_desc: "Declare a change in tribute requirements for your tributary (non-state) provinces. To learn more about the tribute system, see the encyclopedia entry."
+ 
+ #Population System#
+ #Tooltips 
+ POPULATION_SYS_NO: "You cannot manually increase population, it must grow naturally."
+ 
+ #Communication Efficiency#
+ #Modifiers
+ perfect_communication: "Perfect Communication"
+ near_perfect_communication: "Near Perfect Communication"
+ very_good_communication: "Very Good Communication"
+ good_communication: "Good Communication"
+ fair_communication: "Fair Communication"
+ difficult_communication: "Difficult Communication"
+ poor_communication: "Poor Communication"
+ very_poor_communication: "Very Poor Communication"
+ terrible_communication: "Terrible Communication"
+ minimal_communication: "Minimal Communication"
+ 
+ ai_perfect_communication: "Perfect Communication"
+ ai_near_perfect_communication: "Near Perfect Communication"
+ ai_very_good_communication: "Very Good Communication"
+ ai_good_communication: "Good Communication"
+ ai_fair_communication: "Fair Communication"
+ ai_difficult_communication: "Difficult Communication"
+ ai_poor_communication: "Poor Communication"
+ ai_very_poor_communication: "Very Poor Communication"
+ ai_terrible_communication: "Terrible Communication"
+ ai_minimal_communication: "Minimal Communication"
+ 
+ #Special Global Modifiers
+ mesoamerican_logistics: "Mesoamerican Logistics"
+ desc_mesoamerican_logistics: "The rough terrain and lack of draft and transportation animals in Mesoamerica made controlling large realms and fielding large armies a more difficult task."
+ postclassic_golden_age: "Late Postclassic Golden Age"
+ desc_postclassic_golden_age: "In the Late Postclassic, Mesoamerica experienced a golden age as population growth increased drastically, the world was reintegrated into large kingdoms and empires, and the economy became more interconnected and productive, seeing the rise of a powerful merchant class capable of challenging the old elite. This was all accompanied by large-scale reurbanization, resulting in around half the population of core areas like the Valley of Mexico living in cities by the time the Spanish arrived in 1519." 

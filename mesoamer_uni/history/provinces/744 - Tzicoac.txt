@@ -7,11 +7,11 @@ hre = no
 base_tax = 2
 base_production = 5
 base_manpower = 16
-trade_goods = staple_crops 
+trade_goods = aquatic_foods
 
 capital = "Tzicoac"
 is_city = yes
-fort_15th = yes
+
 
 discovered_by = central_mexican_tg
 discovered_by = western_european_tg

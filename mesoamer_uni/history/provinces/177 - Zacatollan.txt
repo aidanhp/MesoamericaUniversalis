@@ -1,0 +1,23 @@
+add_core = GGT
+owner = GGT
+controller = GGT
+culture = tolimec
+religion = placeholderism
+hre = no
+base_tax = 2
+base_production = 5
+base_manpower = 17
+trade_goods = gold
+
+capital = "Zacatollan"
+is_city = yes
+
+
+discovered_by = western_european_tg
+discovered_by = triple_alliance_tg 
+discovered_by = tlaxcallan_tg
+discovered_by = purepecha_tg
+discovered_by = central_mexican_tg 
+discovered_by = huaxyacac_tg
+discovered_by = west_mexican_tg 
+discovered_by = maya_tg

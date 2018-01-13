@@ -2,128 +2,82 @@ monarch_power = DIP
 
 # applied when a country is ahead of time in this technology
 ahead_of_time = {
-	spy_offence = 0.20
+	trade_efficiency = 0.2
 	yearly_corruption = -0.05
 }
 
-# Pre-era techs
-technology = {
+technology = { #Maritime Trade 
 	# Tech 0
-	year = 1415
-
-	merchants = yes
-	range					= 	60
-	trade_range				=	200
-	global_colonial_growth			= 	20
-	may_support_rebels = yes
-	may_infiltrate_administration = yes
-	may_agitate_for_liberty = yes
-	may_fabricate_claims = yes
-	
-}
-
-technology = {
-	# Tech 0.5
 	year = 1428
 	
-	trade_efficiency 		= 	0.025
+	naval_morale = 2.0
+	enable = trade_canoe
+	enable = war_canoe
+	range =	60
+	trade_range	= 100
+	global_colonial_growth = 10
+	may_fabricate_claims = yes
+	merchants = yes
 }
 
-
-technology = {
+technology = { #An International Economy 
 	# Tech 1
-	year = 1429
+	year = 1441
 	
-	trade_efficiency 		= 	0.025
+	trade_range = 100
+	range = 100
+	may_slander_merchants = yes
+	num_accepted_cultures = 1
+	merchant_guild_outpost = yes
 }
 
-technology = {
+technology = { #Tlameme Expansion 
 	# Tech 2
-	year = 1450
+	year = 1454
 	
-	trade_efficiency 		= 	0.05
+	trade_range = 50
+	trade_efficiency = 0.05
 }
 
-technology = {
+technology = { #Mercantile Imperialism 
 	# Tech 3
-	year = 1472
-	
-	trade_range			=	50
+	year = 1467
+
+	trade_efficiency = 0.05
+	may_agitate_for_liberty = yes
+	may_sow_discontent = yes
+	may_infiltrate_administration = yes
 }
 
-# The 30 big techs from here on
-
-technology = {
+technology = { #Expanded Marketplaces 
 	# Tech 4
-	year = 1494
-
-	range = 200
-	trade_range = 250
-	global_colonial_growth	= 20
+	year = 1480
+		
+	market_3 = yes
 }
 
-technology = {
+technology = { #Exchange Commodities 
 	# Tech 5
-	year = 1516
+	year = 1493
 	
-	trade_efficiency = 0.025
-	may_steal_maps = yes
-	may_study_technology = yes
+	trade_efficiency = 0.10
+	may_sabotage_recruitment = yes
+	may_sabotage_reputation = yes
+	may_corrupt_officials = yes
 }
 
-technology = {
+technology = { #Great Markets 
 	# Tech 6
-	year = 1538
+	year = 1506
 	
-	maneuver_value 		= 	0.50
-	supply_limit        =   0.50
+	market_4 = yes
 }
 
-technology = {
+technology = { #More Colonization Efforts 
 	# Tech 7
-	year = 1560
-
-	trade_efficiency = 0.025
-}
-
-technology = {
-	# Tech 8
-	year = 1582
+	year = 1519
 	
-	trade_efficiency = 0.025
-}
-
-technology  = {
-	# Tech 9
-	year = 1604
-	
-	global_colonial_growth	= 50
-}
-
-technology = {
-	# Tech 10
-	year = 1626
-	
-	trade_efficiency = 0.025
-}
-
-technology = {
-	# Tech 11
-	year = 1648
-	
-	trade_efficiency = 0.025
-}
-
-technology = {
-	# Tech 12
-	year = 1670
-	
-	trade_efficiency = 0.025
-}
-
-technology = {
-	# Tech 13
-	year = 1692
-	
-	trade_efficiency = 0.025
+	range = 100
+	global_colonial_growth = 20	
+	may_steal_maps = yes
 }

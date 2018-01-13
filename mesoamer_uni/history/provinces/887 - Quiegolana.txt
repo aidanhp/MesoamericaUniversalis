@@ -11,7 +11,7 @@ trade_goods = staple_crops
 
 capital = "Quiegolana"
 is_city = yes
-fort_15th = yes
+
 
 discovered_by = central_mexican_tg
 discovered_by = western_european_tg

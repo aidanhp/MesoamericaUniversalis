@@ -1,0 +1,653 @@
+# Custom triggers scripted for the French custom localization strings
+
+#####################################################
+###   Nation Articles // Articles pour les pays   ###
+#####################################################
+
+# TODO : ANH could also be NOUVEL-ANHALT 
+frloc_tags_art_sg_masc_cons_au_01a = {
+	OR = {
+		# Ex.: LE Danemark / l'honneur DU Danemark / le trône DU Danemark / arriver AU Danemark / demander AU Danemark / NOUVEAU-Danemark
+		# Scandinavia / Scandinavie
+		tag = DAN tag = SHL
+		# Balkans
+		tag = MON
+		# British Isles / îles Britanniques
+		tag = LEI tag = WLS tag = KID tag = SLN tag = DMS tag = MNS tag = MTH tag = TYR tag = CNN
+		# Colonies
+		tag = BRZ tag = CAN tag = CHL tag = MEX tag = PEU tag = PRG tag = QUE tag = VNZ
+		# HRE / Saint-Empire
+		tag = BRA tag = BRU tag = ANH tag = MKL tag = PAL tag = TIR tag = WUR
+		# Spain / Espagne
+		tag = LON tag = POR
+		# Italy / Italie
+		tag = MFA
+		# Low Countries / Pays-Bas
+		tag = BRB tag = HAI tag = LUX
+		# Russia / Russie
+		tag = SIB
+		# Arabia / Arabie
+		tag = HDR tag = HED tag = NAJ tag = SHR tag = YEM
+		# Asia Minor / Asie mineure
+		tag = LEB tag = MLK tag = SME tag = SRV
+		# Maghreb
+		tag = FZA tag = GHD tag = MOR tag = MZB tag = SOS tag = TFL
+		# Persia / Perse
+		tag = BPI tag = FRS tag = GAZ tag = KHO tag = KRY tag = LRI tag = SIS tag = TAB
+		# Africa / Afrique
+		tag = BEN tag = JOL tag = KBO tag = KON tag = LOA tag = MAL tag = SOK tag = SON tag = ZIM
+		# East African Additions / Ajouts en Afrique orientale
+		tag = BTI tag = DAR tag = GLE tag = HDY tag = JJI tag = KAF tag = MED tag = MJE tag = MRE tag = SOA tag = WAR
+		# Kongo, Great Lakes & Central Africa / Congo, Grands Lacs et Afrique centrale
+		tag = BSG tag = BUG tag = BUU tag = KLD tag = KRW tag = KSJ tag = KZB tag = NKO tag = RWA tag = RZW
+		# African Additions / Ajouts en Afrique
+		tag = BON tag = DAH tag = DGB tag = KBU tag = NDO tag = YAT tag = ZAF
+		# Madagascar
+		tag = SKA
+		# Far East / Extrême-Orient
+		tag = ANN tag = BEI tag = CHA tag = DAI tag = JAP tag = LNA tag = LXA tag = TIB tag = TOK
+		# Indochina Additions / Ajouts en Indochine
+		tag = KED tag = LIG tag = MPH tag = PRK
+		# Great Tibet tags / Tibet
+		tag = KAM
+		# India / Inde
+		tag = BGA tag = BGL tag = BHU tag = BND tag = BNG tag = BRR tag = BST tag = CMP tag = DEC tag = DHU tag = GDW tag = GHR tag = GRJ tag = GUJ tag = JAJ tag = JAN tag = KAC tag = KAT tag = KHD tag = KSH tag = LDK tag = MAB tag = MAW tag = MER tag = MEW tag = MLB tag = MLW tag = NGP tag = NPL tag = PUN tag = RMP tag = SND tag = TPR tag = TRT tag = VND
+	}
+}
+
+frloc_tags_art_sg_masc_cons_dansle_01b = {
+	# Ex.: LE Berry / l'honneur DU Berry / le trône DU Berry / arriver DANS LE Berry / demander AU Berry / NOUVEAU-Berry
+	OR = {
+		# France 
+		tag = BER tag = BOU tag = DAU tag = NEV tag = SPI
+		# HRE / Saint-Empire
+		tag = HLR
+	}
+}
+
+frloc_tags_art_sg_masc_cons_en_01c = {
+	# Ex.: LE Hanovre / l'honneur DU Hanovre / le trône DU Hanovre / arriver EN Hanovre / demander AU Hanovre / NOUVEAU-Hanovre
+	# HRE / Saint-Empire
+	tag = HAN
+}
+
+frloc_tags_art_sg_masc_vow_en_02a = {
+	# Ex.: L'Épire / l'honneur DE L'Épire / le trône D'Épire / arriver EN Épire / demander À L'Épire / NOUVEL-Épire
+	OR = {
+		# Balkans
+		tag = EPI
+		# British Isles / îles Britanniques
+		tag = ULS
+		# France
+		tag = AMG
+		# Spain / Espagne
+		tag = ARA
+		# Asia Minor / Asie mineure
+		tag = IRQ
+		# Persia / Perse
+		tag = AFG
+		# Africa / Afrique
+		tag = ADA tag = AJU
+		# Madagascar
+		tag = MIR
+		# Far East / Extrême-Orient
+		tag = ARK
+		# Great Tibet tags / Tibet
+		tag = UTS
+		# India / Inde
+		tag = ASS tag = ORI tag = YOR
+		# ???
+		tag = HIN
+	}
+}
+
+frloc_tags_art_sg_masc_vow_dansl_02b = {
+	# Ex.: L'Ordre de Livonie / l'honneur DE L'Ordre de Livonie / le trône DE L'Ordre de Livonie / arriver DANS L'Ordre de Livonie / demander À L'Ordre de Livonie / NOUVEL-Ordre de Livonie
+	OR = {
+		# Eastern Europe / Europe orientale
+		tag = LIV tag = TEU
+		# African Additions / Ajouts en Afrique
+		tag = AIR
+		# ???
+		tag = ROM
+	}
+}
+
+frloc_tags_art_sg_fem_cons_de_en_03a = {
+	# Ex.: LA Finlande / l'honneur DE LA Finlande / le trône DE Finlande / arriver EN Finlande / demander À LA Finlande / NOUVELLE-Finlande
+	OR = {
+		# Scandinavia / Scandinavie
+		tag = FIN tag = KRL tag = LVA tag = NOR tag = SCA tag = SWE
+		# Balkans
+		tag = BOS tag = BUL tag = CRO tag = CRT tag = GRE tag = HUN tag = MOE tag = MOL tag = RMN tag = SER tag = TRA tag = WAL
+		# British Isles / îles Britanniques
+		tag = GBR tag = HSC tag = NOL
+		# Colonies
+		tag = COL tag = LOU
+		# Eastern Europe / Europe orientale
+		tag = KUR tag = LIT tag = MAZ tag = POL tag = PRU tag = VOL
+		# France 
+		tag = BRI tag = BUR tag = CHP tag = COR tag = FRA tag = GUY tag = NRM tag = PIC tag = PRO
+		# HRE / Saint-Empire
+		tag = BAD tag = BAV tag = BOH tag = DTT tag = EFR tag = HES tag = LAU tag = LOR tag = MEI tag = MVA tag = POM tag = SAX tag = SIL tag = STY tag = SWI tag = THU tag = WES
+		# Spain / Espagne
+		tag = CAS tag = CAT tag = GAL tag = NAV
+		# Italy / Italie
+		tag = SAR tag = SAV tag = SIC tag = TUS
+		# Low Countries / Pays-Bas
+		tag = FRI tag = GEL tag = HOL
+		# Russia / Russie
+		tag = CRI tag = GEO tag = MOS tag = RUS tag = UKR
+		# Asia Minor / Asie mineure
+		tag = KAR tag = MAK tag = SYR
+		# Maghreb
+		tag = KBA tag = TRP
+		# Persia / Perse
+		tag = CIR tag = PER tag = TRS
+		# Africa / Afrique
+		tag = NUB
+		# Far East / Extrême-Orient
+		tag = KOR
+		# India / Inde
+		tag = KRK
+		# ???
+		tag = MSA
+	}
+}
+
+frloc_tags_art_sg_fem_cons_dela_auseindela_03b = {
+	# Ex.: LA République des Deux Nations / l'honneur DE LA République des Deux Nations / le trône DE LA République des Deux Nations / arriver AU SEIN DE LA République des Deux Nations / demander À LA République des Deux Nations / NOUVELLE-République des Deux Nations
+	OR = {
+		# Eastern Europe / Europe orientale
+		tag = PLC
+		# Russia / Russie
+		tag = GOL tag = GLH
+		# Asia Minor / Asie mineure
+		tag = MSY
+	}
+}
+
+frloc_tags_art_sg_fem_vow_d_en_04a = {
+	# Ex.: L'Islande / l'honneur DE L'Islande / le trône D'Islande / arriver EN Islande / demander À L'Islande / NOUVELLE-Islande
+	OR = {
+		# Scandinavia / Scandinavie
+		tag = EST tag = ICE
+		# Balkans
+		tag = ACH tag = ALB
+		# British Isles / îles Britanniques
+		tag = ENG tag = IRE tag = SCO
+		# Colonies
+		tag = AUS
+		# France 
+		tag = ALS tag = AUV
+		# HRE / Saint-Empire
+		tag = GER tag = HAB
+		# Spain / Espagne
+		tag = ADU tag = SPA
+		# Italy / Italie
+		tag = ETR tag = ITA
+		# Russia / Russie
+		tag = ARM
+		# Asia Minor / Asie mineure
+		tag = ARB
+		# Maghreb
+		tag = EGY
+		# Persia / Perse
+		tag = IME
+		# Africa / Afrique
+		tag = ETH
+		# East African Additions / Ajouts en Afrique orientale
+		tag = ALO
+		# India / Inde
+		tag = ODH
+	}
+}
+
+frloc_tags_art_pl_masc_cons_chezles_05a = {
+	# Ex.: LES Lappons / l'honneur DES Lappons / le trône DES Lappons / arriver CHEZ LES Lappons / demander AUX Lappons / NOUVEAUX-Lappons
+	OR = {
+		# Scandinavia / Scandinavie
+		tag = SMI
+		# Balkans
+		tag = KNI tag = TUR
+		# Russia / Russie
+		tag = BSH tag = NOG tag = ZAZ
+		# Arabia / Arabie
+		tag = ANZ tag = DAW tag = FAD tag = RAS tag = YAS
+		# Asia Minor / Asie mineure
+		tag = AKK tag = AVR tag = SHM
+		# Maghreb
+		tag = MAM
+		# Central Asia / Asie centrale
+		tag = KZH tag = SHY
+		# Persia / Perse
+		tag = QAR tag = QOM tag = TIM
+		# Americas / Amériques
+		tag = AZT tag = CHE tag = CHM tag = CRE tag = HUR tag = INC tag = IRO tag = MAY tag = SHA tag = ZAP
+		# North American Additions / Ajouts en Amérique du Nord
+		tag = ABE tag = APA tag = ARP tag = ASI tag = BLA tag = CAD tag = CHI tag = CHO tag = CHY tag = CNK tag = COC tag = COM tag = FOX tag = HDA tag = ILL tag = ITZ tag = KIC tag = KIO tag = LEN tag = MAH tag = MIK tag = MIX tag = MMI tag = NAH tag = OJI tag = OSA tag = OTT tag = PAW tag = PEQ tag = PIM tag = POT tag = POW tag = PUE tag = SAL tag = SHO tag = SIO tag = SUS tag = TAR tag = TLA tag = TOT tag = WCR tag = WIC tag = XIU
+		# South American Additions / Ajouts en Amérique du Sud
+		tag = ARW tag = CAB tag = CCQ tag = CLA tag = CRA tag = CUA tag = CYA tag = GUA tag = HJA tag = ICM tag = MCA tag = MPC tag = PCJ tag = PTG tag = TPA tag = TPQ tag = TUA tag = WKA
+		# Africa / Afrique
+		tag = ASH tag = HAU tag = OYO
+		# East African Additions / Ajouts en Afrique orientale
+		tag = BEJ tag = WLY
+		# Kongo, Great Lakes & Central Africa / Congo, Grands Lacs et Afrique centrale
+		tag = UBH tag = TYO tag = BNY tag = CKW tag = KUB tag = LND tag = LUB tag = YAK tag = MRA tag = TBK tag = MKU
+		# African Additions / Ajouts en Afrique
+		tag = FUL tag = MSI tag = NUP
+		# Madagascar
+		tag = ANT tag = BTS tag = MFY
+		# Far East / Extrême-Orient
+		tag = CHG tag = KHA tag = KHM tag = MCH tag = OIR tag = SST
+		tag = MNG tag = QNG tag = RYU tag = YUA
+		# Indonesia Additions / Ajouts en Indonésie
+		tag = BNJ
+		# Daimyos & New Daimyos 1.20 / Daimyôs et nouveaux daimyôs 1.20
+		tag = UES tag = CBA tag = CSK tag = DTE tag = KKC tag = KNO tag = MAE tag = MRI tag = RFR tag = SBA tag = SHN tag = SMZ tag = STK tag = TKD tag = TKG tag = TKI tag = TTI tag = YMN tag = AKM tag = AKT tag = AMA tag = ASA tag = ASK tag = HJO tag = HSK tag = HTK tag = IKE tag = IMG tag = ISK tag = ITO tag = ODA tag = OGS tag = OTM tag = OUC tag = UTN
+		# Manchuria tags / Mandchourie
+		tag = MJZ tag = MHX tag = MYR
+		# Mongol tags / Mongols
+		tag = CHH tag = HMI tag = KAS tag = KLK tag = KRC tag = ZUN
+		# Great Tibet tags / Tibet
+		tag = KSD tag = SYG
+		# Non-Han China proper tags & Chinese Revolters / Chine non-han et révoltes chinoises
+		tag = CMI
+		# Siberian Tribes / Tribus sibériennes
+		tag = ANU tag = BRT tag = CHU tag = CHV tag = HOD tag = KMC
+		# India / Inde
+		tag = BAL tag = MAR tag = MUG
+	}
+}
+
+frloc_tags_art_pl_masc_cons_aux_05b = {
+	# Ex.: LES États-Unis / l'honneur DES États-Unis / le trône DES États-Unis / arriver AUX États-Unis / demander AUX États-Unis / NOUVEAUX-États-Unis
+	OR = {
+		# Colonies
+		tag = USA
+		# Low Countries / Pays-Bas
+		tag = NED
+	}
+}
+
+frloc_tags_art_pl_masc_cons_dansles_05c = {
+	# Ex.: LES États pontificaux / l'honneur DES États pontificaux / le trône DES États pontificaux / arriver DANS LES États pontificaux / demander AUX États pontificaux / NOUVEAUX-États pontificaux
+	# Italy / Italie
+	tag = PAP
+}
+
+#frloc_tags_art_pl_masc_vow_X_06a = {} # CURRENTLY UNUSED
+
+frloc_tags_art_pl_fem_cons_aux_07a = {
+	# Ex.: LES Maldives / l'honneur DES Maldives / le trône DES Maldives / arriver AUX Maldives / demander AUX Maldives / NOUVELLES-Maldives
+	OR = {
+		# Colonies
+		tag = CAM
+		# India / Inde
+		tag = DGL
+	}
+}
+
+frloc_tags_art_pl_fem_cons_dansles_07b = {
+	# Ex.: LES Cornouailles / l'honneur DES Cornouailles / le trône DES Cornouailles / arriver DANS LES Cornouailles / demander AUX Cornouailles / NOUVELLES-Cornouailles
+	OR = {
+		# British Isles / îles Britanniques
+		tag = CRN
+		# Low Countries / Pays-Bas
+		tag = FLA
+	}
+}
+
+#frloc_tags_art_pl_fem_vow_X_08a = {} # CURRENTLY UNUSED
+
+frloc_tags_noart_sg_masc_cons_en_a_09a = {
+	# Ex.: [ø] Novgorod / l'honneur DE Novgorod / le trône DE Novgorod / arriver EN Novgorod / demander À Novgorod / NOUVEAU-Novgorod
+	OR = {
+		# Russia / Russie
+		tag = NOV tag = QAS
+		# South American Additions / Ajouts en Amérique du Sud
+		tag = CSU tag = QTO
+		# Non-Han China proper tags & Chinese Revolters / Chine non-han et révoltes chinoises
+		tag = CDL tag = CGS tag = CHC tag = CYI tag = HUA tag = JIN tag = LNG tag = MIN tag = NNG tag = QIC tag = QIN tag = SHU tag = TNG tag = WUU tag = YAN tag = YUE
+		# India / Inde
+		tag = BAH tag = CEY
+		# ???
+		tag = BAR tag = NZH
+		# Asia Minor / Asie mineure
+		tag = BHT tag = RUM
+	}
+}
+
+frloc_tags_noart_sg_masc_cons_a_a_09b = {
+	# Ex.: [ø] Chypre / l'honneur DE Chypre / le trône DE Chypre / arriver À Chypre / demander À Chypre / NOUVEAU-Chypre
+	OR = {
+		# Balkans
+		tag = CYP
+		# Great Tibet tags / Tibet
+		tag = GUG
+	}
+}
+
+# TODO : might be better if all were plural?
+frloc_tags_noart_sg_masc_cons_en_aux_09c = {
+	# Ex.: [ø] Ming / l'honneur DE Ming / le trône DE Ming / arriver EN Ming / demander AUX Ming / NOUVEAU-Ming
+	OR = {
+		# Far East / Extrême-Orient
+		tag = RYU
+	}
+}
+
+frloc_tags_noart_sg_masc_vow_en_a_10a = {
+	# Ex.: [ø] Alençon / l'honneur D'Alençon / le trône D'Alençon / arriver EN Alençon / demander À Alençon / NOUVEL-Alençon
+	OR = {
+		# France 
+		tag = ALE
+		# Arabia / Arabie
+		tag = OMA
+		# Persia / Perse
+		tag = ORM
+	}
+}
+
+frloc_tags_noart_sg_masc_vow_a_a_10b = {
+	# Ex.: [ø] Haïti / l'honneur D'Haïti / le trône D'Haïti / arriver À Haïti / demander À Haïti / NOUVEL-Haïti
+	# Colonies
+	tag = HAT
+}
+
+frloc_tags_noart_sg_fem_cons_de_en_11a = {
+	# Ex.: [ø] Tchernigov / l'honneur DE Tchernigov / le trône DE Tchernigov / arriver EN Tchernigov / demander À Tchernigov / NOUVELLE-Tchernigov
+	OR = {
+		# Eastern Europe / Europe orientale
+		tag = CHR tag = DNZ tag = KIE tag = KRA tag = RIG
+		# France 
+		tag = FOI tag = TOU
+		# HRE / Saint-Empire
+		tag = BRE tag = FRN tag = HAM tag = KLE tag = KOL tag = LUN tag = MAG tag = MAI tag = MEM tag = MUN tag = NSA tag = NUM tag = RVA tag = SLZ tag = TRI tag = VER tag = WBG
+		# Low Countries / Pays-Bas
+		tag = LIE
+		# Russia / Russie
+		tag = BLO tag = FEO tag = KAZ tag = PLT tag = PRM tag = PSK tag = RSO tag = RYA tag = TVE tag = YAR
+		# Arabia / Arabie
+		tag = BTL tag = HSN tag = MDA tag = MFL tag = MHR tag = NJR
+		# Asia Minor / Asie mineure
+		tag = CND tag = DUL tag = GRM tag = MEN tag = RAM tag = SRU tag = TRE
+		# Maghreb
+		tag = FEZ tag = TGT tag = TLC tag = TUN
+		# Central Asia / Asie centrale
+		tag = BUK tag = KHI tag = KOK
+		# Persia / Perse
+		tag = BSR tag = ISF tag = KRM tag = MGR tag = TBR tag = YZD
+		# North American Additions / Ajouts en Amérique du Nord
+		tag = CLM tag = TLX
+		# South American Additions / Ajouts en Amérique du Sud
+		tag = CJA
+		# Africa / Afrique
+		tag = MBA tag = MDI tag = MLI tag = SFA tag = SOF tag = ZAN
+		# East African Additions / Ajouts en Afrique orientale
+		tag = ABB tag = DAM tag = HAR tag = HOB tag = JIM tag = PTE
+		# Kongo, Great Lakes & Central Africa / Congo, Grands Lacs et Afrique centrale
+		tag = KIK tag = SYO tag = LDU
+		# African Additions / Ajouts en Afrique
+		tag = JNN tag = KAN tag = KNG tag = KTS tag = TMB tag = YAO tag = ZZZ
+		# Far East / Extrême-Orient
+		tag = BAN tag = BLI tag = CHK tag = CSH tag = CXI tag = CZH tag = LUA tag = MAJ tag = MKS tag = MLC tag = MTR tag = PAT tag = PEG tag = SUK tag = SUL tag = TAU tag = VIE
+		# Indochina Additions / Ajouts en Indochine
+		tag = HSE tag = JOH tag = MYA
+		# India / Inde
+		tag = BDA tag = BHA tag = BIJ tag = CHD tag = DLH tag = GOC tag = GWA tag = HAD tag = JFN tag = JNP tag = JSL tag = KGR tag = KLN tag = KMT tag = KOC tag = MAD tag = MUL tag = MYS tag = NAG tag = NGA tag = PTA tag = SDY tag = VIJ
+		# ???
+		tag = HSA tag = JMN tag = KOJ tag = SMO
+	}
+}
+
+frloc_tags_noart_sg_fem_cons_de_a_11b = {
+	# Ex.: [ø] Gotland / l'honneur DE Gotland / le trône DE Gotland / arriver À Gotland / demander À Gotland / NOUVELLE-Gotland
+	OR = {
+		# Scandinavia / Scandinavie
+		tag = GOT
+		# Balkans
+		tag = BYZ tag = CEP tag = NAX tag = RAG tag = SLO
+		# Spain / Espagne
+		tag = GRA
+		# Italy / Italie
+		tag = FER tag = GEN tag = JAI tag = LAN tag = LUC tag = MAN tag = MLO tag = MOD tag = NAP tag = PAR tag = PIS tag = SIE tag = VEN
+		# Indonesia Additions / Ajouts en Indonésie
+		tag = BLM tag = BTN tag = CRB tag = DMK tag = KUT tag = LFA tag = LNO tag = LUW tag = MGD tag = PGR tag = PLB tag = PSA tag = SAK tag = SUN tag = TER tag = TID
+	}
+}
+
+# Special case because of the "La" that can't be erased
+# TODO : check if that doesn't match perfectly with 17
+frloc_tags_noart_sg_fem_cons_dela_en_11c = {
+	# Ex.: [ø] La Plata / l'honneur DE La Plata / le trône DE La Plata / arriver À La Plata / demander À La Plata / NOUVELLE-La Plata
+	# Colonies
+	tag = LAP
+}
+
+frloc_tags_noart_sg_fem_vow_d_en_12a = {
+	# Ex.: Odoïev / l'honneur D'Odoïev / le trône D'Odoïev / arriver EN Odoïev / demander À Odoïev / NOUVELLE-Odoïev
+	OR = {
+		# Eastern Europe / Europe orientale
+		tag = OKA
+		# France 
+		tag = AVI tag = ORL
+		# HRE / Saint-Empire
+		tag = AAC tag = ANS tag = AUG tag = OLD tag = ULM
+		# Low Countries / Pays-Bas
+		tag = UTR
+		# Russia / Russie
+		tag = AST
+		# Arabia / Arabie
+		tag = ADE tag = ALH
+		# Asia Minor / Asie mineure
+		tag = ARD tag = ARL tag = AYD tag = ERE
+		# Maghreb
+		tag = ALG
+		# Africa / Afrique
+		tag = ENA
+		# East African Additions / Ajouts en Afrique orientale
+		tag = AFA
+		# Far East / Extrême-Orient
+		tag = AYU
+		# Indochina Additions / Ajouts en Indochine
+		tag = AVA
+		# India / Inde
+		tag = AHM
+	}
+}
+
+frloc_tags_noart_sg_fem_vow_d_a_12b = {
+	# Ex.: [ø] Athènes / l'honneur D'Athènes / le trône D'Athènes / arriver À Athènes / demander À Athènes / NOUVELLE-Athènes
+	OR = {
+		# Balkans
+		tag = ATH
+		# Italy / Italie
+		tag = AQU tag = URB
+		# Far East / Extrême-Orient
+		tag = ATJ
+	}
+}
+
+#frloc_tags_noart_pl_masc_cons_X_13a = {} # CURRENTLY UNUSED
+#frloc_tags_noart_pl_masc_vow_X_14a = {} # CURRENTLY UNUSED
+#frloc_tags_noart_pl_fem_cons_X_15a = {} # CURRENTLY UNUSED
+#frloc_tags_noart_pl_fem_vow_X_16a = {} # CURRENTLY UNUSED
+
+
+
+###################################################
+###   Religion Groups // Familles religieuses   ###
+###################################################
+
+frloc_religion_group_cons = {
+	OR = {
+		religion_group = christian
+		religion_group = dharmic
+		religion_group = pagan
+		religion_group = jewish_group
+		religion_group = zoroastrian_group
+	}
+}
+
+frloc_religion_group_vow = {
+	OR = {
+		religion_group = muslim
+		religion_group = eastern
+	}
+}
+
+
+
+####################################################
+### Religion (Main) // Religions (principales)   ###
+####################################################
+
+frloc_religion_masc_cons = {
+	OR = {
+		religion = catholic
+		religion = protestant
+		religion = coptic
+		religion = sunni
+		religion = shiite
+		religion = buddhism
+		religion = vajrayana
+		religion = mahayana
+		religion = confucianism
+		religion = shinto
+		religion = sikhism
+		religion = shamanism
+		religion = totemism
+		religion = nahuatl
+		religion = mesoamerican_religion
+		religion = norse_pagan_reformed
+		religion = tengri_pagan_reformed
+		religion = jewish
+		religion = zoroastrian
+	}
+}
+
+frloc_religion_fem_cons = {
+	religion = reformed
+}
+
+frloc_religion_masc_vow = {
+	OR = {
+		religion = hinduism
+		religion = ibadi
+		religion = animism
+		religion = inti
+	}
+}
+
+frloc_religion_fem_vow = {
+	religion = orthodox
+}
+
+
+
+#####################################################
+### Secondary Religion // Religions secondaires   ###
+#####################################################
+
+frloc_secondary_religion_masc_cons = {
+	OR = {
+		secondary_religion = catholic
+		secondary_religion = protestant
+		secondary_religion = coptic
+		secondary_religion = sunni
+		secondary_religion = shiite
+		secondary_religion = buddhism
+		secondary_religion = vajrayana
+		secondary_religion = mahayana
+		secondary_religion = confucianism
+		secondary_religion = shinto
+		secondary_religion = sikhism
+		secondary_religion = shamanism
+		secondary_religion = totemism
+		secondary_religion = nahuatl
+		secondary_religion = mesoamerican_religion
+		secondary_religion = norse_pagan_reformed
+		secondary_religion = tengri_pagan_reformed
+		secondary_religion = jewish
+		secondary_religion = zoroastrian
+	}
+}
+
+frloc_secondary_religion_fem_cons = {
+	secondary_religion = reformed
+}
+
+frloc_secondary_religion_masc_vow = {
+	OR = {
+		secondary_religion = hinduism
+		secondary_religion = ibadi
+		secondary_religion = animism
+		secondary_religion = inti
+	}
+}
+
+frloc_secondary_religion_fem_vow = {
+		secondary_religion = orthodox
+}
+
+
+
+############################################
+###   Trade Goods // Biens commerciaux   ###
+############################################
+
+frloc_trade_goods_masc_sg_cons = {
+	OR = {
+		trade_goods = wine
+		trade_goods = fish
+		trade_goods = salt
+		trade_goods = copper
+		trade_goods = iron
+		trade_goods = tea
+		trade_goods = coffee
+		trade_goods = cotton
+		trade_goods = sugar
+		trade_goods = tobacco
+		trade_goods = cocoa
+		trade_goods = livestock
+		trade_goods = glass
+		trade_goods = paper
+	}
+}
+
+frloc_trade_goods_fem_sg_cons = {
+	OR = {
+		trade_goods = wool
+		trade_goods = silk
+	}
+}
+
+frloc_trade_goods_sg_vow = {
+	OR = {
+		trade_goods = gold
+		trade_goods = ivory
+		trade_goods = incense
+	}
+}
+
+frloc_trade_goods_pl_cons = {
+	OR = {
+		trade_goods = tropical_wood
+		trade_goods = grain
+		trade_goods = fur
+		trade_goods = naval_supplies
+		trade_goods = chinaware
+		trade_goods = dyes
+		trade_goods = gems
+	}
+}
+
+frloc_trade_goods_pl_vow = {
+	OR = {
+		trade_goods = cloth
+		trade_goods = slaves
+		trade_goods = spices
+	}
+}
+

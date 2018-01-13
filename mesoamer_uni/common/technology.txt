@@ -4,149 +4,44 @@
 # Groups must be defined BEFORE tables.
 
 groups = {
-	#New Tech Groups
 	western_european_tg = {
 		start_level = 0
 		start_cost_modifier = 0
-		nation_designer_cost = {
-			trigger = {
-				capital_scope = {
-					OR = {
-						continent = new_world
-						continent = north_america
-						continent = south_america
-						continent = oceania
-					}
-				}
-			}
-			value = 75
-		}
 	}
 	
 	triple_alliance_tg = {
 		start_level = 0
 		start_cost_modifier = 0
-		nation_designer_cost = {
-			trigger = {
-				capital_scope = {
-					OR = {
-						continent = new_world
-						continent = north_america
-						continent = south_america
-						continent = oceania
-					}
-				}
-			}
-			value = 75
-		}
 	}
 	
 	tlaxcallan_tg = {
 		start_level = 0
 		start_cost_modifier = 0
-		nation_designer_cost = {
-			trigger = {
-				capital_scope = {
-					OR = {
-						continent = new_world
-						continent = north_america
-						continent = south_america
-						continent = oceania
-					}
-				}
-			}
-			value = 75
-		}
 	}
 	
 	purepecha_tg = {
-		start_cost_modifier = 0
 		start_level = 0
-		nation_designer_cost = {
-			trigger = {
-				capital_scope = {
-					OR = {
-						continent = new_world
-						continent = north_america
-						continent = south_america
-						continent = oceania
-					}
-				}
-			}
-			value = 75
-		}
+		start_cost_modifier = 0
 	}
 	
 	central_mexican_tg = {
-		start_cost_modifier = 0
 		start_level = 0
-		nation_designer_cost = {
-			trigger = {
-				capital_scope = {
-					OR = {
-						continent = new_world
-						continent = north_america
-						continent = south_america
-						continent = oceania
-					}
-				}
-			}
-			value = 75
-		}
+		start_cost_modifier = 0
 	}
 	
 	huaxyacac_tg = {
-		start_cost_modifier = 0
 		start_level = 0
-		nation_designer_cost = {
-			trigger = {
-				capital_scope = {
-					OR = {
-						continent = new_world
-						continent = north_america
-						continent = south_america
-						continent = oceania
-					}
-				}
-			}
-			value = 75
-		}
+		start_cost_modifier = 0
 	}
 	
 	west_mexican_tg = {
-		start_cost_modifier = 0
 		start_level = 0
-		nation_designer_cost = {
-			trigger = {
-				capital_scope = {
-					OR = {
-						continent = new_world
-						continent = north_america
-						continent = south_america
-						continent = oceania
-					}
-				}
-			}
-			value = 75
-		}
+		start_cost_modifier = 0
 	}
 	
 	maya_tg = {
-		start_cost_modifier = 0
 		start_level = 0
-		nation_designer_cost = {
-			trigger = {
-				capital_scope = {
-					OR = {
-						continent = new_world
-						continent = north_america
-						continent = south_america
-						continent = oceania
-					}
-				}
-			}
-			value = 75
-		}
+		start_cost_modifier = 0
 	}
 }
 

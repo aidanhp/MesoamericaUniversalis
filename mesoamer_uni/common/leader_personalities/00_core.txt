@@ -4,7 +4,7 @@
 # Modifiers apply only to the stack lead by the leader.
 
 ###############################################
-# General personalities
+# General Traits
 ###############################################
 
 glory_seeker_personality = {
@@ -98,7 +98,7 @@ extortioner_personality = {
 	allow = {
 		is_admiral = yes
 	}
-	trade_efficiency = 0.15
+	global_ship_trade_power = 0.15
 }
 
 ruthless_blockader_personality = {

@@ -1,5 +1,5 @@
 culture = zoque
-religion = maya
+religion = religion_maya
 capital = "Teapa"
 trade_goods = unknown
 hre = no

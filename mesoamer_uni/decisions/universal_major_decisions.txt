@@ -1,0 +1,73 @@
+#Major decisions shared by all countries
+country_decisions = {
+	test_decision = {
+		major = yes
+		potential = {
+			ai = no
+		}
+		allow = {
+			2 = {
+				province_distance = { 
+					who = THIS
+					distance = 1
+				}
+			}
+		}
+		effect = {
+			add_treasury = 5
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	set_draft_laws = {
+		major = yes 
+		potential = {
+			always = yes
+		}
+		allow = {
+			NOT = { has_country_flag = managing_draft_laws }
+			ai = no
+		}
+		effect = {
+			set_country_flag = managing_draft_laws
+			country_event = { id = draft_laws.01 } 
+		}
+		ai_will_do = {
+			factor = 0 
+		}
+	}
+	display_government_stats = {
+		major = yes 
+		potential = {
+			always = yes
+		}
+		allow = {
+			always = no
+		}
+		effect = {
+			custom_tooltip = display_gov_stats_tt 
+		}
+		ai_will_do = {
+			factor = 0 
+		}
+	}
+	set_tribute_requirements = {
+		major = yes
+		potential = {
+			OR = {
+				has_country_modifier = low_tribute_requirements
+				has_country_modifier = normal_tribute_requirements
+				has_country_modifier = high_tribute_requirements
+			}
+		}
+		allow = {
+			NOT = { has_country_flag = managing_trib_reqs }
+			ai = no
+		}
+		effect = {
+			set_country_flag = managing_trib_reqs
+			country_event = { id = tribute.01 } 
+		}
+	}
+}

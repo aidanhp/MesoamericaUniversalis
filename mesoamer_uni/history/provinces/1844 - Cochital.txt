@@ -1,5 +1,5 @@
 culture = putun_chontal
-religion = maya
+religion = religion_maya
 capital = "Cocohital"
 trade_goods = unknown
 hre = no

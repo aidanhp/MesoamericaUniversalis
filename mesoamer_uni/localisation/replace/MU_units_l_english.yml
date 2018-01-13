@@ -1,0 +1,24 @@
+﻿l_english:
+ #Localization for land and naval units#
+ 
+ #Land
+ cm_central_mexican_infantry: "Central Mexican Infantry"
+ cm_central_mexican_infantryDESCR: ""
+ hu_huaxyacac_infantry: "Huaxyacac Infantry"
+ hu_huaxyacac_infantryDESCR: ""
+ ma_maya_infantry: "Maya Infantry"
+ ma_maya_infantryDESCR: ""
+ pu_purepecha_infantry: "Purepecha Infantry"
+ pu_purepecha_infantryDESCR: ""
+ ta_triple_alliance_infantry: "Triple Alliance Infantry"
+ ta_triple_alliance_infantryDESCR: ""
+ tl_tlaxcallan_infantry: "Tlaxcallan Infantry"
+ tl_tlaxcallan_infantryDESCR: ""
+ wm_west_mexican_infantry: "West Mexican Infantry"
+ wm_west_mexican_infantryDESCR: ""
+ 
+ #Naval
+ war_canoe: "War Canoe"
+ war_canoeDESCR: ""
+ trade_canoe: "Trade Canoe"
+ trade_canoeDESCR: ""

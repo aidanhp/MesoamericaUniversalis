@@ -8,11 +8,11 @@ hre = no
 base_tax = 2
 base_production = 4
 base_manpower = 14
-trade_goods = staple_crops 
+trade_goods = fruits
 
 capital = "Lachiqalla"
 is_city = yes
-fort_15th = yes
+
 
 discovered_by = central_mexican_tg
 discovered_by = western_european_tg

@@ -1,5 +1,5 @@
 culture = chiapanec
-religion = maya
+religion = religion_maya
 capital = "Tenam"
 trade_goods = unknown
 hre = no

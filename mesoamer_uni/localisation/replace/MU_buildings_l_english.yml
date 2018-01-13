@@ -1,0 +1,44 @@
+﻿l_english:
+ #Localization for everything related to buildings#
+ #§
+ 
+ building_market_1: "Market I"
+ building_market_2: "Market II \n§Y--Requires 15 Population§!"
+ building_market_3: "Market III \n§Y--Requires 25 Population§!"
+ building_market_4: "Market IV \n§Y--Requires 30 Population§!"
+ building_merchant_guild_outpost: "Merchant Guild Outpost \n§Y--Requires Non-Capital Province§!"
+ 
+ building_workshop_1: "Workshop"
+ building_great_workshop: "Great Workshop"
+ building_industrial_workshop: "Industrial Workshop"
+ building_military_workshop_1: "Military Workshop I"
+ building_military_workshop_2: "Military Workshop II"
+ 
+ building_chinampas: "Chinampas \n§Y--Requires Adjacent Freshwater Lake§! \n§WLocal Population Growth:§! §G+0.015%§!"
+ building_terrace_farms: "Terrace Farms \n§Y--Requires Hills or Mountain Terrain§! \n§WLocal Population Growth:§! §G+0.015%§!"
+ building_farms: "Farms \n§WLocal Population Growth:§! §G+0.015%§!"
+ building_orchard: "Orchard"
+ building_managed_forests: "Managed Forests"
+ building_great_plantation: "Great Plantation"
+ building_quarry: "Quarry"
+ building_mining_operation: "Mining Operation"
+ building_salt_operation: "Salt Operation"
+ building_house_of_artists: "House of Artists"
+ 
+ building_local_administrative_complex: "Local Administrative Complex \n§WMovement Towards Territorial on Completion:§! §G+0.5§!"
+ building_resettled_villages: "Resettled Villages \n§Y--Requires Some Idea§!"
+ building_construction_center: "Construction Center \n§Y--Requires Idea 'Spectacular Constructions' (Hegemonic)§!"
+ building_administrative_center: "Administrative Center \n§Y--Requires Idea 'Administrative Centers' (Territorial)§! §GIncreases Communication Efficiency of Surrounding Provinces§!"
+ 
+ building_hill_fort: "Hill Fort \n§Y--Requires Hills or Mountain Terrain§!"
+ 
+ building_ceremonial_precinct: "Ceremonial Precinct \n§Y--Requires Capital Province§! \n§Y--Requires 10 Population§!"
+ building_ceremonial_precinct_walls: "Ceremonial Precinct Walls \n§Y--Requires Ceremonial Precinct§!"
+ building_grand_arsenal: "Grand Arsenal \n§Y--Requires Ceremonial Precinct§!"
+ building_military_order_houses: "Military Order Houses \n§Y--Requires Ceremonial Precinct§!"
+ building_water_garden: "Water Garden \n§Y--Requires Ceremonial Precinct§!"
+ building_great_palace: "Great Palace \n§Y--Requires Ceremonial Precinct§!"
+ building_great_calmecac: "Great Calmecac \n§Y--Requires Ceremonial Precinct§!"
+ building_great_ballcourt: "Great Ballcourt \n§Y--Requires Ceremonial Precinct§!"
+ building_great_pyramid_temple: "Great Pyramid Temple (Level I) \n§Y--Requires Ceremonial Precinct§!"
+ 

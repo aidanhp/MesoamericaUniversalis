@@ -2515,3 +2515,15 @@ caribbean = {
 	}
 }
 
+shadowmaster = {
+	graphical_culture = southamericagfx
+	
+	shadowmaster = {
+		male_names = {
+			Jared Graham Randall Erich 
+		}
+		female_names = {
+			Lucifher
+		}
+	}
+}

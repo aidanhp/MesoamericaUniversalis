@@ -5,145 +5,84 @@ monarch_power = MIL
 # ahead_of_time = {
 # }
 
-
-# Pre-era techs
-technology = {
+technology = { #Middle Postclassic Warfare 
 	# Tech 0
-	year = 1415
+	year = 1428
 	
 	sprite_level = 1
 
-	infantry_fire		= 	0.25
-	infantry_shock 		= 	0.50		
+	infantry_fire		= 	0.20
+	infantry_shock 		= 	0.25	
 	land_morale 		= 	2.0
-	combat_width = 8
 	fort_15th = yes
-
-	enable = cm_central_mexican_spearmen
-	enable = hu_huaxyacac_spearmen
-	enable = ma_maya_spearmen
-	enable = pu_purepecha_spearmen
-	enable = ta_triple_alliance_spearmen
-	enable = tl_tlaxcallan_spearmen
-	enable = wm_west_mexican_spearmen
-	enable = we_spanish_infantry_1
-}
-
-technology = {
-	# Tech 0.5
-	year = 1428
-	infantry_fire = 0.25
-}
-
-technology = {
-	# Tech 1
-	year = 1429
-	supply_limit = 0.50
-	military_tactics = 0.10
-}
-
-technology = {
-	# Tech 2
-	year = 1450
-	military_tactics = 0.25
-	combat_width = 4
-}
-
-technology = {
-	# Tech 3
-	year = 1472
-
-	supply_limit = 0.50
-	land_morale = 0.50
-	may_force_march = yes
-}
-
-# The 30 big techs from here on
-
-technology = {
-	# Tech 4
-	year = 1494
+	hill_fort = yes
 	
+	enable = cm_central_mexican_infantry
+	enable = hu_huaxyacac_infantry
+	enable = ma_maya_infantry
+	enable = pu_purepecha_infantry
+	enable = ta_triple_alliance_infantry
+	enable = tl_tlaxcallan_infantry
+	enable = we_spanish_infantry_1
+	enable = wm_west_mexican_infantry
+}
+
+technology = { #The Macuahuitl Broadsword 
+	# Tech 1
+	year = 1441
+	
+	infantry_shock = 0.25
+}
+
+technology = { #Integrated Archery
+	# Tech 2
+	year = 1454
+	
+	infantry_fire = 0.30
+	combat_width = 2
+	military_tactics = 0.25
+}
+
+technology = { #Universal Training 
+	# Tech 3
+	year = 1467
+	
+	land_morale = 	0.5
+	military_tactics = 0.25
+}
+
+technology = { #Improved Fortifications
+	# Tech 4
+	year = 1480
+
 	fort_16th = yes
 }
 
-technology = {
+technology = { #Logistical Innovations 
 	# Tech 5
-	year = 1516
+	year = 1493
 	
-	combat_width = 4
-	infantry_fire		= 	0.25
-	infantry_shock 		= 	0.25	
+	supply_limit = 0.5
+	land_morale = 0.25
+	combat_width = 2
+	maneuver_value = 0.25
+	military_workshop_2 = yes
 }
 
-technology = {
+technology = { #Expanded Military Orders
 	# Tech 6
-	year = 1538
-
-	sprite_level = 2
-	infantry_fire = 0.25
-	cavalry_shock = 1.25
-	cavalry_fire = 1.0
-	artillery_fire = 0.75
-	artillery_shock = 0.25
+	year = 1506
+	
+	infantry_shock		= 	0.15
+	infantry_fire 		= 	0.15
 }
 
-technology = {
+technology = { #Evolved Military Composition 
 	# Tech 7
-	year = 1560
-	
-	cavalry_shock = 0.50
-	cavalry_fire = 0.50
-}
-
-technology = {
-	# Tech 8
-	year = 1582
-	
-	artillery_fire = 0.25
-	artillery_shock = 0.25
-}
-
-technology = {
-	# Tech 9
-	year = 1604
-	
-	fort_17th = yes
-}
-
-technology = {
-	# Tech 10
-	
-	year = 1626
+	year = 1519
 	
 	military_tactics = 0.25
-	cavalry_fire = 0.25
-	artillery_fire = 0.25
-	infantry_shock = 0.25
-}
-
-technology = {
-	# Tech 11
-	year = 1648 
-	
-	sprite_level = 3
-	artillery_fire = 0.75
-	infantry_fire = 0.25
-	infantry_shock = 0.25
-}
-
-technology = {
-	# Tech 12
-	year = 1670
-	
-	land_morale = 0.50
-	combat_width = 6
-	supply_limit = 0.50
-}
-
-technology = {
-	# Tech 13
-	year = 1692
-	
+	#Second Tier of Units
+	fort_17th = yes
 	fort_18th = yes
 }

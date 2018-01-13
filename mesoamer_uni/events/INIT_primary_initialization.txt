@@ -1,0 +1,393 @@
+###############
+#INITIAL SETUP#
+###############
+namespace = init
+
+country_event = {
+	id = init.01
+
+	title = "init1.t"
+	desc = "init1.d"
+	picture = ECONOMY_eventPicture
+
+	is_triggered_only = yes
+	
+	hidden = yes 
+	
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			#####################
+			#SETUP - PLAYER ONLY#
+			#####################
+			
+			
+			#######################
+			#SETUP - EVERY COUNTRY#
+			#######################
+			every_country = {
+				#Global Country Modifiers
+				add_country_modifier = {
+					name = mesoamerican_logistics
+					duration = -1
+				}
+				
+				add_country_modifier = {
+					name = postclassic_golden_age
+					duration = -1
+				}
+				
+				#Set Starting Manpower
+				add_manpower = -1000
+				add_yearly_manpower = 0.55
+				
+				#Temp fix for weird bug
+				remove_idea_group = defensive_ideas
+				
+				#Initialize Variables
+				set_variable = { which = v_terr_hege value = -40 }
+				set_variable = { which = v_terr_hege_change value = 0 }
+				set_variable = { which = v_terr_hege_display_c value = 0 } 
+				
+				set_variable = { which = v_legal_tradition value = 20 } 
+				set_variable = { which = v_merit_tradition value = 20 }
+				set_variable = { which = v_religious_tradition value = 20 } 
+				set_variable = { which = v_militancy value = 20 }
+				
+				set_variable = { which = v_draft_law value = 2 }
+				
+				set_variable = { which = v_trib_reqs value = 2 }
+				set_variable = { which = v_trib_ducats_cutoff value = 600 }
+				set_variable = { which = v_trib_dcutoff_counter value = 0 }
+				set_variable = { which = v_trib_manpower_pool value = 0 }
+				set_variable = { which = v_trib_ducats_pool value = 0 }
+				set_variable = { which = v_trib_non_paying_dev value = 0 }
+				
+				set_variable = { which = v_em_heir_apparent_weight value = 0 }
+				set_variable = { which = v_em_adm_weight value = 0 }
+				set_variable = { which = v_em_dip_weight value = 0 }
+				set_variable = { which = v_em_mil_weight value = 0 }
+				
+				#Startup Events
+				#country_event = { id = communication_efficiency.01 }
+			}
+			#Set Starting Idea Group
+			every_country = {
+				limit = {
+					#Fill in later with exceptions
+				}
+				add_idea_group = hegemonic_ideas
+				add_idea = hegemonic_grand_strategy
+			}
+			
+			############################
+			#SETUP - SPECIFIC COUNTRIES#
+			############################
+			every_country = { #Sets normal tribute requirements for all hegemonic countries
+				limit = { #Note - replace with having the first hegemonic idea unlocked later 
+					NOT = { check_variable = { which = v_terr_hege value = 20 } } 
+				}
+				add_country_modifier = {
+					name = normal_tribute_requirements
+					duration = -1
+				}
+			}
+		
+			########################
+			#SETUP - EVERY PROVINCE#
+			########################
+			every_province = {
+				#Initialize Variables
+				set_variable = { which = v_trib_angerypoints value = 0 }
+				set_variable = { which = v_trib_ducats_p value = 0 }
+				set_variable = { which = v_trib_manpower_p value = 0 }
+				set_variable = { which = v_trib_non_paying_dev_p value = 0 }
+				set_variable = { which = v_ce_distance value = 0 }
+				
+				#Apply Universal Modifiers
+				add_permanent_province_modifier = {
+					name = draft_system 
+					duration = -1
+				}
+				add_permanent_province_modifier = {
+					name = elite_warrior_class 
+					duration = -1
+				}
+				add_province_modifier = {
+					name = draft_law_level_2
+					duration = -1
+				}
+			}
+			
+			############################
+			#SETUP - SPECIFIC PROVINCES#
+			############################
+			every_province = {
+				limit = {
+					is_capital = yes
+				}
+				province_event = { id = communication_efficiency.01 }
+			}
+			71 = { #Chucandiro
+				add_permanent_province_modifier = {
+					name = tequexquite_soils_of_cuitzeo 
+					duration = -1
+				}
+			}
+			76 = { #Araro
+				add_permanent_province_modifier = {
+					name = tequexquite_soils_of_cuitzeo 
+					duration = -1
+				}
+			}
+			401 = { #Alahuiztlan
+				add_permanent_province_modifier = {
+					name = brine_springs_of_alahuiztlan 
+					duration = -1
+				}
+			}
+			469 = { #Piaztlan
+				add_permanent_province_modifier = {
+					name = brine_spring_of_piaztlan 
+					duration = -1
+				}
+			}
+			475 = { #Huey-Acatlan
+				add_permanent_province_modifier = {
+					name = brine_spring_of_acatlan 
+					duration = -1
+				}
+			}
+			882 = { #Tehuantepec
+				add_permanent_province_modifier = {
+					name = brine_beds_of_tehuantepec 
+					duration = -1
+				}
+			}
+			900 = { #Tonala-Tehuantepec
+				add_permanent_province_modifier = {
+					name = brine_beds_of_tonala 
+					duration = -1
+				}
+			}
+			949 = { #Sacapulas
+				add_permanent_province_modifier = {
+					name = salt_beds_of_sacapulas 
+					duration = -1
+				}
+			}
+			1125 = { #Xtuul
+				add_permanent_province_modifier = {
+					name = salt_flats_of_xtuul 
+					duration = -1
+				}
+			}
+			1243 = { #Emal
+				add_permanent_province_modifier = {
+					name = salt_flats_of_emal 
+					duration = -1
+				}
+			}
+			#Northern Yucatan Salt Beds
+			1093 = { 
+				add_permanent_province_modifier = {
+					name = northern_yucatec_salt_flats 
+					duration = -1
+				}
+			}
+			1092 = { 
+				add_permanent_province_modifier = {
+					name = northern_yucatec_salt_flats 
+					duration = -1
+				}
+			}
+			1091 = { 
+				add_permanent_province_modifier = {
+					name = northern_yucatec_salt_flats 
+					duration = -1
+				}
+			}
+			1168 = { 
+				add_permanent_province_modifier = {
+					name = northern_yucatec_salt_flats 
+					duration = -1
+				}
+			}
+			1170 = { 
+				add_permanent_province_modifier = {
+					name = northern_yucatec_salt_flats 
+					duration = -1
+				}
+			}
+			1200 = { 
+				add_permanent_province_modifier = {
+					name = northern_yucatec_salt_flats 
+					duration = -1
+				}
+			}
+			1144 = { 
+				add_permanent_province_modifier = {
+					name = northern_yucatec_salt_flats 
+					duration = -1
+				}
+			}
+			1145 = { 
+				add_permanent_province_modifier = {
+					name = northern_yucatec_salt_flats 
+					duration = -1
+				}
+			}
+			1146 = { 
+				add_permanent_province_modifier = {
+					name = northern_yucatec_salt_flats 
+					duration = -1
+				}
+			}
+			1167 = { 
+				add_permanent_province_modifier = {
+					name = northern_yucatec_salt_flats 
+					duration = -1
+				}
+			}
+			1169 = { 
+				add_permanent_province_modifier = {
+					name = northern_yucatec_salt_flats 
+					duration = -1
+				}
+			}
+			1171 = { 
+				add_permanent_province_modifier = {
+					name = northern_yucatec_salt_flats 
+					duration = -1
+				}
+			}
+			1242 = { 
+				add_permanent_province_modifier = {
+					name = northern_yucatec_salt_flats 
+					duration = -1
+				}
+			}
+			1247 = { 
+				add_permanent_province_modifier = {
+					name = northern_yucatec_salt_flats 
+					duration = -1
+				}
+			}
+			1248 = { 
+				add_permanent_province_modifier = {
+					name = northern_yucatec_salt_flats 
+					duration = -1
+				}
+			}
+			1624 = { 
+				add_permanent_province_modifier = {
+					name = northern_yucatec_salt_flats 
+					duration = -1
+				}
+			}
+			1625 = { 
+				add_permanent_province_modifier = {
+					name = northern_yucatec_salt_flats 
+					duration = -1
+				}
+			}
+			1628 = { 
+				add_permanent_province_modifier = {
+					name = northern_yucatec_salt_flats 
+					duration = -1
+				}
+			}
+			1630 = { 
+				add_permanent_province_modifier = {
+					name = northern_yucatec_salt_flats 
+					duration = -1
+				}
+			}
+			1629 = { 
+				add_permanent_province_modifier = {
+					name = northern_yucatec_salt_flats 
+					duration = -1
+				}
+			}
+			#Balsas Mines
+			94 = { 
+				add_permanent_province_modifier = {
+					name = balsas_mines 
+					duration = -1
+				}
+			}
+			95 = { 
+				add_permanent_province_modifier = {
+					name = balsas_mines 
+					duration = -1
+				}
+			}
+			96 = { 
+				add_permanent_province_modifier = {
+					name = balsas_mines 
+					duration = -1
+				}
+			}
+			97 = { 
+				add_permanent_province_modifier = {
+					name = balsas_mines 
+					duration = -1
+				}
+			}
+			98 = { 
+				add_permanent_province_modifier = {
+					name = balsas_mines 
+					duration = -1
+				}
+			}
+			100 = { 
+				add_permanent_province_modifier = {
+					name = balsas_mines 
+					duration = -1
+				}
+			}
+			166 = { 
+				add_permanent_province_modifier = {
+					name = balsas_mines 
+					duration = -1
+				}
+			}
+			#End Balsas Mines
+			18 = { #Otumba
+				add_permanent_province_modifier = {
+					name = otumba_obsidian_source 
+					duration = -1
+				}
+			}
+			714 = { #Tolancinco
+				add_permanent_province_modifier = {
+					name = pachuca_obsidian_source 
+					duration = -1
+				}
+			}
+			802 = { #Cempoala
+				add_permanent_province_modifier = {
+					name = pachuca_obsidian_source 
+					duration = -1
+				}
+			}
+			803 = { #Epazoyucan
+				add_permanent_province_modifier = {
+					name = pachuca_obsidian_source 
+					duration = -1
+				}
+			}
+			804 = { #Tepeapulco
+				add_permanent_province_modifier = {
+					name = pachuca_obsidian_source 
+					duration = -1
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "init1.a"
+	}
+}

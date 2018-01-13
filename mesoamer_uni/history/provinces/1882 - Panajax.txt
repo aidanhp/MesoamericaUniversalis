@@ -1,5 +1,5 @@
 culture = torquegua
-religion = maya
+religion = religion_maya
 capital = "Panajax"
 trade_goods = unknown
 hre = no

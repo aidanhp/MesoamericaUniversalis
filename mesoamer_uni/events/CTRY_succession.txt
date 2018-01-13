@@ -1,0 +1,990 @@
+#Events related to mechanical succession
+namespace = m_succession 
+
+#Appoint a successor (triggered)
+country_event = { 
+	id = m_succession.01
+	
+	title = "m_succession1.t"
+	desc = "m_succession1.d"
+	
+	picture = COURT_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = { #Appoint the most patient one
+		name = "m_succession1.a"
+		
+		hidden_effect = {
+			define_heir = {
+				dynasty = ROOT
+				claim = 100
+				age = 15
+				adm = 2
+				dip = 0
+				mil = 0
+				male = yes
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = { #Appoint the most insightful one
+		name = "m_succession1.b"
+		
+		hidden_effect = {
+			define_heir = {
+				dynasty = ROOT
+				claim = 100
+				age = 15
+				adm = 1
+				dip = 1	
+				mil = 0
+				male = yes
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = { #Appoint the most charismatic one
+		name = "m_succession1.c"
+		
+		hidden_effect = {
+			define_heir = {
+				dynasty = ROOT
+				claim = 100
+				age = 15
+				adm = 1
+				dip = 2
+				mil = 1
+				male = yes
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = { #Appoint the most iron-fisted one
+		name = "m_succession1.dd"
+		#Effects
+		
+		hidden_effect = {
+			define_heir = {
+				dynasty = ROOT
+				claim = 100
+				age = 15
+				adm = 1
+				dip = 0	
+				mil = 3
+				male = yes
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = { #Appoint the most capable warrior
+		name = "m_succession1.e"
+		#Effects
+		
+		hidden_effect = {
+			define_heir = {
+				dynasty = ROOT
+				claim = 100
+				age = 15
+				adm = 0
+				dip = 0	
+				mil = 4
+				male = yes
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Appoint a successor (heir needed)
+country_event = { 
+	id = m_succession.02
+	
+	title = "m_succession2.t"
+	desc = "m_succession2.d"
+	
+	picture = COURT_eventPicture 
+	
+	trigger = {
+		NOT = { has_heir = yes }
+		NOT = { has_country_modifier = deliberations_of_the_council } 
+		#Add other conditions here later!
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = { #Appoint the most patient one
+		name = "m_succession1.a"
+		
+		hidden_effect = {
+			define_heir = {
+				dynasty = ROOT
+				claim = 100
+				age = 15
+				adm = 2
+				dip = 0
+				mil = 0
+				male = yes
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = { #Appoint the most insightful one
+		name = "m_succession1.b"
+		
+		hidden_effect = {
+			define_heir = {
+				dynasty = ROOT
+				claim = 100
+				age = 15
+				adm = 1
+				dip = 1	
+				mil = 0
+				male = yes
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = { #Appoint the most charismatic one
+		name = "m_succession1.c"
+		
+		hidden_effect = {
+			define_heir = {
+				dynasty = ROOT
+				claim = 100
+				age = 15
+				adm = 1
+				dip = 2
+				mil = 1
+				male = yes
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = { #Appoint the most iron-fisted one
+		name = "m_succession1.dd"
+		#Effects
+		
+		hidden_effect = {
+			define_heir = {
+				dynasty = ROOT
+				claim = 100
+				age = 15
+				adm = 1
+				dip = 0	
+				mil = 3
+				male = yes
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = { #Appoint the most capable warrior
+		name = "m_succession1.e"
+		#Effects
+		
+		hidden_effect = {
+			define_heir = {
+				dynasty = ROOT
+				claim = 100
+				age = 15
+				adm = 0
+				dip = 0	
+				mil = 4
+				male = yes
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Ruler Dies - Elective Monarchy
+country_event = {
+	id = m_succession.03
+	
+	title = "m_succession3.t"
+	desc = "m_succession3.d"
+	
+	picture = KING_SICK_IN_BED_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "m_succession3.a"
+		
+		custom_tooltip = influence_council_soon_tt
+		
+		add_country_modifier = {
+			name = deliberations_of_the_council
+			duration = -1
+		}
+		
+		hidden_effect = {
+			country_event = { id = m_succession.04 days = 7 }
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Influence the Council
+country_event = {
+	id = m_succession.04
+	
+	title = "m_succession4.t"
+	desc = "m_succession4.d"
+	
+	picture = DIPLOMACY_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "m_succession4.a"
+		
+		custom_tooltip = campaign_election_tt
+		
+		hidden_effect = {
+			set_country_flag = EM_increased_chance
+			country_event = { id = m_succession.05 days = 7 }
+		}
+
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = {
+		name = "m_succession4.b"
+		
+		custom_tooltip = indifferent_election_tt
+		
+		hidden_effect = {
+			set_country_flag = EM_indifferent
+			country_event = { id = m_succession.05 days = 7 }
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = {
+		name = "m_succession4.c"
+		
+		custom_tooltip = refuse_election_tt
+		
+		hidden_effect = {
+			set_country_flag = EM_no_chance
+			country_event = { id = m_succession.05 days = 7 }
+		}
+		
+		add_legitimacy = -10
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Council Chooses a New Ruler
+country_event = {
+	id = m_succession.05
+	
+	title = "m_succession5.t"
+	desc = "m_succession5.d"
+	
+	picture = COURT_eventPicture 
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			#Reset Variables
+			set_variable = { which = v_em_heir_apparent_weight value = 0 }
+			set_variable = { which = v_em_adm_weight value = 0 }
+			set_variable = { which = v_em_dip_weight value = 0 }
+			set_variable = { which = v_em_mil_weight value = 1 }
+			clr_country_flag = ruler_picked
+			
+			#Weight Ruler Types
+			if = {
+				limit = {
+					is_at_war = yes
+				}
+				change_variable = { which = v_em_mil_weight value = 1 }
+			}
+	
+			if = {
+				limit = {
+					NOT = { prestige = 0 }
+				}
+				change_variable = { which = v_em_mil_weight value = 1 }
+			}
+	
+			if = {
+				limit = {
+					NOT = { legitimacy = 90 }
+				}
+				change_variable = { which = v_em_mil_weight value = 1 }
+			}
+			
+			if = {
+				limit = {
+					army_tradition = 40
+				}
+				change_variable = { which = v_em_mil_weight value = 1 }
+			}
+	
+			if = {
+				limit = {
+					AND = {
+						is_at_war = yes
+						NOT = { war_score = 0 }
+					}
+				}
+				change_variable = { which = v_em_mil_weight value = 2 }
+			}
+	
+			#Diplomatic Weighting
+			if = {
+				limit = {
+					NOT = { num_of_allies = 2 }
+				}
+				change_variable = { which = v_em_dip_weight value = 1 }
+			}
+	
+			if = {
+				limit = {
+					war_exhaustion = 5
+				}
+				change_variable = { which = v_em_dip_weight value = 1 }
+			}
+			
+			if = {
+				limit = {
+					num_of_diplomatic_relations = 5
+				}
+				change_variable = { which = v_em_dip_weight value = 1 }
+			}
+	
+			if = {
+				limit = {
+					NOT = { num_of_free_diplomatic_relations = 1 }
+				}
+				change_variable = { which = v_em_dip_weight value = 1 }
+			}
+	
+			if = {
+				limit = {
+					NOT = { diplomatic_reputation = 1 }
+				}
+				change_variable = { which = v_em_dip_weight value = 1 }
+			}
+		
+			#Administrative Weighting
+			if = {
+				limit = {
+					overextension_percentage = 0.75
+				}
+				change_variable = { which = v_em_adm_weight value = 1 }
+			}
+	
+			if = {
+				limit = {
+					average_unrest = 5
+				}
+				change_variable = { which = v_em_adm_weight value = 1 }
+			}
+	
+			if = {
+				limit = {
+					NOT = { stability = -1 }
+				}
+				change_variable = { which = v_em_adm_weight value = 1 }
+			}
+	
+			if = {
+				limit = {
+					NOT = { stability = 1 }
+				}
+				change_variable = { which = v_em_adm_weight value = 1 }
+			}
+	
+			if = {
+				limit = {
+					NOT = { religious_unity = 0.80 }
+				}
+				change_variable = { which = v_em_adm_weight value = 1 }
+			}
+			
+			#Results from Influence Council
+			if = {
+				limit = {
+					has_country_flag = EM_increased_chance 
+				}
+				change_variable = { which = v_em_heir_apparent_weight value = 2 }
+			}
+			
+			if = {
+				limit = {
+					AND  = { 
+						has_country_flag = EM_increased_chance 
+						adm = 4
+					}
+				}
+				change_variable = { which = v_em_heir_apparent_weight value = 2 }
+			}
+			
+			if = {
+				limit = {
+					AND  = { 
+						has_country_flag = EM_increased_chance 
+						dip = 4
+					}
+				}
+				change_variable = { which = v_em_heir_apparent_weight value = 2 }
+			}
+			
+			if = {
+				limit = {
+					AND  = { 
+						has_country_flag = EM_increased_chance 
+						mil = 4
+					}
+				}
+				change_variable = { which = v_em_heir_apparent_weight value = 2 }
+			}
+			
+			if = {
+				limit = {
+					has_country_flag = EM_no_chance 
+				}
+				change_variable = { which = v_em_heir_apparent_weight value = -100 }
+			}
+			
+			#Auto-elects the heir apparent if they campaigned for their election and are at least a 4/4/4
+			if = {
+				limit = {
+					check_variable = { which = v_em_heir_apparent_weight value = 8 }
+				}
+				add_country_flag = ruler_picked
+				#Heir Apparent stays ruler
+			}
+			
+			#Pick ruler if heir apparent weight is at least 6
+			if = {
+				limit = {
+					check_variable = { which = v_em_heir_apparent_weight value = 6 }
+					NOT = { has_country_flag = ruler_picked }
+				}
+				if = {
+					limit = {
+						AND = {
+							check_variable = { which = v_em_mil_weight value = v_em_adm_weight } 
+							check_variable = { which = v_em_mil_weight value = v_em_dip_weight } 
+							NOT = { has_country_flag = ruler_picked }
+						}
+					}
+					set_country_flag = ruler_picked
+					random_list = {
+						70 = {
+							#Heir apparent stays ruler
+						}
+						30 = {
+							define_ruler = {
+								dynasty = ROOT
+								claim = 100
+								age = 30
+								adm = 1
+								dip = 1
+								mil = 2
+								male = yes
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							check_variable = { which = v_em_adm_weight value = v_em_mil_weight } 
+							check_variable = { which = v_em_adm_weight value = v_em_dip_weight } 
+							NOT = { has_country_flag = ruler_picked }
+						}
+					}
+					set_country_flag = ruler_picked
+					random_list = {
+						70 = {
+							#Heir apparent stays ruler
+						}
+						30 = {
+							define_ruler = {
+								dynasty = ROOT
+								claim = 100
+								age = 30
+								adm = 2
+								dip = 1
+								mil = 1
+								male = yes
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							check_variable = { which = v_em_dip_weight value = v_em_mil_weight } 
+							check_variable = { which = v_em_dip_weight value = v_em_adm_weight } 
+							NOT = { has_country_flag = ruler_picked }
+						}
+					}
+					set_country_flag = ruler_picked
+					random_list = {
+						70 = {
+							#Heir apparent stays ruler
+						}
+						30 = {
+							define_ruler = {
+								dynasty = ROOT
+								claim = 100
+								age = 30
+								adm = 1
+								dip = 2
+								mil = 1
+								male = yes
+							}
+						}
+					}
+				}
+			}
+			
+			#Pick ruler if heir apparent weight is at least 4
+			if = {
+				limit = {
+					check_variable = { which = v_em_heir_apparent_weight value = 4 }
+					NOT = { has_country_flag = ruler_picked }
+				}
+				if = {
+					limit = {
+						AND = {
+							check_variable = { which = v_em_mil_weight value = v_em_adm_weight } 
+							check_variable = { which = v_em_mil_weight value = v_em_dip_weight } 
+							NOT = { has_country_flag = ruler_picked }
+						}
+					}
+					set_country_flag = ruler_picked
+					random_list = {
+						50 = {
+							#Heir apparent stays ruler
+						}
+						50 = {
+							define_ruler = {
+								dynasty = ROOT
+								claim = 100
+								age = 30
+								adm = 1
+								dip = 1
+								mil = 2
+								male = yes
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							check_variable = { which = v_em_adm_weight value = v_em_mil_weight } 
+							check_variable = { which = v_em_adm_weight value = v_em_dip_weight } 
+							NOT = { has_country_flag = ruler_picked }
+						}
+					}
+					set_country_flag = ruler_picked
+					random_list = {
+						50 = {
+							#Heir apparent stays ruler
+						}
+						50 = {
+							define_ruler = {
+								dynasty = ROOT
+								claim = 100
+								age = 30
+								adm = 2
+								dip = 1
+								mil = 1
+								male = yes
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							check_variable = { which = v_em_dip_weight value = v_em_mil_weight } 
+							check_variable = { which = v_em_dip_weight value = v_em_adm_weight } 
+							NOT = { has_country_flag = ruler_picked }
+						}
+					}
+					set_country_flag = ruler_picked
+					random_list = {
+						50 = {
+							#Heir apparent stays ruler
+						}
+						50 = {
+							define_ruler = {
+								dynasty = ROOT
+								claim = 100
+								age = 30
+								adm = 1
+								dip = 2
+								mil = 1
+								male = yes
+							}
+						}
+					}
+				}
+			}
+			
+			#Pick ruler if heir apparent weight is at least 2
+			if = {
+				limit = {
+					check_variable = { which = v_em_heir_apparent_weight value = 2 }
+					NOT = { has_country_flag = ruler_picked }
+				}
+				if = {
+					limit = {
+						AND = {
+							check_variable = { which = v_em_mil_weight value = v_em_adm_weight } 
+							check_variable = { which = v_em_mil_weight value = v_em_dip_weight } 
+							NOT = { has_country_flag = ruler_picked }
+						}
+					}
+					set_country_flag = ruler_picked
+					random_list = {
+						25 = {
+							#Heir apparent stays ruler
+						}
+						75 = {
+							define_ruler = {
+								dynasty = ROOT
+								claim = 100
+								age = 30
+								adm = 1
+								dip = 1
+								mil = 2
+								male = yes
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							check_variable = { which = v_em_adm_weight value = v_em_mil_weight } 
+							check_variable = { which = v_em_adm_weight value = v_em_dip_weight } 
+							NOT = { has_country_flag = ruler_picked }
+						}
+					}
+					set_country_flag = ruler_picked
+					random_list = {
+						25 = {
+							#Heir apparent stays ruler
+						}
+						75 = {
+							define_ruler = {
+								dynasty = ROOT
+								claim = 100
+								age = 30
+								adm = 2
+								dip = 1
+								mil = 1
+								male = yes
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							check_variable = { which = v_em_dip_weight value = v_em_mil_weight } 
+							check_variable = { which = v_em_dip_weight value = v_em_adm_weight } 
+							NOT = { has_country_flag = ruler_picked }
+						}
+					}
+					set_country_flag = ruler_picked
+					random_list = {
+						25 = {
+							#Heir apparent stays ruler
+						}
+						75 = {
+							define_ruler = {
+								dynasty = ROOT
+								claim = 100
+								age = 30
+								adm = 1
+								dip = 2
+								mil = 1
+								male = yes
+							}
+						}
+					}
+				}
+			}
+			
+			#Pick ruler if heir apparent weight is disqualified
+			if = {
+				limit = {
+					NOT = { check_variable = { which = v_em_heir_apparent_weight value = 2 } }
+					NOT = { has_country_flag = ruler_picked }
+				}
+				if = {
+					limit = {
+						AND = {
+							check_variable = { which = v_em_mil_weight value = v_em_adm_weight } 
+							check_variable = { which = v_em_mil_weight value = v_em_dip_weight } 
+							NOT = { has_country_flag = ruler_picked }
+						}
+					}
+					set_country_flag = ruler_picked
+					define_ruler = {
+						dynasty = ROOT
+						claim = 100
+						age = 30
+						adm = 1
+						dip = 1
+						mil = 2
+						male = yes
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							check_variable = { which = v_em_adm_weight value = v_em_mil_weight } 
+							check_variable = { which = v_em_adm_weight value = v_em_dip_weight } 
+							NOT = { has_country_flag = ruler_picked }
+						}
+					}
+					set_country_flag = ruler_picked
+					define_ruler = {
+						dynasty = ROOT
+						claim = 100
+						age = 30
+						adm = 2
+						dip = 1
+						mil = 1
+						male = yes
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							check_variable = { which = v_em_dip_weight value = v_em_mil_weight } 
+							check_variable = { which = v_em_dip_weight value = v_em_adm_weight } 
+							NOT = { has_country_flag = ruler_picked }
+						}
+					}
+					set_country_flag = ruler_picked
+					define_ruler = {
+						dynasty = ROOT
+						claim = 100
+						age = 30
+						adm = 1
+						dip = 2
+						mil = 1
+						male = yes
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "m_succession5.a"
+	
+		remove_country_modifier = deliberations_of_the_council
+		
+		hidden_effect = { #Begins 'Ruler Must Prove Their Worth Event' For HGs
+			if = {
+				limit = {
+					AND = {
+						NOT = { check_variable = { which = v_terr_hege value = 0 } }
+						total_development = 100
+						#total_development = 500
+					}
+				}
+				country_event = { id = m_succession.06 days = 30 }
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Ruler Must Prove Their Worth!
+country_event = {
+	id = m_succession.06
+	
+	title = "m_succession6.t"
+	desc = "m_succession6.d"
+	
+	picture = REFORM_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "m_succession6.a"
+		
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_country_modifier = {
+				name = prove_your_mettle 
+				duration = 1825
+			}
+			set_country_flag = prove_mettle
+			else = {
+				add_country_modifier = {
+					name = prove_your_mettle 
+					duration = 730
+				}
+				set_country_flag = prove_mettle
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Ruler Proves Worth
+country_event = {
+	id = m_succession.07
+	
+	title = "m_succession7.t"
+	desc = "m_succession7.d"
+	
+	picture = REFORM_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "m_succession7.a"
+		
+		#ADD CAPTIVES STUFF HERE ONCE RELIGION IS IMPLEMENTED!
+		remove_country_modifier = prove_your_mettle
+		remove_country_modifier = signs_of_weakness
+		clr_country_flag = prove_mettle
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Signs of Weakness
+country_event = {
+	id = m_succession.08
+	
+	title = "m_succession8.t"
+	desc = "m_succession8.d"
+	
+	picture = REFORM_eventPicture 
+	
+	trigger = {
+		has_country_flag = prove_mettle
+		NOT = { has_country_modifier = prove_your_mettle }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "m_succession8.a"
+		
+		remove_country_modifier = prove_your_mettle
+		add_country_modifier = {
+			name = signs_of_weakness
+			duration = -1
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Monarch Removed!
+country_event = {
+	id = m_succession.09
+	
+	title = "m_succession9.t"
+	desc = "m_succession9.d"
+	
+	picture = REFORM_eventPicture 
+	
+	trigger = {
+		has_country_modifier = signs_of_weakness
+		NOT = { legitimacy = 70 } 
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		name = "m_succession9.a"
+		
+		kill_ruler = yes
+		add_stability = -1
+		remove_country_modifier = signs_of_weakness
+		clr_country_flag = prove_mettle
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}

@@ -23,21 +23,20 @@
 #rubber
 #slaves
 #ceramics
-#balsas_metals *Special, do not assign yet
-#metropolitan_goods *Special, do not assign yet
+#domesticated_animals
+#construction_stone
+#balsas_metals 
+#tolteca_crafts 
 
-#Resources 
-#All modifiers and chances are placeholders
-#Jontiben - I recommend giving each trade good a unique color to help you when making the map
-#I'll leave the colors up to you, they don't have to be permanent 
+#Possible trade goods for later - Amatl Paper, Tin
 
 staple_crops = {
 	color = { 0.96 0.93 0.58 }
 	modifier = {
-		land_forcelimit_modifier = 0.05
+		land_forcelimit_modifier = 0.10
 	}
 	province = {
-		land_forcelimit = 0.5
+		supply_limit = 0.20
 	}
 	chance = {
 		factor = 35
@@ -47,10 +46,10 @@ staple_crops = {
 aquatic_foods = {
 	color = { 0.96 0.93 0.58 }
 	modifier = {
-		land_forcelimit_modifier = 0.05
+		land_forcelimit_modifier = 0.10
 	}
 	province = {
-		land_forcelimit = 0.5
+		supply_limit = 0.20
 	}
 	chance = {
 		factor = 35
@@ -60,10 +59,10 @@ aquatic_foods = {
 fruits = {
 	color = { 0.96 0.93 0.58 }
 	modifier = {
-		land_forcelimit_modifier = 0.05
+		stability_cost_modifier = -0.10
 	}
 	province = {
-		land_forcelimit = 0.5
+		local_unrest = -1
 	}
 	chance = {
 		factor = 35
@@ -73,10 +72,10 @@ fruits = {
 cacao = {
 	color = { 0.96 0.93 0.58 }
 	modifier = {
-		land_forcelimit_modifier = 0.05
+		global_unrest = -1
 	}
 	province = {
-		land_forcelimit = 0.5
+		local_unrest = -1
 	}
 	chance = {
 		factor = 35
@@ -86,10 +85,10 @@ cacao = {
 honey = {
 	color = { 0.96 0.93 0.58 }
 	modifier = {
-		land_forcelimit_modifier = 0.05
+		heir_chance = 0.25
 	}
 	province = {
-		land_forcelimit = 0.5
+		local_tax_modifier = 0.05
 	}
 	chance = {
 		factor = 35
@@ -99,10 +98,10 @@ honey = {
 salt = {
 	color = { 0.96 0.93 0.58 }
 	modifier = {
-		land_forcelimit_modifier = 0.05
+		global_trade_power = 0.1
 	}
 	province = {
-		land_forcelimit = 0.5
+		local_tax_modifier = 0.05
 	}
 	chance = {
 		factor = 35
@@ -112,10 +111,10 @@ salt = {
 maguey = {
 	color = { 0.96 0.93 0.58 }
 	modifier = {
-		land_forcelimit_modifier = 0.05
+		years_of_nationalism = -2
 	}
 	province = {
-		land_forcelimit = 0.5
+		local_unrest = -1
 	}
 	chance = {
 		factor = 35
@@ -125,10 +124,10 @@ maguey = {
 cotton = {
 	color = { 0.96 0.93 0.58 }
 	modifier = {
-		land_forcelimit_modifier = 0.05
+		shock_damage_received = -0.1
 	}
 	province = {
-		land_forcelimit = 0.5
+		local_defensiveness = 0.05
 	}
 	chance = {
 		factor = 35
@@ -138,10 +137,11 @@ cotton = {
 plumes = {
 	color = { 0.96 0.93 0.58 }
 	modifier = {
-		land_forcelimit_modifier = 0.05
+		prestige = 0.5
+		legitimacy = 0.25
 	}
 	province = {
-		land_forcelimit = 0.5
+		local_unrest = -0.5
 	}
 	chance = {
 		factor = 35
@@ -151,10 +151,10 @@ plumes = {
 copal = {
 	color = { 0.96 0.93 0.58 }
 	modifier = {
-		land_forcelimit_modifier = 0.05
+		missionaries = 1
 	}
 	province = {
-		land_forcelimit = 0.5
+		local_missionary_strength = 0.01
 	}
 	chance = {
 		factor = 35
@@ -164,10 +164,10 @@ copal = {
 copper = {
 	color = { 0.96 0.93 0.58 }
 	modifier = {
-		land_forcelimit_modifier = 0.05
+		production_efficiency = 0.10
 	}
 	province = {
-		land_forcelimit = 0.5
+		local_tax_modifier = 0.05
 	}
 	chance = {
 		factor = 35
@@ -177,10 +177,11 @@ copper = {
 gold = {
 	color = { 0.96 0.93 0.58 }
 	modifier = {
-		land_forcelimit_modifier = 0.05
+		legitimacy = 0.25
+		global_missionary_strength = 0.01
 	}
 	province = {
-		land_forcelimit = 0.5
+		local_tax_modifier = 0.05
 	}
 	chance = {
 		factor = 35
@@ -190,10 +191,10 @@ gold = {
 silver = {
 	color = { 0.96 0.93 0.58 }
 	modifier = {
-		land_forcelimit_modifier = 0.05
+		prestige = 1
 	}
 	province = {
-		land_forcelimit = 0.5
+		local_tax_modifier = 0.05
 	}
 	chance = {
 		factor = 35
@@ -203,10 +204,11 @@ silver = {
 obsidian = {
 	color = { 0.96 0.93 0.58 }
 	modifier = {
-		land_forcelimit_modifier = 0.05
+		production_efficiency = 0.05
+		shock_damage = 0.10
 	}
 	province = {
-		land_forcelimit = 0.5
+		local_production_efficiency = 0.10
 	}
 	chance = {
 		factor = 35
@@ -216,10 +218,10 @@ obsidian = {
 precious_stones = {
 	color = { 0.96 0.93 0.58 }
 	modifier = {
-		land_forcelimit_modifier = 0.05
+		trade_steering = 0.10
 	}
 	province = {
-		land_forcelimit = 0.5
+		local_tax_modifier = 0.05
 	}
 	chance = {
 		factor = 35
@@ -229,10 +231,10 @@ precious_stones = {
 lime = {
 	color = { 0.96 0.93 0.58 }
 	modifier = {
-		land_forcelimit_modifier = 0.05
+		build_cost = -0.05
 	}
 	province = {
-		land_forcelimit = 0.5
+		local_build_cost = -0.05
 	}
 	chance = {
 		factor = 35
@@ -242,10 +244,10 @@ lime = {
 wood = {
 	color = { 0.96 0.93 0.58 }
 	modifier = {
-		land_forcelimit_modifier = 0.05
+		build_cost = -0.05
 	}
 	province = {
-		land_forcelimit = 0.5
+		local_build_cost = -0.05
 	}
 	chance = {
 		factor = 35
@@ -255,10 +257,10 @@ wood = {
 rubber = {
 	color = { 0.96 0.93 0.58 }
 	modifier = {
-		land_forcelimit_modifier = 0.05
+		global_autonomy = -0.05
 	}
 	province = {
-		land_forcelimit = 0.5
+		local_unrest = -1
 	}
 	chance = {
 		factor = 35
@@ -268,10 +270,10 @@ rubber = {
 slaves = {
 	color = { 0.96 0.93 0.58 }
 	modifier = {
-		land_forcelimit_modifier = 0.05
+		build_cost = -0.05
 	}
 	province = {
-		land_forcelimit = 0.5
+		local_build_cost = -0.05
 	}
 	chance = {
 		factor = 35
@@ -281,10 +283,37 @@ slaves = {
 ceramics = {
 	color = { 0.96 0.93 0.58 }
 	modifier = {
-		land_forcelimit_modifier = 0.05
+		production_efficiency = 0.10
 	}
 	province = {
-		land_forcelimit = 0.5
+		local_production_efficiency = 0.10
+	}
+	chance = {
+		factor = 35
+	}
+}
+
+domesticated_animals = {
+	color = { 0.96 0.93 0.58 }
+	modifier = {
+		land_forcelimit_modifier = 0.05
+		global_colonial_growth = 10
+	}
+	province = {
+		local_tax_modifier = 0.05
+	}
+	chance = {
+		factor = 35
+	}
+}
+
+construction_stone = {
+	color = { 0.96 0.93 0.58 }
+	modifier = {
+		build_cost = -0.05
+	}
+	province = {
+		local_build_cost = -0.05
 	}
 	chance = {
 		factor = 35
@@ -294,23 +323,25 @@ ceramics = {
 balsas_metals = {
 	color = { 0.96 0.93 0.58 }
 	modifier = {
-		land_forcelimit_modifier = 0.05
+		trade_steering = 0.25
 	}
 	province = {
-		land_forcelimit = 0.5
+		local_tax_modifier = 0.10
 	}
 	chance = {
 		factor = 35
 	}
 }
 
-metropolitan_goods = {
+tolteca_crafts = {
 	color = { 0.96 0.93 0.58 }
 	modifier = {
-		land_forcelimit_modifier = 0.05
+		legitimacy = 1
+		idea_cost = -0.05
+		technology_cost = -0.05
 	}
 	province = {
-		land_forcelimit = 0.5
+		province_trade_power_value = 5
 	}
 	chance = {
 		factor = 35

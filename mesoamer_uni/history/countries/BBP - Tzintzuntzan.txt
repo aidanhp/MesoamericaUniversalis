@@ -1,4 +1,4 @@
-government = despotic_monarchy 
+government = absolute_hereditary_monarchy 
 government_rank = 2
 mercantilism = 0.25
 technology_group = purepecha_tg
@@ -27,6 +27,7 @@ fixed_capital = 43
 		monarch_name = "Tzitzispandacuare"
 		dynasty = "Uanacaze"
 		birth_date = 1408.1.1	
+		death_date = 1479.1.1
 		claim = 100
 		adm = 5
 		dip = 5

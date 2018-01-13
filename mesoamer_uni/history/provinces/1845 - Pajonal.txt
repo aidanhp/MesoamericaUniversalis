@@ -1,5 +1,5 @@
 culture = popoluca
-religion = maya
+religion = religion_maya
 capital = "Pajonal"
 trade_goods = unknown
 hre = no

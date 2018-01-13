@@ -1,4 +1,4 @@
-government = despotic_monarchy 
+government = absolute_hereditary_monarchy 
 government_rank = 1
 mercantilism = 0.25
 technology_group = maya_tg 
@@ -22,8 +22,11 @@ fixed_capital = 1762
 1404.1.2 = {
 	heir = {
 		name = "Pachimalahix"
+		monarch_name = "Pachimalahix"
 		dynasty = "Tixchel"
 		birth_date = 1410.1.1
+		death_date = 1450.1.1 #Placeholder
+		claim = 100
 		adm = 4
 		dip = 4
 		mil = 4

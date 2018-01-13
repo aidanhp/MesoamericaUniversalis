@@ -1,0 +1,113 @@
+#Credit to Phlopsi on the MEIOU & Taxes team for developing the original version of this system
+
+pulse_system = {
+	potential = {
+		tag = M95 #The Shadowmasters
+	}
+
+	can_start = {
+		always = yes
+	}
+
+	can_stop = {
+		always = no
+	}
+
+	progress = {
+		modifier = {
+			factor = 100
+
+			always = yes
+		}
+	}
+
+	can_end = {
+		always = no
+	}
+	
+	modifier = {
+		legitimacy = 1
+	}
+
+	on_monthly = {
+		# always
+			
+
+		# is_january = yes
+		if = {
+			limit = {
+				is_month = 0
+				NOT = { is_month = 1 }
+			}
+			country_event = { id = stats_calc.01 } 
+			every_country = {
+				limit = {
+					OR = {
+						has_country_modifier = high_tribute_requirements
+						has_country_modifier = normal_tribute_requirements
+						has_country_modifier = low_tribute_requirements
+					}
+					num_of_provinces_in_territories = 1
+				}
+				country_event = { id = tribute.02 }
+			}
+			every_province = {
+				limit = {
+					is_capital = yes
+				}
+				province_event = { id = communication_efficiency.01 }
+			}
+		}
+
+		# is_february = yes
+			
+
+		# is_march = yes
+			
+
+		# is_april = yes
+			
+			
+		# is_may = yes
+			
+			
+		# is_june = yes
+			
+
+		# is_july = yes
+			
+
+		# is_august = yes
+			
+			
+		# is_september = yes
+			
+			
+		# is_october = yes
+			
+			
+		# is_november = yes
+			
+			
+		# is_december = yes
+			
+
+		# Last day of month
+		#trigger_switch = {
+		#	on_trigger = is_month
+		#
+		#	11 = { country_event = { id = pop_pulse.004 days = 30 } }
+		#	10 = { country_event = { id = pop_pulse.004 days = 29 } }
+		#	09 = { country_event = { id = pop_pulse.004 days = 30 } }
+		#	08 = { country_event = { id = pop_pulse.004 days = 29 } }
+		#	07 = { country_event = { id = pop_pulse.004 days = 30 } }
+		#	06 = { country_event = { id = pop_pulse.004 days = 30 } }
+		#	05 = { country_event = { id = pop_pulse.004 days = 29 } }
+		#	04 = { country_event = { id = pop_pulse.004 days = 30 } }
+		#	03 = { country_event = { id = pop_pulse.004 days = 29 } }
+		#	02 = { country_event = { id = pop_pulse.004 days = 30 } }
+		#	01 = { country_event = { id = pop_pulse.004 days = 27 } }
+		#	00 = { country_event = { id = pop_pulse.004 days = 30 } }
+		#}
+	}
+}
