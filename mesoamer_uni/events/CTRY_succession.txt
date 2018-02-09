@@ -508,7 +508,7 @@ country_event = {
 				limit = {
 					check_variable = { which = v_em_heir_apparent_weight value = 8 }
 				}
-				add_country_flag = ruler_picked
+				set_country_flag = ruler_picked
 				#Heir Apparent stays ruler
 			}
 			
@@ -521,8 +521,8 @@ country_event = {
 				if = {
 					limit = {
 						AND = {
-							check_variable = { which = v_em_mil_weight value = v_em_adm_weight } 
-							check_variable = { which = v_em_mil_weight value = v_em_dip_weight } 
+							check_variable = { which = v_em_mil_weight which = v_em_adm_weight } 
+							check_variable = { which = v_em_mil_weight which = v_em_dip_weight } 
 							NOT = { has_country_flag = ruler_picked }
 						}
 					}
@@ -547,8 +547,8 @@ country_event = {
 				if = {
 					limit = {
 						AND = {
-							check_variable = { which = v_em_adm_weight value = v_em_mil_weight } 
-							check_variable = { which = v_em_adm_weight value = v_em_dip_weight } 
+							check_variable = { which = v_em_adm_weight which = v_em_mil_weight } 
+							check_variable = { which = v_em_adm_weight which = v_em_dip_weight } 
 							NOT = { has_country_flag = ruler_picked }
 						}
 					}
@@ -573,8 +573,8 @@ country_event = {
 				if = {
 					limit = {
 						AND = {
-							check_variable = { which = v_em_dip_weight value = v_em_mil_weight } 
-							check_variable = { which = v_em_dip_weight value = v_em_adm_weight } 
+							check_variable = { which = v_em_dip_weight which = v_em_mil_weight } 
+							check_variable = { which = v_em_dip_weight which = v_em_adm_weight } 
 							NOT = { has_country_flag = ruler_picked }
 						}
 					}
@@ -607,8 +607,8 @@ country_event = {
 				if = {
 					limit = {
 						AND = {
-							check_variable = { which = v_em_mil_weight value = v_em_adm_weight } 
-							check_variable = { which = v_em_mil_weight value = v_em_dip_weight } 
+							check_variable = { which = v_em_mil_weight which = v_em_adm_weight } 
+							check_variable = { which = v_em_mil_weight which = v_em_dip_weight } 
 							NOT = { has_country_flag = ruler_picked }
 						}
 					}
@@ -633,8 +633,8 @@ country_event = {
 				if = {
 					limit = {
 						AND = {
-							check_variable = { which = v_em_adm_weight value = v_em_mil_weight } 
-							check_variable = { which = v_em_adm_weight value = v_em_dip_weight } 
+							check_variable = { which = v_em_adm_weight which = v_em_mil_weight } 
+							check_variable = { which = v_em_adm_weight which = v_em_dip_weight } 
 							NOT = { has_country_flag = ruler_picked }
 						}
 					}
@@ -659,8 +659,8 @@ country_event = {
 				if = {
 					limit = {
 						AND = {
-							check_variable = { which = v_em_dip_weight value = v_em_mil_weight } 
-							check_variable = { which = v_em_dip_weight value = v_em_adm_weight } 
+							check_variable = { which = v_em_dip_weight which = v_em_mil_weight } 
+							check_variable = { which = v_em_dip_weight which = v_em_adm_weight } 
 							NOT = { has_country_flag = ruler_picked }
 						}
 					}
@@ -693,8 +693,8 @@ country_event = {
 				if = {
 					limit = {
 						AND = {
-							check_variable = { which = v_em_mil_weight value = v_em_adm_weight } 
-							check_variable = { which = v_em_mil_weight value = v_em_dip_weight } 
+							check_variable = { which = v_em_mil_weight which = v_em_adm_weight } 
+							check_variable = { which = v_em_mil_weight which = v_em_dip_weight } 
 							NOT = { has_country_flag = ruler_picked }
 						}
 					}
@@ -719,8 +719,8 @@ country_event = {
 				if = {
 					limit = {
 						AND = {
-							check_variable = { which = v_em_adm_weight value = v_em_mil_weight } 
-							check_variable = { which = v_em_adm_weight value = v_em_dip_weight } 
+							check_variable = { which = v_em_adm_weight which = v_em_mil_weight } 
+							check_variable = { which = v_em_adm_weight which = v_em_dip_weight } 
 							NOT = { has_country_flag = ruler_picked }
 						}
 					}
@@ -745,8 +745,8 @@ country_event = {
 				if = {
 					limit = {
 						AND = {
-							check_variable = { which = v_em_dip_weight value = v_em_mil_weight } 
-							check_variable = { which = v_em_dip_weight value = v_em_adm_weight } 
+							check_variable = { which = v_em_dip_weight which = v_em_mil_weight } 
+							check_variable = { which = v_em_dip_weight which = v_em_adm_weight } 
 							NOT = { has_country_flag = ruler_picked }
 						}
 					}
@@ -779,8 +779,8 @@ country_event = {
 				if = {
 					limit = {
 						AND = {
-							check_variable = { which = v_em_mil_weight value = v_em_adm_weight } 
-							check_variable = { which = v_em_mil_weight value = v_em_dip_weight } 
+							check_variable = { which = v_em_mil_weight which = v_em_adm_weight } 
+							check_variable = { which = v_em_mil_weight which = v_em_dip_weight } 
 							NOT = { has_country_flag = ruler_picked }
 						}
 					}
@@ -798,8 +798,8 @@ country_event = {
 				if = {
 					limit = {
 						AND = {
-							check_variable = { which = v_em_adm_weight value = v_em_mil_weight } 
-							check_variable = { which = v_em_adm_weight value = v_em_dip_weight } 
+							check_variable = { which = v_em_adm_weight which = v_em_mil_weight } 
+							check_variable = { which = v_em_adm_weight which = v_em_dip_weight } 
 							NOT = { has_country_flag = ruler_picked }
 						}
 					}
@@ -817,8 +817,8 @@ country_event = {
 				if = {
 					limit = {
 						AND = {
-							check_variable = { which = v_em_dip_weight value = v_em_mil_weight } 
-							check_variable = { which = v_em_dip_weight value = v_em_adm_weight } 
+							check_variable = { which = v_em_dip_weight which = v_em_mil_weight } 
+							check_variable = { which = v_em_dip_weight which = v_em_adm_weight } 
 							NOT = { has_country_flag = ruler_picked }
 						}
 					}

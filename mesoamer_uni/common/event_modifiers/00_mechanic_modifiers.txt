@@ -112,7 +112,7 @@ mesoamerican_logistics = {
 }
 
 postclassic_golden_age = {
-	idea_cost = -0.10
+	idea_cost = -0.05
 	manpower_recovery_speed = 0.20
 	merchants = 1
 }

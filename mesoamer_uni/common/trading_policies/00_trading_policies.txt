@@ -82,7 +82,6 @@ propagate_religion =
 	unique = yes # Only one country can select this in a certain node.
 
 	can_select = {		
-		religion_group = muslim
 		dominant_religion = ROOT
 		FROM = {
 			has_trader = ROOT
@@ -95,7 +94,6 @@ propagate_religion =
 	}
 
 	can_maintain = {
-		religion_group = muslim
 		dominant_religion = ROOT
 		FROM = {
 			has_trader = ROOT

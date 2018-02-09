@@ -121,6 +121,12 @@ country_event = {
 	
 	is_triggered_only = yes
 	
+	trigger = {
+		NOT = { 
+			is_month = 1
+		}
+	}
+	
 	option = {
 		name = "tribute2.a"
 		
@@ -168,8 +174,8 @@ country_event = {
 								unrest = 4
 							}
 						}
-						change_variable = { which = v_trib_angerypoints value = 4 }
 					}
+					change_variable = { which = v_trib_angerypoints value = 4 }
 				}
 				if = {
 					limit = {
@@ -179,8 +185,8 @@ country_event = {
 								unrest = 4
 							}
 						}
-						change_variable = { which = v_trib_angerypoints value = 2 }
 					}
+					change_variable = { which = v_trib_angerypoints value = 2 }
 				}
 				if = {
 					limit = {
@@ -469,7 +475,7 @@ country_event = {
 			while = {
 				limit = {
 					check_variable = { which = v_trib_ducats_pool value = 0 }
-					check_variable = { which = v_trib_dcutoff_counter value = v_trib_ducats_cutoff } 
+					check_variable = { which = v_trib_dcutoff_counter which = v_trib_ducats_cutoff } 
 				}
 				add_treasury = 1
 				change_variable = { which = v_trib_ducats_pool value = -1 }
@@ -499,7 +505,7 @@ country_event = {
 			while = {
 				limit = {
 					check_variable = { which = v_trib_ducats_pool value = 0 }
-					check_variable = { which = v_trib_dcutoff_counter value = v_trib_ducats_cutoff } 
+					check_variable = { which = v_trib_dcutoff_counter which = v_trib_ducats_cutoff } 
 				}
 				add_treasury = 1
 				change_variable = { which = v_trib_ducats_pool value = -1 }
@@ -529,7 +535,7 @@ country_event = {
 			while = {
 				limit = {
 					check_variable = { which = v_trib_ducats_pool value = 0 }
-					check_variable = { which = v_trib_dcutoff_counter value = v_trib_ducats_cutoff } 
+					check_variable = { which = v_trib_dcutoff_counter which = v_trib_ducats_cutoff } 
 				}
 				add_treasury = 1
 				change_variable = { which = v_trib_ducats_pool value = -1 }

@@ -4,9 +4,9 @@ controller = BBG
 culture = xochimilca
 religion = placeholderism
 hre = no
-base_tax = 2.4
-base_production = 4.8
-base_manpower = 16.8
+base_tax = 2
+base_production = 5
+base_manpower = 17
 trade_goods = ceramics
 
 capital = "Xochimilco"

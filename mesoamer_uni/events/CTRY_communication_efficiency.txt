@@ -9,9 +9,14 @@ province_event = {
 	desc = "communication_efficiency1.d"
 	picture = ECONOMY_eventPicture
 
+	hidden = yes
 	is_triggered_only = yes
 	
-	hidden = yes
+	trigger = {
+		NOT = { 
+			is_month = 1
+		}
+	}
 	
 	option = {
 		name = "communication1.a"

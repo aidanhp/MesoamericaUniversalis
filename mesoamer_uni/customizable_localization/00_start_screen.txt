@@ -205,15 +205,6 @@ defined_text = {
 			has_dlc = "Mandate of Heaven"
 			capital_scope = {
 				OR = {
-					region = mongolia_region
-					region = manchuria_region
-					region = east_siberia_region
-					region = tibet_region
-					area = shanshan_area
-					area = tarim_basin_area
-					superregion = far_east_superregion
-					superregion = china_superregion
-					superregion = east_indies_superregion
 				}
 			}
         }
@@ -223,15 +214,6 @@ defined_text = {
         trigger = {
 			capital_scope = {
 				OR = {
-					region = mongolia_region
-					region = manchuria_region
-					region = east_siberia_region
-					region = tibet_region
-					area = shanshan_area
-					area = tarim_basin_area
-					superregion = far_east_superregion
-					superregion = china_superregion
-					superregion = east_indies_superregion
 				}
 			}
         }
@@ -240,7 +222,6 @@ defined_text = {
         localisation_key = string_start_europe #The HRE
         trigger = {
 			capital_scope = {
-				continent = europe
 			}
         }
     }
@@ -262,7 +243,6 @@ defined_text = {
         localisation_key = asia #Asia
 		trigger = {
 			capital_scope = {
-				continent = asia
 			}
 		}
     }
@@ -270,7 +250,6 @@ defined_text = {
         localisation_key = europe #Europe
         trigger = {
 			capital_scope = {
-				continent = europe
 			}
         }
     }
@@ -279,7 +258,6 @@ defined_text = {
         localisation_key = africa
         trigger = {
 			capital_scope = {
-				continent = africa
 			}
         }
     }
@@ -288,7 +266,6 @@ defined_text = {
         localisation_key = north_america
         trigger = {
 			capital_scope = {
-				continent = north_america
 			}
         }
     }
@@ -297,7 +274,6 @@ defined_text = {
         localisation_key = south_america
         trigger = {
 			capital_scope = {
-				continent = south_america
 			}
         }
     }
@@ -306,7 +282,6 @@ defined_text = {
         localisation_key = oceania
         trigger = {
 			capital_scope = {
-				continent = oceania
 			}
         }
     }
@@ -315,7 +290,6 @@ defined_text = {
         localisation_key = new_world
         trigger = {
 			capital_scope = {
-				continent = new_world
 			}
         }
     }
@@ -468,158 +442,6 @@ defined_text = {
     name = StartScreenUpRightDesc
 	random = no
 	
-	#Religion Mechanics - Base Text, these refer to custom loc keys below to insert DLC specific information.
-	#Christians:
-	#Orthodox (Patriarch Authority)
-	text = {
-        localisation_key = string_start_religion_orthodox
-        trigger = {
-			religion = orthodox
-        }
-    }
-	#Catholics (Papacy & The Reformation)
-	text = {
-        localisation_key = string_start_religion_catholic
-        trigger = {
-			religion = catholic
-        }
-    }
-	#Protestant (The Reformation)
-	text = {
-        localisation_key = string_start_religion_protestant
-        trigger = {
-			religion = protestant
-        }
-    }
-	#Reformed (The Reformation)
-	text = {
-        localisation_key = string_start_religion_reformed
-        trigger = {
-			religion = reformed
-        }
-    }
-	#Coptic
-	text = {
-        localisation_key = string_start_religion_coptic
-        trigger = {
-			religion = coptic
-        }
-    }
-	#Muslims (Piety):
-	text = {
-        localisation_key = string_start_religion_muslim_sunni
-        trigger = {
-			religion = sunni
-        }
-    }
-	text = {
-        localisation_key = string_start_religion_muslim_shiite
-        trigger = {
-			religion = shiite
-        }
-    }
-	text = {
-        localisation_key = string_start_religion_muslim_ibadi
-        trigger = {
-			religion = ibadi
-        }
-    }
-	#Eastern - Buddhists
-	text = {
-        localisation_key = string_start_religion_buddhist_theravada
-        trigger = {
-			religion = buddhism #Theravada
-        }
-    }
-	text = {
-        localisation_key = string_start_religion_buddhist_mahayana
-        trigger = {
-			religion = mahayana
-        }
-    }
-	text = {
-        localisation_key = string_start_religion_buddhist_vajrayana
-        trigger = {
-			religion = vajrayana
-        }
-    }
-	#Confucian
-	text = {
-        localisation_key = string_start_religion_confucianism
-        trigger = {
-			religion = confucianism
-        }
-    }
-	#Shinto
-	text = {
-        localisation_key = string_start_religion_shinto
-        trigger = {
-			religion = shinto
-        }
-    }
-	#Hindu
-	text = {
-        localisation_key = string_start_religion_hindu
-        trigger = {
-			religion = hinduism
-        }
-    }
-	#Sikh
-	text = {
-        localisation_key = string_start_religion_sikh
-        trigger = {
-			religion = sikhism
-        }
-    }
-	#Fetishist
-	text = {
-        localisation_key = string_start_religion_fetishist
-        trigger = {
-			religion = shamanism #Fetishist
-        }
-    }
-	#Fetishist
-	text = {
-        localisation_key = string_start_religion_tengri
-        trigger = {
-			religion = tengri_pagan_reformed #Tengri
-        }
-    }
-	#Inti
-	text = {
-        localisation_key = string_start_religion_inti
-        trigger = {
-			religion = inti
-        }
-    }
-	#Nahuatl
-	text = {
-        localisation_key = string_start_religion_nahuatl
-        trigger = {
-			religion = nahuatl
-        }
-    }
-	#Mayan
-	text = {
-        localisation_key = string_start_religion_mayan
-        trigger = {
-			religion = mesoamerican_religion
-        }
-    }
-	#Zoroastrianism
-	text = {
-        localisation_key = string_start_religion_zoroastrian
-        trigger = {
-			religion = zoroastrian
-        }
-    }
-	#Norse
-	text = {
-        localisation_key = string_start_religion_norse
-        trigger = {
-			religion = norse_pagan_reformed
-        }
-    }
 	#Fallback (Currently used by Animism, Judaism and Totemism)
 	text = {
         localisation_key = string_start_religion_fallback

@@ -105,6 +105,12 @@ country_event = {
 				set_variable = { which = v_trib_non_paying_dev_p value = 0 }
 				set_variable = { which = v_ce_distance value = 0 }
 				
+				#Population System Variables 
+				set_variable = { which = v_pop_potential value = 0 }
+				set_variable = { which = v_starting_pop value = 0 }
+				set_variable = { which = v_non_capital_pop value = 0 }
+				set_variable = { which = v_capital_pop value = 0 }
+				
 				#Apply Universal Modifiers
 				add_permanent_province_modifier = {
 					name = draft_system 

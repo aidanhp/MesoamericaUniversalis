@@ -16,7 +16,7 @@
  
  building_chinampas: "Chinampas \n§Y--Requires Adjacent Freshwater Lake§! \n§WLocal Population Growth:§! §G+0.015%§!"
  building_terrace_farms: "Terrace Farms \n§Y--Requires Hills or Mountain Terrain§! \n§WLocal Population Growth:§! §G+0.015%§!"
- building_farms: "Farms \n§WLocal Population Growth:§! §G+0.015%§!"
+ building_farms: "Farms \n§WLocal Population Growth:§! §G+0.01%§!"
  building_orchard: "Orchard"
  building_managed_forests: "Managed Forests"
  building_great_plantation: "Great Plantation"
@@ -26,7 +26,7 @@
  building_house_of_artists: "House of Artists"
  
  building_local_administrative_complex: "Local Administrative Complex \n§WMovement Towards Territorial on Completion:§! §G+0.5§!"
- building_resettled_villages: "Resettled Villages \n§Y--Requires Some Idea§!"
+ building_resettled_villages: "Resettled Villages \n§Y--Requires Idea 'Ethnic Resettlement' (Total Assimilation)§!"
  building_construction_center: "Construction Center \n§Y--Requires Idea 'Spectacular Constructions' (Hegemonic)§!"
  building_administrative_center: "Administrative Center \n§Y--Requires Idea 'Administrative Centers' (Territorial)§! §GIncreases Communication Efficiency of Surrounding Provinces§!"
  

@@ -24,8 +24,7 @@ country_event = {
 		
 		custom_tooltip = draft_laws_tt_1
 		
-		add_adm_power = -250
-		add_years_of_income = -0.5
+		add_adm_power = -50
 	
 		every_owned_province = {
 			hidden_effect = { 
@@ -80,8 +79,7 @@ country_event = {
 		
 		custom_tooltip = draft_laws_tt_1
 		
-		add_adm_power = -250
-		add_years_of_income = -0.5
+		add_adm_power = -50
 		
 		if = {
 			limit = {
@@ -147,8 +145,7 @@ country_event = {
 		
 		custom_tooltip = draft_laws_tt_1
 		
-		add_adm_power = -250
-		add_years_of_income = -0.5
+		add_adm_power = -50
 		
 		if = {
 			limit = {
@@ -215,8 +212,7 @@ country_event = {
 			NOT = { has_country_modifier = draft_law_change_cooldown } 
 		}
 		
-		add_adm_power = -250
-		add_years_of_income = -0.5
+		add_adm_power = -50
 		
 		add_country_modifier = {
 			name = recruitment_drive 

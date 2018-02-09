@@ -34,29 +34,24 @@ pulse_system = {
 			
 
 		# is_january = yes
-		if = {
+		country_event = { id = stats_calc.01 } 
+		country_event = { id = pops_potential.01 }
+		every_country = {
 			limit = {
-				is_month = 0
-				NOT = { is_month = 1 }
-			}
-			country_event = { id = stats_calc.01 } 
-			every_country = {
-				limit = {
-					OR = {
-						has_country_modifier = high_tribute_requirements
-						has_country_modifier = normal_tribute_requirements
-						has_country_modifier = low_tribute_requirements
-					}
-					num_of_provinces_in_territories = 1
+				OR = {
+					has_country_modifier = high_tribute_requirements
+					has_country_modifier = normal_tribute_requirements
+					has_country_modifier = low_tribute_requirements
 				}
-				country_event = { id = tribute.02 }
+				num_of_provinces_in_territories = 1
 			}
-			every_province = {
-				limit = {
-					is_capital = yes
-				}
-				province_event = { id = communication_efficiency.01 }
+			country_event = { id = tribute.02 }
+		}
+		every_province = {
+			limit = {
+				is_capital = yes
 			}
+			province_event = { id = communication_efficiency.01 }
 		}
 
 		# is_february = yes

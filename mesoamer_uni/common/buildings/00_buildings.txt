@@ -97,7 +97,8 @@ merchant_guild_outpost = {
 		province_trade_power_value = 1
 		province_trade_power_modifier = 0.33
 		trade_goods_size_modifier = 0.33
-		#min_local_autonomy = 75
+		local_autonomy = -0.05
+		min_local_autonomy = 75
 	}
 	
 	ai_will_do = {
@@ -388,8 +389,7 @@ resettled_villages = {
 	cost = 150
 	time = 6
 	trigger = {
-		#Some idea
-		always = yes
+		has_idea = ethnic_resettlement
 	}
 	modifier = {
 		local_autonomy = -0.025
@@ -472,7 +472,7 @@ hill_fort = {
 	}
 	modifier = {
 		fort_level = 3
-		local_defensiveness = 0.20
+		local_defensiveness = 0.15
 	}
 	
 	#onmap = yes

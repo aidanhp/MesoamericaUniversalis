@@ -19,7 +19,7 @@ fixed_capital = 1762
 	}
 }
 
-1404.1.2 = {
+1410.1.2 = {
 	heir = {
 		name = "Pachimalahix"
 		monarch_name = "Pachimalahix"

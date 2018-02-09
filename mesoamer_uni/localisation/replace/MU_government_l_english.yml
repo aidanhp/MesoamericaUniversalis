@@ -46,6 +46,7 @@
  
  #Gov-related custom tooltips#
  display_gov_stats_tt: "Territorial vs. Hegemonic: §G[Root.v_terr_hege.GetValue]§! (Change Last Year: §Y[Root.v_terr_hege_display_c.GetValue]§!) \nLegal Tradition: §G[Root.v_legal_tradition.GetValue]§! \nMeritocratic Tradition: §G[Root.v_merit_tradition.GetValue]§! \nReligious Tradition: §G[Root.v_religious_tradition.GetValue]§! \nMilitancy: §G[Root.v_militancy.GetValue]§!"
+ #test_tt: "Pop Potential in Tenochtitlan: [1.v_pop_potential.GetValue]"
  
  #Government Stats#
  #Modifiers#

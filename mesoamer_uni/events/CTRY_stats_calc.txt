@@ -12,9 +12,11 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	#trigger = {
-	#	
-	#}
+	trigger = {
+		NOT = { 
+			is_month = 1
+		}
+	}
 	
 	immediate = {
 		every_country = {
@@ -173,66 +175,65 @@ country_event = {
 					num_of_vassals = 1 
 				}
 				change_variable = { which = v_terr_hege_change value = -0.5 } 
-				
-				if = {
-					limit = {
-						num_of_vassals = 2 
-					}
-					change_variable = { which = v_terr_hege_change value = -0.5 } 
+			}
+			if = {
+				limit = {
+					num_of_vassals = 2 
 				}
-				if = {
-					limit = {
-						num_of_vassals = 3 
-					}
-					change_variable = { which = v_terr_hege_change value = -0.5 } 
+				change_variable = { which = v_terr_hege_change value = -0.5 } 
+			}
+			if = {
+				limit = {
+					num_of_vassals = 3 
 				}
-				if = {
-					limit = {
-						num_of_vassals = 4 
-					}
-					change_variable = { which = v_terr_hege_change value = -0.5 } 
+				change_variable = { which = v_terr_hege_change value = -0.5 } 
+			}
+			if = {
+				limit = {
+					num_of_vassals = 4 
 				}
-				if = {
-					limit = {
-						num_of_vassals = 5 
-					}
-					change_variable = { which = v_terr_hege_change value = -0.5 } 
+				change_variable = { which = v_terr_hege_change value = -0.5 } 
+			}
+			if = {
+				limit = {
+					num_of_vassals = 5 
 				}
-				if = {
-					limit = {
-						num_of_vassals = 6 
-					}
-					change_variable = { which = v_terr_hege_change value = -0.5 } 
+				change_variable = { which = v_terr_hege_change value = -0.5 } 
+			}
+			if = {
+				limit = {
+					num_of_vassals = 6 
 				}
-				if = {
-					limit = {
-						num_of_vassals = 7 
-					}
-					change_variable = { which = v_terr_hege_change value = -0.5 } 
+				change_variable = { which = v_terr_hege_change value = -0.5 } 
+			}
+			if = {
+				limit = {
+					num_of_vassals = 7 
 				}
-				if = {
-					limit = {
-						num_of_vassals = 8 
-					}
-					change_variable = { which = v_terr_hege_change value = -0.5 } 
+				change_variable = { which = v_terr_hege_change value = -0.5 } 
+			}
+			if = {
+				limit = {
+					num_of_vassals = 8 
 				}
-				if = {
-					limit = {
-						num_of_vassals = 9 
-					}
-					change_variable = { which = v_terr_hege_change value = -0.5 } 
+				change_variable = { which = v_terr_hege_change value = -0.5 } 
+			}
+			if = {
+				limit = {
+					num_of_vassals = 9 
 				}
-				if = {
-					limit = {
-						num_of_vassals = 10 
-					}
-					change_variable = { which = v_terr_hege_change value = -0.5 } 
+				change_variable = { which = v_terr_hege_change value = -0.5 } 
+			}
+			if = {
+				limit = {
+					num_of_vassals = 10 
 				}
+				change_variable = { which = v_terr_hege_change value = -0.5 } 
 			}
 			
 			#Cleanup
-			change_variable = { which = v_terr_hege value = v_terr_hege_change }
-			set_variable = { which = v_terr_hege_display_c value = v_terr_hege_change }
+			change_variable = { which = v_terr_hege which = v_terr_hege_change }
+			set_variable = { which = v_terr_hege_display_c which = v_terr_hege_change }
 			set_variable = { which = v_terr_hege_change value = 0 }
 			
 			#Legal Tradition#
