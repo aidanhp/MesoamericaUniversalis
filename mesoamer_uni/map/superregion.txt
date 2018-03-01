@@ -1,8 +1,22 @@
 # A region can only belong to one super region.
 
-new_world_superregion ={
+mesoamerica_superregion = {
+	central_mexico_region
+	caribbean_islands_region
+	western_mexico_region
+	guerrero_region
+	gulf_coast_region
+	oaxaca_region
+	yucatan_region
+	maya_highlands_region
+	maya_central_lowlands_region
+	mordor
 }
 
-all_regions_superregion = {
-	all_map_region 
+ocean_superregion = {
+	atlantic_region
+	pacific_region
+}
+
+new_world_superregion ={
 }

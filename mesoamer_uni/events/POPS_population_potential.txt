@@ -1,0 +1,449 @@
+#Local Population Potential 
+namespace = pops_potential 
+
+#Calculate Local Population Potential 
+country_event = {
+	id = pops_potential.01
+	
+	title = "pops_potential1.t"
+	desc = "pops_potential1.d"
+	
+	picture = REFORM_eventPicture 
+	
+	hidden = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { 
+			is_month = 1
+		}
+	}
+	
+	immediate = {
+		every_country = {
+			set_variable = { which = v_non_capital_pop value = 0 }
+			export_to_variable = { 
+				which = v_non_capital_pop
+				value = total_development
+			}
+		
+			capital_scope = {
+				set_variable = { which = v_capital_pop value = 0 }
+				export_to_variable = { 
+					which = v_capital_pop
+					value = development
+				}	
+				while = {
+					limit = {
+						check_variable = { 
+							which = v_capital_pop
+							value = 1
+						}
+					}
+					owner = {
+						change_variable = { which = v_non_capital_pop value = -1 }
+					}
+					change_variable = { which = v_capital_pop value = -1 }
+				}
+			}
+			every_province = {
+				limit = {
+					owned_by = PREV
+				}
+				#Starting
+				set_variable = { which = v_starting_pop value = 0 }
+				set_variable = { which = v_pop_potential value = 0 }
+				export_to_variable = {
+					which = v_starting_pop
+					value = development
+				}
+				change_variable = { which = v_pop_potential which = v_starting_pop } 
+				#From Total Development
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = v_non_capital_pop value = 25 }
+						}
+					}
+					change_variable = { which = v_pop_potential value = 1 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = v_non_capital_pop value = 50 }
+						}
+					}
+					change_variable = { which = v_pop_potential value = 1 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = v_non_capital_pop value = 75 }
+						}
+					}
+					change_variable = { which = v_pop_potential value = 2 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = v_non_capital_pop value = 100 }
+						}
+					}
+					change_variable = { which = v_pop_potential value = 2 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = v_non_capital_pop value = 125 }
+						}
+					}
+					change_variable = { which = v_pop_potential value = 2 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = v_non_capital_pop value = 150 }
+						}
+					}
+					change_variable = { which = v_pop_potential value = 2 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = v_non_capital_pop value = 200 }
+						}
+					}
+					change_variable = { which = v_pop_potential value = 2 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = v_non_capital_pop value = 250 }
+						}
+					}
+					change_variable = { which = v_pop_potential value = 2 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = v_non_capital_pop value = 500 }
+						}
+					}
+					change_variable = { which = v_pop_potential value = 2 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = v_non_capital_pop value = 750 }
+						}
+					}
+					change_variable = { which = v_pop_potential value = 2 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = v_non_capital_pop value = 1000 }
+						}
+					}
+					change_variable = { which = v_pop_potential value = 5 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = v_non_capital_pop value = 1333 }
+						}
+					}
+					change_variable = { which = v_pop_potential value = 5 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = v_non_capital_pop value = 1667 }
+						}
+					}
+					change_variable = { which = v_pop_potential value = 5 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = v_non_capital_pop value = 2000 }
+						}
+					}
+					change_variable = { which = v_pop_potential value = 5 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = v_non_capital_pop value = 2333 }
+						}
+					}
+					change_variable = { which = v_pop_potential value = 5 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = v_non_capital_pop value = 2667 }
+						}
+					}
+					change_variable = { which = v_pop_potential value = 5 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = v_non_capital_pop value = 3000 }
+						}
+					}
+					change_variable = { which = v_pop_potential value = 5 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = v_non_capital_pop value = 3500 }
+						}
+					}
+					change_variable = { which = v_pop_potential value = 5 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = v_non_capital_pop value = 4000 }
+						}
+					}
+					change_variable = { which = v_pop_potential value = 5 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = v_non_capital_pop value = 5000 }
+						}
+					}
+					change_variable = { which = v_pop_potential value = 5 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = v_non_capital_pop value = 6000 }
+						}
+					}
+					change_variable = { which = v_pop_potential value = 10 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = v_non_capital_pop value = 8000 }
+						}
+					}
+					change_variable = { which = v_pop_potential value = 20 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = v_non_capital_pop value = 12000 }
+						}
+					}
+					change_variable = { which = v_pop_potential value = 30 }
+				}
+				
+				if = { 
+					limit = {
+						is_capital = yes
+						owner = { 
+							check_variable = { which = v_non_capital_pop value = 15000 }
+						}
+					}
+					change_variable = { which = v_pop_potential value = 40 }
+				}
+				
+				#From Terrain
+				if = {
+					limit = { 
+						has_terrain = farmlands 
+					}
+					change_variable = { which = v_pop_potential value = 10 }
+				}
+				if = {
+					limit = { 
+						has_terrain = grasslands  
+					}
+					change_variable = { which = v_pop_potential value = 8 }
+				}
+				if = {
+					limit = { 
+						has_terrain = drylands    
+					}
+					change_variable = { which = v_pop_potential value = 6 }
+				}
+				if = {
+					limit = { 
+						has_terrain = tropical_savanna     
+					}
+					change_variable = { which = v_pop_potential value = 6 }
+				}
+				if = {
+					limit = { 
+						has_terrain = hills   
+					}
+					change_variable = { which = v_pop_potential value = 5 }
+				}
+				if = {
+					limit = { 
+						has_terrain = subtropical_highland_forest      
+					}
+					change_variable = { which = v_pop_potential value = 5 }
+				}
+				if = {
+					limit = { 
+						has_terrain = mountain    
+					}
+					change_variable = { which = v_pop_potential value = 2 }
+				}
+				if = {
+					limit = { 
+						has_terrain = jungle     
+					}
+					change_variable = { which = v_pop_potential value = 2 }
+				}
+				if = {
+					limit = { 
+						has_terrain = marsh      
+					}
+					change_variable = { which = v_pop_potential value = 2 }
+				}
+				if = {
+					limit = { 
+						has_terrain = coastal_desert       
+					}
+					change_variable = { which = v_pop_potential value = 2 }
+				}
+			
+				#Political Factors
+				if = {
+					limit = { 
+						is_capital = yes
+						owner = {
+							government_rank = 2
+						}
+					}
+					change_variable = { which = v_pop_potential value = 20 }
+				}
+				if = {
+					limit = { 
+						is_capital = yes
+						owner = {
+							government_rank = 3
+						}
+					}
+					change_variable = { which = v_pop_potential value = 120 }
+				}
+			
+				#Trade Factors 
+				if = {
+					limit = {
+						province_trade_power = 5
+					}
+					change_variable = { which = v_pop_potential value = 5 }
+				}
+				if = {
+					limit = {
+						province_trade_power = 10
+					}
+					change_variable = { which = v_pop_potential value = 5 }
+				}
+				if = {
+					limit = {
+						province_trade_power = 15
+					}
+					change_variable = { which = v_pop_potential value = 5 }
+				}
+				if = {
+					limit = {
+						province_trade_power = 20
+					}
+					change_variable = { which = v_pop_potential value = 5 }
+				}
+			
+				#Buildings
+				if = {
+					limit = {
+						has_building = chinampas
+					}
+					change_variable = { which = v_pop_potential value = 10 }
+				}
+				if = {
+					limit = {
+						has_building = terrace_farms
+					}
+					change_variable = { which = v_pop_potential value = 5 }
+				}
+				if = {
+					limit = {
+						has_building = farms
+					}
+					change_variable = { which = v_pop_potential value = 5 }
+				}
+				if = {
+					limit = {
+						has_building = administrative_center
+					}
+					change_variable = { which = v_pop_potential value = 5 }
+				}
+			}
+		}
+		
+	}
+	
+	option = {
+		name = "pops_potential1.a"
+		#Effects
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+

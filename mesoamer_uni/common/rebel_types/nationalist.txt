@@ -44,60 +44,12 @@ nationalist_rebels = {
 					culture_group = ROOT
 					primary_culture = ROOT
 				}
-				OR = {
-					NOT = { government = celestial_empire }
-					has_country_modifier = the_mandate_of_heaven
-					AND = {
-						government = celestial_empire
-						has_dlc = "Mandate of Heaven"
-						imperial_mandate = 80
-					}
-				}
 			}
 			tolerance_to_this = 0			
 	 	}
 		modifier = {
-			factor = 0.01
-			region = france_region
-			has_owner_religion = no
-			owner = { has_disaster = french_wars_of_religion }			
-	 	}
-		modifier = {
-			factor = 0.01
-			owner = {
-				culture_group = ROOT
-				government = celestial_empire
-				OR = {
-					has_country_modifier = the_mandate_of_heaven
-					AND = {
-						has_dlc = "Mandate of Heaven"
-						imperial_mandate = 80
-					}
-				}
-			}
-		}
-		modifier = {
-			factor = 100
-			owner = {
-				NOT = { primary_culture = ROOT }
-				government = celestial_empire
-				OR = {
-					has_country_modifier = the_mandate_of_heaven_lost
-					has_country_modifier = lost_mandate_of_heaven
-					AND = {
-						has_dlc = "Mandate of Heaven"
-						NOT = { imperial_mandate = 50 } 
-					}
-				}
-			}
-		}
-		modifier = {
 			factor = 10
 			nationalism = 1
-		}
-		modifier = {
-			factor = 15
-			has_province_modifier = court_and_country_hardline_vs_separatists
 		}
 	 	modifier = {
 			factor = 0.001
@@ -107,10 +59,6 @@ nationalist_rebels = {
 			factor = 0.05
 			is_overseas = yes
 			has_owner_religion = yes
-		}
-		modifier = {
-			factor = 2
-			has_province_modifier = "suppress_minority"
 		}
 		modifier = {
 			factor = 1.2
@@ -138,26 +86,6 @@ nationalist_rebels = {
 			factor = 1.5
 			owner = {
 				NOT = { culture_group = ROOT }
-			}
-		}
-		modifier = {
-			factor = 0.4
-			owner = {
-				accepted_culture = ROOT
-				NOT = { has_country_modifier = the_mandate_of_heaven_lost }
-				OR = {
-					NOT = { has_dlc = "Mandate of Heaven" }
-					AND = {
-						has_dlc = "Mandate of Heaven"
-						NOT = { has_country_modifier = lost_mandate_of_heaven }
-						NOT = { government = celestial_empire }
-					}
-					AND = {
-						has_dlc = "Mandate of Heaven"
-						government = celestial_empire
-						imperial_mandate = 80
-					}
-				}
 			}
 		}
 		modifier = {

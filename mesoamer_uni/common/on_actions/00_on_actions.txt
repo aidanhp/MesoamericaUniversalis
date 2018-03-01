@@ -767,6 +767,5 @@ on_remove_pasha = {
 }
 
 # THIS = Province
-on_janissares_raised = {
-	
+on_janissaries_raised = {
 }

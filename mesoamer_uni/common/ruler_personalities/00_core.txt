@@ -145,14 +145,6 @@ righteous_personality = {
 			government = republic
 			government = monarchy
 		}
-		NOT = { government = celestial_empire }
-		NOT = { government = steppe_horde }
-		NOT = { government = tribal_despotism }
-		NOT = { government = tribal_kingdom }
-		NOT = { government = tribal_federation }
-		NOT = { government = tribal_democracy }
-		NOT = { government = native_council }
-		NOT = { government = siberian_native_council }
 	}
 	
 	chance = {
@@ -194,19 +186,12 @@ tolerant_personality = {
 			any_owned_province = { has_owner_religion = no }
 			any_neighbor_country = { NOT = { religion = ROOT } }
 		}
-		NOT = { 
-			has_idea_group = religious_ideas
-		}
 	}
 	
 	chance = {
 		modifier = {
 			factor = 1
 			NOT = { dominant_religion = ROOT }
-		}
-		modifier = {
-			factor = 1
-			has_idea_group = humanist_ideas
 		}
 	}
 	
@@ -655,7 +640,6 @@ fertile_personality = {
 	}
 	allow = {
 		government = monarchy
-		NOT = { government = ottoman_government }
 	}
 	
 	chance = {
@@ -796,7 +780,7 @@ zealot_personality = {
 	}
 	
 	allow = {
-		NOT = { has_idea_group = humanist_ideas }
+		
 	}
 	
 	chance = {
@@ -816,10 +800,6 @@ zealot_personality = {
 			factor = 1
 			has_border_with_religious_enemy = yes
 		}
-		modifier = {
-			factor = 1
-			is_defender_of_faith = yes
-		}
 		
 	}
 	
@@ -832,40 +812,6 @@ zealot_personality = {
 	global_missionary_strength = 0.01
 	nation_designer_cost = 2
 }#1 better event, 1 less bad
-pious_personality = {
-	#personality_events.27
-	ruler_allow = {
-		allow = {
-			NOT = { ruler_has_personality = sinner_personality }
-			NOT = { ruler_has_personality = drunkard_personality }
-		}
-	}
-
-	heir_allow = {
-		allow = {
-			NOT = { heir_has_personality = sinner_personality }
-			NOT = { heir_has_personality = drunkard_personality }
-		}
-	}
-
-	allow = {
-		government = theocracy
-	}
-	
-	chance = {
-		modifier = {
-			factor = 1
-			dominant_religion = ROOT
-		}
-	}
-	
-	different_religion_war_multiplier = 1.5
-	wants_excommunicate = yes
-	heretic_ally_acceptance = -30
-	
-	devotion = 1
-	nation_designer_cost = 2
-} #1 Less bad
 
 #Economic/Administrative Traits
 lawgiver_personality = {
@@ -1197,10 +1143,7 @@ entrepreneur_personality = {
 	}
 	
 	chance = {
-		modifier = {
-			factor = 1
-			government = merchant_republic
-		}
+		
 	}
 	
 	building_budget_multiplier = 1.5
@@ -1241,10 +1184,7 @@ industrious_personality = {
 	allow = { }
 	
 	chance = {
-		modifier = {
-			factor = 1
-			government = merchant_republic
-		}
+	
 	}
 	
 	building_budget_multiplier = 1.2
@@ -1253,80 +1193,6 @@ industrious_personality = {
 	global_trade_goods_size_modifier = 0.1
 	nation_designer_cost = 2
 } #Opens Exceptional Year, 1 better event
-
-expansionist_personality = {
-	#personality_events.35
-	ruler_allow = {
-		chance = {
-			modifier = {
-				factor = 1
-				DIP = 6
-			}
-		}
-	}
-
-	heir_allow = {
-		chance = {
-			modifier = {
-				factor = 1
-				heir_DIP = 6
-			}
-		}
-	}
-	
-	consort_allow = {
-		chance = {
-			modifier = {
-				factor = 1
-				consort_DIP = 6
-			}
-		}
-	}
-	
-	allow = {
-		OR = {
-			num_of_colonists = 1 
-			AND = {
-				has_game_started = no
-				is_playing_custom_nation = yes
-			}
-		}
-	}
-	
-	chance = {
-		modifier = {
-			factor = 1
-			OR = {
-				num_of_conquistadors = 1
-				num_of_explorers = 1
-			}
-		}
-		modifier = {
-			factor = 1
-			OR = {
-				num_of_conquistadors = 2
-				num_of_explorers = 2
-			}
-		}
-		modifier = {
-			factor = 1
-			has_idea_group = exploration_ideas
-			has_idea_group = expansion_ideas
-		}
-	}
-	
-	war_priority = {
-		modifier = {
-			factor = 2
-			primitives = yes
-		}
-	}
-	
-	wants_colonies = yes
-	
-	global_colonial_growth = 15
-	nation_designer_cost = 2
-} #Better Event
 
 #Diplomacy Traits
 charismatic_negotiator_personality = {
@@ -1802,53 +1668,6 @@ martial_educator_personality = {
 	army_tradition_decay = -0.01
 	nation_designer_cost = 2
 } #1 easier event, 2 better events
-navigator_personality = {
-	ruler_allow = {
-		chance = {
-			modifier = {
-				factor = 1
-				DIP = 6
-			}
-		}
-	}
-
-	heir_allow = {
-		chance = {
-			modifier = {
-				factor = 1
-				heir_DIP = 6
-			}
-		}
-	}
-	
-	consort_allow = {
-		chance = {
-			modifier = {
-				factor = 1
-				consort_DIP = 6
-			}
-		}
-	}
-
-	allow = {
-		OR = {
-			AND = {
-				has_game_started = no
-				is_playing_custom_nation = yes
-			}
-			num_of_ports = 1
-		}
-	}
-	
-	chance = {
-	}
-	
-	custom_ai_explanation = "AI_RULER_PICK_IDEA_GROUPS"
-	wants_explorers = yes
-	
-	ship_durability = 0.1
-	nation_designer_cost = 2
-} #1 better event
 
 fierce_negotiator_personality = {
 	ruler_allow = {
@@ -2179,7 +1998,6 @@ infertile_personality = {
 	}
 
 	allow = {
-		NOT = { government = ottoman_government }
 		government = monarchy
 	}
 	
@@ -2195,7 +2013,6 @@ infertile_personality = {
 drunkard_personality = {
 	ruler_allow = {
 		allow = {
-			NOT = { ruler_has_personality = pious_personality }
 			NOT = { ruler_has_personality = entrepreneur_personality }
 			NOT = { ruler_has_personality = zealot_personality }
 		}
@@ -2222,7 +2039,6 @@ drunkard_personality = {
 
 	heir_allow = {
 		allow = {
-			NOT = { heir_has_personality = pious_personality }
 			NOT = { heir_has_personality = entrepreneur_personality }
 			NOT = { heir_has_personality = zealot_personality }
 		}
@@ -2249,7 +2065,6 @@ drunkard_personality = {
 	
 	consort_allow = {
 		allow = {
-			NOT = { consort_has_personality = pious_personality }
 			NOT = { consort_has_personality = entrepreneur_personality }
 			NOT = { consort_has_personality = zealot_personality }
 		}
@@ -2281,7 +2096,6 @@ drunkard_personality = {
 	chance = {
 	}
 	
-	random_troop_moves = yes
 	wants_loans = yes
 	
 	trade_efficiency = -0.10
@@ -2291,7 +2105,7 @@ sinner_personality =  {
 
 	ruler_allow = {
 		allow = {
-			NOT = { ruler_has_personality = pious_personality }
+			always = yes
 		}
 	
 		chance = {
@@ -2316,7 +2130,7 @@ sinner_personality =  {
 
 	heir_allow = {
 		allow = {
-			NOT = { heir_has_personality = pious_personality }
+			always = yes
 		}
 	
 		chance = {
@@ -2341,7 +2155,7 @@ sinner_personality =  {
 	
 	consort_allow = {
 		allow = {
-			NOT = { consort_has_personality = pious_personality }
+			
 		}
 
 		chance = {
@@ -2365,10 +2179,7 @@ sinner_personality =  {
 	}
 	
 	allow = {
-		OR = {
-			religion_group = christian
-			religion_group = muslim
-		}
+	
 	}
 	
 	chance = {

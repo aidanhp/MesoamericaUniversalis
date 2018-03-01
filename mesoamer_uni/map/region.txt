@@ -1,4 +1,8 @@
 #LAND
+
+random_new_world_region = {
+}
+
 central_mexico_region = {
 	areas = {
 		mexico_colhuacan_area
@@ -37,6 +41,8 @@ caribbean_islands_region = {
 		camaguey_las_tunas_area
 		cienfuegos_area
 		southern_cuba_area
+		mysterious_civilization_of_the_circle_people_area
+		economic_exclusion_zone_of_the_circle_people_area
 	}
 }
 

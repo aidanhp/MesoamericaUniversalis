@@ -466,15 +466,7 @@ tributary_state = {
 
 	# Triggers:
 	is_potential_overlord = {
-		has_dlc = "Mandate of Heaven"
-		NOT = { 
-			is_subject_of_type = tributary_state
-		}
-		OR = {
-			government = celestial_empire
-			is_nomad = yes
-			religion_group = eastern
-		}
+		always = no
 	}
 	
 	# Graphics:

@@ -87,7 +87,7 @@ offensive_ideas = {
 	category = MIL
 
 	bonus = {
-		reinforce_speed = 0.15
+		reinforce_speed = 0.20
 	}
 
 	lead_from_the_front = {
@@ -109,7 +109,7 @@ offensive_ideas = {
 		discipline = 0.05
 	}
 	unyielding_assault = {
-		recover_army_morale_speed = 0.075
+		recover_army_morale_speed = 0.05
 	}
 
 	ai_will_do = {
@@ -122,15 +122,15 @@ defensive_ideas = {
 	category = MIL
 
 	bonus = {
-		hostile_attrition = 1
+		hostile_attrition = 0.5
 	}
 	
 	defensive_mentality = {
-		defensiveness = 0.2
-		fort_maintenance_modifier = -0.15
+		defensiveness = 0.10
+		fort_maintenance_modifier = -0.20
 	}
 	militarized_homefront = {
-		army_tradition = 1
+		army_tradition = 0.5
 	}
 	always_prepared = {
 		land_morale = 0.15
@@ -201,7 +201,7 @@ quality_ideas = {
 	}
 
 	orders_of_merit = {
-		army_tradition = 1
+		army_tradition = 0.5
 	}
 	the_finest_equipment = {
 		infantry_power = 0.10
@@ -210,7 +210,7 @@ quality_ideas = {
 		army_tradition_from_battle = 0.5
 	}
 	stamina_training = {
-		movement_speed = 0.10
+		movement_speed = 0.15
 	}
 	shock_formations = {
 		shock_damage = 0.15
@@ -248,10 +248,10 @@ quantity_ideas = {
 		land_maintenance_modifier = -0.10
 	}
 	mercenary_contracts = {
-		possible_mercenaries = 0.25
+		possible_mercenaries = 0.50
 	}
 	garrison_conscription = {
-		garrison_size = 0.25
+		garrison_size = 0.20
 	}
 	expanded_supply_trains = {
 		land_attrition = -0.15
@@ -322,12 +322,12 @@ hegemonic_ideas = {
 	}
 	
 	bonus = {
-		army_tradition = 0.5
+		trade_efficiency = 0.10
 	}
 	
 	hegemonic_grand_strategy = {
 		core_creation = -0.50
-		diplomatic_upkeep = 2
+		diplomatic_upkeep = 1
 	}
 	
 	ostentatious_militarism = {
@@ -335,7 +335,7 @@ hegemonic_ideas = {
 	}
 	
 	spectacular_constructions = {
-		prestige = 1.0
+		prestige = 0.5
 	}
 	
 	intimidation_tactics = {
@@ -349,7 +349,7 @@ hegemonic_ideas = {
 	}
 	
 	imperial_narrative = {
-		global_unrest = -3
+		global_unrest = -2
 	}
 	
 	the_big_stick = {
@@ -379,7 +379,7 @@ territorial_ideas = {
 	}
 	
 	power_replacement = {
-		global_autonomy = -0.10
+		global_autonomy = -0.05
 	}
 	
 	administrative_centers = {
@@ -396,7 +396,7 @@ territorial_ideas = {
 	}
 	
 	centralized_legal_system = {
-		stability_cost_modifier = -0.15
+		stability_cost_modifier = -0.20
 	}
 	
 	war_relief_system = {
@@ -408,8 +408,116 @@ territorial_ideas = {
 	}
 }
 
+diverse_integration_ideas = {
+	category = ADM
+	
+	trigger = {
+		full_idea_group = territorial_ideas
+		NOT = { has_idea_group = total_assimilation }
+	}
+	
+	bonus = {
+		global_unrest = -1
+	}
+	
+	diverse_integration = {
+		core_creation = 0.20
+		num_accepted_cultures = 2
+		religious_unity = 0.25
+	}
+	
+	integrated_military = {
+		army_tradition = 0.5
+		num_accepted_cultures = 1
+	}
+	
+	cultural_exchange = {
+		idea_cost = -0.05
+		global_institution_spread = 0.25
+	}
+	
+	religious_integration= {
+		tolerance_heretic = 2
+		tolerance_heathen = 2
+	}
+	
+	cultural_integration = {
+		num_accepted_cultures = 4
+		promote_culture_cost = -0.33
+	}
+	
+	cosmopolitan_administration = {
+		num_accepted_cultures = 3
+		advisor_pool = 1
+		advisor_cost = -0.10
+	}
+	
+	united_identity = {
+		years_of_nationalism = -5
+		legitimacy = 0.5
+	}
+	
+	ai_will_do = {
+		factor = 0.5
+	}
+}
+
+total_assimilation_ideas = {
+	category = ADM
+	
+	trigger = {
+		full_idea_group = territorial_ideas
+		NOT = { has_idea_group = diverse_integration }
+	}
+	
+	bonus = {
+		harsh_treatment_cost = -0.33
+		autonomy_change_time = -0.50
+	}
+	
+	total_assimilation = {
+		num_accepted_cultures = -2
+		tolerance_heretic = -1
+		tolerance_heathen = -1
+		tolerance_own = 2
+	}
+	
+	ethnic_resettlement = {
+		build_cost = -0.05
+	}
+	
+	religious_purity = {
+		global_heretic_missionary_strength = 0.2
+		missionaries = 1
+	}
+	
+	forced_acculturation = {
+		culture_conversion_cost = -0.33
+	}
+	
+	militant_proselytizing = {
+		global_missionary_strength = 0.3
+		missionaries = 1
+	}
+	
+	assimilative_ties = {
+		global_autonomy = -0.025
+		culture_conversion_cost = -0.33
+	}
+	
+	divine_elevation = {
+		max_absolutism = 10
+		yearly_absolutism = 0.5
+	}
+	
+	ai_will_do = {
+		factor = 0.5
+	}
+}
+
+
+
 ###NEW MILITARY IDEAS###
-#Post-Contact Warfare will go here
 post_contact_warfare = {
 	category = MIL
 	

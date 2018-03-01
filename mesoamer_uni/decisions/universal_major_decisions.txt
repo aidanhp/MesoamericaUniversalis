@@ -6,15 +6,11 @@ country_decisions = {
 			ai = no
 		}
 		allow = {
-			2 = {
-				province_distance = { 
-					who = THIS
-					distance = 1
-				}
-			}
+			always = yes
 		}
 		effect = {
 			add_treasury = 5
+			custom_tooltip = test_tt 
 		}
 		ai_will_do = {
 			factor = 0

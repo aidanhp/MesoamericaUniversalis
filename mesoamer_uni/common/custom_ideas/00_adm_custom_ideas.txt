@@ -77,44 +77,6 @@ adm_idea_modifiers = {
 		max_level = 2
 		
 		# Used for random generation
-		chance = {
-			factor = 1
-			modifier = {
-				factor = 0
-				OR = {
-					NOT = { government = monarchy }
-					government = steppe_horde
-				}
-			}
-		}
-	}
-	custom_idea_horde_unity = {
-		horde_unity = 0.5
-		level_cost_2 = 15
-		max_level = 2
-		
-		# Used for random generation
-		chance = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { government = steppe_horde }
-			}
-		}
-	}
-	custom_idea_devotion = {
-		devotion = 0.5
-		level_cost_2 = 15
-		max_level = 2
-		
-		# Used for random generation
-		chance = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { government = theocracy }
-			}
-		}	
 	}
 	custom_idea_republican_tradition = {
 		republican_tradition = 0.005
@@ -262,22 +224,5 @@ adm_idea_modifiers = {
 		level_cost_1 = 5
 		level_cost_2 = 30
 		max_level = 2
-	}
-	custom_idea_imperial_authority = {
-		imperial_authority = 0.1
-		level_cost_1 = 5
-		level_cost_2 = 30
-		max_level = 2
-		chance = {
-			factor = 0.5
-			modifier = {
-				factor = 0
-				is_part_of_hre = no
-			}
-			modifier = {
-				factor = 2
-				is_emperor = yes
-			}
-		}
 	}
 }
