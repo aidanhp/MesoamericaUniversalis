@@ -5,7 +5,12 @@ import shutil
 provinces_base_path = "history/provinces/"
 countries_base_path = "history/countries/"
 
+#
+# Look up culture/religion for all provinces.  Some will end up being
+# capital provinces.
+#
 province_id_to_culture = {}
+province_id_to_religion = {}
 for province_filename in os.listdir(provinces_base_path):
     province_id = province_filename.split(" ")[0]
     with open(provinces_base_path + province_filename) as province_file:
@@ -13,15 +18,25 @@ for province_filename in os.listdir(provinces_base_path):
             if line.startswith("culture"):
                 culture = (line.split("=")[1]).strip()
                 province_id_to_culture[province_id] = culture
+            elif line.startswith("religion"):
+                religion = (line.split("=")[1]).strip()
+                province_id_to_religion[province_id] = religion
 
-placeholder = "PLACEHOLDER"
+#
+# For every country set primary culture and state religion to match
+# how it is set for the capital province.
+#
+culture_placeholder = "CULTURE_PLACEHOLDER"
+religion_placeholder = "RELIGION_PLACEHOLDER"
 for country_filename in os.listdir(countries_base_path):
     capital_province_id = None
     lines = []
     with open(countries_base_path + country_filename) as country_file:
         for line in country_file:
             if line.startswith("primary_culture"):
-                lines.append(placeholder)
+                lines.append(culture_placeholder)
+            elif line.startswith("religion"):
+                lines.append(religion_placeholder)
             elif line.startswith("capital"):
                 capital_province_id = (line.split("=")[1]).strip()
                 lines.append(line)
@@ -38,11 +53,19 @@ for country_filename in os.listdir(countries_base_path):
         print("No primary culture found for " + country_filename)
         continue
 
+    if province_id_to_religion.has_key(capital_province_id):
+        primary_religion = province_id_to_religion[capital_province_id]
+    else:
+        print("No primary religion found for " + country_filename)
+        continue
+
     tmp_country_filename = country_filename + ".tmp"
     with open(countries_base_path + tmp_country_filename, "w") as tmp_country_file:
         for line in lines:
-            if line == placeholder:
+            if line == culture_placeholder:
                 tmp_country_file.write("primary_culture = " + primary_culture + "\n")
+            elif line == religion_placeholder:
+                tmp_country_file.write("religion = " + primary_religion + "\n")
             else:
                 tmp_country_file.write(line)
 
