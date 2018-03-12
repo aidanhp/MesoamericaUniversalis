@@ -47,16 +47,16 @@ for country_filename in os.listdir(countries_base_path):
         print("No capital found for " + country_filename)
         continue
 
-    if province_id_to_culture.has_key(capital_province_id):
+    if capital_province_id in province_id_to_culture:
         primary_culture = province_id_to_culture[capital_province_id]
     else:
         print("No primary culture found for " + country_filename)
         continue
 
-    if province_id_to_religion.has_key(capital_province_id):
-        primary_religion = province_id_to_religion[capital_province_id]
+    if capital_province_id in province_id_to_religion:
+        state_religion = province_id_to_religion[capital_province_id]
     else:
-        print("No primary religion found for " + country_filename)
+        print("No state religion found for " + country_filename)
         continue
 
     tmp_country_filename = country_filename + ".tmp"
@@ -65,7 +65,7 @@ for country_filename in os.listdir(countries_base_path):
             if line == culture_placeholder:
                 tmp_country_file.write("primary_culture = " + primary_culture + "\n")
             elif line == religion_placeholder:
-                tmp_country_file.write("religion = " + primary_religion + "\n")
+                tmp_country_file.write("religion = " + state_religion + "\n")
             else:
                 tmp_country_file.write(line)
 
