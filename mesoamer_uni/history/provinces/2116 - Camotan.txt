@@ -1,5 +1,5 @@
 culture = torquegua
-religion = placeholderism
+religion = religion_maya
 capital = "Camotan"
 trade_goods = unknown
 hre = no

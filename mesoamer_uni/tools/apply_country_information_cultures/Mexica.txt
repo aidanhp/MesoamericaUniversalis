@@ -2,35 +2,25 @@
 
 graphical_culture = southamericagfx
 
-color = { 14 104 0 }
+color = { 0 0 0 }
 
 historical_idea_groups = {
-	defensive_ideas
+	hegemonic_ideas
+	trade_ideas
 	offensive_ideas
-	religious_ideas
-	economic_ideas
-	diplomatic_ideas
-	innovativeness_ideas
+	power_concentration_ideas
 	spy_ideas
-	trade_ideas	
+	quality_ideas
+	influence_ideas
+	defensive_ideas
 }
 
 historical_units = {
-	western_medieval_infantry
-	western_medieval_knights
-	western_men_at_arms
-	swiss_landsknechten
-	dutch_maurician
-	austrian_tercio
-	austrian_grenzer
-	austrian_hussar
-	austrian_white_coat
-	prussian_uhlan
-	austrian_jaeger
-	mixed_order_infantry
-	open_order_cavalry
-	napoleonic_square
-	napoleonic_lancers
+	ta_triple_alliance_infantry 
+	ta_late_triple_alliance_infantry
+	ta_triple_alliance_gunpowder_infantry
+	ta_triple_alliance_musketeer
+	ta_triple_alliance_flintlock
 }
 
 monarch_names = {

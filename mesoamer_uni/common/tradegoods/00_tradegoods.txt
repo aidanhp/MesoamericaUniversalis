@@ -33,10 +33,10 @@
 staple_crops = {
 	color = { 0.96 0.93 0.58 }
 	modifier = {
-		land_forcelimit_modifier = 0.10
+		land_forcelimit_modifier = 0.05
 	}
 	province = {
-		supply_limit = 0.20
+		supply_limit_modifier = 0.10
 	}
 	chance = {
 		factor = 35
@@ -46,7 +46,7 @@ staple_crops = {
 aquatic_foods = {
 	color = { 0.96 0.93 0.58 }
 	modifier = {
-		land_forcelimit_modifier = 0.10
+		land_forcelimit_modifier = 0.05
 	}
 	province = {
 		supply_limit = 0.20
@@ -59,7 +59,7 @@ aquatic_foods = {
 fruits = {
 	color = { 0.96 0.93 0.58 }
 	modifier = {
-		stability_cost_modifier = -0.10
+		stability_cost_modifier = -0.05
 	}
 	province = {
 		local_unrest = -1
@@ -98,7 +98,7 @@ honey = {
 salt = {
 	color = { 0.96 0.93 0.58 }
 	modifier = {
-		global_trade_power = 0.1
+		global_trade_power = 0.05
 	}
 	province = {
 		local_tax_modifier = 0.05
@@ -124,7 +124,7 @@ maguey = {
 cotton = {
 	color = { 0.96 0.93 0.58 }
 	modifier = {
-		shock_damage_received = -0.1
+		shock_damage_received = -0.05
 	}
 	province = {
 		local_defensiveness = 0.05
@@ -137,8 +137,8 @@ cotton = {
 plumes = {
 	color = { 0.96 0.93 0.58 }
 	modifier = {
-		prestige = 0.5
-		legitimacy = 0.25
+		prestige = 0.20
+		legitimacy = 0.20
 	}
 	province = {
 		local_unrest = -0.5
@@ -164,7 +164,7 @@ copal = {
 copper = {
 	color = { 0.96 0.93 0.58 }
 	modifier = {
-		production_efficiency = 0.10
+		production_efficiency = 0.05
 	}
 	province = {
 		local_tax_modifier = 0.05
@@ -177,7 +177,7 @@ copper = {
 gold = {
 	color = { 0.96 0.93 0.58 }
 	modifier = {
-		legitimacy = 0.25
+		legitimacy = 0.20
 		global_missionary_strength = 0.01
 	}
 	province = {
@@ -191,7 +191,7 @@ gold = {
 silver = {
 	color = { 0.96 0.93 0.58 }
 	modifier = {
-		prestige = 1
+		prestige = 0.50
 	}
 	province = {
 		local_tax_modifier = 0.05
@@ -205,7 +205,7 @@ obsidian = {
 	color = { 0.96 0.93 0.58 }
 	modifier = {
 		production_efficiency = 0.05
-		shock_damage = 0.10
+		shock_damage = 0.05
 	}
 	province = {
 		local_production_efficiency = 0.10
@@ -218,7 +218,7 @@ obsidian = {
 precious_stones = {
 	color = { 0.96 0.93 0.58 }
 	modifier = {
-		trade_steering = 0.10
+		trade_steering = 0.05
 	}
 	province = {
 		local_tax_modifier = 0.05
@@ -257,7 +257,7 @@ wood = {
 rubber = {
 	color = { 0.96 0.93 0.58 }
 	modifier = {
-		global_autonomy = -0.05
+		global_autonomy = -0.025
 	}
 	province = {
 		local_unrest = -1
@@ -283,7 +283,7 @@ slaves = {
 ceramics = {
 	color = { 0.96 0.93 0.58 }
 	modifier = {
-		production_efficiency = 0.10
+		production_efficiency = 0.05
 	}
 	province = {
 		local_production_efficiency = 0.10
@@ -323,7 +323,7 @@ construction_stone = {
 balsas_metals = {
 	color = { 0.96 0.93 0.58 }
 	modifier = {
-		trade_steering = 0.25
+		trade_steering = 0.15
 	}
 	province = {
 		local_tax_modifier = 0.10
@@ -336,9 +336,7 @@ balsas_metals = {
 tolteca_crafts = {
 	color = { 0.96 0.93 0.58 }
 	modifier = {
-		legitimacy = 1
 		idea_cost = -0.05
-		technology_cost = -0.05
 	}
 	province = {
 		province_trade_power_value = 5

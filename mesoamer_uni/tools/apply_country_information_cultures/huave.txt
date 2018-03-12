@@ -1,0 +1,331 @@
+﻿#Country Name: Please see filename.
+
+graphical_culture = southamericagfx
+
+color = { 0 0 0 }
+
+historical_idea_groups = {
+	hegemonic_ideas
+	trade_ideas
+	offensive_ideas
+	power_concentration_ideas
+	spy_ideas
+	quality_ideas
+	influence_ideas
+	defensive_ideas
+}
+
+historical_units = {
+	hu_huaxyacac_infantry 
+	hu_late_huaxyacac_infantry
+	hu_huaxyacac_gunpowder_infantry
+	hu_huaxyacac_musketeer
+	hu_huaxyacac_flintlock
+}
+
+monarch_names = {
+	"Nop Jüm #0" = 20
+	"Ijpüw Jüm #0" = 20
+	"Arojpüw Jüm #0" = 20
+	"Piquiw Jüm #0" = 20
+	"Coquiaw Jüm #0" = 20
+	"Anaíw Jüm #0" = 20
+	"Ojquiyej Jüm #0" = 20
+	"Gajpowüw Jüm #0" = 20
+	"Gajpiüp Jüm #0" = 20
+	"Nop Ncherrec #0" = 20
+	"Ijpüw Ncherrec #0" = 20
+	"Arojpüw Ncherrec #0" = 20
+	"Piquiw Ncherrec #0" = 20
+	"Coquiaw Ncherrec #0" = 20
+	"Anaíw Ncherrec #0" = 20
+	"Ojquiyej Ncherrec #0" = 20
+	"Gajpowüw Ncherrec #0" = 20
+	"Gajpiüp Ncherrec #0" = 20
+	"Nop Nden #0" = 20
+	"Ijpüw Nden #0" = 20
+	"Arojpüw Nden #0" = 20
+	"Piquiw Nden #0" = 20
+	"Coquiaw Nden #0" = 20
+	"Anaíw Nden #0" = 20
+	"Ojquiyej Nden #0" = 20
+	"Gajpowüw Nden #0" = 20
+	"Gajpiüp Nden #0" = 20
+	"Nop Jamiün #0" = 20
+	"Ijpüw Jamiün #0" = 20
+	"Arojpüw Jamiün #0" = 20
+	"Piquiw Jamiün #0" = 20
+	"Coquiaw Jamiün #0" = 20
+	"Anaíw Jamiün #0" = 20
+	"Ojquiyej Jamiün #0" = 20
+	"Gajpowüw Jamiün #0" = 20
+	"Gajpiüp Jamiün #0" = 20
+	"Nop Ndiüc #0" = 20
+	"Ijpüw Ndiüc #0" = 20
+	"Arojpüw Ndiüc #0" = 20
+	"Piquiw Ndiüc #0" = 20
+	"Coquiaw Ndiüc #0" = 20
+	"Anaíw Ndiüc #0" = 20
+	"Ojquiyej Ndiüc #0" = 20
+	"Gajpowüw Ndiüc #0" = 20
+	"Gajpiüp Ndiüc #0" = 20
+	"Nop Mixax Omalaran #0" = 20
+	"Ijpüw Mixax Omalaran #0" = 20
+	"Arojpüw Mixax Omalaran #0" = 20
+	"Piquiw Mixax Omalaran #0" = 20
+	"Coquiaw Mixax Omalaran #0" = 20
+	"Anaíw Mixax Omalaran #0" = 20
+	"Ojquiyej Mixax Omalaran #0" = 20
+	"Gajpowüw Mixax Omalaran #0" = 20
+	"Gajpiüp Mixax Omalaran #0" = 20
+	"Nop Coy #0" = 20
+	"Ijpüw Coy #0" = 20
+	"Arojpüw Coy #0" = 20
+	"Piquiw Coy #0" = 20
+	"Coquiaw Coy #0" = 20
+	"Anaíw Coy #0" = 20
+	"Ojquiyej Coy #0" = 20
+	"Gajpowüw Coy #0" = 20
+	"Gajpiüp Coy #0" = 20
+	"Nop Yow #0" = 20
+	"Ijpüw Yow #0" = 20
+	"Arojpüw Yow #0" = 20
+	"Piquiw Yow #0" = 20
+	"Coquiaw Yow #0" = 20
+	"Anaíw Yow #0" = 20
+	"Ojquiyej Yow #0" = 20
+	"Gajpowüw Yow #0" = 20
+	"Gajpiüp Yow #0" = 20
+	"Nop Pet #0" = 20
+	"Ijpüw Pet #0" = 20
+	"Arojpüw Pet #0" = 20
+	"Piquiw Pet #0" = 20
+	"Coquiaw Pet #0" = 20
+	"Anaíw Pet #0" = 20
+	"Ojquiyej Pet #0" = 20
+	"Gajpowüw Pet #0" = 20
+	"Gajpiüp Pet #0" = 20
+	"Nop Maching #0" = 20
+	"Ijpüw Maching #0" = 20
+	"Arojpüw Maching #0" = 20
+	"Piquiw Maching #0" = 20
+	"Coquiaw Maching #0" = 20
+	"Anaíw Maching #0" = 20
+	"Ojquiyej Maching #0" = 20
+	"Gajpowüw Maching #0" = 20
+	"Gajpiüp Maching #0" = 20
+	"Nop Lüw #0" = 20
+	"Ijpüw Lüw #0" = 20
+	"Arojpüw Lüw #0" = 20
+	"Piquiw Lüw #0" = 20
+	"Coquiaw Lüw #0" = 20
+	"Anaíw Lüw #0" = 20
+	"Ojquiyej Lüw #0" = 20
+	"Gajpowüw Lüw #0" = 20
+	"Gajpiüp Lüw #0" = 20
+	"Nop Ateam #0" = 20
+	"Ijpüw Ateam #0" = 20
+	"Arojpüw Ateam #0" = 20
+	"Piquiw Ateam #0" = 20
+	"Coquiaw Ateam #0" = 20
+	"Anaíw Ateam #0" = 20
+	"Ojquiyej Ateam #0" = 20
+	"Gajpowüw Ateam #0" = 20
+	"Gajpiüp Ateam #0" = 20
+	"Nop Lixleabon #0" = 20
+	"Ijpüw Lixleabon #0" = 20
+	"Arojpüw Lixleabon #0" = 20
+	"Piquiw Lixleabon #0" = 20
+	"Coquiaw Lixleabon #0" = 20
+	"Anaíw Lixleabon #0" = 20
+	"Ojquiyej Lixleabon #0" = 20
+	"Gajpowüw Lixleabon #0" = 20
+	"Gajpiüp Lixleabon #0" = 20
+	"Nop Ijchiür #0" = 20
+	"Ijpüw Ijchiür #0" = 20
+	"Arojpüw Ijchiür #0" = 20
+	"Piquiw Ijchiür #0" = 20
+	"Coquiaw Ijchiür #0" = 20
+	"Anaíw Ijchiür #0" = 20
+	"Ojquiyej Ijchiür #0" = 20
+	"Gajpowüw Ijchiür #0" = 20
+	"Gajpiüp Ijchiür #0" = 20
+	"Nop Mbaj #0" = 20
+	"Ijpüw Mbaj #0" = 20
+	"Arojpüw Mbaj #0" = 20
+	"Piquiw Mbaj #0" = 20
+	"Coquiaw Mbaj #0" = 20
+	"Anaíw Mbaj #0" = 20
+	"Ojquiyej Mbaj #0" = 20
+	"Gajpowüw Mbaj #0" = 20
+	"Gajpiüp Mbaj #0" = 20
+	
+	"Nop Jüm #0" = -1
+	"Ijpüw Jüm #0" = -1
+	"Arojpüw Jüm #0" = -1
+	"Piquiw Jüm #0" = -1
+	"Coquiaw Jüm #0" = -1
+	"Anaíw Jüm #0" = -1
+	"Ojquiyej Jüm #0" = -1
+	"Gajpowüw Jüm #0" = -1
+	"Gajpiüp Jüm #0" = -1
+	"Nop Ncherrec #0" = -1
+	"Ijpüw Ncherrec #0" = -1
+	"Arojpüw Ncherrec #0" = -1
+	"Piquiw Ncherrec #0" = -1
+	"Coquiaw Ncherrec #0" = -1
+	"Anaíw Ncherrec #0" = -1
+	"Ojquiyej Ncherrec #0" = -1
+	"Gajpowüw Ncherrec #0" = -1
+	"Gajpiüp Ncherrec #0" = -1
+	"Nop Nden #0" = -1
+	"Ijpüw Nden #0" = -1
+	"Arojpüw Nden #0" = -1
+	"Piquiw Nden #0" = -1
+	"Coquiaw Nden #0" = -1
+	"Anaíw Nden #0" = -1
+	"Ojquiyej Nden #0" = -1
+	"Gajpowüw Nden #0" = -1
+	"Gajpiüp Nden #0" = -1
+	"Nop Jamiün #0" = -1
+	"Ijpüw Jamiün #0" = -1
+	"Arojpüw Jamiün #0" = -1
+	"Piquiw Jamiün #0" = -1
+	"Coquiaw Jamiün #0" = -1
+	"Anaíw Jamiün #0" = -1
+	"Ojquiyej Jamiün #0" = -1
+	"Gajpowüw Jamiün #0" = -1
+	"Gajpiüp Jamiün #0" = -1
+	"Nop Ndiüc #0" = -1
+	"Ijpüw Ndiüc #0" = -1
+	"Arojpüw Ndiüc #0" = -1
+	"Piquiw Ndiüc #0" = -1
+	"Coquiaw Ndiüc #0" = -1
+	"Anaíw Ndiüc #0" = -1
+	"Ojquiyej Ndiüc #0" = -1
+	"Gajpowüw Ndiüc #0" = -1
+	"Gajpiüp Ndiüc #0" = -1
+	"Nop Mixax Omalaran #0" = -1
+	"Ijpüw Mixax Omalaran #0" = -1
+	"Arojpüw Mixax Omalaran #0" = -1
+	"Piquiw Mixax Omalaran #0" = -1
+	"Coquiaw Mixax Omalaran #0" = -1
+	"Anaíw Mixax Omalaran #0" = -1
+	"Ojquiyej Mixax Omalaran #0" = -1
+	"Gajpowüw Mixax Omalaran #0" = -1
+	"Gajpiüp Mixax Omalaran #0" = -1
+	"Nop Coy #0" = -1
+	"Ijpüw Coy #0" = -1
+	"Arojpüw Coy #0" = -1
+	"Piquiw Coy #0" = -1
+	"Coquiaw Coy #0" = -1
+	"Anaíw Coy #0" = -1
+	"Ojquiyej Coy #0" = -1
+	"Gajpowüw Coy #0" = -1
+	"Gajpiüp Coy #0" = -1
+	"Nop Yow #0" = -1
+	"Ijpüw Yow #0" = -1
+	"Arojpüw Yow #0" = -1
+	"Piquiw Yow #0" = -1
+	"Coquiaw Yow #0" = -1
+	"Anaíw Yow #0" = -1
+	"Ojquiyej Yow #0" = -1
+	"Gajpowüw Yow #0" = -1
+	"Gajpiüp Yow #0" = -1
+	"Nop Pet #0" = -1
+	"Ijpüw Pet #0" = -1
+	"Arojpüw Pet #0" = -1
+	"Piquiw Pet #0" = -1
+	"Coquiaw Pet #0" = -1
+	"Anaíw Pet #0" = -1
+	"Ojquiyej Pet #0" = -1
+	"Gajpowüw Pet #0" = -1
+	"Gajpiüp Pet #0" = -1
+	"Nop Maching #0" = -1
+	"Ijpüw Maching #0" = -1
+	"Arojpüw Maching #0" = -1
+	"Piquiw Maching #0" = -1
+	"Coquiaw Maching #0" = -1
+	"Anaíw Maching #0" = -1
+	"Ojquiyej Maching #0" = -1
+	"Gajpowüw Maching #0" = -1
+	"Gajpiüp Maching #0" = -1
+	"Nop Lüw #0" = -1
+	"Ijpüw Lüw #0" = -1
+	"Arojpüw Lüw #0" = -1
+	"Piquiw Lüw #0" = -1
+	"Coquiaw Lüw #0" = -1
+	"Anaíw Lüw #0" = -1
+	"Ojquiyej Lüw #0" = -1
+	"Gajpowüw Lüw #0" = -1
+	"Gajpiüp Lüw #0" = -1
+	"Nop Ateam #0" = -1
+	"Ijpüw Ateam #0" = -1
+	"Arojpüw Ateam #0" = -1
+	"Piquiw Ateam #0" = -1
+	"Coquiaw Ateam #0" = -1
+	"Anaíw Ateam #0" = -1
+	"Ojquiyej Ateam #0" = -1
+	"Gajpowüw Ateam #0" = -1
+	"Gajpiüp Ateam #0" = -1
+	"Nop Lixleabon #0" = -1
+	"Ijpüw Lixleabon #0" = -1
+	"Arojpüw Lixleabon #0" = -1
+	"Piquiw Lixleabon #0" = -1
+	"Coquiaw Lixleabon #0" = -1
+	"Anaíw Lixleabon #0" = -1
+	"Ojquiyej Lixleabon #0" = -1
+	"Gajpowüw Lixleabon #0" = -1
+	"Gajpiüp Lixleabon #0" = -1
+	"Nop Ijchiür #0" = -1
+	"Ijpüw Ijchiür #0" = -1
+	"Arojpüw Ijchiür #0" = -1
+	"Piquiw Ijchiür #0" = -1
+	"Coquiaw Ijchiür #0" = -1
+	"Anaíw Ijchiür #0" = -1
+	"Ojquiyej Ijchiür #0" = -1
+	"Gajpowüw Ijchiür #0" = -1
+	"Gajpiüp Ijchiür #0" = -1
+	"Nop Mbaj #0" = -1
+	"Ijpüw Mbaj #0" = -1
+	"Arojpüw Mbaj #0" = -1
+	"Piquiw Mbaj #0" = -1
+	"Coquiaw Mbaj #0" = -1
+	"Anaíw Mbaj #0" = -1
+	"Ojquiyej Mbaj #0" = -1
+	"Gajpowüw Mbaj #0" = -1
+	"Gajpiüp Mbaj #0" = -1
+}
+
+leader_names = {
+	""
+}
+
+ship_names = {
+	Acolmiztli Acolnahuacat "Ah Hoya" "Ah Tzenul" Amimitl Apanecatl Atl Atlau Axoloa
+	Camaxtli Centeot Centzonuiznaua Chalchiuhtlatonal Chalchiuhtlicue Chalchiutotolin Chalmecalt Chalmecaucihuilt
+	Chantico Chichomexochtli Chicomecoatl Chiconahuai Chihalma Chualchihuitlcue Cihuacaotyl Cinteotl
+	Citlalatonac Citlalicue Ciucoatl Coatlicue Cochimetl Coyolxauhqui Cuauhcoatl 
+	Ehehcatl Eueucoyotl
+	"Hopop Can" Huehueteotl Huitzilopochtli Huixtocihuatl
+	Itzcoliuhqui Itzli Itzpapalotl Itzpzpalotl Ixtlilton Iztamixcoatzin
+	Macuilxochitl Mahayuel Malinalxochi Matalcueye Metztli Mictlan Mictlancihuntl Mictlantechtle
+	Mictlantechupi Mictlantecihuatl Mixcoatl
+	Nanauatzin
+	Ococaltzin Omecihuatl Ometecuhlti Ometeotl Omeyocan
+	Patecatli Paynal
+	Quetzalcoatl
+	Tecciztecatl Teoyaomqui Tepeyollotl Teteoinnan Tezacoatl Tezcatlipoca Tillan-Tlapallan Tlaloc
+	Tlalocan Tlaltechhtlii Tlazolteotl Tonacatecuhtli Tonatiuhican Tonatiuth Tzitmime
+	Xilonen "Xipe Totec" Xiucoatl Xiuhtecuhtli Xochipilli Xochiquetzal Xolotl Xonecuilli
+	Yacatechutli
+}
+
+
+army_names = {
+	"Army $PROVINCE$" 
+}
+
+fleet_names = {
+	"Glorious Fleet"
+}

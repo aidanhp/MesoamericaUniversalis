@@ -1,5 +1,5 @@
 culture = sayultec
-religion = placeholderism
+religion = religion_tlaloc
 capital = "Tomatlan"
 trade_goods = unknown
 hre = no

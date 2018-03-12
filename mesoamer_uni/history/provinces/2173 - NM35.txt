@@ -1,5 +1,5 @@
 culture = zapotec
-religion = placeholderism
+religion = religion_zapotec
 capital = "No Man's Land"
 trade_goods = unknown
 hre = no

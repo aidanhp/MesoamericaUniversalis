@@ -1,5 +1,5 @@
 culture = cuitlatec
-religion = placeholderism
+religion = religion_tlaloc
 capital = "Mountain Pass"
 trade_goods = unknown
 hre = no

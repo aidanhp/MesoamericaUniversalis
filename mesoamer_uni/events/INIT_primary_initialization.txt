@@ -110,6 +110,46 @@ country_event = {
 				set_variable = { which = v_starting_pop value = 0 }
 				set_variable = { which = v_non_capital_pop value = 0 }
 				set_variable = { which = v_capital_pop value = 0 }
+				###
+				set_variable = { which = v_pops_mp_level value = 0 }
+				set_variable = { which = v_pops_stab_level value = 0 }
+				set_variable = { which = v_pops_we_level value = 0 }
+				set_variable = { which = v_prov_pop value = 0 }
+				set_variable = { which = v_prov_growth_rate value = 0 }
+				set_variable = { which = v_commoner_pops_change value = 0 }
+				set_variable = { which = v_artisan_pops_change value = 0 } 
+				set_variable = { which = v_elite_pops_change value = 0 }
+				set_variable = { which = v_commoner_pops value = 0 }
+				set_variable = { which = v_artisan_pops value = 0 }
+				set_variable = { which = v_elite_pops value = 0 }
+				set_variable = { which = v_unadded_change_commoners value = 0 }
+				set_variable = { which = v_unadded_change_artisans value = 0 }
+				set_variable = { which = v_unadded_change_elites value = 0 }
+				
+				export_to_variable = { 
+					which = v_commoner_pops
+					value = base_manpower
+				}
+				export_to_variable = { 
+					which = v_artisan_pops
+					value = base_production
+				}
+				export_to_variable = { 
+					which = v_elite_pops
+					value = base_tax
+				}
+				multiply_variable = { 
+					which = v_commoner_pops 
+					value = 1000
+				}
+				multiply_variable = { 
+					which = v_artisan_pops 
+					value = 1000
+				}
+				multiply_variable = { 
+					which = v_elite_pops 
+					value = 1000
+				}
 				
 				#Apply Universal Modifiers
 				add_permanent_province_modifier = {

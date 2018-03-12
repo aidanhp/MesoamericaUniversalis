@@ -1,5 +1,5 @@
 culture = coca
-religion = placeholderism
+religion = religion_purepecha
 capital = "Chapala"
 trade_goods = unknown
 hre = no

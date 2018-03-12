@@ -1,5 +1,5 @@
 culture = tlapanec
-religion = placeholderism
+religion = religion_xipe_totec
 capital = "No Man's Land"
 trade_goods = unknown
 hre = no

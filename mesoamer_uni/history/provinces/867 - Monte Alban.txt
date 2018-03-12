@@ -1,5 +1,5 @@
 culture = zapotec
-religion = placeholderism 
+religion = religion_zapotec 
 capital = "Monte Alban"
 trade_goods = unknown
 hre = no

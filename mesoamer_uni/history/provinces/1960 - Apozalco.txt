@@ -1,5 +1,5 @@
 culture = cora
-religion = placeholderism
+religion = religion_tlaloc
 capital = "Apozolco"
 trade_goods = unknown
 hre = no

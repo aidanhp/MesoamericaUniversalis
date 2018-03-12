@@ -1,5 +1,5 @@
 culture = caxcan
-religion = placeholderism
+religion = religion_tlaloc
 capital = "Teuchitlan"
 trade_goods = obsidian
 hre = no

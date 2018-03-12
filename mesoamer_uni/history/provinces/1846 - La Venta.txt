@@ -1,5 +1,5 @@
 culture = popoluca
-religion = religion_maya
+religion = religion_cihuacoatl
 capital = "La Venta"
 trade_goods = unknown
 hre = no

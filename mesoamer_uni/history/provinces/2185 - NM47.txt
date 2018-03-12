@@ -1,5 +1,5 @@
 culture = otomi
-religion = placeholderism
+religion = religion_mixcoatl
 capital = "No Man's Land"
 trade_goods = unknown
 hre = no

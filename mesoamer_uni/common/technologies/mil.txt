@@ -82,7 +82,145 @@ technology = { #Evolved Military Composition
 	year = 1519
 	
 	military_tactics = 0.25
-	#Second Tier of Units
+	enable = cm_late_central_mexican_infantry
+	enable = hu_late_huaxyacac_infantry
+	enable = ma_late_maya_infantry
+	enable = pu_late_purepecha_infantry
+	enable = ta_late_triple_alliance_infantry
+	enable = tl_late_tlaxcallan_infantry
+	enable = we_spanish_infantry_2
+	enable = wm_late_west_mexican_infantry
+}
+
+technology = { #Adaptive Tactics 
+	#Tech 8
+	year = 1532
+	
+	military_tactics = 0.25
+}
+
+technology = { #Horses, Guns, and Steel 
+	#Tech 9
+	year = 1545 
+	
+	cavalry_shock = 0.5
+	artillery_fire = 1
+	artillery_shock = 0.05
+	
+	enable = cm_central_mexican_gunpowder_infantry
+	enable = hu_huaxyacac_gunpowder_infantry
+	enable = ma_maya_gunpowder_infantry
+	enable = pu_purepecha_heavy_infantry
+	enable = ta_triple_alliance_gunpowder_infantry
+	enable = tl_tlaxcallan_conquistadores 
+	enable = we_spanish_infantry_3
+	enable = wm_west_mexican_gunpowder_infantry
+	enable = cav_mesoamerican_lancers 
+	enable = art_rudimentary_artillery
+}
+
+technology = { #Adaptive Cavalry Tactics
+	#Tech 10
+	year = 1558 
+	
+	cavalry_shock = 0.5 
+	enable = cav_mesoamerican_heavy_cavalry
+}
+
+technology = { #Adaptive Artillery Tactics 
+	#Tech 11
+	year = 1571
+	
+	artillery_fire = 0.5
+	artillery_shock = 0.15
+	enable = art_bombards
+}
+
+technology = { #Matchlock Musket 
+	#Tech 12
+	year = 1584
+	
+	infantry_fire = 0.25
+	cavalry_fire = 0.25
+	enable = cm_central_mexican_musketeer
+	enable = hu_huaxyacac_musketeer
+	enable = ma_maya_musketeer
+	enable = pu_purepecha_musketeer
+	enable = ta_triple_alliance_musketeer
+	enable = tl_tlaxcallan_musketeer
+	enable = we_spanish_infantry_4
+	enable = wm_west_mexican_musketeer
+}
+
+technology = { #Artillery Resistant Forts 
+	#Tech 13
+	year = 1597 
+	
 	fort_17th = yes
+}
+
+technology = { #Logistical Innovations II 
+	#Tech 14 
+	year = 1610
+	
+	supply_limit = 0.5 
+	land_morale = 0.25
+	combat_width = 4
+}
+
+technology = { #The New Military Order 
+	#Tech 15
+	year = 1623 
+	
+	cavalry_shock = 0.5
+	enable = cav_mesoamerican_cuirassiers  
+}
+
+technology = { #Mobile Artillery 
+	#Tech 16
+	year = 1636 
+	
+	artillery_fire = 1 
+	artillery_shock = 0.1
+	enable = art_mobile_cannons
+}
+
+technology = { #Mass Gunpowder Ambush 
+	#Tech 17
+	year = 1649 
+	
+	military_tactics = 0.25
+	combat_width = 4
+}
+
+technology = { #Universal Training II 
+	#Tech 18
+	year = 1662
+	
+	land_morale = 0.5
+	infantry_fire = 0.1
+	infantry_shock = 0.1
+}
+
+technology = { #Flintlock Musket 
+	#Tech 19 
+	year = 1675
+	
+	infantry_fire = 0.25
+	cavalry_fire = 0.25
+	enable = cm_central_mexican_flintlock
+	enable = hu_huaxyacac_flintlock
+	enable = ma_maya_flintlock
+	enable = pu_purepecha_flintlock
+	enable = ta_triple_alliance_flintlock
+	enable = tl_tlaxcallan_flintlock
+	enable = we_spanish_infantry_5
+	enable = wm_west_mexican_flintlock
+}
+
+technology = { #Improved Fortifications II 
+	#Tech 20
+	year = 1688 
+	
 	fort_18th = yes
 }

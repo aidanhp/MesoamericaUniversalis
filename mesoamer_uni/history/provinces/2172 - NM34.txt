@@ -1,5 +1,5 @@
 culture = amuzgo
-religion = placeholderism
+religion = religion_mixtec
 capital = "No Man's Land"
 trade_goods = unknown
 hre = no

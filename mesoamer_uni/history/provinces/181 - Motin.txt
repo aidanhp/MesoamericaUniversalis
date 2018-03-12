@@ -1,5 +1,5 @@
 culture = cuauhcomeca
-religion = placeholderism
+religion = religion_purepecha
 capital = "Motin"
 trade_goods = unknown
 hre = no

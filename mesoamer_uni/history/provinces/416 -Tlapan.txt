@@ -2,7 +2,7 @@ add_core = PPX
 owner = PPX
 controller = PPX
 culture = tlapanec
-religion = placeholderism
+religion = religion_xipe_totec
 hre = no
 base_tax = 2
 base_production = 4
@@ -11,7 +11,7 @@ trade_goods = gold
 
 capital = "Tlapan"
 is_city = yes
-
+fort_15th = yes
 
 discovered_by = western_european_tg
 discovered_by = triple_alliance_tg 

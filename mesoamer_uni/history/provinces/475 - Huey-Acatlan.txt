@@ -2,7 +2,7 @@ add_core = SSE
 owner = SSE
 controller = SSE
 culture = mixtec
-religion = placeholderism
+religion = religion_mixtec
 hre = no
 base_tax = 1
 base_production = 3
@@ -11,7 +11,7 @@ trade_goods = salt
 
 capital = "Huey-Acatlan"
 is_city = yes
-
+fort_15th = yes
 
 discovered_by = western_european_tg
 discovered_by = triple_alliance_tg 

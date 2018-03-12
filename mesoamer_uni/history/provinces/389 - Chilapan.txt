@@ -3,7 +3,7 @@ add_core = OOT
 owner = OOT
 controller = OOT
 culture = coixca
-religion = placeholderism
+religion = religion_xipe_totec
 hre = no
 base_tax = 2
 base_production = 3
@@ -12,7 +12,7 @@ trade_goods = silver
 
 capital = "Chilapan"
 is_city = yes
-
+fort_15th = yes
 
 discovered_by = western_european_tg
 discovered_by = triple_alliance_tg 

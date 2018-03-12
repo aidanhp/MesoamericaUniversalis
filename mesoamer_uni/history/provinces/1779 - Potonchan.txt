@@ -2,7 +2,7 @@ add_core = L32
 owner = L32
 controller = L32
 culture = putun_chontal
-religion = placeholderism
+religion = religion_yacatecuhtli
 hre = no
 base_tax = 3
 base_production = 5
@@ -11,7 +11,7 @@ trade_goods = staple_crops
 
 capital = "Potonchan"
 is_city = yes
-
+fort_15th = yes
 
 discovered_by = western_european_tg
 discovered_by = triple_alliance_tg 

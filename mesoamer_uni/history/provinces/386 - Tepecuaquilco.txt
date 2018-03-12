@@ -2,7 +2,7 @@ add_core = OOT
 owner = OOT
 controller = OOT
 culture = coixca
-religion = placeholderism
+religion = religion_xipe_totec
 hre = no
 base_tax = 3
 base_production = 6
@@ -11,7 +11,7 @@ trade_goods = staple_crops
 
 capital = "Tepecuaquilco"
 is_city = yes
-
+fort_15th = yes
 
 discovered_by = western_european_tg
 discovered_by = triple_alliance_tg 

@@ -457,7 +457,7 @@ administrative_center = {
 
 hill_fort = {
 	cost = 300
-	time = 6 
+	time = 12
 	trigger = {
 		OR = {
 			has_terrain = hills
@@ -471,8 +471,8 @@ hill_fort = {
 		}
 	}
 	modifier = {
-		fort_level = 3
-		local_defensiveness = 0.15
+		fort_level = 2
+		local_defensiveness = 0.40
 	}
 	
 	#onmap = yes

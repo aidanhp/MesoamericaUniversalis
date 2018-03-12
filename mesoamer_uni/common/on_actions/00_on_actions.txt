@@ -17,15 +17,6 @@ on_startup = {
 		#country_event = { id = init_test.01 }
 		
 	}
-	every_province = {
-		limit = {
-			is_capital = yes
-			owner = {
-				ai = no
-			}
-		}
-		#province_event = { id = init_test.02 }
-	}
 }	
 
 # country

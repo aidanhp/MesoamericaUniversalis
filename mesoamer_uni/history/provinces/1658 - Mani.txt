@@ -3,7 +3,7 @@ add_core = I96
 owner = I96
 controller = I96
 culture = yucatec
-religion = placeholderism
+religion = religion_maya
 hre = no
 base_tax = 3
 base_production = 5
@@ -12,7 +12,7 @@ trade_goods = staple_crops
 
 capital = "Mani"
 is_city = yes
-
+fort_15th = yes
 
 discovered_by = western_european_tg
 discovered_by = triple_alliance_tg 

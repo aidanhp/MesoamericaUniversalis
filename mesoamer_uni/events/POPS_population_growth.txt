@@ -1,0 +1,597 @@
+
+country_event = {
+	id = pops_growth.01
+	
+	title = "pops_growth1.t"
+	desc = "pops_growth1.d"
+	
+	picture = REFORM_eventPicture 
+
+	hidden = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { 
+			is_month = 1
+		}
+	}
+	
+	immediate = {
+		every_country = {
+			export_to_variable = {
+				which = v_pops_mp_level
+				value = manpower_percentage
+			}
+			export_to_variable = {
+				which = v_pops_stab_level
+				value = stability
+			}
+			export_to_variable = {
+				which = v_pops_we_level
+				value = war_exhaustion
+			}
+		}
+		every_country = {
+		every_owned_province = { 
+			limit = {
+				is_city = yes
+				continent = continent_1
+			}
+			#Calculate Growth Rate
+			subtract_variable = { which = v_prov_growth_rate which = v_prov_growth_rate }
+			
+			export_to_variable = {
+				which = v_prov_pop 
+				value = development
+			}
+			
+			#POSITIVE
+			#Manpower level, max of 0.005% at 90% mp
+			if = {
+				limit = { 
+					owner = { 
+						check_variable = { which = v_pops_mp_level value = 0.6 }
+					}
+				}
+				change_variable = { which = v_prov_growth_rate value = 0.00125 }
+			}
+			if = {
+				limit = { 
+					owner = { 
+						check_variable = { which = v_pops_mp_level value = 0.7 }
+					}
+				}
+				change_variable = { which = v_prov_growth_rate value = 0.00125 }
+			}
+			if = {
+				limit = { 
+					owner = { 
+						check_variable = { which = v_pops_mp_level value = 0.8 }
+					}
+				}
+				change_variable = { which = v_prov_growth_rate value = 0.00125 }
+			}
+			if = {
+				limit = { 
+					owner = { 
+						check_variable = { which = v_pops_mp_level value = 0.9 }
+					}
+				}
+				change_variable = { which = v_prov_growth_rate value = 0.00125 }
+			}
+			#Stability level, max of 0.006% at 3 stab 
+			if = {
+				limit = { 
+					owner = { 
+						check_variable = { which = v_pops_stab_level value = 1 }
+					}
+				}
+				change_variable = { which = v_prov_growth_rate value = 0.002 }
+			}
+			if = {
+				limit = { 
+					owner = { 
+						check_variable = { which = v_pops_stab_level value = 2 }
+					}
+				}
+				change_variable = { which = v_prov_growth_rate value = 0.002 }
+			}
+			if = {
+				limit = { 
+					owner = { 
+						check_variable = { which = v_pops_stab_level value = 3 }
+					}
+				}
+				change_variable = { which = v_prov_growth_rate value = 0.002 }
+			}
+			#Buildings, max of 0.005% from chinampas or terrace farms
+			if = {
+				limit = { 
+					has_building = chinampas 
+				}
+				change_variable = { which = v_prov_growth_rate value = 0.005 }
+			}
+			if = {
+				limit = { 
+					has_building = terrace_farms 
+				}
+				change_variable = { which = v_prov_growth_rate value = 0.005 }
+			}
+			if = {
+				limit = { 
+					has_building = farms 
+				}
+				change_variable = { which = v_prov_growth_rate value = 0.003 }
+			}
+			#Trade power, max of 0.008% from 40 trade power
+			if = {
+				limit = { 
+					province_trade_power = 5
+				}
+				change_variable = { which = v_prov_growth_rate value = 0.002 }
+			}
+			if = {
+				limit = { 
+					province_trade_power = 10
+				}
+				change_variable = { which = v_prov_growth_rate value = 0.002 }
+			}
+			if = {
+				limit = { 
+					province_trade_power = 20
+				}
+				change_variable = { which = v_prov_growth_rate value = 0.002 }
+			}
+			if = {
+				limit = { 
+					province_trade_power = 40
+				}
+				change_variable = { which = v_prov_growth_rate value = 0.002 }
+			}
+			#Technology - max of 0.005% from adm tech 1
+			if = {
+				limit = { 
+					owner = {
+						NOT = { adm_tech = 1 }
+					}
+				}
+				change_variable = { which = v_prov_growth_rate value = 0.0025 }
+			}
+			if = {
+				limit = { 
+					owner = {
+						adm_tech = 1
+					}
+				}
+				change_variable = { which = v_prov_growth_rate value = 0.005 }
+			}
+			#Terrain - max of 0.004% from farmlands 
+			if = {
+				limit = { 
+					terrain = farmlands 
+				}
+				change_variable = { which = v_prov_growth_rate value = 0.004 }
+			}
+			if = {
+				limit = { 
+					terrain = grasslands  
+				}
+				change_variable = { which = v_prov_growth_rate value = 0.002 }
+			}
+			#Political, max of 0.012% for imperial capital 
+			if = {
+				limit = { 
+					is_capital = yes
+					owner = {
+						government_rank = 1
+					}
+				}
+				change_variable = { which = v_prov_growth_rate value = 0.001 }
+			}
+			if = {
+				limit = { 
+					is_capital = yes
+					owner = {
+						government_rank = 2
+					}
+				}
+				change_variable = { which = v_prov_growth_rate value = 0.005 }
+			}
+			if = {
+				limit = { 
+					is_capital = yes
+					owner = {
+						government_rank = 3
+					}
+				}
+				change_variable = { which = v_prov_growth_rate value = 0.01 }
+			}
+			#Other modifiers 
+			####ADD LATER ON####
+			
+			
+			#NEGATIVE
+			#Exceeds population potential 
+			if = { 
+				limit = { 
+					check_variable = { which = v_prov_pop which = v_pop_potential }
+				}
+				change_variable = { which = v_prov_growth_rate value = -0.03 }
+			}
+			#Manpower level, max of -0.005% at under 10% mp
+			if = {
+				limit = { 
+					owner = { 
+						NOT = { check_variable = { which = v_pops_mp_level value = 0.4 } }
+					}
+				}
+				change_variable = { which = v_prov_growth_rate value = -0.00125 }
+			}
+			if = {
+				limit = { 
+					owner = { 
+						NOT = { check_variable = { which = v_pops_mp_level value = 0.3 } }
+					}
+				}
+				change_variable = { which = v_prov_growth_rate value = -0.00125 }
+			}
+			if = {
+				limit = { 
+					owner = { 
+						NOT = { check_variable = { which = v_pops_mp_level value = 0.2 } }
+					}
+				}
+				change_variable = { which = v_prov_growth_rate value = -0.00125 }
+			}
+			if = {
+				limit = { 
+					owner = { 
+						NOT = { check_variable = { which = v_pops_mp_level value = 0.9 } }
+					}
+				}
+				change_variable = { which = v_prov_growth_rate value = -0.00125 }
+			}
+			#Stability level, max of -0.008% at -3 stab 
+			if = {
+				limit = { 
+					owner = { 
+						NOT = { check_variable = { which = v_pops_stab_level value = 0 } }
+					}
+				}
+				change_variable = { which = v_prov_growth_rate value = -0.003 }
+			}
+			if = {
+				limit = { 
+					owner = { 
+						NOT = { check_variable = { which = v_pops_stab_level value = -1 } }
+					}
+				}
+				change_variable = { which = v_prov_growth_rate value = -0.003 }
+			}
+			if = {
+				limit = { 
+					owner = { 
+						NOT = { check_variable = { which = v_pops_stab_level value = -2 } }
+					}
+				}
+				change_variable = { which = v_prov_growth_rate value = -0.002 }
+			}
+			#War exhaustion level, -0.012% at 20 we 
+			if = {
+				limit = { 
+					owner = { 
+						check_variable = { which = v_pops_we_level value = 2 } 
+					}
+				}
+				change_variable = { which = v_prov_growth_rate value = -0.002 }
+			}
+			if = {
+				limit = { 
+					owner = { 
+						check_variable = { which = v_pops_we_level value = 4 } 
+					}
+				}
+				change_variable = { which = v_prov_growth_rate value = -0.002 }
+			}
+			if = {
+				limit = { 
+					owner = { 
+						check_variable = { which = v_pops_we_level value = 8 } 
+					}
+				}
+				change_variable = { which = v_prov_growth_rate value = -0.002 }
+			}
+			if = {
+				limit = { 
+					owner = { 
+						check_variable = { which = v_pops_we_level value = 12 } 
+					}
+				}
+				change_variable = { which = v_prov_growth_rate value = -0.002 }
+			}
+			if = {
+				limit = { 
+					owner = { 
+						check_variable = { which = v_pops_we_level value = 16 } 
+					}
+				}
+				change_variable = { which = v_prov_growth_rate value = -0.002 }
+			}
+			if = {
+				limit = { 
+					owner = { 
+						check_variable = { which = v_pops_we_level value = 20 } 
+					}
+				}
+				change_variable = { which = v_prov_growth_rate value = -0.002 }
+			}
+			#Local devestation, -0.02% at 100
+			if = {
+				limit = { 
+					devastation = 10
+				}
+				change_variable = { which = v_prov_growth_rate value = -0.002 }
+			}
+			if = {
+				limit = { 
+					devastation = 20
+				}
+				change_variable = { which = v_prov_growth_rate value = -0.002 }
+			}
+			if = {
+				limit = { 
+					devastation = 30
+				}
+				change_variable = { which = v_prov_growth_rate value = -0.002 }
+			}
+			if = {
+				limit = { 
+					devastation = 40
+				}
+				change_variable = { which = v_prov_growth_rate value = -0.002 }
+			}
+			if = {
+				limit = { 
+					devastation = 50
+				}
+				change_variable = { which = v_prov_growth_rate value = -0.002 }
+			}
+			if = {
+				limit = { 
+					devastation = 60
+				}
+				change_variable = { which = v_prov_growth_rate value = -0.002 }
+			}
+			if = {
+				limit = { 
+					devastation = 70
+				}
+				change_variable = { which = v_prov_growth_rate value = -0.002 }
+			}
+			if = {
+				limit = { 
+					devastation = 80
+				}
+				change_variable = { which = v_prov_growth_rate value = -0.002 }
+			}
+			if = {
+				limit = { 
+					devastation = 90
+				}
+				change_variable = { which = v_prov_growth_rate value = -0.002 }
+			}
+			if = {
+				limit = { 
+					devastation = 100
+				}
+				change_variable = { which = v_prov_growth_rate value = -0.002 }
+			}
+			#Other modifiers 
+			####ADD LATER ON####
+			
+			#Set change equal to current population
+			set_variable = { which = v_commoner_pops_change which = v_commoner_pops }
+			set_variable = { which = v_artisan_pops_change which = v_artisan_pops }
+			set_variable = { which = v_elite_pops_change which = v_elite_pops }
+			
+			#Determine level of change based off growth rate
+			multiply_variable = { which = v_commoner_pops_change which = v_prov_growth_rate }
+			multiply_variable = { which = v_artisan_pops_change which = v_prov_growth_rate }
+			multiply_variable = { which = v_elite_pops_change which = v_prov_growth_rate }
+			
+			#Add change to total population
+			change_variable = { which = v_commoner_pops which = v_commoner_pops_change }
+			change_variable = { which = v_artisan_pops which = v_artisan_pops_change }
+			change_variable = { which = v_elite_pops which = v_elite_pops_change }
+				
+			#Add population in this province
+			if = {
+				limit = {
+					check_variable = { which = v_prov_growth_rate value = 0.0 }
+				}
+				while = {
+					limit = {
+						check_variable = {
+							which = v_commoner_pops_change
+							value = 1000
+						}
+					}
+					add_base_manpower = 1
+					subtract_variable = { which = v_commoner_pops_change value = 1000 }
+				}
+				change_variable = { which = v_unadded_change_commoners which = v_commoner_pops_change }
+				
+				while = {
+					limit = {
+						check_variable = {
+							which = v_artisan_pops_change
+							value = 1000
+						}
+					}
+					add_base_production = 1
+					subtract_variable = { which = v_artisan_pops_change value = 1000 }
+				}
+				change_variable = { which = v_unadded_change_artisans which = v_artisan_pops_change }
+					
+				while = {
+					limit = {
+						check_variable = {
+							which = v_elite_pops_change
+							value = 1000
+						}
+					}
+					add_base_tax = 1
+					subtract_variable = { which = v_elite_pops_change value = 1000 }
+				}
+				change_variable = { which = v_unadded_change_elites which = v_elite_pops_change }
+					
+				while = { 
+					limit = {
+						check_variable = {
+							which = v_unadded_change_commoners
+							value = 1000
+						}
+					}
+					add_base_manpower = 1
+					subtract_variable = { which = v_unadded_change_commoners value = 1000 }
+				}
+					
+				while = { 
+					limit = {
+						check_variable = {
+							which = v_unadded_change_artisans
+							value = 1000
+						}
+					}
+					add_base_production = 1
+					subtract_variable = { which = v_unadded_change_artisans value = 1000 }
+				}
+					
+				while = { 
+					limit = {
+						check_variable = {
+							which = v_unadded_change_elites
+							value = 1000
+						}
+					}
+					add_base_tax = 1
+					subtract_variable = { which = v_unadded_change_elites value = 1000 }
+				}
+			}
+				
+			#Subtract population in this province
+			if = {
+				limit = {
+					NOT = { check_variable = { which = v_prov_growth_rate value = 0.0 } }
+				}
+				while = {
+					limit = {
+						NOT = { 
+							check_variable = {
+								which = v_commoner_pops_change
+								value = -1000
+							}
+						}
+					}
+					add_base_manpower = -1
+					subtract_variable = { which = v_commoner_pops_change value = -1000 }
+				}
+				change_variable = { which = v_unadded_change_commoners which = v_commoner_pops_change }
+					
+				while = {
+					limit = {
+						NOT = { 
+							check_variable = {
+								which = v_artisan_pops_change
+								value = -1000
+							}
+						}
+					}
+					add_base_production = -1
+					subtract_variable = { which = v_artisan_pops_change value = -1000 }
+				}
+				change_variable = { which = v_unadded_change_artisans which = v_artisan_pops_change }
+					
+				while = {
+					limit = {
+						NOT = { 
+							check_variable = {
+								which = v_elite_pops_change
+								value = -1000
+							}
+						}
+					}
+					add_base_tax = -1
+					subtract_variable = { which = v_elite_pops_change value = -1000 }
+				}
+				change_variable = { which = v_unadded_change_elites which = v_elite_pops_change }
+				
+				while = { 
+					limit = {
+						NOT = { 
+							check_variable = {
+								which = v_unadded_change_commoners
+								value = -1000
+							}
+						}
+					}
+					add_base_manpower = -1
+					subtract_variable = { which = v_unadded_change_commoners value = -1000 }
+				}
+					
+				while = { 
+					limit = {
+						NOT = { 
+							check_variable = {
+								which = v_unadded_change_artisans
+								value = -1000
+							}
+						}
+					}
+					add_base_production = -1
+					subtract_variable = { which = v_unadded_change_artisans value = -1000 }
+				}
+					
+				while = { 
+					limit = {
+						NOT = {
+							check_variable = {
+								which = v_unadded_change_elites
+								value = -1000
+							}
+						}
+					}
+					add_base_tax = -1
+					subtract_variable = { which = v_unadded_change_elites value = -1000 }
+				}
+			}
+			if = { #Re-organize population after reaching 10 development 
+				limit = { 
+					development = 10
+					NOT = { development = 11 } 
+					has_province_flag = pop_reorganized
+				}
+				add_base_manpower = -10
+				add_base_production = -10
+				add_base_tax = -10
+				
+				add_base_manpower = 7
+				add_base_manpower = 2
+				add_base_tax = 1
+				
+				set_province_flag = pop_reorganized
+			}
+		}
+		}
+	}
+	
+	option = {
+		name = "NAMESPACE1.a"
+		#Effects
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+

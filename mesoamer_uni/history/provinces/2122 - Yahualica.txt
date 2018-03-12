@@ -1,5 +1,5 @@
 culture = tecuexe
-religion = placeholderism
+religion = religion_tlaloc
 capital = "Yahualica"
 trade_goods = unknown
 hre = no

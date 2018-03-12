@@ -3,7 +3,7 @@ add_core = I84
 owner = I84
 controller = I84
 culture = yucatec
-religion = placeholderism
+religion = religion_maya
 hre = no
 base_tax = 1
 base_production = 2
@@ -12,7 +12,7 @@ trade_goods = staple_crops
 
 capital = "Xalha"
 is_city = yes
-
+fort_15th = yes
 
 discovered_by = western_european_tg
 discovered_by = triple_alliance_tg 

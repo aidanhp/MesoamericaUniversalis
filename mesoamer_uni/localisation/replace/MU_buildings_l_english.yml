@@ -14,9 +14,9 @@
  building_military_workshop_1: "Military Workshop I"
  building_military_workshop_2: "Military Workshop II"
  
- building_chinampas: "Chinampas \n§Y--Requires Adjacent Freshwater Lake§! \n§WLocal Population Growth:§! §G+0.015%§!"
- building_terrace_farms: "Terrace Farms \n§Y--Requires Hills or Mountain Terrain§! \n§WLocal Population Growth:§! §G+0.015%§!"
- building_farms: "Farms \n§WLocal Population Growth:§! §G+0.01%§!"
+ building_chinampas: "Chinampas \n§Y--Requires Adjacent Freshwater Lake§! \n§WLocal Population Growth:§! §G+0.005%§!"
+ building_terrace_farms: "Terrace Farms \n§Y--Requires Hills or Mountain Terrain§! \n§WLocal Population Growth:§! §G+0.005%§!"
+ building_farms: "Farms \n§WLocal Population Growth:§! §G+0.003%§!"
  building_orchard: "Orchard"
  building_managed_forests: "Managed Forests"
  building_great_plantation: "Great Plantation"

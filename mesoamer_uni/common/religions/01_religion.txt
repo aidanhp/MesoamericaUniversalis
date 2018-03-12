@@ -28,33 +28,355 @@ placeholder_group = {
 	harmonized_modifier = harmonized_pagan
 }
 
-
-mesoamerican_group = {
+nahuatl_group = {
 	defender_of_faith = no
-	can_form_personal_unions = no
-	#center_of_religion = 1 
-	flags_with_emblem_percentage = 33 # default == 0
+	can_form_personal_unions = yes
+	flags_with_emblem_percentage = 33
 	flag_emblem_index_range = { 1 57 }
-
-	religion_nahuatl = {
-		color = { 0.30 0.80 0.30 }
-		icon = 17
+	
+	religion_huitzilopochtli = {
+		color = { 0.23 0.70 0.69 } 
+		icon = 1
 		country = {
-			tolerance_heathen = 6
-			tolerance_heretic = 6
+			discipline = 0.05
+			war_exhaustion = -0.025
 		}
 		country_as_secondary = {
-			tolerance_heathen = 6
-			tolerance_heretic = 6
+			discipline = 0.05
+			war_exhaustion = -0.025
 		}
 		province = {
 			local_missionary_strength = -0.02
 		}
+		uses_harmony = yes
+		harmonized_modifier = harmonized_huitzilopochtli
+	}
+	
+	religion_quetzalcoatl = {
+		color = { 0.46 0.84 0.55 } 
+		icon = 2
+		country = {
+			global_tax_modifier = 0.10
+			build_cost = -0.10
+		}
+		country_as_secondary = {
+			global_tax_modifier = 0.10
+			build_cost = -0.10
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		uses_harmony = yes
+		harmonized_modifier = harmonized_quetzalcoatl
+	}
+	
+	religion_tezcatlipoca = {
+		color = { 0.59 0.59 0.63 } 
+		icon = 3
+		country = {
+			legitimacy = 0.50
+			global_autonomy = -0.05
+		}
+		country_as_secondary = {
+			legitimacy = 0.50
+			global_autonomy = -0.05
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		uses_harmony = yes
+		harmonized_modifier = harmonized_tezcatlipoca
+	}
+	
+	religion_ehecatl = {
+		color = { 1.0 1.0 1.0 } 
+		icon = 4
+		country = {
+			movement_speed = 0.15
+			leader_land_manuever = 1
+		}
+		country_as_secondary = {
+			movement_speed = 0.15
+			leader_land_manuever = 1
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		uses_harmony = yes
+		harmonized_modifier = harmonized_ehecatl
+	}
+	
+	religion_tlaloc = {
+		color = { 0.32 0.56 0.91 } 
+		icon = 5
+		country = {
+			stability_cost_modifier = -0.15
+			shock_damage = 0.10
+		}
+		country_as_secondary = {
+			stability_cost_modifier = -0.15
+			shock_damage = 0.10
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		uses_harmony = yes
+		harmonized_modifier = harmonized_tlaloc
+	}
+	
+	religion_mixcoatl = {
+		color = { 0.44 0.47 0.57 } 
+		icon = 6
+		country = {
+			army_tradition_decay = -0.01
+			leader_land_fire = 1
+		}
+		country_as_secondary = {
+			army_tradition_decay = -0.01
+			leader_land_fire = 1
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		uses_harmony = yes
+		harmonized_modifier = harmonized_mixcoatl
+	}
+	
+	religion_xipe_totec = {
+		color = { 0.77 0.0 0.0 } 
+		icon = 7
+		country = {
+			infantry_power = 0.10
+			manpower_recovery_speed = 0.10
+		}
+		country_as_secondary = {
+			infantry_power = 0.10
+			manpower_recovery_speed = 0.10
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		uses_harmony = yes
+		harmonized_modifier = harmonized_xipe_totec
+	}
+	
+	religion_tlazalteotl = {
+		color = { 0.92 0.77 0.57 } 
+		icon = 8
+		country = {
+			stability_cost_modifier = -0.25
+			global_unrest = -1
+		}
+		country_as_secondary = {
+			stability_cost_modifier = -0.25
+			global_unrest = -1
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		uses_harmony = yes
+		harmonized_modifier = harmonized_tlazalteotl
+	}
+	
+	religion_cihuacoatl = {
+		color = { 0.46 0.71 0.13 } 
+		icon = 9
+		country = {
+			global_trade_goods_size_modifier = 0.10
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			global_trade_goods_size_modifier = 0.10
+			tolerance_own = 1
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		uses_harmony = yes
+		harmonized_modifier = harmonized_cihuacoatl
+	}
+	
+	religion_tonatiuh = {
+		color = { 1.0 0.66 0.07 } 
+		icon = 10
+		country = {
+			land_morale = 0.10
+			legitimacy = 0.5
+		}
+		country_as_secondary = {
+			land_morale = 0.10
+			legitimacy = 0.5
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		uses_harmony = yes
+		harmonized_modifier = harmonized_tonatiuh
+	}
+	
+	religion_xochiquetzal = {
+		color = { 0.76 0.38 0.75 } 
+		icon = 11
+		country = {
+			tolerance_own = 2
+			production_efficiency = 0.10
+		}
+		country_as_secondary = {
+			tolerance_own = 2
+			production_efficiency = 0.10
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		uses_harmony = yes
+		harmonized_modifier = harmonized_xochiquetzal
+	}
+	
+	religion_ometochtli = {
+		color = { 0.94 0.43 0.58 } 
+		icon = 12
+		country = {
+			global_unrest = -2
+			harmonization_speed = 0.33
+		}
+		country_as_secondary = {
+			global_unrest = -2
+			harmonization_speed = 0.33
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		uses_harmony = yes
+		harmonized_modifier = harmonized_ometochtli
+	}
+	
+	religion_yacatecuhtli = {
+		color = { 0.09 0.44 0.96 } 
+		icon = 13
+		country = {
+			global_trade_power = 0.15
+			merchants = 1
+		}
+		country_as_secondary = {
+			global_trade_power = 0.15
+			merchants = 1
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		uses_harmony = yes
+		harmonized_modifier = harmonized_yacatecuhtli
+	}
+	
+	religion_coltzin = {
+		color = { 0.30 0.72 0.39 } 
+		icon = 14
+		country = {
+			global_trade_goods_size_modifier = 0.10
+			production_efficiency = 0.10
+		}
+		country_as_secondary = {
+			global_trade_goods_size_modifier = 0.10
+			production_efficiency = 0.10
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		uses_harmony = yes
+		harmonized_modifier = harmonized_coltzin
+	}
+	
+	religion_malinalxochitl = {
+		color = { 0.48 0.54 0.18 } 
+		icon = 15
+		country = {
+			fire_damage = 0.10
+			hostile_attrition = 0.5
+		}
+		country_as_secondary = {
+			fire_damage = 0.10
+			hostile_attrition = 0.5
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		uses_harmony = yes
+		harmonized_modifier = harmonized_malinalxochitl
+	}
+	
+	religion_otontecuhtli = {
+		color = { 1.0 0.23 0.0 } 
+		icon = 16
+		country = {
+			army_tradition_from_battle = 0.50
+			prestige_from_land = 0.50
+		}
+		country_as_secondary = {
+			army_tradition_from_battle = 0.50
+			prestige_from_land = 0.50
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		uses_harmony = yes
+		harmonized_modifier = harmonized_otontecuhtli
+	}
+}
+
+huaxyacac_group = {
+	defender_of_faith = no
+	can_form_personal_unions = yes
+	#center_of_religion = 1 
+	flags_with_emblem_percentage = 33 # default == 0
+	flag_emblem_index_range = { 1 57 }
+	
+	religion_zapotec = {
+		color = { 0.20 0.40 0.80 }
+		icon = 18
+		country = {
+			hostile_attrition = 2
+			production_efficiency = 0.10
+		}
+		country_as_secondary = {
+			hostile_attrition = 2
+			production_efficiency = 0.10
+		}
+		province = {
+			local_missionary_strength = -0.04
+		}
+		harmonized_modifier = harmonized_zapotec
 	}
 
+	religion_mixtec = {
+		color = { 0.20 0.90 0.40 }
+		icon = 20
+		country = {
+			defensiveness = 0.20
+			war_exhaustion_cost = -0.25
+		}
+		country_as_secondary = {
+			defensiveness = 0.20
+			war_exhaustion_cost = -0.25
+		}
+		province = {
+			local_missionary_strength = -0.04
+		}
+		harmonized_modifier = harmonized_mixtec
+	}
+
+	crusade_name = CRUSADE
+}
+
+purepecha_group = {
+	defender_of_faith = no
+	can_form_personal_unions = yes
+	#center_of_religion = 1 
+	flags_with_emblem_percentage = 33 # default == 0
+	flag_emblem_index_range = { 1 57 }
+	
 	religion_purepecha = {
 		color = { 0.70 0.40 0.30 }
-		icon = 11
+		icon = 17
 		country = {
 			global_missionary_strength = 0.02
 			legitimacy = 1
@@ -67,41 +389,19 @@ mesoamerican_group = {
 			local_missionary_strength = -0.02
 			local_unrest = -2 
 		}
+		harmonized_modifier = harmonized_purepecha
 	}
-
 	
-	religion_zapotec = {
-		color = { 0.20 0.40 0.80 }
-		icon = 14
-		country = {
-			hostile_attrition = 2
-			production_efficiency = 0.10
-		}
-		country_as_secondary = {
-			hostile_attrition = 2
-			production_efficiency = 0.10
-		}
-		province = {
-			local_missionary_strength = -0.04
-		}
-	}
+	crusade_name = CRUSADE
+}
 
-	religion_mixtec = {
-		color = { 0.20 0.90 0.40 }
-		icon = 9
-		country = {
-			defensiveness = 0.20
-			war_exhaustion_cost = -0.25
-		}
-		country_as_secondary = {
-			defensiveness = 0.20
-			war_exhaustion_cost = -0.25
-		}
-		province = {
-			local_missionary_strength = -0.04
-		}
-	}
-
+maya_group = {
+	defender_of_faith = no
+	can_form_personal_unions = yes
+	#center_of_religion = 1 
+	flags_with_emblem_percentage = 33 # default == 0
+	flag_emblem_index_range = { 1 57 }
+	
 	religion_maya = {
 		color = { 0.30 0.80 0.80 }
 		icon = 19
@@ -116,10 +416,10 @@ mesoamerican_group = {
 		province = {
 			local_missionary_strength = -0.04
 		}
+		harmonized_modifier = harmonized_maya
 	}
 	
 	crusade_name = CRUSADE
-	harmonized_modifier = harmonized_pagan
 }
 
 christian_group = {

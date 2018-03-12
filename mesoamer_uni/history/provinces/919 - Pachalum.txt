@@ -3,7 +3,7 @@ add_core = F26
 owner = F26
 controller = F26
 culture = kiche
-religion = placeholderism
+religion = religion_maya
 hre = no
 base_tax = 0
 base_production = 1
@@ -12,7 +12,7 @@ trade_goods = staple_crops
 
 capital = "Pachalum"
 is_city = yes
-
+fort_15th = yes
 
 discovered_by = western_european_tg
 discovered_by = triple_alliance_tg 

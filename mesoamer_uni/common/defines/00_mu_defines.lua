@@ -32,6 +32,7 @@ NDefines.NCountry.REVOLT_SIZE_DEVELOPMENT_MULTIPLIER = 0.25	-- Multiplied with t
 NDefines.NCountry.REVOLT_SIZE_BASE = 1
 NDefines.NCountry.MIN_DEVELOPMENT_FOR_GOV_RANK_2 = 100		-- Need at least this much development to upgrade to government rank 2
 NDefines.NCountry.MIN_DEVELOPMENT_FOR_GOV_RANK_3 = 1500		-- Need at least this much development to upgrade to government rank 3
+NDefines.NCountry.PS_MAKE_PROVINCE_CORE = 4
 -- Economy
 
 -- Military
@@ -45,10 +46,11 @@ NDefines.NMilitary.DAYS_PER_PHASE = 2								-- How many days each fire and shoc
 NDefines.NMilitary.DAYS_PER_SIEGE_PHASE = 8						-- How many days each siege phase lasts
 NDefines.NMilitary.SIEGE_FORCE_NEEDED_MULTIPLIER = 1				-- x times garrison to be able to siege.
 NDefines.NMilitary.BASE_COMBAT_WIDTH = 16.0						-- _MDEF_BASE_COMBAT_WIDTH_
-NDefines.NMilitary.GARRISON_SIZE = 2000 							-- GARRISON_SIZE
+NDefines.NMilitary.GARRISON_SIZE = 1500 							-- GARRISON_SIZE
 NDefines.NMilitary.INFANTRY_SPEED = 3.0 							-- _MDEF_INFANTRY_SPEED = 10,
 NDefines.NMilitary.CAVALRY_SPEED = 3.0 							-- _MDEF_CAVALRY_SPEED = 10,
 NDefines.NMilitary.ARTILLERY_SPEED = 3.0 							-- _MDEF_ARTILLERY_SPEED = 10,
+NDefines.NMilitary.FORTRESS_COST = 0.168							-- base fort cost
 	
 -- AI
 NDefines.NAI.AI_USES_HISTORICAL_IDEA_GROUPS = 0 -- If set to 0, ai will use ai_will_do instead of historical ideagroups when picking ideagroups (ai never uses historical ideagroups in custom/random setup)
@@ -98,7 +100,12 @@ NDefines.NFrontend.CONTENT_LOOK_Y = 0.0
 NDefines.NFrontend.CONTENT_LOOK_Z = 1519.0
 	
 -- Religion 
-
+NDefines.NReligion.MIN_HARMONIZE_DEVELOPMENT = 20
+NDefines.NReligion.STARTING_HARMONY = 100.0							-- Confucian countries start with this.
+NDefines.NReligion.YEARLY_HARMONY_INCREASE = 2.0
+NDefines.NReligion.HARMONY_LOSS_PER_DEV_CONVERTED = 0.0
+NDefines.NReligion.YEARLY_HARMONY_INCREASE_WHEN_HARMONIZING = -8.0
+NDefines.NReligion.YEARLY_HARMONIZATION_PROGRESS = 0.10 			-- 3%
 -- Nation Designer 
 
 -- Government

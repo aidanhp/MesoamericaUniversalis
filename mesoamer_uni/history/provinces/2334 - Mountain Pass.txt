@@ -1,5 +1,5 @@
 culture = pame
-religion = placeholderism
+religion = religion_mixcoatl
 capital = "Mountain Pass"
 trade_goods = unknown
 hre = no

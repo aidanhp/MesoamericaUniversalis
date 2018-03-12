@@ -1,0 +1,237 @@
+﻿#Country Name: Please see filename.
+
+graphical_culture = southamericagfx
+
+color = { 0 0 0 }
+
+historical_idea_groups = {
+	hegemonic_ideas
+	trade_ideas
+	offensive_ideas
+	power_concentration_ideas
+	spy_ideas
+	quality_ideas
+	influence_ideas
+	defensive_ideas
+}
+
+historical_units = {
+	ma_maya_infantry 
+	ma_late_maya_infantry
+	ma_maya_gunpowder_infantry
+	ma_maya_musketeer
+	ma_maya_flintlock
+}
+
+monarch_names = {
+	"Tiche Marimulu Nacapu #0" = 20
+	"Humihi Marimuli Nacapu #0" = 20
+	"Hemihi Marimulu Nacapu #0" = 20
+	"Ahua Mihi Marimulu Nacapu #0" = 20
+	"Hau Mihi Marimulu Nacapu #0" = 20
+	"Hamba Mihi Marimulu Nacapu #0" = 20
+	"Hendimihi Marimulu Nacapu #0" = 20
+	"Hahu Mihi Marimulu Nacapu #0" = 20
+	"Heli Mihi Marimulu Nacapu #0" = 20
+	"Henda Marimulu Nacapu #0" = 20
+	"Henda Mundiche Marimulu Nacapu #0" = 20
+	"Tiche Nangu #0" = 20
+	"Humihi Marimuli Nacapu #0" = 20
+	"Hemihi Nangu #0" = 20
+	"Ahua Mihi Nangu #0" = 20
+	"Hau Mihi Nangu #0" = 20
+	"Hamba Mihi Nangu #0" = 20
+	"Hendimihi Nangu #0" = 20
+	"Hahu Mihi Nangu #0" = 20
+	"Heli Mihi Nangu #0" = 20
+	"Henda Nangu #0" = 20
+	"Henda Mundiche Nangu #0" = 20
+	"Tiche Nulu Llacaume #0" = 20
+	"Humihi Marimuli Nacapu #0" = 20
+	"Hemihi Nulu Llacaume #0" = 20
+	"Ahua Mihi Nulu Llacaume #0" = 20
+	"Hau Mihi Nulu Llacaume #0" = 20
+	"Hamba Mihi Nulu Llacaume #0" = 20
+	"Hendimihi Nulu Llacaume #0" = 20
+	"Hahu Mihi Nulu Llacaume #0" = 20
+	"Heli Mihi Nulu Llacaume #0" = 20
+	"Henda Nulu Llacaume #0" = 20
+	"Henda Mundiche Nulu Llacaume #0" = 20
+	"Tiche Nimbu #0" = 20
+	"Humihi Marimuli Nacapu #0" = 20
+	"Hemihi Nimbu #0" = 20
+	"Ahua Mihi Nimbu #0" = 20
+	"Hau Mihi Nimbu #0" = 20
+	"Hamba Mihi Nimbu #0" = 20
+	"Hendimihi Nimbu #0" = 20
+	"Hahu Mihi Nimbu #0" = 20
+	"Heli Mihi Nimbu #0" = 20
+	"Henda Nimbu #0" = 20
+	"Henda Mundiche Nimbu #0" = 20
+	"Tiche Numbi #0" = 20
+	"Humihi Marimuli Nacapu #0" = 20
+	"Hemihi Numbi #0" = 20
+	"Ahua Mihi Numbi #0" = 20
+	"Hau Mihi Numbi #0" = 20
+	"Hamba Mihi Numbi #0" = 20
+	"Hendimihi Numbi #0" = 20
+	"Hahu Mihi Numbi #0" = 20
+	"Heli Mihi Numbi #0" = 20
+	"Henda Numbi #0" = 20
+	"Henda Mundiche Numbi #0" = 20
+	"Tiche Naguagua #0" = 20
+	"Humihi Marimuli Nacapu #0" = 20
+	"Hemihi Naguagua #0" = 20
+	"Ahua Mihi Naguagua #0" = 20
+	"Hau Mihi Naguagua #0" = 20
+	"Hamba Mihi Naguagua #0" = 20
+	"Hendimihi Naguagua #0" = 20
+	"Hahu Mihi Naguagua #0" = 20
+	"Heli Mihi Naguagua #0" = 20
+	"Henda Naguagua #0" = 20
+	"Henda Mundiche Naguagua #0" = 20
+	"Tiche Otoño #0" = 20
+	"Humihi Marimuli Nacapu #0" = 20
+	"Hemihi Otoño #0" = 20
+	"Ahua Mihi Otoño #0" = 20
+	"Hau Mihi Otoño #0" = 20
+	"Hamba Mihi Otoño #0" = 20
+	"Hendimihi Otoño #0" = 20
+	"Hahu Mihi Otoño #0" = 20
+	"Heli Mihi Otoño #0" = 20
+	"Henda Otoño #0" = 20
+	"Henda Mundiche Otoño #0" = 20
+	"Tiche Nulu #0" = 20
+	"Humihi Marimuli Nacapu #0" = 20
+	"Hemihi Nulu #0" = 20
+	"Ahua Mihi Nulu #0" = 20
+	"Hau Mihi Nulu #0" = 20
+	"Hamba Mihi Nulu #0" = 20
+	"Hendimihi Nulu #0" = 20
+	"Hahu Mihi Nulu #0" = 20
+	"Heli Mihi Nulu #0" = 20
+	"Henda Nulu #0" = 20
+	"Henda Mundiche Nulu #0" = 20
+	
+	"Tiche Marimulu Nacapu #0" = -1
+	"Humihi Marimuli Nacapu #0" = -1
+	"Hemihi Marimulu Nacapu #0" = -1
+	"Ahua Mihi Marimulu Nacapu #0" = -1
+	"Hau Mihi Marimulu Nacapu #0" = -1
+	"Hamba Mihi Marimulu Nacapu #0" = -1
+	"Hendimihi Marimulu Nacapu #0" = -1
+	"Hahu Mihi Marimulu Nacapu #0" = -1
+	"Heli Mihi Marimulu Nacapu #0" = -1
+	"Henda Marimulu Nacapu #0" = -1
+	"Henda Mundiche Marimulu Nacapu #0" = -1
+	"Tiche Nangu #0" = -1
+	"Humihi Marimuli Nacapu #0" = -1
+	"Hemihi Nangu #0" = -1
+	"Ahua Mihi Nangu #0" = -1
+	"Hau Mihi Nangu #0" = -1
+	"Hamba Mihi Nangu #0" = -1
+	"Hendimihi Nangu #0" = -1
+	"Hahu Mihi Nangu #0" = -1
+	"Heli Mihi Nangu #0" = -1
+	"Henda Nangu #0" = -1
+	"Henda Mundiche Nangu #0" = -1
+	"Tiche Nulu Llacaume #0" = -1
+	"Humihi Marimuli Nacapu #0" = -1
+	"Hemihi Nulu Llacaume #0" = -1
+	"Ahua Mihi Nulu Llacaume #0" = -1
+	"Hau Mihi Nulu Llacaume #0" = -1
+	"Hamba Mihi Nulu Llacaume #0" = -1
+	"Hendimihi Nulu Llacaume #0" = -1
+	"Hahu Mihi Nulu Llacaume #0" = -1
+	"Heli Mihi Nulu Llacaume #0" = -1
+	"Henda Nulu Llacaume #0" = -1
+	"Henda Mundiche Nulu Llacaume #0" = -1
+	"Tiche Nimbu #0" = -1
+	"Humihi Marimuli Nacapu #0" = -1
+	"Hemihi Nimbu #0" = -1
+	"Ahua Mihi Nimbu #0" = -1
+	"Hau Mihi Nimbu #0" = -1
+	"Hamba Mihi Nimbu #0" = -1
+	"Hendimihi Nimbu #0" = -1
+	"Hahu Mihi Nimbu #0" = -1
+	"Heli Mihi Nimbu #0" = -1
+	"Henda Nimbu #0" = -1
+	"Henda Mundiche Nimbu #0" = -1
+	"Tiche Numbi #0" = -1
+	"Humihi Marimuli Nacapu #0" = -1
+	"Hemihi Numbi #0" = -1
+	"Ahua Mihi Numbi #0" = -1
+	"Hau Mihi Numbi #0" = -1
+	"Hamba Mihi Numbi #0" = -1
+	"Hendimihi Numbi #0" = -1
+	"Hahu Mihi Numbi #0" = -1
+	"Heli Mihi Numbi #0" = -1
+	"Henda Numbi #0" = -1
+	"Henda Mundiche Numbi #0" = -1
+	"Tiche Naguagua #0" = -1
+	"Humihi Marimuli Nacapu #0" = -1
+	"Hemihi Naguagua #0" = -1
+	"Ahua Mihi Naguagua #0" = -1
+	"Hau Mihi Naguagua #0" = -1
+	"Hamba Mihi Naguagua #0" = -1
+	"Hendimihi Naguagua #0" = -1
+	"Hahu Mihi Naguagua #0" = -1
+	"Heli Mihi Naguagua #0" = -1
+	"Henda Naguagua #0" = -1
+	"Henda Mundiche Naguagua #0" = -1
+	"Tiche Otoño #0" = -1
+	"Humihi Marimuli Nacapu #0" = -1
+	"Hemihi Otoño #0" = -1
+	"Ahua Mihi Otoño #0" = -1
+	"Hau Mihi Otoño #0" = -1
+	"Hamba Mihi Otoño #0" = -1
+	"Hendimihi Otoño #0" = -1
+	"Hahu Mihi Otoño #0" = -1
+	"Heli Mihi Otoño #0" = -1
+	"Henda Otoño #0" = -1
+	"Henda Mundiche Otoño #0" = -1
+	"Tiche Nulu #0" = -1
+	"Humihi Marimuli Nacapu #0" = -1
+	"Hemihi Nulu #0" = -1
+	"Ahua Mihi Nulu #0" = -1
+	"Hau Mihi Nulu #0" = -1
+	"Hamba Mihi Nulu #0" = -1
+	"Hendimihi Nulu #0" = -1
+	"Hahu Mihi Nulu #0" = -1
+	"Heli Mihi Nulu #0" = -1
+	"Henda Nulu #0" = -1
+	"Henda Mundiche Nulu #0" = -1
+}
+
+leader_names = {
+	""
+}
+
+ship_names = {
+	Acolmiztli Acolnahuacat "Ah Hoya" "Ah Tzenul" Amimitl Apanecatl Atl Atlau Axoloa
+	Camaxtli Centeot Centzonuiznaua Chalchiuhtlatonal Chalchiuhtlicue Chalchiutotolin Chalmecalt 	Chalmecaucihuilt
+	Chantico Chichomexochtli Chicomecoatl Chiconahuai Chihalma Chualchihuitlcue Cihuacaotyl Cinteotl
+	Citlalatonac Citlalicue Ciucoatl Coatlicue Cochimetl Coyolxauhqui Cuauhcoatl 
+	Ehehcatl Eueucoyotl
+	"Hopop Can" Huehueteotl Huitzilopochtli Huixtocihuatl
+	Itzcoliuhqui Itzli Itzpapalotl Itzpzpalotl Ixtlilton Iztamixcoatzin
+	Macuilxochitl Mahayuel Malinalxochi Matalcueye Metztli Mictlan Mictlancihuntl Mictlantechtle
+	Mictlantechupi Mictlantecihuatl Mixcoatl
+	Nanauatzin
+	Ococaltzin Omecihuatl Ometecuhlti Ometeotl Omeyocan
+	Patecatli Paynal
+	Quetzalcoatl
+	Tecciztecatl Teoyaomqui Tepeyollotl Teteoinnan Tezacoatl Tezcatlipoca Tillan-Tlapallan Tlaloc
+	Tlalocan Tlaltechhtlii Tlazolteotl Tonacatecuhtli Tonatiuhican Tonatiuth Tzitmime
+	Xilonen "Xipe Totec" Xiucoatl Xiuhtecuhtli Xochipilli Xochiquetzal Xolotl Xonecuilli
+	Yacatechutli
+}
+
+
+army_names = {
+	"$PROVINCE$ Xiquipilli" 
+}
+
+fleet_names = {
+	"$PROVINCE$ Fleet"
+}

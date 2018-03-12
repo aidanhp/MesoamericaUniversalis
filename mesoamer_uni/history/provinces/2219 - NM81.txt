@@ -1,5 +1,5 @@
 culture = zoque
-religion = placeholderism
+religion = religion_maya
 capital = "No Man's Land"
 trade_goods = unknown
 hre = no

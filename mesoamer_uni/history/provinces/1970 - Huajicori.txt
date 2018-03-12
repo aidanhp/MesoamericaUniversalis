@@ -1,5 +1,5 @@
 culture = totorame
-religion = placeholderism
+religion = religion_tlaloc
 capital = "Huajicori"
 trade_goods = unknown
 hre = no

@@ -1,5 +1,5 @@
 culture = huichol
-religion = placeholderism
+religion = religion_tlaloc
 capital = "Xalisco"
 trade_goods = unknown
 hre = no

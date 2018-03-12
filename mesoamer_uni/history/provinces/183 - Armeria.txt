@@ -1,5 +1,5 @@
 culture = colimotl
-religion = placeholderism
+religion = religion_tlaloc
 capital = "Armeria"
 trade_goods = unknown
 hre = no

@@ -1,0 +1,84 @@
+#Country Name: Please see filename.
+
+graphical_culture = southamericagfx
+
+color = { 0 0 0 }
+
+historical_idea_groups = {
+	hegemonic_ideas
+	trade_ideas
+	offensive_ideas
+	power_concentration_ideas
+	spy_ideas
+	quality_ideas
+	influence_ideas
+	defensive_ideas
+}
+
+historical_units = {
+	ma_maya_infantry 
+	ma_late_maya_infantry
+	ma_maya_gunpowder_infantry
+	ma_maya_musketeer
+	ma_maya_flintlock
+}
+
+monarch_names = {
+	"Paxbolonacha #0" = 20
+	"Zipaque #0" = 20
+	"Coatle #0" = 20
+	"Mazat #0" = 20
+	"Izquin #0" = 20
+	"Malyna #0" = 20
+	"Acatel #0" = 20
+	"Uzelotl #0" = 20
+	"Tequepal #0" = 20
+	"Ayoco #0" = 20
+	"Tatuani #0" = 20
+	"Chicoase #0" = 20
+	"Auxaual #0" = 20
+	"Pachimal #0" = 20
+	"Chanpel #0" = 20
+	"Pachimalahix #0" = 20
+	"Macuaabin #0" = 20
+	"Lamatazel #0" = 20
+	
+	"Tuxtl #0" = -1
+	"Suchil #0" = -1 
+}
+
+leader_names = {
+	Paxua Abcha Ixaba Auxaual Ixbol Bolay Bolonpacha Bolonlamat Abomay Buluchatz Paxcabam
+	Ixconum Ixcochute Chacantun Chacbalam Pachava Achax Chicnav Pachiqui Ahecha Paxuanapuk 
+	Yzquintz Ulun Ibitacha Isinaynucuy Macabil Macuiaatzuk Manacha Nahan Nauicalli Nalchan 
+	Pacuit Kintzucti Tamalyaxun Tohxun Celutapech Pazayato Pazimactun 
+}
+
+ship_names = {
+	Acolmiztli Acolnahuacat "Ah Hoya" "Ah Tzenul" Amimitl Apanecatl Atl Atlau Axoloa
+	Camaxtli Centeot Centzonuiznaua Chalchiuhtlatonal Chalchiuhtlicue Chalchiutotolin Chalmecalt 	Chalmecaucihuilt
+	Chantico Chichomexochtli Chicomecoatl Chiconahuai Chihalma Chualchihuitlcue Cihuacaotyl Cinteotl
+	Citlalatonac Citlalicue Ciucoatl Coatlicue Cochimetl Coyolxauhqui Cuauhcoatl 
+	Ehehcatl Eueucoyotl
+	"Hopop Can" Huehueteotl Huitzilopochtli Huixtocihuatl
+	Itzcoliuhqui Itzli Itzpapalotl Itzpzpalotl Ixtlilton Iztamixcoatzin
+	Macuilxochitl Mahayuel Malinalxochi Matalcueye Metztli Mictlan Mictlancihuntl Mictlantechtle
+	Mictlantechupi Mictlantecihuatl Mixcoatl
+	Nanauatzin
+	Ococaltzin Omecihuatl Ometecuhlti Ometeotl Omeyocan
+	Patecatli Paynal
+	Quetzalcoatl
+	Tecciztecatl Teoyaomqui Tepeyollotl Teteoinnan Tezacoatl Tezcatlipoca Tillan-Tlapallan Tlaloc
+	Tlalocan Tlaltechhtlii Tlazolteotl Tonacatecuhtli Tonatiuhican Tonatiuth Tzitmime
+	Xilonen "Xipe Totec" Xiucoatl Xiuhtecuhtli Xochipilli Xochiquetzal Xolotl Xonecuilli
+	Yacatechutli
+}
+
+
+army_names = {
+	"Army $PROVINCE$" 
+}
+
+fleet_names = {
+	"$PROVINCE$ Fleet"
+}

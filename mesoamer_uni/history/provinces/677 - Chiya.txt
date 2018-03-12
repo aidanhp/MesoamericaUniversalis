@@ -2,7 +2,7 @@ add_core = ZZY
 owner = ZZY
 controller = ZZY
 culture = tzutujil
-religion = placeholderism
+religion = religion_maya
 hre = no
 base_tax = 1
 base_production = 3
@@ -11,6 +11,7 @@ trade_goods = staple_crops
 
 capital = "Chiya"
 is_city = yes
+fort_15th = yes
 
 discovered_by = western_european_tg
 discovered_by = triple_alliance_tg 

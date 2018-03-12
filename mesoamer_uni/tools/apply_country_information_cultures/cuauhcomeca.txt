@@ -1,0 +1,148 @@
+#Country Name: Please see filename.
+
+graphical_culture = southamericagfx
+
+color = { 0 0 0 }
+
+historical_idea_groups = {
+	hegemonic_ideas
+	trade_ideas
+	offensive_ideas
+	power_concentration_ideas
+	spy_ideas
+	quality_ideas
+	influence_ideas
+	defensive_ideas
+}
+
+historical_units = {
+	wm_west_mexican_infantry 
+	wm_late_west_mexican_infantry
+	wm_west_mexican_gunpowder_infantry
+	wm_west_mexican_musketeer
+	wm_west_mexican_flintlock
+}
+
+monarch_names = {
+	"Hireticatame #0" = 20
+	"Sicuirancha #0" = 20
+	"Tariacuri #0" = 20
+	"Pavacume #0" = 20
+	"Hiqugage #0" = 20
+	"Hiripan #0" = 20
+	"Tangaxoan #0" = 20
+	"Tzitzispandacuare #0" = 20
+	"Zuangua #0" = 20
+	"Uresqua #0" = 20
+	"Cando #0" = 20
+	"Sica #0" = 20
+	"Zinaquambi #0" = 20
+	"Quama #0" = 20
+	"Quatamaripe #0" = 20
+	"Equandira #0" = 20
+	"Chague #0" = 20
+	"Ticatame #0" = 20
+	"Tucuruan #0" = 20
+	"Paguingata #0" = 20
+	"Trimaransco #0" = 20
+	"Cuini #0" = 20
+	"Sirangua #0" = 20
+	"Zincicha #0" = 20
+	"Tigame #0" = 20
+	"Tagani #0" = 20
+	"Patamu #0" = 20
+	"Chuicico #0" = 20
+	"Caracomoco #0" = 20
+	"Tariaran #0" = 20
+	"Cacapu #0" = 20
+	"Aramen #0" = 20
+	"Vaspe #0" = 20
+	"Terazi #0" = 20
+	"Cariqua #0" = 20
+	"Tupuri #0" = 20
+	"Hivacha #0" = 20
+	"Zinzumi #0" = 20
+	"Hanzivia #0" = 20
+	"Cavujancha #0" = 20
+	"Tarando #0" = 20
+	"Horohta #0" = 20
+	"Vanzan #0" = 20
+	"Hutaco #0" = 20
+	"Hozi #0" = 20
+	"Tuinchumbra #0" = 20
+	"Yzniquanto #0" = 20
+	"Hapunduri #0" = 20
+	"Zapivatame #0" = 20
+	"Xoropiti #0" = 20
+	"Tarequesinguata #0" = 20
+	"Zizambanacha #0" = 20
+	"Zizamban #0" = 20
+	"Curatame #0" = 20
+	"Tariayaran #0" = 20
+	"Vatarecha #0" = 20 
+	"Cuahuen #0" = 20
+	"Camejan #0" = 20
+	"Udecavecare #0" = 20
+	"Ypinchauni #0" = 20
+	"Turepupanquaran #0" = 20
+	"Mahicuri #0" = 20
+	"Tiripitihonto #0" = 20
+	"Curiparaxan #0" = 20
+	"Carocaten #0" = 20
+	"Chaushori #0" = 20
+	"Nurivan #0" = 20	
+	"Perapaqua #0" = 20
+	"Naca #0" = 20
+	"Chanhori #0" = 20
+	"Xoropiti #0" = 20
+	"Tarequesinguata #0" = 20
+	"Hapariva #0" = 20
+	"Cuynzurumu #0" = 20
+	"Utume #0" = 20
+	"Quanirescu #0" = 20
+	"Vacusquazita #0" = 20
+
+	"Quenomen #0" = -1
+	"Mavina #0" = -1
+	"Xaratanga #0" = -1
+	"Picimbane #0" = -1
+	"Zucurabe #0" = -1
+	"Purupe #0" = -1
+	"Camavaperi #0" = -1
+	"Avicanime #0" = -1
+	"Pevame #0" = -1
+}
+
+leader_names = {
+	Uanacaze Uacusecha Zacapuireti Uanaceo Eneami Tsatsaki Uskuti
+	Sanduri Caheri Zapi Purecupehni Cuanicuti 
+}
+
+ship_names = {
+	Acolmiztli Acolnahuacat "Ah Hoya" "Ah Tzenul" Amimitl Apanecatl Atl Atlau Axoloa
+	Camaxtli Centeot Centzonuiznaua Chalchiuhtlatonal Chalchiuhtlicue Chalchiutotolin Chalmecalt 	Chalmecaucihuilt
+	Chantico Chichomexochtli Chicomecoatl Chiconahuai Chihalma Chualchihuitlcue Cihuacaotyl Cinteotl
+	Citlalatonac Citlalicue Ciucoatl Coatlicue Cochimetl Coyolxauhqui Cuauhcoatl 
+	Ehehcatl Eueucoyotl
+	"Hopop Can" Huehueteotl Huitzilopochtli Huixtocihuatl
+	Itzcoliuhqui Itzli Itzpapalotl Itzpzpalotl Ixtlilton Iztamixcoatzin
+	Macuilxochitl Mahayuel Malinalxochi Matalcueye Metztli Mictlan Mictlancihuntl Mictlantechtle
+	Mictlantechupi Mictlantecihuatl Mixcoatl
+	Nanauatzin
+	Ococaltzin Omecihuatl Ometecuhlti Ometeotl Omeyocan
+	Patecatli Paynal
+	Quetzalcoatl
+	Tecciztecatl Teoyaomqui Tepeyollotl Teteoinnan Tezacoatl Tezcatlipoca Tillan-Tlapallan Tlaloc
+	Tlalocan Tlaltechhtlii Tlazolteotl Tonacatecuhtli Tonatiuhican Tonatiuth Tzitmime
+	Xilonen "Xipe Totec" Xiucoatl Xiuhtecuhtli Xochipilli Xochiquetzal Xolotl Xonecuilli
+	Yacatechutli
+}
+
+
+army_names = {
+	"Pantec $PROVINCE$" 
+}
+
+fleet_names = {
+	"$PROVINCE$ Fleet"
+}

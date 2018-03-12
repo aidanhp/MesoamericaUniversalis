@@ -2,7 +2,7 @@ add_core = BBP
 owner = BBP
 controller = BBP
 culture = purepecha
-religion = placeholderism
+religion = religion_purepecha
 hre = no
 base_tax = 3
 base_production = 5
@@ -11,7 +11,7 @@ trade_goods = tolteca_crafts
 
 capital = "Tzintzuntzan"
 is_city = yes
-
+fort_15th = yes
 
 discovered_by = western_european_tg
 discovered_by = triple_alliance_tg 

@@ -2,7 +2,7 @@ government = absolute_hereditary_monarchy
 government_rank = 2
 mercantilism = 0.25
 technology_group = maya_tg 
-religion = placeholderism
+religion = religion_maya
 primary_culture = kiche
 capital = 903
 fixed_capital = 903
@@ -16,6 +16,14 @@ fixed_capital = 903
 		adm = 5
 		dip = 4
 		mil = 6
+		leader = {
+			type = general
+			name = "Q'uik'ab"
+			shock = 5
+			fire = 4
+			manuever = 4
+			siege = 2 
+		}
 	}
 	add_ruler_personality = conqueror_personality    
 	add_ruler_personality = tactical_genius_personality

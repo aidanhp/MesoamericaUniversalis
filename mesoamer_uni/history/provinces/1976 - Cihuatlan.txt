@@ -1,5 +1,5 @@
 culture = west_otomi
-religion = placeholderism
+religion = religion_purepecha
 capital = "Cihuatlan"
 trade_goods = unknown
 hre = no

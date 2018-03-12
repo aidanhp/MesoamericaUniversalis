@@ -2,7 +2,7 @@ add_core = MMQ
 owner = MMQ
 controller = MMQ
 culture = central_nahua
-religion = placeholderism
+religion = religion_ometochtli
 hre = no
 base_tax = 2
 base_production = 3
@@ -11,7 +11,7 @@ trade_goods = cacao
 
 capital = "Huaxtepec"
 is_city = yes
-
+fort_15th = yes
 
 discovered_by = western_european_tg
 discovered_by = triple_alliance_tg 

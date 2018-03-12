@@ -2,7 +2,7 @@ add_core = F90
 owner = F90
 controller = F90
 culture = chajoma
-religion = placeholderism
+religion = religion_maya
 hre = no
 base_tax = 1
 base_production = 3
@@ -11,7 +11,7 @@ trade_goods = obsidian
 
 capital = "Jilotepec"
 is_city = yes
-
+fort_15th = yes
 
 discovered_by = western_european_tg
 discovered_by = triple_alliance_tg 

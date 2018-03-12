@@ -1,0 +1,239 @@
+#Country Name: Please see filename.
+
+graphical_culture = southamericagfx
+
+color = { 0 0 0 }
+
+historical_idea_groups = {
+	hegemonic_ideas
+	trade_ideas
+	offensive_ideas
+	power_concentration_ideas
+	spy_ideas
+	quality_ideas
+	influence_ideas
+	defensive_ideas
+}
+
+historical_units = {
+	cm_central_mexican_infantry 
+	cm_late_central_mexican_infantry
+	cm_central_mexican_gunpowder_infantry
+	cm_central_mexican_musketeer
+	cm_central_mexican_flintlock
+}
+
+monarch_names = {
+	"Tu'c Jamu #0" = 20
+	"Mesco Jamu #0" = 20
+	"Tuvu's Jamu #0" = 20
+	"Mactasco Jamu #0" = 20
+	"Mocosco Jamu #0" = 20
+	"Tujtujco Jamu #0" = 20
+	"Justucujtujco Jamu #0" = 20
+	"Tucutujco Jamu #0" = 20
+	"Tastutujco Jamu #0" = 20
+	"Macu Jamu #0" = 20
+	"Tu'c Tucu #0" = 20
+	"Mesco Tucu #0" = 20
+	"Tuvu's Tucu #0" = 20
+	"Mactasco Tucu #0" = 20
+	"Mocosco Tucu #0" = 20
+	"Tujtujco Tucu #0" = 20
+	"Justucujtujco Tucu #0" = 20
+	"Tucutujco Tucu #0" = 20
+	"Tastutujco Tucu #0" = 20
+	"Macu Tucu #0" = 20
+	"Tu'c Parico'n #0" = 20
+	"Mesco Parico'n #0" = 20
+	"Tuvu's Parico'n #0" = 20
+	"Mactasco Parico'n #0" = 20
+	"Mocosco Parico'n #0" = 20
+	"Tujtujco Parico'n #0" = 20
+	"Justucujtujco Parico'n #0" = 20
+	"Tucutujco Parico'n #0" = 20
+	"Tastutujco Parico'n #0" = 20
+	"Macu Coya #0" = 20
+	"Tu'c Coya #0" = 20
+	"Mesco Coya #0" = 20
+	"Tuvu's Coya #0" = 20
+	"Mactasco Coya #0" = 20
+	"Mocosco Coya #0" = 20
+	"Tujtujco Coya #0" = 20
+	"Justucujtujco Coya #0" = 20
+	"Tucutujco Coya #0" = 20
+	"Tastutujco Coya #0" = 20
+	"Macu Nuju #0" = 20
+	"Tu'c Nuju #0" = 20
+	"Mesco Nuju #0" = 20
+	"Tuvu's Nuju #0" = 20
+	"Mactasco Nuju #0" = 20
+	"Mocosco Nuju #0" = 20
+	"Tujtujco Nuju #0" = 20
+	"Justucujtujco Nuju #0" = 20
+	"Tucutujco Nuju #0" = 20
+	"Tastutujco Nuju #0" = 20
+	"Macu Su'ni #0" = 20
+	"Tu'c Su'ni #0" = 20
+	"Mesco Su'ni #0" = 20
+	"Tuvu's Su'ni #0" = 20
+	"Mactasco Su'ni #0" = 20
+	"Mocosco Su'ni #0" = 20
+	"Tujtujco Su'ni #0" = 20
+	"Justucujtujco Su'ni #0" = 20
+	"Tucutujco Su'ni #0" = 20
+	"Tastutujco Su'ni #0" = 20
+	"Macu Pucuntsavi #0" = 20
+	"Tu'c Pucuntsavi #0" = 20
+	"Mesco Pucuntsavi #0" = 20
+	"Tuvu's Pucuntsavi #0" = 20
+	"Mactasco Pucuntsavi #0" = 20
+	"Mocosco Pucuntsavi #0" = 20
+	"Tujtujco Pucuntsavi #0" = 20
+	"Justucujtujco Pucuntsavi #0" = 20
+	"Tucutujco Pucuntsavi #0" = 20
+	"Tastutujco Pucuntsavi #0" = 20
+	"Macu Tuju #0" = 20
+	"Tu'c Tuju #0" = 20
+	"Mesco Tuju #0" = 20
+	"Tuvu's Tuju #0" = 20
+	"Mactasco Tuju #0" = 20
+	"Mocosco Tuju #0" = 20
+	"Tujtujco Tuju #0" = 20
+	"Justucujtujco Tuju #0" = 20
+	"Tucutujco Tuju #0" = 20
+	"Tastutujco Tuju #0" = 20
+	"Macu Puji #0" = 20
+	"Tu'c Puji #0" = 20
+	"Mesco Puji #0" = 20
+	"Tuvu's Puji #0" = 20
+	"Mactasco Puji #0" = 20
+	"Mocosco Puji #0" = 20
+	"Tujtujco Puji #0" = 20
+	"Justucujtujco Puji #0" = 20
+	"Tucutujco Puji #0" = 20
+	"Tastutujco Puji #0" = 20
+	
+	"Tu'c Jamu #0" = -1
+	"Mesco Jamu #0" = -1
+	"Tuvu's Jamu #0" = -1
+	"Mactasco Jamu #0" = -1
+	"Mocosco Jamu #0" = -1
+	"Tujtujco Jamu #0" = -1
+	"Justucujtujco Jamu #0" = -1
+	"Tucutujco Jamu #0" = -1
+	"Tastutujco Jamu #0" = -1
+	"Macu Jamu #0" = -1
+	"Tu'c Tucu #0" = -1
+	"Mesco Tucu #0" = -1
+	"Tuvu's Tucu #0" = -1
+	"Mactasco Tucu #0" = -1
+	"Mocosco Tucu #0" = -1
+	"Tujtujco Tucu #0" = -1
+	"Justucujtujco Tucu #0" = -1
+	"Tucutujco Tucu #0" = -1
+	"Tastutujco Tucu #0" = -1
+	"Macu Tucu #0" = -1
+	"Tu'c Parico'n #0" = -1
+	"Mesco Parico'n #0" = -1
+	"Tuvu's Parico'n #0" = -1
+	"Mactasco Parico'n #0" = -1
+	"Mocosco Parico'n #0" = -1
+	"Tujtujco Parico'n #0" = -1
+	"Justucujtujco Parico'n #0" = -1
+	"Tucutujco Parico'n #0" = -1
+	"Tastutujco Parico'n #0" = -1
+	"Macu Coya #0" = -1
+	"Tu'c Coya #0" = -1
+	"Mesco Coya #0" = -1
+	"Tuvu's Coya #0" = -1
+	"Mactasco Coya #0" = -1
+	"Mocosco Coya #0" = -1
+	"Tujtujco Coya #0" = -1
+	"Justucujtujco Coya #0" = -1
+	"Tucutujco Coya #0" = -1
+	"Tastutujco Coya #0" = -1
+	"Macu Nuju #0" = -1
+	"Tu'c Nuju #0" = -1
+	"Mesco Nuju #0" = -1
+	"Tuvu's Nuju #0" = -1
+	"Mactasco Nuju #0" = -1
+	"Mocosco Nuju #0" = -1
+	"Tujtujco Nuju #0" = -1
+	"Justucujtujco Nuju #0" = -1
+	"Tucutujco Nuju #0" = -1
+	"Tastutujco Nuju #0" = -1
+	"Macu Su'ni #0" = -1
+	"Tu'c Su'ni #0" = -1
+	"Mesco Su'ni #0" = -1
+	"Tuvu's Su'ni #0" = -1
+	"Mactasco Su'ni #0" = -1
+	"Mocosco Su'ni #0" = -1
+	"Tujtujco Su'ni #0" = -1
+	"Justucujtujco Su'ni #0" = -1
+	"Tucutujco Su'ni #0" = -1
+	"Tastutujco Su'ni #0" = -1
+	"Macu Pucuntsavi #0" = -1
+	"Tu'c Pucuntsavi #0" = -1
+	"Mesco Pucuntsavi #0" = -1
+	"Tuvu's Pucuntsavi #0" = -1
+	"Mactasco Pucuntsavi #0" = -1
+	"Mocosco Pucuntsavi #0" = -1
+	"Tujtujco Pucuntsavi #0" = -1
+	"Justucujtujco Pucuntsavi #0" = -1
+	"Tucutujco Pucuntsavi #0" = -1
+	"Tastutujco Pucuntsavi #0" = -1
+	"Macu Tuju #0" = -1
+	"Tu'c Tuju #0" = -1
+	"Mesco Tuju #0" = -1
+	"Tuvu's Tuju #0" = -1
+	"Mactasco Tuju #0" = -1
+	"Mocosco Tuju #0" = -1
+	"Tujtujco Tuju #0" = -1
+	"Justucujtujco Tuju #0" = -1
+	"Tucutujco Tuju #0" = -1
+	"Tastutujco Tuju #0" = -1
+	"Macu Puji #0" = -1
+	"Tu'c Puji #0" = -1
+	"Mesco Puji #0" = -1
+	"Tuvu's Puji #0" = -1
+	"Mactasco Puji #0" = -1
+	"Mocosco Puji #0" = -1
+	"Tujtujco Puji #0" = -1
+	"Justucujtujco Puji #0" = -1
+	"Tucutujco Puji #0" = -1
+	"Tastutujco Puji #0" = -1
+}
+
+leader_names = {
+	""
+}
+
+ship_names = {
+	Acolmiztli Acolnahuacat "Ah Hoya" "Ah Tzenul" Amimitl Apanecatl Atl Atlau Axoloa
+	Camaxtli Centeot Centzonuiznaua Chalchiuhtlatonal Chalchiuhtlicue Chalchiutotolin Chalmecalt 	Chalmecaucihuilt
+	Chantico Chichomexochtli Chicomecoatl Chiconahuai Chihalma Chualchihuitlcue Cihuacaotyl Cinteotl
+	Citlalatonac Citlalicue Ciucoatl Coatlicue Cochimetl Coyolxauhqui Cuauhcoatl 
+	Ehehcatl Eueucoyotl
+	"Hopop Can" Huehueteotl Huitzilopochtli Huixtocihuatl
+	Itzcoliuhqui Itzli Itzpapalotl Itzpzpalotl Ixtlilton Iztamixcoatzin
+	Macuilxochitl Mahayuel Malinalxochi Matalcueye Metztli Mictlan Mictlancihuntl Mictlantechtle
+	Mictlantechupi Mictlantecihuatl Mixcoatl
+	Nanauatzin
+	Ococaltzin Omecihuatl Ometecuhlti Ometeotl Omeyocan
+	Patecatli Paynal
+	Quetzalcoatl
+	Tecciztecatl Teoyaomqui Tepeyollotl Teteoinnan Tezacoatl Tezcatlipoca Tillan-Tlapallan Tlaloc
+	Tlalocan Tlaltechhtlii Tlazolteotl Tonacatecuhtli Tonatiuhican Tonatiuth Tzitmime
+	Xilonen "Xipe Totec" Xiucoatl Xiuhtecuhtli Xochipilli Xochiquetzal Xolotl Xonecuilli
+	Yacatechutli
+}
+
+
+army_names = {
+	"$PROVINCE$ Xiquipilli" 
+}
+
+fleet_names = {
+	"$PROVINCE$ Fleet"
+}

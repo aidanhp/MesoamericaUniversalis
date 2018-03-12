@@ -3,7 +3,7 @@ add_core = UUU
 owner = UUU
 controller = UUU
 culture = totonac
-religion = placeholderism
+religion = religion_ehecatl
 hre = no
 base_tax = 1
 base_production = 3
@@ -12,7 +12,7 @@ trade_goods = aquatic_foods
 
 capital = "Paxil"
 is_city = yes
-
+fort_15th = yes
 
 discovered_by = western_european_tg
 discovered_by = triple_alliance_tg 

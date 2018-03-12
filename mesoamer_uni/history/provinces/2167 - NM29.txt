@@ -1,5 +1,5 @@
 culture = central_nahua
-religion = placeholderism
+religion = religion_ehecatl
 capital = "No Man's Land"
 trade_goods = unknown
 hre = no

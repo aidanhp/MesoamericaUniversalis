@@ -2,7 +2,7 @@ add_core = UUU
 owner = UUU
 controller = UUU
 culture = totonac
-religion = placeholderism
+religion = religion_ehecatl
 hre = no
 base_tax = 6
 base_production = 12
@@ -11,7 +11,7 @@ trade_goods = tolteca_crafts
 
 capital = "Cempoallan"
 is_city = yes
-
+fort_15th = yes
 
 discovered_by = western_european_tg
 discovered_by = triple_alliance_tg 

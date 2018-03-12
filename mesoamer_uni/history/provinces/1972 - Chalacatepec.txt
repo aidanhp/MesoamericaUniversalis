@@ -1,5 +1,5 @@
 culture = sayultec
-religion = placeholderism
+religion = religion_tlaloc
 capital = "Chalacatepec"
 trade_goods = unknown
 hre = no

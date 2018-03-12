@@ -36,6 +36,7 @@ pulse_system = {
 		# is_january = yes
 		country_event = { id = stats_calc.01 } 
 		country_event = { id = pops_potential.01 }
+		country_event = { id = pops_growth.01 }
 		every_country = {
 			limit = {
 				OR = {

@@ -1,5 +1,5 @@
 culture = cuyotec
-religion = placeholderism
+religion = religion_tlaloc
 capital = "Yelapa"
 trade_goods = unknown
 hre = no

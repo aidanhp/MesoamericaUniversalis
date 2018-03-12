@@ -1,5 +1,5 @@
 culture = popoluca
-religion = placeholderism
+religion = religion_cihuacoatl
 capital = "No Man's Land"
 trade_goods = unknown
 hre = no

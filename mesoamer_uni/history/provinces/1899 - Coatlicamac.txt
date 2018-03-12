@@ -2,7 +2,7 @@ add_core = L57
 owner = L57
 controller = L57
 culture = zapotec
-religion = placeholderism
+religion = religion_zapotec
 hre = no
 base_tax = 2
 base_production = 4
@@ -11,7 +11,7 @@ trade_goods = staple_crops
 
 capital = "Coatlicamac"
 is_city = yes
-
+fort_15th = yes
 
 discovered_by = western_european_tg
 discovered_by = triple_alliance_tg 

@@ -3,7 +3,7 @@ add_core = BBD
 owner = BBD
 controller = BBD
 culture = chalca
-religion = placeholderism
+religion = religion_tlaloc
 hre = no
 base_tax = 2
 base_production = 5
@@ -12,7 +12,6 @@ trade_goods = wood
 
 capital = "Amecameca"
 is_city = yes
-
 
 discovered_by = western_european_tg
 discovered_by = triple_alliance_tg 

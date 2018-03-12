@@ -2,7 +2,7 @@ add_core = LLF
 owner = LLF 
 controller = LLF 
 culture = central_nahua
-religion = placeholderism
+religion = religion_ometochtli
 hre = no
 base_tax = 3
 base_production = 5
@@ -11,7 +11,7 @@ trade_goods = cotton
 
 capital = "Cuauhnahuac"
 is_city = yes
-
+fort_15th = yes
 
 discovered_by = western_european_tg
 discovered_by = triple_alliance_tg 

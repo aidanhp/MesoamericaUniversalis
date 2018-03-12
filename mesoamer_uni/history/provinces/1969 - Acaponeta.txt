@@ -1,5 +1,5 @@
 culture = tepehuan
-religion = placeholderism
+religion = religion_tlaloc
 capital = "Acaponeta"
 trade_goods = unknown
 hre = no

@@ -1,5 +1,5 @@
 culture = cuyotec
-religion = placeholderism
+religion = religion_tlaloc
 capital = "Teuchitlan"
 trade_goods = unknown
 hre = no

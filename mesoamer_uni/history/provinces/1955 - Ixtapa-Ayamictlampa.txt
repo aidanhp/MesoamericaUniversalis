@@ -1,5 +1,5 @@
 culture = totorame
-religion = placeholderism
+religion = religion_tlaloc
 capital = "Ixtapa-Ayamictlampa"
 trade_goods = unknown
 hre = no

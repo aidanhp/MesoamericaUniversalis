@@ -1,0 +1,83 @@
+#Country Name: Please see filename.
+
+graphical_culture = southamericagfx
+
+color = { 0 0 0 }
+
+historical_idea_groups = {
+	hegemonic_ideas
+	trade_ideas
+	offensive_ideas
+	power_concentration_ideas
+	spy_ideas
+	quality_ideas
+	influence_ideas
+	defensive_ideas
+}
+
+historical_units = {
+	ma_maya_infantry 
+	ma_late_maya_infantry
+	ma_maya_gunpowder_infantry
+	ma_maya_musketeer
+	ma_maya_flintlock
+}
+
+monarch_names = {
+	"Aaq #0" = 20
+	"Aaqam #0" = 20
+	"Aj B'oox Uch #0" = 20
+	"Aj Rup Kuk #0" = 20
+	"Aj Yoo #0" = 20
+	"B'alam #0" = 20
+	"B'aqxul #0" = 20
+	"B'atz #0" = 20
+	"Chajal Kuk #0" = 20
+	"Cho'hix #0" = 20
+	"Kaqkoj #0" = 20
+	"Xojb' Tz'i Pim #0" = 20
+	"Iitz'inb'ej #0" = 20
+	"Tzuul #0" = 20
+	
+	"Imul #0" = -1
+	"K'amb'olay #0" = -1
+	"Kej #0" = -1
+	"Chahim #0" = -1
+	"Ixaqilb'ej #0" = -1
+	"Ixq #0" = -1
+	"Uutz'u'uj #0" = -1
+}
+
+leader_names = {
+	Cawek Nijaib Ekoamak Kakoj Ajtojil "Ajk'ucumatz" Jakawitz Yacolatam
+	"K'alel" Julajuj Chiyatoj Yolchitun Yolchiramak Utzampop Wukmil
+}
+
+ship_names = {
+	Acolmiztli Acolnahuacat "Ah Hoya" "Ah Tzenul" Amimitl Apanecatl Atl Atlau Axoloa
+	Camaxtli Centeot Centzonuiznaua Chalchiuhtlatonal Chalchiuhtlicue Chalchiutotolin Chalmecalt 	Chalmecaucihuilt
+	Chantico Chichomexochtli Chicomecoatl Chiconahuai Chihalma Chualchihuitlcue Cihuacaotyl Cinteotl
+	Citlalatonac Citlalicue Ciucoatl Coatlicue Cochimetl Coyolxauhqui Cuauhcoatl 
+	Ehehcatl Eueucoyotl
+	"Hopop Can" Huehueteotl Huitzilopochtli Huixtocihuatl
+	Itzcoliuhqui Itzli Itzpapalotl Itzpzpalotl Ixtlilton Iztamixcoatzin
+	Macuilxochitl Mahayuel Malinalxochi Matalcueye Metztli Mictlan Mictlancihuntl Mictlantechtle
+	Mictlantechupi Mictlantecihuatl Mixcoatl
+	Nanauatzin
+	Ococaltzin Omecihuatl Ometecuhlti Ometeotl Omeyocan
+	Patecatli Paynal
+	Quetzalcoatl
+	Tecciztecatl Teoyaomqui Tepeyollotl Teteoinnan Tezacoatl Tezcatlipoca Tillan-Tlapallan Tlaloc
+	Tlalocan Tlaltechhtlii Tlazolteotl Tonacatecuhtli Tonatiuhican Tonatiuth Tzitmime
+	Xilonen "Xipe Totec" Xiucoatl Xiuhtecuhtli Xochipilli Xochiquetzal Xolotl Xonecuilli
+	Yacatechutli
+}
+
+
+army_names = {
+	"Army $PROVINCE$" 
+}
+
+fleet_names = {
+	"$PROVINCE$ Fleet"
+}

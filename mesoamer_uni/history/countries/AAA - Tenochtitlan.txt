@@ -2,7 +2,7 @@ government = absolute_elective_monarchy
 government_rank = 2
 mercantilism = 0.25
 technology_group = triple_alliance_tg
-religion = placeholderism
+religion = religion_huitzilopochtli
 primary_culture = mexica
 capital = 1	
 fixed_capital = 1
@@ -44,5 +44,14 @@ fixed_capital = 1
 		adm = 5
 		dip = 5
 		mil = 6
+		leader = {
+			type = general
+			name = "Motecuhzoma Ilhuicamina"
+			shock = 4
+			fire = 4
+			manuever = 4
+			siege = 2 
+		}
 	}
+	add_heir_personality = great_conqueror_personality
 }

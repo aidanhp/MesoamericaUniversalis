@@ -2,7 +2,7 @@ add_core = BBX
 owner = BBX
 controller = BBX
 culture = purepecha
-religion = placeholderism
+religion = religion_purepecha
 hre = no
 base_tax = 2
 base_production = 5
@@ -11,7 +11,7 @@ trade_goods = aquatic_foods
 
 capital = "Ihuatzio"
 is_city = yes
-
+fort_15th = yes
 
 discovered_by = western_european_tg
 discovered_by = triple_alliance_tg 

@@ -19,7 +19,7 @@ spy_ideas = {
 	}
 	efficient_spies = {
 		spy_offence = 0.5
-		advisor_cost = -0.15
+		advisor_cost = -0.10
 	}	
 	loyalist_recruitment = {
 		reduced_liberty_desire = 20
@@ -94,7 +94,7 @@ offensive_ideas = {
 		leader_land_shock = 1
 	}
 	efficient_conscription = {
-		global_regiment_recruit_speed = -0.33
+		global_regiment_recruit_speed = -0.25
 	}
 	concentrated_firepower = {
 		leader_land_fire = 1
@@ -136,10 +136,10 @@ defensive_ideas = {
 		land_morale = 0.15
 	}
 	supply_trains = {
-		reinforce_speed = 0.33
+		reinforce_speed = 0.25
 	}
 	merely_a_setback = {
-		war_exhaustion = -0.05
+		war_exhaustion = -0.03
 	}
 	favorable_engagements = {
 		leader_land_manuever = 1
@@ -162,25 +162,25 @@ trade_ideas = {
 	}
 
 	shrewd_commerce_practise = {
- 		global_trade_power = 0.2
+ 		global_trade_power = 0.15
   	}
   	sponsored_merchants = {
   		merchants = 1
   	}
 	merchant_adventures = {
-		trade_range_modifier = 0.25
+		trade_range_modifier = 0.33
 	}
 	national_trade_policy = {
-		trade_efficiency = 0.1
+		trade_efficiency = 0.15
 	}
 	foreign_merchants = {
 		merchants = 1
 	}
 	trade_manipulation = {
-		trade_steering = 0.25
+		trade_steering = 0.20
 	}
 	fast_negotiations = {
-		caravan_power = 0.25
+		caravan_power = 0.20
 	}
 
 	ai_will_do = {
@@ -270,7 +270,7 @@ influence_ideas = {
 	}
 
 	tribute_system = {
-		vassal_income = 0.25
+		vassal_income = 0.20
 	}
 	
 	establish_cadet_branches = {
@@ -292,7 +292,7 @@ influence_ideas = {
 		diplomatic_upkeep = 1
 	}
 	marcher_lords = {
-		vassal_forcelimit_bonus = 0.5
+		vassal_forcelimit_bonus = 0.15
 	}
 
 	ai_will_do = {
@@ -339,8 +339,8 @@ hegemonic_ideas = {
 	}
 	
 	intimidation_tactics = {
-		ae_impact = -0.15
-		unjustified_demands = -0.15
+		ae_impact = -0.10
+		unjustified_demands = -0.10
 	}
 	
 	economic_hegemony = {
@@ -373,9 +373,9 @@ territorial_ideas = {
 	}
 	
 	territorial_grand_strategy = {
-		build_cost = -0.10
+		build_cost = -0.05
 		max_states = 2
-		state_maintenance_modifier = -0.10
+		state_maintenance_modifier = -0.20
 	}
 	
 	power_replacement = {
@@ -387,7 +387,7 @@ territorial_ideas = {
 	}
 	
 	maize_and_circuses = {
-		years_of_nationalism = -5
+		years_of_nationalism = -3
 	}
 	
 	economic_monopolization = {
@@ -396,7 +396,7 @@ territorial_ideas = {
 	}
 	
 	centralized_legal_system = {
-		stability_cost_modifier = -0.20
+		stability_cost_modifier = -0.25
 	}
 	
 	war_relief_system = {
@@ -423,7 +423,7 @@ diverse_integration_ideas = {
 	diverse_integration = {
 		core_creation = 0.20
 		num_accepted_cultures = 2
-		religious_unity = 0.25
+		religious_unity = 0.20
 	}
 	
 	integrated_military = {
@@ -443,7 +443,7 @@ diverse_integration_ideas = {
 	
 	cultural_integration = {
 		num_accepted_cultures = 4
-		promote_culture_cost = -0.33
+		promote_culture_cost = -0.25
 	}
 	
 	cosmopolitan_administration = {
@@ -453,7 +453,7 @@ diverse_integration_ideas = {
 	}
 	
 	united_identity = {
-		years_of_nationalism = -5
+		years_of_nationalism = -3
 		legitimacy = 0.5
 	}
 	
@@ -477,8 +477,8 @@ total_assimilation_ideas = {
 	
 	total_assimilation = {
 		num_accepted_cultures = -2
-		tolerance_heretic = -1
-		tolerance_heathen = -1
+		tolerance_heretic = -2
+		tolerance_heathen = -2
 		tolerance_own = 2
 	}
 	
@@ -492,7 +492,7 @@ total_assimilation_ideas = {
 	}
 	
 	forced_acculturation = {
-		culture_conversion_cost = -0.33
+		culture_conversion_cost = -0.25
 	}
 	
 	militant_proselytizing = {
@@ -502,7 +502,7 @@ total_assimilation_ideas = {
 	
 	assimilative_ties = {
 		global_autonomy = -0.025
-		culture_conversion_cost = -0.33
+		culture_conversion_cost = -0.25
 	}
 	
 	divine_elevation = {
@@ -515,7 +515,106 @@ total_assimilation_ideas = {
 	}
 }
 
+power_concentration_ideas = {
+	category = ADM
+	
+	trigger = {
+		full_idea_group = hegemonic_ideas
+		NOT = { has_idea_group = federation }
+	}
+	
+	bonus = {
+		prestige_decay = -0.01
+	}
+	
+	power_concentration = {
+		tolerance_own = 1
+		prestige = 0.5
+	}
+	
+	grand_metropolis = {
+		#+0.01% Pop Growth in Capital
+	}
+	
+	best_and_brightest = {
+		same_culture_advisor_cost = -0.33
+	}
+	
+	absurd_spectacle = {
+		diplomatic_reputation = 1
+	}
+	
+	unchallengeable_might = {
+		ae_impact = -0.15
+		unjustified_demands = -0.15
+	}
+	
+	royal_hostages = {
+		liberty_desire_from_subject_development = -0.25
+		diplomatic_annexation_cost = -0.25
+	}
+	
+	mass_urban_sprawl = {
+		#+0.01% Pop Growth in Owned Provinces Bordering Capital 
+	}
+	
+	ai_will_do = {
+		factor = 0.5
+	}
+}
 
+federation_ideas = {
+	category = ADM
+	
+	trigger = {
+		full_idea_group = hegemonic_ideas
+		NOT = { has_idea_group = power_concentration } 
+	}
+	
+	bonus = {
+		stability_cost_modifier = -0.25
+	}
+	
+	federation = {
+		global_unrest = -1
+		#Unlocks federal capital 
+	}
+	
+	religious_sufferance = {
+		religious_unity = 0.20
+		tolerance_heathen = 1
+		tolerance_heretic = 1
+	}
+	
+	cultural_sufferance = {
+		num_accepted_cultures = 4
+		promote_culture_cost = -0.20
+	}
+	
+	federal_power_centers = {
+		max_states = 3
+	}
+	
+	political_egalitarianism = {
+		advisor_pool = 1
+		free_leader_pool = 1
+		advisor_cost = -0.10
+	}
+	
+	balance_of_power = {
+		yearly_corruption = -0.10
+		#+0.25 Yearly Meritocracy 
+	}
+	
+	army_of_the_federation = {
+		land_morale = 0.10
+		war_exhaustion_cost = -0.25
+	}
+	
+	ai_will_do = {
+		factor = 0.5
+	}
+}
 
 ###NEW MILITARY IDEAS###
 post_contact_warfare = {

@@ -1,5 +1,5 @@
 culture = purepecha
-religion = placeholderism
+religion = religion_purepecha
 capital = "No Man's Land"
 trade_goods = unknown
 hre = no

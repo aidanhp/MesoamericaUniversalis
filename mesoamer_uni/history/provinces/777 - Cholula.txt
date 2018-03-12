@@ -2,7 +2,7 @@ add_core = A99
 owner = A99
 controller = A99
 culture = cholulan
-religion = placeholderism
+religion = religion_quetzalcoatl
 hre = no
 base_tax = 7
 base_production = 14
@@ -11,6 +11,7 @@ trade_goods = tolteca_crafts
 
 capital = "Cholula"
 is_city = yes
+fort_15th = yes
 
 discovered_by = western_european_tg
 discovered_by = triple_alliance_tg

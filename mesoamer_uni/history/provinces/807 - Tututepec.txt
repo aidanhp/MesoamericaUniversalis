@@ -2,7 +2,7 @@ add_core = B30
 owner = B30
 controller = B30
 culture = mixtec
-religion = placeholderism
+religion = religion_mixtec
 hre = no
 base_tax = 3
 base_production = 5
@@ -11,6 +11,7 @@ trade_goods = tolteca_crafts
 
 capital = "Tututepec"
 is_city = yes
+fort_15th = yes
 
 discovered_by = western_european_tg
 discovered_by = triple_alliance_tg

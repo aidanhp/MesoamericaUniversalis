@@ -10,8 +10,13 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 2;7;sea;1250;-1;-1;-1;-1;TlatelolcoTepeyac
 3;2336;sea;1251;-1;-1;-1;-1;TexcocoDike
 #Lake Chalco
+32;2224;sea;1253;-1;-1;-1;-1;TlahuacXico
+32;2225;sea;1253;-1;-1;-1;-1;TlahuacTlapacoyac
 2224;30;sea;1253;-1;-1;-1;-1;XicoChalco
 2225;30;sea;1253;-1;-1;-1;-1;TlapacoyacChalco
+2225;29;sea;1253;-1;-1;-1;-1;TlapacoyacItztapollocan
+2224;27;sea;1253;-1;-1;-1;-1;XicoColhuacan
+2225;27;sea;1253;-1;-1;-1;-1;TlapacoyacColhuacan
 #Lake Catemaco
 1898;1897;sea;1271;-1;-1;-1;-1;AgaltepecCatemaco
 ###########

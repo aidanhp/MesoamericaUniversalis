@@ -1,0 +1,75 @@
+#Country Name: Please see filename.
+
+graphical_culture = southamericagfx
+
+color = { 0 0 0 }
+
+historical_idea_groups = {
+	hegemonic_ideas
+	trade_ideas
+	offensive_ideas
+	power_concentration_ideas
+	spy_ideas
+	quality_ideas
+	influence_ideas
+	defensive_ideas
+}
+
+historical_units = {
+	ma_maya_infantry 
+	ma_late_maya_infantry
+	ma_maya_gunpowder_infantry
+	ma_maya_musketeer
+	ma_maya_flintlock
+}
+
+monarch_names = {
+	"J'kot #0" = 20
+	"Xinich #0" = 20
+	"Jten'ek'el #0" = 20
+	"Bankilal #0" = 20
+	"Itz'inal #0" = 20
+	"Ok'il #0" = 20
+	"Jna'vanej #0" = 20
+	"Julub Tak'in #0" = 20
+	"Chij #0" = 20
+	"T'iv #0" = 20
+	
+	"Bik't al Mut #0" = -1
+	"Makum #0" = -1
+	"Pepen #0" = -1
+}
+
+leader_names = {
+	Cawek Nijaib Ekoamak Kakoj Ajtojil "Ajk'ucumatz" Jakawitz Yacolatam
+	"K'alel" Julajuj Chiyatoj Yolchitun Yolchiramak Utzampop Wukmil
+}
+
+ship_names = {
+	Acolmiztli Acolnahuacat "Ah Hoya" "Ah Tzenul" Amimitl Apanecatl Atl Atlau Axoloa
+	Camaxtli Centeot Centzonuiznaua Chalchiuhtlatonal Chalchiuhtlicue Chalchiutotolin Chalmecalt 	Chalmecaucihuilt
+	Chantico Chichomexochtli Chicomecoatl Chiconahuai Chihalma Chualchihuitlcue Cihuacaotyl Cinteotl
+	Citlalatonac Citlalicue Ciucoatl Coatlicue Cochimetl Coyolxauhqui Cuauhcoatl 
+	Ehehcatl Eueucoyotl
+	"Hopop Can" Huehueteotl Huitzilopochtli Huixtocihuatl
+	Itzcoliuhqui Itzli Itzpapalotl Itzpzpalotl Ixtlilton Iztamixcoatzin
+	Macuilxochitl Mahayuel Malinalxochi Matalcueye Metztli Mictlan Mictlancihuntl Mictlantechtle
+	Mictlantechupi Mictlantecihuatl Mixcoatl
+	Nanauatzin
+	Ococaltzin Omecihuatl Ometecuhlti Ometeotl Omeyocan
+	Patecatli Paynal
+	Quetzalcoatl
+	Tecciztecatl Teoyaomqui Tepeyollotl Teteoinnan Tezacoatl Tezcatlipoca Tillan-Tlapallan Tlaloc
+	Tlalocan Tlaltechhtlii Tlazolteotl Tonacatecuhtli Tonatiuhican Tonatiuth Tzitmime
+	Xilonen "Xipe Totec" Xiucoatl Xiuhtecuhtli Xochipilli Xochiquetzal Xolotl Xonecuilli
+	Yacatechutli
+}
+
+
+army_names = {
+	"Army $PROVINCE$" 
+}
+
+fleet_names = {
+	"$PROVINCE$ Fleet"
+}

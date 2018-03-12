@@ -1,5 +1,5 @@
 culture = yucatec
-religion = placeholderism 
+religion = religion_maya 
 capital = "Coba"
 trade_goods = unknown
 hre = no

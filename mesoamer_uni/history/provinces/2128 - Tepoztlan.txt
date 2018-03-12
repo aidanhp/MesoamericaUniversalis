@@ -1,5 +1,5 @@
 culture = guachichil
-religion = placeholderism
+religion = religion_tlaloc
 capital = "Tepoztlan"
 trade_goods = unknown
 hre = no

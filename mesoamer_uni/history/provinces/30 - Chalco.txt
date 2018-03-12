@@ -2,7 +2,7 @@ add_core = BBD
 owner = BBD
 controller = BBD
 culture = chalca
-religion = placeholderism
+religion = religion_tlaloc
 hre = no
 base_tax = 2
 base_production = 4
@@ -11,7 +11,7 @@ trade_goods = tolteca_crafts
 
 capital = "Chalco"
 is_city = yes
-
+fort_15th = yes
 
 discovered_by = western_european_tg
 discovered_by = triple_alliance_tg 

@@ -1,5 +1,5 @@
 culture = sayultec
-religion = placeholderism
+religion = religion_tlaloc
 capital = "Tehualmixtle"
 trade_goods = unknown
 hre = no

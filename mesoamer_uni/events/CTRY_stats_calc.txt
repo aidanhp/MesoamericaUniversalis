@@ -172,61 +172,61 @@ country_event = {
 			#Vassals
 			if = {
 				limit = {
-					num_of_vassals = 1 
+					num_of_subjects = 1 
 				}
 				change_variable = { which = v_terr_hege_change value = -0.5 } 
 			}
 			if = {
 				limit = {
-					num_of_vassals = 2 
+					num_of_subjects = 2 
 				}
 				change_variable = { which = v_terr_hege_change value = -0.5 } 
 			}
 			if = {
 				limit = {
-					num_of_vassals = 3 
+					num_of_subjects = 3 
 				}
 				change_variable = { which = v_terr_hege_change value = -0.5 } 
 			}
 			if = {
 				limit = {
-					num_of_vassals = 4 
+					num_of_subjects = 4 
 				}
 				change_variable = { which = v_terr_hege_change value = -0.5 } 
 			}
 			if = {
 				limit = {
-					num_of_vassals = 5 
+					num_of_subjects = 5 
 				}
 				change_variable = { which = v_terr_hege_change value = -0.5 } 
 			}
 			if = {
 				limit = {
-					num_of_vassals = 6 
+					num_of_subjects = 6 
 				}
 				change_variable = { which = v_terr_hege_change value = -0.5 } 
 			}
 			if = {
 				limit = {
-					num_of_vassals = 7 
+					num_of_subjects = 7 
 				}
 				change_variable = { which = v_terr_hege_change value = -0.5 } 
 			}
 			if = {
 				limit = {
-					num_of_vassals = 8 
+					num_of_subjects = 8 
 				}
 				change_variable = { which = v_terr_hege_change value = -0.5 } 
 			}
 			if = {
 				limit = {
-					num_of_vassals = 9 
+					num_of_subjects = 9 
 				}
 				change_variable = { which = v_terr_hege_change value = -0.5 } 
 			}
 			if = {
 				limit = {
-					num_of_vassals = 10 
+					num_of_subjects = 10 
 				}
 				change_variable = { which = v_terr_hege_change value = -0.5 } 
 			}

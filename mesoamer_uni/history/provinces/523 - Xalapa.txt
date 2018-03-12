@@ -2,7 +2,7 @@ add_core = UUA
 owner = UUA
 controller = UUA
 culture = totonac
-religion = placeholderism
+religion = religion_ehecatl
 hre = no
 base_tax = 3
 base_production = 7
@@ -11,7 +11,7 @@ trade_goods = wood
 
 capital = "Xalapa"
 is_city = yes
-
+fort_15th = yes
 
 discovered_by = western_european_tg
 discovered_by = triple_alliance_tg 

@@ -2,7 +2,7 @@ add_core = A43
 owner = A43
 controller = A43
 culture = totonac
-religion = placeholderism
+religion = religion_ehecatl
 hre = no
 base_tax = 3
 base_production = 5
@@ -11,6 +11,7 @@ trade_goods = copal
 
 capital = "Cuauhchinanco"
 is_city = yes
+fort_15th = yes
 
 discovered_by = western_european_tg
 discovered_by = triple_alliance_tg

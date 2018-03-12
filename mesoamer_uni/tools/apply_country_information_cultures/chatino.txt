@@ -1,0 +1,191 @@
+#Country Name: Please see filename.
+
+graphical_culture = southamericagfx
+
+color = { 0 0 0 }
+
+historical_idea_groups = {
+	hegemonic_ideas
+	trade_ideas
+	offensive_ideas
+	power_concentration_ideas
+	spy_ideas
+	quality_ideas
+	influence_ideas
+	defensive_ideas
+}
+
+historical_units = {
+	hu_huaxyacac_infantry 
+	hu_late_huaxyacac_infantry
+	hu_huaxyacac_gunpowder_infantry
+	hu_huaxyacac_musketeer
+	hu_huaxyacac_flintlock
+}
+
+monarch_names = {
+	"Saka Hitya #0" = 20 
+	"Tukwa Hitya #0" = 20
+	"Suno Hitya #0" = 20
+	"Hukwa Hitya #0" = 20
+	"Ku'yu Hitya #0" = 20
+	"Skwa Hitya #0" = 20
+	"Kati Hitya #0" = 20
+	"Sno' Hitya #0" = 20 
+	"Ka Hitya #0" = 20
+	"Ti Hitya #0" = 20
+	"Titsaka Hitya #0" = 20
+	"Titsukwa Hitya #0" = 20
+	"Tisno Hitya #0" = 20
+	"Saka Xne' #0" = 20
+	"Tukwa Xne' #0" = 20
+	"Suno Xne' #0" = 20
+	"Hukwa Xne' #0" = 20 
+	"Ku'yu Xne' #0" = 20 
+	"Skwa Xne' #0" = 20 
+	"Kati Xne' #0" = 20
+	"Sno' Xne' #0" = 20
+	"Ka Xne' #0" = 20
+	"Ti Xne' #0" = 20
+	"Titsaka Xne' #0" = 20
+	"Titsukwa Xne' #0" = 20
+	"Tisno Xne' #0" = 20
+	"Saka Lijya #0" = 20 
+	"Tukwa Lijya #0" = 20
+	"Suno Lijya #0" = 20 
+	"Hukwa Lijya #0" = 20
+	"Ku'yu Lijya #0" = 20
+	"Skwa Lijya #0" = 20
+	"Kati Lijya #0" = 20
+	"Sno' Lijya #0" = 20
+	"Ka Lijya #0" = 20 
+	"Ti Lijya #0" = 20 
+	"Titsaka Lijya #0" = 20
+	"Titsukwa Lijya #0" = 20
+	"Tisno Lijya #0" = 20
+	"Saka Tyoo #0" = 20
+	"Tukwa Tyoo #0" = 20
+	"Suno Tyoo #0" = 20
+	"Hukwa Tyoo #0" = 20
+	"Ku'yu Tyoo #0" = 20
+	"Skwa Tyoo #0" = 20
+	"Kati Tyoo #0" = 20
+	"Sno' Tyoo #0" = 20
+	"Ka Tyoo #0" = 20
+	"Ti Tyoo #0" = 20
+	"Titsaka Tyoo #0" = 20
+	"Titsukwa Tyoo #0" = 20
+	"Tisno Tyoo #0" = 20
+	"Saka Quee #0" = 20
+	"Tukwa Quee #0" = 20
+	"Suno Quee #0" = 20
+	"Hukwa Quee #0" = 20
+	"Ku'yu Quee #0" = 20
+	"Skwa Quee #0" = 20
+	"Kati Quee #0" = 20
+	"Sno' Quee #0" = 20
+	"Ka Quee #0" = 20
+	"Ti Quee #0" = 20
+	"Titsaka Quee #0" = 20
+	"Titsukwa Quee #0" = 20
+	"Tisno Quee #0" = 20 
+	
+	"Saka Hitya #0" = -1 
+	"Tukwa Hitya #0" = -1
+	"Suno Hitya #0" = -1
+	"Hukwa Hitya #0" = -1
+	"Ku'yu Hitya #0" = -1
+	"Skwa Hitya #0" = -1
+	"Kati Hitya #0" = -1
+	"Sno' Hitya #0" = -1 
+	"Ka Hitya #0" = -1
+	"Ti Hitya #0" = -1
+	"Titsaka Hitya #0" = -1
+	"Titsukwa Hitya #0" = -1
+	"Tisno Hitya #0" = -1
+	"Saka Xne' #0" = -1
+	"Tukwa Xne' #0" = -1
+	"Suno Xne' #0" = -1
+	"Hukwa Xne' #0" = -1 
+	"Ku'yu Xne' #0" = -1 
+	"Skwa Xne' #0" = -1 
+	"Kati Xne' #0" = -1
+	"Sno' Xne' #0" = -1
+	"Ka Xne' #0" = -1
+	"Ti Xne' #0" = -1
+	"Titsaka Xne' #0" = -1
+	"Titsukwa Xne' #0" = -1
+	"Tisno Xne' #0" = -1
+	"Saka Lijya #0" = -1 
+	"Tukwa Lijya #0" = -1
+	"Suno Lijya #0" = -1 
+	"Hukwa Lijya #0" = -1
+	"Ku'yu Lijya #0" = -1
+	"Skwa Lijya #0" = -1
+	"Kati Lijya #0" = -1
+	"Sno' Lijya #0" = -1
+	"Ka Lijya #0" = -1 
+	"Ti Lijya #0" = -1 
+	"Titsaka Lijya #0" = -1
+	"Titsukwa Lijya #0" = -1
+	"Tisno Lijya #0" = -1
+	"Saka Tyoo #0" = -1
+	"Tukwa Tyoo #0" = -1
+	"Suno Tyoo #0" = -1
+	"Hukwa Tyoo #0" = -1
+	"Ku'yu Tyoo #0" = -1
+	"Skwa Tyoo #0" = -1
+	"Kati Tyoo #0" = -1
+	"Sno' Tyoo #0" = -1
+	"Ka Tyoo #0" = -1
+	"Ti Tyoo #0" = -1
+	"Titsaka Tyoo #0" = -1
+	"Titsukwa Tyoo #0" = -1
+	"Tisno Tyoo #0" = -1
+	"Saka Quee #0" = -1
+	"Tukwa Quee #0" = -1
+	"Suno Quee #0" = -1
+	"Hukwa Quee #0" = -1
+	"Ku'yu Quee #0" = -1
+	"Skwa Quee #0" = -1
+	"Kati Quee #0" = -1
+	"Sno' Quee #0" = -1
+	"Ka Quee #0" = -1
+	"Ti Quee #0" = -1
+	"Titsaka Quee #0" = -1
+	"Titsukwa Quee #0" = -1
+	"Tisno Quee #0" = -1 
+}
+
+leader_names = {
+	""
+}
+
+ship_names = {
+	Acolmiztli Acolnahuacat "Ah Hoya" "Ah Tzenul" Amimitl Apanecatl Atl Atlau Axoloa
+	Camaxtli Centeot Centzonuiznaua Chalchiuhtlatonal Chalchiuhtlicue Chalchiutotolin Chalmecalt Chalmecaucihuilt
+	Chantico Chichomexochtli Chicomecoatl Chiconahuai Chihalma Chualchihuitlcue Cihuacaotyl Cinteotl
+	Citlalatonac Citlalicue Ciucoatl Coatlicue Cochimetl Coyolxauhqui Cuauhcoatl 
+	Ehehcatl Eueucoyotl
+	"Hopop Can" Huehueteotl Huitzilopochtli Huixtocihuatl
+	Itzcoliuhqui Itzli Itzpapalotl Itzpzpalotl Ixtlilton Iztamixcoatzin
+	Macuilxochitl Mahayuel Malinalxochi Matalcueye Metztli Mictlan Mictlancihuntl Mictlantechtle
+	Mictlantechupi Mictlantecihuatl Mixcoatl
+	Nanauatzin
+	Ococaltzin Omecihuatl Ometecuhlti Ometeotl Omeyocan
+	Patecatli Paynal
+	Quetzalcoatl
+	Tecciztecatl Teoyaomqui Tepeyollotl Teteoinnan Tezacoatl Tezcatlipoca Tillan-Tlapallan Tlaloc
+	Tlalocan Tlaltechhtlii Tlazolteotl Tonacatecuhtli Tonatiuhican Tonatiuth Tzitmime
+	Xilonen "Xipe Totec" Xiucoatl Xiuhtecuhtli Xochipilli Xochiquetzal Xolotl Xonecuilli
+	Yacatechutli
+}
+
+
+army_names = {
+	"Army $PROVINCE$" 
+}
+
+fleet_names = {
+	"Glorious Fleet"
+}

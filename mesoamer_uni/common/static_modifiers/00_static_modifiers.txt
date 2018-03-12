@@ -100,6 +100,7 @@ city = {
 	allowed_num_of_buildings = 2
 	local_sailors_modifier = 0.25
 	garrison_growth = 0.05
+	local_monthly_devastation = -1.92
 }
 
 port = {
@@ -116,7 +117,7 @@ in_capital_state = {
 }
 
 coastal = {
-	supply_limit_modifier = 0.5
+	supply_limit_modifier = 0.10
 	province_trade_power_modifier = 0.25
 }
 
@@ -229,7 +230,7 @@ province_razed = {
 
 development = {
 	allowed_num_of_buildings = 0.1
-	supply_limit_modifier = 0.02
+	supply_limit_modifier = 0.012
 	local_missionary_strength = -0.001
 	land_forcelimit	= 0.04			# special case, affected by autonomy
 	naval_forcelimit = 0.1			# special case, affected by autonomy & set to 0 by code if not port
@@ -334,7 +335,7 @@ occupied = {
 	local_sailors_modifier = -0.5
 	local_institution_spread = -0.1
 	
-	local_monthly_devastation = 0.2
+	local_monthly_devastation = 2.75
 }
 
 under_siege = {
@@ -342,7 +343,7 @@ under_siege = {
 	province_trade_power_modifier = -0.25
 	local_institution_spread = -0.1
 
-	local_monthly_devastation = 0.1
+	local_monthly_devastation = 2.92
 }
 
 
@@ -350,8 +351,8 @@ devastation = {
 	trade_goods_size_modifier = -1
 	supply_limit_modifier = -0.5
 	local_institution_spread = -1.0
-	local_manpower_modifier = -1.0
-	local_sailors_modifier = -1.0
+	local_manpower_modifier = -0.04
+	local_sailors_modifier = -0.04
 	local_hostile_movement_speed = -0.25
 	local_friendly_movement_speed = -0.25
 }
@@ -459,9 +460,9 @@ base_values = {
 	merchants = 2							#Start with 2 merchants
 	diplomats = 2							#Start with 2 diplomats..
 	missionaries = 1						#1 missionary
-	army_tradition_decay = 0.05				#lose 5% yearly
-	navy_tradition_decay = 0.05				#lose 5% yearly
-	prestige_decay = 0.05					#lose 5% prestige each year
+	army_tradition_decay = 0.075				#lose 5% yearly
+	navy_tradition_decay = 0.075				#lose 5% yearly
+	prestige_decay = 0.075					#lose 5% prestige each year
 	tolerance_own = 3
 	diplomatic_upkeep = 4
 	tolerance_heathen = -3
@@ -516,7 +517,6 @@ positive_stability = {
 	devotion = 0.5
 	yearly_corruption = -0.02
 	global_institution_spread = 0.05
-	yearly_harmony = 0.25
 }
 
 negative_stability = {
@@ -775,6 +775,7 @@ legitimacy = {
 	vassal_income = 0.1
 	monthly_militarized_society = 0.05
 	max_absolutism = 20
+	yearly_harmony = 4
 }
 
 #Multiplied by current Horde Unity - 50
@@ -1314,13 +1315,14 @@ native_policy_hostile = {
 ########################################
 
 high_harmony = {
-	tolerance_own = 1
+	global_missionary_strength = 0.03
 }
 
 low_harmony = {
-	tolerance_own = -3
-	legitimacy = -1
-	meritocracy = -2
+	tolerance_own = -2
+	global_unrest = 2
+	land_morale = -0.10
+	global_missionary_strength = -0.03
 }
 
 ########################################
