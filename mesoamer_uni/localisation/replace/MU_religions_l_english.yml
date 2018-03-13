@@ -49,3 +49,10 @@
  religion_maya: "Maya"
  religion_maya_religion_desc: ""
  
+ christian_group: "Christian:
+ roman_catholic: "Roman Catholic" 
+ roman_catholic_religion_desc: ""
+ 
+ shared_pantheon: "Shared Pantheon"
+ desc_shared_pantheon: "The followers of the various Central Mexican deities all share the same general pantheon and thus have at least a modicum of respect for other gods in that pantheon."
+ 

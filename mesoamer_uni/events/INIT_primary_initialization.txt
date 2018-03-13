@@ -93,6 +93,16 @@ country_event = {
 					duration = -1
 				}
 			}
+			
+			every_country = {
+				limit = {
+					religion_group = nahuatl_group
+				}
+				add_country_modifier = {
+					name = shared_pantheon
+					duration = -1
+				}
+			}
 		
 			########################
 			#SETUP - EVERY PROVINCE#

@@ -1,5 +1,5 @@
 culture = islander
-religion = placeholderism
+religion = religion_maya
 capital = "Turneffe"
 trade_goods = unknown
 hre = no

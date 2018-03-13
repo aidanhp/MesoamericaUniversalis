@@ -1,5 +1,5 @@
 culture = placeholdertec
-religion = placeholderism
+religion = none
 capital = "Jamaica"
 trade_goods = unknown
 hre = no

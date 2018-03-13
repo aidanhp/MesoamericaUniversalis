@@ -1,5 +1,5 @@
 culture = none
-religion = placeholderism
+religion = none
 capital = "Mary Islands"
 trade_goods = unknown
 hre = no

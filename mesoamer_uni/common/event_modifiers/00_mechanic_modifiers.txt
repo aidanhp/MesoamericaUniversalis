@@ -116,3 +116,9 @@ postclassic_golden_age = {
 	manpower_recovery_speed = 0.20
 	merchants = 1
 }
+
+#Religions#
+shared_pantheon = {
+	tolerance_heretic = 2.5
+	religious_unity = 0.20
+}
