@@ -103,6 +103,12 @@ country_event = {
 					duration = -1
 				}
 			}
+			
+			AAA = {
+				add_accepted_culture = tepanec
+				add_accepted_culture = colhua
+				add_accepted_culture = acolhua
+			}
 		
 			########################
 			#SETUP - EVERY PROVINCE#

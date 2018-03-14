@@ -1,0 +1,221 @@
+#Country Name: Please see filename.
+
+graphical_culture = southamericagfx
+
+color = { 0 0 0 }
+
+historical_idea_groups = {
+	hegemonic_ideas
+	trade_ideas
+	offensive_ideas
+	power_concentration_ideas
+	spy_ideas
+	quality_ideas
+	influence_ideas
+	defensive_ideas
+}
+
+historical_units = {
+	wm_west_mexican_infantry 
+	wm_late_west_mexican_infantry
+	wm_west_mexican_gunpowder_infantry
+	wm_west_mexican_musketeer
+	wm_west_mexican_flintlock
+}
+
+monarch_names = {
+	"Saz Eeca #0" = 20
+	"Hua'apua Eeca #0" = 20
+	"Huaijca Eeca #0" = 20
+	"Muaacua Eeca #0" = 20
+	"Anszbi Ansz Eeca #0" = 20
+	"Arajsebi Eeca #0" = 20
+	"Araahua'apua Eeca #0" = 20
+	"Arahuaica Eeca #0" = 20
+	"Saz Chi'i #0" = 20
+	"Hua'apua Chi'i #0" = 20
+	"Huaijca Chi'i #0" = 20
+	"Muaacua Chi'i #0" = 20
+	"Anszbi Ansz Chi'i #0" = 20
+	"Arajsebi Chi'i #0" = 20
+	"Araahua'apua Chi'i #0" = 20
+	"Arahuaica Chi'i #0" = 20
+	"Saz Ichu'i #0" = 20
+	"Hua'apua Ichu'i #0" = 20
+	"Huaijca Ichu'i #0" = 20
+	"Muaacua Ichu'i #0" = 20
+	"Anszbi Ansz Ichu'i #0" = 20
+	"Arajsebi Ichu'i #0" = 20
+	"Araahua'apua Ichu'i #0" = 20
+	"Arahuaica Ichu'i #0" = 20
+	"Saz Cu'ucu'u #0" = 20
+	"Hua'apua Cu'ucu'u #0" = 20
+	"Huaijca Cu'ucu'u #0" = 20
+	"Muaacua Cu'ucu'u #0" = 20
+	"Anszbi Ansz Cu'ucu'u #0" = 20
+	"Arajsebi Cu'ucu'u #0" = 20
+	"Araahua'apua Cu'ucu'u #0" = 20
+	"Arahuaica Cu'ucu'u #0" = 20
+	"Saz Tatziu'u #0" = 20
+	"Hua'apua Tatziu'u #0" = 20
+	"Huaijca Tatziu'u #0" = 20
+	"Muaacua Tatziu'u #0" = 20
+	"Anszbi Ansz Tatziu'u #0" = 20
+	"Arajsebi Tatziu'u #0" = 20
+	"Araahua'apua Tatziu'u #0" = 20
+	"Arahuaica Tatziu'u #0" = 20
+	"Saz Jaj #0" = 20
+	"Hua'apua Jaj #0" = 20
+	"Huaijca Jaj #0" = 20
+	"Muaacua Jaj #0" = 20
+	"Anszbi Ansz Jaj #0" = 20
+	"Arajsebi Jaj #0" = 20
+	"Araahua'apua Jaj #0" = 20
+	"Arahuaica Jaj #0" = 20
+	"Saz Huiini #0" = 20
+	"Hua'apua Huiini #0" = 20
+	"Huaijca Huiini #0" = 20
+	"Muaacua Huiini #0" = 20
+	"Anszbi Ansz Huiini #0" = 20
+	"Arajsebi Huiini #0" = 20
+	"Araahua'apua Huiini #0" = 20
+	"Arahuaica Huiini #0" = 20
+	"Saz Cua'zra'abe #0" = 20
+	"Hua'apua Cua'zra'abe #0" = 20
+	"Huaijca Cua'zra'abe #0" = 20
+	"Muaacua Cua'zra'abe #0" = 20
+	"Anszbi Ansz Cua'zra'abe #0" = 20
+	"Arajsebi Cua'zra'abe #0" = 20
+	"Araahua'apua Cua'zra'abe #0" = 20
+	"Arahuaica Cua'zra'abe #0" = 20
+	"Saz Biite #0" = 20
+	"Hua'apua Biite #0" = 20
+	"Huaijca Biite #0" = 20
+	"Muaacua Biite #0" = 20
+	"Anszbi Ansz Biite #0" = 20
+	"Arajsebi Biite #0" = 20
+	"Araahua'apua Biite #0" = 20
+	"Arahuaica Biite #0" = 20
+	"Saz Suusu'u #0" = 20
+	"Hua'apua Suusu'u #0" = 20
+	"Huaijca Suusu'u #0" = 20
+	"Muaacua Suusu'u #0" = 20
+	"Anszbi Ansz Suusu'u #0" = 20
+	"Arajsebi Suusu'u #0" = 20
+	"Araahua'apua Suusu'u #0" = 20
+	"Arahuaica Suusu'u #0" = 20
+	
+	"Saz Eeca #0" = -1
+	"Hua'apua Eeca #0" = -1
+	"Huaijca Eeca #0" = -1
+	"Muaacua Eeca #0" = -1
+	"Anszbi Ansz Eeca #0" = -1
+	"Arajsebi Eeca #0" = -1
+	"Araahua'apua Eeca #0" = -1
+	"Arahuaica Eeca #0" = -1
+	"Saz Chi'i #0" = -1
+	"Hua'apua Chi'i #0" = -1
+	"Huaijca Chi'i #0" = -1
+	"Muaacua Chi'i #0" = -1
+	"Anszbi Ansz Chi'i #0" = -1
+	"Arajsebi Chi'i #0" = -1
+	"Araahua'apua Chi'i #0" = -1
+	"Arahuaica Chi'i #0" = -1
+	"Saz Ichu'i #0" = -1
+	"Hua'apua Ichu'i #0" = -1
+	"Huaijca Ichu'i #0" = -1
+	"Muaacua Ichu'i #0" = -1
+	"Anszbi Ansz Ichu'i #0" = -1
+	"Arajsebi Ichu'i #0" = -1
+	"Araahua'apua Ichu'i #0" = -1
+	"Arahuaica Ichu'i #0" = -1
+	"Saz Cu'ucu'u #0" = -1
+	"Hua'apua Cu'ucu'u #0" = -1
+	"Huaijca Cu'ucu'u #0" = -1
+	"Muaacua Cu'ucu'u #0" = -1
+	"Anszbi Ansz Cu'ucu'u #0" = -1
+	"Arajsebi Cu'ucu'u #0" = -1
+	"Araahua'apua Cu'ucu'u #0" = -1
+	"Arahuaica Cu'ucu'u #0" = -1
+	"Saz Tatziu'u #0" = -1
+	"Hua'apua Tatziu'u #0" = -1
+	"Huaijca Tatziu'u #0" = -1
+	"Muaacua Tatziu'u #0" = -1
+	"Anszbi Ansz Tatziu'u #0" = -1
+	"Arajsebi Tatziu'u #0" = -1
+	"Araahua'apua Tatziu'u #0" = -1
+	"Arahuaica Tatziu'u #0" = -1
+	"Saz Jaj #0" = -1
+	"Hua'apua Jaj #0" = -1
+	"Huaijca Jaj #0" = -1
+	"Muaacua Jaj #0" = -1
+	"Anszbi Ansz Jaj #0" = -1
+	"Arajsebi Jaj #0" = -1
+	"Araahua'apua Jaj #0" = -1
+	"Arahuaica Jaj #0" = -1
+	"Saz Huiini #0" = -1
+	"Hua'apua Huiini #0" = -1
+	"Huaijca Huiini #0" = -1
+	"Muaacua Huiini #0" = -1
+	"Anszbi Ansz Huiini #0" = -1
+	"Arajsebi Huiini #0" = -1
+	"Araahua'apua Huiini #0" = -1
+	"Arahuaica Huiini #0" = -1
+	"Saz Cua'zra'abe #0" = -1
+	"Hua'apua Cua'zra'abe #0" = -1
+	"Huaijca Cua'zra'abe #0" = -1
+	"Muaacua Cua'zra'abe #0" = -1
+	"Anszbi Ansz Cua'zra'abe #0" = -1
+	"Arajsebi Cua'zra'abe #0" = -1
+	"Araahua'apua Cua'zra'abe #0" = -1
+	"Arahuaica Cua'zra'abe #0" = -1
+	"Saz Biite #0" = -1
+	"Hua'apua Biite #0" = -1
+	"Huaijca Biite #0" = -1
+	"Muaacua Biite #0" = -1
+	"Anszbi Ansz Biite #0" = -1
+	"Arajsebi Biite #0" = -1
+	"Araahua'apua Biite #0" = -1
+	"Arahuaica Biite #0" = -1
+	"Saz Suusu'u #0" = -1
+	"Hua'apua Suusu'u #0" = -1
+	"Huaijca Suusu'u #0" = -1
+	"Muaacua Suusu'u #0" = -1
+	"Anszbi Ansz Suusu'u #0" = -1
+	"Arajsebi Suusu'u #0" = -1
+	"Araahua'apua Suusu'u #0" = -1
+	"Arahuaica Suusu'u #0" = -1
+}
+
+leader_names = {
+	""
+}
+
+ship_names = {
+	Acolmiztli Acolnahuacat "Ah Hoya" "Ah Tzenul" Amimitl Apanecatl Atl Atlau Axoloa
+	Camaxtli Centeot Centzonuiznaua Chalchiuhtlatonal Chalchiuhtlicue Chalchiutotolin Chalmecalt 	Chalmecaucihuilt
+	Chantico Chichomexochtli Chicomecoatl Chiconahuai Chihalma Chualchihuitlcue Cihuacaotyl Cinteotl
+	Citlalatonac Citlalicue Ciucoatl Coatlicue Cochimetl Coyolxauhqui Cuauhcoatl 
+	Ehehcatl Eueucoyotl
+	"Hopop Can" Huehueteotl Huitzilopochtli Huixtocihuatl
+	Itzcoliuhqui Itzli Itzpapalotl Itzpzpalotl Ixtlilton Iztamixcoatzin
+	Macuilxochitl Mahayuel Malinalxochi Matalcueye Metztli Mictlan Mictlancihuntl Mictlantechtle
+	Mictlantechupi Mictlantecihuatl Mixcoatl
+	Nanauatzin
+	Ococaltzin Omecihuatl Ometecuhlti Ometeotl Omeyocan
+	Patecatli Paynal
+	Quetzalcoatl
+	Tecciztecatl Teoyaomqui Tepeyollotl Teteoinnan Tezacoatl Tezcatlipoca Tillan-Tlapallan Tlaloc
+	Tlalocan Tlaltechhtlii Tlazolteotl Tonacatecuhtli Tonatiuhican Tonatiuth Tzitmime
+	Xilonen "Xipe Totec" Xiucoatl Xiuhtecuhtli Xochipilli Xochiquetzal Xolotl Xonecuilli
+	Yacatechutli
+}
+
+
+army_names = {
+	"Army $PROVINCE$" 
+}
+
+fleet_names = {
+	"$PROVINCE$ Fleet"
+}

@@ -9,6 +9,7 @@
 
 #As far as I can tell the name sets in here are not actually used by the game.
 #Only the names in the country files are
+#Thus why I didn't bother to transcribe all the names here... not sure exactly what this file does besides declare the cultures 
 placeholder = {
 	graphical_culture = southamericagfx
 	placeholdertec = {
@@ -1733,8 +1734,8 @@ west_mexican = {
 
 northwest_mexican = {
 	graphical_culture = southamericagfx
-	#Chichimec languages have not survived for the most part, so most of these use nahuatl placeholder names
-	guamare = {
+	#Chichimec languages have not survived for the most part, so most of these use placeholder names
+	guamare = { #Placeholder from Cora 
 		male_names = {
 			Placeholder
 		}
@@ -1761,7 +1762,7 @@ northwest_mexican = {
 		}
 	}
 	
-	caxcan = {
+	caxcan = { #Placeholder from Cora 
 		male_names = {
 			Placeholder
 		}
@@ -1770,7 +1771,7 @@ northwest_mexican = {
 		}
 	}
 	
-	tecuexe = {
+	tecuexe = { #Placeholder from Cora 
 		male_names = {
 			Placeholder
 		}
@@ -1788,7 +1789,7 @@ northwest_mexican = {
 		}
 	}
 	
-	tepecano = {
+	tepecano = { #Placeholder from Huichol
 		male_names = {
 			Placeholder
 		}
@@ -1797,7 +1798,7 @@ northwest_mexican = {
 		}
 	}
 	
-	totorame = {
+	totorame = { #Placeholder from Tepehuan
 		male_names = {
 			Placeholder
 		}
@@ -1806,7 +1807,7 @@ northwest_mexican = {
 		}
 	}
 	
-	cuyotec = {
+	cuyotec = { #Placeholder from Huichol 
 		male_names = {
 			Placeholder
 		}
@@ -1815,7 +1816,7 @@ northwest_mexican = {
 		}
 	}
 	
-	guachichil = {
+	guachichil = { #Placeholder from Cora 
 		male_names = {
 			Placeholder
 		}
@@ -2096,7 +2097,7 @@ oto_pamean = {
 		}
 	}
 	
-	matlatzinca = { #Can't find a dictionary of this, will have to use placeholder 
+	matlatzinca = { #Placeholder from Mazahua
 		male_names = {
 			Placeholder
 		}
@@ -2105,7 +2106,7 @@ oto_pamean = {
 		}
 	}
 	
-	pame = { #Can't find a dictionary of this, will have to use placeholder 
+	pame = { #Placeholder from Otomi
 		male_names = {
 			Placeholder
 		}
@@ -2241,7 +2242,7 @@ popoluca_group = {
 		}
 	}
 	
-	chocho = { #Will have to use a placeholder 
+	chocho = { #Placeholder from Mazatec
 		male_names = {
 			Placeholder
 		}
@@ -2432,10 +2433,10 @@ cuitlatec = {
 	}
 }
 
-cahita_group = {
+cahita_group = { 
 	graphical_culture = southamericagfx
 	
-	cahita = { #Will have to use a placeholder 
+	cahita = { #Placeholder from Tepehuan 
 		male_names = {
 			Placeholder
 		}
