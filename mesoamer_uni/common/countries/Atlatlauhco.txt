@@ -4,105 +4,222 @@ graphical_culture = southamericagfx
 
 color = { 173 150 0 }
 
+#Country Name: Please see filename.
+
+graphical_culture = southamericagfx
+
+color = { 0 0 0 }
+
 historical_idea_groups = {
-	defensive_ideas
+	hegemonic_ideas
+	trade_ideas
 	offensive_ideas
-	religious_ideas
-	economic_ideas
-	diplomatic_ideas
-	innovativeness_ideas
+	power_concentration_ideas
 	spy_ideas
-	trade_ideas	
+	quality_ideas
+	influence_ideas
+	defensive_ideas
 }
 
 historical_units = {
-	western_medieval_infantry
-	western_medieval_knights
-	western_men_at_arms
-	swiss_landsknechten
-	dutch_maurician
-	austrian_tercio
-	austrian_grenzer
-	austrian_hussar
-	austrian_white_coat
-	prussian_uhlan
-	austrian_jaeger
-	mixed_order_infantry
-	open_order_cavalry
-	napoleonic_square
-	napoleonic_lancers
+	cm_central_mexican_infantry 
+	cm_late_central_mexican_infantry
+	cm_central_mexican_gunpowder_infantry
+	cm_central_mexican_musketeer
+	cm_central_mexican_flintlock
 }
 
 monarch_names = {
-	"Acamapichtli #0" = 20
-	"Iztcoatl #0" = 20
-	"Huitzilihhuitl #0" = 20
-	"Chimalpopoca #0" = 20
-	"Moteuczomah #0" = 20
-	"Tizoc #0" = 20
-	"Ahuitzotl #0" = 20
-	"Axayacatl #0" = 20
-	"Cuauhtemoc #0" = 20
-	"Cuitlahuac #0" = 20
-	"Nezahualcoyotl #0" = 20	
-	"Tlacaelel #0" = 20
-	"Xihuitl Temoc #0" = 20	
-	"Xochitl #0" = 20
-	"Olinqui #0" = 20
-	"Acolmiztli #0" = 20
-	"Yoyontzin #0" = 20
-	"Ixtlilxochitl #0" = 20
-	"Acolnahuacatl #0" = 20
-	"Tzacualcatl #0" = 20
-	"Itzlolinqui #0" = 20
-	"Xilomantzin #0" = 20
-	"Quequecholtzin #0" = 20
-	"Tzompanteuctli #0" = 20
-	"Quetzaltototzin #0" = 20
-	"Cacamatzin #0" = 20
-	"Tlilpotonqui #0" = 20
-	"Tayoatzin #0" = 20
-	"Quauhtlapaltzin #0" = 20
-	"Tezcatlteuctli #0" = 20
-	"Tlacotzin #0" = 20
-	"Chimalpantzin #0" = 20
-	"Tepehuatzin #0" = 20
-	"Tezcatl #0" = 20
-	"Tatlatzincatzin #0" = 20
-	"Tlilpotonqui #0" = 20
-	"Nezahualpilli #0" = 20
-	"Miccacalcatl #0" = 20
-	"Ixtteocalletzin #0" = 20
-
-	"Matlalcihuatzin #0" = -1
-	"Maquiztzin #0" = -1
-	"Xiuhpopocatzin #0" = -1
-	"Tollintzin #0" = -1
-	"Xochiacamapichtli #0" = -1
-	"Xillomantzin #0" = -1
-	"Izapaplotzin #0" = -1
-	"Chiquatzin #0" = -1
-	"Totomochtzin #0" = -1
-	"Tlacoachcimaltzin #0" = -1
-	"Toznenetzin #0" = -1
-	"Cihuapilli #0" = -1
-	"Mauhcaxochitzin #0" = -1
-	"Chicuey #0" = -1
-	"Xiuhtoztzin #0" = -1
-	"Quauhtlamiyahualtzin #0" = -1
-	"Quetzalpetlatzin #0" = -1
-	"Tzihuacxochitzin #0" = -1
+	"Daje Ndajma #0" = 20
+	"Yeje Ndajma #0" = 20
+	"Jni'i Ndajma #0" = 20
+	"Nziojo Ndajma #0" = 20
+	"Ts'ich'a Ndajama #0" = 20
+	"Ñano Ndajma #0" = 20
+	"Yenchjo Ndajma #0" = 20
+	"Jñinchio Ndajma #0" = 20
+	"Nzinchjo Ndajma #0" = 20
+	"Dyëch’a Ndajma #0" = 20
+	"Daje Ngumü #0" = 20
+	"Yeje Ngumü #0" = 20
+	"Jni'i Ngumü #0" = 20
+	"Nziojo Ngumü #0" = 20
+	"Ts'ich'a Ngumü #0" = 20
+	"Ñano Ngumü #0" = 20
+	"Yenchjo Ngumü #0" = 20
+	"Jñinchio Ngumü #0" = 20
+	"Nzinchjo Ngumü #0" = 20
+	"Dyëch’a Ngumü #0" = 20
+	"Daje Sat’ajma #0" = 20
+	"Yeje Sat’ajma #0" = 20
+	"Jni'i Sat’ajma #0" = 20
+	"Nziojo Sat’ajma #0" = 20
+	"Ts'ich'a Sat’ajma #0" = 20
+	"Ñano Sat’ajma #0" = 20
+	"Yenchjo Sat’ajma #0" = 20
+	"Jñinchio Sat’ajma #0" = 20
+	"Nzinchjo Sat’ajma #0" = 20
+	"Dyëch’a Sat’ajma #0" = 20
+	"Daje Cjua'a #0" = 20
+	"Yeje Cjua'a #0" = 20
+	"Jni'i Cjua'a #0" = 20
+	"Nziojo Cjua'a #0" = 20
+	"Ts'ich'a Cjua'a #0" = 20
+	"Ñano Cjua'a #0" = 20
+	"Yenchjo Cjua'a #0" = 20
+	"Jñinchio Cjua'a #0" = 20
+	"Nzinchjo Cjua'a #0" = 20
+	"Dyëch’a Cjua'a #0" = 20
+	"Daje Ndeje #0" = 20
+	"Yeje Ndeje #0" = 20
+	"Jni'i Ndeje #0" = 20
+	"Nziojo Ndeje #0" = 20
+	"Ts'ich'a Ndeje #0" = 20
+	"Ñano Ndeje #0" = 20
+	"Yenchjo Ndeje #0" = 20
+	"Jñinchio Ndeje #0" = 20
+	"Nzinchjo Ndeje #0" = 20
+	"Dyëch’a Ndeje #0" = 20
+	"Daje Dyo'o #0" = 20
+	"Yeje Dyo'o #0" = 20
+	"Jni'i Dyo'o #0" = 20
+	"Nziojo Dyo'o #0" = 20
+	"Ts'ich'a Dyo'o #0" = 20
+	"Ñano Dyo'o #0" = 20
+	"Yenchjo Dyo'o #0" = 20
+	"Jñinchio Dyo'o #0" = 20
+	"Nzinchjo Dyo'o #0" = 20
+	"Dyëch’a Dyo'o #0" = 20
+	"Daje Xüjnü #0" = 20
+	"Yeje Xüjnü #0" = 20
+	"Jni'i Xüjnü #0" = 20
+	"Nziojo Xüjnü #0" = 20
+	"Ts'ich'a Xüjnü #0" = 20
+	"Ñano Xüjnü #0" = 20
+	"Yenchjo Xüjnü #0" = 20
+	"Jñinchio Xüjnü #0" = 20
+	"Nzinchjo Xüjnü #0" = 20
+	"Dyëch’a Xüjnü #0" = 20
+	"Daje Dyebe #0" = 20
+	"Yeje Dyebe #0" = 20
+	"Jni'i Dyebe #0" = 20
+	"Nziojo Dyebe #0" = 20
+	"Ts'ich'a Dyebe #0" = 20
+	"Ñano Dyebe #0" = 20
+	"Yenchjo Dyebe #0" = 20
+	"Jñinchio Dyebe #0" = 20
+	"Nzinchjo Dyebe #0" = 20
+	"Dyëch’a Dyebe #0" = 20
+	"Daje Ndëjnë #0" = 20
+	"Yeje Ndëjnë #0" = 20
+	"Jni'i Ndëjnë #0" = 20
+	"Nziojo Ndëjnë #0" = 20
+	"Ts'ich'a Ndëjnë #0" = 20
+	"Ñano Ndëjnë #0" = 20
+	"Yenchjo Ndëjnë #0" = 20
+	"Jñinchio Ndëjnë #0" = 20
+	"Nzinchjo Ndëjnë #0" = 20
+	"Dyëch’a Ndëjnë #0" = 20
+	
+	"Daje Ndajma #0" = -1
+	"Yeje Ndajma #0" = -1
+	"Jni'i Ndajma #0" = -1
+	"Nziojo Ndajma #0" = -1
+	"Ts'ich'a Ndajama #0" = -1
+	"Ñano Ndajma #0" = -1
+	"Yenchjo Ndajma #0" = -1
+	"Jñinchio Ndajma #0" = -1
+	"Nzinchjo Ndajma #0" = -1
+	"Dyëch’a Ndajma #0" = -1
+	"Daje Ngumü #0" = -1
+	"Yeje Ngumü #0" = -1
+	"Jni'i Ngumü #0" = -1
+	"Nziojo Ngumü #0" = -1
+	"Ts'ich'a Ngumü #0" = -1
+	"Ñano Ngumü #0" = -1
+	"Yenchjo Ngumü #0" = -1
+	"Jñinchio Ngumü #0" = -1
+	"Nzinchjo Ngumü #0" = -1
+	"Dyëch’a Ngumü #0" = -1
+	"Daje Sat’ajma #0" = -1
+	"Yeje Sat’ajma #0" = -1
+	"Jni'i Sat’ajma #0" = -1
+	"Nziojo Sat’ajma #0" = -1
+	"Ts'ich'a Sat’ajma #0" = -1
+	"Ñano Sat’ajma #0" = -1
+	"Yenchjo Sat’ajma #0" = -1
+	"Jñinchio Sat’ajma #0" = -1
+	"Nzinchjo Sat’ajma #0" = -1
+	"Dyëch’a Sat’ajma #0" = -1
+	"Daje Cjua'a #0" = -1
+	"Yeje Cjua'a #0" = -1
+	"Jni'i Cjua'a #0" = -1
+	"Nziojo Cjua'a #0" = -1
+	"Ts'ich'a Cjua'a #0" = -1
+	"Ñano Cjua'a #0" = -1
+	"Yenchjo Cjua'a #0" = -1
+	"Jñinchio Cjua'a #0" = -1
+	"Nzinchjo Cjua'a #0" = -1
+	"Dyëch’a Cjua'a #0" = -1
+	"Daje Ndeje #0" = -1
+	"Yeje Ndeje #0" = -1
+	"Jni'i Ndeje #0" = -1
+	"Nziojo Ndeje #0" = -1
+	"Ts'ich'a Ndeje #0" = -1
+	"Ñano Ndeje #0" = -1
+	"Yenchjo Ndeje #0" = -1
+	"Jñinchio Ndeje #0" = -1
+	"Nzinchjo Ndeje #0" = -1
+	"Dyëch’a Ndeje #0" = -1
+	"Daje Dyo'o #0" = -1
+	"Yeje Dyo'o #0" = -1
+	"Jni'i Dyo'o #0" = -1
+	"Nziojo Dyo'o #0" = -1
+	"Ts'ich'a Dyo'o #0" = -1
+	"Ñano Dyo'o #0" = -1
+	"Yenchjo Dyo'o #0" = -1
+	"Jñinchio Dyo'o #0" = -1
+	"Nzinchjo Dyo'o #0" = -1
+	"Dyëch’a Dyo'o #0" = -1
+	"Daje Xüjnü #0" = -1
+	"Yeje Xüjnü #0" = -1
+	"Jni'i Xüjnü #0" = -1
+	"Nziojo Xüjnü #0" = -1
+	"Ts'ich'a Xüjnü #0" = -1
+	"Ñano Xüjnü #0" = -1
+	"Yenchjo Xüjnü #0" = -1
+	"Jñinchio Xüjnü #0" = -1
+	"Nzinchjo Xüjnü #0" = -1
+	"Dyëch’a Xüjnü #0" = -1
+	"Daje Dyebe #0" = -1
+	"Yeje Dyebe #0" = -1
+	"Jni'i Dyebe #0" = -1
+	"Nziojo Dyebe #0" = -1
+	"Ts'ich'a Dyebe #0" = -1
+	"Ñano Dyebe #0" = -1
+	"Yenchjo Dyebe #0" = -1
+	"Jñinchio Dyebe #0" = -1
+	"Nzinchjo Dyebe #0" = -1
+	"Dyëch’a Dyebe #0" = -1
+	"Daje Ndëjnë #0" = -1
+	"Yeje Ndëjnë #0" = -1
+	"Jni'i Ndëjnë #0" = -1
+	"Nziojo Ndëjnë #0" = -1
+	"Ts'ich'a Ndëjnë #0" = -1
+	"Ñano Ndëjnë #0" = -1
+	"Yenchjo Ndëjnë #0" = -1
+	"Jñinchio Ndëjnë #0" = -1
+	"Nzinchjo Ndëjnë #0" = -1
+	"Dyëch’a Ndëjnë #0" = -1
 }
 
 leader_names = {
-	Tenoch Tetzcocah Tlaco Amaxal Chapulin Coyopotl Huitzil Moyotl Tecuampil Xique Ixehuatl Ahuatl Chilchoa 
-	Cuatlapantzi Michimani Techalotzi Quecholac Tecuanhuey Tuxpan Ehecatl Cuahutenco Coatl Cuahtzon Cuaxiloa 
-	Hueytletl Tecuampil Tlapaltototli Totozintle Xochitecatl Tlahuetl Tonacatl Zontlimatzi Chalci 
+	""
 }
 
 ship_names = {
 	Acolmiztli Acolnahuacat "Ah Hoya" "Ah Tzenul" Amimitl Apanecatl Atl Atlau Axoloa
-	Camaxtli Centeot Centzonuiznaua Chalchiuhtlatonal Chalchiuhtlicue Chalchiutotolin Chalmecalt Chalmecaucihuilt
+	Camaxtli Centeot Centzonuiznaua Chalchiuhtlatonal Chalchiuhtlicue Chalchiutotolin Chalmecalt 	Chalmecaucihuilt
 	Chantico Chichomexochtli Chicomecoatl Chiconahuai Chihalma Chualchihuitlcue Cihuacaotyl Cinteotl
 	Citlalatonac Citlalicue Ciucoatl Coatlicue Cochimetl Coyolxauhqui Cuauhcoatl 
 	Ehehcatl Eueucoyotl
@@ -122,7 +239,7 @@ ship_names = {
 
 
 army_names = {
-	"$PROVINCE$ Xiquipilli" 
+	"Army $PROVINCE$" 
 }
 
 fleet_names = {

@@ -4,100 +4,401 @@ graphical_culture = southamericagfx
 
 color = { 200 153 158 }
 
+﻿#Country Name: Please see filename.
+
+graphical_culture = southamericagfx
+
+color = { 0 0 0 }
+
 historical_idea_groups = {
-	defensive_ideas
+	hegemonic_ideas
+	trade_ideas
 	offensive_ideas
-	religious_ideas
-	economic_ideas
-	diplomatic_ideas
-	innovativeness_ideas
+	power_concentration_ideas
 	spy_ideas
-	trade_ideas	
+	quality_ideas
+	influence_ideas
+	defensive_ideas
 }
 
 historical_units = {
-	western_medieval_infantry
-	western_medieval_knights
-	western_men_at_arms
-	swiss_landsknechten
-	dutch_maurician
-	austrian_tercio
-	austrian_grenzer
-	austrian_hussar
-	austrian_white_coat
-	prussian_uhlan
-	austrian_jaeger
-	mixed_order_infantry
-	open_order_cavalry
-	napoleonic_square
-	napoleonic_lancers
+	hu_huaxyacac_infantry 
+	hu_late_huaxyacac_infantry
+	hu_huaxyacac_gunpowder_infantry
+	hu_huaxyacac_musketeer
+	hu_huaxyacac_flintlock
 }
 
 monarch_names = {
-	"Acamapichtli #0" = 20
-	"Iztcoatl #0" = 20
-	"Huitzilihhuitl #0" = 20
-	"Chimalpopoca #0" = 20
-	"Moteuczomah #0" = 20
-	"Tizoc #0" = 20
-	"Ahuitzotl #0" = 20
-	"Axayacatl #0" = 20
-	"Cuauhtemoc #0" = 20
-	"Cuitlahuac #0" = 20
-	"Nezahualcoyotl #0" = 20	
-	"Tlacaelel #0" = 20
-	"Xihuitl Temoc #0" = 20	
-	"Xochitl #0" = 20
-	"Olinqui #0" = 20
-	"Acolmiztli #0" = 20
-	"Yoyontzin #0" = 20
-	"Ixtlilxochitl #0" = 20
-	"Acolnahuacatl #0" = 20
-	"Tzacualcatl #0" = 20
-	"Itzlolinqui #0" = 20
-	"Xilomantzin #0" = 20
-	"Quequecholtzin #0" = 20
-	"Tzompanteuctli #0" = 20
-	"Quetzaltototzin #0" = 20
-	"Cacamatzin #0" = 20
-	"Tlilpotonqui #0" = 20
-	"Tayoatzin #0" = 20
-	"Quauhtlapaltzin #0" = 20
-	"Tezcatlteuctli #0" = 20
-	"Tlacotzin #0" = 20
-	"Chimalpantzin #0" = 20
-	"Tepehuatzin #0" = 20
-	"Tezcatl #0" = 20
-	"Tatlatzincatzin #0" = 20
-	"Tlilpotonqui #0" = 20
-	"Nezahualpilli #0" = 20
-	"Miccacalcatl #0" = 20
-	"Ixtteocalletzin #0" = 20
-
-	"Matlalcihuatzin #0" = -1
-	"Maquiztzin #0" = -1
-	"Xiuhpopocatzin #0" = -1
-	"Tollintzin #0" = -1
-	"Xochiacamapichtli #0" = -1
-	"Xillomantzin #0" = -1
-	"Izapaplotzin #0" = -1
-	"Chiquatzin #0" = -1
-	"Totomochtzin #0" = -1
-	"Tlacoachcimaltzin #0" = -1
-	"Toznenetzin #0" = -1
-	"Cihuapilli #0" = -1
-	"Mauhcaxochitzin #0" = -1
-	"Chicuey #0" = -1
-	"Xiuhtoztzin #0" = -1
-	"Quauhtlamiyahualtzin #0" = -1
-	"Quetzalpetlatzin #0" = -1
-	"Tzihuacxochitzin #0" = -1
+	"Cüii Quitson #0" = 20
+	"Ve Quitson #0" = 20
+	"Ndye Quitson #0" = 20
+	"Ninnque Quitson #0" = 20
+	"'On Quitson #0" = 20
+	"Yon Quitson #0" = 20
+	"Ntyque' Quitson #0" = 20
+	"Nen Quitson #0" = 20
+	"Njen Quitson #0" = 20
+	"Nqui Quitson #0" = 20
+	"Nqui ncho' Quitson #0" = 20
+	"Nqui ncho' ve Quitson #0" = 20
+	"Nqui ncho' ndye Quitson #0" = 20
+	"Cüii Jndye #0" = 20
+	"Ve Jndye #0" = 20
+	"Ndye Jndye #0" = 20
+	"Ninnque Jndye #0" = 20
+	"'On Jndye #0" = 20
+	"Yon Jndye #0" = 20
+	"Ntyque' Jndye #0" = 20
+	"Nen Jndye #0" = 20
+	"Njen Jndye #0" = 20
+	"Nqui Jndye #0" = 20
+	"Nqui ncho' Jndye #0" = 20
+	"Nqui ncho' ve Jndye #0" = 20
+	"Nqui ncho' ndye Jndye #0" = 20
+	"Cüii V'aa #0" = 20
+	"Ve V'aa #0" = 20
+	"Ndye V'aa #0" = 20
+	"Ninnque V'aa #0" = 20
+	"'On V'aa #0" = 20
+	"Yon V'aa #0" = 20
+	"Ntyque' V'aa #0" = 20
+	"Nen V'aa #0" = 20
+	"Njen V'aa #0" = 20
+	"Nqui V'aa #0" = 20
+	"Nqui ncho' V'aa #0" = 20
+	"Nqui ncho' ve V'aa #0" = 20
+	"Nqui ncho' ndye V'aa #0" = 20
+	"Cüii Quityon #0" = 20
+	"Ve Quityon #0" = 20
+	"Ndye Quityon #0" = 20
+	"Ninnque Quityon #0" = 20
+	"'On Quityon #0" = 20
+	"Yon Quityon #0" = 20
+	"Ntyque' Quityon #0" = 20
+	"Nen Quityon #0" = 20
+	"Njen Quityon #0" = 20
+	"Nqui Quityon #0" = 20
+	"Nqui ncho' Quityon #0" = 20
+	"Nqui ncho' ve Quityon #0" = 20
+	"Nqui ncho' ndye Quityon #0" = 20
+	"Cüii Quitsu #0" = 20
+	"Ve Quitsu #0" = 20
+	"Ndye Quitsu #0" = 20
+	"Ninnque Quitsu #0" = 20
+	"'On Quitsu #0" = 20
+	"Yon Quitsu #0" = 20
+	"Ntyque' Quitsu #0" = 20
+	"Nen Quitsu #0" = 20
+	"Njen Quitsu #0" = 20
+	"Nqui Quitsu #0" = 20
+	"Nqui ncho' Quitsu #0" = 20
+	"Nqui ncho' ve Quitsu #0" = 20
+	"Nqui ncho' ndye Quitsu #0" = 20
+	"Cüii Tsö'xquen #0" = 20
+	"Ve Tsö'xquen #0" = 20
+	"Ndye Tsö'xquen #0" = 20
+	"Ninnque Tsö'xquen #0" = 20
+	"'On Tsö'xquen #0" = 20
+	"Yon Tsö'xquen #0" = 20
+	"Ntyque' Tsö'xquen #0" = 20
+	"Nen Tsö'xquen #0" = 20
+	"Njen Tsö'xquen #0" = 20
+	"Nqui Tsö'xquen #0" = 20
+	"Nqui ncho' Tsö'xquen #0" = 20
+	"Nqui ncho' ve Tsö'xquen #0" = 20
+	"Nqui ncho' ndye Tsö'xquen #0" = 20
+	"Cüii Tyosu #0" = 20
+	"Ve Tyosu #0" = 20
+	"Ndye Tyosu #0" = 20
+	"Ninnque Tyosu #0" = 20
+	"'On Tyosu #0" = 20
+	"Yon Tyosu #0" = 20
+	"Ntyque' Tyosu #0" = 20
+	"Nen Tyosu #0" = 20
+	"Njen Tyosu #0" = 20
+	"Nqui Tyosu #0" = 20
+	"Nqui ncho' Tyosu #0" = 20
+	"Nqui ncho' ve Tyosu #0" = 20
+	"Nqui ncho' ndye Tyosu #0" = 20
+	"Cüii Ndaatioo #0" = 20
+	"Ve Ndaatioo #0" = 20
+	"Ndye Ndaatioo #0" = 20
+	"Ninnque Ndaatioo #0" = 20
+	"'On Ndaatioo #0" = 20
+	"Yon Ndaatioo #0" = 20
+	"Ntyque' Ndaatioo #0" = 20
+	"Nen Ndaatioo #0" = 20
+	"Njen Ndaatioo #0" = 20
+	"Nqui Ndaatioo #0" = 20
+	"Nqui ncho' Ndaatioo #0" = 20
+	"Nqui ncho' ve Ndaatioo #0" = 20
+	"Nqui ncho' ndye Ndaatioo #0" = 20
+	"Cüii Quitsue' #0" = 20
+	"Ve Quitsue' #0" = 20
+	"Ndye Quitsue' #0" = 20
+	"Ninnque Quitsue' #0" = 20
+	"'On Quitsue' #0" = 20
+	"Yon Quitsue' #0" = 20
+	"Ntyque' Quitsue' #0" = 20
+	"Nen Quitsue' #0" = 20
+	"Njen Quitsue' #0" = 20
+	"Nqui Quitsue' #0" = 20
+	"Nqui ncho' Quitsue' #0" = 20
+	"Nqui ncho' ve Quitsue' #0" = 20
+	"Nqui ncho' ndye Quitsue' #0" = 20
+	"Cüii Mumu #0" = 20
+	"Ve Mumu #0" = 20
+	"Ndye Mumu #0" = 20
+	"Ninnque Mumu #0" = 20
+	"'On Mumu #0" = 20
+	"Yon Mumu #0" = 20
+	"Ntyque' Mumu #0" = 20
+	"Nen Mumu #0" = 20
+	"Njen Mumu #0" = 20
+	"Nqui Mumu #0" = 20
+	"Nqui ncho' Mumu #0" = 20
+	"Nqui ncho' ve Mumu #0" = 20
+	"Nqui ncho' ndye Mumu #0" = 20
+	"Cüii Tsja' #0" = 20
+	"Ve Tsja' #0" = 20
+	"Ndye Tsja' #0" = 20
+	"Ninnque Tsja' #0" = 20
+	"'On Tsja' #0" = 20
+	"Yon Tsja' #0" = 20
+	"Ntyque' Tsja' #0" = 20
+	"Nen Tsja' #0" = 20
+	"Njen Tsja' #0" = 20
+	"Nqui Tsja' #0" = 20
+	"Nqui ncho' Tsja' #0" = 20
+	"Nqui ncho' ve Tsja' #0" = 20
+	"Nqui ncho' ndye Tsja' #0" = 20
+	"Cüii Quichi #0" = 20
+	"Ve Quichi #0" = 20
+	"Ndye Quichi #0" = 20
+	"Ninnque Quichi #0" = 20
+	"'On Quichi #0" = 20
+	"Yon Quichi #0" = 20
+	"Ntyque' Quichi #0" = 20
+	"Nen Quichi #0" = 20
+	"Njen Quichi #0" = 20
+	"Nqui Quichi #0" = 20
+	"Nqui ncho' Quichi #0" = 20
+	"Nqui ncho' ve Quichi #0" = 20
+	"Nqui ncho' ndye Quichi #0" = 20
+	"Cüii Ndaatsua' #0" = 20
+	"Ve Ndaatsua' #0" = 20
+	"Ndye Ndaatsua' #0" = 20
+	"Ninnque Ndaatsua' #0" = 20
+	"'On Ndaatsua' #0" = 20
+	"Yon Ndaatsua' #0" = 20
+	"Ntyque' Ndaatsua' #0" = 20
+	"Nen Ndaatsua' #0" = 20
+	"Njen Ndaatsua' #0" = 20
+	"Nqui Ndaatsua' #0" = 20
+	"Nqui ncho' Ndaatsua' #0" = 20
+	"Nqui ncho' ve Ndaatsua' #0" = 20
+	"Nqui ncho' ndye Ndaatsua' #0" = 20
+	"Cüii Ntjaa' #0" = 20
+	"Ve Ntjaa' #0" = 20
+	"Ndye Ntjaa' #0" = 20
+	"Ninnque Ntjaa' #0" = 20
+	"'On Ntjaa' #0" = 20
+	"Yon Ntjaa' #0" = 20
+	"Ntyque' Ntjaa' #0" = 20
+	"Nen Ntjaa' #0" = 20
+	"Njen Ntjaa' #0" = 20
+	"Nqui Ntjaa' #0" = 20
+	"Nqui ncho' Ntjaa' #0" = 20
+	"Nqui ncho' ve Ntjaa' #0" = 20
+	"Nqui ncho' ndye Ntjaa' #0" = 20
+	
+	"Cüii Quitson #0" = -1
+	"Ve Quitson #0" = -1
+	"Ndye Quitson #0" = -1
+	"Ninnque Quitson #0" = -1
+	"'On Quitson #0" = -1
+	"Yon Quitson #0" = -1
+	"Ntyque' Quitson #0" = -1
+	"Nen Quitson #0" = -1
+	"Njen Quitson #0" = -1
+	"Nqui Quitson #0" = -1
+	"Nqui ncho' Quitson #0" = -1
+	"Nqui ncho' ve Quitson #0" = -1
+	"Nqui ncho' ndye Quitson #0" = -1
+	"Cüii Jndye #0" = -1
+	"Ve Jndye #0" = -1
+	"Ndye Jndye #0" = -1
+	"Ninnque Jndye #0" = -1
+	"'On Jndye #0" = -1
+	"Yon Jndye #0" = -1
+	"Ntyque' Jndye #0" = -1
+	"Nen Jndye #0" = -1
+	"Njen Jndye #0" = -1
+	"Nqui Jndye #0" = -1
+	"Nqui ncho' Jndye #0" = -1
+	"Nqui ncho' ve Jndye #0" = -1
+	"Nqui ncho' ndye Jndye #0" = -1
+	"Cüii V'aa #0" = -1
+	"Ve V'aa #0" = -1
+	"Ndye V'aa #0" = -1
+	"Ninnque V'aa #0" = -1
+	"'On V'aa #0" = -1
+	"Yon V'aa #0" = -1
+	"Ntyque' V'aa #0" = -1
+	"Nen V'aa #0" = -1
+	"Njen V'aa #0" = -1
+	"Nqui V'aa #0" = -1
+	"Nqui ncho' V'aa #0" = -1
+	"Nqui ncho' ve V'aa #0" = -1
+	"Nqui ncho' ndye V'aa #0" = -1
+	"Cüii Quityon #0" = -1
+	"Ve Quityon #0" = -1
+	"Ndye Quityon #0" = -1
+	"Ninnque Quityon #0" = -1
+	"'On Quityon #0" = -1
+	"Yon Quityon #0" = -1
+	"Ntyque' Quityon #0" = -1
+	"Nen Quityon #0" = -1
+	"Njen Quityon #0" = -1
+	"Nqui Quityon #0" = -1
+	"Nqui ncho' Quityon #0" = -1
+	"Nqui ncho' ve Quityon #0" = -1
+	"Nqui ncho' ndye Quityon #0" = -1
+	"Cüii Quitsu #0" = -1
+	"Ve Quitsu #0" = -1
+	"Ndye Quitsu #0" = -1
+	"Ninnque Quitsu #0" = -1
+	"'On Quitsu #0" = -1
+	"Yon Quitsu #0" = -1
+	"Ntyque' Quitsu #0" = -1
+	"Nen Quitsu #0" = -1
+	"Njen Quitsu #0" = -1
+	"Nqui Quitsu #0" = -1
+	"Nqui ncho' Quitsu #0" = -1
+	"Nqui ncho' ve Quitsu #0" = -1
+	"Nqui ncho' ndye Quitsu #0" = -1
+	"Cüii Tsö'xquen #0" = -1
+	"Ve Tsö'xquen #0" = -1
+	"Ndye Tsö'xquen #0" = -1
+	"Ninnque Tsö'xquen #0" = -1
+	"'On Tsö'xquen #0" = -1
+	"Yon Tsö'xquen #0" = -1
+	"Ntyque' Tsö'xquen #0" = -1
+	"Nen Tsö'xquen #0" = -1
+	"Njen Tsö'xquen #0" = -1
+	"Nqui Tsö'xquen #0" = -1
+	"Nqui ncho' Tsö'xquen #0" = -1
+	"Nqui ncho' ve Tsö'xquen #0" = -1
+	"Nqui ncho' ndye Tsö'xquen #0" = -1
+	"Cüii Tyosu #0" = -1
+	"Ve Tyosu #0" = -1
+	"Ndye Tyosu #0" = -1
+	"Ninnque Tyosu #0" = -1
+	"'On Tyosu #0" = -1
+	"Yon Tyosu #0" = -1
+	"Ntyque' Tyosu #0" = -1
+	"Nen Tyosu #0" = -1
+	"Njen Tyosu #0" = -1
+	"Nqui Tyosu #0" = -1
+	"Nqui ncho' Tyosu #0" = -1
+	"Nqui ncho' ve Tyosu #0" = -1
+	"Nqui ncho' ndye Tyosu #0" = -1
+	"Cüii Ndaatioo #0" = -1
+	"Ve Ndaatioo #0" = -1
+	"Ndye Ndaatioo #0" = -1
+	"Ninnque Ndaatioo #0" = -1
+	"'On Ndaatioo #0" = -1
+	"Yon Ndaatioo #0" = -1
+	"Ntyque' Ndaatioo #0" = -1
+	"Nen Ndaatioo #0" = -1
+	"Njen Ndaatioo #0" = -1
+	"Nqui Ndaatioo #0" = -1
+	"Nqui ncho' Ndaatioo #0" = -1
+	"Nqui ncho' ve Ndaatioo #0" = -1
+	"Nqui ncho' ndye Ndaatioo #0" = -1
+	"Cüii Quitsue' #0" = -1
+	"Ve Quitsue' #0" = -1
+	"Ndye Quitsue' #0" = -1
+	"Ninnque Quitsue' #0" = -1
+	"'On Quitsue' #0" = -1
+	"Yon Quitsue' #0" = -1
+	"Ntyque' Quitsue' #0" = -1
+	"Nen Quitsue' #0" = -1
+	"Njen Quitsue' #0" = -1
+	"Nqui Quitsue' #0" = -1
+	"Nqui ncho' Quitsue' #0" = -1
+	"Nqui ncho' ve Quitsue' #0" = -1
+	"Nqui ncho' ndye Quitsue' #0" = -1
+	"Cüii Mumu #0" = -1
+	"Ve Mumu #0" = -1
+	"Ndye Mumu #0" = -1
+	"Ninnque Mumu #0" = -1
+	"'On Mumu #0" = -1
+	"Yon Mumu #0" = -1
+	"Ntyque' Mumu #0" = -1
+	"Nen Mumu #0" = -1
+	"Njen Mumu #0" = -1
+	"Nqui Mumu #0" = -1
+	"Nqui ncho' Mumu #0" = -1
+	"Nqui ncho' ve Mumu #0" = -1
+	"Nqui ncho' ndye Mumu #0" = -1
+	"Cüii Tsja' #0" = -1
+	"Ve Tsja' #0" = -1
+	"Ndye Tsja' #0" = -1
+	"Ninnque Tsja' #0" = -1
+	"'On Tsja' #0" = -1
+	"Yon Tsja' #0" = -1
+	"Ntyque' Tsja' #0" = -1
+	"Nen Tsja' #0" = -1
+	"Njen Tsja' #0" = -1
+	"Nqui Tsja' #0" = -1
+	"Nqui ncho' Tsja' #0" = -1
+	"Nqui ncho' ve Tsja' #0" = -1
+	"Nqui ncho' ndye Tsja' #0" = -1
+	"Cüii Quichi #0" = -1
+	"Ve Quichi #0" = -1
+	"Ndye Quichi #0" = -1
+	"Ninnque Quichi #0" = -1
+	"'On Quichi #0" = -1
+	"Yon Quichi #0" = -1
+	"Ntyque' Quichi #0" = -1
+	"Nen Quichi #0" = -1
+	"Njen Quichi #0" = -1
+	"Nqui Quichi #0" = -1
+	"Nqui ncho' Quichi #0" = -1
+	"Nqui ncho' ve Quichi #0" = -1
+	"Nqui ncho' ndye Quichi #0" = -1
+	"Cüii Ndaatsua' #0" = -1
+	"Ve Ndaatsua' #0" = -1
+	"Ndye Ndaatsua' #0" = -1
+	"Ninnque Ndaatsua' #0" = -1
+	"'On Ndaatsua' #0" = -1
+	"Yon Ndaatsua' #0" = -1
+	"Ntyque' Ndaatsua' #0" = -1
+	"Nen Ndaatsua' #0" = -1
+	"Njen Ndaatsua' #0" = -1
+	"Nqui Ndaatsua' #0" = -1
+	"Nqui ncho' Ndaatsua' #0" = -1
+	"Nqui ncho' ve Ndaatsua' #0" = -1
+	"Nqui ncho' ndye Ndaatsua' #0" = -1
+	"Cüii Ntjaa' #0" = -1
+	"Ve Ntjaa' #0" = -1
+	"Ndye Ntjaa' #0" = -1
+	"Ninnque Ntjaa' #0" = -1
+	"'On Ntjaa' #0" = -1
+	"Yon Ntjaa' #0" = -1
+	"Ntyque' Ntjaa' #0" = -1
+	"Nen Ntjaa' #0" = -1
+	"Njen Ntjaa' #0" = -1
+	"Nqui Ntjaa' #0" = -1
+	"Nqui ncho' Ntjaa' #0" = -1
+	"Nqui ncho' ve Ntjaa' #0" = -1
+	"Nqui ncho' ndye Ntjaa' #0" = -1
 }
 
 leader_names = {
-	Tenoch Tetzcocah Tlaco Amaxal Chapulin Coyopotl Huitzil Moyotl Tecuampil Xique Ixehuatl Ahuatl Chilchoa 
-	Cuatlapantzi Michimani Techalotzi Quecholac Tecuanhuey Tuxpan Ehecatl Cuahutenco Coatl Cuahtzon Cuaxiloa 
-	Hueytletl Tecuampil Tlapaltototli Totozintle Xochitecatl Tlahuetl Tonacatl Zontlimatzi Chalci 
+	""
 }
 
 ship_names = {
@@ -122,9 +423,9 @@ ship_names = {
 
 
 army_names = {
-	"$PROVINCE$ Xiquipilli" 
+	"Army $PROVINCE$" 
 }
 
 fleet_names = {
-	"$PROVINCE$ Fleet"
+	"Glorious Fleet"
 }

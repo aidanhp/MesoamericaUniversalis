@@ -4,105 +4,406 @@ graphical_culture = southamericagfx
 
 color = { 34 74 126 }
 
+﻿#Country Name: Please see filename.
+
+graphical_culture = southamericagfx
+
+color = { 0 0 0 }
+
 historical_idea_groups = {
-	defensive_ideas
+	hegemonic_ideas
+	trade_ideas
 	offensive_ideas
-	religious_ideas
-	economic_ideas
-	diplomatic_ideas
-	innovativeness_ideas
+	power_concentration_ideas
 	spy_ideas
-	trade_ideas	
+	quality_ideas
+	influence_ideas
+	defensive_ideas
 }
 
 historical_units = {
-	western_medieval_infantry
-	western_medieval_knights
-	western_men_at_arms
-	swiss_landsknechten
-	dutch_maurician
-	austrian_tercio
-	austrian_grenzer
-	austrian_hussar
-	austrian_white_coat
-	prussian_uhlan
-	austrian_jaeger
-	mixed_order_infantry
-	open_order_cavalry
-	napoleonic_square
-	napoleonic_lancers
+	hu_huaxyacac_infantry 
+	hu_late_huaxyacac_infantry
+	hu_huaxyacac_gunpowder_infantry
+	hu_huaxyacac_musketeer
+	hu_huaxyacac_flintlock
 }
 
 monarch_names = {
-	"Acamapichtli #0" = 20
-	"Iztcoatl #0" = 20
-	"Huitzilihhuitl #0" = 20
-	"Chimalpopoca #0" = 20
-	"Moteuczomah #0" = 20
-	"Tizoc #0" = 20
-	"Ahuitzotl #0" = 20
-	"Axayacatl #0" = 20
-	"Cuauhtemoc #0" = 20
-	"Cuitlahuac #0" = 20
-	"Nezahualcoyotl #0" = 20	
-	"Tlacaelel #0" = 20
-	"Xihuitl Temoc #0" = 20	
-	"Xochitl #0" = 20
-	"Olinqui #0" = 20
-	"Acolmiztli #0" = 20
-	"Yoyontzin #0" = 20
-	"Ixtlilxochitl #0" = 20
-	"Acolnahuacatl #0" = 20
-	"Tzacualcatl #0" = 20
-	"Itzlolinqui #0" = 20
-	"Xilomantzin #0" = 20
-	"Quequecholtzin #0" = 20
-	"Tzompanteuctli #0" = 20
-	"Quetzaltototzin #0" = 20
-	"Cacamatzin #0" = 20
-	"Tlilpotonqui #0" = 20
-	"Tayoatzin #0" = 20
-	"Quauhtlapaltzin #0" = 20
-	"Tezcatlteuctli #0" = 20
-	"Tlacotzin #0" = 20
-	"Chimalpantzin #0" = 20
-	"Tepehuatzin #0" = 20
-	"Tezcatl #0" = 20
-	"Tatlatzincatzin #0" = 20
-	"Tlilpotonqui #0" = 20
-	"Nezahualpilli #0" = 20
-	"Miccacalcatl #0" = 20
-	"Ixtteocalletzin #0" = 20
-
-	"Matlalcihuatzin #0" = -1
-	"Maquiztzin #0" = -1
-	"Xiuhpopocatzin #0" = -1
-	"Tollintzin #0" = -1
-	"Xochiacamapichtli #0" = -1
-	"Xillomantzin #0" = -1
-	"Izapaplotzin #0" = -1
-	"Chiquatzin #0" = -1
-	"Totomochtzin #0" = -1
-	"Tlacoachcimaltzin #0" = -1
-	"Toznenetzin #0" = -1
-	"Cihuapilli #0" = -1
-	"Mauhcaxochitzin #0" = -1
-	"Chicuey #0" = -1
-	"Xiuhtoztzin #0" = -1
-	"Quauhtlamiyahualtzin #0" = -1
-	"Quetzalpetlatzin #0" = -1
-	"Tzihuacxochitzin #0" = -1
+	"Tüc Poj #0" = 20
+	"Metz Poj #0" = 20
+	"Tugiig Poj #0" = 20
+	"Midaax Poj #0" = 20
+	"Migoox Poj #0" = 20
+	"Tudujc Poj #0" = 20
+	"Huixtujc Poj #0" = 20
+	"Tuctujc Poj #0" = 20
+	"Taxtujc Poj #0" = 20
+	"Majc Poj #0" = 20
+	"Majctüc Poj #0" = 20
+	"Majmetz Poj #0" = 20
+	"Maictugiic Poj #0" = 20
+	"Tüc Tijc #0" = 20
+	"Metz Tijc #0" = 20
+	"Tugiig Tijc #0" = 20
+	"Midaax Tijc #0" = 20
+	"Migoox Tijc #0" = 20
+	"Tudujc Tijc #0" = 20
+	"Huixtujc Tijc #0" = 20
+	"Tuctujc Tijc #0" = 20
+	"Taxtujc Tijc #0" = 20
+	"Majc Tijc #0" = 20
+	"Majctüc Tijc #0" = 20
+	"Majmetz Tijc #0" = 20
+	"Maictugiic Tijc #0" = 20
+	"Tüc Jaydic #0" = 20
+	"Metz Jaydic #0" = 20
+	"Tugiig Jaydic #0" = 20
+	"Midaax Jaydic #0" = 20
+	"Migoox Jaydic #0" = 20
+	"Tudujc Jaydic #0" = 20
+	"Huixtujc Jaydic #0" = 20
+	"Tuctujc Jaydic #0" = 20
+	"Taxtujc Jaydic #0" = 20
+	"Majc Jaydic #0" = 20
+	"Majctüc Jaydic #0" = 20
+	"Majmetz Jaydic #0" = 20
+	"Maictugiic Jaydic #0" = 20
+	"Tüc Tza'fi #0" = 20
+	"Metz Tza'fi #0" = 20
+	"Tugiig Tza'fi #0" = 20
+	"Midaax Tza'fi #0" = 20
+	"Migoox Tza'fi #0" = 20
+	"Tudujc Tza'fi #0" = 20
+	"Huixtujc Tza'fi #0" = 20
+	"Tuctujc Tza'fi #0" = 20
+	"Taxtujc Tza'fi #0" = 20
+	"Majc Tza'fi #0" = 20
+	"Majctüc Tza'fi #0" = 20
+	"Majmetz Tza'fi #0" = 20
+	"Maictugiic Tza'fi #0" = 20
+	"Tüc Cöbajc #0" = 20
+	"Metz Cöbajc #0" = 20
+	"Tugiig Cöbajc #0" = 20
+	"Midaax Cöbajc #0" = 20
+	"Migoox Cöbajc #0" = 20
+	"Tudujc Cöbajc #0" = 20
+	"Huixtujc Cöbajc #0" = 20
+	"Tuctujc Cöbajc #0" = 20
+	"Taxtujc Cöbajc #0" = 20
+	"Majc Cöbajc #0" = 20
+	"Majctüc Cöbajc #0" = 20
+	"Majmetz Cöbajc #0" = 20
+	"Maictugiic Cöbajc #0" = 20
+	"Tüc Nii #0" = 20
+	"Metz Nii #0" = 20
+	"Tugiig Nii #0" = 20
+	"Midaax Nii #0" = 20
+	"Migoox Nii #0" = 20
+	"Tudujc Nii #0" = 20
+	"Huixtujc Nii #0" = 20
+	"Tuctujc Nii #0" = 20
+	"Taxtujc Nii #0" = 20
+	"Majc Nii #0" = 20
+	"Majctüc Nii #0" = 20
+	"Majmetz Nii #0" = 20
+	"Maictugiic Nii #0" = 20
+	"Tüc Uc #0" = 20
+	"Metz Uc #0" = 20
+	"Tugiig Uc #0" = 20
+	"Midaax Uc #0" = 20
+	"Migoox Uc #0" = 20
+	"Tudujc Uc #0" = 20
+	"Huixtujc Uc #0" = 20
+	"Tuctujc Uc #0" = 20
+	"Taxtujc Uc #0" = 20
+	"Majc Uc #0" = 20
+	"Majctüc Uc #0" = 20
+	"Majmetz Uc #0" = 20
+	"Maictugiic Uc #0" = 20
+	"Tüc Miici #0" = 20
+	"Metz Miici #0" = 20
+	"Tugiig Miici #0" = 20
+	"Midaax Miici #0" = 20
+	"Migoox Miici #0" = 20
+	"Tudujc Miici #0" = 20
+	"Huixtujc Miici #0" = 20
+	"Tuctujc Miici #0" = 20
+	"Taxtujc Miici #0" = 20
+	"Majc Miici #0" = 20
+	"Majctüc Miici #0" = 20
+	"Majmetz Miici #0" = 20
+	"Maictugiic Miici #0" = 20
+	"Tüc Cuyxibijy #0" = 20
+	"Metz Cuyxibijy #0" = 20
+	"Tugiig Cuyxibijy #0" = 20
+	"Midaax Cuyxibijy #0" = 20
+	"Migoox Cuyxibijy #0" = 20
+	"Tudujc Cuyxibijy #0" = 20
+	"Huixtujc Cuyxibijy #0" = 20
+	"Tuctujc Cuyxibijy #0" = 20
+	"Taxtujc Cuyxibijy #0" = 20
+	"Majc Cuyxibijy #0" = 20
+	"Majctüc Cuyxibijy #0" = 20
+	"Majmetz Cuyxibijy #0" = 20
+	"Maictugiic Cuyxibijy #0" = 20
+	"Tüc Huixciniix #0" = 20
+	"Metz Huixciniix #0" = 20
+	"Tugiig Huixciniix #0" = 20
+	"Midaax Huixciniix #0" = 20
+	"Migoox Huixciniix #0" = 20
+	"Tudujc Huixciniix #0" = 20
+	"Huixtujc Huixciniix #0" = 20
+	"Tuctujc Huixciniix #0" = 20
+	"Taxtujc Huixciniix #0" = 20
+	"Majc Huixciniix #0" = 20
+	"Majctüc Huixciniix #0" = 20
+	"Majmetz Huixciniix #0" = 20
+	"Maictugiic Huixciniix #0" = 20
+	"Tüc Ujx #0" = 20
+	"Metz Ujx #0" = 20
+	"Tugiig Ujx #0" = 20
+	"Midaax Ujx #0" = 20
+	"Migoox Ujx #0" = 20
+	"Tudujc Ujx #0" = 20
+	"Huixtujc Ujx #0" = 20
+	"Tuctujc Ujx #0" = 20
+	"Taxtujc Ujx #0" = 20
+	"Majc Ujx #0" = 20
+	"Majctüc Ujx #0" = 20
+	"Majmetz Ujx #0" = 20
+	"Maictugiic Ujx #0" = 20
+	"Tüc Jiindzaa #0" = 20
+	"Metz Jiindzaa #0" = 20
+	"Tugiig Jiindzaa #0" = 20
+	"Midaax Jiindzaa #0" = 20
+	"Migoox Jiindzaa #0" = 20
+	"Tudujc Jiindzaa #0" = 20
+	"Huixtujc Jiindzaa #0" = 20
+	"Tuctujc Jiindzaa #0" = 20
+	"Taxtujc Jiindzaa #0" = 20
+	"Majc Jiindzaa #0" = 20
+	"Majctüc Jiindzaa #0" = 20
+	"Majmetz Jiindzaa #0" = 20
+	"Maictugiic Jiindzaa #0" = 20
+	"Tüc Tuu #0" = 20
+	"Metz Tuu #0" = 20
+	"Tugiig Tuu #0" = 20
+	"Midaax Tuu #0" = 20
+	"Migoox Tuu #0" = 20
+	"Tudujc Tuu #0" = 20
+	"Huixtujc Tuu #0" = 20
+	"Tuctujc Tuu #0" = 20
+	"Taxtujc Tuu #0" = 20
+	"Majc Tuu #0" = 20
+	"Majctüc Tuu #0" = 20
+	"Majmetz Tuu #0" = 20
+	"Maictugiic Tuu #0" = 20
+	"Tüc Pijy #0" = 20
+	"Metz Pijy #0" = 20
+	"Tugiig Pijy #0" = 20
+	"Midaax Pijy #0" = 20
+	"Migoox Pijy #0" = 20
+	"Tudujc Pijy #0" = 20
+	"Huixtujc Pijy #0" = 20
+	"Tuctujc Pijy #0" = 20
+	"Taxtujc Pijy #0" = 20
+	"Majc Pijy #0" = 20
+	"Majctüc Pijy #0" = 20
+	"Majmetz Pijy #0" = 20
+	"Maictugiic Pijy #0" = 20
+	
+	"Tüc Poj #0" = -1
+	"Metz Poj #0" = -1
+	"Tugiig Poj #0" = -1
+	"Midaax Poj #0" = -1
+	"Migoox Poj #0" = -1
+	"Tudujc Poj #0" = -1
+	"Huixtujc Poj #0" = -1
+	"Tuctujc Poj #0" = -1
+	"Taxtujc Poj #0" = -1
+	"Majc Poj #0" = -1
+	"Majctüc Poj #0" = -1
+	"Majmetz Poj #0" = -1
+	"Maictugiic Poj #0" = -1
+	"Tüc Tijc #0" = -1
+	"Metz Tijc #0" = -1
+	"Tugiig Tijc #0" = -1
+	"Midaax Tijc #0" = -1
+	"Migoox Tijc #0" = -1
+	"Tudujc Tijc #0" = -1
+	"Huixtujc Tijc #0" = -1
+	"Tuctujc Tijc #0" = -1
+	"Taxtujc Tijc #0" = -1
+	"Majc Tijc #0" = -1
+	"Majctüc Tijc #0" = -1
+	"Majmetz Tijc #0" = -1
+	"Maictugiic Tijc #0" = -1
+	"Tüc Jaydic #0" = -1
+	"Metz Jaydic #0" = -1
+	"Tugiig Jaydic #0" = -1
+	"Midaax Jaydic #0" = -1
+	"Migoox Jaydic #0" = -1
+	"Tudujc Jaydic #0" = -1
+	"Huixtujc Jaydic #0" = -1
+	"Tuctujc Jaydic #0" = -1
+	"Taxtujc Jaydic #0" = -1
+	"Majc Jaydic #0" = -1
+	"Majctüc Jaydic #0" = -1
+	"Majmetz Jaydic #0" = -1
+	"Maictugiic Jaydic #0" = -1
+	"Tüc Tza'fi #0" = -1
+	"Metz Tza'fi #0" = -1
+	"Tugiig Tza'fi #0" = -1
+	"Midaax Tza'fi #0" = -1
+	"Migoox Tza'fi #0" = -1
+	"Tudujc Tza'fi #0" = -1
+	"Huixtujc Tza'fi #0" = -1
+	"Tuctujc Tza'fi #0" = -1
+	"Taxtujc Tza'fi #0" = -1
+	"Majc Tza'fi #0" = -1
+	"Majctüc Tza'fi #0" = -1
+	"Majmetz Tza'fi #0" = -1
+	"Maictugiic Tza'fi #0" = -1
+	"Tüc Cöbajc #0" = -1
+	"Metz Cöbajc #0" = -1
+	"Tugiig Cöbajc #0" = -1
+	"Midaax Cöbajc #0" = -1
+	"Migoox Cöbajc #0" = -1
+	"Tudujc Cöbajc #0" = -1
+	"Huixtujc Cöbajc #0" = -1
+	"Tuctujc Cöbajc #0" = -1
+	"Taxtujc Cöbajc #0" = -1
+	"Majc Cöbajc #0" = -1
+	"Majctüc Cöbajc #0" = -1
+	"Majmetz Cöbajc #0" = -1
+	"Maictugiic Cöbajc #0" = -1
+	"Tüc Nii #0" = -1
+	"Metz Nii #0" = -1
+	"Tugiig Nii #0" = -1
+	"Midaax Nii #0" = -1
+	"Migoox Nii #0" = -1
+	"Tudujc Nii #0" = -1
+	"Huixtujc Nii #0" = -1
+	"Tuctujc Nii #0" = -1
+	"Taxtujc Nii #0" = -1
+	"Majc Nii #0" = -1
+	"Majctüc Nii #0" = -1
+	"Majmetz Nii #0" = -1
+	"Maictugiic Nii #0" = -1
+	"Tüc Uc #0" = -1
+	"Metz Uc #0" = -1
+	"Tugiig Uc #0" = -1
+	"Midaax Uc #0" = -1
+	"Migoox Uc #0" = -1
+	"Tudujc Uc #0" = -1
+	"Huixtujc Uc #0" = -1
+	"Tuctujc Uc #0" = -1
+	"Taxtujc Uc #0" = -1
+	"Majc Uc #0" = -1
+	"Majctüc Uc #0" = -1
+	"Majmetz Uc #0" = -1
+	"Maictugiic Uc #0" = -1
+	"Tüc Miici #0" = -1
+	"Metz Miici #0" = -1
+	"Tugiig Miici #0" = -1
+	"Midaax Miici #0" = -1
+	"Migoox Miici #0" = -1
+	"Tudujc Miici #0" = -1
+	"Huixtujc Miici #0" = -1
+	"Tuctujc Miici #0" = -1
+	"Taxtujc Miici #0" = -1
+	"Majc Miici #0" = -1
+	"Majctüc Miici #0" = -1
+	"Majmetz Miici #0" = -1
+	"Maictugiic Miici #0" = -1
+	"Tüc Cuyxibijy #0" = -1
+	"Metz Cuyxibijy #0" = -1
+	"Tugiig Cuyxibijy #0" = -1
+	"Midaax Cuyxibijy #0" = -1
+	"Migoox Cuyxibijy #0" = -1
+	"Tudujc Cuyxibijy #0" = -1
+	"Huixtujc Cuyxibijy #0" = -1
+	"Tuctujc Cuyxibijy #0" = -1
+	"Taxtujc Cuyxibijy #0" = -1
+	"Majc Cuyxibijy #0" = -1
+	"Majctüc Cuyxibijy #0" = -1
+	"Majmetz Cuyxibijy #0" = -1
+	"Maictugiic Cuyxibijy #0" = -1
+	"Tüc Huixciniix #0" = -1
+	"Metz Huixciniix #0" = -1
+	"Tugiig Huixciniix #0" = -1
+	"Midaax Huixciniix #0" = -1
+	"Migoox Huixciniix #0" = -1
+	"Tudujc Huixciniix #0" = -1
+	"Huixtujc Huixciniix #0" = -1
+	"Tuctujc Huixciniix #0" = -1
+	"Taxtujc Huixciniix #0" = -1
+	"Majc Huixciniix #0" = -1
+	"Majctüc Huixciniix #0" = -1
+	"Majmetz Huixciniix #0" = -1
+	"Maictugiic Huixciniix #0" = -1
+	"Tüc Ujx #0" = -1
+	"Metz Ujx #0" = -1
+	"Tugiig Ujx #0" = -1
+	"Midaax Ujx #0" = -1
+	"Migoox Ujx #0" = -1
+	"Tudujc Ujx #0" = -1
+	"Huixtujc Ujx #0" = -1
+	"Tuctujc Ujx #0" = -1
+	"Taxtujc Ujx #0" = -1
+	"Majc Ujx #0" = -1
+	"Majctüc Ujx #0" = -1
+	"Majmetz Ujx #0" = -1
+	"Maictugiic Ujx #0" = -1
+	"Tüc Jiindzaa #0" = -1
+	"Metz Jiindzaa #0" = -1
+	"Tugiig Jiindzaa #0" = -1
+	"Midaax Jiindzaa #0" = -1
+	"Migoox Jiindzaa #0" = -1
+	"Tudujc Jiindzaa #0" = -1
+	"Huixtujc Jiindzaa #0" = -1
+	"Tuctujc Jiindzaa #0" = -1
+	"Taxtujc Jiindzaa #0" = -1
+	"Majc Jiindzaa #0" = -1
+	"Majctüc Jiindzaa #0" = -1
+	"Majmetz Jiindzaa #0" = -1
+	"Maictugiic Jiindzaa #0" = -1
+	"Tüc Tuu #0" = -1
+	"Metz Tuu #0" = -1
+	"Tugiig Tuu #0" = -1
+	"Midaax Tuu #0" = -1
+	"Migoox Tuu #0" = -1
+	"Tudujc Tuu #0" = -1
+	"Huixtujc Tuu #0" = -1
+	"Tuctujc Tuu #0" = -1
+	"Taxtujc Tuu #0" = -1
+	"Majc Tuu #0" = -1
+	"Majctüc Tuu #0" = -1
+	"Majmetz Tuu #0" = -1
+	"Maictugiic Tuu #0" = -1
+	"Tüc Pijy #0" = -1
+	"Metz Pijy #0" = -1
+	"Tugiig Pijy #0" = -1
+	"Midaax Pijy #0" = -1
+	"Migoox Pijy #0" = -1
+	"Tudujc Pijy #0" = -1
+	"Huixtujc Pijy #0" = -1
+	"Tuctujc Pijy #0" = -1
+	"Taxtujc Pijy #0" = -1
+	"Majc Pijy #0" = -1
+	"Majctüc Pijy #0" = -1
+	"Majmetz Pijy #0" = -1
+	"Maictugiic Pijy #0" = -1
 }
 
 leader_names = {
-	Tenoch Tetzcocah Tlaco Amaxal Chapulin Coyopotl Huitzil Moyotl Tecuampil Xique Ixehuatl Ahuatl Chilchoa 
-	Cuatlapantzi Michimani Techalotzi Quecholac Tecuanhuey Tuxpan Ehecatl Cuahutenco Coatl Cuahtzon Cuaxiloa 
-	Hueytletl Tecuampil Tlapaltototli Totozintle Xochitecatl Tlahuetl Tonacatl Zontlimatzi Chalci 
+	""
 }
 
 ship_names = {
 	Acolmiztli Acolnahuacat "Ah Hoya" "Ah Tzenul" Amimitl Apanecatl Atl Atlau Axoloa
-	Camaxtli Centeot Centzonuiznaua Chalchiuhtlatonal Chalchiuhtlicue Chalchiutotolin Chalmecalt Chalmecaucihuilt
+	Camaxtli Centeot Centzonuiznaua Chalchiuhtlatonal Chalchiuhtlicue Chalchiutotolin Chalmecalt 	Chalmecaucihuilt
 	Chantico Chichomexochtli Chicomecoatl Chiconahuai Chihalma Chualchihuitlcue Cihuacaotyl Cinteotl
 	Citlalatonac Citlalicue Ciucoatl Coatlicue Cochimetl Coyolxauhqui Cuauhcoatl 
 	Ehehcatl Eueucoyotl

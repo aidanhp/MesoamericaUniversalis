@@ -4,100 +4,167 @@ graphical_culture = southamericagfx
 
 color = { 4 92 126 }
 
+#Country Name: Please see filename.
+
+graphical_culture = southamericagfx
+
+color = { 0 0 0 }
+
 historical_idea_groups = {
-	defensive_ideas
+	hegemonic_ideas
+	trade_ideas
 	offensive_ideas
-	religious_ideas
-	economic_ideas
-	diplomatic_ideas
-	innovativeness_ideas
+	power_concentration_ideas
 	spy_ideas
-	trade_ideas	
+	quality_ideas
+	influence_ideas
+	defensive_ideas
 }
 
 historical_units = {
-	western_medieval_infantry
-	western_medieval_knights
-	western_men_at_arms
-	swiss_landsknechten
-	dutch_maurician
-	austrian_tercio
-	austrian_grenzer
-	austrian_hussar
-	austrian_white_coat
-	prussian_uhlan
-	austrian_jaeger
-	mixed_order_infantry
-	open_order_cavalry
-	napoleonic_square
-	napoleonic_lancers
+	hu_huaxyacac_infantry 
+	hu_late_huaxyacac_infantry
+	hu_huaxyacac_gunpowder_infantry
+	hu_huaxyacac_musketeer
+	hu_huaxyacac_flintlock
 }
 
 monarch_names = {
-	"Acamapichtli #0" = 20
-	"Iztcoatl #0" = 20
-	"Huitzilihhuitl #0" = 20
-	"Chimalpopoca #0" = 20
-	"Moteuczomah #0" = 20
-	"Tizoc #0" = 20
-	"Ahuitzotl #0" = 20
-	"Axayacatl #0" = 20
-	"Cuauhtemoc #0" = 20
-	"Cuitlahuac #0" = 20
-	"Nezahualcoyotl #0" = 20	
-	"Tlacaelel #0" = 20
-	"Xihuitl Temoc #0" = 20	
-	"Xochitl #0" = 20
-	"Olinqui #0" = 20
-	"Acolmiztli #0" = 20
-	"Yoyontzin #0" = 20
-	"Ixtlilxochitl #0" = 20
-	"Acolnahuacatl #0" = 20
-	"Tzacualcatl #0" = 20
-	"Itzlolinqui #0" = 20
-	"Xilomantzin #0" = 20
-	"Quequecholtzin #0" = 20
-	"Tzompanteuctli #0" = 20
-	"Quetzaltototzin #0" = 20
-	"Cacamatzin #0" = 20
-	"Tlilpotonqui #0" = 20
-	"Tayoatzin #0" = 20
-	"Quauhtlapaltzin #0" = 20
-	"Tezcatlteuctli #0" = 20
-	"Tlacotzin #0" = 20
-	"Chimalpantzin #0" = 20
-	"Tepehuatzin #0" = 20
-	"Tezcatl #0" = 20
-	"Tatlatzincatzin #0" = 20
-	"Tlilpotonqui #0" = 20
-	"Nezahualpilli #0" = 20
-	"Miccacalcatl #0" = 20
-	"Ixtteocalletzin #0" = 20
-
-	"Matlalcihuatzin #0" = -1
-	"Maquiztzin #0" = -1
-	"Xiuhpopocatzin #0" = -1
-	"Tollintzin #0" = -1
-	"Xochiacamapichtli #0" = -1
-	"Xillomantzin #0" = -1
-	"Izapaplotzin #0" = -1
-	"Chiquatzin #0" = -1
-	"Totomochtzin #0" = -1
-	"Tlacoachcimaltzin #0" = -1
-	"Toznenetzin #0" = -1
-	"Cihuapilli #0" = -1
-	"Mauhcaxochitzin #0" = -1
-	"Chicuey #0" = -1
-	"Xiuhtoztzin #0" = -1
-	"Quauhtlamiyahualtzin #0" = -1
-	"Quetzalpetlatzin #0" = -1
-	"Tzihuacxochitzin #0" = -1
+	"Saka Hitya #0" = 20 
+	"Tukwa Hitya #0" = 20
+	"Suno Hitya #0" = 20
+	"Hukwa Hitya #0" = 20
+	"Ku'yu Hitya #0" = 20
+	"Skwa Hitya #0" = 20
+	"Kati Hitya #0" = 20
+	"Sno' Hitya #0" = 20 
+	"Ka Hitya #0" = 20
+	"Ti Hitya #0" = 20
+	"Titsaka Hitya #0" = 20
+	"Titsukwa Hitya #0" = 20
+	"Tisno Hitya #0" = 20
+	"Saka Xne' #0" = 20
+	"Tukwa Xne' #0" = 20
+	"Suno Xne' #0" = 20
+	"Hukwa Xne' #0" = 20 
+	"Ku'yu Xne' #0" = 20 
+	"Skwa Xne' #0" = 20 
+	"Kati Xne' #0" = 20
+	"Sno' Xne' #0" = 20
+	"Ka Xne' #0" = 20
+	"Ti Xne' #0" = 20
+	"Titsaka Xne' #0" = 20
+	"Titsukwa Xne' #0" = 20
+	"Tisno Xne' #0" = 20
+	"Saka Lijya #0" = 20 
+	"Tukwa Lijya #0" = 20
+	"Suno Lijya #0" = 20 
+	"Hukwa Lijya #0" = 20
+	"Ku'yu Lijya #0" = 20
+	"Skwa Lijya #0" = 20
+	"Kati Lijya #0" = 20
+	"Sno' Lijya #0" = 20
+	"Ka Lijya #0" = 20 
+	"Ti Lijya #0" = 20 
+	"Titsaka Lijya #0" = 20
+	"Titsukwa Lijya #0" = 20
+	"Tisno Lijya #0" = 20
+	"Saka Tyoo #0" = 20
+	"Tukwa Tyoo #0" = 20
+	"Suno Tyoo #0" = 20
+	"Hukwa Tyoo #0" = 20
+	"Ku'yu Tyoo #0" = 20
+	"Skwa Tyoo #0" = 20
+	"Kati Tyoo #0" = 20
+	"Sno' Tyoo #0" = 20
+	"Ka Tyoo #0" = 20
+	"Ti Tyoo #0" = 20
+	"Titsaka Tyoo #0" = 20
+	"Titsukwa Tyoo #0" = 20
+	"Tisno Tyoo #0" = 20
+	"Saka Quee #0" = 20
+	"Tukwa Quee #0" = 20
+	"Suno Quee #0" = 20
+	"Hukwa Quee #0" = 20
+	"Ku'yu Quee #0" = 20
+	"Skwa Quee #0" = 20
+	"Kati Quee #0" = 20
+	"Sno' Quee #0" = 20
+	"Ka Quee #0" = 20
+	"Ti Quee #0" = 20
+	"Titsaka Quee #0" = 20
+	"Titsukwa Quee #0" = 20
+	"Tisno Quee #0" = 20 
+	
+	"Saka Hitya #0" = -1 
+	"Tukwa Hitya #0" = -1
+	"Suno Hitya #0" = -1
+	"Hukwa Hitya #0" = -1
+	"Ku'yu Hitya #0" = -1
+	"Skwa Hitya #0" = -1
+	"Kati Hitya #0" = -1
+	"Sno' Hitya #0" = -1 
+	"Ka Hitya #0" = -1
+	"Ti Hitya #0" = -1
+	"Titsaka Hitya #0" = -1
+	"Titsukwa Hitya #0" = -1
+	"Tisno Hitya #0" = -1
+	"Saka Xne' #0" = -1
+	"Tukwa Xne' #0" = -1
+	"Suno Xne' #0" = -1
+	"Hukwa Xne' #0" = -1 
+	"Ku'yu Xne' #0" = -1 
+	"Skwa Xne' #0" = -1 
+	"Kati Xne' #0" = -1
+	"Sno' Xne' #0" = -1
+	"Ka Xne' #0" = -1
+	"Ti Xne' #0" = -1
+	"Titsaka Xne' #0" = -1
+	"Titsukwa Xne' #0" = -1
+	"Tisno Xne' #0" = -1
+	"Saka Lijya #0" = -1 
+	"Tukwa Lijya #0" = -1
+	"Suno Lijya #0" = -1 
+	"Hukwa Lijya #0" = -1
+	"Ku'yu Lijya #0" = -1
+	"Skwa Lijya #0" = -1
+	"Kati Lijya #0" = -1
+	"Sno' Lijya #0" = -1
+	"Ka Lijya #0" = -1 
+	"Ti Lijya #0" = -1 
+	"Titsaka Lijya #0" = -1
+	"Titsukwa Lijya #0" = -1
+	"Tisno Lijya #0" = -1
+	"Saka Tyoo #0" = -1
+	"Tukwa Tyoo #0" = -1
+	"Suno Tyoo #0" = -1
+	"Hukwa Tyoo #0" = -1
+	"Ku'yu Tyoo #0" = -1
+	"Skwa Tyoo #0" = -1
+	"Kati Tyoo #0" = -1
+	"Sno' Tyoo #0" = -1
+	"Ka Tyoo #0" = -1
+	"Ti Tyoo #0" = -1
+	"Titsaka Tyoo #0" = -1
+	"Titsukwa Tyoo #0" = -1
+	"Tisno Tyoo #0" = -1
+	"Saka Quee #0" = -1
+	"Tukwa Quee #0" = -1
+	"Suno Quee #0" = -1
+	"Hukwa Quee #0" = -1
+	"Ku'yu Quee #0" = -1
+	"Skwa Quee #0" = -1
+	"Kati Quee #0" = -1
+	"Sno' Quee #0" = -1
+	"Ka Quee #0" = -1
+	"Ti Quee #0" = -1
+	"Titsaka Quee #0" = -1
+	"Titsukwa Quee #0" = -1
+	"Tisno Quee #0" = -1 
 }
 
 leader_names = {
-	Tenoch Tetzcocah Tlaco Amaxal Chapulin Coyopotl Huitzil Moyotl Tecuampil Xique Ixehuatl Ahuatl Chilchoa 
-	Cuatlapantzi Michimani Techalotzi Quecholac Tecuanhuey Tuxpan Ehecatl Cuahutenco Coatl Cuahtzon Cuaxiloa 
-	Hueytletl Tecuampil Tlapaltototli Totozintle Xochitecatl Tlahuetl Tonacatl Zontlimatzi Chalci 
+	""
 }
 
 ship_names = {
@@ -122,9 +189,9 @@ ship_names = {
 
 
 army_names = {
-	"$PROVINCE$ Xiquipilli" 
+	"Army $PROVINCE$" 
 }
 
 fleet_names = {
-	"$PROVINCE$ Fleet"
+	"Glorious Fleet"
 }

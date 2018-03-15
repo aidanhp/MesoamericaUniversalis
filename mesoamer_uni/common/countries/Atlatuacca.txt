@@ -4,100 +4,337 @@ graphical_culture = southamericagfx
 
 color = { 97 116 128 }
 
+#Country Name: Please see filename.
+
+graphical_culture = southamericagfx
+
+color = { 0 0 0 }
+
 historical_idea_groups = {
-	defensive_ideas
+	hegemonic_ideas
+	trade_ideas
 	offensive_ideas
-	religious_ideas
-	economic_ideas
-	diplomatic_ideas
-	innovativeness_ideas
+	power_concentration_ideas
 	spy_ideas
-	trade_ideas	
+	quality_ideas
+	influence_ideas
+	defensive_ideas
 }
 
 historical_units = {
-	western_medieval_infantry
-	western_medieval_knights
-	western_men_at_arms
-	swiss_landsknechten
-	dutch_maurician
-	austrian_tercio
-	austrian_grenzer
-	austrian_hussar
-	austrian_white_coat
-	prussian_uhlan
-	austrian_jaeger
-	mixed_order_infantry
-	open_order_cavalry
-	napoleonic_square
-	napoleonic_lancers
+	hu_huaxyacac_infantry 
+	hu_late_huaxyacac_infantry
+	hu_huaxyacac_gunpowder_infantry
+	hu_huaxyacac_musketeer
+	hu_huaxyacac_flintlock
 }
 
 monarch_names = {
-	"Acamapichtli #0" = 20
-	"Iztcoatl #0" = 20
-	"Huitzilihhuitl #0" = 20
-	"Chimalpopoca #0" = 20
-	"Moteuczomah #0" = 20
-	"Tizoc #0" = 20
-	"Ahuitzotl #0" = 20
-	"Axayacatl #0" = 20
-	"Cuauhtemoc #0" = 20
-	"Cuitlahuac #0" = 20
-	"Nezahualcoyotl #0" = 20	
-	"Tlacaelel #0" = 20
-	"Xihuitl Temoc #0" = 20	
-	"Xochitl #0" = 20
-	"Olinqui #0" = 20
-	"Acolmiztli #0" = 20
-	"Yoyontzin #0" = 20
-	"Ixtlilxochitl #0" = 20
-	"Acolnahuacatl #0" = 20
-	"Tzacualcatl #0" = 20
-	"Itzlolinqui #0" = 20
-	"Xilomantzin #0" = 20
-	"Quequecholtzin #0" = 20
-	"Tzompanteuctli #0" = 20
-	"Quetzaltototzin #0" = 20
-	"Cacamatzin #0" = 20
-	"Tlilpotonqui #0" = 20
-	"Tayoatzin #0" = 20
-	"Quauhtlapaltzin #0" = 20
-	"Tezcatlteuctli #0" = 20
-	"Tlacotzin #0" = 20
-	"Chimalpantzin #0" = 20
-	"Tepehuatzin #0" = 20
-	"Tezcatl #0" = 20
-	"Tatlatzincatzin #0" = 20
-	"Tlilpotonqui #0" = 20
-	"Nezahualpilli #0" = 20
-	"Miccacalcatl #0" = 20
-	"Ixtteocalletzin #0" = 20
-
-	"Matlalcihuatzin #0" = -1
-	"Maquiztzin #0" = -1
-	"Xiuhpopocatzin #0" = -1
-	"Tollintzin #0" = -1
-	"Xochiacamapichtli #0" = -1
-	"Xillomantzin #0" = -1
-	"Izapaplotzin #0" = -1
-	"Chiquatzin #0" = -1
-	"Totomochtzin #0" = -1
-	"Tlacoachcimaltzin #0" = -1
-	"Toznenetzin #0" = -1
-	"Cihuapilli #0" = -1
-	"Mauhcaxochitzin #0" = -1
-	"Chicuey #0" = -1
-	"Xiuhtoztzin #0" = -1
-	"Quauhtlamiyahualtzin #0" = -1
-	"Quetzalpetlatzin #0" = -1
-	"Tzihuacxochitzin #0" = -1
+	"Ama Cu Y'ava #0" = 20
+	"Ubi Cu Y'ava #0" = 20
+	"Inu Cu Y'ava #0" = 20
+	"Kuü Cu Y'ava #0" = 20
+	"Niu'ú Cu Y'ava #0" = 20
+	"Niä Cu Y'ava #0" = 20
+	"Ndeche Cy Y'ava #0" = 20
+	"Nini Cu Y'ava #0" = 20
+	"Nuü Cu Y'ava #0" = 20
+	"Ndichi Cu Y'ava #0" = 20
+	"Ama Y'une #0" = 20
+	"Ubi Y'une #0" = 20
+	"Inu Y'une #0" = 20
+	"Kuü Y'une #0" = 20
+	"Niu'ú Y'une #0" = 20
+	"Niä Y'une #0" = 20
+	"Ndeche Y'une #0" = 20
+	"Nini Y'une #0" = 20
+	"Nuü Y'une #0" = 20
+	"Ndichi Y'une #0" = 20
+	"Ama Va'a #0" = 20
+	"Ubi Va'a #0" = 20
+	"Inu Va'a #0" = 20
+	"Kuü Va'a #0" = 20
+	"Niu'ú Va'a #0" = 20
+	"Niä Va'a #0" = 20
+	"Ndeche Va'a #0" = 20
+	"Nini Va'a #0" = 20
+	"Nuü Va'a #0" = 20
+	"Ndichi Va'a #0" = 20
+	"Ama Y'ati #0" = 20
+	"Ubi Y'ati #0" = 20
+	"Inu Y'ati #0" = 20
+	"Kuü Y'ati #0" = 20
+	"Niu'ú Y'ati #0" = 20
+	"Niä Y'ati #0" = 20
+	"Ndeche Y'ati #0" = 20
+	"Nini Y'ati #0" = 20
+	"Nuü Y'ati #0" = 20
+	"Ndichi Y'ati #0" = 20
+	"Ama Cu #0" = 20
+	"Ubi Cu #0" = 20
+	"Inu Cu #0" = 20
+	"Kuü Cu #0" = 20
+	"Niu'ú Cu #0" = 20
+	"Niä Cu #0" = 20
+	"Ndeche Cu #0" = 20
+	"Nini Cu #0" = 20
+	"Nuü Cu #0" = 20
+	"Ndichi Cu #0" = 20
+	"Ama Ini Tin #0" = 20
+	"Ubi Ini Tin #0" = 20
+	"Inu Ini Tin #0" = 20
+	"Kuü Ini Tin #0" = 20
+	"Niu'ú Ini Tin #0" = 20
+	"Niä Ini Tin #0" = 20
+	"Ndeche Ini Tin #0" = 20
+	"Nini Ini Tin #0" = 20
+	"Nuü Ini Tin #0" = 20
+	"Ndichi Ini Tin #0" = 20
+	"Ama Ubi Nuni #0" = 20
+	"Ubi Ubi Nuni #0" = 20
+	"Inu Ubi Nuni #0" = 20
+	"Kuü Ubi Nuni #0" = 20
+	"Niu'ú Ubi Nuni #0" = 20
+	"Niä Ubi Nuni #0" = 20
+	"Ndeche Ubi Nuni #0" = 20
+	"Nini Ubi Nuni #0" = 20
+	"Nuü Ubi Nuni #0" = 20
+	"Ndichi Ubi Nuni #0" = 20
+	"Ama Y'ana #0" = 20
+	"Ubi Y'ana #0" = 20
+	"Inu Y'ana #0" = 20
+	"Kuü Y'ana #0" = 20
+	"Niu'ú Y'ana #0" = 20
+	"Niä Y'ana #0" = 20
+	"Ndeche Y'ana #0" = 20
+	"Nini Y'ana #0" = 20
+	"Nuü Y'ana #0" = 20
+	"Ndichi Y'ana #0" = 20
+	"Ama Changu #0" = 20
+	"Ubi Changu #0" = 20
+	"Inu Changu #0" = 20
+	"Kuü Changu #0" = 20
+	"Niu'ú Changu #0" = 20
+	"Niä Changu #0" = 20
+	"Ndeche Changu #0" = 20
+	"Nini Changu #0" = 20
+	"Nuü Changu #0" = 20
+	"Ndichi Changu #0" = 20
+	"Ama Cua #0" = 20
+	"Ubi Cua #0" = 20
+	"Inu Cua #0" = 20
+	"Kuü Cua #0" = 20
+	"Niu'ú Cua #0" = 20
+	"Niä Cua #0" = 20
+	"Ndeche Cua #0" = 20
+	"Nini Cua #0" = 20
+	"Nuü Cua #0" = 20
+	"Ndichi Cua #0" = 20
+	"Ama 'Iya #0" = 20
+	"Ubi 'Iya #0" = 20
+	"Inu 'Iya #0" = 20
+	"Kuü 'Iya #0" = 20
+	"Niu'ú 'Iya #0" = 20
+	"Niä 'Iya #0" = 20
+	"Ndeche 'Iya #0" = 20
+	"Nini 'Iya #0" = 20
+	"Nuü 'Iya #0" = 20
+	"Ndichi 'Iya #0" = 20
+	"Ama S'icu #0" = 20
+	"Ubi S'icu #0" = 20
+	"Inu S'icu #0" = 20
+	"Kuü S'icu #0" = 20
+	"Niu'ú S'icu #0" = 20
+	"Niä S'icu #0" = 20
+	"Ndeche S'icu #0" = 20
+	"Nini S'icu #0" = 20
+	"Nuü S'icu #0" = 20
+	"Ndichi S'icu #0" = 20
+	"Ama Yinu'un Ya'an #0" = 20
+	"Ubi Yinu'un Ya'an #0" = 20
+	"Inu Yinu'un Ya'an #0" = 20
+	"Kuü Yinu'un Ya'an #0" = 20
+	"Niu'ú Yinu'un Ya'an #0" = 20
+	"Niä Yinu'un Ya'an #0" = 20
+	"Ndeche Yinu'un Ya'an #0" = 20
+	"Nini Yinu'un Ya'an #0" = 20
+	"Nuü Yinu'un Ya'an #0" = 20
+	"Ndichi Yinu'un Ya'an #0" = 20
+	"Ama Tu Cheche #0" = 20
+	"Ubi Tu Cheche #0" = 20
+	"Inu Tu Cheche #0" = 20
+	"Kuü Tu Cheche #0" = 20
+	"Niu'ú Tu Cheche #0" = 20
+	"Niä Tu Cheche #0" = 20
+	"Ndeche Tu Cheche #0" = 20
+	"Nini Tu Cheche #0" = 20
+	"Nuü Tu Cheche #0" = 20
+	"Ndichi Tu Cheche #0" = 20
+	"Ama Nanda #0" = 20
+	"Ubi Nanda #0" = 20
+	"Inu Nanda #0" = 20
+	"Kuü Nanda #0" = 20
+	"Niu'ú Nanda #0" = 20
+	"Niä Nanda #0" = 20
+	"Ndeche Nanda #0" = 20
+	"Nini Nanda #0" = 20
+	"Nuü Nanda #0" = 20
+	"Ndichi Nanda #0" = 20
+	
+	"Ama Cu Y'ava #0" = -1
+	"Ubi Cu Y'ava #0" = -1
+	"Inu Cu Y'ava #0" = -1
+	"Kuü Cu Y'ava #0" = -1
+	"Niu'ú Cu Y'ava #0" = -1
+	"Niä Cu Y'ava #0" = -1
+	"Ndeche Cy Y'ava #0" = -1
+	"Nini Cu Y'ava #0" = -1
+	"Nuü Cu Y'ava #0" = -1
+	"Ndichi Cu Y'ava #0" = -1
+	"Ama Y'une #0" = -1
+	"Ubi Y'une #0" = -1
+	"Inu Y'une #0" = -1
+	"Kuü Y'une #0" = -1
+	"Niu'ú Y'une #0" = -1
+	"Niä Y'une #0" = -1
+	"Ndeche Y'une #0" = -1
+	"Nini Y'une #0" = -1
+	"Nuü Y'une #0" = -1
+	"Ndichi Y'une #0" = -1
+	"Ama Va'a #0" = -1
+	"Ubi Va'a #0" = -1
+	"Inu Va'a #0" = -1
+	"Kuü Va'a #0" = -1
+	"Niu'ú Va'a #0" = -1
+	"Niä Va'a #0" = -1
+	"Ndeche Va'a #0" = -1
+	"Nini Va'a #0" = -1
+	"Nuü Va'a #0" = -1
+	"Ndichi Va'a #0" = -1
+	"Ama Y'ati #0" = -1
+	"Ubi Y'ati #0" = -1
+	"Inu Y'ati #0" = -1
+	"Kuü Y'ati #0" = -1
+	"Niu'ú Y'ati #0" = -1
+	"Niä Y'ati #0" = -1
+	"Ndeche Y'ati #0" = -1
+	"Nini Y'ati #0" = -1
+	"Nuü Y'ati #0" = -1
+	"Ndichi Y'ati #0" = -1
+	"Ama Cu #0" = -1
+	"Ubi Cu #0" = -1
+	"Inu Cu #0" = -1
+	"Kuü Cu #0" = -1
+	"Niu'ú Cu #0" = -1
+	"Niä Cu #0" = -1
+	"Ndeche Cu #0" = -1
+	"Nini Cu #0" = -1
+	"Nuü Cu #0" = -1
+	"Ndichi Cu #0" = -1
+	"Ama Ini Tin #0" = -1
+	"Ubi Ini Tin #0" = -1
+	"Inu Ini Tin #0" = -1
+	"Kuü Ini Tin #0" = -1
+	"Niu'ú Ini Tin #0" = -1
+	"Niä Ini Tin #0" = -1
+	"Ndeche Ini Tin #0" = -1
+	"Nini Ini Tin #0" = -1
+	"Nuü Ini Tin #0" = -1
+	"Ndichi Ini Tin #0" = -1
+	"Ama Ubi Nuni #0" = -1
+	"Ubi Ubi Nuni #0" = -1
+	"Inu Ubi Nuni #0" = -1
+	"Kuü Ubi Nuni #0" = -1
+	"Niu'ú Ubi Nuni #0" = -1
+	"Niä Ubi Nuni #0" = -1
+	"Ndeche Ubi Nuni #0" = -1
+	"Nini Ubi Nuni #0" = -1
+	"Nuü Ubi Nuni #0" = -1
+	"Ndichi Ubi Nuni #0" = -1
+	"Ama Y'ana #0" = -1
+	"Ubi Y'ana #0" = -1
+	"Inu Y'ana #0" = -1
+	"Kuü Y'ana #0" = -1
+	"Niu'ú Y'ana #0" = -1
+	"Niä Y'ana #0" = -1
+	"Ndeche Y'ana #0" = -1
+	"Nini Y'ana #0" = -1
+	"Nuü Y'ana #0" = -1
+	"Ndichi Y'ana #0" = -1
+	"Ama Changu #0" = -1
+	"Ubi Changu #0" = -1
+	"Inu Changu #0" = -1
+	"Kuü Changu #0" = -1
+	"Niu'ú Changu #0" = -1
+	"Niä Changu #0" = -1
+	"Ndeche Changu #0" = -1
+	"Nini Changu #0" = -1
+	"Nuü Changu #0" = -1
+	"Ndichi Changu #0" = -1
+	"Ama Cua #0" = -1
+	"Ubi Cua #0" = -1
+	"Inu Cua #0" = -1
+	"Kuü Cua #0" = -1
+	"Niu'ú Cua #0" = -1
+	"Niä Cua #0" = -1
+	"Ndeche Cua #0" = -1
+	"Nini Cua #0" = -1
+	"Nuü Cua #0" = -1
+	"Ndichi Cua #0" = -1
+	"Ama 'Iya #0" = -1
+	"Ubi 'Iya #0" = -1
+	"Inu 'Iya #0" = -1
+	"Kuü 'Iya #0" = -1
+	"Niu'ú 'Iya #0" = -1
+	"Niä 'Iya #0" = -1
+	"Ndeche 'Iya #0" = -1
+	"Nini 'Iya #0" = -1
+	"Nuü 'Iya #0" = -1
+	"Ndichi 'Iya #0" = -1
+	"Ama S'icu #0" = -1
+	"Ubi S'icu #0" = -1
+	"Inu S'icu #0" = -1
+	"Kuü S'icu #0" = -1
+	"Niu'ú S'icu #0" = -1
+	"Niä S'icu #0" = -1
+	"Ndeche S'icu #0" = -1
+	"Nini S'icu #0" = -1
+	"Nuü S'icu #0" = -1
+	"Ndichi S'icu #0" = -1
+	"Ama Yinu'un Ya'an #0" = -1
+	"Ubi Yinu'un Ya'an #0" = -1
+	"Inu Yinu'un Ya'an #0" = -1
+	"Kuü Yinu'un Ya'an #0" = -1
+	"Niu'ú Yinu'un Ya'an #0" = -1
+	"Niä Yinu'un Ya'an #0" = -1
+	"Ndeche Yinu'un Ya'an #0" = -1
+	"Nini Yinu'un Ya'an #0" = -1
+	"Nuü Yinu'un Ya'an #0" = -1
+	"Ndichi Yinu'un Ya'an #0" = -1
+	"Ama Tu Cheche #0" = -1
+	"Ubi Tu Cheche #0" = -1
+	"Inu Tu Cheche #0" = -1
+	"Kuü Tu Cheche #0" = -1
+	"Niu'ú Tu Cheche #0" = -1
+	"Niä Tu Cheche #0" = -1
+	"Ndeche Tu Cheche #0" = -1
+	"Nini Tu Cheche #0" = -1
+	"Nuü Tu Cheche #0" = -1
+	"Ndichi Tu Cheche #0" = -1
+	"Ama Nanda #0" = -1
+	"Ubi Nanda #0" = -1
+	"Inu Nanda #0" = -1
+	"Kuü Nanda #0" = -1
+	"Niu'ú Nanda #0" = -1
+	"Niä Nanda #0" = -1
+	"Ndeche Nanda #0" = -1
+	"Nini Nanda #0" = -1
+	"Nuü Nanda #0" = -1
+	"Ndichi Nanda #0" = -1
 }
 
 leader_names = {
-	Tenoch Tetzcocah Tlaco Amaxal Chapulin Coyopotl Huitzil Moyotl Tecuampil Xique Ixehuatl Ahuatl Chilchoa 
-	Cuatlapantzi Michimani Techalotzi Quecholac Tecuanhuey Tuxpan Ehecatl Cuahutenco Coatl Cuahtzon Cuaxiloa 
-	Hueytletl Tecuampil Tlapaltototli Totozintle Xochitecatl Tlahuetl Tonacatl Zontlimatzi Chalci 
+	""
 }
 
 ship_names = {
@@ -122,9 +359,9 @@ ship_names = {
 
 
 army_names = {
-	"$PROVINCE$ Xiquipilli" 
+	"Army $PROVINCE$" 
 }
 
 fleet_names = {
-	"$PROVINCE$ Fleet"
+	"Glorious Fleet"
 }

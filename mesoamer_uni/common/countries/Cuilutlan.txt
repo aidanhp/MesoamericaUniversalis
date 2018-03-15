@@ -4,105 +4,146 @@ graphical_culture = southamericagfx
 
 color = { 197 114 255 }
 
+﻿#Country Name: Please see filename.
+
+graphical_culture = southamericagfx
+
+color = { 0 0 0 }
+
 historical_idea_groups = {
-	defensive_ideas
+	hegemonic_ideas
+	trade_ideas
 	offensive_ideas
-	religious_ideas
-	economic_ideas
-	diplomatic_ideas
-	innovativeness_ideas
+	power_concentration_ideas
 	spy_ideas
-	trade_ideas	
+	quality_ideas
+	influence_ideas
+	defensive_ideas
 }
 
 historical_units = {
-	western_medieval_infantry
-	western_medieval_knights
-	western_men_at_arms
-	swiss_landsknechten
-	dutch_maurician
-	austrian_tercio
-	austrian_grenzer
-	austrian_hussar
-	austrian_white_coat
-	prussian_uhlan
-	austrian_jaeger
-	mixed_order_infantry
-	open_order_cavalry
-	napoleonic_square
-	napoleonic_lancers
+	hu_huaxyacac_infantry 
+	hu_late_huaxyacac_infantry
+	hu_huaxyacac_gunpowder_infantry
+	hu_huaxyacac_musketeer
+	hu_huaxyacac_flintlock
 }
 
 monarch_names = {
-	"Acamapichtli #0" = 20
-	"Iztcoatl #0" = 20
-	"Huitzilihhuitl #0" = 20
-	"Chimalpopoca #0" = 20
-	"Moteuczomah #0" = 20
-	"Tizoc #0" = 20
-	"Ahuitzotl #0" = 20
-	"Axayacatl #0" = 20
-	"Cuauhtemoc #0" = 20
-	"Cuitlahuac #0" = 20
-	"Nezahualcoyotl #0" = 20	
-	"Tlacaelel #0" = 20
-	"Xihuitl Temoc #0" = 20	
-	"Xochitl #0" = 20
-	"Olinqui #0" = 20
-	"Acolmiztli #0" = 20
-	"Yoyontzin #0" = 20
-	"Ixtlilxochitl #0" = 20
-	"Acolnahuacatl #0" = 20
-	"Tzacualcatl #0" = 20
-	"Itzlolinqui #0" = 20
-	"Xilomantzin #0" = 20
-	"Quequecholtzin #0" = 20
-	"Tzompanteuctli #0" = 20
-	"Quetzaltototzin #0" = 20
-	"Cacamatzin #0" = 20
-	"Tlilpotonqui #0" = 20
-	"Tayoatzin #0" = 20
-	"Quauhtlapaltzin #0" = 20
-	"Tezcatlteuctli #0" = 20
-	"Tlacotzin #0" = 20
-	"Chimalpantzin #0" = 20
-	"Tepehuatzin #0" = 20
-	"Tezcatl #0" = 20
-	"Tatlatzincatzin #0" = 20
-	"Tlilpotonqui #0" = 20
-	"Nezahualpilli #0" = 20
-	"Miccacalcatl #0" = 20
-	"Ixtteocalletzin #0" = 20
-
-	"Matlalcihuatzin #0" = -1
-	"Maquiztzin #0" = -1
-	"Xiuhpopocatzin #0" = -1
-	"Tollintzin #0" = -1
-	"Xochiacamapichtli #0" = -1
-	"Xillomantzin #0" = -1
-	"Izapaplotzin #0" = -1
-	"Chiquatzin #0" = -1
-	"Totomochtzin #0" = -1
-	"Tlacoachcimaltzin #0" = -1
-	"Toznenetzin #0" = -1
-	"Cihuapilli #0" = -1
-	"Mauhcaxochitzin #0" = -1
-	"Chicuey #0" = -1
-	"Xiuhtoztzin #0" = -1
-	"Quauhtlamiyahualtzin #0" = -1
-	"Quetzalpetlatzin #0" = -1
-	"Tzihuacxochitzin #0" = -1
+	"Mba Gija #0" = 20
+	"Ajma Gija #0" = 20
+	"Atsu Gija #0" = 20
+	"Akhu Gija #0" = 20
+	"Witsu Gija #0" = 20
+	"Majun Gija #0" = 20
+	"Juwan Gija #0" = 20
+	"Migiñu Gija #0" = 20
+	"Mijna Guwa' Gija #0" = 20
+	"Guwa' Gija #0" = 20
+	"Guwa' Imba Gija #0" = 20
+	"Guwa' Ijma Gija #0" = 20
+	"Guwa' Itsu Gija #0" = 20
+	"Mba Ija #0" = 20
+	"Ajma Ija #0" = 20
+	"Atsu Ija #0" = 20
+	"Akhu Ija #0" = 20
+	"Witsu Ija #0" = 20
+	"Majun Ija #0" = 20
+	"Juwan Ija #0" = 20
+	"Migiñu Ija #0" = 20
+	"Mijna Guwa' Ija #0" = 20
+	"Guwa' Ija #0" = 20
+	"Guwa' Imba Ija #0" = 20
+	"Guwa' Ijma Ija #0" = 20
+	"Guwa' Itsu Ija #0" = 20
+	"Mba Shuwa #0" = 20
+	"Ajma Shuwa #0" = 20
+	"Atsu Shuwa #0" = 20
+	"Akhu Shuwa #0" = 20
+	"Witsu Shuwa #0" = 20
+	"Majun Shuwa #0" = 20
+	"Juwan Shuwa #0" = 20
+	"Migiñu Shuwa #0" = 20
+	"Mijna Guwa' Shuwa #0" = 20
+	"Guwa' Shuwa #0" = 20
+	"Guwa' Imba Shuwa #0" = 20
+	"Guwa' Ijma Shuwa #0" = 20
+	"Guwa' Itsu Shuwa #0" = 20
+	"Mba Ru'wa #0" = 20
+	"Ajma Ru'wa #0" = 20
+	"Atsu Ru'wa #0" = 20
+	"Akhu Ru'wa #0" = 20
+	"Witsu Ru'wa #0" = 20
+	"Majun Ru'wa #0" = 20
+	"Juwan Ru'wa #0" = 20
+	"Migiñu Ru'wa #0" = 20
+	"Mijna Guwa' Ru'wa #0" = 20
+	"Guwa' Ru'wa #0" = 20
+	"Guwa' Imba Ru'wa #0" = 20
+	"Guwa' Ijma Ru'wa #0" = 20
+	"Guwa' Itsu Ru'wa #0" = 20
+	
+	"Mba Gija #0" = -1
+	"Ajma Gija #0" = -1
+	"Atsu Gija #0" = -1
+	"Akhu Gija #0" = -1
+	"Witsu Gija #0" = -1
+	"Majun Gija #0" = -1
+	"Juwan Gija #0" = -1
+	"Migiñu Gija #0" = -1
+	"Mijna Guwa' Gija #0" = -1
+	"Guwa' Gija #0" = -1
+	"Guwa' Imba Gija #0" = -1
+	"Guwa' Ijma Gija #0" = -1
+	"Guwa' Itsu Gija #0" = -1
+	"Mba Ija #0" = -1
+	"Ajma Ija #0" = -1
+	"Atsu Ija #0" = -1
+	"Akhu Ija #0" = -1
+	"Witsu Ija #0" = -1
+	"Majun Ija #0" = -1
+	"Juwan Ija #0" = -1
+	"Migiñu Ija #0" = -1
+	"Mijna Guwa' Ija #0" = -1
+	"Guwa' Ija #0" = -1
+	"Guwa' Imba Ija #0" = -1
+	"Guwa' Ijma Ija #0" = -1
+	"Guwa' Itsu Ija #0" = -1
+	"Mba Shuwa #0" = -1
+	"Ajma Shuwa #0" = -1
+	"Atsu Shuwa #0" = -1
+	"Akhu Shuwa #0" = -1
+	"Witsu Shuwa #0" = -1
+	"Majun Shuwa #0" = -1
+	"Juwan Shuwa #0" = -1
+	"Migiñu Shuwa #0" = -1
+	"Mijna Guwa' Shuwa #0" = -1
+	"Guwa' Shuwa #0" = -1
+	"Guwa' Imba Shuwa #0" = -1
+	"Guwa' Ijma Shuwa #0" = -1
+	"Guwa' Itsu Shuwa #0" = -1
+	"Mba Ru'wa #0" = -1
+	"Ajma Ru'wa #0" = -1
+	"Atsu Ru'wa #0" = -1
+	"Akhu Ru'wa #0" = -1
+	"Witsu Ru'wa #0" = -1
+	"Majun Ru'wa #0" = -1
+	"Juwan Ru'wa #0" = -1
+	"Migiñu Ru'wa #0" = -1
+	"Mijna Guwa' Ru'wa #0" = -1
+	"Guwa' Ru'wa #0" = -1
+	"Guwa' Imba Ru'wa #0" = -1
+	"Guwa' Ijma Ru'wa #0" = -1
+	"Guwa' Itsu Ru'wa #0" = -1
 }
 
 leader_names = {
-	Tenoch Tetzcocah Tlaco Amaxal Chapulin Coyopotl Huitzil Moyotl Tecuampil Xique Ixehuatl Ahuatl Chilchoa 
-	Cuatlapantzi Michimani Techalotzi Quecholac Tecuanhuey Tuxpan Ehecatl Cuahutenco Coatl Cuahtzon Cuaxiloa 
-	Hueytletl Tecuampil Tlapaltototli Totozintle Xochitecatl Tlahuetl Tonacatl Zontlimatzi Chalci 
+	""
 }
 
 ship_names = {
 	Acolmiztli Acolnahuacat "Ah Hoya" "Ah Tzenul" Amimitl Apanecatl Atl Atlau Axoloa
-	Camaxtli Centeot Centzonuiznaua Chalchiuhtlatonal Chalchiuhtlicue Chalchiutotolin Chalmecalt Chalmecaucihuilt
+	Camaxtli Centeot Centzonuiznaua Chalchiuhtlatonal Chalchiuhtlicue Chalchiutotolin Chalmecalt 	Chalmecaucihuilt
 	Chantico Chichomexochtli Chicomecoatl Chiconahuai Chihalma Chualchihuitlcue Cihuacaotyl Cinteotl
 	Citlalatonac Citlalicue Ciucoatl Coatlicue Cochimetl Coyolxauhqui Cuauhcoatl 
 	Ehehcatl Eueucoyotl

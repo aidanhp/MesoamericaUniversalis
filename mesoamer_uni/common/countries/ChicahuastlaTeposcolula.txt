@@ -4,100 +4,297 @@ graphical_culture = southamericagfx
 
 color = { 97 198 71 }
 
+﻿#Country Name: Please see filename.
+
+graphical_culture = southamericagfx
+
+color = { 0 0 0 }
+
 historical_idea_groups = {
-	defensive_ideas
+	hegemonic_ideas
+	trade_ideas
 	offensive_ideas
-	religious_ideas
-	economic_ideas
-	diplomatic_ideas
-	innovativeness_ideas
+	power_concentration_ideas
 	spy_ideas
-	trade_ideas	
+	quality_ideas
+	influence_ideas
+	defensive_ideas
 }
 
 historical_units = {
-	western_medieval_infantry
-	western_medieval_knights
-	western_men_at_arms
-	swiss_landsknechten
-	dutch_maurician
-	austrian_tercio
-	austrian_grenzer
-	austrian_hussar
-	austrian_white_coat
-	prussian_uhlan
-	austrian_jaeger
-	mixed_order_infantry
-	open_order_cavalry
-	napoleonic_square
-	napoleonic_lancers
+	hu_huaxyacac_infantry 
+	hu_late_huaxyacac_infantry
+	hu_huaxyacac_gunpowder_infantry
+	hu_huaxyacac_musketeer
+	hu_huaxyacac_flintlock
 }
 
 monarch_names = {
-	"Acamapichtli #0" = 20
-	"Iztcoatl #0" = 20
-	"Huitzilihhuitl #0" = 20
-	"Chimalpopoca #0" = 20
-	"Moteuczomah #0" = 20
-	"Tizoc #0" = 20
-	"Ahuitzotl #0" = 20
-	"Axayacatl #0" = 20
-	"Cuauhtemoc #0" = 20
-	"Cuitlahuac #0" = 20
-	"Nezahualcoyotl #0" = 20	
-	"Tlacaelel #0" = 20
-	"Xihuitl Temoc #0" = 20	
-	"Xochitl #0" = 20
-	"Olinqui #0" = 20
-	"Acolmiztli #0" = 20
-	"Yoyontzin #0" = 20
-	"Ixtlilxochitl #0" = 20
-	"Acolnahuacatl #0" = 20
-	"Tzacualcatl #0" = 20
-	"Itzlolinqui #0" = 20
-	"Xilomantzin #0" = 20
-	"Quequecholtzin #0" = 20
-	"Tzompanteuctli #0" = 20
-	"Quetzaltototzin #0" = 20
-	"Cacamatzin #0" = 20
-	"Tlilpotonqui #0" = 20
-	"Tayoatzin #0" = 20
-	"Quauhtlapaltzin #0" = 20
-	"Tezcatlteuctli #0" = 20
-	"Tlacotzin #0" = 20
-	"Chimalpantzin #0" = 20
-	"Tepehuatzin #0" = 20
-	"Tezcatl #0" = 20
-	"Tatlatzincatzin #0" = 20
-	"Tlilpotonqui #0" = 20
-	"Nezahualpilli #0" = 20
-	"Miccacalcatl #0" = 20
-	"Ixtteocalletzin #0" = 20
-
-	"Matlalcihuatzin #0" = -1
-	"Maquiztzin #0" = -1
-	"Xiuhpopocatzin #0" = -1
-	"Tollintzin #0" = -1
-	"Xochiacamapichtli #0" = -1
-	"Xillomantzin #0" = -1
-	"Izapaplotzin #0" = -1
-	"Chiquatzin #0" = -1
-	"Totomochtzin #0" = -1
-	"Tlacoachcimaltzin #0" = -1
-	"Toznenetzin #0" = -1
-	"Cihuapilli #0" = -1
-	"Mauhcaxochitzin #0" = -1
-	"Chicuey #0" = -1
-	"Xiuhtoztzin #0" = -1
-	"Quauhtlamiyahualtzin #0" = -1
-	"Quetzalpetlatzin #0" = -1
-	"Tzihuacxochitzin #0" = -1
+	"Yo'o Nana #0" = 20
+	"Vij Nana #0" = 20
+	"Va'nuj Nana #0" = 20
+	"Ca'anj Nana #0" = 20
+	"Un' Nana #0" = 20
+	"Vatan' Nana #0" = 20
+	"Ichij Nana #0" = 20
+	"Tunj Nana #0" = 20
+	"Xaan Nana #0" = 20 
+	"Chuvij Nana #0" = 20
+	"Yo'o Tocuá #0" = 20
+	"Vij Tocuá #0" = 20
+	"Va'nuj Tocuá #0" = 20
+	"Ca'anj Tocuá #0" = 20
+	"Un' Tocuá #0" = 20
+	"Vatan' Tocuá #0" = 20
+	"Ichij Tocuá #0" = 20
+	"Tunj Tocuá #0" = 20
+	"Xaan Tocuá #0" = 20 
+	"Chuvij Tocuá #0" = 20
+	"Yo'o Xcuáá #0" = 20
+	"Vij Xcuáá #0" = 20
+	"Va'nuj Xcuáá #0" = 20
+	"Ca'anj Xcuáá #0" = 20
+	"Un' Xcuáá #0" = 20
+	"Vatan' Xcuáá #0" = 20
+	"Ichij Xcuáá #0" = 20
+	"Tunj Xcuáá #0" = 20
+	"Xaan Xcuáá #0" = 20 
+	"Chuvij Xcuáá #0" = 20
+	"Yo'o Xtaj #0" = 20
+	"Vij Xtaj #0" = 20
+	"Va'nuj Xtaj #0" = 20
+	"Ca'anj Xtaj #0" = 20
+	"Un' Xtaj #0" = 20
+	"Vatan' Xtaj #0" = 20
+	"Ichij Xtaj #0" = 20
+	"Tunj Xtaj #0" = 20
+	"Xaan Xtaj #0" = 20 
+	"Chuvij Xtaj #0" = 20
+	"Yo'o Tucuya #0" = 20
+	"Vij Tucuya #0" = 20
+	"Va'nuj Tucuya #0" = 20
+	"Ca'anj Tucuya #0" = 20
+	"Un' Tucuya #0" = 20
+	"Vatan' Tucuya #0" = 20
+	"Ichij Tucuya #0" = 20
+	"Tunj Tucuya #0" = 20
+	"Xaan Tucuya #0" = 20 
+	"Chuvij Tucuya #0" = 20
+	"Yo'o Na #0" = 20
+	"Vij Na #0" = 20
+	"Va'nuj Na #0" = 20
+	"Ca'anj Na #0" = 20
+	"Un' Na #0" = 20
+	"Vatan' Na #0" = 20
+	"Ichij Na #0" = 20
+	"Tunj Na #0" = 20
+	"Xaan Na #0" = 20 
+	"Chuvij Na #0" = 20
+	"Yo'o Chuvee #0" = 20
+	"Vij Chuvee #0" = 20
+	"Va'nuj Chuvee #0" = 20
+	"Ca'anj Chuvee #0" = 20
+	"Un' Chuvee #0" = 20
+	"Vatan' Chuvee #0" = 20
+	"Ichij Chuvee #0" = 20
+	"Tunj Chuvee #0" = 20
+	"Xaan Chuvee #0" = 20 
+	"Chuvij Chuvee #0" = 20
+	"Yo'o Curuvii #0" = 20
+	"Vij Curuvii #0" = 20
+	"Va'nuj Curuvii #0" = 20
+	"Ca'anj Curuvii #0" = 20
+	"Un' Curuvii #0" = 20
+	"Vatan' Curuvii #0" = 20
+	"Ichij Curuvii #0" = 20
+	"Tunj Curuvii #0" = 20
+	"Xaan Curuvii #0" = 20 
+	"Chuvij Curuvii #0" = 20
+	"Yo'o Chin' #0" = 20
+	"Vij Chin' #0" = 20
+	"Va'nuj Chin' #0" = 20
+	"Ca'anj Chin' #0" = 20
+	"Un' Chin' #0" = 20
+	"Vatan' Chin' #0" = 20
+	"Ichij Chin' #0" = 20
+	"Tunj Chin' #0" = 20
+	"Xaan Chin' #0" = 20 
+	"Chuvij Chin' #0" = 20
+	"Yo'o Xtaa #0" = 20
+	"Vij Xtaa #0" = 20
+	"Va'nuj Xtaa #0" = 20
+	"Ca'anj Xtaa #0" = 20
+	"Un' Xtaa #0" = 20
+	"Vatan' Xtaa #0" = 20
+	"Ichij Xtaa #0" = 20
+	"Tunj Xtaa #0" = 20
+	"Xaan Xtaa #0" = 20 
+	"Chuvij Xtaa #0" = 20
+	"Yo'o Nuún #0" = 20
+	"Vij Nuún #0" = 20
+	"Va'nuj Nuún #0" = 20
+	"Ca'anj Nuún #0" = 20
+	"Un' Nuún #0" = 20
+	"Vatan' Nuún #0" = 20
+	"Ichij Nuún #0" = 20
+	"Tunj Nuún #0" = 20
+	"Xaan Nuún #0" = 20 
+	"Chuvij Nuún #0" = 20
+	"Yo'o Aman' #0" = 20
+	"Vij Aman' #0" = 20
+	"Va'nuj Aman' #0" = 20
+	"Ca'anj Aman' #0" = 20
+	"Un' Aman' #0" = 20
+	"Vatan' Aman' #0" = 20
+	"Ichij Aman' #0" = 20
+	"Tunj Aman' #0" = 20
+	"Xaan Aman' #0" = 20 
+	"Chuvij Aman' #0" = 20
+	"Yo'o Yaj #0" = 20
+	"Vij Yaj #0" = 20
+	"Va'nuj Yaj #0" = 20
+	"Ca'anj Yaj #0" = 20
+	"Un' Yaj #0" = 20
+	"Vatan' Yaj #0" = 20
+	"Ichij Yaj #0" = 20
+	"Tunj Yaj #0" = 20
+	"Xaan Yaj #0" = 20 
+	"Chuvij Yaj #0" = 20
+	
+	"Yo'o Nana #0" = -1
+	"Vij Nana #0" = -1
+	"Va'nuj Nana #0" = -1
+	"Ca'anj Nana #0" = -1
+	"Un' Nana #0" = -1
+	"Vatan' Nana #0" = -1
+	"Ichij Nana #0" = -1
+	"Tunj Nana #0" = -1
+	"Xaan Nana #0" = -1 
+	"Chuvij Nana #0" = -1
+	"Yo'o Tocuá #0" = -1
+	"Vij Tocuá #0" = -1
+	"Va'nuj Tocuá #0" = -1
+	"Ca'anj Tocuá #0" = -1
+	"Un' Tocuá #0" = -1
+	"Vatan' Tocuá #0" = -1
+	"Ichij Tocuá #0" = -1
+	"Tunj Tocuá #0" = -1
+	"Xaan Tocuá #0" = -1 
+	"Chuvij Tocuá #0" = -1
+	"Yo'o Xcuáá #0" = -1
+	"Vij Xcuáá #0" = -1
+	"Va'nuj Xcuáá #0" = -1
+	"Ca'anj Xcuáá #0" = -1
+	"Un' Xcuáá #0" = -1
+	"Vatan' Xcuáá #0" = -1
+	"Ichij Xcuáá #0" = -1
+	"Tunj Xcuáá #0" = -1
+	"Xaan Xcuáá #0" = -1 
+	"Chuvij Xcuáá #0" = -1
+	"Yo'o Xtaj #0" = -1
+	"Vij Xtaj #0" = -1
+	"Va'nuj Xtaj #0" = -1
+	"Ca'anj Xtaj #0" = -1
+	"Un' Xtaj #0" = -1
+	"Vatan' Xtaj #0" = -1
+	"Ichij Xtaj #0" = -1
+	"Tunj Xtaj #0" = -1
+	"Xaan Xtaj #0" = -1 
+	"Chuvij Xtaj #0" = -1
+	"Yo'o Tucuya #0" = -1
+	"Vij Tucuya #0" = -1
+	"Va'nuj Tucuya #0" = -1
+	"Ca'anj Tucuya #0" = -1
+	"Un' Tucuya #0" = -1
+	"Vatan' Tucuya #0" = -1
+	"Ichij Tucuya #0" = -1
+	"Tunj Tucuya #0" = -1
+	"Xaan Tucuya #0" = -1 
+	"Chuvij Tucuya #0" = -1
+	"Yo'o Na #0" = -1
+	"Vij Na #0" = -1
+	"Va'nuj Na #0" = -1
+	"Ca'anj Na #0" = -1
+	"Un' Na #0" = -1
+	"Vatan' Na #0" = -1
+	"Ichij Na #0" = -1
+	"Tunj Na #0" = -1
+	"Xaan Na #0" = -1 
+	"Chuvij Na #0" = -1
+	"Yo'o Chuvee #0" = -1
+	"Vij Chuvee #0" = -1
+	"Va'nuj Chuvee #0" = -1
+	"Ca'anj Chuvee #0" = -1
+	"Un' Chuvee #0" = -1
+	"Vatan' Chuvee #0" = -1
+	"Ichij Chuvee #0" = -1
+	"Tunj Chuvee #0" = -1
+	"Xaan Chuvee #0" = -1 
+	"Chuvij Chuvee #0" = -1
+	"Yo'o Curuvii #0" = -1
+	"Vij Curuvii #0" = -1
+	"Va'nuj Curuvii #0" = -1
+	"Ca'anj Curuvii #0" = -1
+	"Un' Curuvii #0" = -1
+	"Vatan' Curuvii #0" = -1
+	"Ichij Curuvii #0" = -1
+	"Tunj Curuvii #0" = -1
+	"Xaan Curuvii #0" = -1 
+	"Chuvij Curuvii #0" = -1
+	"Yo'o Chin' #0" = -1
+	"Vij Chin' #0" = -1
+	"Va'nuj Chin' #0" = -1
+	"Ca'anj Chin' #0" = -1
+	"Un' Chin' #0" = -1
+	"Vatan' Chin' #0" = -1
+	"Ichij Chin' #0" = -1
+	"Tunj Chin' #0" = -1
+	"Xaan Chin' #0" = -1 
+	"Chuvij Chin' #0" = -1
+	"Yo'o Xtaa #0" = -1
+	"Vij Xtaa #0" = -1
+	"Va'nuj Xtaa #0" = -1
+	"Ca'anj Xtaa #0" = -1
+	"Un' Xtaa #0" = -1
+	"Vatan' Xtaa #0" = -1
+	"Ichij Xtaa #0" = -1
+	"Tunj Xtaa #0" = -1
+	"Xaan Xtaa #0" = -1 
+	"Chuvij Xtaa #0" = -1
+	"Yo'o Nuún #0" = -1
+	"Vij Nuún #0" = -1
+	"Va'nuj Nuún #0" = -1
+	"Ca'anj Nuún #0" = -1
+	"Un' Nuún #0" = -1
+	"Vatan' Nuún #0" = -1
+	"Ichij Nuún #0" = -1
+	"Tunj Nuún #0" = -1
+	"Xaan Nuún #0" = -1 
+	"Chuvij Nuún #0" = -1
+	"Yo'o Aman' #0" = -1
+	"Vij Aman' #0" = -1
+	"Va'nuj Aman' #0" = -1
+	"Ca'anj Aman' #0" = -1
+	"Un' Aman' #0" = -1
+	"Vatan' Aman' #0" = -1
+	"Ichij Aman' #0" = -1
+	"Tunj Aman' #0" = -1
+	"Xaan Aman' #0" = -1 
+	"Chuvij Aman' #0" = -1
+	"Yo'o Yaj #0" = -1
+	"Vij Yaj #0" = -1
+	"Va'nuj Yaj #0" = -1
+	"Ca'anj Yaj #0" = -1
+	"Un' Yaj #0" = -1
+	"Vatan' Yaj #0" = -1
+	"Ichij Yaj #0" = -1
+	"Tunj Yaj #0" = -1
+	"Xaan Yaj #0" = -1 
+	"Chuvij Yaj #0" = -1
 }
 
 leader_names = {
-	Tenoch Tetzcocah Tlaco Amaxal Chapulin Coyopotl Huitzil Moyotl Tecuampil Xique Ixehuatl Ahuatl Chilchoa 
-	Cuatlapantzi Michimani Techalotzi Quecholac Tecuanhuey Tuxpan Ehecatl Cuahutenco Coatl Cuahtzon Cuaxiloa 
-	Hueytletl Tecuampil Tlapaltototli Totozintle Xochitecatl Tlahuetl Tonacatl Zontlimatzi Chalci 
+	""
 }
 
 ship_names = {
@@ -122,9 +319,9 @@ ship_names = {
 
 
 army_names = {
-	"$PROVINCE$ Xiquipilli" 
+	"Army $PROVINCE$" 
 }
 
 fleet_names = {
-	"$PROVINCE$ Fleet"
+	"Glorious Fleet"
 }

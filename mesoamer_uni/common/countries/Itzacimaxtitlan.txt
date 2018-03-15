@@ -4,33 +4,29 @@ graphical_culture = southamericagfx
 
 color = { 0 44 126 }
 
+#Country Name: Please see filename.
+
+graphical_culture = southamericagfx
+
+color = { 0 0 0 }
+
 historical_idea_groups = {
-	defensive_ideas
+	hegemonic_ideas
+	trade_ideas
 	offensive_ideas
-	religious_ideas
-	economic_ideas
-	diplomatic_ideas
-	innovativeness_ideas
+	power_concentration_ideas
 	spy_ideas
-	trade_ideas	
+	quality_ideas
+	influence_ideas
+	defensive_ideas
 }
 
 historical_units = {
-	western_medieval_infantry
-	western_medieval_knights
-	western_men_at_arms
-	swiss_landsknechten
-	dutch_maurician
-	austrian_tercio
-	austrian_grenzer
-	austrian_hussar
-	austrian_white_coat
-	prussian_uhlan
-	austrian_jaeger
-	mixed_order_infantry
-	open_order_cavalry
-	napoleonic_square
-	napoleonic_lancers
+	cm_central_mexican_infantry 
+	cm_late_central_mexican_infantry
+	cm_central_mexican_gunpowder_infantry
+	cm_central_mexican_musketeer
+	cm_central_mexican_flintlock
 }
 
 monarch_names = {
@@ -73,6 +69,42 @@ monarch_names = {
 	"Nezahualpilli #0" = 20
 	"Miccacalcatl #0" = 20
 	"Ixtteocalletzin #0" = 20
+	"Yaocuixtli #0" = 20
+	"Itzcohuatzin #0" = 20
+	"Tehuelhueltzin #0" = 20
+	"Cuauhtototzin #0" = 20
+	"Tezcacohuatzin #0" = 20
+	"Tehuehueltzintecuhtli #0" = 20
+	"Totoquihuatzin #0" = 20
+	"Quauhtlatoatzin #0" = 20
+	"Teotzin #0" = 20
+	"Aztahua #0" = 20
+	"Mixcoatl #0" = 20
+	"Totomochtzin #0" = 20
+	"Tenocelotzin #0" = 20
+	"Huetzin #0" = 20
+	"Cuautlahuice #0" = 20
+	"Itlacuauhtzin #0" = 20
+	"Tozantzin #0" = 20
+	"Coatlitlantzin #0" = 20
+	"Tzontemoc #0" = 20
+	"Tezozomoc #0" = 20
+	"Moquihuix #0" = 20
+	"Maxtla #0" = 20
+	"Tzapocuetzin #0" = 20
+	"Atexcallihuehue #0" = 20
+	"Cocohtzin #0" = 20
+	"Umacatzin #0" = 20
+	"Tlehuexolotzin #0" = 20
+	"Teyohualminqui #0" = 20
+	"Acatentehue #0" = 20
+	"Maxixcatzin #0" = 20
+	"Tzonpane #0" = 20
+	"Xayacamachan #0" = 20
+	"Mizquitl #0" = 20
+	"Zacancatzin #0" = 20
+	"Iyactzin #0" = 20
+	"Citlalpopoca #0" = 20
 
 	"Matlalcihuatzin #0" = -1
 	"Maquiztzin #0" = -1
@@ -95,14 +127,15 @@ monarch_names = {
 }
 
 leader_names = {
-	Tenoch Tetzcocah Tlaco Amaxal Chapulin Coyopotl Huitzil Moyotl Tecuampil Xique Ixehuatl Ahuatl Chilchoa 
+	Tenoch Tetzcocah Amaxal Chapulin Coyopotl Huitzil Moyotl Tecuampil Xique Ixehuatl Ahuatl Chilchoa 
 	Cuatlapantzi Michimani Techalotzi Quecholac Tecuanhuey Tuxpan Ehecatl Cuahutenco Coatl Cuahtzon Cuaxiloa 
-	Hueytletl Tecuampil Tlapaltototli Totozintle Xochitecatl Tlahuetl Tonacatl Zontlimatzi Chalci 
+	Hueytletl Tecuampil Tlapaltototli Totozintle Xochitecatl Tlahuetl Tonacatl Zontlimatzi Chalci Acxotlan
+	Azcatl Cocolo Cocolotl Mixca Nocelotl Petlacalco Tecaxco Tecualt Tecuani Tlalolin Tochimani 
 }
 
 ship_names = {
 	Acolmiztli Acolnahuacat "Ah Hoya" "Ah Tzenul" Amimitl Apanecatl Atl Atlau Axoloa
-	Camaxtli Centeot Centzonuiznaua Chalchiuhtlatonal Chalchiuhtlicue Chalchiutotolin Chalmecalt Chalmecaucihuilt
+	Camaxtli Centeot Centzonuiznaua Chalchiuhtlatonal Chalchiuhtlicue Chalchiutotolin Chalmecalt 	Chalmecaucihuilt
 	Chantico Chichomexochtli Chicomecoatl Chiconahuai Chihalma Chualchihuitlcue Cihuacaotyl Cinteotl
 	Citlalatonac Citlalicue Ciucoatl Coatlicue Cochimetl Coyolxauhqui Cuauhcoatl 
 	Ehehcatl Eueucoyotl

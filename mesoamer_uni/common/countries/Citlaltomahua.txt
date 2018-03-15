@@ -4,105 +4,234 @@ graphical_culture = southamericagfx
 
 color = { 71 136 0 }
 
+﻿#Country Name: Please see filename.
+
+graphical_culture = southamericagfx
+
+color = { 0 0 0 }
+
 historical_idea_groups = {
-	defensive_ideas
+	hegemonic_ideas
+	trade_ideas
 	offensive_ideas
-	religious_ideas
-	economic_ideas
-	diplomatic_ideas
-	innovativeness_ideas
+	power_concentration_ideas
 	spy_ideas
-	trade_ideas	
+	quality_ideas
+	influence_ideas
+	defensive_ideas
 }
 
 historical_units = {
-	western_medieval_infantry
-	western_medieval_knights
-	western_men_at_arms
-	swiss_landsknechten
-	dutch_maurician
-	austrian_tercio
-	austrian_grenzer
-	austrian_hussar
-	austrian_white_coat
-	prussian_uhlan
-	austrian_jaeger
-	mixed_order_infantry
-	open_order_cavalry
-	napoleonic_square
-	napoleonic_lancers
+	cm_central_mexican_infantry 
+	cm_late_central_mexican_infantry
+	cm_central_mexican_gunpowder_infantry
+	cm_central_mexican_musketeer
+	cm_central_mexican_flintlock
 }
 
 monarch_names = {
-	"Acamapichtli #0" = 20
-	"Iztcoatl #0" = 20
-	"Huitzilihhuitl #0" = 20
-	"Chimalpopoca #0" = 20
-	"Moteuczomah #0" = 20
-	"Tizoc #0" = 20
-	"Ahuitzotl #0" = 20
-	"Axayacatl #0" = 20
-	"Cuauhtemoc #0" = 20
-	"Cuitlahuac #0" = 20
-	"Nezahualcoyotl #0" = 20	
-	"Tlacaelel #0" = 20
-	"Xihuitl Temoc #0" = 20	
-	"Xochitl #0" = 20
-	"Olinqui #0" = 20
-	"Acolmiztli #0" = 20
-	"Yoyontzin #0" = 20
-	"Ixtlilxochitl #0" = 20
-	"Acolnahuacatl #0" = 20
-	"Tzacualcatl #0" = 20
-	"Itzlolinqui #0" = 20
-	"Xilomantzin #0" = 20
-	"Quequecholtzin #0" = 20
-	"Tzompanteuctli #0" = 20
-	"Quetzaltototzin #0" = 20
-	"Cacamatzin #0" = 20
-	"Tlilpotonqui #0" = 20
-	"Tayoatzin #0" = 20
-	"Quauhtlapaltzin #0" = 20
-	"Tezcatlteuctli #0" = 20
-	"Tlacotzin #0" = 20
-	"Chimalpantzin #0" = 20
-	"Tepehuatzin #0" = 20
-	"Tezcatl #0" = 20
-	"Tatlatzincatzin #0" = 20
-	"Tlilpotonqui #0" = 20
-	"Nezahualpilli #0" = 20
-	"Miccacalcatl #0" = 20
-	"Ixtteocalletzin #0" = 20
-
-	"Matlalcihuatzin #0" = -1
-	"Maquiztzin #0" = -1
-	"Xiuhpopocatzin #0" = -1
-	"Tollintzin #0" = -1
-	"Xochiacamapichtli #0" = -1
-	"Xillomantzin #0" = -1
-	"Izapaplotzin #0" = -1
-	"Chiquatzin #0" = -1
-	"Totomochtzin #0" = -1
-	"Tlacoachcimaltzin #0" = -1
-	"Toznenetzin #0" = -1
-	"Cihuapilli #0" = -1
-	"Mauhcaxochitzin #0" = -1
-	"Chicuey #0" = -1
-	"Xiuhtoztzin #0" = -1
-	"Quauhtlamiyahualtzin #0" = -1
-	"Quetzalpetlatzin #0" = -1
-	"Tzihuacxochitzin #0" = -1
+	"Tahuaj Ijtejla #0" = 20
+	"Caxla Ijtejla #0" = 20
+	"Cali Ijtejla #0" = 20
+	"Paxla Ijtejla #0" = 20
+	"Puaxla Ijtejla #0" = 20
+	"Daschi Ijtejla #0" = 20
+	"Huischi ijtejla #0" = 20
+	"Pujta Lijpuxla Ijtejla #0" = 20
+	"Noxla Ijtejla #0" = 20
+	"Tchonsla Ijtejla #0" = 20
+	"Aguiltahud Ijtejla #0" = 20
+	"Aguilcaxta Ijtejla #0" = 20
+	"Tahuaj Xla #0" = 20
+	"Caxla Xla #0" = 20
+	"Cali Xla #0" = 20
+	"Paxla Xla #0" = 20
+	"Puaxla Xla #0" = 20
+	"Daschi Xla #0" = 20
+	"Huischi Xla #0" = 20
+	"Pujta Lijpuxla Xla #0" = 20
+	"Noxla Xla #0" = 20
+	"Tchonsla Xla #0" = 20
+	"Aguiltahud Xla #0" = 20
+	"Aguilcaxta Xla #0" = 20
+	"Tahuaj Cueduc #0" = 20
+	"Caxla Cueduc #0" = 20
+	"Cali Cueduc #0" = 20
+	"Paxla Cueduc #0" = 20
+	"Puaxla Cueduc #0" = 20
+	"Daschi Cueduc #0" = 20
+	"Huischi Cueduc #0" = 20
+	"Pujta Lijpuxla Cueduc #0" = 20
+	"Noxla Cueduc #0" = 20
+	"Tchonsla Cueduc #0" = 20
+	"Aguiltahud Cueduc #0" = 20
+	"Aguilcaxta Cueduc #0" = 20
+	"Tahuaj Cooyo #0" = 20
+	"Caxla Cooyo #0" = 20
+	"Cali Cooyo #0" = 20
+	"Paxla Cooyo #0" = 20
+	"Puaxla Cooyo #0" = 20
+	"Daschi Cooyo #0" = 20
+	"Huischi Cooyo #0" = 20
+	"Pujta Lijpuxla Cooyo #0" = 20
+	"Noxla Cooyo #0" = 20
+	"Tchonsla Cooyo #0" = 20
+	"Aguiltahud Cooyo #0" = 20
+	"Aguilcaxta Cooyo #0" = 20
+	"Tahuaj Poma #0" = 20
+	"Caxla Poma #0" = 20
+	"Cali Poma #0" = 20
+	"Paxla Poma #0" = 20
+	"Puaxla Poma #0" = 20
+	"Daschi Poma #0" = 20
+	"Huischi Poma #0" = 20
+	"Pujta Lijpuxla Poma #0" = 20
+	"Noxla Poma #0" = 20
+	"Tchonsla Poma #0" = 20
+	"Aguiltahud Poma #0" = 20
+	"Aguilcaxta Poma #0" = 20
+	"Tahuaj Huma #0" = 20
+	"Caxla Huma #0" = 20
+	"Cali Huma #0" = 20
+	"Paxla Huma #0" = 20
+	"Puaxla Huma #0" = 20
+	"Daschi Huma #0" = 20
+	"Huischi Huma #0" = 20
+	"Pujta Lijpuxla Huma #0" = 20
+	"Noxla Huma #0" = 20
+	"Tchonsla Huma #0" = 20
+	"Aguiltahud Huma #0" = 20
+	"Aguilcaxta Huma #0" = 20
+	"Tahuaj Mojen #0" = 20
+	"Caxla Mojen #0" = 20
+	"Cali Mojen #0" = 20
+	"Paxla Mojen #0" = 20
+	"Puaxla Mojen #0" = 20
+	"Daschi Mojen #0" = 20
+	"Huischi Mojen #0" = 20
+	"Pujta Lijpuxla Mojen #0" = 20
+	"Noxla Mojen #0" = 20
+	"Tchonsla Mojen #0" = 20
+	"Aguiltahud Mojen #0" = 20
+	"Aguilcaxta Mojen #0" = 20
+	"Tahuaj Tamulili Nononta #0" = 20
+	"Caxla Tamulili Nononta #0" = 20
+	"Cali Tamulili Nononta #0" = 20
+	"Paxla Tamulili Nononta #0" = 20
+	"Puaxla Tamulili Nononta #0" = 20
+	"Daschi Tamulili Nononta #0" = 20
+	"Huischi Tamulili Nononta #0" = 20
+	"Pujta Lijpuxla Tamulili Nononta #0" = 20
+	"Noxla Tamulili Nononta #0" = 20
+	"Tchonsla Tamulili Nononta #0" = 20
+	"Aguiltahud Tamulili Nononta #0" = 20
+	"Aguilcaxta Tamulili Nononta #0" = 20
+	
+	"Tahuaj Ijtejla #0" = -1
+	"Caxla Ijtejla #0" = -1
+	"Cali Ijtejla #0" = -1
+	"Paxla Ijtejla #0" = -1
+	"Puaxla Ijtejla #0" = -1
+	"Daschi Ijtejla #0" = -1
+	"Huischi ijtejla #0" = -1
+	"Pujta Lijpuxla Ijtejla #0" = -1
+	"Noxla Ijtejla #0" = -1
+	"Tchonsla Ijtejla #0" = -1
+	"Aguiltahud Ijtejla #0" = -1
+	"Aguilcaxta Ijtejla #0" = -1
+	"Tahuaj Xla #0" = -1
+	"Caxla Xla #0" = -1
+	"Cali Xla #0" = -1
+	"Paxla Xla #0" = -1
+	"Puaxla Xla #0" = -1
+	"Daschi Xla #0" = -1
+	"Huischi Xla #0" = -1
+	"Pujta Lijpuxla Xla #0" = -1
+	"Noxla Xla #0" = -1
+	"Tchonsla Xla #0" = -1
+	"Aguiltahud Xla #0" = -1
+	"Aguilcaxta Xla #0" = -1
+	"Tahuaj Cueduc #0" = -1
+	"Caxla Cueduc #0" = -1
+	"Cali Cueduc #0" = -1
+	"Paxla Cueduc #0" = -1
+	"Puaxla Cueduc #0" = -1
+	"Daschi Cueduc #0" = -1
+	"Huischi Cueduc #0" = -1
+	"Pujta Lijpuxla Cueduc #0" = -1
+	"Noxla Cueduc #0" = -1
+	"Tchonsla Cueduc #0" = -1
+	"Aguiltahud Cueduc #0" = -1
+	"Aguilcaxta Cueduc #0" = -1
+	"Tahuaj Cooyo #0" = -1
+	"Caxla Cooyo #0" = -1
+	"Cali Cooyo #0" = -1
+	"Paxla Cooyo #0" = -1
+	"Puaxla Cooyo #0" = -1
+	"Daschi Cooyo #0" = -1
+	"Huischi Cooyo #0" = -1
+	"Pujta Lijpuxla Cooyo #0" = -1
+	"Noxla Cooyo #0" = -1
+	"Tchonsla Cooyo #0" = -1
+	"Aguiltahud Cooyo #0" = -1
+	"Aguilcaxta Cooyo #0" = -1
+	"Tahuaj Poma #0" = -1
+	"Caxla Poma #0" = -1
+	"Cali Poma #0" = -1
+	"Paxla Poma #0" = -1
+	"Puaxla Poma #0" = -1
+	"Daschi Poma #0" = -1
+	"Huischi Poma #0" = -1
+	"Pujta Lijpuxla Poma #0" = -1
+	"Noxla Poma #0" = -1
+	"Tchonsla Poma #0" = -1
+	"Aguiltahud Poma #0" = -1
+	"Aguilcaxta Poma #0" = -1
+	"Tahuaj Huma #0" = -1
+	"Caxla Huma #0" = -1
+	"Cali Huma #0" = -1
+	"Paxla Huma #0" = -1
+	"Puaxla Huma #0" = -1
+	"Daschi Huma #0" = -1
+	"Huischi Huma #0" = -1
+	"Pujta Lijpuxla Huma #0" = -1
+	"Noxla Huma #0" = -1
+	"Tchonsla Huma #0" = -1
+	"Aguiltahud Huma #0" = -1
+	"Aguilcaxta Huma #0" = -1
+	"Tahuaj Mojen #0" = -1
+	"Caxla Mojen #0" = -1
+	"Cali Mojen #0" = -1
+	"Paxla Mojen #0" = -1
+	"Puaxla Mojen #0" = -1
+	"Daschi Mojen #0" = -1
+	"Huischi Mojen #0" = -1
+	"Pujta Lijpuxla Mojen #0" = -1
+	"Noxla Mojen #0" = -1
+	"Tchonsla Mojen #0" = -1
+	"Aguiltahud Mojen #0" = -1
+	"Aguilcaxta Mojen #0" = -1
+	"Tahuaj Tamulili Nononta #0" = -1
+	"Caxla Tamulili Nononta #0" = -1
+	"Cali Tamulili Nononta #0" = -1
+	"Paxla Tamulili Nononta #0" = -1
+	"Puaxla Tamulili Nononta #0" = -1
+	"Daschi Tamulili Nononta #0" = -1
+	"Huischi Tamulili Nononta #0" = -1
+	"Pujta Lijpuxla Tamulili Nononta #0" = -1
+	"Noxla Tamulili Nononta #0" = -1
+	"Tchonsla Tamulili Nononta #0" = -1
+	"Aguiltahud Tamulili Nononta #0" = -1
+	"Aguilcaxta Tamulili Nononta #0" = -1
 }
 
 leader_names = {
-	Tenoch Tetzcocah Tlaco Amaxal Chapulin Coyopotl Huitzil Moyotl Tecuampil Xique Ixehuatl Ahuatl Chilchoa 
-	Cuatlapantzi Michimani Techalotzi Quecholac Tecuanhuey Tuxpan Ehecatl Cuahutenco Coatl Cuahtzon Cuaxiloa 
-	Hueytletl Tecuampil Tlapaltototli Totozintle Xochitecatl Tlahuetl Tonacatl Zontlimatzi Chalci 
+	""
 }
 
 ship_names = {
 	Acolmiztli Acolnahuacat "Ah Hoya" "Ah Tzenul" Amimitl Apanecatl Atl Atlau Axoloa
-	Camaxtli Centeot Centzonuiznaua Chalchiuhtlatonal Chalchiuhtlicue Chalchiutotolin Chalmecalt Chalmecaucihuilt
+	Camaxtli Centeot Centzonuiznaua Chalchiuhtlatonal Chalchiuhtlicue Chalchiutotolin Chalmecalt 	Chalmecaucihuilt
 	Chantico Chichomexochtli Chicomecoatl Chiconahuai Chihalma Chualchihuitlcue Cihuacaotyl Cinteotl
 	Citlalatonac Citlalicue Ciucoatl Coatlicue Cochimetl Coyolxauhqui Cuauhcoatl 
 	Ehehcatl Eueucoyotl
