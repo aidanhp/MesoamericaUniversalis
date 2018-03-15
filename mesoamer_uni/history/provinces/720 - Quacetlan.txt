@@ -10,7 +10,7 @@ base_production = 5
 base_manpower = 16
 trade_goods = staple_crops 
 
-capital = "Quecetlan"
+capital = "Quacetlan"
 is_city = yes
 
 discovered_by = western_european_tg
