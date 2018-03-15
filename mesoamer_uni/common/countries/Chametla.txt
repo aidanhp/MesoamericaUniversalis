@@ -4,105 +4,262 @@ graphical_culture = southamericagfx
 
 color = { 178 139 60 }
 
+#Country Name: Please see filename.
+
+graphical_culture = southamericagfx
+
+color = { 0 0 0 }
+
 historical_idea_groups = {
-	defensive_ideas
+	hegemonic_ideas
+	trade_ideas
 	offensive_ideas
-	religious_ideas
-	economic_ideas
-	diplomatic_ideas
-	innovativeness_ideas
+	power_concentration_ideas
 	spy_ideas
-	trade_ideas	
+	quality_ideas
+	influence_ideas
+	defensive_ideas
 }
 
 historical_units = {
-	western_medieval_infantry
-	western_medieval_knights
-	western_men_at_arms
-	swiss_landsknechten
-	dutch_maurician
-	austrian_tercio
-	austrian_grenzer
-	austrian_hussar
-	austrian_white_coat
-	prussian_uhlan
-	austrian_jaeger
-	mixed_order_infantry
-	open_order_cavalry
-	napoleonic_square
-	napoleonic_lancers
+	wm_west_mexican_infantry 
+	wm_late_west_mexican_infantry
+	wm_west_mexican_gunpowder_infantry
+	wm_west_mexican_musketeer
+	wm_west_mexican_flintlock
 }
 
 monarch_names = {
-	"Acamapichtli #0" = 20
-	"Iztcoatl #0" = 20
-	"Huitzilihhuitl #0" = 20
-	"Chimalpopoca #0" = 20
-	"Moteuczomah #0" = 20
-	"Tizoc #0" = 20
-	"Ahuitzotl #0" = 20
-	"Axayacatl #0" = 20
-	"Cuauhtemoc #0" = 20
-	"Cuitlahuac #0" = 20
-	"Nezahualcoyotl #0" = 20	
-	"Tlacaelel #0" = 20
-	"Xihuitl Temoc #0" = 20	
-	"Xochitl #0" = 20
-	"Olinqui #0" = 20
-	"Acolmiztli #0" = 20
-	"Yoyontzin #0" = 20
-	"Ixtlilxochitl #0" = 20
-	"Acolnahuacatl #0" = 20
-	"Tzacualcatl #0" = 20
-	"Itzlolinqui #0" = 20
-	"Xilomantzin #0" = 20
-	"Quequecholtzin #0" = 20
-	"Tzompanteuctli #0" = 20
-	"Quetzaltototzin #0" = 20
-	"Cacamatzin #0" = 20
-	"Tlilpotonqui #0" = 20
-	"Tayoatzin #0" = 20
-	"Quauhtlapaltzin #0" = 20
-	"Tezcatlteuctli #0" = 20
-	"Tlacotzin #0" = 20
-	"Chimalpantzin #0" = 20
-	"Tepehuatzin #0" = 20
-	"Tezcatl #0" = 20
-	"Tatlatzincatzin #0" = 20
-	"Tlilpotonqui #0" = 20
-	"Nezahualpilli #0" = 20
-	"Miccacalcatl #0" = 20
-	"Ixtteocalletzin #0" = 20
-
-	"Matlalcihuatzin #0" = -1
-	"Maquiztzin #0" = -1
-	"Xiuhpopocatzin #0" = -1
-	"Tollintzin #0" = -1
-	"Xochiacamapichtli #0" = -1
-	"Xillomantzin #0" = -1
-	"Izapaplotzin #0" = -1
-	"Chiquatzin #0" = -1
-	"Totomochtzin #0" = -1
-	"Tlacoachcimaltzin #0" = -1
-	"Toznenetzin #0" = -1
-	"Cihuapilli #0" = -1
-	"Mauhcaxochitzin #0" = -1
-	"Chicuey #0" = -1
-	"Xiuhtoztzin #0" = -1
-	"Quauhtlamiyahualtzin #0" = -1
-	"Quetzalpetlatzin #0" = -1
-	"Tzihuacxochitzin #0" = -1
+	"Maa'n Jibiilh #0" = 20
+	"Gook Jibiilh #0" = 20
+	"Baik Jibiilh #0" = 20
+	"Maakob Jibiilh #0" = 20
+	"Jix Jibiilh #0" = 20
+	"Chamaam Jibiilh #0" = 20
+	"Jix Jum Maa'n Jibiilh #0" = 20
+	"Jix Jum Gook Jibiilh #0" = 20
+	"Jix Jum Baik Jibiilh #0" = 20
+	"Jix Jum Maakob Jibiilh #0" = 20
+	"Mambhiix Jibiilh #0" = 20
+	"Maa'n Ba'aak #0" = 20
+	"Gook Ba'aak #0" = 20
+	"Baik Ba'aak #0" = 20
+	"Maakob Ba'aak #0" = 20
+	"Jix Ba'aak #0" = 20
+	"Chamaam Ba'aak #0" = 20
+	"Jix Jum Maa'n Ba'aak #0" = 20
+	"Jix Jum Gook Ba'aak #0" = 20
+	"Jix Jum Baik Ba'aak #0" = 20
+	"Jix Jum Maakob Ba'aak #0" = 20
+	"Mambhiix Ba'aak #0" = 20
+	"Maa'n Badiir #0" = 20
+	"Gook Badiir #0" = 20
+	"Baik Badiir #0" = 20
+	"Maakob Badiir #0" = 20
+	"Jix Badiir #0" = 20
+	"Chamaam Badiir #0" = 20
+	"Jix Jum Maa'n Badiir #0" = 20
+	"Jix Jum Gook Badiir #0" = 20
+	"Jix Jum Baik Badiir #0" = 20
+	"Jix Jum Maakob Badiir #0" = 20
+	"Mambhiix Badiir #0" = 20
+	"Maa'n Too'm #0" = 20
+	"Gook Too'm #0" = 20
+	"Baik Too'm #0" = 20
+	"Maakob Too'm #0" = 20
+	"Jix Too'm #0" = 20
+	"Chamaam Too'm #0" = 20
+	"Jix Jum Maa'n Too'm #0" = 20
+	"Jix Jum Gook Too'm #0" = 20
+	"Jix Jum Baik Too'm #0" = 20
+	"Jix Jum Maakob Too'm #0" = 20
+	"Mambhiix Too'm #0" = 20
+	"Maa'n Suudai' #0" = 20
+	"Gook Suudai' #0" = 20
+	"Baik Suudai' #0" = 20
+	"Maakob Suudai' #0" = 20
+	"Jix Suudai' #0" = 20
+	"Chamaam Suudai' #0" = 20
+	"Jix Jum Maa'n Suudai' #0" = 20
+	"Jix Jum Gook Suudai' #0" = 20
+	"Jix Jum Baik Suudai' #0" = 20
+	"Jix Jum Maakob Suudai' #0" = 20
+	"Mambhiix Suudai' #0" = 20
+	"Maa'n Gagoox #0" = 20
+	"Gook Gagoox #0" = 20
+	"Baik Gagoox #0" = 20
+	"Maakob Gagoox #0" = 20
+	"Jix Gagoox #0" = 20
+	"Chamaam Gagoox #0" = 20
+	"Jix Jum Maa'n Gagoox #0" = 20
+	"Jix Jum Gook Gagoox #0" = 20
+	"Jix Jum Baik Gagoox #0" = 20
+	"Jix Jum Maakob Gagoox #0" = 20
+	"Mambhiix Gagoox #0" = 20
+	"Maa'n Bajaak #0" = 20
+	"Gook Bajaak #0" = 20
+	"Baik Bajaak #0" = 20
+	"Maakob Bajaak #0" = 20
+	"Jix Bajaak #0" = 20
+	"Chamaam Bajaak #0" = 20
+	"Jix Jum Maa'n Bajaak #0" = 20
+	"Jix Jum Gook Bajaak #0" = 20
+	"Jix Jum Baik Bajaak #0" = 20
+	"Jix Jum Maakob Bajaak #0" = 20
+	"Mambhiix Bajaak #0" = 20
+	"Maa'n Bha'aa' #0" = 20
+	"Gook Bha'aa' #0" = 20
+	"Baik Bha'aa' #0" = 20
+	"Maakob Bha'aa' #0" = 20
+	"Jix Bha'aa' #0" = 20
+	"Chamaam Bha'aa' #0" = 20
+	"Jix Jum Maa'n Bha'aa' #0" = 20
+	"Jix Jum Gook Bha'aa' #0" = 20
+	"Jix Jum Baik Bha'aa' #0" = 20
+	"Jix Jum Maakob Bha'aa' #0" = 20
+	"Mambhiix Bha'aa' #0" = 20
+	"Maa'n Duuk #0" = 20
+	"Gook Duuk #0" = 20
+	"Baik Duuk #0" = 20
+	"Maakob Duuk #0" = 20
+	"Jix Duuk #0" = 20
+	"Chamaam Duuk #0" = 20
+	"Jix Jum Maa'n Duuk #0" = 20
+	"Jix Jum Gook Duuk #0" = 20
+	"Jix Jum Baik Duuk #0" = 20
+	"Jix Jum Maakob Duuk #0" = 20
+	"Mambhiix Duuk #0" = 20
+	"Maa'n Yooxi' #0" = 20
+	"Gook Yooxi' #0" = 20
+	"Baik Yooxi' #0" = 20
+	"Maakob Yooxi' #0" = 20
+	"Jix Yooxi' #0" = 20
+	"Chamaam Yooxi' #0" = 20
+	"Jix Jum Maa'n Yooxi' #0" = 20
+	"Jix Jum Gook Yooxi' #0" = 20
+	"Jix Jum Baik Yooxi' #0" = 20
+	"Jix Jum Maakob Yooxi' #0" = 20
+	"Mambhiix Yooxi' #0" = 20
+	
+	"Maa'n Jibiilh #0" = -1
+	"Gook Jibiilh #0" = -1
+	"Baik Jibiilh #0" = -1
+	"Maakob Jibiilh #0" = -1
+	"Jix Jibiilh #0" = -1
+	"Chamaam Jibiilh #0" = -1
+	"Jix Jum Maa'n Jibiilh #0" = -1
+	"Jix Jum Gook Jibiilh #0" = -1
+	"Jix Jum Baik Jibiilh #0" = -1
+	"Jix Jum Maakob Jibiilh #0" = -1
+	"Mambhiix Jibiilh #0" = -1
+	"Maa'n Ba'aak #0" = -1
+	"Gook Ba'aak #0" = -1
+	"Baik Ba'aak #0" = -1
+	"Maakob Ba'aak #0" = -1
+	"Jix Ba'aak #0" = -1
+	"Chamaam Ba'aak #0" = -1
+	"Jix Jum Maa'n Ba'aak #0" = -1
+	"Jix Jum Gook Ba'aak #0" = -1
+	"Jix Jum Baik Ba'aak #0" = -1
+	"Jix Jum Maakob Ba'aak #0" = -1
+	"Mambhiix Ba'aak #0" = -1
+	"Maa'n Badiir #0" = -1
+	"Gook Badiir #0" = -1
+	"Baik Badiir #0" = -1
+	"Maakob Badiir #0" = -1
+	"Jix Badiir #0" = -1
+	"Chamaam Badiir #0" = -1
+	"Jix Jum Maa'n Badiir #0" = -1
+	"Jix Jum Gook Badiir #0" = -1
+	"Jix Jum Baik Badiir #0" = -1
+	"Jix Jum Maakob Badiir #0" = -1
+	"Mambhiix Badiir #0" = -1
+	"Maa'n Too'm #0" = -1
+	"Gook Too'm #0" = -1
+	"Baik Too'm #0" = -1
+	"Maakob Too'm #0" = -1
+	"Jix Too'm #0" = -1
+	"Chamaam Too'm #0" = -1
+	"Jix Jum Maa'n Too'm #0" = -1
+	"Jix Jum Gook Too'm #0" = -1
+	"Jix Jum Baik Too'm #0" = -1
+	"Jix Jum Maakob Too'm #0" = -1
+	"Mambhiix Too'm #0" = -1
+	"Maa'n Suudai' #0" = -1
+	"Gook Suudai' #0" = -1
+	"Baik Suudai' #0" = -1
+	"Maakob Suudai' #0" = -1
+	"Jix Suudai' #0" = -1
+	"Chamaam Suudai' #0" = -1
+	"Jix Jum Maa'n Suudai' #0" = -1
+	"Jix Jum Gook Suudai' #0" = -1
+	"Jix Jum Baik Suudai' #0" = -1
+	"Jix Jum Maakob Suudai' #0" = -1
+	"Mambhiix Suudai' #0" = -1
+	"Maa'n Gagoox #0" = -1
+	"Gook Gagoox #0" = -1
+	"Baik Gagoox #0" = -1
+	"Maakob Gagoox #0" = -1
+	"Jix Gagoox #0" = -1
+	"Chamaam Gagoox #0" = -1
+	"Jix Jum Maa'n Gagoox #0" = -1
+	"Jix Jum Gook Gagoox #0" = -1
+	"Jix Jum Baik Gagoox #0" = -1
+	"Jix Jum Maakob Gagoox #0" = -1
+	"Mambhiix Gagoox #0" = -1
+	"Maa'n Bajaak #0" = -1
+	"Gook Bajaak #0" = -1
+	"Baik Bajaak #0" = -1
+	"Maakob Bajaak #0" = -1
+	"Jix Bajaak #0" = -1
+	"Chamaam Bajaak #0" = -1
+	"Jix Jum Maa'n Bajaak #0" = -1
+	"Jix Jum Gook Bajaak #0" = -1
+	"Jix Jum Baik Bajaak #0" = -1
+	"Jix Jum Maakob Bajaak #0" = -1
+	"Mambhiix Bajaak #0" = -1
+	"Maa'n Bha'aa' #0" = -1
+	"Gook Bha'aa' #0" = -1
+	"Baik Bha'aa' #0" = -1
+	"Maakob Bha'aa' #0" = -1
+	"Jix Bha'aa' #0" = -1
+	"Chamaam Bha'aa' #0" = -1
+	"Jix Jum Maa'n Bha'aa' #0" = -1
+	"Jix Jum Gook Bha'aa' #0" = -1
+	"Jix Jum Baik Bha'aa' #0" = -1
+	"Jix Jum Maakob Bha'aa' #0" = -1
+	"Mambhiix Bha'aa' #0" = -1
+	"Maa'n Duuk #0" = -1
+	"Gook Duuk #0" = -1
+	"Baik Duuk #0" = -1
+	"Maakob Duuk #0" = -1
+	"Jix Duuk #0" = -1
+	"Chamaam Duuk #0" = -1
+	"Jix Jum Maa'n Duuk #0" = -1
+	"Jix Jum Gook Duuk #0" = -1
+	"Jix Jum Baik Duuk #0" = -1
+	"Jix Jum Maakob Duuk #0" = -1
+	"Mambhiix Duuk #0" = -1
+	"Maa'n Yooxi' #0" = -1
+	"Gook Yooxi' #0" = -1
+	"Baik Yooxi' #0" = -1
+	"Maakob Yooxi' #0" = -1
+	"Jix Yooxi' #0" = -1
+	"Chamaam Yooxi' #0" = -1
+	"Jix Jum Maa'n Yooxi' #0" = -1
+	"Jix Jum Gook Yooxi' #0" = -1
+	"Jix Jum Baik Yooxi' #0" = -1
+	"Jix Jum Maakob Yooxi' #0" = -1
+	"Mambhiix Yooxi' #0" = -1
 }
 
 leader_names = {
-	Tenoch Tetzcocah Tlaco Amaxal Chapulin Coyopotl Huitzil Moyotl Tecuampil Xique Ixehuatl Ahuatl Chilchoa 
-	Cuatlapantzi Michimani Techalotzi Quecholac Tecuanhuey Tuxpan Ehecatl Cuahutenco Coatl Cuahtzon Cuaxiloa 
-	Hueytletl Tecuampil Tlapaltototli Totozintle Xochitecatl Tlahuetl Tonacatl Zontlimatzi Chalci 
+	""
 }
 
 ship_names = {
 	Acolmiztli Acolnahuacat "Ah Hoya" "Ah Tzenul" Amimitl Apanecatl Atl Atlau Axoloa
-	Camaxtli Centeot Centzonuiznaua Chalchiuhtlatonal Chalchiuhtlicue Chalchiutotolin Chalmecalt Chalmecaucihuilt
+	Camaxtli Centeot Centzonuiznaua Chalchiuhtlatonal Chalchiuhtlicue Chalchiutotolin Chalmecalt 	Chalmecaucihuilt
 	Chantico Chichomexochtli Chicomecoatl Chiconahuai Chihalma Chualchihuitlcue Cihuacaotyl Cinteotl
 	Citlalatonac Citlalicue Ciucoatl Coatlicue Cochimetl Coyolxauhqui Cuauhcoatl 
 	Ehehcatl Eueucoyotl
@@ -122,7 +279,7 @@ ship_names = {
 
 
 army_names = {
-	"$PROVINCE$ Xiquipilli" 
+	"Army $PROVINCE$" 
 }
 
 fleet_names = {

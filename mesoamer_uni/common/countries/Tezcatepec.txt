@@ -4,105 +4,302 @@ graphical_culture = southamericagfx
 
 color = { 166 54 128 }
 
+#Country Name: Please see filename.
+
+graphical_culture = southamericagfx
+
+color = { 0 0 0 }
+
 historical_idea_groups = {
-	defensive_ideas
+	hegemonic_ideas
+	trade_ideas
 	offensive_ideas
-	religious_ideas
-	economic_ideas
-	diplomatic_ideas
-	innovativeness_ideas
+	power_concentration_ideas
 	spy_ideas
-	trade_ideas	
+	quality_ideas
+	influence_ideas
+	defensive_ideas
 }
 
 historical_units = {
-	western_medieval_infantry
-	western_medieval_knights
-	western_men_at_arms
-	swiss_landsknechten
-	dutch_maurician
-	austrian_tercio
-	austrian_grenzer
-	austrian_hussar
-	austrian_white_coat
-	prussian_uhlan
-	austrian_jaeger
-	mixed_order_infantry
-	open_order_cavalry
-	napoleonic_square
-	napoleonic_lancers
+	cm_central_mexican_infantry 
+	cm_late_central_mexican_infantry
+	cm_central_mexican_gunpowder_infantry
+	cm_central_mexican_musketeer
+	cm_central_mexican_flintlock
 }
 
 monarch_names = {
-	"Acamapichtli #0" = 20
-	"Iztcoatl #0" = 20
-	"Huitzilihhuitl #0" = 20
-	"Chimalpopoca #0" = 20
-	"Moteuczomah #0" = 20
-	"Tizoc #0" = 20
-	"Ahuitzotl #0" = 20
-	"Axayacatl #0" = 20
-	"Cuauhtemoc #0" = 20
-	"Cuitlahuac #0" = 20
-	"Nezahualcoyotl #0" = 20	
-	"Tlacaelel #0" = 20
-	"Xihuitl Temoc #0" = 20	
-	"Xochitl #0" = 20
-	"Olinqui #0" = 20
-	"Acolmiztli #0" = 20
-	"Yoyontzin #0" = 20
-	"Ixtlilxochitl #0" = 20
-	"Acolnahuacatl #0" = 20
-	"Tzacualcatl #0" = 20
-	"Itzlolinqui #0" = 20
-	"Xilomantzin #0" = 20
-	"Quequecholtzin #0" = 20
-	"Tzompanteuctli #0" = 20
-	"Quetzaltototzin #0" = 20
-	"Cacamatzin #0" = 20
-	"Tlilpotonqui #0" = 20
-	"Tayoatzin #0" = 20
-	"Quauhtlapaltzin #0" = 20
-	"Tezcatlteuctli #0" = 20
-	"Tlacotzin #0" = 20
-	"Chimalpantzin #0" = 20
-	"Tepehuatzin #0" = 20
-	"Tezcatl #0" = 20
-	"Tatlatzincatzin #0" = 20
-	"Tlilpotonqui #0" = 20
-	"Nezahualpilli #0" = 20
-	"Miccacalcatl #0" = 20
-	"Ixtteocalletzin #0" = 20
-
-	"Matlalcihuatzin #0" = -1
-	"Maquiztzin #0" = -1
-	"Xiuhpopocatzin #0" = -1
-	"Tollintzin #0" = -1
-	"Xochiacamapichtli #0" = -1
-	"Xillomantzin #0" = -1
-	"Izapaplotzin #0" = -1
-	"Chiquatzin #0" = -1
-	"Totomochtzin #0" = -1
-	"Tlacoachcimaltzin #0" = -1
-	"Toznenetzin #0" = -1
-	"Cihuapilli #0" = -1
-	"Mauhcaxochitzin #0" = -1
-	"Chicuey #0" = -1
-	"Xiuhtoztzin #0" = -1
-	"Quauhtlamiyahualtzin #0" = -1
-	"Quetzalpetlatzin #0" = -1
-	"Tzihuacxochitzin #0" = -1
+	"N-nra Zantga #0" = 20
+	"Yooho Zantga #0" = 20
+	"Hiu Zantga #0" = 20
+	"Gooho Zantga #0" = 20
+	"Zyta Zantga #0" = 20
+	"Rahto Zantga #0" = 20
+	"Yohto Zantga #0" = 20
+	"Hiahto Zantga #0" = 20
+	"Gytho Zantga #0" = 20
+	"Reta Zantga #0" = 20
+	"Retamara Zantga #0" = 20
+	"Retamayooho Zantga #0" = 20
+	"Retamahiu Zantga #0" = 20
+	"N-nra Hok-phani #0" = 20
+	"Yooho Hok-phani #0" = 20
+	"Hiu Hok-phani #0" = 20
+	"Gooho Hok-phani #0" = 20
+	"Zyta Hok-phani #0" = 20
+	"Rahto Hok-phani #0" = 20
+	"Yohto Hok-phani #0" = 20
+	"Hiahto Hok-phani #0" = 20
+	"Gytho Hok-phani #0" = 20
+	"Reta Hok-phani #0" = 20
+	"Retamara Hok-phani #0" = 20
+	"Retamayooho Hok-phani #0" = 20
+	"Retamahiu Hok-phani #0" = 20
+	"N-nra Na Qhua #0" = 20
+	"Yooho Na Qhua #0" = 20
+	"Hiu Na Qhua #0" = 20
+	"Gooho Na Qhua #0" = 20
+	"Zyta Na Qhua #0" = 20
+	"Rahto Na Qhua #0" = 20
+	"Yohto Na Qhua #0" = 20
+	"Hiahto Na Qhua #0" = 20
+	"Gytho Na Qhua #0" = 20
+	"Reta Na Qhua #0" = 20
+	"Retamara Na Qhua #0" = 20
+	"Retamayooho Na Qhua #0" = 20
+	"Retamahiu Na Qhua #0" = 20
+	"N-nra Na Dehe #0" = 20
+	"Yooho Na Dehe #0" = 20
+	"Hiu Na Dehe #0" = 20
+	"Gooho Na Dehe #0" = 20
+	"Zyta Na Dehe #0" = 20
+	"Rahto Na Dehe #0" = 20
+	"Yohto Na Dehe #0" = 20
+	"Hiahto Na Dehe #0" = 20
+	"Gytho Na Dehe #0" = 20
+	"Reta Na Dehe #0" = 20
+	"Retamara Na Dehe #0" = 20
+	"Retamayooho Na Dehe #0" = 20
+	"Retamahiu Na Dehe #0" = 20
+	"N-nra Tzahthyo #0" = 20
+	"Yooho Tzahthyo #0" = 20
+	"Hiu Tzahthyo #0" = 20
+	"Gooho Tzahthyo #0" = 20
+	"Zyta Tzahthyo #0" = 20
+	"Rahto Tzahthyo #0" = 20
+	"Yohto Tzahthyo #0" = 20
+	"Hiahto Tzahthyo #0" = 20
+	"Gytho Tzahthyo #0" = 20
+	"Reta Tzahthyo #0" = 20
+	"Retamara Tzahthyo #0" = 20
+	"Retamayooho Tzahthyo #0" = 20
+	"Retamahiu Tzahthyo #0" = 20
+	"N-nra Na Tzihpa #0" = 20
+	"Yooho Na Tzihpa #0" = 20
+	"Hiu Na Tzihpa #0" = 20
+	"Gooho Na Tzihpa #0" = 20
+	"Zyta Na Tzihpa #0" = 20
+	"Rahto Na Tzihpa #0" = 20
+	"Yohto Na Tzihpa #0" = 20
+	"Hiahto Na Tzihpa #0" = 20
+	"Gytho Na Tzihpa #0" = 20
+	"Reta Na Tzihpa #0" = 20
+	"Retamara Na Tzihpa #0" = 20
+	"Retamayooho Na Tzihpa #0" = 20
+	"Retamahiu Na Tzihpa #0" = 20
+	"N-nra Na Nyo #0" = 20
+	"Yooho Na Nyo #0" = 20
+	"Hiu Na Nyo #0" = 20
+	"Gooho Na Nyo #0" = 20
+	"Zyta Na Nyo #0" = 20
+	"Rahto Na Nyo #0" = 20
+	"Yohto Na Nyo #0" = 20
+	"Hiahto Na Nyo #0" = 20
+	"Gytho Na Nyo #0" = 20
+	"Reta Na Nyo #0" = 20
+	"Retamara Na Nyo #0" = 20
+	"Retamayooho Na Nyo #0" = 20
+	"Retamahiu Na Nyo #0" = 20
+	"N-nra Na Xyni #0" = 20
+	"Yooho Na Xyni #0" = 20
+	"Hiu Na Xyni #0" = 20
+	"Gooho Na Xyni #0" = 20
+	"Zyta Na Xyni #0" = 20
+	"Rahto Na Xyni #0" = 20
+	"Yohto Na Xyni #0" = 20
+	"Hiahto Na Xyni #0" = 20
+	"Gytho Na Xyni #0" = 20
+	"Reta Na Xyni #0" = 20
+	"Retamara Na Xyni #0" = 20
+	"Retamayooho Na Xyni #0" = 20
+	"Retamahiu Na Xyni #0" = 20
+	"N-nra Naye #0" = 20
+	"Yooho Naye #0" = 20
+	"Hiu Naye #0" = 20
+	"Gooho Naye #0" = 20
+	"Zyta Naye #0" = 20
+	"Rahto Naye #0" = 20
+	"Yohto Naye #0" = 20
+	"Hiahto Naye #0" = 20
+	"Gytho Naye #0" = 20
+	"Reta Naye #0" = 20
+	"Retamara Naye #0" = 20
+	"Retamayooho Naye #0" = 20
+	"Retamahiu Naye #0" = 20
+	"N-nra Na Deni #0" = 20
+	"Yooho Na Deni #0" = 20
+	"Hiu Na Deni #0" = 20
+	"Gooho Na Deni #0" = 20
+	"Zyta Na Deni #0" = 20
+	"Rahto Na Deni #0" = 20
+	"Yohto Na Deni #0" = 20
+	"Hiahto Na Deni #0" = 20
+	"Gytho Na Deni #0" = 20
+	"Reta Na Deni #0" = 20
+	"Retamara Na Deni #0" = 20
+	"Retamayooho Na Deni #0" = 20
+	"Retamahiu Na Deni #0" = 20
+	
+	"N-nra Zantga #0" = -1
+	"Yooho Zantga #0" = -1
+	"Hiu Zantga #0" = -1
+	"Gooho Zantga #0" = -1
+	"Zyta Zantga #0" = -1
+	"Rahto Zantga #0" = -1
+	"Yohto Zantga #0" = -1
+	"Hiahto Zantga #0" = -1
+	"Gytho Zantga #0" = -1
+	"Reta Zantga #0" = -1
+	"Retamara Zantga #0" = -1
+	"Retamayooho Zantga #0" = -1
+	"Retamahiu Zantga #0" = -1
+	"N-nra Hok-phani #0" = -1
+	"Yooho Hok-phani #0" = -1
+	"Hiu Hok-phani #0" = -1
+	"Gooho Hok-phani #0" = -1
+	"Zyta Hok-phani #0" = -1
+	"Rahto Hok-phani #0" = -1
+	"Yohto Hok-phani #0" = -1
+	"Hiahto Hok-phani #0" = -1
+	"Gytho Hok-phani #0" = -1
+	"Reta Hok-phani #0" = -1
+	"Retamara Hok-phani #0" = -1
+	"Retamayooho Hok-phani #0" = -1
+	"Retamahiu Hok-phani #0" = -1
+	"N-nra Na Qhua #0" = -1
+	"Yooho Na Qhua #0" = -1
+	"Hiu Na Qhua #0" = -1
+	"Gooho Na Qhua #0" = -1
+	"Zyta Na Qhua #0" = -1
+	"Rahto Na Qhua #0" = -1
+	"Yohto Na Qhua #0" = -1
+	"Hiahto Na Qhua #0" = -1
+	"Gytho Na Qhua #0" = -1
+	"Reta Na Qhua #0" = -1
+	"Retamara Na Qhua #0" = -1
+	"Retamayooho Na Qhua #0" = -1
+	"Retamahiu Na Qhua #0" = -1
+	"N-nra Na Dehe #0" = -1
+	"Yooho Na Dehe #0" = -1
+	"Hiu Na Dehe #0" = -1
+	"Gooho Na Dehe #0" = -1
+	"Zyta Na Dehe #0" = -1
+	"Rahto Na Dehe #0" = -1
+	"Yohto Na Dehe #0" = -1
+	"Hiahto Na Dehe #0" = -1
+	"Gytho Na Dehe #0" = -1
+	"Reta Na Dehe #0" = -1
+	"Retamara Na Dehe #0" = -1
+	"Retamayooho Na Dehe #0" = -1
+	"Retamahiu Na Dehe #0" = -1
+	"N-nra Tzahthyo #0" = -1
+	"Yooho Tzahthyo #0" = -1
+	"Hiu Tzahthyo #0" = -1
+	"Gooho Tzahthyo #0" = -1
+	"Zyta Tzahthyo #0" = -1
+	"Rahto Tzahthyo #0" = -1
+	"Yohto Tzahthyo #0" = -1
+	"Hiahto Tzahthyo #0" = -1
+	"Gytho Tzahthyo #0" = -1
+	"Reta Tzahthyo #0" = -1
+	"Retamara Tzahthyo #0" = -1
+	"Retamayooho Tzahthyo #0" = -1
+	"Retamahiu Tzahthyo #0" = -1
+	"N-nra Na Tzihpa #0" = -1
+	"Yooho Na Tzihpa #0" = -1
+	"Hiu Na Tzihpa #0" = -1
+	"Gooho Na Tzihpa #0" = -1
+	"Zyta Na Tzihpa #0" = -1
+	"Rahto Na Tzihpa #0" = -1
+	"Yohto Na Tzihpa #0" = -1
+	"Hiahto Na Tzihpa #0" = -1
+	"Gytho Na Tzihpa #0" = -1
+	"Reta Na Tzihpa #0" = -1
+	"Retamara Na Tzihpa #0" = -1
+	"Retamayooho Na Tzihpa #0" = -1
+	"Retamahiu Na Tzihpa #0" = -1
+	"N-nra Na Nyo #0" = -1
+	"Yooho Na Nyo #0" = -1
+	"Hiu Na Nyo #0" = -1
+	"Gooho Na Nyo #0" = -1
+	"Zyta Na Nyo #0" = -1
+	"Rahto Na Nyo #0" = -1
+	"Yohto Na Nyo #0" = -1
+	"Hiahto Na Nyo #0" = -1
+	"Gytho Na Nyo #0" = -1
+	"Reta Na Nyo #0" = -1
+	"Retamara Na Nyo #0" = -1
+	"Retamayooho Na Nyo #0" = -1
+	"Retamahiu Na Nyo #0" = -1
+	"N-nra Na Xyni #0" = -1
+	"Yooho Na Xyni #0" = -1
+	"Hiu Na Xyni #0" = -1
+	"Gooho Na Xyni #0" = -1
+	"Zyta Na Xyni #0" = -1
+	"Rahto Na Xyni #0" = -1
+	"Yohto Na Xyni #0" = -1
+	"Hiahto Na Xyni #0" = -1
+	"Gytho Na Xyni #0" = -1
+	"Reta Na Xyni #0" = -1
+	"Retamara Na Xyni #0" = -1
+	"Retamayooho Na Xyni #0" = -1
+	"Retamahiu Na Xyni #0" = -1
+	"N-nra Naye #0" = -1
+	"Yooho Naye #0" = -1
+	"Hiu Naye #0" = -1
+	"Gooho Naye #0" = -1
+	"Zyta Naye #0" = -1
+	"Rahto Naye #0" = -1
+	"Yohto Naye #0" = -1
+	"Hiahto Naye #0" = -1
+	"Gytho Naye #0" = -1
+	"Reta Naye #0" = -1
+	"Retamara Naye #0" = -1
+	"Retamayooho Naye #0" = -1
+	"Retamahiu Naye #0" = -1
+	"N-nra Na Deni #0" = -1
+	"Yooho Na Deni #0" = -1
+	"Hiu Na Deni #0" = -1
+	"Gooho Na Deni #0" = -1
+	"Zyta Na Deni #0" = -1
+	"Rahto Na Deni #0" = -1
+	"Yohto Na Deni #0" = -1
+	"Hiahto Na Deni #0" = -1
+	"Gytho Na Deni #0" = -1
+	"Reta Na Deni #0" = -1
+	"Retamara Na Deni #0" = -1
+	"Retamayooho Na Deni #0" = -1
+	"Retamahiu Na Deni #0" = -1
 }
 
 leader_names = {
-	Tenoch Tetzcocah Tlaco Amaxal Chapulin Coyopotl Huitzil Moyotl Tecuampil Xique Ixehuatl Ahuatl Chilchoa 
-	Cuatlapantzi Michimani Techalotzi Quecholac Tecuanhuey Tuxpan Ehecatl Cuahutenco Coatl Cuahtzon Cuaxiloa 
-	Hueytletl Tecuampil Tlapaltototli Totozintle Xochitecatl Tlahuetl Tonacatl Zontlimatzi Chalci 
+	""
 }
 
 ship_names = {
 	Acolmiztli Acolnahuacat "Ah Hoya" "Ah Tzenul" Amimitl Apanecatl Atl Atlau Axoloa
-	Camaxtli Centeot Centzonuiznaua Chalchiuhtlatonal Chalchiuhtlicue Chalchiutotolin Chalmecalt Chalmecaucihuilt
+	Camaxtli Centeot Centzonuiznaua Chalchiuhtlatonal Chalchiuhtlicue Chalchiutotolin Chalmecalt 	Chalmecaucihuilt
 	Chantico Chichomexochtli Chicomecoatl Chiconahuai Chihalma Chualchihuitlcue Cihuacaotyl Cinteotl
 	Citlalatonac Citlalicue Ciucoatl Coatlicue Cochimetl Coyolxauhqui Cuauhcoatl 
 	Ehehcatl Eueucoyotl
@@ -122,7 +319,7 @@ ship_names = {
 
 
 army_names = {
-	"$PROVINCE$ Xiquipilli" 
+	"Army $PROVINCE$" 
 }
 
 fleet_names = {

@@ -4,100 +4,301 @@ graphical_culture = southamericagfx
 
 color = { 191 158 128 }
 
+﻿#Country Name: Please see filename.
+
+graphical_culture = southamericagfx
+
+color = { 0 0 0 }
+
 historical_idea_groups = {
-	defensive_ideas
+	hegemonic_ideas
+	trade_ideas
 	offensive_ideas
-	religious_ideas
-	economic_ideas
-	diplomatic_ideas
-	innovativeness_ideas
+	power_concentration_ideas
 	spy_ideas
-	trade_ideas	
+	quality_ideas
+	influence_ideas
+	defensive_ideas
 }
 
 historical_units = {
-	western_medieval_infantry
-	western_medieval_knights
-	western_men_at_arms
-	swiss_landsknechten
-	dutch_maurician
-	austrian_tercio
-	austrian_grenzer
-	austrian_hussar
-	austrian_white_coat
-	prussian_uhlan
-	austrian_jaeger
-	mixed_order_infantry
-	open_order_cavalry
-	napoleonic_square
-	napoleonic_lancers
+	hu_huaxyacac_infantry 
+	hu_late_huaxyacac_infantry
+	hu_huaxyacac_gunpowder_infantry
+	hu_huaxyacac_musketeer
+	hu_huaxyacac_flintlock
 }
 
 monarch_names = {
-	"Acamapichtli #0" = 20
-	"Iztcoatl #0" = 20
-	"Huitzilihhuitl #0" = 20
-	"Chimalpopoca #0" = 20
-	"Moteuczomah #0" = 20
-	"Tizoc #0" = 20
-	"Ahuitzotl #0" = 20
-	"Axayacatl #0" = 20
-	"Cuauhtemoc #0" = 20
-	"Cuitlahuac #0" = 20
-	"Nezahualcoyotl #0" = 20	
-	"Tlacaelel #0" = 20
-	"Xihuitl Temoc #0" = 20	
-	"Xochitl #0" = 20
-	"Olinqui #0" = 20
-	"Acolmiztli #0" = 20
-	"Yoyontzin #0" = 20
-	"Ixtlilxochitl #0" = 20
-	"Acolnahuacatl #0" = 20
-	"Tzacualcatl #0" = 20
-	"Itzlolinqui #0" = 20
-	"Xilomantzin #0" = 20
-	"Quequecholtzin #0" = 20
-	"Tzompanteuctli #0" = 20
-	"Quetzaltototzin #0" = 20
-	"Cacamatzin #0" = 20
-	"Tlilpotonqui #0" = 20
-	"Tayoatzin #0" = 20
-	"Quauhtlapaltzin #0" = 20
-	"Tezcatlteuctli #0" = 20
-	"Tlacotzin #0" = 20
-	"Chimalpantzin #0" = 20
-	"Tepehuatzin #0" = 20
-	"Tezcatl #0" = 20
-	"Tatlatzincatzin #0" = 20
-	"Tlilpotonqui #0" = 20
-	"Nezahualpilli #0" = 20
-	"Miccacalcatl #0" = 20
-	"Ixtteocalletzin #0" = 20
-
-	"Matlalcihuatzin #0" = -1
-	"Maquiztzin #0" = -1
-	"Xiuhpopocatzin #0" = -1
-	"Tollintzin #0" = -1
-	"Xochiacamapichtli #0" = -1
-	"Xillomantzin #0" = -1
-	"Izapaplotzin #0" = -1
-	"Chiquatzin #0" = -1
-	"Totomochtzin #0" = -1
-	"Tlacoachcimaltzin #0" = -1
-	"Toznenetzin #0" = -1
-	"Cihuapilli #0" = -1
-	"Mauhcaxochitzin #0" = -1
-	"Chicuey #0" = -1
-	"Xiuhtoztzin #0" = -1
-	"Quauhtlamiyahualtzin #0" = -1
-	"Quetzalpetlatzin #0" = -1
-	"Tzihuacxochitzin #0" = -1
+	"Anuli Tlahua #0" = 20
+	"Ogue Tlahua #0" = 20
+	"Afané Tlahua #0" = 20
+	"Amalpema Tlahua #0" = 20
+	"Amaqué Tlahua #0" = 20
+	"Acamtsus Tlahua #0" = 20
+	"Apaico Tlahua #0" = 20
+	"Imbama Tlahua #0" = 20
+	"Imbamahnuli Tlahua #0" = 20
+	"Imbamacoque Tlahua #0" = 20
+	"Imbamahfané Tlahua #0" = 20
+	"Anuli Lahutl #0" = 20
+	"Ogue Lahutl #0" = 20
+	"Afané Lahutl #0" = 20
+	"Amalpema Lahutl #0" = 20
+	"Amaqué Lahutl #0" = 20
+	"Acamtsus Lahutl #0" = 20
+	"Apaico Lahutl #0" = 20
+	"Imbama Lahutl #0" = 20
+	"Imbamahnuli Lahutl #0" = 20
+	"Imbamacoque Lahutl #0" = 20
+	"Imbamahfané Lahutl #0" = 20
+	"Anuli Tlamollo #0" = 20
+	"Ogue Tlamollo #0" = 20
+	"Afané Tlamollo #0" = 20
+	"Amalpema Tlamollo #0" = 20
+	"Amaqué Tlamollo #0" = 20
+	"Acamtsus Tlamollo #0" = 20
+	"Apaico Tlamollo #0" = 20
+	"Imbama Tlamollo #0" = 20
+	"Imbamahnuli Tlamollo #0" = 20
+	"Imbamacoque Tlamollo #0" = 20
+	"Imbamahfané Tlamollo #0" = 20
+	"Anuli Tlacanocaigualagueg #0" = 20
+	"Ogue Tlacanocaigualagueg #0" = 20
+	"Afané Tlacanocaigualagueg #0" = 20
+	"Amalpema Tlacanocaigualagueg #0" = 20
+	"Amaqué Tlacanocaigualagueg #0" = 20
+	"Acamtsus Tlacanocaigualagueg #0" = 20
+	"Apaico Tlacanocaigualagueg #0" = 20
+	"Imbama Tlacanocaigualagueg #0" = 20
+	"Imbamahnuli Tlacanocaigualagueg #0" = 20
+	"Imbamacoque Tlacanocaigualagueg #0" = 20
+	"Imbamahfané Tlacanocaigualagueg #0" = 20
+	"Anuli Apela #0" = 20
+	"Ogue Apela #0" = 20
+	"Afané Apela #0" = 20
+	"Amalpema Apela #0" = 20
+	"Amaqué Apela #0" = 20
+	"Acamtsus Apela #0" = 20
+	"Apaico Apela #0" = 20
+	"Imbama Apela #0" = 20
+	"Imbamahnuli Apela #0" = 20
+	"Imbamacoque Apela #0" = 20
+	"Imbamahfané Apela #0" = 20
+	"Anuli Laha #0" = 20
+	"Ogue Laha #0" = 20
+	"Afané Laha #0" = 20
+	"Amalpema Laha #0" = 20
+	"Amaqué Laha #0" = 20
+	"Acamtsus Laha #0" = 20
+	"Apaico Laha #0" = 20
+	"Imbama Laha #0" = 20
+	"Imbamahnuli Laha #0" = 20
+	"Imbamacoque Laha #0" = 20
+	"Imbamahfané Laha #0" = 20
+	"Anuli Tlacouetsigui #0" = 20
+	"Ogue Tlacouetsigui #0" = 20
+	"Afané Tlacouetsigui #0" = 20
+	"Amalpema Tlacouetsigui #0" = 20
+	"Amaqué Tlacouetsigui #0" = 20
+	"Acamtsus Tlacouetsigui #0" = 20
+	"Apaico Tlacouetsigui #0" = 20
+	"Imbama Tlacouetsigui #0" = 20
+	"Imbamahnuli Tlacouetsigui #0" = 20
+	"Imbamacoque Tlacouetsigui #0" = 20
+	"Imbamahfané Tlacouetsigui #0" = 20
+	"Anuli Lenmicu #0" = 20
+	"Ogue Lenmicu #0" = 20
+	"Afané Lenmicu #0" = 20
+	"Amalpema Lenmicu #0" = 20
+	"Amaqué Lenmicu #0" = 20
+	"Acamtsus Lenmicu #0" = 20
+	"Apaico Lenmicu #0" = 20
+	"Imbama Lenmicu #0" = 20
+	"Imbamahnuli Lenmicu #0" = 20
+	"Imbamacoque Lenmicu #0" = 20
+	"Imbamahfané Lenmicu #0" = 20
+	"Anuli Alpepa #0" = 20
+	"Ogue Alpepa #0" = 20
+	"Afané Alpepa #0" = 20
+	"Amalpema Alpepa #0" = 20
+	"Amaqué Alpepa #0" = 20
+	"Acamtsus Alpepa #0" = 20
+	"Apaico Alpepa #0" = 20
+	"Imbama Alpepa #0" = 20
+	"Imbamahnuli Alpepa #0" = 20
+	"Imbamacoque Alpepa #0" = 20
+	"Imbamahfané Alpepa #0" = 20
+	"Anuli Calshcui #0" = 20
+	"Ogue Calshcui #0" = 20
+	"Afané Calshcui #0" = 20
+	"Amalpema Calshcui #0" = 20
+	"Amaqué Calshcui #0" = 20
+	"Acamtsus Calshcui #0" = 20
+	"Apaico Calshcui #0" = 20
+	"Imbama Calshcui #0" = 20
+	"Imbamahnuli Calshcui #0" = 20
+	"Imbamacoque Calshcui #0" = 20
+	"Imbamahfané Calshcui #0" = 20
+	"Anuli Tlucuitine #0" = 20
+	"Ogue Tlucuitine #0" = 20
+	"Afané Tlucuitine #0" = 20
+	"Amalpema Tlucuitine #0" = 20
+	"Amaqué Tlucuitine #0" = 20
+	"Acamtsus Tlucuitine #0" = 20
+	"Apaico Tlucuitine #0" = 20
+	"Imbama Tlucuitine #0" = 20
+	"Imbamahnuli Tlucuitine #0" = 20
+	"Imbamacoque Tlucuitine #0" = 20
+	"Imbamahfané Tlucuitine #0" = 20
+	"Anuli Tlipa #0" = 20
+	"Ogue Tlipa #0" = 20
+	"Afané Tlipa #0" = 20
+	"Amalpema Tlipa #0" = 20
+	"Amaqué Tlipa #0" = 20
+	"Acamtsus Tlipa #0" = 20
+	"Apaico Tlipa #0" = 20
+	"Imbama Tlipa #0" = 20
+	"Imbamahnuli Tlipa #0" = 20
+	"Imbamacoque Tlipa #0" = 20
+	"Imbamahfané Tlipa #0" = 20
+	
+	"Anuli Tlahua #0" = -1
+	"Ogue Tlahua #0" = -1
+	"Afané Tlahua #0" = -1
+	"Amalpema Tlahua #0" = -1
+	"Amaqué Tlahua #0" = -1
+	"Acamtsus Tlahua #0" = -1
+	"Apaico Tlahua #0" = -1
+	"Imbama Tlahua #0" = -1
+	"Imbamahnuli Tlahua #0" = -1
+	"Imbamacoque Tlahua #0" = -1
+	"Imbamahfané Tlahua #0" = -1
+	"Anuli Lahutl #0" = -1
+	"Ogue Lahutl #0" = -1
+	"Afané Lahutl #0" = -1
+	"Amalpema Lahutl #0" = -1
+	"Amaqué Lahutl #0" = -1
+	"Acamtsus Lahutl #0" = -1
+	"Apaico Lahutl #0" = -1
+	"Imbama Lahutl #0" = -1
+	"Imbamahnuli Lahutl #0" = -1
+	"Imbamacoque Lahutl #0" = -1
+	"Imbamahfané Lahutl #0" = -1
+	"Anuli Tlamollo #0" = -1
+	"Ogue Tlamollo #0" = -1
+	"Afané Tlamollo #0" = -1
+	"Amalpema Tlamollo #0" = -1
+	"Amaqué Tlamollo #0" = -1
+	"Acamtsus Tlamollo #0" = -1
+	"Apaico Tlamollo #0" = -1
+	"Imbama Tlamollo #0" = -1
+	"Imbamahnuli Tlamollo #0" = -1
+	"Imbamacoque Tlamollo #0" = -1
+	"Imbamahfané Tlamollo #0" = -1
+	"Anuli Tlacanocaigualagueg #0" = -1
+	"Ogue Tlacanocaigualagueg #0" = -1
+	"Afané Tlacanocaigualagueg #0" = -1
+	"Amalpema Tlacanocaigualagueg #0" = -1
+	"Amaqué Tlacanocaigualagueg #0" = -1
+	"Acamtsus Tlacanocaigualagueg #0" = -1
+	"Apaico Tlacanocaigualagueg #0" = -1
+	"Imbama Tlacanocaigualagueg #0" = -1
+	"Imbamahnuli Tlacanocaigualagueg #0" = -1
+	"Imbamacoque Tlacanocaigualagueg #0" = -1
+	"Imbamahfané Tlacanocaigualagueg #0" = -1
+	"Anuli Apela #0" = -1
+	"Ogue Apela #0" = -1
+	"Afané Apela #0" = -1
+	"Amalpema Apela #0" = -1
+	"Amaqué Apela #0" = -1
+	"Acamtsus Apela #0" = -1
+	"Apaico Apela #0" = -1
+	"Imbama Apela #0" = -1
+	"Imbamahnuli Apela #0" = -1
+	"Imbamacoque Apela #0" = -1
+	"Imbamahfané Apela #0" = -1
+	"Anuli Laha #0" = -1
+	"Ogue Laha #0" = -1
+	"Afané Laha #0" = -1
+	"Amalpema Laha #0" = -1
+	"Amaqué Laha #0" = -1
+	"Acamtsus Laha #0" = -1
+	"Apaico Laha #0" = -1
+	"Imbama Laha #0" = -1
+	"Imbamahnuli Laha #0" = -1
+	"Imbamacoque Laha #0" = -1
+	"Imbamahfané Laha #0" = -1
+	"Anuli Tlacouetsigui #0" = -1
+	"Ogue Tlacouetsigui #0" = -1
+	"Afané Tlacouetsigui #0" = -1
+	"Amalpema Tlacouetsigui #0" = -1
+	"Amaqué Tlacouetsigui #0" = -1
+	"Acamtsus Tlacouetsigui #0" = -1
+	"Apaico Tlacouetsigui #0" = -1
+	"Imbama Tlacouetsigui #0" = -1
+	"Imbamahnuli Tlacouetsigui #0" = -1
+	"Imbamacoque Tlacouetsigui #0" = -1
+	"Imbamahfané Tlacouetsigui #0" = -1
+	"Anuli Lenmicu #0" = -1
+	"Ogue Lenmicu #0" = -1
+	"Afané Lenmicu #0" = -1
+	"Amalpema Lenmicu #0" = -1
+	"Amaqué Lenmicu #0" = -1
+	"Acamtsus Lenmicu #0" = -1
+	"Apaico Lenmicu #0" = -1
+	"Imbama Lenmicu #0" = -1
+	"Imbamahnuli Lenmicu #0" = -1
+	"Imbamacoque Lenmicu #0" = -1
+	"Imbamahfané Lenmicu #0" = -1
+	"Anuli Alpepa #0" = -1
+	"Ogue Alpepa #0" = -1
+	"Afané Alpepa #0" = -1
+	"Amalpema Alpepa #0" = -1
+	"Amaqué Alpepa #0" = -1
+	"Acamtsus Alpepa #0" = -1
+	"Apaico Alpepa #0" = -1
+	"Imbama Alpepa #0" = -1
+	"Imbamahnuli Alpepa #0" = -1
+	"Imbamacoque Alpepa #0" = -1
+	"Imbamahfané Alpepa #0" = -1
+	"Anuli Calshcui #0" = -1
+	"Ogue Calshcui #0" = -1
+	"Afané Calshcui #0" = -1
+	"Amalpema Calshcui #0" = -1
+	"Amaqué Calshcui #0" = -1
+	"Acamtsus Calshcui #0" = -1
+	"Apaico Calshcui #0" = -1
+	"Imbama Calshcui #0" = -1
+	"Imbamahnuli Calshcui #0" = -1
+	"Imbamacoque Calshcui #0" = -1
+	"Imbamahfané Calshcui #0" = -1
+	"Anuli Tlucuitine #0" = -1
+	"Ogue Tlucuitine #0" = -1
+	"Afané Tlucuitine #0" = -1
+	"Amalpema Tlucuitine #0" = -1
+	"Amaqué Tlucuitine #0" = -1
+	"Acamtsus Tlucuitine #0" = -1
+	"Apaico Tlucuitine #0" = -1
+	"Imbama Tlucuitine #0" = -1
+	"Imbamahnuli Tlucuitine #0" = -1
+	"Imbamacoque Tlucuitine #0" = -1
+	"Imbamahfané Tlucuitine #0" = -1
+	"Anuli Tlipa #0" = -1
+	"Ogue Tlipa #0" = -1
+	"Afané Tlipa #0" = -1
+	"Amalpema Tlipa #0" = -1
+	"Amaqué Tlipa #0" = -1
+	"Acamtsus Tlipa #0" = -1
+	"Apaico Tlipa #0" = -1
+	"Imbama Tlipa #0" = -1
+	"Imbamahnuli Tlipa #0" = -1
+	"Imbamacoque Tlipa #0" = -1
+	"Imbamahfané Tlipa #0" = -1
 }
 
 leader_names = {
-	Tenoch Tetzcocah Tlaco Amaxal Chapulin Coyopotl Huitzil Moyotl Tecuampil Xique Ixehuatl Ahuatl Chilchoa 
-	Cuatlapantzi Michimani Techalotzi Quecholac Tecuanhuey Tuxpan Ehecatl Cuahutenco Coatl Cuahtzon Cuaxiloa 
-	Hueytletl Tecuampil Tlapaltototli Totozintle Xochitecatl Tlahuetl Tonacatl Zontlimatzi Chalci 
+	""
 }
 
 ship_names = {
@@ -122,9 +323,9 @@ ship_names = {
 
 
 army_names = {
-	"$PROVINCE$ Xiquipilli" 
+	"Army $PROVINCE$" 
 }
 
 fleet_names = {
-	"$PROVINCE$ Fleet"
+	"Glorious Fleet"
 }

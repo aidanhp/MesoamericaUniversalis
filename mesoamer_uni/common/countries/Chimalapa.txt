@@ -4,105 +4,432 @@ graphical_culture = southamericagfx
 
 color = { 29 159 99 }
 
+﻿#Country Name: Please see filename.
+
+graphical_culture = southamericagfx
+
+color = { 0 0 0 }
+
 historical_idea_groups = {
-	defensive_ideas
+	hegemonic_ideas
+	trade_ideas
 	offensive_ideas
-	religious_ideas
-	economic_ideas
-	diplomatic_ideas
-	innovativeness_ideas
+	power_concentration_ideas
 	spy_ideas
-	trade_ideas	
+	quality_ideas
+	influence_ideas
+	defensive_ideas
 }
 
 historical_units = {
-	western_medieval_infantry
-	western_medieval_knights
-	western_men_at_arms
-	swiss_landsknechten
-	dutch_maurician
-	austrian_tercio
-	austrian_grenzer
-	austrian_hussar
-	austrian_white_coat
-	prussian_uhlan
-	austrian_jaeger
-	mixed_order_infantry
-	open_order_cavalry
-	napoleonic_square
-	napoleonic_lancers
+	hu_huaxyacac_infantry 
+	hu_late_huaxyacac_infantry
+	hu_huaxyacac_gunpowder_infantry
+	hu_huaxyacac_musketeer
+	hu_huaxyacac_flintlock
 }
 
 monarch_names = {
-	"Acamapichtli #0" = 20
-	"Iztcoatl #0" = 20
-	"Huitzilihhuitl #0" = 20
-	"Chimalpopoca #0" = 20
-	"Moteuczomah #0" = 20
-	"Tizoc #0" = 20
-	"Ahuitzotl #0" = 20
-	"Axayacatl #0" = 20
-	"Cuauhtemoc #0" = 20
-	"Cuitlahuac #0" = 20
-	"Nezahualcoyotl #0" = 20	
-	"Tlacaelel #0" = 20
-	"Xihuitl Temoc #0" = 20	
-	"Xochitl #0" = 20
-	"Olinqui #0" = 20
-	"Acolmiztli #0" = 20
-	"Yoyontzin #0" = 20
-	"Ixtlilxochitl #0" = 20
-	"Acolnahuacatl #0" = 20
-	"Tzacualcatl #0" = 20
-	"Itzlolinqui #0" = 20
-	"Xilomantzin #0" = 20
-	"Quequecholtzin #0" = 20
-	"Tzompanteuctli #0" = 20
-	"Quetzaltototzin #0" = 20
-	"Cacamatzin #0" = 20
-	"Tlilpotonqui #0" = 20
-	"Tayoatzin #0" = 20
-	"Quauhtlapaltzin #0" = 20
-	"Tezcatlteuctli #0" = 20
-	"Tlacotzin #0" = 20
-	"Chimalpantzin #0" = 20
-	"Tepehuatzin #0" = 20
-	"Tezcatl #0" = 20
-	"Tatlatzincatzin #0" = 20
-	"Tlilpotonqui #0" = 20
-	"Nezahualpilli #0" = 20
-	"Miccacalcatl #0" = 20
-	"Ixtteocalletzin #0" = 20
-
-	"Matlalcihuatzin #0" = -1
-	"Maquiztzin #0" = -1
-	"Xiuhpopocatzin #0" = -1
-	"Tollintzin #0" = -1
-	"Xochiacamapichtli #0" = -1
-	"Xillomantzin #0" = -1
-	"Izapaplotzin #0" = -1
-	"Chiquatzin #0" = -1
-	"Totomochtzin #0" = -1
-	"Tlacoachcimaltzin #0" = -1
-	"Toznenetzin #0" = -1
-	"Cihuapilli #0" = -1
-	"Mauhcaxochitzin #0" = -1
-	"Chicuey #0" = -1
-	"Xiuhtoztzin #0" = -1
-	"Quauhtlamiyahualtzin #0" = -1
-	"Quetzalpetlatzin #0" = -1
-	"Tzihuacxochitzin #0" = -1
+	"Tumv Sawa #0" = 20
+	"Metza Sawa #0" = 20
+	"Tuca'y Sawa #0" = 20
+	"Macscu'y Sawa #0" = 20
+	"Mojsa'y Sawa #0" = 20
+	"Tujta'y Sawa #0" = 20
+	"Cu'ya'y Sawa #0" = 20
+	"Tucutujta'y Sawa #0" = 20
+	"Macstujta'y Sawa #0" = 20
+	"Majca'y Sawa #0" = 20
+	"Mactuma'y Sawa #0" = 20
+	"Macwvstvjca'y Sawa #0" = 20
+	"Mactuca'y Sawa #0" = 20
+	"Tumv Tvc #0" = 20
+	"Metza Tvc #0" = 20
+	"Tuca'y Tvc #0" = 20
+	"Macscu'y Tvc #0" = 20
+	"Mojsa'y Tvc #0" = 20
+	"Tujta'y Tvc #0" = 20
+	"Cu'ya'y Tvc #0" = 20
+	"Tucutujta'y Tvc #0" = 20
+	"Macstujta'y Tvc #0" = 20
+	"Majca'y Tvc #0" = 20
+	"Mactuma'y Tvc #0" = 20
+	"Macwvstvjca'y Tvc #0" = 20
+	"Mactuca'y Tvc #0" = 20
+	"Tumv Patzij #0" = 20
+	"Metza Patzij #0" = 20
+	"Tuca'y Patzij #0" = 20
+	"Macscu'y Patzij #0" = 20
+	"Mojsa'y Patzij #0" = 20
+	"Tujta'y Patzij #0" = 20
+	"Cu'ya'y Patzij #0" = 20
+	"Tucutujta'y Patzij #0" = 20
+	"Macstujta'y Patzij #0" = 20
+	"Majca'y Patzij #0" = 20
+	"Mactuma'y Patzij #0" = 20
+	"Macwvstvjca'y Patzij #0" = 20
+	"Mactuca'y Patzij #0" = 20
+	"Tumv Tzan #0" = 20
+	"Metza Tzan #0" = 20
+	"Tuca'y Tzan #0" = 20
+	"Macscu'y Tzan #0" = 20
+	"Mojsa'y Tzan #0" = 20
+	"Tujta'y Tzan #0" = 20
+	"Cu'ya'y Tzan #0" = 20
+	"Tucutujta'y Tzan #0" = 20
+	"Macstujta'y Tzan #0" = 20
+	"Majca'y Tzan #0" = 20
+	"Mactuma'y Tzan #0" = 20
+	"Macwvstvjca'y Tzan #0" = 20
+	"Mactuca'y Tzan #0" = 20
+	"Tumv Coy'awa' #0" = 20
+	"Metza Coy'awa' #0" = 20
+	"Tuca'y Coy'awa' #0" = 20
+	"Macscu'y Coy'awa' #0" = 20
+	"Mojsa'y Coy'awa' #0" = 20
+	"Tujta'y Coy'awa' #0" = 20
+	"Cu'ya'y Coy'awa' #0" = 20
+	"Tucutujta'y Coy'awa' #0" = 20
+	"Macstujta'y Coy'awa' #0" = 20
+	"Majca'y Coy'awa' #0" = 20
+	"Mactuma'y Coy'awa' #0" = 20
+	"Macwvstvjca'y Coy'awa' #0" = 20
+	"Mactuca'y Coy'awa' #0" = 20
+	"Tumv Cho'ngoya #0" = 20
+	"Metza Cho'ngoya #0" = 20
+	"Tuca'y Cho'ngoya #0" = 20
+	"Macscu'y Cho'ngoya #0" = 20
+	"Mojsa'y Cho'ngoya #0" = 20
+	"Tujta'y Cho'ngoya #0" = 20
+	"Cu'ya'y Cho'ngoya #0" = 20
+	"Tucutujta'y Cho'ngoya #0" = 20
+	"Macstujta'y Cho'ngoya #0" = 20
+	"Majca'y Cho'ngoya #0" = 20
+	"Mactuma'y Cho'ngoya #0" = 20
+	"Macwvstvjca'y Cho'ngoya #0" = 20
+	"Mactuca'y Cho'ngoya #0" = 20
+	"Tumv Tuca'y Nv #0" = 20
+	"Metza Tuca'y Nv #0" = 20
+	"Tuca'y Tuca'y Nv #0" = 20
+	"Macscu'y Tuca'y Nv #0" = 20
+	"Mojsa'y Tuca'y Nv #0" = 20
+	"Tujta'y Tuca'y Nv #0" = 20
+	"Cu'ya'y Tuca'y Nv #0" = 20
+	"Tucutujta'y Tuca'y Nv #0" = 20
+	"Macstujta'y Tuca'y Nv #0" = 20
+	"Majca'y Tuca'y Nv #0" = 20
+	"Mactuma'y Tuca'y Nv #0" = 20
+	"Macwvstvjca'y Tuca'y Nv #0" = 20
+	"Mactuca'y Tuca'y Nv #0" = 20
+	"Tumv Tuwi #0" = 20
+	"Metza Tuwi #0" = 20
+	"Tuca'y Tuwi #0" = 20
+	"Macscu'y Tuwi #0" = 20
+	"Mojsa'y Tuwi #0" = 20
+	"Tujta'y Tuwi #0" = 20
+	"Cu'ya'y Tuwi #0" = 20
+	"Tucutujta'y Tuwi #0" = 20
+	"Macstujta'y Tuwi #0" = 20
+	"Majca'y Tuwi #0" = 20
+	"Mactuma'y Tuwi #0" = 20
+	"Macwvstvjca'y Tuwi #0" = 20
+	"Mactuca'y Tuwi #0" = 20
+	"Tumv Tzawi #0" = 20
+	"Metza Tzawi #0" = 20
+	"Tuca'y Tzawi #0" = 20
+	"Macscu'y Tzawi #0" = 20
+	"Mojsa'y Tzawi #0" = 20
+	"Tujta'y Tzawi #0" = 20
+	"Cu'ya'y Tzawi #0" = 20
+	"Tucutujta'y Tzawi #0" = 20
+	"Macstujta'y Tzawi #0" = 20
+	"Majca'y Tzawi #0" = 20
+	"Mactuma'y Tzawi #0" = 20
+	"Macwvstvjca'y Tzawi #0" = 20
+	"Mactuca'y Tzawi #0" = 20
+	"Tumv Sojcuy #0" = 20
+	"Metza Sojcuy #0" = 20
+	"Tuca'y Sojcuy #0" = 20
+	"Macscu'y Sojcuy #0" = 20
+	"Mojsa'y Sojcuy #0" = 20
+	"Tujta'y Sojcuy #0" = 20
+	"Cu'ya'y Sojcuy #0" = 20
+	"Tucutujta'y Sojcuy #0" = 20
+	"Macstujta'y Sojcuy #0" = 20
+	"Majca'y Sojcuy #0" = 20
+	"Mactuma'y Sojcuy #0" = 20
+	"Macwvstvjca'y Sojcuy #0" = 20
+	"Mactuca'y Sojcuy #0" = 20
+	"Tumv Tziquin-gan #0" = 20
+	"Metza Tziquin-gan #0" = 20
+	"Tuca'y Tziquin-gan #0" = 20
+	"Macscu'y Tziquin-gan #0" = 20
+	"Mojsa'y Tziquin-gan #0" = 20
+	"Tujta'y Tziquin-gan #0" = 20
+	"Cu'ya'y Tziquin-gan #0" = 20
+	"Tucutujta'y Tziquin-gan #0" = 20
+	"Macstujta'y Tziquin-gan #0" = 20
+	"Majca'y Tziquin-gan #0" = 20
+	"Mactuma'y Tziquin-gan #0" = 20
+	"Macwvstvjca'y Tziquin-gan #0" = 20
+	"Mactuca'y Tziquin-gan #0" = 20
+	"Tumv Tuca'y Tajpi #0" = 20
+	"Metza Tuca'y Tajpi #0" = 20
+	"Tuca'y Tuca'y Tajpi #0" = 20
+	"Macscu'y Tuca'y Tajpi #0" = 20
+	"Mojsa'y Tuca'y Tajpi #0" = 20
+	"Tujta'y Tuca'y Tajpi #0" = 20
+	"Cu'ya'y Tuca'y Tajpi #0" = 20
+	"Tucutujta'y Tuca'y Tajpi #0" = 20
+	"Macstujta'y Tuca'y Tajpi #0" = 20
+	"Majca'y Tuca'y Tajpi #0" = 20
+	"Mactuma'y Tuca'y Tajpi #0" = 20
+	"Macwvstvjca'y Tuca'y Tajpi #0" = 20
+	"Mactuca'y Tuca'y Tajpi #0" = 20
+	"Tumv Macschus #0" = 20
+	"Metza Macschus #0" = 20
+	"Tuca'y Macschus #0" = 20
+	"Macscu'y Macschus #0" = 20
+	"Mojsa'y Macschus #0" = 20
+	"Tujta'y Macschus #0" = 20
+	"Cu'ya'y Macschus #0" = 20
+	"Tucutujta'y Macschus #0" = 20
+	"Macstujta'y Macschus #0" = 20
+	"Majca'y Macschus #0" = 20
+	"Mactuma'y Macschus #0" = 20
+	"Macwvstvjca'y Macschus #0" = 20
+	"Mactuca'y Macschus #0" = 20
+	"Tumv Tuj #0" = 20
+	"Metza Tuj #0" = 20
+	"Tuca'y Tuj #0" = 20
+	"Macscu'y Tuj #0" = 20
+	"Mojsa'y Tuj #0" = 20
+	"Tujta'y Tuj #0" = 20
+	"Cu'ya'y Tuj #0" = 20
+	"Tucutujta'y Tuj #0" = 20
+	"Macstujta'y Tuj #0" = 20
+	"Majca'y Tuj #0" = 20
+	"Mactuma'y Tuj #0" = 20
+	"Macwvstvjca'y Tuj #0" = 20
+	"Mactuca'y Tuj #0" = 20
+	"Tumv Jvyv #0" = 20
+	"Metza Jvyv #0" = 20
+	"Tuca'y Jvyv #0" = 20
+	"Macscu'y Jvyv #0" = 20
+	"Mojsa'y Jvyv #0" = 20
+	"Tujta'y Jvyv #0" = 20
+	"Cu'ya'y Jvyv #0" = 20
+	"Tucutujta'y Jvyv #0" = 20
+	"Macstujta'y Jvyv #0" = 20
+	"Majca'y Jvyv #0" = 20
+	"Mactuma'y Jvyv #0" = 20
+	"Macwvstvjca'y Jvyv #0" = 20
+	"Mactuca'y Jvyv #0" = 20
+	
+	"Tumv Sawa #0" = -1
+	"Metza Sawa #0" = -1
+	"Tuca'y Sawa #0" = -1
+	"Macscu'y Sawa #0" = -1
+	"Mojsa'y Sawa #0" = -1
+	"Tujta'y Sawa #0" = -1
+	"Cu'ya'y Sawa #0" = -1
+	"Tucutujta'y Sawa #0" = -1
+	"Macstujta'y Sawa #0" = -1
+	"Majca'y Sawa #0" = -1
+	"Mactuma'y Sawa #0" = -1
+	"Macwvstvjca'y Sawa #0" = -1
+	"Mactuca'y Sawa #0" = -1
+	"Tumv Tvc #0" = -1
+	"Metza Tvc #0" = -1
+	"Tuca'y Tvc #0" = -1
+	"Macscu'y Tvc #0" = -1
+	"Mojsa'y Tvc #0" = -1
+	"Tujta'y Tvc #0" = -1
+	"Cu'ya'y Tvc #0" = -1
+	"Tucutujta'y Tvc #0" = -1
+	"Macstujta'y Tvc #0" = -1
+	"Majca'y Tvc #0" = -1
+	"Mactuma'y Tvc #0" = -1
+	"Macwvstvjca'y Tvc #0" = -1
+	"Mactuca'y Tvc #0" = -1
+	"Tumv Patzij #0" = -1
+	"Metza Patzij #0" = -1
+	"Tuca'y Patzij #0" = -1
+	"Macscu'y Patzij #0" = -1
+	"Mojsa'y Patzij #0" = -1
+	"Tujta'y Patzij #0" = -1
+	"Cu'ya'y Patzij #0" = -1
+	"Tucutujta'y Patzij #0" = -1
+	"Macstujta'y Patzij #0" = -1
+	"Majca'y Patzij #0" = -1
+	"Mactuma'y Patzij #0" = -1
+	"Macwvstvjca'y Patzij #0" = -1
+	"Mactuca'y Patzij #0" = -1
+	"Tumv Tzan #0" = -1
+	"Metza Tzan #0" = -1
+	"Tuca'y Tzan #0" = -1
+	"Macscu'y Tzan #0" = -1
+	"Mojsa'y Tzan #0" = -1
+	"Tujta'y Tzan #0" = -1
+	"Cu'ya'y Tzan #0" = -1
+	"Tucutujta'y Tzan #0" = -1
+	"Macstujta'y Tzan #0" = -1
+	"Majca'y Tzan #0" = -1
+	"Mactuma'y Tzan #0" = -1
+	"Macwvstvjca'y Tzan #0" = -1
+	"Mactuca'y Tzan #0" = -1
+	"Tumv Coy'awa' #0" = -1
+	"Metza Coy'awa' #0" = -1
+	"Tuca'y Coy'awa' #0" = -1
+	"Macscu'y Coy'awa' #0" = -1
+	"Mojsa'y Coy'awa' #0" = -1
+	"Tujta'y Coy'awa' #0" = -1
+	"Cu'ya'y Coy'awa' #0" = -1
+	"Tucutujta'y Coy'awa' #0" = -1
+	"Macstujta'y Coy'awa' #0" = -1
+	"Majca'y Coy'awa' #0" = -1
+	"Mactuma'y Coy'awa' #0" = -1
+	"Macwvstvjca'y Coy'awa' #0" = -1
+	"Mactuca'y Coy'awa' #0" = -1
+	"Tumv Cho'ngoya #0" = -1
+	"Metza Cho'ngoya #0" = -1
+	"Tuca'y Cho'ngoya #0" = -1
+	"Macscu'y Cho'ngoya #0" = -1
+	"Mojsa'y Cho'ngoya #0" = -1
+	"Tujta'y Cho'ngoya #0" = -1
+	"Cu'ya'y Cho'ngoya #0" = -1
+	"Tucutujta'y Cho'ngoya #0" = -1
+	"Macstujta'y Cho'ngoya #0" = -1
+	"Majca'y Cho'ngoya #0" = -1
+	"Mactuma'y Cho'ngoya #0" = -1
+	"Macwvstvjca'y Cho'ngoya #0" = -1
+	"Mactuca'y Cho'ngoya #0" = -1
+	"Tumv Tuca'y Nv #0" = -1
+	"Metza Tuca'y Nv #0" = -1
+	"Tuca'y Tuca'y Nv #0" = -1
+	"Macscu'y Tuca'y Nv #0" = -1
+	"Mojsa'y Tuca'y Nv #0" = -1
+	"Tujta'y Tuca'y Nv #0" = -1
+	"Cu'ya'y Tuca'y Nv #0" = -1
+	"Tucutujta'y Tuca'y Nv #0" = -1
+	"Macstujta'y Tuca'y Nv #0" = -1
+	"Majca'y Tuca'y Nv #0" = -1
+	"Mactuma'y Tuca'y Nv #0" = -1
+	"Macwvstvjca'y Tuca'y Nv #0" = -1
+	"Mactuca'y Tuca'y Nv #0" = -1
+	"Tumv Tuwi #0" = -1
+	"Metza Tuwi #0" = -1
+	"Tuca'y Tuwi #0" = -1
+	"Macscu'y Tuwi #0" = -1
+	"Mojsa'y Tuwi #0" = -1
+	"Tujta'y Tuwi #0" = -1
+	"Cu'ya'y Tuwi #0" = -1
+	"Tucutujta'y Tuwi #0" = -1
+	"Macstujta'y Tuwi #0" = -1
+	"Majca'y Tuwi #0" = -1
+	"Mactuma'y Tuwi #0" = -1
+	"Macwvstvjca'y Tuwi #0" = -1
+	"Mactuca'y Tuwi #0" = -1
+	"Tumv Tzawi #0" = -1
+	"Metza Tzawi #0" = -1
+	"Tuca'y Tzawi #0" = -1
+	"Macscu'y Tzawi #0" = -1
+	"Mojsa'y Tzawi #0" = -1
+	"Tujta'y Tzawi #0" = -1
+	"Cu'ya'y Tzawi #0" = -1
+	"Tucutujta'y Tzawi #0" = -1
+	"Macstujta'y Tzawi #0" = -1
+	"Majca'y Tzawi #0" = -1
+	"Mactuma'y Tzawi #0" = -1
+	"Macwvstvjca'y Tzawi #0" = -1
+	"Mactuca'y Tzawi #0" = -1
+	"Tumv Sojcuy #0" = -1
+	"Metza Sojcuy #0" = -1
+	"Tuca'y Sojcuy #0" = -1
+	"Macscu'y Sojcuy #0" = -1
+	"Mojsa'y Sojcuy #0" = -1
+	"Tujta'y Sojcuy #0" = -1
+	"Cu'ya'y Sojcuy #0" = -1
+	"Tucutujta'y Sojcuy #0" = -1
+	"Macstujta'y Sojcuy #0" = -1
+	"Majca'y Sojcuy #0" = -1
+	"Mactuma'y Sojcuy #0" = -1
+	"Macwvstvjca'y Sojcuy #0" = -1
+	"Mactuca'y Sojcuy #0" = -1
+	"Tumv Tziquin-gan #0" = -1
+	"Metza Tziquin-gan #0" = -1
+	"Tuca'y Tziquin-gan #0" = -1
+	"Macscu'y Tziquin-gan #0" = -1
+	"Mojsa'y Tziquin-gan #0" = -1
+	"Tujta'y Tziquin-gan #0" = -1
+	"Cu'ya'y Tziquin-gan #0" = -1
+	"Tucutujta'y Tziquin-gan #0" = -1
+	"Macstujta'y Tziquin-gan #0" = -1
+	"Majca'y Tziquin-gan #0" = -1
+	"Mactuma'y Tziquin-gan #0" = -1
+	"Macwvstvjca'y Tziquin-gan #0" = -1
+	"Mactuca'y Tziquin-gan #0" = -1
+	"Tumv Tuca'y Tajpi #0" = -1
+	"Metza Tuca'y Tajpi #0" = -1
+	"Tuca'y Tuca'y Tajpi #0" = -1
+	"Macscu'y Tuca'y Tajpi #0" = -1
+	"Mojsa'y Tuca'y Tajpi #0" = -1
+	"Tujta'y Tuca'y Tajpi #0" = -1
+	"Cu'ya'y Tuca'y Tajpi #0" = -1
+	"Tucutujta'y Tuca'y Tajpi #0" = -1
+	"Macstujta'y Tuca'y Tajpi #0" = -1
+	"Majca'y Tuca'y Tajpi #0" = -1
+	"Mactuma'y Tuca'y Tajpi #0" = -1
+	"Macwvstvjca'y Tuca'y Tajpi #0" = -1
+	"Mactuca'y Tuca'y Tajpi #0" = -1
+	"Tumv Macschus #0" = -1
+	"Metza Macschus #0" = -1
+	"Tuca'y Macschus #0" = -1
+	"Macscu'y Macschus #0" = -1
+	"Mojsa'y Macschus #0" = -1
+	"Tujta'y Macschus #0" = -1
+	"Cu'ya'y Macschus #0" = -1
+	"Tucutujta'y Macschus #0" = -1
+	"Macstujta'y Macschus #0" = -1
+	"Majca'y Macschus #0" = -1
+	"Mactuma'y Macschus #0" = -1
+	"Macwvstvjca'y Macschus #0" = -1
+	"Mactuca'y Macschus #0" = -1
+	"Tumv Tuj #0" = -1
+	"Metza Tuj #0" = -1
+	"Tuca'y Tuj #0" = -1
+	"Macscu'y Tuj #0" = -1
+	"Mojsa'y Tuj #0" = -1
+	"Tujta'y Tuj #0" = -1
+	"Cu'ya'y Tuj #0" = -1
+	"Tucutujta'y Tuj #0" = -1
+	"Macstujta'y Tuj #0" = -1
+	"Majca'y Tuj #0" = -1
+	"Mactuma'y Tuj #0" = -1
+	"Macwvstvjca'y Tuj #0" = -1
+	"Mactuca'y Tuj #0" = -1
+	"Tumv Jvyv #0" = -1
+	"Metza Jvyv #0" = -1
+	"Tuca'y Jvyv #0" = -1
+	"Macscu'y Jvyv #0" = -1
+	"Mojsa'y Jvyv #0" = -1
+	"Tujta'y Jvyv #0" = -1
+	"Cu'ya'y Jvyv #0" = -1
+	"Tucutujta'y Jvyv #0" = -1
+	"Macstujta'y Jvyv #0" = -1
+	"Majca'y Jvyv #0" = -1
+	"Mactuma'y Jvyv #0" = -1
+	"Macwvstvjca'y Jvyv #0" = -1
+	"Mactuca'y Jvyv #0" = -1
 }
 
 leader_names = {
-	Tenoch Tetzcocah Tlaco Amaxal Chapulin Coyopotl Huitzil Moyotl Tecuampil Xique Ixehuatl Ahuatl Chilchoa 
-	Cuatlapantzi Michimani Techalotzi Quecholac Tecuanhuey Tuxpan Ehecatl Cuahutenco Coatl Cuahtzon Cuaxiloa 
-	Hueytletl Tecuampil Tlapaltototli Totozintle Xochitecatl Tlahuetl Tonacatl Zontlimatzi Chalci 
+	""
 }
 
 ship_names = {
 	Acolmiztli Acolnahuacat "Ah Hoya" "Ah Tzenul" Amimitl Apanecatl Atl Atlau Axoloa
-	Camaxtli Centeot Centzonuiznaua Chalchiuhtlatonal Chalchiuhtlicue Chalchiutotolin Chalmecalt Chalmecaucihuilt
+	Camaxtli Centeot Centzonuiznaua Chalchiuhtlatonal Chalchiuhtlicue Chalchiutotolin Chalmecalt 	Chalmecaucihuilt
 	Chantico Chichomexochtli Chicomecoatl Chiconahuai Chihalma Chualchihuitlcue Cihuacaotyl Cinteotl
 	Citlalatonac Citlalicue Ciucoatl Coatlicue Cochimetl Coyolxauhqui Cuauhcoatl 
 	Ehehcatl Eueucoyotl

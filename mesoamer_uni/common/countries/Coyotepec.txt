@@ -4,105 +4,458 @@ graphical_culture = southamericagfx
 
 color = { 42 127 127 }
 
+#Country Name: Please see filename.
+
+graphical_culture = southamericagfx
+
+color = { 0 0 0 }
+
 historical_idea_groups = {
-	defensive_ideas
+	hegemonic_ideas
+	trade_ideas
 	offensive_ideas
-	religious_ideas
-	economic_ideas
-	diplomatic_ideas
-	innovativeness_ideas
+	power_concentration_ideas
 	spy_ideas
-	trade_ideas	
+	quality_ideas
+	influence_ideas
+	defensive_ideas
 }
 
 historical_units = {
-	western_medieval_infantry
-	western_medieval_knights
-	western_men_at_arms
-	swiss_landsknechten
-	dutch_maurician
-	austrian_tercio
-	austrian_grenzer
-	austrian_hussar
-	austrian_white_coat
-	prussian_uhlan
-	austrian_jaeger
-	mixed_order_infantry
-	open_order_cavalry
-	napoleonic_square
-	napoleonic_lancers
+	cm_central_mexican_infantry 
+	cm_late_central_mexican_infantry
+	cm_central_mexican_gunpowder_infantry
+	cm_central_mexican_musketeer
+	cm_central_mexican_flintlock
 }
 
 monarch_names = {
-	"Acamapichtli #0" = 20
-	"Iztcoatl #0" = 20
-	"Huitzilihhuitl #0" = 20
-	"Chimalpopoca #0" = 20
-	"Moteuczomah #0" = 20
-	"Tizoc #0" = 20
-	"Ahuitzotl #0" = 20
-	"Axayacatl #0" = 20
-	"Cuauhtemoc #0" = 20
-	"Cuitlahuac #0" = 20
-	"Nezahualcoyotl #0" = 20	
-	"Tlacaelel #0" = 20
-	"Xihuitl Temoc #0" = 20	
-	"Xochitl #0" = 20
-	"Olinqui #0" = 20
-	"Acolmiztli #0" = 20
-	"Yoyontzin #0" = 20
-	"Ixtlilxochitl #0" = 20
-	"Acolnahuacatl #0" = 20
-	"Tzacualcatl #0" = 20
-	"Itzlolinqui #0" = 20
-	"Xilomantzin #0" = 20
-	"Quequecholtzin #0" = 20
-	"Tzompanteuctli #0" = 20
-	"Quetzaltototzin #0" = 20
-	"Cacamatzin #0" = 20
-	"Tlilpotonqui #0" = 20
-	"Tayoatzin #0" = 20
-	"Quauhtlapaltzin #0" = 20
-	"Tezcatlteuctli #0" = 20
-	"Tlacotzin #0" = 20
-	"Chimalpantzin #0" = 20
-	"Tepehuatzin #0" = 20
-	"Tezcatl #0" = 20
-	"Tatlatzincatzin #0" = 20
-	"Tlilpotonqui #0" = 20
-	"Nezahualpilli #0" = 20
-	"Miccacalcatl #0" = 20
-	"Ixtteocalletzin #0" = 20
-
-	"Matlalcihuatzin #0" = -1
-	"Maquiztzin #0" = -1
-	"Xiuhpopocatzin #0" = -1
-	"Tollintzin #0" = -1
-	"Xochiacamapichtli #0" = -1
-	"Xillomantzin #0" = -1
-	"Izapaplotzin #0" = -1
-	"Chiquatzin #0" = -1
-	"Totomochtzin #0" = -1
-	"Tlacoachcimaltzin #0" = -1
-	"Toznenetzin #0" = -1
-	"Cihuapilli #0" = -1
-	"Mauhcaxochitzin #0" = -1
-	"Chicuey #0" = -1
-	"Xiuhtoztzin #0" = -1
-	"Quauhtlamiyahualtzin #0" = -1
-	"Quetzalpetlatzin #0" = -1
-	"Tzihuacxochitzin #0" = -1
+	"Jngoo Chu Xca #0" = 20
+	"Jo Chu Xca #0" = 20
+	"Jan Chu Xca #0" = 20
+	"Ñijon Chu Xca #0" = 20
+	"On Chu Xca #0" = 20
+	"Jon Chu Xca #0" = 20
+	"Itoo Chu Xca #0" = 20
+	"Jiin Chu Xca #0" = 20
+	"Ñijan Chu Xca #0" = 20
+	"Te Chu Xca #0" = 20
+	"Tejngoo Chu Xca #0" = 20
+	"Tejo Chu Xca #0" = 20
+	"Tejan Chu Xca #0" = 20
+	"Jngoo Tjo #0" = 20
+	"Jo Tjo #0" = 20
+	"Jan Tjo #0" = 20
+	"Ñijon Tjo #0" = 20
+	"On Tjo #0" = 20
+	"Jon Tjo #0" = 20
+	"Itoo Tjo #0" = 20
+	"Jiin Tjo #0" = 20
+	"Ñijan Tjo #0" = 20
+	"Te Tjo #0" = 20
+	"Tejngoo Tjo #0" = 20
+	"Tejo Tjo #0" = 20
+	"Tejan Tjo #0" = 20
+	"Jngoo Ndihya #0" = 20
+	"Jo Ndihya #0" = 20
+	"Jan Ndihya #0" = 20
+	"Ñijon Ndihya #0" = 20
+	"On Ndihya #0" = 20
+	"Jon Ndihya #0" = 20
+	"Itoo Ndihya #0" = 20
+	"Jiin Ndihya #0" = 20
+	"Ñijan Ndihya #0" = 20
+	"Te Ndihya #0" = 20
+	"Tejngoo Ndihya #0" = 20
+	"Tejo Ndihya #0" = 20
+	"Tejan Ndihya #0" = 20
+	"Jngoo Kale #0" = 20
+	"Jo Kale #0" = 20
+	"Jan Kale #0" = 20
+	"Ñijon Kale #0" = 20
+	"On Kale #0" = 20
+	"Jon Kale #0" = 20
+	"Itoo Kale #0" = 20
+	"Jiin Kale #0" = 20
+	"Ñijan Kale #0" = 20
+	"Te Kale #0" = 20
+	"Tejngoo Kale #0" = 20
+	"Tejo Kale #0" = 20
+	"Tejan Kale #0" = 20
+	"Jngoo Ye #0" = 20
+	"Jo Ye #0" = 20
+	"Jan Ye #0" = 20
+	"Ñijon Ye #0" = 20
+	"On Ye #0" = 20
+	"Jon Ye #0" = 20
+	"Itoo Ye #0" = 20
+	"Jiin Ye #0" = 20
+	"Ñijan Ye #0" = 20
+	"Te Ye #0" = 20
+	"Tejngoo Ye #0" = 20
+	"Tejo Ye #0" = 20
+	"Tejan Ye #0" = 20
+	"Jngoo Nindarcu #0" = 20
+	"Jo Nindarcu #0" = 20
+	"Jan Nindarcu #0" = 20
+	"Ñijon Nindarcu #0" = 20
+	"On Nindarcu #0" = 20
+	"Jon Nindarcu #0" = 20
+	"Itoo Nindarcu #0" = 20
+	"Jiin Nindarcu #0" = 20
+	"Ñijan Nindarcu #0" = 20
+	"Te Nindarcu #0" = 20
+	"Tejngoo Nindarcu #0" = 20
+	"Tejo Nindarcu #0" = 20
+	"Tejan Nindarcu #0" = 20
+	"Jngoo Natse #0" = 20
+	"Jo Natse #0" = 20
+	"Jan Natse #0" = 20
+	"Ñijon Natse #0" = 20
+	"On Natse #0" = 20
+	"Jon Natse #0" = 20
+	"Itoo Natse #0" = 20
+	"Jiin Natse #0" = 20
+	"Ñijan Natse #0" = 20
+	"Te Natse #0" = 20
+	"Tejngoo Natse #0" = 20
+	"Tejo Natse #0" = 20
+	"Tejan Natse #0" = 20
+	"Jngoo Nanda #0" = 20
+	"Jo Nanda #0" = 20
+	"Jan Nanda #0" = 20
+	"Ñijon Nanda #0" = 20
+	"On Nanda #0" = 20
+	"Jon Nanda #0" = 20
+	"Itoo Nanda #0" = 20
+	"Jiin Nanda #0" = 20
+	"Ñijan Nanda #0" = 20
+	"Te Nanda #0" = 20
+	"Tejngoo Nanda #0" = 20
+	"Tejo Nanda #0" = 20
+	"Tejan Nanda #0" = 20
+	"Jngoo Naña #0" = 20
+	"Jo Naña #0" = 20
+	"Jan Naña #0" = 20
+	"Ñijon Naña #0" = 20
+	"On Naña #0" = 20
+	"Jon Naña #0" = 20
+	"Itoo Naña #0" = 20
+	"Jiin Naña #0" = 20
+	"Ñijan Naña #0" = 20
+	"Te Naña #0" = 20
+	"Tejngoo Naña #0" = 20
+	"Tejo Naña #0" = 20
+	"Tejan Naña #0" = 20
+	"Jngoo Langun #0" = 20
+	"Jo Langun #0" = 20
+	"Jan Langun #0" = 20
+	"Ñijon Langun #0" = 20
+	"On Langun #0" = 20
+	"Jon Langun #0" = 20
+	"Itoo Langun #0" = 20
+	"Jiin Langun #0" = 20
+	"Ñijan Langun #0" = 20
+	"Te Langun #0" = 20
+	"Tejngoo Langun #0" = 20
+	"Tejo Langun #0" = 20
+	"Tejan Langun #0" = 20
+	"Jngoo Tsja Naxa #0" = 20
+	"Jo Tsja Naxa #0" = 20
+	"Jan Tsja Naxa #0" = 20
+	"Ñijon Tsja Naxa #0" = 20
+	"On Tsja Naxa #0" = 20
+	"Jon Tsja Naxa #0" = 20
+	"Itoo Tsja Naxa #0" = 20
+	"Jiin Tsja Naxa #0" = 20
+	"Ñijan Tsja Naxa #0" = 20
+	"Te Tsja Naxa #0" = 20
+	"Tejngoo Tsja Naxa #0" = 20
+	"Tejo Tsja Naxa #0" = 20
+	"Tejan Tsja Naxa #0" = 20
+	"Jngoo Lote Rcu Hani #0" = 20
+	"Jo Lote Rcu Hani #0" = 20
+	"Jan Lote Rcu Hani #0" = 20
+	"Ñijon Lote Rcu Hani #0" = 20
+	"On Lote Rcu Hani #0" = 20
+	"Jon Lote Rcu Hani #0" = 20
+	"Itoo Lote Rcu Hani #0" = 20
+	"Jiin Lote Rcu Hani #0" = 20
+	"Ñijan Lote Rcu Hani #0" = 20
+	"Te Lote Rcu Hani #0" = 20
+	"Tejngoo Lote Rcu Hani #0" = 20
+	"Tejo Lote Rcu Hani #0" = 20
+	"Tejan Lote Rcu Hani #0" = 20
+	"Jngoo Fane Nangui #0" = 20
+	"Jo Fane Nangui #0" = 20
+	"Jan Fane Nangui #0" = 20
+	"Ñijon Fane Nangui #0" = 20
+	"On Fane Nangui #0" = 20
+	"Jon Fane Nangui #0" = 20
+	"Itoo Fane Nangui #0" = 20
+	"Jiin Fane Nangui #0" = 20
+	"Ñijan Fane Nangui #0" = 20
+	"Te Fane Nangui #0" = 20
+	"Tejngoo Fane Nangui #0" = 20
+	"Tejo Fane Nangui #0" = 20
+	"Tejan Fane Nangui #0" = 20
+	"Jngoo Ndyojondihi #0" = 20
+	"Jo Ndyojondihi #0" = 20
+	"Jan Ndyojondihi #0" = 20
+	"Ñijon Ndyojondihi #0" = 20
+	"On Ndyojondihi #0" = 20
+	"Jon Ndyojondihi #0" = 20
+	"Itoo Ndyojondihi #0" = 20
+	"Jiin Ndyojondihi #0" = 20
+	"Ñijan Ndyojondihi #0" = 20
+	"Te Ndyojondihi #0" = 20
+	"Tejngoo Ndyojondihi #0" = 20
+	"Tejo Ndyojondihi #0" = 20
+	"Tejan Ndyojondihi #0" = 20
+	"Jngoo Tsi #0" = 20
+	"Jo Tsi #0" = 20
+	"Jan Tsi #0" = 20
+	"Ñijon Tsi #0" = 20
+	"On Tsi #0" = 20
+	"Jon Tsi #0" = 20
+	"Itoo Tsi #0" = 20
+	"Jiin Tsi #0" = 20
+	"Ñijan Tsi #0" = 20
+	"Te Tsi #0" = 20
+	"Tejngoo Tsi #0" = 20
+	"Tejo Tsi #0" = 20
+	"Tejan Tsi #0" = 20
+	"Jngoo Naxu #0" = 20
+	"Jo Naxu #0" = 20
+	"Jan Naxu #0" = 20
+	"Ñijon Naxu #0" = 20
+	"On Naxu #0" = 20
+	"Jon Naxu #0" = 20
+	"Itoo Naxu #0" = 20
+	"Jiin Naxu #0" = 20
+	"Ñijan Naxu #0" = 20
+	"Te Naxu #0" = 20
+	"Tejngoo Naxu #0" = 20
+	"Tejo Naxu #0" = 20
+	"Tejan Naxu #0" = 20
+	
+	"Jngoo Chu Xca #0" = -1
+	"Jo Chu Xca #0" = -1
+	"Jan Chu Xca #0" = -1
+	"Ñijon Chu Xca #0" = -1
+	"On Chu Xca #0" = -1
+	"Jon Chu Xca #0" = -1
+	"Itoo Chu Xca #0" = -1
+	"Jiin Chu Xca #0" = -1
+	"Ñijan Chu Xca #0" = -1
+	"Te Chu Xca #0" = -1
+	"Tejngoo Chu Xca #0" = -1
+	"Tejo Chu Xca #0" = -1
+	"Tejan Chu Xca #0" = -1
+	"Jngoo Tjo #0" = -1
+	"Jo Tjo #0" = -1
+	"Jan Tjo #0" = -1
+	"Ñijon Tjo #0" = -1
+	"On Tjo #0" = -1
+	"Jon Tjo #0" = -1
+	"Itoo Tjo #0" = -1
+	"Jiin Tjo #0" = -1
+	"Ñijan Tjo #0" = -1
+	"Te Tjo #0" = -1
+	"Tejngoo Tjo #0" = -1
+	"Tejo Tjo #0" = -1
+	"Tejan Tjo #0" = -1
+	"Jngoo Ndihya #0" = -1
+	"Jo Ndihya #0" = -1
+	"Jan Ndihya #0" = -1
+	"Ñijon Ndihya #0" = -1
+	"On Ndihya #0" = -1
+	"Jon Ndihya #0" = -1
+	"Itoo Ndihya #0" = -1
+	"Jiin Ndihya #0" = -1
+	"Ñijan Ndihya #0" = -1
+	"Te Ndihya #0" = -1
+	"Tejngoo Ndihya #0" = -1
+	"Tejo Ndihya #0" = -1
+	"Tejan Ndihya #0" = -1
+	"Jngoo Kale #0" = -1
+	"Jo Kale #0" = -1
+	"Jan Kale #0" = -1
+	"Ñijon Kale #0" = -1
+	"On Kale #0" = -1
+	"Jon Kale #0" = -1
+	"Itoo Kale #0" = -1
+	"Jiin Kale #0" = -1
+	"Ñijan Kale #0" = -1
+	"Te Kale #0" = -1
+	"Tejngoo Kale #0" = -1
+	"Tejo Kale #0" = -1
+	"Tejan Kale #0" = -1
+	"Jngoo Ye #0" = -1
+	"Jo Ye #0" = -1
+	"Jan Ye #0" = -1
+	"Ñijon Ye #0" = -1
+	"On Ye #0" = -1
+	"Jon Ye #0" = -1
+	"Itoo Ye #0" = -1
+	"Jiin Ye #0" = -1
+	"Ñijan Ye #0" = -1
+	"Te Ye #0" = -1
+	"Tejngoo Ye #0" = -1
+	"Tejo Ye #0" = -1
+	"Tejan Ye #0" = -1
+	"Jngoo Nindarcu #0" = -1
+	"Jo Nindarcu #0" = -1
+	"Jan Nindarcu #0" = -1
+	"Ñijon Nindarcu #0" = -1
+	"On Nindarcu #0" = -1
+	"Jon Nindarcu #0" = -1
+	"Itoo Nindarcu #0" = -1
+	"Jiin Nindarcu #0" = -1
+	"Ñijan Nindarcu #0" = -1
+	"Te Nindarcu #0" = -1
+	"Tejngoo Nindarcu #0" = -1
+	"Tejo Nindarcu #0" = -1
+	"Tejan Nindarcu #0" = -1
+	"Jngoo Natse #0" = -1
+	"Jo Natse #0" = -1
+	"Jan Natse #0" = -1
+	"Ñijon Natse #0" = -1
+	"On Natse #0" = -1
+	"Jon Natse #0" = -1
+	"Itoo Natse #0" = -1
+	"Jiin Natse #0" = -1
+	"Ñijan Natse #0" = -1
+	"Te Natse #0" = -1
+	"Tejngoo Natse #0" = -1
+	"Tejo Natse #0" = -1
+	"Tejan Natse #0" = -1
+	"Jngoo Nanda #0" = -1
+	"Jo Nanda #0" = -1
+	"Jan Nanda #0" = -1
+	"Ñijon Nanda #0" = -1
+	"On Nanda #0" = -1
+	"Jon Nanda #0" = -1
+	"Itoo Nanda #0" = -1
+	"Jiin Nanda #0" = -1
+	"Ñijan Nanda #0" = -1
+	"Te Nanda #0" = -1
+	"Tejngoo Nanda #0" = -1
+	"Tejo Nanda #0" = -1
+	"Tejan Nanda #0" = -1
+	"Jngoo Naña #0" = -1
+	"Jo Naña #0" = -1
+	"Jan Naña #0" = -1
+	"Ñijon Naña #0" = -1
+	"On Naña #0" = -1
+	"Jon Naña #0" = -1
+	"Itoo Naña #0" = -1
+	"Jiin Naña #0" = -1
+	"Ñijan Naña #0" = -1
+	"Te Naña #0" = -1
+	"Tejngoo Naña #0" = -1
+	"Tejo Naña #0" = -1
+	"Tejan Naña #0" = -1
+	"Jngoo Langun #0" = -1
+	"Jo Langun #0" = -1
+	"Jan Langun #0" = -1
+	"Ñijon Langun #0" = -1
+	"On Langun #0" = -1
+	"Jon Langun #0" = -1
+	"Itoo Langun #0" = -1
+	"Jiin Langun #0" = -1
+	"Ñijan Langun #0" = -1
+	"Te Langun #0" = -1
+	"Tejngoo Langun #0" = -1
+	"Tejo Langun #0" = -1
+	"Tejan Langun #0" = -1
+	"Jngoo Tsja Naxa #0" = -1
+	"Jo Tsja Naxa #0" = -1
+	"Jan Tsja Naxa #0" = -1
+	"Ñijon Tsja Naxa #0" = -1
+	"On Tsja Naxa #0" = -1
+	"Jon Tsja Naxa #0" = -1
+	"Itoo Tsja Naxa #0" = -1
+	"Jiin Tsja Naxa #0" = -1
+	"Ñijan Tsja Naxa #0" = -1
+	"Te Tsja Naxa #0" = -1
+	"Tejngoo Tsja Naxa #0" = -1
+	"Tejo Tsja Naxa #0" = -1
+	"Tejan Tsja Naxa #0" = -1
+	"Jngoo Lote Rcu Hani #0" = -1
+	"Jo Lote Rcu Hani #0" = -1
+	"Jan Lote Rcu Hani #0" = -1
+	"Ñijon Lote Rcu Hani #0" = -1
+	"On Lote Rcu Hani #0" = -1
+	"Jon Lote Rcu Hani #0" = -1
+	"Itoo Lote Rcu Hani #0" = -1
+	"Jiin Lote Rcu Hani #0" = -1
+	"Ñijan Lote Rcu Hani #0" = -1
+	"Te Lote Rcu Hani #0" = -1
+	"Tejngoo Lote Rcu Hani #0" = -1
+	"Tejo Lote Rcu Hani #0" = -1
+	"Tejan Lote Rcu Hani #0" = -1
+	"Jngoo Fane Nangui #0" = -1
+	"Jo Fane Nangui #0" = -1
+	"Jan Fane Nangui #0" = -1
+	"Ñijon Fane Nangui #0" = -1
+	"On Fane Nangui #0" = -1
+	"Jon Fane Nangui #0" = -1
+	"Itoo Fane Nangui #0" = -1
+	"Jiin Fane Nangui #0" = -1
+	"Ñijan Fane Nangui #0" = -1
+	"Te Fane Nangui #0" = -1
+	"Tejngoo Fane Nangui #0" = -1
+	"Tejo Fane Nangui #0" = -1
+	"Tejan Fane Nangui #0" = -1
+	"Jngoo Ndyojondihi #0" = -1
+	"Jo Ndyojondihi #0" = -1
+	"Jan Ndyojondihi #0" = -1
+	"Ñijon Ndyojondihi #0" = -1
+	"On Ndyojondihi #0" = -1
+	"Jon Ndyojondihi #0" = -1
+	"Itoo Ndyojondihi #0" = -1
+	"Jiin Ndyojondihi #0" = -1
+	"Ñijan Ndyojondihi #0" = -1
+	"Te Ndyojondihi #0" = -1
+	"Tejngoo Ndyojondihi #0" = -1
+	"Tejo Ndyojondihi #0" = -1
+	"Tejan Ndyojondihi #0" = -1
+	"Jngoo Tsi #0" = -1
+	"Jo Tsi #0" = -1
+	"Jan Tsi #0" = -1
+	"Ñijon Tsi #0" = -1
+	"On Tsi #0" = -1
+	"Jon Tsi #0" = -1
+	"Itoo Tsi #0" = -1
+	"Jiin Tsi #0" = -1
+	"Ñijan Tsi #0" = -1
+	"Te Tsi #0" = -1
+	"Tejngoo Tsi #0" = -1
+	"Tejo Tsi #0" = -1
+	"Tejan Tsi #0" = -1
+	"Jngoo Naxu #0" = -1
+	"Jo Naxu #0" = -1
+	"Jan Naxu #0" = -1
+	"Ñijon Naxu #0" = -1
+	"On Naxu #0" = -1
+	"Jon Naxu #0" = -1
+	"Itoo Naxu #0" = -1
+	"Jiin Naxu #0" = -1
+	"Ñijan Naxu #0" = -1
+	"Te Naxu #0" = -1
+	"Tejngoo Naxu #0" = -1
+	"Tejo Naxu #0" = -1
+	"Tejan Naxu #0" = -1
 }
 
 leader_names = {
-	Tenoch Tetzcocah Tlaco Amaxal Chapulin Coyopotl Huitzil Moyotl Tecuampil Xique Ixehuatl Ahuatl Chilchoa 
-	Cuatlapantzi Michimani Techalotzi Quecholac Tecuanhuey Tuxpan Ehecatl Cuahutenco Coatl Cuahtzon Cuaxiloa 
-	Hueytletl Tecuampil Tlapaltototli Totozintle Xochitecatl Tlahuetl Tonacatl Zontlimatzi Chalci 
+	""
 }
 
 ship_names = {
 	Acolmiztli Acolnahuacat "Ah Hoya" "Ah Tzenul" Amimitl Apanecatl Atl Atlau Axoloa
-	Camaxtli Centeot Centzonuiznaua Chalchiuhtlatonal Chalchiuhtlicue Chalchiutotolin Chalmecalt Chalmecaucihuilt
+	Camaxtli Centeot Centzonuiznaua Chalchiuhtlatonal Chalchiuhtlicue Chalchiutotolin Chalmecalt 	Chalmecaucihuilt
 	Chantico Chichomexochtli Chicomecoatl Chiconahuai Chihalma Chualchihuitlcue Cihuacaotyl Cinteotl
 	Citlalatonac Citlalicue Ciucoatl Coatlicue Cochimetl Coyolxauhqui Cuauhcoatl 
 	Ehehcatl Eueucoyotl

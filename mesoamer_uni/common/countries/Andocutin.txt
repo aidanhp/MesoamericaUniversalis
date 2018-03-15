@@ -4,105 +4,129 @@ graphical_culture = southamericagfx
 
 color = { 138 50 192 }
 
+#Country Name: Please see filename.
+
+graphical_culture = southamericagfx
+
+color = { 0 0 0 }
+
 historical_idea_groups = {
-	defensive_ideas
+	hegemonic_ideas
+	trade_ideas
 	offensive_ideas
-	religious_ideas
-	economic_ideas
-	diplomatic_ideas
-	innovativeness_ideas
+	power_concentration_ideas
 	spy_ideas
-	trade_ideas	
+	quality_ideas
+	influence_ideas
+	defensive_ideas
 }
 
 historical_units = {
-	western_medieval_infantry
-	western_medieval_knights
-	western_men_at_arms
-	swiss_landsknechten
-	dutch_maurician
-	austrian_tercio
-	austrian_grenzer
-	austrian_hussar
-	austrian_white_coat
-	prussian_uhlan
-	austrian_jaeger
-	mixed_order_infantry
-	open_order_cavalry
-	napoleonic_square
-	napoleonic_lancers
+	wm_west_mexican_infantry 
+	wm_late_west_mexican_infantry
+	wm_west_mexican_gunpowder_infantry
+	wm_west_mexican_musketeer
+	wm_west_mexican_flintlock
 }
 
 monarch_names = {
-	"Acamapichtli #0" = 20
-	"Iztcoatl #0" = 20
-	"Huitzilihhuitl #0" = 20
-	"Chimalpopoca #0" = 20
-	"Moteuczomah #0" = 20
-	"Tizoc #0" = 20
-	"Ahuitzotl #0" = 20
-	"Axayacatl #0" = 20
-	"Cuauhtemoc #0" = 20
-	"Cuitlahuac #0" = 20
-	"Nezahualcoyotl #0" = 20	
-	"Tlacaelel #0" = 20
-	"Xihuitl Temoc #0" = 20	
-	"Xochitl #0" = 20
-	"Olinqui #0" = 20
-	"Acolmiztli #0" = 20
-	"Yoyontzin #0" = 20
-	"Ixtlilxochitl #0" = 20
-	"Acolnahuacatl #0" = 20
-	"Tzacualcatl #0" = 20
-	"Itzlolinqui #0" = 20
-	"Xilomantzin #0" = 20
-	"Quequecholtzin #0" = 20
-	"Tzompanteuctli #0" = 20
-	"Quetzaltototzin #0" = 20
-	"Cacamatzin #0" = 20
-	"Tlilpotonqui #0" = 20
-	"Tayoatzin #0" = 20
-	"Quauhtlapaltzin #0" = 20
-	"Tezcatlteuctli #0" = 20
-	"Tlacotzin #0" = 20
-	"Chimalpantzin #0" = 20
-	"Tepehuatzin #0" = 20
-	"Tezcatl #0" = 20
-	"Tatlatzincatzin #0" = 20
-	"Tlilpotonqui #0" = 20
-	"Nezahualpilli #0" = 20
-	"Miccacalcatl #0" = 20
-	"Ixtteocalletzin #0" = 20
+	"Hireticatame #0" = 20
+	"Sicuirancha #0" = 20
+	"Tariacuri #0" = 20
+	"Pavacume #0" = 20
+	"Hiqugage #0" = 20
+	"Hiripan #0" = 20
+	"Tangaxoan #0" = 20
+	"Tzitzispandacuare #0" = 20
+	"Zuangua #0" = 20
+	"Uresqua #0" = 20
+	"Cando #0" = 20
+	"Sica #0" = 20
+	"Zinaquambi #0" = 20
+	"Quama #0" = 20
+	"Quatamaripe #0" = 20
+	"Equandira #0" = 20
+	"Chague #0" = 20
+	"Ticatame #0" = 20
+	"Tucuruan #0" = 20
+	"Paguingata #0" = 20
+	"Trimaransco #0" = 20
+	"Cuini #0" = 20
+	"Sirangua #0" = 20
+	"Zincicha #0" = 20
+	"Tigame #0" = 20
+	"Tagani #0" = 20
+	"Patamu #0" = 20
+	"Chuicico #0" = 20
+	"Caracomoco #0" = 20
+	"Tariaran #0" = 20
+	"Cacapu #0" = 20
+	"Aramen #0" = 20
+	"Vaspe #0" = 20
+	"Terazi #0" = 20
+	"Cariqua #0" = 20
+	"Tupuri #0" = 20
+	"Hivacha #0" = 20
+	"Zinzumi #0" = 20
+	"Hanzivia #0" = 20
+	"Cavujancha #0" = 20
+	"Tarando #0" = 20
+	"Horohta #0" = 20
+	"Vanzan #0" = 20
+	"Hutaco #0" = 20
+	"Hozi #0" = 20
+	"Tuinchumbra #0" = 20
+	"Yzniquanto #0" = 20
+	"Hapunduri #0" = 20
+	"Zapivatame #0" = 20
+	"Xoropiti #0" = 20
+	"Tarequesinguata #0" = 20
+	"Zizambanacha #0" = 20
+	"Zizamban #0" = 20
+	"Curatame #0" = 20
+	"Tariayaran #0" = 20
+	"Vatarecha #0" = 20 
+	"Cuahuen #0" = 20
+	"Camejan #0" = 20
+	"Udecavecare #0" = 20
+	"Ypinchauni #0" = 20
+	"Turepupanquaran #0" = 20
+	"Mahicuri #0" = 20
+	"Tiripitihonto #0" = 20
+	"Curiparaxan #0" = 20
+	"Carocaten #0" = 20
+	"Chaushori #0" = 20
+	"Nurivan #0" = 20	
+	"Perapaqua #0" = 20
+	"Naca #0" = 20
+	"Chanhori #0" = 20
+	"Xoropiti #0" = 20
+	"Tarequesinguata #0" = 20
+	"Hapariva #0" = 20
+	"Cuynzurumu #0" = 20
+	"Utume #0" = 20
+	"Quanirescu #0" = 20
+	"Vacusquazita #0" = 20
 
-	"Matlalcihuatzin #0" = -1
-	"Maquiztzin #0" = -1
-	"Xiuhpopocatzin #0" = -1
-	"Tollintzin #0" = -1
-	"Xochiacamapichtli #0" = -1
-	"Xillomantzin #0" = -1
-	"Izapaplotzin #0" = -1
-	"Chiquatzin #0" = -1
-	"Totomochtzin #0" = -1
-	"Tlacoachcimaltzin #0" = -1
-	"Toznenetzin #0" = -1
-	"Cihuapilli #0" = -1
-	"Mauhcaxochitzin #0" = -1
-	"Chicuey #0" = -1
-	"Xiuhtoztzin #0" = -1
-	"Quauhtlamiyahualtzin #0" = -1
-	"Quetzalpetlatzin #0" = -1
-	"Tzihuacxochitzin #0" = -1
+	"Quenomen #0" = -1
+	"Mavina #0" = -1
+	"Xaratanga #0" = -1
+	"Picimbane #0" = -1
+	"Zucurabe #0" = -1
+	"Purupe #0" = -1
+	"Camavaperi #0" = -1
+	"Avicanime #0" = -1
+	"Pevame #0" = -1
 }
 
 leader_names = {
-	Tenoch Tetzcocah Tlaco Amaxal Chapulin Coyopotl Huitzil Moyotl Tecuampil Xique Ixehuatl Ahuatl Chilchoa 
-	Cuatlapantzi Michimani Techalotzi Quecholac Tecuanhuey Tuxpan Ehecatl Cuahutenco Coatl Cuahtzon Cuaxiloa 
-	Hueytletl Tecuampil Tlapaltototli Totozintle Xochitecatl Tlahuetl Tonacatl Zontlimatzi Chalci 
+	Uanacaze Uacusecha Zacapuireti Uanaceo Eneami Tsatsaki Uskuti
+	Sanduri Caheri Zapi Purecupehni Cuanicuti 
 }
 
 ship_names = {
 	Acolmiztli Acolnahuacat "Ah Hoya" "Ah Tzenul" Amimitl Apanecatl Atl Atlau Axoloa
-	Camaxtli Centeot Centzonuiznaua Chalchiuhtlatonal Chalchiuhtlicue Chalchiutotolin Chalmecalt Chalmecaucihuilt
+	Camaxtli Centeot Centzonuiznaua Chalchiuhtlatonal Chalchiuhtlicue Chalchiutotolin Chalmecalt 	Chalmecaucihuilt
 	Chantico Chichomexochtli Chicomecoatl Chiconahuai Chihalma Chualchihuitlcue Cihuacaotyl Cinteotl
 	Citlalatonac Citlalicue Ciucoatl Coatlicue Cochimetl Coyolxauhqui Cuauhcoatl 
 	Ehehcatl Eueucoyotl
@@ -122,7 +146,7 @@ ship_names = {
 
 
 army_names = {
-	"$PROVINCE$ Xiquipilli" 
+	"Army $PROVINCE$" 
 }
 
 fleet_names = {

@@ -4,105 +4,302 @@ graphical_culture = southamericagfx
 
 color = { 120 143 209 }
 
+#Country Name: Please see filename.
+
+graphical_culture = southamericagfx
+
+color = { 0 0 0 }
+
 historical_idea_groups = {
-	defensive_ideas
+	hegemonic_ideas
+	trade_ideas
 	offensive_ideas
-	religious_ideas
-	economic_ideas
-	diplomatic_ideas
-	innovativeness_ideas
+	power_concentration_ideas
 	spy_ideas
-	trade_ideas	
+	quality_ideas
+	influence_ideas
+	defensive_ideas
 }
 
 historical_units = {
-	western_medieval_infantry
-	western_medieval_knights
-	western_men_at_arms
-	swiss_landsknechten
-	dutch_maurician
-	austrian_tercio
-	austrian_grenzer
-	austrian_hussar
-	austrian_white_coat
-	prussian_uhlan
-	austrian_jaeger
-	mixed_order_infantry
-	open_order_cavalry
-	napoleonic_square
-	napoleonic_lancers
+	cm_central_mexican_infantry 
+	cm_late_central_mexican_infantry
+	cm_central_mexican_gunpowder_infantry
+	cm_central_mexican_musketeer
+	cm_central_mexican_flintlock
 }
 
 monarch_names = {
-	"Acamapichtli #0" = 20
-	"Iztcoatl #0" = 20
-	"Huitzilihhuitl #0" = 20
-	"Chimalpopoca #0" = 20
-	"Moteuczomah #0" = 20
-	"Tizoc #0" = 20
-	"Ahuitzotl #0" = 20
-	"Axayacatl #0" = 20
-	"Cuauhtemoc #0" = 20
-	"Cuitlahuac #0" = 20
-	"Nezahualcoyotl #0" = 20	
-	"Tlacaelel #0" = 20
-	"Xihuitl Temoc #0" = 20	
-	"Xochitl #0" = 20
-	"Olinqui #0" = 20
-	"Acolmiztli #0" = 20
-	"Yoyontzin #0" = 20
-	"Ixtlilxochitl #0" = 20
-	"Acolnahuacatl #0" = 20
-	"Tzacualcatl #0" = 20
-	"Itzlolinqui #0" = 20
-	"Xilomantzin #0" = 20
-	"Quequecholtzin #0" = 20
-	"Tzompanteuctli #0" = 20
-	"Quetzaltototzin #0" = 20
-	"Cacamatzin #0" = 20
-	"Tlilpotonqui #0" = 20
-	"Tayoatzin #0" = 20
-	"Quauhtlapaltzin #0" = 20
-	"Tezcatlteuctli #0" = 20
-	"Tlacotzin #0" = 20
-	"Chimalpantzin #0" = 20
-	"Tepehuatzin #0" = 20
-	"Tezcatl #0" = 20
-	"Tatlatzincatzin #0" = 20
-	"Tlilpotonqui #0" = 20
-	"Nezahualpilli #0" = 20
-	"Miccacalcatl #0" = 20
-	"Ixtteocalletzin #0" = 20
-
-	"Matlalcihuatzin #0" = -1
-	"Maquiztzin #0" = -1
-	"Xiuhpopocatzin #0" = -1
-	"Tollintzin #0" = -1
-	"Xochiacamapichtli #0" = -1
-	"Xillomantzin #0" = -1
-	"Izapaplotzin #0" = -1
-	"Chiquatzin #0" = -1
-	"Totomochtzin #0" = -1
-	"Tlacoachcimaltzin #0" = -1
-	"Toznenetzin #0" = -1
-	"Cihuapilli #0" = -1
-	"Mauhcaxochitzin #0" = -1
-	"Chicuey #0" = -1
-	"Xiuhtoztzin #0" = -1
-	"Quauhtlamiyahualtzin #0" = -1
-	"Quetzalpetlatzin #0" = -1
-	"Tzihuacxochitzin #0" = -1
+	"Jun Ic' #0" = 20
+	"Tsab Ic' #0" = 20
+	"Ox Ic' #0" = 20
+	"Tse' Ic' #0" = 20
+	"Bo' Ic' #0" = 20
+	"Acac Ic' #0" = 20
+	"Buc Ic' #0" = 20
+	"Huaxic Ic' #0" = 20
+	"Beleu Ic' #0" = 20
+	"Lajuj Ic' #0" = 20
+	"Jun Thec'u #0" = 20
+	"Tsab Thec'u #0" = 20
+	"Ox Thec'u #0" = 20
+	"Tse' Thec'u #0" = 20
+	"Bo' Thec'u #0" = 20
+	"Acac Thec'u #0" = 20
+	"Buc Thec'u #0" = 20
+	"Huaxic Thec'u #0" = 20
+	"Beleu Thec'u #0" = 20
+	"Lajuj Thec'u #0" = 20
+	"Jun Tsan #0" = 20
+	"Tsab Tsan #0" = 20
+	"Ox Tsan #0" = 20
+	"Tse' Tsan #0" = 20
+	"Bo' Tsan #0" = 20
+	"Acac Tsan #0" = 20
+	"Buc Tsan #0" = 20
+	"Huaxic Tsan #0" = 20
+	"Beleu Tsan #0" = 20
+	"Lajuj Tsan #0" = 20
+	"Jun Oc' #0" = 20
+	"Tsab Oc' #0" = 20
+	"Ox Oc' #0" = 20
+	"Tse' Oc' #0" = 20
+	"Bo' Oc' #0" = 20
+	"Acac Oc' #0" = 20
+	"Buc Oc' #0" = 20
+	"Huaxic Oc' #0" = 20
+	"Beleu Oc' #0" = 20
+	"Lajuj Oc' #0" = 20
+	"Jun Coy #0" = 20
+	"Tsab Coy #0" = 20
+	"Ox Coy #0" = 20
+	"Tse' Coy #0" = 20
+	"Bo' Coy #0" = 20
+	"Acac Coy #0" = 20
+	"Buc Coy #0" = 20
+	"Huaxic Coy #0" = 20
+	"Beleu Coy #0" = 20
+	"Lajuj Coy #0" = 20
+	"Jun Ja' #0" = 20
+	"Tsab Ja' #0" = 20
+	"Ox Ja' #0" = 20
+	"Tse' Ja' #0" = 20
+	"Bo' Ja' #0" = 20
+	"Acac Ja' #0" = 20
+	"Buc Ja' #0" = 20
+	"Huaxic Ja' #0" = 20
+	"Beleu Ja' #0" = 20
+	"Lajuj Ja' #0" = 20
+	"Jun Pic'o' #0" = 20
+	"Tsab Pic'o' #0" = 20
+	"Ox Pic'o' #0" = 20
+	"Tse' Pic'o' #0" = 20
+	"Bo' Pic'o' #0" = 20
+	"Acac Pic'o' #0" = 20
+	"Buc Pic'o' #0" = 20
+	"Huaxic Pic'o' #0" = 20
+	"Beleu Pic'o' #0" = 20
+	"Lajuj Pic'o' #0" = 20
+	"Jun Uthu' #0" = 20
+	"Tsab Uthu' #0" = 20
+	"Ox Uthu' #0" = 20
+	"Tse' Uthu' #0" = 20
+	"Bo' Uthu' #0" = 20
+	"Acac Uthu' #0" = 20
+	"Buc Uthu' #0" = 20
+	"Huaxic Uthu' #0" = 20
+	"Beleu Uthu' #0" = 20
+	"Lajuj Uthu' #0" = 20
+	"Jun Thac'uy #0" = 20
+	"Tsab Thac'uy #0" = 20
+	"Ox Thac'uy #0" = 20
+	"Tse' Thac'uy #0" = 20
+	"Bo' Thac'uy #0" = 20
+	"Acac Thac'uy #0" = 20
+	"Buc Thac'uy #0" = 20
+	"Huaxic Thac'uy #0" = 20
+	"Beleu Thac'uy #0" = 20
+	"Lajuj Thac'uy #0" = 20
+	"Jun T'iu #0" = 20
+	"Tsab T'iu #0" = 20
+	"Ox T'iu #0" = 20
+	"Tse' T'iu #0" = 20
+	"Bo' T'iu #0" = 20
+	"Acac T'iu #0" = 20
+	"Buc T'iu #0" = 20
+	"Huaxic T'iu #0" = 20
+	"Beleu T'iu #0" = 20
+	"Lajuj T'iu #0" = 20
+	"Jun C'amal T'ujub #0" = 20
+	"Tsab C'amal T'ujub #0" = 20
+	"Ox C'amal T'ujub #0" = 20
+	"Tse' C'amal T'ujub #0" = 20
+	"Bo' C'amal T'ujub #0" = 20
+	"Acac C'amal T'ujub #0" = 20
+	"Buc C'amal T'ujub #0" = 20
+	"Huaxic C'amal T'ujub #0" = 20
+	"Beleu C'amal T'ujub #0" = 20
+	"Lajuj C'amal T'ujub #0" = 20
+	"Jun Ab' #0" = 20
+	"Tsab Ab' #0" = 20
+	"Ox Ab' #0" = 20
+	"Tse' Ab' #0" = 20
+	"Bo' Ab' #0" = 20
+	"Acac Ab' #0" = 20
+	"Buc Ab' #0" = 20
+	"Huaxic Ab' #0" = 20
+	"Beleu Ab' #0" = 20
+	"Lajuj Ab' #0" = 20
+	"Jun Huits #0" = 20
+	"Tsab Huits #0" = 20
+	"Ox Huits #0" = 20
+	"Tse' Huits #0" = 20
+	"Bo' Huits #0" = 20
+	"Acac Huits #0" = 20
+	"Buc Huits #0" = 20
+	"Huaxic Huits #0" = 20
+	"Beleu Huits #0" = 20
+	"Lajuj Huits #0" = 20
+	
+	"Jun Ic' #0" = -1
+	"Tsab Ic' #0" = -1
+	"Ox Ic' #0" = -1
+	"Tse' Ic' #0" = -1
+	"Bo' Ic' #0" = -1
+	"Acac Ic' #0" = -1
+	"Buc Ic' #0" = -1
+	"Huaxic Ic' #0" = -1
+	"Beleu Ic' #0" = -1
+	"Lajuj Ic' #0" = -1
+	"Jun Thec'u #0" = -1
+	"Tsab Thec'u #0" = -1
+	"Ox Thec'u #0" = -1
+	"Tse' Thec'u #0" = -1
+	"Bo' Thec'u #0" = -1
+	"Acac Thec'u #0" = -1
+	"Buc Thec'u #0" = -1
+	"Huaxic Thec'u #0" = -1
+	"Beleu Thec'u #0" = -1
+	"Lajuj Thec'u #0" = -1
+	"Jun Tsan #0" = -1
+	"Tsab Tsan #0" = -1
+	"Ox Tsan #0" = -1
+	"Tse' Tsan #0" = -1
+	"Bo' Tsan #0" = -1
+	"Acac Tsan #0" = -1
+	"Buc Tsan #0" = -1
+	"Huaxic Tsan #0" = -1
+	"Beleu Tsan #0" = -1
+	"Lajuj Tsan #0" = -1
+	"Jun Oc' #0" = -1
+	"Tsab Oc' #0" = -1
+	"Ox Oc' #0" = -1
+	"Tse' Oc' #0" = -1
+	"Bo' Oc' #0" = -1
+	"Acac Oc' #0" = -1
+	"Buc Oc' #0" = -1
+	"Huaxic Oc' #0" = -1
+	"Beleu Oc' #0" = -1
+	"Lajuj Oc' #0" = -1
+	"Jun Coy #0" = -1
+	"Tsab Coy #0" = -1
+	"Ox Coy #0" = -1
+	"Tse' Coy #0" = -1
+	"Bo' Coy #0" = -1
+	"Acac Coy #0" = -1
+	"Buc Coy #0" = -1
+	"Huaxic Coy #0" = -1
+	"Beleu Coy #0" = -1
+	"Lajuj Coy #0" = -1
+	"Jun Ja' #0" = -1
+	"Tsab Ja' #0" = -1
+	"Ox Ja' #0" = -1
+	"Tse' Ja' #0" = -1
+	"Bo' Ja' #0" = -1
+	"Acac Ja' #0" = -1
+	"Buc Ja' #0" = -1
+	"Huaxic Ja' #0" = -1
+	"Beleu Ja' #0" = -1
+	"Lajuj Ja' #0" = -1
+	"Jun Pic'o' #0" = -1
+	"Tsab Pic'o' #0" = -1
+	"Ox Pic'o' #0" = -1
+	"Tse' Pic'o' #0" = -1
+	"Bo' Pic'o' #0" = -1
+	"Acac Pic'o' #0" = -1
+	"Buc Pic'o' #0" = -1
+	"Huaxic Pic'o' #0" = -1
+	"Beleu Pic'o' #0" = -1
+	"Lajuj Pic'o' #0" = -1
+	"Jun Uthu' #0" = -1
+	"Tsab Uthu' #0" = -1
+	"Ox Uthu' #0" = -1
+	"Tse' Uthu' #0" = -1
+	"Bo' Uthu' #0" = -1
+	"Acac Uthu' #0" = -1
+	"Buc Uthu' #0" = -1
+	"Huaxic Uthu' #0" = -1
+	"Beleu Uthu' #0" = -1
+	"Lajuj Uthu' #0" = -1
+	"Jun Thac'uy #0" = -1
+	"Tsab Thac'uy #0" = -1
+	"Ox Thac'uy #0" = -1
+	"Tse' Thac'uy #0" = -1
+	"Bo' Thac'uy #0" = -1
+	"Acac Thac'uy #0" = -1
+	"Buc Thac'uy #0" = -1
+	"Huaxic Thac'uy #0" = -1
+	"Beleu Thac'uy #0" = -1
+	"Lajuj Thac'uy #0" = -1
+	"Jun T'iu #0" = -1
+	"Tsab T'iu #0" = -1
+	"Ox T'iu #0" = -1
+	"Tse' T'iu #0" = -1
+	"Bo' T'iu #0" = -1
+	"Acac T'iu #0" = -1
+	"Buc T'iu #0" = -1
+	"Huaxic T'iu #0" = -1
+	"Beleu T'iu #0" = -1
+	"Lajuj T'iu #0" = -1
+	"Jun C'amal T'ujub #0" = -1
+	"Tsab C'amal T'ujub #0" = -1
+	"Ox C'amal T'ujub #0" = -1
+	"Tse' C'amal T'ujub #0" = -1
+	"Bo' C'amal T'ujub #0" = -1
+	"Acac C'amal T'ujub #0" = -1
+	"Buc C'amal T'ujub #0" = -1
+	"Huaxic C'amal T'ujub #0" = -1
+	"Beleu C'amal T'ujub #0" = -1
+	"Lajuj C'amal T'ujub #0" = -1
+	"Jun Ab' #0" = -1
+	"Tsab Ab' #0" = -1
+	"Ox Ab' #0" = -1
+	"Tse' Ab' #0" = -1
+	"Bo' Ab' #0" = -1
+	"Acac Ab' #0" = -1
+	"Buc Ab' #0" = -1
+	"Huaxic Ab' #0" = -1
+	"Beleu Ab' #0" = -1
+	"Lajuj Ab' #0" = -1
+	"Jun Huits #0" = -1
+	"Tsab Huits #0" = -1
+	"Ox Huits #0" = -1
+	"Tse' Huits #0" = -1
+	"Bo' Huits #0" = -1
+	"Acac Huits #0" = -1
+	"Buc Huits #0" = -1
+	"Huaxic Huits #0" = -1
+	"Beleu Huits #0" = -1
+	"Lajuj Huits #0" = -1
 }
 
 leader_names = {
-	Tenoch Tetzcocah Tlaco Amaxal Chapulin Coyopotl Huitzil Moyotl Tecuampil Xique Ixehuatl Ahuatl Chilchoa 
-	Cuatlapantzi Michimani Techalotzi Quecholac Tecuanhuey Tuxpan Ehecatl Cuahutenco Coatl Cuahtzon Cuaxiloa 
-	Hueytletl Tecuampil Tlapaltototli Totozintle Xochitecatl Tlahuetl Tonacatl Zontlimatzi Chalci 
+	""
 }
 
 ship_names = {
 	Acolmiztli Acolnahuacat "Ah Hoya" "Ah Tzenul" Amimitl Apanecatl Atl Atlau Axoloa
-	Camaxtli Centeot Centzonuiznaua Chalchiuhtlatonal Chalchiuhtlicue Chalchiutotolin Chalmecalt Chalmecaucihuilt
+	Camaxtli Centeot Centzonuiznaua Chalchiuhtlatonal Chalchiuhtlicue Chalchiutotolin Chalmecalt 	Chalmecaucihuilt
 	Chantico Chichomexochtli Chicomecoatl Chiconahuai Chihalma Chualchihuitlcue Cihuacaotyl Cinteotl
 	Citlalatonac Citlalicue Ciucoatl Coatlicue Cochimetl Coyolxauhqui Cuauhcoatl 
 	Ehehcatl Eueucoyotl
