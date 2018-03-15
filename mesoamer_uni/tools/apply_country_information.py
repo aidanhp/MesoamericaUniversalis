@@ -10,8 +10,9 @@ countries_common_base_path = "common/countries/"
 cultures_base_path = "tools/apply_country_information_cultures/"
 
 culture_to_common_content = defaultdict(list)
-for culture in os.listdir(cultures_base_path):
-    with open(cultures_base_path + culture) as culture_file:
+for culture_txt in os.listdir(cultures_base_path):
+    culture = culture_txt[:-4]  # chop off ".txt"
+    with open(cultures_base_path + culture_txt) as culture_file:
         for line in culture_file:
             culture_to_common_content[culture].append(line)
 
