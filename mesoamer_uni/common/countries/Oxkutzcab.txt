@@ -6,9 +6,7 @@ color = { 111 254 240 }
 
 #Country Name: Please see filename.
 
-graphical_culture = southamericagfx
 
-color = { 0 0 0 }
 
 historical_idea_groups = {
 	hegemonic_ideas

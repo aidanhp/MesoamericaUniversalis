@@ -10,6 +10,7 @@
 #As far as I can tell the name sets in here are not actually used by the game.
 #Only the names in the country files are
 #Thus why I didn't bother to transcribe all the names here... not sure exactly what this file does besides declare the cultures 
+#Update as of 3/15/18 - looks like the game pulls the female (but not male!) advisor names from this file for some reason
 placeholder = {
 	graphical_culture = southamericagfx
 	placeholdertec = {
@@ -1737,91 +1738,91 @@ northwest_mexican = {
 	#Chichimec languages have not survived for the most part, so most of these use placeholder names
 	guamare = { #Placeholder from Cora 
 		male_names = {
-			Placeholder
+			
 		}
 		female_names = {
-			Placeholder
+			
 		}
 	}
 	
 	cora = { #Found a dictionary for this one
 		male_names = {
-			Placeholder
+			
 		}
 		female_names = {
-			Placeholder
+			
 		}
 	}
 	
 	huichol = { #Found a dictionary for this one
 		male_names = {
-			Placeholder
+			
 		}
 		female_names = {
-			Placeholder
+			
 		}
 	}
 	
 	caxcan = { #Placeholder from Cora 
 		male_names = {
-			Placeholder
+			
 		}
 		female_names = {
-			Placeholder
+			
 		}
 	}
 	
 	tecuexe = { #Placeholder from Cora 
 		male_names = {
-			Placeholder
+			
 		}
 		female_names = {
-			Placeholder
+			
 		}
 	}
 	
 	tepehuan = { #Found a dictionary for this one
 		male_names = {
-			Placeholder
+			
 		}
 		female_names = {
-			Placeholder
+			
 		}
 	}
 	
 	tepecano = { #Placeholder from Huichol
 		male_names = {
-			Placeholder
+			
 		}
 		female_names = {
-			Placeholder
+			
 		}
 	}
 	
 	totorame = { #Placeholder from Tepehuan
 		male_names = {
-			Placeholder
+			
 		}
 		female_names = {
-			Placeholder
+			
 		}
 	}
 	
 	cuyotec = { #Placeholder from Huichol 
 		male_names = {
-			Placeholder
+			
 		}
 		female_names = {
-			Placeholder
+			
 		}
 	}
 	
 	guachichil = { #Placeholder from Cora 
 		male_names = {
-			Placeholder
+			
 		}
 		female_names = {
-			Placeholder
+			
 		}
 	}
 }
@@ -1831,24 +1832,24 @@ gulf_coast = {
 	
 	huastec = {
 		male_names = {
-			Placeholder
+			
 		}
 		female_names = {
-			Placeholder
+			
 		}
 	}
 	
 	totonac = {
 		male_names = {
-			Placeholder
+			
 		}
 		female_names = {
-			Placeholder
+			"Mayor Cocko"
 		}
 	}
 	
 	dynasty_names = {
-		Placeholder
+		
 	}
 }
 
