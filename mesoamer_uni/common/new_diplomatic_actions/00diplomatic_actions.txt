@@ -16,7 +16,7 @@ static_actions = # static_actions is a reserved token.
 	callaction = 											{ alert_index = 10 alert_tooltip = ICON_CALLALLY } # This one is referred to in the code (settings.cpp)
 	offerloan = 												{ alert_index = 11 alert_tooltip = ICON_OFFERLOAN }
 	sellprov = 												{ alert_index = 12 alert_tooltip = ICON_PROVSALE }
-# 13 is currently unused
+		#13 is cursed
 	request_to_join_federation = 						{ alert_index = 14 alert_tooltip = ICON_FEDERATIONREQUEST }
 	invite_to_federation = 								{ alert_index = 15 alert_tooltip = ICON_FEDERATIONINVITE }
 	transfer_trade_power = 							{ alert_index = 16 alert_tooltip = TRANSFER_TRADE_POWER }
@@ -32,7 +32,7 @@ static_actions = # static_actions is a reserved token.
 		# 26 is used by requestpeace
 		# 27 is used by enforce_peace (when actor is coalition leader) with tooltip "ICON_ENFORCE_PEACE_COALITION_LEADER"
 	support_independence_action = 					{ alert_index = 28 alert_tooltip = support_independence }
-# 29 is currently unused
+	steer_trade = 										{ alert_index = 29 alert_tooltip = ICON_STEER_TRADE }
 	ask_for_march = 										{ alert_index = 30 alert_tooltip = ICON_MARCH }
 	sell_ships_action = 									{ alert_index = 31 alert_tooltip = ICON_FLEETSALE }
 	grant_freecity = 										{ alert_index = 32 alert_tooltip = ICON_GRANT_FREECITY }
@@ -45,6 +45,7 @@ static_actions = # static_actions is a reserved token.
 	break_alliance = 										{ alert_index = 39 alert_tooltip = ICON_BREAK_ALLIANCE }
 	tributary_state_action = 							{ alert_index = 40 alert_tooltip = ICON_TRIBUTARY }
 	ask_for_tributary_state_action = 				{ alert_index = 41 alert_tooltip = ICON_ASK_TRIBUTARY }
+	knowledge_sharing = 								{ alert_index = 42 alert_tooltip = ICON_KNOWLEDGESHARE } #The answer to life
 }
 
 # Create new diplomatic actions like this. AI will currently never send them.
@@ -192,3 +193,4 @@ cancel_dummy =  {
 		always = no
 	}
 }
+

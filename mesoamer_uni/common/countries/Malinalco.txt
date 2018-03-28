@@ -4,10 +4,6 @@ graphical_culture = southamericagfx
 
 color = { 45 32 0 }
 
-#Country Name: Please see filename.
-
-
-
 historical_idea_groups = {
 	hegemonic_ideas
 	trade_ideas

@@ -7,7 +7,6 @@ color = { 65 56 0 }
 ﻿#Country Name: Please see filename.
 
 
-
 historical_idea_groups = {
 	hegemonic_ideas
 	trade_ideas

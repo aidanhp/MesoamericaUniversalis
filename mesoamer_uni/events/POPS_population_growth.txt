@@ -1,4 +1,7 @@
+#Population Growth
+namespace = pops_growth.01
 
+#Population Growth
 country_event = {
 	id = pops_growth.01
 	

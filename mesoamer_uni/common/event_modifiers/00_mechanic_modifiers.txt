@@ -119,6 +119,6 @@ postclassic_golden_age = {
 
 #Religions#
 shared_pantheon = {
-	tolerance_heretic = 2.5
+	tolerance_heretic = 3
 	religious_unity = 0.20
 }

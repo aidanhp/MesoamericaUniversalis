@@ -20,6 +20,44 @@ country_event = {
 	
 	immediate = {
 		every_country = {
+			#Calculate Captive Limit 
+			set_variable = { which = v_captives_limit value = 0 }
+			export_to_variable = { 
+				which = v_captives_limit 
+				value = total_development 
+			}
+			multiply_variable = { which = v_captives_limit value = 10 } #Set to 1% of total population 
+			
+			#Elite Captive Decay
+			if = { 
+				limit = { 
+					check_variable = { which = v_elite_captives value = 1 }
+				}
+				random_list = {
+					20 = { 
+						subtract_variable = { which = v_elite_captives value = 2 } 
+					}
+					20 = { 
+						subtract_variable = { which = v_elite_captives value = 3 } 
+					}
+					20 = { 
+						subtract_variable = { which = v_elite_captives value = 4 } 
+					}
+					20 = { 
+						subtract_variable = { which = v_elite_captives value = 5 } 
+					}
+					20 = { 
+						subtract_variable = { which = v_elite_captives value = 6 } 
+					}
+				}
+				if = { 
+					limit = {
+						NOT = { check_variable = { which = v_elite_captives value = 0 } }
+					}
+					set_variable = { which = v_elite_captives value = 0 } 
+				}
+			}
+			
 			#Calculate Territorial vs. Hegemonic#
 			#States
 			if = {
@@ -243,9 +281,6 @@ country_event = {
 			
 			
 			#Religious Tradition#
-			
-			
-			#Militancy#
 			
 			
 		}

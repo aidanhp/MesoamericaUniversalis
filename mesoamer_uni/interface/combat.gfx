@@ -30,7 +30,7 @@ spriteTypes = {
 	spriteType = {
 		name = "gfx_battlemodifiers"
 		texturefile = "gfx//interface//battle_modifiers.tga"
-		noOfFrames = 5
+		noOfFrames = 6
 	}
 
 	spriteType = {

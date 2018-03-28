@@ -5,15 +5,15 @@ graphical_culture = westerngfx
 color = { 30  30  30 }
 
 # Used for client states
-historical_idea_groups = {	
-	administrative_ideas
-	quantity_ideas
-	defensive_ideas	
-	humanist_ideas
+historical_idea_groups = {
+	hegemonic_ideas
 	trade_ideas
+	offensive_ideas
+	power_concentration_ideas
+	spy_ideas
 	quality_ideas
-	economic_ideas	
-	maritime_ideas
+	influence_ideas
+	defensive_ideas
 }
 	
 monarch_names = {

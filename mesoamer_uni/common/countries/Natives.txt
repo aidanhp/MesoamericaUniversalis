@@ -6,9 +6,6 @@ color = { 203  164  103 }
 
 # Used for colonial nations
 #Country Name: Please see filename.
-
-
-
 historical_idea_groups = {
 	hegemonic_ideas
 	trade_ideas

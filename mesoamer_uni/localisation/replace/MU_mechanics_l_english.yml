@@ -8,7 +8,7 @@
  draft_laws1.b: "Draft Law 2 - 10% of Male Commoners"
  draft_laws1.c: "Draft Law 3 - 20% of Male Commoners"
  draft_laws1.dd: "Draft Law 4 - 25% of Male Commoners"
- draft_laws1.e: "Done"
+ draft_laws1.e: "Back"
  #Tooltips
  display_test_variable_tt: "Num of States: [Root.v_num_of_states.GetValue]"
  draft_laws_tt_1: "If this draft law is lower than your current one, your manpower will be reduced to the new maximum."
@@ -120,7 +120,19 @@
  ai_terrible_communication: "Terrible Communication"
  ai_minimal_communication: "Minimal Communication"
  
- #Special Global Modifiers
+ #Captives#
+ #Events
+ captives1.t: "Assess Captives"
+ captives1.d1: "Description for captive use in Nahuatl religion goes here. \n\nCurrent Common Captives: [Root.v_common_captives.GetValue] \nCurrent Elite Captives: [Root.v_elite_captives.GetValue] \nCaptives Limit: [Root.v_captives_limit.GetValue]"
+ captives1.d2: "Description for captive use in Oaxacan religion goes here. \n\nCurrent Common Captives: [Root.v_common_captives.GetValue] \nCurrent Elite Captives: [Root.v_elite_captives.GetValue] \nCaptives Limit: [Root.v_captives_limit.GetValue]"
+ captives1.d3: "Description for captive use in Purepecha religion goes here. \n\nCurrent Common Captives: [Root.v_common_captives.GetValue] \nCurrent Elite Captives: [Root.v_elite_captives.GetValue] \nCaptives Limit: [Root.v_captives_limit.GetValue]"
+ captives1.d4: "Description for captive use in Maya religion goes here. \n\nCurrent Common Captives: [Root.v_common_captives.GetValue] \nCurrent Elite Captives: [Root.v_elite_captives.GetValue] \nCaptives Limit: [Root.v_captives_limit.GetValue]"
+ captives1.a: "Back"
+ #Decisions
+ assess_captives_title: "Assess Captives"
+ assess_captives_desc: "Check how many captives you currently possess, and your captives limit."
+ 
+ #Special Global Modifiers#
  mesoamerican_logistics: "Mesoamerican Logistics"
  desc_mesoamerican_logistics: "The rough terrain and lack of draft and transportation animals in Mesoamerica made controlling large realms and fielding large armies a more difficult task."
  postclassic_golden_age: "Late Postclassic Golden Age"

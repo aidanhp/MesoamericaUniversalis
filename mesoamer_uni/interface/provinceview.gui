@@ -1500,6 +1500,14 @@ guiTypes = {
 				format = right			
 			}
 
+			iconType = {
+				name = "latent_resource_icon"
+				position = { x= 423 y = 485 }
+				spriteType = "GFX_resource_icon"
+				Orientation = "UPPER_LEFT"
+				hint_tag = "hint_tradegoods"
+			}
+			
 			guiButtonType = {
 				name = "resource_icon"
 				position = { x= 413 y = 500 }
@@ -1507,7 +1515,14 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				hint_tag = "hint_tradegoods"
 			}			
-
+			
+			iconType = {
+				name = "hidden_latent_resource_icon"
+				position = { x= 448 y = 490 }
+				Orientation = "UPPER_LEFT"
+				spriteType = "GFX_resource_transparent"
+			}
+			
 			instantTextBoxType = {
 				name = "resource_price_value"
 				position = { x= 320 y = 560 }

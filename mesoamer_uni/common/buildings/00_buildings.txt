@@ -97,8 +97,7 @@ merchant_guild_outpost = {
 		province_trade_power_value = 1
 		province_trade_power_modifier = 0.33
 		trade_goods_size_modifier = 0.33
-		local_autonomy = -0.05
-		min_local_autonomy = 75
+		#Other stuff later
 	}
 	
 	ai_will_do = {
@@ -243,17 +242,20 @@ farms = {
 	}
 }
 
-orchard = {
+manufactory = {
 	cost = 500
-	time = 12
+	time = 60
+	modifier = {
+		trade_goods_size = 1.0
+	}
+}
+
+orchard = {
 	manufactory = {
 		fruits
 		cacao
 		copal
 		rubber
-	}
-	modifier = {
-		trade_goods_size = 1.0
 	}
 	
 	ai_will_do = {
@@ -262,16 +264,11 @@ orchard = {
 }
 
 managed_forests = {
-	cost = 500
-	time = 12
 	manufactory = {
 		wood
 		plumes
 		honey
 		domesticated_animals
-	}
-	modifier = {
-		trade_goods_size = 1.0
 	}
 	
 	ai_will_do = {
@@ -280,14 +277,9 @@ managed_forests = {
 }
 
 great_plantation = {
-	cost = 500
-	time = 12
 	manufactory = {
 		cotton
 		maguey
-	}
-	modifier = {
-		trade_goods_size = 1.0
 	}
 	
 	ai_will_do = {
@@ -296,15 +288,10 @@ great_plantation = {
 }
 
 quarry = {
-	cost = 500
-	time = 12
 	manufactory = {
 		lime
 		construction_stone
 		obsidian
-	}
-	modifier = {
-		trade_goods_size = 1.0
 	}
 	
 	ai_will_do = {
@@ -313,17 +300,12 @@ quarry = {
 }
 
 mining_operation = {
-	cost = 500
-	time = 12
 	manufactory = {
 		copper
 		gold
 		silver
 		precious_stones
 		balsas_metals
-	}
-	modifier = {
-		trade_goods_size = 1.0
 	}
 	
 	ai_will_do = {
@@ -332,13 +314,8 @@ mining_operation = {
 }
 
 salt_operation = {
-	cost = 500
-	time = 12
 	manufactory = {
 		salt
-	}
-	modifier = {
-		trade_goods_size = 1.0
 	}
 	
 	ai_will_do = {
@@ -347,14 +324,9 @@ salt_operation = {
 }
 
 house_of_artists = {
-	cost = 800
-	time = 12
 	manufactory = {
 		ceramics
 		tolteca_crafts
-	}
-	modifier = {
-		trade_goods_size = 1.0
 	}
 	
 	ai_will_do = {

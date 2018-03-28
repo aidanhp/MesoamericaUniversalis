@@ -4,10 +4,6 @@ graphical_culture = southamericagfx
 
 color = { 118 152 192 }
 
-#Country Name: Please see filename.
-
-
-
 historical_idea_groups = {
 	hegemonic_ideas
 	trade_ideas
@@ -22,7 +18,7 @@ historical_idea_groups = {
 historical_units = {
 	tl_tlaxcallan_infantry 
 	tl_late_tlaxcallan_infantry
-	tl_tlaxcallan_conquistadores_infantry
+	tl_tlaxcallan_conquistadores
 	tl_tlaxcallan_musketeer
 	tl_tlaxcallan_flintlock
 }

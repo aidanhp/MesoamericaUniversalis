@@ -66,4 +66,17 @@ country_decisions = {
 			country_event = { id = tribute.01 } 
 		}
 	}
+	assess_captives = {
+		major = yes
+		potential = {
+			NOT = { religion_group = christian_group }
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			set_country_flag = assessing_captives
+			country_event = { id = captives.01 } 
+		}
+	}
 }

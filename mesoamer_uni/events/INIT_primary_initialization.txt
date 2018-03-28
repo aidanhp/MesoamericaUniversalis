@@ -69,6 +69,22 @@ country_event = {
 				set_variable = { which = v_em_dip_weight value = 0 }
 				set_variable = { which = v_em_mil_weight value = 0 }
 				
+				set_variable = { which = v_common_captives value = 0 }
+				set_variable = { which = v_elite_captives value = 0 } 
+				set_variable = { which = v_total_captives value = 0 }
+				set_variable = { which = v_captives_limit value = 0 }
+				set_variable = { which = v_captives_won value = 0 }
+				set_variable = { which = v_elite_captives_won value = 0 }
+				set_variable = { which = v_common_captives_won value = 0 } 
+				set_variable = { which = v_common_percent_decay value = 0 }
+				set_variable = { which = v_common_flat_decay value = 0 } 
+				
+				export_to_variable = { 
+					which = v_captives_limit 
+					value = total_development 
+				}
+				multiply_variable = { which = v_captives_limit value = 10 } #Set to 1% of total population 
+				
 				#Startup Events
 				#country_event = { id = communication_efficiency.01 }
 			}

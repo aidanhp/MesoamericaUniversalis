@@ -1,5 +1,5 @@
 culture = placeholdertec
-religion = placeholderism
+religion = religion_tlaloc 
 capital = "Brussels"
 trade_goods = unknown
 hre = no

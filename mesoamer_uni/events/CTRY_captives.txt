@@ -1,0 +1,39 @@
+#Events related to the captives mechanic
+namespace = captives
+
+#Assess Captives
+country_event = {
+	id = captives.01
+	
+	title = "captives1.t"
+	desc = {
+		trigger = { religion_group = nahuatl_group }
+		desc = "captives1.d1"
+	}
+	desc = {
+		trigger = { religion_group = huaxyacac_group }
+		desc = "captives1.d2"
+	}
+	desc = {
+		trigger = { religion_group = purepecha_group }
+		desc = "captives1.d3"
+	}
+	desc = {
+		trigger = { religion_group = maya_group }
+		desc = "captives1.d4"
+	}
+	
+	picture = LAND_MILITARY_eventPicture  
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "captives1.a"
+		#Effects
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
