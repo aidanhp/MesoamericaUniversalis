@@ -1,0 +1,40 @@
+﻿l_english:
+ #Localization for start screens#
+ #§
+ #Titles for country screen
+ string_start_title_tenochtitlan: "Tenochtitlan, Great City of the Mexica"
+ string_start_title_texcoco: "Texcoco the Ascendant"
+ string_start_title_tlacopan: "Lord of the Tepanecs"
+ string_start_title_azcapotzalco: "A Vanquished Empire"
+ string_start_title_chalco: "The Kingdoms of Chalco"
+ string_start_title_tlaxcallan: "Indomitable Tlaxcallan"
+ string_start_title_cuauhnahuac: "Mighty Cuauhnahuac" 
+ string_start_title_tzintzuntzan: "Tariacuri's Greatest Legacy"
+ string_start_title_zaachila: "Masters of Huaxyacac"
+ string_start_title_yucudzaa: "In the Path of Eight Deer Jaguar Claw"
+ string_start_title_agaltepec: "The Most Powerful Country Ever"
+ string_start_title_kiche: "Glory to K'umarcaaj!"
+ string_start_title_kaqchikel: "Loyal Allies"
+ string_start_title_cocom: "The Collapse of Mayapan"
+ 
+ #Descriptions for country screen
+ string_start_tenochtitlan: "Originally a tribe of nomads from the arid regions of Northern Mesoamerica, the Mexica people migrated into the Valley of Mexico sometime in the early 1300s. There, they established a small town called Tenochtitlan on a marshy island and became tributaries to the nascent Tepanec Empire centered in Azcapotzalco. \nA century later, times had changed. Tenochtitlan had grown into the largest city in the valley, and when old age took the astute Tepanec Emperor Tezozomoc in 1426, the fragile Tepanec realm began to crack. The Tepanec situation worsened when Tezozomoc’s heir Tayatzin was usurped by another son, Maxtla, who also had Tlatoani Chimalpopoca of Tenochtitlan assassinated. Soon, Tenochtitlan was at the head of a triumvirate of rebel city-states along with the Acolhua city of Texcoco and another Tepanec city called Tlacopan. After a bloody two year war, the Mexica were victorious, shattering the Tepanec realm into its constituencies and establishing themselves as the preeminent power in the valley. \nThe Mexica stand ready to forge the largest Empire in Mesoamerican history, but first they must unite their home valley, which will require wars with the powerful city-states of Xochimilco and Chalco. Outside the valley, even greater foes gather their strength..."
+ string_start_texcoco: ""
+ string_start_tlacopan: ""
+ string_start_azcapotzalco: ""
+ string_start_chalco: ""
+ string_start_tlaxcallan: ""
+ string_start_cuauhnahuac: ""
+ string_start_tzintzuntzan: ""
+ string_start_agaltepec: ""
+ string_start_central_mexico: ""
+ string_start_western_mexico: ""
+ string_start_guerrero_region: ""
+ string_start_gulf_coast: ""
+ string_start_oaxaca: ""
+ string_start_yucatan: ""
+ string_start_maya_highlands: ""
+ string_start_maya_central_lowlands: ""
+ 
+ 
+ 

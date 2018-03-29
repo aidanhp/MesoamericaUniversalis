@@ -1,0 +1,32 @@
+# Province Triggered modifiers are here.
+# These are added to provinces through the add_province_triggered_modifier effect
+#
+# Effects are fully scriptable here.
+
+
+###########################################
+# Just random test modifier
+###########################################
+test_modifier = {
+	potential = {
+		always = yes
+	}
+
+	trigger = {
+		owner = {
+			stability = 0
+		}
+	}
+
+	local_build_cost = 0.05	
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+	
+}

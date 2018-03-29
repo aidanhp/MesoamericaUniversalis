@@ -882,42 +882,6 @@ superiority_heretic = {
 	war_name = HERETIC_WAR_NAME	
 }
 
-take_province_excommunication = {
-	type = take_province
-	
-	badboy_factor = 0.5
-	prestige_factor = 1.25
-	peace_cost_factor = 1.0	
-	
-	allowed_provinces = {
-		owner = { 
-			is_excommunicated = yes
-			religion = catholic		
-		}
-		OR = {
-			is_core = ROOT
-			is_claim = ROOT
-			any_neighbor_province = {
-				owned_by = ROOT
-			}
-		}
-	}
-
-	peace_options = {
-		po_release_vassals
-		po_release_annexed
-		po_return_cores
-		po_demand_provinces
-		po_revoke_cores
-		po_become_vassal
-		po_gold
-		po_concede_defeat
-	}
-	
-	prov_desc = ALL_CGROUP_PROVS
-	war_name = EXCOM_WAR_NAME	
-}
-
 superiority_trade = {
 	type = superiority
 	
@@ -1070,46 +1034,6 @@ superiority_primitives = {
 		po_gold
 		#po_become_vassal
 		#po_change_religion
-	}
-	
-	country_desc = ALL_PRIMITIVES
-	prov_desc = ALL_PRIMITIVES
-	war_name = PRIMITIVE_WAR_NAME	
-}
-
-superiority_overseas = {
-	type = superiority
-	
-	badboy_factor = 0.5
-	prestige_factor = 1
-	peace_cost_factor = 0.5	
-	
-	allowed_provinces = {
-		owner = {
-			capital_scope = {
-				OR = {
-					continent = asia
-					continent = africa
-				}
-			}
-			OR = {
-				technology_group = indian
-				technology_group = sub_saharan
-				technology_group = east_african
-				technology_group = central_african
-				technology_group = chinese
-				technology_group = nomad_group
-			}
-		}
-	}
-	
-	peace_options = {
-		po_demand_provinces
-		po_revoke_cores
-		po_release_vassals
-		po_release_annexed
-		po_return_cores
-		po_gold
 	}
 	
 	country_desc = ALL_PRIMITIVES
@@ -1458,84 +1382,6 @@ superiority_religious_league = {
 	}
 	
 	war_name = RELIGIOUS_LEAGUE_WAR_NAME
-}
-
-superiority_chinese_unification = {
-	type = superiority
-	
-	attacker = {
-		badboy_factor = 0.5
-		prestige_factor = 1.5
-		peace_cost_factor = 0.5
-		
-		allowed_provinces = {
-			superregion = china_superregion
-		}
-		
-		peace_options = {
-			po_demand_provinces
-		}
-		
-		country_desc = ALL_CGROUP_COUNTRIES
-		prov_desc = ALL_CHINESE_PROVS
-	}
-	
-	defender = {
-		badboy_factor = 0.5
-		prestige_factor = 1.5
-		peace_cost_factor = 0.5
-		
-		allowed_provinces = {
-			OR = {
-				region = south_china_region
-				region = xinan_region
-				region = north_china_region
-				culture_group = FROM
-			}
-		}
-		
-		peace_options = {
-			po_demand_provinces
-		}
-		
-		country_desc = ALL_CGROUP_COUNTRIES
-		prov_desc = ALL_CHINESE_PROVS
-	}
-	
-	war_name = CHINESE_UNIFICATION_WAR_NAME	
-}
-
-take_capital_take_mandate = {
-	type = take_capital
-	
-	attacker = {
-		badboy_factor = 0.5
-		prestige_factor = 1.0
-		peace_cost_factor = 0.5
-
-		peace_options = {
-			po_demand_provinces
-			po_take_mandate
-		}
-
-		country_desc = CHINESE_EMPIRE_COUNTRY
-		prov_desc = ALL_PROVS
-	}
-	
-	defender = {
-		badboy_factor = 0.5
-		prestige_factor = 1.0
-		peace_cost_factor = 0.5
-
-		peace_options = {
-			po_demand_provinces
-		}
-
-		country_desc = ALL_COUNTRIES
-		prov_desc = ALL_PROVS
-	}
-	
-	war_name = CELESTIAL_EMPIRE_WAR_NAME
 }
 
 force_migration = {

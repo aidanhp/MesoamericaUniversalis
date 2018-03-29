@@ -413,7 +413,7 @@ diverse_integration_ideas = {
 	
 	trigger = {
 		full_idea_group = territorial_ideas
-		NOT = { has_idea_group = total_assimilation }
+		NOT = { has_idea_group = total_assimilation_ideas }
 	}
 	
 	bonus = {
@@ -467,7 +467,7 @@ total_assimilation_ideas = {
 	
 	trigger = {
 		full_idea_group = territorial_ideas
-		NOT = { has_idea_group = diverse_integration }
+		NOT = { has_idea_group = diverse_integration_ideas }
 	}
 	
 	bonus = {
@@ -520,7 +520,7 @@ power_concentration_ideas = {
 	
 	trigger = {
 		full_idea_group = hegemonic_ideas
-		NOT = { has_idea_group = federation }
+		NOT = { has_idea_group = federation_ideas }
 	}
 	
 	bonus = {
@@ -568,7 +568,7 @@ federation_ideas = {
 	
 	trigger = {
 		full_idea_group = hegemonic_ideas
-		NOT = { has_idea_group = power_concentration } 
+		NOT = { has_idea_group = power_concentration_ideas } 
 	}
 	
 	bonus = {

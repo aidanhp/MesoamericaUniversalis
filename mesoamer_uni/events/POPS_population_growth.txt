@@ -1,5 +1,5 @@
 #Population Growth
-namespace = pops_growth.01
+namespace = pops_growth
 
 #Population Growth
 country_event = {
