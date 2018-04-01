@@ -97,7 +97,7 @@ merchant_guild_outpost = {
 		province_trade_power_value = 1
 		province_trade_power_modifier = 0.33
 		trade_goods_size_modifier = 0.33
-		#Other stuff later
+		min_local_autonomy = 75
 	}
 	
 	ai_will_do = {
@@ -242,20 +242,19 @@ farms = {
 	}
 }
 
-manufactory = {
+orchard = {
 	cost = 500
-	time = 60
+	time = 8
+	trigger = { 
+		OR = { 
+			trade_goods = fruits
+			trade_goods = cacao 
+			trade_goods = copal
+			trade_goods = rubber 
+		}
+	}
 	modifier = {
 		trade_goods_size = 1.0
-	}
-}
-
-orchard = {
-	manufactory = {
-		fruits
-		cacao
-		copal
-		rubber
 	}
 	
 	ai_will_do = {
@@ -264,11 +263,18 @@ orchard = {
 }
 
 managed_forests = {
-	manufactory = {
-		wood
-		plumes
-		honey
-		domesticated_animals
+	cost = 500
+	time = 8 
+	trigger = {
+		OR = {
+			trade_goods = wood
+			trade_goods = plumes
+			trade_goods = honey
+			trade_goods = domesticated_animals
+		}
+	}
+	modifier = {
+		trade_goods_size = 1.0
 	}
 	
 	ai_will_do = {
@@ -277,9 +283,16 @@ managed_forests = {
 }
 
 great_plantation = {
-	manufactory = {
-		cotton
-		maguey
+	cost = 500
+	time = 8 
+	trigger = {
+		OR = { 
+			trade_goods = cotton
+			trade_goods = maguey
+		}
+	}
+	modifier = {
+		trade_goods_size = 1.0
 	}
 	
 	ai_will_do = {
@@ -288,10 +301,17 @@ great_plantation = {
 }
 
 quarry = {
-	manufactory = {
-		lime
-		construction_stone
-		obsidian
+	cost = 500
+	time = 8 
+	trigger = {
+		OR = { 
+			trade_goods = lime
+			trade_goods = construction_stone
+			trade_goods = obsidian
+		}
+	}
+	modifier = {
+		trade_goods_size = 1.0
 	}
 	
 	ai_will_do = {
@@ -300,12 +320,19 @@ quarry = {
 }
 
 mining_operation = {
-	manufactory = {
-		copper
-		gold
-		silver
-		precious_stones
-		balsas_metals
+	cost = 500
+	time = 8 
+	trigger = {
+		OR = { 
+			trade_goods = copper
+			trade_goods = gold
+			trade_goods = silver
+			trade_goods = precious_stones
+			trade_goods = balsas_metals
+		}
+	}
+	modifier = {
+		trade_goods_size = 1.0
 	}
 	
 	ai_will_do = {
@@ -314,8 +341,13 @@ mining_operation = {
 }
 
 salt_operation = {
-	manufactory = {
-		salt
+	cost = 500
+	time = 8 
+	trigger = {
+		trade_goods = salt
+	}
+	modifier = { 
+		trade_goods_size = 1.0
 	}
 	
 	ai_will_do = {
@@ -324,9 +356,16 @@ salt_operation = {
 }
 
 house_of_artists = {
-	manufactory = {
-		ceramics
-		tolteca_crafts
+	cost = 600
+	time = 10
+	trigger = {
+		OR = { 
+			trade_goods = ceramics
+			trade_goods = tolteca_crafts
+		}
+	}
+	modifier = { 
+		trade_goods_size = 1.0
 	}
 	
 	ai_will_do = {

@@ -292,3 +292,73 @@ territorial_5 = {
 	global_autonomy = -0.10
 	max_states = 5
 }
+
+#Captive Bonuses
+captives_1 = {
+	potential = {
+		NOT = { religion_group = christian_group } 
+	}
+	
+	trigger = {
+		check_variable = { which = v_captives_percentage value = 0.10 }
+		NOT = { check_variable = { which = v_captives_percentage value = 0.20 } }
+	}
+	
+	army_tradition = 0.10
+	war_exhaustion_cost = -0.10
+}
+
+captives_2 = {
+	potential = {
+		NOT = { religion_group = christian_group } 
+	}
+	
+	trigger = {
+		check_variable = { which = v_captives_percentage value = 0.20 }
+		NOT = { check_variable = { which = v_captives_percentage value = 0.40 } }
+	}
+	
+	army_tradition = 0.20
+	war_exhaustion_cost = -0.20
+}
+
+captives_3 = {
+	potential = {
+		NOT = { religion_group = christian_group } 
+	}
+	
+	trigger = {
+		check_variable = { which = v_captives_percentage value = 0.40 }
+		NOT = { check_variable = { which = v_captives_percentage value = 0.60 } }
+	}
+	
+	army_tradition = 0.30
+	war_exhaustion_cost = -0.30
+}
+
+captives_4 = {
+	potential = {
+		NOT = { religion_group = christian_group } 
+	}
+	
+	trigger = {
+		check_variable = { which = v_captives_percentage value = 0.60 }
+		NOT = { check_variable = { which = v_captives_percentage value = 0.80 } }
+	}
+	
+	army_tradition = 0.40
+	war_exhaustion_cost = -0.40
+}
+
+captives_5 = {
+	potential = {
+		NOT = { religion_group = christian_group } 
+	}
+	
+	trigger = {
+		check_variable = { which = v_captives_percentage value = 0.80 }
+	}
+	
+	army_tradition = 0.50
+	war_exhaustion_cost = -0.50
+}

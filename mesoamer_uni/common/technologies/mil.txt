@@ -117,6 +117,8 @@ technology = { #Horses, Guns, and Steel
 	enable = wm_west_mexican_gunpowder_infantry
 	enable = cav_mesoamerican_lancers 
 	enable = art_rudimentary_artillery
+	
+	sprite_level = 2
 }
 
 technology = { #Adaptive Cavalry Tactics
@@ -216,6 +218,8 @@ technology = { #Flintlock Musket
 	enable = tl_tlaxcallan_flintlock
 	enable = we_spanish_infantry_5
 	enable = wm_west_mexican_flintlock
+	
+	sprite_level = 3
 }
 
 technology = { #Improved Fortifications II 

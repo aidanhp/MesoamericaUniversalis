@@ -98,6 +98,9 @@
  m_succession7.t: "Strength Proven!"
  m_succession7.d: "$MONARCHTITLE$ $MONARCH$ has won a great victory! This proves his tenacity to our subjects." 
  m_succession7.a: "Was there ever any doubt?"
+ m_succession7_a_tt1: "We took captives, but not enough to especially intimidate our tributaries. We gain no extra bonuses." 
+ m_succession7_a_tt2: "We took enough captives to go beyond just intimidating our tributaries. Our prestige and legitimacy has increased!"
+ m_succession7_a_tt3: "We took so many captives in this war that we have deeply intimidated our tributaries and our ruler's real and percieved military skill has increased. Our prestige and legitimacy has increased and our ruler gains 1 point of military skill!"
  
  m_succession8.t: "Signs of Weakness..."
  m_succession8.d: "We have failed to win a war within 2 years of $MONARCH$'s coronation. Our subjects have begun to interpret this as a sign of weakness..."

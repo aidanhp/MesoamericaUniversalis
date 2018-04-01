@@ -47,7 +47,7 @@ technology = { #Mass Agricultural Intensification
 	# Tech 1
 	year = 1441
 	
-	production_efficiency = 0.10
+	production_efficiency = 0.05
 }
 
 technology = { #Mesoamerican Renaissance 
@@ -77,14 +77,15 @@ technology = { #Improved Labor Organization
 	# Tech 5
 	year = 1493
 
-	production_efficiency = 0.10
+	production_efficiency = 0.05
 }
 
-technology = { #No Idea 
+technology = { #Administrative Logistics I 
 	# Tech 6
 	year = 1506
 	
 	may_force_march = yes
+	max_states = 1
 }
 
 technology = { #Improved Administrative Writing
@@ -93,6 +94,100 @@ technology = { #Improved Administrative Writing
 	
 	allowed_idea_groups = 4
 	administrative_efficiency = 0.05
+}
+
+technology = { #Anti-Disease Measures
+	#Tech 8 
+	year = 1532
 	
+	#Unlocks innoculation center 
+}
+
+technology = { #Administrative Logistics II  
+	#Tech 9
+	year = 1545
+	
+	max_states = 1
+	administrative_efficiency = 0.05
+}
+
+technology = { #Synthesized Farming Techniques 
+	#Tech 10
+	year = 1558
+	
+	production_efficiency = 0.05
+}
+
+technology = { #World Philosophy 
+	#Tech 11
+	year = 1571
+	
+	allowed_idea_groups = 5 
+}
+
+technology = { #The Integration of Iron 
+	#Tech 12
+	year = 1584
+	
+	production_efficiency = 0.05
+}
+
+technology = { #Improved Cartography 
+	#Tech 13
+	year = 1597
+	
+	max_states = 1
+	administrative_efficiency = 0.05
+}
+
+technology = { #Pan-Mesoamericanism 
+	#Tech 14
+	year = 1610
+	
+	allowed_idea_groups = 6
+}
+
+technology = { #Administrative Logistics III 
+	#Tech 15
+	year = 1623
+	
+	max_states = 1
+	administrative_efficiency = 0.05
+}
+
+technology = { #Improved Metallurgical Processes 
+	#Tech 16
+	year = 1636
+	
+	production_efficiency = 0.05
 	industrial_workshop = yes
+}
+
+technology = { #Administrative Logistics IV 
+	#Tech 17
+	year = 1649
+	
+	max_states = 1
+	administrative_efficiency = 0.05
+}
+
+technology = { #The Sovereign Water-Mountain
+	#Tech 18
+	year = 1662
+	
+	allowed_idea_groups = 7
+}
+
+technology = { #Mass Agricultural Intensification II 
+	#Tech 19
+	year = 1675
+	
+	production_efficiency = 0.05
+}
+
+technology = { #Constitutionalism 
+	#Tech 20
+	year = 1688
+	
+	allowed_idea_groups = 8
 }

@@ -78,6 +78,9 @@ country_event = {
 				set_variable = { which = v_common_captives_won value = 0 } 
 				set_variable = { which = v_common_percent_decay value = 0 }
 				set_variable = { which = v_common_flat_decay value = 0 } 
+				set_variable = { which = v_captives_percentage value = 0 }
+				set_variable = { which = v_total_captives_d value = 0 }
+				set_variable = { which = v_captives_from_war value = 0 }
 				
 				export_to_variable = { 
 					which = v_captives_limit 

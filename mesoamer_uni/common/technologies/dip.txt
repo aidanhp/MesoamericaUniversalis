@@ -13,8 +13,8 @@ technology = { #Maritime Trade
 	naval_morale = 2.0
 	enable = trade_canoe
 	enable = war_canoe
-	range =	60
-	trade_range	= 100
+	range =	100
+	trade_range	= 200
 	global_colonial_growth = 10
 	may_fabricate_claims = yes
 	merchants = yes
@@ -60,7 +60,7 @@ technology = { #Exchange Commodities
 	# Tech 5
 	year = 1493
 	
-	trade_efficiency = 0.10
+	trade_efficiency = 0.05
 	may_sabotage_recruitment = yes
 	may_sabotage_reputation = yes
 	may_corrupt_officials = yes
@@ -71,6 +71,7 @@ technology = { #Great Markets
 	year = 1506
 	
 	market_4 = yes
+	num_accepted_cultures = 1
 }
 
 technology = { #More Colonization Efforts 
@@ -80,4 +81,111 @@ technology = { #More Colonization Efforts
 	range = 100
 	global_colonial_growth = 20	
 	may_steal_maps = yes
+}
+
+technology = { #Animal Integration 
+	#Tech 8
+	year = 1532
+	
+	trade_efficiency = 0.05
+	trade_range = 100
+	range = 200
+}
+
+technology = { #Standardized Exchange Commodities 
+	#Tech 9
+	year = 1545 
+	
+	trade_efficiency = 0.05
+	#Unlocks Mint building
+}
+
+technology = { #Transoceanic Trade 
+	#Tech 10
+	year = 1558 
+	
+	trade_efficiency = 0.10
+	trade_range = 500
+	num_accepted_cultures = 1
+	#Unlocks Second Tier of Trade Ships/Transports and First Galleys 
+}
+
+technology = { #Naval Infrastructure
+	#Tech 11
+	year = 1571
+	
+	naval_maintenance = 0.15
+	#Unlocks docks and shipyards
+}
+
+technology = { #Gunboats
+	#Tech 12
+	year = 1584
+	
+	naval_maintenance = 0.15
+	#Unlocks Second Galleys and First Heavies 
+}
+
+technology = { #World Trade 
+	#Tech 13 
+	year = 1597
+	
+	trade_efficiency = 0.10
+	num_accepted_cultures = 1
+}
+
+technology = { #Colonial Projects
+	#Tech 14
+	year = 1610
+	
+	range = 500
+	global_colonial_growth = 40
+	#Unlocks Sunset Invasion Decision 
+}
+
+technology = { #Better Naval Rations 
+	#Tech 15
+	year = 1623 
+	
+	reduced_naval_attrition = yes
+	naval_maintenance = 0.15
+	#Unlocks Third Tier of Trade Ships/Transports
+}
+
+technology = { #Maritime Law 
+	#Tech 16
+	year = 1636
+	
+	trade_efficiency = 0.05
+}
+
+technology = { #Improved Ship Designs I 
+	#Tech 17
+	year = 1649
+	
+	naval_maintenance = 0.15
+	#Unlocks Third Galley and Second Heavy 
+}
+
+technology = { #Naval Professionalization
+	#Tech 18
+	year = 1662
+
+	naval_maintenance = 0.15
+	trade_efficiency = 0.05
+}
+
+technology = { #Improved Ship Designs II
+	#Tech 19
+	year = 1675
+	
+	naval_maintenance = 0.25
+	#Unlocks Fourth Galley and Third Heavy
+}
+
+technology = { #Colonial Propaganda
+	#Tech 20
+	year = 1688
+	
+	global_colonial_growth = 40
 }

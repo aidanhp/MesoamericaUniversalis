@@ -88,6 +88,12 @@
  legitimacy_hreq_9: "High Tribute Requirements, 20-30 Legitimacy"
  legitimacy_hreq_10: "High Tribute Requirements, 0-20 Legitimacy"
  
+ captives_1: "Captives, 10-20%"
+ captives_2: "Captives, 20-40%"
+ captives_3: "Captives, 40-60%"
+ captives_4: "Captives, 60-80%"
+ captives_5: "Captives, 80-100%" 
+ 
  #Decisions
  set_tribute_requirements_title: "Set Tribute Requirements"
  set_tribute_requirements_desc: "Declare a change in tribute requirements for your tributary (non-state) provinces. To learn more about the tribute system, see the encyclopedia entry."

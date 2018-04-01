@@ -913,7 +913,34 @@ country_event = {
 	option = {
 		name = "m_succession7.a"
 		
-		#ADD CAPTIVES STUFF HERE ONCE RELIGION IS IMPLEMENTED!
+		hidden_effect = { 
+			divide_variable = { which = v_captives_from_war which = v_captives_limit }
+		}
+		if = { 
+			limit = {
+				NOT = { check_variable = { which = v_captives_from_war value = 0.25 } }
+			}
+			custom_tooltip = m_succession7_a_tt1
+		}
+		if = { 
+			limit = {
+				check_variable = { which = v_captives_from_war value = 0.25 }
+				NOT = { check_variable = { which = v_captives_from_war value = 0.75 } }
+			}
+			custom_tooltip = m_succession7_a_tt2
+			add_prestige = 10
+			add_legitimacy = 20
+		}
+		if = { 
+			limit = {
+				check_variable = { which = v_captives_from_war value = 0.75 }
+			}
+			custom_tooltip = m_succession7_a_tt3
+			add_prestige = 10
+			add_legitimacy = 20
+			change_mil = 1
+		}
+		
 		remove_country_modifier = prove_your_mettle
 		remove_country_modifier = signs_of_weakness
 		clr_country_flag = prove_mettle

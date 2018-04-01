@@ -32,26 +32,27 @@ pulse_system = {
 	on_monthly = {
 		# always
 		#Common Captive Decay
-		if = {
-			limit = { 
-				check_variable = { which = v_common_captives value = 1 } 
-			}
-			set_variable = { which = v_common_percent_decay which = v_common_captives } 
-			set_variable = { which = v_common_flat_decay which = v_total_captives } 
-			multiply_variable = { which = v_common_percent_decay value = 0.0125 } 
-			multiply_variable = { which = v_common_flat_decay value = 0.0075 } 
-			
-			subtract_variable = { which = v_common_captives which = v_common_percent_decay }
-			subtract_variable = { which = v_common_captives which = v_common_flat_decay }
-				
-			if = { 
-				limit = {
-					NOT = { check_variable = { which = v_common_captives value = 0 } }
+		every_country = {
+			if = {
+				limit = { 
+					check_variable = { which = v_common_captives value = 1 } 
 				}
-				set_variable = { which = v_common_captives value = 0 } 
+				set_variable = { which = v_common_percent_decay which = v_common_captives } 
+				set_variable = { which = v_common_flat_decay which = v_total_captives } 
+				multiply_variable = { which = v_common_percent_decay value = 0.0125 } 
+				multiply_variable = { which = v_common_flat_decay value = 0.0075 } 
+			
+				subtract_variable = { which = v_common_captives which = v_common_percent_decay }
+				subtract_variable = { which = v_common_captives which = v_common_flat_decay }
+				
+				if = { 
+					limit = {
+						NOT = { check_variable = { which = v_common_captives value = 0 } }
+					}
+					set_variable = { which = v_common_captives value = 0 } 
+				}
 			}
 		}
-
 		# is_january = yes
 		country_event = { id = stats_calc.01 } #Note - this also updates captive limit and elite captive decay 
 		country_event = { id = pops_potential.01 }
@@ -72,6 +73,18 @@ pulse_system = {
 				is_capital = yes
 			}
 			province_event = { id = communication_efficiency.01 }
+		}
+		
+		#always but must come after previous 
+		#Calculate Percentage of Captives Limit for Captive Bonus		
+		if = {
+			limit = {
+				check_variable = { which = v_total_captives value = 1 } 
+			}	
+			set_variable = { which = v_captives_percentage which = v_captives_limit }
+			set_variable = { which = v_total_captives_d which = v_total_captives } 
+			divide_variable = { which = v_total_captives_d which = v_captives_percentage } 
+			set_variable = { which = v_captives_percentage which = v_total_captives_d } 
 		}
 
 		# is_february = yes

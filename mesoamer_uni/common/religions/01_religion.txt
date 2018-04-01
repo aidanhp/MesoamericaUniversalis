@@ -4,7 +4,7 @@
 
 nahuatl_group = {
 	defender_of_faith = no
-	can_form_personal_unions = yes
+	can_form_personal_unions = no
 	flags_with_emblem_percentage = 33
 	flag_emblem_index_range = { 1 57 }
 	
@@ -299,7 +299,7 @@ nahuatl_group = {
 
 huaxyacac_group = {
 	defender_of_faith = no
-	can_form_personal_unions = yes
+	can_form_personal_unions = no
 	#center_of_religion = 1 
 	flags_with_emblem_percentage = 33 # default == 0
 	flag_emblem_index_range = { 1 57 }
@@ -343,7 +343,7 @@ huaxyacac_group = {
 
 purepecha_group = {
 	defender_of_faith = no
-	can_form_personal_unions = yes
+	can_form_personal_unions = no
 	#center_of_religion = 1 
 	flags_with_emblem_percentage = 33 # default == 0
 	flag_emblem_index_range = { 1 57 }
@@ -371,7 +371,7 @@ purepecha_group = {
 
 maya_group = {
 	defender_of_faith = no
-	can_form_personal_unions = yes
+	can_form_personal_unions = no
 	#center_of_religion = 1 
 	flags_with_emblem_percentage = 33 # default == 0
 	flag_emblem_index_range = { 1 57 }
