@@ -96,7 +96,36 @@
  art_mobile_cannonsDESCR: ""
  
  #Naval#
+ #Pre-Contact
  war_canoe: "War Canoe"
  war_canoeDESCR: ""
  trade_canoe: "Trade Canoe"
  trade_canoeDESCR: ""
+ 
+ #Post-Contact
+ caravel: "Caravel"
+ caravelDESCR: ""
+ longship: "Longship" 
+ longshipDESCR: ""
+ galley: "Galley"
+ galleyDESCR: ""
+ 
+ galleass: "Galleass"
+ galleassDESCR: ""
+ ahuitzotl: "Ahuitzotl"
+ ahuitzotlDESCR: ""
+ 
+ greater_longship: "Greater Longship"
+ greater_longshipDESCR: ""
+ frigate: "Frigate"
+ frigateDESCR: ""
+ 
+ galiot: "Galiot"
+ galiotDESCR: ""
+ huey_ahuitzotl: "Huey-Ahuitzotl"
+ huey_ahuitzotlDESCR: ""
+ 
+ great_galley: "Great Galley" 
+ great_galleyDESCR: ""
+ twodecker_ahuitzotl: "Twodecker Ahuitzotl"
+ twodecker_ahuitzotlDESCR: ""

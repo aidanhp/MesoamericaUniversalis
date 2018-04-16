@@ -912,10 +912,7 @@ country_event = {
 	
 	option = {
 		name = "m_succession7.a"
-		
-		hidden_effect = { 
-			divide_variable = { which = v_captives_from_war which = v_captives_limit }
-		}
+			
 		if = { 
 			limit = {
 				NOT = { check_variable = { which = v_captives_from_war value = 0.25 } }

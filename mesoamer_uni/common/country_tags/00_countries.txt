@@ -1681,3 +1681,10 @@ P07 = "countries/Nopala.txt"
 
 #Special Countries - Formables/Invaders/Crazy Mechanics
 Z01 = "countries/Tlaxcallan.txt"
+Z02 = "countries/MexicaHueyiTlahtohcayotl.txt"
+Z03 = "countries/TexcocahHueyiTlahtohcayotl.txt"
+Z04 = "countries/TlacopanecaHueyiTlahtohcayotl.txt"
+Z05 = "countries/TepanecHueyiTlahtohcayotl.txt"
+Z06 = "countries/ToltecHueyiTlahtohcayotl.txt"
+Z07 = "countries/LeagueOfMayapan.txt"
+Z08 = "countries/IrechecuaTzintzuntzani.txt"

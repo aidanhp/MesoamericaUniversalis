@@ -1,0 +1,8 @@
+government = absolute_hereditary_monarchy 
+government_rank = 1
+mercantilism = 0.25
+technology_group = maya_tg
+religion = religion_maya
+primary_culture = yucatec
+capital = 1644
+fixed_capital = 1644

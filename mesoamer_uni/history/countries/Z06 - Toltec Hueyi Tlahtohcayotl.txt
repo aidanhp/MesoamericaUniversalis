@@ -1,0 +1,8 @@
+government = absolute_hereditary_monarchy 
+government_rank = 1
+mercantilism = 0.25
+technology_group = triple_alliance_tg
+religion = religion_quetzalcoatl
+primary_culture = archaic_toltec
+capital = 204
+fixed_capital = 204

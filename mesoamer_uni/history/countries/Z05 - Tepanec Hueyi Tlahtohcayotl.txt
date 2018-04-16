@@ -1,0 +1,8 @@
+government = absolute_hereditary_monarchy 
+government_rank = 1
+mercantilism = 0.25
+technology_group = triple_alliance_tg
+religion = religion_otontecuhtli
+primary_culture = tepanec
+capital = 4
+fixed_capital = 4

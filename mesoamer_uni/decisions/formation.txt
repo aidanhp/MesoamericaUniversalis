@@ -1,0 +1,267 @@
+#Handles all nation forming
+country_decisions = { 
+	#Unite Triple Alliance as Tenochtitlan
+	form_triple_alliance_tenochtitlan = { 
+		major = yes
+		potential = { 
+			NOT = { exists = Z02 }
+			NOT = { exists = Z03 } 
+			NOT = { exists = Z04 } 
+			tag = AAA 
+		}
+		
+		allow = {
+			OR = { 
+				check_variable = { which = v_triple_alliance_influence value = 100 } 
+				AND = { 
+					3 = { 
+						owned_by = AAA
+					} 
+					4 = { 
+						owned_by = AAA
+					}
+				}
+			}
+			num_of_cities = 100
+		}
+		
+		effect = { 
+			change_tag = Z02 
+			if = {
+				limit = {
+					alliance_with = ACC
+				}
+				vassalize = ACC
+			}
+			if = {
+				limit = {
+					alliance_with = AAD
+				}
+				vassalize = AAD
+			}
+			set_government_rank = 3
+		}
+	}
+	
+	#Unite Triple Alliance as Texcoco
+	form_triple_alliance_texcoco = { 
+		major = yes
+		potential = { 
+			NOT = { exists = Z02 }
+			NOT = { exists = Z03 } 
+			NOT = { exists = Z04 } 
+			tag = ACC 
+		}
+		
+		allow = {
+			OR = { 
+				check_variable = { which = v_triple_alliance_influence value = 100 } 
+				AND = { 
+					1 = { 
+						owned_by = ACC
+					} 
+					4 = { 
+						owned_by = ACC
+					}
+				}
+			}
+			num_of_cities = 100
+		}
+		
+		effect = { 
+			change_tag = Z03
+			if = {
+				limit = {
+					alliance_with = AAA
+				}
+				vassalize = AAA
+			}
+			if = {
+				limit = {
+					alliance_with = AAD
+				}
+				vassalize = AAD
+			}
+			set_government_rank = 3
+		}
+	}
+	
+	#Unite Triple Alliance as Tlacopan 
+	form_triple_alliance_tlacopan = { 
+		major = yes
+		potential = { 
+			NOT = { exists = Z02 }
+			NOT = { exists = Z03 } 
+			NOT = { exists = Z04 } 
+			tag = AAD 
+		}
+		
+		allow = {
+			OR = { 
+				check_variable = { which = v_triple_alliance_influence value = 100 } 
+				AND = { 
+					1 = { 
+						owned_by = AAD
+					} 
+					3 = { 
+						owned_by = AAD
+					}
+				}
+			}
+			num_of_cities = 100
+			4 = { 
+				development = 75
+			}
+		}
+		
+		effect = { 
+			change_tag = Z04
+			if = {
+				limit = {
+					alliance_with = AAA
+				}
+				vassalize = AAA
+			}
+			if = {
+				limit = {
+					alliance_with = ACC
+				}
+				vassalize = ACC
+			}
+			set_government_rank = 3
+		}
+	}
+	
+	#Restore the Tepanec Empire as Azcapotzalco
+	restore_tepanec_empire_azcapotzalco = {
+		major = yes
+		potential = { 
+			NOT = { exists = Z05 } 
+			NOT = { tag = Z04 } 
+			primary_culture = tepanec
+			tag = AAE
+		}
+		
+		allow = { 
+			owns_or_subject_of = 1 
+			owns_or_subject_of = 3
+			owns_or_subject_of = 4
+			
+			num_of_cities = 75
+		}
+		
+		effect = { 
+			change_tag = Z05 
+			set_government_rank = 3
+		}
+	}	
+	
+	#Restore the Tepanec Empire as Other Tepanecs
+	restore_tepanec_empire_others = {
+		major = yes
+		potential = { 
+			NOT = { exists = Z05 } 
+			NOT = { tag = Z04 } 
+			primary_culture = tepanec
+			NOT = { tag = AAE }
+		}
+		
+		allow = { 
+			owns_or_subject_of = 1 
+			owns_or_subject_of = 3
+			owns_or_subject_of = 4
+			
+			num_of_cities = 75
+		}
+		
+		effect = { 
+			change_tag = Z05 
+			set_government_rank = 3
+		}
+	}	
+	
+	#Restore the Toltec Empire
+	restore_toltec_empire = {
+		major = yes
+		potential = {
+			NOT = { exists = Z06 } 
+			culture_group = nahua
+			NOT = { 
+				OR = { 
+					tag = AAA
+					tag = ACC
+					tag = AAD
+					tag = Z02
+					tag = Z03
+					tag = Z04 
+					tag = Z05
+					tag = Z07
+					tag = Z08 
+				}
+			}
+		}
+		
+		allow = {
+			mexico_colhuacan_area = { type = all owned_by = ROOT } 
+			acolhuacan_area = { type = all owned_by = ROOT } 
+			tepaneca_area = { type = all owned_by = ROOT } 
+			chalco_xochimilco_area = { type = all owned_by = ROOT } 
+			chiapan_atotonilco_apaxco_area = { type = all owned_by = ROOT } 
+			axocopan_tezontepec_area = { type = all owned_by = ROOT } 
+			
+			owns_core_province = 222
+			owns_core_province = 2166
+			owns_core_province = 224
+			owns_core_province = 714
+			owns_core_province = 716 
+			owns_core_province = 721 
+			owns_core_province = 268 
+			owns_core_province = 266
+			owns_core_province = 293
+			owns_core_province = 300
+			owns_core_province = 306 
+		
+			prestige = 100
+			legitimacy = 100
+		}
+		
+		effect =  {
+			change_tag = Z06
+			set_government_rank = 3
+		}
+	}
+	
+	#League of Mayapan 
+	restore_league_of_mayapan = {
+		major = yes
+		potential = { 
+			NOT = { exists = Z07 } 
+			primary_culture = yucatec
+			has_global_flag = may_restore_LOM
+		}
+		
+		allow = { 
+			owns_or_subject_of = 1644
+			owns_or_subject_of = 1658
+			owns_or_subject_of = 1129
+			owns_or_subject_of = 1109
+			owns_or_subject_of = 1137
+			owns_or_subject_of = 1162
+			owns_or_subject_of = 1183
+			owns_or_subject_of = 1189
+			owns_or_subject_of = 1235
+			owns_or_subject_of = 1249
+			owns_or_subject_of = 1239 
+			owns_or_subject_of = 1698
+			owns_or_subject_of = 1715
+			owns_or_subject_of = 1723
+		}
+		
+		effect = {
+			change_tag = Z07
+			set_government_rank = 3
+		}
+	}
+	
+	#Declare the Empire of Tzintzuntzan
+}	

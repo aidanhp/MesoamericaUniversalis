@@ -219,7 +219,7 @@ country_event = {
 				limit = { 
 					check_variable = { which = v_prov_pop which = v_pop_potential }
 				}
-				change_variable = { which = v_prov_growth_rate value = -0.03 }
+				change_variable = { which = v_prov_growth_rate value = -0.04 }
 			}
 			#Manpower level, max of -0.005% at under 10% mp
 			if = {
@@ -572,7 +572,7 @@ country_event = {
 				limit = { 
 					development = 10
 					NOT = { development = 11 } 
-					has_province_flag = pop_reorganized
+					NOT = { has_province_flag = pop_reorganized }
 				}
 				add_base_manpower = -10
 				add_base_production = -10

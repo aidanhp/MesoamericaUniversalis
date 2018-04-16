@@ -27,8 +27,9 @@
  
  building_local_administrative_complex: "Local Administrative Complex \n§WMovement Towards Territorial on Completion:§! §G+0.5§!"
  building_resettled_villages: "Resettled Villages \n§Y--Requires Idea 'Ethnic Resettlement' (Total Assimilation)§!"
- building_construction_center: "Construction Center \n§Y--Requires Idea 'Spectacular Constructions' (Hegemonic)§!"
- building_administrative_center: "Administrative Center \n§Y--Requires Idea 'Administrative Centers' (Territorial)§! §GIncreases Communication Efficiency of Surrounding Provinces§!"
+ building_construction_center: "Construction Center \n§Y--Requires Idea 'Spectacular Constructions' (Hegemonic)§! \n§Y--Requires Capital Province§!"
+ building_administrative_center: "Administrative Center \n§Y--Requires Idea 'Administrative Centers' (Territorial) \n--Requires no Federal Capital §! \n§GIncreases Communication Efficiency of Surrounding Provinces§!"
+ building_federal_capital: "Federal Capital \n§Y--Requires Idea 'Federal Capitals' (Federation) \n--Requires Non-Capital Province \n--Requires 30 Population \n--Requires no Administrative Center \n--Maximum of 3§! \n§GIncreases Communication Efficiency of Surrounding Provinces§!"
  
  building_hill_fort: "Hill Fort \n§Y--Requires Hills or Mountain Terrain§!"
  
@@ -41,4 +42,9 @@
  building_great_calmecac: "Great Calmecac \n§Y--Requires Ceremonial Precinct§!"
  building_great_ballcourt: "Great Ballcourt \n§Y--Requires Ceremonial Precinct§!"
  building_great_pyramid_temple: "Great Pyramid Temple (Level I) \n§Y--Requires Ceremonial Precinct§!"
+ 
+ building_inoculation_center: "Inoculation Center \n§WLocal Disease Impact:§! §G-50.0%§!"
+ building_state_currency_mint: "State Currency Mint"
+ building_docks: "Docks"
+ building_shipyards: "Shipyards"
  

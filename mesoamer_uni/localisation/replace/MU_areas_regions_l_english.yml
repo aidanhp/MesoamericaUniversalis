@@ -1,6 +1,7 @@
 ﻿l_english:
  continent_1:0 "North America"
-
+ mesoamerica_superregion:0 "Mesoamerica"
+ ocean_superregion: "Ocean"
  #Central Mexico
  central_mexico_region:0 "Central Mexico"
  mexico_colhuacan_area:0 "Mexico-Colhuacan"

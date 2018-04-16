@@ -100,7 +100,7 @@ technology = { #Anti-Disease Measures
 	#Tech 8 
 	year = 1532
 	
-	#Unlocks innoculation center 
+	inoculation_center = yes
 }
 
 technology = { #Administrative Logistics II  

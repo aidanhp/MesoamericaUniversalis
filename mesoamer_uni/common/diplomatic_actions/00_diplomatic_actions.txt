@@ -74,7 +74,7 @@
 
 declarewar = {
 	hidden_effect = {
-		FROM = {
+		ROOT = {
 			set_variable = { which = v_captives_from_war value = 0 }
 		}
 	}

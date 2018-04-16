@@ -69,6 +69,7 @@ on_war_won = {
 				has_country_flag = prove_mettle
 			}
 		}
+		divide_variable = { which = v_captives_from_war which = v_captives_limit }
 		country_event = { id = m_succession.07 }
 	}
 }
@@ -111,7 +112,6 @@ on_battle_won_country = {
 				
 				change_variable = { which = v_captives_from_war which = v_captives_won } 
 				
-				#This code is the problem 
 				if = { #Ensures captives do not go over limit 
 					limit = { 
 						check_variable = { which = v_total_captives which = v_captives_limit } 
@@ -120,11 +120,10 @@ on_battle_won_country = {
 						limit = { 
 							check_variable = { which = v_total_captives which = v_captives_limit } 
 						}
-						subtract_variable = { which = v_common_captives value = 1 } #Maybe changing this to subtract will fix it?
+						subtract_variable = { which = v_common_captives value = 1 } 
 						subtract_variable = { which = v_total_captives value = 1 }
 					} 
 				}
-				#
 			}
 			else_if = { #For Maya Religion Group 
 				limit = {
@@ -184,8 +183,8 @@ on_battle_won_country = {
 						limit = { 
 							check_variable = { which = v_total_captives which = v_captives_limit } 
 						}
-						change_variable = { which = v_common_captives value = -1 }
-						change_variable = { which = v_total_captives value = -1 }
+						subtract_variable = { which = v_common_captives value = 1 }
+						subtract_variable = { which = v_total_captives value = 1 }
 					} 
 				}
 			}
@@ -328,7 +327,6 @@ on_siege_lost_province =  {
 				limit = { 
 					NOT = { religion_group = maya_group } 
 				}
-				change_variable = { which = v_captives_from_war which = v_captives_won } 
 				while = { 
 					limit = { 
 						check_variable = { which = v_captives_won value = 0 } 
@@ -338,10 +336,12 @@ on_siege_lost_province =  {
 						90 = {
 							change_variable = { which = v_common_captives value = 4 }
 							change_variable = { which = v_total_captives value = 4 } 
+							change_variable = { which = v_captives_from_war value = 4 } 
 						}
 						10 = {
 							change_variable = { which = v_elite_captives value = 1 }
 							change_variable = { which = v_total_captives value = 1 } 
+							change_variable = { which = v_captives_from_war value = 1 } 
 						}
 					}
 				}
@@ -353,8 +353,8 @@ on_siege_lost_province =  {
 						limit = { 
 							check_variable = { which = v_total_captives which = v_captives_limit } 
 						}
-						change_variable = { which = v_common_captives value = -1 }
-						change_variable = { which = v_total_captives value = -1 }
+						subtract_variable = { which = v_common_captives value = 1 }
+						subtract_variable = { which = v_total_captives value = 1 }
 					} 
 				}
 			}
@@ -384,8 +384,8 @@ on_siege_lost_province =  {
 						limit = { 
 							check_variable = { which = v_total_captives which = v_captives_limit } 
 						}
-						change_variable = { which = v_elite_captives value = -1 }
-						change_variable = { which = v_total_captives value = -1 }
+						subtract_variable = { which = v_elite_captives value = 1 }
+						subtract_variable = { which = v_total_captives value = 1 }
 					} 
 				}
 			}

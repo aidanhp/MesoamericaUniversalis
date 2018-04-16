@@ -97,7 +97,7 @@ technology = { #Standardized Exchange Commodities
 	year = 1545 
 	
 	trade_efficiency = 0.05
-	#Unlocks Mint building
+	state_currency_mint = yes
 }
 
 technology = { #Transoceanic Trade 
@@ -107,7 +107,9 @@ technology = { #Transoceanic Trade
 	trade_efficiency = 0.10
 	trade_range = 500
 	num_accepted_cultures = 1
-	#Unlocks Second Tier of Trade Ships/Transports and First Galleys 
+	enable = caravel
+	enable = longship
+	enable = galley
 }
 
 technology = { #Naval Infrastructure
@@ -115,7 +117,8 @@ technology = { #Naval Infrastructure
 	year = 1571
 	
 	naval_maintenance = 0.15
-	#Unlocks docks and shipyards
+	docks = yes
+	shipyards = yes
 }
 
 technology = { #Gunboats
@@ -123,7 +126,8 @@ technology = { #Gunboats
 	year = 1584
 	
 	naval_maintenance = 0.15
-	#Unlocks Second Galleys and First Heavies 
+	enable = galleass
+	enable = ahuitzotl 
 }
 
 technology = { #World Trade 
@@ -149,7 +153,8 @@ technology = { #Better Naval Rations
 	
 	reduced_naval_attrition = yes
 	naval_maintenance = 0.15
-	#Unlocks Third Tier of Trade Ships/Transports
+	enable = greater_longship
+	enable = frigate
 }
 
 technology = { #Maritime Law 
@@ -164,7 +169,8 @@ technology = { #Improved Ship Designs I
 	year = 1649
 	
 	naval_maintenance = 0.15
-	#Unlocks Third Galley and Second Heavy 
+	enable = galiot
+	enable = huey_ahuitzotl
 }
 
 technology = { #Naval Professionalization
@@ -180,7 +186,8 @@ technology = { #Improved Ship Designs II
 	year = 1675
 	
 	naval_maintenance = 0.25
-	#Unlocks Fourth Galley and Third Heavy
+	enable = great_galley
+	enable = twodecker_ahuitzotl
 }
 
 technology = { #Colonial Propaganda

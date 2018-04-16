@@ -448,13 +448,50 @@ administrative_center = {
 		FROM = {
 			has_idea = administrative_centers   
 		}
+		NOT = { has_building = federal_capital } 
 	}
 	modifier = {
 		local_autonomy = -0.05
 		local_unrest = -2
-		local_manpower_modifier = 0.05
+		local_manpower_modifier = 0.03
+		local_tax_modifier = 0.10
 		allowed_num_of_buildings = 1
 		#Increases CE of surrounding provinces
+	}
+	
+	ai_will_do = {
+		factor = 2
+	}
+}
+
+federal_capital = {
+	cost = 500
+	time = 24
+	trigger = {
+		FROM = { 
+			has_idea = federation
+		}
+		is_capital = no
+		NOT = { has_building = administrative_center } 
+		development = 30
+		NOT = { 
+			FROM = { 
+				calc_true_if = { 
+					every_owned_province = {
+						has_building = federal_capital 
+					}
+					amount = 3
+				}
+			}
+		}
+	}
+	modifier = { 
+		local_autonomy = -0.20
+		local_unrest = -5
+		local_manpower_modifier = 0.05
+		local_tax_modifier = 0.10
+		allowed_num_of_buildings = 1
+		#Increases CE of surrounding provinces 
 	}
 	
 	ai_will_do = {
@@ -807,6 +844,66 @@ great_pyramid_temple = {
 	} 
 }
 
+##############
+#POST-CONTACT#
+##############
+inoculation_center = { 
+	cost = 500
+	time = 6
+	modifier = {
+		#Increased resistance against disease outbreaks
+	}
+	
+	ai_will_do = {
+		factor = 1.5
+	} 
+}
+
+state_currency_mint = {
+	cost = 2000
+	time = 24
+	modifier = { 
+		global_trade_power = 0.2
+		trade_steering = 0.2
+	}
+	
+	ai_will_do = {
+		factor = 1.5
+	} 
+}
+
+docks = {
+	cost = 150
+	time = 8
+	trigger = {
+		has_port = yes
+	}
+	modifier = {
+		local_sailors_modifier = 0.5
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shipyards = {
+	cost = 250
+	time = 12
+	trigger = {
+		has_port = yes
+	}
+	modifier = {
+		naval_forcelimit = 2
+		ship_recruit_speed = -0.25
+		local_ship_repair = 0.25
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
 ########
 #UNIQUE#
 ########
@@ -814,6 +911,9 @@ great_pyramid_temple = {
 huey_teocalli_2 = {
 	cost = 1000
 	time = 9999
+	trigger = {
+		always = no
+	}
 	modifier = {
 		war_exhaustion = -0.025
 		tolerance_own = 1
@@ -827,6 +927,9 @@ huey_teocalli_2 = {
 huey_teocalli_3 = {
 	cost = 1000
 	time = 9999
+	trigger = {
+		always = no
+	}
 	modifier = {
 		war_exhaustion = -0.03
 		tolerance_own = 1.5
@@ -840,6 +943,9 @@ huey_teocalli_3 = {
 huey_teocalli_4 = {
 	cost = 1000
 	time = 9999
+	trigger = {
+		always = no
+	}
 	modifier = {
 		war_exhaustion = -0.035
 		tolerance_own = 2
@@ -853,6 +959,9 @@ huey_teocalli_4 = {
 huey_teocalli_5 = {
 	cost = 1000
 	time = 9999
+	trigger = {
+		always = no
+	}
 	modifier = {
 		war_exhaustion = -0.04
 		tolerance_own = 2.5
@@ -866,6 +975,9 @@ huey_teocalli_5 = {
 huey_teocalli_6 = {
 	cost = 1000
 	time = 9999
+	trigger = {
+		always = no
+	}
 	modifier = {
 		war_exhaustion = -0.045
 		tolerance_own = 3
@@ -879,6 +991,9 @@ huey_teocalli_6 = {
 huey_teocalli_7 = {
 	cost = 1000
 	time = 9999
+	trigger = {
+		always = no
+	}
 	modifier = {
 		war_exhaustion = -0.05
 		tolerance_own = 3
@@ -893,6 +1008,9 @@ huey_teocalli_7 = {
 huey_teocalli_8 = {
 	cost = 1000
 	time = 9999
+	trigger = {
+		always = no
+	}
 	modifier = {
 		war_exhaustion = -0.05
 		tolerance_own = 3
@@ -908,6 +1026,9 @@ huey_teocalli_8 = {
 great_pyramid_of_cholula = {
 	cost = 1000
 	time = 9999
+	trigger = {
+		always = no
+	}
 	modifier = {
 		diplomatic_reputation = 1
 		tolerance_own = 2

@@ -575,7 +575,7 @@ federation_ideas = {
 		stability_cost_modifier = -0.25
 	}
 	
-	federation = {
+	federal_capitals = {
 		global_unrest = -1
 		#Unlocks federal capital 
 	}
