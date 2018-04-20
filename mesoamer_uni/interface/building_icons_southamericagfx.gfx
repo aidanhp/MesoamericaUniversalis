@@ -1,0 +1,315 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_market_1_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_market_1.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_market_2_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_market_2.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_market_3_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_market_3.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_market_4_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_market_4.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_merchant_guild_outpost_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_merchant_guild_outpost.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_workshop_1_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_workshop_1.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_great_workshop_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_great_workshop.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_industrial_workshop_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_industrial_workshop.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_military_workshop_1_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_military_workshop_1.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_military_workshop_2_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_military_workshop_2.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_chinampas_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_chinampas.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_terrace_farms_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_terrace_farms.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_farms_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_farms.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_orchard_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_orchard.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_managed_forests_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_managed_forests.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_great_plantation_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_great_plantation.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_quarry_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_quarry.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_mining_operation_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_mining_operation.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_salt_operation_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_salt_operation.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_house_of_artists_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_house_of_artists.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_local_administrative_complex_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_local_administrative_complex.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_resettled_villages_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_resettled_villages.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_construction_center_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_construction_center.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_administrative_center_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_administrative_center.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_federal_capital_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_federal_capital.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_hill_fort_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_hill_fort.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_ceremonial_precinct_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_ceremonial_precinct.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_ceremonial_precinct_walls_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_ceremonial_precinct_walls.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_grand_arsenal_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_grand_arsenal.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_military_order_houses_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_military_order_houses.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_water_garden_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_water_garden.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_great_palace_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_great_palace.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_great_calmecac_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_great_calmecac.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_great_ballcourt_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_great_ballcourt.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_great_pyramid_temple_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_great_pyramid_temple.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_inoculation_center_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_inoculation_center.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_state_currency_mint_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_state_currency_mint.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_docks_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_docks.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_shipyards_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_shipyards.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_huey_teocalli_2_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_huey_teocalli_2.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_huey_teocalli_3_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_huey_teocalli_3.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_huey_teocalli_4_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_huey_teocalli_4.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_huey_teocalli_5_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_huey_teocalli_5.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_huey_teocalli_6_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_huey_teocalli_6.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_huey_teocalli_7_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_huey_teocalli_7.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_huey_teocalli_8_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_huey_teocalli_8.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_tenoch_gp4_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_tenoch_gp4.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_great_pyramid_of_cholula_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_great_pyramid_of_cholula.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_tenoch_great_pyramid_temple_2_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_tenoch_great_pyramid_temple_2.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_tenoch_great_pyramid_temple_3_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_tenoch_great_pyramid_temple_3.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_tenoch_great_pyramid_temple_4_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_tenoch_great_pyramid_temple_4.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_tenoch_great_pyramid_temple_5_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_tenoch_great_pyramid_temple_5.tga"
+		loadType = "INGAME"
+	}
+	
+}

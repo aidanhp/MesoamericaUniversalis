@@ -844,6 +844,78 @@ great_pyramid_temple = {
 	} 
 }
 
+great_pyramid_temple_2 = {
+	cost = 1000
+	time = 24
+	trigger = {
+		always = no
+	}
+	modifier = {
+		prestige = 0.4
+		legitimacy = 0.4
+		tolerance_own = 0.8 
+		#Can be upgraded for more powerful bonuses
+	}
+	
+	ai_will_do = {
+		factor = 2.5
+	} 
+}
+
+great_pyramid_temple_3 = {
+	cost = 1000
+	time = 24
+	trigger = {
+		always = no
+	}
+	modifier = {
+		prestige = 0.8
+		legitimacy = 0.8
+		tolerance_own = 1.2 
+		#Can be upgraded for more powerful bonuses
+	}
+	
+	ai_will_do = {
+		factor = 2.5
+	} 
+}
+
+great_pyramid_temple_4 = {
+	cost = 1000
+	time = 24
+	trigger = {
+		always = no
+	}
+	modifier = {
+		prestige = 1.2
+		legitimacy = 1.2
+		tolerance_own = 1.6
+		#Can be upgraded for more powerful bonuses
+	}
+	
+	ai_will_do = {
+		factor = 2.5
+	} 
+}
+
+great_pyramid_temple_5 = {
+	cost = 1000
+	time = 24
+	trigger = {
+		always = no
+	}
+	modifier = {
+		prestige = 2.0
+		legitimacy = 2.0
+		tolerance_own = 2.0
+		#Can be upgraded for more powerful bonuses
+	}
+	
+	ai_will_do = {
+		factor = 2.5
+	} 
+}
+
 ##############
 #POST-CONTACT#
 ##############

@@ -210,6 +210,16 @@ country_event = {
 				}
 				province_event = { id = communication_efficiency.01 }
 			}
+			#Unique Buildings
+			1 =  {
+				add_building = huey_teocalli_2
+			}
+			
+			777 = { 
+				add_building = great_pyramid_of_cholula
+			}
+			
+			#Trade Modifiers
 			71 = { #Chucandiro
 				add_permanent_province_modifier = {
 					name = tequexquite_soils_of_cuitzeo 
