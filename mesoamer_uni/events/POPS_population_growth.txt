@@ -168,16 +168,16 @@ country_event = {
 				}
 				change_variable = { which = v_prov_growth_rate value = 0.005 }
 			}
-			#Terrain - max of 0.004% from farmlands 
+			#terrain - max of 0.004% from farmlands 
 			if = {
 				limit = { 
-					terrain = farmlands 
+					has_terrain = farmlands 
 				}
 				change_variable = { which = v_prov_growth_rate value = 0.004 }
 			}
 			if = {
 				limit = { 
-					terrain = grasslands  
+					has_terrain = grasslands  
 				}
 				change_variable = { which = v_prov_growth_rate value = 0.002 }
 			}

@@ -3,6 +3,9 @@
 random_new_world_region = {
 }
 
+scandinavia_region = { # just to avoid the errors in errors.txt
+}
+
 central_mexico_region = {
 	areas = {
 		mexico_colhuacan_area

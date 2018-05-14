@@ -196,7 +196,7 @@ nationalist_rebels = {
 				}
 				add_core = REB
 			}
-			release_vassal = REB
+			release = REB
 		}		
 	}
 }

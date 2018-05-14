@@ -402,6 +402,7 @@ christian_group = {
 	#center_of_religion = 1 
 	flags_with_emblem_percentage = 33 # default == 0
 	flag_emblem_index_range = { 1 57 }
+	
 	roman_catholic = {
 		color = { 0.8 0.8 0 }
 		icon = 1
