@@ -11,6 +11,7 @@
 #Only the names in the country files are
 #Thus why I didn't bother to transcribe all the names here... not sure exactly what this file does besides declare the cultures 
 #Update as of 3/15/18 - looks like the game pulls the female (but not male!) advisor names from this file for some reason
+
 placeholder = {
 	graphical_culture = southamericagfx
 	placeholdertec = {

@@ -1,0 +1,13 @@
+#trigger for invaders cultures
+invaders_culture_group_trigger = {
+	NOT = {
+		OR = {
+			culture_group = chichimec
+			culture_group = nahua
+			culture_group = mixteczapotec
+			culture_group = west_central_mexican
+			culture_group = isthmus
+			culture_group = mayan
+		}
+	}
+}

@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = arawak
 religion = none
 capital = "Isle of Parrots"
 trade_goods = unknown

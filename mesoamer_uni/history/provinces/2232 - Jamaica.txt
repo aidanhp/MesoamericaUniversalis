@@ -1,4 +1,4 @@
-culture = placeholdertec
+culture = arawak
 religion = none
 capital = "Jamaica"
 trade_goods = unknown
