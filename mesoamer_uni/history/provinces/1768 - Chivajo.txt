@@ -14,11 +14,11 @@ capital = "Chivajo"
 is_city = yes
 
 
-discovered_by = western_european_tg
-discovered_by = triple_alliance_tg 
+discovered_by = western
+discovered_by = triple_alliance_tg
 discovered_by = tlaxcallan_tg
 discovered_by = purepecha_tg
-discovered_by = central_mexican_tg 
+discovered_by = central_mexican_tg
 discovered_by = huaxyacac_tg
-discovered_by = west_mexican_tg 
+discovered_by = west_mexican_tg
 discovered_by = maya_tg 

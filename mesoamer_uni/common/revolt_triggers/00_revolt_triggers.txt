@@ -1,1 +1,39 @@
-####
+# Great Britain
+Z01 = {
+	always = no
+}
+
+# MexicaHueyiTlahtohcayotl
+Z02 = {
+	always = no
+}
+
+# TexcocahHueyiTlahtohcayotl
+Z03 = {
+	always = no
+}
+
+# TlacopanecaHueyiTlahtohcayotl
+Z04 = {
+	always = no
+}
+
+# TepanecHueyiTlahtohcayotl
+Z05 = {
+	always = no
+}
+
+# ToltecHueyiTlahtohcayotl
+Z06 = {
+	always = no
+}
+
+# LeagueOfMayapan
+Z07 = {
+	always = no
+}
+
+# IrechecuaTzintzuntzani
+Z08 = {
+	always = no
+}

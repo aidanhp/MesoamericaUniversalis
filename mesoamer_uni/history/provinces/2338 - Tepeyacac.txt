@@ -1,4 +1,5 @@
-discovered_by = western_european_tg
+# Tepeyacac (or Sierra de Guadalupe), the mount west of lake texcoco
+discovered_by = western
 discovered_by = triple_alliance_tg
 discovered_by = tlaxcallan_tg
 discovered_by = purepecha_tg

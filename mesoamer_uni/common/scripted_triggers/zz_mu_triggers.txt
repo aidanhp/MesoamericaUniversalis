@@ -1,13 +1,35 @@
-#trigger for invaders cultures
+#trigger for invaders cultures/tech_groups
+
+invaders_tech_group_trigger = {
+	NOT = {
+		OR = {
+			technology_group = triple_alliance_tg
+			technology_group = tlaxcallan_tg
+			technology_group = purepecha_tg
+			technology_group = central_mexican_tg
+			technology_group = huaxyacac_tg
+			technology_group = west_mexican_tg
+			technology_group = maya_tg
+		}
+	}
+}
+
 invaders_culture_group_trigger = {
 	NOT = {
 		OR = {
-			culture_group = chichimec
 			culture_group = nahua
-			culture_group = mixteczapotec
-			culture_group = west_central_mexican
-			culture_group = isthmus
-			culture_group = mayan
+			culture_group = huaxyacac
+			culture_group = west_mexican
+			culture_group = northwest_mexican
+			culture_group = gulf_coast
+			culture_group = maya
+			culture_group = oto_pamean
+			culture_group = popoluca_group
+			culture_group = mixe_zoque
+			culture_group = tlapanec
+			culture_group = cuitlatec
+			culture_group = cahita_group
+			culture_group = chiapan
 		}
 	}
 }

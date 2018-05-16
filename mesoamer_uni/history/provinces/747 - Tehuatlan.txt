@@ -13,7 +13,7 @@ trade_goods = fruits
 capital = "Tehuatlan"
 is_city = yes
 
-discovered_by = western_european_tg
+discovered_by = western
 discovered_by = triple_alliance_tg
 discovered_by = tlaxcallan_tg
 discovered_by = purepecha_tg
