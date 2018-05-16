@@ -1,0 +1,183 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new groups or cultures, make sure they are unique.
+#
+# Union tags do not suffer from the 'same_culture_group' tax penalty.
+# Primary tags are the first choice for rebel factions seeking cultural independence.
+#
+# graphical_culture  westerngfx
+# second_graphical_culture  muslimgfx (fallback if the first does not exist)
+
+# ----------------------------------------------------------------------------------------
+# CURRENT CULTURE LIST :
+# ----------------------------------------------------------------------------------------
+
+# Mesoamerican Cultures :
+# ---------------------------------------------------
+# nahua
+	# mexica
+	# acolhua
+	# tepanec
+	# colhua
+	# xochimilca
+	# chalca
+	# cuitlahuaca
+	# mizquica
+	# tlaxcallan
+	# pipil
+	# coixca
+	# sayultec
+	# pinome
+	# teco
+	# metztitlani
+	# huexotzinca
+	# cholulan
+	# eastern_nahua
+	# central_nahua
+	# archaic_toltec
+	# xilotlantzinca
+	# colimotl
+
+# huaxyacac
+	# mixtec
+	# zapotec
+	# chatino
+	# cuicatec
+	# triqui
+	# amuzgo
+	# huaxyacac_chontal
+	# huave
+
+# west_mexican
+	# purepecha
+	# pantec
+	# tolimec
+	# chumbia
+	# coca
+	# cuauhcomeca
+	# west_otomi
+
+# northwest_mexican
+	# guamare
+	# cora
+	# huichol
+	# caxcan
+	# tecuexe
+	# tepehuan
+	# tepecano
+	# totorame
+	# cuyotec
+	# guachichil
+
+# gulf_coast
+	# huastec
+	# totonac
+
+# maya
+	# yucatec
+	# putun_chontal
+	# peten_itza
+	# kowoj
+	# kiche
+	# tzutujil
+	# kaqchikel
+	# chajoma
+	# pokomam
+	# rabinal
+	# sacapul
+	# qayol
+	# ixil
+	# uspantec
+	# southern_mam
+	# northern_mam
+	# western_kiche
+	# mopan
+	# lacandon_chol
+	# manche
+	# qeqchi
+	# torquegua
+	# tzotzil
+	# tzeltal
+
+# oto_pamean
+	# otomi
+	# matlatzinca
+	# pame
+	# mazahua
+	# chinantec
+
+# popoluca_group
+	# popoluca
+	# chocho
+	# mazatec
+	# ixcatec
+
+# mixe_zoque
+	# mixe
+	# zoque
+
+# tlapanec
+	# tlapanec
+
+# cuitlatec
+	# cuitlatec
+
+# cahita_group
+	# cahita
+
+# chiapan
+	# chiapanec
+
+# East Invaders Cultures :
+# ---------------------------------------------------
+# iberian
+	# castillian
+	# leonese
+	# galician
+	# portugese
+
+	# why not add the french/english group for an ahistorical colonisation ?
+
+# West Invaders Cultures :
+# ---------------------------------------------------
+# east_asian
+	# chihan
+	# miao
+	# cantonese
+	# jin
+	# wu
+
+# korean_g
+	# korean
+
+# japanese_g
+	# togoku #Togoku / Eastern Japanese
+	# japanese #Saigoku / Western Japanese
+	# kyushuan #Kyushu culture
+
+# Tribal Cultures :
+# ---------------------------------------------------
+# carribean
+	# arawak
+	# maipurean
+	# carib
+	# guajiro #	Lokono / Northern Mainland Arawak
+
+# chibchan
+	# muisca
+	# cara
+	# miskito
+
+# Others Cultures :
+# ---------------------------------------------------
+shadowmaster = {										# I mean, really ?
+	graphical_culture = southamericagfx
+	
+	shadowmaster = {
+		male_names = {
+			Jared Graham Randall Erich 
+		}
+		female_names = {
+			Lucifher
+		}
+	}
+}

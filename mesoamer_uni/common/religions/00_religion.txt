@@ -1,0 +1,41 @@
+# If you add religions, and use those tags, do not change them without changing everywhere they are used.
+
+# Uses all 'modifiers' possible thats exported as a Modifier.
+
+
+# current religions present in the mod :
+
+# nahuatl_group
+	# religion_huitzilopochtli
+	# religion_quetzalcoatl
+	# religion_tezcatlipoca
+	# religion_ehecatl
+	# religion_tlaloc
+	# religion_mixcoatl
+	# religion_xipe_totec
+	# religion_tlazalteotl
+	# religion_cihuacoatl
+	# religion_tonatiuh
+	# religion_xochiquetzal
+	# religion_ometochtli
+	# religion_yacatecuhtli
+	# religion_coltzin
+	# religion_malinalxochitl
+	# religion_otontecuhtli
+
+# huaxyacac_group
+	# religion_zapotec
+	# religion_mixtec
+
+# purepecha_group
+	# religion_purepecha
+
+# maya_group
+	# religion_maya
+
+# christian
+	# catholic
+
+# eastern
+	# buddhism
+	# shinto

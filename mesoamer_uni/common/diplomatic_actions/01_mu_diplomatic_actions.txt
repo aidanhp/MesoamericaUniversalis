@@ -1,0 +1,28 @@
+# INSTRUCTIONS:
+#
+# condition				A diplomatic action can have any number of condition blocks, each with its own
+#						tooltip, potential and allow section
+#
+# 	tooltip					Sets a custom text string similar to the hardcoded limits
+# 							If no tooltip is scripted, the tooltip for the actual trigger will be shown
+#							Note that the custom tooltip is only shown if the allow trigger is NOT met
+#
+# 	potential				Determines if the trigger is applicable or not
+# 	allow					Determines if the action is valid or not
+#
+# effect				A diplomatic action can only have one effect block
+
+# ROOT					actor
+# FROM					target
+
+########################################
+# MESOAMERICA UNIVERSALIS DIPLOMATIC ACTIONS
+########################################
+
+declarewar = {
+	hidden_effect = {
+		ROOT = {
+			set_variable = { which = v_captives_from_war value = 0 }
+		}
+	}
+}

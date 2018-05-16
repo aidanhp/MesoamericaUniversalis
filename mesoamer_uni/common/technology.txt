@@ -4,11 +4,22 @@
 # Groups must be defined BEFORE tables.
 
 groups = {
-	western_european_tg = {
+	# Vanilla groups for compatibility
+	western = {
 		start_level = 0
 		start_cost_modifier = 0
 	}
+	chinese = {
+		start_level = 0
+		start_cost_modifier = 0
+	}
+	nomad_group = {
+		start_level = 0
+		start_cost_modifier = 0
+		# is_primitive = yes
+	}
 	
+	# New groups
 	triple_alliance_tg = {
 		start_level = 0
 		start_cost_modifier = 0

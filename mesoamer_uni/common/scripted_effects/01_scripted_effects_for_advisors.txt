@@ -1,0 +1,680 @@
+#All are Country Scope unless otherwise stated.
+
+#Sets flags to use when generating advisors, must be used in immediate = { } and be followed by erase_advisor_flags_effect in after = {}
+check_if_non_state_advisor_effect = {
+	#Needs these arguments:
+	#chance_of_primary = State religion
+	#chance_of_secondary = 
+	#chance_of_tertiary = Remaining Heathen Religions
+	#Note: These are not actual chances, they are just weights, the script then uses them differently depending on what region you are in. There is a higher or lower chance of variety depending on where minorities where big historically.
+	
+	hidden_effect = { #Variety - Religious Minorities
+		if = {
+			limit = {
+				capital_scope = {
+					continent = continent_1
+				}
+			}
+			random_list = { #East Asia has highest chance of non state.
+				$chance_of_primary$ = { set_country_flag = state_religion_advisor }
+				$chance_of_secondary$ = { set_country_flag = other_nahuatl_advisor }
+				$chance_of_secondary$ = { set_country_flag = mayan_advisor }
+				$chance_of_secondary$ = { set_country_flag = huaxyacac_advisor }
+				$chance_of_secondary$ = { set_country_flag = purepecha_advisor }
+			}
+		}
+		else_if = {
+			limit = {
+				religion_group = christian #This one is mostly the same as the Europe one.
+			}
+			random_list = {
+				$chance_of_primary$ = { set_country_flag = state_religion_advisor }
+				$chance_of_secondary$ = { set_country_flag = nahuatl_advisor }
+				$chance_of_secondary$ = { set_country_flag = mayan_advisor }
+				$chance_of_secondary$ = { set_country_flag = huaxyacac_advisor }
+				$chance_of_tertiary$ = { set_country_flag = purepecha_advisor }
+			}
+		}
+		else = {
+			set_country_flag = state_religion_advisor
+		}
+	}
+}
+
+erase_advisor_flags_effect = { #Goes into the after = {} effect after check_if_non_state_advisor_effect
+	trigger_switch = {
+		on_trigger = has_country_flag
+		state_religion_advisor = { clr_country_flag = state_religion_advisor }
+		nahuatl_advisor = { clr_country_flag = nahuatl_advisor }
+		other_nahuatl_advisor = { clr_country_flag = other_nahuatl_advisor }
+		mayan_advisor = { clr_country_flag = mayan_advisor }
+		huaxyacac_advisor = { clr_country_flag = huaxyacac_advisor }
+		purepecha_advisor = { clr_country_flag = purepecha_advisor }
+	}
+}
+
+internal_advisor_generation_effect = { #Only used within generate_advisor_of_type_and_semi_random_religion_effect
+#Requires check_if_non_state_advisor_effect in immediate as that gives the arguments to generate_advisor_of_type_and_semi_random_religion_effect that then passes it on to this.
+#$advisor_type$ = Advisor type if state religion.
+#$advisor_type_if_not_state$ = Advisor type if non-state religion.
+#$skill$ = Skill Level
+#$discount$ = yes/no for discount
+	trigger_switch = {
+		on_trigger = has_country_flag #Flags set by check_if_non_state_advisor_effect
+		state_religion_advisor = {
+			define_advisor = {
+				type = $advisor_type$
+				skill = $skill$
+				discount = $discount$
+			}
+		}
+		nahuatl_advisor = {
+			define_advisor = {
+				type = $advisor_type_if_not_state$
+				skill = $skill$
+				discount = $discount$
+				religion = {
+					random_list = {
+						religion = religion_huitzilopochtli
+						religion = religion_quetzalcoatl
+						religion = religion_tezcatlipoca
+						religion = religion_ehecatl
+						religion = religion_tlaloc
+						religion = religion_mixcoatl
+						religion = religion_xipe_totec
+						religion = religion_tlazalteotl
+						religion = religion_cihuacoatl
+						religion = religion_tonatiuh
+						religion = religion_xochiquetzal
+						religion = religion_ometochtli
+						religion = religion_yacatecuhtli
+						religion = religion_coltzin
+						religion = religion_malinalxochitl
+						religion = religion_otontecuhtli
+					}
+				}
+			}
+		}
+		other_nahuatl_advisor = {
+			if = {
+				limit = { religion = religion_huitzilopochtli }
+				define_advisor = {
+					type = $advisor_type_if_not_state$
+					skill = $skill$
+					discount = $discount$
+					religion = {
+						random_list = {
+							# religion = religion_huitzilopochtli
+							religion = religion_quetzalcoatl
+							religion = religion_tezcatlipoca
+							religion = religion_ehecatl
+							religion = religion_tlaloc
+							religion = religion_mixcoatl
+							religion = religion_xipe_totec
+							religion = religion_tlazalteotl
+							religion = religion_cihuacoatl
+							religion = religion_tonatiuh
+							religion = religion_xochiquetzal
+							religion = religion_ometochtli
+							religion = religion_yacatecuhtli
+							religion = religion_coltzin
+							religion = religion_malinalxochitl
+							religion = religion_otontecuhtli
+						}
+					}
+				}
+			}
+			else_if = {
+				limit = { religion = religion_quetzalcoatl }
+				define_advisor = {
+					type = $advisor_type_if_not_state$
+					skill = $skill$
+					discount = $discount$
+					religion = {
+						random_list = {
+							religion = religion_huitzilopochtli
+							# religion = religion_quetzalcoatl
+							religion = religion_tezcatlipoca
+							religion = religion_ehecatl
+							religion = religion_tlaloc
+							religion = religion_mixcoatl
+							religion = religion_xipe_totec
+							religion = religion_tlazalteotl
+							religion = religion_cihuacoatl
+							religion = religion_tonatiuh
+							religion = religion_xochiquetzal
+							religion = religion_ometochtli
+							religion = religion_yacatecuhtli
+							religion = religion_coltzin
+							religion = religion_malinalxochitl
+							religion = religion_otontecuhtli
+						}
+					}
+				}
+			}
+			else_if = {
+				limit = { religion = religion_tezcatlipoca }
+				define_advisor = {
+					type = $advisor_type_if_not_state$
+					skill = $skill$
+					discount = $discount$
+					religion = {
+						random_list = {
+							religion = religion_huitzilopochtli
+							religion = religion_quetzalcoatl
+							# religion = religion_tezcatlipoca
+							religion = religion_ehecatl
+							religion = religion_tlaloc
+							religion = religion_mixcoatl
+							religion = religion_xipe_totec
+							religion = religion_tlazalteotl
+							religion = religion_cihuacoatl
+							religion = religion_tonatiuh
+							religion = religion_xochiquetzal
+							religion = religion_ometochtli
+							religion = religion_yacatecuhtli
+							religion = religion_coltzin
+							religion = religion_malinalxochitl
+							religion = religion_otontecuhtli
+						}
+					}
+				}
+			}
+			else_if = {
+				limit = { religion = religion_ehecatl }
+				define_advisor = {
+					type = $advisor_type_if_not_state$
+					skill = $skill$
+					discount = $discount$
+					religion = {
+						random_list = {
+							religion = religion_huitzilopochtli
+							religion = religion_quetzalcoatl
+							religion = religion_tezcatlipoca
+							# religion = religion_ehecatl
+							religion = religion_tlaloc
+							religion = religion_mixcoatl
+							religion = religion_xipe_totec
+							religion = religion_tlazalteotl
+							religion = religion_cihuacoatl
+							religion = religion_tonatiuh
+							religion = religion_xochiquetzal
+							religion = religion_ometochtli
+							religion = religion_yacatecuhtli
+							religion = religion_coltzin
+							religion = religion_malinalxochitl
+							religion = religion_otontecuhtli
+						}
+					}
+				}
+			}
+			else_if = {
+				limit = { religion = religion_tlaloc }
+				define_advisor = {
+					type = $advisor_type_if_not_state$
+					skill = $skill$
+					discount = $discount$
+					religion = {
+						random_list = {
+							religion = religion_huitzilopochtli
+							religion = religion_quetzalcoatl
+							religion = religion_tezcatlipoca
+							religion = religion_ehecatl
+							# religion = religion_tlaloc
+							religion = religion_mixcoatl
+							religion = religion_xipe_totec
+							religion = religion_tlazalteotl
+							religion = religion_cihuacoatl
+							religion = religion_tonatiuh
+							religion = religion_xochiquetzal
+							religion = religion_ometochtli
+							religion = religion_yacatecuhtli
+							religion = religion_coltzin
+							religion = religion_malinalxochitl
+							religion = religion_otontecuhtli
+						}
+					}
+				}
+			}
+			else_if = {
+				limit = { religion = religion_mixcoatl }
+				define_advisor = {
+					type = $advisor_type_if_not_state$
+					skill = $skill$
+					discount = $discount$
+					religion = {
+						random_list = {
+							religion = religion_huitzilopochtli
+							religion = religion_quetzalcoatl
+							religion = religion_tezcatlipoca
+							religion = religion_ehecatl
+							religion = religion_tlaloc
+							# religion = religion_mixcoatl
+							religion = religion_xipe_totec
+							religion = religion_tlazalteotl
+							religion = religion_cihuacoatl
+							religion = religion_tonatiuh
+							religion = religion_xochiquetzal
+							religion = religion_ometochtli
+							religion = religion_yacatecuhtli
+							religion = religion_coltzin
+							religion = religion_malinalxochitl
+							religion = religion_otontecuhtli
+						}
+					}
+				}
+			}
+			else_if = {
+				limit = { religion = religion_xipe_totec }
+				define_advisor = {
+					type = $advisor_type_if_not_state$
+					skill = $skill$
+					discount = $discount$
+					religion = {
+						random_list = {
+							religion = religion_huitzilopochtli
+							religion = religion_quetzalcoatl
+							religion = religion_tezcatlipoca
+							religion = religion_ehecatl
+							religion = religion_tlaloc
+							religion = religion_mixcoatl
+							# religion = religion_xipe_totec
+							religion = religion_tlazalteotl
+							religion = religion_cihuacoatl
+							religion = religion_tonatiuh
+							religion = religion_xochiquetzal
+							religion = religion_ometochtli
+							religion = religion_yacatecuhtli
+							religion = religion_coltzin
+							religion = religion_malinalxochitl
+							religion = religion_otontecuhtli
+						}
+					}
+				}
+			}
+			else_if = {
+				limit = { religion = religion_tlazalteotl }
+				define_advisor = {
+					type = $advisor_type_if_not_state$
+					skill = $skill$
+					discount = $discount$
+					religion = {
+						random_list = {
+							religion = religion_huitzilopochtli
+							religion = religion_quetzalcoatl
+							religion = religion_tezcatlipoca
+							religion = religion_ehecatl
+							religion = religion_tlaloc
+							religion = religion_mixcoatl
+							religion = religion_xipe_totec
+							# religion = religion_tlazalteotl
+							religion = religion_cihuacoatl
+							religion = religion_tonatiuh
+							religion = religion_xochiquetzal
+							religion = religion_ometochtli
+							religion = religion_yacatecuhtli
+							religion = religion_coltzin
+							religion = religion_malinalxochitl
+							religion = religion_otontecuhtli
+						}
+					}
+				}
+			}
+			else_if = {
+				limit = { religion = religion_cihuacoatl }
+				define_advisor = {
+					type = $advisor_type_if_not_state$
+					skill = $skill$
+					discount = $discount$
+					religion = {
+						random_list = {
+							religion = religion_huitzilopochtli
+							religion = religion_quetzalcoatl
+							religion = religion_tezcatlipoca
+							religion = religion_ehecatl
+							religion = religion_tlaloc
+							religion = religion_mixcoatl
+							religion = religion_xipe_totec
+							religion = religion_tlazalteotl
+							# religion = religion_cihuacoatl
+							religion = religion_tonatiuh
+							religion = religion_xochiquetzal
+							religion = religion_ometochtli
+							religion = religion_yacatecuhtli
+							religion = religion_coltzin
+							religion = religion_malinalxochitl
+							religion = religion_otontecuhtli
+						}
+					}
+				}
+			}
+			else_if = {
+				limit = { religion = religion_tonatiuh }
+				define_advisor = {
+					type = $advisor_type_if_not_state$
+					skill = $skill$
+					discount = $discount$
+					religion = {
+						random_list = {
+							religion = religion_huitzilopochtli
+							religion = religion_quetzalcoatl
+							religion = religion_tezcatlipoca
+							religion = religion_ehecatl
+							religion = religion_tlaloc
+							religion = religion_mixcoatl
+							religion = religion_xipe_totec
+							religion = religion_tlazalteotl
+							religion = religion_cihuacoatl
+							# religion = religion_tonatiuh
+							religion = religion_xochiquetzal
+							religion = religion_ometochtli
+							religion = religion_yacatecuhtli
+							religion = religion_coltzin
+							religion = religion_malinalxochitl
+							religion = religion_otontecuhtli
+						}
+					}
+				}
+			}
+			else_if = {
+				limit = { religion = religion_xochiquetzal }
+				define_advisor = {
+					type = $advisor_type_if_not_state$
+					skill = $skill$
+					discount = $discount$
+					religion = {
+						random_list = {
+							religion = religion_huitzilopochtli
+							religion = religion_quetzalcoatl
+							religion = religion_tezcatlipoca
+							religion = religion_ehecatl
+							religion = religion_tlaloc
+							religion = religion_mixcoatl
+							religion = religion_xipe_totec
+							religion = religion_tlazalteotl
+							religion = religion_cihuacoatl
+							religion = religion_tonatiuh
+							# religion = religion_xochiquetzal
+							religion = religion_ometochtli
+							religion = religion_yacatecuhtli
+							religion = religion_coltzin
+							religion = religion_malinalxochitl
+							religion = religion_otontecuhtli
+						}
+					}
+				}
+			}
+			else_if = {
+				limit = { religion = religion_ometochtli }
+				define_advisor = {
+					type = $advisor_type_if_not_state$
+					skill = $skill$
+					discount = $discount$
+					religion = {
+						random_list = {
+							religion = religion_huitzilopochtli
+							religion = religion_quetzalcoatl
+							religion = religion_tezcatlipoca
+							religion = religion_ehecatl
+							religion = religion_tlaloc
+							religion = religion_mixcoatl
+							religion = religion_xipe_totec
+							religion = religion_tlazalteotl
+							religion = religion_cihuacoatl
+							religion = religion_tonatiuh
+							religion = religion_xochiquetzal
+							# religion = religion_ometochtli
+							religion = religion_yacatecuhtli
+							religion = religion_coltzin
+							religion = religion_malinalxochitl
+							religion = religion_otontecuhtli
+						}
+					}
+				}
+			}
+			else_if = {
+				limit = { religion = religion_yacatecuhtli }
+				define_advisor = {
+					type = $advisor_type_if_not_state$
+					skill = $skill$
+					discount = $discount$
+					religion = {
+						random_list = {
+							religion = religion_huitzilopochtli
+							religion = religion_quetzalcoatl
+							religion = religion_tezcatlipoca
+							religion = religion_ehecatl
+							religion = religion_tlaloc
+							religion = religion_mixcoatl
+							religion = religion_xipe_totec
+							religion = religion_tlazalteotl
+							religion = religion_cihuacoatl
+							religion = religion_tonatiuh
+							religion = religion_xochiquetzal
+							religion = religion_ometochtli
+							# religion = religion_yacatecuhtli
+							religion = religion_coltzin
+							religion = religion_malinalxochitl
+							religion = religion_otontecuhtli
+						}
+					}
+				}
+			}
+			else_if = {
+				limit = { religion = religion_coltzin }
+				define_advisor = {
+					type = $advisor_type_if_not_state$
+					skill = $skill$
+					discount = $discount$
+					religion = {
+						random_list = {
+							religion = religion_huitzilopochtli
+							religion = religion_quetzalcoatl
+							religion = religion_tezcatlipoca
+							religion = religion_ehecatl
+							religion = religion_tlaloc
+							religion = religion_mixcoatl
+							religion = religion_xipe_totec
+							religion = religion_tlazalteotl
+							religion = religion_cihuacoatl
+							religion = religion_tonatiuh
+							religion = religion_xochiquetzal
+							religion = religion_ometochtli
+							religion = religion_yacatecuhtli
+							# religion = religion_coltzin
+							religion = religion_malinalxochitl
+							religion = religion_otontecuhtli
+						}
+					}
+				}
+			}
+			else_if = {
+				limit = { religion = religion_malinalxochitl }
+				define_advisor = {
+					type = $advisor_type_if_not_state$
+					skill = $skill$
+					discount = $discount$
+					religion = {
+						random_list = {
+							religion = religion_huitzilopochtli
+							religion = religion_quetzalcoatl
+							religion = religion_tezcatlipoca
+							religion = religion_ehecatl
+							religion = religion_tlaloc
+							religion = religion_mixcoatl
+							religion = religion_xipe_totec
+							religion = religion_tlazalteotl
+							religion = religion_cihuacoatl
+							religion = religion_tonatiuh
+							religion = religion_xochiquetzal
+							religion = religion_ometochtli
+							religion = religion_yacatecuhtli
+							religion = religion_coltzin
+							# religion = religion_malinalxochitl
+							religion = religion_otontecuhtli
+						}
+					}
+				}
+			}
+			else = {
+				limit = { religion = religion_otontecuhtli }
+				define_advisor = {
+					type = $advisor_type_if_not_state$
+					skill = $skill$
+					discount = $discount$
+					religion = {
+						random_list = {
+							religion = religion_huitzilopochtli
+							religion = religion_quetzalcoatl
+							religion = religion_tezcatlipoca
+							religion = religion_ehecatl
+							religion = religion_tlaloc
+							religion = religion_mixcoatl
+							religion = religion_xipe_totec
+							religion = religion_tlazalteotl
+							religion = religion_cihuacoatl
+							religion = religion_tonatiuh
+							religion = religion_xochiquetzal
+							religion = religion_ometochtli
+							religion = religion_yacatecuhtli
+							religion = religion_coltzin
+							religion = religion_malinalxochitl
+							# religion = religion_otontecuhtli
+						}
+					}
+				}
+			}
+		}
+		mayan_advisor = {
+			define_advisor = {
+				type = $advisor_type_if_not_state$
+				skill = $skill$
+				discount = $discount$
+				religion = { religion_maya }
+			}
+		}
+		huaxyacac_advisor = {
+			define_advisor = {
+				type = $advisor_type_if_not_state$
+				skill = $skill$
+				discount = $discount$
+				religion = {
+					random_list = {
+						religion = religion_zapotec
+						religion = religion_mixtec
+					}
+				}
+			}
+		}
+		purepecha_advisor = {
+			define_advisor = {
+				type = $advisor_type_if_not_state$
+				skill = $skill$
+				discount = $discount$
+				religion = { religion_purepecha }
+			}
+		}
+	}
+}
+
+generate_advisor_of_type_and_semi_random_religion_effect = {
+#Actual work is done by internal_advisor_generation_effect above but it goes through this first.
+#Requires check_if_non_state_advisor_effect in immediate.
+#$advisor_type$ = Advisor type if state religion.
+#$advisor_type_if_not_state$ = Advisor type if non-state religion.
+#$scaled_skill$ = yes/no
+#$skill$ = Skill Level
+#$discount$ = yes/no for discount
+	set_country_flag = $scaled_skill$_scaled_skill_flag #Must be cleared in this effect, or we won't find it again.
+	
+	if = { #If scaled skill is yes we continue after checking what level is apropriate
+		limit = { has_country_flag = yes_scaled_skill_flag }
+		if = {
+			limit = {
+				NOT = { monthly_income = 15 }
+			}
+			internal_advisor_generation_effect = {
+				advisor_type = $advisor_type$
+				advisor_type_if_not_state = $advisor_type_if_not_state$
+				skill = 1
+				discount = $discount$
+			}
+		}
+		else_if = {
+			limit = {
+				NOT = { monthly_income = 25 }
+			}
+			internal_advisor_generation_effect = {
+				advisor_type = $advisor_type$
+				advisor_type_if_not_state = $advisor_type_if_not_state$
+				skill = 2
+				discount = $discount$
+			}
+		}
+		else = {
+			internal_advisor_generation_effect = {
+				advisor_type = $advisor_type$
+				advisor_type_if_not_state = $advisor_type_if_not_state$
+				skill = 3
+				discount = $discount$
+			}
+		}
+	}
+	else = { #If we didn't set scaled skill to yes then we just take the skill you specified.
+		internal_advisor_generation_effect = {
+			advisor_type = $advisor_type$
+			advisor_type_if_not_state = $advisor_type_if_not_state$
+			skill = $skill$
+			discount = $discount$
+		}
+	}
+	
+	clr_country_flag = $scaled_skill$_scaled_skill_flag #Important, unless cleared like this you will be unable to find it again.
+}
+
+
+remove_advisor_adm_effect = {
+	if = {
+		limit = {
+			advisor = inquisitor
+		}
+		remove_advisor = inquisitor
+	}
+	if = {
+		limit = {
+			advisor = natural_scientist
+		}
+		remove_advisor = natural_scientist
+	}
+	if = {
+		limit = {
+			advisor = master_of_mint
+		}
+		remove_advisor = master_of_mint
+	}
+	if = {
+		limit = {
+			advisor = theologian
+		}
+		remove_advisor = theologian
+	}
+	if = { 
+		limit = {
+			advisor = artist
+		}
+		remove_advisor = artist
+	}
+	if = {
+		limit = {
+			advisor = philosopher
+		}
+		remove_advisor = philosopher
+	}
+	if = {
+		limit = { 
+			advisor = treasurer
+		}
+		remove_advisor = treasurer
+	}
+}
+

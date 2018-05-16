@@ -1,4 +1,4 @@
-unit_type = western_european_tg
+unit_type = western
 type = infantry
 
 maneuver = 1

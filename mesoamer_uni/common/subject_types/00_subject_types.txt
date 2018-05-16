@@ -144,6 +144,7 @@ default = {
 	force_isolation = no
 	return_land = no
 	conscript_general = no
+	knowledge_sharing = yes
 	# (special)
 	sword_hunt = no
 	sankin_kotai = no
@@ -336,6 +337,7 @@ personal_union = {
 	gets_help_with_rebels = yes
 	can_have_subjects_of_other_types = yes
 	can_union_break = yes
+	transfer_subjects_when_made = yes
 
 	liberty_desire_negative_prestige = 1.0
 	military_focus = 0.66
@@ -531,6 +533,7 @@ tributary_state = {
 	demand_artifacts = yes
 	demand_additional_tribute = yes
 	placate_rulers = no
+	knowledge_sharing = no
 	# (continuous)
 	embargo_rivals = no
 

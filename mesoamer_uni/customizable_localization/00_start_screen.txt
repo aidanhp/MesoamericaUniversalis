@@ -1522,35 +1522,35 @@ defined_text = {
     }
 }
 
-defined_text = {
-    name = start_shogun_holders_through_the_years #used to display right clan name for the Shogunate in startup screen.
-	random = no
+# defined_text = {
+    # name = start_shogun_holders_through_the_years #used to display right clan name for the Shogunate in startup screen.
+	# random = no
 
-    text = {
-        localisation_key = ASK
-        trigger = {
-			exists = ASK
-			ASK = {
-				government = shogunate
-			}
-        }
-    }
-	text = {
-        localisation_key = ODA
-        trigger = {
-			exists = ODA
-			ODA = {
-				government = shogunate
-			}
-        }
-    }
-	text = {
-        localisation_key = TKG
-        trigger = {
-			exists = TKG
-			TKG = {
-				government = shogunate
-			}
-        }
-    }
-}
+    # text = {
+        # localisation_key = ASK
+        # trigger = {
+			# exists = ASK
+			# ASK = {
+				# government = shogunate
+			# }
+        # }
+    # }
+	# text = {
+        # localisation_key = ODA
+        # trigger = {
+			# exists = ODA
+			# ODA = {
+				# government = shogunate
+			# }
+        # }
+    # }
+	# text = {
+        # localisation_key = TKG
+        # trigger = {
+			# exists = TKG
+			# TKG = {
+				# government = shogunate
+			# }
+        # }
+    # }
+# }
