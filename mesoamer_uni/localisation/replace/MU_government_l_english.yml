@@ -12,6 +12,7 @@
  TLAHTOHCAYOTL: "Tlahtohcayotl"
  HUEY_TLAHTOHCAYOTL: "Huey-Tlahtohcayotl"
  
+ 
  #Titles#
  #Defaults
  LORD: "Lord"
@@ -34,22 +35,29 @@
  HUEY_CIHUATLATOANI: "Huey-Cihuatlatoani"
  HUEYHUEY_CIHUATLATOANI: "Hueyhuey-Cihuatlatoani"
  
+ 
  #Government Types#
  absolute_hereditary_monarchy: "Absolute Hereditary Monarchy"
  absolute_hereditary_monarchy_desc: "A system of government where a single head of state has absolute authority over their vassals, and the position of head of state is passed down generation to generation within a single family through direct inheritance."
  absolute_elective_monarchy: "Absolute Elective Monarchy"
  absolute_elective_monarchy_desc: "A system of government where a single head of state has absolute authority over their vassals. However, instead of the head of state directly inheriting their position, the male relatives of a deceased monarch and the upper nobility convene to elect the new monarch from among the royal family when a death occurs."
  
+ 
  #Gov-related Decisions#
  display_government_stats_title: "Display Government Statistics"
- display_government_stats_desc: "Mouse over the decision box to view your current Government Stats. Government statistics/stats are a set of five values that grant your country various bonuses and detriments. They are affected by in-game actions such as policies, event choices, or even winning wars. To learn more, see the encyclopedia entry."
+ display_government_stats_desc: "Current Government Statistics: \nTerritorial vs. Hegemonic: §G[Root.v_terr_hege.GetValue]§! (Change Last Year: §Y[Root.v_terr_hege_display_c.GetValue]§!) \nLocal Delegation vs. Legal Centralization: §G[Root.v_legal_tradition.GetValue]§! (Change Last Year: §Y[Root.v_legal_tradition_display_c.GetValue]§!) \nPatrimonialism vs. Meritocracy: §G[Root.v_merit_tradition.GetValue]§! (Change Last Year: §Y[Root.v_merit_tradition_display_c.GetValue]§!) \nTerrestrial Politics vs. Spiritual Politics: §G[Root.v_religious_tradition.GetValue]§! (Change Last Year: §Y[Root.v_religious_tradition_display_c.GetValue]§!) \nTake this decision for more information."
+ 
  
  #Gov-related custom tooltips#
- display_gov_stats_tt: "Territorial vs. Hegemonic: §G[Root.v_terr_hege.GetValue]§! (Change Last Year: §Y[Root.v_terr_hege_display_c.GetValue]§!) \nLegal Tradition: §G[Root.v_legal_tradition.GetValue]§! \nMeritocratic Tradition: §G[Root.v_merit_tradition.GetValue]§! \nReligious Tradition: §G[Root.v_religious_tradition.GetValue]§! \nMilitancy: §G[Root.v_militancy.GetValue]§!"
+ display_gov_stats_tt: "Territorial vs. Hegemonic: §G[Root.v_terr_hege.GetValue]§! (Change Last Year: §Y[Root.v_terr_hege_display_c.GetValue]§!) \nLocal Delegation vs. Legal Centralization: §G[Root.v_legal_tradition.GetValue]§! \nPatrimonialism vs. Meritocracy: §G[Root.v_merit_tradition.GetValue]§! \nTerrestrial Politics vs Spiritual Politics: §G[Root.v_religious_tradition.GetValue]§!"
  test_tt: "Pop Potential in Tenochtitlan: [1.v_pop_potential.GetValue] [AAA.v_non_capital_pop.GetValue] \nCaptives from War: [AAA.v_captives_from_war.GetValue] \n"
  
+ 
  #Government Stats#
- #Modifiers#
+ #Variables
+ 
+ 
+ #Triggered Modifiers
  hegemonic_5: "Hegemonic 5"
  hegemonic_4: "Hegemonic 4"
  hegemonic_3: "Hegemonic 3" 
@@ -61,12 +69,14 @@
  territorial_4: "Territorial 4"
  territorial_5: "Territorial 5"
  
- #Modifiers related to government mechanics#
+ 
+ #Hegemonic Governments#
+ #Modifiers
  deliberations_of_the_council: "Deliberations of the Council"
  prove_your_mettle: "Prove Your Mettle"
  signs_of_weakness: "Signs of Weakness"
  
- #Government Mechanic Events#
+ #Events
  m_succession1.t: "Time for a New Heir"
  m_succession1.d: "With the unfortunate death of our previous monarch, it is time to appoint a new favored successor from among the royal family."
  m_succession1.a: "Appoint the most patient one." 
@@ -110,9 +120,32 @@
  m_succession9.d: "The upper nobility and the other members of the royal family are highly dissatisfied with the performance of $MONARCHTITLE$ $MONARCH$, who has failed to prove his military acumen for too long. Our subjects are seriously questioning whether they wish to remain under our rule. As a result, $MONARCH$ has been removed from power, and nobody is quite sure what happened to him."
  m_succession9.a: "Hopefully the next man is more competant."
  
- #Gov Mechanic Event Tooltips
+ #Custom Tooltips
  influence_council_soon_tt: "The council will be assembled in 7 days."
  campaign_election_tt: "Increases the chance of the heir apparent being elected ruler. A decision will be made in 7 days."
  indifferent_election_tt: "Has no effect on the chance of the heir apparent being elected ruler. A decision will be made in 7 days."
  refuse_election_tt: "Prevents the heir apparent from being elected ruler. A decision will be made in 7 days."
  
+ #Territorial Governments#
+ #Modifiers
+ 
+ #Events
+ 
+ #Custom Tooltips
+ 
+ 
+ #Unique Governments#
+ #Triple Alliance
+ #--Decisions
+ display_triple_alliance_influence_title: "Display Triple Alliance Influence"
+ display_triple_alliance_influence_desc: "Triple Alliance influence represents the relative power balance in the Triple Alliance of Tenochtitlan, Texcoco, and Tlacopan. \nCurrently, the balance is as follows: \nTenochtitlan: §Y[AAA.v_ta_influence.GetValue]§! \nTexcoco: §Y[ACC.v_ta_influence.GetValue]§! \nTlacopan: §Y[AAD.v_ta_influence.GetValue]§! \nTake this decision for more information."
+ #--Variables
+ v_ta_influence: "Triple Alliance Influence"
+ 
+ #Texcoco
+ 
+ 
+ #Tlaxcala
+ 
+ 
+ #Chalco

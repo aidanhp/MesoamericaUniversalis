@@ -433,6 +433,30 @@ on_monarch_death = {
 		}
 		country_event = { id = m_succession.06 days = 30 }
 	}
+	
+	#Part of a flavor event for Tenochtitlan and Tlatelolco
+	if = { 
+		limit = { 
+			tag = AAB
+			NOT = { has_country_flag = quauhtlatoatzin_died } 
+		}
+		if = { 
+			limit = { 
+				exists = AAA
+			}
+			AAA = { 
+				country_event = { id = flav_ten_minors.09 }
+			}
+		}
+		if = { 
+			limit = { 
+				exists = Z02 
+			}
+			Z02 = { 
+				country_event = { id = flav_ten_minors.09 }
+			}
+		}
+	}
 }
 
 # country 

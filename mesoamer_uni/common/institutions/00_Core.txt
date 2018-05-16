@@ -5,9 +5,8 @@
 
 
 #######################################
-# Feudalism.  
-# 
-# Most in the old world start with it.
+# The Altepetl (Mesoamerican Fuedalism)
+# All settled provinces start with it
 #######################################
 
 feudalism = {
@@ -17,7 +16,7 @@ feudalism = {
 	}
 
 	history = {
-		is_year = 1000
+		is_year = 1
 	}
 	
 	# no need for events, as its there from the start.
@@ -48,6 +47,617 @@ feudalism = {
 		modifier = {
 			factor = 0.25
 			is_at_war = yes
+		}
+	}
+}
+
+#########################################
+# World System (Mesoamerican Renaissance)
+#########################################
+
+world_system = { 
+	penalty = 0.5 
+	
+	bonus = { 
+		trade_efficiency = 0.05
+		idea_cost = -0.05
+	}
+	
+	historical_start_date = 1440.1.1
+	historical_start_province = 1 
+	
+	history = {
+		OR = { 
+			AND = { 
+				is_year = 1440
+				region = central_mexico_region 
+			}
+			
+			AND = { 
+				is_year = 1445
+				region = western_mexico_region  
+			}
+			
+			AND = { 
+				is_year = 1445 
+				region = guerrero_region  
+			}
+			
+			AND = { 
+				is_year = 1445 
+				region = gulf_coast_region   
+			}
+			
+			AND = { 
+				is_year = 1445 
+				region = oaxaca_region    
+			}
+			
+			AND = { 
+				is_year = 1450
+				region = yucatan_region 
+			}
+			
+			AND = { 
+				is_year = 1450
+				region = maya_highlands_region  
+			}
+			
+			AND = { 
+				is_year = 1500
+				region = caribbean_islands_region 
+			}
+			
+			AND = { 
+				is_year = 1500
+				region = maya_central_lowlands_region   
+			}
+			
+			AND = { 
+				is_year = 1521
+				region = mordor
+			}
+		}
+	}
+	
+	can_start = { 
+		is_year = 1440
+		OR = { 
+			AND = { 
+				area = mexico_colhuacan_area 
+				owner = { 
+					government_rank = 2
+				}
+				development = 40
+			}
+			AND = { 
+				area = acolhuacan_area  
+				owner = { 
+					government_rank = 2
+				}
+				development = 50
+			}
+			AND = { 
+				area = tepaneca_area   
+				owner = { 
+					government_rank = 2
+				}
+				development = 50
+			}
+			AND = { 
+				area = patzcuaro_basin_area    
+				owner = { 
+					government_rank = 2
+				}
+				development = 50
+			}
+			AND = { 
+				owner = { 
+					government_rank = 2
+					trade_income_percentage = 0.33
+				}
+				development = 60
+			}
+		}
+	}
+	
+	start_chance = 10
+	on_start = institutions.01
+	
+	can_embrace = { 
+		always = yes
+	}
+	
+	embracement_speed = {
+		modifier = {
+			factor = 0.75
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = FRIENDLY_NEIGHBOR_WORLD_SYSTEM
+				any_friendly_coast_border_province = {
+					world_system = 100
+				}
+			}
+		}
+		modifier = {
+			factor = 0.75
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = ANY_NEIGHBOR_WORLD_SYSTEM
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+					world_system = 100
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 0.10
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = TRADE_POWER_WORLD_SYSTEM
+				province_trade_power = 5
+			}
+		}
+		
+		modifier = {
+			factor = 0.10
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = DEVELOPMENT_WORLD_SYSTEM
+				development = 20
+			}
+		}
+		
+		modifier = {
+			factor = 0.25
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = KINGDOM_CAPITAL_WORLD_SYSTEM
+				is_capital = yes
+				owner = {
+					government_rank = 2
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = EMBRACED_WORLD_SYSTEM
+				owner = {
+					has_institution = world_system
+				}
+			}
+		}
+	}
+	
+	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
+		factor = 24
+		
+		modifier = {
+			factor = 0.25
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.1
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.2
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.3
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.4
+		}
+	}
+}
+
+##################################
+#DRAFT AND TRANSPORTATION ANIMALS#
+##################################
+
+dat_animals = { 
+	penalty = 0.50
+	
+	bonus = { 
+		global_autonomy = -0.05
+		stability_cost_modifier = -0.05
+	}
+	
+	historical_start_date = 1519.1.1
+	historical_start_province = 543 #Cempoallan
+	
+	history = { 
+		OR = { 
+			AND = { 
+				is_year = 1530
+				region = central_mexico_region 
+			}
+			
+			AND = { 
+				is_year = 1535
+				region = western_mexico_region  
+			}
+			
+			AND = { 
+				is_year = 1535 
+				region = guerrero_region  
+			}
+			
+			AND = { 
+				is_year = 1530 
+				region = gulf_coast_region   
+			}
+			
+			AND = { 
+				is_year = 1535 
+				region = oaxaca_region    
+			}
+			
+			AND = { 
+				is_year = 1600
+				region = yucatan_region 
+			}
+			
+			AND = { 
+				is_year = 1550
+				region = maya_highlands_region  
+			}
+			
+			AND = { 
+				is_year = 1510
+				region = caribbean_islands_region 
+			}
+			
+			AND = { 
+				is_year = 1650
+				region = maya_central_lowlands_region   
+			}
+			
+			AND = { 
+				is_year = 1650
+				region = mordor
+			}
+		}
+	}	
+	
+	can_start = { 
+		development = 40
+		is_capital = yes
+		OR = { 
+			owner = {
+				has_country_modifier = steel_and_horses
+			}
+			#AND = { 
+			#	is_year = 1519
+			#	is_core = CAX
+			#}
+		}
+	}
+	start_chance = 20
+	on_start = institutions.03
+	
+	can_embrace = {
+		always = yes
+	}
+	
+	embracement_speed = {
+		modifier = {
+			factor = 0.10
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = FRIENDLY_NEIGHBOR_DATANIMALS
+				any_friendly_coast_border_province = {
+					dat_animals = 100
+				}
+			}
+		}
+		modifier = {
+			factor = 0.25
+			scale = no
+			custom_trigger_tooltip = {
+				tooltip = ANY_NEIGHBOR_DATANIMALS
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+					dat_animals = 100
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 0.05
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = DEVELOPMENT_DATANIMALS
+				development = 15
+			}
+		}
+		
+		modifier = {
+			factor = 0.10
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = STAPLE_CROPS_DATANIMALS
+				trade_goods = staple_crops
+			}
+		}
+		
+		modifier = {
+			factor = 1.0
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = EMBRACED_DATANIMALS
+				owner = {
+					has_institution = dat_animals
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.0
+			scale = no
+			custom_trigger_tooltip = {
+				tooltip = STEEL_AND_HORSES
+				owner = {
+					has_country_modifier = steel_and_horses
+				}
+			}
+		}
+	}
+	
+	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
+		factor = 24
+		
+		modifier = {
+			factor = 0.25
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.1
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.2
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.3
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.4
+		}
+	}
+}
+
+#########################
+#Weaponized Metalworking#
+#########################
+
+weaponized_metalworking = {
+	penalty = 0.50
+	
+	bonus = {
+		infantry_power = 0.10
+	}
+	
+	historical_start_date = 1519.1.1
+	historical_start_province = 947 #Cempoala
+	
+	history = {
+		OR = {
+			AND = { 
+				is_year = 1530
+				region = central_mexico_region 
+			}
+			
+			AND = { 
+				is_year = 1535
+				region = western_mexico_region  
+			}
+			
+			AND = { 
+				is_year = 1535 
+				region = guerrero_region  
+			}
+			
+			AND = { 
+				is_year = 1530 
+				region = gulf_coast_region   
+			}
+			
+			AND = { 
+				is_year = 1535 
+				region = oaxaca_region    
+			}
+			
+			AND = { 
+				is_year = 1600
+				region = yucatan_region 
+			}
+			
+			AND = { 
+				is_year = 1550
+				region = maya_highlands_region  
+			}
+			
+			AND = { 
+				is_year = 1510
+				region = caribbean_islands_region 
+			}
+			
+			AND = { 
+				is_year = 1650
+				region = maya_central_lowlands_region   
+			}
+			
+			AND = { 
+				is_year = 1650
+				region = mordor
+			}
+		}
+	}
+	
+	can_start = {
+		development = 40
+		is_capital = yes
+		OR = { 
+			owner = {
+				has_country_modifier = steel_and_horses
+			}
+			AND = { 
+				is_year = 1521
+				OR = {
+					owner = {
+						copper = 1
+					}
+					owner = {
+						balsas_metals = 1
+					}
+				}
+				OR = {
+					owner = { 
+						defensive_war_with = CAX
+					}
+					owner = { 
+						offensive_war_with = CAX
+					}
+				}
+			}
+			#AND = {
+			#	has_global_flag = spanish_invasion_on
+			#	is_year = 1525
+			#	is_core = CAX
+			#}
+		}
+	}
+	start_chance = 10		#in 100 for when a province can_start
+	on_start = institutions.05
+	
+	can_embrace = {
+		always = yes
+	}
+	
+	embracement_speed = {
+		modifier = {
+			factor = 0.05
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = FRIENDLY_NEIGHBOR_WPN_METAL
+				any_friendly_coast_border_province = {
+					weaponized_metalworking = 100
+				}
+			}
+		}
+		modifier = {
+			factor = 0.10
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = ANY_NEIGHBOR_WPN_METAL
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+					weaponized_metalworking = 100
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 0.10
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = COPPER_WPN_METAL
+				trade_goods = copper
+			}
+		}
+		
+		modifier = {
+			factor = 0.10
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = BALSAS_WPN_METAL
+				trade_goods = balsas_metals
+			}
+		}
+		
+		modifier = {
+			factor = 0.10
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = AT_WAR_WPN_METAL
+				owner = {
+					is_at_war = yes
+				}
+			}
+		}
+		
+		#modifier = {
+		#	factor = 0.50
+		#	scale = no
+		#	custom_trigger_tooltip = {
+		#		tooltip = AT_WAR_CAX_WPN_METAL
+		#		OR = {
+		#			owner = {
+		#				offensive_war_with = CAX
+		#			}
+		#			owner = {
+		#				defensive_war_with = CAX
+		#			}
+		#		}
+		#	}
+		#}
+		
+		modifier = {
+			factor = 1.0
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = EMBRACED_WPN_METAL
+				owner = {
+					has_institution = weaponized_metalworking
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1.0
+			scale = no
+			custom_trigger_tooltip = {
+				tooltip = STEEL_AND_HORSES
+				owner = {
+					has_country_modifier = steel_and_horses
+				}
+			}
+		}
+	}
+	
+	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
+		factor = 24
+		
+		modifier = {
+			factor = 0.25
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.1
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.2
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.3
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.4
 		}
 	}
 }

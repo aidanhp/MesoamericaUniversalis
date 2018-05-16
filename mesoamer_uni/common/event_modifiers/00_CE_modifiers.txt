@@ -3,7 +3,7 @@
 perfect_communication = {
 	trade_goods_size = 0.01
 	local_unrest = -5
-	local_autonomy = -0.10
+	local_autonomy = -0.25
 	local_tax_modifier = 0.025
 	local_manpower_modifier = 0.025
 	regiment_recruit_speed = -0.20

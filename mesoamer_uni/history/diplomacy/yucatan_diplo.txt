@@ -1,0 +1,71 @@
+#League of Mayapan
+vassal = {
+	first = I96
+	second = H33
+	start_date = 1200.1.1
+	end_date = 1440.1.1
+}
+
+vassal = {
+	first = I96
+	second = H53
+	start_date = 1200.1.1
+	end_date = 1440.1.1
+}
+
+vassal = {
+	first = I96
+	second = H86
+	start_date = 1200.1.1
+	end_date = 1440.1.1
+}
+
+vassal = {
+	first = I96
+	second = H61
+	start_date = 1200.1.1
+	end_date = 1440.1.1
+}
+
+vassal = {
+	first = I96
+	second = I08
+	start_date = 1200.1.1
+	end_date = 1440.1.1
+}
+
+vassal = {
+	first = I96
+	second = I14
+	start_date = 1200.1.1
+	end_date = 1440.1.1
+}
+
+vassal = {
+	first = I96
+	second = I60
+	start_date = 1200.1.1
+	end_date = 1440.1.1
+}
+
+vassal = {
+	first = I96
+	second = I74
+	start_date = 1200.1.1
+	end_date = 1440.1.1
+}
+
+vassal = {
+	first = I96
+	second = I64
+	start_date = 1200.1.1
+	end_date = 1440.1.1
+}
+
+vassal = {
+	first = I96
+	second = J50
+	start_date = 1200.1.1
+	end_date = 1440.1.1
+}
+

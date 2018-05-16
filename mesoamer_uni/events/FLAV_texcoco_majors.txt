@@ -1,0 +1,274 @@
+#Major Flavor Events for Texcoco
+namespace = flav_tex_majors
+
+#Huexotla's Rebellion#
+country_event = {
+	id = flav_tex_majors.01
+	
+	title = "flav_tex_majors1.t"
+	desc = "flav_tex_majors1.d"
+	
+	picture = BATTLE_eventPicture 
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ACC
+		NOT = { is_year = 1440 }
+		19 = {
+			owned_by = ACC
+		}
+		23 = {
+			owned_by = ACC
+		}
+		24 = {
+			owned_by = ACC
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = {
+		name = "flav_tex_majors1.a"
+		add_prestige = -5
+		custom_tooltip = flav_tex_maj_001
+		AAA = {
+			country_event = { id = flav_ten_majors.01 days = 2 }
+		}
+		19 = {
+			spawn_rebels = {
+				type = nationalist_rebels 
+				size = 1
+			}
+		}
+		23 = {
+			spawn_rebels = {
+				type = nationalist_rebels 
+				size = 1
+			}
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "flav_tex_majors1.b"
+		add_prestige = 10
+		19 = {
+			spawn_rebels = {
+				type = nationalist_rebels 
+				size = 1
+			}
+		}
+		23 = {
+			spawn_rebels = {
+				type = nationalist_rebels 
+				size = 1
+			}
+		}
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Tenochca Help
+country_event = {
+	id = flav_tex_majors.02
+	
+	title = "flav_tex_majors2.t"
+	desc = "flav_tex_majors2.d"
+	
+	picture = DIPLOMACY_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_tex_majors2.a"
+		add_manpower = 2
+		add_treasury = 40
+	}
+}
+
+#Tenochca Don't Help
+country_event = {
+	id = flav_tex_majors.03
+	
+	title = "flav_tex_majors3.t"
+	desc = "flav_tex_majors3.d"
+	
+	picture = DIPLOMACY_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_tex_majors3.a"
+	}
+}
+
+#The Feigned War#
+#The Feigned War?
+country_event = {
+	id = flav_tex_majors.04
+	
+	title = "flav_tex_majors4.t"
+	desc = "flav_tex_majors4.d"
+	
+	picture = DIPLOMACY_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_tex_majors4.a"
+		AAA = {
+			country_event = { id = flav_ten_majors.11 days = 1 }
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "flav_tex_majors4.b"
+		AAA = {
+			country_event = { id = flav_ten_majors.12 days = 1 }
+		}
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+	
+	option = {
+		name = "flav_tex_majors4.c"
+		AAA = {
+			country_event = { id = flav_ten_majors.13 days = 1 }
+		}
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Symbolic Submittance?
+country_event = {
+	id = flav_tex_majors.05
+	
+	title = "flav_tex_majors5.t"
+	desc = "flav_tex_majors5.d"
+	
+	picture = DIPLOMACY_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_tex_majors5.a"
+		AAA = {
+			country_event = { id = flav_ten_majors.14 days = 1 }
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = {
+		name = "flav_tex_majors5.b"
+		AAA = {
+			country_event = { id = flav_ten_majors.15 days = 1 }
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#IF YOU WANT TO WIN THE FEIGNED WAR-
+#Tenochca Agree
+country_event = {
+	id = flav_tex_majors.06
+	
+	title = "flav_tex_majors6.t"
+	desc = "flav_tex_majors6.d"
+	
+	picture = DIPLOMACY_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_tex_majors6.a"
+		custom_tooltip = FLAV_ten_maj_001
+		AAA = {
+			country_event = { id = flav_ten_majors.17 days = 62 }
+		}
+		ACC = {
+			country_event = { id = flav_ten_majors.17 days = 62 }
+		}
+	}
+}
+
+#Tenochca Refuse
+country_event = {
+	id = flav_tex_majors.07
+	
+	title = "flav_tex_majors7.t"
+	desc = "flav_tex_majors7.d"
+	
+	picture = DIPLOMACY_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_tex_majors7.a"
+		add_opinion = {
+			who = AAA
+			modifier = opinion_ta_infuriated 
+		}
+		AAA = {
+			add_opinion = {
+				who = ACC
+				modifier = opinion_ta_infuriated 
+			}
+		}
+	}
+}
+
+#THEY ASK YOU TO FIGHT AND YOU SAY NO.-
+country_event = {
+	id = flav_tex_majors.08
+	
+	title = "flav_tex_majors8.t"
+	desc = "flav_tex_majors8.d"
+	
+	picture = DIPLOMACY_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_tex_majors8.a"
+	}
+}
+
+#THEY ASK YOU TO SYMBOLICALLY SUBMIT AND YOU SAY NO.-
+country_event = {
+	id = flav_tex_majors.09
+	
+	title = "flav_tex_majors9.t"
+	desc = "flav_tex_majors9.d"
+	
+	picture = DIPLOMACY_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_tex_majors9.a"
+	}
+}

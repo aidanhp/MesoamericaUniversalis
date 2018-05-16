@@ -390,7 +390,33 @@ country_event = {
 				change_variable = { which = v_prov_growth_rate value = -0.002 }
 			}
 			#Other modifiers 
-			####ADD LATER ON####
+			if = { 
+				limit = { 
+					has_province_modifier = TEN_locust_plague_mitigated
+				}
+				change_variable = { which = v_prov_growth_rate value = -0.05 }
+			}
+			
+			if = { 
+				limit = { 
+					has_province_modifier = TEN_locust_plague
+				}
+				change_variable = { which = v_prov_growth_rate value = -0.10 }
+			}
+			
+			if = { 
+				limit = { 
+					has_province_modifier = TEN_reduced_famine
+				}
+				change_variable = { which = v_prov_growth_rate value = -0.08 }
+			}
+			
+			if = { 
+				limit = { 
+					has_province_modifier = TEN_famine_emigration
+				}
+				change_variable = { which = v_prov_growth_rate value = -0.08 }
+			}
 			
 			#Set change equal to current population
 			set_variable = { which = v_commoner_pops_change which = v_commoner_pops }

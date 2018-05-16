@@ -10,7 +10,10 @@
  huaxyacac_tg: "Huaxyacac"
  west_mexican_tg: "West Mexican"
  maya_tg: "Maya"
+ 
+ 
  #Technology#
+ #Administrative
  adm_tech_cs_0_name:0 "Middle Postclassic Political Structures"
  adm_tech_cs_1_name:0 "Mass Agricultural Intensification"
  adm_tech_cs_2_name:0 "Mesoamerican Renaissance"
@@ -41,6 +44,7 @@
  adm_tech_cs_6_desc:0 ""
  adm_tech_cs_7_desc:0 ""
  
+ #Diplomatic
  dip_tech_cs_0_name:0 "Maritime Trade"
  dip_tech_cs_1_name:0 "An International Economy"
  dip_tech_cs_2_name:0 "Tlameme Expansion"
@@ -71,6 +75,7 @@
  dip_tech_cs_6_desc:0 ""
  dip_tech_cs_7_desc:0 ""
  
+ #Military
  mil_tech_cs_0_name:0 "Middle Postclassic Warfare"
  mil_tech_cs_1_name:0 "The Macuahuitl Broadsword"
  mil_tech_cs_2_name:0 "Integrated Archery"

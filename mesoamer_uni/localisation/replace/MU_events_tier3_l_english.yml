@@ -1,0 +1,77 @@
+﻿l_english:
+ #Localization for tier 3 country events#
+ 
+ #-------------------------#
+ #FOR AZCAPOTZALCO
+ 
+ #--CUSTOM TOOLTIPS
+ 
+ #--EVENT MODIFIDERS
+ 
+ #--DECISIONS
+ 
+ #--DISASTERS
+  
+ #--MAJORS
+ flav_declarations1.t: "The Tepanec Empire Restored!"
+ flav_declarations1.d: "The Kingdom of Azcapotzalco was transformed into an empire under the reign of the great lord Tezozomoc, perhaps the greatest Tepanec to ever live, whose military and political genius unified the Valley of Mexico and beyond for the first time in centuries. However, a petty conflict between his sons Tayatzin and Maxtla sent the Empire into civil war shortly after Tezozomoc’s death - and the cursed Triple Alliance sacked the great city of Azcapotzalco and sent the empire into ruin.  \nNow however, the tables have been turned. Under a new dynasty of Tepanec kings, the Triple Alliance was brought low, including the nigh unforgivable traitors of Tlacopan. A new Tepanec Empire has been created - and Tezozomoc’s legacy has been restored!"
+ flav_declarations1.a: "The lands of Mexico shall be ours, forever!" 
+ 
+ #--MINORS
+
+ #--CUTE 
+ 
+ #-------------------------#
+ #FOR TOLTEC HUEYI-TLAHTOCAYOTL
+ 
+ #--CUSTOM TOOLTIPS
+ FLAV_declarations_001: "Our ruler will be crowned in one month."
+ #--EVENT MODIFIDERS
+ second_capital: "Second Capital"
+ crowned_quetzalcoatl: "Crowned Quetzalcoatl"
+ #--DECISIONS
+ 
+ #--DISASTERS
+  
+ #--MAJORS
+ flav_declarations2.t: "The Toltec Empire Restored!"
+ flav_declarations2.d: "It has been many, many, turns of the calendar since Ce Acatl Topiltzin Quetzalcoatl, the last and legendary ruler of the Toltec Empire, sat on his throne in the great city of Tula. Since his departure after the feud with his rival Huemac, Tula, now simply called ‘Tollan’, has been in decline, but it was never truly abandoned, maintaining a small remnant population, with the weathered remnants of its splendor standing against the forces of time as they wait for a man who could make them beautiful and strong again. \n$MONARCH$ is that man. \nAfter completing his conquests, which left him as the ruler of the largest empire in the history of the One World, he journeyed to Tollan with his relatives and several of the highest-ranking priests in the Empire. They suggested something radical - that he, who had proven himself as a true king of Toltecs, with his wisdom, might, and the great flourishing of culture that had taken place under his dynasty’s rule - rebuild the old temples and palaces of Tula, except larger and even grander, and make them the seat of his empire. $MONARCH$ thought this a grand idea, but he was reluctant to take the position away from $CAPITAL_CITY$, which had become a Tollan in its own right. Before the official coronation ceremony can be held, a decision must be reached on the status of the two cities."
+ flav_declarations2.a: "Ours shall be an Empire of Twin Tollans!"
+ flav_declarations2.b: "There is only one true Tollan!"
+ 
+ flav_declarations3.t: "$MONARCH$ Crowned Quetzalcoatl"
+ flav_declarations3.d: "The cheers are like an earthquake as $MONARCH$, dressed in the garbs sewn by craftsmen whose work only a true Toltec Emperor would deserve, strides down the central road of Tollan. He is flanked by thousands of his best warriors - all resplendent in the finest armors, bearing the best insignia, and wearing small quetzal feathers as tokens of respect. As $MONARCH$ approaches the priests and nobles in the central precinct, he turns to the crowd and puts up his hand, as if to summon something. In response, great bonfires flare up on the mountains around Tollan, in such numbers that it appears as if the mountains themselves are aflame. \nThe crowd goes wilder, if that was even possible. \nAfter basking in the applause for a full minute, $MONARCH$ holds up his hands again, and his warriors begin to stamp their ceremonial spears on the ground in order to quiet the crowd. Soon, despite the enormous number of people, there is not even a whisper. $MONARCH$ turns and begins to ascend the freshly painted steps of the central pyramid, which now depict epic scenes from the history of our great empire. When he reaches the top, the high priest of our realm whispers something in his ear, and then $MONARCH$ kneels before him. The priest reveals the crown - perhaps the finest piece of craftsmanship in the entire world, with long, beautiful Quetzal feathers streaming from it - and slowly lowers it onto $MONARCH$’s head. With the coronation complete, $MONARCH$ turns back to the audience and shouts…"
+ flav_declarations3.a: "BEHOLD! THE NEW QUETZALCOATL OF TOLLAN!"
+ 
+ #--MINORS
+
+ #--CUTE 
+ 
+ #-------------------------#
+ #FOR LEAGUE OF MAYAPAN
+ 
+ #--CUSTOM TOOLTIPS
+ flav_cocom_001: "Cocom loses all of its vassals and the League of Mayapan is disbanded. The decision to restore it becomes available."
+ #--EVENT MODIFIDERS
+ royal_hostages_LOM: "Royal Hostages"
+ #--DECISIONS
+ 
+ #--DISASTERS
+  
+ #--MAJORS
+ flav_cocom1.t: "The Fall of Kukulkan's Realm"
+ flav_cocom1.d: "The League of Mayapan can no longer withstand itself. Although it brought unity to the Maya people for several hundred years, it has slowly been disintegrating since the late 13th century and now most of the provinces that comprise it are hardly beholden to the whims of the capital city. To make matters worse, severe drought has struck the Yucatan of late and the provincial nobles have been angered by the ruling Cocom, Hunac, who is an exceptionally cruel person and when questioned in his seat of power, hired malicious foreign mercenaries all the way from Mexico to brutally quash unrest. The powerful Tutul Xiu Dynasty, lead by Halach Uinik Ah Xupan, has recognized the vulnerability of the situation, and thusly declared his independence today, taking half of the Cocom territory with him, siezing Mayapan, and initiating a war. The power of the League has such been broken and the various kingdoms of the Yucatan will soon flee our control."
+ flav_cocom1.a: "Traitors! All of them!" 
+ 
+ flav_cocom2.t: "The Fall of Kukulkan's Realm"
+ flav_cocom2.d: "The oppressive rule of Maya Ajaw Hunac Cocom appears to be at an end! Exasperated by the Cocom’s cruel behaviour towards fellow members of the League government and liberal use of mercenary armies from Mexico to quash unrest, a powerful Nobleman of the Tutul Xiu dynasty, Ah Xupan, seems to have secretly gathered an army and seized half of the Cocom’s kingdom. Hunac has rallied his loyal eastern provinces and is organizing a military expedition to retake Mayapan and the rest of his kingdom, but the Xius have prepared extensively and will not be easily defeated. Both are too distracted to maintain the coherency of the League, and it has almost utterly disintegrated. We are free, at last!"
+ flav_cocom2.a: "Good riddance!"
+ 
+ flav_declarations.t: "The League of Mayapan Restored!"
+ flav_declarations.d: "After the fall of the Toltec dynasty of Chichen Itza, the Maya of Ulu’umil Kutz were unified by a great league ruling from the mighty walled city of Mayapan - said to have been founded by the cultural hero and demigod Kukulkan. For many golden years it reigned, before being brought low by the evils of famine and war. \nNow, the various Kuchkabals have been united once more by a league mightier than any that came before it - indeed, perhaps mightier than any Maya kingdom since Great Fiery Jaguar Paw ruled from the Altar of the Deer in the early, shrouded days of our history. \nGovernance has been moved back to the sacred city of Mayapan, and the temples and palaces refurbished by the best craftsman and architects. The city’s crumbling wall has been rebuilt. It shall never fall again!"
+ flav_declarations.a: "All hail Kukulkan and $MONARCH$!"
+ 
+ #--MINORS
+
+ #--CUTE 
+ 

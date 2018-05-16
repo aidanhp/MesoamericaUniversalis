@@ -1,0 +1,545 @@
+#Minor events for Tenochtitlan
+namespace = flav_ten_minors
+
+#Tlacaelel Series#
+#Tlacaelel's Rise
+country_event = {
+	id = flav_ten_minors.01
+	
+	title = "flav_ten_minors1.t"
+	desc = "flav_ten_minors1.d"
+	
+	picture = TLACAELEL_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = AAA
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "flav_ten_minors1.a"
+		add_country_modifier = {
+			name = TEN_tlacaelel_tlacochcalcatl
+			duration = -1
+		}
+	}
+}
+
+#Cihuacoatl
+country_event = {
+	id = flav_ten_minors.02
+	
+	title = "flav_ten_minors2.t"
+	desc = "flav_ten_minors2.d"
+	
+	picture = TLACAELEL_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_country_modifier = TEN_tlacaelel_tlacochcalcatl
+		is_year = 1440
+	}
+	
+	mean_time_to_happen = {
+		months = 18
+	}
+	
+	option = {
+		name = "flav_ten_minors2.a"
+		add_country_modifier = {
+			name = TEN_tlacaelel_cihuacoatl
+			duration = -1
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "flav_ten_minors2.b"
+		add_prestige = 25
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Tlacaelel's Reforms
+country_event = {
+	id = flav_ten_minors.03
+	
+	title = "flav_ten_minors3.t"
+	desc = "flav_ten_minors3.d"
+	
+	picture = TLACAELEL_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_country_modifier = TEN_tlacaelel_cihuacoatl
+		num_of_cities = 60
+	}
+	
+	mean_time_to_happen = {
+		months = 16
+	}
+	
+	option = {
+		name = "flav_ten_minors3.a"
+		add_army_tradition = 50
+		custom_tooltip = GOVS_tt_i_0150
+		custom_tooltip = GOVS_ht_i_0150
+		custom_tooltip = FLAV_ten_min_001
+		custom_tooltip = FLAV_ten_min_004
+		
+		hidden_effect = {
+			change_variable = { which = v_religious_tradition value = 15 }
+			change_variable = { which = v_terr_hege value = 15 }
+			set_country_flag = tlacaelel_reforms_1
+		}
+		ai_chance = {
+			factor = 75
+		}
+	}
+	
+	option = {
+		name = "flav_ten_minors3.b"
+		add_army_tradition = 20
+		custom_tooltip = GOVS_tt_i_0100
+		custom_tooltip = GOVS_ht_i_0100
+		custom_tooltip = FLAV_ten_min_002
+		custom_tooltip = FLAV_ten_min_005
+		
+		hidden_effect = {
+			change_variable = { which = v_religious_tradition value = 10 }
+			change_variable = { which = v_terr_hege value = 10 }
+			set_country_flag = tlacaelel_reforms_2
+		}
+		
+		ai_chance = {
+			factor = 20
+		}
+	}
+	
+	option = {
+		name = "flav_ten_minors3.c"
+		add_stability = -1
+		custom_tooltip = FLAV_ten_min_003
+		
+		hidden_effect = {
+			set_country_flag = tlacaelel_reforms_3
+		}
+		
+		ai_chance = {
+			factor = 5
+		}
+	}
+}
+
+#Tlacaelel's Death
+country_event = {
+	id = flav_ten_minors.04
+	
+	title = "flav_ten_minors4.t"
+	desc = "flav_ten_minors4.d"
+	
+	picture = DEATH_OF_HEIR_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		OR = { 
+			has_country_modifier = TEN_tlacaelel_cihuacoatl
+			has_country_modifier = TEN_tlacaelel_tlacochcalcatl
+		}
+		is_year = 1487
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		name = "flav_ten_minors4.a"
+		add_prestige = 10
+		remove_country_modifier = TEN_tlacaelel_tlacochcalcatl
+		remove_country_modifier = TEN_tlacaelel_cihuacoatl
+	}
+}
+
+#Expedition to Aztlan#
+#The Lost Home in the North
+country_event = {
+	id = flav_ten_minors.05
+	
+	title = "flav_ten_minors5.t"
+	desc = "flav_ten_minors5.d"
+	
+	picture = RELIGION_eventPicture 
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 1445
+		NOT = { is_year = 1519 } 
+		OR = {
+			has_country_modifier = TEN_tlacaelel_cihuacoatl
+			has_country_modifier = TEN_tlacaelel_tlacochcalcatl
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 240
+	}
+	
+	option = {
+		name = "flav_ten_minors5.a"
+		custom_tooltip = FLAV_ten_min_006
+		hidden_effect = { 
+			country_event = { id = flav_ten_minors.06 days = 2 }
+		}
+		
+		ai_chance = {
+			factor = 75
+		}
+	}
+	
+	option = {
+		name = "flav_ten_minors5.b"
+		custom_tooltip = FLAV_ten_min_007
+		hidden_effect = {
+			country_event = { id = flav_ten_minors.08 days = 1085 }
+		}
+		
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+#Tlacaelel's Advice
+country_event = {
+	id = flav_ten_minors.06
+	
+	title = "flav_ten_minors6.t"
+	desc = "flav_ten_minors6.d"
+	
+	picture = TLACAELEL_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_ten_minors6.a"
+		custom_tooltip = FLAV_ten_min_008
+		hidden_effect = {
+			country_event = { id = flav_ten_minors.07 days = 1085}
+		}
+		
+		ai_chance = {
+			factor = 75
+		}
+	}
+	
+	option = {
+		name = "flav_ten_minors6.b"
+		custom_tooltip = FLAV_ten_min_007
+		hidden_effect = {
+			country_event = { id = flav_ten_minors.08 days = 1085}
+		}
+		
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+#The Expedition Succeeds
+country_event = {
+	id = flav_ten_minors.07
+	
+	title = "flav_ten_minors7.t"
+	desc = "flav_ten_minors7.d"
+	
+	picture = RELIGION_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_ten_minors7.a"
+		add_prestige = 10
+		add_legitimacy = 10
+	}
+}
+
+#The Expedition Fails
+country_event = {
+	id = flav_ten_minors.08
+	
+	title = "flav_ten_minors8.t"
+	desc = "flav_ten_minors8.d"
+	
+	picture = FAMINE_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_ten_minors8.a"
+		add_prestige = -10
+	}
+}
+
+#Conflict with Tlatelolco#
+#Death of Quauhtlatoatzin
+country_event = {
+	id = flav_ten_minors.09
+	
+	title = "flav_ten_minors9.t"
+	desc = "flav_ten_minors9.d"
+	
+	picture = DEATH_OF_HEIR_eventPicture 
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_ten_minors9.a"
+		
+		AAB = {
+			country_event = { id = flav_ten_minors.10 days = 1 }
+		}
+		
+		ai_chance = {
+			factor = 90
+		}
+	}
+	
+	option = {
+		name = "flav_ten_minors9.b"
+		
+		add_prestige = -10
+		
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+#A New Tlatoani (Tlatelolco)
+country_event = {
+	id = flav_ten_minors.10
+	
+	title = "flav_ten_minors10.t"
+	desc = "flav_ten_minors10.d"
+	
+	picture = COURT_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_ten_minors10.a"
+		
+		AAA = {
+			country_event = { id = flav_ten_minors.11 days = 1 }
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "flav_ten_minors10.b"
+		
+		declare_war_with_cb = {
+			who = AAA
+			casus_belli = cb_feud_triggered
+		}
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Tlatelolco Acquiesces 
+country_event = {
+	id = flav_ten_minors.11
+	
+	title = "flav_ten_minors11.t"
+	desc = "flav_ten_minors11.d"
+	
+	picture = COURT_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_ten_minors11.a"
+		
+		AAB = {
+			define_ruler = {
+				name = "Moquihuix"
+				dynasty = "Texcocah" 
+				age = 30
+				claim = 85
+				regency = no
+				female = no
+				adm = 3
+				dip = 2
+				mil = 4
+				fixed = yes
+			}
+		}
+		vassalize = AAB
+		add_prestige = 10
+		set_country_flag = appointed_moquihuix
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Moquihuix's Plot
+country_event = {
+	id = flav_ten_minors.12
+	
+	title = "flav_ten_minors12.t"
+	desc = "flav_ten_minors12.d"
+	
+	picture = DIPLOMACY_eventPicture 
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = AAB
+		has_ruler = "Moquihuix"
+		AAA = {
+			has_country_flag = appointed_moquihuix
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = {
+		name = "flav_ten_minors12.a"
+		
+		custom_tooltip = FLAV_ten_min_009
+		hidden_effect = {
+			AAA = {
+				country_event = { id = flav_ten_minors.13 days = 7 }
+			}
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "flav_ten_minors12.b"
+		
+		add_prestige = -1
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#A Distubing Development
+country_event = {
+	id = flav_ten_minors.13
+	
+	title = "flav_ten_minors13.t"
+	desc = "flav_ten_minors13.d"
+	
+	picture = ASSASSINATION_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_ten_minors13.a"
+		
+		custom_tooltip = FLAV_ten_min_010
+		hidden_effect = {
+			country_event = { id = flav_ten_minors.14 days = 7 }
+			AAB = {
+				country_event = { id = flav_ten_minors.15 days = 7 }
+			}
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "flav_ten_minors13.b"
+		
+		declare_war_with_cb = {
+			who = AAB
+			casus_belli = cb_feud_triggered
+		}
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Tlacaelel's Punishment (Tenochtitlan)
+country_event = {
+	id = flav_ten_minors.14
+	
+	title = "flav_ten_minors14.t"
+	desc = "flav_ten_minors14.d"
+	
+	picture = BATTLE_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_ten_minors14.a"
+		
+		create_union = AAB
+		add_prestige = 10
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Tlacaelel's Punishment (Tlatelolco)
+country_event = {
+	id = flav_ten_minors.15
+	
+	title = "flav_ten_minors15.t"
+	desc = "flav_ten_minors15.d"
+	
+	picture = BATTLE_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_ten_minors15.a"
+		
+		custom_tooltip = FLAV_ten_min_011
+		add_prestige = -25
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+}

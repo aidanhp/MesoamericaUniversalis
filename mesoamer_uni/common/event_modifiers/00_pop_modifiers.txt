@@ -1,0 +1,17 @@
+#Population Modifiers
+
+baby_boom_global = {
+	global_tax_modifier = 0.05
+}
+
+baby_boom_local = {
+	local_tax_modifier = 0.05
+}
+
+declining_birthrate_global = {
+	global_tax_modifier = -0.05
+}
+
+declining_birthrate_local = {
+	local_tax_modifier = -0.05
+}

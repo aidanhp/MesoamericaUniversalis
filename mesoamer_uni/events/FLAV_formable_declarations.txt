@@ -1,0 +1,158 @@
+#Flavor events for when you form a formable country
+namespace = flav_declarations
+
+#Tepanec Empire#
+#The Tepanec Empire Restored!
+country_event = {
+	id = flav_declarations.01
+	
+	title = "flav_declarations1.t"
+	desc = "flav_declarations1.d"
+	
+	picture = REFORM_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_declarations1.a"
+		
+		add_prestige = 100
+		add_legitimacy = 100
+		add_stability = 3
+		5 = {
+			add_province_modifier = {
+				name = baby_boom_local
+				duration = 1825
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Toltec Empire#
+#The Toltec Empire Restored!
+country_event = {
+	id = flav_declarations.02
+	
+	title = "flav_declarations2.t"
+	desc = "flav_declarations2.d"
+	
+	picture = REFORM_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_declarations2.a"
+		
+		204 = {
+			add_province_modifier = {
+				name = second_capital
+				duration = -1
+			}
+			add_province_modifier = {
+				name = baby_boom_local
+				duration = 1825
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_building = administrative_center 
+					}
+				}
+				add_building = administrative_center 
+			}
+		}
+		custom_tooltip = FLAV_declarations_001
+		hidden_effect = {
+			country_event = { id = TOL_FLAVOR.02 days = 30 }
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "flav_declarations2.b"
+		
+		set_capital = 204
+		204 = {
+			add_province_modifier = {
+				name = baby_boom_local
+				duration = 1825
+			}
+		}
+		custom_tooltip = FLA_TOL_001
+		hidden_effect = {
+			country_event = { id = flav_declarations.03 days = 30 }
+		}
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#$MONARCH$ Crowned Quetzalcoatl!
+country_event = {
+	id = flav_declarations.03
+	
+	title = "flav_declarations3.t"
+	desc = "flav_declarations3.d"
+	
+	picture = REFORM_eventPicture 
+	
+	is_triggered_only = yes
+	option = {
+		name = "flav_declarations3.a"
+		
+		add_legitimacy = 100
+		add_prestige = 100
+		add_stability = 1
+		add_country_modifier = {
+			name = crowned_quetzalcoatl
+			duration = -1
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#League of Mayapan
+#The League of Mayapan Restored!
+country_event = {
+	id = flav_declarations.04
+	
+	title = "flav_declarations4.t"
+	desc = "flav_declarations4.d"
+	
+	picture = REFORM_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_declarations4.a"
+		
+		add_legitimacy = 100
+		add_prestige = 100
+		add_stability = 1
+		set_capital = 1644
+		1644 = {
+			add_province_modifier = {
+				name = baby_boom_local
+				duration = 1825
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+

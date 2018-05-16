@@ -12,7 +12,7 @@ country_decisions = {
 		
 		allow = {
 			OR = { 
-				check_variable = { which = v_triple_alliance_influence value = 100 } 
+				check_variable = { which = v_ta_influence value = 100 } 
 				AND = { 
 					3 = { 
 						owned_by = AAA
@@ -55,7 +55,7 @@ country_decisions = {
 		
 		allow = {
 			OR = { 
-				check_variable = { which = v_triple_alliance_influence value = 100 } 
+				check_variable = { which = v_ta_influence value = 100 } 
 				AND = { 
 					1 = { 
 						owned_by = ACC
@@ -98,7 +98,7 @@ country_decisions = {
 		
 		allow = {
 			OR = { 
-				check_variable = { which = v_triple_alliance_influence value = 100 } 
+				check_variable = { which = v_ta_influence value = 100 } 
 				AND = { 
 					1 = { 
 						owned_by = AAD
@@ -153,6 +153,7 @@ country_decisions = {
 		effect = { 
 			change_tag = Z05 
 			set_government_rank = 3
+			country_event = { id = flav_declarations.01 } 
 		}
 	}	
 	
@@ -177,6 +178,7 @@ country_decisions = {
 		effect = { 
 			change_tag = Z05 
 			set_government_rank = 3
+			country_event = { id = flav_declarations.01 } 
 		}
 	}	
 	
@@ -228,6 +230,7 @@ country_decisions = {
 		effect =  {
 			change_tag = Z06
 			set_government_rank = 3
+			country_event = { id = flav_declarations.02 } 
 		}
 	}
 	
@@ -260,6 +263,7 @@ country_decisions = {
 		effect = {
 			change_tag = Z07
 			set_government_rank = 3
+			country_event = { id = flav_declarations.04 } 
 		}
 	}
 	

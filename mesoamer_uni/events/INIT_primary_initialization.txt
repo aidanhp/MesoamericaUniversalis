@@ -46,14 +46,22 @@ country_event = {
 				remove_idea_group = defensive_ideas
 				
 				#Initialize Variables
-				set_variable = { which = v_terr_hege value = -40 }
+				
+				set_variable = { which = v_terr_hege value = 20 }
 				set_variable = { which = v_terr_hege_change value = 0 }
 				set_variable = { which = v_terr_hege_display_c value = 0 } 
 				
-				set_variable = { which = v_legal_tradition value = 20 } 
-				set_variable = { which = v_merit_tradition value = 20 }
-				set_variable = { which = v_religious_tradition value = 20 } 
-				set_variable = { which = v_militancy value = 20 }
+				set_variable = { which = v_legal_tradition value = 50 } 
+				set_variable = { which = v_legal_tradition_change value = 0 }
+				set_variable = { which = v_legal_tradition_display_c value = 0 } 
+				
+				set_variable = { which = v_merit_tradition value = 50 }
+				set_variable = { which = v_merit_tradition_change value = 0 }
+				set_variable = { which = v_merit_tradition_display_c value = 0 } 
+				
+				set_variable = { which = v_religious_tradition value = 50 } 
+				set_variable = { which = v_religious_tradition_change value = 0 }
+				set_variable = { which = v_religious_tradition_display_c value = 0 } 
 				
 				set_variable = { which = v_draft_law value = 2 }
 				
@@ -105,7 +113,7 @@ country_event = {
 			############################
 			every_country = { #Sets normal tribute requirements for all hegemonic countries
 				limit = { #Note - replace with having the first hegemonic idea unlocked later 
-					NOT = { check_variable = { which = v_terr_hege value = 20 } } 
+					NOT = { check_variable = { which = v_terr_hege value = 50 } } 
 				}
 				add_country_modifier = {
 					name = normal_tribute_requirements
@@ -123,10 +131,31 @@ country_event = {
 				}
 			}
 			
+			#Triple Alliance 
+			AAA = { 
+				set_variable = { which = v_ta_influence value = 20 } 
+			}
+			ACC = {
+				set_variable = { which = v_ta_influence value = 15 } 
+			}
+			AAD = { 
+				set_variable = { which = v_ta_influence value = 10 } 
+			}
+			
+			#Accepted Cultures
 			AAA = {
 				add_accepted_culture = tepanec
 				add_accepted_culture = colhua
 				add_accepted_culture = acolhua
+			}
+			
+			#Maya Civil War
+			I96 = { 
+				add_country_modifier = {
+					name = royal_hostages_LOM
+					duration = -1
+				}
+				country_event = { id = flav_cocom.01 days = 40 } 
 			}
 		
 			########################

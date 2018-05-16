@@ -1,0 +1,49 @@
+spriteTypes = {
+	spriteType = {
+		name = "CODEX_TEN"
+		texturefile = "gfx/event_pictures/event_pictures_MU/CODEX_TEN.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "codex_TCP"
+		texturefile = "gfx/event_pictures/event_pictures_MU/codex_TCP.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "codex_TEX"
+		texturefile = "gfx/event_pictures/event_pictures_MU/codex_TEX.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "codex_TTT"
+		texturefile = "gfx/event_pictures/event_pictures_MU/codex_IUA.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "FALL_OF_MAYAPAN_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_MU/FALL_OF_MAYAPAN_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "TLACAELEL_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_MU/TLACAELEL_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "CODEX_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_MU/CODEX_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "BALLGAME_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_MU/BALLGAME_eventPicture.dds"
+		allwaystransparent = yes
+	}
+}

@@ -1,0 +1,51 @@
+mercantile_expansion = {
+	type = take_capital
+	
+	badboy_factor = 0.90
+	prestige_factor = 1.25
+	peace_cost_factor = 0.75
+	
+	po_trade_power = yes
+	po_gold = yes
+	po_become_vassal = yes
+	
+	
+	war_name = MERCANTILE_EXPANSION_WARNAME
+}
+
+feud_triggered = {
+	type = superiority
+	
+	badboy_factor = 0.75
+	prestige_factor = 1.25
+	peace_cost_factor = 0.9
+	
+	po_demand_provinces = yes
+	
+	war_name = FEUD_TRIGGERED_WARNAME
+}
+
+unite_valley_of_mexico = {
+	type = take_capital
+	
+	badboy_factor = 0.66
+	prestige_factor = 1.25
+	peace_cost_factor = 0.75
+	
+	po_demand_provinces = yes
+	
+	war_name = UNITE_MEXICO_WARNAME
+}
+
+spanish_conquest = {
+	type = superiority
+	
+	badboy_factor = 0.25
+	prestige_factor = 1.5
+	peace_cost_factor = 0.25
+	
+	po_demand_provinces = yes
+	
+	war_name = SPANISH_CONQUEST_WARNAME
+}
+

@@ -1,0 +1,22 @@
+#Contains some decisions for Triple Alliance Countries
+country_decisions = {
+	display_triple_alliance_influence = { 
+		potential = { 
+			ai = no
+			OR = { 
+				tag = AAA
+				tag = AAD
+				tag = ACC
+			}
+		}
+		
+		allow = { 
+			NOT = { has_country_flag = viewing_ta_influence } 
+		}
+		
+		effect = { 
+			set_country_flag = viewing_ta_influence
+			country_event = { id = menus.01 } 
+		}
+	}
+}

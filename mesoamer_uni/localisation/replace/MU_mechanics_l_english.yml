@@ -1,5 +1,6 @@
 ﻿l_english:
- #Event/Decision/Tooltip/Modifier Localization for New Mechanics that do not clearly fit into Another Category#
+ #Event/Decision/Tooltip/Modifier Localization for major mechanics that do not clearly fit into Another Category#
+ 
  #Draft Laws#
  #Events
  draft_laws1.t: "Set Draft Law"
@@ -27,6 +28,7 @@
  #Decisions
  set_draft_laws_title: "Set Draft Laws"
  set_draft_laws_desc: "Declare a new recruitment policy that will either increase or decrease your potential manpower pool, and also affect your provinces in various ways. \nCurrently, our draft law is set to level [Root.v_draft_law.GetValue]." 
+ 
  
  #Tribute System#
  #Events
@@ -98,9 +100,15 @@
  set_tribute_requirements_title: "Set Tribute Requirements"
  set_tribute_requirements_desc: "Declare a change in tribute requirements for your tributary (non-state) provinces. To learn more about the tribute system, see the encyclopedia entry."
  
+ 
  #Population System#
  #Tooltips 
  POPULATION_SYS_NO: "You cannot manually increase population, it must grow naturally."
+ 
+ #Modifiers
+ baby_boom_global: "Baby Boom - Global \nGlobal Population Growth: §G+0.01%§!"
+ baby_boom_local: "Baby Boom - Local \nLocal Population Growth: §G+0.01%§!"
+ 
  
  #Communication Efficiency#
  #Modifiers
@@ -126,6 +134,7 @@
  ai_terrible_communication: "Terrible Communication"
  ai_minimal_communication: "Minimal Communication"
  
+ 
  #Captives#
  #Events
  captives1.t: "Assess Captives"
@@ -138,8 +147,22 @@
  assess_captives_title: "Assess Captives"
  assess_captives_desc: "Check how many captives you currently possess, and your captives limit."
  
+ 
  #Special Global Modifiers#
  mesoamerican_logistics: "Mesoamerican Logistics"
  desc_mesoamerican_logistics: "The rough terrain and lack of draft and transportation animals in Mesoamerica made controlling large realms and fielding large armies a more difficult task."
  postclassic_golden_age: "Late Postclassic Golden Age"
  desc_postclassic_golden_age: "In the Late Postclassic, Mesoamerica experienced a golden age as population growth increased drastically, the world was reintegrated into large kingdoms and empires, and the economy became more interconnected and productive, seeing the rise of a powerful merchant class capable of challenging the old elite. This was all accompanied by large-scale reurbanization, resulting in around half the population of core areas like the Valley of Mexico living in cities by the time the Spanish arrived in 1519." 
+ 
+ 
+ #Casus Bellis and Wargoals#
+ cb_mercantile_expansion: "Mercantile Expansion"
+ cb_mercantile_expansion_desc: "This nation possesses wealth that could be better utilized by us! We must take it by force!"
+ cb_feud_triggered: "Feud"
+ cb_feud_triggered_desc: "Some slight grave enough to warrant war has been committed against us. We must punish the perpetrators!"
+ cb_unite_valley_of_mexico: "Unite the Valley of Mexico"
+ cb_unite_valley_of_mexico_desc: "The Valley of Mexico has been disunited for too long. It must be forged into the core of our empire!"
+ 
+ MERCANTILE_EXPANSION_WARNAME: "$ORDER$$FIRST$ Mercantile War Against $SECOND_NAME$"
+ FEUD_TRIGGERED_WARNAME: "$ORDER$$FIRST$ Feud With $SECOND_NAME$"
+ UNITE_MEXICO_WARNAME: "$ORDER$$FIRST$ War for Unity Against $SECOND_NAME$"

@@ -1,0 +1,214 @@
+#Flavor events for Cocom
+namespace = flav_cocom
+
+#The Fall of Kukulkan's Realm (Cocom)
+country_event = {
+	id = flav_cocom.01
+	
+	title = "flav_cocom1.t"
+	desc = "flav_cocom1.d"
+	
+	picture = FALL_OF_MAYAPAN_eventPicture 
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			add_manpower = -0.50
+			set_government_rank = 2
+			remove_country_modifier = royal_hostages_LOM
+			free_vassal = H33
+			free_vassal = H53
+			free_vassal = H86
+			free_vassal = H61
+			free_vassal = I08
+			free_vassal = I14
+			free_vassal = I60
+			free_vassal = I74
+			free_vassal = I64
+			free_vassal = J50
+			
+			1644 = { 
+				add_base_tax = -2
+				add_base_production = -4
+				add_base_manpower = -15
+			}
+			1658 = {
+				cede_province = J11
+				add_core = J11
+			}
+			1657 = {
+				cede_province = J11
+				add_core = J11
+			}
+			1654 = {
+				cede_province = J11
+				add_core = J11
+			}
+			1655 = {
+				cede_province = J11
+				add_core = J11
+			}
+			1660 = {
+				cede_province = J11
+				add_core = J11
+			}
+			1659 = {
+				cede_province = J11
+				add_core = J11
+			}
+			1663 = {
+				cede_province = J11
+				add_core = J11
+			}
+			1662 = {
+				cede_province = J11
+				add_core = J11
+			}
+			1661 = {
+				cede_province = J11
+				add_core = J11
+			}
+			1665 = {
+				cede_province = J11
+				add_core = J11
+			}
+			1664 = {
+				cede_province = J11
+				add_core = J11
+			}
+			1667 = {
+				cede_province = J11
+				add_core = J11
+			}
+			1666 = {
+				cede_province = J11
+				add_core = J11
+			}
+			1669 = {
+				cede_province = J11
+				add_core = J11
+			}
+			1668 = {
+				cede_province = J11
+				add_core = J11
+			}
+			1670 = {
+				cede_province = J11
+				add_core = J11
+			}
+			1672 = {
+				cede_province = J11
+				add_core = J11
+			}
+			1673 = {
+				cede_province = J11
+				add_core = J11
+			}
+			1671 = {
+				cede_province = J11
+				add_core = J11
+			}
+			1648 = {
+				cede_province = J11
+				add_core = J11
+			}
+			1647 = {
+				cede_province = J11
+				add_core = J11
+			}
+			1644 = {
+				cede_province = J11
+				add_core = J11
+			}
+			every_province = { 
+				limit = { 
+					owned_by = I96
+				}
+				add_core = J11
+			}
+			
+			1658 = {
+				add_unit_construction = {
+					type = infantry
+					amount = 15
+					speed = 0.02
+					cost = 0
+				}
+			}
+			J11 = {
+				set_government_rank = 2
+				add_treasury = 5000
+				add_manpower = 20
+				define_ruler = {
+					name = "Ah Xupan"
+					dynasty = "Tutul Xiu" 
+					age = 37
+					claim = 100
+					regency = no
+					female = no
+					adm = 4
+					dip = 5
+					mil = 5
+				}
+				define_ruler_to_general = {
+					shock = 5
+					fire = 2
+					manuever = 4
+					siege = 3
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "flav_cocom1.a"
+		custom_tooltip = flav_cocom_001
+		set_global_flag = may_restore_LOM
+		
+		declare_war_with_cb = {
+			who = J11
+			casus_belli = cb_feud_triggered  
+		}
+		
+		hidden_effect = { 		
+			every_country = {
+				limit = { 
+					capital_scope = {
+						region = yucatan_region 
+					}
+					NOT = { tag = I96 }
+				}	
+				country_event = { id = flav_cocom.02 } 
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#The Fall of Kukulkan's Realm (Everyone Else)
+country_event = {
+	id = flav_cocom.02
+	
+	title = "flav_cocom2.t"
+	desc = "flav_cocom2.d"
+	
+	picture = FALL_OF_MAYAPAN_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_cocom2.a"
+		
+		custom_tooltip = flav_cocom_001
+		add_prestige = 20
+		add_legitimacy = 20
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}

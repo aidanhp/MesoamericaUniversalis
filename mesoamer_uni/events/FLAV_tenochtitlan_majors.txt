@@ -1,0 +1,1466 @@
+#Major events for Tenochtitlan 
+namespace = flav_ten_majors
+
+#Consolidation of the Basin#
+
+#Texcoco Requests Help Against Huexotla
+country_event = {
+	id = flav_ten_majors.01
+	
+	title = "flav_ten_majors1.t"
+	desc = "flav_ten_majors1.d"
+	
+	picture = DIPLOMACY_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_ten_majors1.a"
+		custom_tooltip = TAI_i_005
+		add_manpower = -1
+		add_treasury = -25
+		#TET = {
+		#	country_event = { id = TET_FLAVOR.02 days = 1 }
+		#}
+		
+		hidden_effect = {
+			change_variable = { which = v_ta_influence value = 5 }
+		}
+		
+		ai_chance = {
+			factor = 90
+		}
+	}
+	
+	option = {
+		name = "flav_ten_majors1.b"
+		custom_tooltip = TAI_d_005
+		#TET = {
+		#	country_event = { id = TET_FLAVOR.03 days = 1 }
+		#}
+		
+		hidden_effect = {
+			change_variable = { which = v_ta_influence value = -5 }
+		}
+		
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+#The Temple and the Xochimilcas
+country_event = {
+	id = flav_ten_majors.02
+	
+	title = "flav_ten_majors2.t"
+	desc = "flav_ten_majors2.d"
+	
+	picture = TLACAELEL_eventPicture 
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = AAA
+		has_country_modifier = TEN_tlacaelel_tlacochcalcatl
+		BBG = {
+			num_of_cities = 3
+			NOT = { war_with = AAA }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = {
+		name = "flav_ten_majors2.a"
+		BBG = { 
+			country_event = { id = flav_ten_majors.03 days = 1 }
+		}
+	}
+	
+	option = {
+		name = "flav_ten_majors2.b"
+		add_prestige = -10
+	}
+}
+
+#Tenochs Demand Materials (Xochimilco)
+country_event = {
+	id = flav_ten_majors.03
+	
+	title = "flav_ten_majors3.t"
+	desc = "flav_ten_majors3.d"
+	
+	picture = DIPLOMACY_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_ten_majors3.a"
+		add_prestige = 10
+		AAA = {
+			country_event = { id = flav_ten_majors.05 }
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "flav_ten_majors3.b"
+		add_prestige = -20
+		AAA = {
+			country_event = { id = flav_ten_majors.04 }
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Xochimilcas Agree to Pay
+country_event = {
+	id = flav_ten_majors.04
+	
+	title = "flav_ten_majors4.t"
+	desc = "flav_ten_majors4.d"
+	
+	picture = DIPLOMACY_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_ten_majors4.a"
+		vassalize = BBG
+	}
+}
+
+#Xochimilcas Refuse to Pay
+country_event = {
+	id = flav_ten_majors.05
+	
+	title = "flav_ten_majors5.t"
+	desc = "flav_ten_majors5.d"
+	
+	picture = DIPLOMACY_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_ten_majors5.a"
+		add_country_modifier = {
+			name = TEN_harassing_xochimilco
+			duration = -1
+		}
+	}
+}
+
+#Tenochs Harass Our People (Xochimilco)
+country_event = {
+	id = flav_ten_majors.06
+	
+	title = "flav_ten_majors6.t"
+	desc = "flav_ten_majors6.d"
+	
+	picture = BORDER_TENSION_eventPicture 
+	
+	trigger = {
+		tag = BBG
+		AAA = { 
+			has_country_modifier = TEN_harassing_xochimilco
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "flav_ten_majors6.a"
+		declare_war_with_cb = {
+			who = AAA
+			casus_belli = cb_feud_triggered 
+		}
+		AAA = { 
+			country_event = { id = flav_ten_majors.07 days = 1 }
+		}
+		
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 1.5
+				NOT = { legitimacy = 80 }
+			}
+			
+			modifier = {
+				factor = 1.5
+				NOT = { legitimacy = 70 }
+			}
+			
+			modifier = {
+				factor = 1.5
+				NOT = { legitimacy = 60 }
+			}
+			
+			modifier = {
+				factor = 5
+				NOT = { legitimacy = 50 }
+			}
+		}
+	}
+	
+	option = {
+		name = "flav_ten_majors6.b"
+		add_prestige = -5
+		add_legitimacy = -10
+		AAA = {
+			country_event = { id = flav_ten_majors.08 days = 1 }
+		}
+		ai_chance = {
+			factor = 60
+		}
+	}
+	
+	option = {
+		name = "flav_ten_majors6.c"
+		AAA = {
+			country_event = { id = flav_ten_majors.09 days = 1 }
+		}
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Xochimilco Declares War
+country_event = {
+	id = flav_ten_majors.07
+	
+	title = "flav_ten_majors7.t"
+	desc = "flav_ten_majors7.d"
+	
+	picture = BATTLE_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_ten_majors7.a"
+		remove_country_modifier = TEN_harassing_xochimilco
+	}
+}
+
+#Xochimilco Ignores Us
+country_event = {
+	id = flav_ten_majors.08
+	
+	title = "flav_ten_majors8.t"
+	desc = "flav_ten_majors8.d"
+	
+	picture = DIPLOMACY_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_ten_majors8.a"
+	}
+	
+	option = {
+		name = "flav_ten_majors8.b"
+		remove_country_modifier = TEN_harassing_xochimilco
+	}
+}
+
+#Xochimilco Submits
+country_event = {
+	id = flav_ten_majors.09
+	
+	title = "flav_ten_majors9.t"
+	desc = "flav_ten_majors9.d"
+	
+	picture = DIPLOMACY_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_ten_majors9.a"
+		vassalize = BBG
+		remove_country_modifier = TEN_harassing_xochimilco
+	}
+}
+
+#The Feigned War?
+country_event = {
+	id = flav_ten_majors.10
+	
+	title = "flav_ten_majors10.t"
+	desc = "flav_ten_majors10.d"
+	
+	picture = DIPLOMACY_eventPicture 
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = AAA
+		is_year = 1435
+		num_of_cities = 12
+		ACC = {
+			num_of_cities = 6
+			alliance_with = AAA
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "flav_ten_majors10.a"
+		ACC = { 
+			country_event = { id = flav_tex_majors.04 days = 1 }
+		}
+		
+		ai_chance = {
+			factor = 95
+		}
+	}
+	
+	option = {
+		name = "flav_ten_majors10.b"
+		ACC = { 
+			country_event = { id = flav_tex_majors.05 days = 1 }
+		}
+		
+		ai_chance = {
+			factor = 5
+		}
+	}
+}
+
+#IF YOU ASKED TEXCOCO TO FIGHT THE FEIGNED WAR-
+#Texcoco Agrees
+country_event = {
+	id = flav_ten_majors.11
+	
+	title = "flav_ten_majors11.t"
+	desc = "flav_ten_majors11.d"
+	
+	picture = DIPLOMACY_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_ten_majors11.a"
+		custom_tooltip = FLAV_ten_maj_001
+		AAA = {
+			country_event = { id = flav_ten_majors.16 days = 62 }
+		}
+		ACC = {
+			country_event = { id = flav_ten_majors.16 days = 62 }
+		}
+	}
+}
+
+#Texcoco Wants to Win
+country_event = {
+	id = flav_ten_majors.12
+	
+	title = "flav_ten_majors12.t"
+	desc = "flav_ten_majors12.d"
+	
+	picture = DIPLOMACY_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = { #Fine
+		name = "flav_ten_majors12.a"
+		add_prestige = -5
+		add_legitimacy = -20
+		ACC = {
+			country_event = { id = flav_tex_majors.06 days = 1 }
+		}
+		
+		ai_chance = {
+			factor = 5
+		}
+	}
+	
+	option = { #Call it off
+		name = "flav_ten_majors12.b"
+		ACC = {
+			country_event = { id = flav_tex_majors.07 days = 1 }
+		}
+		
+		ai_chance = {
+			factor = 90
+		}
+	}
+	
+	option = { #Declare war on them
+		name = "flav_ten_majors12.c"
+		declare_war_with_cb = {
+			who = ACC
+			casus_belli = cb_feud_triggered 
+		}
+		
+		ai_chance = {
+			factor = 5
+		}
+	}
+}
+
+#Texcoco Refuses
+country_event = {
+	id = flav_ten_majors.13
+	
+	title = "flav_ten_majors13.t"
+	desc = "flav_ten_majors13.d"
+	
+	picture = DIPLOMACY_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_ten_majors13.a"
+		custom_tooltip = TAI_d_005
+		ACC = {
+			country_event = { id = flav_tex_majors.08 days = 1 }
+		}
+		hidden_effect = {
+			change_variable = { which = v_ta_influence value = -5 }
+		}
+	}
+	
+	option = {
+		name = "flav_ten_majors13.b"
+		
+		declare_war_with_cb = {
+			who = ACC
+			casus_belli = cb_feud_triggered 
+		}
+	}
+}
+
+#IF YOU ASKED TEXCOCO TO SYMBOLICALLY SUBMIT-
+#Texcoco Agrees
+country_event = {
+	id = flav_ten_majors.14
+	
+	title = "flav_ten_majors14.t"
+	desc = "flav_ten_majors14.d"
+	
+	picture = DIPLOMACY_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_ten_majors14.a"
+		custom_tooltip = TAI_i_030
+		add_country_modifier = {
+			name = TEN_dubious_loyalty_texcoco
+			duration = -1
+		}
+		hidden_effect = {
+			change_variable = { which = v_ta_influence value = 30 }
+		}
+	}
+}
+
+#Texcoco Refuses
+country_event = {
+	id = flav_ten_majors.15
+	
+	title = "flav_ten_majors15.t"
+	desc = "flav_ten_majors15.d"
+	
+	picture = DIPLOMACY_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_ten_majors15.a"
+		add_prestige = -10
+		add_legitimacy = -10
+		custom_tooltip = TAI_d_005
+		ACC = {
+			country_event = { id = flav_tex_majors.09 days = 1 }
+		}
+		hidden_effect = {
+			change_variable = { which = v_ta_influence value = -5 }
+		}
+	}
+	
+	option = {
+		name = "flav_ten_majors15.b"
+		
+		declare_war_with_cb = {
+			who = ACC
+			casus_belli = cb_feud_triggered 
+		}
+	}
+}
+
+#Feigned War (Tenochtitlan Wins)
+country_event = {
+	id = flav_ten_majors.16
+	
+	title = "flav_ten_majors16.t"
+	desc = "flav_ten_majors16.d"
+	
+	picture = BATTLE_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_ten_majors16.a"
+		trigger = {
+			tag = AAA
+		}
+		add_prestige = 10 
+		add_legitimacy = 5
+		custom_tooltip = TAI_i_010
+		
+		hidden_effect = {
+			change_variable = { which = v_ta_influence value = 10 }
+		}
+	}
+	
+	option = {
+		name = "flav_ten_majors16.b"
+		trigger = {
+			tag = ACC
+		}
+		add_prestige = -20
+	}
+}
+
+#Feigned War (Texcoco Wins)
+country_event = {
+	id = flav_ten_majors.17
+	
+	title = "flav_ten_majors17.t"
+	desc = "flav_ten_majors17.d"
+	
+	picture = BATTLE_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_ten_majors17.a"
+		trigger = {
+			tag = ACC
+		}
+		add_prestige = 25 
+		add_legitimacy = 25
+		custom_tooltip = TAI_i_010
+		
+		hidden_effect = {
+			change_variable = { which = v_ta_influence value = 10 }
+		}
+	}
+	
+	option = {
+		name = "flav_ten_majors17.b"
+		trigger = {
+			tag = AAA
+		}
+		add_prestige = -20
+	}
+}
+
+#The Famine of One Rabbit#
+#The Plague of Six Rabbit
+country_event = {
+	id = flav_ten_majors.18
+	
+	title = "flav_ten_majors18.t"
+	desc = "flav_ten_majors18.d"
+	
+	picture = FAMINE_eventPicture 
+	
+	trigger = {
+		NOT = { has_country_flag = six_rabbit_done }
+		is_year = 1446
+		NOT = { is_year = 1447 }
+		OR = {
+			capital_scope = {
+				area = mexico_colhuacan_area  
+			}
+			capital_scope = {
+				area = acolhuacan_area   
+			}
+			capital_scope = {
+				area = tepaneca_area   
+			}
+			capital_scope = {
+				area = chalco_xochimilco_area    
+			}
+			capital_scope = {
+				area = axocopan_tezontepec_area      
+			}
+			capital_scope = {
+				area = chiapan_atotonilco_apaxco_area       
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	immediate = {
+		set_country_flag = six_rabbit_done 
+	}
+	
+	option = {
+		name = "flav_ten_majors18.a"
+		add_years_of_income = -1.0
+		every_owned_province = {
+			limit = {
+				OR = {
+					area = mexico_colhuacan_area 
+					area = acolhuacan_area
+					area = tepaneca_area
+					area = chalco_xochimilco_area
+					area = axocopan_tezontepec_area
+					area = chiapan_atotonilco_apaxco_area
+				}
+			}
+			add_province_modifier = {
+				name = TEN_locust_plague_mitigated
+				duration = 365
+			}
+		}
+	}
+	
+	option = {
+		name = "flav_ten_majors18.b"
+		every_owned_province = {
+			limit = {
+				OR = {
+					area = mexico_colhuacan_area 
+					area = acolhuacan_area
+					area = tepaneca_area
+					area = chalco_xochimilco_area
+					area = axocopan_tezontepec_area
+					area = chiapan_atotonilco_apaxco_area
+				}
+			}
+			add_province_modifier = {
+				name = TEN_locust_plague
+				duration = 365
+			}
+		}
+	}
+}
+
+#An Early Frost
+country_event = {
+	id = flav_ten_majors.19
+	
+	title = "flav_ten_majors19.t"
+	desc = "flav_ten_majors19.d"
+	
+	picture = FAMINE_eventPicture 
+	
+	#fire_only_once = yes
+	
+	trigger = {
+		NOT = { has_country_flag = early_frost_done } 
+		is_year = 1450
+		NOT = { is_year = 1451 }
+		is_month = 8
+		capital_scope = {
+			OR = {
+				area = mexico_colhuacan_area 
+				area = acolhuacan_area
+				area = tepaneca_area
+				area = chalco_xochimilco_area
+				area = axocopan_tezontepec_area
+				area = chiapan_atotonilco_apaxco_area
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 20
+	}
+
+	immediate = {
+		set_country_flag = early_frost_done 
+	}
+	
+	option = {
+		name = "flav_ten_majors19.a"
+		add_country_modifier = {
+			name = TEN_famine_starting
+			duration = -1
+		}
+	}
+}
+
+#Famine!
+country_event = {
+	id = flav_ten_majors.20
+	
+	title = "flav_ten_majors20.t"
+	desc = "flav_ten_majors20.d"
+	
+	picture = FAMINE_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_ten_majors20.a"
+		custom_tooltip = FLAV_ten_maj_002
+		remove_country_modifier = TEN_famine_starting
+	}
+}
+
+#Drought of 12 Flint
+country_event = {
+	id = flav_ten_majors.21
+	
+	title = "flav_ten_majors21.t"
+	desc = "flav_ten_majors21.d"
+	
+	picture = FAMINE_eventPicture 
+	
+	#fire_only_once = yes
+	
+	trigger = {
+		NOT = { has_country_flag = twelve_flint_done }
+		is_year = 1452
+		NOT = { is_year = 1453 }
+		is_month = 8 
+		has_disaster = one_rabbit_famine
+	}
+	
+	mean_time_to_happen = {
+		days = 20
+	}
+
+	immediate = {
+		set_country_flag = twelve_flint_done
+	}
+	
+	option = {
+		name = "flav_ten_majors21.a"
+		custom_tooltip = FLAV_ten_maj_004
+		add_stability = -1
+	}
+}
+
+#Drought of 13 House
+country_event = {
+	id = flav_ten_majors.22
+	
+	title = "flav_ten_majors22.t"
+	desc = "flav_ten_majors22.d"
+	
+	picture = FAMINE_eventPicture 
+	
+	#fire_only_once = yes
+	
+	trigger = {
+		NOT = { has_country_flag = thirteen_house_done } 
+		is_year = 1453
+		NOT = { is_year = 1454 }
+		is_month = 8 
+		has_disaster = one_rabbit_famine
+	}
+	
+	mean_time_to_happen = {
+		days = 20
+	}
+	
+	immediate = {
+		set_country_flag = thirteen_house_done 
+	}
+
+	option = {
+		name = "flav_ten_majors22.a"
+		add_years_of_income = -1.0
+		add_stability = -1
+		every_owned_province = {
+			limit = {
+				OR = {
+					area = mexico_colhuacan_area 
+					area = acolhuacan_area
+					area = tepaneca_area
+					area = chalco_xochimilco_area
+					area = axocopan_tezontepec_area
+					area = chiapan_atotonilco_apaxco_area
+				}
+			}
+			add_province_modifier = {
+				name = TEN_reduced_famine
+				duration = 365
+			}
+		}
+	}
+	
+	option = {
+		name = "flav_ten_majors22.b"
+		add_stability = -1
+		every_owned_province = {
+			limit = {
+				OR = {
+					area = mexico_colhuacan_area 
+					area = acolhuacan_area
+					area = tepaneca_area
+					area = chalco_xochimilco_area
+					area = axocopan_tezontepec_area
+					area = chiapan_atotonilco_apaxco_area
+				}
+			}
+			add_province_modifier = {
+				name = TEN_famine_emigration
+				duration = 365
+			}
+		}
+		custom_tooltip = FLAV_ten_maj_003
+	}	
+}
+
+#Emigration from Province
+province_event = {
+	id = flav_ten_majors.23
+	
+	title = "flav_ten_majors23.t"
+	desc = "flav_ten_majors23.d"
+	
+	picture = FAMINE_eventPicture 
+	
+	trigger = {
+		owner = {
+			has_country_modifier = TEN_famine_emigration
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 20
+	}
+	
+	option = {
+		name = "flav_ten_majors23.a"
+		add_base_manpower = -1
+		random_country = {
+			limit = {
+				capital_scope = {
+					region = gulf_coast_region  
+				}
+			}
+			country_event = { id = flav_ten_majors.24 days = 21 }
+		}
+	}
+}
+
+#Refugees from the Valley of Mexico arrive
+country_event = {
+	id = flav_ten_majors.24
+	
+	title = "flav_ten_majors24.t"
+	desc = "flav_ten_majors24.d"
+	
+	picture = FAMINE_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_ten_majors24.a"
+		capital_scope = {
+			add_base_manpower = 1
+		}
+	}
+}
+
+#The Famine Ends!
+country_event = {
+	id = flav_ten_majors.25
+	
+	title = "flav_ten_majors25.t"
+	desc = "flav_ten_majors25.d"
+	
+	picture = FEAST_eventPicture 
+	
+	#fire_only_once = yes
+	
+	trigger = {
+		NOT = { has_country_flag = one_rabbit_ended }
+		is_year = 1455
+		has_disaster = one_rabbit_famine
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	immediate = {
+		set_country_flag = one_rabbit_ended 
+	}
+	option = {
+		name = "flav_ten_majors25.a"
+		add_stability = 2
+		end_disaster = one_rabbit_famine
+		remove_country_modifier = TEN_famine_emigration
+		remove_country_modifier = TEN_reduced_famine
+	}
+}
+
+#A True Empire#
+#Legal Reforms of Moteuczomah Ilhuicamina
+country_event = {
+	id = flav_ten_majors.26
+	
+	title = "flav_ten_majors26.t"
+	desc = "flav_ten_majors26.d"
+	
+	picture = REFORM_eventPicture 
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = TOE
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+	}
+	
+	option = {
+		name = "flav_ten_majors26.a"
+		add_years_of_income = -1.0
+		add_stability = -1
+		custom_tooltip = GOVS_lt_i_0150
+		custom_tooltip = GOVS_ht_i_0100
+		add_country_modifier = {
+			name = TEN_great_legal_reform
+			duration = -1
+		}
+		
+		hidden_effect = {
+			change_variable = { which = v_legal_tradition value = 15 }
+			change_variable = { which = v_terr_hege value = 10 }
+		}
+		ai_chance = {
+			factor = 80
+		}
+	}
+	
+	option = {
+		name = "flav_ten_majors26.b"
+		add_stability = 1
+		add_legitimacy = 10
+		custom_tooltip = GOVS_lt_d_0100
+		custom_tooltip = GOVS_ht_d_0050
+		
+		hidden_effect = {
+			change_variable = { which = v_legal_tradition value = -10 }
+			change_variable = { which = v_terr_hege value = -5 }
+		}
+		
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+#The Great Game#
+#Imbalance in the Alliance
+country_event = {
+	id = flav_ten_majors.27
+	
+	title = "flav_ten_majors27.t"
+	desc = "flav_ten_majors27.d"
+	
+	picture = COURT_eventPicture 
+	
+	fire_only_once = yes
+	
+	trigger = {
+		AAA = {
+			alliance_with = ACC
+		}
+		is_year = 1455
+		ACC = {
+			NOT = { num_of_cities = AAA }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+	}
+	
+	option = {
+		name = "flav_ten_majors27.a"
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+	
+	option = {
+		name = "flav_ten_majors27.b"
+		
+		AAA = {
+			country_event = { id = flav_ten_majors.28 days = 3 }
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Texcoco Challenges our Authority!
+country_event = {
+	id = flav_ten_majors.28
+	
+	title = "flav_ten_majors28.t"
+	desc = "flav_ten_majors28.d"
+	
+	picture = DIPLOMACY_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_ten_majors28.a"
+		
+		custom_tooltip = FLAV_ten_maj_005
+		ACC = {
+			country_event = { id = flav_ten_majors.29 days = 2 }
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "flav_ten_majors28.b"
+		
+		custom_tooltip = TAI_d_010
+		hidden_effect = {
+			change_variable = { which = v_ta_influence value = -10 }
+		}
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Tenochtitlan Challenges Us!
+country_event = {
+	id = flav_ten_majors.29
+	
+	title = "flav_ten_majors29.t"
+	desc = "flav_ten_majors29.d"
+	
+	picture = DIPLOMACY_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_ten_majors29.a"
+		
+		custom_tooltip = FLAV_ten_maj_006
+		hidden_effect = {
+			AAA = {
+				country_event = { id = flav_ten_majors.30 days = 7 }
+			}
+			ACC = {
+				country_event = { id = flav_ten_majors.30 days = 7 }
+			}
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "flav_ten_majors29.b"
+		
+		add_prestige = -10
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#The Great Game
+country_event = {
+	id = flav_ten_majors.30
+	
+	title = "flav_ten_majors30.t"
+	desc = "flav_ten_majors30.d"
+	
+	picture = BALLGAME_eventPicture 
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "flav_ten_majors30.a"
+		
+		if = {
+			limit = {
+				tag = AAA
+			}
+			set_global_flag = TEN_offensive_strat
+		}
+		
+		if = {
+			limit = {
+				tag = ACC
+			}
+			set_global_flag = TET_offensive_strat
+		}
+		
+		hidden_effect = { 
+			if = {
+				limit = {
+					tag = AAA
+				}
+				M95 = {
+					country_event = { id = flav_ten_majors.31 days = 2 }
+				}
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = {
+		name = "flav_ten_majors30.b"
+		
+		if = {
+			limit = {
+				tag = AAA
+			}
+			set_global_flag = TEN_defensive_strat
+		}
+		
+		if = {
+			limit = {
+				tag = ACC
+			}
+			set_global_flag = TET_defensive_strat
+		}
+		
+		hidden_effect = { 
+			if = {
+				limit = {
+					tag = AAA
+				}
+				M95 = {
+					country_event = { id = flav_ten_majors.31 days = 2 }
+				}
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = {
+		name = "flav_ten_majors30.c"
+		
+		if = {
+			limit = {
+				tag = AAA
+			}
+			set_global_flag = TEN_unorthodox_strat
+		}
+		
+		if = {
+			limit = {
+				tag = ACC
+			}
+			set_global_flag = TET_unorthodox_strat
+		}
+		
+		hidden_effect = { 
+			if = {
+				limit = {
+					tag = AAA
+				}
+				M95 = {
+					country_event = { id = flav_ten_majors.31 days = 2 }
+				}
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Special Event - Decides who Wins
+country_event = {
+	id = flav_ten_majors.31
+	
+	title = "flav_ten_majors31.t"
+	desc = "flav_ten_majors31.d"
+	
+	picture = REFORM_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_ten_majors31.a"
+		
+		if = {
+			limit = {
+				NOT = {
+					has_global_flag = TET_offensive_strat
+					has_global_flag = TET_defensive_strat
+					has_global_flag = TET_unorthodox_strat
+				}
+			}
+			set_global_flag = TET_defensive_strat
+		}
+		if = {
+			limit = {
+				AND = {
+					has_global_flag = TEN_offensive_strat
+					has_global_flag = TET_offensive_strat
+				}
+			}
+			random_list = {
+				50 = {
+					AAA = { country_event = { id = flav_ten_majors.32 } }#Tenochtitlan Loses
+					ACC = { country_event = { id = flav_ten_majors.33 } }#Texcoco Wins
+				}
+				50 = {
+					AAA = { country_event = { id = flav_ten_majors.33 } }#Tenochtitlan Wins
+					ACC = { country_event = { id = flav_ten_majors.32 } }#Texcoco Loses
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				AND = {
+					has_global_flag = TEN_offensive_strat
+					has_global_flag = TET_defensive_strat
+				}
+			}
+			random_list = {
+				70 = {
+					AAA = { country_event = { id = flav_ten_majors.32 } }#Tenochtitlan Loses
+					ACC = { country_event = { id = flav_ten_majors.33 } }#Texcoco Wins
+				}
+				30 = {
+					AAA = { country_event = { id = flav_ten_majors.33 } }#Tenochtitlan Wins
+					ACC = { country_event = { id = flav_ten_majors.32 } }#Texcoco Loses
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				AND = {
+					has_global_flag = TEN_offensive_strat
+					has_global_flag = TET_unorthodox_strat
+				}
+			}
+			random_list = {
+				30 = {
+					AAA = { country_event = { id = flav_ten_majors.32 } }#Tenochtitlan Loses
+					ACC = { country_event = { id = flav_ten_majors.33 } }#Texcoco Wins
+				}
+				70 = {
+					AAA = { country_event = { id = flav_ten_majors.33 } }#Tenochtitlan Wins
+					ACC = { country_event = { id = flav_ten_majors.32 } }#Texcoco Loses
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				AND = {
+					has_global_flag = TEN_defensive_strat
+					has_global_flag = TET_offensive_strat
+				}
+			}
+			random_list = {
+				30 = {
+					AAA = { country_event = { id = flav_ten_majors.32 } }#Tenochtitlan Loses
+					ACC = { country_event = { id = flav_ten_majors.33 } }#Texcoco Wins
+				}
+				70 = {
+					AAA = { country_event = { id = flav_ten_majors.33 } }#Tenochtitlan Wins
+					ACC = { country_event = { id = flav_ten_majors.32 } }#Texcoco Loses
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				AND = {
+					has_global_flag = TEN_defensive_strat
+					has_global_flag = TET_defensive_strat
+				}
+			}
+			random_list = {
+				50 = {
+					AAA = { country_event = { id = flav_ten_majors.32 } }#Tenochtitlan Loses
+					ACC = { country_event = { id = flav_ten_majors.33 } }#Texcoco Wins
+				}
+				50 = {
+					AAA = { country_event = { id = flav_ten_majors.33 } }#Tenochtitlan Wins
+					ACC = { country_event = { id = flav_ten_majors.32 } }#Texcoco Loses
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				AND = {
+					has_global_flag = TEN_defensive_strat
+					has_global_flag = TET_unorthodox_strat
+				}
+			}
+			random_list = {
+				70 = {
+					AAA = { country_event = { id = flav_ten_majors.32 } }#Tenochtitlan Loses
+					ACC = { country_event = { id = flav_ten_majors.33 } }#Texcoco Wins
+				}
+				30 = {
+					AAA = { country_event = { id = flav_ten_majors.33 } }#Tenochtitlan Wins
+					ACC = { country_event = { id = flav_ten_majors.32 } }#Texcoco Loses
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				AND = {
+					has_global_flag = TEN_unorthodox_strat
+					has_global_flag = TET_offensive_strat
+				}
+			}
+			random_list = {
+				70 = {
+					AAA = { country_event = { id = flav_ten_majors.32 } }#Tenochtitlan Loses
+					ACC = { country_event = { id = flav_ten_majors.33 } }#Texcoco Wins
+				}
+				30 = {
+					AAA = { country_event = { id = flav_ten_majors.33 } }#Tenochtitlan Wins
+					ACC = { country_event = { id = flav_ten_majors.32 } }#Texcoco Loses
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				AND = {
+					has_global_flag = TEN_unorthodox_strat
+					has_global_flag = TET_defensive_strat
+				}
+			}
+			random_list = {
+				30 = {
+					AAA = { country_event = { id = flav_ten_majors.32 } }#Tenochtitlan Loses
+					ACC = { country_event = { id = flav_ten_majors.33 } }#Texcoco Wins
+				}
+				70 = {
+					AAA = { country_event = { id = flav_ten_majors.33 } }#Tenochtitlan Wins
+					ACC = { country_event = { id = flav_ten_majors.32 } }#Texcoco Loses
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				AND = {
+					has_global_flag = TEN_unorthodox_strat
+					has_global_flag = TET_unorthodox_strat
+				}
+			}
+			random_list = {
+				50 = {
+					AAA = { country_event = { id = flav_ten_majors.32 } }#Tenochtitlan Loses
+					ACC = { country_event = { id = flav_ten_majors.33 } }#Texcoco Wins
+				}
+				50 = {
+					AAA = { country_event = { id = flav_ten_majors.33 } }#Tenochtitlan Wins
+					ACC = { country_event = { id = flav_ten_majors.32 } }#Texcoco Loses
+				}
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Great Game Lost
+country_event = {
+	id = flav_ten_majors.32
+	
+	title = "flav_ten_majors32.t"
+	desc = "flav_ten_majors32.d"
+	
+	picture = BALLGAME_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_ten_majors32.a"
+		
+		custom_tooltip = TAI_d_005
+		random_list = {
+			95 = {
+			
+			}
+			5 = {
+				kill_ruler = yes
+			}
+		}
+		hidden_effect = {
+			change_variable = { which = v_ta_influence value = -5 }
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Great Game Won
+country_event = {
+	id = flav_ten_majors.33
+	
+	title = "flav_ten_majors33.t"
+	desc = "flav_ten_majors33.d"
+	
+	picture = BALLGAME_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_ten_majors33.a"
+	
+		custom_tooltip = TAI_i_005
+		add_prestige = 10
+		add_legitimacy = 5
+		hidden_effect = {
+			change_variable = { which = triple_alliance_influence value = 5 }
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}

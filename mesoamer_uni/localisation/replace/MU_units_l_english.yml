@@ -2,7 +2,6 @@
  #Localization for land and naval units#
  
  #Land#
- 
  #Tier 1 
  cm_central_mexican_infantry: "Central Mexican Infantry"
  cm_central_mexican_infantryDESCR: ""
@@ -94,6 +93,7 @@
  cav_mesoamerican_cuirassiersDESCR: ""
  art_mobile_cannons: "Mobile Cannons"
  art_mobile_cannonsDESCR: ""
+ 
  
  #Naval#
  #Pre-Contact

@@ -1,0 +1,81 @@
+#Special CB for conquering areas out of economic interest
+cb_mercantile_expansion = {
+	valid_for_subject = no
+	
+	is_triggered_only = yes
+	months = 48
+	
+	war_goal = mercantile_expansion
+}
+
+#Special CB for declaring war in most events
+cb_feud_triggered = {
+	valid_for_subject = no
+	
+	is_triggered_only = yes
+	months = 48
+	
+	war_goal = feud_triggered
+}
+
+#Special CB to help with quickly uniting valley of mexico 
+cb_unite_valley_of_mexico = {
+	valid_for_subject = no
+
+	prerequisites = {
+		ROOT = {
+			OR = {
+				tag = AAA
+				tag = ACC
+				tag = AAD
+				tag = Z02
+				tag = Z03
+				tag = Z04
+				tag = Z05
+			}
+		}
+		FROM = {
+			AND = { 
+				NOT = { alliance_with = ROOT }
+				NOT = { vassal_of = ROOT }
+				OR = { 
+					capital_scope = {
+						area = mexico_colhuacan_area  
+					}
+					capital_scope = {
+						area = acolhuacan_area  
+					}
+					capital_scope = {
+						area = tepaneca_area  
+					}
+					capital_scope = {
+						area = chalco_xochimilco_area   
+					}
+					capital_scope = {
+						area = chiapan_atotonilco_apaxco_area   
+					}
+					capital_scope = {
+						area = axocopan_tezontepec_area   
+					}
+				}
+			}
+		}
+	}
+	
+	war_goal = unite_valley_of_mexico
+}
+
+#cb_spanish_conquest = {
+#	valid_for_subject = no
+#	
+#	prerequisites = {
+#		ROOT = {
+#			tag = CAX
+#		}
+#		FROM = {
+#			NOT = { vassal_of = ROOT }
+#		}
+#	}
+#	
+#	war_goal = spanish_conquest
+#}	

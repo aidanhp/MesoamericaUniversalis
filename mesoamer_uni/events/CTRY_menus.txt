@@ -1,0 +1,43 @@
+#For various menus not fitting into other event files
+namespace = menus
+
+#Triple Alliance Influence
+country_event = {
+	id = menus.01
+	
+	title = "menus1.t"
+	desc = "menus1.d"
+	
+	picture = DIPLOMACY_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "menus1.a"
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Government Stats 
+country_event = {
+	id = menus.02
+	
+	title = "menus2.t"
+	desc = "menus2.d"
+	
+	picture = DIPLOMACY_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "menus2.a"
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+

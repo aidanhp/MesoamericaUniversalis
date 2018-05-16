@@ -1,0 +1,91 @@
+#Flavor events that can happen to ANY country (not including Caxtillan)
+namespace = flav_all
+
+#Comet Sighted
+country_event = {
+	id = flav_all
+	
+	title = "flav_all1.t"
+	desc = "flav_all1.d"
+	
+	picture = COMET_SIGHTED_eventPicture 
+	
+	trigger = {
+		NOT = { has_country_flag = comet_was_sighted }
+	}
+	
+	mean_time_to_happen = {
+		months = 600
+	}
+	
+	option = {
+		name = "flav_all1.a"
+		
+		add_stability = -1
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = {
+		name = "flav_all1.b"
+		
+		add_stability = -1
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = {
+		name = "flav_all1.c"
+		
+		add_stability = -1
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = {
+		name = "flav_all1.dd"
+		
+		add_stability = -1
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = {
+		name = "flav_all1.e"
+		
+		add_stability = -1
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = {
+		name = "flav_all1.f"
+		
+		add_stability = -1
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = {
+		name = "flav_all1.g"
+		
+		add_stability = -1
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+

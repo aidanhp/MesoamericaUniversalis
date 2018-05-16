@@ -161,7 +161,7 @@ hegemonic_5 = {
 	}
 	
 	trigger = {
-		NOT = { check_variable = { which = v_terr_hege value = -80 } }
+		NOT = { check_variable = { which = v_terr_hege value = 10 } }
 	}
 	
 	global_autonomy = 0.10
@@ -174,8 +174,8 @@ hegemonic_4 = {
 	}
 	
 	trigger = {
-		check_variable = { which = v_terr_hege value = -80 }
-		NOT = { check_variable = { which = v_terr_hege value = -60 } }
+		check_variable = { which = v_terr_hege value = 10 }
+		NOT = { check_variable = { which = v_terr_hege value = 20 } }
 	}
 	
 	global_autonomy = 0.08
@@ -188,8 +188,8 @@ hegemonic_3 = {
 	}
 	
 	trigger = {
-		check_variable = { which = v_terr_hege value = -60 }
-		NOT = { check_variable = { which = v_terr_hege value = -40 } }
+		check_variable = { which = v_terr_hege value = 20 }
+		NOT = { check_variable = { which = v_terr_hege value = 30 } }
 	}
 	
 	global_autonomy = 0.06
@@ -202,8 +202,8 @@ hegemonic_2 = {
 	}
 	
 	trigger = {
-		check_variable = { which = v_terr_hege value = -40 }
-		NOT = { check_variable = { which = v_terr_hege value = -20 } }
+		check_variable = { which = v_terr_hege value = 30 }
+		NOT = { check_variable = { which = v_terr_hege value = 40 } }
 	}
 	
 	global_autonomy = 0.04
@@ -216,8 +216,8 @@ hegemonic_1 = {
 	}
 	
 	trigger = {
-		check_variable = { which = v_terr_hege value = -20 }
-		NOT = { check_variable = { which = v_terr_hege value = 0 } }
+		check_variable = { which = v_terr_hege value = 40 }
+		NOT = { check_variable = { which = v_terr_hege value = 50 } }
 	}
 	
 	global_autonomy = 0.02
@@ -230,8 +230,8 @@ territorial_1 = {
 	}
 	
 	trigger = {
-		check_variable = { which = v_terr_hege value = 0 }
-		NOT = { check_variable = { which = v_terr_hege value = 20 } }
+		check_variable = { which = v_terr_hege value = 50 }
+		NOT = { check_variable = { which = v_terr_hege value = 60 } }
 	}
 	
 	global_autonomy = -0.02
@@ -244,8 +244,8 @@ territorial_2 = {
 	}
 	
 	trigger = {
-		check_variable = { which = v_terr_hege value = 20 }
-		NOT = { check_variable = { which = v_terr_hege value = 40 } }
+		check_variable = { which = v_terr_hege value = 60 }
+		NOT = { check_variable = { which = v_terr_hege value = 70 } }
 	}
 	
 	global_autonomy = -0.04
@@ -258,8 +258,8 @@ territorial_3 = {
 	}
 	
 	trigger = {
-		check_variable = { which = v_terr_hege value = 40 }
-		NOT = { check_variable = { which = v_terr_hege value = 60 } }
+		check_variable = { which = v_terr_hege value = 70 }
+		NOT = { check_variable = { which = v_terr_hege value = 80 } }
 	}
 	
 	global_autonomy = -0.06
@@ -272,8 +272,8 @@ territorial_4 = {
 	}
 	
 	trigger = {
-		check_variable = { which = v_terr_hege value = 60 }
-		NOT = { check_variable = { which = v_terr_hege value = 80 } }
+		check_variable = { which = v_terr_hege value = 80 }
+		NOT = { check_variable = { which = v_terr_hege value = 90 } }
 	}
 	
 	global_autonomy = -0.08
@@ -286,7 +286,7 @@ territorial_5 = {
 	}
 	
 	trigger = {
-		check_variable = { which = v_terr_hege value = 80 }
+		check_variable = { which = v_terr_hege value = 90 }
 	}
 	
 	global_autonomy = -0.10

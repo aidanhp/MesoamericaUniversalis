@@ -1,0 +1,76 @@
+﻿l_english: 
+ #This file is for massed sets of custom tooltips that trascend individual files
+ #For now, this criteria only applies to GOVERNMENT STATS and TRIPLE ALLIANCE INFLUENCE
+ #In the future, this file will also house custom tooltips for estate mechanics
+ #Symbols
+ #§G§!
+ 
+ #Top Secret
+ TOP_SECRET: "Unlocks a Special Decision once you reach Empire rank."
+ 
+ #########################
+ #GOVERNMENT STAT CHANGES#
+ #########################
+ #Hegemonic vs Territorial
+ GOVS_ht_i_0025: "Move §Y2.5§! towards §YTerritorial§!." 
+ GOVS_ht_i_0050: "Move §Y5.0§! towards §YTerritorial§!."
+ GOVS_ht_i_0075: "Move §Y7.5§! towards §YTerritorial§!."
+ GOVS_ht_i_0100: "Move §Y10.0§! towards §YTerritorial§!." 
+ GOVS_ht_i_0150: "Move §Y15.0§! towards §YTerritorial§!." 
+ 
+ GOVS_ht_d_0025: "Move §Y2.5§! towards §YHegemonic§!."
+ GOVS_ht_d_0050: "Move §Y5.0§! towards §YHegemonic§!."
+ GOVS_ht_d_0075: "Move §Y7.5§! towards §YHegemonic§!."
+ GOVS_ht_d_0100: "Move §Y10.0§! towards §YHegemonic§!."
+ GOVS_ht_d_0150: "Move §Y15.0§! towards §YHegemonic§!."
+ 
+ #Legal Tradition
+ GOVS_lt_i_0025: "Move §Y2.5§! towards §YLegal Centralization§!."
+ GOVS_lt_i_0050: "Move §Y5.0§! towards §YLegal Centralization§!."
+ GOVS_lt_i_0075: "Move §Y7.5§! towards §YLegal Centralization§!."
+ GOVS_lt_i_0100: "Move §Y10.0§! towards §YLegal Centralization§!."
+ GOVS_lt_i_0150: "Move §Y15.0§! towards §YLegal Centralization§!."
+ 
+ GOVS_lt_d_0025: "Move §Y2.5§! towards §YLocal Delegation§!."
+ GOVS_lt_d_0050: "Move §Y5.0§! towards §YLocal Delegation§!."
+ GOVS_lt_d_0075: "Move §Y7.5§! towards §YLocal Delegation§!."
+ GOVS_lt_d_0100: "Move §Y10.0§! towards §YLocal Delegation§!."
+ GOVS_lt_d_0150: "Move §Y15.0§! towards §YLocal Delegation§!."
+ 
+ #Meritocratic Tradition
+ GOVS_mt_i_0025: "Move §Y2.5§! towards §YMeritocracy§!."
+ GOVS_mt_i_0050: "Move §Y5.0§! towards §YMeritocracy§!."
+ GOVS_mt_i_0075: "Move §Y7.5§! towards §YMeritocracy§!."
+ GOVS_mt_i_0100: "Move §Y10.0§! towards §YMeritocracy§!."
+ GOVS_mt_i_0150: "Move §Y15.0§! towards §YMeritocracy§!."
+ 
+ GOVS_mt_d_0025: "Move §Y2.5§! towards §YPatrimonialism§!."
+ GOVS_mt_d_0050: "Move §Y5.0§! towards §YPatrimonialism§!."
+ GOVS_mt_d_0075: "Move §Y7.5§! towards §YPatrimonialism§!."
+ GOVS_mt_d_0100: "Move §Y10.0§! towards §YPatrimonialism§!."
+ GOVS_mt_d_0150: "Move §Y15.0§! towards §YPatrimonialism§!."
+ 
+ #Theocratic Tradition 
+ GOVS_tt_i_0025: "Move §Y2.5§! towards §YSpiritual Politics§!."
+ GOVS_tt_i_0050: "Move §Y5.0§! towards §YSpiritual Politics§!."
+ GOVS_tt_i_0075: "Move §Y7.5§! towards §YSpiritual Politics§!."
+ GOVS_tt_i_0100: "Move §Y10.0§! towards §YSpiritual Politics§!."
+ GOVS_tt_i_0150: "Move §Y15.0§! towards §YSpiritual Politics§!."
+ 
+ GOVS_tt_d_0025: "Move §Y2.5§! towards §YTerrestrial Politics§!."
+ GOVS_tt_d_0050: "Move §Y5.0§! towards §YTerrestrial Politics§!."
+ GOVS_tt_d_0075: "Move §Y7.5§! towards §YTerrestrial Politics§!."
+ GOVS_tt_d_0100: "Move §Y10.0§! towards §YTerrestrial Politics§!."
+ GOVS_tt_d_0150: "Move §Y15.0§! towards §YTerrestrial Politics§!."
+ 
+ ###########################
+ #TRIPLE ALLIANCE INFLUENCE#
+ ###########################
+ TAI_i_005: "Gain §G5§! Triple Alliance Influence."
+ TAI_i_010: "Gain §G10§! Triple Alliance Influence."
+ TAI_i_015: "Gain §G15§! Triple Alliance Influence."
+ TAI_i_030: "Gain §G30§! Triple Alliance Influence."
+ TAI_i_050: "Gain §G50§! Triple Alliance Influence."
+ 
+ TAI_d_005: "Lose §R5§! Triple Alliance Influence."
+ TAI_d_010: "Lose §R10§! Triple Alliance Influence."

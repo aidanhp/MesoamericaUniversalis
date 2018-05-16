@@ -1,0 +1,193 @@
+#Institution Events
+namespace = institutions
+
+#World System#
+#For country it starts in...
+country_event = {
+	id = institutions.01
+	
+	title = "institutions1.t"
+	desc = "institutions1.d"
+	
+	picture = REFORM_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "institutions1.a"
+		
+		add_adm_power = 50
+		add_dip_power = 50
+		add_mil_power = 50
+		add_prestige = 20
+		custom_tooltip = WORLD_SYSTEM_PENALTY
+		FROM = {
+			add_permanent_province_modifier = {
+				name = "birthplace_of_the_world_system"
+				duration = -1
+			}
+		}
+		hidden_effect = {
+			every_country = {
+				limit = {
+					NOT = { tag = ROOT }
+				}
+				country_event = { id = institutions.02 }
+			}
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#For everyone else
+country_event = {
+	id = institutions.02
+	
+	title = "institutions2.t"
+	desc = "institutions2.d"
+	
+	picture = REFORM_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "institutions2.a"
+		
+		custom_tooltip = WORLD_SYSTEM_PENALTY
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Draft and Transportation Animals#
+#For country it starts in
+country_event = {
+	id = institutions.03
+	
+	title = "institutions3.t"
+	desc = "institutions3.d"
+	
+	picture = REFORM_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "institutions3.a"
+		
+		add_adm_power = 50
+		add_dip_power = 50
+		add_mil_power = 50
+		add_prestige = 20
+		custom_tooltip = DAT_ANIMALS_PENALTY
+		FROM = {
+			add_permanent_province_modifier = {
+				name = "birthplace_of_draft_and_transportation_animals"
+				duration = -1
+			}
+		}
+		hidden_effect = {
+			every_country = {
+				limit = {
+					ai = no
+					NOT = { tag = ROOT }
+				}
+				country_event = { id = institutions.04 }
+			}
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#For everyone else
+country_event = {
+	id = institutions.04
+	
+	title = "institutions4.t"
+	desc = "institutions4.d"
+	
+	picture = REFORM_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "institutions4.a"
+		
+		custom_tooltip = DAT_ANIMALS_PENALTY
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Weaponized Metalworking#
+#For country it starts in
+country_event = {
+	id = institutions.05
+	
+	title = "institutions5.t"
+	desc = "institutions5.d"
+	
+	picture = REFORM_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "institutions5.a"
+		
+		add_adm_power = 50
+		add_dip_power = 50
+		add_mil_power = 50
+		add_prestige = 20
+		custom_tooltip = WPN_METAL_PENALTY
+		FROM = {
+			add_permanent_province_modifier = {
+				name = "birthplace_of_weaponized_metalworking"
+				duration = -1
+			}
+		}
+		hidden_effect = {
+			every_country = {
+				limit = {
+					ai = no
+					NOT = { tag = ROOT }
+				}
+				country_event = { id = institutions.05 }
+			}
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#For everyone else
+country_event = {
+	id = institutions.06
+	
+	title = "institutions6.t"
+	desc = "institutions6.d"
+	
+	picture = REFORM_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "institutions6.a"
+		
+		custom_tooltip = WPN_METAL_PENALTY
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
