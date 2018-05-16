@@ -3,10 +3,10 @@ namespace = flav_all
 
 #Comet Sighted
 country_event = {
-	id = flav_all
+	id = flav_all.1
 	
-	title = "flav_all1.t"
-	desc = "flav_all1.d"
+	title = "flav_all.1.t"
+	desc = "flav_all.1.d"
 	
 	picture = COMET_SIGHTED_eventPicture 
 	

@@ -140,6 +140,7 @@ tropical = {
 	supply_limit_modifier = -0.3
 	local_hostile_attrition = 2
 
+	cs_only_local_development_cost = 0.15
 	picture = "climate_tropical"
 }
 
@@ -149,6 +150,7 @@ arctic = {
 	local_hostile_attrition = 1
 
 	allowed_num_of_buildings = -1
+	cs_only_local_development_cost = 0.5
 
 	picture = "climate_arctic"
 }
@@ -158,6 +160,7 @@ arid = {
 	supply_limit_modifier = -0.2
 	local_hostile_attrition = 1
 
+	cs_only_local_development_cost = 0.15
 	picture = "climate_arid"
 }
 
@@ -196,6 +199,8 @@ blockaded = {
 	ship_recruit_speed = 0.2
 	trade_goods_size_modifier = -0.5
 	province_trade_power_modifier = -0.75
+	local_monthly_devastation = 0.1
+
 }
 
 no_adjacent_controlled = {
@@ -204,6 +209,7 @@ no_adjacent_controlled = {
 
 provincial_tax_income = {
 	local_tax_modifier = 0.01
+	regiment_recruit_speed = -0.01
 }
 
 provincial_production_size = {
@@ -240,11 +246,11 @@ development = {
 	naval_forcelimit = 0.1			# special case, affected by autonomy & set to 0 by code if not port
 	local_sailors = 30			# special case, affected by autonomy & set to 0 by code if not port
 	province_trade_power_value = 0.2
-	#local_amount_of_banners = 0.1
+	local_amount_of_banners = 0.1
 }
 
 development_scaled = {
-	
+
 }
 
 capital_city = {
@@ -521,6 +527,7 @@ positive_stability = {
 	devotion = 0.5
 	yearly_corruption = -0.02
 	global_institution_spread = 0.05
+	yearly_harmony = 0.25
 }
 
 negative_stability = {
@@ -542,6 +549,8 @@ negative_mandate = { # By default, starts at 50 mandate, 100% strength at 0 mand
 	global_trade_goods_size_modifier = -0.5
 	fire_damage_received = 0.5
 	shock_damage_received = 0.5
+	global_unrest = 5
+	possible_mercenaries = -1
 }
 
 lost_mandate_of_heaven = {
@@ -553,6 +562,7 @@ lost_mandate_of_heaven = {
 	shock_damage_received = 0.5
 	reduced_liberty_desire = -50
 	legitimacy = -1
+	possible_mercenaries = -1
 }
 
 cancelled_loan = {
@@ -1098,11 +1108,13 @@ gov_rank_1 = {
 gov_rank_2 = {
 	diplomats = 1
 	free_leader_pool = 1
+	max_states = 5
 }
 
 gov_rank_3 = {
 	diplomats = 1
 	free_leader_pool = 1
+	max_states = 10
 	max_absolutism = 5
 }
 
@@ -1176,6 +1188,7 @@ discontent_sowed = {
 	republican_tradition = -0.2
 	devotion = -1
 	horde_unity = -1
+	meritocracy = -0.5
 }
 
 reputation_sabotaged = {
