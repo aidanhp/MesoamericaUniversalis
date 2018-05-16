@@ -71,7 +71,8 @@ guiTypes = {
 				name = "text"
 				position = { x = -300 y = -250 }
 				textureFile = ""
-				font = "vic_29s"
+				# font = "vic_29s"
+				font = "mayan_30"
 				borderSize = {x = 0 y = 0}
 				text = ""	
 				maxWidth = 600
