@@ -28,113 +28,30 @@ country_event = {
 			free_vassal = I64
 			free_vassal = J50
 			
-			1644 = { 
+			1644 = { # here I never like having hardcoded provinces in the event/decision file, if the map changes it will be a PITA to track all these prov_ids
 				add_base_tax = -2
 				add_base_production = -4
 				add_base_manpower = -15
 			}
+			
 			release = J11
-			1657 = {
-				add_core = J11
-				cede_province = J11
-			}
-			1654 = {
-				add_core = J11
-				cede_province = J11
-			}
-			1655 = {
-				add_core = J11
-				cede_province = J11
-			}
-			1660 = {
-				add_core = J11
-				cede_province = J11
-			}
-			1659 = {
-				add_core = J11
-				cede_province = J11
-			}
-			1663 = {
-				add_core = J11
-				cede_province = J11
-			}
-			1662 = {
-				add_core = J11
-				cede_province = J11
-			}
-			1661 = {
-				add_core = J11
-				cede_province = J11
-			}
-			1665 = {
-				add_core = J11
-				cede_province = J11
-			}
-			1664 = {
-				add_core = J11
-				cede_province = J11
-			}
-			1667 = {
-				add_core = J11
-				cede_province = J11
-			}
-			1666 = {
-				add_core = J11
-				cede_province = J11
-			}
-			1669 = {
-				add_core = J11
-				cede_province = J11
-			}
-			1668 = {
-				add_core = J11
-				cede_province = J11
-			}
-			1670 = {
-				add_core = J11
-				cede_province = J11
-			}
-			1672 = {
-				add_core = J11
-				cede_province = J11
-			}
-			1673 = {
-				add_core = J11
-				cede_province = J11
-			}
-			1671 = {
-				add_core = J11
-				cede_province = J11
-			}
-			1648 = {
-				add_core = J11
-				cede_province = J11
-			}
-			1647 = {
-				add_core = J11
-				cede_province = J11
-			}
-			1644 = {
+			
+			J11_cores = {
 				add_core = J11
 				cede_province = J11
 			}
 			
-			every_province = { 
-				limit = { 
-					owned_by = I96
-				}
-				add_core = J11
-			}
+			I96 = { every_owned_province = { add_core = J11 } }
 			
-			1658 = {
-				add_unit_construction = {
-					type = infantry
-					amount = 15
-					speed = 0.02
-					cost = 0
-				}
-			}
 			J11 = {
+				capital_scope = {
+					add_unit_construction = {
+						type = infantry
+						amount = 15
+						speed = 0.02
+						cost = 0
+					}
+				}
 				set_government_rank = 2
 				add_treasury = 5000
 				add_manpower = 20
@@ -167,18 +84,18 @@ country_event = {
 		
 		declare_war_with_cb = {
 			who = J11
-			casus_belli = cb_feud_triggered  
+			casus_belli = cb_feud_triggered
 		}
 		
-		hidden_effect = { 		
+		hidden_effect = {
 			every_country = {
-				limit = { 
+				limit = {
 					capital_scope = {
-						region = yucatan_region 
+						region = yucatan_region
 					}
 					NOT = { tag = I96 }
-				}	
-				country_event = { id = flav_cocom.02 } 
+				}
+				country_event = { id = flav_cocom.02 }
 			}
 		}
 		
