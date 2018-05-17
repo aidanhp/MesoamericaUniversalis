@@ -91,7 +91,8 @@ guiTypes = {
 		iconType = {
 			name="cannot_afford"
 			spriteType = "GFX_cannot_afford"
-			position = { x = 3 y = 30 }
+			# position = { x = 3 y = 30 }
+			position = { x = 0 y = 0 }
 			Orientation = "UPPER_LEFT"
 		}
 		

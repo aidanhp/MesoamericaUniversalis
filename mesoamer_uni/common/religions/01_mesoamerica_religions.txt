@@ -306,7 +306,7 @@ huaxyacac_group = {
 	
 	religion_zapotec = {
 		color = { 0.20 0.40 0.80 }
-		icon = 18
+		icon = 20
 		country = {
 			hostile_attrition = 2
 			production_efficiency = 0.10
@@ -323,7 +323,7 @@ huaxyacac_group = {
 
 	religion_mixtec = {
 		color = { 0.20 0.90 0.40 }
-		icon = 20
+		icon = 21
 		country = {
 			defensiveness = 0.20
 			war_exhaustion_cost = -0.25
@@ -350,7 +350,7 @@ purepecha_group = {
 	
 	religion_purepecha = {
 		color = { 0.70 0.40 0.30 }
-		icon = 17
+		icon = 22
 		country = {
 			global_missionary_strength = 0.02
 			legitimacy = 1
@@ -380,7 +380,7 @@ maya_group = {
 	
 	religion_maya = {
 		color = { 0.30 0.80 0.80 }
-		icon = 19
+		icon = 23
 		country = {
 			land_morale = 0.05
 			build_cost = -0.10

@@ -11,7 +11,7 @@ christian = {
 	
 	catholic = {
 		color = { 204 204 0 }
-		icon = 1
+		icon = 26
 		
 		country = {
 			tolerance_own = 3
@@ -43,7 +43,7 @@ eastern = {
 	#Theravada
 	buddhism = {
 		color = { 204 76 0 }
-		icon = 2
+		icon = 27
 		country = {
 			tolerance_heretic = 2
 			advisor_cost = -0.1
@@ -58,7 +58,7 @@ eastern = {
 	}
 	shinto = {
 		color = { 204 0 0 }
-		icon = 10
+		icon = 28
 		country = {
 			land_morale = 0.1
 		}
