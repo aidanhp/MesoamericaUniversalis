@@ -23,7 +23,7 @@ country_event = {
 		desc = "captives1.d4"
 	}
 	
-	picture = LAND_MILITARY_eventPicture  
+	picture = LAND_MILITARY_eventPicture
 	
 	is_triggered_only = yes
 	
