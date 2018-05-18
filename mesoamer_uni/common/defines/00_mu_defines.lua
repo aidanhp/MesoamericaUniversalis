@@ -81,45 +81,77 @@ NDefines.NGraphics.MAX_TRADE_NODE_FLAGS_SHOWN = -1					-- -1 is unlimited
 NDefines.NGraphics.EVENT_PROCESS_OFFSET = 1 						-- Events are checked every X day per character or province (1 is ideal, but CPU heavy)
 
 -- Frontend
-NDefines.NFrontend.CAMERA_LOOKAT_X = 1586.0 						-- Rotation point in main menu
-NDefines.NFrontend.CAMERA_LOOKAT_Y = 0.0
-NDefines.NFrontend.CAMERA_LOOKAT_Z = 1100.0
-NDefines.NFrontend.CAMERA_LOOKAT_SETTINGS_X = 1586.0 				-- Rotation point in settings
+NDefines.NFrontend.CAMERA_LOOKAT_X = 1600.0							-- Rotation point in main menu
+NDefines.NFrontend.CAMERA_LOOKAT_Y = 50.0
+NDefines.NFrontend.CAMERA_LOOKAT_Z = 950.0
+NDefines.NFrontend.CAMERA_LOOKAT_SETTINGS_X = 2300.0				-- Rotation point in settings
 NDefines.NFrontend.CAMERA_LOOKAT_SETTINGS_Y = 0.0					-- Y is height
-NDefines.NFrontend.CAMERA_LOOKAT_SETTINGS_Z = 1000.0
-NDefines.NFrontend.CAMERA_START_X = 1586.0							-- Initial position in main menu
-NDefines.NFrontend.CAMERA_START_Y = 6000							-- Y is height
-NDefines.NFrontend.CAMERA_START_Z = 900.0
-NDefines.NFrontend.CAMERA_END_X = 1586.0							-- Move to position in main menu
-NDefines.NFrontend.CAMERA_END_Y = 1150.0
-NDefines.NFrontend.CAMERA_END_Z = 600.0
+NDefines.NFrontend.CAMERA_LOOKAT_SETTINGS_Z = 1519.0
+NDefines.NFrontend.CAMERA_START_X = 1000.0						-- Initial position in main menu
+NDefines.NFrontend.CAMERA_START_Y = 600							-- Y is height
+NDefines.NFrontend.CAMERA_START_Z = 800.0
+NDefines.NFrontend.CAMERA_END_X = 1200.0							-- Move to position in main menu
+NDefines.NFrontend.CAMERA_END_Y = 0.0
+NDefines.NFrontend.CAMERA_END_Z = 900.0
 
 NDefines.NFrontend.CAMERA_MIN_DIST_FOR_ROTATE = 600.0				-- Controlls when rotation starts. When camera is close enought it starts
 NDefines.NFrontend.CAMERA_MIN_HEIGHT = 100.0						-- Minimum camera height
 NDefines.NFrontend.CAMERA_MAX_HEIGHT = 2500.0						-- Maximum camera height
-
-NDefines.NFrontend.FRONTEND_POS_X = 1586.0
-NDefines.NFrontend.FRONTEND_POS_Y = 3000.0
-NDefines.NFrontend.FRONTEND_POS_Z = 1000.0
-NDefines.NFrontend.FRONTEND_LOOK_X = 1586.0
+NDefines.NFrontend.TIME_FROZEN = 1.0								-- Time before initial animation starts (some deylay here so it should NOT be 0, then the animation starts before you can see it)
+NDefines.NFrontend.TIME_UNTIL_ROTATE = 1.5							-- Time when rotation start (from begining of time)
+NDefines.NFrontend.CAMERA_SPEED_START = 0.10						-- Initial animation speed
+NDefines.NFrontend.CAMERA_SPEED_ROTATE = 0.10						-- Rotation speed
+NDefines.NFrontend.GUI_MOVE_SPEED = 400								-- How fast sliding gui objects move ( pixels/s )
+					-- Setup at the end of the cam animation in the main menu
+					-- View of the whole region
+NDefines.NFrontend.FRONTEND_POS_X = 2300.0
+NDefines.NFrontend.FRONTEND_POS_Y = 2000.0
+NDefines.NFrontend.FRONTEND_POS_Z = 400.0
+NDefines.NFrontend.FRONTEND_LOOK_X = 2300.0
 NDefines.NFrontend.FRONTEND_LOOK_Y = 0.0
-NDefines.NFrontend.FRONTEND_LOOK_Z = 1000.0
-
-NDefines.NFrontend.MP_OPTIONS_POS_X = 1586.0
-NDefines.NFrontend.MP_OPTIONS_POS_Y = 922.0
-NDefines.NFrontend.MP_OPTIONS_POS_Z = 1048.0
-NDefines.NFrontend.MP_OPTIONS_LOOK_X = 1586.0
+NDefines.NFrontend.FRONTEND_LOOK_Z = 850.0
+					-- Position and PoV when in settings
+					-- View of the valley of mexico
+NDefines.NFrontend.SETTINGS_POS_X = 1750.0
+NDefines.NFrontend.SETTINGS_POS_Y = 500.0
+NDefines.NFrontend.SETTINGS_POS_Z = 800.0
+NDefines.NFrontend.SETTINGS_LOOK_X = 1650.0
+NDefines.NFrontend.SETTINGS_LOOK_Y = 0.0
+NDefines.NFrontend.SETTINGS_LOOK_Z = 1200.0
+					-- Position and PoV when in multiplayer setup
+					-- same as above
+NDefines.NFrontend.MP_OPTIONS_POS_X = 1600.0
+NDefines.NFrontend.MP_OPTIONS_POS_Y = 500.0
+NDefines.NFrontend.MP_OPTIONS_POS_Z = 900.0
+NDefines.NFrontend.MP_OPTIONS_LOOK_X = 1600.0
 NDefines.NFrontend.MP_OPTIONS_LOOK_Y = 0.0
-NDefines.NFrontend.MP_OPTIONS_LOOK_Z = 1159.0
+NDefines.NFrontend.MP_OPTIONS_LOOK_Z = 1250.0
+					-- Position and PoV when in the tutorial view
+					-- zoom on oaxaca
+NDefines.NFrontend.TUTORIAL_POS_X = 2300.0
+NDefines.NFrontend.TUTORIAL_POS_Y = 500.0
+NDefines.NFrontend.TUTORIAL_POS_Z = 400.0
+NDefines.NFrontend.TUTORIAL_LOOK_X = 2000.0
+NDefines.NFrontend.TUTORIAL_LOOK_Y = 0.0
+NDefines.NFrontend.TUTORIAL_LOOK_Z = 650.0
+					-- Position and PoV when in the content (dlc and mod) view
+					-- view of aridoamerica
+NDefines.NFrontend.CONTENT_POS_X = 3100.0
+NDefines.NFrontend.CONTENT_POS_Y = 750.0
+NDefines.NFrontend.CONTENT_POS_Z = 500.0
+NDefines.NFrontend.CONTENT_LOOK_X = 2500.0
+NDefines.NFrontend.CONTENT_LOOK_Y = 100.0
+NDefines.NFrontend.CONTENT_LOOK_Z = 750.0
+					-- Position and PoV when in the credits view
+					-- view of cuba
+NDefines.NFrontend.CREDITS_POS_X = 2800.0
+NDefines.NFrontend.CREDITS_POS_Y = 650.0
+NDefines.NFrontend.CREDITS_POS_Z = 700.0
+NDefines.NFrontend.CREDITS_LOOK_X = 3500.0
+NDefines.NFrontend.CREDITS_LOOK_Y = 0.0
+NDefines.NFrontend.CREDITS_LOOK_Z = 800.0
 
-NDefines.NFrontend.CONTENT_POS_X = 1586.0
-NDefines.NFrontend.CONTENT_POS_Y = 922.0
-NDefines.NFrontend.CONTENT_POS_Z = 1308.0
-NDefines.NFrontend.CONTENT_LOOK_X = 1586.0
-NDefines.NFrontend.CONTENT_LOOK_Y = 0.0
-NDefines.NFrontend.CONTENT_LOOK_Z = 1519.0
-
--- Religion 
+-- Religion
 NDefines.NReligion.MIN_HARMONIZE_DEVELOPMENT = 20
 NDefines.NReligion.STARTING_HARMONY = 100.0							-- Confucian countries start with this.
 NDefines.NReligion.YEARLY_HARMONY_INCREASE = 2.0
