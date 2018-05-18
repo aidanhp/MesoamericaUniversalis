@@ -861,6 +861,7 @@ guiTypes = {
 			position ={ x = 44 y = 2 }
 			textureFile = ""
 			font = "vic_18"
+			# font = "vic_18_black"
 			borderSize = { x = 4 y = 0 }
 			text = ""
 			# maxWidth = 180

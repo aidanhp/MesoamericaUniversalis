@@ -64,7 +64,9 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_outliner_header"
-		texturefile = "gfx//interface//outliner//outliner_header.tga"
+		# texturefile = "gfx//interface//outliner//outliner_header_1.tga"
+		# texturefile = "gfx//interface//outliner//outliner_header_2.tga"
+		texturefile = "gfx//interface//outliner//outliner_header_3.tga"
 		loadType = "INGAME"
 	}
 
