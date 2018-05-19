@@ -134,12 +134,43 @@ country_event = {
 			AAA = { set_variable = { which = v_ta_influence value = 20 } }
 			ACC = { set_variable = { which = v_ta_influence value = 15 } }
 			AAD = { set_variable = { which = v_ta_influence value = 10 } }
+			AAA = { 
+				add_opinion =  {
+					who = ACC
+					modifier = opinion_triple_alliance 
+				}
+				add_opinion =  {
+					who = AAD
+					modifier = opinion_triple_alliance 
+				}
+			}
+			ACC = { 
+				add_opinion =  {
+					who = AAA
+					modifier = opinion_triple_alliance 
+				}
+				add_opinion =  {
+					who = AAD
+					modifier = opinion_triple_alliance 
+				}
+			}
+			AAD = { 
+				add_opinion =  {
+					who = AAA
+					modifier = opinion_triple_alliance 
+				}
+				add_opinion =  {
+					who = ACC
+					modifier = opinion_triple_alliance 
+				}
+			}
 			
-			#Accepted Cultures
-			AAA = {
-				add_accepted_culture = tepanec
-				add_accepted_culture = colhua
-				add_accepted_culture = acolhua
+			#Purepecha Triarchy 
+			BBW = { 
+				add_ruler_modifier = { 
+					name = TTT_unlucky_sons
+					duration = -1
+				}
 			}
 			
 			#Maya Civil War
@@ -149,6 +180,13 @@ country_event = {
 					duration = -1
 				}
 				country_event = { id = flav_cocom.01 days = 40 }
+			}
+			
+			#Accepted Cultures
+			AAA = {
+				add_accepted_culture = tepanec
+				add_accepted_culture = colhua
+				add_accepted_culture = acolhua
 			}
 		
 			########################

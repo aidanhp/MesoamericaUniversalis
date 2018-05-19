@@ -1,0 +1,837 @@
+#Major flavor events for Tzintzuntzan
+namespace = flav_ttt_majors
+
+#Succession War#
+#Special event - The Shadowmasters strike Hiquingaje down to ensure the proper course of history!
+country_event = {
+	id = flav_ttt_majors.01
+	
+	title = "flav_ttt_majors1.t"
+	desc = "flav_ttt_majors1.d"
+	
+	picture = REFORM_eventPicture 
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 1454
+		tag = M95
+		BBW = {
+			has_ruler = "Hiquingaje"
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "flav_ttt_majors1.a"
+		
+		BBW = {
+			kill_ruler = yes
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#The Death of Hiquingaje (Patzcuaro)
+country_event = {
+	id = flav_ttt_majors.02
+	
+	title = "flav_ttt_majors2.t"
+	desc = "flav_ttt_majors2.d"
+	
+	picture = DEATH_OF_HEIR_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_ttt_majors2.a"
+		
+		define_ruler = {
+			name = "Noble Council"
+			dynasty = "Uanacaze" 
+			age = 40
+			claim = 100
+			regency = yes
+			fixed = yes
+			adm = 3
+			dip = 3
+			mil = 3
+		}
+		
+		hidden_effect = {
+			BBP = { 
+				country_event = { id = flav_ttt_majors.03 days = 2 }
+			}
+			BBX = {
+				country_event = { id = flav_ttt_majors.03 days = 2 }
+			}
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#The Death of Hiquingaje (Other Two)
+country_event = {
+	id = flav_ttt_majors.03
+	
+	title = "flav_ttt_majors3.t"
+	desc = "flav_ttt_majors3.d"
+	
+	picture = DEATH_OF_HEIR_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_ttt_majors3.a"
+		
+		hidden_effect = { 
+			if = {
+				limit = {
+					tag = BBP
+				}
+				set_global_flag = BBP_contests
+				M95 = { 
+					country_event = { id = flav_ttt_majors.04 } 
+				}
+			}
+		
+			if = {
+				limit = {
+					tag = BBX
+				}
+				set_global_flag = BBX_contests
+			}
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "flav_ttt_majors3.b"
+		
+		hidden_effect = { 
+			if = {
+				limit = {
+					tag = BBP
+				}
+				set_global_flag = BBP_wont_contest
+				M95 = { 
+					country_event = { id = flav_ttt_majors.04 } 
+				}
+			}
+		
+			if = {
+				limit = {
+					tag = BBX
+				}
+				set_global_flag = BBX_wont_contest
+			}
+		}
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Decider Event - Decides what the meeting will look like.
+country_event = {
+	id = flav_ttt_majors.04
+	
+	title = "flav_ttt_majors4.t"
+	desc = "flav_ttt_majors4.d"
+	
+	picture = REFORM_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_ttt_majors4.a"
+		
+		#Both Contest
+		if = {
+			limit = {
+				AND = {
+					has_country_flag = BBP_contests
+					has_country_flag = BBX_contests
+				}
+			}
+			BBP = {
+				country_event = { id = flav_ttt_majors.05 days = 7 }
+			}
+			BBX = {
+				country_event = { id = flav_ttt_majors.05 days = 7 }
+			}
+			BBW = { 
+				country_event = { id = flav_ttt_majors.05 days = 7 }
+			}
+		}
+		
+		#Only Tzintzuntzan Contests
+		if = {
+			limit = {
+				AND = {
+					has_country_flag = BBP_contests
+					has_country_flag = BBX_wont_contest
+				}
+			}
+			BBP = {
+				country_event = { id = flav_ttt_majors.06 days = 7 }
+			}
+			BBX = {
+				country_event = { id = flav_ttt_majors.06 days = 7 }
+			}
+			BBW = { 
+				country_event = { id = flav_ttt_majors.06 days = 7 }
+			}
+		}
+		
+		#Only Ihuatzio Contests 
+		if = {
+			limit = {
+				AND = {
+					has_country_flag = BBP_wont_contest
+					has_country_flag = BBX_contests
+				}
+			}
+			BBP = {
+				country_event = { id = flav_ttt_majors.07 days = 7 }
+			}
+			BBX = {
+				country_event = { id = flav_ttt_majors.07 days = 7 }
+			}
+			BBW = { 
+				country_event = { id = flav_ttt_majors.07 days = 7 }
+			}
+		}
+		
+		#Nobody Contests
+		if = {
+			limit = {
+				AND = {
+					has_country_flag = BBP_wont_contest
+					has_country_flag = BBX_wont_contest
+				}
+			}
+			BBP = {
+				country_event = { id = flav_ttt_majors.08 days = 7 }
+			}
+			BBX = {
+				country_event = { id = flav_ttt_majors.08 days = 7 }
+			}
+			BBW = { 
+				country_event = { id = flav_ttt_majors.08 days = 7 }
+			}
+		}
+		
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Hiquingaje's Successor (Both Contest)
+country_event = {
+	id = flav_ttt_majors.05
+	
+	title = "flav_ttt_majors5.t"
+	desc = "flav_ttt_majors5.d"
+	
+	picture = COURT_eventPicture 
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "flav_ttt_majors5.a"
+		trigger = {
+			tag = BBW
+		}
+		
+		country_event = { id = flav_ttt_majors.09 days = 1 }
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "flav_ttt_majors5.b"
+		trigger = {
+			tag = BBX
+		}
+		
+		declare_war_with_cb = {
+			who = BBP
+			casus_belli = cb_feud_triggered
+		}
+		43 = {
+			change_controller = BBX
+		}
+		add_treasury = 60
+		add_manpower = 3
+		set_global_flag = purepecha_succession_war
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "flav_ttt_majors5.c"
+		trigger = {
+			tag = BBP
+		}
+		
+		country_event = { id = flav_ttt_majors.10 days = 1 }
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Hiquingaje's Successor (Only Tzintzuntzan Contests)
+country_event = {
+	id = flav_ttt_majors.06
+	
+	title = "flav_ttt_majors6.t"
+	desc = "flav_ttt_majors6.d"
+	
+	picture = COURT_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_ttt_majors6.a"
+		custom_tooltip = flav_ttt_maj_001
+		if = { 
+			limit = {
+				tag = BBP
+			}
+			create_union = BBW
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Hiquingaje's Successor (Only Ihuatzio Contests)
+country_event = {
+	id = flav_ttt_majors.07
+	
+	title = "flav_ttt_majors7.t"
+	desc = "flav_ttt_majors7.d"
+	
+	picture = COURT_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_ttt_majors7.a"
+		custom_tooltip = flav_ttt_maj_002
+		
+		if = { 
+			limit = {
+				tag = BBX
+			}
+			create_union = BBW
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Hiquingaje's Successor (Nobody Contests)
+country_event = {
+	id = flav_ttt_majors.08
+	
+	title = "flav_ttt_majors8.t"
+	desc = "flav_ttt_majors8.d"
+	
+	picture = COURT_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_ttt_majors8.a"
+		
+		if = { 
+			limit = {
+				tag = BBW
+			}
+			define_ruler = {
+				name = "Turepupanquaran"
+				dynasty = "Uanacaze" 
+				age = 26
+				claim = 85
+				adm = 3
+				dip = 3
+				mil = 4
+			}
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Our Reaction? (Patzcuaro)
+country_event = {
+	id = flav_ttt_majors.09
+	
+	title = "flav_ttt_majors9.t"
+	desc = "flav_ttt_majors9.d"
+	
+	picture = DIPLOMACY_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_ttt_majors9.a"
+		
+		declare_war_with_cb = {
+			who = BBX
+			casus_belli = cb_feud_triggered
+		}
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+	
+	option = {
+		name = "flav_ttt_majors9.b"
+		
+		declare_war_with_cb = {
+			who = BBP
+			casus_belli = cb_feud_triggered
+		}
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+	
+	option = {
+		name = "flav_ttt_majors9.c"
+		
+		add_prestige = -10
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#War Measures (Tzintzuntzan)
+country_event = {
+	id = flav_ttt_majors.10
+	
+	title = "flav_ttt_majors10.t"
+	desc = "flav_ttt_majors10.d"
+	
+	picture = BATTLE_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "flav_ttt_majors10.a"
+		
+		add_treasury = -100
+		random_owned_province = {
+			limit = {
+				controlled_by = BBP
+			}
+			add_unit_construction = {
+				type = ta_triple_alliance_infantry
+				amount = 5
+				speed = 0.05
+				cost = 0
+				mercenary = yes
+			}
+		}
+
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "flav_ttt_majors10.b"
+		
+		add_prestige = 15
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Tzintzuntzan Victorious
+country_event = {
+	id = flav_ttt_majors.11
+	
+	title = "flav_ttt_majors11.t"
+	desc = "flav_ttt_majors11.d"
+	
+	picture = BATTLE_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_ttt_majors11.a"
+		
+		inherit = BBX
+		inherit = BBY
+		country_event = { id = flav_ttt_majors.13 }
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Ihuatzio Victorious
+country_event = {
+	id = flav_ttt_majors.12
+	
+	title = "flav_ttt_majors12.t"
+	desc = "flav_ttt_majors12.d"
+	
+	picture = BATTLE_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_ttt_majors12.a"
+		
+		inherit = BBP
+		inherit = BBW
+		country_event = { id = flav_ttt_majors.13 }
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#A Path Forward
+country_event = {
+	id = flav_ttt_majors.13
+	
+	title = "flav_ttt_majors13.t"
+	desc = "flav_ttt_majors13.d"
+	
+	picture = REFORM_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flav_ttt_majors13.a"
+		
+		custom_tooltip = flav_ttt_maj_003
+		custom_tooltip = GOVS_ht_i_0150
+		if = {
+			limit = {
+				has_idea_group = territorial_ideas
+			}
+			add_adm_power = 400
+		}
+		if = {
+			limit = {
+				has_idea_group = hegemonic_ideas
+			}
+			remove_idea_group = hegemonic_ideas
+			add_idea_group = territorial_ideas
+			add_idea = territorial_grand_strategy  
+			add_idea = power_replacement 
+			add_idea = administrative_centers 
+		}
+		if = {
+			limit = {
+				NOT = { 
+					has_idea_group = hegemonic_ideas
+					has_idea_group = territorial_ideas
+				}
+			}
+			add_idea_group = territorial_ideas
+			add_idea = territorial_grand_strategy  
+			add_idea = power_replacement 
+			add_idea = administrative_centers 
+		}
+		
+		add_country_modifier = {
+			name = TTT_cultural_enclaves
+			duration = -1
+		}
+		hidden_effect = {
+			change_variable = { which = v_terr_hege value = 15 }
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "flav_ttt_majors13.b"
+		
+		custom_tooltip = GOVS_ht_d_0100
+		if = {
+			limit = {
+				has_idea_group = hegemonic_ideas
+			}
+			add_adm_power = 400
+		}
+		if = {
+			limit = {
+				has_idea_group = territorial_ideas
+			}
+			remove_idea_group = territorial_ideas
+			add_idea_group = hegemonic_grand_strategy 
+			add_idea = ostentatious_militarism  
+			add_idea = spectacular_constructions   
+		}
+		if = {
+			limit = {
+				NOT = { 
+					has_idea_group = hegemonic_ideas
+					has_idea_group = territorial_ideas
+				}
+			}
+			add_idea_group = hegemonic_ideas
+			add_idea_group = hegemonic_grand_strategy 
+			add_idea = ostentatious_militarism  
+			add_idea = spectacular_constructions   
+		}
+		hidden_effect = {
+			change_variable = { which = v_terr_hege value = -10 }
+		}
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Other Majors - to be expanded upon later#
+#Tzizispandaquare's Reforms
+country_event = {
+	id = flav_ttt_majors.14
+	
+	title = "flav_ttt_majors14.t"
+	desc = "flav_ttt_majors14.d"
+	
+	picture = REFORM_eventPicture 
+	
+	fire_only_once = yes
+	
+	trigger = {
+		OR = { 
+			tag = BBP
+			tag = BBX
+			tag = Z08
+		}
+		has_idea = territorial_grand_strategy
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+	}
+	
+	option = {
+		name = "flav_ttt_majors14.a"
+		
+		add_stability = -1
+		custom_tooltip = GOVS_ht_i_0075
+		custom_tooltip = GOVS_lt_i_0075
+		add_country_modifier = {
+			name = TTT_great_state_reform
+			duration = -1
+		}
+		
+		hidden_effect = {
+			change_variable = { which = v_terr_hege value = 7.5 }
+			change_variable = { which = v_legal_tradition value = 7.6 }
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "flav_ttt_majors14.b"
+		
+		add_stability = 2
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#The Great Western Revolt
+country_event = {
+	id = flav_ttt_majors.15
+	
+	title = "flav_ttt_majors15.t"
+	desc = "flav_ttt_majors15.d"
+	
+	picture = ANGRY_MOB_eventPicture 
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 1475
+		tag = Z08 
+		
+		Z08 = { 
+			any_owned_province = { 
+				area = autlan_area 
+				area = purepechan_march_area 
+			}
+		}
+		any_country = { 
+			limit = { 
+				capital_scope = { 
+					region = central_mexico_region 
+				}
+			}
+			OR = { 
+				offensive_war_with = Z08
+				defensive_war_with = Z08
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "flav_ttt_majors15.a"
+		
+		every_owned_province = { 
+			limit = { 
+				area = autlan_area
+				area = purepechan_march_area
+			}
+			spawn_rebels = {
+				type = nationalist_rebels 
+				size = 2
+				win = yes
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Found the Border Forts!
+country_event = {
+	id = flav_ttt_majors.16
+	
+	title = "flav_ttt_majors16.t"
+	desc = "flav_ttt_majors16.d"
+	
+	picture = FORT_eventPicture 
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 1470
+		OR = {
+			tag = BBP
+			tag = Z08
+		}
+		purepecha_mexica_border = { 
+			owned_by = Z08
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+	}
+	
+	option = {
+		name = "flav_ttt_majors16.a"
+		add_years_of_income = -1.0
+		add_mil_power = -100
+		105 = { #Taximaroa 
+			add_province_modifier = {
+				name = TTT_border_fort_system
+				duration = -1
+			}
+			change_culture = matlatzinca  
+		}
+		118 = { #Acambaro
+			add_province_modifier = {
+				name = TTT_border_fort_system
+				duration = -1
+			}
+			change_culture = matlatzinca 
+		}
+		103 = { #Zitacuaro
+			add_province_modifier = {
+				name = TTT_border_fort_system
+				duration = -1
+			}
+			change_culture = matlatzinca 
+		}
+		162 = { #Tuzantla
+			add_province_modifier = {
+				name = TTT_border_fort_system
+				duration = -1
+			}
+			change_culture = otomi
+		}
+		100 = { #Ajuchitlan 
+			add_province_modifier = {
+				name = TTT_border_fort_system
+				duration = -1
+			}
+			change_culture = otomi
+		}
+		96 = { #Cutzamala
+			add_province_modifier = {
+				name = TTT_border_fort_system
+				duration = -1
+			}
+			change_culture = otomi
+		}
+		
+		ai_chance = {
+			factor = 80
+		}
+	}
+	
+	option = {
+		name = "flav_ttt_majors16.b"
+		
+		add_prestige = 10
+		
+		ai_chance = {
+			factor = 20
+		}
+	}
+}

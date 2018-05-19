@@ -45,7 +45,7 @@
  
  #Gov-related Decisions#
  display_government_stats_title: "Display Government Statistics"
- display_government_stats_desc: "Current Government Statistics: \nTerritorial vs. Hegemonic: §G[Root.v_terr_hege.GetValue]§! (Change Last Year: §Y[Root.v_terr_hege_display_c.GetValue]§!) \nLocal Delegation vs. Legal Centralization: §G[Root.v_legal_tradition.GetValue]§! (Change Last Year: §Y[Root.v_legal_tradition_display_c.GetValue]§!) \nPatrimonialism vs. Meritocracy: §G[Root.v_merit_tradition.GetValue]§! (Change Last Year: §Y[Root.v_merit_tradition_display_c.GetValue]§!) \nTerrestrial Politics vs. Spiritual Politics: §G[Root.v_religious_tradition.GetValue]§! (Change Last Year: §Y[Root.v_religious_tradition_display_c.GetValue]§!) \nTake this decision for more information."
+ display_government_stats_desc: "Current Government Statistics: \nTerritorial vs. Hegemonic: §G[Root.v_terr_hege.GetValue]§! \n--(Change Last Year: §Y[Root.v_terr_hege_display_c.GetValue]§!) \nLocal Delegation vs. Legal Centralization: §G[Root.v_legal_tradition.GetValue]§! \n--(Change Last Year: §Y[Root.v_legal_tradition_display_c.GetValue]§!) \nPatrimonialism vs. Meritocracy: §G[Root.v_merit_tradition.GetValue]§! \n--(Change Last Year: §Y[Root.v_merit_tradition_display_c.GetValue]§!) \nTerrestrial Politics vs. Spiritual Politics: §G[Root.v_religious_tradition.GetValue]§! \n--(Change Last Year: §Y[Root.v_religious_tradition_display_c.GetValue]§!) \nTake this decision for more information."
  
  
  #Gov-related custom tooltips#
@@ -138,7 +138,7 @@
  #Triple Alliance
  #--Decisions
  display_triple_alliance_influence_title: "Display Triple Alliance Influence"
- display_triple_alliance_influence_desc: "Triple Alliance influence represents the relative power balance in the Triple Alliance of Tenochtitlan, Texcoco, and Tlacopan. \nCurrently, the balance is as follows: \nTenochtitlan: §Y[AAA.v_ta_influence.GetValue]§! \nTexcoco: §Y[ACC.v_ta_influence.GetValue]§! \nTlacopan: §Y[AAD.v_ta_influence.GetValue]§! \nTake this decision for more information."
+ display_triple_alliance_influence_desc: "Triple Alliance influence represents the relative power balance in the Triple Alliance of Tenochtitlan, Texcoco, and Tlacopan. Take this decision for more information. \nCurrently, the balance is as follows: \nTenochtitlan: §Y[AAA.v_ta_influence.GetValue]§! \nTexcoco: §Y[ACC.v_ta_influence.GetValue]§! \nTlacopan: §Y[AAD.v_ta_influence.GetValue]§!"
  #--Variables
  v_ta_influence: "Triple Alliance Influence"
  

@@ -42,7 +42,7 @@ country_decisions = {
 		}
 		effect = {
 			set_country_flag = viewing_gov_stats
-			#custom_tooltip = display_gov_stats_tt 
+			country_event = { id = menus.02 }
 		}
 		ai_will_do = {
 			factor = 0 

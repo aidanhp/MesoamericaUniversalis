@@ -26,6 +26,7 @@ country_decisions = {
 		}
 		
 		effect = { 
+			set_global_flag = triple_alliance_united
 			change_tag = Z02 
 			if = {
 				limit = {
@@ -69,6 +70,7 @@ country_decisions = {
 		}
 		
 		effect = { 
+			set_global_flag = triple_alliance_united
 			change_tag = Z03
 			if = {
 				limit = {
@@ -115,6 +117,7 @@ country_decisions = {
 		}
 		
 		effect = { 
+			set_global_flag = triple_alliance_united
 			change_tag = Z04
 			if = {
 				limit = {
@@ -268,4 +271,30 @@ country_decisions = {
 	}
 	
 	#Declare the Empire of Tzintzuntzan
+	declare_the_empire_of_tzintzuntzan = {
+		major = yes
+		potential = {
+			NOT = { exists = Z08 }
+			OR = { 
+				tag = BBP
+				tag = BBW
+				tag = BBX
+			}
+		}
+		allow = {
+			total_development = 1000
+			capital = 43
+			owns_core_province = 43
+			owns_core_province = 50 
+			owns_core_province = 51
+			owns_core_province = 108
+			owns_core_province = 84
+			owns_core_province = 65
+			owns_core_province = 189
+		}
+		effect = {
+			change_tag = Z08
+			set_government_rank = 3
+		}
+	}
 }	

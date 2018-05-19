@@ -1,0 +1,132 @@
+﻿l_english:
+ #Localization for Tzintzuntzan events#
+ 
+ #Condition Tooltips
+ TR_no_other_allies: "Members of the Purepecha Triarchy cannot ally other nations. You must first break your alliance with one of the other two members."
+ TR_cant_ally: "While the Purepecha Triarchy exists, you cannot ally with its members."
+ 
+ #-------------------------#
+ #FOR TZINTZUNTZAN
+ 
+ #--CUSTOM TOOLTIPS
+ flav_ttt_maj_001: "Tzintzuntzan will gain a personal union over Patzcuaro." 
+ flav_ttt_maj_002: "Ihuatzio will gain a personal union over Ihuatzio." 
+ flav_ttt_maj_003: "Enables special mechanic - Cultural Enclave Bonuses. See triggered modifiers." 
+ 
+ #--EVENT MODIFIDERS
+ TTT_great_state_reform: "Great State Reform"
+ TTT_border_fort_system: "Border Fort System"
+ TTT_unlucky_sons: "Our ruler seems to have real trouble producing sons who live past their teens." 
+ TTT_chichimec_auxiliaries: "Chichimec Auxiliaries"
+ TTT_integrating_chichimecs: "Integrating Chichimecs"
+ TTT_chichimec_immigrants: "Chichimec Immigrants"
+ TTT_four_quarters: "Four Quarters"
+ TTT_expanded_ceremonial_capital: "Expanded Cereminial-Administrative Precinct"
+ #--DECISIONS
+ 
+ #--DISASTERS
+  
+ #--MAJORS
+ #Succession War
+ flav_ttt_majors1.t: "The Shadowmasters Strike Again!"
+ flav_ttt_majors1.d: "In order to ensure the proper course of history, the Shadowmasters have used their strange powers of environmental determinism to strike Hiquingaje, the ruler of Patzcuaro, down!"
+ flav_ttt_majors.a: "The way it must be!"
+ 
+ flav_ttt_majors2.t: "The Death of Hiquingaje"
+ flav_ttt_majors2.d: "Hiquingaje, Tariacuri’s only living son and an esteemed lord and general, has died. \nHiquingaje is not survived by any clear male heirs, due to the storied deaths of his various sons and the unfortunate end of his favorite, Hiquingaje II. While we debate over who should succeed him, we should send word to the ruler of Ihuatzio, [BBX.Monarch.GetName], and the ruler of Tzintzuntzan, [BBP.Monarch.GetName], to ask for their input in the matter. In the meantime, a council of nobles will rule over Patzcuaro."
+ flav_ttt_majors2.a: "Send the messengers."
+ 
+ flav_ttt_majors3.t: "The Death of Hiquingaje"
+ flav_ttt_majors3.d: "A messenger has just arrived in [This.Capital.GetName], with terribly sad news. It seems that Hiquingaje, Tariacuri’s last living son, has died, but has left no male heir to inherit Patzcuaro. A regency council has taken temporary control of the kingdom while the succession is debated, and has summoned $MONARCHTITLE$ $MONARCH$ to Patzcuaro to participate in the selection of the next ruler. \nAs a relative of Tariacuri, $MONARCH$ would certainly have legitimate grounds to nominate himself as the one who should inherit Patzcuaro, if he so wished. Not doing so might be a risk if one of $MONARCH$’s counterparts nominates himself."
+ flav_ttt_majors3.a: "Attend and nominate yourself as the next ruler of Patzcuaro."
+ flav_ttt_majors3.b: "Atten, but don't nominate yourself."
+ 
+ flav_ttt_majors5.t: "Hiquingaje's Successor"
+ flav_ttt_majors5.d: "Today, the council to decide on the successor to the late Irecha of Patzcuaro, Hiquingaje, met. \nThe meeting was held in the city center, in the shadow of the great Yacatas temples, and began in the early morning. First, the Irecha of Ihuatzio, [BBX.Monarch.GetName], marched in, resplendent in the richest feathers and metal ornamentation, at the head of a column of well drilled soldiers. Not to be outdone, the Irecha of Tzintzuntzan, [BBP.Monarch.GetName], entered to the sound of drums and conch trumpets, also leading a small but well equipped force. \nThe two rulers, and the various important nobles of Patzcuaro than went into the city’s palace, where [BBX.Monarch.GetName] and [BBP.Monarch.GetName] found out to their dismay that they had both laid claim to the city’s throne. At first the debate over which of the two should become the next ruler was civil, but the tension slowly grew and eventually spiraled out of control when the two monarchs began to insult each other. The wise men of the council chastised them for disrespecting the memory of Tariacuri’s son, but by now both were enraged, and the meeting ended when [BBX.Monarch.GetName] stormed out of palace and took his soldiers back to Ihuatzio. The nobles restrained [BBP.Monarch.GetName], so that an armed conflict might not break out, but it was too late. When [BBP.Monarch.GetName] finally managed to get back to Tzintzuntzan, he found that it had been seized by [BBX.Monarch.GetName]’s armies. War could no longer be stopped."
+ flav_ttt_majors5.a: "This wasn't supposed to happen!"
+ flav_ttt_majors5.b: "The kingdom will be ours!"
+ flav_ttt_majors5.c: "Tzintzuntzan must be retaken!"
+ 
+ flav_ttt_majors6.t: "Hiquingaje's Successor"
+ flav_ttt_majors6.d: "Today, the council to decide on the successor to the late Irecha of Patzcuaro, Hiquingaje, met. \nThe meeting was held at the city center, in the shadow of the great Yacatas temples, and began in the early morning. First, the Irecha of Tzintzuntzan, [BBP.Monarch.GetName], arrived, resplendent and confident in fine feathers imported from far away lands and finely crafted metal ornamentation, with a small armed guard. Then, the Irecha of Ihuatzio, [BBX.Monarch.GetName], arrived, leading a small procession of nobles and musicians and smiling easily, and cheerfully greeting his brothers. \nThe two rulers, and the important nobility of Patzcuaro all gathered in the royal palace and began to debate who should inherit the kingdom. [BBP.Monarch.GetName] volunteered himself to be the next ruler, and the nobility seemed to be supportive of it. [BBX.Monarch.GetName], not wishing after the throne himself, also supported his brother’s ascent."
+ flav_ttt_majors6.a: "We are glad the issue is settled."
+ 
+ flav_ttt_majors7.t: "Hiquingaje's Successor"
+ flav_ttt_majors7.d: "Today, the council to decide on the successor to the late Irecha of Patzcuaro, Hiquingaje, met. \nThe meeting was held at the city center, in the shadow of the great Yacatas temples, and began in the early morning. First, the Irecha of Ihuatzio, [BBX.Monarch.GetName], arrived, resplendent and confident in fine feathers imported from far away lands and finely crafted metal ornamentation, with a small armed guard. Then, the Irecha of Tzintzuntzan, [BBP.Monarch.GetName], arrived, leading a small procession of nobles and musicians and smiling easily, and cheerfully greeting his brothers. \nThe two rulers, and the important nobility of Patzcuaro all gathered in the royal palace and began to debate who should inherit the kingdom. [BBX.Monarch.GetName] volunteered himself to be the next ruler, and the nobility seemed to be supportive of it. [BBP.Monarch.GetName], not wishing after the throne himself, also supported his brother’s ascent."
+ flav_ttt_majors7.a: "We are glad the issue is settled."
+ 
+ flav_ttt_majors8.t: "Hiquingaje's Successor"
+ flav_ttt_majors8.d: "Today the council to decide on the successor to the late Irecha of Patzcuaro, Hiquingaje, met. \nThe meeting was held at the city center, in the shadow of the great Yacatas temples, and and began in the early morning. [BBP.Monarch.GetName] and [BBX.Monarch.GetName] arrived together, in high spirits, at the head of a procession of guards, musicians, and various nobles, as well as several commoners who had come to learn the results. The two rulers, and the nobility of Patzcuaro all gathered in the royal palace and began to debate who should inherit the kingdom. After several hours of debate it was finally decided thata minor member of the Uanacaze dynasty with a proven record of leadership should take charge of Patzcuaro, and the situation was resolved non-violently."
+ flav_ttt_majors8.a: "We are glad the issue is settled."
+ 
+ flav_ttt_majors9.t: "Our Reaction?"
+ flav_ttt_majors9.d: "A civil war has broken out between Ihuatzio and Tzintzuntzan. What should we do?"
+ flav_ttt_majors9.a: "Side with Tzintzuntzan!"
+ flav_ttt_majors9.b: "Side with Ihuatzio!"
+ flav_ttt_majors9.c: "Refuse to help either side."
+ 
+ flav_ttt_majors10.t: "War Measures"
+ flav_ttt_majors10.d: "Tzintzuntzan has been seized by the power-hungry tyrant, [BBX.Monarch.GetName]! Our kingdom is in great peril without its capital city, and there is no measure too drastic to enact to retake it. \nNoticing our dire situation, a rich merchant from Central Mexico who employs a large number of mercenaries has come to us with an offer. He claims that he can provide us with 5,000 of the finest Mexican soldiers, but the price will be high. This may be the extra edge we need to win the war."
+ flav_ttt_majors10.a: "Hire the mercenaries!"
+ flav_ttt_majors10.b: "I will not dilute our armies with barbarian sellspears from Mexico!"
+ 
+ flav_ttt_majors11.t: "Tzintzuntzan Victorious"
+ flav_ttt_majors11.d: "Victory to Tzintzuntzan! The traitors in Ihuatzio have finally been defeated, and we have successfully pressed our claim on the throne of Patzcuaro. \nThis war has proven that the power-sharing agreement formed after Tariacuri's death is inherently unstable. It would be a service to both the Purepecha people and the memory of Tariacuri if we were to reunite the three kingdoms under Tzintzuntzan."
+ flav_ttt_majors11.a: "We are whole once more!"
+ 
+ flav_ttt_majors12.t: "Ihuatzio Victorious"
+ flav_ttt_majors12.d: "Victory to Ihuatzio! The traitors in Tzintzuntzan have finally been defeated, and we have successfully pressed our claim on the throne of Patzcuaro. \nThis war has proven that the power-sharing agreement formed after Tariacuri's death is inherently unstable. It would be a service to both the Purepecha people and the memory of Tariacuri if we were to reunite the three kingdoms under Ihuatzio."
+ flav_ttt_majors12.a: "We are whole once more!"
+ 
+ flav_ttt_majors13.t: "A Path Forward"
+ flav_ttt_majors13.d: "With our recent sweeping victory in the succession war, it would be wise to restructure our political system so that it does not depend on the antiquated triarchy model any longer. We may opt to invest in a decentralized hegemonic system, along the lines of the classic empires and kingdoms of central Mexico, or attempt to forge a more centralized form of government."
+ flav_ttt_majors13.a: "A new, glorious destiny for the Purepecha!"
+ flav_ttt_majors13.b: "A traditional hegemonic system."
+ 
+ #Others
+ flav_ttt_majors14.t: "$MONARCH$'s Great State Reform"
+ flav_ttt_majors14.d: "$MONARCH$ has set about perfecting the internal organization of the new, centralized Purepecha State. He has proposed a sweeping reform designed to significantly increase the power of the crown relative to the nobility, and to vastly increase the presence of state power in conquered cities. The following measures are the sum of the motion: \nThe nobles of certain problematic conquered provinces will be hereby replaced by loyal nobles appointed by the Cazonci. \nAll matters of succession among vassal nobles will hereby be brought to the capital to be decided by the Cazonci. \nProvincial nobles will hereby lose the rank of Irecha, and will be demoted to the rank of Caracha-Capacha. \nThe daughters of nobles will hereby be sent to the capital once they come of age, and the Cazonci will marry them to approved lords as he pleases to prevent dangerous alliances of noble houses. \nThe Cazonci will hereby be granted the power to set aside certain conquered lands as the exclusive property of the royal family. Anyone caught attempting to collect tribute on these lands, farming in these lands, or hunting in these lands without the permission of the Cazonci will be severely punished."
+ flav_ttt_majors14.a: "These reforms are just what we need."
+ flav_ttt_majors14.b: "Far too radical!"
+ 
+ flav_ttt_majors15.t: "The Great Western Revolt"
+ flav_ttt_majors15.d: "The far western reaches of our realm have only been recently integrated in the Kingdom, and have proven quite troublesome already. Not only are they culturally different from ourselves and unused to being dominated by an outside power, but we have also recently suffered growing pains in our administrative systems as we struggle to hold areas further and further from our capital. \nIt seems that our inability to effectively supervise the marches of the west has resulted in a large generalized rebellion against our rule, with the goal of returning things to the way they were before we arrived. The lords we left in charge of the western marches appear to have been the first to call for rebellion now that we are distracted by war, spitting on the generosity of the Cazonci."
+ flav_ttt_majors15.a: "Let them feel Curicaueri’s fiery wrath!"
+ 
+ flav_ttt_majors16.t: "Found the Border Forts!"
+ flav_ttt_majors16.d: "Our state is strong. Our populace is growing. Our storehouses are receiving tribute from across the land. And yet still, the nahua powers plague us. Recent clashes with states and peoples on our eastern flank have convinced $MONARCH$ that we must establish more permanent border fortifications to ensure that the core of our realm is always protected, and to strengthen our military capabilities for further campaigns against the easterners. Therefore, all along our eastern border, we will construct a series of forts from which no person will be able to enter the realm unseen and unnoticed. We will populate these forts with refugees who have been fleeing the east - they will fight the hardest and remain loyal to keep these outsiders and ravagers away. These forts will be connected to our mountain fire beacon network, and always have runners ready to communicate with the center. We will be ever vigilant, ever a bastion against the warmongers of the east."
+ flav_ttt_majors16.a: "To be warned is to have three quarters of the battle won."
+ flav_ttt_majors16.b: "Us? On the defense? Never!"
+ 
+ #--MINORS
+ #Chichimec Immigrants
+ flav_ttt_minors1.t: "Immigrants from the North"
+ flav_ttt_minors1.d: "In recent weeks, traveling merchants and military patrols assigned to border villages have reported processions of people, sometimes hundreds strong, coming from the north and northeast. They are said to be poorly clad in the manner of chichimec barbarians, and they speak of great drought in their homelands. Word of our kingdom seems to have reached these hapless northern tribesmen, because they ask after a powerful lord who controls much fertile land and a wide, clear lake. Today, a large group arrived at the gates of Tzintzuntzan, looking weary but impressed by the riches of our capital. The leader apparent has requested sanctuary and land around Lake Patzcuaro in exchange for loyal service to yourself."
+ flav_ttt_minors1.a: "Grant the migrants sanctuary."
+ flav_ttt_minors1.b: "Direct them elsewhere."
+ 
+ flav_ttt_minors2.t: "More Northern Immigrants"
+ flav_ttt_minors2.d: "Having heard of our great power and generosity, another several villages full of immigrants have arrived at Tzintzuntzan, seeking a place to live within our kingdom."
+ flav_ttt_minors2.a: "Settle them!"
+ flav_ttt_minors2.b: "Send them someplace else."
+ 
+ flav_ttt_minors3.t: "Chichimec Leader Seeks Audience"
+ flav_ttt_minors3.d: "One of the chichimecs immigrants from the north, proclaiming himself a powerful chieftain with much experience in warfare, has requested an audience with you. The man is a rough sight but has an air of dignity about him and seems to think that he has an idea that will benefit our military."
+ flav_ttt_minors3.a: "Bring him in."
+ flav_ttt_minors3.b: "The barbarians and their 'ideas' will stay in the fields."
+ 
+ flav_ttt_minors4.t: "The Chichimec Leader"
+ flav_ttt_minors4.d: "The chichimec chieftain is lead into the royal palace, wide eyed but straight faced, flanked by richly clad royal guards. After offering you a gift of beautiful jewelry from the artisans of his tribe, he proceeds to explain how he thinks that his people could be more to you than simple farmers. In the north, he says, they were unparalleled warriors, particularly well known for their skill with the bow, usually seen as a low barbarian weapon. Pointing out that none of your enemies make common use of the bow, not even the great kings in the far off valleys of the east, he proposes that you switch some of your military production to bows and arrows and allow him and allow him to lead his kin as a ranged auxiliary to your main forces, promising that it will be extremely effective."
+ flav_ttt_minors4.a: "Genius!"
+ flav_ttt_minors4.b: "I'm sorry, but the position of court jester is already filled."
+ 
+ flav_ttt_minors5.t: "Immigration from the North Ends"
+ flav_ttt_minors5.d: "Whatever calamity struck the north, it now seems to have passed. The number of incoming immigrants has dwindled and the ones that had previously arrived have settled in nicely."
+ flav_ttt_minors5.a: "Good."
+ 
+ #Four Quarters
+ flav_ttt_minors6.t: "Establish The Four Quarters!"
+ flav_ttt_minors6.d: "It has been a full sheaf of years, more than a man’s life, since Tariacuri was gifted with a vision of bringing our rule over the land. Now, with our realm extending in every direction, we can declare a new symbolic era for our state. From now until the end of this cycle of the world, our realm will be separated into the Four Quarters, with a caracha-capacha ruling over each at Xacona, at Tacambaro, at Zinapecuaro, and at Zacapu. Certainly, these new administrative centers will have use for worldly purposes - such as focusing and gathering our troops in those regions - but in truth, this represents our realm becoming symbolically and geographically complete, and a model of the world we live in revolving around Curicaueri’s force on earth, our Irecha Cazonci."
+ flav_ttt_minors6.a: "Let the Quarters extend to the ends of the One World!"
+ flav_ttt_minors6.b: "We should concentrate more power in the capital instead."
+ #--CUTE 

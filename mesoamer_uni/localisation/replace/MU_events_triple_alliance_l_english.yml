@@ -1,8 +1,13 @@
 ﻿l_english:
  #Localization for Tenochtitlan, Texcoco, and Tlacopan#
  
- #Opinion Modifiers
+ #Opinion Modifiers#
+ opinion_triple_alliance: "Triple Alliance"
  opinion_ta_infuriated: "Infuriated"
+ 
+ #Condition Tooltips#
+ TA_no_other_allies: "Members of the Triple Alliance cannot ally other nations. You must first break your alliance with one of the other two members."
+ TA_cant_ally: "While the Triple Alliance exists, you cannot ally with its members." 
  
  #-------------------------#
  #TENOCHTITLAN

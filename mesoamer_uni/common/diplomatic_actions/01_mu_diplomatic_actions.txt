@@ -18,11 +18,180 @@
 ########################################
 # MESOAMERICA UNIVERSALIS DIPLOMATIC ACTIONS
 ########################################
-
-declarewar = {
-	hidden_effect = {
-		ROOT = {
-			set_variable = { which = v_captives_from_war value = 0 }
+allianceaction = {
+	#Triple Alliance Conditions
+	condition = {
+		tooltip = TA_no_other_allies
+		potential = {
+			ROOT = { 
+				tag = AAA 
+			}
+		}
+		allow = {
+			NOT = { 
+				alliance_with = ACC
+				alliance_with = AAD
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = TA_no_other_allies
+		potential = {
+			ROOT = { 
+				tag = ACC 
+			}
+		}
+		allow = {
+			NOT = { 
+				alliance_with = AAA
+				alliance_with = AAD
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = TA_no_other_allies
+		potential = {
+			ROOT = { 
+				tag = AAD 
+			}
+		}
+		allow = {
+			NOT = { 
+				alliance_with = ACC
+				alliance_with = AAA
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = TA_cant_ally
+		potential = {
+			ROOT = { 
+				NOT = { 
+					tag = AAA
+					tag = ACC
+					tag = AAD
+				}
+			}
+		}
+		allow = {
+			FROM = { 
+				NOT = { 
+					OR = { 
+						AND = { 
+							tag = AAA
+							alliance_with = ACC
+							alliance_with = AAD
+						}
+						AND = { 
+							tag = ACC
+							alliance_with = AAA
+							alliance_with = AAD
+						}
+						AND = { 
+							tag = AAD
+							alliance_with = ACC
+							alliance_with = AAA
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	#Purepecha Triarchy Conditions
+	condition = {
+		tooltip = TR_no_other_allies
+		potential = {
+			ROOT = { 
+				tag = BBP 
+			}
+		}
+		allow = {
+			NOT = { 
+				alliance_with = BBX
+				alliance_with = BBW
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = TR_no_other_allies
+		potential = {
+			ROOT = { 
+				tag = BBX 
+			}
+		}
+		allow = {
+			NOT = { 
+				alliance_with = BBW
+				alliance_with = BBP
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = TR_no_other_allies
+		potential = {
+			ROOT = { 
+				tag = BBW 
+			}
+		}
+		allow = {
+			NOT = { 
+				alliance_with = BBP
+				alliance_with = BBX
+			}
+		}
+	}
+	
+	condition = {
+		tooltip = TR_cant_ally
+		potential = {
+			ROOT = { 
+				NOT = { 
+					tag = BBP
+					tag = BBX
+					tag = BBW
+				}
+			}
+		}
+		allow = {
+			FROM = { 
+				NOT = { 
+					OR = { 
+						AND = { 
+							tag = BBP
+							alliance_with = BBX
+							alliance_with = BBW
+						}
+						AND = { 
+							tag = BBX
+							alliance_with = BBW
+							alliance_with = BBP
+						}
+						AND = { 
+							tag = BBW
+							alliance_with = BBP
+							alliance_with = BBX
+						}
+					}
+				}
+			}
 		}
 	}
 }
+
+declarewar = {
+	effect = {
+		hidden_effect = { 
+			ROOT = {
+				set_variable = { which = v_captives_from_war value = 0 }
+			}
+		}
+	}
+}
+
+

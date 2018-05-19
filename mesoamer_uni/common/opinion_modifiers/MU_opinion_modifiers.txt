@@ -9,12 +9,7 @@ entertaining_heathens = {
 
 opinion_triple_alliance = {
 	opinion = 200
-	yearly_decay = 0
-}
-
-opinion_refusedtribute = {
-	opinion = -100
-	yearly_decay = 10
+	yearly_decay = 1
 }
 
 opinion_ta_infuriated = {
@@ -23,7 +18,7 @@ opinion_ta_infuriated = {
 }
 
 opinion_mexica_brothers = {
-	opinion = 200
+	opinion = 100
 	yearly_decay = 0
 }
 
@@ -32,17 +27,7 @@ opinion_betrayed_triarchy = {
 	yearly_decay = 0.1
 }
 
-opinion_dynastic_conflict = {
-	opinion = -150
-	yearly_decay = 2
-}
-
 opinion_defense_of_the_world = {
 	opinion = 200
-	yearly_decay = 10
-}
-
-opinion_betrayed_world = {
-	opinion = -150
 	yearly_decay = 5
 }

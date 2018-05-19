@@ -3,7 +3,7 @@ namespace = flav_all
 
 #Comet Sighted
 country_event = {
-	id = flav_all.1
+	id = flav_all.01
 	
 	title = "flav_all.1.t"
 	desc = "flav_all.1.d"

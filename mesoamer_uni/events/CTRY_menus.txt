@@ -14,6 +14,7 @@ country_event = {
 	
 	option = {
 		name = "menus1.a"
+		clr_country_flag = viewing_ta_influence
 		
 		ai_chance = {
 			factor = 50
@@ -34,6 +35,7 @@ country_event = {
 	
 	option = {
 		name = "menus2.a"
+		clr_country_flag = viewing_gov_stats
 		
 		ai_chance = {
 			factor = 50

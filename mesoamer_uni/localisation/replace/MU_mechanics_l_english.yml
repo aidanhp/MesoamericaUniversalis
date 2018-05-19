@@ -27,7 +27,7 @@
  draft_law_change_cooldown: "Draft Law Change Cooldown"
  #Decisions
  set_draft_laws_title: "Set Draft Laws"
- set_draft_laws_desc: "Declare a new recruitment policy that will either increase or decrease your potential manpower pool, and also affect your provinces in various ways. \nCurrently, our draft law is set to level [Root.v_draft_law.GetValue]." 
+ set_draft_laws_desc: "Declare a new recruitment policy that will either increase or decrease your potential manpower pool, and also affect your provinces in various ways. Take this decision for more information. \nCurrently, our draft law is set to level [Root.v_draft_law.GetValue]." 
  
  
  #Tribute System#
@@ -98,7 +98,7 @@
  
  #Decisions
  set_tribute_requirements_title: "Set Tribute Requirements"
- set_tribute_requirements_desc: "Declare a change in tribute requirements for your tributary (non-state) provinces. To learn more about the tribute system, see the encyclopedia entry."
+ set_tribute_requirements_desc: "Declare a change in tribute requirements for your tributary (non-state) provinces. For more information, take this decision. \nCurrently, our tribute requirements are set to level [Root.v_trib_reqs.GetValue]."
  
  
  #Population System#
@@ -145,7 +145,7 @@
  captives1.a: "Back"
  #Decisions
  assess_captives_title: "Assess Captives"
- assess_captives_desc: "Check how many captives you currently possess, and your captives limit."
+ assess_captives_desc: "\nCurrent Common Captives: [Root.v_common_captives.GetValue] \nCurrent Elite Captives: [Root.v_elite_captives.GetValue] \nCaptives Limit: [Root.v_captives_limit.GetValue] \nTake this decision for more information."
  
  
  #Special Global Modifiers#

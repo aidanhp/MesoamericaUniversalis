@@ -274,15 +274,68 @@ country_event = {
 			set_variable = { which = v_terr_hege_display_c which = v_terr_hege_change }
 			set_variable = { which = v_terr_hege_change value = 0 }
 			
-			#Legal Tradition#
+			#Local Delegation vs Legal Centralization#
 			
 			
-			#Meritocratic Tradition#
+			#Patrimonialism vs Meritocracy#
 			
 			
-			#Religious Tradition#
+			#Terrestrial Poilitics vs Spiritual Politics#
 			
 			
+			#Triple Alliance Influence
+			if = { 
+				limit = { 
+					NOT = { has_global_flag = triple_alliance_united }
+					OR = { 
+						tag = AAA
+						tag = ACC
+						tag = AAD
+					}
+				}
+				if = { 
+					limit = { 
+						prestige = 50 
+					}
+					change_variable = { which = v_ta_influence value = 0.10 } 
+				}
+				if = { 
+					limit = { 
+						prestige = 60 
+					}
+					change_variable = { which = v_ta_influence value = 0.10 } 
+				}
+				if = { 
+					limit = { 
+						prestige = 70 
+					}
+					change_variable = { which = v_ta_influence value = 0.10 } 
+				}
+				if = { 
+					limit = { 
+						prestige = 80 
+					}
+					change_variable = { which = v_ta_influence value = 0.10 } 
+				}
+				if = { 
+					limit = { 
+						prestige = 90 
+					}
+					change_variable = { which = v_ta_influence value = 0.10 } 
+				}
+				if = { 
+					limit = { 
+						prestige = 100 
+					}
+					change_variable = { which = v_ta_influence value = 0.10 } 
+				}
+				
+				every_owned_province = { 
+					owner = { 
+						change_variable = { which = v_ta_influence value = 0.01 }
+					}
+				}
+			}
 		}
 	}
 	

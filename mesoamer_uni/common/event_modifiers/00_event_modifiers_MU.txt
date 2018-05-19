@@ -68,6 +68,57 @@ TEN_tlacaelel_cihuacoatl = {
 	ae_impact = -0.10
 }
 
+#FlAV_tzintzuntzan_majors
+TTT_unlucky_sons = { 
+	heir_chance = -10.0
+}
+
+TTT_great_state_reform = {
+	stability_cost_modifier = -0.20
+	global_autonomy = -0.03
+	discipline = 0.05
+}
+
+TTT_border_fort_system = {
+	local_defensiveness = 0.33
+	local_unrest = -4
+	local_autonomy = -0.10
+}
+
+#FLAV_tzintzuntzan_minors
+TTT_integrating_chichimecs = { 
+	stability_cost_modifier = 0.25
+	global_unrest = 1
+}	
+
+TTT_chichimec_immigrants = { 
+	local_unrest = 2
+	local_tax_modifier = 0.10
+}
+
+TTT_chichimec_auxiliaries = {
+	infantry_power = 0.15
+}
+
+TTT_four_quarters = {
+	local_defensiveness = 0.10
+	local_production_efficiency = 0.10
+	local_autonomy = -0.05
+	local_unrest = -2
+	regiment_recruit_speed = -0.15
+	local_regiment_cost = -0.15
+}
+
+TTT_expanded_ceremonial_capital = { 
+	local_defensiveness = 0.15
+	local_production_efficiency = 0.15
+	local_tax_modifier = 0.15
+	local_institution_spread = 0.25
+	allowed_num_of_buildings = 1
+	regiment_recruit_speed = -0.15
+	local_regiment_cost = -0.15
+}
+
 #Institutions
 birthplace_of_the_world_system = {
 	province_trade_power_modifier = 0.05

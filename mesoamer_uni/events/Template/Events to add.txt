@@ -5,7 +5,7 @@ List of events I need to add back in
 <//> Flavor - Formable Declarations
 <X> Flavor - Tenochtitlan 
 <X> Flavor - Texcoco 
-< > Flavor - Tzintzuntzan
+<X> Flavor - Tzintzuntzan
 <X> Institutions Events 
 < > Invasion Events
 <//> Plagues Events
@@ -13,6 +13,7 @@ List of events I need to add back in
 < > Purepecha Religion Events
 < > Government Stat Menu
 < > Pyramid Construction Events
+< > Encyclopedia
 REMEMBER TO ADD AN EVENT REMOVING
 MESOAMERICAN LOGISTICS THAT CAN
 TRIGGER AFTER EUROPEAN ANIMALS
