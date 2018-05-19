@@ -695,27 +695,25 @@ country_event = {
 	title = "flav_ttt_majors15.t"
 	desc = "flav_ttt_majors15.d"
 	
-	picture = ANGRY_MOB_eventPicture 
+	picture = ANGRY_MOB_eventPicture
 	
 	fire_only_once = yes
 	
 	trigger = {
 		is_year = 1475
-		tag = Z08 
+		tag = Z08
 		
-		Z08 = { 
-			any_owned_province = { 
-				area = autlan_area 
+		Z08 = {
+			any_owned_province = {
+				area = autlan_area
 				area = purepechan_march_area 
 			}
 		}
-		any_country = { 
-			limit = { 
-				capital_scope = { 
-					region = central_mexico_region 
-				}
+		any_country = {
+			capital_scope = {
+				region = central_mexico_region
 			}
-			OR = { 
+			OR = {
 				offensive_war_with = Z08
 				defensive_war_with = Z08
 			}
@@ -729,8 +727,8 @@ country_event = {
 	option = {
 		name = "flav_ttt_majors15.a"
 		
-		every_owned_province = { 
-			limit = { 
+		every_owned_province = {
+			limit = {
 				area = autlan_area
 				area = purepechan_march_area
 			}

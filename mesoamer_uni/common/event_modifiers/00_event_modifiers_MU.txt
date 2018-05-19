@@ -3,7 +3,7 @@
 #FLAV_formable_declarations
 second_capital = {
 	local_tax_modifier = 0.25
-	local_autonomy_modifier = -1.0
+	add_local_autonomy = -1.0
 }
 
 crowned_quetzalcoatl = {
