@@ -194,4 +194,20 @@ declarewar = {
 	}
 }
 
+requestpeace = {
+	condition = {
+		tooltip = INVN_first_war
+		potential = {
+			FROM = { 
+				has_country_flag = first_war_invasion
+			}
+			ROOT = {
+				has_country_flag = first_war_invasion
+			}
+		}
+		allow = {
+			always = no
+		}
+	}
+}
 

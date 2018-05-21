@@ -1,0 +1,7 @@
+government = absolute_hereditary_monarchy 
+government_rank = 3
+mercantilism = 0.25
+technology_group = western 
+religion = catholic 
+primary_culture = castillian 
+capital = 1

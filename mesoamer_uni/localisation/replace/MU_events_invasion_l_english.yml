@@ -1,0 +1,110 @@
+﻿l_english: 
+ #Localization for the Spanish Invasion#
+ 
+ #Conditions
+ INVN_first_war: "This war cannot be ended by a peace deal. It will end in favor of the Spanish if they capture your capital, and in your favor if you maintain 95% warscore." 
+ SMALLPOX_END: "The disease burns out." 
+ 
+ #Custom Tooltips
+ flav_invasion_001: "G-A-M-E--O-V-E-R-!"
+ flav_invasion_002: "All Totonac culture provinces go over to Caxtilan."
+ flav_invasion_003: "All Totonac culture provinces get the 'Rebellious Province' modifier." 
+ flav_invasion_004: "You will be vassalized by Caxtillan, and will fight a war with your rival if one is to begin."
+ flav_invasion_005: "Our ruler will convince the Spanish he is their servant while trying to think of a way to deal with this situation."
+ 
+ flav_plagues_001: "The yearly population loss from this disaster will be reduced from 15% to 12%."
+ 
+ #Event Modifiers
+ smallpox_spreading_yucatan: "Smallpox Spreading"
+ smallpox_spreading_mexico: "Smallpox Spreading"
+ fighting_smallpox: "Fighting Smallpox"
+ recent_smallpox_epidemic: "Recent Smallpox Epidemics"
+ smallpox_outbreak: "Smallpox Outbreak"
+ 
+ rebellious_province: "Rebellious Province"
+ spain_invasion_buff: "Spanish Invasion"
+ spanish_puppet: "Spanish Puppet"
+ collapse_of_the_government: "Collapse of the Government"
+ foiled_invasion: "Foiled Invasion"
+ spanish_occupation: "Spanish Occupation"
+ ceded_province: "Recently Ceded Province" 
+ 
+ #Invasion Events
+ invasion1.t: "Arrival at Potonchan"
+ invasion1.d: "Recently, many towering boats were spotted off the coast of the thriving coastal city of Potonchan, and a few days later a large group of pale men wielding strange weapons disembarked and began to explore the surrounding countryside. The local leaders mustered a force to investigate and fought several inconclusive skirmishes with the intruders, who later returned in larger numbers, with many strange weapons, including a barrel supposedly capable of splitting mountains, and their intent was clear - to make war. \nA large force was mobilized in defense of the cities, and eventually the two groups met each other and fought a fearsome battle. The local forces seemed to be prevailing until another group of the pale men ambushed them atop their alien deer-like steeds, which were later discovered to be called horses, and scattered the defending army. \nDefeated, the local leaders established peace with the intruders and gave them many gifts, including an enslaved noblewoman named Ce Malinalli, who the intruders have named ‘Malinche’. The strange new men then left for the land called Mexico where they were told that much gold and other riches were to be found."
+ invasion1.a: "Disturbing..."
+ 
+ invasion2.t: "Disturbing Rumors from Potonchan"
+ invasion2.d: "A single commoner has arrived in our lands, apparently from the Chontal city of Potonchan. He claims that very pale men aboard massive ships, which he likened to ‘floating mountains’ arrived at his homeland several weeks ago and overcame the not-insignificant local forces after several inconclusive skirmishes, and wishes to warn us that the strangers may soon arrive in our lands. Apparently they are seeking riches, and are in possession of fearsome and unknown weapons."
+ invasion2.a: "What could this mean?"
+ 
+ invasion3.t: "Arrival at Cempoala"
+ invasion3.d: "Strange pale men - riding ‘deer without horns’, wearing full suits of metal, and led by the oddly named Hernan Cortes - have recently arrived at one of the crown jewels of the Totonac people, the city of Cempoallan. This man, Cortes, claims that he is the servant of a great Emperor from across the sea, and has taken the liberty of explaining to us his religion - which he claims to be more correct than ours. He has also spoken with extreme negativity of many of our traditional religious practices - and wants us to renounce our ways and agree to be vassals of his lord from across the sea. \nHe and his men are heavily armed, and it is probable that if we refuse their request conflict will break out."
+ invasion3.a: "Who does this man think he is? He will die!"
+ invasion3.b: "He does seem to know what he's talking about."
+ 
+ invasion4.t: "Arrival at Cempoala"
+ invasion4.d: "Word has reached us that strange pale men - riding ‘deer without horns’, wearing full suits of metal, and led by the oddly named Hernan Cortes - have recently arrived at our coastal city of Cempoallan. There, they are apparently spreading dissent among the locals, riling them up against our supposedly repressive regime. Many of the Totonac leaders are now turning against us. Additionally, several of our tribute collectors were imprisoned without just cause! What should be done?"
+ invasion4.a: "Prepare an expedition now! These impertinant barbarians will be crushed!"
+ invasion4.b: "Invite these strangers to our capital- where we can contain and learn more about them."
+ 
+ invasion5.t: "Dealings with Caxtillan"
+ invasion5.d: "The pale, heavily armed foreigners who arrived at Cempoala recently are heading towards the capital of $FROMCOUNTRY$, but have stopped in our lands along the way. Apparently they have designs to conquer $FROMCOUNTRY$ and have heard that we are one of $FROMCOUNTRY$’s greatest enemy. They wish to know whether or not we would support them in a war against $FROMCOUNTRY$ if they were to start one."
+ invasion5.a: "Of course! These men would make fine allies."
+ invasion5.b: "These men are suicidal. We shall not join them."
+ 
+ invasion6.t: "The Strangers Arrive at $CAPITAL_CITY$"
+ invasion6.d: "The foreign men who disrupted the order of Cempoala have accepted our invitation to come to our glorious capital, $CAPITAL_CITY$. Today they arrived, and were greeted by $MONARCHTITLE$ $MONARCH$ at the front gates of the city. $MONARCH$ showcased the richness of his kingdom with lavish gifts, and succeeded in significantly impressing the leader of the men, Hernan Cortes, and many of his subordinates. They were escorted around the city, in awe of the great markets, temples, and the abundance of people. \nLater, the leading men met with $MONARCH$, who showed them where they would be staying in the royal palace, the treasury of the kingdom, and provided them with food and drink. \nThen, Cortes told $MONARCH$ of his Christian religion via his translator, Ce Malinalli, and also told him of his great Emperor across the sea, Charles the Fifth, and how $MONARCH$ should agree to become the tributary of this excellent and mighty man."
+ invasion6.a: "Avoid escalating the situation by making statements either way."
+ invasion6.b: "What is this? I am no man's tributary!"
+ 
+ invasion7.t: "A Cross for our Great Temple"
+ invasion7.d: "Cortes has approached $MONARCH$ and asked him if he could erect a Christian cross on the top of our grand temple in place of our ‘idols’. Agreeing to this demand would surely signify our vassalage, but not doing so will dramatically increase tensions."
+ invasion7.a: "Allow him to construct this cross..."
+ invasion7.b: "Never! Our gods have always brought us victory and prosperity!"
+ 
+ invasion8.t: "The $MONARCHTITLE$ Captured!"
+ invasion8.d: "Treachery! The Caxtillteca foreigners have captured our great leader $MONARCH$, and are holding him captive in the royal palace. Our leader still retains his position and much of his power but he is now subject to the whims of Hernan Cortes. The situation is becoming increasingly unstable, but there is little we can do at the present without sentencing $MONARCH$ to death, so we must wait."
+ invasion8.a: "We bide our time and wait to strike..."
+ 
+ invasion9.t: "Incident at Potonchan"
+ invasion9.d: "Hernan Cortes, the captor of our ruler, is apparently in trouble with his great Emperor across the sea. He has been forced to leave our capital and ruler in the hands of one of his lieutenants, Pedro de Alvarado, and has gone to face another man from his country, Panfilo de Narvaez, who was sent to punish him for some infraction and has recently landed in the Chontal city of Potonchan. Perhaps we will get lucky and these demons will destroy each other."
+ invasion9.a: "Worst of luck to him!"
+ 
+ invasion10.t: "Massacre at $CAPITAL_CITY$!"
+ invasion10.d: "What horror! The vile Captain, Pedro de Alvarado, has committed an atrocity from which we might never recover. Much of the nobility, who are still allowed free movement, were participating in a religious festival in the sacred precinct of $CAPITAL_CITY$ when the greed of Alvarado and his men got the better of them. They descended on the mostly unguarded and unarmed nobles with their strange weapons, and surrounded and massacred them by the thousands. Administrators, merchants, military commanders, advisors, priests… much of our government has been completely annihilated. It will decades to replace what was lost. \nAfter the attack, the population of our capital learned of the affront, and hospitality was at its end. The barbarians attempted to force our old monarch to quell the unrest, but he was jeered at and ignored, and then killed by the Caxtillteca for his failure. Besieged in the royal palace, the intruders attempted to escape our capital by night, but were discovered, and a fierce battle ensued. The majority of the enemy forces were slaughtered by our relentless soldiers, but the leaders, including the returning Cortes and Alvarado, and a few of their men and allies were able to escape to the lands of their local supporters."
+ invasion10.a: "War! War! WAR!"
+ 
+ invasion11.t: "The Fall of $CAPITAL_CITY$"
+ invasion11.d: "Blood and ashes are all that remain of $CAPITAL_CITY$. Despite our best efforts, despite the sacrifice of every ounce of strength we could muster, the combined might of the Caxtilteca, the rebels who have joined them, and the devastating new diseases have overwhelmed us. We fought with bravery and desperation, and we found honor, but not glory. There is no glory to be found in this place of the dead. For day after day our soldiers fought to exhaustion, as the thunder of the cannons flashed through the sooty air and our temples and palaces and homes first became fortresses and then became rubble. Men of our nation and those that rebelled against us, stiffened by the Caxtilteca, fought entangled on the streets in a nightmare of urban warfare where nothing and nobody was spared. Thousands, hundreds of thousands, died and one of the great cities of the One World was reduced to blood and ashes and decay and sorrow. After a hopeless last stand in the market square, $MONARCH$ knelt before the Spanish conqueror amidst the ruins and delivered surrender. All who looked on knew that a new world had been born. Not just a new One World. A new world, and a very painful birth. Even if some other lord is able to turn back these invaders he cannot undo what has been done here today."
+ invasion11.a: "Our sun has gone down, our sun has been lost from view..."
+ 
+ invasion12.t: "Hernan Cortes Captured!"
+ invasion12.d: "Today, the destroyer Hernan Cortes and several of his captains were captured during a skirmish between our forces and the broken remnants of those of the Caxtillteca. Determined to fight to the very last, Cortes and his most loyal men, bleeding, broken, and exhausted after years of warfare, attempted a last ditch, doomed cavalry charge against a squadron of our soldiers. Cortes did his best to die, but was unsuccessful. A soldier chopped the head off of his charging horse and sent him flying forward into the arms of another soldier, who seized the man’s heavily nicked steel sword and flung it away before bashing Cortes on the head with a mace and incapacitating him. \nThe demon Cortes was then brought before $MONARCH$ in amidst our heavily damaged city of $CAPITAL_CITY$, and shown all that he had done to the once beautiful land. $MONARCH$ then told Cortes that he respected his prowess in battle, but it had not been enough. It was time to atone for his crimes."
+ invasion12.a: "And atone he shall..."
+ 
+ invasion13.t: "Spanish Seize $PROVINCENAME$"
+ invasion13.d: "The Spanish invaders have suceeded in establishing control over $PROVINCENAME$ with the help of the local leadership."
+ invasion13.a: "We must retake it!"
+ 
+ invasion14.t: "Rebels Ally with Caxtillan!"
+ invasion14.d: "Several of our provinces whose rulers have various real or percieved grievences against our rule have risen up and allied themselves with the Caxtillteca in hopes of eventually reasserting their independence."
+ invasion14.a: "Curse them!"
+ 
+ #Plague Events
+ plagues1.t: "Death Sweeps the Land"
+ plagues1.d: "A strange disease has begun to spread through our lands of late… \nThose affected are practically covered in painful sores. It is killing many, but primarily the weakest segments of our population. Good care causes some increase in survivability - we will likely endure as long as nothing else particularly bad happens."
+ plagues1.a: "Do everything you can to fight the plague."
+ plagues1.b: "We can't spare anything, we must prepare our defenses."
+ 
+ plagues2.t: "End of the Epidemic"
+ plagues2.d: "At last, the vile disease that afflicted us seems to have worn itself out. Hopefully it does not return."
+ plagues2.a: "Thank the gods!"
+ 
+ #Disasters
+ smallpox_yucatan: "Smallpox Epidemic: Source Yucatan"
+ desc_smallpox_yucatan: "A deadly smallpox epidemic brought by the barbarians from across the sea has started on the Yucatan Peninsula and is spreading."
+
+ smallpox_mexico: "Smallpox Epidemic: Source Mexico"
+ desc_smallpox_mexico: "A deadly smallpox epidemic brought by the barbarians from across the sea has started in Mexico and is spreading."
+ 

@@ -83,6 +83,43 @@ on_war_lost = {
 # country
 # root = winning country, from = loser country
 on_battle_won_country = {
+	#Spanish Invasion - dead from battle cause smallpox
+	if = {
+		limit = {
+			OR = {
+				ROOT = {
+					tag = CAX
+				}
+				FROM = {
+					tag = CAX
+				}
+			}
+			NOT = { has_global_flag = smallpox_mexico_happened }
+		}
+		if = {
+			limit = {
+				ROOT = {
+					NOT = { has_disaster = smallpox_yucatan }
+				}
+			}
+			ROOT = { 
+				country_event = { id = plagues.01 days = 3 }
+			}
+			set_global_flag = smallpox_mexico_happened
+		}
+		if = {
+			limit = {
+				FROM = {
+					NOT = { has_disaster = smallpox_yucatan }
+				}
+			}
+			FROM = { 
+				country_event = { id = plagues.01 days = 3 }
+			}
+			set_global_flag = smallpox_mexico_happened
+		}
+	}
+
 	if = { #Captives gain from battle  
 		limit = { 
 			NOT = { religion_group = christian_group }
@@ -294,7 +331,19 @@ on_siege_lost_country = {
 # province
 # root = location, from = losing country
 on_siege_won_province = {
-	
+	if = {
+		limit = {
+			FROM = {
+				tag = CAX
+			}
+			ROOT = { 
+				has_province_modifier = spanish_occupation
+			}
+		}
+		ROOT = { 
+			remove_province_modifier = spanish_occupation
+		}
+	}
 }
 
 # province
@@ -310,6 +359,24 @@ on_siege_lost_province =  {
 		add_province_modifier = {
 			name = recent_rebellion 
 			duration = 1825
+		}
+	}
+	
+	if = {
+		limit = {
+			FROM = {
+				tag = CAX
+				NOT = { has_country_modifier = foiled_invasion }
+			}
+			ROOT = {
+				NOT = { owned_by = CAX }
+			}
+		}
+		ROOT = { 
+			add_province_modifier = {
+				name = spanish_occupation
+				duration = -1
+			}
 		}
 	}
 	
@@ -455,6 +522,34 @@ on_monarch_death = {
 			Z02 = { 
 				country_event = { id = flav_ten_minors.09 }
 			}
+		}
+	}
+	
+	#Makes sure Cortes doesn't die during the invasion
+	if = {
+		limit = {
+			tag = CAX
+			has_ruler = "Hernando Cortes"
+			has_country_flag = first_war_invasion
+		}
+		add_stability = 1
+		define_ruler = {
+			name = "Hernando"
+			dynasty = "Cortes" 
+			age = 34
+			claim = 100
+			regency = no
+			female = no
+			adm = 3
+			dip = 6
+			mil = 4
+			attach_leader = "Hernan Cortes"
+		}
+		define_ruler_to_general = {
+			shock = 5
+			fire = 5
+			manuever = 5
+			siege = 2
 		}
 	}
 }

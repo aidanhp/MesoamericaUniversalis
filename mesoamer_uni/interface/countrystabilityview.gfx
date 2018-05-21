@@ -13,6 +13,20 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 	
+	spriteType = {
+		name = "GFX_disaster_smallpox_mexico"
+		texturefile = "gfx//interface//disasters//SmallpoxCentralMexico.dds"
+		noOfFrames = 3
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_disaster_smallpox_yucatan"
+		texturefile = "gfx//interface//disasters//SmallpoxYucatan.dds"
+		noOfFrames = 3
+		loadType = "INGAME"
+	}
+	
 	####
 	
 	spriteType = {

@@ -136,3 +136,82 @@ birthplace_of_draft_and_transportation_animals = {
 steel_and_horses = {
 	production_efficiency = 0.05
 }
+
+#Invasions
+smallpox_spreading_yucatan = { 
+	global_autonomy = 0.05
+}
+
+smallpox_spreading_mexico = { 
+	global_autonomy = 0.05
+}
+
+fighting_smallpox = {
+	global_tax_modifier = -0.10
+	land_forcelimit_modifier = -0.20
+}
+
+recent_smallpox_epidemic = {
+	global_unrest = -4
+	land_morale = -0.05
+}
+
+smallpox_outbreak = {
+	trade_goods_size = 0.01
+	trade_goods_size_modifier = -0.33
+	local_autonomy = 0.05
+}
+	
+rebellious_province = { 
+	local_unrest = 4
+	global_autonomy = 0.15
+}
+
+spain_invasion_buff = {
+	missionaries = 3
+	colonists = 2
+	land_morale = 0.10
+	global_tax_income = 50
+	reduced_liberty_desire = 200
+	land_forcelimit_modifier = 0.33
+	global_autonomy = -0.25
+	core_cost = -0.25
+	shock_damage_received = -0.15
+	fire_damage_received = -0.25
+}
+
+spanish_puppet = {
+	legitimacy = -2
+}
+
+collapse_of_the_government = {
+	global_autonomy = 0.20
+	stability_cost = 0.50
+	global_unrest = 4
+	discipline = -0.15
+	land_morale = -0.10
+	global_regiment_recruit_speed = 1.0
+	army_tradition = -2.5
+}
+
+foiled_invasion = {
+	land_morale = -0.20
+	discipline = -0.05
+	global_manpower_modifier = -0.33
+	global_unrest = 6
+	global_autonomy = 0.20
+}
+
+spanish_occupation = { 
+	local_unrest = -10
+}
+
+#Start Settings
+invasions_on = { 
+	ae_impact = -0.10
+	manpower_recovery_speed = 0.20
+}
+
+invasions_off = { 
+	ae_impact = 0.10
+}

@@ -1,0 +1,109 @@
+#Events related to plague disasters
+namespace = plagues 
+
+#Smallpox#
+#Starts the disaster 
+country_event = {
+	id = plagues.01
+	
+	title = "plagues1.t"
+	desc = "plagues1.d"
+	
+	picture = PLAGUE_eventPicture 
+	
+	is_triggered_only = yes
+	
+	option = { #Try as hard as you can to fight the plague
+		name = "plagues1.a"
+		
+		custom_tooltip = flav_plagues_001
+		add_stability = -1
+		add_years_of_income = -1.0
+		remove_country_modifier = smallpox_spreading_yucatan
+		remove_country_modifier = smallpox_spreading_mexico
+		add_country_modifier = {
+			name = fighting_smallpox
+			duration = -1
+		}
+		every_owned_province = {
+			add_permanent_province_modifier = {
+				name = smallpox_outbreak
+				duration = -1
+			}
+		}
+		hidden_effect = { 
+			add_country_modifier = {
+				name = smallpox_raging
+				duration = 1095
+			}
+		}
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = { #Fuck it, we're all dead
+		name = "plagues1.b"
+		
+		add_stability = -1
+		remove_country_modifier = smallpox_spreading
+		every_owned_province = {
+			add_permanent_province_modifier = {
+				name = smallpox_outbreak
+				duration = -1
+			}
+		}
+		hidden_effect = { 
+			add_country_modifier = {
+				name = smallpox_raging
+				duration = 1095
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Ends the Disaster
+country_event = {
+	id = plagues.02
+	
+	title = "plagues2.t"
+	desc = "plagues2.d"
+	
+	picture = PLAGUE_eventPicture 
+	
+	trigger = {
+		OR = {
+			has_disaster = smallpox_mexico
+			has_disaster = smallpox_yucatan
+		}
+		NOT  = { 
+			has_country_modifier = smallpox_raging
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "plagues2.a"
+		
+		end_disaster = smallpox_mexico
+		end_disaster = smallpox_yucatan
+		add_country_modifier = {
+			name = recent_smallpox_epidemic
+			duration = 5475
+		}
+		every_owned_province = {
+			remove_province_modifier = smallpox_outbreak
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}

@@ -2,6 +2,16 @@
  #Localization for generic events#
  #(A Generic event can or will occur for ANY country#
  
+ #Start Settings
+ start_settings1.t: "Mesoamerica Universalis"
+ start_settings1.d: "Welcome to Mesoamerica Universalis, a total overhaul mod for Europa Universalis IV. This mod aims to provide you with a realistic and historically flavorful representation of the Mesoamerican cultural region starting in 1428. Currently, the mod is in beta, so do not be surprised by balance issues, bugs, crashes, unfinished graphics, or a lack of content in certain areas. If you do find bugs or crashes, please report them on our Steam Workshop page, and please share any constructive criticism you have for us. Also note that this mod is not content-complete, there are at least three more major updates planned to add more gameplay and flavor to individual areas. \nImportant Message from the Developers:\n<> We believe that this mod, and the historical events represented herein, represent to the best of our current knowledge the patterns, ideas, structures, and history of Mesoamerican Societies in the late Postclassic period. This knowledge is incomplete, and in some cases we have made educated guesses to preserve the fun, challenge, and thematics of the game. We invite the players to continue their own research where we've left off, and to take an interest in the continually developing story of Mesoamerican History. You can learn more about this, and the rest of the mod, with the “Mesoamerica Universalis Encyclopedia” decision. \nWith all of that in mind, there are two final notes: \n<> It is strongly recommended that you play on Speed 4 or lower. Due to the decreased timespan of the game the general pace has been increased, and the game will go by far too quickly if you play on Speed 5 on most computers. \n<> You can choose to either activate the Spanish Invasion, which will trigger a series of events related to war and disease starting sometime around 1519, or you can turn off the invasion for a more relaxed game in which an event will occur sometime around 1519 which will peacefully introduce horses and weaponized metalworking to Mesoamerica. As of 0.7, we have also introduced a third choice that will caused the Spanish Invasion to arrive at a random year. Please note that if you choose to activate the Spanish Invasion, some strange behaviour may occur since it is very difficult to test the invasion for all variables. Remember to report any bugs or out of place behaviour on the Steam Workshop, and know that they will be fixed as soon as possible."
+ start_settings1.a: "Historical Spanish Invasion"
+ start_settings1.b: "Random Spanish Invasion"
+ start_settings1.c: "No Spanish Invasion"
+ invasions_on: "Spanish Invasion Activated"
+ invasions_on: "Spanish Invasion Activated"
+ invasions_off: "Spanish Invasion Deactivated"
+ 
  #Flavor - all
  flav_all1.t: "Comet Sighted!"
  flav_all1.d: "Peasants are always superstitious, and the appearance of a comet in the sky has caused panic among our people. They are convinced that this is a sign that the end of times is near or that something bad is going to happen in the near future."

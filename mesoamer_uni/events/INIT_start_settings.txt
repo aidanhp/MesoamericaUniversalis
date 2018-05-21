@@ -1,0 +1,50 @@
+#Startup Settings
+namespace = start_settings
+
+#Startup event
+country_event = {
+	id = start_settings.01
+
+	title = "start_settings1.t"
+	desc = "start_settings1.d"
+
+	picture = MESOAMERICAN_GODS_eventPicture
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = "start_settings1.a"
+		
+		every_country = { 
+			add_country_modifier = {
+				name = "invasions_on"
+				duration = -1
+			} 
+		}
+		set_global_flag = spanish_invasion_historical
+	}
+
+	option = {
+		name = "start_settings1.b"
+		every_country = { 
+			add_country_modifier = {
+				name = "invasions_on"
+				duration = -1
+			} 
+		}
+		set_global_flag = spanish_invasion_random
+	}
+	
+	option = {
+		name = "start_settings1.c"
+		every_country = { 
+			add_country_modifier = {
+				name = "invasions_off"
+				duration = -1
+			} 
+		}
+		set_global_flag = spanish_invasion_off
+	}
+}

@@ -2,16 +2,16 @@ List of events I need to add back in
 <X> Flavor - all
 <X> Flavor - Azcapotzalco 
 <X> Flavor - Cocom
-<//> Flavor - Formable Declarations
+<X> Flavor - Formable Declarations
 <X> Flavor - Tenochtitlan 
 <X> Flavor - Texcoco 
 <X> Flavor - Tzintzuntzan
 <X> Institutions Events 
-< > Invasion Events
+<X> Invasion Events
 <//> Plagues Events
 < > Captives Events
 < > Purepecha Religion Events
-< > Government Stat Menu
+<X> Government Stat Menu
 < > Pyramid Construction Events
 < > Encyclopedia
 REMEMBER TO ADD AN EVENT REMOVING

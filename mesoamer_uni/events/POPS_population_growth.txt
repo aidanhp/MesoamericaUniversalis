@@ -210,8 +210,26 @@ country_event = {
 				change_variable = { which = v_prov_growth_rate value = 0.01 }
 			}
 			#Other modifiers 
-			####ADD LATER ON####
+			if = {
+				limit = {
+					owner = {
+						has_country_modifier = fighting_smallpox
+					}
+				}
+				change_variable = { which = prov_growth_rate value = 0.03 }
+			}
 			
+			if = {
+				limit = {
+					owner = {
+						tag = CAX
+					}
+					NOT = {
+						is_year = 1530
+					}
+				}
+				change_variable = { which = prov_growth_rate value = 0.02 }
+			}
 			
 			#NEGATIVE
 			#Exceeds population potential 
@@ -416,6 +434,24 @@ country_event = {
 					has_province_modifier = TEN_famine_emigration
 				}
 				change_variable = { which = v_prov_growth_rate value = -0.08 }
+			}
+			
+			if = {
+				limit = {
+					owner = {
+						has_disaster = smallpox_yucatan
+					}
+				}
+				change_variable = { which = prov_growth_rate value = -0.15 }
+			}
+			
+			if = {
+				limit = {
+					owner = {
+						has_disaster = smallpox_mexico
+					}
+				}
+				change_variable = { which = prov_growth_rate value = -0.15 }
 			}
 			
 			#Set change equal to current population

@@ -7,3 +7,4 @@ FLAV - flavor events for specific countries/cultures
 POPS - population
 RLGN - religion related
 BLDG - building related
+INVN - invasion related
