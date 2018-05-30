@@ -2,7 +2,7 @@
 # --------------------------------------
 
 # For Spaniards invaders :
-christian = {
+christian_group = {
 	defender_of_faith = yes
 	can_form_personal_unions = yes
 	#center_of_religion = 1 
