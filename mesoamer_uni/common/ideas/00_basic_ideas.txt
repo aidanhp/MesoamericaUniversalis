@@ -7,6 +7,8 @@
 # ROOT = country picking the idea
 # groups set to colonial=yes will be higher prioritized by the AI when spending power
 
+#Unlockable idea groups
+
 spy_ideas = {
 	category = DIP
 
@@ -621,7 +623,10 @@ post_contact_warfare = {
 	category = MIL
 	
 	trigger = {
-		has_country_flag = sustained_contact
+		AND = { 
+			has_institution = dat_animals 
+			has_institution = weaponized_metalworking 
+		}
 	}
 	
 	bonus = {
@@ -633,27 +638,27 @@ post_contact_warfare = {
 	}
 	
 	horse_breeding_programs = {
-		cavalry_cost = -0.25
+		cavalry_cost = -0.20
 	}
 	
 	integrated_cavalry = {
-		cavalry_power = 0.15
+		cavalry_power = 0.10
 	}
 	
 	gunsmithing = {
-		artillery_cost = -0.25
+		artillery_cost = -0.20
 	}
 	
 	integrated_artillery = {
-		artillery_power = 0.15
+		artillery_power = 0.10
 	}
 	
 	artillery_resistant_fortifications = {
-		defensiveness = 0.33
+		defensiveness = 0.25
 	}
 	
 	gun_formations = {
-		fire_damage = 0.20
+		fire_damage = 0.15
 	}
 	
 	ai_will_do = {

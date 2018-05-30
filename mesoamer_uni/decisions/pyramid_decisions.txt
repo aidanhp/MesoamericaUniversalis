@@ -1,0 +1,125 @@
+country_decisions = { 
+	add_new_pyramid_level_generic = { 
+		major = yes
+		potential = { 
+			capital_scope = { 
+				has_building = ceremonial_precinct 
+			}
+		}
+		
+		allow = { 
+			NOT = { has_country_modifier = expanding_pyramid }
+			OR = { 
+				AND = { 
+					capital_scope = { 
+						has_building = great_pyramid_temple
+					}
+					treasury = 1000 
+				}
+				AND = { 
+					capital_scope = { 
+						has_building = great_pyramid_temple_2
+					}
+					treasury = 1500
+				}
+				AND = { 
+					capital_scope = { 
+						has_building = great_pyramid_temple_3
+					}
+					treasury = 2000
+				}
+				AND = { 
+					capital_scope = { 
+						has_building = great_pyramid_temple_4
+					}
+					treasury = 2500
+				}
+			}
+		}
+		
+		effect = { 
+			country_event = { id = bldg_pyramids.01 }
+		}
+		
+		ai_will_do = { 
+			factor = 0
+			modifier = { 
+				factor = 1
+				treasury = 5000
+			}
+			modifier = { 
+				factor = 0
+				is_at_war = no
+			}
+		}
+	}
+	
+	add_new_pyramid_level_huey_teocalli = { 
+		major = yes
+		potential = { 
+			owns_core_province = 1
+			OR = { 
+				religion = religion_huitzilopochtli
+				religion = religion_tlaloc
+			}
+		}
+		
+		allow = { 
+			NOT = { has_country_modifier = expanding_pyramid }
+			OR = { 
+				AND = { 
+					capital_scope = { 
+						has_building = huey_teocalli_2
+					}
+					treasury = 1000 
+				}
+				AND = { 
+					capital_scope = { 
+						has_building = huey_teocalli_3
+					}
+					treasury = 1500
+				}
+				AND = { 
+					capital_scope = { 
+						has_building = huey_teocalli_4
+					}
+					treasury = 2000
+				}
+				AND = { 
+					capital_scope = { 
+						has_building = huey_teocalli_5
+					}
+					treasury = 2500
+				}
+				AND = { 
+					capital_scope = { 
+						has_building = huey_teocalli_6
+					}
+					treasury = 3000
+				}
+				AND = { 
+					capital_scope = { 
+						has_building = huey_teocalli_7
+					}
+					treasury = 3500
+				}
+			}	
+		}
+		
+		effect = { 
+			country_event = { id = bldg_pyramids.03 } 
+		}
+		
+		ai_will_do = { 
+			factor = 0
+			modifier = { 
+				factor = 1
+				treasury = 5000
+			}
+			modifier = { 
+				factor = 0
+				is_at_war = no
+			}
+		}
+	}
+}

@@ -1,0 +1,23 @@
+namespace = ideagroups
+
+# Idea Swap?
+country_event = {
+	id = ideagroups.1
+	title = ideagroups.1.t
+	desc = ideagroups.1.d
+	picture = ADVISOR_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = ideagroups.1.a #Yes Please!
+		ai_chance = { factor = 1 }
+		trigger = { has_custom_ideas = no }
+		swap_free_idea_group = yes		#keep progress
+	}
+	option = {
+		name = ideagroups.1.b #No, we cannot abandon our roots.
+		#No Effect
+		ai_chance = { factor = 0 }
+	}
+}

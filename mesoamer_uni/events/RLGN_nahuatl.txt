@@ -1,0 +1,40 @@
+#Events related to nahuatl religion
+namespace = rlgn_nahuatl 
+
+#General from the Gladiator Stone
+country_event = {
+	id = rlgn_nahuatl.01
+	
+	title = "rlgn_nahuatl1.t"
+	desc = "rlgn_nahuatl1.d"
+	
+	picture = LAND_MILITARY_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "rlgn_nahuatl1.a"
+		
+		custom_tooltip = GOVS_mt_i_0001
+		add_prestige = -10
+		create_general = 90
+		
+		hidden_effect = { 
+			change_variable = { which = v_merit_tradition value = 1 }
+		}
+		
+		ai_chance = {
+			factor = 95
+		}
+	}
+	
+	option = {
+		name = "rlgn_nahuatl1.b"
+		
+		add_prestige = 10 
+		
+		ai_chance = {
+			factor = 5
+		}
+	}
+}

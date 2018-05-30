@@ -58,3 +58,16 @@
  shared_pantheon: "Shared Pantheon"
  desc_shared_pantheon: "The followers of the various Central Mexican deities all share the same general pantheon and thus have at least a modicum of respect for other gods in that pantheon."
  
+ #Nahuatl Group Special Localization
+ #Custom Tooltios
+ nahuatl_group_decisions_001: "Gain §G0.02§! Army Tradition per noble captive. \nHas a small chance to grant you a powerful general if one of the captives survives the ceremony for a long enough period of time."
+ 
+ #Decisions
+ nahuatl_group_sacrifice_noble_captives_title: "Sacrifice Noble Captives"
+ nahuatl_group_sacrifice_noble_captives_desc: "Hold a large series of ceremonies in our territories to sacrifice the noble captives and other great warriors we have taken. In this ceremony, each captive is painted with stripes and tied by the ankle to sacrificial stone. The captive is armed with four throwing cudgels, a shield, and a macuahuitl sword with the obsidian blades removed and replaced with feathers, and is finally forced to drink octli. Then, the captive fights two members of a military order, and then two members of another military order. If he triumphs over both, he fights all four together. If he still triumphs, he fights a left-handed warrior. This continues until the captive is felled, although on rare occasions the ceremony can be stopped and the captive freed for his martial prowess." 
+ 
+ #Events
+ rlgn_nahuatl1.t: "General from the Gladiator Stone"
+ rlgn_nahuatl1.d: "One of the noble captives we took in our recent wars has proven himself to be a truly exceptional warrior. During the ceremony of gladiatorial sacrifice, he fought and felled members of all our military orders, even triumphing over four of them together and then further defeating a left-handed warrior. We can continue the ceremony until he is brought down through sheer exhaustion, or we could grant him the rare privilege of a position in our military for his prowess."
+ rlgn_nahuatl1.a: "He shows much potential."
+ rlgn_nahuatl1.b: "No, continue the ceremony." 

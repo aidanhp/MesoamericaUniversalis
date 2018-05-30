@@ -1,0 +1,4 @@
+#Events related to purepecha religion
+namespace = rlgn_purepecha 
+
+#Add these back when the other religions are added back

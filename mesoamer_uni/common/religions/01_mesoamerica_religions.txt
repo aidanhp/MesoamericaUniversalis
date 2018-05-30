@@ -17,7 +17,7 @@ nahuatl_group = {
 		}
 		country_as_secondary = {
 			discipline = 0.05
-			war_exhaustion = -0.025
+			war_exhaustion = -0.02
 		}
 		province = {
 			local_missionary_strength = -0.02

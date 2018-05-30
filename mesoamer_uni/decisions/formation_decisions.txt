@@ -297,4 +297,21 @@ country_decisions = {
 			set_government_rank = 3
 		}
 	}
+	
+	#Joke Decision - Restore Byzantine Empire
+	restore_byzantium = {
+		major = yes
+		potential = {
+			NOT = { exists = BYZ }
+			has_country_modifier = top_secret
+			government_rank = 3
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			change_tag = BYZ
+			country_event = { id = ideagroups.1 } 
+		}
+	}
 }	

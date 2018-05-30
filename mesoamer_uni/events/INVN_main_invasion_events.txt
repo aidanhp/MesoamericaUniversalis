@@ -57,6 +57,60 @@ country_event = {
 	}
 }
 
+#Arrival at Potonchan - Random
+country_event = {
+	id = invasion.100
+	
+	title = "invasion1.t"
+	desc = "invasion1.d"
+	
+	picture = SHIP_SAILING_eventPicture 
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 1492
+		has_country_flag = spanish_invasion_random
+		ROOT = { 
+			owns = 1779
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 240
+	}
+	
+	immediate = {
+		hidden_effect = {
+			set_country_flag = no_rumors
+		}
+	}
+	
+	option = {
+		name = "invasion1.a"
+		
+		add_manpower = -3
+		add_country_modifier = {
+			name = smallpox_spreading_yucatan
+			duration = -1
+		}
+		hidden_effect = {
+			every_country = {
+				limit = {
+					ai = no
+					NOT = { has_country_flag = no_rumors }
+				}
+				country_event = { id = invasion.02 days = 14 }
+			}
+			set_global_flag = arrived_at_potonchan
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
 #Distubing Rumors from Potonchan
 country_event = {
 	id = invasion.02

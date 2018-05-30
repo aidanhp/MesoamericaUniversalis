@@ -52,7 +52,6 @@ categories =  {
 		sound_type = plains
 
 		movement_cost = 1.10
-		cavalry_power = 0.25
 		supply_limit = 10
 		allowed_num_of_buildings = 1
 		nation_designer_cost_multiplier = 1.05
@@ -153,7 +152,6 @@ categories =  {
 		defence = 2
 		local_defensiveness = 0.25
 		combat_width = -0.20
-		cavalry_power = -0.20
 		nation_designer_cost_multiplier = 0.75
 		supply_limit = 4
 		
@@ -183,7 +181,6 @@ categories =  {
 		sound_type = plains
 
 		movement_cost = 1.0
-		cavalry_power = 0.20
 		supply_limit = 8
 		allowed_num_of_buildings = 1
 		nation_designer_cost_multiplier = 1
@@ -202,7 +199,6 @@ categories =  {
 		movement_cost = 1.5
 		defence = 1
 		combat_width = -0.15
-		cavalry_power = -0.75
 		nation_designer_cost_multiplier = 0.8
 		supply_limit = 5
 		
@@ -279,7 +275,6 @@ categories =  {
 		sound_type = plains
 
 		movement_cost = 1.00
-		cavalry_power = 0.20
 		nation_designer_cost_multiplier = 0.95
 		supply_limit = 7
 		allowed_num_of_buildings = 1

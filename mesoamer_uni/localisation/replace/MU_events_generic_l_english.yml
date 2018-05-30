@@ -2,6 +2,12 @@
  #Localization for generic events#
  #(A Generic event can or will occur for ANY country#
  
+ #New Traditions and Ambitions
+ ideagroups.1.t:0 "New Traditions & Ambitions"
+ ideagroups.1.d:0 "Our state is going through a range of changes that is rapidly changing our identity and ideals. Unless we actively work against it we will see the ambitions and traditions of our country change as a result of this."
+ ideagroups.1.a:0 "Yes, Please!"
+ ideagroups.1.b:0 "No, we cannot abandon our roots."
+ 
  #Start Settings
  start_settings1.t: "Mesoamerica Universalis"
  start_settings1.d: "Welcome to Mesoamerica Universalis, a total overhaul mod for Europa Universalis IV. This mod aims to provide you with a realistic and historically flavorful representation of the Mesoamerican cultural region starting in 1428. Currently, the mod is in beta, so do not be surprised by balance issues, bugs, crashes, unfinished graphics, or a lack of content in certain areas. If you do find bugs or crashes, please report them on our Steam Workshop page, and please share any constructive criticism you have for us. Also note that this mod is not content-complete, there are at least three more major updates planned to add more gameplay and flavor to individual areas. \nImportant Message from the Developers:\n<> We believe that this mod, and the historical events represented herein, represent to the best of our current knowledge the patterns, ideas, structures, and history of Mesoamerican Societies in the late Postclassic period. This knowledge is incomplete, and in some cases we have made educated guesses to preserve the fun, challenge, and thematics of the game. We invite the players to continue their own research where we've left off, and to take an interest in the continually developing story of Mesoamerican History. You can learn more about this, and the rest of the mod, with the “Mesoamerica Universalis Encyclopedia” decision. \nWith all of that in mind, there are two final notes: \n<> It is strongly recommended that you play on Speed 4 or lower. Due to the decreased timespan of the game the general pace has been increased, and the game will go by far too quickly if you play on Speed 5 on most computers. \n<> You can choose to either activate the Spanish Invasion, which will trigger a series of events related to war and disease starting sometime around 1519, or you can turn off the invasion for a more relaxed game in which an event will occur sometime around 1519 which will peacefully introduce horses and weaponized metalworking to Mesoamerica. As of 0.7, we have also introduced a third choice that will caused the Spanish Invasion to arrive at a random year. Please note that if you choose to activate the Spanish Invasion, some strange behaviour may occur since it is very difficult to test the invasion for all variables. Remember to report any bugs or out of place behaviour on the Steam Workshop, and know that they will be fixed as soon as possible."
@@ -23,26 +29,53 @@
  flav_all1.f: "The economy, fools!"
  flav_all1.g: "The economy, fools!"
  
- #Institutions
+ #Institutions#
+ #Custom Tooltips
+ institutions_001: "Every country except Caxtilan receives the 'Military in Flux' debuff. This debuff is initially very severe, but will weaken every 20 years. The effects can be partially mitigated by taking the 'Post-Contact Warfare' Idea Group, which is unlocked after embraching Draft and Transporation Animals and Weaponized Metalworking."
+ institutions_002: "The 'Mesoamerican Logistics' modifier will be removed from every country."
+ #Event Modifiers
+ military_in_flux_stage_1: "Military in Flux (Stage 1)"
+ military_in_flux_stage_2: "Military in Flux (Stage 2)"
+ military_in_flux_stage_3: "Military in Flux (Stage 3)"
+ military_in_flux_stage_4: "Military in Flux (Stage 4)"
+ 
+ #Events
  institutions1.t: "Birth of the World System"
  institutions1.d: "After the collapse of the great Toltec dynasties of Tula and Chichen Itza in the twelfth and thirteenth centuries, a new world order began to arise throughout Mesoamerica, heralded by upstart cities such as Mayapan, Tetzcoco, Azcapotzalco, Yucu Dzaa, Zaachila, Jakawitz, and Tenochtitlan. Population growth increased dramatically, agriculture intensified, hundreds of large and small kingdoms were founded, and a general trend of deep interconnectedness appeared. This world order had received several shocks by 1440s, with great states on the rise in the Valley of Mexico, the Patzcuaro Basin, and the Maya Highlands. This new wealth, helped along by a booming economy of long distance trade routes carrying all manners of luxuries, an increasingly powerful mercantile class, new language transcending forms of writing and iconography, and a flourishing of arts, science, and writing in cities such as Tetzcoco, Tenochtitlan, Tzintzuntzan, Cholula, and Cuilapan created a sort of Postclassic renaissance flowing out of several core zones. The Mayas of Yucatan and Cuauhtemallan did not stagnate either, becoming masters of metal, stone, and paint, profiting like never before off of rich natural resources and building bustling port cities that regularly sent ships into the Caribbean. This golden age of ideas and trade is now ready to take hold accross Cemanahuac."
  institutions1.a: "This changes everything!"
+ 
  institutions2.t: "Birth of the World System"
  institutions2.d: "After the collapse of the great Toltec dynasties of Tula and Chichen Itza in the twelfth and thirteenth centuries, a new world order began to arise throughout Mesoamerica, heralded by upstart cities such as Mayapan, Tetzcoco, Azcapotzalco, Yucu Dzaa, Zaachila, Jakawitz, and Tenochtitlan. Population growth increased dramatically, agriculture intensified, hundreds of large and small kingdoms were founded, and a general trend of deep interconnectedness appeared. This world order had received several shocks by 1440s, with great states on the rise in the Valley of Mexico, the Patzcuaro Basin, and the Maya Highlands. This new wealth, helped along by a booming economy of long distance trade routes carrying all manners of luxuries, an increasingly powerful mercantile class, new language transcending forms of writing and iconography, and a flourishing of arts, science, and writing in cities such as Tetzcoco, Tenochtitlan, Tzintzuntzan, Cholula, and Cuilapan created a sort of Postclassic renaissance flowing out of several core zones. The Mayas of Yucatan and Cuauhtemallan did not stagnate either, becoming masters of metal, stone, and paint, profiting like never before off of rich natural resources and building bustling port cities that regularly sent ships into the Caribbean. This golden age of ideas and trade is now ready to take hold accross Cemanahuac."
  institutions2.a: "This changes everything!"
+ 
  institutions3.t: "Spread of European Animals"
  institutions3.d: "Mesoamerica, and indeed North America in general was completely devoid of any draft or transportation animals and the various advantages that they afforded the old world civilizations. The lack of such animals made control over vast territories difficult and severely complicated the logistics of supplying large armies, requiring any large force to be accompanied by a significant number of dedicated human porters, and forcing a plethora of organizational innovations and large scale development of a road system. \nWhen these animals arrived in Mesoamerica along with Europeans, they proved a significant change not only to military tactics but also to society at large."
  institutions3.a: "This changes everything!"
+ 
  institutions4.t: "Spread of European Animals"
  institutions4.d: "Mesoamerica, and indeed North America in general was completely devoid of any draft or transportation animals and the various advantages that they afforded the old world civilizations. The lack of such animals made control over vast territories difficult and severely complicated the logistics of supplying large armies, requiring any large force to be accompanied by a significant number of dedicated human porters, and forcing a plethora of organizational innovations and large scale development of a road system. \nWhen these animals arrived in Mesoamerica along with Europeans, they proved a significant change not only to military tactics but also to society at large."
  institutions4.a: "This changes everything!"
+ 
  institutions5.t: "Spread of Weaponized Metallurgy"
  institutions5.d: "Although Mesoamerica had a long and rich history of metallurgy, metal weapons were never used in any significant quantity for a variety of reasons. Among these was the general belief that metal was sacred or that metal was a special material mostly used to denote social status, and the fact that metal edges were not as sharp as the far more common obsidian blades, which made them significantly less effective against the thick cotton armor often worn by Mesoamerican soldiers. However, with the introduction of european steel and iron armor, which is difficult for traditional weapons to penetrate, the production of metal weapons has slowly begun."
  institutions5.a: "This changes everything!"
+ 
  institutions6.t: "Spread of Weaponized Metallurgy"
  institutions6.d: "Although Mesoamerica had a long and rich history of metallurgy, metal weapons were never used in any significant quantity for a variety of reasons. Among these was the general belief that metal was sacred or that metal was a special material mostly used to denote social status, and the fact that metal edges were not as sharp as the far more common obsidian blades, which made them significantly less effective against the thick cotton armor often worn by Mesoamerican soldiers. However, with the introduction of european steel and iron armor, which is difficult for traditional weapons to penetrate, the production of metal weapons has slowly begun."
  institutions6.a: "This changes everything!"
-
+ 
+ institutions7.t: "Military in Flux"
+ institutions7.d: "We have made the first steps towards integrating the various new weapons and animals into our military, but the process will be long and difficult. We have to learn to care for and breed horses, we have to teach or smiths to make the new weapons, and we have to find sources of iron to exploit. Further, all of our fortifications will have to be updated to resist artillery. We also have no military tradition of cavalry or artillery corps which will have to be built from scratch. Until this process is completed, these parts of our military will be much less effective and very costly to operate."
+ institutions7.a: "We have much work to do."
+ 
+ institutions8.t: "Military Adaptations"
+ institutions8.d: "Our adaptations to the new ways of war in terms of resource procurement and military structure and tradition have advanced far enough to reduce the inefficiences we were initially burdened with."
+ institutions8.a: "Very good."
+ 
+ institutions9.t: "Logistical Changes"
+ institutions9.d: "The new transportation and draft animals have been fully integrated into our society. Our ability to move goods and information efficiently over long distances is rapidly increasing, along with a plethora of other changes in agriculture, military tactics, and administration."
+ institutions9.a: "A great boon indeed!"
+ 
  WORLD_SYSTEM_PENALTY: "Countries that have not embraced the World System institution will get a technology cost penalty that increases by 1% per year, up to 50%."
  WPN_METAL_PENALTY: "Countries that have not embraced the Weaponized Metalworking institution will get a technology cost penalty that increases by 1% per year, up to 50%."
  DAT_ANIMALS_PENALTY: "Countries that have not embraced the European Animals institution will get a technology cost penalty that increases by 1% per year, up to 50%"

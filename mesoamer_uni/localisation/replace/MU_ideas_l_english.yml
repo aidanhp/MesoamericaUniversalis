@@ -116,6 +116,26 @@
  toltec_builders: "Toltec Builders"
  toltec_builders_desc: "The word ‘Toltec’ does not only refer to the illustrious Quiche ancestors, but also to the art of craftsmanship itself. Authority as a true ruler derives not only from battle, but also on the construction of a glorious capital. The building of great temples, ball courts, palaces, courtyards… all these things are the works of a true Toltec king."
  
+ #Byzantine#
+ byzantine_ideas: "Byzantine Ideas"
+ byzantine_ideas_start: "Byzantine Traditions"
+ byzantine_ideas_bonus: "Byzantine Ambitions"
+ anti_ottoman_camouflage: "Anti-Ottoman Camouflage"
+ anti_ottoman_camouflage_desc: "The Ottomans stalk us day and night, hoping to annex the pathetic remnants of our so-called “Empire”. Luckily, our devious military tacticians have come up with a solution: Ottoman Green camouflage, painted over everything. Now that we’ve fled to Mesoamerica and painted ourselves this truly gaudy color, we might finally be safe. The only downside is that the pigment used in the green paint doubles as an extraordinarily powerful laxative."
+ massive_internet_following: "Massive Internet Following"
+ massive_internet_following_desc: "We have discovered that our Empire has a massive following of self-identified ‘Byzantophiles’ on the internet. Unfortunately, this is a bad thing because they all seem to be a bunch of pathetic nerds who spend their time parroting the same few phrases and writing quasi-erotic alternate histories with a disturbing amount of detail."
+ byzantophile_swarms: "Byzantophile Swarms"
+ byzantophile_swarms_desc: "One of our generals has come up with a possible use for the Byzantophiles we discovered on the internet earlier. If we merely call for them, they will flock to our banners en masse and are very willing troops. After trying this once, we realized that it was actually a mistake because they all brought poorly crafted knockoff armor and weapons, calling themselves ‘LARPers’, they flatly refuse to be disciplined, preferring instead to run at the enemy shouting ‘Deus Vult’, and not a one has any idea how to fight. However, it was too late."
+ armchair_historians_guild: "Armchair Historians Guild"
+ armchair_historians_guild_desc: "Some of the Byzantophiles from the internet have established a guild of historians in the capital. This guild appears to be completely preoccupied with trivia-like facts of dubious origin and has an unhealthy obsession with glorified military history. To make matters worse, they are hopelessly behind the theoretical curve of historiography and honestly aren’t impressing anyone when they pretentiously make minor corrections to what people say all the time."
+ legacy_of_the_fourth_crusade: "Legacy of the Fourth Crusade"
+ legacy_of_the_fourth_crusade_desc: "Some sort of supernatural force has conspired to sack our new capital in Mesoamerica even in the absence of crusaders. Damn it!"
+ neverending_financial_crisis: "Neverending Financial Crisis"
+ neverending_financial_crisis_desc: "We seem to be in a permanent financial crisis that we can’t escape no matter how hard we try. Maybe it’s something in the water?"
+ rich_salt_mines: "Rich Salt Mines"
+ rich_salt_mines_desc: "We may have finally found a productive use for the Byzantophiles. After several new salt mines were discovered in our territory, we sent them in to start mining, and they proved to be very adept at this process indeed. They must have a lot of practice."
+ 
+ 
  #Normal Ideas#
  #§
  hegemonic_ideas: "Hegemonic Ideas"

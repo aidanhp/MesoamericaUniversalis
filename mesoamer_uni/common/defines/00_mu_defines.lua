@@ -160,6 +160,7 @@ NDefines.NReligion.YEARLY_HARMONY_INCREASE_WHEN_HARMONIZING = -8.0
 NDefines.NReligion.YEARLY_HARMONIZATION_PROGRESS = 0.10 			-- 3%
 
 -- Nation Designer
+NDefines.NNationDesigner.POINTS_AVAILABLE = 10000
 
 -- Government
 

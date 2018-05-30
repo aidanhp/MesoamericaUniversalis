@@ -191,3 +191,136 @@ country_event = {
 		}
 	}
 }
+
+#Add Military in Flux debuff
+country_event = { 
+	id = institutions.07 
+	
+	title = "institutions7.t"
+	desc = "institutions7.d"
+	
+	picture = BATTLE_eventPicture
+	
+	fire_only_once = yes
+	
+	major = yes
+	
+	trigger = { 
+		mil_tech = 9
+	}
+	
+	mean_time_to_happen = { 
+		months = 1
+	}
+	
+	option = { 
+		name = "institutions7.a"
+		
+		custom_tooltip = institutions_001
+		hidden_effect = { 
+			every_country = { 
+				limit = { 
+					NOT = { tag = CAX } 
+				}
+				add_country_modifier = {
+					name = military_in_flux_stage_1
+					duration = -1
+				}
+				country_event = { id = institutions.08 days = 7300 } 
+			}
+		}
+	}
+}
+
+#Reduce Military in Flux
+country_event = { 
+	id = institutions.08
+	
+	title = "institutions8.t"
+	desc = "institutions8.d"
+	
+	picture = BATTLE_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = "institutions8.a"
+		
+		if = { 
+			limit = { 
+				has_country_modifier = military_in_flux_stage_4
+			}
+			remove_country_modifier = military_in_flux_stage_4
+		}
+		
+		if = { 
+			limit = { 
+				has_country_modifier = military_in_flux_stage_3
+			}
+			remove_country_modifier = military_in_flux_stage_3
+			add_country_modifier = { 
+				name = military_in_flux_stage_4
+				duration = -1
+			}
+			country_event = { id = institutions.08 days = 7300 } 
+		}
+		
+		if = { 
+			limit = { 
+				has_country_modifier = military_in_flux_stage_2
+			}
+			remove_country_modifier = military_in_flux_stage_2
+			add_country_modifier = { 
+				name = military_in_flux_stage_3
+				duration = -1
+			}
+			country_event = { id = institutions.08 days = 7300 } 
+		}
+		
+		if = { 
+			limit = { 
+				has_country_modifier = military_in_flux_stage_1
+			}
+			remove_country_modifier = military_in_flux_stage_1
+			
+			add_country_modifier = { 
+				name = military_in_flux_stage_2
+				duration = -1
+			}
+			country_event = { id = institutions.08 days = 7300 } 
+		}
+	}
+}
+
+#Removes Mesoamerican Logistics
+country_event = { 
+	id = institutions.09
+	
+	title = "institutions9.t"
+	desc = "institutions9.d"
+	picture = "FARMING_eventPicture"
+	
+	fire_only_once = yes
+	
+	major = yes
+	
+	trigger = { 
+		has_institution = dat_animals
+	}
+	
+	mean_time_to_happen = { 
+		months = 240
+	}
+	
+	option = { 
+		name = "institutions9.a"
+		
+		custom_tooltip = institutions_002
+		
+		hidden_effect = { 
+			every_country = { 
+				remove_country_modifier = mesoamerican_logistics
+			}
+		}
+	}
+}

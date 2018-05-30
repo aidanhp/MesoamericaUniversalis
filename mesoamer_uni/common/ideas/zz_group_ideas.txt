@@ -77,3 +77,310 @@ colonial_ideas = {
 		free_leader_pool = 1
 	}
 }
+
+nahua_ideas = {
+	start = {
+		army_tradition = 0.5
+		idea_cost = -0.05
+	}
+	
+	bonus = {
+		land_morale = 0.10
+	}
+	
+	trigger = {
+		culture_group = nahua
+	}
+	free = yes
+	
+	calpulli_system = {
+		global_regiment_recruit_speed = -0.25
+		global_regiment_cost = -0.20
+	}
+	
+	pochteca_networks = {
+		spy_offence = 0.20
+		trade_efficiency = 0.05
+	}
+	
+	nahua_engineering = {
+		build_cost = -0.10
+		production_efficiency = 0.10
+	}
+	
+	poets_philosophers = { 
+		prestige = 1
+		idea_cost = -0.05
+	}
+	
+	military_orders = {
+		army_tradition = 0.25
+		infantry_power = 0.10
+	}
+	
+	altepetl_diplomacy = {
+		diplomats = 1
+		improve_relation_modifier = 0.50
+	}
+	
+	great_cultural_legacy = {
+		culture_conversion_cost = -0.25
+		legitimacy = 0.5
+	}
+}
+
+westmexican_ideas = {
+	start = {
+		production_efficiency = 0.10
+		defensiveness = 0.10
+	}
+	
+	bonus = {
+		global_unrest = -2
+	}
+	
+	trigger = {
+		OR = { 
+			culture_group = west_mexican 
+			culture_group = northwest_mexican 
+		}
+	}
+	free = yes
+	
+	metal_tradition = {
+		production_efficiency = 0.15
+		technology_cost = -0.05
+	}
+	
+	multicultural_states = {
+		num_accepted_cultures = 1
+	}
+	
+	defensive_engineering = {
+		defensiveness = 0.15
+		fort_maintenance_modifier = -0.25
+	}
+	
+	westmexican_trade = {
+		trade_range_modifier = 0.50
+		global_trade_power = 0.20
+	}
+	
+	confederation_building = {
+		diplomatic_annexation_cost = -0.25
+		diplomatic_upkeep = 2
+	}
+	
+	metal_weapons = {
+		infantry_power = 0.05
+	}
+	
+	cultural_resilience = {
+		hostile_attrition = 2.5
+		enemy_core_creation = 0.33
+	}
+}
+
+putun_chontal_ideas = {
+	start = {
+		improve_relation_modifier = 0.50
+		trade_range_modifier = 0.10
+	}
+	
+	bonus = {
+		merchants = 1
+	}
+	
+	trigger = {
+		primary_culture = putun_chontal
+	}
+	free = yes
+	
+	linear_villages = {
+		global_unrest = -2
+	}
+	
+	wetlands_adaptability = {
+		idea_cost = -0.05
+	}
+	
+	land_of_kakaw = {
+		production_efficiency = 0.10
+	}
+	
+	people_of_many_tongues = {
+		diplomats = 1
+	}
+	
+	great_canoes = {
+		global_trade_power = 0.25
+	}
+	
+	dynastic_adventurers = {
+		spy_offence = 0.25
+	}
+	
+	vested_interests = {
+		merc_maintenance_modifier = -0.25
+		possible_mercenaries = 0.25
+	}	
+}
+
+huaxyacac_ideas = {
+	start = {
+		fort_maintenance_modifier = -0.20
+		diplomatic_upkeep = 1
+	}
+	
+	bonus = {
+		shock_damage_received = -0.15
+	}
+	
+	trigger = {
+		culture_group = huaxyacac
+	}
+	free = yes
+	
+	the_cloud_people = {
+		tolerance_own = 2
+	}
+	
+	scribes_of_the_valleys = {
+		technology_cost = -0.05
+		prestige_decay = -0.01
+	}
+	
+	lama_bordo_terracing = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	
+	highland_alliance_networks = {
+		diplomatic_upkeep = 1
+		diplomats = 1
+	}
+	
+	land_of_fortresses = {
+		defensiveness = 0.20
+	}
+	
+	proven_lineages = {
+		legitimacy = 0.50
+		stability_cost_modifier = -0.10
+	}
+	
+	border_markets = {
+		global_trade_power = 0.10
+	}
+}
+
+lowland_maya_ideas = {
+	start = {
+		advisor_pool = 1
+		hostile_attrition = 1
+	}
+	
+	bonus = {
+		global_institution_spread = 0.10
+	}
+	
+	trigger = {
+		OR = {
+			primary_culture = yucatec
+			primary_culture = peten_itza
+			primary_culture = kowoj
+		}
+	}
+	free = yes
+	
+	the_land_of_plenty = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	
+	legacy_of_mayapan = {
+		ae_impact = -0.10
+		war_exhaustion = -0.05
+	}
+	
+	cenotes_of_the_forest = {
+		tolerance_own = 2
+	}
+	
+	they_of_the_brush = {
+		technology_cost = -0.05
+		idea_cost = -0.05
+	}
+	
+	patrillineal_alliances = {
+		improve_relation_modifier = 0.25
+	}
+	
+	house_of_warriors = {
+		discipline = 0.05
+	}
+	
+	uinik_and_batab = {
+		global_autonomy = -0.075
+	}
+}
+
+highland_maya_ideas = {
+	start = {
+		leader_land_shock = 1
+		defensiveness = 0.10
+	}
+	
+	bonus = {
+		war_exhaustion = -0.05
+	}
+	
+	trigger = {
+		OR = {
+			primary_culture = kiche 
+			primary_culture = tzutujil 
+			primary_culture = kaqchikel 
+			primary_culture = chajoma 
+			primary_culture = pokomam  
+			primary_culture = rabinal 
+			primary_culture = sacapul 
+			primary_culture = qayol 
+			primary_culture = ixil 
+			primary_culture = uspantec  
+			primary_culture = southern_mam 
+			primary_culture = northern_mam 
+			primary_culture = western_kiche 
+			primary_culture = qeqchi 
+		}
+	}
+	free = yes
+	
+	men_of_tollan = {
+		discipline = 0.05
+	}
+	
+	tinamit_and_chinamit = {
+		global_autonomy = -0.075
+	}
+	
+	mobilized_bureaucracy = {
+		global_manpower_modifier = 0.05
+		land_forcelimit_modifier = 0.10
+		army_tradition = 0.25
+	}
+	
+	lords_and_vassals = {
+		stability_cost_modifier = -0.25
+	}
+	
+	little_brothers = {
+		vassal_income = 0.10
+		vassal_forcelimit_bonus = 1
+	}
+	
+	mountains_and_plains = {
+		production_efficiency = 0.15
+	}
+	
+	toltec_builders = {
+		build_cost = -0.15
+	}
+}

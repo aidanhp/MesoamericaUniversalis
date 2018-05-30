@@ -1,5 +1,6 @@
 # country
 on_startup = {
+	#Initialization
 	if = {
 		limit = {
 			NOT = { has_global_flag = init_done }
@@ -8,6 +9,13 @@ on_startup = {
 			country_event = { id = init.01 }
 		}
 		set_global_flag = init_done
+	}
+	#Start Settings
+	every_country = { 
+		limit = {
+			ai = no
+		}
+		country_event = { id = start_settings.01 }
 	}
 	#Effect tester - uncomment the country event to use
 	every_country = {

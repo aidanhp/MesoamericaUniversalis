@@ -17,34 +17,66 @@ country_event = {
 	option = {
 		name = "start_settings1.a"
 		
-		every_country = { 
-			add_country_modifier = {
-				name = "invasions_on"
-				duration = -1
-			} 
+		add_country_modifier = { 
+			name = "invasions_on"
+			duration = -1
 		}
+		hidden_effect = { 
+			every_country = { 
+				limit = { 
+					NOT = { has_country_modifier = invasions_on }
+				}
+				add_country_modifier = {
+					name = "invasions_on"
+					duration = -1
+				} 
+			}
+		}
+		
 		set_global_flag = spanish_invasion_historical
 	}
 
 	option = {
 		name = "start_settings1.b"
-		every_country = { 
-			add_country_modifier = {
-				name = "invasions_on"
-				duration = -1
-			} 
+		
+		add_country_modifier = { 
+			name = "invasions_on"
+			duration = -1
 		}
+		hidden_effect = { 
+			every_country = { 
+				limit = { 
+					NOT = { has_country_modifier = invasions_on }
+				}
+				add_country_modifier = {
+					name = "invasions_on"
+					duration = -1
+				} 
+			}
+		}
+		
 		set_global_flag = spanish_invasion_random
 	}
 	
 	option = {
 		name = "start_settings1.c"
-		every_country = { 
-			add_country_modifier = {
-				name = "invasions_off"
-				duration = -1
-			} 
+		
+		add_country_modifier = { 
+			name = "invasions_off"
+			duration = -1
 		}
+		hidden_effect = { 
+			every_country = { 
+				limit = { 
+					NOT = { has_country_modifier = invasions_off }
+				}
+				add_country_modifier = {
+					name = "invasions_off"
+					duration = -1
+				} 
+			}
+		}
+		
 		set_global_flag = spanish_invasion_off
 	}
 }

@@ -8,13 +8,12 @@ List of events I need to add back in
 <X> Flavor - Tzintzuntzan
 <X> Institutions Events 
 <X> Invasion Events
-<//> Plagues Events
-< > Captives Events
-< > Purepecha Religion Events
+<X> Plagues Events
+</L> Captives Events
+<L> Purepecha Religion Events
 <X> Government Stat Menu
-< > Pyramid Construction Events
-< > Encyclopedia
-REMEMBER TO ADD AN EVENT REMOVING
-MESOAMERICAN LOGISTICS THAT CAN
-TRIGGER AFTER EUROPEAN ANIMALS
-IS EMBRACED!
+<X> Pyramid Construction Events
+<X> Encyclopedia
+<L> Maya Sacrifice Event
+<X> Spanish Random Arrival at Potonchan
+<X> Alt History Institutions Event

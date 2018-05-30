@@ -1,5 +1,11 @@
 #Event modifiers for MU
 
+#BLDG_great_pyramids
+expanding_pyramid = { 
+	global_tax_modifier = -0.10
+	build_time = 0.50
+}
+
 #FLAV_formable_declarations
 second_capital = {
 	local_tax_modifier = 0.25
@@ -206,6 +212,38 @@ spanish_occupation = {
 	local_unrest = -10
 }
 
+military_in_flux_stage_1 = { 
+	cavalry_cost = 5.0
+	cavalry_power = -0.33
+	artillery_cost = 5.0
+	artillery_power = -0.33
+	defensiveness = -0.33
+}
+
+military_in_flux_stage_2 = { 
+	cavalry_cost = 2.5
+	cavalry_power = -0.20
+	artillery_cost = 2.5
+	artillery_power = -0.20
+	defensiveness = -0.20
+}
+
+military_in_flux_stage_3 = { 
+	cavalry_cost = 1.0
+	cavalry_power = -0.10
+	artillery_cost = 1.0
+	artillery_power = -0.10
+	defensiveness = -0.10
+}
+
+military_in_flux_stage_4 = { 
+	cavalry_cost = 0.50
+	cavalry_power = -0.05
+	artillery_cost = 0.50
+	artillery_power = -0.05
+	defensiveness = -0.05
+}
+
 #Start Settings
 invasions_on = { 
 	ae_impact = -0.10
@@ -214,4 +252,9 @@ invasions_on = {
 
 invasions_off = { 
 	ae_impact = 0.10
+}
+
+#Encyclopedia 
+top_secret = {
+
 }

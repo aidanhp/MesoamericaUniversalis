@@ -1,0 +1,7 @@
+government = absolute_hereditary_monarchy 
+technology_group = central_mexican_tg
+religion = religion_huitzilopochtli
+primary_culture = mexica
+capital = 1
+
+

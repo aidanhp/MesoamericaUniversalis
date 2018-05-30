@@ -1,0 +1,39 @@
+#Placeholder alt history event to get the last 2 institutions. To be expanded upon later!
+namespace = alt_history
+
+#Traders arrive from the north
+country_event = {
+	id = alt_history.01
+	
+	title = "alt_history1.t"
+	desc = "alt_history1.d"
+	
+	picture = CITY_VIEW_eventPicture 
+	
+	fire_only_once = yes
+	
+	major = yes
+	
+	trigger = {
+		is_year = 1519
+		has_global_flag = spanish_invasion_off
+		government_rank = 3
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+	}
+	
+	option = {
+		name = "alt_history1.a"
+		
+		add_country_modifier = {
+			name = steel_and_horses
+			duration = -1
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}

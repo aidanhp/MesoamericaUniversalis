@@ -40,7 +40,7 @@
  building_great_palace: "Great Palace \n§Y--Requires Ceremonial Precinct§!"
  building_great_calmecac: "Great Calmecac \n§Y--Requires Ceremonial Precinct§!"
  building_great_ballcourt: "Great Ballcourt \n§Y--Requires Ceremonial Precinct§!"
- building_great_pyramid_temple: "Great Pyramid Temple (Level I) \n§Y--Requires Ceremonial Precinct§!"
+ building_great_pyramid_temple: "Great Pyramid Temple (Level I) \n§Y--Requires Ceremonial Precinct§! \n§Y--Unique Pyramid Cannot be Present§!"
  
  building_inoculation_center: "Inoculation Center \n§WLocal Disease Impact:§! §G-50.0%§!"
  building_state_currency_mint: "State Currency Mint"
@@ -56,4 +56,37 @@
  building_huey_teocalli_8: "Huey Teocalli VIII"
  
  building_great_pyramid_of_cholula: "Tlachihualtepetl"
+ 
+ #Custom Tooltips
+ bldg_pyramids_001: "The next level of the temple will be finished in a year."
+ bldg_pyramids_002: "Gain 0.05 prestige for every common captive you have, and 0.05 legitimacy for every elite captive you have."
+ 
+ #Decisions
+ add_new_pyramid_level_generic_title: "Expand the Great Pyramid of $CAPITAL$"
+ add_new_pyramid_level_generic_desc: "Embark on a costly construction project to expand the Great Pyramid of $CAPITAL$."
+ 
+ add_new_pyramid_level_huey_teocalli_title: "Expand the Huey-Teocalli"
+ add_new_pyramid_level_huey_teocalli_desc: "Embark on a costly construction project to expand the Huey-Teocalli, the foremost symbol of Mexica power and the greatest monument to Tlaloc and Huitzilopochtli."
+ 
+ #Event Modifiers
+ expanding_pyramid: "Expanding Pyramid"
+ 
+ #Events
+ bldg_pyramids1.t: "A New Stage of Construction"
+ bldg_pyramids1.d: "We have begun the process of expanding the Great Pyramid of $CAPITAL_CITY$. It will be a long and costly endevour, but will reveal the full extent of our might to friends and foe alike."
+ bldg_pyramids1.a: "It shall be glorious!"
+ 
+ bldg_pyramids2.t: "Construction Stage Complete!"
+ bldg_pyramids2.d: "Our engineers and architects, with the help of many thousands of loyal laborers have finally completed the next level of the Great Pyramid of $CAPITAL_CITY$. It is a beautiful sight, showcasing our power for all to see. The only thing left to do is to commemorate a new stage of construction with a grand ceremony."
+ bldg_pyramids2.a: "Hold a commemoration with captive sacrifices."
+ bldg_pyramids2.b: "Hold a commemoration."
+ 
+ bldg_pyramids3.t: "Expansion of the Huey-Teocalli Begins"
+ bldg_pyramids3.d: "Engineers, masons, laborers, and artists from across our lands have been called to Tenochtitlan. Soon, they will assemble and begin the process of turning our greatest of temples into something even greater!"
+ bldg_pyramids3.a: "To the quarries!"
+ 
+ bldg_pyramids4.t: "Expansion of the Huey-Teocalli Completed"
+ bldg_pyramids4.d: "At last, we have finished our expansion of the Great Temple! Larger and more menacing than ever before, it is a striking reminder to our subjects and enemies of who the real power is. The twin shrines to Tlacoc and Huitzilopochtli at the leave passerbys agape with their intricate carvings and beautiful paint, highlighted against lake Texcoco by blazing fires. Truly, there is no building like it anywhere in Cemanahuac. Only a grand celebration is worthy of this grand temple!"
+ bldg_pyramids4.a: "Hold a commemoration with captive sacrifices."
+ bldg_pyramids4.b: "Hold a commemoration."
  

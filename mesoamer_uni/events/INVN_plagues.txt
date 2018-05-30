@@ -9,7 +9,7 @@ country_event = {
 	title = "plagues1.t"
 	desc = "plagues1.d"
 	
-	picture = PLAGUE_eventPicture 
+	picture = SMALLPOX_eventPicture 
 	
 	is_triggered_only = yes
 	
@@ -73,7 +73,7 @@ country_event = {
 	title = "plagues2.t"
 	desc = "plagues2.d"
 	
-	picture = PLAGUE_eventPicture 
+	picture = SMALLPOX_eventPicture 
 	
 	trigger = {
 		OR = {

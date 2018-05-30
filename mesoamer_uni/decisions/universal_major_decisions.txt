@@ -79,4 +79,15 @@ country_decisions = {
 			country_event = { id = captives.01 } 
 		}
 	}
+	open_encyclopedia = { 
+		potential = { 
+			ai = no
+		}
+		allow = { 
+			always = yes
+		}
+		effect = { 
+			country_event = { id = encyclopedia.01 } 
+		}
+	}
 }

@@ -1,0 +1,546 @@
+#Events related to great pyramids
+namespace = bldg_pyramids
+
+#Expanding the Great Pyramid of X Initiated
+country_event = { 
+	id = bldg_pyramids.01
+	
+	title = "bldg_pyramids1.t" 
+	desc = "bldg_pyramids1.d"
+	picture = GREAT_BUILDING_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = "bldg_pyramids1.a"
+		custom_tooltip = bldg_pyramids_001
+		
+		if = { 
+			limit = { 
+				capital_scope = {
+					has_building = great_pyramid_temple
+				}
+			}
+			add_treasury = -1000
+			add_country_modifier = {
+				name = expanding_pyramid
+				duration = -1
+			}
+		}
+		
+		if = { 
+			limit = { 
+				capital_scope = {
+					has_building = great_pyramid_temple_2
+				}
+			}
+			add_treasury = -1500
+			add_country_modifier = {
+				name = expanding_pyramid
+				duration = -1
+			}
+		}
+		
+		if = { 
+			limit = { 
+				capital_scope = {
+					has_building = great_pyramid_temple_3
+				}
+			}
+			add_treasury = -2000
+			add_country_modifier = {
+				name = expanding_pyramid
+				duration = -1
+			}
+		}
+		
+		if = { 
+			limit = { 
+				capital_scope = {
+					has_building = great_pyramid_temple_4
+				}
+			}
+			add_treasury = -2500
+			add_country_modifier = {
+				name = expanding_pyramid
+				duration = -1
+			}
+		}
+		
+		hidden_effect = { 
+			country_event = { id = bldg_pyramids.02 days = 365 } 
+		}
+	}
+}
+
+#Construction Stage Complete
+country_event = { 
+	id = bldg_pyramids.02
+	
+	title = "bldg_pyramids2.t"
+	desc = "bldg_pyramids2.d" 
+	picture = GREAT_BUILDING_eventPicture
+	
+	is_triggered_only = yes
+	
+	#Hold a ceremony to commemorate the expansion with captive sacrifices
+	option = { 
+		name = "bldg_pyramids2.a"
+		trigger = { 
+			religion_group = nahuatl_group
+			OR = { 
+				check_variable = { which = v_common_captives value = 1 }
+				check_variable = { which = v_elite_captives value = 1 } 
+			}
+		}
+		
+		custom_tooltip = bldg_pyramids_002
+		
+		while = { 
+			limit = { 
+				check_variable = { which = v_common_captives value = 0 } 
+			}
+			subtract_variable = { which = v_common_captives value = 1 }
+			add_prestige = 0.05
+		}
+		while = { 
+			limit = { 
+				check_variable = { which = v_elite_captives value = 0 } 
+			}
+			subtract_variable = { which = v_elite_captives value = 1 }
+			add_legitimacy = 0.05
+		}
+		
+		if = { 
+			limit = { 
+				capital_scope = { 
+					has_building = great_pyramid_temple
+				}
+			}
+			capital_scope = { 
+				remove_building = great_pyramid_temple
+				add_building = great_pyramid_temple_2
+			}
+			
+			remove_country_modifier = expanding_pyramid
+		}
+		
+		if = { 
+			limit = { 
+				capital_scope = { 
+					has_building = great_pyramid_temple_2
+				}
+			}
+			capital_scope = { 
+				remove_building = great_pyramid_temple_2
+				add_building = great_pyramid_temple_3
+			}
+			
+			remove_country_modifier = expanding_pyramid
+		}
+		
+		if = { 
+			limit = { 
+				capital_scope = { 
+					has_building = great_pyramid_temple_3
+				}
+			}
+			capital_scope = { 
+				remove_building = great_pyramid_temple_3
+				add_building = great_pyramid_temple_4
+			}
+			
+			remove_country_modifier = expanding_pyramid
+		}
+		
+		if = { 
+			limit = { 
+				capital_scope = { 
+					has_building = great_pyramid_temple_4
+				}
+			}
+			capital_scope = { 
+				remove_building = great_pyramid_temple_4
+				add_building = great_pyramid_temple_5
+			}
+			
+			remove_country_modifier = expanding_pyramid
+		}
+	}
+	
+	#Hold a ceremony to commemorate the expansion 
+	option = { 
+		name = "bldg_pyramids2.b"
+		
+		add_prestige = 10
+		
+		if = { 
+			limit = { 
+				capital_scope = { 
+					has_building = great_pyramid_temple
+				}
+			}
+			capital_scope = { 
+				remove_building = great_pyramid_temple
+				add_building = great_pyramid_temple_2
+			}
+			
+			remove_country_modifier = expanding_pyramid
+		}
+		
+		if = { 
+			limit = { 
+				capital_scope = { 
+					has_building = great_pyramid_temple_2
+				}
+			}
+			capital_scope = { 
+				remove_building = great_pyramid_temple_2
+				add_building = great_pyramid_temple_3
+			}
+			
+			remove_country_modifier = expanding_pyramid
+		}
+		
+		if = { 
+			limit = { 
+				capital_scope = { 
+					has_building = great_pyramid_temple_3
+				}
+			}
+			capital_scope = { 
+				remove_building = great_pyramid_temple_3
+				add_building = great_pyramid_temple_4
+			}
+			
+			remove_country_modifier = expanding_pyramid
+		}
+		
+		if = { 
+			limit = { 
+				capital_scope = { 
+					has_building = great_pyramid_temple_4
+				}
+			}
+			capital_scope = { 
+				remove_building = great_pyramid_temple_4
+				add_building = great_pyramid_temple_5
+			}
+			
+			remove_country_modifier = expanding_pyramid
+		}
+	}
+}
+
+#Expanding the Huey-Teocalli
+country_event = { 
+	id = bldg_pyramids.03
+	
+	title = "bldg_pyramids3.t" 
+	desc = "bldg_pyramids3.d"
+	picture = GREAT_BUILDING_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = "bldg_pyramids3.a"
+		custom_tooltip = bldg_pyramids_001
+		
+		if = { 
+			limit = { 
+				capital_scope = {
+					has_building = huey_teocalli_2
+				}
+			}
+			add_treasury = -1000
+			add_country_modifier = {
+				name = expanding_pyramid
+				duration = -1
+			}
+		}
+		
+		if = { 
+			limit = { 
+				capital_scope = {
+					has_building = huey_teocalli_3
+				}
+			}
+			add_treasury = -1500
+			add_country_modifier = {
+				name = expanding_pyramid
+				duration = -1
+			}
+		}
+		
+		if = { 
+			limit = { 
+				capital_scope = {
+					has_building = huey_teocalli_4
+				}
+			}
+			add_treasury = -2000
+			add_country_modifier = {
+				name = expanding_pyramid
+				duration = -1
+			}
+		}
+		
+		if = { 
+			limit = { 
+				capital_scope = {
+					has_building = huey_teocalli_5
+				}
+			}
+			add_treasury = -2500
+			add_country_modifier = {
+				name = expanding_pyramid
+				duration = -1
+			}
+		}
+		
+		if = { 
+			limit = { 
+				capital_scope = {
+					has_building = huey_teocalli_6
+				}
+			}
+			add_treasury = -3000
+			add_country_modifier = {
+				name = expanding_pyramid
+				duration = -1
+			}
+		}
+		
+		if = { 
+			limit = { 
+				capital_scope = {
+					has_building = huey_teocalli_7
+				}
+			}
+			add_treasury = -3500
+			add_country_modifier = {
+				name = expanding_pyramid
+				duration = -1
+			}
+		}
+		
+		hidden_effect = { 
+			country_event = { id = bldg_pyramids.04 days = 365 } 
+		}
+	}
+}
+
+#Huey-Teocalli Stage Complete
+country_event = { 
+	id = bldg_pyramids.04
+	
+	title = "bldg_pyramids4.t"
+	desc = "bldg_pyramids4.d" 
+	picture = GREAT_BUILDING_eventPicture
+	
+	is_triggered_only = yes
+	
+	#Hold a ceremony to commemorate the expansion with captive sacrifices
+	option = { 
+		name = "bldg_pyramids4.a"
+		trigger = { 
+			religion_group = nahuatl_group
+			OR = { 
+				check_variable = { which = v_common_captives value = 1 }
+				check_variable = { which = v_elite_captives value = 1 } 
+			}
+		}
+		
+		custom_tooltip = bldg_pyramids_002
+		
+		while = { 
+			limit = { 
+				check_variable = { which = v_common_captives value = 0 } 
+			}
+			subtract_variable = { which = v_common_captives value = 1 }
+			add_prestige = 0.05
+		}
+		while = { 
+			limit = { 
+				check_variable = { which = v_elite_captives value = 0 } 
+			}
+			subtract_variable = { which = v_elite_captives value = 1 }
+			add_legitimacy = 0.05
+		}
+		
+		if = { 
+			limit = { 
+				capital_scope = { 
+					has_building = huey_teocalli_2
+				}
+			}
+			capital_scope = { 
+				remove_building = huey_teocalli_2
+				add_building = huey_teocalli_3
+			}
+			
+			remove_country_modifier = expanding_pyramid
+		}
+		
+		if = { 
+			limit = { 
+				capital_scope = { 
+					has_building = huey_teocalli_3
+				}
+			}
+			capital_scope = { 
+				remove_building = huey_teocalli_3
+				add_building = huey_teocalli_4
+			}
+			
+			remove_country_modifier = expanding_pyramid
+		}
+		
+		if = { 
+			limit = { 
+				capital_scope = { 
+					has_building = huey_teocalli_4
+				}
+			}
+			capital_scope = { 
+				remove_building = huey_teocalli_4
+				add_building = huey_teocalli_5
+			}
+			
+			remove_country_modifier = expanding_pyramid
+		}
+		
+		if = { 
+			limit = { 
+				capital_scope = { 
+					has_building = huey_teocalli_5
+				}
+			}
+			capital_scope = { 
+				remove_building = huey_teocalli_5
+				add_building = huey_teocalli_6
+			}
+			
+			remove_country_modifier = expanding_pyramid
+		}
+		
+		if = { 
+			limit = { 
+				capital_scope = { 
+					has_building = huey_teocalli_6
+				}
+			}
+			capital_scope = { 
+				remove_building = huey_teocalli_6
+				add_building = huey_teocalli_7
+			}
+			
+			remove_country_modifier = expanding_pyramid
+		}
+		
+		if = { 
+			limit = { 
+				capital_scope = { 
+					has_building = huey_teocalli_7
+				}
+			}
+			capital_scope = { 
+				remove_building = huey_teocalli_7
+				add_building = huey_teocalli_8
+			}
+			
+			remove_country_modifier = expanding_pyramid
+		}
+	}
+	
+	#Hold a ceremony to commemorate the expansion 
+	option = { 
+		name = "bldg_pyramids2.b"
+		
+		add_prestige = 10
+		
+		if = { 
+			limit = { 
+				capital_scope = { 
+					has_building = huey_teocalli_2
+				}
+			}
+			capital_scope = { 
+				remove_building = huey_teocalli_2
+				add_building = huey_teocalli_3
+			}
+			
+			remove_country_modifier = expanding_pyramid
+		}
+		
+		if = { 
+			limit = { 
+				capital_scope = { 
+					has_building = huey_teocalli_3
+				}
+			}
+			capital_scope = { 
+				remove_building = huey_teocalli_3
+				add_building = huey_teocalli_4
+			}
+			
+			remove_country_modifier = expanding_pyramid
+		}
+		
+		if = { 
+			limit = { 
+				capital_scope = { 
+					has_building = huey_teocalli_4
+				}
+			}
+			capital_scope = { 
+				remove_building = huey_teocalli_4
+				add_building = huey_teocalli_5
+			}
+			
+			remove_country_modifier = expanding_pyramid
+		}
+		
+		if = { 
+			limit = { 
+				capital_scope = { 
+					has_building = huey_teocalli_5
+				}
+			}
+			capital_scope = { 
+				remove_building = huey_teocalli_5
+				add_building = huey_teocalli_6
+			}
+			
+			remove_country_modifier = expanding_pyramid
+		}
+		
+		if = { 
+			limit = { 
+				capital_scope = { 
+					has_building = huey_teocalli_6
+				}
+			}
+			capital_scope = { 
+				remove_building = huey_teocalli_6
+				add_building = huey_teocalli_7
+			}
+			
+			remove_country_modifier = expanding_pyramid
+		}
+		
+		if = { 
+			limit = { 
+				capital_scope = { 
+					has_building = huey_teocalli_7
+				}
+			}
+			capital_scope = { 
+				remove_building = huey_teocalli_7
+				add_building = huey_teocalli_8
+			}
+			
+			remove_country_modifier = expanding_pyramid
+		}
+	}
+}

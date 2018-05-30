@@ -1,0 +1,101 @@
+#Religious Decisions go here
+country_decisions = { 
+	nahuatl_group_sacrifice_noble_captives = { 
+		potential = { 
+			religion_group = nahuatl_group
+		}
+		
+		allow = { 
+			check_variable = { which = v_elite_captives value = 1 }
+		}
+		
+		effect = { 
+			custom_tooltip = nahuatl_group_decisions_001
+			hidden_effect = { 
+				if = { 
+					limit = { 
+						NOT = { check_variable = { which = v_elite_captives value = 100 } }
+					}
+					random_list = { 
+						99 = { 
+						
+						}
+						1 = { 
+							country_event = { id = rlgn_nahuatl.01 } 
+						}
+					}
+				}
+				if = { 
+					limit = {
+						check_variable = { which = v_elite_captives value = 100 } 
+						NOT = { check_variable = { which = v_elite_captives value = 200 } } 
+					}
+					random_list = { 
+						98 = { 
+						
+						}
+						2 = { 
+							country_event = { id = rlgn_nahuatl.01 } 
+						}
+					}
+				}
+				if = { 
+					limit = {
+						check_variable = { which = v_elite_captives value = 200 }
+					}
+					random_list = { 
+						97 = { 
+						
+						}
+						3 = { 
+							country_event = { id = rlgn_nahuatl.01 } 
+						}
+					}
+				}
+				if = { 
+					limit = {
+						check_variable = { which = v_elite_captives value = 300 }
+					}
+					random_list = { 
+						96 = { 
+							
+						}
+						4 = { 
+							country_event = { id = rlgn_nahuatl.01 } 
+						}
+					}
+				}
+				if = { 
+					limit = {
+						check_variable = { which = v_elite_captives value = 400 }
+					}
+					random_list = { 
+						95 = { 
+						
+						}
+						5 = { 
+							country_event = { id = rlgn_nahuatl.01 } 
+						}
+					}
+				}
+			
+				while = { 
+					limit = { 
+						check_variable = { which = v_elite_captives value = 0 } 
+					}
+					subtract_variable = { which = v_elite_captives value = 1 }
+					add_army_tradition = 0.02
+				}
+				set_variable = { which = v_elite_captives value = 0 } 
+			}
+		}
+		
+		ai_will_do = { 
+			factor = 1
+			modifier = { 
+				factor = 0
+				check_variable = { which = v_elite_captives value = 100 } 
+			}
+		}
+	}
+}

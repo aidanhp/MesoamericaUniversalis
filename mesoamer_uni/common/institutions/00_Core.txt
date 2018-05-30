@@ -334,10 +334,10 @@ dat_animals = {
 			owner = {
 				has_country_modifier = steel_and_horses
 			}
-			#AND = { 
-			#	is_year = 1519
-			#	is_core = CAX
-			#}
+			AND = { 
+				is_year = 1519
+				is_core = CAX
+			}
 		}
 	}
 	start_chance = 20
@@ -513,7 +513,6 @@ weaponized_metalworking = {
 				has_country_modifier = steel_and_horses
 			}
 			AND = { 
-				is_year = 1521
 				OR = {
 					owner = {
 						copper = 1
@@ -531,11 +530,7 @@ weaponized_metalworking = {
 					}
 				}
 			}
-			#AND = {
-			#	has_global_flag = spanish_invasion_on
-			#	is_year = 1525
-			#	is_core = CAX
-			#}
+			is_core = CAX
 		}
 	}
 	start_chance = 10		#in 100 for when a province can_start
@@ -597,21 +592,21 @@ weaponized_metalworking = {
 			}
 		}
 		
-		#modifier = {
-		#	factor = 0.50
-		#	scale = no
-		#	custom_trigger_tooltip = {
-		#		tooltip = AT_WAR_CAX_WPN_METAL
-		#		OR = {
-		#			owner = {
-		#				offensive_war_with = CAX
-		#			}
-		#			owner = {
-		#				defensive_war_with = CAX
-		#			}
-		#		}
-		#	}
-		#}
+		modifier = {
+			factor = 0.50
+			scale = no
+			custom_trigger_tooltip = {
+				tooltip = AT_WAR_CAX_WPN_METAL
+				OR = {
+					owner = {
+						offensive_war_with = CAX
+					}
+					owner = {
+						defensive_war_with = CAX
+					}
+				}
+			}
+		}
 		
 		modifier = {
 			factor = 1.0

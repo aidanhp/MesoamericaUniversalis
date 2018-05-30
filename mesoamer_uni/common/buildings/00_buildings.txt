@@ -829,6 +829,18 @@ great_pyramid_temple = {
 	time = 24
 	trigger = {
 		has_building = ceremonial_precinct
+		NOT = { 
+			OR = {
+				has_building = huey_teocalli_2
+				has_building = huey_teocalli_3
+				has_building = huey_teocalli_4
+				has_building = huey_teocalli_5
+				has_building = huey_teocalli_6
+				has_building = huey_teocalli_7
+				has_building = huey_teocalli_8
+				has_building = great_pyramid_of_cholula
+			}
+		}
 	}
 	modifier = {
 		prestige = 0.2
@@ -985,7 +997,7 @@ huey_teocalli_2 = {
 		always = no
 	}
 	modifier = {
-		war_exhaustion = -0.025
+		war_exhaustion = -0.02
 		tolerance_own = 1
 	}
 	
@@ -1017,7 +1029,7 @@ huey_teocalli_4 = {
 		always = no
 	}
 	modifier = {
-		war_exhaustion = -0.035
+		war_exhaustion = -0.03
 		tolerance_own = 2
 	}
 	
@@ -1049,7 +1061,7 @@ huey_teocalli_6 = {
 		always = no
 	}
 	modifier = {
-		war_exhaustion = -0.045
+		war_exhaustion = -0.04
 		tolerance_own = 3
 	}
 	
