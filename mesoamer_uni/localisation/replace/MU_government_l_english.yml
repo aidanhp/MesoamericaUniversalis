@@ -45,7 +45,7 @@
  
  #Gov-related Decisions#
  display_government_stats_title: "Display Government Statistics"
- display_government_stats_desc: "Current Government Statistics: \nTerritorial vs. Hegemonic: §G[Root.v_terr_hege.GetValue]§! \n--(Change Last Year: §Y[Root.v_terr_hege_display_c.GetValue]§!) \nLocal Delegation vs. Legal Centralization: §G[Root.v_legal_tradition.GetValue]§! \n--(Change Last Year: §Y[Root.v_legal_tradition_display_c.GetValue]§!) \nPatrimonialism vs. Meritocracy: §G[Root.v_merit_tradition.GetValue]§! \n--(Change Last Year: §Y[Root.v_merit_tradition_display_c.GetValue]§!) \nTerrestrial Politics vs. Spiritual Politics: §G[Root.v_religious_tradition.GetValue]§! \n--(Change Last Year: §Y[Root.v_religious_tradition_display_c.GetValue]§!) \nTake this decision for more information."
+ display_government_stats_desc: "Current Government Statistics: \nTerritorial vs. Hegemonic: §G[Root.v_terr_hege.GetValue]§! \n--(Change Last Year: §Y[Root.v_terr_hege_display_c.GetValue]§!) \nLocal Delegation vs. Legal Centralization: §G[Root.v_legal_tradition.GetValue]§! \n--(Change Last Year: §Y[Root.v_legal_tradition_display_c.GetValue]§!) \nSocial Rigidity vs. Social Mobility: §G[Root.v_merit_tradition.GetValue]§! \n--(Change Last Year: §Y[Root.v_merit_tradition_display_c.GetValue]§!) \nTerrestrial Politics vs. Spiritual Politics: §G[Root.v_religious_tradition.GetValue]§! \n--(Change Last Year: §Y[Root.v_religious_tradition_display_c.GetValue]§!) \nTake this decision for more information."
  
  
  #Gov-related custom tooltips#
@@ -69,6 +69,38 @@
  territorial_4: "Territorial 4"
  territorial_5: "Territorial 5"
  
+  local_delegation_5: "Local Delegation 5"
+ local_delegation_4: "Local Delegation 4"
+ local_delegation_3: "Local Delegation 3"
+ local_delegation_2: "Local Delegation 2" 
+ local_delegation_1: "Local Delegation 1" 
+ legal_centralization_1: "Legal Centralization 1" 
+ legal_centralization_2: "Legal Centralization 2"
+ legal_centralization_3: "Legal Centralization 3" 
+ legal_centralization_4: "Legal Centralization 4"
+ legal_centralization_5: "Legal Centralization 5" 
+ 
+ social_rigidity_5: "Social Rigidity 5" 
+ social_rigidity_4: "Social Rigidity 4"
+ social_rigidity_3: "Social Rigidity 3"
+ social_rigidity_2: "Social Rigidity 2"
+ social_rigidity_1: "Social Rigidity 1" 
+ social_mobility_1: "Social Mobility 1" 
+ social_mobility_2: "Social Mobility 2"
+ social_mobility_3: "Social Mobility 3"
+ social_mobility_4: "Social Mobility 4"
+ social_mobility_5: "Social Mobility 5"
+ 
+ terrestrial_politics_5: "Terrestrial Politics 5"
+ terrestrial_politics_4: "Terrestrial Politics 4"
+ terrestrial_politics_3: "Terrestrial Politics 3"
+ terrestrial_politics_2: "Terrestrial Politics 2"
+ terrestrial_politics_1: "Terrestrial Politics 1"
+ spiritual_politics_1: "Spiritual Politics 1" 
+ spiritual_politics_2: "Spiritual Politics 2"
+ spiritual_politics_3: "Spiritual Politics 3"
+ spiritual_politics_4: "Spiritual Politics 4"
+ spiritual_politics_5: "Spiritual Politics 5" 
  
  #Hegemonic Governments#
  #Modifiers
