@@ -2,7 +2,7 @@
 
 graphical_culture = westerngfx
 
-color = { 203  164  103 }	
+color = { 203 164 103 }
 
 # Used for colonial nations
 #Country Name: Please see filename.
