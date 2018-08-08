@@ -58,7 +58,7 @@
  shared_pantheon: "Shared Pantheon"
  desc_shared_pantheon: "The followers of the various Central Mexican deities all share the same general pantheon and thus have at least a modicum of respect for other gods in that pantheon."
  
- #Nahuatl Group Special Localization
+ #Nahuatl Group Special Localization#
  #Custom Tooltios
  nahuatl_group_decisions_001: "Gain §G0.02§! Army Tradition per noble captive. \nHas a small chance to grant you a powerful general if one of the captives survives the ceremony for a long enough period of time."
  
@@ -71,3 +71,50 @@
  rlgn_nahuatl1.d: "One of the noble captives we took in our recent wars has proven himself to be a truly exceptional warrior. During the ceremony of gladiatorial sacrifice, he fought and felled members of all our military orders, even triumphing over four of them together and then further defeating a left-handed warrior. We can continue the ceremony until he is brought down through sheer exhaustion, or we could grant him the rare privilege of a position in our military for his prowess."
  rlgn_nahuatl1.a: "He shows much potential."
  rlgn_nahuatl1.b: "No, continue the ceremony." 
+ 
+ #Maya Group Special Localization#
+ #Holy Sites
+ HOLY_SITE_1643_DESC: "The shrine of Ix Chel on Cozumel island was the most important pilgrimage site in the Late Postclassic - after Chichen Itza - and superseded the former in its importance to young women. Ix Chel was goddess of the moon as well as of fertility and childbirth. Transportation to the shrine was partially monopolized by Chontal Maya."
+ HOLY_SITE_1681_DESC: "The city of Coba, with its temples and sacbeob ritual roads that stretch for miles, was active until after the close of the classic. Even in the postclassic, Coba retained ritual status, and became associated with the god Sun-Eyed Lord (K’inich Ahaw). Walking the ritual roads became a pilgrimage activity, and minor temples were constructed at the settlement into the 15th century."
+ HOLY_SITE_1794_DESC: "Tikal, or as it was once called, Yax Mutul, was among the most wonderous of the Classic Maya cities, and was the capital of one of the most powerful kingdoms in Mesoamerican history. Despite this, Tikal collapsed with most of the rest of the cities in the Central Lowlands as a result of a variety of human and environmental stresses leading to the widespread rejection of the Classic Maya divine kingship, with the final Great King, Jasaw Chan K’awiil the Second, erecting the city’s last monument in 869 AD before it fell silently into the depth of time. It’s certain, however, that it was never truly forgotten by the Maya. Evidence exists that the major temples of the site were being used for small scale burials connected with the Mayapan cultural era - and it is likely that rituals were conducted at the ruins by locals living in nearby hamlets in a similar way that they are to this very day. "
+ HOLY_SITE_1222_DESC: "The Sacred Cenote at Chichen Itza was brought to prominence first by the hypothesized Toltec or Mexicanized Maya rulers of that city, and later perpetuated and even expanded as a pilgrimage site by the Itza clan when they came to power. The Itza utilized and enhanced the site’s religious prominence as a method of gaining authority and prestige among the competing kuchkabals of the day."
+ HOLY_SITE_766_DESC: "Cacaxtla, an abandoned city presently controlled by the princes of the Mexican highlands, is the furthest extent of major Maya cultural, financial, and religious influence to the west. Run as a trade center by Mexicanized Maya (likely Chontal Putun transplants) to control trade routes recently abandoned with the fall of Teotihuacan during the Late Classic, the city was thoroughly Mayanized. The greatest example of this is the Temple of the Carrying-Frame, where the classical Maya merchant god God Ek' Chuwah is shown carrying his rich goods on the eponymous carrying-frame and guarding over the merchant nobility who controlled the city. "
+ 
+ #Blessings
+ PATRIARCHAL_BLESSINGS: "Holy Blessings" 
+ blessing_of_the_scribe: "Blessing of the Scribe"
+ blessing_of_the_farmer: "Blessing of the Farmer"
+ blessing_of_the_conqueror: "Blessing of the Conqueror"
+ blessing_of_the_builder: "Blessing of the Builder"
+ blessing_of_the_merchant: "Blessing of the Merchant"
+ 
+ #Huaxyacac Group Special Localization
+ cocijo: "Cocijo"
+ cocijo_desc: "The Force Within Lightning"
+ xoo: "Xoo"
+ xoo_desc: "The Force Within Earthquakes"
+ cozobi: "Cozobi"
+ cozobi_desc: "The Force Within Harvests"
+ coqui: "Coqui"
+ coqui_desc: "Ancestor of Noblemen"
+ 
+ taadozo: "Taadozo"
+ taadozo_desc: "God of warfare, the sun, and human sacrifice."
+ xiton: "Xiton"
+ xiton_desc: "God of merchants."
+ zavui: "Zavui"
+ zavui_desc: "God of rain."
+ 
+ #Purepecha Group Special Localization
+ PATRIARCH_AUTHORITY_LESS_THAN:0 "Religious Force is less than §Y$VAL$§W percent.\n"
+ PATRIARCH_AUTHORIT_AT_LEAST:0 "Religious Force is at least §Y$VAL$§W percent.\n"
+ ADD_PATR_AUTH:0 "$DIRECTION$ $VALUE$ Religious Force"
+ PATRIARCH_AUTHORITY_IN_PROVINCES:0 "Your Purepecha provinces:"
+ FULL_PATRIARCH_AUTHORITY:0 "When reaching maximum Religious Force you will gain:"
+ NO_PATRIARCH_AUTHORITY:0 "With no Religious Force you will get no modifiers."
+ patriarch_authority_local:0 "Religious Force"
+ patriarch_authority_global:0 "Religious Force"
+ USES_PATRIARCH_AUTHORITY:0 "$COUNTRY|Y$ uses Religious Force."
+ USES_NOT_PATRIARCH_AUTHORITY:0 "$COUNTRY|Y$ does NOT use Religious Force."
+ PATRIARCH_DESCRIPTION:1 "The current level of Religious Force possessed by your ruler."
+ CURRENT_PATRIARCH_AUTHORITY:0 "Current Religious Force"

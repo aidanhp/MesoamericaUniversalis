@@ -1,0 +1,37 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_holy_site_default"
+		texturefile = "gfx//interface//holy_sites//aksum.dds"
+	}
+
+	spriteType = {
+		name = "GFX_holy_site_1643"
+		texturefile = "gfx//interface//holy_sites//ShrineOfIxChel.dds"
+		loadType = "INGAME"
+	}	
+
+	spriteType = {
+		name = "GFX_holy_site_1681"
+		texturefile = "gfx//interface//holy_sites//CobaTemple.dds"
+		loadType = "INGAME"
+	}	
+
+	spriteType = {
+		name = "GFX_holy_site_1794"
+		texturefile = "gfx//interface//holy_sites//Tikal.dds"
+		loadType = "INGAME"
+	}	
+
+	spriteType = {
+		name = "GFX_holy_site_1222"
+		texturefile = "gfx//interface//holy_sites//SacredCenote.dds"
+		loadType = "INGAME"
+	}	
+
+	spriteType = {
+		name = "GFX_holy_site_766"
+		texturefile = "gfx//interface//holy_sites//TempleOfTheCarryingFrame.dds"
+		loadType = "INGAME"
+	}
+	
+}

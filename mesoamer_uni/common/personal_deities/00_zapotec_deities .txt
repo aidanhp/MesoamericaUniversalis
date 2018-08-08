@@ -1,0 +1,48 @@
+#Zapotec Personal Deities
+
+cocijo = {
+	legitimacy = 0.25
+	stability_cost_modifier = -0.10
+	
+	allow = { religion = religion_zapotec }
+	sprite = 1
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+xoo = {
+	shock_damage = 0.075
+	
+	allow = { religion = religion_zapotec }
+	sprite = 1
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+cozobi = {
+	production_efficiency = 0.075
+	global_unrest = -1
+	
+	allow = { religion = religion_zapotec }
+	sprite = 1
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+coqui = {
+	global_tax_modifier = 0.10
+	prestige = 0.5
+	
+	allow = { religion = religion_zapotec }
+	sprite = 1
+
+	ai_will_do = {
+		factor = 1
+	}
+}

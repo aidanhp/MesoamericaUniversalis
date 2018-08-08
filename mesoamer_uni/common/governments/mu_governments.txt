@@ -28,18 +28,18 @@ absolute_hereditary_monarchy = {
 	rank = {
 		1 = {
 			max_states = 1
-			legitimacy = 0.5
+			legitimacy = 0.25
 			max_absolutism = 5
 		}
 		2 = {
 			max_states = 2
-			legitimacy = 0.5
-			max_absolutism = 7.5
+			legitimacy = 0.25
+			max_absolutism = 10
 		}
 		3 = {
 			max_states = 3
 			legitimacy = 0.5
-			max_absolutism = 10
+			max_absolutism = 15
 		}
 	}
 }
@@ -64,7 +64,7 @@ absolute_elective_monarchy = {
 		}
 		2 = {
 			max_states = 2
-			max_absolutism = 7.5
+			max_absolutism = 5
 		}
 		3 = {
 			max_states = 3

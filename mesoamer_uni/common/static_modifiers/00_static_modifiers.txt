@@ -465,7 +465,7 @@ scorched_earth = {
 ##########################################################################
 
 base_values = {
-	max_absolutism = 65
+	max_absolutism = 50
 	merc_maintenance_modifier = 1.5
 	merchants = 2							#Start with 2 merchants
 	diplomats = 2							#Start with 2 diplomats..
@@ -930,7 +930,7 @@ curia_controller = {
 
 religious_unity = {
 	monthly_fervor_increase = 1
-	max_absolutism = 5
+	max_absolutism = 10
 }
 
 inverse_religious_unity = {

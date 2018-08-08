@@ -1,0 +1,42 @@
+#Purepecha Triarchy
+alliance = { 
+	first = BBP 
+	second = BBW 
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+alliance = { 
+	first = BBP 
+	second = BBX 
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+alliance = { 
+	first = BBW 
+	second = BBX 
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+royal_marriage = { 
+	first = BBP 
+	second = BBW 
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+royal_marriage = { 
+	first = BBP 
+	second = BBX 
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}
+
+royal_marriage = { 
+	first = BBW 
+	second = BBX 
+	start_date = 1428.1.1
+	end_date = 1821.1.1
+}

@@ -546,7 +546,7 @@ social_mobility_1 = {
 	
 	land_morale = 0.02
 	liberty_desire_from_subject_development = -0.04
-	diplomatic_reputation = -0.4
+	prestige = -0.4
 	stability_cost_modifier = 0.04
 }
 
@@ -562,7 +562,7 @@ social_mobility_2 = {
 	
 	land_morale = 0.04
 	liberty_desire_from_subject_development = -0.08
-	diplomatic_reputation = -0.8
+	prestige = -0.8
 	stability_cost_modifier = 0.08
 }
 
@@ -578,7 +578,7 @@ social_mobility_3 = {
 	
 	land_morale = 0.06
 	liberty_desire_from_subject_development = -0.12
-	diplomatic_reputation = -1.2
+	prestige = -1.2
 	stability_cost_modifier = 0.12
 }
 
@@ -594,7 +594,7 @@ social_mobility_4 = {
 	
 	land_morale = 0.08
 	liberty_desire_from_subject_development = -0.16
-	diplomatic_reputation = -1.6
+	prestige = -1.6
 	stability_cost_modifier = 0.16
 }
 
@@ -609,7 +609,7 @@ social_mobility_5 = {
 	
 	land_morale = 0.10
 	liberty_desire_from_subject_development = -0.20
-	diplomatic_reputation = -2
+	prestige = -2
 	stability_cost_modifier = 0.20
 }
 
@@ -625,7 +625,7 @@ terrestrial_politics_5 = {
 	
 	global_missionary_strength = -0.02
 	war_exhaustion_cost = 0.50
-	global_tax_income = 0.20
+	global_tax_modifier = 0.20
 	religious_unity = 0.25
 }
 
@@ -641,7 +641,7 @@ terrestrial_politics_4 = {
 	
 	global_missionary_strength = -0.016
 	war_exhaustion_cost = 0.40
-	global_tax_income = 0.16
+	global_tax_modifier = 0.16
 	religious_unity = 0.20
 }
 
@@ -657,7 +657,7 @@ terrestrial_politics_3 = {
 	
 	global_missionary_strength = -0.012
 	war_exhaustion_cost = 0.30
-	global_tax_income = 0.12
+	global_tax_modifier = 0.12
 	religious_unity = 0.15
 }
 
@@ -673,7 +673,7 @@ terrestrial_politics_2 = {
 	
 	global_missionary_strength = -0.008
 	war_exhaustion_cost = 0.20
-	global_tax_income = 0.08
+	global_tax_modifier = 0.08
 	religious_unity = 0.10
 }
 
@@ -689,7 +689,7 @@ terrestrial_politics_1 = {
 	
 	global_missionary_strength = -0.004
 	war_exhaustion_cost = 0.10
-	global_tax_income = 0.04
+	global_tax_modifier = 0.04
 	religious_unity = 0.05
 }
 
@@ -705,8 +705,8 @@ spiritual_politics_1 = {
 	
 	global_missionary_strength = 0.004
 	war_exhaustion_cost = -0.10
-	global_tax_income = -0.04
-	religious_unity = -0.05
+	global_tax_modifier = -0.04
+	tolerance_heathen = -0.5
 }
 
 spiritual_politics_2 = { 
@@ -721,8 +721,8 @@ spiritual_politics_2 = {
 	
 	global_missionary_strength = 0.008
 	war_exhaustion_cost = -0.20
-	global_tax_income = -0.08
-	religious_unity = -0.10
+	global_tax_modifier = -0.08
+	tolerance_heathen = -1
 }
 
 spiritual_politics_3 = { 
@@ -737,8 +737,8 @@ spiritual_politics_3 = {
 	
 	global_missionary_strength = 0.012
 	war_exhaustion_cost = -0.30
-	global_tax_income = -0.12
-	religious_unity = -0.15
+	global_tax_modifier = -0.12
+	tolerance_heathen = -1.5
 }
 
 spiritual_politics_4 = { 
@@ -753,8 +753,8 @@ spiritual_politics_4 = {
 	
 	global_missionary_strength = 0.016
 	war_exhaustion_cost = -0.40
-	global_tax_income = -0.16
-	religious_unity = -0.20
+	global_tax_modifier = -0.16
+	tolerance_heathen = -2
 }
 
 spiritual_politics_5 = { 
@@ -768,8 +768,9 @@ spiritual_politics_5 = {
 	
 	global_missionary_strength = 0.02
 	war_exhaustion_cost = -0.50
-	global_tax_income = -0.20
-	religious_unity = -0.25
+	global_tax_modifier = -0.20
+	tolerance_heathen = -2
+	tolerance_heretic = -1
 }
 
 #Captive Bonuses

@@ -114,7 +114,7 @@ minimal_communication = {
 #For AI - doesn't show up on the trade map
 ai_perfect_communication = {
 	local_unrest = -5
-	local_autonomy = -0.10
+	local_autonomy = -0.25
 	local_tax_modifier = 0.025
 	local_manpower_modifier = 0.025
 	regiment_recruit_speed = -0.20

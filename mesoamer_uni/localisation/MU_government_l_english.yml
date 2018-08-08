@@ -170,7 +170,7 @@
  #Triple Alliance
  #--Decisions
  display_triple_alliance_influence_title: "Display Triple Alliance Influence"
- display_triple_alliance_influence_desc: "Triple Alliance influence represents the relative power balance in the Triple Alliance of Tenochtitlan, Texcoco, and Tlacopan. Take this decision for more information. \nCurrently, the balance is as follows: \nTenochtitlan: §Y[AAA.v_ta_influence.GetValue]§! \nTexcoco: §Y[ACC.v_ta_influence.GetValue]§! \nTlacopan: §Y[AAD.v_ta_influence.GetValue]§!"
+ display_triple_alliance_influence_desc: "Triple Alliance influence represents the relative power balance in the Triple Alliance of Tenochtitlan, Texcoco, and Tlacopan. \nCurrently, the balance is as follows: \nTenochtitlan: §Y[AAA.v_ta_influence.GetValue]§! \nTexcoco: §Y[ACC.v_ta_influence.GetValue]§! \nTlacopan: §Y[AAD.v_ta_influence.GetValue]§! \nTake this decision for more information."
  #--Variables
  v_ta_influence: "Triple Alliance Influence"
  

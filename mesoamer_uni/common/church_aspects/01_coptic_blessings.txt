@@ -1,1 +1,59 @@
-####
+blessing_of_the_scribe = {
+	is_blessing = yes
+
+	modifier = {
+		idea_cost = -0.05
+	}
+	
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+blessing_of_the_farmer = {
+	is_blessing = yes
+
+	modifier = {
+		production_efficiency = 0.10
+	}
+	
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+blessing_of_the_conqueror = {
+	is_blessing = yes
+
+	modifier = {
+		core_creation = -0.05
+	}
+	
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+blessing_of_the_builder = {
+	is_blessing = yes
+
+	modifier = {
+		build_cost = -0.05
+	}
+	
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+blessing_of_the_merchant = {
+	is_blessing = yes
+
+	modifier = {
+		trade_steering = 0.10
+	}
+	
+	ai_will_do = {
+		factor = 10
+	}
+}

@@ -1,8 +1,20 @@
 age_of_discovery = {
-	start = 900
+	start = 1400
 	
 	can_start = {
 		always = yes
+	}
+	
+	absolutism = {
+		harsh_treatment = 1
+		stability = 2
+		decrease_autonomy_command = 2
+		strengthen_government = 2
+		
+		increase_autonomy_command = -2
+		debase_currency = -1
+		execute_rebel_acceptance_command = -10
+		war_exhaustion = -0.5
 	}
 	
 	objectives = {

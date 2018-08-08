@@ -1,0 +1,37 @@
+#Mixtec Personal Deities
+
+taadozo = {
+	land_morale = 0.05
+	infantry_power = 0.05
+	
+	allow = { religion = religion_mixtec }
+	sprite = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+xiton = {
+	trade_efficiency = 0.075
+	trade_steering = 0.05
+	
+	allow = { religion = religion_mixtec }
+	sprite = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+zavui = {
+	production_efficiency = 0.075
+	global_unrest = -1
+	
+	allow = { religion = religion_mixtec }
+	sprite = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+}
