@@ -37,6 +37,7 @@ for country_common_filename in os.listdir(countries_common_base_path):
         for line in country_common_file:
             if line.startswith("color = { "):
                 color = tuple([int(x) for x in line[10:-3].split(" ")])
+                #if color == (47, 122, 167): continue
                 count = color_to_count[color]
                 country_to_color[country_name] = color
                 country_to_count[country_name] = count
@@ -44,7 +45,8 @@ for country_common_filename in os.listdir(countries_common_base_path):
                 color_to_count[color] += 1
                 break
         if not color_found:
-            print("color not found for " + country_common_filename)
+            #print("color not found for " + country_common_filename)
+            pass
 
 flag_size = 128
 flag_exists_count = 0
@@ -61,14 +63,17 @@ for tag, country in tag_to_country.items():
             color_found += 1
             color = country_to_color[country]
             count = country_to_count[country]
+            if count > 0:
+                print("{}, {}, {}".format(country, count, color))
+                continue
             #print(count)
             #print(country)
             row = [color for x in range(flag_size)]
-            #image = [row for x in range(flag_size)]
-            #tga = pyTGA.Image(data=image)
-            #tga.save(tag)
+            image = [row for x in range(flag_size)]
+            tga = pyTGA.Image(data=image)
+            tga.save("tga/" + tag)
         else:
-            print("Color not found for tag '{}', country '{}'".format(tag, country))
+            #print("Color not found for tag '{}', country '{}'".format(tag, country))
             color_not_found += 1
 
 print("{},{},{},{}".format(flag_exists_count, flag_not_exists_count, color_found, color_not_found))
