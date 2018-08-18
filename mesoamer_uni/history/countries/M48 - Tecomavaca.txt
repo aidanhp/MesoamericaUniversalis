@@ -9,7 +9,7 @@ fixed_capital = 2015
 
 1427.1.1 = {
 	monarch = {
-		name = "Random First Name"
+		name = "Jon Fane Nangui"
 		dynasty = "Tecomavaca"
 		adm = 4
 		dip = 4

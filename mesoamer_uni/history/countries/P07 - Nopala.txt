@@ -8,7 +8,7 @@ capital = 2166
 
 1427.1.1 = {
 	monarch = {
-		name = "Random First Name"
+		name = "Gooho Tzahthyo"
 		dynasty = "Nopala"
 		adm = 4
 		dip = 4

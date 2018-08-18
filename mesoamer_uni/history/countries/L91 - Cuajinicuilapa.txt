@@ -9,7 +9,7 @@ fixed_capital = 1933
 
 1427.1.1 = {
 	monarch = {
-		name = "Random First Name"
+		name = "Tsaun n Huahi Yaha Tnoo Yecu"
 		dynasty = "Cuajinicuilapa"
 		adm = 4
 		dip = 4

@@ -9,7 +9,7 @@ fixed_capital = 1918
 
 1427.1.1 = {
 	monarch = {
-		name = "Random First Name"
+		name = "Huaxic Huits"
 		dynasty = "Nahuatlan-Huaxteca"
 		adm = 4
 		dip = 4
