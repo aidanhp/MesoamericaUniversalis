@@ -9,7 +9,7 @@ fixed_capital = 2017
 
 1427.1.1 = {
 	monarch = {
-		name = "Random First Name"
+		name = "Acamapichtli"
 		dynasty = "Huey-Teotitlan"
 		adm = 4
 		dip = 4

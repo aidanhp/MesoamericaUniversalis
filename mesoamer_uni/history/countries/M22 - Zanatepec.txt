@@ -9,7 +9,7 @@ fixed_capital = 1989
 
 1427.1.1 = {
 	monarch = {
-		name = "Random First Name"
+		name = "Metza Tziquin-gan"
 		dynasty = "Zanatepec"
 		adm = 4
 		dip = 4

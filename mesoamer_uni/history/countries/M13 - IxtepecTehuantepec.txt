@@ -9,7 +9,7 @@ fixed_capital = 1980
 
 1427.1.1 = {
 	monarch = {
-		name = "Random First Name"
+		name = "Cosijopi"
 		dynasty = "Ixtepec-Tehuantepec"
 		adm = 4
 		dip = 4

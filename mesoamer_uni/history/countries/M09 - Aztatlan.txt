@@ -9,7 +9,7 @@ fixed_capital = 1967
 
 1427.1.1 = {
 	monarch = {
-		name = "Random First Name"
+		name = "Maakob Suudai'"
 		dynasty = "Aztatlan"
 		adm = 4
 		dip = 4

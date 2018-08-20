@@ -9,7 +9,7 @@ fixed_capital = 664
 
 1427.1.1 = {
 	monarch = {
-		name = "Random First Name"
+		name = "Tucutujta'y Tuca'y Nv"
 		dynasty = "Xoconochco"
 		adm = 4
 		dip = 4
