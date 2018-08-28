@@ -80,56 +80,58 @@ colonial_ideas = {
 
 nahua_ideas = {
 	start = {
-		army_tradition = 0.5
+		army_tradition_from_battle = 0.20
 		idea_cost = -0.05
 	}
 	
 	bonus = {
-		land_morale = 0.10
+		merchants = 1
 	}
 	
 	trigger = {
 		culture_group = nahua
+		culture_group = oto_pamean
+		culture_group = gulf_coast
+		culture_group = popoluca_group
+		culture = tlapanec
 	}
 	free = yes
 	
-	calpulli_system = {
-		global_regiment_recruit_speed = -0.25
-		global_regiment_cost = -0.20
+	altepetl_diplomacy = {
+		diplomats = 1
+		improve_relation_modifier = 0.10
 	}
 	
-	pochteca_networks = {
+	expand_the_calpulli_system = { 
+		core_creation = -0.10
+		global_regiment_cost = -0.075
+	}
+	
+	sponsor_the_pochteca = { 
 		spy_offence = 0.20
-		trade_efficiency = 0.05
+		trade_steering = 0.075
 	}
 	
-	nahua_engineering = {
+	nahua_engineering = { 
 		build_cost = -0.10
-		production_efficiency = 0.10
 	}
 	
-	poets_philosophers = { 
-		prestige = 1
+	calmecac_and_telpochcalli = { 
 		idea_cost = -0.05
+		adm_tech_cost_modifier = -0.05
 	}
 	
-	military_orders = {
-		army_tradition = 0.25
+	found_additional_warrior_societies = { 
 		infantry_power = 0.10
 	}
 	
-	altepetl_diplomacy = {
-		diplomats = 1
-		improve_relation_modifier = 0.50
-	}
-	
-	great_cultural_legacy = {
-		culture_conversion_cost = -0.25
-		legitimacy = 0.5
+	reform_the_script = { 
+		global_institution_spread = 0.10
+		administrative_efficiency = 0.05
 	}
 }
 
-westmexican_ideas = {
+west_mexican_ideas = {
 	start = {
 		production_efficiency = 0.10
 		defensiveness = 0.10
@@ -143,13 +145,14 @@ westmexican_ideas = {
 		OR = { 
 			culture_group = west_mexican 
 			culture_group = northwest_mexican 
+			culture = cuitlatec
 		}
 	}
 	free = yes
 	
 	metal_tradition = {
-		production_efficiency = 0.15
-		technology_cost = -0.05
+		production_efficiency = 0.10
+		prestige = 0.5
 	}
 	
 	multicultural_states = {
@@ -172,19 +175,19 @@ westmexican_ideas = {
 	}
 	
 	metal_weapons = {
-		infantry_power = 0.05
+		mil_tech_cost_modifier = -0.05
 	}
 	
 	cultural_resilience = {
-		hostile_attrition = 2.5
-		enemy_core_creation = 0.33
+		hostile_attrition = 1
+		enemy_core_creation = 0.25
 	}
 }
 
 putun_chontal_ideas = {
 	start = {
-		improve_relation_modifier = 0.50
-		trade_range_modifier = 0.10
+		improve_relation_modifier = 0.20
+		trade_range_modifier = 0.20
 	}
 	
 	bonus = {
@@ -213,16 +216,17 @@ putun_chontal_ideas = {
 	}
 	
 	great_canoes = {
-		global_trade_power = 0.25
+		global_trade_power = 0.20
 	}
 	
 	dynastic_adventurers = {
-		spy_offence = 0.25
+		spy_offence = 0.20
+		core_creation = -0.075
 	}
 	
 	vested_interests = {
 		merc_maintenance_modifier = -0.25
-		possible_mercenaries = 0.25
+		possible_mercenaries = 0.50
 	}	
 }
 
@@ -276,7 +280,7 @@ huaxyacac_ideas = {
 lowland_maya_ideas = {
 	start = {
 		advisor_pool = 1
-		hostile_attrition = 1
+		land_attrition = -0.10
 	}
 	
 	bonus = {
@@ -298,7 +302,7 @@ lowland_maya_ideas = {
 	
 	legacy_of_mayapan = {
 		ae_impact = -0.10
-		war_exhaustion = -0.05
+		war_exhaustion = -0.02
 	}
 	
 	cenotes_of_the_forest = {
@@ -319,7 +323,7 @@ lowland_maya_ideas = {
 	}
 	
 	uinik_and_batab = {
-		global_autonomy = -0.075
+		global_autonomy = -0.05
 	}
 }
 
@@ -330,7 +334,7 @@ highland_maya_ideas = {
 	}
 	
 	bonus = {
-		war_exhaustion = -0.05
+		war_exhaustion = -0.03
 	}
 	
 	trigger = {
@@ -362,13 +366,13 @@ highland_maya_ideas = {
 	}
 	
 	mobilized_bureaucracy = {
-		global_manpower_modifier = 0.05
-		land_forcelimit_modifier = 0.10
+		global_manpower_modifier = 0.075
+		land_forcelimit_modifier = 0.075
 		army_tradition = 0.25
 	}
 	
 	lords_and_vassals = {
-		stability_cost_modifier = -0.25
+		stability_cost_modifier = -0.20
 	}
 	
 	little_brothers = {
@@ -377,10 +381,10 @@ highland_maya_ideas = {
 	}
 	
 	mountains_and_plains = {
-		production_efficiency = 0.15
+		production_efficiency = 0.10
 	}
 	
 	toltec_builders = {
-		build_cost = -0.15
+		build_cost = -0.10
 	}
 }

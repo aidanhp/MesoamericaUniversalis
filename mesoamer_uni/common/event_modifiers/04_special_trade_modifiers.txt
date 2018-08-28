@@ -2,58 +2,107 @@
 
 brine_springs_of_alahuiztlan = {
 	trade_goods_size = 4.0
+	
+	picture = "province_salt"
 }
 
 brine_spring_of_tonatiuhco = {
 	trade_goods_size = 4.0
+	
+	picture = "province_salt"
 }
 
 brine_spring_of_piaztlan = {
 	trade_goods_size = 3.0
+	
+	picture = "province_salt"
 }
 
 brine_spring_of_acatlan = {
 	trade_goods_size = 3.0
+	
+	picture = "province_salt"
 }
 
 tequexquite_soils_of_cuitzeo = {
 	trade_goods_size = 3.5
+	
+	picture = "province_salt"
 }
 
 salt_beds_of_sacapulas = {
 	trade_goods_size = 4.0
+	
+	picture = "province_salt"
 }
 
 brine_beds_of_tehuantepec = {
 	trade_goods_size = 3.5
+	
+	picture = "province_salt"
 }
 
 brine_beds_of_tonala = {
 	trade_goods_size = 3.5
+	
+	picture = "province_salt"
 }
 
 salt_flats_of_emal = {
 	trade_goods_size = 6.0
+	
+	picture = "province_salt"
 }
 
 salt_flats_of_xtuul = {
 	trade_goods_size = 5.0
+	
+	picture = "province_salt"
 }
 
 northern_yucatec_salt_flats = {
 	trade_goods_size = 2.5
+	
+	picture = "province_salt"
 }
 
 balsas_mines = {
 	trade_goods_size = 4.0
+	
+	picture = "province_balsas_metals"
 }
 
 otumba_obsidian_source = {
 	trade_goods_size = 6.0
 	province_trade_power_value = 8
+	
+	picture = "province_obsidian"
 }
 
 pachuca_obsidian_source = {
 	trade_goods_size = 3.0
 	province_trade_power_value = 4
+	
+	picture = "province_obsidian"
+}
+
+patzcuaro_fish_stocks = { 
+	trade_goods_size = 2.0
+	
+	picture = "province_fish"
+}
+
+great_market = {
+	province_trade_power_value = 8
+	trade_goods_size = 1.0
+	
+	picture = "province_great_market"
+}
+
+interregional_seaport = {
+	province_trade_power_value = 6
+	trade_goods_size = 1.0
+	local_tax_modifier = 0.10
+	
+	picture = "province_great_market"
 }

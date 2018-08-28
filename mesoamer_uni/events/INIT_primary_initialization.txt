@@ -504,7 +504,7 @@ country_event = {
 					duration = -1
 				}
 			}
-			#End Balsas Mines
+			#Most important obsidian sources
 			18 = { #Otumba
 				add_permanent_province_modifier = {
 					name = otumba_obsidian_source
@@ -532,6 +532,50 @@ country_event = {
 			804 = { #Tepeapulco
 				add_permanent_province_modifier = {
 					name = pachuca_obsidian_source
+					duration = -1
+				}
+			}
+			#Patzcuaro Fish Stocks
+			45 = { #Uayameo
+				add_permanent_province_modifier = {
+					name = patzcuaro_fish_stocks
+					duration = -1
+				}
+			}
+			46 = { #Pacandan Xaraquaro
+				add_permanent_province_modifier = {
+					name = patzcuaro_fish_stocks
+					duration = -1
+				}
+			}
+			48 = { #Urichu
+				add_permanent_province_modifier = {
+					name = patzcuaro_fish_stocks
+					duration = -1
+				}
+			}
+			49 = { #Pareo
+				add_permanent_province_modifier = {
+					name = patzcuaro_fish_stocks
+					duration = -1
+				}
+			}
+			51 = { #Ihuatzio
+				add_permanent_province_modifier = {
+					name = patzcuaro_fish_stocks
+					duration = -1
+				}
+			}
+			#Great Markets/Ports
+			2 = { #Tlatelolco
+				add_permanent_province_modifier = { 
+					name = great_market
+					duration = -1
+				}
+			}
+			177 = { #Zacatollan 
+				add_permanent_province_modifier = { 
+					name = interregional_seaport
 					duration = -1
 				}
 			}

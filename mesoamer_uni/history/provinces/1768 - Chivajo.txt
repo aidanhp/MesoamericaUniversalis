@@ -8,7 +8,7 @@ hre = no
 base_tax = 0
 base_production = 2
 base_manpower = 6
-trade_goods = staple_crops 
+trade_goods = cotton
 
 capital = "Chivajo"
 is_city = yes

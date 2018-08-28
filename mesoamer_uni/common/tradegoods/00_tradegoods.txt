@@ -44,7 +44,7 @@ staple_crops = {
 }
 
 aquatic_foods = {
-	color = { 0.96 0.93 0.58 }
+	color = { 0.12 0.94 0.74 }
 	modifier = {
 		land_forcelimit_modifier = 0.05
 	}
@@ -57,7 +57,7 @@ aquatic_foods = {
 }
 
 fruits = {
-	color = { 0.96 0.93 0.58 }
+	color = { 1.0 0.70 0.22 }
 	modifier = {
 		stability_cost_modifier = -0.05
 	}
@@ -70,7 +70,7 @@ fruits = {
 }
 
 cacao = {
-	color = { 0.96 0.93 0.58 }
+	color = { 0.73 0.35 0.04 }
 	modifier = {
 		global_unrest = -1
 	}
@@ -83,7 +83,7 @@ cacao = {
 }
 
 honey = {
-	color = { 0.96 0.93 0.58 }
+	color = { 1.0 0.76 0.25 }
 	modifier = {
 		heir_chance = 0.25
 	}
@@ -96,7 +96,7 @@ honey = {
 }
 
 salt = {
-	color = { 0.96 0.93 0.58 }
+	color = { 0.91 0.96 0.96 }
 	modifier = {
 		global_trade_power = 0.05
 	}
@@ -109,7 +109,7 @@ salt = {
 }
 
 maguey = {
-	color = { 0.96 0.93 0.58 }
+	color = { 0.68 1.0 0.53 }
 	modifier = {
 		years_of_nationalism = -2
 	}
@@ -122,7 +122,7 @@ maguey = {
 }
 
 cotton = {
-	color = { 0.96 0.93 0.58 }
+	color = { 1.0 0.87 0.73 }
 	modifier = {
 		shock_damage_received = -0.05
 	}
@@ -135,7 +135,7 @@ cotton = {
 }
 
 plumes = {
-	color = { 0.96 0.93 0.58 }
+	color = { 0.07 1.0 0.60 }
 	modifier = {
 		prestige = 0.20
 		legitimacy = 0.20
@@ -149,7 +149,7 @@ plumes = {
 }
 
 copal = {
-	color = { 0.96 0.93 0.58 }
+	color = { 0.94 0.70 0.31 }
 	modifier = {
 		missionaries = 1
 	}
@@ -162,7 +162,7 @@ copal = {
 }
 
 copper = {
-	color = { 0.96 0.93 0.58 }
+	color = { 0.91 0.43 0.24 }
 	modifier = {
 		production_efficiency = 0.05
 	}
@@ -175,7 +175,7 @@ copper = {
 }
 
 gold = {
-	color = { 0.96 0.93 0.58 }
+	color = { 1.0 0.68 0.0 }
 	modifier = {
 		legitimacy = 0.20
 		global_missionary_strength = 0.01
@@ -189,7 +189,7 @@ gold = {
 }
 
 silver = {
-	color = { 0.96 0.93 0.58 }
+	color = { 0.78 0.87 0.75 }
 	modifier = {
 		prestige = 0.50
 	}
@@ -202,7 +202,7 @@ silver = {
 }
 
 obsidian = {
-	color = { 0.96 0.93 0.58 }
+	color = { 0.23 0.23 0.23 }
 	modifier = {
 		production_efficiency = 0.05
 		shock_damage = 0.05
@@ -216,7 +216,7 @@ obsidian = {
 }
 
 precious_stones = {
-	color = { 0.96 0.93 0.58 }
+	color = { 0.81 0.34 0.91 }
 	modifier = {
 		trade_steering = 0.05
 	}
@@ -229,7 +229,7 @@ precious_stones = {
 }
 
 lime = {
-	color = { 0.96 0.93 0.58 }
+	color = { 1.0 0.95 0.63 }
 	modifier = {
 		build_cost = -0.05
 	}
@@ -242,7 +242,7 @@ lime = {
 }
 
 wood = {
-	color = { 0.96 0.93 0.58 }
+	color = { 0.07 0.59 0.0 }
 	modifier = {
 		build_cost = -0.05
 	}
@@ -255,7 +255,7 @@ wood = {
 }
 
 rubber = {
-	color = { 0.96 0.93 0.58 }
+	color = { 0.23 0.18 0.16 }
 	modifier = {
 		global_autonomy = -0.025
 	}
@@ -268,7 +268,7 @@ rubber = {
 }
 
 slaves = {
-	color = { 0.96 0.93 0.58 }
+	color = { 0.78 0.0 0.0 }
 	modifier = {
 		build_cost = -0.05
 	}
@@ -281,7 +281,7 @@ slaves = {
 }
 
 ceramics = {
-	color = { 0.96 0.93 0.58 }
+	color = { 0.85 0.42 0.15 }
 	modifier = {
 		production_efficiency = 0.05
 	}
@@ -294,7 +294,7 @@ ceramics = {
 }
 
 domesticated_animals = {
-	color = { 0.96 0.93 0.58 }
+	color = { 0.14 0.58 1.0 }
 	modifier = {
 		land_forcelimit_modifier = 0.05
 		global_colonial_growth = 10
@@ -308,7 +308,7 @@ domesticated_animals = {
 }
 
 construction_stone = {
-	color = { 0.96 0.93 0.58 }
+	color = { 0.72 0.63 0.52 }
 	modifier = {
 		build_cost = -0.05
 	}
@@ -321,7 +321,7 @@ construction_stone = {
 }
 
 balsas_metals = {
-	color = { 0.96 0.93 0.58 }
+	color = { 0.36 0.46 0.30 }
 	modifier = {
 		trade_steering = 0.15
 	}
@@ -334,7 +334,7 @@ balsas_metals = {
 }
 
 tolteca_crafts = {
-	color = { 0.96 0.93 0.58 }
+	color = { 0.99 0.88 0.26 }
 	modifier = {
 		idea_cost = -0.05
 	}

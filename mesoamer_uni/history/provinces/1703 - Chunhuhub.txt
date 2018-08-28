@@ -8,7 +8,7 @@ hre = no
 base_tax = 2
 base_production = 4
 base_manpower = 16
-trade_goods = staple_crops 
+trade_goods = cacao
 
 capital = "Chunhuhub"
 is_city = yes

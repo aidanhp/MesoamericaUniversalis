@@ -8,7 +8,7 @@ hre = no
 base_tax = 0
 base_production = 1
 base_manpower = 5
-trade_goods = staple_crops 
+trade_goods = aquatic_foods
 
 capital = "Zincantan"
 is_city = yes
