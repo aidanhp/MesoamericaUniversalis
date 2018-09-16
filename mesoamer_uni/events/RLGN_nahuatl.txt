@@ -38,3 +38,895 @@ country_event = {
 		}
 	}
 }
+
+#Elevation of Huitzilopochtli 
+country_event = {
+	id = rlgn_nahuatl.02
+	
+	title = "rlgn_nahuatl2.t"
+	desc = "rlgn_nahuatl2.d"
+	
+	picture = MESOAMERICAN_GODS_eventPicture 
+	
+	fire_only_once = yes
+	
+	trigger = {
+		religion_group = nahuatl_group 
+		has_harmonized_with = religion_huitzilopochtli 
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "rlgn_nahuatl2.a"
+
+		add_country_modifier = { 
+			name = harmonized_huitzilopochtli
+			duration = -1
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Elevation of Quetzalcoatl 
+country_event = {
+	id = rlgn_nahuatl.03
+	
+	title = "rlgn_nahuatl3.t"
+	desc = "rlgn_nahuatl3.d"
+	
+	picture = MESOAMERICAN_GODS_eventPicture 
+	
+	fire_only_once = yes
+	
+	trigger = {
+		religion_group = nahuatl_group 
+		has_harmonized_with = religion_quetzalcoatl
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "rlgn_nahuatl3.a"
+
+		add_country_modifier = { 
+			name = religion_quetzalcoatl
+			duration = -1
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Elevation of Tezcatlipoca 
+country_event = {
+	id = rlgn_nahuatl.04
+	
+	title = "rlgn_nahuatl4.t"
+	desc = "rlgn_nahuatl4.d"
+	
+	picture = MESOAMERICAN_GODS_eventPicture 
+	
+	fire_only_once = yes
+	
+	trigger = {
+		religion_group = nahuatl_group 
+		has_harmonized_with = religion_tezcatlipoca
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "rlgn_nahuatl4.a"
+
+		add_country_modifier = { 
+			name = religion_tezcatlipoca
+			duration = -1
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Elevation of Ehecatl 
+country_event = {
+	id = rlgn_nahuatl.05
+	
+	title = "rlgn_nahuatl5.t"
+	desc = "rlgn_nahuatl5.d"
+	
+	picture = MESOAMERICAN_GODS_eventPicture 
+	
+	fire_only_once = yes
+	
+	trigger = {
+		religion_group = nahuatl_group 
+		has_harmonized_with = religion_ehecatl
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "rlgn_nahuatl5.a"
+
+		add_country_modifier = { 
+			name = harmonized_ehecatl
+			duration = -1
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Elevation of Tlaloc 
+country_event = {
+	id = rlgn_nahuatl.06
+	
+	title = "rlgn_nahuatl6.t"
+	desc = "rlgn_nahuatl6.d"
+	
+	picture = MESOAMERICAN_GODS_eventPicture 
+	
+	fire_only_once = yes
+	
+	trigger = {
+		religion_group = nahuatl_group 
+		has_harmonized_with = religion_tlaloc
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "rlgn_nahuatl6.a"
+
+		add_country_modifier = { 
+			name = harmonized_tlaloc
+			duration = -1
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Elevation of Mixcoatl 
+country_event = {
+	id = rlgn_nahuatl.07
+	
+	title = "rlgn_nahuatl7.t"
+	desc = "rlgn_nahuatl7.d"
+	
+	picture = MESOAMERICAN_GODS_eventPicture 
+	
+	fire_only_once = yes
+	
+	trigger = {
+		religion_group = nahuatl_group 
+		has_harmonized_with = religion_mixcoatl
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "rlgn_nahuatl7.a"
+
+		add_country_modifier = { 
+			name = harmonized_mixcoatl
+			duration = -1
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Elevation of Xipe Totec 
+country_event = {
+	id = rlgn_nahuatl.08
+	
+	title = "rlgn_nahuatl8.t"
+	desc = "rlgn_nahuatl8.d"
+	
+	picture = MESOAMERICAN_GODS_eventPicture 
+	
+	fire_only_once = yes
+	
+	trigger = {
+		religion_group = nahuatl_group 
+		has_harmonized_with = religion_xipe_totec
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "rlgn_nahuatl8.a"
+
+		add_country_modifier = { 
+			name = harmonized_xipe_totec
+			duration = -1
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Elevation of Tlazalteotl
+country_event = {
+	id = rlgn_nahuatl.09
+	
+	title = "rlgn_nahuatl9.t"
+	desc = "rlgn_nahuatl9.d"
+	
+	picture = MESOAMERICAN_GODS_eventPicture 
+	
+	fire_only_once = yes
+	
+	trigger = {
+		religion_group = nahuatl_group 
+		has_harmonized_with = religion_tlazalteotl
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "rlgn_nahuatl9.a"
+
+		add_country_modifier = { 
+			name = harmonized_tlazalteotl
+			duration = -1
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Elevation of Cihuacoatl
+country_event = {
+	id = rlgn_nahuatl.10
+	
+	title = "rlgn_nahuat110.t"
+	desc = "rlgn_nahuatl10.d"
+	
+	picture = MESOAMERICAN_GODS_eventPicture 
+	
+	fire_only_once = yes
+	
+	trigger = {
+		religion_group = nahuatl_group 
+		has_harmonized_with = religion_cihuacoatl
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "rlgn_nahuatl10.a"
+
+		add_country_modifier = { 
+			name = harmonized_cihuacoatl
+			duration = -1
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Elevation of Tonatiuh
+country_event = {
+	id = rlgn_nahuatl.11
+	
+	title = "rlgn_nahuat111.t"
+	desc = "rlgn_nahuatl11.d"
+	
+	picture = MESOAMERICAN_GODS_eventPicture 
+	
+	fire_only_once = yes
+	
+	trigger = {
+		religion_group = nahuatl_group 
+		has_harmonized_with = religion_tonatiuh
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "rlgn_nahuatl11.a"
+
+		add_country_modifier = { 
+			name = harmonized_tonatiuh
+			duration = -1
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Elevation of Xochiquetzal
+country_event = {
+	id = rlgn_nahuatl.12
+	
+	title = "rlgn_nahuatl12.t"
+	desc = "rlgn_nahuatl12.d"
+	
+	picture = MESOAMERICAN_GODS_eventPicture 
+	
+	fire_only_once = yes
+	
+	trigger = {
+		religion_group = nahuatl_group 
+		has_harmonized_with = religion_xochiquetzal
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "rlgn_nahuatl12.a"
+
+		add_country_modifier = { 
+			name = harmonized_xochiquetzal
+			duration = -1
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Elevation of Ometochtli
+country_event = {
+	id = rlgn_nahuatl.13
+	
+	title = "rlgn_nahuatl13.t"
+	desc = "rlgn_nahuatl13.d"
+	
+	picture = MESOAMERICAN_GODS_eventPicture 
+	
+	fire_only_once = yes
+	
+	trigger = {
+		religion_group = nahuatl_group 
+		has_harmonized_with = religion_ometochtli
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "rlgn_nahuatl13.a"
+
+		add_country_modifier = { 
+			name = harmonized_ometochtli
+			duration = -1
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Elevation of Yacatecuhtli
+country_event = {
+	id = rlgn_nahuatl.14
+	
+	title = "rlgn_nahuatl14.t"
+	desc = "rlgn_nahuatl14.d"
+	
+	picture = MESOAMERICAN_GODS_eventPicture 
+	
+	fire_only_once = yes
+	
+	trigger = {
+		religion_group = nahuatl_group 
+		has_harmonized_with = religion_yacatecuhtli
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "rlgn_nahuatl14.a"
+
+		add_country_modifier = { 
+			name = harmonized_yacatecuhtli
+			duration = -1
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Elevation of Coltzin
+country_event = {
+	id = rlgn_nahuatl.15
+	
+	title = "rlgn_nahuatl15.t"
+	desc = "rlgn_nahuatl15.d"
+	
+	picture = MESOAMERICAN_GODS_eventPicture 
+	
+	fire_only_once = yes
+	
+	trigger = {
+		religion_group = nahuatl_group 
+		has_harmonized_with = religion_coltzin
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "rlgn_nahuatl15.a"
+
+		add_country_modifier = { 
+			name = harmonized_coltzin
+			duration = -1
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Elevation of Malinalxochitl
+country_event = {
+	id = rlgn_nahuatl.16
+	
+	title = "rlgn_nahuatl16.t"
+	desc = "rlgn_nahuatl16.d"
+	
+	picture = MESOAMERICAN_GODS_eventPicture 
+	
+	fire_only_once = yes
+	
+	trigger = {
+		religion_group = nahuatl_group 
+		has_harmonized_with = religion_malinalxochitl
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "rlgn_nahuatl16.a"
+
+		add_country_modifier = { 
+			name = harmonized_malinalxochitl
+			duration = -1
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Elevation of Otontecuhtli
+country_event = {
+	id = rlgn_nahuatl.17
+	
+	title = "rlgn_nahuatl17.t"
+	desc = "rlgn_nahuatl17.d"
+	
+	picture = MESOAMERICAN_GODS_eventPicture 
+	
+	fire_only_once = yes
+	
+	trigger = {
+		religion_group = nahuatl_group 
+		has_harmonized_with = religion_otontecuhtli
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "rlgn_nahuatl17.a"
+
+		add_country_modifier = { 
+			name = harmonized_otontecuhtli
+			duration = -1
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#New Tales
+province_event = {
+	id = rlgn_nahuatl.18
+	
+	title = "rlgn_nahuatl18.t"
+	desc = "rlgn_nahuatl18.d"
+	
+	picture = MESOAMERICAN_GODS_eventPicture 
+	
+	trigger = {
+		owner = { 
+			harmonization_progress = 10
+			NOT = { harmonization_progress = 60 } 
+			is_harmonizing_with = PREV
+		}
+		
+	}
+	
+	mean_time_to_happen = {
+		months = 96
+	}
+	
+	option = {
+		name = "rlgn_nahuatl18.a"
+		
+		owner = { 
+			add_harmonization_progress = -10
+			add_legitimacy = 5
+		}
+		custom_tooltip = GOVS_tt_i_0025
+		
+		hidden_effect = { 
+			owner = { 
+				change_variable = { which = v_religious_tradition value = 2.5 }
+			}			
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = {
+		name = "rlgn_nahuatl18.b"
+		
+		owner = { 
+			add_harmonization_progress = 10
+			add_legitimacy = -5
+		}
+		
+		custom_tooltip = GOVS_tt_d_0025
+		
+		hidden_effect = { 
+			owner = { 
+				change_variable = { which = v_religious_tradition value = -2.5 } 
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#A New Market for Teoamaxtli 
+country_event = {
+	id = rlgn_nahuatl.20 #19 doesn't work?
+	
+	title = "rlgn_nahuatl20.t"
+	desc = "rlgn_nahuatl20.d"
+	
+	picture = MESOAMERICAN_GODS_eventPicture 
+	
+	trigger = {
+		harmonization_progress = 1
+		NOT = { harmonization_progress = 40 } 
+	}
+	
+	mean_time_to_happen = {
+		months = 48
+	}
+	
+	option = {
+		name = "rlgn_nahuatl20.a"
+		
+		add_harmonization_progress = 15
+		add_years_of_income = -0.20
+		custom_tooltip = GOVS_tt_i_0025
+		
+		hidden_effect = { 
+			change_variable = { which = v_religious_tradition value = 2.5 } 
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = {
+		name = "rlgn_nahuatl20.b"
+		
+		add_harmonization_progress = -10
+		custom_tooltip = GOVS_tt_i_0025
+		
+		hidden_effect = { 
+			change_variable = { which = v_religious_tradition value = 2.5 } 
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = {
+		name = "rlgn_nahuatl20.c"
+		
+		add_harmonization_progress = 10
+		custom_tooltip = GOVS_tt_d_0025
+		
+		hidden_effect = { 
+			change_variable = { which = v_religious_tradition value = -2.5 } 
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#The Dangers of Province
+province_event = {
+	id = rlgn_nahuatl.21
+	
+	title = "rlgn_nahuatl21.t"
+	desc = "rlgn_nahuatl21.d"
+	
+	picture = MESOAMERICAN_GODS_eventPicture 
+	
+	trigger = {
+		owner = { 
+			harmonization_progress = 10
+			NOT = { harmonization_progress = 90 } 
+			is_harmonizing_with = PREV
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 144
+	}
+	
+	option = {
+		name = "rlgn_nahuatl21.a"
+		
+		owner = { 
+			add_harmonization_progress = -10
+		}
+		custom_tooltip = GOVS_tt_i_0025
+		
+		hidden_effect = { 
+			change_variable = { which = v_religious_tradition value = 2.5 } 
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = {
+		name = "rlgn_nahuatl21.b"
+		
+		owner = { 
+			add_harmonization_progress = 10
+		}
+		
+		custom_tooltip = GOVS_tt_d_0025
+		
+		hidden_effect = { 
+			change_variable = { which = v_religious_tradition value = -2.5 } 
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Respect for Monarch in Province
+province_event = {
+	id = rlgn_nahuatl.22
+	
+	title = "rlgn_nahuatl22.t"
+	desc = "rlgn_nahuatl22.d"
+	
+	picture = MESOAMERICAN_GODS_eventPicture 
+	
+	trigger = {
+		owner = { 
+			harmonization_progress = 30
+			NOT = { harmonization_progress = 60 } 
+			is_harmonizing_with = PREV
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 96
+	}
+	
+	option = {
+		name = "rlgn_nahuatl22.a"
+		
+		owner = { 
+			add_harmonization_progress = 10
+			add_legitimacy = -5
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = {
+		name = "rlgn_nahuatl22.b"
+		
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#They're Adopting Our Customs Slowly
+province_event = {
+	id = rlgn_nahuatl.23
+	
+	title = "rlgn_nahuatl23.t"
+	desc = "rlgn_nahuatl23.d"
+	
+	picture = MESOAMERICAN_GODS_eventPicture 
+	
+	trigger = {
+		owner = { 
+			harmonization_progress = 10
+			NOT = { harmonization_progress = 60 } 
+			is_harmonizing_with = PREV
+			OR = { 
+				advisor = statesman 
+				advisor = diplomat 
+				advisor = spymaster 
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 96
+	}
+	
+	option = {
+		name = "rlgn_nahuatl23.a"
+		
+		owner = { 
+			add_harmonization_progress = -10
+		}
+		custom_tooltip = GOVS_tt_d_0025
+		
+		hidden_effect = { 
+			change_variable = { which = v_religious_tradition value = -2.5 } 
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = {
+		name = "rlgn_nahuatl23.b"
+		
+		owner = { 
+			add_harmonization_progress = 10
+			add_adm_power = -50
+		}
+		custom_tooltip = GOVS_tt_i_0025
+		
+		hidden_effect = { 
+			change_variable = { which = v_religious_tradition value = 2.5 } 
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#They've Assimilated Well!
+province_event = {
+	id = rlgn_nahuatl.24
+	
+	title = "rlgn_nahuatl24.t"
+	desc = "rlgn_nahuatl24.d"
+	
+	picture = MESOAMERICAN_GODS_eventPicture 
+	
+	trigger = {
+		owner = { 
+			harmonization_progress = 80
+			is_harmonizing_with = PREV
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 96
+	}
+	
+	option = {
+		name = "rlgn_nahuatl24.a"
+		
+		owner = { 
+			add_harmonization_progress = 15
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = {
+		name = "rlgn_nahuatl24.b"
+		
+		owner = { 
+			add_harmonization_progress = 15
+			random_owned_province = { 
+				limit = { 
+					has_owner_culture = yes
+				}
+				add_base_production = -1
+				add_base_manpower = -2 
+			}
+			add_years_of_income = -0.20
+		}
+		add_base_production = 1
+		add_base_manpower = -2
+		change_culture = ROOT 
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}

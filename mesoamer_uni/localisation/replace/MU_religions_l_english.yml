@@ -57,6 +57,22 @@
  #Religious Modifiers
  shared_pantheon: "Shared Pantheon"
  desc_shared_pantheon: "The followers of the various Central Mexican deities all share the same general pantheon and thus have at least a modicum of respect for other gods in that pantheon."
+ harmonized_huitzilopochtli: "Elevated Huitzilopochtli"
+ harmonized_quetzalcoatl: "Elevated Quetzalcoatl"
+ harmonized_tezcatlipoca: "Elevated Tezcatlipoca"
+ harmonized_ehecatl: "Elevated Ehecatl"
+ harmonized_tlaloc: "Elevated Tlaloc"
+ harmonized_mixcoatl: "Elevated Mixcoatl"
+ harmonized_xipe_totec: "Elevated Xipe Totec"
+ harmonized_tlazalteotl: "Elevated Tlazalteotl"
+ harmonized_cihuacoatl: "Elevated Cihuacoatl"
+ harmonized_tonatiuh: "Elevated Tonatiuh"
+ harmonized_xochiquetzal: "Elevated Xochiquetzal"
+ harmonized_ometochtli: "Elevated Ometochtli"
+ harmonized_yacatecuhtli: "Elevated Yacatecuhtli"
+ harmonized_coltzin: "Elevated Coltzin"
+ harmonized_malinalxochitl: "Elevated Malinalxochitl"
+ harmonized_otontecuhtli: "Elevated Otontecuhtli"
  
  #Nahuatl Group Special Localization#
  #Custom Tooltios
@@ -72,6 +88,101 @@
  rlgn_nahuatl1.a: "He shows much potential."
  rlgn_nahuatl1.b: "No, continue the ceremony." 
  
+ rlgn_nahuatl2.t: "Elevation of Huitzilopochtli"
+ rlgn_nahuatl2.d: "The followers of the Hummingbird are not to be taken lightly. Our attempts to place our patron gods above the god of the Mexica have met with the strongest of resistances. Debates have raged between the priests of Huitzilopochtli and our own for days and nights on the relative position of their god in our own expanding house, under our own growing great tree, with its arms outstretched. Finally, an agreement of sorts has been reached. Huitzilopochtli will retain a place of prominence, especially within the Mexica realm, in return for the acknowledgment of the superiority of our own patron in all matters of state. It remains to be seen how long this accommodation will last. "
+ rlgn_nahuatl2.a: "For now, there is peace."
+ 
+ rlgn_nahuatl3.t: "Elevation of Quetzalcoatl"
+ rlgn_nahuatl3.d: "It is with great pomp and celebration that our leading priests descend at last from the Great Pyramid of Cholula with the highest leaders of the city descending after them. It was not without recognition of the respect and veneration which is owed to Cholula that we have managed to sway the region's priesthood to our side. The local people now seem to accept that they do not hold a monopoly on worship of the Feathered Serpent, the Smallest of Ants, and that he is not the highest of all of our Lords and Ladies. Especially with enough feasts honoring both he and the priesthood of Cholula, there seems to now be some acceptance of our patron's preeminent place in the cosmos."
+ rlgn_nahuatl3.a: "May he visit us one day with his splendor."
+ 
+ rlgn_nahuatl4.t: "Elevation of Tezcatlipoca"
+ rlgn_nahuatl4.d: "Early in the morning, $MONARCH$ walks the gardens of Texcotzinco, gazing down at the waters as they pool from one fountain to the next. Without Tezcatlipoca, lord of kingship, Smoking Mirror, none of this – $MONARCH$'s mighty rule – would have been possible. But the fact remains that Tezcatlipoca is but one part of a larger world, a larger feathered tapestry. The priesthood and nobility of Texcoco – although squawking mightily about it – seem to have subsided and accepted the preeminence of our own patron. Given that Tezcatlipoca reflects fate in his mirror foot, it would be unwise – all the same – to rebuke him entirely. $MONARCH$ spends the rest of the morning giving Lord Smoking Mirror thanks. "
+ rlgn_nahuatl4.a: "May his staff descend rightfully to our own descendants."
+ 
+ rlgn_nahuatl5.t: "Elevation of Ehecatl"
+ rlgn_nahuatl5.d: "The devotees of Ehecatl Quetzalcoatl, Road Sweeper of the Gods, are a superstitious lot - and for good reason. Although many – especially in our newly conquered regions – hold him to be a god with charge of plenty in the growing season, few would want to meet him after the sun is swallowed for the day. This Lord Night Wind is a terrible omen as much as he is a giver of good fortune. Given this, his worshipers have not been as resistant as we might have expected in our bringing their lord under our house, under our outstretched branches. It is only in the sound of the wind whistling outside the windows at night that tlatoani $MONARCH$ experiences any doubt in the decision. "
+ rlgn_nahuatl5.a: "May he give us only luck, and never ill."
+ 
+ rlgn_nahuatl6.t: "Elevation of Tlaloc"
+ rlgn_nahuatl6.d: "Tlaloc is almost universally worshiped on some level across the One World. And well he should be, for without rain how will the maize grow? How will the springs fill and the canals flow? Nevertheless, it is important to make clear to those overly devoted to the Fanged Lord that our own patron is pre-eminent. In recompense, our own celebrations for Tlaloc will become more furious in devotion than ever before – for who else is the one responsible for the five directions of the world?"
+ rlgn_nahuatl6.a: "May the tlaloque bring us ample rain this year."
+ 
+ rlgn_nahuatl7.t: "Elevation of Mixcoatl"
+ rlgn_nahuatl7.d: "When the Chichimeca crawled out of the north and took up real language, it was Mixcoatl-Camaxtli to whom they prayed. When they scrabbled in the dirt chasing after rabbits, wearing furs and wielding bows and arrows, it was Mixcoatl-Camaxtli who taught them the power of fire-making. Yet such a god is not to be trifled with – his powerful obsidian mirror gives him control over witchcraft of all kinds, and the Black North is a place of wildest magic. With sufficient acknowledgment by his followers of our own patron's preeminence, Mixcoatl-Camaxtli will retain a place of honor in our house, under our branches."
+ rlgn_nahuatl7.a: "How uncivilized."
+ 
+ rlgn_nahuatl8.t: "Elevation of Xipe Totec"
+ rlgn_nahuatl8.d: "Our Lord the Flayed One is a fickle and sometimes dangerous patron, but there is no denying his power. The lands where he is worshiped most ardently are fertile and productive – and it is true that only through pain and sacrifice is plenty and growth achieved in this world. Our own honoring of Xipe Totec has become more central to our agricultural year, and the Flayed One's devotees have accepted our own patron's preeminence over their own lord."
+ rlgn_nahuatl8.a: "Let our sacrifices continue to feed the hungry earth, that all might live."
+ 
+ rlgn_nahuatl9.t: "Elevation of Tlazalteotl"
+ rlgn_nahuatl9.d: "It is not an unusual sight, after a battle, to see the priestesses of Tlazalteotl come over the field, hearing the sins of dying men. Filth Eater consumes and purifies, and in the end she hears all sins, one way or another. But in some places she is Ixcuina, a goddess who hears more than sins: who under the guise of the moon guides the fertility and productivity of a community. Here and there we have had to stamp out this radical notion – or at least subsume Ixcuina under our own understanding of Tlazalteotl. For now, it is enough for the authorities in the region to accept our own patron as preeminent to this moon goddess."
+ rlgn_nahuatl9.a: "In the end, our ashes are food for worms."
+ 
+ rlgn_nahuatl10.t: "Elevation of Cihuacoatl"
+ rlgn_nahuatl10.d: "Now that Cihuacoatl has been brought more formally under our house, under our outstretched branches, we can appreciate all that she provides for our people. The Earth Mother, it is she who helps our soils to be fertile, who hides treasures in gold and silver, who is patron of those other warriors – the women who die in childbirth. So long as her devotees understand that our own patron is first in the ordering of the cosmos, we invite them to continue their prayers and help mothers reach the paradise set aside for them in the West. "
+ rlgn_nahuatl10.a: "She is hungry, her teeth open wide."
+ 
+ rlgn_nahuatl11.t: "Elevation of Tonatiuh"
+ rlgn_nahuatl11.d: "The preparations continue all night. The entourage of our priests bustle around in the earliest morning light, surrounded by the great corpse of the City of the Gods. Representatives from the modern altepetl near Teotihuacan are here as well, all preparing to greet the lord Tonatiuh as he rises into the Third Heaven, Ilhuicatl-Tonatiuh. It has taken great pains on our part to ensure that the priesthood of Teotihuacan understand that Tonatiuh is preceded first by our own patron, but as the sun rises now – rays casting great shadows on the temples of the City of the Gods – it is hard not to give praise for his light and his sacrifice.  "
+ rlgn_nahuatl11.a: "May he always rise again."
+ 
+ rlgn_nahuatl12.t: "Elevation of Xochiquetzal"
+ rlgn_nahuatl12.d: "At last, with a requisite ceremony complete with nubile dancers, Xochiquetzal has been formally elevated and embraced by our house, by our outstretched branches. The bundles of expensive and exquisite cotton fabrics from the weaving devotees of the goddess have been almost reward enough. In addition, the local priesthood of Xochiquetzal has agreed to place our own patron as superior to Our Lady of the Flower Bird. "
+ rlgn_nahuatl12.a: "Bring on more dancers!"
+ 
+ rlgn_nahuatl13.t: "Elevation of Ometochtli"
+ rlgn_nahuatl13.d: "As $MONARCH$ looks out over the maguey fields, the local speaker drones on about the blessings of Ometochtli in giving such a bountiful harvest this year. $MONARCH$ thinks wistfully of the feast that will celebrate the end of this visit, where the finest octli pulque will be imbibed in obscene quantities to celebrate the elevation of Ometochtli in our pantheon. So long as the local priests understand that our patron is to celebrated first and foremost, $MONARCH$ is more than happy to celebrate with them and a large cup of pulque."
+ rlgn_nahuatl13.a: "Let the feasting commence."
+ 
+ rlgn_nahuatl14.t: "Elevation of Yacatecuhtli"
+ rlgn_nahuatl14.d: "Most of the merchants of the One World worship Yacatecuhtli in one guise or another. The walking sticks that they carry with them on their long trade expeditions are look-alikes of the god's own traveling gear. But in those regions most fervently devoted to the god, we have managed to tamper down their fanaticism for this lord. To ensure his followers do not cause us any economic problems, we have given his temples and associated trade guilds some payments for good measure."
+ rlgn_nahuatl14.a: "It would of course, be unwise to upset the Pochtecah."
+ 
+ rlgn_nahuatl15.t: "Elevation of Coltzin"
+ rlgn_nahuatl15.d: "There are as many gods as there are cities in the One World. For each water, each mountain that we add to our growing dominion it becomes more and more difficult to keep the branches of our growing tree well trimmed. Some of our higher priests balk at the idea of adding every patron lord we encounter to our pantheon. But as is the case here at Toluca, we have afforded the Matlatzinca people the great privilege of adding their great lord of fertility, Coltzin, to our houses of worship. With the acknowledgment of such a minor god comes the respect of a dozen other gods – and cities – yet smaller."
+ rlgn_nahuatl15.a: "Ensure they know the loyalty expected by our graciousness."
+ 
+ rlgn_nahuatl16.t: "Elevation of Malinalxochitl"
+ rlgn_nahuatl16.d: "The people of Malinalco are dangerous. Their patron – the heart of their community – was, and is, and will be a sorceress. The most vile kind of tlahueliloc nahualli black magician, Malinalxochitl and her followers once tried to destroy the followers of Huitzilopochtli with beasts, snakes, scorpions, and other arts. The Malinalca practice her magic still, and it is with the greatest relief that we report our priests – and a number of cualli nahualli white magicians – have apparently concluded a treaty with Malinalco. They will respect the authority of the gods in our house, and in turn we will respect their right to practice their dangerous magics."
+ rlgn_nahuatl16.a: "I hope we do not come to regret this decision."
+ 
+ rlgn_nahuatl17.t: "Elevation of Otontecuhtli"
+ rlgn_nahuatl17.d: "The Tepanecs are among the older inhabitants of the Valley of Mexico, and despite the loss of the empire they acquired during the reign of the great lord Tezozomoc, there is still some prestige attached to their name. Granting their patron deity, the war god Otontecuhtli, a respected place in our pantheon in exchange for the Tepanec acknowledgement of our patron as supreme has gone a long way towards securing their loyalty. The Tepanec lords and priests are happy to be able to preserve some part of their traditions in light of recent events."
+ rlgn_nahuatl17.a: "They will reward this courtesy with loyalty."
+ 
+ rlgn_nahuatl18.t: "New Tales"
+ rlgn_nahuatl18.d: "It came as no small surprise to our priests when they discovered that the worshipers of [From.Religion.GetName] in $FROM$ have been repurposing old stories and creating new stories, new tales of our god, the heart of our community! They have begun placing [From.Owner.Religion.GetName] near the center of their cycles of stories, as a relation to their own god. Although these stories seem to have helped the worshippers of [From.Owner.Religion.GetName] accept our dominance, our priests worry that such tales will come to spread our own people and affect their beliefs."
+ rlgn_nahuatl18.a: "We must enforce our orthodoxy!"
+ rlgn_nahuatl18.b: "We can live with this." 
+ 
+ rlgn_nahuatl20.t: "A New Market for Teoamaxtli"
+ rlgn_nahuatl20.d: "The tlacuiloque scribes in our court confirmed to us today that there have been calls sent out for learned scribes across the One World to come to our lands and create a new series of teoamaxtli sacred texts. Upon closer investigation, it is clear that some of our priests have begun demanding new books to suit their new understanding of the cosmos as we bring a new god further under the eaves of our great house. Unfortunately, it is not clear who is overseeing this work – and other priests worry that any texts created by these people will be untrustworthy and barbaric."
+ rlgn_nahuatl20.a: "We will sponsor this to ensure it goes our way."
+ rlgn_nahuatl20.b: "We will stop this from happening." 
+ rlgn_nahuatl20.c: "We will not waste time interfering." 
+ 
+ rlgn_nahuatl21.t: "The Dangers of $FROM$"
+ rlgn_nahuatl21.d: "Our officials in $FROM$ are scared for their souls. The people of $FROM$ have apparently made a concerted effort to harm the tonalli, the fate-energy of our officials. Among other complaints are that the local people have backwards views of most philosophical matters, eat strange foods, and dress in bewildering fashions."
+ rlgn_nahuatl21.a: "Absolutely Chichimeca!"
+ rlgn_nahuatl21.b: "It is an insignificant part of the whole." 
+ 
+ rlgn_nahuatl22.t: "Respect for the $MONARCHTITLE$ in $FROM$"
+ rlgn_nahuatl22.d: "Although some of their customs and festivals are a bit strange, the people of $FROM$ do have a straight and true sense of respect. Recently, some of our priests working in the area have suggested that if we made use of one of their local festivals in the next ritual year, we might enhance $MONARCHTITLE$ $MONARCH$'s authority in the region."
+ rlgn_nahuatl22.a: "An excellent suggestion!"
+ rlgn_nahuatl22.b: "It is not yet time for $MONARCH$ to directly support them." 
+ 
+ rlgn_nahuatl23.t: "They're Adopting Our Customs Slowly"
+ rlgn_nahuatl23.d: "While there are still daily debates between our priesthood and that of $FROM$, there are signs that the people of $FROM$ are accepting the preeminence of [From.Owner.Religion.GetName]. However, recently our advisor [From.Owner.Dip_Advisor.GetName] visited one of the central altepemeh and found it to be worryingly barbaric. When the local tlatoani presented him with teoamaxtli books to commemorate the occasion, they were filled with blasphemous proclamations. After the feast, [From.Owner.Dip_Advisor.GetName] was subjected to a festival honoring [From.Religion.GetName] on the calendar day reserved for [From.Owner.Religion.GetName]!"
+ rlgn_nahuatl23.a: "Compromise will come with time."
+ rlgn_nahuatl23.b: "Let's help them along." 
+ 
+ rlgn_nahuatl24.t: "They've Assimilated Well!"
+ rlgn_nahuatl24.d: "Our calpixque tribute collector's reports from the region of $FROM$ have indicated that there has been a startling transformation in the people of the province. The local tlatoani has apparently taken great pains to emphasize $FROM$'s role in our imperial system, and the gifts and responsibilities which we owe each other. Their people have taken wholeheartedly to the worship of [From.Owner.Religion.GetName] first and foremost, and have begun clamoring for new teoamaxtli books, statues, and other items to demonstrate their new faith."
+ rlgn_nahuatl24.a: "Excellent! They can be taught."
+ rlgn_nahuatl24.b: "Send colonists, extend their reach as a tribute center!"
+
  #Maya Group Special Localization#
  #Holy Sites
  HOLY_SITE_1643_DESC: "The shrine of Ix Chel on Cozumel island was the most important pilgrimage site in the Late Postclassic - after Chichen Itza - and superseded the former in its importance to young women. Ix Chel was goddess of the moon as well as of fertility and childbirth. Transportation to the shrine was partially monopolized by Chontal Maya."

@@ -89,11 +89,13 @@ nahua_ideas = {
 	}
 	
 	trigger = {
-		culture_group = nahua
-		culture_group = oto_pamean
-		culture_group = gulf_coast
-		culture_group = popoluca_group
-		culture = tlapanec
+		OR = { 
+			culture_group = nahua
+			culture_group = oto_pamean
+			culture_group = gulf_coast
+			culture_group = popoluca_group
+			culture = tlapanec
+		}
 	}
 	free = yes
 	

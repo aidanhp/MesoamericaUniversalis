@@ -122,3 +122,68 @@ shared_pantheon = {
 	tolerance_heretic = 3
 	religious_unity = 0.20
 }
+
+#Elevation
+harmonized_huitzilopochtli = { 
+	war_exhaustion = -0.02
+}
+
+harmonized_quetzalcoatl = { 
+	build_cost = -0.075
+}
+
+harmonized_tezcatlipoca = { 
+	global_autonomy = -0.03
+}
+
+harmonized_ehecatl = { 
+	movement_speed = 0.10
+}
+
+harmonized_tlaloc = { 
+	stability_cost_modifier = -0.10
+}
+
+harmonized_mixcoatl = { 
+	leader_land_fire = 1
+}
+
+harmonized_xipe_totec = { 
+	infantry_power = 0.05
+}
+
+harmonized_tlazalteotl = { 
+	global_unrest = -1
+}
+
+harmonized_cihuacoatl = { 
+	global_trade_goods_size_modifier = 0.05
+}
+
+harmonized_tonatiuh = { 
+	land_morale = 0.075
+}
+
+harmonized_xochiquetzal = { 
+	production_efficiency = 0.075
+}
+
+harmonized_ometochtli = { 
+	global_unrest = -1
+}
+
+harmonized_yacatecuhtli = { 
+	merchants = 1
+}
+
+harmonized_coltzin = { 
+	global_trade_goods_size_modifier = 0.05
+}
+
+harmonized_malinalxochitl = { 
+	hostile_attrition = 0.5
+}
+
+harmonized_otontecuhtli = { 
+	army_tradition_from_battle = 0.15
+}

@@ -152,7 +152,7 @@ NDefines.NFrontend.CREDITS_LOOK_Y = 0.0
 NDefines.NFrontend.CREDITS_LOOK_Z = 800.0
 
 -- Religion
-NDefines.NReligion.MIN_HARMONIZE_DEVELOPMENT = 20
+NDefines.NReligion.MIN_HARMONIZE_DEVELOPMENT = 10
 NDefines.NReligion.STARTING_HARMONY = 100.0							-- Confucian countries start with this.
 NDefines.NReligion.YEARLY_HARMONY_INCREASE = 2.0
 NDefines.NReligion.HARMONY_LOSS_PER_DEV_CONVERTED = 0.0
